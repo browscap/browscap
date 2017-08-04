@@ -2656,10 +2656,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT925",
-            "Device_Name": "XT925",
+            "Device_Name": "Droid Razr HD LTE",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

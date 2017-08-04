@@ -161,7 +161,7 @@ return [
         'standard' => false,
     ],
     'issue-1261-D' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85',
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 54.0',
             'Browser' => 'Chrome',

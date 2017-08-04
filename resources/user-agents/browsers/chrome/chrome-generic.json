@@ -8,7 +8,7 @@
       "userAgent": "Chrome Generic for Android",
       "platform": "Android",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/*",
           "platforms": [
             "Android_4_0",
             "Android"
@@ -51,6 +51,48 @@
           "match": "*Linux/* Android/5.1* Release/* Browser/applewebkit* Chrome/*",
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "*Linux/* Android/6.0* Release/* Browser/applewebkit* Chrome/*",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "device": "general TV Device",
+          "platforms": [
+            "Android_GoogleTV_3_2",
+            "Android_GoogleTV"
+          ]
+        },
+        {
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "devices": {
+            "DINO762": "Dino 762 A9",
+            "ELEMENT10 1": "Sencor Element 10.1",
+            "Tablet-PC-4": "CatSound Tablet PC 4",
+            "TBD1083": "Zeki TBD1083",
+            "TBDB863": "Zeki TBDB863",
+            "TBDC1093": "Zeki TBDC1093",
+            "TBDG773": "Zeki TBDG773",
+            "TERRA_101": "GOCLEVER A1021"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "* Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
           ]
         }
       ]
@@ -88,8 +130,7 @@
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
-            "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A_4_3",
             "iOS_A"
           ]
         },
@@ -105,8 +146,7 @@
             "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C_5_1", "iOS_C_5_0",
-            "iOS_C_4_3", "iOS_C_4_2",
-            "iOS_C_3_2",
+            "iOS_C_4_3",
             "iOS_C"
           ]
         },
@@ -135,85 +175,158 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "false",
-        "CssVersion": "1"
+        "CssVersion": "3"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Large Screen Safari/* GoogleTV/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*)*Chrome/* Large Screen Safari/* GoogleTV/*",
           "device": "GoogleTV",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS_x64", "ChromeOS_i686", "ChromeOS",
-            "Linux_64", "Linux_32_x86", "Linux_32", "Linux"
+            "ChromeOS_x64", "ChromeOS",
+            "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD"
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD",
+            "OpenBSD_64_3", "OpenBSD_64_2", "OpenBSD_64", "OpenBSD",
+            "NetBSD"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Chrome anonymized by*",
-          "properties": {
-            "isAnonymized": "true"
-          },
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Anonymisiert durch*",
-          "properties": {
-            "isAnonymized": "true"
-          },
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Sabayon Chrome/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "ChromeOS_x64", "ChromeOS",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Safari/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD",
+            "OpenBSD_64_3", "OpenBSD_64_2", "OpenBSD_64", "OpenBSD",
+            "NetBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*) Chrome/* anonymized by*",
+          "properties": {
+            "isAnonymized": "true"
+          },
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*) Chrome/*Anonymisiert durch*",
+          "properties": {
+            "isAnonymized": "true"
+          },
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*) Sabayon Chrome/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; ) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 ArchLinux (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 Slackware* (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
           ]
         }
       ]

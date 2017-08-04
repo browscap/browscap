@@ -1,0 +1,15 @@
+{
+    "Sencor Element 10.1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Element 10.1",
+            "Device_Code_Name": "Element 10.1",
+            "Device_Maker": "Sencor",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Sencor",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

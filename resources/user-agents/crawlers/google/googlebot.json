@@ -59,6 +59,9 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko* Google PP Default) Chrome/* Safari/*"
+        },
+        {
           "match": "googlebot*"
         },
         {

@@ -158,7 +158,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Micromax A116 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -264,7 +264,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-F' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; W8_beyond) U2/1.0.0 UCBrowser/9.2.0.419 U2/1.0.0 Mobile',
@@ -423,7 +423,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; PX-0905 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Safari/537.36',
@@ -476,7 +476,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Smartphone650 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36',
@@ -529,7 +529,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-K' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; U51GT Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501044',
@@ -847,7 +847,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; PocketBook SURFpad 4 L Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36',
@@ -900,7 +900,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; MX Enjoy TV BOX Build/V1.03.04MX01_20130805) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
@@ -1006,7 +1006,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-T' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; W200 Build/JOP40D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
@@ -1165,7 +1165,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; C7 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.01 Safari/537.36',
@@ -1483,7 +1483,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; C5303 Build/12.1.A.1.207) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/31.0.0.18.13;]',
@@ -1854,7 +1854,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; K00C Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82367',
@@ -2013,7 +2013,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; iDxD7 3G Build/ICS) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.74 Safari/537.36 OPR/28.0.1764.89981',
@@ -2543,7 +2543,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LG-E980h Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
@@ -2596,7 +2596,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-; TX18 Build/JDQ39) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 bdbrowser_i18n/4.5.0.4',
@@ -2702,7 +2702,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; IM-A830L Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36',
@@ -2755,7 +2755,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; K-8S Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18211.00 Safari/537.36',
@@ -3497,7 +3497,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BQ' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/6.1.25577/36.1487; U; es) Presto/2.12.423 Version/12.16',
@@ -3656,7 +3656,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Impress_L Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
@@ -3762,7 +3762,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3.1; uk-ua; MT11i Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 CyanogenMod/10.2/haida',
@@ -3868,7 +3868,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SM-G3502L Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Mobile Safari/537.36',
@@ -3921,7 +3921,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; M040 Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 YaBrowser/15.4.2272.2351.00 Mobile Safari/537.36',
@@ -4504,7 +4504,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-CK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; N1 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
@@ -4557,7 +4557,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-CL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ACE Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36',
@@ -4610,7 +4610,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; ru-ru; WT19i Build/MIUI) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -5405,7 +5405,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; MegaFon_SP-AI Build/1.2.10.4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -5617,7 +5617,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; NT-1009T Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari/537.36',
@@ -5670,7 +5670,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; UMI_X2 Build/JOP40D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.7.0.520 Mobile',
@@ -5829,7 +5829,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; en-US; SO-02D Build/6.0.A.5.14) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
@@ -6359,7 +6359,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-DT' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; ATLAS_W) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
@@ -6889,7 +6889,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; SM-G130H Build/KOT49H) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.9.2.373 Mobile',
@@ -6995,7 +6995,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-EF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LG-D682TR Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -7048,7 +7048,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-EG' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.27035/35.7770; U; ru) Presto/2.8.119 Version/11.10',
@@ -7207,7 +7207,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; SGH-T999 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/29.0.0.23.13;]',
@@ -7525,7 +7525,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-EP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-; M8 Build/JDQ39) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 bdbrowser_i18n/4.7.0.4',
@@ -7631,7 +7631,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ER' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; AdTab 7 Lite Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -8373,7 +8373,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-FF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LG-E425 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
@@ -8638,7 +8638,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-FK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Rio Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
@@ -9115,7 +9115,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-FT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; BQS-4007 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.68 Mobile Safari/537.36',
@@ -9168,7 +9168,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-FU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; N8000 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.01 Safari/537.36',
@@ -9380,7 +9380,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-FY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; zh-CN; C1505 Build/11.3.A.2.33) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.0.2.299 U3/0.8.0 Mobile Safari/534.31',
@@ -9486,7 +9486,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.1; en-US; GT-I9500 Build/LRX22C) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/533.1',
@@ -10016,7 +10016,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-GK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; HTC_Amaze Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -10440,7 +10440,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-gb; Lenovo A766 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.2.525',
@@ -10652,7 +10652,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-GW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC_0P4E2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]',
@@ -10917,7 +10917,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; GT-I9300I Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.63 Mobile Safari/537.36 OPR/28.0.1764.89648',
@@ -11076,7 +11076,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GFIVE President G10 Fashion Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36',
@@ -11129,7 +11129,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; SP-6020 QUASAR Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/533.1',
@@ -11288,7 +11288,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; PAP5503 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -11341,7 +11341,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 SRCHAPP CHANNEL_ru.mail.widget UUID_5cad19f7c4d00b3ab63c8dc49fb9ec2a',
@@ -11712,7 +11712,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; i-mobile i-STYLE 7.7 DTV Build/i_style_7_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -12030,7 +12030,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; M717R-HD Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Safari/537.36 OPR/19.0.1340.69721',
@@ -12136,7 +12136,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Q10S Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36',
@@ -12189,7 +12189,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-HZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D325 Build/KOT49I.A1401767730) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.10549 YaBrowser/13.12.1599.10549 Mobile Safari/537.36',
@@ -12560,7 +12560,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-IG' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SHV-E210K) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
@@ -13355,7 +13355,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-IV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; LenovoA3300-GV Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OkApp',
@@ -13885,7 +13885,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-JF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru-ru; SM218 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -14309,7 +14309,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-JN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; iDxD4 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.532',
@@ -14627,7 +14627,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-JT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC 919d Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -14680,7 +14680,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-JU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; HUAWEI U8950-1 Build/HuaweiU8950-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Mobile Safari/537.36 OPR/19.0.1340.69518',
@@ -14892,7 +14892,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-JY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; S4501M) U2/1.0.0 UCBrowser/10.1.1.570 U2/1.0.0 Mobile',
@@ -15157,7 +15157,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Transformer TF101 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.92 Safari/537.36',
@@ -15210,7 +15210,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; rk30sdk Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Safari/537.36 OPR/29.0.1809.91837',
@@ -15581,7 +15581,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; 1080P-N003 Build/1080P1080P-N003) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
@@ -15793,7 +15793,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; RMD-1040 Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.94 Safari/537.36',
@@ -15846,7 +15846,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMP3007C Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Safari/537.36 OPR/22.0.1485.81203',
@@ -16005,7 +16005,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; LG-D325 Build/KOT49I.A1415155364) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
@@ -16111,7 +16111,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-KV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; H7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100050052',
@@ -16641,7 +16641,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-LF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; Bliss Pad B9712KB Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36 OPR/27.0.1698.89115',
@@ -17012,7 +17012,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-LM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; T108 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501074',
@@ -17754,7 +17754,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; i6 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501072',
@@ -17860,7 +17860,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MD' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; id; PICOpad_S1(7_3G)) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
@@ -18125,7 +18125,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ZTE Blade L2 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
@@ -18390,7 +18390,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-es; TAB785DUAL Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -18761,7 +18761,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; DNS S5701 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30/0.04c.1538.b1',
@@ -18867,7 +18867,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-MW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; N003 Build/NewStockRom v2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
@@ -19397,7 +19397,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-NG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; fnac 4.5 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/30.0.0.19.17;]',
@@ -19556,7 +19556,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-NJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I8262 Build/JZO54K) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.40 Mobile Safari/537.31',
@@ -19609,7 +19609,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-NK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; T880G Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 YaBrowser/14.4.1750.13427.00 Safari/537.36',
@@ -19874,7 +19874,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-NP' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; LG-P765) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
@@ -20457,7 +20457,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-OA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; STUDIO 5.5 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/30.0.0.19.17;]',
@@ -20669,7 +20669,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-OE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; IdeaTabS2109A-F Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.74 Safari/537.36 OPR/28.0.1764.89981',
@@ -21464,7 +21464,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-OT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Art 3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Safari/537.36',
@@ -21517,7 +21517,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-OU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; R815 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.63 Mobile Safari/537.36 OPR/28.0.1764.89648',
@@ -21994,7 +21994,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; M83g Build/M83g-eng 4.0.4 IMM76D test-keys_OTA:MID_2.1.1.1_20130207.131452) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -22100,7 +22100,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; Lenovo K900 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36',
@@ -22153,7 +22153,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ko-kr; IM-A900K Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -22259,7 +22259,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; Oysters Pacific 800 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -22736,7 +22736,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; 5042D Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
@@ -22842,7 +22842,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; M6 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/31.0.0.20.13;]',
@@ -22948,7 +22948,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-PV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; Lenovo-MTK6582 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -23266,7 +23266,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; Turbo Pad 500 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501028',
@@ -23425,7 +23425,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QE' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.6.40125/35.6497; U; ru) Presto/2.8.119 Version/11.10',
@@ -23531,7 +23531,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; LG-D410 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Mobile Safari/537.36',
@@ -23584,7 +23584,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Novo7Fire Build/JDQ39B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
@@ -23690,7 +23690,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; W200 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Flipboard/3.1.6/2583,3.1.6.2583,2015-02-27 18:45, +0600, kz',
@@ -24114,7 +24114,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; N8000D Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
@@ -24326,7 +24326,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-QW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; ME-701 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 SRCHAPP CHANNEL_normal_install UUID_6d1aca45c07958ca0766d0d84a8878eb',
@@ -24750,7 +24750,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1',
@@ -24909,7 +24909,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RH' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; Lenovo_A706_ROW) U2/1.0.0 UCBrowser/9.8.0.534 U2/1.0.0 Mobile',
@@ -25015,7 +25015,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D410 Build/KOT49I.A1398228431) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 OkApp',
@@ -25227,7 +25227,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; MEDIA PAD Build/JDQ39) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -25439,7 +25439,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; lv-lv; HUAWEI G750-U10 Build/HuaweiG750-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/29.0.0.23.13;]',
@@ -25545,7 +25545,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-RT' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; HUAWEI_D2-0082) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
@@ -25916,7 +25916,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Mytab-U55GT Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100501086',
@@ -26181,7 +26181,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; GT-S7392 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.6.495 U3/0.8.0 Mobile Safari/534.30',
@@ -26340,7 +26340,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; BQS-4501 Bristol Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.0.488 U3/0.8.0 Mobile Safari/534.30',
@@ -26605,7 +26605,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; ru; ST25i Build/6.0.B.3.188) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.2.365 U3/0.8.0 Mobile Safari/533.1',
@@ -26764,7 +26764,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SQ' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.5.33361/35.7997; U; hu) Presto/2.8.119 Version/11.10',
@@ -26976,7 +26976,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-SU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; GU730C Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
@@ -27453,7 +27453,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-TD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4; ru-ru; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -27824,7 +27824,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-TK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; M5302 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
@@ -28248,7 +28248,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-TT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-US; A808 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
@@ -28460,7 +28460,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-TX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; R1OO1W Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 YaBrowser/14.8.1985.12002.01 Safari/537.36',
@@ -28725,7 +28725,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-UC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; S20 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -28831,7 +28831,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-UE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; Surfer 8.31 3G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100050072',
@@ -29520,7 +29520,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-UR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; pt-pt; bq Edison Build/1.1.11-1015 20130114-10:30) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -29891,7 +29891,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-UY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lovme-X50 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.74 Mobile Safari/537.36 OPR/28.0.1764.89981',
@@ -29997,7 +29997,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Keneksi-Libra_Dual Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
@@ -30633,7 +30633,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; M755 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
@@ -30739,7 +30739,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Philips W3500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501020',
@@ -30898,7 +30898,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SCH-R530C Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.94 Mobile Safari/537.36',
@@ -30951,7 +30951,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VS' => [
         'ua' => 'Opera/9.80 (Series 60; Opera Mini/7.1.32453/36.1817; U; uk) Presto/2.12.423 Version/12.16',
@@ -31269,7 +31269,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-VY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; Beeline Tab) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
@@ -31428,7 +31428,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Keneksi-SUN Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501074',
@@ -31587,7 +31587,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SAMSUNG-SGH-I337 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Mobile Safari/537.36 OPR/22.0.1485.81203',
@@ -31799,7 +31799,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ZTE V779M Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
@@ -31852,7 +31852,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMP7110D3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Safari/537.36',
@@ -31905,7 +31905,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lark Evolution X2 7 3G-GPS Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
@@ -31958,7 +31958,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; S6000D Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.38 Safari/537.36',
@@ -32011,7 +32011,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; HTC Desire 400 dual sim Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 AMIGOAPP CHANNEL_normal_install UUID_4b39720f22c24ddb333d21480aa3a264 APP_VERSION_1.5.88',
@@ -32276,7 +32276,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; SHV-E250L Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
@@ -32329,7 +32329,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Oysters T7B 3G Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82529',
@@ -32700,7 +32700,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-WZ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; Lenovo_A516) U2/1.0.0 UCBrowser/9.9.1.554 U2/1.0.0 Mobile',
@@ -32912,7 +32912,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-XD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G350E Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.1.483',
@@ -33018,7 +33018,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-XF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; FUNC TITAN-01A Build/JRO03R) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -33442,7 +33442,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-XN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; HUAWEI Build/IML74K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
@@ -34290,7 +34290,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-YD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; JY-G3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.0.461',
@@ -34502,7 +34502,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-YH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; RM-997 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.68 Safari/537.36',
@@ -34555,7 +34555,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-YI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; PMP7480D3G_QUAD Build/PrestigioPMP7480D3G_QUAD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 YaBrowser/14.4.1750.13427.00 Safari/537.36',
@@ -34926,7 +34926,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-YP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Flipboard/3.1.6/2583,3.1.6.2583,2015-02-27 18:45, +0300',
@@ -35297,7 +35297,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-YW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.5; en-US; Micromax_A35) U2/1.0.0 UCBrowser/10.1.2.571 U2/1.0.0 Mobile',
@@ -35721,7 +35721,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZE' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; PMP7280C3G) U2/1.0.0 UCBrowser/9.7.0.520 Mobile',
@@ -35880,7 +35880,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; MID Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
@@ -36145,7 +36145,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; ALCATEL ONE TOUCH 6010X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
@@ -36357,7 +36357,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZR' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; P7mini) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
@@ -36516,7 +36516,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LG-F240L Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
@@ -36569,7 +36569,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; U51GT_C4 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 YaBrowser/14.8.1985.12002.01 Safari/537.36',
@@ -36887,7 +36887,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; Kiano Elegance by Zanetti Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
@@ -36993,7 +36993,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; SM-P601 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Mobile UCBrowser/3.4.0.461',
@@ -37152,7 +37152,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One_M8 dual sim Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Mobile Safari/537.36',
@@ -37205,7 +37205,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG-SM-N910A Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/29.0.0.23.13;]',
@@ -37311,7 +37311,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAJ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; HTC_Desire_S) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
@@ -37682,7 +37682,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; Oysters T37 Build/IMM76L) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/533.1',
@@ -37788,7 +37788,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; N861 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36',
@@ -37841,7 +37841,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LG-P713 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Mobile Safari/537.36 OPR/20.0.1396.73172',
@@ -37947,7 +37947,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AAV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.2; ru; L925(L1020) Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
@@ -38477,7 +38477,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; HP 8 Build/1.0.8_WW-FIR-13) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -38583,7 +38583,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; Kiano Elegance by Zanetti Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/29.0.0.23.13;]',
@@ -38689,7 +38689,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABJ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; iDxD8_3G) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile',
@@ -38795,7 +38795,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; TM-5377 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501070',
@@ -39060,7 +39060,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Beeline Smart 3 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 UCBrowser/3.1.0.403',
@@ -39219,7 +39219,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; NetTAB THOR-LE Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
@@ -39378,7 +39378,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ABW' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/5.1.22460/35.7770; U; ru) Presto/2.8.119 Version/11.10',
@@ -39590,7 +39590,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; RS61D ULTIMATE Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -39643,7 +39643,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; Air) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
@@ -39961,7 +39961,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-X135 Build/KOT49H.V10b) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36',
@@ -40014,7 +40014,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-F410S Build/KOT49I.F410S10g) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -40120,7 +40120,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D410 Build/KOT49I.A1395301090) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Mobile Safari/537.36',
@@ -40173,7 +40173,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; P-746 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36',
@@ -40226,7 +40226,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Breea HD1 Build/LR-97JC) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -40332,7 +40332,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; GT-I9152 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
@@ -40438,7 +40438,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ACQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; TT7022MG_O72 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100501074',
@@ -40968,7 +40968,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SCH-I815 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36',
@@ -41021,7 +41021,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; en-US; A47) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
@@ -41339,7 +41339,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo K910 ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Mobile Safari/537.36',
@@ -41392,7 +41392,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9082L Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -41445,7 +41445,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GOCLEVER TAB T76 Build/MID) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31',
@@ -41498,7 +41498,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; X9007 Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 LieBaoFast/2.28.1',
@@ -42187,7 +42187,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADX' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; T8700) U2/1.0.0 UCBrowser/9.9.1.554 Mobile',
@@ -42293,7 +42293,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ADZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; sprd-HT-G2/1.0 Android/2.3.5 Release/05.16.2013 Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -42399,7 +42399,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; id; Lenovo_A316i) U2/1.0.0 UCBrowser/9.6.0.514 U2/1.0.0 Mobile',
@@ -42717,7 +42717,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; MID-717R Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
@@ -42823,7 +42823,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; CinemaTV 3G Build/JOP40D[20140121.165907]) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.61 Safari/537.36',
@@ -42876,7 +42876,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; pt-pt; SAMSUNG SM-T531 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
@@ -43088,7 +43088,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEO' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/36.1633; U; ru) Presto/2.12.423 Version/12.16',
@@ -43353,7 +43353,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AET' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GOOPHONE S4 MEGA Build/GOOPHONE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -43406,7 +43406,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-S7562L Build/IMM76I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36',
@@ -43459,7 +43459,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo K900_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -43671,7 +43671,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AEZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; S4505 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -43724,7 +43724,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Keneksi_Libra_Dual Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36',
@@ -43777,7 +43777,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; D6603 Build/23.0.1.A.5.77) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16',
@@ -44360,7 +44360,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; S4004M Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36',
@@ -44413,7 +44413,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; Novo10 Hero Build/20130129) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -44731,7 +44731,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; D6633 Build/23.1.1.E.0.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.0.0 Mobile Safari/537.36 Flipboard/3.2.2/2620,3.2.2.2620,2015-04-08 15:57, +0500',
@@ -44837,7 +44837,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AFW' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; en; NokiaC6-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile 3gpp-gba',
@@ -45632,7 +45632,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AGL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.532',
@@ -46056,7 +46056,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AGT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T1144 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
@@ -46109,7 +46109,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AGU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; M1003G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.94 Safari/537.36',
@@ -46162,7 +46162,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AGV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3.3; W9000 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36',
@@ -46215,7 +46215,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AGW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ja-jp; N-03E Build/A7202901) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 YJApp-ANDROID jp.co.yahoo.android.yjtop/2.4.29',
@@ -46480,7 +46480,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; uk-ua; HTC Desire 600 dual sim Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]',
@@ -46586,7 +46586,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; MOMO20S Build/JDQ39) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -46745,7 +46745,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; D6603 Build/23.2.A.0.278) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
@@ -46957,7 +46957,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru-ru; MI 2S Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1',
@@ -47063,7 +47063,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; W200 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501010',
@@ -47328,7 +47328,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHR' => [
         'ua' => 'nokia6120c/UC Browser7.4.0.65/69/400 UNTRUSTED/1.0',
@@ -47699,7 +47699,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AHY' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.6.40077/36.1633; U; sr) Presto/2.12.423 Version/12.16',
@@ -48123,7 +48123,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AIG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ja-jp; SO-02E Build/10.3.1.B.1.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 YJApp-ANDROID jp.co.yahoo.android.yjtop/2.4.29',
@@ -48441,7 +48441,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AIM' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/10.1.1.570 Mobile',
@@ -48706,7 +48706,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AIR' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.6.40272/36.1649; U; lv) Presto/2.12.423 Version/12.16',
@@ -49077,7 +49077,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AIY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; PMP5101C3G_QUAD Build/PMP5101C3GQUAD.20131025.1.0.02) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -49501,7 +49501,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AJG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SPH-L900 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Mobile Safari/537.36',
@@ -49554,7 +49554,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AJH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; es-LA; GT-S5830 Build/KOT49H) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
@@ -49819,7 +49819,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AJM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru-ru; A701 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 CyanogenMod/4.4.4/a701 Mobile UCBrowser/3.4.3.532',
@@ -49978,7 +49978,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AJP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; LG-P880 Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/28.0.0.20.16;]',
@@ -50296,7 +50296,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AJV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-G530H Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/533.1',
@@ -50720,7 +50720,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKD' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.6.40245/36.1444; U; uz) Presto/2.12.423 Version/12.16',
@@ -50879,7 +50879,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; B860 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Safari/537.36',
@@ -50932,7 +50932,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; CEROS CT9716-B Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
@@ -50985,7 +50985,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI P7-L09 Build/HuaweiP7-L09) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.1.549 U3/0.8.0 Mobile Safari/534.30',
@@ -51250,7 +51250,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; H2000+ Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/30.0.0.19.17;]',
@@ -51515,7 +51515,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-AKS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; Fly IQ430 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501038',
@@ -52045,7 +52045,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ALC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; P600 Build/A22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
@@ -52098,7 +52098,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ALD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Techno 9.7 3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100501074',
@@ -52310,7 +52310,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ALH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; LT26w Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/24.0.0.30.15;]',
@@ -52522,7 +52522,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ALL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; C1905 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36',
@@ -52575,6 +52575,6 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];

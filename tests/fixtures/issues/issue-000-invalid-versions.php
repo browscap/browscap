@@ -20,7 +20,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as A (no Windows 98 support past Firefox 2.0.x)
+    // Same as above (no Windows 98 support past Firefox 2.0.x)
     'issue-000-invalid-versions-B' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; ca; rv:1.7.13) Gecko/20090715 Firefox/3.5.1',
         'properties' => [
@@ -56,7 +56,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:11.0) Gecko/20100101 Firefox/11.0',
         'properties' => [
@@ -74,7 +74,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; bg; rv:1.8.1.4) Gecko/20100401 Firefox/4.0',
         'properties' => [
@@ -92,7 +92,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-F' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; fa; rv:1.8.0.5) Gecko/20090407 Firefox/3.1b3',
         'properties' => [
@@ -110,7 +110,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-G' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; bg; rv:1.8.1.17pre) Gecko/20100526 Firefox/3.7a5pre',
         'properties' => [
@@ -128,7 +128,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-H' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; ko; rv:1.9.1.4) Gecko/20090716 Firefox/3.5.1',
         'properties' => [
@@ -146,7 +146,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:25.0) Gecko/20100101 Firefox/25.0',
         'properties' => [
@@ -164,7 +164,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.10; rv:19.0) Gecko/20100101 Firefox/19.0',
         'properties' => [
@@ -182,7 +182,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:43.0) Gecko/20100101 Firefox/43.0',
         'properties' => [
@@ -200,7 +200,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:40.0) Gecko/20100101 Firefox/40.0',
         'properties' => [
@@ -218,7 +218,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.10; rv:31.0) Gecko/20100101 Firefox/31.0',
         'properties' => [
@@ -236,7 +236,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:50.0) Gecko/20100101 Firefox/50.0',
         'properties' => [
@@ -254,7 +254,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    // Same as C
+    // Same as above
     'issue-000-invalid-versions-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.10; rv:49.0) Gecko/20100101 Firefox/49.0',
         'properties' => [
@@ -621,9 +621,260 @@ return [
         'lite' => false,
         'standard' => true,
     ],
+    // Same as above
+    'issue-000-invalid-versions-AI' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Google Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AJ' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AK' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.9 Safari/533.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Windows XP and Vista were dropped in Chrome 50
+    // https://arstechnica.com/gadgets/2016/04/chrome-50-ends-support-for-windows-xp-os-x-10-6-other-old-versions/
+    'issue-000-invalid-versions-AL' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/536.11',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+            'Platform_Version' => '5.1',
+            'Platform_Description' => 'Windows XP',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AM' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinVista',
+            'Platform_Version' => '6.0',
+            'Platform_Description' => 'Windows Vista',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AN' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+            'Platform_Version' => '5.2',
+            'Platform_Description' => 'Windows XP',
+            'Platform_Bits' => '64',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AO' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+            'Platform_Version' => '5.2',
+            'Platform_Description' => 'Windows XP',
+            'Platform_Bits' => '32',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AP' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinVista',
+            'Platform_Version' => '6.0',
+            'Platform_Description' => 'Windows Vista',
+            'Platform_Bits' => '64',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AQ' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2778.54 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+            'Platform_Version' => '5.1',
+            'Platform_Description' => 'Windows XP',
+            'Platform_Bits' => '64',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // OSX 10.6, 10.7 and 10.8 were also dropped in Chrome 50
+    // https://arstechnica.com/gadgets/2016/04/chrome-50-ends-support-for-windows-xp-os-x-10-6-other-old-versions/
+    'issue-000-invalid-versions-AR' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.6',
+            'Platform_Description' => 'Mac OS X',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AS' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.8',
+            'Platform_Description' => 'Mac OS X',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AT' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.7',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // OSX 10.5 was dropped in Chrome 22
+    // https://www.engadget.com/2012/07/10/google-drops-os-x-leopard-support-for-chrome-22-dev-release/
+    'issue-000-invalid-versions-AU' => [
+        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1183.0 Safari/537.1',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.5',
+            'Platform_Description' => 'Mac OS X',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
     // Opera 6.03 was the last release for Mac OS 8/9
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-AI' => [
+    'issue-000-invalid-versions-AV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC) Opera 7.51  [en]',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -637,7 +888,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AJ' => [
+    'issue-000-invalid-versions-AW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC; en) Opera 9.24',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -651,7 +902,7 @@ return [
         'standard' => false,
     ],
     // Same as above
-    'issue-000-invalid-versions-AK' => [
+    'issue-000-invalid-versions-AX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC) Opera 7.54  [en]',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -666,7 +917,7 @@ return [
     ],
     // Opera 10.63 was the last version to support Windows 9.x/NT 4
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_10
-    'issue-000-invalid-versions-AL' => [
+    'issue-000-invalid-versions-AY' => [
         'ua' => 'Mozilla/4.0 (Windows 98; US) Opera 12.16 [en]',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -680,7 +931,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AM' => [
+    'issue-000-invalid-versions-AZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 OPR/15.0.1147.153',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -695,7 +946,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AN' => [
+    'issue-000-invalid-versions-BA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -710,7 +961,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AO' => [
+    'issue-000-invalid-versions-BB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36 OPR/32.0.1948.69',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -725,7 +976,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AP' => [
+    'issue-000-invalid-versions-BC' => [
         'ua' => 'Opera/9.80 (Windows 95 U Edition Yx ru) Presto/2.10.289 Version/12.02',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -743,7 +994,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AQ' => [
+    'issue-000-invalid-versions-BD' => [
         'ua' => 'Opera/9.80 (Windows ME; U; en) Presto/2.10.289 Version/12.02',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -760,7 +1011,7 @@ return [
     // versions, but there was no 9.80 (9.64 was the last 9.x release)
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_9
     // http://arc.opera.com/pub/opera/win/
-    'issue-000-invalid-versions-AR' => [
+    'issue-000-invalid-versions-BE' => [
         'ua' => 'Mozilla/5.0 (compatible; Opera/9.80 Presto/2.8.131 Version/9.80; Windows NT 6.1; Trident/6.0)',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -774,7 +1025,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-AS' => [
+    'issue-000-invalid-versions-BF' => [
         'ua' => 'Mozilla/5.0 (compatible; Opera/9.80 Presto/2.8.131 Version/9.80; Windows NT 6.3; Trident/6.0)',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -790,7 +1041,7 @@ return [
     // The first Opera release for Mac was 5.0
     // https://web.archive.org/web/20010204004000/http://www.opera.com:80/pressreleases/20010201.html
     // http://arc.opera.com/pub/opera/mac/
-    'issue-000-invalid-versions-AT' => [
+    'issue-000-invalid-versions-BG' => [
         'ua' => 'Opera/4.02 (Macintosh; U; bg)',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -807,7 +1058,7 @@ return [
     // There was no 12.50 release of Opera (12.18 was the last release (on Windows, 12.16 on Linux))
     // http://arc.opera.com/pub/opera/linux/
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_12
-    'issue-000-invalid-versions-AU' => [
+    'issue-000-invalid-versions-BH' => [
         'ua' => 'Opera/9.80 (Linux i686) Presto/2.12.407 Version/12.50',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -821,7 +1072,7 @@ return [
         'standard' => true,
     ],
     // There was no 9.99 version of Opera
-    'issue-000-invalid-versions-AV' => [
+    'issue-000-invalid-versions-BI' => [
         'ua' => 'Opera/9.99 (X11; U; sk)',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -837,7 +1088,7 @@ return [
     // There was no 8.65 release of Opera. The last 8.x version was 8.54
     // http://arc.opera.com/pub/opera/win/
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_8
-    'issue-000-invalid-versions-AW' => [
+    'issue-000-invalid-versions-BJ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -851,7 +1102,7 @@ return [
         'standard' => false,
     ],
     // Same as above
-    'issue-000-invalid-versions-AX' => [
+    'issue-000-invalid-versions-BK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -865,7 +1116,7 @@ return [
         'standard' => false,
     ],
     // Same as above
-    'issue-000-invalid-versions-AY' => [
+    'issue-000-invalid-versions-BL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [en]',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -880,7 +1131,7 @@ return [
         'standard' => false,
     ],
     // There was also no 8.60 release
-    'issue-000-invalid-versions-AZ' => [
+    'issue-000-invalid-versions-BM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.60 [en]',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -900,7 +1151,7 @@ return [
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
     // There was a 7.6 technology preview, but this was never released
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_7
-    'issue-000-invalid-versions-BA' => [
+    'issue-000-invalid-versions-BN' => [
         'ua' => 'Opera 7.60 (Linux 2.4.10-4GB i686; U)',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -914,7 +1165,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BB' => [
+    'issue-000-invalid-versions-BO' => [
         'ua' => 'Opera 7.60 (Windows NT 4.0; U) [en] via HTTP/1.0 l33t0-HaX0r.hiddenip.com/',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -928,7 +1179,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BC' => [
+    'issue-000-invalid-versions-BP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 7.60',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -942,7 +1193,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BD' => [
+    'issue-000-invalid-versions-BQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 7.60',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -958,7 +1209,7 @@ return [
     // There was no 10.70 release of Opera, 10.63 was the last 10.x release
     // http://arc.opera.com/pub/opera/mac/
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
-    'issue-000-invalid-versions-BE' => [
+    'issue-000-invalid-versions-BR' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10_6_5; U; nv) Presto/2.6.34 Version/10.70',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -973,7 +1224,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BF' => [
+    'issue-000-invalid-versions-BS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; ru; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -987,7 +1238,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BG' => [
+    'issue-000-invalid-versions-BT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1004,7 +1255,7 @@ return [
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
     // http://arc.opera.com/pub/opera/win/
     // http://arc.opera.com/pub/opera/linux/
-    'issue-000-invalid-versions-BH' => [
+    'issue-000-invalid-versions-BU' => [
         'ua' => 'Mozilla/5.0 (Linux i686 ; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.70',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1019,7 +1270,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BI' => [
+    'issue-000-invalid-versions-BV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux i686 ; en) Opera 9.70',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1034,7 +1285,7 @@ return [
     ],
     // Windows 2000 support was dropped after Opera version 12.02
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-BJ' => [
+    'issue-000-invalid-versions-BW' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0) Opera 12.12',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1049,7 +1300,7 @@ return [
     ],
     // The last version of Opera for OSX 10.6 was 25.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-BK' => [
+    'issue-000-invalid-versions-BX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36 OPR/33.0.1990.58',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1065,7 +1316,7 @@ return [
     ],
     // The last version of Opera for OSX 10.7/10.8 was 36.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-BL' => [
+    'issue-000-invalid-versions-BY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1080,7 +1331,7 @@ return [
         'standard' => false,
     ],
     // Same as above
-    'issue-000-invalid-versions-BM' => [
+    'issue-000-invalid-versions-BZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1096,7 +1347,7 @@ return [
     ],
     // The last version of Opera to support Windows Vista was 36.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-BN' => [
+    'issue-000-invalid-versions-CA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1110,7 +1361,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BO' => [
+    'issue-000-invalid-versions-CB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1126,7 +1377,7 @@ return [
     ],
     // Opera dropped FreeBSD support after version 12.16
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
-    'issue-000-invalid-versions-BP' => [
+    'issue-000-invalid-versions-CC' => [
         'ua' => 'Mozilla/5.0 (FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 OPR/25.0.1614.68',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1140,7 +1391,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BQ' => [
+    'issue-000-invalid-versions-CD' => [
         'ua' => 'Mozilla/5.0 (FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36 OPR/27.0.1689.66',
         'properties' => [
             'Comment' => 'Opera Generic',
@@ -1156,7 +1407,7 @@ return [
     // Iron is based on Chromium, which, as we know, didn't support anything less than Windows XP at launch, apparently
     // Iron is no different. The first version that archive.org has a snapshot for (0.4) shows "XP,Vista" as the supported
     // Windows versions: https://web.archive.org/web/20081202170334/http://www.srware.net/en/software_srware_iron_download.php
-    'issue-000-invalid-versions-BR' => [
+    'issue-000-invalid-versions-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1150.1 Iron/20.0.1150.1 Safari/536.11',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1172,7 +1423,7 @@ return [
         'standard' => false,
     ],
     // Same as above
-    'issue-000-invalid-versions-BS' => [
+    'issue-000-invalid-versions-CF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Iron/30.0.1650.0  Chrome/30.0.1650.0 Safari/537.36',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1188,7 +1439,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BT' => [
+    'issue-000-invalid-versions-CG' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Iron/3.0.197.0 Safari/532.0',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1204,7 +1455,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BU' => [
+    'issue-000-invalid-versions-CH' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Iron/5.0.381.0 Chrome/5.0.381 Safari/533.4',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1220,7 +1471,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BV' => [
+    'issue-000-invalid-versions-CI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Iron/7.0.520.1 Chrome/7.0.520.1 Safari/534.7',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1236,7 +1487,7 @@ return [
         'standard' => true,
     ],
     // Same as above
-    'issue-000-invalid-versions-BW' => [
+    'issue-000-invalid-versions-CJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Iron/26.0.1450.0 Chrome/26.0.1450.0 Safari/537.36',
         'properties' => [
             'Comment' => 'Iron Generic',
@@ -1253,7 +1504,7 @@ return [
     ],
     // At version 2.0, Qupzilla switched to using QT WebEngine instead of QT WebKit: https://github.com/QupZilla/qupzilla/releases/tag/v2.0.0
     // Which apparently doesn't support Windows XP: https://github.com/QupZilla/qupzilla/issues/2220
-    'issue-000-invalid-versions-BX' => [
+    'issue-000-invalid-versions-CK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) QupZilla/2.0.1 Chrome/45.0.2454.101 Safari/537.36',
         'properties' => [
             'Comment' => 'QupZilla Generic',
@@ -1267,5 +1518,299 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+    ],
+    // There was no Chrome 19 - 24 for Android. Chrome was released at version 18, and was later bumped to 25 to sync
+    // up with the desktop version number.
+    // https://en.wikipedia.org/wiki/Google_Chrome_version_history
+    // https://thenextweb.com/google/2013/01/10/google-launches-chrome-beta-channel-for-android-4-0-phones-and-tablets-releases-version-25/#.tnw_34r65q5P
+    // The 19.77.34.5 version may be "Chrome Content Shell", as detected by Whichbrowser:
+    // https://github.com/WhichBrowser/Parser/blob/fb23f0b64794bce9a3b0542e2fd3e5a4be74fb2b/src/Analyser/Header/Useragent/Browser.php#L308
+    'issue-000-invalid-versions-CL' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CM' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '5.0',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CN' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.1; GT-P5100 Build/ITL41F) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/22.0.677.257 Mobile Safari/535.19',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CO' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-P600 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CP' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CQ' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; HTC One_M8 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CR' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CS' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Chrome 18 was the first stable release for android: https://www.engadget.com/2012/06/27/google-chrome-for-android/
+    // Chrome 16 was a beta: https://chromereleases.googleblog.com/2012/02/chrome-for-android-beta-1.html
+    // nothing else previous to that
+    'issue-000-invalid-versions-CT' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Lenovo S920_ROW Build/LMY47V) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/14.0.1019.81 Mobile Safari/535.19',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '5.1',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above, there's no evidence that there was a version 17 Beta
+    'issue-000-invalid-versions-CU' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-I9100 Build/JSS15J) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/17.0.1461.62 Mobile Safari/535.19',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.3',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CV' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8010 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.55 Safari/534.30',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CW' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; MTC 970H Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/13.0.1055.233 Safari/535.19',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Chrome 5 was the first Linux (and Mac) release of Chrome: https://en.wikipedia.org/wiki/Google_Chrome_version_history
+    // https://chrome.googleblog.com/2010/05/new-chrome-stable-release-welcome-mac.html
+    // Except for a Beta release of 4: https://chromereleases.googleblog.com/2009/12/beta-update-linux-mac-and-windows.html
+    'issue-000-invalid-versions-CX' => [
+        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.1 Safari/532.0',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+        ],
+        'lite' => true,
+        'standard' => true,
+    ],
+    // Chrome 37 was the first Native 64-bit (Win64; x64) version of the browser on Windows:
+    // https://blog.chromium.org/2014/08/64-bits-of-awesome-64-bit-windows_26.html
+    'issue-000-invalid-versions-CY' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) Chrome/11.0.696.7 Safari/534.34',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Bits' => '64',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win8',
+            'Platform_Version' => '6.2',
+            'Platform_Description' => 'Windows 8',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-CZ' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.75 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Bits' => '64',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win10',
+            'Platform_Version' => '10.0',
+            'Platform_Description' => 'Windows 10',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-DA' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/535.36 (KHTML, like Gecko) Chrome/31.0.1004.71 Safari/535.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Bits' => '64',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win7',
+            'Platform_Version' => '6.1',
+            'Platform_Description' => 'Windows 7',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-DB' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Bits' => '64',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win8.1',
+            'Platform_Version' => '6.3',
+            'Platform_Description' => 'Windows 8.1',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-DC' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/535.45 (KHTML, like Gecko) Chrome/17.0.1700.48 Safari/535.45',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Bits' => '64',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinVista',
+            'Platform_Version' => '6.0',
+            'Platform_Description' => 'Windows Vista',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => false,
     ],
 ];

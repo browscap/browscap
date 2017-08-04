@@ -1698,7 +1698,7 @@ return [
         'standard' => false,
     ],
     'issue-1059-47' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36',
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 44.0',
             'Browser' => 'Chrome',
@@ -2649,7 +2649,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-1059-69' => [
         'ua' => 'MT6735_TD/V1 Linux/3.18.19+ Android/6.0 Release/10.10.2015 Browser/AppleWebKit537.36 Chrome/44.0.2403.119 Mobile Safari/537.36 System/Android 6.0;',

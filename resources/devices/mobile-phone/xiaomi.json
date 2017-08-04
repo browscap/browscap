@@ -110,7 +110,7 @@
             "Device_Name": "MI 2",
             "Device_Code_Name": "MI 2",
             "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Xiaomi",
             "isMobileDevice": "true",
             "isTablet": "false"
