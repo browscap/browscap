@@ -284,7 +284,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'Alpha' => false,
-            'Beta' => false,
+            'Beta' => true,
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
@@ -317,7 +317,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-mobiles-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; de-de; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1',

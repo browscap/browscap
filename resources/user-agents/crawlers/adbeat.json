@@ -49,7 +49,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* applewebkit* (*khtml*like*gecko*) Chrome* Safari*",
           "device": "Macintosh",
           "engine": "WebKit",
           "platforms": [
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* applewebkit* (*khtml*like*gecko*) Chrome* Safari*",
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [

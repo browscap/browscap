@@ -57,17 +57,17 @@ return [
     'issue-436-B' => [
         'ua' => 'Tablet-PC-4 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
         'properties' => [
-            'Comment' => 'Chrome 11.0',
+            'Comment' => 'Chrome Generic',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'Desktop Mode',
-            'Version' => '11.0',
-            'MajorVer' => '11',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => 'unknown',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
@@ -317,7 +317,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-G' => [
         'ua' => 'BacklinkCrawler (http://www.backlinktest.com/crawler.html)',
@@ -688,7 +688,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-N' => [
         'ua' => 'JobRoboter/1.1',
@@ -6359,7 +6359,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-DU' => [
         'ua' => 'crawler4j (http://code.google.com/p/crawler4j/)',

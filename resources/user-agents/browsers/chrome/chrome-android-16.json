@@ -1,0 +1,79 @@
+{
+  "division": "Chrome #MAJORVER#.#MINORVER# for Android",
+  "versions": [16],
+  "sortIndex": 1155,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome #MAJORVER#.#MINORVER#",
+        "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "false",
+        "CssVersion": "3",
+        "Beta": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100T": "Samsung GT-I9100T",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-N5100": "Samsung GT-N5100",
+            "GT-N7100*": "Samsung GT-N7100",
+            "GT-N8010": "Samsung GT-N8010",
+            "GT-N8013": "Samsung GT-N8013",
+            "GT-N8020*": "Samsung GT-N8020",
+            "HTC One S": "HTC PJ401",
+            "One S": "HTC PJ401"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "HTC Desire": "HTC A8181",
+            "HTC_Sensation": "HTC Z710",
+            "KFTT": "Amazon KFTT"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

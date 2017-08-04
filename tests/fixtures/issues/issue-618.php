@@ -105,7 +105,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -317,7 +317,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-G' => [
         'ua' => 'Mozilla/5.0 (Nintendo 3DS; U; ; de) Version/1.7567.EU',
@@ -1430,7 +1430,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-AB' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/39.0.2171.65 Chrome/39.0.2171.65 Safari/537.36',
@@ -1854,7 +1854,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-AJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:99.0) Gecko/201212231 Firefox/25.0.0',
@@ -2336,11 +2336,11 @@ return [
     'issue-618-AS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1025 Safari/532.5',
         'properties' => [
-            'Comment' => 'Comodo Dragon 4.1',
-            'Browser' => 'Dragon',
+            'Comment' => 'Chrome 4.1',
+            'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Comodo Group Inc',
+            'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '4.1',
             'MajorVer' => '4',
@@ -2362,7 +2362,7 @@ return [
             'BackgroundSounds' => false,
             'JavaScript' => true,
             'VBScript' => false,
-            'JavaApplets' => true,
+            'JavaApplets' => false,
             'ActiveXControls' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
@@ -2384,7 +2384,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; HL-PC1088 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Mobile UCBrowser/3.4.3.532',
@@ -2490,7 +2490,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Vodafone Smart Tab 4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 SVN/040FDG1',
@@ -2808,7 +2808,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BB' => [
         'ua' => 'OpenOffice/4.0.0',
@@ -2967,7 +2967,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2105 Build/15.3.A.1.17) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -3020,7 +3020,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D280 Build/KOT49I.A1399482427) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
@@ -3073,7 +3073,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BG' => [
         'ua' => 'Tablet-PC-4.1-Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ADM8000KP_A Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -3179,7 +3179,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; CUBOT P9 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -3338,7 +3338,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-G900F Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
@@ -3656,7 +3656,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; PAP5000TDUO Build/PrestigioPAP5000TDUO) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19',
@@ -3709,7 +3709,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Archos 40b Titanium Surround Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36',
@@ -3762,7 +3762,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; KAZAM Trooper2 50 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
@@ -3815,7 +3815,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-BU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
@@ -4398,7 +4398,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-CG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab S6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari/537.36',
@@ -4451,7 +4451,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-CH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; MI 3W Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.69 Mobile Safari/537.36',
@@ -4504,7 +4504,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-CI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2105 Build/15.3.A.1.14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',
@@ -4557,7 +4557,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-CJ' => [
         'ua' => 'iCabMobile/1.0.6 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -5087,7 +5087,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-CU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20',
@@ -5988,7 +5988,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-618-DL' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86; nl-NL) adbeat.com/policy Gecko/20100423 Ubuntu/10.04 (lucid) Firefox/3.6.3 AppleWebKit/532.4 Safari/532.4',

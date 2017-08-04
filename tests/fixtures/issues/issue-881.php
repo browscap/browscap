@@ -105,7 +105,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-881-C' => [
         'ua' => 'Mozilla/5.0 (Android Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',

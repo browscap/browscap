@@ -46,6 +46,8 @@ $invalidUserAgents = [
     // Will there be a version of iCab for Windows or Linux?
     //      No, there's no version for Windows or Linux planned
     'issue-000-invalids-P' => 'iCab/4.0  (Windows; U; Windows NT 6.0; en-gb)',
+    // There is no AppleWebKit in this UA, which all Chrome UAs should have
+    'issue-000-invalids-Q' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE) Chrome/4.0.223.3 Safari/532.2',
 ];
 
 $testCases = [];

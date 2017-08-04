@@ -2351,7 +2351,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'Alpha' => false,
-            'Beta' => false,
+            'Beta' => true,
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
@@ -2384,7 +2384,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-AL' => [
         'ua' => 'JUC(Linux;U;Android2.3.5;Zh_cn;Micromax A35;480*800;)UCWEB7.8.0.95/139/444',

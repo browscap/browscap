@@ -3,7 +3,7 @@
   "versions": [10],
   "sortIndex": 1159,
   "lite": false,
-  "standard": true,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
@@ -28,81 +28,38 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS_i686", "ChromeOS",
-            "Linux_64", "Linux_32", "Linux"
+            "ChromeOS_x64", "ChromeOS",
+            "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32",
+            "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         },
         {
-          "match": "Mozilla/4.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#applewebkit*khtml*like*gecko? Chrome/#MAJORVER#.*Safari/*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "ChromeOS_i686", "ChromeOS",
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#applewebkit*khtml*like*gecko? Chrome/#MAJORVER#.*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#applewebkit*khtml*like*gecko? Chrome/#MAJORVER#.*Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#applewebkit*khtml*like*gecko? Chrome/#MAJORVER#.*Safari/*",
-          "device": "general Desktop",
-          "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#applewebkit*khtml*like*gecko? Chrome/#MAJORVER#.*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD",
+            "OpenBSD_64_3", "OpenBSD_64_2", "OpenBSD_64", "OpenBSD",
+            "NetBSD"
           ]
         }
       ]

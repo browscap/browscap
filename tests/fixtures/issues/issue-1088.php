@@ -2,7 +2,7 @@
 
 return [
     'issue-1088' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; LG-D855 Build/LRX21R.A1422018487)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 MobileSafari/537.36',
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; LG-D855 Build/LRX21R.A1422018487) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 44.0',
             'Browser' => 'Chrome',
