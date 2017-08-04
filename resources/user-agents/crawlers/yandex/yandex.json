@@ -85,9 +85,15 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; YandexVideo/*)",
+          "match": "Mozilla/5.0 (compatible; YandexVideo/*",
           "properties": {
             "Browser": "YandexVideo"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexVideoParser/*",
+          "properties": {
+            "Browser": "YandexVideoParser"
           }
         },
         {
@@ -125,6 +131,9 @@
         },
         {
           "match": "YandexSomething/*"
+        },
+        {
+          "match": "*http://yandex.com/bots*"
         },
         {
           "match": "Mozilla/5.0 (Windows; ?; Windows NT 5.2; en-US; rv:1.9) Gecko VisualParser/3.0",
@@ -187,9 +196,51 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; YandexVideo/*",
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; YandexScreenshotBot/*",
           "properties": {
-            "Browser": "YandexVideo"
+            "Browser": "YandexScreenshotBot"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexAccessibilityBot/*",
+          "properties": {
+            "Browser": "YandexAccessibilityBot"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexDirectDyn/*",
+          "properties": {
+            "Browser": "YandexDynamicBannerBot"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexPagechecker/*",
+          "properties": {
+            "Browser": "YandexPagechecker"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YaDirectFetcher/*",
+          "properties": {
+            "Browser": "YandexDirectFetcher"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexCalendar/*",
+          "properties": {
+            "Browser": "YandexCalendarBot"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexSitelinks*",
+          "properties": {
+            "Browser": "YandexSitelinksBot"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexVertis/*",
+          "properties": {
+            "Browser": "YandexVertisBot"
           }
         }
       ]
