@@ -70,10 +70,26 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; SemrushBot/*"
+          "match": "Mozilla/5.0 (compatible; SemrushBot/1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
         },
         {
-          "match": "SEMrushBot*"
+          "match": "Mozilla/5.0 (compatible; SemrushBot/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SemrushBot*"
+        },
+        {
+          "match": "*SEMrushBot*"
         }
       ]
     }
