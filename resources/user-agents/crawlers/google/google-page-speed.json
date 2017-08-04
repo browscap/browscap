@@ -20,6 +20,24 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Mobile Safari/*",
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ],
+          "devices": {
+            "Nexus 5X": "LG Nexus 5X"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Mobile Safari/*",
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ],
+          "device": "general Mobile Device (Touch)"
+        },
+        {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Version/*Safari/*",
           "devices": {
             "iPhone": "iPhone"
