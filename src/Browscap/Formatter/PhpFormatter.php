@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
@@ -17,7 +18,8 @@ use Browscap\Filter\FilterInterface;
  * Class PhpFormatter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class PhpFormatter implements FormatterInterface
 {
@@ -63,7 +65,7 @@ class PhpFormatter implements FormatterInterface
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = '"' . trim($value) . '"';
+                $valueOutput = '"' . trim((string) $value) . '"';
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {

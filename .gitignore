@@ -7,4 +7,7 @@ composer.phar
 test*.txt
 /coverage
 coverage.json
+coverage-full.json
+coverage-standard.json
+coverage-lite.json
 coverage.clover

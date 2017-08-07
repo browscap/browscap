@@ -1,5 +1,15 @@
 <?php
 /**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+declare(strict_types = 1);
+/**
  * Copyright (c) 1998-2017 Browser Capabilities Project
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
@@ -21,10 +31,10 @@
  * THE SOFTWARE.
  *
  * @category   BrowscapTest
+ *
  * @copyright  1998-2017 Browser Capabilities Project
  * @license    MIT
  */
-
 namespace BrowscapTest\Data;
 
 use Browscap\Data\PropertyHolder;
@@ -33,6 +43,7 @@ use Browscap\Data\PropertyHolder;
  * Class PropertyHolderTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class PropertyHolderTest extends \PHPUnit\Framework\TestCase
@@ -98,6 +109,8 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
             ['Browser_Type', PropertyHolder::TYPE_IN_ARRAY],
             ['Device_Type', PropertyHolder::TYPE_IN_ARRAY],
             ['Device_Pointing_Method', PropertyHolder::TYPE_IN_ARRAY],
+            ['PatternId', PropertyHolder::TYPE_STRING],
+            ['PropertyName', PropertyHolder::TYPE_STRING],
         ];
     }
 
@@ -106,6 +119,9 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $expectedType
      */
     public function testGetPropertyType($propertyName, $expectedType)
     {
@@ -114,14 +130,14 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Property Foobar did not have a defined property type
-     *
      * @group data
      * @group sourcetest
      */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped()
     {
+        $this->expectException('\InvalidArgumentException');
+        $this->expectExceptionMessage('Property Foobar did not have a defined property type');
+
         $this->object->getPropertyType('Foobar');
     }
 
@@ -174,6 +190,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
             ['Device_Pointing_Method', false],
             ['Browser_Maker', false],
             ['isTablet', true],
+            ['PatternId', false],
         ];
     }
 
@@ -182,11 +199,35 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
      */
     public function testIsLiteModeProperty($propertyName, $isExtra)
     {
         $actualValue = $this->object->isLiteModeProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
+    }
+
+    /**
+     * tests detecting a standard mode property
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testIsLiteModePropertyWithWriter()
+    {
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue('ini'));
+
+        self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
     }
 
     /**
@@ -238,6 +279,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
             ['Device_Pointing_Method', true],
             ['Browser_Maker', true],
             ['isTablet', false],
+            ['PatternId', false],
         ];
     }
 
@@ -246,6 +288,9 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
      */
     public function testIsStandardModeProperty($propertyName, $isExtra)
     {
@@ -327,6 +372,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
             ['Device_Pointing_Method', true],
             ['Browser_Maker', true],
             ['isTablet', true],
+            ['PatternId', false],
         ];
     }
 
@@ -335,6 +381,9 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
      */
     public function testIsOutputProperty($propertyName, $isExtra)
     {
@@ -350,18 +399,29 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputPropertyWithWriter()
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriterCsv = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
             ->getMock();
 
-        $mockWriter
+        $mockWriterCsv
             ->expects(self::once())
             ->method('getType')
             ->will(self::returnValue('csv'));
 
-        $actualValue = $this->object->isOutputProperty('PropertyName', $mockWriter);
-        self::assertTrue($actualValue);
+        self::assertTrue($this->object->isOutputProperty('PropertyName', $mockWriterCsv));
+
+        $mockWriterIni = $this->getMockBuilder(\Browscap\Writer\IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::exactly(2))
+            ->method('getType')
+            ->will(self::returnValue('ini'));
+
+        self::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
     }
 
     /**
@@ -385,6 +445,9 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $propertyValue
      */
     public function testCheckValueInArray($propertyName, $propertyValue)
     {
@@ -393,26 +456,26 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Property "abc" is not defined to be validated
-     *
      * @group data
      * @group sourcetest
      */
     public function testCheckValueInArrayExceptionUndfinedProperty()
     {
+        $this->expectException('\InvalidArgumentException');
+        $this->expectExceptionMessage('Property "abc" is not defined to be validated');
+
         $this->object->checkValueInArray('abc', 'bcd');
     }
 
     /**
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","Tool","unknown"]
-     *
      * @group data
      * @group sourcetest
      */
     public function testCheckValueInArrayExceptionWrongValue()
     {
+        $this->expectException('\InvalidArgumentException');
+        $this->expectExceptionMessage('invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","Tool","unknown"]');
+
         $this->object->checkValueInArray('Browser_Type', 'bcd');
     }
 }

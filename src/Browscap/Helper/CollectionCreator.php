@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Helper;
 
 use Browscap\Data\DataCollection;
@@ -17,8 +18,9 @@ use Psr\Log\LoggerInterface;
  * Class CollectionCreator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CollectionCreator
 {
@@ -70,6 +72,7 @@ class CollectionCreator
      * @param string $resourceFolder
      *
      * @throws \LogicException
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function createDataCollection($resourceFolder)

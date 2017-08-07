@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
@@ -24,6 +25,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class BuildCommand
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildCommand extends Command
@@ -67,7 +69,8 @@ class BuildCommand extends Command
      * @param OutputInterface $output An OutputInterface instance
      *
      * @throws \LogicException When this abstract method is not implemented
-     * @return null|int        null or 0 if everything went fine, or an error code
+     *
+     * @return null|int null or 0 if everything went fine, or an error code
      *
      * @see    setCode()
      */

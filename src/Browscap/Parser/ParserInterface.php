@@ -8,12 +8,14 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Parser;
 
 /**
  * Interface ParserInterface
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 interface ParserInterface
