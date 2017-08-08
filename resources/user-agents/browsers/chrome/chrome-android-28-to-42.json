@@ -897,13 +897,6 @@
           "platforms": [
             "Android_6_0"
           ]
-        },
-        {
-          "match": "Mozilla/5.0 (*CrKey arm*) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.*",
-          "device": "Google Chromecast",
-          "platforms": [
-            "Chromecast_OS_ARM"
-          ]
         }
       ]
     }

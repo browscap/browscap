@@ -116,10 +116,17 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.* CrKey/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* CrKey/*",
           "device": "Google Chromecast",
           "platforms": [
             "Chromecast_OS_ARM", "Chromecast_OS_64_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*CrKey arm*) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*",
+          "device": "Google Chromecast",
+          "platforms": [
+            "Chromecast_OS_ARM"
           ]
         }
       ]
