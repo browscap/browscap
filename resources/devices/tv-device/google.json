@@ -11,5 +11,18 @@
             "isMobileDevice": "false",
             "isTablet": "false"
         }
+    },
+    "Google Chromecast": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Chromecast",
+            "Device_Name": "Chromecast",
+            "Device_Maker": "Google Inc",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
     }
 }
