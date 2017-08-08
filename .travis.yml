@@ -41,14 +41,13 @@ jobs:
         - COMPOSER_FLAGS=""
       script: vendor/bin/phpunit --exclude-group useragenttest --colors --coverage-text --coverage-clover=coverage.clover
       after_success:
-        - wget https://github.com/satooshi/php-coveralls/releases/download/v1.0.1/coveralls.phar && php -n coveralls.phar --verbose --coverage_clover=clover.xml
+        - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
     - stage: check coding style
       php: 7.1
       env: COMPOSER_FLAGS=""
       script:
         - php -n -d memory_limit=768M vendor/bin/phpcs
-        - php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
     - stage: compare results
       php: 7.1
       env: COMPOSER_FLAGS=""
