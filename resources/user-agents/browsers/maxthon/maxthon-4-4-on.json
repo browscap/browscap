@@ -131,6 +131,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SM-G950F": "Samsung SM-G950F"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F"

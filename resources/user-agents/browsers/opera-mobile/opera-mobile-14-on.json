@@ -63,7 +63,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
             "LG-H918": "LG H918",
-            "LG-LS997": "LG LS997"
+            "LG-LS997": "LG LS997",
+            "SM-G950F": "Samsung SM-G950F"
           },
           "platforms": [
             "Android_7_0"
