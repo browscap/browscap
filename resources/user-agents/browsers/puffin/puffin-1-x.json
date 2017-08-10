@@ -35,24 +35,32 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#.* Safari/*",
-          "devices": {
-            "iPod": "iPod Touch"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "iOS_A_4_3",
-            "iOS_A"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#.* Safari/*",
           "platforms": [
             "Android"
           ]
         },
+         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "HUAWEI MT1-U06": "Huawei MT1-U06"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "general Tablet",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -77,13 +85,13 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#.* Safari/*",
           "devices": {
-            "HUAWEI MT1-U06": "Huawei MT1-U06"
+            "iPod": "iPod Touch"
           },
-          "engine": "Blink",
           "platforms": [
-            "Android_4_1"
+            "iOS_A_4_3",
+            "iOS_A"
           ]
         },
         {
@@ -109,7 +117,6 @@
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP*",
           "device": "iPhone",
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -117,7 +124,6 @@
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]

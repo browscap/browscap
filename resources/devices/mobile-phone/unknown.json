@@ -24,5 +24,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "unknown Galaxy S3 Clone": {
+        "standard": false,
+        "properties": {
+            "Device_Name": "Galaxy S3 Clone",
+            "Device_Maker": "unknown",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "Z15A",
+            "Device_Brand_Name": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

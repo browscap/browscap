@@ -203,6 +203,7 @@
             "SM-P905": "Samsung SM-P905",
             "SM-T230": "Samsung SM-T230",
             "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T231": "Samsung SM-T231",
             "SM-T331": "Samsung SM-T331",
             "SM-T520": "Samsung SM-T520",
             "SM-T525": "Samsung SM-T525",
@@ -933,13 +934,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "platforms": [
-            "Android_5_0",
             "Android"
           ]
         },

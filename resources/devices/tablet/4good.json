@@ -1,0 +1,28 @@
+{
+    "4Good Light AT200": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Light AT200",
+            "Device_Code_Name": "Light AT200",
+            "Device_Maker": "4Good",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "4Good",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "4Good T700i 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T700i 3G",
+            "Device_Code_Name": "T700i 3G",
+            "Device_Maker": "4Good",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "4Good",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

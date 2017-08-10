@@ -25,19 +25,6 @@
             "isTablet": "false"
         }
     },
-    "HTC Nexus 9": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Nexus 9",
-            "Device_Name": "HTC Nexus 9",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC Nexus One": {
         "standard": false,
         "properties": {

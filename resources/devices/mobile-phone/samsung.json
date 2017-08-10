@@ -2677,19 +2677,6 @@
             "isTablet": "false"
         }
     },
-    "Samsung SCH-I815": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH-I815",
-            "Device_Name": "Galaxy Tab 7.7 CDMA + LTE",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Samsung SCH-I819": {
         "standard": false,
         "properties": {

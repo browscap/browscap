@@ -90,6 +90,19 @@
             "isTablet": "true"
         }
     },
+    "Asus K018": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "K018",
+            "Device_Name": "Transformer Pad TF103CG",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Asus K01A": {
         "standard": true,
         "properties": {
@@ -135,6 +148,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME173X",
             "Device_Name": "Memo Pad HD7",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Asus ME175CG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ME175CG",
+            "Device_Name": "Fonepad 7 K00Z",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
@@ -226,6 +252,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "PadFone",
             "Device_Name": "PadFone",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Asus P01T_1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P01T_1",
+            "Device_Name": "ZenPad 10",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",

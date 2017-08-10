@@ -126,6 +126,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "K00E": "Asus K00E",
+            "Lenovo TAB 2 A7-30*": "Lenovo Tab 2 A7-30",
             "LG-D855": "LG D855",
             "SM-T800": "Samsung SM-T800"
           },
@@ -202,6 +203,8 @@
             "HTC6500LVW": "HTC M7 (HTC6500LVW)",
             "IM-A910L": "Pantech IM-A910L",
             "IQ4504 Quad": "Fly IQ4504",
+            "K013": "Asus K013",
+            "K018": "Asus K018",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A320": "Lenovo A320",
             "Lenovo A328": "Lenovo A328",
@@ -241,6 +244,8 @@
             "P3000": "Elephone P3000",
             "PAP5044DUO": "Prestigio PAP5044DUO",
             "PAP5503": "Prestigio PAP5503",
+            "PMT3047_3G": "Prestigio PMT3047_3G",
+            "PMT3057_3G": "Prestigio PMT3057_3G",
             "PMT3377_Wi": "Prestigio PMT3377_Wi",
             "PocketBook SURFpad 4 L": "PocketBook SURFpad 4 L",
             "QTAQZ3": "Quanta QTAQZ3",
@@ -265,6 +270,7 @@
             "SM-P900": "Samsung SM-P900",
             "SM-P905": "Samsung SM-P905",
             "SM-T230": "Samsung SM-T230",
+            "SM-T231": "Samsung SM-T231",
             "SM-T520": "Samsung SM-T520",
             "SM-T525": "Samsung SM-T525",
             "SM-T530": "Samsung SM-T530",
@@ -853,7 +859,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

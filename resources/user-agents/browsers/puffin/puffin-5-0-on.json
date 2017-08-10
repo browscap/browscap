@@ -1,6 +1,6 @@
 {
   "division": "Puffin #MAJORVER#.#MINORVER#",
-  "versions": ["6", "5.2", "5.1", 5],
+  "versions": ["6.1", "6", "5.2", "5.1", 5],
   "sortIndex": 1117,
   "lite": false,
   "standard": true,
@@ -89,6 +89,7 @@
             "SM-G800F": "Samsung SM-G800F",
             "SM-N7505": "Samsung SM-N7505",
             "SM-N9005": "Samsung SM-N9005",
+            "SM-T231": "Samsung SM-T231",
             "THOT61": "Thornton Pickard THOT61",
             "XT1032": "Motorola XT1032",
             "XT1080": "Motorola XT1080",
@@ -161,7 +162,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Mobile Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

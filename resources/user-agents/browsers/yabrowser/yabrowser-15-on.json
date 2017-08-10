@@ -117,6 +117,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "TZ857": "Irbis TZ857"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F"
@@ -141,7 +150,13 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "Nexus 5": "LG Nexus 5",
-            "Nexus 6": "Motorola Nexus 6"
+            "Nexus 6": "Motorola Nexus 6",
+            "P80h(D4C5)": "Teclast D4C5",
+            "PS7005MG": "Digma PS7005MG",
+            "SM-T331": "Samsung SM-T331",
+            "T72HA_3G": "Oysters T72A 3G",
+            "T72HM3G": "Oysters T72HM 3G",
+            "TZ709": "Irbis TZ709"
           },
           "platforms": [
             "Android_5_1"
@@ -181,6 +196,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "9005X": "Alcatel 9005X",
             "5042D": "Alcatel OT-5042D",
             "Beeline Pro": "ZTE Beeline Pro",
             "Beeline Smart2": "ZTE Beeline Smart2",
@@ -211,10 +227,16 @@
             "PMT3047_3G": "Prestigio PMT3047_3G",
             "SM-G900": "Samsung SM-G900",
             "SM-N900A": "Samsung SM-N900A",
+            "SM-T211": "Samsung SM-T211",
             "SM-T311": "Samsung SM-T311",
+            "T72ER3G": "Oysters T72ER 3G",
+            "T72N_3G": "Oysters T72N 3G",
             "TAB917QC-16GB": "Sunstech TAB917QC 16GB",
+            "Tab_2": "Dialog Tab 2",
             "TT7007MG": "Digma TT7007MG",
+            "TT7071MG": "Digma TT7071MG",
             "TX08": "Irbis TX08",
+            "TX22": "Irbis TX22",
             "Venue 7 HSPA+": "Dell Venue 7 HSPA+"
           },
           "platforms": [
@@ -349,7 +371,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

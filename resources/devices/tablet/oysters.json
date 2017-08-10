@@ -12,12 +12,51 @@
             "isTablet": "true"
         }
     },
+    "Oysters T72A 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T72A 3G",
+            "Device_Code_Name": "T72A 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Oysters T72H 3G": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
             "Device_Name": "T72H 3G",
             "Device_Code_Name": "T72H 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Oysters T72HM 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T72HM 3G",
+            "Device_Code_Name": "T72HM 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Oysters T72ER 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T72ER 3G",
+            "Device_Code_Name": "T72ER 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Oysters",
@@ -44,6 +83,19 @@
             "Device_Type": "Tablet",
             "Device_Name": "T72M 3G",
             "Device_Code_Name": "T72M 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Oysters T72N 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T72N 3G",
+            "Device_Code_Name": "T72N 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Oysters",

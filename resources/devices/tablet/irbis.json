@@ -51,6 +51,19 @@
             "isTablet": "true"
         }
     },
+    "Irbis TX22": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX22",
+            "Device_Code_Name": "TX22",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Irbis TX68": {
         "standard": true,
         "properties": {
@@ -84,6 +97,32 @@
             "Device_Code_Name": "TZ43",
             "Device_Maker": "Irbis",
             "Device_Name": "TZ43",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Type": "Tablet",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TZ709": {
+        "standard": true,
+        "properties": {
+            "Device_Brand_Name": "Irbis",
+            "Device_Code_Name": "TZ709",
+            "Device_Maker": "Irbis",
+            "Device_Name": "TZ709",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Type": "Tablet",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TZ857": {
+        "standard": true,
+        "properties": {
+            "Device_Brand_Name": "Irbis",
+            "Device_Code_Name": "TZ857",
+            "Device_Maker": "Irbis",
+            "Device_Name": "TZ857",
             "Device_Pointing_Method": "touchscreen",
             "Device_Type": "Tablet",
             "isMobileDevice": "true",

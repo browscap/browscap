@@ -146,6 +146,7 @@
             "PMT3037_3G": "Prestigio PMT3037_3G",
             "PMT3047_3G": "Prestigio PMT3047_3G",
             "SM-G900": "Samsung SM-G900",
+            "T72ER3G": "Oysters T72ER 3G",
             "TAB917QC-16GB": "Sunstech TAB917QC 16GB",
             "TT7007MG": "Digma TT7007MG",
             "TX08": "Irbis TX08"
@@ -267,7 +268,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
