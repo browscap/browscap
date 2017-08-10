@@ -38,6 +38,58 @@
             "isTablet": "true"
         }
     },
+    "Digma PS7005MG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Plane S7.0 3G",
+            "Device_Code_Name": "PS7005MG",
+            "Device_Maker": "Digma",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Digma",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Digma PS7022MG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Plane 7501M 7.0 3G",
+            "Device_Code_Name": "PS7022MG",
+            "Device_Maker": "Digma",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Digma",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Digma PS8106PG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Plane 8713T 8.0 3G",
+            "Device_Code_Name": "PS8106PG",
+            "Device_Maker": "Digma",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Digma",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Digma TS7055MG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Optima 7202 3G",
+            "Device_Code_Name": "TS7055MG",
+            "Device_Maker": "Digma",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Digma",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Digma TT7007MG": {
         "standard": true,
         "properties": {
@@ -57,6 +109,19 @@
             "Device_Type": "Tablet",
             "Device_Name": "TT7022MG-O72 3G UMTS",
             "Device_Code_Name": "TT7022MG-O72",
+            "Device_Maker": "Digma",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Digma",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Digma TT7071MG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Optima E7.1 3G",
+            "Device_Code_Name": "TT7071MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Digma",

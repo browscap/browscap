@@ -402,6 +402,32 @@
             "isTablet": "true"
         }
     },
+    "Prestigio PMT3057_3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "PMT3057_3G",
+            "Device_Name": "MultiPad Wize 3057 3G",
+            "Device_Maker": "Prestigio",
+            "Device_Brand_Name": "Prestigio",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Prestigio PMT3118_3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "PMT3118_3G",
+            "Device_Name": "Grace 3118 3G",
+            "Device_Maker": "Prestigio",
+            "Device_Brand_Name": "Prestigio",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Prestigio PMT3177_3G": {
         "standard": true,
         "properties": {

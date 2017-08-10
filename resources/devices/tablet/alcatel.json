@@ -1,4 +1,17 @@
 {
+    "Alcatel 9005X": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "9005X",
+            "Device_Name": "Pixi 3 (8) 3G",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Alcatel OT-TAB7HD": {
         "standard": true,
         "properties": {

@@ -402,6 +402,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung SCH-I815": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SCH-I815",
+            "Device_Name": "Galaxy Tab 7.7 CDMA + LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SGH-I467": {
         "standard": true,
         "properties": {
@@ -694,6 +707,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T230NU",
             "Device_Name": "Galaxy Tab 4 7.0 (Wi-Fi) 8GB",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T231": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T231",
+            "Device_Name": "Galaxy Tab 4 7.0 3G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -1006,6 +1032,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T555",
             "Device_Name": "Galaxy Tab A 9.7 LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T561": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T561",
+            "Device_Name": "Galaxy Tab E 9.6 3G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

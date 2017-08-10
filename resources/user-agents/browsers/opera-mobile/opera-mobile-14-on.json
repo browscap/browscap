@@ -292,6 +292,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
             "ALCATEL ONE TOUCH 6035R": "Alcatel OT-6035R",
+            "AP-106": "Assistant AP-106",
             "Archos 79 Xenon": "Archos 79 Xenon",
             "ASUS Transformer Pad TF700T": "Asus TF700T",
             "bq Aquaris 5 HD": "BQ Aquaris E5",
@@ -462,7 +463,19 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Mobile Safari/* OPR/#MAJORVER#.*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/* OPR/#MAJORVER#.*",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -480,7 +493,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPR/#MAJORVER#.*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* OPR/#MAJORVER#.*",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

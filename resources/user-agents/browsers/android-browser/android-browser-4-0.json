@@ -202,7 +202,9 @@
             "6036Y": "Alcatel OT-6036Y",
             "HUAWEI Y530-U00": "Huawei Y530-U00",
             "K1 turbo": "Kingzone KZ-168",
+            "MediaPad T1 8.0": "Huawei S8-701u",
             "NokiaX2DS": "Nokia X2DS",
+            "K00Z": "Asus ME175CG",
             "Orange Gova": "Orange Gova",
             "Prime S": "Highscreen Omega Prime S",
             "SonyL36h": "Sony L36h",
@@ -503,6 +505,7 @@
             "TAB785DUAL": "Sunstech TAB785DUAL",
             "TAD-70112 PO8292": "Denver TAD-70112",
             "teXet_X-medium_plus": "TeXet TM-4872",
+            "TI320-DU": "LV TI320-DU",
             "tolino tab 7": "Tolino Tab 7",
             "tolino tab 8.9": "Tolino Tab 8.9",
             "TX97": "Irbis TX97",
@@ -1257,7 +1260,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile*Safari*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_5", "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_B_2_3", "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0_B", "Android_1_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "general Tablet",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_5", "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -1600,7 +1614,8 @@
             "AT-AS40SE": "Wolgang AT-AS40SE",
             "Lenovo A789": "Lenovo A789",
             "OPPO_R813T": "OPPO R813T",
-            "ultrafone 303": "ultrafone 303"
+            "ultrafone 303": "ultrafone 303",
+            "Z15A-Z15A": "unknown Galaxy S3 Clone"
           },
           "platforms": [
             "Android_4_0"

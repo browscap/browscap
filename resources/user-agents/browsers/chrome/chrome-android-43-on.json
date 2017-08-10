@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for Android",
-  "versions": [61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43],
+  "versions": [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
@@ -92,6 +92,8 @@
             "HUAWEI VNS-L31": "Huawei VNS-L31",
             "LG-K428": "LG K428",
             "Nexus 5X": "LG Nexus 5X",
+            "P01T_1": "Asus P01T_1",
+            "PMT3118_3G": "Prestigio PMT3118_3G",
             "SM-T355Y": "Samsung SM-T355Y"
           },
           "platforms": [
@@ -149,8 +151,10 @@
             "Aquaris M10": "BQ Aquaris M10",
             "ASUS MeMO Pad 7": "Asus ME176C",
             "E5823": "Sony E5823",
+            "Lenovo YT3-850M": "Lenovo YT3-850M",
             "ONE E1003": "OnePlus E1003",
             "TPC-7001": "Vivax TPC-7001",
+            "TS7055MG": "Digma TS7055MG",
             "XT1254": "Motorola XT1254"
           },
           "platforms": [
@@ -160,7 +164,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "GT-I9100": "Samsung GT-I9100"
+            "GT-I9100": "Samsung GT-I9100",
+            "SGP321": "Sony SGP321"
           },
           "platforms": [
             "Android_5_1", "Android_5_0",
@@ -180,9 +185,11 @@
             "LG-LS970": "LG LS970",
             "Mi 4i": "Xiaomi MI 4i",
             "N9500": "Star N9500",
+            "P021": "Asus P01T_1",
             "PMT3177_3G": "Prestigio PMT3177_3G",
             "RCT6773W22B": "RCA RCT6773W22B",
             "SM-G920K": "Samsung SM-G920K",
+            "SM-T531": "Samsung SM-T531",
             "SPH-L900": "Samsung SPH-L900",
             "XT1068": "Motorola XT1068",
             "Zera F": "Highscreen Zera F"
@@ -195,7 +202,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "K00E": "Asus K00E",
+            "Lenovo TAB 2 A7-30*": "Lenovo Tab 2 A7-30",
             "LG-D855": "LG D855",
+            "SM-T535": "Samsung SM-T535",
             "SM-T800": "Samsung SM-T800",
             "SM-T805": "Samsung SM-T805"
           },
@@ -246,6 +255,7 @@
             "A10100": "Nomi A10100",
             "A211": "Acer A211",
             "A3300-H": "Lenovo A3300-H",
+            "A3300-HV": "Lenovo A3300-HV",
             "AVEO X8": "Aveo X8",
             "B15Q": "Caterpillar Cat B15Q",
             "BQS-4001": "BQ BQS-4001",
@@ -272,8 +282,11 @@
             "HTC D820us": "HTC D820us",
             "HTC One 801e": "HTC M7",
             "HTC6500LVW": "HTC M7 (HTC6500LVW)",
+            "HUAWEI MediaPad T1 10 4G": "Huawei MediaPad T1 10",
             "IM-A910L": "Pantech IM-A910L",
             "IQ4504 Quad": "Fly IQ4504",
+            "K013": "Asus K013",
+            "K018": "Asus K018",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A320": "Lenovo A320",
             "Lenovo A328": "Lenovo A328",
@@ -313,6 +326,8 @@
             "P3000": "Elephone P3000",
             "PAP5044DUO": "Prestigio PAP5044DUO",
             "PAP5503": "Prestigio PAP5503",
+            "PMT3047_3G": "Prestigio PMT3047_3G",
+            "PMT3057_3G": "Prestigio PMT3057_3G",
             "PMT3377_Wi": "Prestigio PMT3377_Wi",
             "PocketBook SURFpad 4 L": "PocketBook SURFpad 4 L",
             "S6000D": "Lenovo S6000D",
@@ -337,12 +352,14 @@
             "SM-P900": "Samsung SM-P900",
             "SM-P905": "Samsung SM-P905",
             "SM-T230": "Samsung SM-T230",
+            "SM-T231": "Samsung SM-T231",
             "SM-T520": "Samsung SM-T520",
             "SM-T525": "Samsung SM-T525",
             "SM-T530": "Samsung SM-T530",
             "SM-T530NU": "Samsung SM-T530NU",
-            "SM-T535": "Samsung SM-T535",
+            "SM-T561": "Samsung SM-T561",
             "SM-T700": "Samsung SM-T700",
+            "T1-701u": "Huawei T1-701u",
             "T1144": "Cello T1144",
             "TECNO H6": "Tecno H6",
             "TelePAD 9A1": "Xoro Xor400250",
@@ -360,6 +377,7 @@
             "XT1058": "Motorola XT1058",
             "XT1080": "Motorola XT1080",
             "YD201": "Yota YD201",
+            "YOGA Tablet 2-830L": "Lenovo 830L",
             "ZTE V779M": "ZTE V779M"
           },
           "platforms": [
@@ -450,6 +468,7 @@
             "GT-N8020*": "Samsung GT-N8020",
             "GT-P3100": "Samsung GT-P3100",
             "GT-P5110": "Samsung GT-P5110",
+            "GT-P5200": "Samsung GT-P5200",
             "GT-P5210*": "Samsung GT-P5210",
             "HTC One S": "HTC PJ401",
             "HTC One": "HTC M7",
@@ -460,7 +479,6 @@
             "One S": "HTC PJ401",
             "SCH-I605": "Samsung SCH-I605",
             "SGH-I317": "Samsung SGH-I317",
-            "SGP321": "Sony SGP321",
             "SM-T210": "Samsung SM-T210",
             "XT907": "Motorola XT907"
           },
@@ -525,7 +543,6 @@
             "GT-N8010": "Samsung GT-N8010",
             "GT-N8013": "Samsung GT-N8013",
             "GT-P3113": "Samsung GT-P3113",
-            "GT-P5200": "Samsung GT-P5200",
             "GT-P7310": "Samsung GT-P7310",
             "GT-P7500": "Samsung GT-P7500",
             "GT-P7511": "Samsung GT-P7511",
@@ -803,7 +820,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

@@ -1,0 +1,72 @@
+{
+  "division": "Yandex Search App",
+  "sortIndex": 1022,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yandex Search App for Android",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Search App",
+        "Browser": "Yandex Search",
+        "Browser_Type": "Application",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser_Maker": "Yandex LLC",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
+          "devices": {
+            "Light_AT200": "4Good Light AT200"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
+          "devices": {
+            "PS7022MG": "Digma PS7022MG"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*/apad*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

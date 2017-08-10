@@ -12,6 +12,19 @@
             "isTablet": "true"
         }
     },
+    "Lenovo 830L": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "830L",
+            "Device_Name": "Yoga Tablet 2 830",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo A10-70F": {
         "standard": true,
         "properties": {
@@ -226,6 +239,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "A7600-H",
             "Device_Name": "A10-70 A7600 Wi-Fi + 3G",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo A8-50LC": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A8-50LC",
+            "Device_Name": "Tab 2 A8-50 LTE",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Pointing_Method": "touchscreen",
@@ -636,12 +662,38 @@
             "isTablet": "true"
         }
     },
+    "Lenovo Tab 2 A7-30": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A7-30",
+            "Device_Name": "Tab 2 A7-30",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo Tab 3": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "710i",
             "Device_Name": "Tab 3",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo YT3-850M": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "YT3-850M",
+            "Device_Name": "Yoga Tab 3 8",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Pointing_Method": "touchscreen",

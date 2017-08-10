@@ -24,5 +24,18 @@
             "isMobileDevice": "true",
             "isTablet": "true"
         }
+    },
+    "Supra M74CG": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "M74CG",
+            "Device_Code_Name": "M74CG",
+            "Device_Maker": "Supra",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Supra",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
     }
 }

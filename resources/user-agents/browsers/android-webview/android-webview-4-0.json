@@ -43,6 +43,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "PS8106PG": "Digma PS8106PG",
             "Redmi 3S": "Xiaomi Redmi 3S"
           },
           "platforms": [
@@ -77,6 +78,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "A8-50LC": "Lenovo A8-50LC",
             "Bmobile_AX810": "Bmobile AX810",
             "MZ-MX5": "Meizu MX5",
             "Nexus 9*": "HTC Nexus 9",
@@ -90,7 +92,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "Nexus 5*": "LG Nexus 5"
+            "Nexus 5*": "LG Nexus 5",
+            "Nexus5*": "LG Nexus 5"
           },
           "platforms": [
             "Android_5_1", "Android_5_0",
@@ -233,9 +236,11 @@
             "Lenovo B6000-H": "Lenovo B6000-H",
             "LIFETAB_S1033X": "Lenovo LifeTab S1033X",
             "LIFETAB_S785X": "Lenovo Lifetab S785X",
+            "M74CG": "Supra M74CG",
             "Micromax A065": "Micromax A065",
             "MTC SMART Run": "MTC SMART Run",
             "Oysters T72H 3G": "Oysters T72H 3G",
+            "Oysters T72M 3G": "Oysters T72M 3G",
             "PSP5504DUO": "Prestigio PSP5504DUO",
             "SC-02F": "Samsung SC-02F",
             "SGH-I337M": "Samsung SGH-I337M",
@@ -271,6 +276,7 @@
             "SM-T805": "Samsung SM-T805",
             "SM-T900": "Samsung SM-T900",
             "SMART-E5": "eFOX SMART E5",
+            "T700i_3G": "4Good T700i 3G",
             "TAB917QC-8GB": "Sunstech TAB917QC 8GB",
             "TCL S950": "TCL S950",
             "TE_7512": "oblio mint",
@@ -774,7 +780,49 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile*Safari*Chrome*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -981,26 +1029,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "platforms": [
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         }
