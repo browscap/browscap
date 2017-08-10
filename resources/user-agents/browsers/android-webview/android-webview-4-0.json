@@ -34,7 +34,8 @@
             "F5321": "Sony F5321",
             "HUAWEI NXT-AL10": "Huawei NXT-AL10",
             "Pixel C": "Google Pixel C",
-            "SM-G935F": "Samsung SM-G935F"
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-G950F": "Samsung SM-G950F"
           },
           "platforms": [
             "Android_7_0"
