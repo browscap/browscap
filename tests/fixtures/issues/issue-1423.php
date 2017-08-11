@@ -11197,7 +11197,7 @@ return [
             'MajorVer' => '1',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => 'unknown',
+            'Platform_Version' => '4.0',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',

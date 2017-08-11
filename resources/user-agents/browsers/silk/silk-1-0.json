@@ -1,6 +1,6 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["1.0"],
+  "versions": [1],
   "sortIndex": 1140,
   "lite": false,
   "standard": true,
@@ -33,19 +33,25 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari*"
-        },
-        {
           "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*"
         },
         {
-          "match": "Mozilla/5.0 (*Mac OS X 10*Silk/1.*) applewebkit* (*khtml*like*gecko*) Version/5.0 Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          }
+          "match": "Mozilla/5.0 (#PLATFORM# Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "platforms": [
+            "Android_4_0"
+          ]
         },
         {
-          "match": "Mozilla/5.0 (Linux*Android*Silk/1.*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari*"
+          "match": "Mozilla/5.0 (#PLATFORM# Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari*",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari*"
         }
       ]
     }

@@ -677,7 +677,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            'Device_Name' => 'Kindle Fire HDX 7 WiFi',
+            'Device_Name' => 'Kindle Fire HDX 7 WiFi (3rd Gen)',
             'Device_Maker' => 'Amazon.com, Inc.',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
