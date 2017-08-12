@@ -27,41 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Linux; U; *; KFOT Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; #DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "device": "Amazon KFOT",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Linux; U; *; KFTT Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
+          "devices": {
+            "KFOT": "Amazon KFOT",
+            "KFTT": "Amazon KFTT"
           },
-          "device": "Amazon KFTT",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Linux; U; *; KFOT Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
-          "device": "Amazon KFOT",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Linux; U; *; KFTT Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
-          "device": "Amazon KFTT",
           "platforms": [
             "Android"
           ]
