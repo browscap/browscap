@@ -31,7 +31,7 @@
           "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -39,8 +39,11 @@
           "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Win2000"
           ]
         },
         {
@@ -48,6 +51,7 @@
           "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [
+            "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         },
@@ -56,7 +60,7 @@
           "engine": "Gecko_2",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -64,8 +68,11 @@
           "engine": "Gecko_2",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Win2000"
           ]
         },
         {
@@ -73,6 +80,7 @@
           "engine": "Gecko_2",
           "device": "Macintosh",
           "platforms": [
+            "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         },
@@ -81,7 +89,7 @@
           "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -89,8 +97,11 @@
           "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Win2000"
           ]
         },
         {
@@ -98,6 +109,7 @@
           "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [
+            "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         }
