@@ -1,0 +1,63 @@
+{
+  "division": "Thunderbird #MAJORVER#.#MINORVER#",
+  "versions": [2, "1.5", 1],
+  "sortIndex": 3086,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_1",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Browser": "Thunderbird",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Email Client",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "NT4",
+            "Win98", "WinME"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4", "OSX_10_3",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

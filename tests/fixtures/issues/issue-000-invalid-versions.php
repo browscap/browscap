@@ -1813,4 +1813,24 @@ return [
         'lite' => false,
         'standard' => false,
     ],
+    // Windows versions less than XP were dropped as of version 13.0:
+    // http://website-archive.mozilla.org/www.mozilla.org/thunderbird_releasenotes/en-US/thunderbird/13.0/system-requirements/
+    // http://website-archive.mozilla.org/www.mozilla.org/thunderbird_releasenotes/en-US/thunderbird/13.0/releasenotes/
+    'issue-000-invalid-versions-DD' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0; rv:17.0) Gecko/20130107 Thunderbird/17.0.2',
+        'properties' => [
+            'Comment' => 'Thunderbird Generic',
+            'Browser' => 'Thunderbird',
+            'Browser_Bits' => '32',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinNT',
+            'Platform_Version' => '4.0',
+            'Platform_Description' => 'Windows NT',
+            'Platform_Bits' => '32',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
 ];
