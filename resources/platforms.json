@@ -5523,6 +5523,15 @@
         "Platform_Version": "2.4"
       }
     },
+    "Tizen_3_0": {
+      "match": "*Linux;*Tizen 3.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "3.0"
+      }
+    },
     "OpenVMS": {
       "match": "*OpenVMS*",
       "lite": false,
