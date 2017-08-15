@@ -1,0 +1,96 @@
+{
+  "division": "Samsung Browser Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser Generic for TV",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser Generic for TV",
+        "Browser": "Samsung Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SMART-TV;#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
+          "device": "Smart-TV",
+          "platforms": [
+            "Tizen_3_0",
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung Browser Generic for Mobile",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser Generic for Mobile",
+        "Browser": "Samsung Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
+          "platforms": [
+            "Tizen_3_0",
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung WebView Generic for TV",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung WebView Generic for TV",
+        "Browser": "Samsung WebView",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* TV Safari/*",
+          "platforms": [
+            "Tizen_3_0",
+            "Tizen_2_2", "Tizen_2_3",
+            "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}

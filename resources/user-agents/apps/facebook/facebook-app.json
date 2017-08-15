@@ -662,6 +662,7 @@
             "HUAWEI Y330-U01": "Huawei Y330-U01",
             "IdeaTab A3000-H": "Lenovo A3000-H",
             "IdeaTab S6000-F": "Lenovo S6000-F",
+            "IdeaTab S6000-H": "Lenovo S6000-H",
             "ImSmart 1.45": "Impression ImSmart 1.45",
             "Kiano Elegance by Zanetti": "Kiano Elegance",
             "Lenovo A3500-FL": "Lenovo A3500-FL",
@@ -732,6 +733,7 @@
             "LT26i": "SonyEricsson LT26i",
             "LT26w": "Sony LT26w",
             "me172v": "Asus ME172V",
+            "MediaPad 10 LINK": "Huawei MediaPad 10",
             "SCH-I200": "Samsung SCH-I200",
             "SCH-I535": "Samsung SCH-I535",
             "SGH-I317": "Samsung SGH-I317",
@@ -746,6 +748,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "cm_tenderloin": "HP Touchpad",
             "fnac 4.5": "Fnac Phablet 4.5",
             "GT-P3100": "Samsung GT-P3100",
             "H2000+": "Hero H2000+",
@@ -759,6 +762,9 @@
             "Sony Tablet S": "Sony Tablet S",
             "SPH-D710": "Samsung SPH-D710",
             "SPH-D710BST": "Samsung SPH-D710BST",
+            "Transformer Prime TF201": "Asus TF201",
+            "Transformer TF101": "Asus TF101",
+            "Transformer TF101G": "Asus TF101G",
             "VS840 4G": "LG VS840 4G"
           },
           "engine": "WebKit",

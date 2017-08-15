@@ -5,7 +5,7 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Listia App",
+      "userAgent": "Listia App for iOS",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
@@ -57,6 +57,84 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Listia App for Android",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Listia Inc.",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Crawler": "false",
+        "Comment": "Listia App",
+        "Browser": "Listia App",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* Listia/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Listia/*",
+          "device": "general Tablet",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Listia/*",
+          "devices": {
+            "SM-T110": "Samsung SM-T110"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Listia/*",
+          "devices": {
+            "A200": "Acer A200"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* Listia/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Listia/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
           ]
         }
       ]

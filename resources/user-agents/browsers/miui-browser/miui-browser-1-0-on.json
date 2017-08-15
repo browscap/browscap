@@ -28,10 +28,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "HM NOTE 1LTEW": "Xiaomi HM NOTE 1LTEEW",
-            "MI 2S": "Xiaomi MI 2S"
+            "MI 2S": "Xiaomi MI 2S",
+            "MI PAD": "Xiaomi Mi Pad"
           },
           "platforms": [
             "Android_4_4"
@@ -47,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2",

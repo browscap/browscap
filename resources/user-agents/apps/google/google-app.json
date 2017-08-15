@@ -53,6 +53,59 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0", "Android_5_1",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "A1-810": "Acer A1-810",
+            "GT-N8000": "Samsung GT-N8000",
+            "GT-P5210": "Samsung GT-P5210",
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T310": "Samsung SM-T310",
+            "SM-T530": "Samsung SM-T530"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
@@ -115,17 +168,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
-          "engine": "Blink",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
@@ -133,45 +175,28 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
-          "engine": "Blink",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "devices": {
-            "SM-T705*": "Samsung SM-T705"
+            "ME302C": "Asus ME302C"
           },
           "platforms": [
-            "Android_6_0",
-            "Android_5_0", "Android_5_1",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
-          "engine": "Blink",
-          "devices": {
-            "A1-810": "Acer A1-810",
-            "GT-N8000": "Samsung GT-N8000",
-            "GT-P5210": "Samsung GT-P5210",
-            "Lenovo A3500-H": "Lenovo A3500-H",
-            "Lenovo A5500-H": "Lenovo A5500-H",
-            "Lenovo A7600-H": "Lenovo A7600-H",
-            "SM-T230NU": "Samsung SM-T230NU",
-            "SM-T310": "Samsung SM-T310",
-            "SM-T530": "Samsung SM-T530"
-          },
-          "platforms": [
-            "Android_4_4"
+            "Android_4_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "devices": {
             "A1-810": "Acer A1-810",
-            "GT-P3100": "Samsung GT-P3100",
-            "GT-P5100": "Samsung GT-P5100",
+            "ASUS Transformer Pad TF300TG": "Asus TF300TG",
+            "GT-P3110": "Samsung GT-P3110",
+            "GT-P5110": "Samsung GT-P5110",
             "GT-P5200": "Samsung GT-P5200",
             "IdeaTab A3000-H": "Lenovo A3000-H",
             "IdeaTab S6000-H": "Lenovo S6000-H",
+            "Lenovo A3000-H": "Lenovo A3000-H",
+            "ME173X": "Asus ME173X",
             "ME302KL": "Asus ME302KL",
+            "MediaPad M1 8.0": "Huawei MediaPad M1 8.0",
             "SM-T110": "Samsung SM-T110",
             "SM-T111": "Samsung SM-T111"
           },
@@ -182,23 +207,25 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "devices": {
-            "ME371MG": "Asus ME371MG",
-            "PadFone": "Asus PadFone"
+            "GT-P3100": "Samsung GT-P3100",
+            "GT-P5100": "Samsung GT-P5100"
           },
           "platforms": [
-            "Android_4_1"
+            "Android_4_2", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
-          "engine": "Blink",
-          "device": "general Tablet",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "A211": "Acer A211",
+            "GT-N8000": "Samsung GT-N8000",
+            "GT-N8013": "Samsung GT-N8013",
+            "ME371MG": "Asus ME371MG",
+            "PadFone": "Asus PadFone",
+            "SM-T211": "Samsung SM-T211"
+          },
           "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
+            "Android_4_1"
           ]
         },
         {

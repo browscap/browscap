@@ -1,6 +1,6 @@
 {
   "division": "Flipboard App #MAJORVER#.#MINORVER#",
-  "versions": ["2.3", "2.2", "2.1", 2],
+  "versions": ["2.3", "2.2", "2.1", 2, "1.9"],
   "sortIndex": 940,
   "lite": false,
   "standard": true,
@@ -51,6 +51,24 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Nexus 7": "Asus Nexus 7"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-N8013": "Samsung GT-N8013"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "WT19i": "SonyEricsson WT19i"
           },
           "platforms": [
@@ -60,7 +78,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_4_4", "Android_4_3",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
             "Android_2_3",
             "Android"
           ]
