@@ -3364,6 +3364,15 @@
         "Platform_Version": "7.1"
       }
     },
+    "Android_8_0": {
+      "match": "*Linux*Android?8.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "Android_B": {
       "match": "* Build/*",
       "lite": false,
@@ -3793,6 +3802,15 @@
         "Platform_Version": "7.1"
       }
     },
+    "Android_E_8_0": {
+      "match": "*; U; Adr 8.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "Android_F": {
       "match": "*Android?*Linux*",
       "lite": false,
@@ -3961,6 +3979,15 @@
         "Platform_Version": "7.1"
       }
     },
+    "Android_F_8_0": {
+      "match": "*Android?8.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "Android_G": {
       "match": "JUC(Linux;?;*",
       "lite": false,
@@ -4115,6 +4142,15 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "7.1"
+      }
+    },
+    "Android_H_8_0": {
+      "match": "*Android?8.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
       }
     },
     "Android_I_4_0": {
