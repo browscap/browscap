@@ -2829,6 +2829,13 @@
             "Browser": "Moat Bot",
             "Browser_Maker": "Moat, Inc."
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Discordbot/*https://discordapp.com)",
+          "properties": {
+            "Browser": "Discord Bot",
+            "Browser_Maker": "Discord"
+          }
         }
       ]
     }
