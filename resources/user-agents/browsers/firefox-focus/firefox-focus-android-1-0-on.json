@@ -1,6 +1,6 @@
 {
   "division": "Firefox Focus for Android",
-  "versions": ["1.1", 1],
+  "versions": ["1.2", "1.1", 1],
   "sortIndex": 3169,
   "lite": false,
   "standard": true,
@@ -30,6 +30,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Focus/#MAJORVER#.#MINORVER#* Chrome/* Mobile Safari/*",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -40,6 +41,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Focus/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",

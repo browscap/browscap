@@ -36,15 +36,18 @@
             "Pixel": "Google Pixel"
           },
           "platforms": [
+            "Android_8_0",
             "Android_7_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P"
           },
           "platforms": [
+            "Android_8_0",
             "Android_7_1",
             "Android_6_0"
           ]
@@ -92,7 +95,6 @@
             "HTC Desire 626s": "HTC 0PM92",
             "HUAWEI VNS-L31": "Huawei VNS-L31",
             "LG-K428": "LG K428",
-            "Nexus 5X": "LG Nexus 5X",
             "P01T_1": "Asus P01T_1",
             "PMT3118_3G": "Prestigio PMT3118_3G",
             "SM-T355Y": "Samsung SM-T355Y"
@@ -823,6 +825,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -834,6 +837,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
