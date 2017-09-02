@@ -85,16 +85,15 @@ class BuildCommand extends Command
 
         $buildGenerator = new BuildGenerator(
             $input->getOption('resources'),
-            $buildFolder
+            $buildFolder,
+            $logger
         );
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
 
-        $buildGenerator
-            ->setLogger($logger)
-            ->setCollectionCreator(new CollectionCreator())
-            ->setWriterCollection($writerCollection);
+        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
+        $buildGenerator->setWriterCollection($writerCollection);
 
         if ($input->getOption('coverage') !== false) {
             $buildGenerator->setCollectPatternIds(true);

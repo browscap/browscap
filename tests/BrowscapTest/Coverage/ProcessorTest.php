@@ -57,6 +57,9 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * This test verifies that the different structures were extracted from the test JSON files
      *
      * @dataProvider jsonStructureProvider
+     *
+     * @param string $fileName
+     * @param array  $expected
      */
     public function testJsonStructure(string $fileName, array $expected)
     {

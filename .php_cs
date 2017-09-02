@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 $header = <<<EOF
 This file is part of the browscap package.
@@ -20,7 +21,7 @@ $finder = PhpCsFixer\Finder::create()
 
 return PhpCsFixer\Config::create()
     ->setRiskyAllowed(true)
-    ->setRules(array(
+    ->setRules([
         '@PSR2' => true,
         '@Symfony' => true,
         '@Symfony:risky' => true,
@@ -105,8 +106,9 @@ return PhpCsFixer\Config::create()
         'php_unit_dedicate_assert' => true,
         'php_unit_fqcn_annotation' => true,
         'php_unit_strict' => false,
-        'phpdoc_add_missing_param_annotation' => true,
-        'phpdoc_align' => true,
+        'phpdoc_add_missing_param_annotation' => ['only_untyped' => false],
+        'phpdoc_align' => ['tags' => ['param', 'return', 'throws']],
+        'phpdoc_annotation_without_dot' => false,
         'phpdoc_inline_tag' => true,
         'phpdoc_no_access' => true,
         'phpdoc_no_alias_tag' => ['property-read' => 'property', 'property-write' => 'property', 'type' => 'var'],
@@ -129,7 +131,7 @@ return PhpCsFixer\Config::create()
         'psr0' => true,
         'psr4' => true,
         'random_api_migration' => true,
-        'return_type_declaration' => true,
+        'return_type_declaration' => ['space_before' => 'none'],
         'self_accessor' => true,
         'semicolon_after_instruction' => true,
         'short_scalar_cast' => true,
@@ -154,6 +156,6 @@ return PhpCsFixer\Config::create()
         'unary_operator_spaces' => true,
         'visibility_required' => true,
         'whitespace_after_comma_in_array' => true,
-    ))
+    ])
     ->setFinder($finder)
 ;

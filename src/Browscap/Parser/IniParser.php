@@ -50,20 +50,16 @@ class IniParser implements ParserInterface
 
     /**
      * @param bool $shouldSort
-     *
-     * @return \Browscap\Parser\IniParser
      */
-    public function setShouldSort($shouldSort)
+    public function setShouldSort(bool $shouldSort): void
     {
-        $this->shouldSort = (bool) $shouldSort;
-
-        return $this;
+        $this->shouldSort = $shouldSort;
     }
 
     /**
      * @return bool
      */
-    public function shouldSort()
+    public function shouldSort(): bool
     {
         return $this->shouldSort;
     }
@@ -71,7 +67,7 @@ class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getParsed()
+    public function getParsed(): array
     {
         return $this->data;
     }
@@ -79,7 +75,7 @@ class IniParser implements ParserInterface
     /**
      * @return string
      */
-    public function getFilename()
+    public function getFilename(): string
     {
         return $this->filename;
     }
@@ -89,7 +85,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    public function getLinesFromFile()
+    public function getLinesFromFile(): array
     {
         $filename = $this->filename;
 
@@ -103,7 +99,7 @@ class IniParser implements ParserInterface
     /**
      * @param string[] $fileLines
      */
-    public function setFileLines(array $fileLines)
+    public function setFileLines(array $fileLines): void
     {
         $this->fileLines = $fileLines;
     }
@@ -111,7 +107,7 @@ class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getFileLines()
+    public function getFileLines(): array
     {
         if (!$this->fileLines) {
             $fileLines = $this->getLinesFromFile();
@@ -127,7 +123,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    public function parse()
+    public function parse(): array
     {
         $fileLines = $this->getFileLines();
 
@@ -187,7 +183,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    protected function sortArrayAndChildArrays(array $array)
+    protected function sortArrayAndChildArrays(array $array): array
     {
         ksort($array);
 

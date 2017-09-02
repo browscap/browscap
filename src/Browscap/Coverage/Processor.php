@@ -48,7 +48,7 @@ final class Processor implements ProcessorInterface
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
      * if the statement/function/branch is covered.
      *
-     * @var string[]
+     * @var array
      */
     private $coveredIds = [];
 
@@ -80,7 +80,7 @@ final class Processor implements ProcessorInterface
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
      * file begins)
      *
-     * @var string[]
+     * @var array
      */
     private $fileCoveredIds = [];
 
@@ -109,7 +109,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    public function process(array $coveredIds)
+    public function process(array $coveredIds): void
     {
         $this->setCoveredPatternIds($coveredIds);
 
@@ -142,7 +142,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    public function write(string $fileName)
+    public function write(string $fileName): void
     {
         file_put_contents(
             $fileName,
@@ -269,7 +269,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function handleJsonRoot(Lexer $lexer)
+    private function handleJsonRoot(Lexer $lexer): void
     {
         do {
             $code = $lexer->lex();
@@ -565,7 +565,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0)
+    private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0): void
     {
         $this->fileCoverage['fnMap'][] = [
             'name' => '(anonymous_' . $this->funcCount . ')',
@@ -592,7 +592,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectBranch(array $start, array $end, array $locations, array $coverage = [])
+    private function collectBranch(array $start, array $end, array $locations, array $coverage = []): void
     {
         $this->fileCoverage['branchMap'][] = [
             'type' => 'switch',
@@ -619,7 +619,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectStatement(array $start, array $end, int $coverage = 0)
+    private function collectStatement(array $start, array $end, int $coverage = 0): void
     {
         $this->fileCoverage['statementMap'][] = [
             'start' => $start,

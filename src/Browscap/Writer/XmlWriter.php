@@ -57,11 +57,13 @@ class XmlWriter implements WriterInterface
     private $outputProperties = [];
 
     /**
-     * @param string $file
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file)
+    public function __construct($file, LoggerInterface $logger)
     {
-        $this->file = fopen($file, 'w');
+        $this->logger = $logger;
+        $this->file   = fopen($file, 'w');
     }
 
     /**
@@ -82,26 +84,6 @@ class XmlWriter implements WriterInterface
     public function close()
     {
         fclose($this->file);
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
     }
 
     /**
@@ -150,9 +132,9 @@ class XmlWriter implements WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent)
+    public function setSilent(bool $silent)
     {
-        $this->silent = (bool) $silent;
+        $this->silent = $silent;
 
         return $this;
     }
@@ -211,7 +193,7 @@ class XmlWriter implements WriterInterface
             return $this;
         }
 
-        $this->getLogger()->debug('rendering comments');
+        $this->logger->debug('rendering comments');
 
         fwrite($this->file, '<comments>' . PHP_EOL);
 
@@ -237,7 +219,7 @@ class XmlWriter implements WriterInterface
             return $this;
         }
 
-        $this->getLogger()->debug('rendering version information');
+        $this->logger->debug('rendering version information');
 
         fwrite($this->file, '<gjk_browscap_version>' . PHP_EOL);
 

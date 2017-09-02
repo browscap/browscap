@@ -35,6 +35,16 @@ class CollectionCreator
     private $logger = null;
 
     /**
+     * Create a new collection creator
+     *
+     * @param \Psr\Log\LoggerInterface $logger
+     */
+    public function __construct(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
      * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Helper\CollectionCreator
@@ -44,26 +54,6 @@ class CollectionCreator
         $this->collection = $collection;
 
         return $this;
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Helper\CollectionCreator
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger()
-    {
-        return $this->logger;
     }
 
     /**
@@ -84,7 +74,7 @@ class CollectionCreator
             );
         }
 
-        $this->getLogger()->debug('add platform file');
+        $this->logger->debug('add platform file');
         $this->collection
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
@@ -101,7 +91,7 @@ class CollectionCreator
                 continue;
             }
 
-            $this->getLogger()->debug('add device file ' . $file->getPathname());
+            $this->logger->debug('add device file ' . $file->getPathname());
             $this->collection->addDevicesFile($file->getPathname());
         }
 
@@ -115,7 +105,7 @@ class CollectionCreator
                 continue;
             }
 
-            $this->getLogger()->debug('add source file ' . $file->getPathname());
+            $this->logger->debug('add source file ' . $file->getPathname());
             $this->collection->addSourceFile($file->getPathname());
         }
 

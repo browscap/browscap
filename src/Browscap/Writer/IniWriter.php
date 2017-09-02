@@ -62,11 +62,13 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     private $expander = null;
 
     /**
-     * @param string $file
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file)
+    public function __construct($file, LoggerInterface $logger)
     {
-        $this->file = fopen($file, 'w');
+        $this->logger = $logger;
+        $this->file   = fopen($file, 'w');
     }
 
     /**
@@ -87,26 +89,6 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     public function close()
     {
         fclose($this->file);
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
     }
 
     /**
@@ -167,9 +149,9 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent)
+    public function setSilent(bool $silent)
     {
-        $this->silent = (bool) $silent;
+        $this->silent = $silent;
 
         return $this;
     }
@@ -215,7 +197,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             return $this;
         }
 
-        $this->getLogger()->debug('rendering comments');
+        $this->logger->debug('rendering comments');
 
         foreach ($comments as $comment) {
             fwrite($this->file, ';;; ' . $comment . PHP_EOL);
@@ -239,7 +221,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             return $this;
         }
 
-        $this->getLogger()->debug('rendering version information');
+        $this->logger->debug('rendering version information');
 
         $this->renderDivisionHeader('Browscap Version');
 

@@ -127,15 +127,9 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
 
         $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
             ->disableOriginalConstructor()
-            ->setMethods(['setLogger', 'getLogger', 'createDataCollection'])
+            ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $collectionCreator->expects(self::once())
-            ->method('setLogger')
-            ->will(self::returnSelf());
-        $collectionCreator->expects(self::never())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
         $collectionCreator->expects(self::once())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
@@ -248,15 +242,9 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
 
         $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
             ->disableOriginalConstructor()
-            ->setMethods(['setLogger', 'getLogger', 'createDataCollection'])
+            ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $collectionCreator->expects(self::once())
-            ->method('setLogger')
-            ->will(self::returnSelf());
-        $collectionCreator->expects(self::never())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
         $collectionCreator->expects(self::once())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));

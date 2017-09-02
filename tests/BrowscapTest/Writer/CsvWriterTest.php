@@ -49,7 +49,9 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
 
-        $this->object = new CsvWriter($this->file);
+        $logger = $this->createMock(\Monolog\Logger::class);
+
+        $this->object = new CsvWriter($this->file, $logger);
     }
 
     /**
@@ -61,20 +63,6 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
         $this->object->close();
 
         unlink($this->file);
-    }
-
-    /**
-     * tests setting and getting a logger
-     *
-     * @group writer
-     * @group sourcetest
-     */
-    public function testSetGetLogger()
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        self::assertSame($this->object, $this->object->setLogger($logger));
-        self::assertSame($logger, $this->object->getLogger());
     }
 
     /**
@@ -176,9 +164,6 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
@@ -200,9 +185,6 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfNotSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
@@ -227,9 +209,6 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [];
 
         $this->object->setSilent(false);
@@ -443,9 +422,6 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
             ->will(self::returnValueMap($map));
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
-
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
         self::assertSame('1,bcd,' . PHP_EOL, file_get_contents($this->file));

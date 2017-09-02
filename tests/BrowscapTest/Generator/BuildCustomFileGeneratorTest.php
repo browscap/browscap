@@ -45,34 +45,6 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * tests failing the build without parameters
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testConstructFailsWithoutParameters()
-    {
-        $this->expectException('\Exception');
-        $this->expectExceptionMessage('You must specify a resource folder');
-
-        new BuildCustomFileGenerator(null, null);
-    }
-
-    /**
-     * tests failing the build without build dir
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testConstructFailsWithoutTheSecondParameter()
-    {
-        $this->expectException('\Exception');
-        $this->expectExceptionMessage('You must specify a build folder');
-
-        new BuildCustomFileGenerator('.', null);
-    }
-
-    /**
      * tests failing the build if the build dir does not exist
      *
      * @group generator
@@ -83,7 +55,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
-        new BuildCustomFileGenerator('/dar', null);
+        new BuildCustomFileGenerator('/dar', '', $this->logger);
     }
 
     /**
@@ -97,27 +69,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
-        new BuildCustomFileGenerator(__FILE__, null);
-    }
-
-    /**
-     * tests setting and getting a logger
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testSetLogger()
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        $resourceFolder = __DIR__ . '/../../../resources/';
-        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
-
-        @mkdir($buildFolder, 0777, true);
-
-        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
-        self::assertSame($generator, $generator->setLogger($logger));
-        self::assertSame($logger, $generator->getLogger());
+        new BuildCustomFileGenerator(__FILE__, '', $this->logger);
     }
 
     /**
@@ -235,10 +187,9 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
 
         @mkdir($buildFolder, 0777, true);
 
-        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
-        self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
+        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder, $this->logger);
+        $generator->setCollectionCreator($mockCreator);
+        $generator->setWriterCollection($writerCollection);
 
         $generator->run('test');
     }

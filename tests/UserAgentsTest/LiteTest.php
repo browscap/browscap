@@ -84,7 +84,8 @@ class LiteTest extends \PHPUnit\Framework\TestCase
 
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
-            self::$buildFolder
+            self::$buildFolder,
+            $logger
         );
 
         $writerCollection = new WriterCollection();
@@ -92,19 +93,16 @@ class LiteTest extends \PHPUnit\Framework\TestCase
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new LiteFilter(self::$propertyHolder);
 
-        $litePhpWriter = new IniWriter(self::$buildFolder . '/lite_php_browscap.ini');
+        $litePhpWriter = new IniWriter(self::$buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
+        $formatter->setFilter(self::$filter);
         $litePhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter(self::$filter))
+            ->setFormatter($formatter)
             ->setFilter(self::$filter);
         $writerCollection->addWriter($litePhpWriter);
 
-        $buildGenerator
-            ->setLogger($logger)
-            ->setCollectionCreator(new CollectionCreator())
-            ->setWriterCollection($writerCollection);
-
+        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
+        $buildGenerator->setWriterCollection($writerCollection);
         $buildGenerator->setCollectPatternIds(true);
 
         $buildGenerator->run((string) $buildNumber, false);

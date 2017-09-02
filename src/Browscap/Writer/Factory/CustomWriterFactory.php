@@ -79,31 +79,32 @@ class CustomWriterFactory
 
         switch ($format) {
             case self::OUTPUT_FORMAT_ASP:
-                $writer    = new Writer\IniWriter($file);
+                $writer    = new Writer\IniWriter($file, $logger);
                 $formatter = new Formatter\AspFormatter();
                 break;
             case self::OUTPUT_FORMAT_CSV:
-                $writer    = new Writer\CsvWriter($file);
+                $writer    = new Writer\CsvWriter($file, $logger);
                 $formatter = new Formatter\CsvFormatter();
                 break;
             case self::OUTPUT_FORMAT_XML:
-                $writer    = new Writer\XmlWriter($file);
+                $writer    = new Writer\XmlWriter($file, $logger);
                 $formatter = new Formatter\XmlFormatter();
                 break;
             case self::OUTPUT_FORMAT_JSON:
-                $writer    = new Writer\JsonWriter($file);
+                $writer    = new Writer\JsonWriter($file, $logger);
                 $formatter = new Formatter\JsonFormatter();
                 break;
             case self::OUTPUT_FORMAT_PHP:
             default:
-                $writer    = new Writer\IniWriter($file);
+                $writer    = new Writer\IniWriter($file, $logger);
                 $formatter = new Formatter\PhpFormatter();
                 break;
         }
 
+        $formatter->setFilter($filter);
+
         $writer
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($filter))
+            ->setFormatter($formatter)
             ->setFilter($filter);
 
         $writerCollection->addWriter($writer);

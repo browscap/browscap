@@ -33,116 +33,84 @@ class WriterCollection
      * add a new writer to the collection
      *
      * @param \Browscap\Writer\WriterInterface $writer
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function addWriter(WriterInterface $writer)
+    public function addWriter(WriterInterface $writer): void
     {
         $this->writers[] = $writer;
-
-        return $this;
     }
 
     /**
      * closes the Writer and the written File
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function close()
+    public function close(): void
     {
         foreach ($this->writers as $writer) {
             $writer->close();
         }
-
-        return $this;
     }
 
     /**
      * @param \Browscap\Data\Division $division
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function setSilent(Division $division)
+    public function setSilent(Division $division): void
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutput($division));
         }
-
-        return $this;
     }
 
     /**
      * @param Expander $expander
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setExpander(Expander $expander)
+    public function setExpander(Expander $expander): void
     {
         foreach ($this->writers as $writer) {
             if ($writer instanceof WriterNeedsExpanderInterface) {
                 $writer->setExpander($expander);
             }
         }
-
-        return $this;
     }
 
     /**
      * @param mixed $section
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function setSilentSection($section)
+    public function setSilentSection($section): void
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutputSection($section));
         }
-
-        return $this;
     }
 
     /**
      * Generates a start sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function fileStart()
+    public function fileStart(): void
     {
         foreach ($this->writers as $writer) {
             $writer->fileStart();
         }
-
-        return $this;
     }
 
     /**
      * Generates a end sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function fileEnd()
+    public function fileEnd(): void
     {
         foreach ($this->writers as $writer) {
             $writer->fileEnd();
         }
-
-        return $this;
     }
 
     /**
      * Generate the header
      *
      * @param string[] $comments
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderHeader(array $comments = [])
+    public function renderHeader(array $comments = []): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderHeader($comments);
         }
-
-        return $this;
     }
 
     /**
@@ -150,10 +118,8 @@ class WriterCollection
      *
      * @param string                        $version
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderVersion($version, DataCollection $collection)
+    public function renderVersion($version, DataCollection $collection): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
@@ -165,24 +131,18 @@ class WriterCollection
                 ]
             );
         }
-
-        return $this;
     }
 
     /**
      * renders the header for all divisions
      *
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderAllDivisionsHeader(DataCollection $collection)
+    public function renderAllDivisionsHeader(DataCollection $collection): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderAllDivisionsHeader($collection);
         }
-
-        return $this;
     }
 
     /**
@@ -190,32 +150,24 @@ class WriterCollection
      *
      * @param string $division
      * @param string $parent
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties'): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderDivisionHeader($division, $parent);
         }
-
-        return $this;
     }
 
     /**
      * renders the header for a section
      *
      * @param string $sectionName
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionHeader($sectionName)
+    public function renderSectionHeader($sectionName): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionHeader($sectionName);
         }
-
-        return $this;
     }
 
     /**
@@ -227,59 +179,43 @@ class WriterCollection
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = ''): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionBody($section, $collection, $sections, $sectionName);
         }
-
-        return $this;
     }
 
     /**
      * renders the footer for a section
      *
      * @param string $sectionName
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionFooter($sectionName = '')
+    public function renderSectionFooter($sectionName = ''): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionFooter($sectionName);
         }
-
-        return $this;
     }
 
     /**
      * renders the footer for a division
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderDivisionFooter()
+    public function renderDivisionFooter(): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderDivisionFooter();
         }
-
-        return $this;
     }
 
     /**
      * renders the footer for all divisions
-     *
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderAllDivisionsFooter()
+    public function renderAllDivisionsFooter(): void
     {
         foreach ($this->writers as $writer) {
             $writer->renderAllDivisionsFooter();
         }
-
-        return $this;
     }
 }

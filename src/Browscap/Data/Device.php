@@ -34,16 +34,16 @@ class Device
      * @param string[] $properties
      * @param bool     $standard
      */
-    public function __construct(array $properties, $standard)
+    public function __construct(array $properties, bool $standard)
     {
         $this->properties = $properties;
-        $this->standard   = (bool) $standard;
+        $this->standard   = $standard;
     }
 
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties(): array
     {
         return $this->properties;
     }
@@ -51,7 +51,7 @@ class Device
     /**
      * @return bool
      */
-    public function isStandard()
+    public function isStandard(): bool
     {
         return $this->standard;
     }

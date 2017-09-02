@@ -50,6 +50,20 @@ jobs:
       php: 7.1
       env: COMPOSER_FLAGS=""
       script: php -n -d memory_limit=768M vendor/bin/phpcs
+    - stage: check coding style
+      php: 7.1
+      env: COMPOSER_FLAGS=""
+      script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
+    - stage: static code analysis
+      php: 7.1
+      env:
+        - ANALYSIS=yes
+        - COMPOSER_FLAGS=""
+      script:
+        - vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src
+        - vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests/UserAgentsTest
+        # complains about mocks
+        - vendor/bin/phpstan analyse -l 4 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests/BrowscapTest
     - stage: integration test
       php: 7.1
       env:

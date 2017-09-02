@@ -49,7 +49,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.json';
 
-        $this->object = new JsonWriter($this->file);
+        $logger = $this->createMock(\Monolog\Logger::class);
+
+        $this->object = new JsonWriter($this->file, $logger);
     }
 
     /**
@@ -61,20 +63,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
         $this->object->close();
 
         unlink($this->file);
-    }
-
-    /**
-     * tests setting and getting a logger
-     *
-     * @group writer
-     * @group sourcetest
-     */
-    public function testSetGetLogger()
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        self::assertSame($this->object, $this->object->setLogger($logger));
-        self::assertSame($logger, $this->object->getLogger());
     }
 
     /**
@@ -197,9 +185,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderHeaderIfSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $header = ['TestData to be renderd into the Header'];
 
         $this->object->setSilent(true);
@@ -216,9 +201,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderHeaderIfNotSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $header = ['TestData to be renderd into the Header'];
 
         $this->object->setSilent(false);
@@ -239,9 +221,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
@@ -263,9 +242,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfNotSilent()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
@@ -291,9 +267,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
-        $this->object->setLogger($logger);
-
         $version = [];
 
         $this->object->setSilent(false);

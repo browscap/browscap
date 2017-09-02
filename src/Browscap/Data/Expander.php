@@ -47,17 +47,23 @@ class Expander
     private $patternId = [];
 
     /**
+     * Create a new data expander
+     *
+     * @param \Psr\Log\LoggerInterface $logger
+     */
+    public function __construct(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
      * Set the data collection
      *
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Data\Expander
      */
-    public function setDataCollection(DataCollection $collection): self
+    public function setDataCollection(DataCollection $collection): void
     {
         $this->collection = $collection;
-
-        return $this;
     }
 
     /**
@@ -98,7 +104,7 @@ class Expander
     /**
      * Resets the pattern id
      */
-    private function resetPatternId()
+    private function resetPatternId(): void
     {
         $this->patternId = [
             'division' => '',
@@ -294,7 +300,7 @@ class Expander
      * @param bool   $lite
      * @param bool   $standard
      *
-     * @return \array[]
+     * @return array[]
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true): array
     {
@@ -432,7 +438,7 @@ class Expander
      *
      * @throws \LogicException
      */
-    private function checkPlatformData(array $properties, string $message)
+    private function checkPlatformData(array $properties, string $message): void
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -452,7 +458,7 @@ class Expander
      *
      * @throws \LogicException
      */
-    private function checkEngineData(array $properties, string $message)
+    private function checkEngineData(array $properties, string $message): void
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -475,14 +481,14 @@ class Expander
      */
     private function expandProperties(array $allInputDivisions): array
     {
-        $this->getLogger()->debug('expand all properties');
+        $this->logger->debug('expand all properties');
         $allDivisions = [];
 
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
 
         foreach (array_keys($allInputDivisions) as $key) {
-            $this->getLogger()->debug('expand all properties for key "' . $key . '"');
+            $this->logger->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
             $parents   = [$userAgent];
@@ -602,25 +608,5 @@ class Expander
         }
 
         return $propertyValue;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger(): LoggerInterface
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Data\Expander
-     */
-    public function setLogger(LoggerInterface $logger): self
-    {
-        $this->logger = $logger;
-
-        return $this;
     }
 }

@@ -22,11 +22,11 @@ use Browscap\Writer\WriterInterface;
  */
 class PropertyHolder
 {
-    const TYPE_STRING   = 'string';
-    const TYPE_GENERIC  = 'generic';
-    const TYPE_NUMBER   = 'number';
-    const TYPE_BOOLEAN  = 'boolean';
-    const TYPE_IN_ARRAY = 'in_array';
+    public const TYPE_STRING   = 'string';
+    public const TYPE_GENERIC  = 'generic';
+    public const TYPE_NUMBER   = 'number';
+    public const TYPE_BOOLEAN  = 'boolean';
+    public const TYPE_IN_ARRAY = 'in_array';
 
     /**
      * Get the type of a property
@@ -37,7 +37,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function getPropertyType($propertyName)
+    public function getPropertyType(string $propertyName): string
     {
         $stringProperties = [
             'Comment' => 1,
@@ -139,7 +139,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isLiteModeProperty(string $propertyName, ?WriterInterface $writer = null) : bool
+    public function isLiteModeProperty(string$propertyName, ?WriterInterface $writer = null): bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -176,7 +176,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
+    public function isStandardModeProperty(string $propertyName, ?WriterInterface $writer = null): bool
     {
         $outputProperties = [
             'MajorVer' => 1,
@@ -210,7 +210,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isOutputProperty($propertyName, WriterInterface $writer = null)
+    public function isOutputProperty(string $propertyName, ?WriterInterface $writer = null): bool
     {
         $outputProperties = [
             'Comment' => 1,
@@ -293,7 +293,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function checkValueInArray($property, $value)
+    public function checkValueInArray(string $property, string $value): string
     {
         switch ($property) {
             case 'Browser_Type':
@@ -346,7 +346,7 @@ class PropertyHolder
         }
 
         throw new \InvalidArgumentException(
-            'invalid value given for Property "' . $property . '": given value "' . (string) $value . '", allowed: '
+            'invalid value given for Property "' . $property . '": given value "' . $value . '", allowed: '
             . json_encode($allowedValues)
         );
     }

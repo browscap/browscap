@@ -49,20 +49,16 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @param array       $fields
      * @param string|null $file
      * @param string      $format
-     *
-     * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     public function run(
         string $version,
         array $fields = [],
         $file = null,
         string $format = self::OUTPUT_FORMAT_PHP
-    ): self {
+    ): void {
         $this->preBuild($fields, $file, $format);
         $this->build($version);
         $this->postBuild();
-
-        return $this;
     }
 
     /**
@@ -71,20 +67,18 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @param array       $fields
      * @param string|null $file
      * @param string      $format
-     *
-     * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     protected function preBuild(
         array $fields = [],
         $file = null,
         string $format = self::OUTPUT_FORMAT_PHP
-    ): self {
+    ): void {
         parent::preBuild();
 
-        $this->getLogger()->info('started creating the custom output file');
+        $this->logger->info('started creating the custom output file');
 
         if (null === $this->collectionCreator) {
-            $this->setCollectionCreator(new CollectionCreator());
+            $this->setCollectionCreator(new CollectionCreator($this->logger));
         }
 
         if (null === $this->writerCollection) {
@@ -92,7 +86,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
 
             $this->setWriterCollection(
                 $factory->createCollection(
-                    $this->getLogger(),
+                    $this->logger,
                     $this->buildFolder,
                     $file,
                     $fields,
@@ -100,19 +94,13 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
                 )
             );
         }
-
-        return $this;
     }
 
     /**
      * runs after the build
-     *
-     * @return \Browscap\Generator\BuildCustomFileGenerator
      */
-    protected function postBuild(): self
+    protected function postBuild(): void
     {
-        $this->getLogger()->info('finished creating the custom output file');
-
-        return $this;
+        $this->logger->info('finished creating the custom output file');
     }
 }

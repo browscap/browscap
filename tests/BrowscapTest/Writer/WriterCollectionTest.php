@@ -58,20 +58,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testAddWriter()
-    {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
-
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-    }
-
-    /**
-     * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
-     */
-    public function testSetSilent()
+    public function testAddWriterAndSetSilent()
     {
         $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
             ->disableOriginalConstructor()
@@ -95,8 +82,9 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getFilter')
             ->will(self::returnValue($mockFilter));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->setSilent($division));
+        $this->object->addWriter($mockWriter);
+
+        $this->object->setSilent($division);
     }
 
     /**
@@ -129,8 +117,8 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getFilter')
             ->will(self::returnValue($mockFilter));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->setSilentSection($mockDivision));
+        $this->object->addWriter($mockWriter);
+        $this->object->setSilentSection($mockDivision);
     }
 
     /**
@@ -141,10 +129,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testFileStart()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['fileStart'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->fileStart());
+        $mockWriter
+            ->expects(self::once())
+            ->method('fileStart');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->fileStart();
     }
 
     /**
@@ -155,10 +150,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testFileEnd()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['fileEnd'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->fileEnd());
+        $mockWriter
+            ->expects(self::once())
+            ->method('fileEnd');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->fileEnd();
     }
 
     /**
@@ -171,10 +173,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
     {
         $header = ['TestData to be renderd into the Header'];
 
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderHeader'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderHeader($header));
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderHeader');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderHeader($header);
     }
 
     /**
@@ -225,7 +234,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->setMethods(['getFilter', 'getFormatter', 'getLogger'])
-            ->setConstructorArgs([$this->file])
+            ->setConstructorArgs([$this->file, $logger])
             ->getMock();
 
         $mockWriter
@@ -236,14 +245,10 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('getFormatter')
             ->will(self::returnValue($mockFormatter));
-        $mockWriter
-            ->expects(self::once())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderVersion($version, $collection));
-        self::assertSame($this->object, $this->object->close());
+        $this->object->addWriter($mockWriter);
+        $this->object->renderVersion($version, $collection);
+        $this->object->close();
     }
 
     /**
@@ -256,10 +261,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
     {
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderAllDivisionsHeader'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderAllDivisionsHeader');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderAllDivisionsHeader($collection);
     }
 
     /**
@@ -270,10 +282,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderDivisionHeader()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderDivisionHeader'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderDivisionHeader');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderDivisionHeader('test');
     }
 
     /**
@@ -284,10 +303,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderSectionHeader()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderSectionHeader'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderSectionHeader');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionHeader('test');
     }
 
     /**
@@ -305,10 +331,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
         ];
 
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderSectionBody'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderSectionBody');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionBody($section, $collection);
     }
 
     /**
@@ -319,10 +352,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderSectionFooter()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderSectionFooter'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionFooter());
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderSectionFooter');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionFooter();
     }
 
     /**
@@ -333,10 +373,17 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderDivisionFooter()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderDivisionFooter'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderDivisionFooter');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderDivisionFooter();
     }
 
     /**
@@ -347,9 +394,16 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsFooter()
     {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderAllDivisionsFooter'])
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderAllDivisionsFooter');
+
+        $this->object->addWriter($mockWriter);
+        $this->object->renderAllDivisionsFooter();
     }
 }
