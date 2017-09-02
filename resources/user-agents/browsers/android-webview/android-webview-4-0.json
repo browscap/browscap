@@ -42,12 +42,24 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "E5823": "Sony E5823",
             "F5321": "Sony F5321",
             "HUAWEI NXT-AL10": "Huawei NXT-AL10",
             "Pixel C": "Google Pixel C",
             "SM-G935F": "Samsung SM-G935F",
-            "SM-G950F": "Samsung SM-G950F"
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-T820": "Samsung SM-T820"
           },
           "platforms": [
             "Android_7_0"
@@ -80,7 +92,8 @@
           "devices": {
             "HTC One_M8*": "HTC M8",
             "HTC One_E8*": "HTC E8",
-            "SM-T705*": "Samsung SM-T705"
+            "SM-T705*": "Samsung SM-T705",
+            "SM-T807V": "Samsung SM-T807V"
           },
           "platforms": [
             "Android_6_0",
@@ -94,7 +107,6 @@
             "A8-50LC": "Lenovo A8-50LC",
             "Bmobile_AX810": "Bmobile AX810",
             "MZ-MX5": "Meizu MX5",
-            "Nexus 9*": "HTC Nexus 9",
             "SM-T817A": "Samsung SM-T817A",
             "XT1254": "Motorola XT1254"
           },
@@ -106,7 +118,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "Nexus 5*": "LG Nexus 5",
-            "Nexus5*": "LG Nexus 5"
+            "Nexus5*": "LG Nexus 5",
+            "SM-T337V": "Samsung SM-T337V"
           },
           "platforms": [
             "Android_5_1", "Android_5_0",

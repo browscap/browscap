@@ -126,12 +126,24 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
             "2PYB2": "HTC 2PYB2",
             "LG-H910": "LG H910",
             "LG-H918": "LG H918",
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
             "SM-G950F": "Samsung SM-G950F",
+            "SM-T820": "Samsung SM-T820",
             "VS995": "LG VS995"
           },
           "platforms": [
@@ -326,6 +338,7 @@
             "SM-G900V": "Samsung SM-G900V",
             "SM-N910T": "Samsung SM-N910T",
             "SM-T705*": "Samsung SM-T705",
+            "SM-T807V": "Samsung SM-T807V",
             "XT1254": "Motorola XT1254"
           },
           "platforms": [
@@ -416,6 +429,7 @@
             "E6782": "Kyocera E6782",
             "QTAQZ3": "Quanta QTAQZ3",
             "SM-G360V": "Samsung SM-G360V",
+            "SM-T337V": "Samsung SM-T337V",
             "XT1045": "Motorola XT1045",
             "Z936L": "ZTE Z936L"
           },
@@ -555,7 +569,19 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/*?FB*/*;FBAV/*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",
