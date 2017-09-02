@@ -53,7 +53,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
-            "Nexus 6": "Motorola Nexus 6"
+            "Nexus 6": "Motorola Nexus 6",
+            "Nexus 9*": "HTC Nexus 9"
           },
           "platforms": [
             "Android_7_1", "Android_7_0",

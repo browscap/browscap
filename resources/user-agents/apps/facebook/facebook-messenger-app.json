@@ -92,9 +92,21 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "devices": {
             "2PYB2": "HTC 2PYB2",
             "LG-H910": "LG H910",
             "LG-H918": "LG H918",
+            "SM-T820": "Samsung SM-T820",
             "VS995": "LG VS995"
           },
           "platforms": [
@@ -333,10 +345,11 @@
             "E6782": "Kyocera E6782",
             "QTAQZ3": "Quanta QTAQZ3",
             "SM-G360V": "Samsung SM-G360V",
+            "SM-T337V": "Samsung SM-T337V",
             "XT1045": "Motorola XT1045"
           },
           "platforms": [
-            "Android_5_1",
+            "Android_5_1", "Android_5_0",
             "Android_4_4"
           ]
         },
@@ -416,7 +429,19 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "device": "general Tablet",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",

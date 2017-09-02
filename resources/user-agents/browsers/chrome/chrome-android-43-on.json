@@ -55,6 +55,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "2PYB2": "HTC 2PYB2",
             "EVA-AL10": "Huawei EVA-AL10",
             "LG-H830": "LG H830",
@@ -68,6 +79,7 @@
             "LGMS210": "LG MS210",
             "ONEPLUS A3010": "OnePlus A3010",
             "SM-G950F": "Samsung SM-G950F",
+            "SM-T820": "Samsung SM-T820",
             "VS987": "LG VS987",
             "VS995": "LG VS995",
             "XT1650": "Motorola XT1650"
@@ -129,7 +141,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "SM-T705*": "Samsung SM-T705"
+            "SM-T705*": "Samsung SM-T705",
+            "SM-T807V": "Samsung SM-T807V"
           },
           "platforms": [
             "Android_6_0",
@@ -162,6 +175,16 @@
           },
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "SM-T337V": "Samsung SM-T337V"
+          },
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
           ]
         },
         {

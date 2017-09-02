@@ -83,6 +83,28 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?Pinterest/Android*",
           "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?Pinterest/Android*",
+          "devices": {
+            "SM-T820": "Samsung SM-T820"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?Pinterest/Android*",
+          "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F"
@@ -91,6 +113,29 @@
           "platforms": [
             "Android_6_0",
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?Pinterest/Android*",
+          "devices": {
+            "SM-T807V": "Samsung SM-T807V"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?Pinterest/Android*",
+          "devices": {
+            "SM-T337V": "Samsung SM-T337V"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
