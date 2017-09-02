@@ -42,27 +42,27 @@ class PhpWriterFactory
         $stdFilter  = new StandardFilter();
         $liteFilter = new LiteFilter();
 
-        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
+        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
+        $formatter->setFilter($fullFilter);
         $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFormatter($formatter)
             ->setFilter($fullFilter);
         $writerCollection->addWriter($fullPhpWriter);
 
-        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini');
+        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
+        $formatter->setFilter($stdFilter);
         $stdPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
+            ->setFormatter($formatter)
             ->setFilter($stdFilter);
         $writerCollection->addWriter($stdPhpWriter);
 
-        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini');
+        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
+        $formatter->setFilter($liteFilter);
         $litePhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($liteFilter))
+            ->setFormatter($formatter)
             ->setFilter($liteFilter);
         $writerCollection->addWriter($litePhpWriter);
 

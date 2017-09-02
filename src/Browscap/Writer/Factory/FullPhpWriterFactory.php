@@ -42,13 +42,15 @@ class FullPhpWriterFactory
         }
 
         $fullFilter    = new FullFilter();
-        $fullPhpWriter = new IniWriter($file);
+        $fullPhpWriter = new IniWriter($file, $logger);
         $formatter     = new PhpFormatter();
+        $formatter->setFilter($fullFilter);
         $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFormatter($formatter)
             ->setFilter($fullFilter);
 
-        return $writerCollection->addWriter($fullPhpWriter);
+        $writerCollection->addWriter($fullPhpWriter);
+
+        return $writerCollection;
     }
 }

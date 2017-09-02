@@ -21,7 +21,7 @@ namespace Browscap\Data;
 class Platform
 {
     /**
-     * @var string
+     * @var string|null
      */
     private $match;
 
@@ -55,9 +55,9 @@ class Platform
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getMatch()
+    public function getMatch() : ?string
     {
         return $this->match;
     }
@@ -65,7 +65,7 @@ class Platform
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties() : array
     {
         return $this->properties;
     }
@@ -73,7 +73,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isLite()
+    public function isLite() : bool
     {
         return $this->isLite;
     }
@@ -81,7 +81,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isStandard()
+    public function isStandard() : bool
     {
         return $this->isStandard;
     }

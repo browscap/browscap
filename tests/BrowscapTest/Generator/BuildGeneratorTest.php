@@ -59,7 +59,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
-        new BuildGenerator('/dar', '');
+        new BuildGenerator('/dar', '', $this->logger);
     }
 
     /**
@@ -72,36 +72,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
     {
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
-        new BuildGenerator(__FILE__, '');
-    }
-
-    /**
-     * tests setting and getting a logger
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testSetLogger() : void
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($logger));
-        self::assertSame($logger, $generator->getLogger());
-    }
-
-    /**
-     * tests setting a collection creator
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testSetCollectionCreator() : void
-    {
-        $collectionCreator = $this->createMock(\Browscap\Helper\CollectionCreator::class);
-
-        $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setCollectionCreator($collectionCreator));
+        new BuildGenerator(__FILE__, '', $this->logger);
     }
 
     /**
@@ -213,10 +184,9 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
+        $generator = new BuildGenerator('.', '.', $this->logger);
+        $generator->setCollectionCreator($mockCreator);
+        $generator->setWriterCollection($writerCollection);
 
         $generator->run('test', false);
     }
@@ -330,10 +300,9 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
+        $generator = new BuildGenerator('.', '.', $this->logger);
+        $generator->setCollectionCreator($mockCreator);
+        $generator->setWriterCollection($writerCollection);
 
         $generator->run('test', false);
     }

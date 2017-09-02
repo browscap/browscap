@@ -41,17 +41,23 @@ class Expander
     private $patternId = [];
 
     /**
+     * Create a new data expander
+     *
+     * @param \Psr\Log\LoggerInterface $logger
+     */
+    public function __construct(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
      * Set the data collection
      *
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Data\Expander
      */
-    public function setDataCollection(DataCollection $collection) : self
+    public function setDataCollection(DataCollection $collection) : void
     {
         $this->collection = $collection;
-
-        return $this;
     }
 
     /**
@@ -475,14 +481,14 @@ class Expander
      */
     private function expandProperties(array $allInputDivisions) : array
     {
-        $this->getLogger()->debug('expand all properties');
+        $this->logger->debug('expand all properties');
         $allDivisions = [];
 
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
 
         foreach (array_keys($allInputDivisions) as $key) {
-            $this->getLogger()->debug('expand all properties for key "' . $key . '"');
+            $this->logger->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
             $parents   = [$userAgent];
@@ -601,25 +607,5 @@ class Expander
         }
 
         return $propertyValue;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger() : LoggerInterface
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Data\Expander
-     */
-    public function setLogger(LoggerInterface $logger) : self
-    {
-        $this->logger = $logger;
-
-        return $this;
     }
 }

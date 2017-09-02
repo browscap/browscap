@@ -26,9 +26,10 @@ use Psr\Log\LoggerInterface;
 interface WriterInterface
 {
     /**
-     * @param string $file
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file);
+    public function __construct($file, LoggerInterface $logger);
 
     /**
      * returns the Type of the writer
@@ -43,18 +44,6 @@ interface WriterInterface
      * @return \Browscap\Writer\WriterInterface
      */
     public function close();
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setLogger(LoggerInterface $logger);
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger();
 
     /**
      * @param bool $silent
