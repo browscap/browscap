@@ -29,11 +29,6 @@ use Monolog\Logger;
 class ExpanderTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger;
-
-    /**
      * @var \Browscap\Data\Expander
      */
     private $object;
@@ -44,8 +39,8 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->logger = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new Expander();
+        $logger       = new Logger('browscapTest', [new NullHandler()]);
+        $this->object = new Expander($logger);
     }
 
     /**
@@ -58,8 +53,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
     {
         $collection = $this->createMock(DataCollection::class);
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
         self::assertSame($collection, $this->object->getDataCollection());
     }
 
@@ -120,8 +114,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([]));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -185,8 +178,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
                 )
             );
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -253,8 +245,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($uaData));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -340,8 +331,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($uaData));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -408,8 +398,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -495,8 +484,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -599,8 +587,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -690,8 +677,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 

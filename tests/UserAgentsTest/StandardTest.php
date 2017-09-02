@@ -84,29 +84,24 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
-            self::$buildFolder
+            self::$buildFolder,
+            $logger
         );
-
-        $buildGenerator->setLogger($logger);
 
         $writerCollection = new WriterCollection();
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new StandardFilter(self::$propertyHolder);
 
-        $stdPhpWriter = new IniWriter(self::$buildFolder . '/php_browscap.ini');
+        $stdPhpWriter = new IniWriter(self::$buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
         $formatter->setFilter(self::$filter);
         $stdPhpWriter
-            ->setLogger($logger)
             ->setFormatter($formatter)
             ->setFilter(self::$filter);
         $writerCollection->addWriter($stdPhpWriter);
 
-        $collectionCreator = new CollectionCreator();
-        $collectionCreator->setLogger($logger);
-
-        $buildGenerator->setCollectionCreator($collectionCreator);
+        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
         $buildGenerator->setWriterCollection($writerCollection);
         $buildGenerator->setCollectPatternIds(true);
 

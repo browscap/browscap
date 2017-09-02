@@ -59,7 +59,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
-        new BuildCustomFileGenerator('/dar', '');
+        new BuildCustomFileGenerator('/dar', '', $this->logger);
     }
 
     /**
@@ -73,27 +73,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
-        new BuildCustomFileGenerator(__FILE__, '');
-    }
-
-    /**
-     * tests setting and getting a logger
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testSetLogger() : void
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        $resourceFolder = __DIR__ . '/../../../resources/';
-        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
-
-        @mkdir($buildFolder, 0777, true);
-
-        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
-        self::assertSame($generator, $generator->setLogger($logger));
-        self::assertSame($logger, $generator->getLogger());
+        new BuildCustomFileGenerator(__FILE__, '', $this->logger);
     }
 
     /**
@@ -211,10 +191,9 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
 
         @mkdir($buildFolder, 0777, true);
 
-        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
-        self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
+        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder, $this->logger);
+        $generator->setCollectionCreator($mockCreator);
+        $generator->setWriterCollection($writerCollection);
 
         $generator->run('test');
     }

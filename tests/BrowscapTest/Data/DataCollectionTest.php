@@ -28,11 +28,6 @@ use Monolog\Logger;
 class DataCollectionTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger;
-
-    /**
      * @var \Browscap\Data\DataCollection
      */
     private $object;
@@ -43,8 +38,8 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->logger = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new DataCollection('1234');
+        $logger       = new Logger('browscapTest', [new NullHandler()]);
+        $this->object = new DataCollection('1234', $logger);
     }
 
     private function getPlatformsJsonFixture()
@@ -71,20 +66,6 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
             $dir . '/test2.json',
             $dir . '/test3.json',
         ];
-    }
-
-    /**
-     * tests the setter and the getter for a logger
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetLogger() : void
-    {
-        $logger = $this->createMock(\Monolog\Logger::class);
-
-        self::assertSame($this->object, $this->object->setLogger($logger));
-        self::assertSame($logger, $this->object->getLogger());
     }
 
     /**
@@ -964,8 +945,6 @@ HERE;
         $this->expectException('\UnexpectedValueException');
         $this->expectExceptionMessage('Version property not found for key "test"');
 
-        $this->object->setLogger($this->logger);
-
         $properties = [];
         $this->object->checkProperty('test', $properties);
     }
@@ -978,8 +957,6 @@ HERE;
     {
         $this->expectException('\UnexpectedValueException');
         $this->expectExceptionMessage('Parent property is missing for key "test"');
-
-        $this->object->setLogger($this->logger);
 
         $properties = [
             'Version' => 'abc',
@@ -997,8 +974,6 @@ HERE;
         $this->expectException('\UnexpectedValueException');
         $this->expectExceptionMessage('property "Device_Type" is missing for key "test"');
 
-        $this->object->setLogger($this->logger);
-
         $properties = [
             'Version' => 'abc',
             'Parent' => '123',
@@ -1015,8 +990,6 @@ HERE;
     {
         $this->expectException('\UnexpectedValueException');
         $this->expectExceptionMessage('property "isTablet" is missing for key "test"');
-
-        $this->object->setLogger($this->logger);
 
         $properties = [
             'Version' => 'abc',
@@ -1036,8 +1009,6 @@ HERE;
         $this->expectException('\UnexpectedValueException');
         $this->expectExceptionMessage('property "isMobileDevice" is missing for key "test"');
 
-        $this->object->setLogger($this->logger);
-
         $properties = [
             'Version' => 'abc',
             'Parent' => '123',
@@ -1056,8 +1027,6 @@ HERE;
      */
     public function testCheckPropertyOk() : void
     {
-        $this->object->setLogger($this->logger);
-
         $properties = [
             'Version' => 'abc',
             'Parent' => '123',

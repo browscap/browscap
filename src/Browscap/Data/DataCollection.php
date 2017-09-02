@@ -80,32 +80,14 @@ class DataCollection
     /**
      * Create a new data collection for the specified version
      *
-     * @param string $version
+     * @param string                   $version
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($version)
+    public function __construct(string $version, LoggerInterface $logger)
     {
         $this->version        = $version;
+        $this->logger         = $logger;
         $this->generationDate = new \DateTime();
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Data\DataCollection
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger()
-    {
-        return $this->logger;
     }
 
     /**
@@ -843,7 +825,7 @@ class DataCollection
      */
     public function checkProperty($key, array $properties)
     {
-        $this->getLogger()->debug('check if all required propeties are available');
+        $this->logger->debug('check if all required propeties are available');
 
         if (!isset($properties['Version'])) {
             throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');

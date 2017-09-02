@@ -26,11 +26,6 @@ use Monolog\Logger;
 class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger;
-
-    /**
      * @var \Browscap\Helper\CollectionCreator
      */
     private $object;
@@ -41,8 +36,8 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->logger = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new CollectionCreator();
+        $logger       = new Logger('browscapTest', [new NullHandler()]);
+        $this->object = new CollectionCreator($logger);
     }
 
     /**
@@ -79,9 +74,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
 
-        $this->object
-            ->setLogger($this->logger)
-            ->setDataCollection($collection);
+        $this->object->setDataCollection($collection);
         $this->object->createDataCollection('.');
     }
 
@@ -111,9 +104,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('addSourceFile')
             ->will(self::returnSelf());
 
-        $this->object
-            ->setLogger($this->logger)
-            ->setDataCollection($collection);
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
         self::assertInstanceOf(DataCollection::class, $result);
