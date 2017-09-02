@@ -41,22 +41,6 @@ $
 
 Now you if you look at `browscap/browscap.ini` you will see a new INI file has been generated.
 
-Then you can compare to an original 5020 version `full_asp_browscap.ini` to check for differences:
-
-```
-$ bin/browscap diff build/full_asp_browscap.ini build/full_asp_browscap_5020.ini
-The following differences have been found:
-
-[GJK_Browscap_Version]
-"Released" differs (L / R): Thu, 29 Aug 2013 22:54:50 +0100 / Mon, 29 Jul 2013 22:22:31 -0000
-"Version" differs (L / R): 5020-test / 5020
-
-There were 2 differences found in the comparison.
-$
-```
-
-You can see here the only differences were the release date and version number, which is normal - so it works! :)
-
 ## Directory Structure
 
 * `bin` - Contains executable files

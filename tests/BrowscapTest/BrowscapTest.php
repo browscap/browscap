@@ -61,7 +61,5 @@ class BrowscapTest extends \PHPUnit\Framework\TestCase
         $app = new Browscap();
 
         self::assertAppHasCommand($app, 'build');
-        self::assertAppHasCommand($app, 'diff');
-        self::assertAppHasCommand($app, 'grep');
     }
 }
