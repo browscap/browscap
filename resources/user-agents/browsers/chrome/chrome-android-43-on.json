@@ -103,6 +103,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "A0001": "OnePlus A0001",
+            "Aquaris M10 FHD": "BQ Aquaris M10 FHD",
             "Archos 97c Platinum": "Archos 97c Platinum",
             "HTC Desire 626s": "HTC 0PM92",
             "HUAWEI VNS-L31": "Huawei VNS-L31",
@@ -118,6 +119,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "Aquaris M10": "BQ Aquaris M10",
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F",
@@ -164,7 +166,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "Aquaris M10": "BQ Aquaris M10",
             "ASUS MeMO Pad 7": "Asus ME176C",
             "E5823": "Sony E5823",
             "Lenovo YT3-850M": "Lenovo YT3-850M",
