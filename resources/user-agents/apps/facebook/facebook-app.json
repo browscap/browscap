@@ -288,6 +288,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "0PM92": "HTC 0PM92",
+            "Aquaris M10": "BQ Aquaris M10",
             "HTC Desire 626s": "HTC 0PM92",
             "LG-H901": "LG H901",
             "LGLS991": "LG LS991",
@@ -446,6 +447,7 @@
             "GT-I9500": "Samsung GT-I9500",
             "HTC Desire Eye": "HTC Desire Eye",
             "HTC6500LVW": "HTC M7 (HTC6500LVW)",
+            "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D800": "LG D800",
             "LG-D801": "LG D801",
             "LG-LS980": "LG LS980",
@@ -663,6 +665,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "Archos 50 Titanium": "Archos 50 Titanium",
             "ASUS Transformer Pad TF300T": "Asus TF300T",
             "Fly IQ453 Quad": "Fly IQ453",
             "Gravis77 QC 3G IPS GPS": "Treelogic Gravis 77 QC 3G IPS GPS",
@@ -696,6 +699,7 @@
             "Lenovo A3500-FL": "Lenovo A3500-FL",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A5500-F": "Lenovo A5500-F",
+            "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A680_ROW": "Lenovo A680",
             "Lenovo A820": "Lenovo A820",
             "Lenovo B6000-F": "Lenovo B6000-F",
@@ -715,7 +719,8 @@
             "SM-T111": "Samsung SM-T111",
             "STUDIO 5.5": "BLU Studio 5.5",
             "Trooper_X40": "KAZAM Trooper X40",
-            "Vodafone Smart 4G": "Vodafone Smart 4G"
+            "Vodafone Smart 4G": "Vodafone Smart 4G",
+            "Vodafone Smart Tab 4": "Vodafone Smart Tab 4"
           },
           "engine": "WebKit",
           "platforms": [
