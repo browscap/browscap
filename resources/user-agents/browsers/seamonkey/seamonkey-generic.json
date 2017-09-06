@@ -1,23 +1,19 @@
 {
-  "division": "SeaMonkey #MAJORVER#.#MINORVER#",
-  "versions": ["2.46", "2.42", "2.41", "2.40", "2.39", "2.38", "2.36", "2.35", "2.34", "2.33", "2.32", "2.31", "2.30"],
-  "sortIndex": 3019,
+  "division": "SeaMonkey Generic",
+  "sortIndex": 3020,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
+      "userAgent": "SeaMonkey Generic",
       "engine": "Gecko",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
+        "Comment": "SeaMonkey Generic",
         "Browser": "SeaMonkey",
         "Browser_Maker": "Mozilla Foundation",
         "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -27,14 +23,14 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32_on_x64", "Linux_32", "Linux"
+            "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -42,56 +38,67 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "DragonFlyBSD", "DragonFlyBSD_64"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32_on_x64", "Linux_32", "Linux"
+            "Linux_32_on_x64", "Linux_64", "Linux", "Fedora"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
           "device": "Windows Desktop",
           "platforms": [
+            "Win98", "WinME", "NT3.51",
             "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_PPC", "OSX_PPC_10_4",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "DragonFlyBSD", "DragonFlyBSD_64"
+            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "DragonFlyBSD", "DragonFlyBSD_64", "BeOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
+          "device": "Amiga",
+          "platforms": [
+            "Amiga"
           ]
         }
       ]
