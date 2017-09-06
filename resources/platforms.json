@@ -171,6 +171,17 @@
         "Platform_Version": "10.12"
       }
     },
+    "OSX_10_13": {
+      "match": "*Mac OS X 10?13*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform": "macOS",
+        "Platform_Description": "macOS",
+        "Platform_Version": "10.13"
+      }
+    },
     "OSX_B": {
       "match": "*Macintosh; OS X *",
       "lite": true,
@@ -728,6 +739,15 @@
         "Platform_Version": "10.3"
       }
     },
+    "iOS_A_11_0": {
+      "match": "*CPU iPhone OS 11?0* like Mac OS X*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.0"
+      }
+    },
     "iOS_A_dynamic": {
       "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
       "lite": false,
@@ -981,6 +1001,15 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "10.3"
+      }
+    },
+    "iOS_C_11_0": {
+      "match": "*CPU OS 11_0* like Mac OS X*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.0"
       }
     },
     "iOS_C_dynamic": {
