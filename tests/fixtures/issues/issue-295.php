@@ -306,7 +306,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            'Device_Name' => 'One',
+            'Device_Name' => 'One M7',
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

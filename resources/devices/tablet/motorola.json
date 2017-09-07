@@ -38,12 +38,38 @@
             "isTablet": "true"
         }
     },
+    "Motorola MZ607": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MZ607",
+            "Device_Name": "Xoom 2 Media Edition",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Motorola MZ608": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "MZ608",
             "Device_Name": "Xoom 2 Media Edition 3G",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Motorola MZ615": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MZ615",
+            "Device_Name": "Xoom 2",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "touchscreen",
@@ -70,6 +96,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "Xoom 2",
             "Device_Name": "Xoom 2",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Motorola Xoom 2 ME": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Xoom 2 ME",
+            "Device_Name": "Xoom 2 Media Edition",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "touchscreen",

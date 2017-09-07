@@ -364,7 +364,7 @@
             "GT-I9105P*": "Samsung GT-I9105P",
             "GT-N7000*": "Samsung GT-N7000",
             "GT-N8010": "Samsung GT-N8010",
-            "LT22i": "SonyEricsson LT22i",
+            "LT22i": "Sony LT22i",
             "MOT-XT910": "Motorola XT910",
             "MT11i": "SonyEricsson MT11i",
             "Nexus S": "Samsung NexusS",
@@ -810,7 +810,7 @@
             "Vodafone SmartTab II 10": "Lenovo SmartTab II 10",
             "X10": "SonyEricsson X10",
             "XOLO A700": "XOLO A700",
-            "XOOM 2 ME": "Motorola MZ608",
+            "XOOM 2 ME": "Motorola Xoom 2 ME",
             "XOOM 2": "Motorola Xoom 2",
             "ZP910": "ZOPO ZP910"
           },
@@ -1426,9 +1426,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2* Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "MZ616*": "Motorola MZ616"
+            "MZ607": "Motorola MZ607",
+            "MZ616": "Motorola MZ616"
           },
           "platforms": [
             "Android_4_0",
