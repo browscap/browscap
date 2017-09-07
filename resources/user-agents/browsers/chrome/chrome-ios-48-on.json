@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for iOS",
-  "versions": [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48],
+  "versions": [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48],
   "sortIndex": 1153,
   "lite": true,
   "standard": true,
@@ -35,6 +35,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
+            "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A"
@@ -46,6 +47,7 @@
             "iPad": "iPad"
           },
           "platforms": [
+            "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"

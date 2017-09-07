@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50],
+  "versions": [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
@@ -56,7 +56,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },
