@@ -33,14 +33,14 @@
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* Instagram*",
           "platforms": [
-            "iOS_A",
-            "iOS_C"
+            "iOS_A"
           ]
         },
         {
@@ -50,25 +50,25 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_E_5_0", "iOS_E_5_1",
-            "iOS_E_6_0", "iOS_E_6_1",
-            "iOS_E_7_0", "iOS_E_7_1",
-            "iOS_E_8_0", "iOS_E_8_1",
-            "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1", "iOS_E_6_0",
+            "iOS_E_5_1", "iOS_E_5_0",
+            "iOS_E_4_3",
             "iOS_E"
           ]
         },
         {
           "match": "Instagram* (#PLATFORM#) applewebkit*",
           "platforms": [
-            "iOS_A",
             "iOS_E"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Chrome* Safari* Instagram* Android*",
           "engine": "Blink",
-          "device": "general Mobile Device (Touch)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -79,7 +79,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Safari* Instagram* Android*",
-          "device": "general Mobile Device (Touch)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -87,9 +87,16 @@
         },
         {
           "match": "Instagram* Android*",
-          "device": "general Mobile Device",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) mobile* Instagram *Windows Phone*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8_osmeta"
           ]
         }
       ]
