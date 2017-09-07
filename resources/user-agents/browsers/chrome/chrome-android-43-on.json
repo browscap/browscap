@@ -264,7 +264,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "GT-I9500": "Samsung GT-I9500",
-            "LT22i": "SonyEricsson LT22i",
+            "LT22i": "Sony LT22i",
             "Nexus 10": "Samsung Nexus 10",
             "Nexus 4": "LG Nexus 4",
             "Transformer TF101": "Asus TF101"
@@ -307,7 +307,7 @@
             "HM NOTE 1LTE": "Xiaomi HM NOTE 1LTE",
             "HTC 919d": "HTC 919d",
             "HTC D820us": "HTC D820us",
-            "HTC One 801e": "HTC M7",
+            "HTC One 801e": "HTC 801E",
             "HTC6500LVW": "HTC M7 (HTC6500LVW)",
             "HUAWEI MediaPad T1 10 4G": "Huawei MediaPad T1 10",
             "IM-A910L": "Pantech IM-A910L",

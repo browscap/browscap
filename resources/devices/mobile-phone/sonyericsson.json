@@ -597,19 +597,6 @@
             "isTablet": "false"
         }
     },
-    "SonyEricsson LT22i": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LT22i",
-            "Device_Name": "Xperia P",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "SonyEricsson LT26i": {
         "standard": false,
         "properties": {

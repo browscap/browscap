@@ -160,7 +160,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "801E",
-            "Device_Name": "One M7",
+            "Device_Name": "One M7 LTE",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
@@ -1057,7 +1057,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "M7",
-            "Device_Name": "One",
+            "Device_Name": "One M7",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
@@ -1070,7 +1070,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "M7 (HTC6500LVW)",
-            "Device_Name": "One (Verizon)",
+            "Device_Name": "One M7 (Verizon)",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",

@@ -181,7 +181,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "GT-I9500": "Samsung GT-I9500",
-            "LT22i": "SonyEricsson LT22i",
+            "LT22i": "Sony LT22i",
             "Nexus 10": "Samsung Nexus 10",
             "Transformer TF101": "Asus TF101"
           },
@@ -221,7 +221,7 @@
             "HM NOTE 1LTE": "Xiaomi HM NOTE 1LTE",
             "HTC 919d": "HTC 919d",
             "HTC D820us": "HTC D820us",
-            "HTC One 801e": "HTC M7",
+            "HTC One 801e": "HTC 801E",
             "HTC6500LVW": "HTC M7 (HTC6500LVW)",
             "IM-A910L": "Pantech IM-A910L",
             "IQ4504 Quad": "Fly IQ4504",
@@ -854,7 +854,7 @@
             "TOUCAN Stick 3D mk2": "iconBIT TOUCAN Stick 3D mk2",
             "Transformer TF101G": "Asus TF101G",
             "U8860": "Huawei U8860",
-            "XOOM 2 ME": "Motorola MZ608",
+            "XOOM 2 ME": "Motorola Xoom 2 ME",
             "XT910": "Motorola XT910",
             "ZTE U930HD": "ZTE U930HD"
           },
@@ -875,6 +875,15 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "Digma iDsD7 3G": "Digma iDsD7 3G"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2* Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "MZ607": "Motorola MZ607"
           },
           "platforms": [
             "Android_4_0"
