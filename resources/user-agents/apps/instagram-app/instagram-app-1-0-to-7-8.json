@@ -39,13 +39,13 @@
             "iOS_E_7_1", "iOS_E_7_0",
             "iOS_E_6_1", "iOS_E_6_0",
             "iOS_E_5_1", "iOS_E_5_0",
+            "iOS_E_4_3",
             "iOS_E"
           ]
         },
         {
           "match": "Instagram #MAJORVER#.#MINORVER#* (#PLATFORM#) applewebkit*",
           "platforms": [
-            "iOS_A",
             "iOS_E"
           ]
         }
@@ -54,7 +54,7 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
