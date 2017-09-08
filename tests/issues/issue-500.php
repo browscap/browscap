@@ -379,21 +379,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-500-G (lite)' => [
-        'ua' => 'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-500-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         'properties' => [

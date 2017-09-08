@@ -75,19 +75,4 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-596 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; http://www.bing.com/bingbot.htm)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.0',
-            'Browser' => 'Safari',
-            'Version' => '7.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

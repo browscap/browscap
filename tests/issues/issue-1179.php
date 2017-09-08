@@ -223,21 +223,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1179-C (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola A1000;735b) Opera 7.50 [en]./A1000./1.0 UP.Link/6.3.1.15.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1179-D' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola M1000;811) Opera 7.50 [ja]./M1000./1.0',
         'properties' => [
@@ -310,21 +295,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1179-D (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola M1000;811) Opera 7.50 [ja]./M1000./1.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1179-E' => [

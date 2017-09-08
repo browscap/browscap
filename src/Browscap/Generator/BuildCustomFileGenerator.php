@@ -55,7 +55,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         array $fields = [],
         $file = null,
         string $format = self::OUTPUT_FORMAT_PHP
-    ): void {
+    ) : void {
         $this->preBuild($fields, $file, $format);
         $this->build($version);
         $this->postBuild();
@@ -72,7 +72,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         array $fields = [],
         $file = null,
         string $format = self::OUTPUT_FORMAT_PHP
-    ): void {
+    ) : void {
         parent::preBuild();
 
         $this->logger->info('started creating the custom output file');
@@ -99,7 +99,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     /**
      * runs after the build
      */
-    protected function postBuild(): void
+    protected function postBuild() : void
     {
         $this->logger->info('finished creating the custom output file');
     }

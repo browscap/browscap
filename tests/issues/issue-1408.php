@@ -567,21 +567,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G928A Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928R4 USCC Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -635,21 +620,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928R4 USCC Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
@@ -705,21 +675,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G890A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -773,21 +728,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G890A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G928A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -843,21 +783,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G928A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N920A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -911,21 +836,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N920A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A510F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.90',
@@ -981,21 +891,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A510F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.90',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C9000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
         'properties' => [
@@ -1049,21 +944,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C9000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
@@ -1119,21 +999,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G610F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.87',
         'properties' => [
@@ -1187,21 +1052,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G610F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.87',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920I Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1257,21 +1107,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920I Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -1325,21 +1160,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1395,21 +1215,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -1463,21 +1268,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1533,21 +1323,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -1601,21 +1376,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1671,21 +1431,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-Y (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -1739,21 +1484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1809,21 +1539,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -1877,21 +1592,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R7 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1947,21 +1647,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R7 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2015,21 +1700,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930VL Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2085,21 +1755,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930VL Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2153,21 +1808,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2223,21 +1863,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2291,21 +1916,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2361,21 +1971,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J327P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
         'properties' => [
@@ -2429,21 +2024,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J327P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2499,21 +2079,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2567,21 +2132,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2637,21 +2187,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920C Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2705,21 +2240,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920C Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2775,21 +2295,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
         'properties' => [
@@ -2843,21 +2348,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-S550TL Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.80',
@@ -2913,21 +2403,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-S550TL Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.80',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
         'properties' => [
@@ -2981,21 +2456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G935V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
@@ -3051,21 +2511,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G935V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-N920C Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
         'properties' => [
@@ -3119,21 +2564,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-N920C Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G935T Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -3189,21 +2619,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G935T Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
         'properties' => [
@@ -3258,21 +2673,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1408-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1408-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
         'properties' => [
@@ -3326,21 +2726,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1408-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1408-AX' => [
         'ua' => 'SAMSUNG-GT-C3262/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',

@@ -61,7 +61,7 @@ class Expander
      *
      * @param \Browscap\Data\DataCollection $collection
      */
-    public function setDataCollection(DataCollection $collection): void
+    public function setDataCollection(DataCollection $collection) : void
     {
         $this->collection = $collection;
     }
@@ -73,7 +73,7 @@ class Expander
      *
      * @return string[]
      */
-    public function getVersionParts(string $version): array
+    public function getVersionParts(string $version) : array
     {
         $dots = explode('.', $version, 2);
 
@@ -91,7 +91,7 @@ class Expander
      *
      * @return array
      */
-    public function expand(Division $division, string $divisionName): array
+    public function expand(Division $division, string $divisionName) : array
     {
         $allInputDivisions = $this->parseDivision(
             $division,
@@ -104,7 +104,7 @@ class Expander
     /**
      * Resets the pattern id
      */
-    private function resetPatternId(): void
+    private function resetPatternId() : void
     {
         $this->patternId = [
             'division' => '',
@@ -123,7 +123,7 @@ class Expander
      *
      * @return array
      */
-    private function parseDivision(Division $division, string $divisionName): array
+    private function parseDivision(Division $division, string $divisionName) : array
     {
         $output = [];
 
@@ -160,7 +160,7 @@ class Expander
      *
      * @return array
      */
-    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName): array
+    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
@@ -267,7 +267,7 @@ class Expander
      *
      * @return string
      */
-    public function parseProperty(string $value, string $majorVer, string $minorVer): string
+    public function parseProperty(string $value, string $majorVer, string $minorVer) : string
     {
         return str_replace(
             ['#MAJORVER#', '#MINORVER#'],
@@ -283,7 +283,7 @@ class Expander
      *
      * @return \Browscap\Data\DataCollection
      */
-    public function getDataCollection(): DataCollection
+    public function getDataCollection() : DataCollection
     {
         if (!isset($this->collection)) {
             throw new \LogicException('Data collection has not been set yet - call setDataCollection');
@@ -302,7 +302,7 @@ class Expander
      *
      * @return array[]
      */
-    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true): array
+    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
         $output = [];
 
@@ -418,7 +418,7 @@ class Expander
      *
      * @return string
      */
-    private function getPatternId(): string
+    private function getPatternId() : string
     {
         return sprintf(
             '%s::u%d::c%d::d%s::p%s',
@@ -438,7 +438,7 @@ class Expander
      *
      * @throws \LogicException
      */
-    private function checkPlatformData(array $properties, string $message): void
+    private function checkPlatformData(array $properties, string $message) : void
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -458,7 +458,7 @@ class Expander
      *
      * @throws \LogicException
      */
-    private function checkEngineData(array $properties, string $message): void
+    private function checkEngineData(array $properties, string $message) : void
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -479,7 +479,7 @@ class Expander
      *
      * @return array
      */
-    private function expandProperties(array $allInputDivisions): array
+    private function expandProperties(array $allInputDivisions) : array
     {
         $this->logger->debug('expand all properties');
         $allDivisions = [];

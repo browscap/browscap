@@ -581,21 +581,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-365-J (lite)' => [
-        'ua' => 'Mozilla/5.0(iPad; U; CPU OS 5_0 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F191 Safari/6533.18.5',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-365-K' => [
         'ua' => 'HTC_DesireS_S510e_Mozilla/5.0(Linux; U; Android 2.3.3;it-it; Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         'properties' => [

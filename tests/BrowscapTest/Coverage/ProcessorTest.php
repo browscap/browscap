@@ -45,7 +45,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @return array
      */
-    public function jsonStructureProvider(): array
+    public function jsonStructureProvider() : array
     {
         return [
             ['test1.json', ['statementCount' => 5, 'branchCount' => 1, 'functionCount' => 1]],
@@ -80,7 +80,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @return array
      */
-    public function coverageProvider(): array
+    public function coverageProvider() : array
     {
         return [
             'test1-no-coverage' => ['test1.json', [], [

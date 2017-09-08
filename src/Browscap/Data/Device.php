@@ -43,7 +43,7 @@ class Device
     /**
      * @return string[]
      */
-    public function getProperties(): array
+    public function getProperties() : array
     {
         return $this->properties;
     }
@@ -51,7 +51,7 @@ class Device
     /**
      * @return bool
      */
-    public function isStandard(): bool
+    public function isStandard() : bool
     {
         return $this->standard;
     }

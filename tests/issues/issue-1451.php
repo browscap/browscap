@@ -75,21 +75,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1451-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1 AlohaBrowser/1.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1451-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; MOTOROLA XT907 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
         'properties' => [
@@ -143,21 +128,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1451-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; MOTOROLA XT907 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1451-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG GT-I9195 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
@@ -213,21 +183,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1451-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG GT-I9195 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1451-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG GT-I9301I Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
         'properties' => [
@@ -281,21 +236,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1451-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG GT-I9301I Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1451-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-G900A Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
@@ -351,21 +291,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1451-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-G900A Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1451-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; LGE LG-D855 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
         'properties' => [
@@ -419,21 +344,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1451-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; LGE LG-D855 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1451-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE LG-M210 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
@@ -489,21 +399,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1451-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE LG-M210 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1451-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE LGMS210 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
         'properties' => [
@@ -558,21 +453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1451-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE LGMS210 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.6.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1451-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE VS995 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
         'properties' => [
@@ -626,20 +506,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1451-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LGE VS995 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 AlohaBrowser/0.8.7.1',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

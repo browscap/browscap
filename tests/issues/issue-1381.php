@@ -109,21 +109,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ja; rv:1.8.1.8) Gecko/20091007 Firefox/3.5.4',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fa; rv:1.9) Gecko/20090718 Firefox/3.5.1',
         'properties' => [
@@ -340,21 +325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 GTB5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-G' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.1.6) Gecko/20091201 MRA 5.7 (build 03796) Firefox/3.5.6 ( .NET CLR 3.5.30729; .NET4.0C)',
         'properties' => [
@@ -408,21 +378,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.1.6) Gecko/20091201 MRA 5.7 (build 03796) Firefox/3.5.6 ( .NET CLR 3.5.30729; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-H' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; hu; rv:1.9.1b2pre) Gecko/20100720 Firefox/3.5.11',
@@ -586,21 +541,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; fr; rv:1.9.0.15) Gecko/20090401 Firefox/3.5b4pre',
         'properties' => [
@@ -654,21 +594,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; fr; rv:1.9.0.15) Gecko/20090401 Firefox/3.5b4pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-L' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.8.0.9) Gecko/20090624 Firefox/3.5',
@@ -724,21 +649,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.8.0.9) Gecko/20090624 Firefox/3.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-M' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.8.1) Gecko/20090803 Firefox/3.5.2',
         'properties' => [
@@ -792,21 +702,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.8.1) Gecko/20090803 Firefox/3.5.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-N' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5',
@@ -862,21 +757,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-O' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.16) Gecko/20090729 Firefox/3.5.2',
         'properties' => [
@@ -930,21 +810,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.16) Gecko/20090729 Firefox/3.5.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-P' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US; rv:1.9.1.11) Gecko/20100720 Firefox/3.5.11',
@@ -1000,21 +865,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US; rv:1.9.1.11) Gecko/20100720 Firefox/3.5.11',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-Q' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
         'properties' => [
@@ -1068,21 +918,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-R' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -1138,21 +973,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US) Gecko/20101012 Firefox/3.6.11',
         'properties' => [
@@ -1206,21 +1026,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US) Gecko/20101012 Firefox/3.6.11',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-T' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; hu; rv:1.8.0.1) Gecko/20100105 Firefox/3.6',
@@ -1276,21 +1081,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; hu; rv:1.8.0.1) Gecko/20100105 Firefox/3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-U' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.9.1.2) Gecko/20100401 Firefox/3.6',
         'properties' => [
@@ -1345,21 +1135,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.9.1.2) Gecko/20100401 Firefox/3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; hu; rv:1.9.1b3) Gecko/20100401 Firefox/3.6.3',
         'properties' => [
@@ -1413,21 +1188,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; hu; rv:1.9.1b3) Gecko/20100401 Firefox/3.6.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-W' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; bg; rv:1.9b3pre) Gecko/20091204 Firefox/3.6b5',
@@ -1645,21 +1405,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.18) Gecko/20110614 Firefox/3.6.18',
         'properties' => [
@@ -1713,21 +1458,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.18) Gecko/20110614 Firefox/3.6.18',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; fr; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -1783,21 +1513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; fr; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.11; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13',
         'properties' => [
@@ -1851,21 +1566,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.11; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AD' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; de-CH; rv:1.9.2.8) Gecko/20100729 Firefox/3.6.8',
@@ -2191,21 +1891,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.8.1.19) Gecko/20100105 Firefox/3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.0.10pre) Gecko/20100101 Firefox/3.6',
         'properties' => [
@@ -2260,21 +1945,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.0.10pre) Gecko/20100101 Firefox/3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AK' => [
         'ua' => 'Mozilla/5.0 (X11; U; x86_64 Linux; en_GB, en_US; rv:1.9.2) Gecko/20100115 Firefox/3.6',
         'properties' => [
@@ -2328,21 +1998,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; x86_64 Linux; en_GB, en_US; rv:1.9.2) Gecko/20100115 Firefox/3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AL' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101013 Ubuntu/10.04 (lucid) Firefox/3.6.11',
@@ -2416,21 +2071,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1381-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101013 Ubuntu/10.04 (lucid) Firefox/3.6.11',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AM' => [
@@ -2507,21 +2147,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20111028 Ubuntu/8.04 (hardy) Firefox/3.6.17',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AN' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
         'properties' => [
@@ -2594,21 +2219,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1381-AN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AO' => [
@@ -2685,21 +2295,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.04 (lucid) Firefox/3.6.13',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.18) Gecko/20110628 Ubuntu/10.10 (maverick) Firefox/3.6.18',
         'properties' => [
@@ -2774,21 +2369,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.18) Gecko/20110628 Ubuntu/10.10 (maverick) Firefox/3.6.18',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ja; rv:1.8.1.3) Gecko/20100526 Firefox/3.7a5pre',
         'properties' => [
@@ -2842,21 +2422,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ja; rv:1.8.1.3) Gecko/20100526 Firefox/3.7a5pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.8.1.4) Gecko/20100526 Firefox/3.7a5pre',
@@ -2912,21 +2477,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.8.1.4) Gecko/20100526 Firefox/3.7a5pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; hu; rv:1.9b4) Gecko/20100526 Firefox/3.7a5pre',
         'properties' => [
@@ -2980,21 +2530,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; hu; rv:1.9b4) Gecko/20100526 Firefox/3.7a5pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; fa; rv:1.9.0.2pre) Gecko/20100526 Firefox/3.7a5pre',
@@ -3104,21 +2639,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.8.1.1) Gecko/20100526 Firefox/3.7a5pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; tr; rv:1.9.1b4) Gecko/20100526 Firefox/3.7a5pre',
         'properties' => [
@@ -3172,21 +2692,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; tr; rv:1.9.1b4) Gecko/20100526 Firefox/3.7a5pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AW' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; bg; rv:1.9a2) Gecko/20100526 Firefox/3.7a5pre',
@@ -3296,21 +2801,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:2.0b7) Gecko/20100101 Firefox/4.0b7',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-AY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.9.0.6) Gecko/20100903 Firefox/4.0b6pre',
         'properties' => [
@@ -3364,21 +2854,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-AY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.9.0.6) Gecko/20100903 Firefox/4.0b6pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-AZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.9.3a3pre) Gecko/20100903 Firefox/4.0b6pre',
@@ -3434,21 +2909,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-AZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.9.3a3pre) Gecko/20100903 Firefox/4.0b6pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; bg; rv:1.8.1.17pre) Gecko/20100401 Firefox/4.0',
         'properties' => [
@@ -3503,21 +2963,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; bg; rv:1.8.1.17pre) Gecko/20100401 Firefox/4.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; fa; rv:1.8.1.10) Gecko/20100903 Firefox/4.0b6pre',
         'properties' => [
@@ -3571,21 +3016,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; fa; rv:1.8.1.10) Gecko/20100903 Firefox/4.0b6pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) Gecko/20100101 Firefox/4.0.1',
@@ -3749,21 +3179,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:1.9) Gecko/20100101 Firefox/4.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b8pre) Gecko/20101114 Firefox/4.0b8pre',
         'properties' => [
@@ -3817,21 +3232,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b8pre) Gecko/20101114 Firefox/4.0b8pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b11pre) Gecko/20110128 Firefox/4.0b11pre',
@@ -3887,21 +3287,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b11pre) Gecko/20110128 Firefox/4.0b11pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0b12) Gecko/20100101 Firefox/4.0b12',
         'properties' => [
@@ -3955,21 +3340,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0b12) Gecko/20100101 Firefox/4.0b12',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:2.0b9; ; NCLIENT50_AAPBD7A9D23086) Gecko/20100101 Firefox/4.0b9',
@@ -4025,21 +3395,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:2.0b9; ; NCLIENT50_AAPBD7A9D23086) Gecko/20100101 Firefox/4.0b9',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT; Windows NT 6.3; en-US) Gecko/20100401 Firefox/4.0',
         'properties' => [
@@ -4093,21 +3448,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT; Windows NT 6.3; en-US) Gecko/20100401 Firefox/4.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ko; rv:1.9.0.6pre) Gecko/20100401 Firefox/4.0',
@@ -4217,21 +3557,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; bg; rv:1.9.0.3) Gecko/20100401 Firefox/4.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BM' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
         'properties' => [
@@ -4286,21 +3611,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BN' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:2.0.1) Gecko/20110430 Firefox/4.0.1',
         'properties' => [
@@ -4354,21 +3664,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:2.0.1) Gecko/20110430 Firefox/4.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BO' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; de; rv:1.9.3a3pre) Gecko/20100903 Firefox/4.0b6pre',
@@ -4477,21 +3772,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; ca; rv:1.7.10) Gecko/20100903 Firefox/4.0b6pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; ru; rv:1.9b5pre) Gecko/20100401 Firefox/4.0',
@@ -4709,21 +3989,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:10.0.2) Gecko/20100101 Firefox/10.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:12.0) Gecko/20100101 Firefox/12.0',
         'properties' => [
@@ -4777,21 +4042,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:12.0) Gecko/20100101 Firefox/12.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:11.0) Gecko/20100101 Firefox/11.0',
@@ -4847,21 +4097,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:11.0) Gecko/20100101 Firefox/11.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:6.0.1) Gecko/20100101 Firefox/6.0.1',
         'properties' => [
@@ -4915,21 +4150,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:6.0.1) Gecko/20100101 Firefox/6.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
@@ -4985,21 +4205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-BY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:12.0) Gecko/20100101 Firefox/12.0',
         'properties' => [
@@ -5053,21 +4258,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-BY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:12.0) Gecko/20100101 Firefox/12.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-BZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:7.0) Gecko/20100101 Firefox/7.0',
@@ -5123,21 +4313,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-BZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:7.0) Gecko/20100101 Firefox/7.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:12.0) Gecko/20100101 Firefox/12.0',
         'properties' => [
@@ -5191,21 +4366,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:12.0) Gecko/20100101 Firefox/12.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0; ; LSCABLE_AAPA0AEA2188F8) Gecko/20100101 Firefox/8.0 CometBird/8.0',
@@ -5261,21 +4421,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0; ; LSCABLE_AAPA0AEA2188F8) Gecko/20100101 Firefox/8.0 CometBird/8.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
         'properties' => [
@@ -5330,21 +4475,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
         'properties' => [
@@ -5398,21 +4528,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
@@ -5792,21 +4907,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:8.0.1) Gecko/20100101 Firefox/8.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
         'properties' => [
@@ -5860,21 +4960,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20100101 Firefox/8.0',
@@ -5930,21 +5015,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20100101 Firefox/8.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:11.0) Gecko/20120909 Firefox/11.0',
         'properties' => [
@@ -5998,21 +5068,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:11.0) Gecko/20120909 Firefox/11.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
@@ -6068,21 +5123,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:10.0) Gecko/20100101 Firefox/10.0',
         'properties' => [
@@ -6136,21 +5176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:10.0) Gecko/20100101 Firefox/10.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:12.0) Gecko/16.0 Firefox/12.0',
@@ -6206,21 +5231,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:12.0) Gecko/16.0 Firefox/12.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:6.0.2) Gecko/20100101 Firefox/6.0.2',
         'properties' => [
@@ -6274,21 +5284,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:6.0.2) Gecko/20100101 Firefox/6.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CS' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:5.0) Gecko/20100101 Firefox/5.0',
@@ -6398,21 +5393,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0',
         'properties' => [
@@ -6467,21 +5447,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CV' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 Firefox/9.0.1',
         'properties' => [
@@ -6535,21 +5500,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 Firefox/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-CW' => [
         'ua' => 'Mozilla/5.0 (X11; SunOS sun4v; rv:10.0.2) Gecko/20100101 Firefox/10.0.2',
@@ -6679,21 +5629,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:11.0) Gecko/20100101 Firefox/11.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CY' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0',
         'properties' => [
@@ -6768,21 +5703,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:14.0) Gecko/20100101 Firefox/14.0.1',
         'properties' => [
@@ -6836,21 +5756,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -6906,21 +5811,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:14.0) Gecko/20100101 Firefox/14.0',
         'properties' => [
@@ -6974,21 +5864,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:14.0) Gecko/20100101 Firefox/14.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -7044,21 +5919,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:16.0) Gecko/20100101 Firefox/16.0',
         'properties' => [
@@ -7112,21 +5972,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0',
@@ -7182,21 +6027,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:13.0) Gecko/20100101 Firefox/13.0',
         'properties' => [
@@ -7250,21 +6080,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:13.0) Gecko/20100101 Firefox/13.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -7374,21 +6189,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0',
         'properties' => [
@@ -7442,21 +6242,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -7512,21 +6297,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
         'properties' => [
@@ -7580,21 +6350,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0',
@@ -7650,21 +6405,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
         'properties' => [
@@ -7718,21 +6458,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -7788,21 +6513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/16.0 Firefox/15.0',
         'properties' => [
@@ -7856,21 +6566,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/16.0 Firefox/15.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1',
@@ -7926,21 +6621,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
         'properties' => [
@@ -7994,21 +6674,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; WOW64; rv:15.0) Gecko/20121011 Firefox/15.0.1',
@@ -8118,21 +6783,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DS (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0',
         'properties' => [
@@ -8187,21 +6837,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0',
         'properties' => [
@@ -8255,21 +6890,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DV' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0.1',
@@ -8343,21 +6963,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1381-DV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DW' => [
@@ -8434,21 +7039,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-DW (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:20.0) Gecko/20100101 Firefox/20.0',
         'properties' => [
@@ -8502,21 +7092,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:20.0) Gecko/20100101 Firefox/20.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-DY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:23.0) Gecko/20100101 Firefox/23.0',
@@ -8572,21 +7147,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-DY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:23.0) Gecko/20100101 Firefox/23.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-DZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:19.0) Gecko/20100101 Firefox/19.0',
         'properties' => [
@@ -8640,21 +7200,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-DZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:19.0) Gecko/20100101 Firefox/19.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:22.0) Gecko/20100101 Firefox/22.0',
@@ -8710,21 +7255,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:22.0) Gecko/20100101 Firefox/22.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Firefox/24.0',
         'properties' => [
@@ -8778,21 +7308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Firefox/24.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -8848,21 +7363,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:24.0) Gecko/20100101 Firefox/24.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-ED' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:21.0) Gecko/20100101 Firefox/21.0',
         'properties' => [
@@ -8916,21 +7416,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-ED (lite)' => [
-        'ua' => 'Mozilla/5.0 (masking-agent; rv:21.0) Gecko/20100101 Firefox/21.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EE' => [
         'ua' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -9364,21 +7849,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:22.0) Gecko/20100101 Firefox/22.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.0) Gecko/20100101 Firefox/25.0',
         'properties' => [
@@ -9432,21 +7902,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.0) Gecko/20100101 Firefox/25.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:26.0) Gecko/20131129 Firefox/26.0',
@@ -9502,21 +7957,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:26.0) Gecko/20131129 Firefox/26.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:22.0) Gecko/20130405 Firefox/22.0',
         'properties' => [
@@ -9570,21 +8010,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:22.0) Gecko/20130405 Firefox/22.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:23.0) Gecko/20130622 Firefox/23.0',
@@ -9748,21 +8173,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-ER (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0;  Win64; x64; rv:20.0) Gecko/20100101 Firefox/20.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-ES' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
         'properties' => [
@@ -9816,21 +8226,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-ES (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-ET' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0',
@@ -9886,21 +8281,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-ET (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0',
         'properties' => [
@@ -9954,21 +8334,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:22.0) Gecko/16.0 Firefox/22.0',
@@ -10024,21 +8389,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:22.0) Gecko/16.0 Firefox/22.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0',
         'properties' => [
@@ -10092,21 +8442,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:28.0) Gecko/20100101 Firefox/28.0',
@@ -10162,21 +8497,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:28.0) Gecko/20100101 Firefox/28.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-EY' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:25.0) Gecko/20100101 Firefox/25.0',
         'properties' => [
@@ -10230,21 +8550,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-EY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:25.0) Gecko/20100101 Firefox/25.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-EZ' => [
         'ua' => 'Mozilla/5.0 (X11; Porteus Linux i486; rv:18.0.2) Gecko/20100101 Firefox/18.0.2',
@@ -10300,21 +8605,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-EZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Porteus Linux i486; rv:18.0.2) Gecko/20100101 Firefox/18.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FA' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0',
         'properties' => [
@@ -10368,21 +8658,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FB' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0',
@@ -10458,21 +8733,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20130115 Firefox/16.0 Epic/16.0',
         'properties' => [
@@ -10526,21 +8786,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20130115 Firefox/16.0 Epic/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Saina/22.0',
@@ -10758,21 +9003,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android; Mobile; rv:25.0) Gecko/25.0 Firefox/24.9 PaleMoon/25.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FH' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:24.7) Gecko/24.7 Firefox/24.7 PaleMoon/24.7',
         'properties' => [
@@ -10826,21 +9056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android; Tablet; rv:24.7) Gecko/24.7 Firefox/24.7 PaleMoon/24.7',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FI' => [
         'ua' => 'Mozilla/5.0 (Android 4.4; Mobile; rv:18.0) Gecko/18.0 Firefox/18.0',
@@ -11058,21 +9273,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:34.0) Gecko/20100101 Firefox/34.0 Cyberfox/34.1',
-        'properties' => [
-            'Comment' => 'Firefox 34.0',
-            'Browser' => 'Firefox',
-            'Version' => '34.0',
-            'Platform' => 'Win10',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0',
         'properties' => [
@@ -11126,21 +9326,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0',
-        'properties' => [
-            'Comment' => 'Firefox 40.0',
-            'Browser' => 'Firefox',
-            'Version' => '40.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 Cyberfox/36.0',
@@ -11196,21 +9381,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 Cyberfox/36.0',
-        'properties' => [
-            'Comment' => 'Firefox 36.0',
-            'Browser' => 'Firefox',
-            'Version' => '36.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0 Waterfox/31.0',
         'properties' => [
@@ -11264,21 +9434,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0 Waterfox/31.0',
-        'properties' => [
-            'Comment' => 'Firefox 31.0',
-            'Browser' => 'Firefox',
-            'Version' => '31.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:34.0) Gecko/20100101 Firefox/34.0 Light/34.0',
@@ -11334,21 +9489,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:34.0) Gecko/20100101 Firefox/34.0 Light/34.0',
-        'properties' => [
-            'Comment' => 'Firefox 34.0',
-            'Browser' => 'Firefox',
-            'Version' => '34.0',
-            'Platform' => 'Win10',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-FQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:47.0) Gecko/20100101 Firefox/47.0 Light/47.0',
         'properties' => [
@@ -11402,21 +9542,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:47.0) Gecko/20100101 Firefox/47.0 Light/47.0',
-        'properties' => [
-            'Comment' => 'Firefox 47.0',
-            'Browser' => 'Firefox',
-            'Version' => '47.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FR' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -11525,21 +9650,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:38.0.5) Gecko/20100101 Firefox/38.0.5 anonymized by Abelssoft 56062259',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:37.0) Gecko/20100101 Firefox/37.0 anonymized by Abelssoft 385993085',
@@ -11864,21 +9974,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:42.0) Gecko/20100101 Firefox/42.0',
-        'properties' => [
-            'Comment' => 'Firefox 42.0',
-            'Browser' => 'Firefox',
-            'Version' => '42.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-FZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:31.0) Gecko/20100101 Firefox/31.0',
@@ -14046,21 +12141,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-HL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0 Waterfox/50.0',
-        'properties' => [
-            'Comment' => 'Firefox 50.0',
-            'Browser' => 'Firefox',
-            'Version' => '50.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-HM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0 anonymized by Abelssoft 612517034',
         'properties' => [
@@ -14600,21 +12680,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-HV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-HW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -15770,21 +13835,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-IQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; fr; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-IR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; ru; rv:1.9.0.4) Gecko/2008102920  Firefox/3.0.0',
         'properties' => [
@@ -15838,21 +13888,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-IR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; ru; rv:1.9.0.4) Gecko/2008102920  Firefox/3.0.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-IS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0',
@@ -15908,21 +13943,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-IS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-IT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.9a1) Gecko/20061204 Firefox/3.0a1',
         'properties' => [
@@ -15976,21 +13996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-IT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.9a1) Gecko/20061204 Firefox/3.0a1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-IU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; hu; rv:2.0b3pre) Gecko/20070713 Firefox/2.0.0.3',
@@ -16046,21 +14051,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-IU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; hu; rv:2.0b3pre) Gecko/20070713 Firefox/2.0.0.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-IV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.8.0.4) Gecko/20060601 Firefox/2.0.0.2',
         'properties' => [
@@ -16114,21 +14104,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-IV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.8.0.4) Gecko/20060601 Firefox/2.0.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-IW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; de; rv:1.7) Gecko/20070118 Firefox/2.0.0.2pre',
@@ -16184,21 +14159,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-IW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; de; rv:1.7) Gecko/20070118 Firefox/2.0.0.2pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-IX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
         'properties' => [
@@ -16253,21 +14213,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-IX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-IY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
         'properties' => [
@@ -16321,21 +14266,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-IY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-IZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.9a2) Gecko/20080530 Firefox/3.0a2',
@@ -16769,21 +14699,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); de; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x64_64; es-AR; rv:1.9.0.3) Gecko/2008092515 Ubuntu/8.10 (intrepid) Firefox/3.0.3',
         'properties' => [
@@ -16858,21 +14773,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1381-JH (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x64_64; es-AR; rv:1.9.0.3) Gecko/2008092515 Ubuntu/8.10 (intrepid) Firefox/3.0.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JI' => [
         'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; ca; rv:1.8) Gecko/20070317 Firefox/2.0.0.2',
         'properties' => [
@@ -16927,21 +14827,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JI (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; ca; rv:1.8) Gecko/20070317 Firefox/2.0.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.12) Gecko/2009070812 Linux Mint/5 (Elyssa) Firefox/3.0.12',
         'properties' => [
@@ -16995,21 +14880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-JJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.12) Gecko/2009070812 Linux Mint/5 (Elyssa) Firefox/3.0.12',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-JK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.9) Gecko/20071113 BonEcho/2.0.0.9',
@@ -17227,21 +15097,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fr; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13 (.NET CLR 3.5.30729) FBSMTWB',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.0.6) Gecko/2009011913 MRA 5.7 (build 03686) Firefox/3.0.6 (.NET CLR 3.5.30729) sputnik 2.5.3.6',
         'properties' => [
@@ -17296,21 +15151,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.0.6) Gecko/2009011913 MRA 5.7 (build 03686) Firefox/3.0.6 (.NET CLR 3.5.30729) sputnik 2.5.3.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6 sputnik unknown',
         'properties' => [
@@ -17364,21 +15204,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-JP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6 sputnik unknown',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-JQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Windows NT 5.0; en-US; rv:1.9b4) Gecko/2008030318 Firefox/3.0b4',
@@ -17744,21 +15569,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-JW' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
         'properties' => [
@@ -17812,21 +15622,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-JW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-JX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.7) Gecko/20070914 Firefox/2.0.0.7',
@@ -18030,21 +15825,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-JZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ko; rv:1.9.1.8) Gecko/20060719 Firefox/1.5.0.5',
         'properties' => [
@@ -18098,21 +15878,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-KA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ko; rv:1.9.1.8) Gecko/20060719 Firefox/1.5.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-KB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ko; rv:1.9.0.9) Gecko/20051222 Firefox/1.0.7',
@@ -18168,21 +15933,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-KB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ko; rv:1.9.0.9) Gecko/20051222 Firefox/1.0.7',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; ca; rv:1.9.1b3pre) Gecko/20050225 Firefox/1.0.1',
         'properties' => [
@@ -18237,21 +15987,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-KC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; ca; rv:1.9.1b3pre) Gecko/20050225 Firefox/1.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5',
         'properties' => [
@@ -18305,21 +16040,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-KD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-KE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5',
@@ -18699,21 +16419,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-KK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fa; rv:1.9b5pre) Gecko/20060818 Firefox/1.5.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 handyCafeCln/3.3.21',
         'properties' => [
@@ -18767,21 +16472,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-KL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 handyCafeCln/3.3.21',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-KM' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; de-DE; rv:1.7.6) Gecko/20050226 Firefox/1.0.1',
@@ -19053,21 +16743,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-KQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; bg; rv:1.8.1.21) Gecko/20050908 Firefox/1.4',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.0.1) Gecko/20060313 Fedora/1.5.0.1-9 Firefox/1.5.0.1 pango-text',
         'properties' => [
@@ -19122,21 +16797,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-KR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.0.1) Gecko/20060313 Fedora/1.5.0.1-9 Firefox/1.5.0.1 pango-text',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-KS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1',
         'properties' => [
@@ -19190,21 +16850,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-KS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-KT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -19948,21 +17593,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; de; rv:1.9.1b3) Gecko/20090105 Firefox/3.1b3pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.9.1b2pre) Gecko/20090312 Firefox/3.1b3',
         'properties' => [
@@ -20016,21 +17646,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-LG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.9.1b2pre) Gecko/20090312 Firefox/3.1b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-LH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ca; rv:1.8.1.10) Gecko/20090624 Firefox/3.1b3',
@@ -20086,21 +17701,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ca; rv:1.8.1.10) Gecko/20090624 Firefox/3.1b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; ko; rv:1.9.1b3pre) Gecko/20090105 Firefox/3.1b3pre',
         'properties' => [
@@ -20155,21 +17755,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; ko; rv:1.9.1b3pre) Gecko/20090105 Firefox/3.1b3pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.0.15) Gecko/20090624 Firefox/3.1b3',
         'properties' => [
@@ -20223,21 +17808,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-LJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.0.15) Gecko/20090624 Firefox/3.1b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-LK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; he; rv:1.8.16) Gecko/20090407 Firefox/3.1b3',
@@ -20455,21 +18025,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9.1b2pre) Gecko/20081026 Firefox/3.1b2pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2',
         'properties' => [
@@ -20524,21 +18079,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ko; rv:1.8.0.5) Gecko/20090305 Firefox/3.1b3',
         'properties' => [
@@ -20592,21 +18132,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-LP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ko; rv:1.8.0.5) Gecko/20090305 Firefox/3.1b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-LQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; ko; rv:1.9.0.19) Gecko/20090312 Firefox/3.1b3',
@@ -20824,21 +18349,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fa; rv:1.9b1) Gecko/20090312 Firefox/3.1b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.1.5) Gecko/20090105 Firefox/3.1b3pre',
         'properties' => [
@@ -20893,21 +18403,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-LU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.1.5) Gecko/20090105 Firefox/3.1b3pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1381-LV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0',
         'properties' => [
@@ -20961,21 +18456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-LV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0',
-        'properties' => [
-            'Comment' => 'Firefox 53.0',
-            'Browser' => 'Firefox',
-            'Version' => '53.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1381-LW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',

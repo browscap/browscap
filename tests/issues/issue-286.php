@@ -55,21 +55,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-286-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Avant TriCore) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-286-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; Avant Browser; rv:11.0) like Gecko',
         'properties' => [
@@ -124,21 +109,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-286-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; Avant Browser; rv:11.0) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-286-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0; Avant TriCore) Gecko/20100101 Firefox/27.0',
         'properties' => [
@@ -192,20 +162,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-286-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0; Avant TriCore) Gecko/20100101 Firefox/27.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

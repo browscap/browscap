@@ -75,21 +75,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-329-A (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone5,1 build/11D201 (6; dt:79)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-329-B' => [
         'ua' => 'AppStore/2.0 iOS/7.0.4 model/iPhone6,1 (6; dt:89)',
         'properties' => [
@@ -162,21 +147,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-329-B (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.0.4 model/iPhone6,1 (6; dt:89)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-329-C' => [
@@ -253,21 +223,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-329-C (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone3,2 build/11D201 (4; dt:27)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-329-D' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone6,1 build/11D201 (6; dt:89)',
         'properties' => [
@@ -340,21 +295,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-329-D (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone6,1 build/11D201 (6; dt:89)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-329-E' => [
@@ -431,21 +371,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-329-E (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone4,1 build/11D201 (6; dt:73)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-329-F' => [
         'ua' => 'AppStore/2.0 iOS/7.0.6 model/iPhone6,1 (6; dt:89)',
         'properties' => [
@@ -518,21 +443,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-329-F (lite)' => [
-        'ua' => 'AppStore/2.0 iOS/7.0.6 model/iPhone6,1 (6; dt:89)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
 ];

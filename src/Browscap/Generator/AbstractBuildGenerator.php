@@ -72,7 +72,7 @@ abstract class AbstractBuildGenerator
      *
      * @param bool $value
      */
-    public function setCollectPatternIds(bool $value): void
+    public function setCollectPatternIds(bool $value) : void
     {
         $this->collectPatternIds = $value;
     }
@@ -80,7 +80,7 @@ abstract class AbstractBuildGenerator
     /**
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
      */
-    public function setCollectionCreator(CollectionCreator $collectionCreator): void
+    public function setCollectionCreator(CollectionCreator $collectionCreator) : void
     {
         $this->collectionCreator = $collectionCreator;
     }
@@ -88,7 +88,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Helper\CollectionCreator
      */
-    public function getCollectionCreator(): CollectionCreator
+    public function getCollectionCreator() : CollectionCreator
     {
         return $this->collectionCreator;
     }
@@ -96,7 +96,7 @@ abstract class AbstractBuildGenerator
     /**
      * @param \Browscap\Writer\WriterCollection $writerCollection
      */
-    public function setWriterCollection(WriterCollection $writerCollection): void
+    public function setWriterCollection(WriterCollection $writerCollection) : void
     {
         $this->writerCollection = $writerCollection;
     }
@@ -104,7 +104,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Writer\WriterCollection
      */
-    public function getWriterCollection(): WriterCollection
+    public function getWriterCollection() : WriterCollection
     {
         return $this->writerCollection;
     }
@@ -117,7 +117,7 @@ abstract class AbstractBuildGenerator
      *
      * @return string
      */
-    protected function checkDirectoryExists($directory, $type): string
+    protected function checkDirectoryExists($directory, $type) : string
     {
         if (!isset($directory)) {
             throw new \Exception('You must specify a ' . $type . ' folder');
@@ -141,7 +141,7 @@ abstract class AbstractBuildGenerator
      *
      * @param string $version
      */
-    public function run(string $version): void
+    public function run(string $version) : void
     {
         $this->preBuild();
         $this->build($version);
@@ -151,7 +151,7 @@ abstract class AbstractBuildGenerator
     /**
      * runs before the build
      */
-    protected function preBuild(): void
+    protected function preBuild() : void
     {
         $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
         $this->logger->info('Build folder: ' . $this->buildFolder . '');
@@ -162,7 +162,7 @@ abstract class AbstractBuildGenerator
      *
      * @param string $version
      */
-    protected function build(string $version): void
+    protected function build(string $version) : void
     {
         Helper\BuildHelper::run(
             $version,
@@ -177,7 +177,7 @@ abstract class AbstractBuildGenerator
     /**
      * runs after the build
      */
-    protected function postBuild(): void
+    protected function postBuild() : void
     {
         // do nothing here
     }

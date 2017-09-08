@@ -149,21 +149,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1168-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.75 Safari/537.36 CrKey/1.14.32904',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1168-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.51 Safari/537.36 CrKey/1.12.27946',
         'properties' => [
@@ -238,21 +223,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1168-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.51 Safari/537.36 CrKey/1.12.27946',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1168-E' => [
         'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.75 Safari/537.36 CrKey/1.13.31432',
         'properties' => [
@@ -325,21 +295,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1168-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.75 Safari/537.36 CrKey/1.13.31432',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1168-F' => [

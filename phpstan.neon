@@ -4,3 +4,7 @@ parameters:
     - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/src/Util/Tokens.php
   excludes_analyse:
     - */tests/*/data/*
+  ignoreErrors:
+    - '~Parameter #2 \$sort_order of function array_multisort is passed by reference, so it expects variables only.~'
+    - '~Parameter #3 \$sort_flags of function array_multisort is passed by reference, so it expects variables only.~'
+    - '~PHPUnit_Framework_MockObject_MockObject~'

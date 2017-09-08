@@ -26,9 +26,9 @@ class Division
     private $name = '';
 
     /**
-     * @var string
+     * @var string|null
      */
-    private $fileName = '';
+    private $fileName;
 
     /**
      * @var int
@@ -56,13 +56,13 @@ class Division
     private $userAgents = [];
 
     /**
-     * @param string $name
-     * @param int    $sortIndex
-     * @param array  $userAgents
-     * @param bool   $lite
-     * @param bool   $standard
-     * @param array  $versions
-     * @param string $fileName
+     * @param string      $name
+     * @param int         $sortIndex
+     * @param array       $userAgents
+     * @param bool        $lite
+     * @param bool        $standard
+     * @param array       $versions
+     * @param string|null $fileName
      */
     public function __construct(
         string $name,
@@ -71,7 +71,7 @@ class Division
         bool $lite,
         bool $standard = true,
         array $versions = [],
-        string $fileName = null
+        ?string $fileName = null
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -85,7 +85,7 @@ class Division
     /**
      * @return bool
      */
-    public function isLite(): bool
+    public function isLite() : bool
     {
         return $this->lite;
     }
@@ -93,7 +93,7 @@ class Division
     /**
      * @return bool
      */
-    public function isStandard(): bool
+    public function isStandard() : bool
     {
         return $this->standard;
     }
@@ -101,7 +101,7 @@ class Division
     /**
      * @return string
      */
-    public function getName(): string
+    public function getName() : string
     {
         return $this->name;
     }
@@ -109,7 +109,7 @@ class Division
     /**
      * @return int
      */
-    public function getSortIndex(): int
+    public function getSortIndex() : int
     {
         return $this->sortIndex;
     }
@@ -117,7 +117,7 @@ class Division
     /**
      * @return array
      */
-    public function getUserAgents(): array
+    public function getUserAgents() : array
     {
         return $this->userAgents;
     }
@@ -125,15 +125,15 @@ class Division
     /**
      * @return array
      */
-    public function getVersions(): array
+    public function getVersions() : array
     {
         return $this->versions;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getFileName(): string
+    public function getFileName() : ?string
     {
         return $this->fileName;
     }

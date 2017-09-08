@@ -27,7 +27,7 @@ interface FormatterInterface
      *
      * @return string
      */
-    public function getType(): string;
+    public function getType() : string;
 
     /**
      * formats the name of a property
@@ -36,7 +36,7 @@ interface FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyName(string $name): string;
+    public function formatPropertyName(string $name) : string;
 
     /**
      * formats the name of a property
@@ -46,15 +46,15 @@ interface FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyValue($value, string $property): string;
+    public function formatPropertyValue($value, string $property) : string;
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      */
-    public function setFilter(FilterInterface $filter): void;
+    public function setFilter(FilterInterface $filter) : void;
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter(): FilterInterface;
+    public function getFilter() : FilterInterface;
 }

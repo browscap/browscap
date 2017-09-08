@@ -379,21 +379,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-267-G (lite)' => [
-        'ua' => 'FeeddlerRSS 2.4 (iPad; iPhone OS 7.1; en_GB)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-267-H' => [
         'ua' => 'FeedForAll rss2html.php v2',
         'properties' => [
@@ -3998,21 +3983,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-267-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spider.html)',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-267-BX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; )  Firefox/1.5.0.11; 360Spider',
         'properties' => [
@@ -4971,21 +4941,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-267-CN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
-        'properties' => [
-            'Comment' => 'IE 7.0b',
-            'Browser' => 'IE',
-            'Version' => '7.0b',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-267-CO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.19 (KHTML,         like Gecko) Chrome/18.0.1025.45 Safari/535.19',
         'properties' => [
@@ -5599,21 +5554,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-267-DB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-267-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0',

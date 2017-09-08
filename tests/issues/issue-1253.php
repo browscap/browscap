@@ -183,21 +183,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1253-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+',
-        'properties' => [
-            'Comment' => 'Android Browser 5.0',
-            'Browser' => 'Android',
-            'Version' => '5.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1253-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)',
         'properties' => [

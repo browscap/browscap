@@ -70,7 +70,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 
         self::assertInstanceOf(
             '\Browscap\Data\Platform',
-            $this->object->build($platformData, $json, $platformName, $collection)
+            $this->object->build($platformData, $json, $platformName)
         );
     }
 }

@@ -131,7 +131,7 @@ return PhpCsFixer\Config::create()
         'psr0' => true,
         'psr4' => true,
         'random_api_migration' => true,
-        'return_type_declaration' => ['space_before' => 'none'],
+        'return_type_declaration' => ['space_before' => 'one'],
         'self_accessor' => true,
         'semicolon_after_instruction' => true,
         'short_scalar_cast' => true,

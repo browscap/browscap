@@ -75,21 +75,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1262-A (lite)' => [
-        'ua' => 'WhatsApp/2.6.4 iPhone_OS/4.3.3 Device/iPhone_4',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1262-B' => [
         'ua' => 'WhatsApp/2.6.4 iPhone_OS/5.0.1 Device/iPhone_4',
         'properties' => [
@@ -162,21 +147,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1262-B (lite)' => [
-        'ua' => 'WhatsApp/2.6.4 iPhone_OS/5.0.1 Device/iPhone_4',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
 ];

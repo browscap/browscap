@@ -84,8 +84,6 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
 
     /**
      * closes the Writer and the written File
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
     public function close()
     {
@@ -308,7 +306,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|true)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName

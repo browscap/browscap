@@ -51,7 +51,7 @@ class IniParser implements ParserInterface
     /**
      * @param bool $shouldSort
      */
-    public function setShouldSort(bool $shouldSort): void
+    public function setShouldSort(bool $shouldSort) : void
     {
         $this->shouldSort = $shouldSort;
     }
@@ -59,7 +59,7 @@ class IniParser implements ParserInterface
     /**
      * @return bool
      */
-    public function shouldSort(): bool
+    public function shouldSort() : bool
     {
         return $this->shouldSort;
     }
@@ -67,7 +67,7 @@ class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getParsed(): array
+    public function getParsed() : array
     {
         return $this->data;
     }
@@ -75,7 +75,7 @@ class IniParser implements ParserInterface
     /**
      * @return string
      */
-    public function getFilename(): string
+    public function getFilename() : string
     {
         return $this->filename;
     }
@@ -85,7 +85,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    public function getLinesFromFile(): array
+    public function getLinesFromFile() : array
     {
         $filename = $this->filename;
 
@@ -99,7 +99,7 @@ class IniParser implements ParserInterface
     /**
      * @param string[] $fileLines
      */
-    public function setFileLines(array $fileLines): void
+    public function setFileLines(array $fileLines) : void
     {
         $this->fileLines = $fileLines;
     }
@@ -107,7 +107,7 @@ class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getFileLines(): array
+    public function getFileLines() : array
     {
         if (!$this->fileLines) {
             $fileLines = $this->getLinesFromFile();
@@ -123,7 +123,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    public function parse(): array
+    public function parse() : array
     {
         $fileLines = $this->getFileLines();
 
@@ -183,7 +183,7 @@ class IniParser implements ParserInterface
      *
      * @return array
      */
-    protected function sortArrayAndChildArrays(array $array): array
+    protected function sortArrayAndChildArrays(array $array) : array
     {
         ksort($array);
 

@@ -109,7 +109,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    public function process(array $coveredIds): void
+    public function process(array $coveredIds) : void
     {
         $this->setCoveredPatternIds($coveredIds);
 
@@ -142,7 +142,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    public function write(string $fileName): void
+    public function write(string $fileName) : void
     {
         file_put_contents(
             $fileName,
@@ -171,7 +171,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    public function getCoveredPatternIds(): array
+    public function getCoveredPatternIds() : array
     {
         return $this->coveredIds;
     }
@@ -185,7 +185,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    public function processFile(string $file, string $contents, array $coveredIds): array
+    public function processFile(string $file, string $contents, array $coveredIds) : array
     {
         // These keynames are expected by Istanbul compatible coverage reporters
         // the format is outlined here: https://github.com/gotwarlost/istanbul/blob/master/coverage.json.md
@@ -241,7 +241,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = ''): array
+    private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = '') : array
     {
         $lineNumber  = $lexer->yylineno;
         $lineContent = $this->fileLines[$lineNumber];
@@ -269,7 +269,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function handleJsonRoot(Lexer $lexer): void
+    private function handleJsonRoot(Lexer $lexer) : void
     {
         do {
             $code = $lexer->lex();
@@ -290,7 +290,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleJsonDivision(Lexer $lexer): int
+    private function handleJsonDivision(Lexer $lexer) : int
     {
         $enterUaGroup = false;
 
@@ -317,7 +317,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleUseragentGroup(Lexer $lexer): int
+    private function handleUseragentGroup(Lexer $lexer) : int
     {
         $useragentPosition = 0;
 
@@ -341,7 +341,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleUseragentBlock(Lexer $lexer, int $useragentPosition): int
+    private function handleUseragentBlock(Lexer $lexer, int $useragentPosition) : int
     {
         $enterChildGroup = false;
 
@@ -369,7 +369,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleChildrenGroup(Lexer $lexer, int $useragentPosition): int
+    private function handleChildrenGroup(Lexer $lexer, int $useragentPosition) : int
     {
         $childPosition = 0;
 
@@ -394,7 +394,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
+    private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
     {
         $enterPlatforms = false;
         $enterDevices   = false;
@@ -461,7 +461,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
+    private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
     {
         $capturedKey = false;
         $sawColon    = false;
@@ -506,7 +506,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
+    private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
     {
         $branchStart     = $this->getLocationCoordinates($lexer);
         $branchLocations = [];
@@ -541,7 +541,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function ignoreObjectBlock(Lexer $lexer): int
+    private function ignoreObjectBlock(Lexer $lexer) : int
     {
         do {
             $code = $lexer->lex();
@@ -565,7 +565,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0): void
+    private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0) : void
     {
         $this->fileCoverage['fnMap'][] = [
             'name' => '(anonymous_' . $this->funcCount . ')',
@@ -592,7 +592,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectBranch(array $start, array $end, array $locations, array $coverage = []): void
+    private function collectBranch(array $start, array $end, array $locations, array $coverage = []) : void
     {
         $this->fileCoverage['branchMap'][] = [
             'type' => 'switch',
@@ -619,7 +619,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    private function collectStatement(array $start, array $end, int $coverage = 0): void
+    private function collectStatement(array $start, array $end, int $coverage = 0) : void
     {
         $this->fileCoverage['statementMap'][] = [
             'start' => $start,
@@ -636,7 +636,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    private function groupIdsByFile(array $ids): array
+    private function groupIdsByFile(array $ids) : array
     {
         $covered = [];
 
@@ -661,7 +661,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function getCoverageCount(string $id, array $covered): int
+    private function getCoverageCount(string $id, array $covered) : int
     {
         $id                  = str_replace('\/', '/', $id);
         list($u, $c, $d, $p) = explode('::', $id);

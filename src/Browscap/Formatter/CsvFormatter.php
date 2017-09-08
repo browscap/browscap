@@ -33,7 +33,7 @@ class CsvFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function getType(): string
+    public function getType() : string
     {
         return 'csv';
     }
@@ -45,7 +45,7 @@ class CsvFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyName(string $name): string
+    public function formatPropertyName(string $name) : string
     {
         return '"' . str_replace('"', '""', $name) . '"';
     }
@@ -58,7 +58,7 @@ class CsvFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyValue($value, string $property): string
+    public function formatPropertyValue($value, string $property) : string
     {
         $valueOutput    = $value;
         $propertyHolder = new PropertyHolder();
@@ -98,7 +98,7 @@ class CsvFormatter implements FormatterInterface
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      */
-    public function setFilter(FilterInterface $filter): void
+    public function setFilter(FilterInterface $filter) : void
     {
         $this->filter = $filter;
     }
@@ -106,7 +106,7 @@ class CsvFormatter implements FormatterInterface
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter(): FilterInterface
+    public function getFilter() : FilterInterface
     {
         return $this->filter;
     }

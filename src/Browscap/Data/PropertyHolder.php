@@ -37,7 +37,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function getPropertyType(string $propertyName): string
+    public function getPropertyType(string $propertyName) : string
     {
         $stringProperties = [
             'Comment' => 1,
@@ -139,7 +139,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isLiteModeProperty(string$propertyName, ?WriterInterface $writer = null): bool
+    public function isLiteModeProperty(string$propertyName, ?WriterInterface $writer = null) : bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -176,7 +176,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isStandardModeProperty(string $propertyName, ?WriterInterface $writer = null): bool
+    public function isStandardModeProperty(string $propertyName, ?WriterInterface $writer = null) : bool
     {
         $outputProperties = [
             'MajorVer' => 1,
@@ -210,7 +210,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isOutputProperty(string $propertyName, ?WriterInterface $writer = null): bool
+    public function isOutputProperty(string $propertyName, ?WriterInterface $writer = null) : bool
     {
         $outputProperties = [
             'Comment' => 1,
@@ -293,7 +293,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function checkValueInArray(string $property, string $value): string
+    public function checkValueInArray(string $property, string $value) : string
     {
         switch ($property) {
             case 'Browser_Type':

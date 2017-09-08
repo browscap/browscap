@@ -1938,6 +1938,7 @@ return [
             'Platform_Bits' => '32',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

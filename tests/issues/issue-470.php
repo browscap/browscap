@@ -399,19 +399,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-470-G (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.0; Windows NT 5.1; Trident/4.0; BTRS101576; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbAVR-W1/5.15.11.30498)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

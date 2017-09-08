@@ -34,7 +34,7 @@ class WriterCollection
      *
      * @param \Browscap\Writer\WriterInterface $writer
      */
-    public function addWriter(WriterInterface $writer): void
+    public function addWriter(WriterInterface $writer) : void
     {
         $this->writers[] = $writer;
     }
@@ -42,7 +42,7 @@ class WriterCollection
     /**
      * closes the Writer and the written File
      */
-    public function close(): void
+    public function close() : void
     {
         foreach ($this->writers as $writer) {
             $writer->close();
@@ -52,7 +52,7 @@ class WriterCollection
     /**
      * @param \Browscap\Data\Division $division
      */
-    public function setSilent(Division $division): void
+    public function setSilent(Division $division) : void
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutput($division));
@@ -62,7 +62,7 @@ class WriterCollection
     /**
      * @param Expander $expander
      */
-    public function setExpander(Expander $expander): void
+    public function setExpander(Expander $expander) : void
     {
         foreach ($this->writers as $writer) {
             if ($writer instanceof WriterNeedsExpanderInterface) {
@@ -74,7 +74,7 @@ class WriterCollection
     /**
      * @param mixed $section
      */
-    public function setSilentSection($section): void
+    public function setSilentSection($section) : void
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutputSection($section));
@@ -84,7 +84,7 @@ class WriterCollection
     /**
      * Generates a start sequence for the output file
      */
-    public function fileStart(): void
+    public function fileStart() : void
     {
         foreach ($this->writers as $writer) {
             $writer->fileStart();
@@ -94,7 +94,7 @@ class WriterCollection
     /**
      * Generates a end sequence for the output file
      */
-    public function fileEnd(): void
+    public function fileEnd() : void
     {
         foreach ($this->writers as $writer) {
             $writer->fileEnd();
@@ -106,7 +106,7 @@ class WriterCollection
      *
      * @param string[] $comments
      */
-    public function renderHeader(array $comments = []): void
+    public function renderHeader(array $comments = []) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderHeader($comments);
@@ -119,7 +119,7 @@ class WriterCollection
      * @param string                        $version
      * @param \Browscap\Data\DataCollection $collection
      */
-    public function renderVersion($version, DataCollection $collection): void
+    public function renderVersion($version, DataCollection $collection) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
@@ -138,7 +138,7 @@ class WriterCollection
      *
      * @param \Browscap\Data\DataCollection $collection
      */
-    public function renderAllDivisionsHeader(DataCollection $collection): void
+    public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderAllDivisionsHeader($collection);
@@ -151,7 +151,7 @@ class WriterCollection
      * @param string $division
      * @param string $parent
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties'): void
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderDivisionHeader($division, $parent);
@@ -163,7 +163,7 @@ class WriterCollection
      *
      * @param string $sectionName
      */
-    public function renderSectionHeader($sectionName): void
+    public function renderSectionHeader($sectionName) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionHeader($sectionName);
@@ -173,14 +173,14 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|true)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = ''): void
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionBody($section, $collection, $sections, $sectionName);
@@ -192,7 +192,7 @@ class WriterCollection
      *
      * @param string $sectionName
      */
-    public function renderSectionFooter($sectionName = ''): void
+    public function renderSectionFooter($sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionFooter($sectionName);
@@ -202,7 +202,7 @@ class WriterCollection
     /**
      * renders the footer for a division
      */
-    public function renderDivisionFooter(): void
+    public function renderDivisionFooter() : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderDivisionFooter();
@@ -212,7 +212,7 @@ class WriterCollection
     /**
      * renders the footer for all divisions
      */
-    public function renderAllDivisionsFooter(): void
+    public function renderAllDivisionsFooter() : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderAllDivisionsFooter();

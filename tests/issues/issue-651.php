@@ -4089,21 +4089,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-651-BU (lite)' => [
-        'ua' => 'MobileSafari/600.1.4 CFNetwork/711.0.6 Darwin/14.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-651-BV' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
@@ -4158,21 +4143,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-651-BV (lite)' => [
-        'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-651-BX' => [
         'ua' => 'MobileSafari/7534.48.3 CFNetwork/548.1.4 Darwin/11.0.0',
         'properties' => [
@@ -4226,21 +4196,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-651-BX (lite)' => [
-        'ua' => 'MobileSafari/7534.48.3 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-651-BZ' => [
         'ua' => 'MobileSafari/8536.25 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -4673,21 +4628,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-651-CH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 Kenshoo/3049',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-651-CI' => [
         'ua' => 'PacMan/14193 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -5431,21 +5371,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-651-CU (lite)' => [
-        'ua' => 'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBook5%2C1)',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-651-CV' => [
         'ua' => 'Safari/6534.59.8 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (Macmini1%2C1)',
         'properties' => [
@@ -5499,21 +5424,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-651-CV (lite)' => [
-        'ua' => 'Safari/6534.59.8 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (Macmini1%2C1)',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-651-CW' => [
         'ua' => 'Safari/8536.30.1 CFNetwork/596.4.3 Darwin/12.4.0 (x86_64) (Macmini6%2C2)',

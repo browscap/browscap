@@ -163,21 +163,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1271-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Xbox)',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1271-D' => [
         'ua' => 'Mozilla/5.0 (PLAYSTATION 3; 4.66) AppleWebKit/531.22.8 (KHTML, like Gecko)',
         'properties' => [
@@ -468,21 +453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1271-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Xbox; Xbox One)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1271-I' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/10.0; Xbox; Xbox One)',
         'properties' => [
@@ -536,20 +506,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1271-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/10.0; Xbox; Xbox One)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win32',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

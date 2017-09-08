@@ -55,21 +55,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Version/10.0 Mobile/14A5261v Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.0.2 Mobile/14A456 Safari/537.36 Puffin/4.7.2IT',
         'properties' => [
@@ -123,21 +108,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.0.2 Mobile/14A456 Safari/537.36 Puffin/4.7.2IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1 like Mac OS X; de-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1 Mobile/14B72 Safari/537.36 Puffin/5.1.2IT',
@@ -193,21 +163,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1 like Mac OS X; de-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1 Mobile/14B72 Safari/537.36 Puffin/5.1.2IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.1',
-            'Browser' => 'Safari',
-            'Version' => '10.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X; de-AT) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.2 Mobile/14C92 Safari/537.36 Puffin/5.1.3IT',
         'properties' => [
@@ -261,21 +216,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X; de-AT) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.2 Mobile/14C92 Safari/537.36 Puffin/5.1.3IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.2',
-            'Browser' => 'Safari',
-            'Version' => '10.2',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-E' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.2 Mobile/11D257 Safari/537.36 Puffin/4.4.0IT',
@@ -331,21 +271,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.2 Mobile/11D257 Safari/537.36 Puffin/4.4.0IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.1',
-            'Browser' => 'Safari',
-            'Version' => '7.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-F' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X; en-LK) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1 Mobile/12B410 Safari/537.36 Puffin/4.2.1IT',
         'properties' => [
@@ -399,21 +324,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X; en-LK) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1 Mobile/12B410 Safari/537.36 Puffin/4.2.1IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.1',
-            'Browser' => 'Safari',
-            'Version' => '8.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1.1 Mobile/12B435 Safari/537.36 Puffin/5.1.1IT',
@@ -469,21 +379,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1.1 Mobile/12B435 Safari/537.36 Puffin/5.1.1IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.1',
-            'Browser' => 'Safari',
-            'Version' => '8.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-H' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X; es-CO) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.2 Mobile/12D508 Safari/537.36 Puffin/5.1.1IT',
         'properties' => [
@@ -537,21 +432,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X; es-CO) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.2 Mobile/12D508 Safari/537.36 Puffin/5.1.1IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-I' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X; it-CH) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.2 Mobile/12D508 Safari/537.36 Puffin/4.7.3IT',
@@ -607,21 +487,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X; it-CH) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.2 Mobile/12D508 Safari/537.36 Puffin/4.7.3IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-J' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X; fr-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.3 Mobile/12F69 Safari/537.36 Puffin/4.4.0IT',
         'properties' => [
@@ -675,21 +540,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X; fr-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.3 Mobile/12F69 Safari/537.36 Puffin/4.4.0IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-K' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.3 Mobile/12F69 Safari/537.36 Puffin/5.1.1IT',
@@ -745,21 +595,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.3 Mobile/12F69 Safari/537.36 Puffin/5.1.1IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-L' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4 Mobile/12H143 Safari/537.36 Puffin/5.0.3IT',
         'properties' => [
@@ -813,21 +648,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4 Mobile/12H143 Safari/537.36 Puffin/5.0.3IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-M' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4.1 Mobile/12H321 Safari/537.36 Puffin/4.6.0IT',
@@ -883,21 +703,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4.1 Mobile/12H321 Safari/537.36 Puffin/4.6.0IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-N' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.0.2 Mobile/13A452 Safari/537.36 Puffin/4.5.3IT',
         'properties' => [
@@ -951,21 +756,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.0.2 Mobile/13A452 Safari/537.36 Puffin/4.5.3IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.0',
-            'Browser' => 'Safari',
-            'Version' => '9.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-O' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X; nl-NL) AppleWebKit/537.36 (KHTML, like Gecko) Version/9.1 Mobile/13B143 Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',
@@ -1021,21 +811,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X; nl-NL) AppleWebKit/537.36 (KHTML, like Gecko) Version/9.1 Mobile/13B143 Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.1',
-            'Browser' => 'Safari',
-            'Version' => '9.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-P' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X; en-IE) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2 Mobile/13C75 Safari/537.36 Puffin/4.7.2IT',
         'properties' => [
@@ -1089,21 +864,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X; en-IE) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2 Mobile/13C75 Safari/537.36 Puffin/4.7.2IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.2',
-            'Browser' => 'Safari',
-            'Version' => '9.2',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-Q' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2.1 Mobile/13D15 Safari/537.36 Puffin/5.1.3IT',
@@ -1159,21 +919,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2.1 Mobile/13D15 Safari/537.36 Puffin/5.1.3IT',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.2',
-            'Browser' => 'Safari',
-            'Version' => '9.2',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-R' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_0_1 like Mac OS X; el-GR) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IT Mobile',
         'properties' => [
@@ -1227,21 +972,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_0_1 like Mac OS X; el-GR) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-S' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_1_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
@@ -1297,21 +1027,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_1_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-T' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-HK) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
         'properties' => [
@@ -1365,21 +1080,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-HK) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-U' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_1 like Mac OS X; de-CH) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
@@ -1435,21 +1135,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_1 like Mac OS X; de-CH) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-V' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_1 like Mac OS X; en-CA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961 Mobile',
         'properties' => [
@@ -1503,21 +1188,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 6_1 like Mac OS X; en-CA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.7961 Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-W' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_0_3 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.1IT Mobile',
@@ -1573,21 +1243,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_0_3 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.1IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-X' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_0_4 like Mac OS X; ar-SA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.1IT Mobile',
         'properties' => [
@@ -1641,21 +1296,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_0_4 like Mac OS X; ar-SA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.1IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-Y' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1 like Mac OS X; de-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IT Mobile',
@@ -1711,21 +1351,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-Y (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1 like Mac OS X; de-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-Z' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
         'properties' => [
@@ -1779,21 +1404,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-AA' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1_2 like Mac OS X; ar-KW) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.4IT Mobile',
@@ -1849,21 +1459,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_1_2 like Mac OS X; ar-KW) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.4IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AB' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_0_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.2IT Mobile',
         'properties' => [
@@ -1917,21 +1512,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_0_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.2IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-AC' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_1 like Mac OS X; da-DK) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
@@ -1987,21 +1567,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_1 like Mac OS X; da-DK) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AD' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_1_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
         'properties' => [
@@ -2055,21 +1620,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_1_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-AE' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_2 like Mac OS X; ca-ES) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
@@ -2125,21 +1675,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_2 like Mac OS X; ca-ES) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AF' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
         'properties' => [
@@ -2194,21 +1729,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_2 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AG' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_3 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
         'properties' => [
@@ -2262,21 +1782,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 8_3 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IT Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-AH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X; ko-Kore-KR) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.0.1 Mobile/14A403 Safari/537.36 Puffin/4.7.2IP',
@@ -2350,21 +1855,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X; ko-Kore-KR) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.0.1 Mobile/14A403 Safari/537.36 Puffin/4.7.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AI' => [
@@ -2441,21 +1931,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X; es-MX) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1.1 Mobile/14B100 Safari/537.36 Puffin/1.6.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.1',
-            'Browser' => 'Safari',
-            'Version' => '10.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-GB) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.0 Mobile/11A465 Safari/537.36 Puffin/5.1.3IP',
         'properties' => [
@@ -2528,21 +2003,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-GB) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.0 Mobile/11A465 Safari/537.36 Puffin/5.1.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.0',
-            'Browser' => 'Safari',
-            'Version' => '7.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AK' => [
@@ -2619,21 +2079,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.0.3 Mobile/11B511 Safari/537.36 Puffin/1.6.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.0',
-            'Browser' => 'Safari',
-            'Version' => '7.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X; ja-JP) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.0.4 Mobile/11B554a Safari/537.36 Puffin/4.5.0IP',
         'properties' => [
@@ -2706,21 +2151,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X; ja-JP) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.0.4 Mobile/11B554a Safari/537.36 Puffin/4.5.0IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.0',
-            'Browser' => 'Safari',
-            'Version' => '7.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AM' => [
@@ -2797,21 +2227,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X; af-ZA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1 Mobile/11D169 Safari/537.36 Puffin/5.1.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.1',
-            'Browser' => 'Safari',
-            'Version' => '7.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.1 Mobile/11D201 Safari/537.36 Puffin/1.6.2IP',
         'properties' => [
@@ -2884,21 +2299,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AN (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.1 Mobile/11D201 Safari/537.36 Puffin/1.6.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.1',
-            'Browser' => 'Safari',
-            'Version' => '7.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AO' => [
@@ -2975,21 +2375,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; ar-YE) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.2 Mobile/11D257 Safari/537.36 Puffin/4.7.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.1',
-            'Browser' => 'Safari',
-            'Version' => '7.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X; en-AF@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.0 Mobile/12A365 Safari/537.36 Puffin/4.4.1IP',
         'properties' => [
@@ -3062,21 +2447,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X; en-AF@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.0 Mobile/12A365 Safari/537.36 Puffin/4.4.1IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AQ' => [
@@ -3153,21 +2523,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.0.2 Mobile/12A405 Safari/537.36 Puffin/5.1.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X; en-PK) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1.2 Mobile/12B440 Safari/537.36 Puffin/4.4.0IP',
         'properties' => [
@@ -3240,21 +2595,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AR (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X; en-PK) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.1.2 Mobile/12B440 Safari/537.36 Puffin/4.4.0IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.1',
-            'Browser' => 'Safari',
-            'Version' => '8.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AS' => [
@@ -3331,21 +2671,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AS (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X; ru-RU) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.2 Mobile/12D508 Safari/537.36 Puffin/4.7.3IP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AT' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X; ar-AZ) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.3 Mobile/12F70 Safari/537.36 Puffin/5.0.3IP Chrome/49.0.2623',
         'properties' => [
@@ -3418,21 +2743,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AT (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X; ar-AZ) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.3 Mobile/12F70 Safari/537.36 Puffin/5.0.3IP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AU' => [
@@ -3509,21 +2819,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X; en-AU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.3 Mobile/12F70 Safari/537.36 Puffin/4.2.1IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X; ar-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4 Mobile/12H143 Safari/537.36 Puffin/4.5.0IP',
         'properties' => [
@@ -3596,21 +2891,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X; ar-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/8.4 Mobile/12H143 Safari/537.36 Puffin/4.5.0IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AW' => [
@@ -3687,21 +2967,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.0 Mobile/13A344 Safari/537.36 Puffin/4.5.0IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.0',
-            'Browser' => 'Safari',
-            'Version' => '9.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AX' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.1 Mobile/13B143 Safari/537.36 Puffin/4.6.1IP',
         'properties' => [
@@ -3774,21 +3039,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AX (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X; en-SA@calendar=gregorian) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.1 Mobile/13B143 Safari/537.36 Puffin/4.6.1IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.1',
-            'Browser' => 'Safari',
-            'Version' => '9.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-AY' => [
@@ -3865,21 +3115,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-AY (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2 Mobile/13C75 Safari/537.36 Puffin/4.7.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.2',
-            'Browser' => 'Safari',
-            'Version' => '9.2',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-AZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X; tr-TR) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.3 Mobile/13E234 Safari/537.36 Puffin/4.7.3IP',
         'properties' => [
@@ -3952,21 +3187,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-AZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X; tr-TR) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.3 Mobile/13E234 Safari/537.36 Puffin/4.7.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BA' => [
@@ -4043,21 +3263,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BA (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.3.5 Mobile/13G36 Safari/537.36 Puffin/1.6.1IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BB' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_0_1 like Mac OS X; en-PK) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IP Mobile',
         'properties' => [
@@ -4130,21 +3335,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-BB (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_0_1 like Mac OS X; en-PK) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10977IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BC' => [
@@ -4221,21 +3411,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BC (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-US) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.9909IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BD' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IP Mobile',
         'properties' => [
@@ -4308,21 +3483,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-BD (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BE' => [
@@ -4399,21 +3559,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BE (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_1_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BF' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_1_2 like Mac OS X; en-GB) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IP Mobile',
         'properties' => [
@@ -4486,21 +3631,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-BF (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_1_2 like Mac OS X; en-GB) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BG' => [
@@ -4577,21 +3707,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BG (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_0_2 like Mac OS X; en-ID) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BH' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_0_2 like Mac OS X; en-PK) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.3IP Mobile',
         'properties' => [
@@ -4664,21 +3779,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-BH (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_0_2 like Mac OS X; en-PK) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.3IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BI' => [
@@ -4755,21 +3855,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BI (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_1 like Mac OS X; es-CR) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_1 like Mac OS X; pl-PL) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.1IP Mobile',
         'properties' => [
@@ -4842,21 +3927,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-BJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_1 like Mac OS X; pl-PL) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.1IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-BK' => [
@@ -4933,21 +4003,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BK (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BL' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_3 like Mac OS X; en-AU) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IP Mobile',
         'properties' => [
@@ -5022,21 +4077,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-BL (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_3 like Mac OS X; en-AU) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.1.2IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BM' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 10_1_1 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1.1 Mobile/14B100 Safari/537.36 Puffin/5.1.3IP',
         'properties' => [
@@ -5090,21 +4130,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BM (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 10_1_1 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1.1 Mobile/14B100 Safari/537.36 Puffin/5.1.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.1',
-            'Browser' => 'Safari',
-            'Version' => '10.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BN' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/6.1.6 Mobile/10B500 Safari/537.36 Puffin/4.7.3IP',
@@ -5160,21 +4185,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BN (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/6.1.6 Mobile/10B500 Safari/537.36 Puffin/4.7.3IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 6.1',
-            'Browser' => 'Safari',
-            'Version' => '6.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BO' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 7_1_1 like Mac OS X; en-AU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.1 Mobile/11D201 Safari/537.36 Puffin/4.4.0IP',
         'properties' => [
@@ -5228,21 +4238,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BO (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 7_1_1 like Mac OS X; en-AU) AppleWebKit/537.36 (KHTML, like Gecko)  Version/7.1.1 Mobile/11D201 Safari/537.36 Puffin/4.4.0IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 7.1',
-            'Browser' => 'Safari',
-            'Version' => '7.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BP' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_1 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko) Version/9.1 Mobile/13B143 Safari/537.36 Puffin/5.0.3IP Chrome/49.0.2623',
@@ -5298,21 +4293,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_1 like Mac OS X; en-CA) AppleWebKit/537.36 (KHTML, like Gecko) Version/9.1 Mobile/13B143 Safari/537.36 Puffin/5.0.3IP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.1',
-            'Browser' => 'Safari',
-            'Version' => '9.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BQ' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.1 Mobile/13B143 Safari/537.36 Puffin/4.7.2IP',
         'properties' => [
@@ -5366,21 +4346,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.1 Mobile/13B143 Safari/537.36 Puffin/4.7.2IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.1',
-            'Browser' => 'Safari',
-            'Version' => '9.1',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BR' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2 Mobile/13C5060d Safari/537.36 Puffin/4.6.1IP',
@@ -5436,21 +4401,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BR (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_2 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/9.2 Mobile/13C5060d Safari/537.36 Puffin/4.6.1IP',
-        'properties' => [
-            'Comment' => 'Mobile Safari 9.2',
-            'Browser' => 'Safari',
-            'Version' => '9.2',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BS' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-GB) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
         'properties' => [
@@ -5504,21 +4454,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BS (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-GB) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BT' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-GB) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IP Mobile',
@@ -5574,21 +4509,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BT (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-GB) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10080IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BU' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 7_0_6 like Mac OS X; en-CA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636IP Mobile',
         'properties' => [
@@ -5642,21 +4562,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BU (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 7_0_6 like Mac OS X; en-CA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636IP Mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P5100 Build/IML74K; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
@@ -5712,21 +4617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P5100 Build/IML74K; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-S7562 Build/IMM76I; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
         'properties' => [
@@ -5780,21 +4670,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-S7562 Build/IMM76I; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9305 Build/JZO54K; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -5850,21 +4725,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9305 Build/JZO54K; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LT26i Build/6.2.B.1.96; es-mx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
         'properties' => [
@@ -5918,21 +4778,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-BY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; LT26i Build/6.2.B.1.96; es-mx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-BZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; ST26i Build/11.2.A.0.33; en-in) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5988,21 +4833,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-BZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; ST26i Build/11.2.A.0.33; en-in) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2305 Build/16.0.B.2.6; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
         'properties' => [
@@ -6056,21 +4886,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2305 Build/16.0.B.2.6; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-S7275R Build/JDQ39; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -6126,21 +4941,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-S7275R Build/JDQ39; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; HTC Desire 310 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
         'properties' => [
@@ -6194,21 +4994,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; HTC Desire 310 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A889 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -6264,21 +5049,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A889 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SM-T110 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
         'properties' => [
@@ -6332,21 +5102,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SM-T110 Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SM-N9005 Build/JSS15J; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -6402,21 +5157,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SM-N9005 Build/JSS15J; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; B15Q Build/KOT49H; hr-hr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
         'properties' => [
@@ -6470,21 +5210,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; B15Q Build/KOT49H; hr-hr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9195 Build/KOT49H; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -6540,21 +5265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9195 Build/KOT49H; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini 2 Build/KOT49H; ar-eg) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
         'properties' => [
@@ -6608,21 +5318,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini 2 Build/KOT49H; ar-eg) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One_M8 Build/KOT49H; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -6678,21 +5373,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One_M8 Build/KOT49H; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/HUAWEIY520-U22; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
         'properties' => [
@@ -6746,21 +5426,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/HUAWEIY520-U22; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328t Build/KOT49H; uk-ua) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -6816,21 +5481,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328t Build/KOT49H; uk-ua) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KOT49I.D80220c; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
         'properties' => [
@@ -6884,21 +5534,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KOT49I.D80220c; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H; ar-ye) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -6954,21 +5589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H; ar-ye) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; XT907 Build/KDA20.62-15.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
         'properties' => [
@@ -7022,21 +5642,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; XT907 Build/KDA20.62-15.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; C6903 Build/14.4.A.0.108; ar-eg) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -7092,21 +5697,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; C6903 Build/14.4.A.0.108; ar-eg) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.4.A.0.157; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
         'properties' => [
@@ -7160,21 +5750,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.4.A.0.157; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.40; es-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -7230,21 +5805,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.40; es-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.7; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
         'properties' => [
@@ -7298,21 +5858,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.7; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Lenovo A7000-a Build/LRX21M; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
@@ -7368,21 +5913,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Lenovo A7000-a Build/LRX21M; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.6.15710AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A310F Build/MMB29K; fa-ir) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.8.0.2790AP',
         'properties' => [
@@ -7436,21 +5966,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A310F Build/MMB29K; fa-ir) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.8.0.2790AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A510F Build/MMB29K; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -7506,21 +6021,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A510F Build/MMB29K; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A710F Build/MMB29K; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
         'properties' => [
@@ -7574,21 +6074,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A710F Build/MMB29K; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A710F Build/MMB29K; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.8.0.2965AP',
@@ -7644,21 +6129,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A710F Build/MMB29K; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.8.0.2965AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
         'properties' => [
@@ -7713,21 +6183,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-CZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.1; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10511AT Mobile',
         'properties' => [
@@ -7781,21 +6236,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-CZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.1; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10511AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; fa-fa) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
@@ -7871,21 +6311,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-DA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; fa-fa) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
         'properties' => [
@@ -7939,21 +6364,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-au) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
@@ -8009,21 +6419,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-au) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
         'properties' => [
@@ -8077,21 +6472,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
@@ -8147,21 +6527,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AP Mobile',
         'properties' => [
@@ -8215,21 +6580,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
@@ -8285,21 +6635,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; fr-fr) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
         'properties' => [
@@ -8353,21 +6688,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; fr-fr) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-au) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AT Mobile',
@@ -8423,21 +6743,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-au) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AP Mobile',
         'properties' => [
@@ -8491,21 +6796,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT',
@@ -8561,21 +6851,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-in) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10248AP Mobile',
         'properties' => [
@@ -8629,21 +6904,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-in) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10248AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT Mobile',
@@ -8699,21 +6959,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AP Mobile',
         'properties' => [
@@ -8767,21 +7012,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.504AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT',
@@ -8837,21 +7067,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4.931AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.416AT Mobile',
         'properties' => [
@@ -8905,21 +7120,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.416AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10543AP Mobile',
@@ -8975,21 +7175,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10543AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
         'properties' => [
@@ -9043,21 +7228,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.416AP Mobile',
@@ -9113,21 +7283,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.1.416AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.0.791AP',
         'properties' => [
@@ -9181,21 +7336,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.0.791AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.11638AP Mobile',
@@ -9251,21 +7391,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.11638AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
         'properties' => [
@@ -9319,21 +7444,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-ca) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
@@ -9389,21 +7499,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-ca) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT Mobile',
         'properties' => [
@@ -9457,21 +7552,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-DY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.1.828AT',
@@ -9527,21 +7607,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-DY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.1.828AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-DZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AP Mobile',
         'properties' => [
@@ -9595,21 +7660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-DZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
@@ -9665,21 +7715,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT Mobile',
         'properties' => [
@@ -9733,21 +7768,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0; vi-vn) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AP Mobile',
@@ -9803,21 +7823,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0; vi-vn) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
         'properties' => [
@@ -9871,21 +7876,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-ED (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; da-dk) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT Mobile',
@@ -9941,21 +7931,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; da-dk) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-en) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11613AP Mobile',
         'properties' => [
@@ -10009,21 +7984,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-en) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11613AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AP Mobile',
@@ -10079,21 +8039,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10357AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
         'properties' => [
@@ -10147,21 +8092,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Mobile Safari/537.36 Puffin/4.0.4.931AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
@@ -10217,21 +8147,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AP Mobile',
         'properties' => [
@@ -10285,21 +8200,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11636AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
@@ -10355,21 +8255,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-lb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
         'properties' => [
@@ -10423,21 +8308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-lb) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.8181 Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1.0; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
@@ -10493,21 +8363,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1.0; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP Mobile',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EN' => [
         'ua' => 'Mozilla/5.0 (X11 U Linux x86_64 en) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT',
         'properties' => [
@@ -10562,21 +8417,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11 U Linux x86_64 en) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.4IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EO' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ar-SA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.5727',
         'properties' => [
@@ -10630,21 +8470,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EO (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ar-SA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.5727',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; af-ZA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/5.1.2IP',
@@ -10720,21 +8545,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-EP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; af-ZA) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/5.1.2IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; am-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/5.2.0IT',
         'properties' => [
@@ -10788,21 +8598,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; am-DE) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/5.2.0IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-ER' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IP',
@@ -10876,21 +8671,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-ER (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-ES' => [
@@ -10967,21 +8747,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-ES (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.0.0IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-ET' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP',
         'properties' => [
@@ -11035,21 +8800,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-ET (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.7.3.2441AP Chrome/49.0.2623',
@@ -11105,21 +8855,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.7.3.2441AP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP',
         'properties' => [
@@ -11173,21 +8908,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10080AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EW' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11546AP',
@@ -11243,21 +8963,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EW (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11546AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EX' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AT',
         'properties' => [
@@ -11311,21 +9016,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-EY' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT',
@@ -11381,21 +9071,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-EY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0.177AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-EZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.3.15610AP',
         'properties' => [
@@ -11449,21 +9124,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-EZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.3.15610AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-FA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.6.15710AT',
@@ -11519,21 +9179,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.6.15710AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-FB' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.3.0.1852AT Chrome/49.0.2623',
         'properties' => [
@@ -11588,21 +9233,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.3.0.1852AT Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-FC' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-AW) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',
         'properties' => [
@@ -11656,21 +9286,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-FC (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-AW) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-FD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-BH) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.6.1IP Chrome/49.0.2623',
@@ -11744,21 +9359,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1430-FD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-BH) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.6.1IP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1430-FE' => [
@@ -11835,21 +9435,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-FE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-KW) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/5.0.2IP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-FF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-SA) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.2.1IT Chrome/49.0.2623',
         'properties' => [
@@ -11903,21 +9488,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-FF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-SA) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.2.1IT Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-FG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/1.6.1IP',
@@ -11993,21 +9563,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1430-FG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/1.6.1IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-FH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/6.0.6.15710AT Chrome/55.0.2623',
         'properties' => [
@@ -12061,21 +9616,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-FH (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/6.0.6.15710AT Chrome/55.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1430-FI' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/6.0.7.15747AP Chrome/55.0.2623',
@@ -12131,21 +9671,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1430-FI (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/6.0.7.15747AP Chrome/55.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1430-FJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; es-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.0.4.931AP Chrome/49.0.2623',
         'properties' => [
@@ -12199,20 +9724,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1430-FJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; es-us) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Puffin/4.0.4.931AP Chrome/49.0.2623',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

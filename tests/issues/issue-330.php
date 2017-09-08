@@ -55,21 +55,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-330-A (lite)' => [
-        'ua' => 'Instagram 4.2.5 (iPad3,6; iPhone OS 7_0_6; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-330-B' => [
         'ua' => 'Instagram 6.0.1 (iPad3,4; iPhone OS 7_0_3; en_AU; en-GB) AppleWebKit/420+',
         'properties' => [
@@ -124,21 +109,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-330-B (lite)' => [
-        'ua' => 'Instagram 6.0.1 (iPad3,4; iPhone OS 7_0_3; en_AU; en-GB) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-330-C' => [
         'ua' => 'Instagram 4.1.0 (iPad3,3; iPhone OS 6_1_3; en_US; en) AppleWebKit/420+',
         'properties' => [
@@ -192,21 +162,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-330-C (lite)' => [
-        'ua' => 'Instagram 4.1.0 (iPad3,3; iPhone OS 6_1_3; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-330-D' => [
         'ua' => 'Instagram 4.2.7 (iPhone6,1; iPhone OS 7_1_1; en_US; en) AppleWebKit/420+',
@@ -282,21 +237,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-330-D (lite)' => [
-        'ua' => 'Instagram 4.2.7 (iPhone6,1; iPhone OS 7_1_1; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-330-E' => [
         'ua' => 'Instagram 5.0.3 (iPad3,6; iPhone OS 7_1; en_US; en) AppleWebKit/420+',
         'properties' => [
@@ -350,21 +290,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-330-E (lite)' => [
-        'ua' => 'Instagram 5.0.3 (iPad3,6; iPhone OS 7_1; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-330-F' => [
         'ua' => 'Instagram 6.0.1 (iPhone3,3; iPhone OS 7_1; en_US; en) AppleWebKit/420+',
@@ -438,21 +363,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-330-F (lite)' => [
-        'ua' => 'Instagram 6.0.1 (iPhone3,3; iPhone OS 7_1; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-330-G' => [
@@ -529,21 +439,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-330-G (lite)' => [
-        'ua' => 'Instagram 5.0.9 (iPhone6,2; iPhone OS 7_0_4; ar_SA; ar) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-330-H' => [
         'ua' => 'Instagram 4.1.2 (iPhone5,1; iPhone OS 6_1_4; en_US; en) AppleWebKit/420+',
         'properties' => [
@@ -616,21 +511,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-330-H (lite)' => [
-        'ua' => 'Instagram 4.1.2 (iPhone5,1; iPhone OS 6_1_4; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-330-I' => [
@@ -707,21 +587,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-330-I (lite)' => [
-        'ua' => 'Instagram 4.1.4 (iPhone3,1; iPhone OS 5_0_1; en_MT; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-330-K' => [
         'ua' => 'Instagram 6.0.0 (iPhone4,1; iPhone OS 7_1_1; en_US; en) AppleWebKit/420+',
         'properties' => [
@@ -794,21 +659,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-330-K (lite)' => [
-        'ua' => 'Instagram 6.0.0 (iPhone4,1; iPhone OS 7_1_1; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
 ];

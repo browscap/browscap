@@ -57,7 +57,7 @@ class Platform
     /**
      * @return string|null
      */
-    public function getMatch(): ?string
+    public function getMatch() : ?string
     {
         return $this->match;
     }
@@ -65,7 +65,7 @@ class Platform
     /**
      * @return string[]
      */
-    public function getProperties(): array
+    public function getProperties() : array
     {
         return $this->properties;
     }
@@ -73,7 +73,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isLite(): bool
+    public function isLite() : bool
     {
         return $this->isLite;
     }
@@ -81,7 +81,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isStandard(): bool
+    public function isStandard() : bool
     {
         return $this->isStandard;
     }

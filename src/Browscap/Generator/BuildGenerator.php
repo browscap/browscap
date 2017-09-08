@@ -29,7 +29,7 @@ class BuildGenerator extends AbstractBuildGenerator
      * @param string $version
      * @param bool   $createZipFile
      */
-    public function run(string $version, bool $createZipFile = true): void
+    public function run(string $version, bool $createZipFile = true) : void
     {
         $this->preBuild();
         $this->build($version);
@@ -41,7 +41,7 @@ class BuildGenerator extends AbstractBuildGenerator
      *
      * @param bool $createZipFile
      */
-    protected function postBuild(bool $createZipFile = true): void
+    protected function postBuild(bool $createZipFile = true) : void
     {
         if (!$createZipFile) {
             return;

@@ -163,21 +163,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-378-C (lite)' => [
-        'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.2) (Apple; iPod touch; iPhone OS/7.1.1); YHOO_Search_App/3.1.2',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-378-D' => [
         'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.3) (Apple; iPhone; iPhone OS/7.1.2); YHOO_Search_App/3.1.3',
         'properties' => [
@@ -250,21 +235,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-378-D (lite)' => [
-        'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.3) (Apple; iPhone; iPhone OS/7.1.2); YHOO_Search_App/3.1.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-378-E' => [
@@ -1063,21 +1033,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-378-R (lite)' => [
-        'ua' => 'AppleCoreMedia/1.0.0.11D5145e (iPad; U; CPU OS 7_1 like Mac OS X; fr_fr)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-378-S' => [
         'ua' => 'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',
         'properties' => [
@@ -1152,21 +1107,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-378-S (lite)' => [
-        'ua' => 'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-378-T' => [
         'ua' => 'AppleCoreMedia/1.0.0.11D201 (iPod touch; U; CPU OS 7_1_1 like Mac OS X; fr_fr)',
         'properties' => [
@@ -1220,21 +1160,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-378-T (lite)' => [
-        'ua' => 'AppleCoreMedia/1.0.0.11D201 (iPod touch; U; CPU OS 7_1_1 like Mac OS X; fr_fr)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-378-U' => [
         'ua' => 'AppleCoreMedia/1.0.0.11G63b (Macintosh; U; Intel Mac OS X 10_7_5; fr_ca)',

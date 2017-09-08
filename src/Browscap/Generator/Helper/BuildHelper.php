@@ -46,7 +46,7 @@ class BuildHelper
         WriterCollection $writerCollection,
         CollectionCreator $collectionCreator,
         bool $collectPatternIds = false
-    ): void {
+    ) : void {
         $logger->info('started creating a data collection');
 
         $dataCollection = new DataCollection($version, $logger);
