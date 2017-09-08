@@ -152,7 +152,7 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
         }
 
         $checks          = [];
-        $sourceDirectory = __DIR__ . '/../fixtures/issues/';
+        $sourceDirectory = __DIR__ . '/../issues/';
         $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
