@@ -50,24 +50,24 @@ jobs:
       php: 7.1
       env: COMPOSER_FLAGS=""
       script: php -n -d memory_limit=768M vendor/bin/phpcs
-    - stage: compare results
+    - stage: integration test
       php: 7.1
       env:
         - TEST_SET="full"
         - COMPOSER_FLAGS=""
-      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/FullTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/FullTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
-    - stage: compare results
+    - stage: integration test
       php: 7.1
       env:
         - TEST_SET="standard"
         - COMPOSER_FLAGS=""
-      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/StandardTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/StandardTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
-    - stage: compare results
+    - stage: integration test
       php: 7.1
       env:
         - TEST_SET="lite"
         - COMPOSER_FLAGS=""
-      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/LiteTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/LiteTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite

@@ -28,11 +28,23 @@ class CustomFilter implements FilterInterface
     private $fields = [];
 
     /**
-     * @param array $fields
+     * @var \Browscap\Data\PropertyHolder
      */
-    public function __construct(array $fields)
+    private $propertyHolder = null;
+
+    /**
+     * @param array $fields
+     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
+     */
+    public function __construct(array $fields, PropertyHolder $propertyHolder = null)
     {
         $this->fields = $fields;
+
+        if (null === $propertyHolder) {
+            $this->propertyHolder = new PropertyHolder();
+        } else {
+            $this->propertyHolder = $propertyHolder;
+        }
     }
 
     /**
@@ -79,9 +91,7 @@ class CustomFilter implements FilterInterface
      */
     public function isOutputProperty($property, WriterInterface $writer = null)
     {
-        $propertyHolder = new PropertyHolder();
-
-        if (!$propertyHolder->isOutputProperty($property, $writer)) {
+        if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;
         }
 
