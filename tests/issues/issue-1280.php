@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1280-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; OPPO R7sm Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.2.5 (Baidu; P1 5.1.1)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1280-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Lenovo A316 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/5.2 (Baidu; P1 2.3.6)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; Lenovo A308t Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/4.2 (Baidu; P1 2.3.6)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-E' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; vi-vn; XT535 Build/V1.46A) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/5.1 (Baidu; P1 2.3.7)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-F' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Coolpad 8076D Build/IML74K Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/5.2 (Baidu; P1 4.0.3)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-G' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn; HUAWEI G606-T00 Build/HUAWEIG606-T00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.2 (Baidu; P1 4.0.3)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; K-Touch T96 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.2 (Baidu; P1 4.0.4)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; HTC One S Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/5.0 (Baidu; P1 4.0.4)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; Lenovo A590 Build/JRO03C) AppleWebKit/534.30 (KHTML like Gecko) Version/4.1 Mobile Safari/534.30 baiduboxapp/5.3.5 (Baidu; P1 4.1.1)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-K' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; U705T Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.3 (Baidu; P1 4.1.1)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-L' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.2 (Baidu; P1 4.1.2)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-M' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; Lenovo A820 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/5.3.5 (Baidu; P1 4.1.2)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-N' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; SM-T211 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 baiduboxapp/4.2 (Baidu; P1 4.1.2)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-O' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; zh-hk; GT-P1000 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 T5/1.0 baiduboxapp/5.1 (Baidu; P1 2.2)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-P' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; LT22i Build/6.2.A.1.100) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/6.3.1 (Baidu; P1 4.1.2)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1280-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; HTC One X Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.1 rabbit/1.0 baiduboxapp/7.6 (Baidu; P1 4.2.2)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1280-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; HUAWEI NXT-AL10 Build/HUAWEINXT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.2.5 (Baidu; P1 7.0)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1280-S' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; GT-N7108 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.2 (Baidu; P1 4.3)',
@@ -1007,5 +1025,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

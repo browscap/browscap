@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J320P Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SAMSUNG-SM-N930A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A320F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A320FL Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A520F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A520S Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A720F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A720F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A810F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A810YZ Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-C9000 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-C900F Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -688,7 +700,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532F Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -794,7 +808,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -847,7 +862,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G900T Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -900,7 +916,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G935F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-J120A Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-J327P Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-J700F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N9200 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N9208 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N920K/KKU2CPJ4 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N920K/KKU2CPL5 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N920L Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1377,7 +1402,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N920S Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1430,7 +1456,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930P Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930T Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N930A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G485F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1285-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G935T Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -1748,6 +1780,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

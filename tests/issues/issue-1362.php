@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-B' => [
         'ua' => 'Opera/8.51 (Macintosh; U; fr)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-C' => [
         'ua' => 'Opera/8.52 (Macintosh; U; da)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-D' => [
         'ua' => 'Opera/8.53 (Macintosh; U; la)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-E' => [
         'ua' => 'Opera/8.54 (Macintosh; U; br)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-F' => [
         'ua' => 'Opera/7.0 (Macintosh; U; es)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-G' => [
         'ua' => 'Opera/7.10 (Macintosh; U; br)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-H' => [
         'ua' => 'Opera/7.11 (Macintosh; U; ko)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-I' => [
         'ua' => 'Opera/7.51 (Macintosh; U; ru)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-J' => [
         'ua' => 'Opera/9.12 (Macintosh; U; br)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-L' => [
         'ua' => 'Opera/6.01 (Windows; U; tu)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-M' => [
         'ua' => 'Opera/6.04 (Windows XP; U; [de])',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1362-N' => [
         'ua' => 'Opera/7.21 (Windows; U; nb)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-O' => [
         'ua' => 'Opera/7.22 (Windows; U; nl)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-P' => [
         'ua' => 'Opera/7.52 (Windows; U; fi)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-Q' => [
         'ua' => 'Opera/8.02 (Windows; U; lt)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-R' => [
         'ua' => 'Opera/8.50 (Windows; U; pt)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-S' => [
         'ua' => 'Opera/8.51 (Windows; U; cs)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-T' => [
         'ua' => 'Opera/8.52 (Windows; U; ca)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-U' => [
         'ua' => 'Opera/8.53 (Windows; U; br)',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-V' => [
         'ua' => 'Opera/8.54 (Windows; U; es)',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1362-W' => [
         'ua' => 'Opera/9.12 (Windows; U; hu)',
@@ -1166,5 +1187,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

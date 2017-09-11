@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-855-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3865 Safari/537.36',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1253-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Kindle Fire Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1253-C' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1253-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1253-E' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36 OPR/39.0.2256.43',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

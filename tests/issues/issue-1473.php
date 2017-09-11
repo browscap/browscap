@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) PTST/229',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-C' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) PTST/197',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36 PTST/314',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Nexus 5 Build/LRX21O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36 PTST/0 PTST/287',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Mobile Safari/537.36 PTST/381',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 PTST/347',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 PTST/231',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36 PTST/229',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 PTST/199',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 PTST/209',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1473-L' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 PTST/1',
@@ -636,5 +647,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

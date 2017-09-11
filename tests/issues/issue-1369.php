@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1369-B' => [
         'ua' => 'Reddit/Version 2.6.0/Build 200033/iOS Version 10.1.1 (Build 14B100)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1369-C' => [
         'ua' => 'Reddit/Version 2.6.0/Build 200033/iOS Version 10.2.1 (Build 14D27)',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

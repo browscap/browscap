@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-873-B' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; Mobile; rv:43.0) Gecko/43.0 Firefox/43.0',
@@ -104,7 +105,8 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

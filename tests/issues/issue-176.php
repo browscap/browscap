@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-176-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:27.0) Gecko/20100101 Firefox/27.0',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

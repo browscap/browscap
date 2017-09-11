@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-B' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ja; rv:1.8.1.8) Gecko/20091007 Firefox/3.5.4',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fa; rv:1.9) Gecko/20090718 Firefox/3.5.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-D' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; fr; rv:1.9.0.7) Gecko/20090729 Firefox/3.5.2',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-E' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; ja-JP; rv:1.9.1.8) Gecko/20100305 Firefox/3.5.8',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-F' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 GTB5',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-G' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.1.6) Gecko/20091201 MRA 5.7 (build 03796) Firefox/3.5.6 ( .NET CLR 3.5.30729; .NET4.0C)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-H' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; hu; rv:1.9.1b2pre) Gecko/20100720 Firefox/3.5.11',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-I' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.9.1) Gecko/20090702 Firefox/3.5',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-J' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; fr; rv:1.9.0.15) Gecko/20090401 Firefox/3.5b4pre',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-L' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.8.0.9) Gecko/20090624 Firefox/3.5',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-M' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.8.1) Gecko/20090803 Firefox/3.5.2',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-N' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-O' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.16) Gecko/20090729 Firefox/3.5.2',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-P' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US; rv:1.9.1.11) Gecko/20100720 Firefox/3.5.11',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-Q' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-R' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US) Gecko/20101012 Firefox/3.6.11',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-T' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; hu; rv:1.8.0.1) Gecko/20100105 Firefox/3.6',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-U' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru; rv:1.9.1.2) Gecko/20100401 Firefox/3.6',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; hu; rv:1.9.1b3) Gecko/20100401 Firefox/3.6.3',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-W' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; bg; rv:1.9b3pre) Gecko/20091204 Firefox/3.6b5',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-X' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-Y' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; ca; rv:1.9.0.12) Gecko/20100401 Firefox/3.6',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-Z' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.18) Gecko/20110614 Firefox/3.6.18',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; fr; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.11; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AD' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; de-CH; rv:1.9.2.8) Gecko/20100729 Firefox/3.6.8',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AE' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD x86_64; rv:2.0) Gecko/20100101 Firefox/3.6.12',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AF' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; ko; rv:1.9.1b4) Gecko/20100401 Firefox/3.6.3',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AG' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; he; rv:1.9.2) Gecko/20091124 Firefox/3.6b4',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AH' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; fa; rv:1.8.1.2) Gecko/20091111 Firefox/3.6',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AI' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.8.1.19) Gecko/20100105 Firefox/3.6',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.0.10pre) Gecko/20100101 Firefox/3.6',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AK' => [
         'ua' => 'Mozilla/5.0 (X11; U; x86_64 Linux; en_GB, en_US; rv:1.9.2) Gecko/20100115 Firefox/3.6',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AL' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101013 Ubuntu/10.04 (lucid) Firefox/3.6.11',
@@ -2013,7 +2050,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-AM' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20111028 Ubuntu/8.04 (hardy) Firefox/3.6.17',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-AN' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-AO' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.04 (lucid) Firefox/3.6.13',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-AP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.18) Gecko/20110628 Ubuntu/10.10 (maverick) Firefox/3.6.18',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-AQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ja; rv:1.8.1.3) Gecko/20100526 Firefox/3.7a5pre',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.8.1.4) Gecko/20100526 Firefox/3.7a5pre',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; hu; rv:1.9b4) Gecko/20100526 Firefox/3.7a5pre',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; fa; rv:1.9.0.2pre) Gecko/20100526 Firefox/3.7a5pre',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.8.1.1) Gecko/20100526 Firefox/3.7a5pre',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; tr; rv:1.9.1b4) Gecko/20100526 Firefox/3.7a5pre',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AW' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; bg; rv:1.9a2) Gecko/20100526 Firefox/3.7a5pre',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:2.0b7) Gecko/20100101 Firefox/4.0b7',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.9.0.6) Gecko/20100903 Firefox/4.0b6pre',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-AZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; ru; rv:1.9.3a3pre) Gecko/20100903 Firefox/4.0b6pre',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; bg; rv:1.8.1.17pre) Gecko/20100401 Firefox/4.0',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; fa; rv:1.8.1.10) Gecko/20100903 Firefox/4.0b6pre',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) Gecko/20100101 Firefox/4.0.1',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:2.0b13pre) Gecko/20110304 Firefox/4.0b13pre',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:1.9) Gecko/20100101 Firefox/4.0',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b8pre) Gecko/20101114 Firefox/4.0b8pre',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b11pre) Gecko/20110128 Firefox/4.0b11pre',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0b12) Gecko/20100101 Firefox/4.0b12',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:2.0b9; ; NCLIENT50_AAPBD7A9D23086) Gecko/20100101 Firefox/4.0b9',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT; Windows NT 6.3; en-US) Gecko/20100401 Firefox/4.0',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ko; rv:1.9.0.6pre) Gecko/20100401 Firefox/4.0',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-BL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; bg; rv:1.9.0.3) Gecko/20100401 Firefox/4.0',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BM' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BN' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:2.0.1) Gecko/20110430 Firefox/4.0.1',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BO' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; de; rv:1.9.3a3pre) Gecko/20100903 Firefox/4.0b6pre',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; ca; rv:1.7.10) Gecko/20100903 Firefox/4.0b6pre',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; ru; rv:1.9b5pre) Gecko/20100401 Firefox/4.0',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BR' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; ko; rv:1.8b4) Gecko/20100401 Firefox/4.0',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BS' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; fr; rv:1.9.2.2pre) Gecko/20100401 Firefox/4.0',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:10.0.2) Gecko/20100101 Firefox/10.0.2',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:12.0) Gecko/20100101 Firefox/12.0',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:11.0) Gecko/20100101 Firefox/11.0',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:6.0.1) Gecko/20100101 Firefox/6.0.1',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:12.0) Gecko/20100101 Firefox/12.0',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-BZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:7.0) Gecko/20100101 Firefox/7.0',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:12.0) Gecko/20100101 Firefox/12.0',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0; ; LSCABLE_AAPA0AEA2188F8) Gecko/20100101 Firefox/8.0 CometBird/8.0',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-CF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-CG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:11.0) Gecko/20120330 Firefox/11.0',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:6.0) Gecko/20100101 Firefox/6.0',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:8.0.1) Gecko/20100101 Firefox/8.0.1',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20100101 Firefox/8.0',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:11.0) Gecko/20120909 Firefox/11.0',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:10.0) Gecko/20100101 Firefox/10.0',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:12.0) Gecko/16.0 Firefox/12.0',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:6.0.2) Gecko/20100101 Firefox/6.0.2',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CS' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:5.0) Gecko/20100101 Firefox/5.0',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CV' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 Firefox/9.0.1',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CW' => [
         'ua' => 'Mozilla/5.0 (X11; SunOS sun4v; rv:10.0.2) Gecko/20100101 Firefox/10.0.2',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-CX' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:11.0) Gecko/20100101 Firefox/11.0',
@@ -5405,7 +5506,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-CY' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0',
@@ -5458,7 +5560,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:14.0) Gecko/20100101 Firefox/14.0',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:13.0) Gecko/20100101 Firefox/13.0',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
@@ -6095,8 +6209,8 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
-
     'issue-1381-DL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0',
         'properties' => [
@@ -6149,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:13.0) Gecko/20120606 Firefox/13.0',
@@ -6202,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -6255,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/16.0 Firefox/15.0',
@@ -6308,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1',
@@ -6361,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -6414,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; WOW64; rv:15.0) Gecko/20121011 Firefox/15.0.1',
@@ -6467,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DS' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -6520,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0',
@@ -6573,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0',
@@ -6626,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DV' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0.1',
@@ -6678,7 +6802,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-DW' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -6731,7 +6856,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-DX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:20.0) Gecko/20100101 Firefox/20.0',
@@ -6785,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:23.0) Gecko/20100101 Firefox/23.0',
@@ -6838,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-DZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:19.0) Gecko/20100101 Firefox/19.0',
@@ -6891,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:22.0) Gecko/20100101 Firefox/22.0',
@@ -6944,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -6997,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -7050,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ED' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:21.0) Gecko/20100101 Firefox/21.0',
@@ -7103,6 +7235,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EE' => [
         'ua' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -7156,6 +7289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EF' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD i386; rv:21.0) Gecko/20100101 Firefox/21.0',
@@ -7209,6 +7343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EG' => [
         'ua' => 'Mozilla/5.0 (X11; SunOS i86pc; rv:17.0) Gecko/20100101 Firefox/17.0',
@@ -7262,6 +7397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EH' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:20.0) Gecko/20100101 Firefox/20.0',
@@ -7315,6 +7451,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EI' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0',
@@ -7368,6 +7505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:27.0) Gecko/20100101 Firefox/27.0',
@@ -7421,6 +7559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:19.0) Gecko/20100101 Firefox/19.0',
@@ -7474,6 +7613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:22.0) Gecko/20100101 Firefox/22.0',
@@ -7527,6 +7667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.0) Gecko/20100101 Firefox/25.0',
@@ -7580,6 +7721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:26.0) Gecko/20131129 Firefox/26.0',
@@ -7633,6 +7775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:22.0) Gecko/20130405 Firefox/22.0',
@@ -7686,6 +7829,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:23.0) Gecko/20130622 Firefox/23.0',
@@ -7739,6 +7883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0',
@@ -7792,6 +7937,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ER' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0;  Win64; x64; rv:20.0) Gecko/20100101 Firefox/20.0',
@@ -7845,6 +7991,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ES' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -7898,6 +8045,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ET' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0',
@@ -7951,6 +8099,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0',
@@ -8004,6 +8153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:22.0) Gecko/16.0 Firefox/22.0',
@@ -8057,6 +8207,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0',
@@ -8110,6 +8261,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:28.0) Gecko/20100101 Firefox/28.0',
@@ -8163,6 +8315,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EY' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:25.0) Gecko/20100101 Firefox/25.0',
@@ -8216,6 +8369,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-EZ' => [
         'ua' => 'Mozilla/5.0 (X11; Porteus Linux i486; rv:18.0.2) Gecko/20100101 Firefox/18.0.2',
@@ -8269,6 +8423,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FA' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0',
@@ -8322,6 +8477,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FB' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0',
@@ -8374,7 +8530,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-FC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20130115 Firefox/16.0 Epic/16.0',
@@ -8428,6 +8585,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Saina/22.0',
@@ -8481,6 +8639,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:22.0) Gecko/20100101 Saina/22.0',
@@ -8534,6 +8693,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:18.0) Gecko/20130204 Zvu/18.0.1',
@@ -8587,6 +8747,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FG' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:25.0) Gecko/25.0 Firefox/24.9 PaleMoon/25.0.2',
@@ -8640,6 +8801,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FH' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:24.7) Gecko/24.7 Firefox/24.7 PaleMoon/24.7',
@@ -8693,6 +8855,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FI' => [
         'ua' => 'Mozilla/5.0 (Android 4.4; Mobile; rv:18.0) Gecko/18.0 Firefox/18.0',
@@ -8744,8 +8907,9 @@ return [
             'RenderingEngine_Version' => '18.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FJ' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -8797,8 +8961,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FK' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Tablet; rv:45.0) Gecko/45.0 Firefox/45.0',
@@ -8850,8 +9015,9 @@ return [
             'RenderingEngine_Version' => '45.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:34.0) Gecko/20100101 Firefox/34.0 Cyberfox/34.1',
@@ -8904,7 +9070,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0',
@@ -8958,6 +9125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 Cyberfox/36.0',
@@ -9011,6 +9179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0 Waterfox/31.0',
@@ -9064,6 +9233,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:34.0) Gecko/20100101 Firefox/34.0 Light/34.0',
@@ -9117,6 +9287,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:47.0) Gecko/20100101 Firefox/47.0 Light/47.0',
@@ -9170,6 +9341,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FR' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -9221,8 +9393,9 @@ return [
             'RenderingEngine_Version' => '36.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:38.0.5) Gecko/20100101 Firefox/38.0.5 anonymized by Abelssoft 56062259',
@@ -9276,6 +9449,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:37.0) Gecko/20100101 Firefox/37.0 anonymized by Abelssoft 385993085',
@@ -9327,8 +9501,9 @@ return [
             'RenderingEngine_Version' => '37.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:47.0.1) Gecko/20100101 Firefox/47.0.1 anonymized by Abelssoft 259414603',
@@ -9380,8 +9555,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FV' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/40.0 (x86 de) Anonymisiert durch AlMiSoft Browser-Maulkorb 17115974',
@@ -9433,8 +9609,9 @@ return [
             'RenderingEngine_Version' => '40.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0',
@@ -9486,8 +9663,9 @@ return [
             'RenderingEngine_Version' => '40.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -9539,8 +9717,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:42.0) Gecko/20100101 Firefox/42.0',
@@ -9594,6 +9773,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-FZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:31.0) Gecko/20100101 Firefox/31.0',
@@ -9645,8 +9825,9 @@ return [
             'RenderingEngine_Version' => '31.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:32.0) Gecko/20100101 Firefox/32.0',
@@ -9698,8 +9879,9 @@ return [
             'RenderingEngine_Version' => '32.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:34.0) Gecko/20100101 Firefox/34.0',
@@ -9751,8 +9933,9 @@ return [
             'RenderingEngine_Version' => '34.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:37.0) Gecko/20100101 Firefox/37.0',
@@ -9804,8 +9987,9 @@ return [
             'RenderingEngine_Version' => '37.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GD' => [
         'ua' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0',
@@ -9859,6 +10043,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -9910,8 +10095,9 @@ return [
             'RenderingEngine_Version' => '39.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -9963,8 +10149,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:42.0) Gecko/20100101 Firefox/42.0',
@@ -10018,6 +10205,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -10071,6 +10259,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -10122,8 +10311,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -10175,8 +10365,9 @@ return [
             'RenderingEngine_Version' => '39.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:32.0) Gecko/20131129 Firefox/32.0',
@@ -10228,8 +10419,9 @@ return [
             'RenderingEngine_Version' => '32.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:38.0) Gecko/20100101 Firefox/38.0',
@@ -10281,8 +10473,9 @@ return [
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; rv:35.0) Gecko/20100101 Firefox/35.0',
@@ -10334,8 +10527,9 @@ return [
             'RenderingEngine_Version' => '35.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:34.0) Gecko/20100101 Firefox/34.0',
@@ -10387,8 +10581,9 @@ return [
             'RenderingEngine_Version' => '34.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
@@ -10440,8 +10635,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -10493,8 +10689,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -10546,8 +10743,9 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:41.0) Gecko/20120101 Firefox/41.0',
@@ -10599,8 +10797,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0',
@@ -10652,8 +10851,9 @@ return [
             'RenderingEngine_Version' => '34.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:45.0) Gecko/20100101 Firefox/45.0',
@@ -10705,8 +10905,9 @@ return [
             'RenderingEngine_Version' => '45.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -10758,8 +10959,9 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0',
@@ -10813,6 +11015,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -10864,8 +11067,9 @@ return [
             'RenderingEngine_Version' => '39.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64; rv:47.0.1) Gecko/20100101 Firefox/47.0.1',
@@ -10917,8 +11121,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0',
@@ -10970,8 +11175,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-GZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -11023,8 +11229,9 @@ return [
             'RenderingEngine_Version' => '36.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -11078,6 +11285,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HB' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -11131,6 +11339,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HC' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:35.0) Gecko/20100101 Firefox/35.0',
@@ -11184,6 +11393,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/31.0',
@@ -11235,8 +11445,9 @@ return [
             'RenderingEngine_Version' => '31.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HE' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:30.0) Gecko/20100101 Firefox/30.0',
@@ -11288,8 +11499,9 @@ return [
             'RenderingEngine_Version' => '30.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HF' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:35.0) Gecko/20100101 Firefox/35.0',
@@ -11341,8 +11553,9 @@ return [
             'RenderingEngine_Version' => '35.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HG' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -11394,8 +11607,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HH' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0',
@@ -11448,7 +11662,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-HI' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux ppc; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -11501,7 +11716,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-HJ' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -11554,7 +11770,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-HK' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -11606,8 +11823,9 @@ return [
             'RenderingEngine_Version' => '49.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0 Waterfox/50.0',
@@ -11661,6 +11879,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0 anonymized by Abelssoft 612517034',
@@ -11712,8 +11931,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:50.1.0) Gecko/20100101 Firefox/50.1.0 anonymized by Abelssoft 628597711',
@@ -11765,8 +11985,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/50.0.2 (x86 de) Anonymisiert durch AlMiSoft Browser-Maulkorb 80806720',
@@ -11818,8 +12039,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; de; rv:1.9.2.6) Gecko/20100625 Firefox/52.0.2 (x86 de) Anonymisiert durch AlMiSoft Browser-Anonymisierer 62307381',
@@ -11871,8 +12093,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -11924,8 +12147,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:52.0) Gecko/20100101 Firefox/52.0',
@@ -11977,8 +12201,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -12030,8 +12255,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HT' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -12085,6 +12311,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HU' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -12138,6 +12365,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HV' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
@@ -12191,6 +12419,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -12242,8 +12471,9 @@ return [
             'RenderingEngine_Version' => '49.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12297,6 +12527,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -12350,6 +12581,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-HZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:52.0) Gecko/20100101 Firefox/52.0',
@@ -12401,8 +12633,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -12454,8 +12687,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12507,8 +12741,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12560,8 +12795,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ID' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12613,8 +12849,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -12666,8 +12903,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12719,8 +12957,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12772,8 +13011,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -12825,8 +13065,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-II' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12880,6 +13121,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -12933,6 +13175,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -12984,8 +13227,9 @@ return [
             'RenderingEngine_Version' => '49.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -13037,8 +13281,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -13090,8 +13335,9 @@ return [
             'RenderingEngine_Version' => '49.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -13143,8 +13389,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IO' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:52.0) Gecko/20100101 Firefox/52.0',
@@ -13196,8 +13443,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IP' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -13250,7 +13498,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-IQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; fr; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19',
@@ -13304,6 +13553,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; ru; rv:1.9.0.4) Gecko/2008102920  Firefox/3.0.0',
@@ -13357,6 +13607,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0',
@@ -13410,6 +13661,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.9a1) Gecko/20061204 Firefox/3.0a1',
@@ -13463,6 +13715,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; hu; rv:2.0b3pre) Gecko/20070713 Firefox/2.0.0.3',
@@ -13516,6 +13769,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; hu; rv:1.8.0.4) Gecko/20060601 Firefox/2.0.0.2',
@@ -13569,6 +13823,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; de; rv:1.7) Gecko/20070118 Firefox/2.0.0.2pre',
@@ -13622,6 +13877,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
@@ -13675,6 +13931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
@@ -13728,6 +13985,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-IZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.9a2) Gecko/20080530 Firefox/3.0a2',
@@ -13781,6 +14039,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JA' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1.20) Gecko/20090225 Firefox/2.0.0.20',
@@ -13834,6 +14093,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JB' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; fr; rv:1.8.1.6) Gecko/20100202 Firefox/3.0.18',
@@ -13887,6 +14147,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JC' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD sparc64; en-US; rv:1.8.1.6) Gecko/20070816 Firefox/2.0.0.6',
@@ -13940,6 +14201,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JD' => [
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.21pre) Gecko/20090227 BonEcho/2.0.0.21pre',
@@ -13993,6 +14255,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JE' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; fa; rv:1.9.2) Gecko/20090326 Firefox/3.0.9',
@@ -14046,6 +14309,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JF' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1) Gecko/20061024 Firefox/2.0',
@@ -14099,6 +14363,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); de; rv:1.9.0.19) Gecko/2010031218 Firefox/3.0.19',
@@ -14152,6 +14417,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x64_64; es-AR; rv:1.9.0.3) Gecko/2008092515 Ubuntu/8.10 (intrepid) Firefox/3.0.3',
@@ -14204,7 +14470,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JI' => [
         'ua' => 'Mozilla/5.0 (X11; U; Gentoo Linux x86_64; ca; rv:1.8) Gecko/20070317 Firefox/2.0.0.2',
@@ -14258,6 +14525,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.12) Gecko/2009070812 Linux Mint/5 (Elyssa) Firefox/3.0.12',
@@ -14311,6 +14579,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.9) Gecko/20071113 BonEcho/2.0.0.9',
@@ -14364,6 +14633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6',
@@ -14417,6 +14687,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JM' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; nl; rv:1.9b5) Gecko/2008032620 Firefox/3.0b5',
@@ -14470,6 +14741,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fr; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13 (.NET CLR 3.5.30729) FBSMTWB',
@@ -14523,6 +14795,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.0.6) Gecko/2009011913 MRA 5.7 (build 03686) Firefox/3.0.6 (.NET CLR 3.5.30729) sputnik 2.5.3.6',
@@ -14576,6 +14849,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; ru; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6 sputnik unknown',
@@ -14629,6 +14903,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Windows NT 5.0; en-US; rv:1.9b4) Gecko/2008030318 Firefox/3.0b4',
@@ -14682,6 +14957,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
@@ -14734,7 +15010,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.4) Gecko/20070509 Firefox/2.0.0',
@@ -14788,6 +15065,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16',
@@ -14841,6 +15119,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; ca; rv:1.9.1.2) Gecko/20060601 Firefox/2.0.0.4',
@@ -14894,6 +15173,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JV' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12',
@@ -14947,6 +15227,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JW' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
@@ -15000,6 +15281,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-JX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.7) Gecko/20070914 Firefox/2.0.0.7',
@@ -15052,7 +15334,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; tr; rv:1.8.1.20) Gecko/20070515 Firefox/2.0.0.4',
@@ -15105,7 +15388,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-JZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0',
@@ -15159,6 +15443,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ko; rv:1.9.1.8) Gecko/20060719 Firefox/1.5.0.5',
@@ -15212,6 +15497,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ko; rv:1.9.0.9) Gecko/20051222 Firefox/1.0.7',
@@ -15265,6 +15551,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; ca; rv:1.9.1b3pre) Gecko/20050225 Firefox/1.0.1',
@@ -15318,6 +15605,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5',
@@ -15371,6 +15659,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5',
@@ -15424,6 +15713,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; es-ES; rv:1.7.7) Gecko/20050414 Firefox/1.0.3',
@@ -15477,6 +15767,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KG' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; it; rv:1.8.0.11) Gecko/20070312 Firefox/1.5.0.11',
@@ -15530,6 +15821,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KH' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060121 Firefox/1.6a1',
@@ -15583,6 +15875,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2 x64; en-US; rv:1.9a1) Gecko/20060214 Firefox/1.6a1',
@@ -15636,6 +15929,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KJ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8b5) Gecko/20051006 Firefox/1.4.1',
@@ -15689,6 +15983,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fa; rv:1.9b5pre) Gecko/20060818 Firefox/1.5.0.5',
@@ -15742,6 +16037,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 handyCafeCln/3.3.21',
@@ -15795,6 +16091,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KM' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; de-DE; rv:1.7.6) Gecko/20050226 Firefox/1.0.1',
@@ -15848,6 +16145,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KN' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.7.8) Gecko/20050609 Firefox/1.0.4',
@@ -15901,6 +16199,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KO' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.7.10) Gecko/20050919 (No IDN) Firefox/1.0.6',
@@ -15954,6 +16253,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KP' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.7.12) Gecko/20050927 Firefox/1.0.7',
@@ -16007,6 +16307,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; bg; rv:1.8.1.21) Gecko/20050908 Firefox/1.4',
@@ -16060,6 +16361,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.0.1) Gecko/20060313 Fedora/1.5.0.1-9 Firefox/1.5.0.1 pango-text',
@@ -16113,6 +16415,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KS' => [
         'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1',
@@ -16166,6 +16469,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -16219,6 +16523,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.7) Gecko/20040803 Firefox/0.9.3',
@@ -16272,6 +16577,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-KV' => [
         'ua' => 'Mozilla/5.0 (X11; DragonFly x86_64; rv:34.0) Gecko/20100101 Firefox/34.0 SeaMonkey/2.31',
@@ -16325,6 +16631,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KW' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:17.0) Gecko/201071 Firefox/17.0',
@@ -16378,6 +16685,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KX' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:25.0) Gecko/20100101 Firefox/25.0',
@@ -16431,6 +16739,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KY' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:27.0) Gecko/20100101 Firefox/27.0',
@@ -16484,6 +16793,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-KZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.7) Gecko/20041015 Firefox/0.9.3',
@@ -16537,6 +16847,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LA' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.7.5) Gecko/20050104 Firefox/1.0',
@@ -16590,6 +16901,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LB' => [
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD amd64; fr-FR; rv:1.8.0.7) Gecko/20061102 Firefox/1.5.0.7',
@@ -16643,6 +16955,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.2a1pre) Gecko/20110208 Firefox/4.2a1pre',
@@ -16696,6 +17009,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-LD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:2.2a1pre) Gecko/20100101 Firefox/4.2a1pre',
@@ -16749,6 +17063,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-LE' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; de; rv:1.8.0.6) Gecko/20090624 Firefox/3.1b3',
@@ -16802,6 +17117,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; de; rv:1.9.1b3) Gecko/20090105 Firefox/3.1b3pre',
@@ -16855,6 +17171,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.7; he; rv:1.9.1b2pre) Gecko/20090312 Firefox/3.1b3',
@@ -16908,6 +17225,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ca; rv:1.8.1.10) Gecko/20090624 Firefox/3.1b3',
@@ -16961,6 +17279,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; ko; rv:1.9.1b3pre) Gecko/20090105 Firefox/3.1b3pre',
@@ -17014,6 +17333,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.0.15) Gecko/20090624 Firefox/3.1b3',
@@ -17067,6 +17387,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; he; rv:1.8.16) Gecko/20090407 Firefox/3.1b3',
@@ -17120,6 +17441,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1381-LL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.2pre) Gecko/20090624 Firefox/3.1b3',
@@ -17173,6 +17495,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LM' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; bg; rv:1.8.1.22pre) Gecko/20090305 Firefox/3.1b3',
@@ -17226,6 +17549,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9.1b2pre) Gecko/20081026 Firefox/3.1b2pre',
@@ -17279,6 +17603,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2',
@@ -17332,6 +17657,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ko; rv:1.8.0.5) Gecko/20090305 Firefox/3.1b3',
@@ -17385,6 +17711,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; ko; rv:1.9.0.19) Gecko/20090312 Firefox/3.1b3',
@@ -17438,6 +17765,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LR' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.9.1b3) Gecko/20090429 Firefox/3.1b3',
@@ -17491,6 +17819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LS' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; hu; rv:1.8.1.9) Gecko/20090407 Firefox/3.1b3',
@@ -17544,6 +17873,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LT' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fa; rv:1.9b1) Gecko/20090312 Firefox/3.1b3',
@@ -17597,6 +17927,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.8.1.5) Gecko/20090105 Firefox/3.1b3pre',
@@ -17650,6 +17981,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -17703,6 +18035,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -17754,8 +18087,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LX' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.4; Tablet; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -17807,8 +18141,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LY' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.2; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -17860,8 +18195,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-LZ' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.2; Tablet; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -17913,8 +18249,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MA' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.4; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -17966,8 +18303,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MB' => [
         'ua' => 'Mozilla/5.0 (Android 5.0.1; Tablet; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18019,8 +18357,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MC' => [
         'ua' => 'Mozilla/5.0 (Android 5.0; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18072,8 +18411,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MD' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18125,8 +18465,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ME' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Tablet; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18178,8 +18519,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MF' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18231,8 +18573,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MG' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Tablet; rv:53.0) Gecko/53.0 Firefox/53.0',
@@ -18284,8 +18627,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18337,8 +18681,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18390,8 +18735,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MJ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18443,8 +18789,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MK' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18497,7 +18844,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1381-ML' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18549,8 +18897,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18602,8 +18951,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18655,8 +19005,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18708,8 +19059,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:53.0 () Gecko/20100101 Firefox/53.0 ( anonymized by Abelssoft 726644361',
@@ -18761,8 +19113,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18814,8 +19167,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18867,8 +19221,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18920,8 +19275,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -18973,8 +19329,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -19026,8 +19383,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -19079,8 +19437,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -19132,8 +19491,9 @@ return [
             'RenderingEngine_Version' => '53.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MX' => [
         'ua' => 'Mozilla/5.0 (Android 2.3.3; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19185,8 +19545,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MY' => [
         'ua' => 'Mozilla/5.0 (Android 2.3.4; Mobile; rv:42.0) Gecko/42.0 Firefox/42.0',
@@ -19238,8 +19599,9 @@ return [
             'RenderingEngine_Version' => '42.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-MZ' => [
         'ua' => 'Mozilla/5.0 (Android 2.3.7; Mobile; rv:43.0) Gecko/43.0 Firefox/43.0',
@@ -19291,8 +19653,9 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NA' => [
         'ua' => 'Mozilla/5.0 (Android 3.0.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19344,8 +19707,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NB' => [
         'ua' => 'Mozilla/5.0 (Android 3.1; Tablet; rv:41.0.2) Gecko/41.0.2 Firefox/41.0.2',
@@ -19397,8 +19761,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NC' => [
         'ua' => 'Mozilla/5.0 (Android 3.1; Tablet; rv:42.0) Gecko/42.0 Firefox/42.0',
@@ -19450,8 +19815,9 @@ return [
             'RenderingEngine_Version' => '42.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ND' => [
         'ua' => 'Mozilla/5.0 (Android 3.1; Tablet; rv:43.0) Gecko/43.0 Firefox/43.0',
@@ -19503,8 +19869,9 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NE' => [
         'ua' => 'Mozilla/5.0 (Android 3.2.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19556,8 +19923,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NF' => [
         'ua' => 'Mozilla/5.0 (Android 3.2.1; Tablet; rv:42.0) Gecko/42.0 Firefox/42.0',
@@ -19609,8 +19977,9 @@ return [
             'RenderingEngine_Version' => '42.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NG' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.3; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19662,8 +20031,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NH' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.3; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -19715,8 +20085,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NI' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.3; Tablet; rv:49.0) Gecko/49.0 Firefox/49.0',
@@ -19768,8 +20139,9 @@ return [
             'RenderingEngine_Version' => '49.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NJ' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19821,8 +20193,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NK' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.2; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -19874,8 +20247,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NL' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.1; Tablet; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -19927,8 +20301,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NM' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -19980,8 +20355,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NN' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.2; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -20033,8 +20409,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NO' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.1; Tablet; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -20086,8 +20463,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NP' => [
         'ua' => 'Mozilla/5.0 (Android 4.3.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -20139,8 +20517,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NQ' => [
         'ua' => 'Mozilla/5.0 (Android 4.3; Tablet; rv:52.0) Gecko/52.0 Firefox/52.0',
@@ -20192,8 +20571,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NR' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -20245,8 +20625,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NS' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -20298,8 +20679,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NT' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Tablet; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -20351,8 +20733,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NU' => [
         'ua' => 'Mozilla/5.0 (Android 5.0; Tablet; rv:39.0) Gecko/39.0 Firefox/39.0',
@@ -20404,8 +20787,9 @@ return [
             'RenderingEngine_Version' => '39.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NV' => [
         'ua' => 'Mozilla/5.0 (Android 5.0.2; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -20457,8 +20841,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NW' => [
         'ua' => 'Mozilla/5.0 (Android 5.0.1; Tablet; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -20510,8 +20895,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NX' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -20563,8 +20949,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NY' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Tablet; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -20616,8 +21003,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-NZ' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; Tablet; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -20669,8 +21057,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OA' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Tablet; rv:44.0) Gecko/44.0 Firefox/44.0',
@@ -20722,8 +21111,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OB' => [
         'ua' => 'Mozilla/5.0 (Android 6.0; Tablet; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -20775,8 +21165,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OC' => [
         'ua' => 'Mozilla/5.0 (Android 7.0; Tablet; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -20828,8 +21219,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OD' => [
         'ua' => 'Mozilla/5.0 (Android 7.1.1; Tablet; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -20881,8 +21273,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OE' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:1.0.0) Gecko/1.0.0 Firefox/1.0.0',
@@ -20934,8 +21327,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OF' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:17.0) Gecko/17.0 Firefox/17.0',
@@ -20987,8 +21381,9 @@ return [
             'RenderingEngine_Version' => '17.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OG' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:2.3.2.0) Gecko/2.3.2.0 Firefox/2.3.2.0',
@@ -21040,8 +21435,9 @@ return [
             'RenderingEngine_Version' => '2.3',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OH' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:26.0) Gecko/26.0 Firefox/26.0',
@@ -21093,8 +21489,9 @@ return [
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OI' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:36.0) Gecko/36.0 Firefox/36.0',
@@ -21146,8 +21543,9 @@ return [
             'RenderingEngine_Version' => '36.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OJ' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -21199,8 +21597,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OK' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -21252,8 +21651,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OL' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.3; Mobile; rv:42.0) Gecko/42.0 Firefox/42.0',
@@ -21305,8 +21705,9 @@ return [
             'RenderingEngine_Version' => '42.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OM' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.4; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -21358,8 +21759,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-ON' => [
         'ua' => 'Mozilla/5.0 (Android 4.0.3; Mobile; rv:52.0) Gecko/52.0 Firefox/52.0',
@@ -21411,8 +21813,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OO' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.1; Mobile; rv:44.0) Gecko/44.0 Firefox/44.0',
@@ -21464,8 +21867,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OP' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.2; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -21517,8 +21921,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OQ' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.1; Mobile; rv:52.0) Gecko/52.0 Firefox/52.0',
@@ -21570,8 +21975,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OR' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.2; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -21623,8 +22029,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OS' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.1; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -21676,8 +22083,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OT' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.1; Mobile; rv:52.0) Gecko/52.0 Firefox/52.0',
@@ -21729,8 +22137,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OU' => [
         'ua' => 'Mozilla/5.0 (Android 4.3.1; Mobile; rv:41.0.2) Gecko/41.0.2 Firefox/41.0.2',
@@ -21782,8 +22191,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OV' => [
         'ua' => 'Mozilla/5.0 (Android 4.3; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -21835,8 +22245,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OW' => [
         'ua' => 'Mozilla/5.0 (Android 4.3; Mobile; rv:52.0) Gecko/52.0 Firefox/52.0',
@@ -21888,8 +22299,9 @@ return [
             'RenderingEngine_Version' => '52.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OY' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -21941,8 +22353,9 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-OZ' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Mobile; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -21994,8 +22407,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PA' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.2; Mobile; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -22047,8 +22461,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PB' => [
         'ua' => 'Mozilla/5.0 (Android 5.0; Mobile; rv:38.0) Gecko/20100101 Firefox/38.0',
@@ -22100,8 +22515,9 @@ return [
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PC' => [
         'ua' => 'Mozilla/5.0 (Android 5.0.1; Mobile; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -22153,8 +22569,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PD' => [
         'ua' => 'Mozilla/5.0 (Android 5.0.1; Mobile; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -22206,8 +22623,9 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PE' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.0; Mobile; rv:37.0) Gecko/37.0 Firefox/37.0',
@@ -22259,8 +22677,9 @@ return [
             'RenderingEngine_Version' => '37.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PF' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -22312,8 +22731,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PG' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; Mobile; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -22365,8 +22785,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PH' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; Mobile; rv:44.0) Gecko/44.0 Firefox/44.0',
@@ -22418,8 +22839,9 @@ return [
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PI' => [
         'ua' => 'Mozilla/5.0 (Android 6.0; Mobile; rv:46.0) Gecko/46.0 Firefox/46.0',
@@ -22471,8 +22893,9 @@ return [
             'RenderingEngine_Version' => '46.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PK' => [
         'ua' => 'Mozilla/5.0 (Android 7.0; Mobile; rv:43.0) Gecko/43.0 Firefox/43.0',
@@ -22524,8 +22947,9 @@ return [
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PL' => [
         'ua' => 'Mozilla/5.0 (Android 7.0; Mobile; rv:51.0) Gecko/51.0 Firefox/51.0',
@@ -22577,8 +23001,9 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PM' => [
         'ua' => 'Mozilla/5.0 (Android 7.1.1; Mobile; rv:50.0) Gecko/50.0 Firefox/50.0',
@@ -22630,8 +23055,9 @@ return [
             'RenderingEngine_Version' => '50.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PN' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:1.1.0) Gecko/1.1.0 Firefox/1.1.0',
@@ -22683,8 +23109,9 @@ return [
             'RenderingEngine_Version' => '1.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PO' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:13.0) Gecko/13.0 Firefox/13.0',
@@ -22736,8 +23163,9 @@ return [
             'RenderingEngine_Version' => '13.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PP' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:2.1.1.0) Gecko/2.1.1.0 Firefox/2.1.1.0',
@@ -22789,8 +23217,9 @@ return [
             'RenderingEngine_Version' => '2.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PQ' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:20.0) Gecko/20.0 Firefox/20.0',
@@ -22842,8 +23271,9 @@ return [
             'RenderingEngine_Version' => '20.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PR' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:32.0) Gecko/32.0 Firefox/32.0',
@@ -22895,8 +23325,9 @@ return [
             'RenderingEngine_Version' => '32.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PS' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:47.0) Gecko/47.0 Firefox/47.0',
@@ -22948,8 +23379,9 @@ return [
             'RenderingEngine_Version' => '47.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1381-PT' => [
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -23001,7 +23433,8 @@ return [
             'RenderingEngine_Version' => '48.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

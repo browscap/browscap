@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; U25GT-C4W Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Safari/537.36',
@@ -104,8 +105,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; U55GT Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Safari/537.36',
@@ -157,8 +159,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ZP980 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ca-es; ZP980 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Mi-440 Build/KOT49H) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 8675 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 baiduboxapp/5.0 (Baidu; P1 4.4.2)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-L' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad 8297-T01 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad 8297-C00 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 SogouSearch Android1.0 version3.0',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad 8675-FHD Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Mb2345Browser/7.5.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-P' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-CN; Coolpad 8730L Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; Coolpad 8089 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-S' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; Coolpad 8675 Build/KOT49H) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.9.6 (Baidu; P1 4.4.2)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 7620L-W00 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/54.0.0.0.25;]',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-U' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GFIVE A5 Build/JDQ39) AppleWebKit/534.24 (KHTML, like Gecko) FlyFlow/3.1 Version/4.0 Mobile Safari/534.24 T5/2.0',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC 802t 16GB Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 wkbrowser 3.2.56 696',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-851-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; HTC Desire 820 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100502012',
@@ -901,5 +917,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

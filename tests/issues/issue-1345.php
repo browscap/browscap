@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-B' => [
         'ua' => 'iTunes/10.2.1 (Windows; Microsoft Windows 7 Enterprise Edition Service Pack 1 (Build 7601)) AppleWebKit/533.20.25',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-C' => [
         'ua' => 'iTunes/10.4.1 (Windows; Microsoft Windows Vista Home Basic Edition Service Pack 2 (Build 6002)) AppleWebKit/534.50',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-D' => [
         'ua' => 'iTunes/10.5 (Macintosh; Intel Mac OS X 10.6.8) AppleWebKit/534.51.22',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-E' => [
         'ua' => 'iTunes/10.5 (Macintosh; Intel Mac OS X 10.7.2) AppleWebKit/534.51.22',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-F' => [
         'ua' => 'iTunes/10.5 (Windows; Microsoft Windows 7 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/534.51.22',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-G' => [
         'ua' => 'iTunes/10.5 (Windows; Microsoft Windows Vista Home Premium Edition Service Pack 2 (Build 6002)) AppleWebKit/534.51.22',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-H' => [
         'ua' => 'iTunes/10.7 (Windows; Microsoft Windows Vista Home Premium Edition Service Pack 1 (Build 6001)) AppleWebKit/536.26.9',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-I' => [
         'ua' => 'iTunes/11.0.1 (Windows; Microsoft Windows 7 x64 Business Edition Service Pack 1 (Build 7601)) AppleWebKit/536.27.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-J' => [
         'ua' => 'iTunes/11.0.2 (Windows; Microsoft Windows 7 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/536.27.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-K' => [
         'ua' => 'iTunes/11.0.2 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/536.27.1',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-L' => [
         'ua' => 'iTunes/11.0.4 (Macintosh; OS X 10.6.8) AppleWebKit/534.59.8',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-M' => [
         'ua' => 'iTunes/11.0.4 (Windows; Microsoft Windows 7 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/536.30.1',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-N' => [
         'ua' => 'iTunes/11.0.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/536.30.1',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-O' => [
         'ua' => 'iTunes/11.1 (Windows; Microsoft Windows 7 x64 Business Edition Service Pack 1 (Build 7601)) AppleWebKit/536.30.1',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-P' => [
         'ua' => 'iTunes/11.1 (Windows; Microsoft Windows Vista Home Premium Edition Service Pack 2 (Build 6002)) AppleWebKit/536.30.1',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-Q' => [
         'ua' => 'iTunes/11.2.2 (Windows; Microsoft Windows XP Home Edition Service Pack 3 (Build 2600)) AppleWebKit/537.60.15',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-R' => [
         'ua' => 'iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/537.60.17',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-S' => [
         'ua' => 'iTunes/11.4 (Windows; Microsoft Windows XP Home Edition Service Pack 3 (Build 2600)) AppleWebKit/537.60.17',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-T' => [
         'ua' => 'iTunes/12.0.1 (Macintosh; OS X 10.8.5) AppleWebKit/536.30.1',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-U' => [
         'ua' => 'iTunes/12.0.1 (Windows; Microsoft Windows 8 x64 Home Premium Edition (Build 9200)) AppleWebKit/7600.1017.0.24',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-V' => [
         'ua' => 'iTunes/12.0.1 (Windows; Microsoft Windows XP Home Edition Service Pack 3 (Build 2600)) AppleWebKit/7600.1017.0.24',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-W' => [
         'ua' => 'iTunes/12.1 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-X' => [
         'ua' => 'iTunes/12.1.2 (Macintosh; OS X 10.7.5) AppleWebKit/534.57.7',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-Y' => [
         'ua' => 'iTunes/12.1.2 (Windows Microsoft Windows 8 x64 Home Premium Edition (Build 9200) x64) AppleWebKit/7600.1017.9000.3',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-Z' => [
         'ua' => 'iTunes/12.2 (Macintosh; OS X 10.10.4) AppleWebKit/0600.7.12',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AA' => [
         'ua' => 'iTunes/12.2.1 (Macintosh; OS X 10.10.4) AppleWebKit/600.7.12',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AB' => [
         'ua' => 'iTunes/12.2.1 (Windows; Microsoft Windows 8 x64 Home Premium Edition (Build 9200); x64) AppleWebKit/7600.5017.0.22',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AC' => [
         'ua' => 'iTunes/12.2.2 (Macintosh; OS X 10.10.5) AppleWebKit/600.8.9',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AD' => [
         'ua' => 'iTunes/12.2.2 (Windows Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601) x64) AppleWebKit/7600.5017.0.22',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AE' => [
         'ua' => 'iTunes/12.3.2 (Macintosh; OS X 10.9.5) AppleWebKit/537.78.2',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AF' => [
         'ua' => 'iTunes/12.4 (Windows; Microsoft Windows 8.1 x64 Business Edition (Build 9200); x64) AppleWebKit/7601.6016.1000.1',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AG' => [
         'ua' => 'iTunes/12.5.5 (Macintosh; OS X 10.10.5) AppleWebKit/600.8.9',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AH' => [
         'ua' => 'iTunes/12.5.5 (Macintosh; OS X 10.11.5) AppleWebKit/601.6.17',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AI' => [
         'ua' => 'iTunes/12.5.5 (Macintosh; OS X 10.9.5) AppleWebKit/537.78.2',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AJ' => [
         'ua' => 'iTunes/12.6 (Macintosh; OS X 10.10.5) AppleWebKit/600.8.9',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AK' => [
         'ua' => 'iTunes/12.6 (Macintosh; OS X 10.11.6) AppleWebKit/601.7.8',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AL' => [
         'ua' => 'iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AM' => [
         'ua' => 'iTunes/4.7 (Macintosh; N; PPC)',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1345-AN' => [
         'ua' => 'iTunes/4.7 (Macintosh; U; PPC Mac OS X 10.2)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AO' => [
         'ua' => 'iTunes/7.0 (Macintosh; U; PPC Mac OS X 10.4.7)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AP' => [
         'ua' => 'iTunes/7.1.1 (Macintosh; N; PPC)',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1345-AQ' => [
         'ua' => 'iTunes/7.4.1',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AR' => [
         'ua' => 'iTunes/7.5 (Windows; N)',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AS' => [
         'ua' => 'iTunes/8.1',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AT' => [
         'ua' => 'iTunes/8.2 (Macintosh; U; PPC Mac OS X 10_5_6)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AU' => [
         'ua' => 'iTunes/9.0 (Macintosh; Intel Mac OS X 10.5.8) AppleWebKit/531.9',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AV' => [
         'ua' => 'iTunes/9.0.2 (Windows; N)',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AW' => [
         'ua' => 'iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-ca)',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AX' => [
         'ua' => 'iTunes/9.1.1',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AY' => [
         'ua' => 'iTunes/9.2.1 (Windows; Microsoft Windows Vista Home Basic Edition Service Pack 2 (Build 6002)) AppleWebKit/',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-AZ' => [
         'ua' => 'iTunes-iPad-M/5.1.1 (16GB; dt:28)',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-BA' => [
         'ua' => 'iTunes-iPad-M/6.1.2 (2; 32GB; dt:75)',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-BB' => [
         'ua' => 'iTunes-iPad/5.1.1 (2; 16GB; dt:74)',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-BC' => [
         'ua' => 'iTunes-iPhone/5.0.1 (6; 64GB)',
@@ -2914,7 +2968,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1345-BD' => [
         'ua' => 'iTunes-iPhone/5.1 (6; 16GB; dt:73)',
@@ -2967,7 +3022,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1345-BE' => [
         'ua' => 'iTunes-iPod/4.2.1 (2; 8GB)',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-BF' => [
         'ua' => 'iTunes-iPod/5.0.1 (4; 32GB)',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1345-BG' => [
         'ua' => 'iTunes-iPod/6.1.6 (4; 8GB; dt:71)',
@@ -3127,5 +3185,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

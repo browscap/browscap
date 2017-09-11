@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-B' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 6.1 de) Opera 11.01',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-C' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 6.1 en) Opera 10.62',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-D' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.0-4GB i686) Opera 5.0 [en]',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-E' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Mac_PowerPC) Opera 5.0  [en]',
@@ -263,8 +267,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-F' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Mac_PowerPC) Opera 6.0  [en]',
@@ -316,8 +321,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-G' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.8 sun4u) Opera 5.0 [en]',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-H' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 5.12 [en]',
@@ -422,8 +429,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-I' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 5.12  [en]',
@@ -475,8 +483,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-J' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.02 [en]',
@@ -528,8 +537,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-K' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]',
@@ -581,8 +591,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-L' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 5.02  [en]',
@@ -634,8 +645,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-M' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 5.1) Opera 5.02 [en]',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-N' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 6.0; Trident/4.0) Opera 5.12  [ru]',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-O' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 6.2; Trident/4.0) Opera 5.12  [ru]',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-P' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows XP) Opera 6.0  [de]',
@@ -846,8 +861,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-Q' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux 2.4.18-bf2.4 i686) Opera 7.11  [en]',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-R' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.0',
@@ -952,8 +969,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-S' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 95) Opera 7.03  [de]',
@@ -1005,8 +1023,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-T' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.2; Trident/5.0) Opera 7.01 [en]',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-U' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 6.2; Trident/4.0) Opera 7.02 Bork-edition [en]',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-V' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows XP) Opera 7.0  [en]',
@@ -1164,8 +1185,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-W' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 10.00',
@@ -1217,8 +1239,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-X' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; en) Opera 8.0',
@@ -1270,8 +1293,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-Y' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; en) Opera 8.02',
@@ -1323,8 +1347,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-Z' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 6.0  [en]',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 9.50',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 10.00',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 8.0',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 9.27',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 10.00',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 9.26',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0) Opera 7.54 [en]',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0; ru) Opera 8.50',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1) Opera 7.50  [en]',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; en) Opera 8.0',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; ru) Opera 10.10',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; Trident/4.0; ru) Opera 9.27',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.2; en) Opera 8.51',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.0; Trident/4.0; en) Opera 11.00',
@@ -2118,8 +2157,9 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-AO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 11.00',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 12.15',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; en) Opera 11.00',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; de) Opera 11.01',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; ru) Opera 11.10',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AT' => [
         'ua' => 'Mozilla/4.0 (Windows 98; US) Opera 10.00 [en]',
@@ -2436,8 +2481,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.0) Opera 12.14',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AV' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1) Opera 12.11',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AW' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; en) Opera 11.64',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AX' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 11.51',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AY' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.00',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-AZ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2) Opera 12.15',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BA' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2; Trident/5.0; ru) Opera 11.60',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BB' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; ru) Opera 11.52',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BC' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; ru) Opera 11.60',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BD' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; WOW64) Opera 12.14',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; WOW64; en) Opera 11.64',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.11',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; en) Opera 12.00',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BI' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; ru) Opera 11.61',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BJ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; Win64; x64; ru) Opera 12.01',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BK' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64) Opera 12.15',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BL' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64) Opera 12.12',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BM' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; de) Opera 12.00',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BN' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; ru) Opera 11.64',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BO' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2) Opera 12.15',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BP' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.52',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BQ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.62',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 12.02',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BS' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Win64; x64) Opera 12.17',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BT' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64) Opera 12.15',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BU' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; X11; Linux i686) Opera 12.15',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BV' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; X11; Linux i686; es-LA) Opera 11.64',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BW' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; X11; Linux x86_64) Opera 12.16',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BX' => [
         'ua' => 'Mozilla/5.0 (compatible; Opera/9.51 Presto/2.8.131 Version/9.51; Windows NT 5.0; Trident/6.0)',
@@ -4026,8 +4101,9 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-BY' => [
         'ua' => 'Mozilla/5.0 (compatible; Opera/9.51 Presto/2.8.131 Version/9.51; Windows NT 5.1; Trident/6.0)',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-BZ' => [
         'ua' => 'Mozilla/5.0 (CrOS i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 OPR/28.0.1750.40',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CA' => [
         'ua' => 'Mozilla/5.0 (CrOS i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 OPR/34.0.2036.25',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CB' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CC' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 OPR/28.0.1750.51',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CD' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 OPR/34.0.2036.25',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CE' => [
         'ua' => 'Mozilla/5.0 (Linux 2.4.18-18.7.x i686; U) Opera 6.03  [en]',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CF' => [
         'ua' => 'Mozilla/5.0 (Linux 2.4.20-gentoo-r5 i686; U) Opera 7.11  [en]',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CG' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.48.ALSAN3.56',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CH' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.103',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CI' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.122 Safari/537.36 OPR/24.0.1558.64',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CK' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.26 Safari/537.36 OPR/32.0.1948.4',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CL' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CM' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.26 Safari/537.36 OPR/32.0.1948.4',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CN' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_6_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.122 Safari/537.36 OPR/24.0.1558.64',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CO' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 OPR/30.0.1835.125',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CP' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.59',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.52 Safari/537.36 OPR/15.0.1147.100',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CR' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1614.71',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CS' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CT' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.26 Safari/537.36 OPR/32.0.1948.4',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36 OPR/37.0.2178.32',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 OPR/20.0.1387.91',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.0.2130.65',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 OPR/34.0.2036.50',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36 OPR/38.0.2220.31',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36 OPR/43.0.2442.806',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X; U) Opera 7.54  [en]',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X; U; en) Opera 8.0',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DJ' => [
         'ua' => 'Mozilla/5.0 (Opera 7.23; Windows NT 5.1)',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DK' => [
         'ua' => 'Mozilla/5.0 (SunOS 5.8 sun4u; U) Opera 5.0 [en]',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DL' => [
         'ua' => 'Mozilla/5.0 (Windows 2000; U) Opera 6.01  [en]',
@@ -6146,8 +6261,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DM' => [
         'ua' => 'Mozilla/5.0 (Windows 2000; U) Opera 7.0  [en]',
@@ -6199,8 +6315,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DN' => [
         'ua' => 'Mozilla/5.0 (Windows 98 U en) Opera 8.54',
@@ -6252,8 +6369,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DO' => [
         'ua' => 'Mozilla/5.0 (Windows 98; U) Opera 5.12  [de]',
@@ -6305,8 +6423,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DP' => [
         'ua' => 'Mozilla/5.0 (Windows 98; U) Opera 6.04  [en]',
@@ -6358,8 +6477,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows 98; U) Opera 7.20  [en]',
@@ -6411,8 +6531,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DR' => [
         'ua' => 'Mozilla/5.0 (Windows ME; U) Opera 6.0  [en]',
@@ -6464,8 +6585,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DS' => [
         'ua' => 'Mozilla/5.0 (Windows ME; U) Opera 7.23  [en]',
@@ -6517,8 +6639,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DT' => [
         'ua' => 'Mozilla/5.0 (Windows ME; U; en) Opera 8.51',
@@ -6570,8 +6693,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/30.0.1835.125',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2438.3 Safari/537.36 OPR/32.0.1918.0',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 OPR/32.0.1948.92',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, Like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2374.0',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-DZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0.10586; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2950.4 Safari/537.36 OPR/44.0.2475.0',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/30.0.1835.125',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2645.4 Safari/537.36 OPR/37.0.2163.0',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.45 Safari/537.36 OPR/15.0.1147.72',
@@ -7047,8 +7179,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-ED' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -7100,8 +7233,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-EE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -7153,8 +7287,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-EF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; U) Opera 7.11  [en]',
@@ -7206,8 +7341,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-EG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; U; en) Opera 8.0',
@@ -7259,8 +7395,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-EH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -7314,6 +7451,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; en; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
@@ -7367,6 +7505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U) Opera 7.11  [en]',
@@ -7420,6 +7559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.37 Safari/537.36 OPR/15.0.1147.44',
@@ -7473,6 +7613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -7526,6 +7667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.20660.92',
@@ -7579,6 +7721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64  NCLIENT50_AAP081D982F517) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36 OPR/31.0.1889.99',
@@ -7632,6 +7775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 OPR/19.0.1326.59',
@@ -7685,6 +7829,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -7738,6 +7883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -7791,6 +7937,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ER' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; ru; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.00',
@@ -7844,6 +7991,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ES' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -7897,6 +8045,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ET' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64  NCLIENT50_AAP3F872F3221B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.59',
@@ -7950,6 +8099,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64  NCLIENT50_AAPC5EA3F028CF) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36 OPR/25.0.1614.63',
@@ -8003,6 +8153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.19',
@@ -8056,6 +8207,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36 OPR/32.0.1899.0',
@@ -8109,6 +8261,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -8162,6 +8315,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2141.0',
@@ -8215,6 +8369,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-EZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -8268,6 +8423,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.16',
@@ -8321,6 +8477,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.12 Safari/537.36 OPR/19.0.1341.73',
@@ -8374,6 +8531,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/30.0.1835.125',
@@ -8427,6 +8585,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.26 Safari/537.36 OPR/38.0.2190.0',
@@ -8480,6 +8639,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2374.0',
@@ -8533,6 +8693,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.01',
@@ -8586,6 +8747,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
@@ -8639,6 +8801,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -8692,6 +8855,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) Presto/2.12.388 Opera/12.16',
@@ -8745,6 +8909,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
@@ -8798,6 +8963,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.02',
@@ -8851,6 +9017,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 U ru rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.00',
@@ -8904,6 +9071,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 ru rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
@@ -8957,6 +9125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.15',
@@ -9010,6 +9179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36 OPR/32.0.1899.0',
@@ -9063,6 +9233,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -9116,6 +9287,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
@@ -9169,6 +9341,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.19 Safari/537.36 OPR/42.0.2392.0',
@@ -9222,6 +9395,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.02',
@@ -9275,6 +9449,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1505.90 Safari/537.36 OPR/18.0.1331.40',
@@ -9328,6 +9503,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2739.0 Safari/537.36 OPR/39.0.2248.0',
@@ -9381,6 +9557,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85',
@@ -9434,6 +9611,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.0 Safari/537.36 OPR/37.0.2171.0',
@@ -9487,6 +9665,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2374.0',
@@ -9540,6 +9719,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3  NCLIENT50_AAP694CF7CAE30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174',
@@ -9593,6 +9773,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-FZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
@@ -9646,6 +9827,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
@@ -9699,6 +9881,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.19 Safari/537.36 OPR/42.0.2392.0',
@@ -9752,6 +9935,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/30.0.1835.125',
@@ -9805,6 +9989,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.26 Safari/537.36 OPR/38.0.2190.0',
@@ -9858,6 +10043,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.35 Safari/537.36 OPR/42.0.2393.38',
@@ -9911,6 +10097,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
@@ -9964,6 +10151,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.2743.82 Safari/537.36 OPR/42.0.2393.137',
@@ -10017,6 +10205,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36 OPR/24.0.1558.53',
@@ -10070,6 +10259,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -10123,6 +10313,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GJ' => [
         'ua' => 'Mozilla/5.0 (X11 Linux i686 U cs) Opera 8.54',
@@ -10176,6 +10367,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GK' => [
         'ua' => 'Mozilla/5.0 (X11 Linux i686 Ubuntu/14.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
@@ -10229,6 +10421,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GL' => [
         'ua' => 'Mozilla/5.0 (X11 Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.62 Safari/537.36 OPR/26.0.1656.20',
@@ -10282,6 +10475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GM' => [
         'ua' => 'Mozilla/5.0 (X11 Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36 OPR/32.0.1899.0',
@@ -10335,6 +10529,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GN' => [
         'ua' => 'Mozilla/5.0 (X11 Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.60140',
@@ -10388,6 +10583,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GO' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD i386; U) Opera 7.23  [en]',
@@ -10441,6 +10637,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
@@ -10494,6 +10691,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GQ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -10547,6 +10745,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GR' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -10600,6 +10799,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GS' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; en; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
@@ -10653,6 +10853,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.01',
@@ -10706,6 +10907,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GU' => [
         'ua' => 'Opera 9.4 (Windows NT 6.1 U en)',
@@ -10759,6 +10961,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GV' => [
         'ua' => 'Opera/10.00 (Macintosh; Intel Mac OS X; U; en) Presto/2.2.0',
@@ -10812,6 +11015,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GW' => [
         'ua' => 'Opera/10.00 (Windows NT 5.0; U; ru) Presto/2.2.0',
@@ -10864,7 +11068,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-GX' => [
         'ua' => 'Opera/10.00 (Windows NT 5.1  U  ru) Presto/2.2.2',
@@ -10918,6 +11123,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GY' => [
         'ua' => 'Opera/10.00 (Windows NT 5.2; U; en) Presto/2.2.0',
@@ -10971,6 +11177,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-GZ' => [
         'ua' => 'Opera/10.00 (Windows NT 6.0 U en) Presto/2.2.2',
@@ -11024,6 +11231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HA' => [
         'ua' => 'Opera/10.00 (Windows NT 6.1 U en) Presto/2.2.0',
@@ -11077,6 +11285,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HB' => [
         'ua' => 'Opera/10.00 (Windows NT 6.2 U Edition Turbo en) Presto/2.2.0',
@@ -11130,6 +11339,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HC' => [
         'ua' => 'Opera/10.00 (X11 Linux i686  U Fedora 9 en) Presto/2.2.0',
@@ -11183,6 +11393,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HD' => [
         'ua' => 'Opera/10.50 (Macintosh; Intel Mac OS X 10.5; en-MT) Presto/2.11.08 Version/11.10',
@@ -11236,6 +11447,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HE' => [
         'ua' => 'Opera/10.50 (Macintosh; Intel Mac OS X 10.6; en-AU) Presto/2.12.179 Version/12.11',
@@ -11289,6 +11501,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HF' => [
         'ua' => 'Opera/10.50 (Macintosh; Intel Mac OS X 10.8; en-ZA) Presto/2.12.64 Version/12.52',
@@ -11342,6 +11555,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HG' => [
         'ua' => 'Opera/10.50 (Windows XP; U)',
@@ -11394,7 +11608,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-HH' => [
         'ua' => 'Opera/10.50 (X11; U; bg)',
@@ -11448,6 +11663,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HI' => [
         'ua' => 'Opera/10.60 (Linux sh4 ; U; HBBTV/1.0 (; LOH/2.01; -----;;;) CE-HTML/1.0 Config(Hotel,L:de,CC:DE); en) Presto/2.6.33 Version/10.60',
@@ -11499,8 +11715,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-HJ' => [
         'ua' => 'Opera/11.0 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16',
@@ -11554,6 +11771,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HK' => [
         'ua' => 'Opera/11.00 (Windows NT 5.1; U; en)',
@@ -11607,6 +11825,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HL' => [
         'ua' => 'Opera/11.1 (Windows NT 5.2: U en)',
@@ -11660,6 +11879,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HM' => [
         'ua' => 'Opera/11.1 (Windows NT 6.0: U: en)',
@@ -11713,6 +11933,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HN' => [
         'ua' => 'Opera/11.1 (Windows NT 6.1: U: en)',
@@ -11766,6 +11987,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HO' => [
         'ua' => 'Opera/11.1 (Windows NT 6.2: U; en)',
@@ -11819,6 +12041,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HP' => [
         'ua' => 'Opera/11.50 (Windows NT 5.1; U; en)',
@@ -11872,6 +12095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HQ' => [
         'ua' => 'Opera/11.50 (Windows NT 6.0; U; en)',
@@ -11925,6 +12149,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HR' => [
         'ua' => 'Opera/11.50 (Windows NT 6.1; U; en)',
@@ -11978,6 +12203,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HS' => [
         'ua' => 'Opera/11.51 (Windows NT 6.2; U; SL Presto/2.9.170 Version/10.00)',
@@ -12031,6 +12257,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HT' => [
         'ua' => 'Opera/11.60 (X11; Linux i686; U; en-IN) Presto/2.12.341 Version/12.50',
@@ -12084,6 +12311,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HU' => [
         'ua' => 'Opera/11.61 (Windows NT 6.0; U; en) Presto/8.2.820 Version/11.61',
@@ -12137,6 +12365,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HV' => [
         'ua' => 'Opera/11.62 (Windows NT 6.1; U; en) Presto/2.10.229 Version/11.62',
@@ -12190,6 +12419,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HW' => [
         'ua' => 'Opera/11.62 (Windows NT 6.1; WOW64; U; en) Presto/2.10.229 Version/11.62',
@@ -12243,6 +12473,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HX' => [
         'ua' => 'Opera/12.0 (Macintosh; Intel Mac OS X 10.5; en-CA) Presto/2.12.51 Version/12.11',
@@ -12296,6 +12527,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HY' => [
         'ua' => 'Opera/12.0 (Macintosh; Intel Mac OS X 10.6; U; en-IN) Presto/2.9.375 Version/11.50',
@@ -12349,6 +12581,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-HZ' => [
         'ua' => 'Opera/12.0 (Macintosh; Intel Mac OS X 10.7; U; en-MT) Presto/2.9.29 Version/12.10',
@@ -12402,6 +12635,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IA' => [
         'ua' => 'Opera/12.0 (Macintosh; Intel Mac OS X 10.8; en-IE) Presto/2.9.53 Version/11.11',
@@ -12455,6 +12689,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IB' => [
         'ua' => 'Opera/12.0 (Windows NT 5.1;U;en)Presto/22.9.168 Version/12.00',
@@ -12508,6 +12743,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IC' => [
         'ua' => 'Opera/12.0 (Windows NT 5.2;U;en)Presto/22.9.168 Version/12.00',
@@ -12561,6 +12797,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ID' => [
         'ua' => 'Opera/12.0 (Windows NT 6.0; U; en)Presto/22.9.168 Version/12.00',
@@ -12614,6 +12851,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IE' => [
         'ua' => 'Opera/12.0 (Windows NT 6.1 U en) Presto/2.9.181 Version/12.00',
@@ -12667,6 +12905,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IF' => [
         'ua' => 'Opera/12.0 (Windows NT 6.1 WOW64 U en) Presto/2.9.181 Version/12.00',
@@ -12720,6 +12959,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IG' => [
         'ua' => 'Opera/12.0 (X11; Linux i686; U; en-GB) Presto/2.9.171 Version/11.11',
@@ -12773,6 +13013,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IH' => [
         'ua' => 'Opera/12.0(Windows NT 6.2;U;it)Presto/22.9.157 Version/12.00',
@@ -12826,6 +13067,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-II' => [
         'ua' => 'Opera/12.00a (Intel Mac OS X 10.9.5; U; en-US) Presto/3.3.454 Version/12.00a',
@@ -12879,6 +13121,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IJ' => [
         'ua' => 'Opera/12.14 (Windows NT 5.1; U; en) Presto/3.7.949 Version/12.14',
@@ -12932,6 +13175,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IK' => [
         'ua' => 'Opera/12.14 (Windows NT 6.0; U; en-US) Presto/8.1.502 Version/12.14',
@@ -12985,6 +13229,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IL' => [
         'ua' => 'Opera/4.0 (Windows 98;US)  [en]',
@@ -13037,7 +13282,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IM' => [
         'ua' => 'Opera/4.0 (Windows NT 6.1; U; en-EN) Presto/2.9.175 Version/9.00',
@@ -13091,6 +13337,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IN' => [
         'ua' => 'Opera/4.02 (Windows; U; br)',
@@ -13144,6 +13391,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IO' => [
         'ua' => 'Opera/5.0 (Linux 2.0.38 i386; U) [en]',
@@ -13197,6 +13445,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IP' => [
         'ua' => 'Opera/5.0 (Macintosh; U; bg)',
@@ -13250,6 +13499,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IQ' => [
         'ua' => 'Opera/5.0 (SunOS 5.8 sun4u; U) [en]',
@@ -13303,6 +13553,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IR' => [
         'ua' => 'Opera/5.0 (Ubuntu; U; Windows NT 6.1; es; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13',
@@ -13356,6 +13607,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IS' => [
         'ua' => 'Opera/5.02 (Windows 98; U)  [en]',
@@ -13408,7 +13660,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IT' => [
         'ua' => 'Opera/5.11 (Windows ME; U) [ru]',
@@ -13461,7 +13714,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IU' => [
         'ua' => 'Opera/5.12 (Windows 2000; U)  [en]',
@@ -13514,7 +13768,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IV' => [
         'ua' => 'Opera/5.12 (Windows NT 4.0; U) [fr]',
@@ -13567,7 +13822,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IW' => [
         'ua' => 'Opera/6.0 (Macintosh PPC Mac OS X U)',
@@ -13621,6 +13877,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IX' => [
         'ua' => 'Opera/6.0 (Macintosh; U; bg)',
@@ -13674,6 +13931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-IY' => [
         'ua' => 'Opera/6.0 (Windows 98; U)  [en]',
@@ -13726,7 +13984,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-IZ' => [
         'ua' => 'Opera/6.0 (Windows ME; U)  [de]',
@@ -13779,7 +14038,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JA' => [
         'ua' => 'Opera/6.0 (X11; U; bg)',
@@ -13833,6 +14093,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JB' => [
         'ua' => 'Opera/6.03 (Linux 2.4.18-18.7.x i686; U) [en]',
@@ -13886,6 +14147,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JC' => [
         'ua' => 'Opera/7.0 (Windows 2000; U)  [en]',
@@ -13938,7 +14200,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JD' => [
         'ua' => 'Opera/7.0 (Windows 98; U)  [en]',
@@ -13991,7 +14254,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JE' => [
         'ua' => 'Opera/7.0 (Windows NT 5.0; U) [en]',
@@ -14044,7 +14308,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JF' => [
         'ua' => 'Opera/7.0 (X11; U; ca)',
@@ -14098,6 +14363,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JG' => [
         'ua' => 'Opera/7.03 (Windows 95; U)  [en]',
@@ -14150,7 +14416,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JH' => [
         'ua' => 'Opera/7.10 (Windows ME; U)  [en]',
@@ -14203,7 +14470,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JI' => [
         'ua' => 'Opera/7.11 (Windows NT 5.2; U)  [en]',
@@ -14257,6 +14525,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JJ' => [
         'ua' => 'Opera/7.23 (Windows NT 6.0; U)  [zh-cn]',
@@ -14310,6 +14579,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JK' => [
         'ua' => 'Opera/7.23 (X11; SunOS sun4u; U)  [en]',
@@ -14363,6 +14633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JL' => [
         'ua' => 'Opera/7.51 (Mac_PowerPC; U)  [en]',
@@ -14415,7 +14686,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JM' => [
         'ua' => 'Opera/8.0 (Macintosh; PPC Mac OS X; U; en)',
@@ -14469,6 +14741,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JN' => [
         'ua' => 'Opera/8.0 (Windows 98; U; en)',
@@ -14521,7 +14794,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JO' => [
         'ua' => 'Opera/8.0 (Windows ME; U; en)',
@@ -14574,7 +14848,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JP' => [
         'ua' => 'Opera/8.0 (Windows NT 5.0; U; en)',
@@ -14627,7 +14902,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JQ' => [
         'ua' => 'Opera/8.0 (Windows NT 5.2; U; en)',
@@ -14681,6 +14957,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JR' => [
         'ua' => 'Opera/8.0 (X11; Linux i686; U; cs)',
@@ -14734,6 +15011,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JS' => [
         'ua' => 'Opera/8.00 (Windows NT 6.1; U; en)',
@@ -14787,6 +15065,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JT' => [
         'ua' => 'Opera/8.50 (Windows NT 4.0; U; zh-cn)',
@@ -14839,7 +15118,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JU' => [
         'ua' => 'Opera/8.50 (Windows NT 6.0; U; en-US) Presto/2.9.165 Version/10.00',
@@ -14893,6 +15173,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JV' => [
         'ua' => 'Opera/8.51 (FreeBSD 5.1; U; en)',
@@ -14946,6 +15227,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JW' => [
         'ua' => 'Opera/8.54 (Windows 95; U; xx)',
@@ -14998,7 +15280,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-JX' => [
         'ua' => 'Opera/9.0 (Macintosh; Intel Mac OS X 10.6; en-AU) Presto/2.12.339 Version/12.60',
@@ -15052,6 +15335,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JY' => [
         'ua' => 'Opera/9.0 (Macintosh; Intel Mac OS X 10.7; en-AU) Presto/2.9.69 Version/12.52',
@@ -15105,6 +15389,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-JZ' => [
         'ua' => 'Opera/9.0 (Macintosh; Intel Mac OS X 10.8; U; en-AU) Presto/2.12.79 Version/11.11',
@@ -15158,6 +15443,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KA' => [
         'ua' => 'Opera/9.0 (textmode; Linux 2.6.23 i686; en-US)',
@@ -15211,6 +15497,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KB' => [
         'ua' => 'Opera/9.0 (Windows NT 5.0; U; en)',
@@ -15263,7 +15550,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KC' => [
         'ua' => 'Opera/9.0 (Windows NT 6.0; en-GB) Presto/2.12.82 Version/12.62',
@@ -15317,6 +15605,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KD' => [
         'ua' => 'Opera/9.00 (Nintendo Wii; U; 1038-58; Wii Internet Channel/1.0; en)',
@@ -15370,6 +15659,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KE' => [
         'ua' => 'Opera/9.00 (Windows 95; U; xx)',
@@ -15422,7 +15712,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KF' => [
         'ua' => 'Opera/9.00 (Windows ME; U; en)',
@@ -15475,7 +15766,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KG' => [
         'ua' => 'Opera/9.00 (Windows NT 4.0; U; en)',
@@ -15528,7 +15820,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KH' => [
         'ua' => 'Opera/9.00 (Windows NT 5.2 U en)',
@@ -15582,6 +15875,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KI' => [
         'ua' => 'Opera/9.00 (Windows NT 6.2; U; en)',
@@ -15635,6 +15929,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KJ' => [
         'ua' => 'Opera/9.00 (X11 U bg)',
@@ -15688,6 +15983,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KK' => [
         'ua' => 'Opera/9.01 (Windows 98; U; pl)',
@@ -15740,7 +16036,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KL' => [
         'ua' => 'Opera/9.01 (X11; FreeBSD 6 i386; U; en)',
@@ -15794,6 +16091,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KM' => [
         'ua' => 'Opera/9.01 (X11; OpenBSD i386; U; en)',
@@ -15847,6 +16145,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KN' => [
         'ua' => 'Opera/9.24 (X11; SunOS i86pc; U; en)',
@@ -15900,6 +16199,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KO' => [
         'ua' => 'Opera/9.25 (OpenSolaris; U; en)',
@@ -15953,6 +16253,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KP' => [
         'ua' => 'Opera/9.30 (textmode; Intel Mac OS X 10.5; en-US)',
@@ -16006,6 +16307,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KQ' => [
         'ua' => 'Opera/9.64 (Windows NT 4.10; U; zh-cn) Presto/2.1.1',
@@ -16058,7 +16360,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KR' => [
         'ua' => 'Opera/9.64 (Windows NT 6.3; U; zh-cn) Presto/2.1.1',
@@ -16112,6 +16415,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KS' => [
         'ua' => 'Opera/9.80 (compatible; MSIE 9.0; Windows NT 6.0; en-SG) Presto/2.9.41 Version/11.10',
@@ -16165,6 +16469,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KT' => [
         'ua' => 'Opera/9.80 (compatible; MSIE 9.0; Windows NT 6.1; en-CA) Presto/2.9.196 Version/11.62',
@@ -16218,6 +16523,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KU' => [
         'ua' => 'Opera/9.80 (compatible; MSIE 9.0; Windows NT 6.1; en-IE) Presto/2.9.95 Version/12.12',
@@ -16271,6 +16577,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KV' => [
         'ua' => 'Opera/9.80 (Linux i686 U en) Presto/2.5.22 Version/10.51',
@@ -16324,6 +16631,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KW' => [
         'ua' => 'Opera/9.80 (Linux i686 U fr) Presto/2.10.287 Version/12.00',
@@ -16377,6 +16685,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-KX' => [
         'ua' => 'Opera/9.80 (Linux mips Opera TV/14) Presto/2.11.355 Version/12.11',
@@ -16428,8 +16737,9 @@ return [
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KY' => [
         'ua' => 'Opera/9.80 (Linux mips U  en) Presto/2.10.287 Version/12.00',
@@ -16481,8 +16791,9 @@ return [
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-KZ' => [
         'ua' => 'Opera/9.80 (Linux mips U en) Presto/2.9.167 Version/11.50',
@@ -16534,8 +16845,9 @@ return [
             'RenderingEngine_Version' => '2.9',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-LA' => [
         'ua' => 'Opera/9.80 (Linux mips; U; en) Presto/2.8.115 Version/11.10',
@@ -16587,8 +16899,9 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-LB' => [
         'ua' => 'Opera/9.80 (Linux sh4; U; en) Presto/2.8.115 Version/11.10',
@@ -16640,8 +16953,9 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-LC' => [
         'ua' => 'Opera/9.80 (Linux) Presto/2.12.388 Version/12.14',
@@ -16695,6 +17009,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LD' => [
         'ua' => 'Opera/9.80 (Linux; en) Presto/2.7.81 Version/11.00',
@@ -16748,6 +17063,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LE' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.10.0 Edition MAS) Presto/2.12.388 Version/12.15',
@@ -16801,6 +17117,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LF' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.10.3 U Edition MacAppStore en) Presto/2.10.229 Version/11.60',
@@ -16854,6 +17171,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LG' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.10.4 U Edition Rambler en) Presto/2.10.289 Version/12.00',
@@ -16907,6 +17225,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LH' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.11.0) Presto/2.12.388 Version/12.16',
@@ -16960,6 +17279,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LI' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.4.11 U en) Presto/2.7.39 Version/11.00',
@@ -17013,6 +17333,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LJ' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.4.11 U en) Presto/2.8.131 Version/11.11',
@@ -17066,6 +17387,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LK' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.5.3 U en) Presto/2.10.229 Version/11.61',
@@ -17119,6 +17441,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LL' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.5.5) Presto/2.12.388 Version/12.15',
@@ -17172,6 +17495,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LM' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.5.8 U en) Presto/2.10.289 Version/12.00',
@@ -17225,6 +17549,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LN' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.5.8 U en) Presto/2.7.62 Version/11.00',
@@ -17278,6 +17603,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LO' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.5.8 U en) Presto/2.8.131 Version/11.11',
@@ -17331,6 +17657,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LP' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.6.4 U ru) Presto/2.10.289 Version/12.00',
@@ -17384,6 +17711,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LQ' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.6.6) Presto/2.12.388 Version/12.16',
@@ -17437,6 +17765,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LR' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.6.8 U de) Presto/2.9.168 Version/11.52',
@@ -17490,6 +17819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LS' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.6.8 U Edition Yx ru) Presto/2.10.229 Version/11.64',
@@ -17543,6 +17873,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LT' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.6.8 U en) Presto/2.8.131 Version/11.11',
@@ -17596,6 +17927,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LU' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.7.0) Presto/2.12.388 Version/12.16',
@@ -17649,6 +17981,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LV' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.7.2 U Edition MacAppStore ru) Presto/2.10.229 Version/11.60',
@@ -17702,6 +18035,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LW' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.7.2 U ru) Presto/2.8.131 Version/11.10',
@@ -17755,6 +18089,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LX' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.7.4 U Edition MacAppStore en) Presto/2.10.289 Version/12.00',
@@ -17808,6 +18143,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LY' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.8.0) Presto/2.12.388 Version/12.14',
@@ -17861,6 +18197,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-LZ' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.9.2) Presto/2.12.388 Version/12.16',
@@ -17914,6 +18251,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MA' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.9.5 U en) Presto/2.10.229 Version/11.61',
@@ -17967,6 +18305,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MB' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10.9.5 U en) Presto/2.10.289 Version/12.02',
@@ -18020,6 +18359,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MC' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10_4_11 U en) Presto/2.2.0 Version/10.00',
@@ -18073,6 +18413,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MD' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10_7_5 en) Presto/2.9.168 Version/11.52',
@@ -18126,6 +18467,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ME' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X 10_8_3 en) Presto/2.10.229 Version/11.62',
@@ -18179,6 +18521,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MF' => [
         'ua' => 'Opera/9.80 (Macintosh Intel Mac OS X U de) Presto/2.6.30 Version/10.60',
@@ -18232,6 +18575,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MG' => [
         'ua' => 'Opera/9.80 (Macintosh PPC Mac OS X U de) Presto/2.6.30 Version/10.63',
@@ -18285,6 +18629,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MH' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.10.0; U; en) Presto/2.9.168 Version/11.52',
@@ -18338,6 +18683,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MI' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.11.0; U; Edition MAS; en) Presto/2.10.229 Version/11.64',
@@ -18391,6 +18737,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MJ' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.11.3; U; en) Presto/2.10.289 Version/12.01',
@@ -18444,6 +18791,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MK' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.12.0) Presto/2.12.388 Version/12.16',
@@ -18497,6 +18845,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ML' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.5.8; U; en) Presto/2.9.168 Version/11.50',
@@ -18550,6 +18899,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MM' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.3; U; ru) Presto/2.7.62 Version/11.01',
@@ -18603,6 +18953,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MN' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.7.2; U; ru) Presto/2.7.62 Version/11.01',
@@ -18656,6 +19007,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MO' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.8.0; U; en) Presto/2.10.289 Version/12.02',
@@ -18709,6 +19061,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MP' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.8.0; U; en) Presto/2.9.168 Version/11.52',
@@ -18762,6 +19115,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MQ' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10_5_5; U; ie) Presto/2.2.15 Version/10.10',
@@ -18815,6 +19169,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-MR' => [
         'ua' => 'Opera/9.80 (Windows 98 U de) Presto/2.6.30 Version/10.61',
@@ -18866,8 +19221,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MS' => [
         'ua' => 'Opera/9.80 (Windows ME U en) Presto/2.6.30 Version/10.63',
@@ -18919,8 +19275,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MT' => [
         'ua' => 'Opera/9.80 (Windows NT 4.0; U; en) Presto/2.6.30 Version/10.63',
@@ -18972,8 +19329,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MU' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0 U de) Presto/2.10.289 Version/12.02',
@@ -19025,8 +19383,9 @@ return [
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MV' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0 U Distribution 00 ru) Presto/2.10.229 Version/11.64',
@@ -19078,8 +19437,9 @@ return [
             'RenderingEngine_Version' => '2.10',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MW' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0 U en) Presto/2.2.15 Version/10.00',
@@ -19131,8 +19491,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MX' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0 U en) Presto/2.7.62 Version/11.00',
@@ -19184,8 +19545,9 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MY' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0; U; Distribution 00; en) Presto/2.8.131 Version/11.10',
@@ -19237,8 +19599,9 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-MZ' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1  MRSPUTNIK OW 2, 2, 0, 94) Presto/2.12.388 Version/12.17',
@@ -19292,6 +19655,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NA' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1  U    MRSPUTNIK OW 2, 3, 0, 288  ru) Presto/2.7.62 Version/11.00',
@@ -19345,6 +19709,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NB' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1 U ar) Presto/2.10.289 Version/12.00',
@@ -19398,6 +19763,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NC' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1 U Distribution 00 ru) Presto/2.10.229 Version/11.61',
@@ -19451,6 +19817,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ND' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 Edition Campaign 14) Presto/2.12.388 Version/12.10',
@@ -19504,6 +19871,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NE' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 U be) Presto/2.10.289 Version/12.00',
@@ -19557,6 +19925,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NF' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 U Edition DriverPack ru) Presto/2.10.229 Version/11.64',
@@ -19610,6 +19979,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NG' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 U en) Presto/2.2.15 Version/10.00',
@@ -19663,6 +20033,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NH' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 U en) Presto/2.7.62 Version/11.01',
@@ -19716,6 +20087,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NI' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0  Win64 x64 en) Presto/2.10.289 Version/12.02',
@@ -19769,6 +20141,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NJ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0  Win64 x64 en) Presto/2.9.168 Version/11.52',
@@ -19822,6 +20195,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NK' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 Distribution 00) Presto/2.12.388 Version/12.17',
@@ -19875,6 +20249,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NL' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 en) Presto/2.10.229 Version/11.62',
@@ -19928,6 +20303,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NM' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 it-it) Presto/2.6.37 Version/11.00',
@@ -19981,6 +20357,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NN' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 U  MRSPUTNIK OW 2, 2, 0, 94 ru) Presto/2.5.24 Version/10.54',
@@ -20034,6 +20411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NO' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 WOW64 Edition Campaign 14) Presto/2.12.388 Version/12.17',
@@ -20087,6 +20465,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NP' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 WOW64 en) Presto/2.10.289 Version/12.02',
@@ -20140,6 +20519,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NQ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1  U  uk) Presto/2.6.30 Version/10.61',
@@ -20193,6 +20573,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NR' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1  Win64 x64 en) Presto/2.9.181 Version/12.00',
@@ -20246,6 +20627,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NS' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1 U cs) Presto/2.7.62 Version/11.01',
@@ -20299,6 +20681,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NT' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1 U de) Presto/2.9.168 Version/11.52',
@@ -20352,6 +20735,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NU' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1;  Win64; x64; en) Presto/2.9.181 Version/12.00',
@@ -20405,6 +20789,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NV' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2  MRSPUTNIK OW 2, 3, 0, 104) Presto/2.12.388 Version/12.12',
@@ -20458,6 +20843,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NW' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2  Win64 x64 en) Presto/2.10.229 Version/11.62',
@@ -20511,6 +20897,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NX' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2  Win64 x64 en) Presto/2.9.168 Version/11.52',
@@ -20564,6 +20951,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NY' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 U de) Presto/2.6.30 Version/10.60',
@@ -20617,6 +21005,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-NZ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 U Distribution 00 en) Presto/2.10.289 Version/12.02',
@@ -20670,6 +21059,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OA' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 U Edition Yandex ru) Presto/2.8.131 Version/11.10',
@@ -20723,6 +21113,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OB' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 U en) Presto/2.7.62 Version/11.00',
@@ -20776,6 +21167,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OC' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 WOW64 Distribution 00) Presto/2.12.388 Version/12.16',
@@ -20829,6 +21221,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OD' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 WOW64 U ar) Presto/2.10.289 Version/12.02',
@@ -20882,6 +21275,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OE' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2 WOW64 U Edition Campaign 21 ru) Presto/2.10.229 Version/11.64',
@@ -20935,6 +21329,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OF' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2;  Win64; x64; en) Presto/2.10.289 Version/12.02',
@@ -20988,6 +21383,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OG' => [
         'ua' => 'Opera/9.80 (Windows NT 6.3 WOW64 U en) Presto/2.8.99 Version/11.10',
@@ -21041,6 +21437,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OH' => [
         'ua' => 'Opera/9.80 (Windows NT 6.3 WOW64) Presto/2.12.388 Version/12.17',
@@ -21094,6 +21491,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OI' => [
         'ua' => 'Opera/9.80 (Windows NT 6.3) Presto/2.12.388 Version/12.14',
@@ -21147,6 +21545,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OJ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.3; WOW64; U; en-US) Presto/2.10.229 Version/11.62',
@@ -21200,6 +21599,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OK' => [
         'ua' => 'Opera/9.80 (X11 FreeBSD i386 en) Presto/2.10.229 Version/11.62',
@@ -21253,6 +21653,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OL' => [
         'ua' => 'Opera/9.80 (X11 Linux i686 en) Presto/2.10.229 Version/11.62',
@@ -21306,6 +21707,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OM' => [
         'ua' => 'Opera/9.80 (X11 Linux i686 U en) Presto/2.8.131 Version/11.10',
@@ -21359,6 +21761,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ON' => [
         'ua' => 'Opera/9.80 (X11 Linux zbov U ar) Presto/2.10.254 Version/12.00',
@@ -21412,6 +21815,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OO' => [
         'ua' => 'Opera/9.80 (X11; FreeBSD 10.0-CURRENT amd64) Presto/2.12.388 Version/12.11',
@@ -21465,6 +21869,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OP' => [
         'ua' => 'Opera/9.80 (X11; FreeBSD 7.3-RELEASE i386; U; ru) Presto/2.2.15 Version/10.10',
@@ -21518,6 +21923,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OQ' => [
         'ua' => 'Opera/9.80 (X11; FreeBSD 8.2-RELEASE-p3 amd64; U; ja) Presto/2.9.168 Version/11.52',
@@ -21571,6 +21977,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OR' => [
         'ua' => 'Opera/9.80 (X11; FreeBSD 9.0-RELEASE-p3 i386; U; en) Presto/2.10.289 Version/12.01',
@@ -21624,6 +22031,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OS' => [
         'ua' => 'Opera/9.80 (X11; SunOS i86pc; U; xx) Presto/2.2.15 Version/10.11',
@@ -21677,6 +22085,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OT' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 6.1 fr) Opera 11.00',
@@ -21730,6 +22139,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; FreeBSD 4.4-RELEASE i386) Opera 6.11  [en]',
@@ -21783,6 +22193,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-OV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.12  [en]',
@@ -21834,8 +22245,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-OW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.12  [de]',
@@ -21887,8 +22299,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-OX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.5',
@@ -21940,8 +22353,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-OY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; de) Opera 8.02',
@@ -21993,8 +22407,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-OZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; pl) Opera 8.02',
@@ -22046,8 +22461,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-PA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; de) Opera 8.00',
@@ -22099,8 +22515,9 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-PB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.0',
@@ -22154,6 +22571,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PC' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1) Opera 12.13',
@@ -22207,6 +22625,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PD' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; it) Opera 11.61',
@@ -22260,6 +22679,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.02',
@@ -22313,6 +22733,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/4.0; ru) Opera 11.52',
@@ -22366,6 +22787,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.12',
@@ -22419,6 +22841,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PH' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 OPR/30.0.1835.125',
@@ -22472,6 +22895,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PI' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0',
@@ -22525,6 +22949,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/40.0.2214.115 Safari/537.36 OPR/27.0.1689.76',
@@ -22578,6 +23003,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; en) Opera 8.01 AppEngine-Google; (+http://code.google.com/appengine; appid: s~zwdant03)',
@@ -22631,6 +23057,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.10',
@@ -22684,6 +23111,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.17',
@@ -22737,6 +23165,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; U; en) Opera 8.01 AppEngine-Google; (+http://code.google.com/appengine; appid: s~zwdant03)',
@@ -22790,6 +23219,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.15',
@@ -22843,6 +23273,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; U) Opera 7.20  [en]',
@@ -22896,6 +23327,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PQ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U) Opera 7.54  [en]',
@@ -22949,6 +23381,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PR' => [
         'ua' => 'Opera/10.2 (Windows NT 6.1 WOW64 U en)',
@@ -23002,6 +23435,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PS' => [
         'ua' => 'Opera/10.24 (Mac OSX 7.1; U; ru) Presto/1.17.163 Version/10.66',
@@ -23055,6 +23489,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PT' => [
         'ua' => 'Opera/10.50 (Windows; U; br)',
@@ -23108,6 +23543,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PU' => [
         'ua' => 'Opera/10.60 (X11; Linux x86_64; U; en-CA) Presto/2.11.352 Version/11.11',
@@ -23161,6 +23597,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PV' => [
         'ua' => 'Opera/10.62 (Windows NT 6.0; U; sl-SI; WOW64) Presto/2.9.184 Version/11.00',
@@ -23214,6 +23651,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PW' => [
         'ua' => 'Opera/11.1 (Windows NT 6.0; WOW64; U; en)',
@@ -23267,6 +23705,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PX' => [
         'ua' => 'Opera/4.02 (Windows 98; U)  [en]',
@@ -23319,7 +23758,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-PY' => [
         'ua' => 'Opera/5.02 (X11; U; Linux i686; en-US)',
@@ -23373,6 +23813,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-PZ' => [
         'ua' => 'Opera/6.11 (FreeBSD 4.7-RELEASE i386; U)  [en]',
@@ -23426,6 +23867,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QA' => [
         'ua' => 'Opera/7.0 (Windows NT 4.0; U)  [de]',
@@ -23478,7 +23920,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-QB' => [
         'ua' => 'Opera/7.0 (X11; Linux i686; U)',
@@ -23532,6 +23975,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QC' => [
         'ua' => 'Opera/7.10 (Linux 2.2.22 i686; U)  [en]',
@@ -23585,6 +24029,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QD' => [
         'ua' => 'Opera/7.23 (X11; FreeBSD i386; U) [bg]',
@@ -23638,6 +24083,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QE' => [
         'ua' => 'Opera/7.52 (Macintosh; PPC Mac OS X; U)  [en]',
@@ -23691,6 +24137,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QF' => [
         'ua' => 'Opera/8.50 (Windows NT 6.2; U; ru)',
@@ -23744,6 +24191,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QG' => [
         'ua' => 'Opera/8.51 (X11; Linux x86_64; U; en)',
@@ -23797,6 +24245,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QH' => [
         'ua' => 'Opera/9.02 (Windows XP; U; ru)',
@@ -23849,7 +24298,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-QI' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1 U en) Presto/2.9.168 Version/11.51',
@@ -23903,6 +24353,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QJ' => [
         'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10.4.11; U; en) Presto/2.8.131 Version/11.10',
@@ -23956,6 +24407,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QK' => [
         'ua' => 'Opera/9.80 (Windows NT 4.0 U MRSPUTNIK OW 2, 3, 0, 289 ru) Presto/2.7.62 Version/11.01',
@@ -24007,8 +24459,9 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-QL' => [
         'ua' => 'Opera/9.80 (Windows NT 5.0; U; de) Presto/2.9.168 Version/11.51',
@@ -24060,8 +24513,9 @@ return [
             'RenderingEngine_Version' => '2.9',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-QM' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1 U cs) Presto/2.2.15 Version/10.10',
@@ -24115,6 +24569,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QN' => [
         'ua' => 'Opera/9.80 (Windows NT 5.1 U cs) Presto/2.8.131 Version/11.11',
@@ -24168,6 +24623,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QO' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2 U ru) Presto/2.9.168 Version/11.51',
@@ -24221,6 +24677,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QP' => [
         'ua' => 'Opera/9.80 (Windows NT 5.2; U; Edition Indian Local; en) Presto/2.8.131 Version/11.11',
@@ -24274,6 +24731,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QQ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0 WOW64 U Edition United Kingdom Local en) Presto/2.10.229 Version/11.62',
@@ -24327,6 +24785,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QR' => [
         'ua' => 'Opera/9.80 (Windows NT 6.0; WOW64; U; en) Presto/2.8.99 Version/11.10',
@@ -24380,6 +24839,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QS' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1 U Edition Indian Local en) Presto/2.8.131 Version/11.11',
@@ -24433,6 +24893,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QT' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1 WOW64 Distribution 00) Presto/2.12.388 Version/12.13',
@@ -24486,6 +24947,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QU' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1 WOW64 en) Presto/2.9.168 Version/11.52',
@@ -24539,6 +25001,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QV' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1;  Win64; x64; en) Presto/2.10.229 Version/11.62',
@@ -24592,6 +25055,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QW' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1; WOW64; U; tr) Presto/2.7.39 Version/11.00',
@@ -24645,6 +25109,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QX' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2;  Win64; x64; en) Presto/2.10.229 Version/11.62',
@@ -24698,6 +25163,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QY' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2;  Win64; x64; en) Presto/2.9.168 Version/11.52',
@@ -24751,6 +25217,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-QZ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2; WOW64; U; tr) Presto/2.7.62 Version/11.01',
@@ -24804,6 +25271,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RA' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2; WOW64; U; tr) Presto/2.8.99 Version/11.10',
@@ -24857,6 +25325,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RB' => [
         'ua' => 'Opera/9.80 (Windows NT 6.2; WOW64; U; tr) Presto/2.9.168 Version/11.51',
@@ -24910,6 +25379,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RC' => [
         'ua' => 'Opera/9.80 (Windows XP) Presto/2.10.229 Version/11.61',
@@ -24961,8 +25431,9 @@ return [
             'RenderingEngine_Version' => '2.10',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-RD' => [
         'ua' => 'Opera/9.80 (X11 Linux i686 Edition Linux Mint) Presto/2.12.388 Version/12.15',
@@ -25016,6 +25487,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RE' => [
         'ua' => 'Opera/9.80 (X11 Linux i686 U en) Presto/2.7.62 Version/11.00',
@@ -25069,6 +25541,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RF' => [
         'ua' => 'Opera/9.80 (X11 Linux x86_64 U bg) Presto/2.8.131 Version/11.10',
@@ -25122,6 +25595,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RG' => [
         'ua' => 'Opera/9.80 (X11 Linux x86_64 U de) Presto/2.2.15 Version/10.00',
@@ -25175,6 +25649,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RH' => [
         'ua' => 'Opera/9.80 (X11 Linux x86_64 U en) Presto/2.10.229 Version/11.61',
@@ -25228,6 +25703,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RI' => [
         'ua' => 'Opera/9.80 (X11 Linux x86_64 U en) Presto/2.7.62 Version/11.00',
@@ -25281,6 +25757,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RJ' => [
         'ua' => 'Opera/9.80 (X11 Linux x86_64 U en) Presto/2.9.168 Version/11.52',
@@ -25334,6 +25811,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RK' => [
         'ua' => 'Opera/9.80 (X11 Linux zbov U en) Presto/2.9.201 Version/11.50',
@@ -25387,6 +25865,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RL' => [
         'ua' => 'Opera/9.80 (X11 Linux zbov U pt) Presto/2.8.149 Version/11.10',
@@ -25440,6 +25919,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RM' => [
         'ua' => 'Opera/9.80 (X11; Linux zvav; U; xx) Presto/2.8.119 Version/10.54',
@@ -25493,6 +25973,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Android 2.2.2; Linux; Opera Mobi/ADR-1103311355; en) Opera 11.00',
@@ -25546,6 +26027,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Linux armv6l; Maemo; Opera Mobi/8; en-GB) Opera 11.00',
@@ -25599,6 +26081,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Linux armv7l; Maemo; Opera Mobi/4; fr) Opera 10.1',
@@ -25652,6 +26135,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; S60; SymbOS; Opera Mobi/SYB-1107071606; en) Opera 11.10',
@@ -25705,6 +26189,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RR' => [
         'ua' => 'Mozilla/5.0 (Android 2.2.1; Linux; Opera Tablet/ADR-1104201100; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -25758,6 +26243,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RS' => [
         'ua' => 'Mozilla/5.0 (Android 2.2.2; Linux; Opera Mobi/ADR-1103311355; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -25811,6 +26297,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RT' => [
         'ua' => 'Mozilla/5.0 (Android 2.3.3; Linux; Opera Mobi/ADR-1105231029; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -25864,6 +26351,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RU' => [
         'ua' => 'Mozilla/5.0 (Linux Android 4.4.4 C6902 Build/14.4.A.0.108) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -25917,6 +26405,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RV' => [
         'ua' => 'Mozilla/5.0 (Linux armv6l; Maemo; Opera Mobi/8; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -25970,6 +26459,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RW' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l Maemo Opera Mobi/4 U fr rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.1',
@@ -26023,6 +26513,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 2.3.6; GT-I9100G Build/GINGERBREAD) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453',
@@ -26076,6 +26567,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-I9300 Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.40 Mobile Safari/537.31 OPR/14.0.1074.54070',
@@ -26129,6 +26621,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-RZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-N8010 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82529',
@@ -26182,6 +26675,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Mobile Safari/537.36 OPR/19.0.1340.69721',
@@ -26235,6 +26729,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N8010 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.95530',
@@ -26288,6 +26783,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.834.55 Mobile Safari/537.36 OPR/36.0.2126.101812',
@@ -26340,7 +26836,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-SD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; GT-I9300 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
@@ -26394,6 +26891,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SCH-I545 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Mobile Safari/537.36 OPR/15.0.1162.60140',
@@ -26447,6 +26945,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; GT-P3100 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.63780',
@@ -26500,6 +26999,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; Nexus 7 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.65583',
@@ -26553,6 +27053,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SCH-I545 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
@@ -26606,6 +27107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904',
@@ -26659,6 +27161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Nexus 6 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
@@ -26712,6 +27215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G920V Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -26765,6 +27269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.78 Safari/537.36 OPR/32.0.1953.96473',
@@ -26818,6 +27323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LMY47Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
@@ -26871,6 +27377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Mobile Safari/537.36 OPR/18.0.1290.68007',
@@ -26924,6 +27431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920V Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
@@ -26977,6 +27485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; LGLS991 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.95530',
@@ -27030,6 +27539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98637',
@@ -27083,6 +27593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MHC19Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.1.2126.102083',
@@ -27136,6 +27647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.2.2126.102826',
@@ -27189,6 +27701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-ST' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; VS987 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
@@ -27242,6 +27755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1650 Build/MCLS24.246-36-3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.3.2192.109248',
@@ -27295,6 +27809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Build/NBD90Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.1.2192.108356',
@@ -27348,6 +27863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 6P Build/NBD90X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
@@ -27401,6 +27917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SX' => [
         'ua' => 'Mozilla/5.0 (S60; SymbOS; Opera Mobi/1181; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.1',
@@ -27454,6 +27971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SY' => [
         'ua' => 'Mozilla/5.0 (S60; SymbOS; Opera Mobi/SYB-1103211396; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -27507,6 +28025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-SZ' => [
         'ua' => 'Opera/9.7 (Windows Mobile; IEMobile 6.12; Opera Mobi/35166; U; en)',
@@ -27558,8 +28077,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-TA' => [
         'ua' => 'Opera/9.80 (Android 1.6; Linux; Opera Mobi/ADR-1207201819; U; es-ES) Presto/2.10.254 Version/12.00',
@@ -27613,6 +28133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TB' => [
         'ua' => 'Opera/9.80 (Android 2.1-update1; Linux; Opera Mobi/ADR-1105231029; U; en) Presto/2.7.81 Version/11.00',
@@ -27666,6 +28187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TC' => [
         'ua' => 'Opera/9.80 (Android 2.1-update1; Linux; Opera Mobi/ADR-1109081720; U; en) Presto/2.8.149 Version/11.10',
@@ -27719,6 +28241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TD' => [
         'ua' => 'Opera/9.80 (Android 2.1-update1; Linux; Opera Mobi/ADR-1110071847; U; es-ES) Presto/2.9.201 Version/11.50',
@@ -27772,6 +28295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TE' => [
         'ua' => 'Opera/9.80 (Android 2.1-update1; Linux; Opera Mobi/ADR-1202231256; U; en) Presto/2.10.254 Version/12.00',
@@ -27825,6 +28349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TF' => [
         'ua' => 'Opera/9.80 (Android 2.1-update1; Linux; Opera Tablet/ADR-1309251116) Presto/2.11.355 Version/12.10',
@@ -27878,6 +28403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TG' => [
         'ua' => 'Opera/9.80 (Android 2.2 Linux Opera Mobi/8745 U fr) Presto/2.7.60 Version/10.5',
@@ -27931,6 +28457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TH' => [
         'ua' => 'Opera/9.80 (Android 2.2.1; Linux; Opera Mobi/ADR-1104201100; U; en-GB) Presto/2.7.81 Version/11.00',
@@ -27984,6 +28511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TI' => [
         'ua' => 'Opera/9.80 (Android 2.2.1; Linux; Opera Mobi/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10',
@@ -28037,6 +28565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TJ' => [
         'ua' => 'Opera/9.80 (Android 2.2.1; Linux; Opera Mobi/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -28090,6 +28619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TK' => [
         'ua' => 'Opera/9.80 (Android 2.2.1; Linux; Opera Mobi/ADR-1203051631; U; pt-BR) Presto/2.10.254 Version/12.00',
@@ -28143,6 +28673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TL' => [
         'ua' => 'Opera/9.80 (Android 2.2.2; Linux; Opera Tablet/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -28196,6 +28727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TM' => [
         'ua' => 'Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADR-1103211415; U; en-GB) Presto/2.7.81 Version/11.00',
@@ -28249,6 +28781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TN' => [
         'ua' => 'Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADR-1107051709; U; en-GB) Presto/2.8.149 Version/11.10',
@@ -28302,6 +28835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TO' => [
         'ua' => 'Opera/9.80 (Android 2.2; Opera Mobi/-2118645896; U; de-AT) Presto/2.7.60 Version/10.5',
@@ -28355,6 +28889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TP' => [
         'ua' => 'Opera/9.80 (Android 2.3.1; Linux; Opera Mobi/ADR-1106291546; U; zh-cn) Presto/2.8.149 Version/11.10',
@@ -28408,6 +28943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TQ' => [
         'ua' => 'Opera/9.80 (Android 2.3.1; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50',
@@ -28461,6 +28997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TR' => [
         'ua' => 'Opera/9.80 (Android 2.3.3; Linux; Opera Mobi/ADR-1103311355; U; en) Presto/2.7.81 Version/11.00',
@@ -28514,6 +29051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TS' => [
         'ua' => 'Opera/9.80 (Android 2.3.3; Linux; Opera Mobi/ADR-1110071847; U; ru) Presto/2.9.201 Version/11.50',
@@ -28567,6 +29105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TT' => [
         'ua' => 'Opera/9.80 (Android 2.3.3; Linux; Opera Tablet/ADR-1109081720; U; ru) Presto/2.8.149 Version/11.10',
@@ -28620,6 +29159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TU' => [
         'ua' => 'Opera/9.80 (Android 3.0.1; Linux; Opera Tablet/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10',
@@ -28673,6 +29213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TV' => [
         'ua' => 'Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -28726,6 +29267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TW' => [
         'ua' => 'Opera/9.80 (Android 3.2.1; Linux; Opera Tablet/ADR-1111021303; U; en) Presto/2.9.201 Version/11.50',
@@ -28779,6 +29321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TX' => [
         'ua' => 'Opera/9.80 (Android 3.2.1; Linux; Opera Tablet/ADR-1205181138; U; en-GB) Presto/2.10.254 Version/12.00',
@@ -28832,6 +29375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TY' => [
         'ua' => 'Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1104201100; U; id) Presto/2.7.81 Version/11.00',
@@ -28885,6 +29429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-TZ' => [
         'ua' => 'Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADY-1109201025; U; pt-BR) Presto/2.8.149 Version/11.10',
@@ -28938,6 +29483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UA' => [
         'ua' => 'Opera/9.80 (Android 4.0.1; Linux; Opera Mobi/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10',
@@ -28991,6 +29537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UB' => [
         'ua' => 'Opera/9.80 (Android 4.0.1; Linux; Opera Mobi/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -29044,6 +29591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UC' => [
         'ua' => 'Opera/9.80 (Android 4.0.3; Linux; Opera Mobi/ADR-1103211415; U; en) Presto/2.7.81 Version/11.00',
@@ -29097,6 +29645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UD' => [
         'ua' => 'Opera/9.80 (Android 4.0.3; Linux; Opera Tablet/ADR-1104201100; U; en) Presto/2.7.81 Version/11.00',
@@ -29150,6 +29699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UE' => [
         'ua' => 'Opera/9.80 (Android 4.0.3; Linux; Opera Tablet/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -29203,6 +29753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UF' => [
         'ua' => 'Opera/9.80 (Android 4.0.3; Linux; Opera Tablet/ADY-1109201025; U; pt-BR) Presto/2.8.149 Version/11.10',
@@ -29256,6 +29807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UG' => [
         'ua' => 'Opera/9.80 (Android 4.1.1; Linux; Opera Mobi/ADR-1104201100; U; en) Presto/2.7.81 Version/11.00',
@@ -29309,6 +29861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UH' => [
         'ua' => 'Opera/9.80 (Android 4.1.1; Linux; Opera Mobi/ADR-1106291546; U; en) Presto/2.8.149 Version/11.10',
@@ -29362,6 +29915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UI' => [
         'ua' => 'Opera/9.80 (Android 4.1.1; Linux; Opera Mobi/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -29415,6 +29969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UJ' => [
         'ua' => 'Opera/9.80 (Android 4.1.1; Linux; Opera Tablet/ADR-1107051709; U; ru) Presto/2.8.149 Version/11.10',
@@ -29468,6 +30023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UK' => [
         'ua' => 'Opera/9.80 (Android 4.1.1; Linux; Opera Tablet/ADY-1111101223; U; en) Presto/2.9.201 Version/11.50',
@@ -29521,6 +30077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UL' => [
         'ua' => 'Opera/9.80 (Android 4.1.2; Linux; Opera Tablet/ADR-1103211415; U; en-GB) Presto/2.7.81 Version/11.00',
@@ -29574,6 +30131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UM' => [
         'ua' => 'Opera/9.80 (Android 4.2.1; Linux; Opera Mobi/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10',
@@ -29627,6 +30185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UN' => [
         'ua' => 'Opera/9.80 (Android 4.2.1; Linux; Opera Mobi/ADR-1111101157; U; en) Presto/2.9.201 Version/11.50',
@@ -29680,6 +30239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UO' => [
         'ua' => 'Opera/9.80 (Android 4.2.2; Linux; Opera Mobi/ADR-1103250857; U; id) Presto/2.7.81 Version/11.00',
@@ -29733,6 +30293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UP' => [
         'ua' => 'Opera/9.80 (Android 4.2.2; Linux; Opera Tablet/ADR-1103211415; U; ru) Presto/2.7.81 Version/11.00',
@@ -29786,6 +30347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UQ' => [
         'ua' => 'Opera/9.80 (Android 4.2.2; Linux; Opera Tablet/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10',
@@ -29839,6 +30401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UR' => [
         'ua' => 'Opera/9.80 (Android 4.2.2; Linux; Opera Tablet/ADR-1110071847; U; id) Presto/2.9.201 Version/11.50',
@@ -29892,6 +30455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-US' => [
         'ua' => 'Opera/9.80 (Android 4.3.1; Linux; Opera Tablet/ADR-1301080958) Presto/2.11.355 Version/12.10',
@@ -29945,6 +30509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UT' => [
         'ua' => 'Opera/9.80 (Android 4.3.3; Linux; Opera Mobi/build-1107180945; U; tr-TR) Presto/2.8.149 Version/11.10',
@@ -29998,6 +30563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UU' => [
         'ua' => 'Opera/9.80 (Android 4.3; Linux; Opera Mobi/ADR-1103211415; U; en-GB) Presto/2.7.81 Version/11.00',
@@ -30051,6 +30617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UV' => [
         'ua' => 'Opera/9.80 (Android 4.3; Linux; Opera Mobi/ADR-1110071847; U; id) Presto/2.9.201 Version/11.50',
@@ -30104,6 +30671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UW' => [
         'ua' => 'Opera/9.80 (Android 4.4.0; Linux; Opera Mobi/ADR-1309251104) Presto/2.11.355 Version/12.10',
@@ -30157,6 +30725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UX' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Mobi/ADR-1103211415; U; en) Presto/2.7.81 Version/11.00',
@@ -30210,6 +30779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UY' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Mobi/ADR-1106291546; U; en) Presto/2.8.149 Version/11.10',
@@ -30263,6 +30833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-UZ' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Mobi/ADR-1110171336; U; en) Presto/2.9.201 Version/11.50',
@@ -30316,6 +30887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VA' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Tablet/ADR-1110071847; U; id) Presto/2.9.201 Version/11.50',
@@ -30369,6 +30941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VB' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Tablet/ADR-1202231246; U; en) Presto/2.10.254 Version/12.00',
@@ -30422,6 +30995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VC' => [
         'ua' => 'Opera/9.80 (Android 4.4.2; Linux; Opera Tablet/ADY-1109201025; U; en) Presto/2.8.149 Version/11.10',
@@ -30475,6 +31049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VD' => [
         'ua' => 'Opera/9.80 (Android 5.0.1; Linux; Opera Mobi/ADR-1502231212) Presto/2.11.355 Version/12.10',
@@ -30528,6 +31103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VE' => [
         'ua' => 'Opera/9.80 (Android 5.0.2; Linux; Opera Mobi/ADR-1111101157; U; fr) Presto/2.9.201 Version/11.50',
@@ -30581,6 +31157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VF' => [
         'ua' => 'Opera/9.80 (Android 5.0.2; Linux; Opera Mobi/ADY-1109201025; U; pt) Presto/2.8.149 Version/11.10',
@@ -30634,6 +31211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VG' => [
         'ua' => 'Opera/9.80 (Android 5.1.1; Linux; Opera Mobi/ADR-1502231212) Presto/2.11.355 Version/12.10',
@@ -30687,6 +31265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VH' => [
         'ua' => 'Opera/9.80 (Android 7.0; Linux; Opera Mobi/ADR-1502251211) Presto/2.11.355 Version/12.10',
@@ -30740,6 +31319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VI' => [
         'ua' => 'Opera/9.80 (Linux armv6l; Maemo; Opera Mobi/4; U; en) Presto/2.5.28 Version/10.1',
@@ -30793,6 +31373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VJ' => [
         'ua' => 'Opera/9.80 (Linux armv7l Maemo Opera Mobi/14 U en) Presto/2.9.201 Version/11.50',
@@ -30846,6 +31427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VK' => [
         'ua' => 'Opera/9.80 (Linux armv7l Maemo Opera Mobi/16) Presto/2.11.355 Version/12.10',
@@ -30899,6 +31481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VL' => [
         'ua' => 'Opera/9.80 (Linux armv7l; Opera Mobi/10; U; en) Presto/2.7.81 Version/11.00',
@@ -30952,6 +31535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VM' => [
         'ua' => 'Opera/9.80 (Linux i686 Opera Mobi/1038 U en) Presto/2.5.24 Version/10.00',
@@ -31005,6 +31589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VN' => [
         'ua' => 'Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1103211396; U; ar) Presto/2.7.81 Version/11.00',
@@ -31058,6 +31643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VO' => [
         'ua' => 'Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1106291583; U; en) Presto/2.8.149 Version/11.10',
@@ -31111,6 +31697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VP' => [
         'ua' => 'Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1111011893; U; en) Presto/2.9.201 Version/11.50',
@@ -31164,6 +31751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VQ' => [
         'ua' => 'SonyEricssonP990i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 598) Opera 8.65 [ru]',
@@ -31215,8 +31803,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-VR' => [
         'ua' => 'Vodafone/1.0/HTC_HD2/3.14.163.3 (04666) Opera/9.7 (Windows NT 5.1; U; fr)',
@@ -31268,8 +31857,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-VS' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12A405 Safari/9537.53',
@@ -31323,6 +31913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VT' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.79435 Mobile/11D257 Safari/9537.53|iPad 8_1',
@@ -31376,6 +31967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VU' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12D508 Safari/9537.53',
@@ -31429,6 +32021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VV' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/12H143 Safari/9537.53',
@@ -31482,6 +32075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-VW' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) OPiOS/10.1.1.92212 Mobile/14B100 Safari/9537.53',
@@ -31534,7 +32128,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-VX' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/11A501 Safari/9537.53',
@@ -31587,7 +32182,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-VY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13A405 Safari/9537.53',
@@ -31640,7 +32236,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-VZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13B143 Safari/9537.53',
@@ -31693,7 +32290,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1434-WA' => [
         'ua' => 'Opera/10.61 (J2ME/MIDP; Opera Mini/5.1.21219/19.999; en-US; rv:1.9.3a5) WebKit/534.5 Presto/2.6.30',
@@ -31747,6 +32345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WB' => [
         'ua' => 'Opera/8.0 (J2ME/MIDP; Opera Mini/3.1 en; U; ssr)',
@@ -31800,6 +32399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WC' => [
         'ua' => 'Opera/8.01 (J2ME/MIDP; Opera Mini/1.0.1479/HiFi; SonyEricsson P900; no; U; ssr)',
@@ -31853,6 +32453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WD' => [
         'ua' => 'Opera/8.01 (J2ME/MIDP; Opera Mini/2.0.3920/1724; en; U; ssr)',
@@ -31906,6 +32507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WE' => [
         'ua' => 'Opera/9.5 (J2ME/MIDP; Opera Mini/4.2 U; ru)',
@@ -31959,6 +32561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WF' => [
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/2.1141/29.3757; U; en)',
@@ -32012,6 +32615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WG' => [
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/6.1.25577/29.3757; U; en)',
@@ -32065,6 +32669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WH' => [
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/7.0.29952/29.3757; U; en)',
@@ -32118,6 +32723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WI' => [
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/8.0.35626/29.3757; U; en)',
@@ -32171,6 +32777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WJ' => [
         'ua' => 'Opera/9.60 (J2ME/MIDP; Opera Mini/5.0.15650/960; U; en) Presto/2.2.0',
@@ -32224,6 +32831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WK' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/4.2/31.1350; U; en) Presto/2.8.119 Version/11.10',
@@ -32277,6 +32885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WL' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.28879/27.1662; U; en-us) Presto/2.8.119 Version/11.10 UCBrowser/8.4.0.181/145/352/',
@@ -32330,6 +32939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WM' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/9.0.1829/36.1649; U; az) Presto/2.12.423 Version/12.16',
@@ -32383,6 +32993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WN' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/5.0.18633/34.1499; U; en) Presto/2.8.119 Version/11.10',
@@ -32434,8 +33045,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-WO' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/6.0.24209/31.1350; U; en) Presto/2.8.119 Version/11.10',
@@ -32487,8 +33099,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-WP' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/7.0.28871/32.855; U; id) Presto/2.8.119 Version/11.10',
@@ -32540,8 +33153,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-WQ' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35157/34.1499; U; en) Presto/2.8.119 Version/11.10',
@@ -32593,8 +33207,9 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-WR' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/4.2.99/30.3697; U; id) Presto/2.8.119 Version/11.10',
@@ -32648,6 +33263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WS' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/5.0.0/34.1784; U; en) Presto/2.8.119 Version/11.10',
@@ -32701,6 +33317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WT' => [
         'ua' => 'Opera/9.80 (iOS; Opera Mini/7.0.73345/28.2555; U; ru) Presto/2.10.229 Version/11.62',
@@ -32754,6 +33371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WU' => [
         'ua' => 'Opera/9.80 (iPad; Opera Mini/6.0.1/35.4183; U; id) Presto/2.8.119 Version/11.10',
@@ -32807,6 +33425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WV' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP  Opera Mini/4.0.10222/24.743  U  ru) Presto/2.5.25 Version/10.54',
@@ -32860,6 +33479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WW' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.28870/28.2555; U; ru) Presto/2.8.119 Version/11.10',
@@ -32913,6 +33533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WX' => [
         'ua' => 'Opera/9.80 (MTK; Opera Mini/4.2.1255/31.1395; U; en) Presto/2.8.119 Version/11.10',
@@ -32966,6 +33587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WY' => [
         'ua' => 'Opera/9.80 (MTK; Opera Mini/7.0.29648/31.1448; U; en) Presto/2.8.119 Version/11.10',
@@ -33019,6 +33641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-WZ' => [
         'ua' => 'Opera/9.80 (Series 60; Opera Mini/1.0.30710/29.3594; U; en) Presto/2.8.119 Version/11.10',
@@ -33072,6 +33695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XA' => [
         'ua' => 'Opera/9.80 (Series 60; Opera Mini/4.4.32445/36.2297; U; en) Presto/2.12.423 Version/12.16',
@@ -33125,6 +33749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XB' => [
         'ua' => 'Opera/9.80 (Series 60; Opera Mini/5.1.22395/30.3697; U; en) Presto/2.8.119 Version/11.10',
@@ -33178,6 +33803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XC' => [
         'ua' => 'Opera/9.80 (Series 60; Opera Mini/6.0.24095/24.741; U; zh) Presto/2.5.25 Version/10.54',
@@ -33231,6 +33857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XD' => [
         'ua' => 'Opera/9.80 (SpreadTrum; Opera Mini/6.5.28991/30.3697; U; en) Presto/2.8.119 Version/11.10',
@@ -33284,6 +33911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XE' => [
         'ua' => 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21561/30.3697; U; en) Presto/2.8.119 Version/11.10',
@@ -33335,8 +33963,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-XF' => [
         'ua' => 'Opera/9.80 (Windows Phone; Opera Mini/9.0.0/37.6584; U; en) Presto/2.12.423 Version/12.16',
@@ -33390,6 +34019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1434-XG' => [
         'ua' => 'SAMSUNG-GT-C3312 Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.27510/58.167; U; en) Presto/2.12.423 Version/12.16',
@@ -33441,8 +34071,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-XH' => [
         'ua' => 'SAMSUNG-GT-C3312R Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33680/58.172; U; en) Presto/2.12.423 Version/12.16',
@@ -33494,8 +34125,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-XI' => [
         'ua' => 'SAMSUNG-GT-S5222 Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.28123/60.313; U; pt) Presto/2.12.423 Version/12.16',
@@ -33547,8 +34179,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-XJ' => [
         'ua' => 'SAMSUNG-GT-S5222R Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32867/59.323; U; uk) Presto/2.12.423 Version/12.16',
@@ -33600,8 +34233,9 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1434-XK' => [
         'ua' => 'SAMSUNG-GT-S5292 Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.32486/59.323; U; ru) Presto/2.12.423 Version/12.16',
@@ -33653,7 +34287,8 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

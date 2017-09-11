@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-427-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; One S Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

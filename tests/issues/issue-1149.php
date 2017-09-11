@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1149-2' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU IPhone OS 9_2_1 Like Mac OS X) AppleWebKit/601.1.46 (KHTML, Like Gecko) Mobile/13D15 [FBAN/FBIOS;FBAV/52.0.0.46.157;FBBV/26424168;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2.1;FBSS/2; FBCR/Globe;FBID/phone;FBLC/en_US;FBOP/5]',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1149-3' => [
         'ua' => 'Opera/9.80 (MAUI Runtime; Opera Mini/4.4.39008/37.9178; U; en) Presto/2.12.423 Version/12.16',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1149-4' => [
         'ua' => 'Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/spider.html) Gecko/2008032620',
@@ -212,5 +215,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

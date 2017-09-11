@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1224-2' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -105,6 +106,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

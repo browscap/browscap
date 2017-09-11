@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-968-B' => [
         'ua' => 'HbbTV/1.1.1 (;Panasonic;VIERA 2011;1.805;0071-7702 2000-0000;)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-968-C' => [
         'ua' => 'HbbTV/1.1.1 (;Samsung;SmartTV2012;;;) WebKit',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

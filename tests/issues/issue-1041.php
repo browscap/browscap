@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1041-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

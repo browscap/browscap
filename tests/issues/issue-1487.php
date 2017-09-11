@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) coc_coc_browser/60.3.78 Mobile/14C92 Safari/602.1',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) coc_coc_browser/64.4.116 CriOS/58.4.3029.116 Mobile/14E304 Safari/602.1',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.118 Mobile Chrome/50.3.2661.118 Safari/537.36',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-S7580 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/57.3.124 Mobile Chrome/51.3.2704.124 Safari/537.36',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; ASUS_T00I Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/57.3.124 Mobile Chrome/51.3.2704.124 Safari/537.36',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-G530H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/57.3.126 Mobile Chrome/51.3.2704.126 Safari/537.36',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A300H Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.124 Mobile Chrome/50.3.2661.124 Safari/537.36',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J320H Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.124 Mobile Chrome/50.3.2661.124 Safari/537.36',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.124 Mobile Chrome/50.3.2661.124 Safari/537.36',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/47.0 Chrome/41.0.2272.129_coc_coc Safari/537.36',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-L' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_6_0) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.136 Safari/537.36',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-M' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/48.0 Chrome/42.0.2311.155_coc_coc Safari/537.36',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-N' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/48.0 Chrome/42.0.2311.155_coc_coc Safari/537.36',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-O' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/48.0 Chrome/42.0.2311.155_coc_coc Safari/537.36',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-P' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/47.0 Chrome/41.0.2272.125 Safari/537.36',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0 WOW64  NCLIENT50_AA0013778F584F) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/50.2.155 Chrome/44.2.2403.155 Safari/537.36',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/534.27 (KHTML, like Gecko) coc_coc_browser/40.0 Chrome/44.0.2403.156 Safari/534.27',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/535.22 (KHTML, like Gecko) coc_coc_browser/31.0 Chrome/44.0.2403.157 Safari/535.22',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-T' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1  NCLIENT50_AAPA4F6F58538E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.122 CoRom/27.0.1453.122 Safari/537.36',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-U' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.10 (KHTML, like Gecko) coc_coc_browser/30.0 Chrome/45.0.2454.93 Safari/534.10',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-V' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/52.2.90 Chrome/46.2.2490.90 Safari/537.36',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-W' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/50.0.125 Chrome/44.0.2403.125 Safari/537.36',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-X' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.67 CoRom/26.0.1410.67 Safari/537.31',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-Y' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/47.0 Chrome/41.0.2272.119 Safari/537.36',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-Z' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 CoRom/36.0.1985.125 Safari/537.36',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/47.0 Chrome/41.0.2272.127_coc_coc Safari/537.36',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.10 (KHTML, like Gecko) coc_coc_browser/40.0 Chrome/43.0.2357.124 Safari/534.10',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.11 (KHTML, like Gecko) coc_coc_browser/35.0 Chrome/44.0.2403.125 Safari/534.11',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.67 CoRom/26.0.1410.67 Safari/537.31',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.157 CoRom/35.0.1916.157 Safari/537.36',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.122 CoRom/27.0.1453.122 Safari/537.36',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.10 (KHTML, like Gecko) coc_coc_browser/33.0 Chrome/44.0.2403.156 Safari/534.10',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 CoRom/24.0.1312.52 Safari/537.17',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.10 (KHTML, like Gecko) coc_coc_browser/35.0 Chrome/47.0.2526.16 Safari/534.10',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64  11sungb_AAP31D7536BCF2) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/42.0 CoRom/36.0.1985.147 Chrome/36.0.1985.147 Safari/537.36',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/35.0.1916.157 CoRom/35.0.1916.157 Safari/537.36',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 CoRom/24.0.1312.52 Safari/537.17',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/45.0 Chrome/51.0.2704.84 Safari/537.36',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3  NCLIENT50_AAP35C48376880) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/46.0 Chrome/40.0.2214.121 Safari/537.36',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3 WOW64  01dong_AAP73E500AC390) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.159 CoRom/33.0.1750.159 Safari/537.36',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 CoRom/30.0.1599.101 Safari/537.36',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.7 (KHTML, like Gecko) coc_coc_browser/25.0 Chrome/48.0.2564.82 Safari/537.7',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AR' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/58.109.136 Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1487-AS' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; WebView/3.0; NOKIA; Lumia 735) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/58.103.98 Chrome/51.0.2704.79 Mobile Safari/537.36 Edge/14.14393',
@@ -2384,7 +2428,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1487-AT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.10 (KHTML, like Gecko) coc_coc_browser/40.0 Chrome/44.0.2403.156 Safari/534.10',
@@ -2438,5 +2483,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

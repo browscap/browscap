@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1146-2' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T805 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36',
@@ -105,6 +106,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

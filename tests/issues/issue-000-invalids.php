@@ -105,6 +105,7 @@ foreach ($invalidUserAgents as $issue => $ua) {
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ];
 }
 

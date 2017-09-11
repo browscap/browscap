@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-291-B' => [
         'ua' => 'DomainSCAN',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-291-C' => [
         'ua' => 'Dillo/2.1.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-291-D' => [
         'ua' => 'revolt',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-291-E' => [
         'ua' => 'Mozilla/5.0 (Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) WebKitGTK+/1.8.0 luakit',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-291-F' => [
         'ua' => 'Cloud mapping experiment. Contact research@pdrlabs.net',
@@ -318,5 +323,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

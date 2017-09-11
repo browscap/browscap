@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-B' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-C' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:42.0) Gecko/42.0 Firefox/42.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-D' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:43.0) Gecko/43.0 Firefox/43.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-E' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:44.0) Gecko/44.0 Firefox/44.0',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-F' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:45.0) Gecko/45.0 Firefox/45.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-G' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:48.0) Gecko/48.0 Firefox/48.0',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-H' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:49.0) Gecko/49.0 Firefox/49.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-I' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:37.0) Gecko/37.0 Firefox/37.0',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-J' => [
         'ua' => 'Mozilla/5.0 (Mobile; Orange KLIF; rv:32.0) Gecko/32.0 Firefox/32.0',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-K' => [
         'ua' => 'Mozilla/5.0 (Mobile; Orange KLIFD; rv:32.0) Gecko/32.0 Firefox/32.0',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-L' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:33.0) Gecko/33.0 Firefox/33.0',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1350-M' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATELOneTouch4012A; rv:18.1) Gecko/18.1 Firefox/18.1',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1350-N' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATELOneTouch6015X SVN:01004P MMS:1.1; rv:28.0) Gecko/28.0 Firefox/28.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1350-O' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATELOneTouch4019A; rv:28.0) Gecko/28.0 Firefox/28.0',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1350-P' => [
         'ua' => 'Mozilla/5.0 (Mobile; OneTouch4019A; rv:28.0) Gecko/28.0 Firefox/28.0',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1350-Q' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPEN2; rv:28.0) Gecko/28.0 Firefox/28.0',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1350-R' => [
         'ua' => 'Mozilla/5.0 (Mobile; OPENC; rv:28.0) Gecko/28.0 Firefox/28.0',
@@ -954,5 +971,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1216-2' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Goanna/20170207 PaleMoon/27.1.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1216-3' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Gecko/20100101 Goanna/20170207 PaleMoon/27.1.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1216-4' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.1.0',
@@ -212,5 +215,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

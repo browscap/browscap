@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1082-B' => [
         'ua' => 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1082-C' => [
         'ua' => 'SklikBot/2.0 (sklik@firma.seznam.cz;+http://napoveda.sklik.cz/)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1082-D' => [
         'ua' => 'Interdose AntiSpamBot/2.0 (+http://www.piep.net)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1082-E' => [
         'ua' => 'Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://archive.org/details/archive.org_bot)',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

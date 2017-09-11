@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1197-2' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36',
@@ -104,7 +105,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

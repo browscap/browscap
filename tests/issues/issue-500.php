@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-B' => [
         'ua' => 'BigBozz/BigBozz-2.2.1',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-C' => [
         'ua' => 'ECCP/1.0 (search@eniro.com)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-D' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Webglance/0.1',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit (KHTML, like Gecko)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-F' => [
         'ua' => '\\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\\x22',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-G' => [
         'ua' => 'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-500-I' => [
         'ua' => 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-J' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:18.1) Gecko/18.1 Firefox/18.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-500-K' => [
         'ua' => 'Mozilla/5.0 (Linux;U; Android 4.2.2;  en-us;  Nuqleo; Zaffire 785 Build/ICS) AppleWebKit/531.21.10(KTHML,like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10',
@@ -581,8 +591,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-L' => [
         'ua' => 'Mozilla/5.0 (LG-C199 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-M' => [
         'ua' => 'GigablastOpenSource/1.0',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-N' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/434l',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-O' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/1290y',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-P' => [
         'ua' => 'Mozilla/5.0 (compatible; Crawler/0.9; http://linkfluence.net/)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-Q' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; de) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-R' => [
         'ua' => 'Mozilla/5.0 (Windows; N; ; ru-RU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Qt/4.5.3',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-S' => [
         'ua' => 'WebIndex',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-T' => [
         'ua' => 'Prince/7.1 (http://www.princexml.com)',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-U' => [
         'ua' => 'Mozilla/5.0 (compatible; MetaJobBot; http://www.metajob.at/crawler)',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-W' => [
         'ua' => 'ArchiveTeam ArchiveBot/20141009.02 (wpull 0.1002a1) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-X' => [
         'ua' => 'Mozilla/4.0(compatible;MSIE 7.0;Windows NT 6.1;SV1;.NET CLR 1.0.3705;.NET CLR 3.0.30618)',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-Y' => [
         'ua' => 'Smartsite HTTPClient - Mozilla/4.0 (compatible; MSIE 6.0)',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-Z' => [
         'ua' => 'Mozilla/4.0 (jig browser web; 1.0.4; N02A)',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-500-AA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0;IPMS/FFFFFFFF-1518D070BFB-000000000000; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; InfoPath.3; MASMJS)',
@@ -1378,5 +1403,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

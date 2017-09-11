@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1143-2' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36 OPR/41.0.2353.69',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

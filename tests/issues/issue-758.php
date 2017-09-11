@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-758-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4',
@@ -104,7 +105,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
 ];

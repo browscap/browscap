@@ -4,7 +4,6 @@ sudo: false
 php:
   - 7.1
   - 7.2
-  - nightly
 
 os: linux
 
@@ -25,8 +24,8 @@ before_install:
 install: travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
 script:
-  - composer validate --strict
-  - vendor/bin/phpunit --exclude-group useragenttest --no-coverage --colors --exclude-group useragenttest
+  - composer validate
+  - vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --verbose
 
 jobs:
   fast_finish: true
@@ -34,6 +33,8 @@ jobs:
     - php: 7.2
     - php: nightly
   include:
+    - php: 7.2
+      env: COMPOSER_FLAGS="--ignore-platform-reqs"
     - php: nightly
       env: COMPOSER_FLAGS="--ignore-platform-reqs"
     - stage: test with coverage
@@ -41,19 +42,32 @@ jobs:
       env:
         - COVERAGE=yes
         - COMPOSER_FLAGS=""
-      script: vendor/bin/phpunit --exclude-group useragenttest --colors --coverage-text --coverage-clover=coverage.clover
+      script: vendor/bin/phpunit -c phpunit.xml.dist --colors --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
     - stage: check coding style
       php: 7.1
       env: COMPOSER_FLAGS=""
-      script:
-        - php -n -d memory_limit=768M vendor/bin/phpcs
+      script: php -n -d memory_limit=768M vendor/bin/phpcs
     - stage: compare results
       php: 7.1
-      env: COMPOSER_FLAGS=""
-      script:
-        - php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest
-      after_success:
-        - bash <(curl -s https://codecov.io/bash)
+      env:
+        - TEST_SET="full"
+        - COMPOSER_FLAGS=""
+      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/FullTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
+    - stage: compare results
+      php: 7.1
+      env:
+        - TEST_SET="standard"
+        - COMPOSER_FLAGS=""
+      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/StandardTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
+    - stage: compare results
+      php: 7.1
+      env:
+        - TEST_SET="lite"
+        - COMPOSER_FLAGS=""
+      script: php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/LiteTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite

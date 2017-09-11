@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1168-B' => [
         'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.75 Safari/537.36 CrKey/1.14.32904',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1168-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.51 Safari/537.36 CrKey/1.12.27946',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1168-E' => [
         'ua' => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.75 Safari/537.36 CrKey/1.13.31432',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1168-F' => [
         'ua' => 'Mozilla/5.0 (CrKey armv7l 1.4.15250) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

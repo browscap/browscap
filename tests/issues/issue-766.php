@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-766-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.3; Trident/7.0)',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

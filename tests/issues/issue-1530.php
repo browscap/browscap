@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-B' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-C' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 (compatible; YandexScreenshotBot/3.0; +http://yandex.com/bots)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-E' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-F' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-G' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-H' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-I' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; +http://yandex.com/bots)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-J' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-K' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-L' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-M' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-N' => [
         'ua' => 'Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-O' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexCalendar/1.0; +http://yandex.com/bots)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-P' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-R' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-S' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexVertis/3.0; +http://yandex.com/bots)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-T' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1530-U' => [
         'ua' => ': Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
@@ -1113,5 +1133,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

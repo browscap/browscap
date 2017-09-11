@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.195 Amigo/50.0.2661.195 MRCHROME SOC Safari/537.36',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.111 Amigo/44.0.2403.111 MRCHROME SOC Safari/537.36',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36 CHANNEL2_lp5ie',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1  11sungb_AAPFE36DEE2FF9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64  NCLIENT50_AAPD970096654B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1723.105 Amigo/32.0.1723.105 MRCHROME SOC Safari/537.36 CHANNEL_inet2amigo',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1461-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.113 Amigo/32.0.1709.113 MRCHROME SOC Safari/537.36',
@@ -530,5 +539,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

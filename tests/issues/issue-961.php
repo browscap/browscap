@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.3a) Gecko/20030101 Phoenix/0.5',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-D' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.2b) Gecko/20021001 Phoenix/0.2',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.3a) Gecko/20021207 Phoenix/0.5',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-F' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-G' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021014 Phoenix/0.3',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-H' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070225 lolifox/0.32',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-I' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061127 lolifox/0.3.0',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-J' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1) Gecko/20061127 lolifox/0.3.0',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-K' => [
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.10pre) Gecko/20080112 SeaMonkey/1.1.7pre',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-L' => [
         'ua' => 'Mozilla/5.0 (OS/2; U; Warp 4.5; en-US; rv:1.8.1.3pre) Gecko/20070307 SeaMonkey/1.1.1+',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-M' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT3.51; en-US; rv:1.8.1.8) Gecko/20071009 SeaMonkey/1.1.5',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-N' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.9.1.4) Gecko/20091104 SeaMonkey/2.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-O' => [
         'ua' => 'Mozilla/5.0 (X11; U; Fedora 12 i686; nb-NO; rv:1.9.1.8) Gecko/20100205 SeaMonkey/2.0.3',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-P' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.9a1) Gecko/20060707 SeaMonkey/1.5a',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-Q' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.0.7) Gecko/20060917 K-Ninja/2.0.4',
@@ -900,7 +916,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-R' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.5) Gecko/20060706 K-Ninja/2.0',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-S' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2pre) Gecko/20100115 Prism/1.0b3',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-T' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.3) Gecko/20100402 Prism/1.0b4',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-U' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101206 Prism/1.0b3',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-V' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.17) Gecko/2010010604 prism/0.8',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-W' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-961-X' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-Y' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1pre) Gecko/20090629 Vonkeror/1.0',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-Z' => [
         'ua' => 'Mozilla/5.0 (X11; U; Darwin i386; en-US; rv:1.9.0.8) Gecko/2009040414 GranParadiso/3.0.8',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AA' => [
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD sparc64; fr-FR; rv:1.8.1.6) Gecko/20070822 Firefox/2.0.0.6',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AB' => [
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.8) Gecko/20060104 Firefox/1.5',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AC' => [
         'ua' => 'Mozilla/5.0 (Windows 98; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AD' => [
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.9a1) Gecko/20051002 Firefox/1.6a1',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; rv:1.7.3) Gecko/20040913 Firefox/0.10',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.8.1.9) Gecko/20071103 Midori/0.0.10',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-AH' => [
         'ua' => 'Mozilla/1.10 [en] (Compatible; RISC OS 3.70; Oregano 1.10)',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.13) Gecko/20060414',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X; U; nb; rv:1.7.5) Gecko/20041110',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AK' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.4a) Gecko/20030401',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5.1) Gecko/20031120',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.6) Gecko/20040113',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US; rv:1.1a) Gecko/20020610',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AO' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US; rv:1.2) Gecko/20021126',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AP' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.3) Gecko/20010802',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:1.0.2) Gecko/20021216',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:1.2a) Gecko/20020910',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AS' => [
         'ua' => 'Mozilla/5.0 (OS/2; U; Warp 4.5; de-DE; rv:1.7.5) Gecko/20050523',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.7.5) Gecko/20041110',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-AU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; de-AT; rv:1.7.11) Gecko/20050728',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AV' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.0.1) Gecko/20020826',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AW' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win95; de-AT; rv:1.7.11) Gecko/20050728',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-AT; rv:1.5) Gecko/20031007',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-AT; rv:1.7.3) Gecko/20040910',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-AZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:0.9.9) Gecko/20020311',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.0rc2) Gecko/20020510',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.1a) Gecko/20020611',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BC' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.2a) Gecko/20020910',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BD' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.3) Gecko/20030312',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4a) Gecko/20030401',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; de-AT; rv:1.2) Gecko/20021126',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BG' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-AT; rv:1.3) Gecko/20030312',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BH' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.7.1) Gecko/20040707',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.13) Gecko/20060414',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BJ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; de-AT; rv:1.1) Gecko/20020826',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BK' => [
         'ua' => 'Mozilla/5.0 (X11; U; AIX 5.3; en-US; rv:1.7.12) Gecko/20051025',
@@ -3338,7 +3400,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-BL' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.1) Gecko/20021223',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BM' => [
         'ua' => 'Mozilla/5.0 (X11; U; HP-UX 9000/785; en-US; rv:1.2) Gecko/20021203',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BN' => [
         'ua' => 'Mozilla/5.0 (X11; U; IRIX64 IP35; en-US; rv:1.4.3) Gecko/20040909',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BO' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.7.0.13) Gecko/20060901',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BP' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.7) Gecko/20041221',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i386; en-US; rv:1.1) Gecko/20020826',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.2) Gecko/20050223',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BS' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.7.13) Gecko/20060417',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BT' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.1) Gecko/20020927',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.6) Gecko/20040115',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-AT; rv:0.9.8) Gecko/20020204',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-BW' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.6) Gecko/20040113 MultiZilla/1.6.3.1d',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; da-DK; rv:1.7.5) Gecko/20041217 MultiZilla/1.7.0.2b',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.6) Gecko/20040113 MultiZilla/1.6.4.0b',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-BZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; de-AT; rv:1.6) Gecko/20040113 MultiZilla/1.6.2.0c',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-AT; rv:1.6) Gecko/20040113 MultiZilla/1.6.2.0c',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CB' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031030 MultiZilla/1.5.0.3l',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CC' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CD' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; cs-CZ; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CE' => [
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.7b) Gecko/20040410 Firefox/0.8.0+',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CF' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.4b) Gecko/20030623 Mozilla Firebird/0.6',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CG' => [
         'ua' => 'Mozilla/5.0 (X11; U; IRIX64 IP30; en-US; rv:1.4b) Gecko/20030618 Mozilla Firebird/0.6',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CH' => [
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD macppc; en-US; rv:1.5) Gecko/20040102 Firebird/0.7',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CI' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.5a) Gecko/20030908 Mozilla Firebird/0.6.1',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.3) Gecko/20041006 Debian/1.7.3-4',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.5) Gecko/20031007 Firebird/0.7',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.5) Gecko/20031007 Firebird/0.7',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CM' => [
         'ua' => 'Mozilla/5.0 (FreeBSD; en-US; rv:1.5) Gecko/20031016 K-Meleon/0.8.2',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CN' => [
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.7.3) Gecko/20041126 Epiphany/1.4.5',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-961-CO' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.6) Gecko/20050328 Fedora/1.7.6-1.2.5',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20050921 Red Hat/1.7.12-1.1.3.2',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CQ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.3; MultiZilla v1.4.0.3J) Gecko/20030312',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4.1; MultiZilla v1.5.0.2j) Gecko/20031008',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-961-CS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.3b; MultiZilla v1.3.1 (a)) Gecko/20030210',
@@ -5140,7 +5236,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CT' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.0b; charlotte@beta.spider.com)',
@@ -5193,7 +5290,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CU' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.1; http://www.searchme.com/support/)',
@@ -5246,7 +5344,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CV' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.0t; http://www.searchme.com/support/)',
@@ -5299,7 +5398,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CW' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.0b; charlotte@betaspider.com)',
@@ -5352,7 +5452,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CX' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/0.9t; +http://www.searchme.com/support/)',
@@ -5405,7 +5506,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CY' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.searchme.com/support/)',
@@ -5458,7 +5560,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-961-CZ' => [
         'ua' => 'Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.betaspider.com/)',
@@ -5511,6 +5614,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

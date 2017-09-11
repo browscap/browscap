@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-590-B' => [
         'ua' => 'iZSearch.com',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-590-C' => [
         'ua' => 'Mozilla/2.0 (compatible; ARCHIVE.ORG.UA crawler)',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1474-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en; SM-G930P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Tenta/1.1.0.2 Mobile Safari/537.36 Mobile',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

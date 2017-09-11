@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1086-B' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -104,7 +105,8 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

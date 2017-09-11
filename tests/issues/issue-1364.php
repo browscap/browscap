@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-B' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1090_1001) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-C' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1141_1000) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-D' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; pt-BR; SM-G530BT Build/LRX22G) U2/1.0.0 UCMini/10.9.0.946 (SpeedMode; Android 5.0.2; SM-G530BT Build/LRX22G) Mobile',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-E' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; GT-N7100 Build/JZO54K) U2/1.0.0 UCMini/10.9.0.946 (SpeedMode; Android 4.1.2; GT-N7100 Build/JZO54K) Mobile',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-F' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SM-J120H Build/LMY47V) U2/1.0.0 UCMini/10.9.0.946 (SpeedMode; Android 5.1.1; SM-J120H Build/LMY47V) Mobile',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-G' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; ONE LTE HD Build/KTU84P) U2/1.0.0 UCMini/10.9.0.946 (SpeedMode; Android 4.4.4; ONE LTE HD Build/KTU84P) Mobile',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1364-H' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; QMobile Z10 Build/LMY47D) U2/1.0.0 UCMini/10.9.0.946 (SpeedMode; Android 5.1; QMobile Z10 Build/LMY47D) Mobile',
@@ -424,5 +431,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

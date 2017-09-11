@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.3) Gecko/20150425 BlackHawk/25.3.1',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:25.3) Gecko/20150425 BlackHawk/25.3.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-D' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-E' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1423-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Version/7.0 Safari/9537.53 (AirWatch Browser v4.1.0.2)',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1423-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 Version/7.0 Safari/9537.53 (AirWatch Browser v4.1.1.4)',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1423-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8.1.1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3 QHBrowser/2.2.1',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1423-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8.3 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3 QHBrowser/2.2.1',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1423-J' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Sunrise',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Sunrise/1.8.5 like Safari/5533.22.3',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-L' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; fr) AppleWebKit/523.12.2 (KHTML, like Gecko) Sunrise/1.6.0 like Safari/523.12.2',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-M' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) Sunrise/1.7.4 like Safari/4525.22',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-N' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/125.5.7 (KHTML, like Gecko) SunriseBrowser/0.833',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-O' => [
         'ua' => 'Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.7 Mobile/12H143 Safari/8536.25',
@@ -794,7 +808,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1423-P' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; en-us) AppleWebKit/533.19.4 (KHTML, like Gecko) iCab/4.8 Safari/533.16',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-Q' => [
         'ua' => 'iCab/2.9.5 (Macintosh; U; PPC; Mac OS X)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1423-R' => [
         'ua' => 'iCab/2.9.8 (Macintosh; U; PPC)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1423-S' => [
         'ua' => 'Mozilla/5.0 (compatible; iCab 2.9.8; Macintosh; U, PPC; Mac OS X)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1423-T' => [
         'ua' => 'iCab/3.0 (Macintosh; U; PPC; Mac OS X)',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-U' => [
         'ua' => 'Mozilla/5.0 (compatible; iCab 3.0; Macintosh; U; PPC; Mac OS X)',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-V' => [
         'ua' => 'iCab/5.0 (Macintosh; U; Intel Mac OS X)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-W' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) iCab/5.5 Safari/533.16',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-X' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.52.7 (KHTML, like Gecko) iCab/4.8 Safari/533.16',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-Y' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; xx) AppleWebKit/523.10.3 (KHTML, like Gecko) iCab/4.9 Safari/533.16',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1423-Z' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/533.21.1 (KHTML, like Gecko) iCab/4.8 Safari/533.16',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AA' => [
         'ua' => 'iCab/4.5 (Macintosh; U; Mac OS X Leopard 10.5.8)',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 MobileIron/1.7.1 Version/8.4.1 Safari/600.1.4',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AC' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 115; 5.3.5)',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AD' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 122; 6.1.2)',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 126; 6.3.1)',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AF' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 116; 5.4.5)',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AG' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 122; 6.1.2)',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AH' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 122; 6.1.2)',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AI' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 120; 5.9.1)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/604.1.15 (KHTML, like Gecko) Version/10.2 Safari/604.1.15',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.4 Mobile/12H143 Safari/600.1.4 baidubrowser/2.6.0.10 (Baidu; P2 8.4)',
@@ -1960,7 +1996,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AL' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14D27 Safari/7534.48.3 UCBrowser/10.8.8.920',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14E277 Safari/7534.48.3 UCBrowser/10.8.8.920',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/13G36 Safari/7534.48.3 UCBrowser/10.8.8.920',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-AP' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/12602.4.8 Sleipnir/4.5.7015',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17 Sleipnir/3.9.1',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Sleipnir/4.5.5',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.108 Safari/537.36 Sleipnir/6.1.11',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 Sleipnir/4.5.2',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 Sleipnir/4.3.6',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36 Sleipnir/4.4.3',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 Sleipnir/4.3.4',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36 Sleipnir/6.1.8',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 Sleipnir/4.3.2',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-AZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36 Sleipnir/4.4.2',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 Sleipnir/6.1.7',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 Sleipnir/5.2.0',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-P3100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 YaBrowser/16.9.1.1616.01 Safari/537.36',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; HTC Desire 310 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A3500-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMT5777_3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 YaBrowser/16.7.0.2531.01 Safari/537.36',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMT5777_3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-I9300 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.00 Mobile Safari/537.36',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; MediaPad T1 8.0 Build/HuaweiMediaPad) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; NokiaX2DS Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.00 Mobile Safari/537.36',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9190 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.00 Mobile Safari/537.36',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N7100 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3391,7 +3454,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-BM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 YaBrowser/16.11.0.649.01 Safari/537.36',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T311 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Venue 7 HSPA+ Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.359.00 Mobile Safari/537.36',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.00 Mobile Safari/537.36',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.00 Mobile Safari/537.36',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Nexus 6 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3608.00 Mobile Safari/537.36',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 YaBrowser/16.4.1.8950 Yowser/2.5 Safari/537.36',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 YaBrowser/16.4.1.8950 Yowser/2.5 Safari/537.36',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BX' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.3894 Safari/537.36',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BY' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.773 (beta) Yowser/2.5 Safari/537.36',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-BZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8 Maxthon/5.0.16',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 MXiOS/5.1.2.314',
@@ -4186,7 +4264,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-CB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-I9100G Build/IMM76D; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-I9300 Build/IMM76D; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I8190 Build/JZO54K; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9100G Build/JZO54K; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K; es-es) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N7100 Build/JZO54K; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ALCATEL ONE TOUCH Fierce Build/JDQ39; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9105P Build/JDQ39; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-P5100 Build/JDQ39; ru-ru) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ME173X Build/JDQ39; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15787AT',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-I9300 Build/JSS15J; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-I9505 Build/JSS15J; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-N7100 Build/JSS15J; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9190 Build/KOT49H; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9192 Build/KOT49H; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9301I Build/KOT49H; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9500 Build/KOT49H; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9515 Build/KOT49H; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N7100 Build/KOT49H; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A606 Build/KOT49H; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D280 Build/KOT49I.A1452516308; pl-pl) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LGLS740 Build/KOT49I.LS740ZV6; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I605 Build/KOT49H; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-CZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G800F Build/KOT49H; fr-fr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-N7505 Build/KOT49H; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-N9005 Build/KOT49H; ar-ae) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A6000 Build/KTU84P; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SGH-M919 Build/KTU84P; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.9.15863AP',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-V490 Build/KOT49I.A1410921752; pt-pt) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Puffin/6.0.8.15804AT',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500 Build/LRX22C; en-au) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LG-F240L Build/LRX21Y; ko-kr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.7.15747AP',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; LG-D855 Build/LRX21R.A1445947622; tr-tr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Puffin/6.0.8.15804AP',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.13 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~dert-19)',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36 AppEngine-Google; ( http://code.google.com/appengine; appid: s~w23995815w)',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1653.0 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~destroyecbh7)',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: p~gm99mic-5)',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~xlwilsonapp)',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1653.0 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~horseflydilj2)',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~taixumoling3)',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~zgzaonzgl-009)',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; HTC One S Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Mobile Safari/537.36 OPR/27.0.1698.89115',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N7100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.0.2192.105088',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; ST26a Build/11.2.A.0.31) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.92117',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; ASUS Transformer Pad TF700T Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.2.2246.112987',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2105 Build/15.3.A.1.14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Mobile Safari/537.36 OPR/31.0.1890.93832',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9082L Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.3.2246.113338',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; H30-U10 Build/HuaweiH30-U10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-DZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A3500-HV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Safari/537.36 OPR/25.0.1619.84037',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo B8000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.7.2246.114996',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMP7079D3G_QUAD Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.7.2246.114996',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMP7110D3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.0.2192.105088',
@@ -7049,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; C5303 Build/12.1.A.0.266) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7102,6 +7235,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; ME302C Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Safari/537.36 OPR/19.0.1340.69721',
@@ -7155,6 +7289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9301I Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7208,6 +7343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9505 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.0.2246.112627',
@@ -7261,6 +7397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N5110 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.7.2246.114996',
@@ -7314,6 +7451,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.7.2246.114996',
@@ -7367,6 +7505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.0.2192.105088',
@@ -7420,6 +7559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8080-H Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.0.2192.105088',
@@ -7473,6 +7613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KOT49I.D80220b) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7526,6 +7667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I317 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7579,6 +7721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SM-N900A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7632,6 +7775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 OPR/41.1.2246.111645',
@@ -7685,6 +7829,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G900T Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98637',
@@ -7738,6 +7883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114995',
@@ -7791,6 +7937,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ER' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Venue 7 3730 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.95530',
@@ -7844,6 +7991,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ES' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; XT907 Build/KDA20.62-15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
@@ -7897,6 +8045,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ET' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SGH-M919 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -7950,6 +8099,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-G900V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 OPR/41.0.2246.110334',
@@ -8003,6 +8153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
@@ -8056,6 +8207,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Lenovo A7000-a Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 OPR/41.1.2246.111645',
@@ -8109,6 +8261,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 7 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.3.2246.113338',
@@ -8162,6 +8315,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI VNS-L31 Build/HUAWEIVNS-L31) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 OPR/41.1.2246.111645',
@@ -8215,6 +8369,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-EZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Pixel XL Build/NOF26V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.4.2246.113571',
@@ -8268,6 +8423,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0',
@@ -8321,6 +8477,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-FB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12',
@@ -8374,6 +8531,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-FC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.3.0.7126 Safari/537.36',
@@ -8427,6 +8585,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.3.0.7376 Safari/537.36',
@@ -8480,6 +8639,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 Swing/3.4.3.0',
@@ -8533,6 +8693,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36 Swing/2.0.0.21',
@@ -8586,6 +8747,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36 Swing/2.1.2.0',
@@ -8639,6 +8801,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22 Swing/1.2.8.0',
@@ -8692,6 +8855,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22 Swing/1.2.2.0',
@@ -8745,6 +8909,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36 Swing/2.4.0.2',
@@ -8798,6 +8963,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36 ASW/1.48.2066.120',
@@ -8851,6 +9017,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36 ASW/1.48.2066.120',
@@ -8904,6 +9071,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36 ASW/1.48.2066.120',
@@ -8957,6 +9125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 ASW/1.51.2220.53',
@@ -9010,6 +9179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36 ASW/1.48.2066.114',
@@ -9063,6 +9233,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.215 Safari/534.10 ChromePlus/1.5.1.1',
@@ -9116,6 +9287,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.122 Safari/534.30 ChromePlus/1.6.3.1',
@@ -9169,6 +9341,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.122 Safari/534.30 ChromePlus/1.6.3.1',
@@ -9222,6 +9395,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.215 Safari/534.10 ChromePlus/1.5.1.1',
@@ -9275,6 +9449,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11 Comodo_Dragon/20.1.1.0',
@@ -9328,6 +9503,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36 115Browser/8.3.0',
@@ -9381,6 +9557,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 115Browser/5.2.3',
@@ -9434,6 +9611,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 115Browser/5.1.7',
@@ -9487,6 +9665,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 115Browser/5.2.1',
@@ -9540,6 +9719,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36 QQBrowser/3.6.3619.400',
@@ -9593,6 +9773,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-FZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400',
@@ -9646,6 +9827,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36 QQBrowser/4.2.4718.400',
@@ -9699,6 +9881,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36 QQBrowser/3.7.3773.400',
@@ -9752,6 +9935,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36 QQBrowser/3.6.3619.400',
@@ -9805,6 +9989,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2372.400 QQBrowser/9.5.10548.400',
@@ -9858,6 +10043,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.87 Safari/537.36 QQBrowser/9.2.5130.400',
@@ -9911,6 +10097,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.36 (KHTML, like Gecko) Chrome/12.0.742.53 Safari/534.36 QQBrowser/6.5.9225.201',
@@ -9964,6 +10151,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2595.400 QQBrowser/9.6.10872.400',
@@ -10016,7 +10204,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.7 (KHTML, like Gecko) Chrome/20.0.1099.0 Safari/536.7 QQBrowser/6.14.15493.201',
@@ -10070,6 +10259,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.36 (KHTML, like Gecko) Chrome/12.0.742.53 Safari/534.36 QQBrowser/6.5.9225.201',
@@ -10123,6 +10313,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.48 Safari/537.36 QQBrowser/8.1.3701.400',
@@ -10176,6 +10367,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36 QQBrowser/9.0.2315.400',
@@ -10229,6 +10421,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36 QQBrowser/9.0.2229.400',
@@ -10282,6 +10475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko GomezAgent 3.0) Chrome/46.0.2490.71 Safari/537.36',
@@ -10335,6 +10529,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko GomezAgent 3.0) Chrome/46.0.2490.71 Safari/537.36',
@@ -10388,6 +10583,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11 CoolNovo/2.0.5.21',
@@ -10441,6 +10637,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2300.0 Iron/43.0.2300.0 Safari/537.36',
@@ -10494,6 +10691,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2100.0 Iron/39.0.2100.0 Safari/537.36',
@@ -10547,6 +10745,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2200.0 Iron/41.0.2200.0 Safari/537.36',
@@ -10600,6 +10799,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GS' => [
         'ua' => 'Mozilla/5.0 (Linux;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 SRAF/3.5',
@@ -10651,8 +10851,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GT' => [
         'ua' => 'Mozilla/5.0 (Linux; i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 SRAF/3.0',
@@ -10704,8 +10905,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GU' => [
         'ua' => 'Mozilla/5.0 (Linux; i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 SRAF/3.9',
@@ -10757,8 +10959,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER',
@@ -10812,6 +11015,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 SE 2.X MetaSr 1.0',
@@ -10865,6 +11069,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0',
@@ -10918,6 +11123,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-GY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19 QIHU 360EE',
@@ -10971,6 +11177,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-GZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 TheWorld 7',
@@ -11024,6 +11231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 TheWorld 6',
@@ -11077,6 +11285,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 TheWorld 7',
@@ -11130,6 +11339,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 TheWorld 7',
@@ -11183,6 +11393,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HD' => [
         'ua' => 'Mozilla/5.0 (Linux; U;Android 4.0.4; en-us; Silk/1.1.0-84) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.19 Silk-Accelerated=true',
@@ -11236,6 +11447,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/7.2.0.13379',
@@ -11289,6 +11501,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/7.2.0.12990',
@@ -11342,6 +11555,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.4.1.14855',
@@ -11395,6 +11609,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer/6.1.0.8256',
@@ -11448,6 +11663,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)',
@@ -11501,6 +11717,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-HJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0',
@@ -11554,6 +11771,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/534.34 (KHTML, like Gecko) SlimBoat/1.1.18 Chrome/11.0.696.7 Version/5.1 Safari/534.34',
@@ -11607,6 +11825,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.34 (KHTML, like Gecko) SlimBoat/1.1.53 Chrome/25.0.1364.97 Version/5.1 Safari/534.34',
@@ -11660,6 +11879,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) SlimBoat/1.1.42 Chrome/25.0.1364.97 Version/5.1 Safari/534.34',
@@ -11713,6 +11933,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0 CometBird/5.0',
@@ -11766,6 +11987,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101 IceDragon/38.0.5 Firefox/38.0.5',
@@ -11819,6 +12041,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:38.0; ; NCLIENT50_AAPD3F7E784430) Gecko/20100101 IceDragon/38.0.5 Firefox/38.0.5',
@@ -11872,6 +12095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:37.0) Gecko/20100101 IceDragon/37.0 Firefox/37.0',
@@ -11925,6 +12149,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 IceDragon/38.0.5 Firefox/38.0.5',
@@ -11978,6 +12203,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 IceDragon/40.1.1.18 Firefox/40.0.2',
@@ -12031,6 +12257,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:40.0) Gecko/20100101 IceDragon/40.1.1.18 Firefox/40.0.2',
@@ -12084,6 +12311,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:27.0) Gecko/20100101 Firefox/27.0 Cunaguaro/27.0',
@@ -12137,6 +12365,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HV' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Cunaguaro/27.0',
@@ -12190,6 +12419,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:39.0) Gecko/20100101 Firefox/39.0 Cyberfox/39.0',
@@ -12243,6 +12473,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0 Cyberfox/50.1.0',
@@ -12296,6 +12527,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0.2',
@@ -12349,6 +12581,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-HZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:33.0) Gecko/20100101 Firefox/33.0 Cyberfox/33.0.3',
@@ -12402,6 +12635,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1; GomezAgent 3.0) Gecko/20090624 Firefox/3.5',
@@ -12455,6 +12689,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:44.0) Gecko/20100101 Firefox/44.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~poplog0105)',
@@ -12508,6 +12743,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:42.0) Gecko/20100101 Firefox/42.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~wujiaqian03)',
@@ -12561,6 +12797,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ID' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~uswj200)',
@@ -12614,6 +12851,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:43.0) Gecko/20100101 Firefox/43.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~ma1xyu14)',
@@ -12667,6 +12905,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~cgiproxy0-hrd)',
@@ -12720,6 +12959,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0 K-Meleon/75.1',
@@ -12773,6 +13013,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0 K-Meleon/75.1',
@@ -12826,6 +13067,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-II' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090722 Firefox/3.5.1 Orca/1.2 build 2',
@@ -12879,6 +13121,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IJ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6) Gecko/2009022300 Firefox/3.0.6 Orca/1.1 build 1',
@@ -12932,6 +13175,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.1) Gecko/2008090204 Firefox/3.0.1 Orca/1.1 beta 1',
@@ -12985,6 +13229,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; rv:15.3) Gecko/20121202 Firefox/15.3.2 PaleMoon/15.3.2',
@@ -13038,6 +13283,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-IM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:35.0) Gecko/20100101 Firefox/35.0 Waterfox/35.0',
@@ -13091,6 +13337,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:36.0) Gecko/20100101 Firefox/36.0 Waterfox/36.0',
@@ -13144,6 +13391,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IO' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0.1 Waterfox/52.0.1',
@@ -13197,6 +13445,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.0.9) Gecko/2009042410 Firefox/3.0.9 Wyzo/3.0.3',
@@ -13250,6 +13499,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IQ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.9) Gecko/2009042410 Firefox/3.0.9 Wyzo/3.0.3',
@@ -13303,6 +13553,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.9.2.4) Gecko/20100520 FireDownload/2.0.1 Firefox/3.6.4 Wyzo/3.6.4.1 FireTorrent/2.0.1',
@@ -13356,6 +13607,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.4) Gecko/20100520 FireDownload/2.0.1 Firefox/3.6.4 Wyzo/3.6.4.1 FireTorrent/2.0.1',
@@ -13409,6 +13661,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.9) Gecko/2009042318 Firefox/3.0.9 Wyzo/3.0.3',
@@ -13462,6 +13715,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.9) Gecko/2009042318 Firefox/3.0.9 Wyzo/3.0.3 GTB6',
@@ -13515,6 +13769,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IV' => [
         'ua' => 'BaiduHD/4.1.0.0 (iPad; iOS 7.0.4; Scale/2.00)',
@@ -13568,6 +13823,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IW' => [
         'ua' => 'BaiduHD/4.1.0.0 (iPad; iOS 8.4; Scale/2.00)',
@@ -13621,6 +13877,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IX' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',
@@ -13674,6 +13931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IY' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',
@@ -13727,6 +13985,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-IZ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/4.7.0.0 Mobile/10A406 Safari/8536.25',
@@ -13780,6 +14039,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',
@@ -13833,6 +14093,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JB' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',
@@ -13886,6 +14147,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JC' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',
@@ -13939,6 +14201,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JD' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 DaumApps/4.3.1',
@@ -13992,6 +14255,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 DaumApps/5.2.0 DaumDevice/tablet',
@@ -14045,6 +14309,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JF' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 DaumApps/5.4.3 DaumDevice/tablet',
@@ -14098,6 +14363,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 DaumApps/6.6.1 DaumDevice/mobile',
@@ -14150,7 +14416,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 DaumApps/5.2.2 DaumDevice/mobile',
@@ -14203,7 +14470,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 DaumApps/5.2.1 DaumDevice/mobile',
@@ -14256,7 +14524,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 DaumApps/5.4.3 DaumDevice/mobile',
@@ -14309,7 +14578,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 DaumApps/5.4.6 DaumDevice/mobile',
@@ -14362,7 +14632,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 DaumApps/4.6.0',
@@ -14415,7 +14686,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 DaumApps/5.4.0 DaumDevice/mobile',
@@ -14468,7 +14740,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JN' => [
         'ua' => 'Mozilla/5.0 (iPhone 6; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 MQQBrowser/7.0.1 Mobile/14A456 Safari',
@@ -14522,6 +14795,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 QQ/6.5.5.459 V1_IPH_SQ_6.5.5_1_APP_A P',
@@ -14574,7 +14848,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a QQ/5.7.0.469 NetType/WIFI Mem/239',
@@ -14627,7 +14902,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 QQ/5.6.0.438 NetType/2G Mem/109',
@@ -14680,7 +14956,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 QQ/5.6.0.438 NetType/WIFI Mem/22',
@@ -14733,7 +15010,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JS' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 QQ/4.6.2.1853',
@@ -14786,7 +15064,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JT' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 QQ/5.6.0.438 NetType/4G Mem/38',
@@ -14839,7 +15118,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 QQ/5.6.0.438 NetType/WIFI Mem/24',
@@ -14892,7 +15172,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 QQ/4.6.12.57',
@@ -14945,7 +15226,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JW' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A452 QQ/6.5.9.426 V1_IPH_SQ_6.5.9_1_APP_A Pi',
@@ -14998,7 +15280,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JX' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69 QQ/6.3.5.437 V1_IPH_SQ_6.3.5_1_APP_A Pix',
@@ -15051,7 +15334,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-JY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)',
@@ -15105,6 +15389,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-JZ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 MicroMessenger/6.2.4 NetType/WIFI Language/en',
@@ -15158,6 +15443,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 MicroMessenger/6.3.27 NetType/WIFI Language/zh_CN',
@@ -15211,6 +15497,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 MicroMessenger/6.5.6 NetType/WIFI Language/zh_CN',
@@ -15264,6 +15551,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
@@ -15317,6 +15605,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 MicroMessenger/6.5.7 NetType/4G Language/zh_CN',
@@ -15370,6 +15659,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651 MicroMessenger/6.2.4 NetType/WIFI Language/en',
@@ -15423,6 +15713,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 MicroMessenger/6.2.2 NetType/3G+ Language/zh_TW',
@@ -15476,6 +15767,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 MicroMessenger/6.2.4 NetType/3G+ Language/zh_CN',
@@ -15529,6 +15821,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 MicroMessenger/6.2.6 NetType/WIFI Language/zh_CN',
@@ -15582,6 +15875,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 MicroMessenger/6.2.4 NetType/3G+ Language/zh_HK',
@@ -15635,6 +15929,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 MicroMessenger/6.2.4 NetType/WIFI Language/it',
@@ -15688,6 +15983,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 MicroMessenger/6.5.7 NetType/WIFI Language/zh_CN',
@@ -15741,6 +16037,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 SogouMobileBrowser/4.0.4',
@@ -15794,6 +16091,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00; Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.92 Mobile Safari/537.36 SogouMSE,SogouMobileBrowser/5.6.0',
@@ -15846,7 +16144,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; zh-cn; CHE2-UL00 Build/HonorChe2-UL00) AppleWebkit/537.36 (KHTML, like Gecko) Version/6.0 SogouMSE,SogouMobileBrowser/4.2.15 Mobile Safari/537.36',
@@ -15899,7 +16198,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KO' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Weibo (iPad6,7__weibo__7.3.0__ipad__os10.2.1)',
@@ -15953,6 +16253,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Weibo (iPhone6,2__weibo__6.10.2__iphon',
@@ -16005,7 +16306,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Weibo (iPhone7,1__weibo__6.11.1__iphon',
@@ -16058,7 +16360,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.3 (KHTML, like Gecko) Mobile/14C5062e Weibo (iPhone8,2__weibo__6.11.1__iphone',
@@ -16111,7 +16414,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KS' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465 Weibo (iPhone4,1__weibo__4.5.0__iphone__os7.0)',
@@ -16164,7 +16468,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KT' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 WindVane tae_sdk_ios_1.3.0 Weibo (iPhone6,2__weibo__5.1.2__iphone__os8.1)',
@@ -16217,7 +16522,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Weibo (iPhone7,2__weibo__5.3.0__iphone__os8.4.1)',
@@ -16270,7 +16576,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 baiduboxapp/8.5.0.14 (Baidu; P2 10.3.1)',
@@ -16323,7 +16630,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KW' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A452 bline/7 (iPhone OS 9.0.2, iPad)',
@@ -16377,6 +16685,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-KX' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 bline/7 (iPhone OS 10.2.1, iPhone)',
@@ -16429,7 +16738,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 bline/7 (iPhone OS 10.3.1, iPhone)',
@@ -16482,7 +16792,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-KZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334 bline/1.09 (iPhone OS 5.0, iPhone)',
@@ -16535,7 +16846,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 bline/1.04 (iPhone OS 7.0.3, iPhone)',
@@ -16588,7 +16900,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 bline/1.04 (iPhone OS 8.1, EEC87C)',
@@ -16641,7 +16954,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E238 bline/5 (iPhone OS 9.3.1, iPhone)',
@@ -16694,7 +17008,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LD' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E277 Safari Line/7.1.3',
@@ -16748,6 +17063,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Safari Line/7.1.3',
@@ -16800,7 +17116,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Safari Line/7.2.1',
@@ -16853,7 +17170,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E277 Safari Line/7.1.3',
@@ -16906,7 +17224,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A366 Safari Line/5.0.2',
@@ -16959,7 +17278,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 Safari Line/4.9.0',
@@ -17012,7 +17332,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 Safari Line/5.0.1',
@@ -17065,7 +17386,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Safari Line/5.0.2',
@@ -17118,7 +17440,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Safari Line/6.6.2',
@@ -17171,7 +17494,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Safari Line/7.1.3',
@@ -17224,7 +17548,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36 UCBrowser/11.4.5.937',
@@ -17278,6 +17603,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.31 (KHTML, like Gecko) Chrome/17.0.558.0 Safari/534.31 UCBrowser/3.4.3.532',
@@ -17331,6 +17657,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; fa-; GT-I9060I Build/KTU84P) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 bdbrowser/6.4.0.4',
@@ -17384,6 +17711,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; HUAWEI G630-U00 Build/HuaweiG630-U00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 bdbrowser_i18n/3.1.2.2',
@@ -17437,6 +17765,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Lenovo A889 Build/JDQ39) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 bdbrowser/6.4.0.4',
@@ -17490,6 +17819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Lenovo A889 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 bdbrowser_i18n/3.1.2.2',
@@ -17543,6 +17873,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; id-; t520 Build/JZO54K) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 bdbrowser_i18n/3.1.2.2',
@@ -17595,7 +17926,8 @@ return [
             'RenderingEngine_Maker' => 'Baidu',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; hr-us; GT-P3100 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -17648,7 +17980,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; HTC One VX Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -17702,6 +18035,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; HTC One X Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/115.0.0.20.72;]',
@@ -17755,6 +18089,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; LG-LS860 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -17808,6 +18143,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-LY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; hr-hr; MediaPad 7 Lite Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/120.0.0.18.72;]',
@@ -17860,7 +18196,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-LZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Sony Tablet S Build/TISU0143) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -17913,7 +18250,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; SPH-D710BST Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/108.0.0.17.68;]',
@@ -17967,6 +18305,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; VS840 4G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
@@ -18020,6 +18359,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ar-ae; GT-I9300I Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/90.0.0.20.70;]',
@@ -18073,6 +18413,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9305 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/26.0.0.22.16;]',
@@ -18126,6 +18467,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ME' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-gb; GT-I9505 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/121.0.0.20.69;]',
@@ -18179,6 +18521,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-rs; HUAWEI Y530-U00 Build/HuaweiY530-U00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/92.0.0.16.72;]',
@@ -18232,6 +18575,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; HTC One Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/96.0.0.17.70;]',
@@ -18285,6 +18629,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SPH-L710 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/121.0.0.20.69;]',
@@ -18338,6 +18683,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; hr-hr; ALCATEL ONE TOUCH 6030X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -18391,6 +18737,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; Archos 50 Platinum Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -18443,7 +18790,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; DROID RAZR Build/9.8.2O-72_VZW-16) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -18497,6 +18845,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ML' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-I8160P Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -18550,6 +18899,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-I8190L Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -18603,6 +18953,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-rs; GT-I8190N Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -18656,6 +19007,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-hr; GT-I9070 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/111.0.0.18.69;]',
@@ -18709,6 +19061,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -18762,6 +19115,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-N7000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -18815,6 +19169,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-hr; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
@@ -18868,6 +19223,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; sr-rs; GT-N8000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -18920,7 +19276,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; nb-no; GT-N8010 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/112.0.0.20.70;]',
@@ -18973,7 +19330,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-N8013 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19026,7 +19384,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; it-it; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/77.0.0.20.66;]',
@@ -19079,7 +19438,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-hr; GT-P3110 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19132,7 +19492,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-MX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-rs; GT-S6310 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
@@ -19186,6 +19547,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-S6310N Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/43.0.0.29.147;]',
@@ -19239,6 +19601,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-MZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-hr; GT-S6810P Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
@@ -19292,6 +19655,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; tr-de; HTC One Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -19345,6 +19709,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; hr-ch; HTC One S Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19398,6 +19763,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC One X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/121.0.0.20.69;]',
@@ -19451,6 +19817,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ND' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; LG-E440 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -19504,6 +19871,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hr-ba; LG-P710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/107.0.0.19.337;]',
@@ -19557,6 +19925,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SAMSUNG-SGH-I317 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19610,6 +19979,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SCH-I200 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -19663,6 +20033,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SCH-I535 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -19716,6 +20087,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SGH-T889 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -19769,6 +20141,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us; ASUS Transformer Pad TF300T Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19822,6 +20195,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -19875,6 +20249,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; GT-I9082 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -19928,6 +20303,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; fr-fr; GT-I9100 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
@@ -19981,6 +20357,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hr-hr; GT-I9105P Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -20034,6 +20411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; el-gr; GT-I9195 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -20087,6 +20465,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hr-hr; GT-I9205 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/113.0.0.16.70;]',
@@ -20140,6 +20519,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hr-hr; GT-I9500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -20193,6 +20573,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-es; GT-I9505 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -20246,6 +20627,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-P3110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -20299,6 +20681,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GT-P5100 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/118.0.0.22.79;]',
@@ -20352,6 +20735,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-hr; GT-P5110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/111.0.0.18.69;]',
@@ -20405,6 +20789,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GT-S7580 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/113.0.0.16.70;]',
@@ -20458,6 +20843,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HTC One Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -20511,6 +20897,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HTC One X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -20564,6 +20951,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HUAWEI Y330-U01 Build/HuaweiY330-U01) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/43.0.0.29.147;]',
@@ -20617,6 +21005,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-NZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; IdeaTab A3000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -20670,6 +21059,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; el-gr; IdeaTab S6000-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/117.0.0.18.47;]',
@@ -20723,6 +21113,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; Lenovo A3500-FL Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -20776,6 +21167,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Lenovo A680_ROW Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/89.0.0.17.70;]',
@@ -20829,6 +21221,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; fr-fr; Lenovo S920_ROW Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/31.0.0.20.13;]',
@@ -20882,6 +21275,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; ME173X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
@@ -20935,6 +21329,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; MediaPad M1 8.0 Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -20988,6 +21383,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hr-hr; PMP5297C_QUAD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -21041,6 +21437,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; SM-G350 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/107.0.0.19.337;]',
@@ -21094,6 +21491,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hr-hr; SM-T111 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/114.0.0.20.70;]',
@@ -21147,6 +21545,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; PadFone Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 GSA/6.14.29.16.arm',
@@ -21200,6 +21599,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; it-it; LG-E460 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.5.35.16.arm',
@@ -21253,6 +21653,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; GT-I9070 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.12.25.16.arm',
@@ -21306,6 +21707,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; LG-E430 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.5.29.16.arm',
@@ -21359,6 +21761,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-ON' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; LG-E440 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.4.28.16.arm',
@@ -21412,6 +21815,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.15.24.16.arm',
@@ -21465,6 +21869,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-I9105P Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.10.32.16.arm',
@@ -21518,6 +21923,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-I9505 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.15.24.16.arm',
@@ -21571,6 +21977,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HTC One Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.2.33.16.arm',
@@ -21624,6 +22031,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HTC One X+ Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.9.36.16.arm',
@@ -21677,6 +22085,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.14.24.16.arm',
@@ -21730,6 +22139,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A526 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.3.26.16.arm',
@@ -21783,6 +22193,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A680_ROW Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.4.31.16.arm',
@@ -21836,6 +22247,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 GSA/6.15.24.16.arm',
@@ -21889,6 +22301,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; Galaxy Nexus Build/JWR66Y) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.15.24.16.arm',
@@ -21942,6 +22355,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; GT-I9505 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/6.15.24.16.arm',
@@ -21995,6 +22409,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-OZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SM-G900 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.4.2; 240dpi; 480x854; samsung; SM-G900; klte; mt6572; en_US)',
@@ -22047,7 +22462,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; GT-I9308I Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 9.2.5 Android (18/4.3; 320dpi; 720x1280; samsung; GT-I9308I; s3ve3g; qcom; en_US)',
@@ -22100,7 +22516,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; LT25i Build/9.2.A.2.5) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (18/4.3; 320dpi; 720x1184; Sony; LT25i; LT25i; qcom; en_US)',
@@ -22153,7 +22570,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-S765C Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 240dpi; 480x800; samsung; SM-S765C; heat3gtfnvzw; qcom; en_US)',
@@ -22206,7 +22624,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; es-es; GT-I9505 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 480dpi; 1080x1920; samsung; GT-I9505; jflte; qcom; es_ES)',
@@ -22259,7 +22678,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; es-us; HTCONE Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 480dpi; 1080x1920; HTC/htc; HTCONE; m7wls; m7wls; es_US)',
@@ -22312,7 +22732,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ja-jp; HUAWEI G6-L22 Build/HuaweiG6-L22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.0.1 Android (18/4.3; 240dpi; 540x960; HUAWEI/Huawei; HUAWEI G6-L22; hwG6-L22; qcom; ja_JP)',
@@ -22365,7 +22786,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; pt-pt; ALCATEL ONE TOUCH 7041X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 SVN/070FPG1 Instagram 10.15.0 Android (17/4.2.2; 240dpi; 480x854; TCT; ALCATEL ONE TOUCH 7041X; YARISXL; LOT1; pt_PT)',
@@ -22418,7 +22840,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I8200N; goldenve3g; pxa988; en_GB)',
@@ -22471,7 +22894,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-us; GT-I8580 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I8580; cane3g; qcom; es_US)',
@@ -22524,7 +22948,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I9082 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.13.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I9082; baffin; capri_ss_baffin; en_GB)',
@@ -22577,7 +23002,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GT-I9192 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.2.2; 240dpi; 540x960; samsung; GT-I9192; serranods; qcom; en_GB)',
@@ -22630,7 +23056,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-es; GT-I9500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (17/4.2.2; 480dpi; 1080x1920; samsung; GT-I9500; ja3g; universal5410; es_ES)',
@@ -22683,7 +23110,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-S7582; kyleprods; hawaii_ss_kyleprods; en_GB)',
@@ -22736,7 +23164,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.0.1 Android (17/4.2.2; 320dpi; 720x1184; HUAWEI/Huawei; HUAWEI P6-U06; hwp6-u06; k3v2oem1; en_US)',
@@ -22789,7 +23218,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; HUAWEI Y330-U11 Build/HuaweiY330-U11) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (17/4.2.2; 240dpi; 480x800; HUAWEI/Huawei; HUAWEI Y330-U11; hwY330-U11; mt6572; en_GB)',
@@ -22842,7 +23272,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HUAWEI Y600-U20 Build/HUAWEIY600-U20) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.2.2; 240dpi; 480x854; HUAWEI; HUAWEI Y600-U20; HWY600-U; mt6572; en_US)',
@@ -22895,7 +23326,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-us; SGH-T399 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; SGH-T399; gardaltetmo; universal_garda; es_US)',
@@ -22948,7 +23380,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; es-do; C1505 Build/11.3.A.2.33) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 9.7.5 Android (16/4.1.1; 160dpi; 320x480; Sony; C1505; C1505; Sony; es_DO)',
@@ -23001,7 +23434,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8262 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.10.0 Android (16/4.1.2; 240dpi; 480x800; samsung; GT-I8262; arubaslim; qcom; en_GB)',
@@ -23054,7 +23488,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.5.1 Android (16/4.1.2; 240dpi; 480x800; samsung; GT-I9100; GT-I9100; smdk4210; en_GB)',
@@ -23107,7 +23542,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I9300 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (16/4.1.2; 320dpi; 720x1280; samsung; GT-I9300; m0; smdk4x12; es_ES)',
@@ -23160,7 +23596,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-S5310 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (16/4.1.2; 120dpi; 240x320; samsung; GT-S5310; corsicass; rhea_ss_corsicass; en_GB)',
@@ -23213,7 +23650,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-us; GT-S6310L Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.9.0 Android (16/4.1.2; 160dpi; 320x480; samsung; GT-S6310L; royss; qcom; es_US)',
@@ -23266,7 +23704,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC One X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 8.5.0 Android (16/4.1.1; 320dpi; 720x1280; HTC/htc_europe; HTC One X; endeavoru; endeavoru; en_US)',
@@ -23319,7 +23758,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC PM63100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.13.0 Android (16/4.1.1; 320dpi; 720x1280; HTC/cingular_us; HTC PM63100; evitareul; evitareul; en_US)',
@@ -23372,7 +23812,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-PZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; itel it1500 Build/JZO57K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (16/4.1.2; 240dpi; 480x854; Spreadtrum; itel it1500; sp7710ga_it1500; sc7710g; en_US)',
@@ -23425,7 +23866,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; LG-E975 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (16/4.1.2; 320dpi; 768x1280; LGE/lge; LG-E975; geehrc; geehrc; es_ES)',
@@ -23478,7 +23920,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; LG-P713 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (16/4.1.2; 240dpi; 480x800; LGE/lge; LG-P713; vee7e; vee7; en_US)',
@@ -23531,7 +23974,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-ph; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000.0',
@@ -23585,6 +24029,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-S5310 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000.0',
@@ -23638,6 +24083,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-I9300 Build/JZ054) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23691,6 +24137,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; fr-fr; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23744,6 +24191,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23797,6 +24245,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-S7580 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23850,6 +24299,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ar-ae; GT-I9300I Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23903,6 +24353,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ar-ae; GT-I9505 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -23956,6 +24407,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-nz; GT-N7100 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -24009,6 +24461,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; es-us; GT-I9500 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -24062,6 +24515,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ro-ro; GT-I9305 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Maxthon/4.1.4.2000',
@@ -24115,6 +24569,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 3 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 Maxthon/4.1.4.2000',
@@ -24168,6 +24623,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1',
@@ -24221,6 +24677,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; iris 505c Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/16.0.2168.102992 Mobile Safari/537.36',
@@ -24274,6 +24731,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; C6740N Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/16.0.2168.103662 Mobile Safari/537.36',
@@ -24327,6 +24785,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; ZTE V768 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 OPR/20.0.2254.110284',
@@ -24380,6 +24839,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; GT-I8552B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/24.0.2254.115784',
@@ -24433,6 +24893,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; LG-LS720 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/20.0.2254.110104',
@@ -24486,6 +24947,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/20.1.2254.110627',
@@ -24539,6 +25001,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/23.0.2254.114923',
@@ -24592,6 +25055,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; GT-I9063T Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/24.0.2254.115593',
@@ -24645,6 +25109,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; GT-I9152 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/24.0.2254.115689',
@@ -24698,6 +25163,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; Lenovo A880 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/21.0.2254.111677',
@@ -24751,6 +25217,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-QZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; QMV7A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 OPR/23.0.2254.114474',
@@ -24804,6 +25271,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; TECNO M3 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/24.0.2254.115213',
@@ -24857,6 +25325,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; TECNO P5 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/22.0.2254.113472',
@@ -24910,6 +25379,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; TRA-901G Build/TRA-901G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 OPR/22.0.2254.111975',
@@ -24963,6 +25433,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; YPY_S500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/24.0.2254.115593',
@@ -25016,6 +25487,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; HUAWEI Y530-U051 Build/HuaweiY530-U051) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/18.0.2254.106542',
@@ -25069,6 +25541,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; SM-G3502T Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/23.0.2254.114923',
@@ -25122,6 +25595,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; Smartfren Andromax AD681H Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/22.0.2254.113472',
@@ -25175,6 +25649,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ARK Benefit M2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/3.4.16.1149292.arm',
@@ -25228,6 +25703,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/6.14.24.16.arm',
@@ -25281,6 +25757,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/4.7.13.19.arm',
@@ -25334,6 +25811,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini 2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/6.14.29.16.arm',
@@ -25387,6 +25865,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/6.14.29.16.arm',
@@ -25440,6 +25919,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-P5210 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 GSA/6.16.33.16.x86',
@@ -25493,6 +25973,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; A1-810 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 GSA/6.12.25.16.arm',
@@ -25546,6 +26027,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; L50u Build/17.1.1.F.0.43) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Maxthon/4.1.4.2000',
@@ -25599,6 +26081,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Maxthon/4.1.4.2000',
@@ -25652,6 +26135,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-RQ' => [
         'ua' => 'Mozilla/5.0 (Android 5.0; samsung SM-G900V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0',
@@ -25705,6 +26189,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RR' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; LGE LGMS330) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0',
@@ -25758,6 +26243,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RS' => [
         'ua' => 'Mozilla/5.0 (Android 7.0; motorola XT1585) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0',
@@ -25811,6 +26297,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RT' => [
         'ua' => 'Mozilla/5.0 (Android 7.1.1; LGE Nexus 5X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0',
@@ -25864,6 +26351,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 AliApp(QN/5.9.5)  QNIOS/201200@tbsellerworkbench_iphone_1.0.0',
@@ -25916,7 +26404,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 AliApp(TB/5.11.0) WindVane/8.1.0 750x1',
@@ -25969,7 +26458,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RW' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 AliApp(TB/6.1.0) WindVane/8.1.0 750x1334',
@@ -26022,7 +26512,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; MI 4LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 AlipayDefined(nt:WIFI,ws:360|640|3.0) AliApp(AP/8.6.0.042102) AlipayClient/8.6.0.042102',
@@ -26075,7 +26566,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 ChannelId(11) Nebula PSDType(1) AlipayDefined(nt:WIFI,ws:375|647|2.0) AliApp(AP/10.0.3.020920) AlipayClient/10.0.3.020920 Alipay Language/zh-Hans',
@@ -26128,7 +26620,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-RZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; zh-tw) AppleWebKit/525.18 (KHTML, like Gecko) Stainless/0.3 Safari/525.20.1',
@@ -26182,6 +26675,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Version/8.4 Safari/8536.25 Mobicip/19518',
@@ -26234,7 +26728,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-01423-SB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.1 Maxthon/4.1.4.2000',
@@ -26288,6 +26783,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SC' => [
         'ua' => 'Taringa UGC www.taringa.net/shared-link.php',
@@ -26341,6 +26837,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SD' => [
         'ua' => 'newsbeuter/2.9 (Linux x86_64)',
@@ -26394,6 +26891,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SE' => [
         'ua' => 'Tiny Tiny RSS/16.1 (http://tt-rss.org/)',
@@ -26447,6 +26945,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; MailDBBot/1.0; +https://maildb.io/bot) Safari/537.36',
@@ -26500,6 +26999,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SG' => [
         'ua' => 'Mozilla/5.0 (compatible; MuckRack/1.0; +http://muckrack.com)',
@@ -26553,6 +27053,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SH' => [
         'ua' => 'Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)',
@@ -26606,6 +27107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SI' => [
         'ua' => 'Mozilla Metadata Service https://github.com/mozilla/page-metadata-service',
@@ -26659,6 +27161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SJ' => [
         'ua' => 'Client/7.1 (org.mozilla.ios.Firefox; build:2565; iOS 9.3.3) Alamofire/4.3.0',
@@ -26712,6 +27215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SK' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) WordPress.com mShots Safari/537.36',
@@ -26765,6 +27269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-01423-SL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Like-Version/6.0 Safari/1601.2.7.2 webkit2png/0.7',
@@ -26818,5 +27323,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

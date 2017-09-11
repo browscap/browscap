@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Access',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1442-B' => [
         'ua' => 'SonyEricssonJ10i2/R7CA Browser/NetFront/3.5 Profile/MIDP-2.1 Configuration/CLDC-1.1 JavaPlatform/JP-8.5.2',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

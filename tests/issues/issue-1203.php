@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1203-2' => [
         'ua' => 'Callpod Keeper for Android 1.0 (10.4.8/261) Dalvik/2.1.0 (Linux; U; Android 5.1; Z812 Build/LMY47O)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1203-3' => [
         'ua' => 'Callpod Keeper for Android 1.0 (10.4.8/261) Dalvik/2.1.0 (Linux; U; Android 5.0.1; SAMSUNG-SGH-I337 Build/LRX22C)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1203-4' => [
         'ua' => 'Callpod Keeper for Android 1.0 (10.4.8/261) Dalvik/2.1.0 (Linux; U; Android 5.1.1; SAMSUNG-SM-N910A Build/LMY47X)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1203-5' => [
         'ua' => 'Callpod Keeper for Android 1.0 (10.4.8/261) Dalvik/2.1.0 (Linux; U; Android 6.0.1; SAMSUNG-SM-G920A Build/MMB29K)',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

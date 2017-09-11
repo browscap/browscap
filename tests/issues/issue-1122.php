@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1122-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; ru) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11D257 UCBrowser/10.8.2.852 Mobile',
@@ -105,6 +106,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

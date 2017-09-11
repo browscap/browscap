@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1113)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-C' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-974_1080) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-D' => [
         'ua' => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; RM-994_eu_poland_1155) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-E' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-1045_1012) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-F' => [
         'ua' => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1089_1087) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-G' => [
         'ua' => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1031_1004) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-H' => [
         'ua' => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1090) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-I' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-976_1166) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-J' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; RM-976_1166)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-K' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1067_1013)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-L' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; RM-1045_1012)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-M' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1075_1011)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-N' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; de-DE; NOKIA; RM-1045_1009) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'UCWeb Inc.',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1042-O' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-846_eu_euro2_357) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-P' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; Microsoft; RM-1089_1011) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-Q' => [
         'ua' => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1113) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1042-R' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-1038_1009) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -954,5 +971,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

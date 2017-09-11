@@ -52,6 +52,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

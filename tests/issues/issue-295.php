@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-B' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko Kazehakase/0.5.8 Debian/0.5.8-4',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-C' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) KHTML/4.9.5 (like Gecko) Konqueror/4.9',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.8.4 (like Gecko) Konqueror/4.8',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-E' => [
         'ua' => 'Links (2.8; Linux 3.10.17 x86_64; GNU C 4.8.1; text)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-F' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb; HTC_One Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-G' => [
         'ua' => 'Opera/7.54 (Windows NT 5.1; U) [pl]',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U;WOW64; de;rv:11.0) Gecko Firefox/11.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-K' => [
         'ua' => 'Mozilla/4.0 (compatible; Opera/3.0; Windows 4.10) 3.51 [en]',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-295-L' => [
         'ua' => '"Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)"',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-295-M' => [
         'ua' => '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
@@ -583,5 +593,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

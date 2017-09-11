@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A40',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-E' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-F' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-H' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0 like Mac OS X) AppleWebKit/538.46 (KHTML, like Gecko) Mobile/12A4331d',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-I' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_2 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8C134',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-J' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8J2',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334',
@@ -581,8 +591,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B208',
@@ -634,8 +645,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A403',
@@ -687,8 +699,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500',
@@ -740,8 +753,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-O' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465',
@@ -793,8 +807,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-P' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651',
@@ -846,8 +861,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-Q' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167',
@@ -899,8 +915,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
@@ -952,8 +969,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-S' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/538.46 (KHTML, like Gecko) Mobile/12A4331d',
@@ -1005,8 +1023,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-T' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-U' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-V' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-W' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-369-X' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8C148',
@@ -1270,8 +1293,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-Y' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190',
@@ -1323,8 +1347,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-369-Z' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8G4',
@@ -1376,7 +1401,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
 ];

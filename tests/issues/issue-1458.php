@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-D' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/15A5278f Safari/601.1.46',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/50.0.2661.95 Mobile/15A5278f Safari/601.1.46',
@@ -422,8 +429,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-I' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/15A5341f Safari/602.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Coast/5.04.110603 Mobile/15A5362a Safari/7534.48.3',
@@ -528,8 +537,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-K' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.28 (KHTML, like Gecko) Mobile/15A5318g [FBAN/FBIOS;FBAV/132.0.0.46.75;FBBV/64862532;FBDV/iPad4,5;FBMD/iPad;FBSN/iOS;FBSV/11.0;FBSS/2;FBCR/AT&T;FBID/tablet;FBLC/en_US;FBOP/5;FBRV/0]',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f [FBAN/FBIOS;FBAV/132.0.0.46.75;FBBV/64862532;FBDV/iPhone8,2;FBMD/iPhone;FBSN/iOS;FBSV/11.0;FBSS/3;FBCR/T-Mobile;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-M' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Mobile/15A5341f [FBAN/FBIOS;FBAV/138.0.0.49.91;FBBV/69441604;FBDV/iPod7,1;FBMD/iPod touch;FBSN/iOS;FBSV/11.0;FBSS/2;FBCR/;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f [FBAN/MessengerForiOS;FBAV/123.0.0.44.69;FBBV/62323340;FBDV/iPhone8,2;FBMD/iPhone;FBSN/iOS;FBSV/11.0;FBSS/3;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-O' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) Focus/3.3 Mobile/15A5304i',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-P' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Focus/3.4 Mobile/15A5341f',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-Q' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/15A5304j Safari/604.1.25',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/15A5278f Safari/604.1.21',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-S' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/15A5327g Safari/602.1',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-T' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/24.1.151204851 Mobile/15A5318g Safari/602.1',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-U' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/15A5304i Safari/602.1',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-V' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f Instagram 10.22.0 (iPhone8,1; iOS 11_0; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-W' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f Instagram 10.27.0 (iPod7,1; iOS 11_0; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-X' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) Mobile/15A5304i Listia/2.53',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-Y' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-Z' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f',
@@ -1376,8 +1401,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AA' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-AB' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/15A5362a Safari/9537.53',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-AC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.31 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/15A5327g Safari/9537.53',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/11.0 Mobile/15A5304i Safari/537.36 Puffin/5.2.2IP',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.12 (KHTML, like Gecko) Version/10.0 Mobile/15A236a Safari/602.1',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-AF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Version/10.0 Mobile/15A5277q Safari/602.1',
@@ -1694,8 +1725,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AG' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Version/10.0 Mobile/15A5278f Safari/602.1',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-AH' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/15A5362a Twitter for iPhone',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1458-AI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/15A5278f Twitter for iPhone',
@@ -1854,7 +1888,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5327g UCBrowser/10.9.1.998 Mobile',
@@ -1907,7 +1942,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1458-AK' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5362a UCBrowser/10.9.1.998 Mobile',
@@ -1961,5 +1997,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

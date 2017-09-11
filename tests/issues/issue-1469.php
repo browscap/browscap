@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-B' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 10.1; AOLBuild 2.1.103.1; brand=aol; Windows NT 6.0; Trident/5.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET4.0C; BRI/1; .NET CLR 3.5.30729; .NET4.0E; BRI/2; BOIE9;ENUS)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 10.1; AOLBuild 2.1.103.1; brand=aol; Windows NT 6.1; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.3)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-D' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.0; AOLBuild 4327.271; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; BRI/1)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-E' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.0; AOLBuild 4327.271; Windows NT 5.1; Trident/4.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET4.0C)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-F' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.5401; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; Media Center PC 6.0; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-G' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.6; AOLBuild 4340.124; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-H' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.6; AOLBuild 4340.168; Windows NT 6.2; WOW64; Trident/7.0)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-I' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.6; AOLBuild 4340.5002; Windows NT 6.0; Trident/5.0)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-J' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.6; AOLBuild 4340.5004; Windows NT 6.1; Trident/5.0)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-K' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.19; Windows NT 6.0; WOW64; Trident/4.0; GTB7.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C; AskTbDIC2V5/5.17.7.45269)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-L' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.1018; Windows NT 6.1; WOW64; Trident/7.0; 1F2377)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-M' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.27; Windows NT 5.1; WOW64; Trident/7.0)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-N' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.55; Windows NT 6.0; WOW64; Trident/7.0)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-O' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko, Safari/12603.1.30.0.34) ADM/784',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-P' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko, Safari/8537.85.15.3) ADM/763',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 AOL/11.0 AOLBUILD/11.0.914 Safari/537.36',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 AOL/11.0 AOLBUILD/11.0.565 Safari/537.36',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 AOL/11.0 AOLBUILD/11.0.914 Safari/537.36',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-T' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 AOL/11.0 AOLBUILD/11.0.546 Safari/537.36',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-U' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 AOL/11.0 AOLBUILD/11.0.565 Safari/537.36',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-V' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 AOL/11.0 AOLBUILD/11.0.1066 Safari/537.36',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-W' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 AOL/11.0 AOLBUILD/11.0.839 Safari/537.36',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-X' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.2039.US Safari/537.1',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-Y' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.1028.US Safari/537.1',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-Z' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.3039.US Safari/537.1',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-AA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.2048.US Safari/537.1',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-AB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0  05jungb_AAP4643ECBE769) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 AOL/9.7 AOLBuild/4343.4043.US Safari/537.36',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-AC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64  NCLIENT50_AAPAAA7A4B736F) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.2043.US Safari/537.1',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1469-AD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2  NCLIENT50_AAP7D69C5FAB74) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.0 AOL/9.7 AOLBuild/4343.2035.gb Safari/537.1',
@@ -1590,5 +1619,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

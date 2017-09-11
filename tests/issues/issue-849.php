@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-B' => [
         'ua' => 'Debian APT-HTTP/1.3 (1.0.1ubuntu2)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-849-C' => [
         'ua' => 'Windows-Update-Agent/7.9.9600.17729 Client-Protocol/1.21',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-D' => [
         'ua' => 'urlgrabber/3.9.1 yum/3.2.29',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-F' => [
         'ua' => 'urlgrabber/3.10 yum/3.4.3',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-G' => [
         'ua' => 'UCS (ESX) - 4.0-3 errata302 - 28d414cc-2dac-4c0e-a34a-734020b8af66 - 00000000-0000-0000-0000-000000000000 -',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-H' => [
         'ua' => 'Ubuntu APT-HTTP/1.3 (0.7.20.2ubuntu6)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-849-I' => [
         'ua' => 'Chrome LINUX 45.0.2454.85 (4c2743615eaa2806ad014c59bf6acbb652cf3aa8)-devel',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-J' => [
         'ua' => 'Microsoft-CryptoAPI/6.3',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-K' => [
         'ua' => 'libwww-perl/6.05',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-L' => [
         'ua' => 'OpenBSD ftp',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-M' => [
         'ua' => 'SophosAgent/1.0 (type= spa )',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-N' => [
         'ua' => 'libcurl-agent/1.0',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-O' => [
         'ua' => 'Wget/1.14 (linux-gnu)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-P' => [
         'ua' => 'Windows-Update-Agent/7.9.9600.18094 Client-Protocol/1.21',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-Q' => [
         'ua' => 'curl/7.29.0',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-849-R' => [
         'ua' => 'jupdate',
@@ -901,5 +917,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

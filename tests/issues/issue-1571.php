@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-B' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.0.8) Gecko/20061109 SeaMonkey/1.0.6',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.7) Gecko/20060910 SeaMonkey/1.0.5',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-D' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.0.9) Gecko/20061211 SeaMonkey/1.0.7',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.0.8) Gecko/20061030 SeaMonkey/1.0.6',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-F' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.0.7) Gecko/20060910 SeaMonkey/1.0.5',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-G' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.0.9) Gecko/20061211 SeaMonkey/1.0.7',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-H' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.8.0.1) Gecko/20060130 SeaMonkey/1.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-I' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.8.0.5) Gecko/20060721 SeaMonkey/1.0.3',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-J' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1.2) Gecko/20070303 SeaMonkey/1.1.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-K' => [
         'ua' => 'Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.8.1.12) Gecko/20080303 SeaMonkey/1.1.8',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-L' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.19) Gecko/20081204 SeaMonkey/1.1.14',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-M' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; de-AT; rv:1.8.1.16) Gecko/20080702 SeaMonkey/1.1.11',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-N' => [
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.9a1) Gecko/20060702 SeaMonkey/1.5a',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-O' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060520 SeaMonkey/1.5a',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-P' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.9.1.16) Gecko/20110227 SeaMonkey/2.0.11',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-Q' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.17) Gecko/20110123 SeaMonkey/2.0.12',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-R' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; rv:1.9.1a2pre) Gecko/20080824052448 SeaMonkey/2.0a1pre',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-T' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-U' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3pre) Gecko/20081202 SeaMonkey/2.0a2',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.16) Gecko/20101123 SeaMonkey/2.0.11',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-W' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.9; en-US; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-X' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.8) Gecko/20100205 SeaMonkey/2.0.3',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-Y' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-Z' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.1pre) Gecko/20090717 SeaMonkey/2.0b1',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.16) Gecko/20101123 SeaMonkey/2.0.11',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-CA; rv:1.9.1.11pre) Gecko/20100623 SeaMonkey/2.0.6pre',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AC' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:2.0b9pre) Gecko/20110101 SeaMonkey/2.1b2pre',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20110608 SeaMonkey/2.1',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20110608 SeaMonkey/2.1',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AF' => [
         'ua' => 'Mozilla/5.0 (Windows; Windows NT 6.1; rv:2.0b2pre) Gecko/20100720 SeaMonkey/2.1a3pre',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AG' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-CA; rv:1.9.3a3pre) Gecko/20100312 SeaMonkey/2.1a1pre',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AH' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:14.0) Gecko/20120817 SeaMonkey/2.11',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:14.0) Gecko/20120715 SeaMonkey/2.11',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:15.0) Gecko/20120910 SeaMonkey/2.12.1',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:32.0) Gecko/20100101 SeaMonkey/2.29.1',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-AL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:33.0) Gecko/20100101 SeaMonkey/2.30',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AM' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:35.0) Gecko/20100101 SeaMonkey/2.32',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 SeaMonkey/2.32.1',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 SeaMonkey/2.32',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:36.0) Gecko/20100101 SeaMonkey/2.33.1',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:36.0) Gecko/20100101 SeaMonkey/2.33.1',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:36.0) Gecko/20100101 SeaMonkey/2.33.1',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 SeaMonkey/2.33.1',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:42.0) Gecko/20100101 SeaMonkey/2.39',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 SeaMonkey/2.39',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:43.0) Gecko/20100101 SeaMonkey/2.40',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.9; ru-RU; rv:43.0) Gecko/20100101 SeaMonkey/2.40',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 SeaMonkey/2.40',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 SeaMonkey/2.46',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-AZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 SeaMonkey/2.46',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-BA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:12.0) Gecko/20120429 SeaMonkey/2.9.1',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20100911 Firefox/2.0.0.11 SeaMonkey/1.1.8',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BC' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.1.9) Gecko/20100317 Firefox/3.5.9 Seamonkey/2.0.4',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BD' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.6) Gecko/20111012 Firefox/2.0.0.20 SeaMonkey/2.0.1',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BE' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20110608 Firefox/4.0.1 SeaMonkey/2.1',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BF' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0pre) Gecko/20110410 Firefox/4.0pre SeaMonkey/2.1b3',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BG' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:2.0pre) Gecko/20110410 Firefox/4.0pre SeaMonkey/2.1b3',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; rv:2.0.1) Gecko/20110608 Firefox/4.0.1 SeaMonkey/2.1',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0 SeaMonkey/2.18a1',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20120615 Firefox/13.0.1 SeaMonkey/2.10.1',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0 SeaMonkey/2.18',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0b11) Gecko/20110209 Firefox/4.0b11 SeaMonkey/2.1b2',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:13.0) Gecko/20120604 Firefox/13.0 SeaMonkey/2.10',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:2.0.1) Gecko/20110608 Firefox/4.0.1 SeaMonkey/2.1',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:2.0b7pre) Gecko/20100915 Firefox/4.0b7pre SeaMonkey/2.1b1pre',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:13.0) Gecko/20120615 Firefox/13.0.1 SeaMonkey/2.10.1',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:13.0) Gecko/20120615 Firefox/13.0.1 SeaMonkey/2.10.1',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:15.0) Gecko/20120826 Firefox/15.0 SeaMonkey/2.12',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20121026 Firefox/16.0 SeaMonkey/2.13.2',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:16.0) Gecko/20121011 Firefox/16.0 SeaMonkey/2.13.1',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0 SeaMonkey/2.17.1',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BW' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD macppc; rv:22.0) Gecko/20100101 Firefox/22.0 SeaMonkey/2.19',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20100101 Firefox/22.0 SeaMonkey/2.19',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:22.0) Gecko/20100101 Firefox/22.0 SeaMonkey/2.19',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-BZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 SeaMonkey/2.21',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CA' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD i386; rv:28.0) Gecko/20100101 Firefox/28.0 SeaMonkey/2.25',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 SeaMonkey/2.25',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:28.0) Gecko/20100101 Firefox/28.0 SeaMonkey/2.25',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:29.0) Gecko/20100101 Firefox/29.0 SeaMonkey/2.26.1',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:29.0) Gecko/20100101 Firefox/29.0 SeaMonkey/2.26',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:32.0) Gecko/20100101 Firefox/32.0 SeaMonkey/2.29.1',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1571-CG' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CH' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CI' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CK' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CO' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CP' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CQ' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD i686; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-CZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0 SeaMonkey/2.30',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DB' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 SeaMonkey/2.32',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33a1',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:42.0) Gecko/20100101 Firefox/42.0 SeaMonkey/2.39',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20151103 Firefox/10.0.1 SeaMonkey/2.39',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DJ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DK' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686 on x86_64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DL' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DO' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DP' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1571-DY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
@@ -6837,5 +6965,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

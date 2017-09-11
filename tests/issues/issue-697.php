@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-697-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; E-TAB IVORY Build/E702) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -104,7 +105,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

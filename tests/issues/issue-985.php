@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-B' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF3.0)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-C' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF5.0)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-D' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.11.28)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-E' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.12.19)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-F' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.8.22)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-G' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.16)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-H' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.10.22)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-985-I' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.11.1)',
@@ -477,5 +485,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

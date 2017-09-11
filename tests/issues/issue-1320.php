@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1320-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) adbeat.com/policy Gecko/20100101 Firefox/51.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1320-C' => [
         'ua' => 'Feedbin feed-id:163192 - 2 subscribers',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-D' => [
         'ua' => 'Fever/1.31 (Feed Parser; http://feedafever.com; Allow like Gecko)',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-E' => [
         'ua' => 'Ant bot/1.1 (https://www.ant.com; admin@ant.com)',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-F' => [
         'ua' => 'Mediatoolkitbot (complaints@mediatoolkit.com)',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-G' => [
         'ua' => 'AWeber Communications Inc. Link Validator - For info, visit https://help.aweber.com/entries/21774298-how-are-messages-checked-for-broken-links',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-H' => [
         'ua' => 'BoardReader Blog Indexer(http://boardreader.com)',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-I' => [
         'ua' => 'Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-J' => [
         'ua' => 'FeedBucket/1.0 (+http://www.feedbucket.com)',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-K' => [
         'ua' => 'everyfeed-spider/2.0 (http://www.everyfeed.com)',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-L' => [
         'ua' => 'feedjira http://feedjira.com',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-M' => [
         'ua' => 'wp.com feedbot/1.0 (+https://wp.com)',
@@ -688,7 +700,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-N' => [
         'ua' => 'TrapitAgent/0.1 (feed processor; +http://trapit.com/about)',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-O' => [
         'ua' => 'SeobilityBot (SEO-Check; http://bit.ly/1dJuuzs)',
@@ -794,7 +808,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-P' => [
         'ua' => 'Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com',
@@ -847,7 +862,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-Q' => [
         'ua' => 'NewRelicPinger/1.0 (331891)',
@@ -900,7 +916,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-R' => [
         'ua' => 'montastic-monitor http://www.montastic.com',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-S' => [
         'ua' => 'Nuzzel',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-T' => [
         'ua' => 'Mozilla/5.0 (compatible; AdlesseBot/1.0; feedback@adlesse.com) v1490676842.3287',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-U' => [
         'ua' => 'Mozilla/5.0 (compatible; AndersPinkBot/1.0; +http://anderspink.com/bot.html)',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-V' => [
         'ua' => 'Mozilla/5.0 (compatible; Caroline/4.3; +http://justpicsplease.com/caroline.php)',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-W' => [
         'ua' => 'Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-X' => [
         'ua' => 'Mozilla/5.0 (compatible; Greplerbot/0.2; +http://www.grepler.com/bot)',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-Y' => [
         'ua' => 'Mozilla/5.0 (compatible; Let\'s Encrypt validation server; +https://www.letsencrypt.org)',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-Z' => [
         'ua' => 'Mozilla/5.0 (compatible; YesupBot/1.0; +http://www.yesup.net/bot.html)',
@@ -1377,7 +1402,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)',
@@ -1430,7 +1456,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AB' => [
         'ua' => 'Mozilla/5.0 (compatible; LinkisBot/1.0; bot@linkis.com)',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AC' => [
         'ua' => 'PerfectMail/2.0 (http://perfectmail.com/kb/web_probe)',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AD' => [
         'ua' => 'Mozilla/5.0 (compatible; houzzbot; +http://www.houzz.com/)',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AE' => [
         'ua' => 'Mozilla/5.0 (compatible; vebidoobot/1.0; +https://blog.vebidoo.de/vebidoobot/)',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AF' => [
         'ua' => 'Twiends Crawler 1.1 created by twiends.com. See http://twiends.com/msg/crawler for more information.',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AG' => [
         'ua' => 'Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AH' => [
         'ua' => 'Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AI' => [
         'ua' => 'Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html)',
@@ -1854,7 +1888,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AJ' => [
         'ua' => 'Mozilla/5.0 (compatible; FTT2 Toplist Thumb Grabber; http://www.ftt2.com/)',
@@ -1907,7 +1942,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AK' => [
         'ua' => 'Yahoo! Slurp China',
@@ -1960,7 +1996,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AL' => [
         'ua' => 'WP Engine Domain Verification (http://support.wpengine.com abuse@wpengine.com)',
@@ -2013,7 +2050,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AM' => [
         'ua' => 'Mozilla/5.0 (compatible; Faveeo/1.0; +http://www.faveeo.com)',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AN' => [
         'ua' => 'Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AO' => [
         'ua' => 'Mozilla/5.0 (compatible; Sysomos/1.0; +http://www.sysomos.com/; Sysomos)',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AP' => [
         'ua' => 'scrapy-redis (+https://github.com/rolando/scrapy-redis)',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AQ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) khtml2png Safari/534.34',
@@ -2278,7 +2320,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AR' => [
         'ua' => 'Mozilla/5.0 AppEngine-Google; (+http://code.google.com/appengine; appid: e~finscience-1253)',
@@ -2331,7 +2374,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AS' => [
         'ua' => 'Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)',
@@ -2384,7 +2428,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AT' => [
         'ua' => 'Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.21; +http://software.schmorp.de/pkg/AnyEvent)',
@@ -2437,7 +2482,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; DomainSONOCrawler/0.1; +http://domainsono.com)',
@@ -2490,7 +2536,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AV' => [
         'ua' => 'Bumble Bee/1.0 (WikiApiary; +http://wikiapiary.com/wiki/User:Bumble_Bee)',
@@ -2543,7 +2590,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AW' => [
         'ua' => 'SocialRankIOBot; http://socialrank.io/about',
@@ -2596,7 +2644,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AX' => [
         'ua' => 'PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)',
@@ -2649,7 +2698,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AY' => [
         'ua' => 'Seeker v.1 http://LookSeek.com/seeker/',
@@ -2702,7 +2752,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-AZ' => [
         'ua' => 'Ruby, Twurly v1.1 (http://twurly.org)',
@@ -2755,7 +2806,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BA' => [
         'ua' => 'SafeDNSBot (https://www.safedns.com/searchbot)',
@@ -2808,7 +2860,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BB' => [
         'ua' => 'Easy-Thumb (https://www.easy-thumb.net/)',
@@ -2861,7 +2914,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BC' => [
         'ua' => 'TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)',
@@ -2914,7 +2968,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BD' => [
         'ua' => 'Web-sniffer/1.1.0 (+http://web-sniffer.net/)',
@@ -2967,7 +3022,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BE' => [
         'ua' => 'msnbot-Products/1.0 (+http://search.msn.com/msnbot.htm)',
@@ -3020,7 +3076,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BF' => [
         'ua' => 'SkyGrid/1.0 (+http://skygrid.com/partners)',
@@ -3073,7 +3130,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BG' => [
         'ua' => 'SEMrushBot',
@@ -3126,7 +3184,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BH' => [
         'ua' => 'datagnionbot (+http://www.datagnion.com/bot.html)',
@@ -3179,7 +3238,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BI' => [
         'ua' => 'myTaste image cacher v.0.6',
@@ -3232,7 +3292,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BJ' => [
         'ua' => 'OrgProbe/0.9.4 (+http://www.blocked.org.uk)',
@@ -3285,7 +3346,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BK' => [
         'ua' => 'cuwhois/1.0 (+http://www.cuwhois.com/)',
@@ -3338,7 +3400,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BL' => [
         'ua' => 'NetTrack Anonymous Web Statistics https://nettrack.info/support.php',
@@ -3391,7 +3454,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BM' => [
         'ua' => 'omgili/0.5 +http://omgili.com',
@@ -3444,7 +3508,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BN' => [
         'ua' => 'IAS crawler (ias_crawler; http://integralads.com/site-indexing-policy/)',
@@ -3497,7 +3562,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BO' => [
         'ua' => 'YOTPO - https://www.yotpo.com/terms-of-service/',
@@ -3550,7 +3616,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BP' => [
         'ua' => 'GermCrawler',
@@ -3603,7 +3670,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BQ' => [
         'ua' => 'Fyrebot/1.0',
@@ -3656,7 +3724,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BR' => [
         'ua' => 'istellabot/t.1',
@@ -3709,7 +3778,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BS' => [
         'ua' => 'Clickagy Intelligence Bot v2',
@@ -3762,7 +3832,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BT' => [
         'ua' => 'Mozilla/5.0 (compatible; um-LN/1.0; mailto: techinfo@ubermetrics-technologies.com)',
@@ -3815,7 +3886,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1320-BU' => [
         'ua' => 'ganarvisitas/1.0 (+http://www.ganarvisitas.com/)',
@@ -3868,6 +3940,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

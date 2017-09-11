@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-B' => [
         'ua' => 'samsung-b5722/UC Browser7.2.2.51/70/400, SAMSUNG-GT-B5722/B5722XXJI1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-C' => [
         'ua' => 'samsung-gt-e2152/UC Browser7.2.2.51/70/400, SAMSUNG-GT-E2152/E2152XXJH3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-D' => [
         'ua' => 'SAMSUNG-GT-S3501C/1.0 Release/09.10.2009 Browser/NetFront3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-E' => [
         'ua' => 'SAMSUNG-GT-S3770Y/S3770YXXLC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-F' => [
         'ua' => 'SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-G' => [
         'ua' => 'SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Tizen 2.4; SAMSUNG SM-Z200Y) AppleWebKit/537.3 (KHTML, like Gecko) SamsungBrowser/1.1 Mobile Safari/537.3',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G928A Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928R4 USCC Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G890A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G928A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -688,7 +700,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N920A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A510F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.90',
@@ -794,7 +808,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C9000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
@@ -847,7 +862,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
@@ -900,7 +916,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G610F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.87',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920I Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925R6 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1377,7 +1402,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1430,7 +1456,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R7 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930VL Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1854,7 +1888,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J327P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.89',
@@ -1907,7 +1942,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -1960,7 +1996,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2013,7 +2050,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920C Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920G Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.88',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-S550TL Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.80',
@@ -2278,7 +2320,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
@@ -2331,7 +2374,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G935V Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SamsungBrowser/CrossApp/0.1.106',
@@ -2384,7 +2428,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-N920C Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -2437,7 +2482,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G935T Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -2490,7 +2536,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36',
@@ -2543,7 +2590,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -2596,7 +2644,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AX' => [
         'ua' => 'SAMSUNG-GT-C3262/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-AY' => [
         'ua' => 'SonyEricssonK700c/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ',
@@ -2702,7 +2752,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-AZ' => [
         'ua' => 'SonyEricssonP910i/R3A SEMC-Browser/Symbian/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-BA' => [
         'ua' => 'SonyEricssonP910a/R2A SEMC-Browser/Symbian/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-BB' => [
         'ua' => 'SonyEricssonP910c/R2A SEMC-Browser/Symbian/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-BC' => [
         'ua' => 'SonyEricssonP910i/R1A SEMC-Browser/Symbian/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-BD' => [
         'ua' => 'SonyEricssonV800/R1A Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2967,7 +3022,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BE' => [
         'ua' => 'SonyEricssonW980i/R1X Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3020,7 +3076,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BF' => [
         'ua' => 'SonyEricssonZ800c/R1A Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3073,7 +3130,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BG' => [
         'ua' => 'SonyEricssonZ800i/R1AB Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3126,7 +3184,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BH' => [
         'ua' => 'Vodafone/SonyEricssonV800/R1S025 Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3179,7 +3238,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BI' => [
         'ua' => 'CELKON.C64/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3232,7 +3292,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BJ' => [
         'ua' => 'SonyEricssonK300/R2AJ SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3285,7 +3346,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BK' => [
         'ua' => 'SonyEricssonK506c/R2AA SEMC-Browser/4.0.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3338,7 +3400,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BL' => [
         'ua' => 'SonyEricssonK858c/R2N SEMC-Browser/4.0.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3391,7 +3454,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BM' => [
         'ua' => 'SonyEricssonS700c/R3B SEMC-Browser/4.0.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3444,7 +3508,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BN' => [
         'ua' => 'SonyEricssonS700i/R3B SEMC-Browser/4.0.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3497,7 +3562,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BO' => [
         'ua' => 'SonyEricssonS710a/R1A SEMC-Browser/4.0.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3550,7 +3616,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BP' => [
         'ua' => 'SonyEricssonZ500a/R1A SEMC-Browser/4.0.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3603,7 +3670,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BQ' => [
         'ua' => 'SonyEricssonZ500i/R3A SEMC-Browser/4.0.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3656,7 +3724,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BR' => [
         'ua' => 'SonyEricssonK600/R2B Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3709,7 +3778,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BS' => [
         'ua' => 'SonyEricssonK608i/R1K Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3762,7 +3832,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BT' => [
         'ua' => 'SonyEricssonk608i/R2T Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3815,7 +3886,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BU' => [
         'ua' => 'SonyEricssonk750i/R1BC Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3868,7 +3940,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BV' => [
         'ua' => 'SonyEricssonK758c/R1AA Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3921,7 +3994,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BW' => [
         'ua' => 'SonyEricssonP900i/R2J Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-BX' => [
         'ua' => 'SonyEricssonV600i/R2AB Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4027,7 +4102,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BY' => [
         'ua' => 'SonyEricssonW700c/R1CA Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4080,7 +4156,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-BZ' => [
         'ua' => 'SonyEricssonW750i/R1BD Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4133,7 +4210,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CA' => [
         'ua' => 'SonyEricssonw810i/R1AA Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4186,7 +4264,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CB' => [
         'ua' => 'SonyEricssonZ520c/R1N Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4239,7 +4318,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CC' => [
         'ua' => 'SonyEricssonZ520i/R1CA Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4292,7 +4372,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CD' => [
         'ua' => 'SonyEricssonD750i/R1A Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4345,7 +4426,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CE' => [
         'ua' => 'SonyEricssonF500i/R1A SEMC-Browser/4.0 Profile/MIDP-1.0 MIDP-2.0 Configuration/CLDC-1.1',
@@ -4398,7 +4480,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CF' => [
         'ua' => 'SonyEricssonJ300a/R2BA SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4451,7 +4534,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CG' => [
         'ua' => 'SonyEricssonJ300c/R2AL SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4504,7 +4588,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CH' => [
         'ua' => 'SonyEricssonJ300i/R2AL SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4557,7 +4642,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CI' => [
         'ua' => 'SonyEricssonK300c/R2AJ SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4610,7 +4696,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CJ' => [
         'ua' => 'SonyEricssonK300i/R1A SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4663,7 +4750,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CK' => [
         'ua' => 'SonyEricssonK500c/R2AA SEMC-Browser/4.0.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4716,7 +4804,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CL' => [
         'ua' => 'SonyEricssonK508c/R2AA SEMC-Browser/4.0.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4769,7 +4858,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CM' => [
         'ua' => 'SonyEricssonK508i/R2AA SEMC-Browser/4.0.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4822,7 +4912,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CN' => [
         'ua' => 'SonyEricssonK550i//R6BC Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-CO' => [
         'ua' => 'SonyEricssonK600c/R2G Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4928,7 +5020,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CP' => [
         'ua' => 'SonyEricssonK600i/R1K Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4981,7 +5074,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1408-CQ' => [
         'ua' => 'SonyEricssonW910i/R1FA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonW910i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1408-CR' => [
         'ua' => 'SonyEricssonw580i/R4EA Java/SEMC-Java/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 sonyericssonw580i',
@@ -5087,6 +5182,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

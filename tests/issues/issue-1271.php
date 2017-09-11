@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
@@ -104,8 +105,9 @@ return [
             'RenderingEngine_Version' => '14.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-C' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Xbox)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-D' => [
         'ua' => 'Mozilla/5.0 (PLAYSTATION 3; 4.66) AppleWebKit/531.22.8 (KHTML, like Gecko)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-E' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/3.1; Xbox)',
@@ -263,8 +267,9 @@ return [
             'RenderingEngine_Version' => '3.1',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-F' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/3.1; Xbox; Xbox One)',
@@ -316,8 +321,9 @@ return [
             'RenderingEngine_Version' => '3.1',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-G' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; Xbox)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1271-H' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Xbox; Xbox One)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1271-I' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/10.0; Xbox; Xbox One)',
@@ -477,5 +485,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

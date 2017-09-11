@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.7.0 Safari/534.34',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) CasperJS/1.1.2+PhantomJS/2.1.1 Safari/538.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) 37abc/1.6.6.8 Chrome/44.0.2403.130 Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) 37abc/1.6.6.8 Chrome/44.0.2403.130 Safari/537.36',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Diglo/28.0.1479.334 Chrome/28.0.1479.0 Safari/537.36',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Diglo/28.0.1479.296 Chrome/28.0.1479.0 Safari/537.36',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-H' => [
         'ua' => 'Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.1 AQUOSBrowser/1.1 (US01DTV;V;0001;0001)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-I' => [
         'ua' => 'Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.12 AQUOSBrowser/1.0 (AS00DTV;V;0001;0001)AQUOS-AS/2.0 LC-70LE960X',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-J' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-K' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD) KHTML/4.9.1 (like Gecko) Konqueror/4.9',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.321 Chrome/16.0.912.77 Safari/535.7',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/48.2 Safari/537.36 Chrome/48.0.2564.116',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Neuron/31.40.18 Chrome/27.0.1453.110 Safari/537.36',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/32.0.1700.72 Chrome/32.0.1700.72 Safari/537.36',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-P' => [
         'ua' => 'Mozilla/5.0 (Unknown; U; UNIX BSD/SYSV system; C -) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.2',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.21 (KHTML, like Gecko) lswebkit Safari/537.21 Lunascape/6.10.0.27486 Safari/537.21',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1344-R' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) iCab/5.8.3 Safari/601.7.7',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:25.4) Gecko/20150502 PaleMoon/25.4.0b3',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-T' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Debian Chrome/48.0.2564.116 Safari/537.36',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1344-U' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Debian Chrome/50.0.2661.103 Safari/537.36',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1344-V' => [
         'ua' => 'Mozilla/5.0 (U; Linux; Maemo; Jolla; Sailfish; like Android 4.3) AppleWebKit/538.1 (KHTML, like Gecko) WebPirate/2.1 like Mobile Safari/538.1 (compatible)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1344-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Micromax Q340 Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) YoloBrowser/1.0.1.74 Mobile Safari/537.36',
@@ -1217,8 +1239,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-X' => [
         'ua' => 'Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-TW) WindowsPowerShell/5.1.14393.953',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-Y' => [
         'ua' => 'Mozilla/5.0 (Windows NT; Windows NT 6.1; en-US) WindowsPowerShell/5.0.10586.117',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-Z' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Battle.net/1.3.1.6075 Safari/537.36',
@@ -1377,7 +1402,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Battle.net/1.3.1.6087 Safari/537.36',
@@ -1430,7 +1456,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AB' => [
         'ua' => 'Mozilla/5.0 (Linux U; en-US)  AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) Version/4.0 Kindle/3.0 (screen 600x800; rotate)',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.34 (KHTML, like Gecko) RobloxStudio/0. 210. 1. 63069 Safari/534.34',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.34 (KHTML, like Gecko) RobloxStudio/0. 206. 0. 62132 Safari/534.34',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) RobloxStudio/0. 206. 0. 62132 Safari/534.34',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) QuiteRSS/0.18.4 Safari/538.1',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) QuiteRss/0.18.4 Safari/538.1',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AH' => [
         'ua' => 'Mozilla/5.0 (N; Windows NT 10.0; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Raptr Safari/534.34',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; zh-cn) AppleWebKit/537.17 (KHTML, like Gecko) Safari/534.30 LBBROWSER',
@@ -1854,7 +1888,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1344-AJ' => [
         'ua' => 'TazWeb (X11; SliTaz GNU/Linux; U; en_US)',
@@ -1907,6 +1942,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

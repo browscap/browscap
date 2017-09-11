@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-B' => [
         'ua' => 'Mozilla/5.0 (compatible; Cliqzbot/0.1 +http://cliqz.com/company/cliqzbot)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-C' => [
         'ua' => 'Mozilla/4.0 (compatible; DAWINCI ANTIPLAG SPIDER)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-D' => [
         'ua' => 'AccServer[HOGANMIDSCHOOL]/5.0.2.20(24517) 64-bit HTTP-Agent',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-E' => [
         'ua' => 'SafeSearch microdata crawler (https://safesearch.avira.com, safesearch-abuse@avira.com)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-F' => [
         'ua' => 'Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-G' => [
         'ua' => 'Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-H' => [
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-588-I' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8',
@@ -477,5 +485,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

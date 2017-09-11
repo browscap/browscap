@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-B' => [
         'ua' => 'Alcatel-BF5/1.0 UP.Browser/5.0.3',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-C' => [
         'ua' => 'Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-D' => [
         'ua' => 'Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2 (Google WAP Proxy/1.0)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-E' => [
         'ua' => 'BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1400-F' => [
         'ua' => 'KDDI-CA26 UP.Browser/6.2.0.6.2 (GUI) MMP/2.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-G' => [
         'ua' => 'KDDI-CA39 UP.Browser/6.2.0.13.1.5 (GUI) MMP/2.0',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-H' => [
         'ua' => 'LG-C1300i UP.Browser/6.2.3 (GUI) MMP/1.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-I' => [
         'ua' => 'LG-C2000 UP.Browser/6.2.3 (GUI) MMP/1.0 UP.Link/6.3.0.0.0',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-J' => [
         'ua' => 'LG-C810/1.0 UP.Browser/4.1.26l',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-K' => [
         'ua' => 'LG-C950/1.0UP.Browser/6.2.3.2(GUI)MMp/2.0UP.Link/6.3.0.0.0',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1400-L' => [
         'ua' => 'LG-CG300 UP.Browser/6.2.3 (GUI) MMP/1.0',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-M' => [
         'ua' => 'LG-G4015 UP.Browser/6.2.2 (GUI) MMP/1.0',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-N' => [
         'ua' => 'LG-G4050 UP.Browser/6.2.2 (GUI) MMP/1.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-O' => [
         'ua' => 'LG-G5500 UP.Browser/6.2.2 (GUI) MMP/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-P' => [
         'ua' => 'LG-L1150 UP.Browser/6.2.3 (GUI) MMP/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-Q' => [
         'ua' => 'LG-LG220C[TF268435458416230421000000015123647440] UP.Browser/6.2.3.8 (GUI) MMP/2.0,gzip(gfe),gzip(gfe),gzip(gfe)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-R' => [
         'ua' => 'LG-LG220C[TF268435459307191073000000013049751856] UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-S' => [
         'ua' => 'LG-MG130 UP.Browser/6.2.3 GUI MMP/1.0',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-T' => [
         'ua' => 'LG-MG270 UP.Browser/6.2.3 (GUI) MMP/1.0',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-U' => [
         'ua' => 'LG-W800/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-V' => [
         'ua' => 'LG535/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0 UP.Link/6.2.3.17.0',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-W' => [
         'ua' => 'LGE-AD5235/1.0 UP.Browser/4.1.26l',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-X' => [
         'ua' => 'LGE-AD6335/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-Y' => [
         'ua' => 'LGE-AX260/1.0 UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-Z' => [
         'ua' => 'LGE-AX3200 UP.Browser/4.1.26l UP.Link/1.1',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AA' => [
         'ua' => 'LGE-AX4270/1.0 UP.Browser/6.2.3.1 (GUI) MMP/2.0',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AB' => [
         'ua' => 'LGE-AX4750/1.0 UP.Browser/6.2.3.1 (GUI) MMP/2.0',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AC' => [
         'ua' => 'LGE-AX490/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AD' => [
         'ua' => 'LGE-AX5450 UP.Browser/4.1.27',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AE' => [
         'ua' => 'LGE-BX6170/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AF' => [
         'ua' => 'LGE-CU8080/1.0 UP.Browser/4.1.26l UP.Link/5.1.2.9',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AG' => [
         'ua' => 'LGE-LG290C/1.0[TF268435458412745825000000016182403470] UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AH' => [
         'ua' => 'LGE-LG300/1.0 UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AI' => [
         'ua' => 'LGE-LG3200 UP.Browser/4.1.27 UP.Link/1.1',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AJ' => [
         'ua' => 'LGE-LG325/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AK' => [
         'ua' => 'LGE-LG3300/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AL' => [
         'ua' => 'LGE-LG4600 UP.Browser/6.2.2.3.d.2.100 (GUI) MMP/2.0',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AM' => [
         'ua' => 'LGE-LG6070 UP.Browser/6.2.2.3.d.2.100 (GUI) MMP/2.0',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AN' => [
         'ua' => 'LGE-LG6200/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AO' => [
         'ua' => 'LGE-LX5350/1.0 UP.Browser/6.1.0.2.135 (GUI) MMP/2.0',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AP' => [
         'ua' => 'LGE-MN240/1.0 UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AQ' => [
         'ua' => 'LGE-MX200_VEZ/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AR' => [
         'ua' => 'LGE-MX500_VEZ/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AS' => [
         'ua' => 'LGE-MX7000/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AT' => [
         'ua' => 'LGE-PM225/1.0 UP.Browser/6.2.3.7.e.1.101 (GUI) MMP/2.0',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AU' => [
         'ua' => 'LGE-PM325/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AV' => [
         'ua' => 'LGE-TM520/1.0 UP.Browser/4.1.22b UP.Link/4.3.4.4d',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AW' => [
         'ua' => 'LGE-VX6000 UP.Browser/4.1.27',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AX' => [
         'ua' => 'LGE-VX6100/1.0 UP.Browser/6.2.3.1 (GUI) MMP/2.0',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AY' => [
         'ua' => 'LGE-VX7000/1.0 UP.Browser/6.2.3.1.174 (GUI) MMP/2.0 (Google WAP Proxy/1.0)',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-AZ' => [
         'ua' => 'LGE-VX8100/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BA' => [
         'ua' => 'LGE-VX8350/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BB' => [
         'ua' => 'LGE-VX8500/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BC' => [
         'ua' => 'LGE-VX8610/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BD' => [
         'ua' => 'LGE-VX9100/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BE' => [
         'ua' => 'LGE-VX9800/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BF' => [
         'ua' => 'LGE-VX9900/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BG' => [
         'ua' => 'MOT-1.2.0/11.03 UP.Browser/4.1.27a UP.Link/4.3.2 (Google WAP Proxy/1.0)',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BH' => [
         'ua' => 'MOT-76/02.06 UP.Browser/4.1.26m.737 UP.Link/5.1.2.16',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BI' => [
         'ua' => 'MOT-A-0A/00.00 UP.Browser/4.1.27a1',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BJ' => [
         'ua' => 'MOT-A-0A/00.06 UP.Browser/4.1.27a1 UP.Link/4.2.3.5h',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BK' => [
         'ua' => 'MOT-A-1F/00.04 UP.Browser/4.1.27a1 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BL' => [
         'ua' => 'MOT-A-88/01.05 UP.Browser/4.1.26m.737 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BM' => [
         'ua' => 'MOT-AF/4.1.8 UP/4.1.16s',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1400-BN' => [
         'ua' => 'MOT-EF/06.12 KM.Browser/5.0.2.4',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1400-BO' => [
         'ua' => 'MOT-F5/4.1.9 UP.Browser/4.1.23c',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BP' => [
         'ua' => 'MOT-F6/00.28.26 UP.Browser/4.1.23b',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BQ' => [
         'ua' => 'MOT-FE/07.07 UP.Browser/5.0.2.4',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BR' => [
         'ua' => 'MOT-MCCB/7582 UP.Browser/4.1.23 UP.Link/4.2.1.1',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BS' => [
         'ua' => 'MOT-PAN4_/11.03 UP.Browser/4.1.23c',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BT' => [
         'ua' => 'MOT-SAP4_/11.03 UP.Browser/4.1.23c',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1400-BU' => [
         'ua' => 'Motorola-E365 UP.Browser/6.1.0.7 (GUI) MMP/1.0',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BV' => [
         'ua' => 'Motorola-T33/1.5.1a UP.Browser/5.0.1.7 (GUI)',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BW' => [
         'ua' => 'Motorola-T33/1.5.1a UP.Browser/5.0.1.7.c.2 (GUI) (Google WAP Proxy/1.0)',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BX' => [
         'ua' => 'NEC-525/1.0 up.Browser/6.1.0.6.1 (GUI) MMP/1.0',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BY' => [
         'ua' => 'NOKIA-NPD-4AW/V B105V0400.nep.0 UP.Browser/4.1.26l1 UP.Link/1.1',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-BZ' => [
         'ua' => 'NOKIA-RH-17/V F100V0400.nep.0 UP.Browser/4.1.26l1',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CA' => [
         'ua' => 'NOKIA-RH-44/V D126V0602.nep.0 UP.Browser/4.1.26l1 UP.Link/1.1',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CB' => [
         'ua' => 'Nokia1100/1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CC' => [
         'ua' => 'Nokia2112/1.0 (O100V0300.nep) UP.Browser/4.1.26l1 UP.Link/1.1',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CD' => [
         'ua' => 'SAMSUNG-C3050-ORANGE/C3050BVIH2 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CE' => [
         'ua' => 'SAMSUNG-C3053/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CF' => [
         'ua' => 'SAMSUNG-SGH-A800/1.0 UP.Browser/5.0.3.3 (GUI)',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CG' => [
         'ua' => 'SAMSUNG-SGH-D488/1.0*MDA0NDAwMDA2MjM1NzMx UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CH' => [
         'ua' => 'SAMSUNG-SGH-E335/E335UVEE1 UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CI' => [
         'ua' => 'SAMSUNG-SGH-E368/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDAwMDAwMDAwMDAwMDAw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CJ' => [
         'ua' => 'SAMSUNG-SGH-E635/E635UVEF3 UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CK' => [
         'ua' => 'SAMSUNG-SGH-E648/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDAwMDAwMDAwMDAwMDAw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CL' => [
         'ua' => 'SAMSUNG-SGH-E700-OLYMPIC2004/1.0 UP.Browser/6.1.0.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CM' => [
         'ua' => 'SAMSUNG-SGH-E700/BSI UP.Browser/6.1.0.6 (GUI) MMP/1.0',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CN' => [
         'ua' => 'SAMSUNG-SGH-E700/BSI UP.Browser/6.1.0.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CO' => [
         'ua' => 'SAMSUNG-SGH-E736/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CP' => [
         'ua' => 'SAMSUNG-SGH-E758/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDAwMDAwMDAwMDAwMDAw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CQ' => [
         'ua' => 'SAMSUNG-SGH-I858/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.4 (GUI) MMP/2.0',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CR' => [
         'ua' => 'SAMSUNG-SGH-P200-ORANGE/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CS' => [
         'ua' => 'SAMSUNG-SGH-S508/1.0*MzU0NTMxMDA2MDczMzYx UP.Browser/5.0.5.1 (GUI) UP.Link/1.1',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CT' => [
         'ua' => 'SAMSUNG-SGH-T100/1.0 UP.Browser/4.1.26c4',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CU' => [
         'ua' => 'SAMSUNG-SGH-T578/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDAwMDAwMDAwMDAwMDAw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CV' => [
         'ua' => 'SAMSUNG-SGH-X496/X496UZEI1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CW' => [
         'ua' => 'SAMSUNG-SGH-X600/K3 UP.Browser/6.1.0.6 (GUI) MMP/1.0',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CX' => [
         'ua' => 'SAMSUNG-SGH-X628/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MDAwMDAwMDAwMDAwMDAw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CY' => [
         'ua' => 'SAMSUNG-SGH-X640/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-CZ' => [
         'ua' => 'SAMSUNG-SGH-X640C/1.0 UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DA' => [
         'ua' => 'SAMSUNG-SGH-X648/1.0/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1*MDA0NDAwMDAxODg3MTA2 UP.Browser/6.2.2.6 (GUI) MMP/1.0',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DB' => [
         'ua' => 'SAMSUNG-SGH-X658/1.0 UP.Browser/6.2.3.3 (GUI) MMP/2.0 Push/PO',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DC' => [
         'ua' => 'SCH-R210 UP.Browser/6.2.3.8 (GUI) MMP/2.0',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DD' => [
         'ua' => 'SIE-A31/05 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3.102 (GUI) MMP/1.0',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DE' => [
         'ua' => 'SIE-A31a/03 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3.102 (GUI) MMP/1.0',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DF' => [
         'ua' => 'SIE-A60/10 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DG' => [
         'ua' => 'SIE-A62/02 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DH' => [
         'ua' => 'SIE-A65C/(2005.05.16)SW07/WAP1.2.1 profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DI' => [
         'ua' => 'SIE-A75/20 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DJ' => [
         'ua' => 'SIE-A76/34 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DK' => [
         'ua' => 'SIE-AF51/07 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3.102 (GUI) MMP/1.0',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DL' => [
         'ua' => 'SIE-C110/05 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3.102 (GUI) MMP/1.0',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DM' => [
         'ua' => 'SIE-C60/12 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DN' => [
         'ua' => 'SIE-C60A/24 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DO' => [
         'ua' => 'SIE-CF6C/07 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DP' => [
         'ua' => 'SIE-CX65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (Google WAP Proxy/1.0)',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DQ' => [
         'ua' => 'SIE-M55/11 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DR' => [
         'ua' => 'SIE-M55e/11 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DS' => [
         'ua' => 'SIE-M55Z/11 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DT' => [
         'ua' => 'SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DU' => [
         'ua' => 'SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 UP.Link/5.1.1.5a',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DV' => [
         'ua' => 'SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 UP.Link/6.6.4.0.0',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DW' => [
         'ua' => 'SIE-MC6C/07 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DX' => [
         'ua' => 'SIE-S55/11 UP.Browser/6.1.0.5.c.2 (GUI) MMP/1.0 (Google WAP Proxy/1.0)',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DY' => [
         'ua' => 'SIE-S55/20 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0 UP.Link/1.1 (Google WAP Proxy/1.0)',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-DZ' => [
         'ua' => 'SIE-ST55/1.0 UP.Browser/6.1.0.6.d.2.100 (GUI) MMP/1.0',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-EA' => [
         'ua' => 'SonyEricssonK500/R1 UP.Browser/5.0.3.3 (GUI)',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-EB' => [
         'ua' => 'SonyEricssonK500i/R UP.Browser/5.0.3.3 (GUI)',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-EC' => [
         'ua' => 'SonyEricssonS312/R1DA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -7049,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1400-ED' => [
         'ua' => 'Vodafone/1.0/SAMSUNG-SGH-J700V/AUHA3/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
@@ -7102,5 +7235,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

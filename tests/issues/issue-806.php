@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-806-B' => [
         'ua' => 'Mozilla/5.0 (compatible; DeuSu/5.0.2; +https://deusu.de/robot.html)',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1020-K' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
@@ -583,5 +593,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

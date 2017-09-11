@@ -19,6 +19,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above (no Windows 98 support past Firefox 2.0.x)
     'issue-000-invalid-versions-B' => [
@@ -37,6 +38,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // NT4.x support was removed at the same time that Windows 98/ME support was removed
     'issue-000-invalid-versions-C' => [
@@ -55,6 +57,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-D' => [
@@ -73,6 +76,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-E' => [
@@ -91,6 +95,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-F' => [
@@ -109,6 +114,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-G' => [
@@ -127,6 +133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-H' => [
@@ -145,6 +152,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-I' => [
@@ -163,6 +171,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-J' => [
@@ -181,6 +190,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-K' => [
@@ -199,6 +209,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-L' => [
@@ -217,6 +228,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-M' => [
@@ -235,6 +247,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-N' => [
@@ -253,6 +266,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-O' => [
@@ -271,6 +285,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Mozilla dropped Windows 2000 support as of Firefox 13:
     // https://blog.mozilla.org/futurereleases/2012/03/23/upcoming-firefox-support-changes/
@@ -291,6 +306,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-Q' => [
@@ -309,6 +325,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-R' => [
@@ -327,6 +344,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-S' => [
@@ -345,6 +363,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-T' => [
@@ -363,6 +382,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Firefox 4.0 and up don't suppport OSX 10.4 (https://www.mozilla.org/en-US/firefox/4.0/system-requirements/)
     // Firefox 3.6 is last to support 10.4 (https://support.mozilla.org/t5/Documents-Archive/Firefox-no-longer-works-with-Mac-OS-X-10-4-or-PowerPC-processors/ta-p/12222)
@@ -382,6 +402,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-V' => [
@@ -399,6 +420,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // OSX 10.5 was dropped in Firefox 17:
     // https://support.mozilla.org/t5/Documents-Archive/Firefox-no-longer-works-with-Mac-OS-X-10-5/ta-p/26546
@@ -417,6 +439,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // OSX 10.6, 10.7 and 10.8 were dropped in Firefox 49
     // https://support.mozilla.org/t5/Install-and-Update/Firefox-support-has-ended-for-Mac-OS-X-10-6-10-7-and-10-8/ta-p/32725
@@ -435,6 +458,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-Y' => [
@@ -452,6 +476,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-Z' => [
@@ -469,6 +494,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Invalid Firefox version, see #1381 for more discussion about this.
     'issue-000-invalid-versions-AA' => [
@@ -487,6 +513,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AB' => [
@@ -505,6 +532,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AC' => [
@@ -523,6 +551,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AD' => [
@@ -542,6 +571,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Firefox wasn't called Firefox until version 0.8 (was known as Phoenix or Firebird previously)
     // https://en.wikipedia.org/wiki/Firefox_version_history#Release_history
@@ -562,6 +592,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above, but should be "Phoenix" instead of Firefox
     'issue-000-invalid-versions-AF' => [
@@ -580,6 +611,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // There was no Firefox 3.8 release (alpha or otherwise). There was a 3.7 alpha release, but the version was
     // changed to 4.0 with the first beta release.
@@ -600,6 +632,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Chrome was never released for anything less than Windows XP officially
     // https://en.wikipedia.org/wiki/Google_Chrome#Public_release
@@ -620,6 +653,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AI' => [
@@ -643,6 +677,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AJ' => [
@@ -662,6 +697,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AK' => [
@@ -678,6 +714,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Windows XP and Vista were dropped in Chrome 50
     // https://arstechnica.com/gadgets/2016/04/chrome-50-ends-support-for-windows-xp-os-x-10-6-other-old-versions/
@@ -698,6 +735,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AM' => [
@@ -717,6 +755,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AN' => [
@@ -737,6 +776,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AO' => [
@@ -757,6 +797,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AP' => [
@@ -777,6 +818,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AQ' => [
@@ -797,6 +839,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // OSX 10.6, 10.7 and 10.8 were also dropped in Chrome 50
     // https://arstechnica.com/gadgets/2016/04/chrome-50-ends-support-for-windows-xp-os-x-10-6-other-old-versions/
@@ -815,8 +858,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AS' => [
@@ -834,8 +878,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AT' => [
@@ -852,8 +897,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // OSX 10.5 was dropped in Chrome 22
     // https://www.engadget.com/2012/07/10/google-drops-os-x-leopard-support-for-chrome-22-dev-release/
@@ -871,6 +917,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Opera 6.03 was the last release for Mac OS 8/9
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -885,7 +932,8 @@ return [
             'Platform' => 'MacPPC',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AW' => [
@@ -900,6 +948,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AX' => [
@@ -914,6 +963,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Opera 10.63 was the last version to support Windows 9.x/NT 4
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_10
@@ -928,7 +978,8 @@ return [
             'Platform' => 'Win98',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-AZ' => [
@@ -943,7 +994,8 @@ return [
             'Platform_Version' => '4.0',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BA' => [
@@ -958,7 +1010,8 @@ return [
             'Platform_Version' => '4.0',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BB' => [
@@ -973,7 +1026,8 @@ return [
             'Platform_Version' => '4.1',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BC' => [
@@ -991,7 +1045,8 @@ return [
             'Platform' => 'Win95',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BD' => [
@@ -1005,7 +1060,8 @@ return [
             'Platform' => 'WinME',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // There is no 9.80/9.8 release of Opera. The "9.80" version number is used as a prefix to the agent in later
     // versions, but there was no 9.80 (9.64 was the last 9.x release)
@@ -1023,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BF' => [
@@ -1037,6 +1094,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // The first Opera release for Mac was 5.0
     // https://web.archive.org/web/20010204004000/http://www.opera.com:80/pressreleases/20010201.html
@@ -1054,6 +1112,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // There was no 12.50 release of Opera (12.18 was the last release (on Windows, 12.16 on Linux))
     // http://arc.opera.com/pub/opera/linux/
@@ -1070,6 +1129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // There was no 9.99 version of Opera
     'issue-000-invalid-versions-BI' => [
@@ -1084,6 +1144,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // There was no 8.65 release of Opera. The last 8.x version was 8.54
     // http://arc.opera.com/pub/opera/win/
@@ -1100,6 +1161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BK' => [
@@ -1114,6 +1176,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BL' => [
@@ -1129,6 +1192,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // There was also no 8.60 release
     'issue-000-invalid-versions-BM' => [
@@ -1143,6 +1207,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // There was no 7.60 version of Opera released, the last version in the 7.x series was 7.54
     // http://arc.opera.com/pub/opera/linux/
@@ -1163,6 +1228,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BO' => [
@@ -1176,7 +1242,8 @@ return [
             'Platform' => 'WinNT',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BP' => [
@@ -1191,6 +1258,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BQ' => [
@@ -1203,8 +1271,9 @@ return [
             'MinorVer' => '0',
             'Platform' => 'Win98',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // There was no 10.70 release of Opera, 10.63 was the last 10.x release
     // http://arc.opera.com/pub/opera/mac/
@@ -1222,6 +1291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BS' => [
@@ -1236,6 +1306,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BT' => [
@@ -1250,6 +1321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // There was no 9.70 release of Opera, 9.64 was the last 9.x release
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
@@ -1268,6 +1340,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BV' => [
@@ -1282,6 +1355,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Windows 2000 support was dropped after Opera version 12.02
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -1295,8 +1369,9 @@ return [
             'MinorVer' => '0',
             'Platform' => 'Win2000',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // The last version of Opera for OSX 10.6 was 25.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -1311,8 +1386,9 @@ return [
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.6',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // The last version of Opera for OSX 10.7/10.8 was 36.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -1327,8 +1403,9 @@ return [
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.7',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-BZ' => [
@@ -1342,8 +1419,9 @@ return [
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.8',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // The last version of Opera to support Windows Vista was 36.0
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -1359,6 +1437,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CB' => [
@@ -1374,6 +1453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Opera dropped FreeBSD support after version 12.16
     // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
@@ -1389,6 +1469,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CD' => [
@@ -1403,6 +1484,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Iron is based on Chromium, which, as we know, didn't support anything less than Windows XP at launch, apparently
     // Iron is no different. The first version that archive.org has a snapshot for (0.4) shows "XP,Vista" as the supported
@@ -1421,6 +1503,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CF' => [
@@ -1437,6 +1520,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CG' => [
@@ -1453,6 +1537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CH' => [
@@ -1469,6 +1554,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CI' => [
@@ -1485,6 +1571,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CJ' => [
@@ -1501,6 +1588,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // At version 2.0, Qupzilla switched to using QT WebEngine instead of QT WebKit: https://github.com/QupZilla/qupzilla/releases/tag/v2.0.0
     // Which apparently doesn't support Windows XP: https://github.com/QupZilla/qupzilla/issues/2220
@@ -1518,6 +1606,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // There was no Chrome 19 - 24 for Android. Chrome was released at version 18, and was later bumped to 25 to sync
     // up with the desktop version number.
@@ -1538,6 +1627,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CM' => [
@@ -1553,6 +1643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CN' => [
@@ -1568,6 +1659,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CO' => [
@@ -1583,6 +1675,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CP' => [
@@ -1598,6 +1691,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CQ' => [
@@ -1613,6 +1707,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CR' => [
@@ -1628,6 +1723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CS' => [
@@ -1643,6 +1739,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Chrome 18 was the first stable release for android: https://www.engadget.com/2012/06/27/google-chrome-for-android/
     // Chrome 16 was a beta: https://chromereleases.googleblog.com/2012/02/chrome-for-android-beta-1.html
@@ -1660,6 +1757,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above, there's no evidence that there was a version 17 Beta
     'issue-000-invalid-versions-CU' => [
@@ -1675,6 +1773,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CV' => [
@@ -1690,6 +1789,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CW' => [
@@ -1705,6 +1805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Chrome 5 was the first Linux (and Mac) release of Chrome: https://en.wikipedia.org/wiki/Google_Chrome_version_history
     // https://chrome.googleblog.com/2010/05/new-chrome-stable-release-welcome-mac.html
@@ -1721,6 +1822,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     // Chrome 37 was the first Native 64-bit (Win64; x64) version of the browser on Windows:
     // https://blog.chromium.org/2014/08/64-bits-of-awesome-64-bit-windows_26.html
@@ -1740,6 +1842,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-CZ' => [
@@ -1758,6 +1861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-DA' => [
@@ -1776,6 +1880,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-DB' => [
@@ -1794,6 +1899,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     // Same as above
     'issue-000-invalid-versions-DC' => [
@@ -1812,6 +1918,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     // Windows versions less than XP were dropped as of version 13.0:
     // http://website-archive.mozilla.org/www.mozilla.org/thunderbird_releasenotes/en-US/thunderbird/13.0/system-requirements/
@@ -1831,6 +1938,7 @@ return [
             'Platform_Bits' => '32',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1261-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; ONE E1003 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1261-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1261-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36',
@@ -211,6 +214,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

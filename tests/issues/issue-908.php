@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-908-B' => [
         'ua' => 'MonitorBacklinksWP (+http://monitorbacklinks.com/blog/incoming-links/)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-908-C' => [
         'ua' => 'AddThis.com (http://support.addthis.com/)',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];
