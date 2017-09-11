@@ -24,7 +24,7 @@ before_install:
 install: travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
 script:
-  - composer validate
+  - composer validate --strict
   - vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --verbose
 
 jobs:
