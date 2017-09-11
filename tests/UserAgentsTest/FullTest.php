@@ -68,8 +68,8 @@ class FullTest extends \PHPUnit\Framework\TestCase
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/build/';
-        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/cache/';
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-full-' . $buildNumber . '/build/';
+        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-full-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
         if (!file_exists(self::$buildFolder)) {
