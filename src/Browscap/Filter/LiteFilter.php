@@ -23,6 +23,23 @@ use Browscap\Writer\WriterInterface;
 class LiteFilter implements FilterInterface
 {
     /**
+     * @var \Browscap\Data\PropertyHolder
+     */
+    private $propertyHolder = null;
+
+    /**
+     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
+     */
+    public function __construct(PropertyHolder $propertyHolder = null)
+    {
+        if (null === $propertyHolder) {
+            $this->propertyHolder = new PropertyHolder();
+        } else {
+            $this->propertyHolder = $propertyHolder;
+        }
+    }
+
+    /**
      * returns the Type of the filter
      *
      * @return string
@@ -64,14 +81,12 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, WriterInterface $writer = null)
+    public function isOutputProperty($property, ?WriterInterface $writer = null)
     {
-        $propertyHolder = new PropertyHolder();
-
-        if (!$propertyHolder->isOutputProperty($property, $writer)) {
+        if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;
         }
 
-        return $propertyHolder->isLiteModeProperty($property);
+        return $this->propertyHolder->isLiteModeProperty($property, $writer);
     }
 }

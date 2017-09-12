@@ -41,8 +41,6 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            // Couldn't identify "m2" exactly.  There is an Xperia M2 from Sony, but that should show as D2303 or D2305
-            // There's also a Gionee M2, but that seems to always identify as "GIONEE M2" in useragents
             'Device_Name' => 'general Mobile Phone',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
@@ -55,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1313-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; TZ43 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.5.932 U3/0.8.0 Mobile Safari/534.30',
@@ -108,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1313-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-US; Prime S Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
@@ -161,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1313-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0; en-US; LG-H422 Build/MRA58K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
@@ -214,5 +215,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

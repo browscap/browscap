@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-B' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like Gecko',
@@ -104,8 +105,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-C' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; NOKIA; Lumia 635) like Gecko',
@@ -157,8 +159,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-D' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; NOKIA; Lumia 625) like Gecko',
@@ -210,8 +213,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-E' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; NOKIA; Lumia 730 Dual SIM) like Gecko',
@@ -263,8 +267,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-F' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like Gecko',
@@ -316,8 +321,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-G' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; WebView/2.0; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko',
@@ -369,8 +375,9 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-H' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-I' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 625)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-J' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 620)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-K' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 820)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-L' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 925)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-M' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920; Vodafone)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-N' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; SAMSUNG; GT-I8750)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1393-O' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; DELL; Venue Pro)',
@@ -794,7 +808,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-P' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)',
@@ -847,7 +862,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Pro T7576)',
@@ -900,7 +916,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-R' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar 4G)',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-S' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800)',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-T' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 900)',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-U' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 925; Orange)',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-V' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; OMNIA7)',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-W' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Trophy T8686)',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-X' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e; 2.05.162.01)',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-Y' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1393-Z' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AA' => [
         'ua' => 'HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AB' => [
         'ua' => 'SAMSUNG-GT-i8000Orange/BVIJ1 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AC' => [
         'ua' => 'HTC_Maple_S520 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AD' => [
         'ua' => 'SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AE' => [
         'ua' => 'SAMSUNG-GT-i8000T Mozilla (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Vodafone/1.0/HTC_Touch_Pro/%ROM_VERSION%',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AG' => [
         'ua' => 'HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AH' => [
         'ua' => 'HTC_P4550 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Mozart)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Pro T7576)',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; Windows Phone 8S By HTC)',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-E900)',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 1520)',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 720)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 820)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 920)',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 925)',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 930)',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; OMNIA7)',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AT' => [
         'ua' => 'HTC_P3650 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AU' => [
         'ua' => 'HTC_P3700 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AV' => [
         'ua' => 'HTC_Touch_3G_T3232 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AW' => [
         'ua' => 'HTC_Touch_HD_T8282 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AX' => [
         'ua' => 'HTC_Touch_Pro_T7272 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AY' => [
         'ua' => 'HTC_TouchDual Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-AZ' => [
         'ua' => 'SAMSUNG-SGH-i900Orange/AFHH1 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_Elf/1.11.164.2',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_VPACompactIV/4.14.162.2',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BD' => [
         'ua' => 'HTC_TyTN Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5 HTC_HD2/1.0)',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.0)',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows CE)',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BJ' => [
         'ua' => 'htc900/ (compatible; MSIE 4.01; Windows CE; Smartphone; 240x320)',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BK' => [
         'ua' => 'LENOVO-ET980/(2005.10.01)Ver1.0.1/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0/ (compatible; MSIE 4.01; Windows CE; PPC; 240x320)',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BL' => [
         'ua' => 'MOT-MPx/1.0312.0409 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BM' => [
         'ua' => 'MOT-MPx230/0.020 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BN' => [
         'ua' => 'SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BO' => [
         'ua' => 'HTC_Touch2_T3333 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/8.0.4.121/50/400',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; O2 Xda 2s;PPC;240x320; PPC; 240x320)',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda neo; 240x320)',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1393-BS' => [
         'ua' => 'Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)',
@@ -3763,5 +3833,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-881-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Galaxy Nexus Build/JRN84D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111.166 Mobile Safari/537.36',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-881-C' => [
         'ua' => 'Mozilla/5.0 (Android Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-881-D' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.4; Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',
@@ -212,5 +215,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

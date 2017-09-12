@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1303-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e [FBAN/FBIOS;FBAV/76.0.0.45.339;FBBV/47725512;FBRV/0;FBDV/iPad5,3;FBMD/iPad;FBSN/iOS;FBSV/10.3;FBSS/2;FBCR/;FBID/tablet;FBLC/en_US;FBOP/5]',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1303-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e [FBAN/FBIOS;FBAV/53.0.0.36.140;FBBV/27547874;FBRV/0;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/10.3;FBSS/2;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5]',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1303-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/22.0.141836113 Mobile/14E5230e Safari/600.1.4',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1303-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/55.0.2883.79 Mobile/14E5230e Safari/602.1',
@@ -263,8 +267,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1303-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) FxiOS/6.0 Mobile/14E5230e Safari/603.1.20',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1303-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E5260b Safari/602.1',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1303-H' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X; de-AT) AppleWebKit/537.36 (KHTML, like Gecko) Version/10.3 Mobile/14E5277a Safari/537.36 Puffin/5.2.0IT',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1303-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU OS 10_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/6.5.3 (like Version/10.3 Mobile/14E5277a Safari/600.1.4)',
@@ -476,6 +484,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

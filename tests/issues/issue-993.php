@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-B' => [
         'ua' => 'Stitcher/iOS',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-C' => [
         'ua' => 'Stitcher/Android',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AB' => [
         'ua' => 'Stitcher/28420 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AC' => [
         'ua' => 'Stitcher/3.310746 CFNetwork/459 Darwin/10.0.0d3',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; BeyondPod 4)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-E' => [
         'ua' => 'NSPlayer/10.0.0.3702 WMFSDK/10.0',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-F' => [
         'ua' => 'NSPlayer/12.00.10011.16384 WMFSDK/12.00.10011.16384',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-G' => [
         'ua' => 'Pocket Casts',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-H' => [
         'ua' => 'Shifty Jelly Pocket Casts, Android v4.3.5',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-I' => [
         'ua' => 'Player/LG Player 1.0 for Android 4.4.2 (stagefright alternative), Pocket Casts',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-J' => [
         'ua' => 'PocketTunes/5.5.8',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-K' => [
         'ua' => 'Overcast/2.0 (+http://overcast.fm/; iOS podcast app)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-L' => [
         'ua' => 'Overcast/1.0 Podcast Sync (+http://overcast.fm/)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-M' => [
         'ua' => 'Player FM',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-N' => [
         'ua' => 'Player/LG Player 1.0 for Android 4.4.2 (stagefright alternative), Player FM',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-O' => [
         'ua' => 'AppleCoreMedia/1.0.0.9A405 (iPad; U; CPU OS 5_0_1 like Mac OS X; zh_cn), Player FM',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-P' => [
         'ua' => 'Player FM BMID/E6804C1C77',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-Q' => [
         'ua' => 'ExoPlayerDemo/4.11 (Linux;Android 5.1.1) ExoPlayerLib/1.5.2',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-R' => [
         'ua' => 'Radio/1.0 (Linux;Android 6.0.1) ExoPlayerLib/1.5.2',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-S' => [
         'ua' => 'AlexaMediaPlayer/5.3.1-21 (Linux;Android 5.1) ExoPlayerLib/1.3.3',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-T' => [
         'ua' => 'Podkicker/2.2.4',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-U' => [
         'ua' => 'Podkicker Pro/2.2.2',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-V' => [
         'ua' => 'Podkicker Classic/1.2.9',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-W' => [
         'ua' => 'Downcast/2.9.13 (iPhone; iOS 9.2.1; Scale/2.00)',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-993-X' => [
         'ua' => 'iTunes/10.7 Downcast/5608',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-Y' => [
         'ua' => 'Downcast/2.9.10 (Mac OS X Version 10.11.3 (Build 15D21))',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-Z' => [
         'ua' => 'iTunes/10.7 Downcast/2.8.14.1002',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AD' => [
         'ua' => 'Mark%20Levin%20Show/11 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AE' => [
         'ua' => 'The%20Dan%20Patrick%20Show/11 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AF' => [
         'ua' => '77%20WABC/11 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AG' => [
         'ua' => 'KNBR%20680/11 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AH' => [
         'ua' => 'PodcastOne/3.0.6 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AI' => [
         'ua' => 'PodcastOne/2.0 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AJ' => [
         'ua' => 'AudioBoom/226 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AK' => [
         'ua' => 'https://audioboom.com/boos/',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AL' => [
         'ua' => 'Sports%20Talk%201050/10 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AM' => [
         'ua' => 'PodCruncher/3.2 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AN' => [
         'ua' => 'iTunes/10.5.2 (PodCruncher 2.2)',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AO' => [
         'ua' => 'Zune/4.8',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; Zune 4.7)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; OverDrive Download Station 1.0; Zune 4.7; .NET4.0C)',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AS' => [
         'ua' => 'RSSRadio/8899 (iPhone,iPhone OS,9.3)',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AT' => [
         'ua' => 'RSSRadio (Push Notification Scanner;support@dorada.co.uk)',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AU' => [
         'ua' => 'RSS_Radio 1.5',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AV' => [
         'ua' => 'RSSRadio/2.68.14049 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AW' => [
         'ua' => 'Lavf/56.15.102',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AX' => [
         'ua' => 'Lavf52.64.2',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AY' => [
         'ua' => 'Lavf53.32.100/WinampMPEG/2.8',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AZ' => [
         'ua' => 'Lavf52.104.0 WMPlayer/10.0.0.364 guid/3300AD50-2C39-46C0-AE0A-AC7B8159E203',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BA' => [
         'ua' => 'WMPlayer/10.0.0.364 guid/3300AD50-2C39-46C0-AE0A-AC7B8159E203',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BB' => [
         'ua' => 'AntennaPod/1.5.2.0',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BC' => [
         'ua' => 'Antenna/965 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BD' => [
         'ua' => 'AntennaPod/1.2.1',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BE' => [
         'ua' => 'HTC Streaming Player htc / 1.0 / cingular_us / 5.0.2',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BF' => [
         'ua' => 'HTC Streaming Player utstarcom_wwe-generic / 1.0 / htc_kingdom / 2.3.4',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BG' => [
         'ua' => 'HTC Streaming Player telus_wwe / 1.0 / htc_ruby / 4.0.3',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BH' => [
         'ua' => 'HTC Streaming Player htc / 1.0 / himauhl_htc_asia_tw / 6.0',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BI' => [
         'ua' => 'ZDM/4.0; Windows Mobile 8.1',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BJ' => [
         'ua' => 'bPod',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BK' => [
         'ua' => 'bPod BMID/E679FACD4C',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BL' => [
         'ua' => 'PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 6.0; LG-H811 Build/MRA58K)',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BM' => [
         'ua' => 'Podcast Addict - Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G920P Build/LMY47X)',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BN' => [
         'ua' => 'LG-H345/V10f Player/LG Player 1.0 for Android 5.1.1 (stagefright alternative)',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BO' => [
         'ua' => 'Player/LG Player 1.0 for Android 6.0 (stagefright alternative)',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-AA' => [
         'ua' => 'ESPN%20Radio/3.2.113 CFNetwork/485.12.30 Darwin/10.4.0',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BP' => [
         'ua' => 'EspnDownloadManager',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BQ' => [
         'ua' => 'ESPN Radio 4.7.4 rv:1032 (iPhone; iPhone OS 9.2.1; en_US)',
@@ -3656,7 +3724,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-993-BR' => [
         'ua' => 'ESPN Radio 4.5.1 (iPhone; iPhone OS 5.1.1; en_US)',
@@ -3709,7 +3778,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-993-BS' => [
         'ua' => 'ESPN Radio 4.0 (iPhone; iPhone OS 7.1.2; en_AU)',
@@ -3762,7 +3832,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-993-BU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; HP Slate 17 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36ESPN APP',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BV' => [
         'ua' => 'Mozilla/5.0 (compatible; heritrix/3.2.0 +http://espn.go.com',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BW' => [
         'ua' => 'Custom-Feed Reader',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BX' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) amarok/2.8.0 Safari/534.34',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BY' => [
         'ua' => 'amarok/2.8.0 (Phonon/4.8.0; Phonon-VLC/0.8.0) LibVLC/2.2.1',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-BZ' => [
         'ua' => 'Banshee/2.6.2 (http://banshee-project.org/)',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CA' => [
         'ua' => 'gPodder/3.7.0 (+http://gpodder.org/)',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CB' => [
         'ua' => 'jPodder v 1.1 RC3',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CC' => [
         'ua' => 'iPodder/2.1 +http://ipodder.sf.net/',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CD' => [
         'ua' => 'massyn.net philpodder/1.6 (linux)',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CE' => [
         'ua' => 'BashPodder',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CF' => [
         'ua' => 'Clementine-qt5 1.2.3',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CG' => [
         'ua' => 'Clementine 1.2.3-1457-g4db358a',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CH' => [
         'ua' => 'Clementine 1.2.3',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CI' => [
         'ua' => 'Clementine 1.2',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CJ' => [
         'ua' => 'Clementine 1.2.2 Clementine 1.2.2 Clementine 1.2.2',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CK' => [
         'ua' => 'foobar2000/1.1.14a',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CL' => [
         'ua' => 'foobar2000/1.2.3',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CM' => [
         'ua' => 'Juice/2.2 (Windows) +http://juicereceiver.sf.net/',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CN' => [
         'ua' => 'Liferea/0.x.x (Linux; en_US.UTF-8; http://liferea.sf.net/)',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CO' => [
         'ua' => 'MediaGo',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CP' => [
         'ua' => 'MediaGo/3.0.0.403 (Windows NT 6.3; WOW64) NetworkDownloader/1.6.01.0 PlaybackEngine/2.20.103.05220',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CQ' => [
         'ua' => 'MediaMonkey',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CR' => [
         'ua' => 'MediaMonkey 4.1.9.1764',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CS' => [
         'ua' => 'Miro/6.0 (http://www.getmiro.com/; Windows post2008Server x86)',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CT' => [
         'ua' => 'Miro/3.0.3 (http://www.getmiro.com/; Microsoft Windows )',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CU' => [
         'ua' => 'Fancy Cloud Music 1.4 build 2 (iPhone; iPhone OS 9.2.1; en_US)',
@@ -5193,7 +5290,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-993-CV' => [
         'ua' => 'FancyMusic 1.5.0 build 5 (iPod touch; iPhone OS 9.2.1; en_US)',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CW' => [
         'ua' => 'VOX Music Player',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CX' => [
         'ua' => 'NetNewsWire/3.3 (Mac OS X; http://netnewswireapp.com/mac/; gzip-happy)',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CY' => [
         'ua' => 'NetNewsWire/3.1.7 (Mac OS X; http://www.newsgator.com/Individuals/NetNewsWire/)',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) NetNewsWire/3.2',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) NetNewsWire/3.3.2',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Rivo RHYTHM RX75 Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36; | 2016-04-07 14:37:04',
@@ -5563,8 +5667,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DC' => [
         'ua' => 'Spotify',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DD' => [
         'ua' => 'Spotify/1.0',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DF' => [
         'ua' => 'vlc/1.1.0 LibVLC/1.1.0',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DG' => [
         'ua' => 'VLC/3.0.0-git LibVLC/3.0.0-git BMID/E67AB28521',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/9.3 Mobile/11A465 Safari/9537.53 VLC for iOS/2.7.2',
@@ -5829,7 +5938,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-993-DI' => [
         'ua' => 'VLC media player - version 1.0.3 Goldeneye - (c) 1996-2009 the VideoLAN team',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DJ' => [
         'ua' => 'VLC/2.2.0-rc1 LibVLC/2.2.0-rc1',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DK' => [
         'ua' => 'VLC/2.2.0-pre4 LibVLC/2.2.0-pre4',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DL' => [
         'ua' => 'CITA RSS Aggregator/2.7',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DM' => [
         'ua' => 'Doppler 2.9.5.4',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DN' => [
         'ua' => 'GoldenPod/0.8.4 (GNU/Linux; podcatcher; Using LWP) libwwwperl',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DO' => [
         'ua' => 'Replay AV',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DP' => [
         'ua' => 'MusicDownloaderLite/1.0.1 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DQ' => [
         'ua' => 'MusicDownloader/2.0.3 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DS' => [
         'ua' => 'PodWrangler/1.1 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DT' => [
         'ua' => 'Custom/12 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DU' => [
         'ua' => 'GoodReader4/100 CFNetwork/758.3.15 Darwin/15.4.0',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DV' => [
         'ua' => 'Free-Podcasts/132 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DW' => [
         'ua' => 'Free-Podcasts/1.05 CFNetwork/609 Darwin/13.0.0',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DX' => [
         'ua' => 'TopPodcasts/261 CFNetwork/758.0.2 Darwin/15.0.0',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DY' => [
         'ua' => 'TopPodcastsPro/201 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-DZ' => [
         'ua' => 'TopPodcasts/2.1.4 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EA' => [
         'ua' => 'Podcasts/2.2',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EB' => [
         'ua' => 'Podcasts/1.4.113',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EC' => [
         'ua' => 'Peapod/pre1.0 +http://www.peapodpy.org.uk',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-ED' => [
         'ua' => 'Peapod/1.0 +http://www.peapodpy.org.uk',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EE' => [
         'ua' => 'podracer v1.4.1; GNU/Linux; x86_64',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EF' => [
         'ua' => 'Kinoma5',
@@ -7049,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EG' => [
         'ua' => 'QuickTime/7.6',
@@ -7102,6 +7235,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EH' => [
         'ua' => 'QuickTime.7.6.6',
@@ -7155,6 +7289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EI' => [
         'ua' => 'QuickNews/1.25',
@@ -7208,6 +7343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher',
@@ -7261,6 +7397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-993-EK' => [
         'ua' => 'DoggCatcher/1.2',
@@ -7314,5 +7451,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

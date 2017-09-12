@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-365-B' => [
         'ua' => 'Mozilla/5.0 (compatible; WebThumbnail/3.x; Website Thumbnail Generator; +http://webthumbnail.org)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-365-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; NGM Miracle Build/IMM76D) AppleWebKit/534.30 KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-D' => [
         'ua' => 'Lenovo-A880/S100 Linux/3.4.5 Android/4.2 Release/08.07.2013 Browser/AppleWebKit 534.30 Profile/ Configuration;',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-E' => [
         'ua' => 'Lenovo-A889/S100 Linux/3.4.5 Android/4.2 Release/08.07.2013 Browser/AppleWebKit 534.30 Profile/ Configuration;',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-F' => [
         'ua' => 'Lenovo A390_ROW:Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; Lenovo A390_ROW/S030) AppleWebKit534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-G' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; Videocon_A15) U2/1.0.0 UCBrowser/9.2.0.419 Mobile',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-365-H' => [
         'ua' => 'Season/V2 Linux/3.0.13 Android/4.0 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-I' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Webglance/0.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-365-J' => [
         'ua' => 'Mozilla/5.0(iPad; U; CPU OS 5_0 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F191 Safari/6533.18.5',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-365-K' => [
         'ua' => 'HTC_DesireS_S510e_Mozilla/5.0(Linux; U; Android 2.3.3;it-it; Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-L' => [
         'ua' => 'I9300 Linux/3.0.13 Android/4.1.9 Release/07.06.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-365-M' => [
         'ua' => 'LG-KS20/TIM/V10b Browser/IEMobile/7.6 MMS/LG-MMS-WINCE-V1.0/1.2 Java/LGVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88/31/444',
@@ -689,5 +701,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

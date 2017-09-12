@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-B' => [
         'ua' => 'Opera/5.11 (X11; U; bg)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-C' => [
         'ua' => 'Opera/8.50 (X11; U; da)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-E' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Boxee/1.0.1 bxapi/7.1',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-F' => [
         'ua' => 'CELKON.C329.X18_MAUI WAP Browser',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-G' => [
         'ua' => 'LAVA.ARC One.Maui Browser',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-H' => [
         'ua' => 'LAVA.KKT40 POWER.Maui Browser',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-I' => [
         'ua' => 'Maui Browser',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-J' => [
         'ua' => 'SYM_B46i_Maui Browser UNTRUSTED/1.0',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-K' => [
         'ua' => 'ZEN M72_MAUI WAP Browser',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-L' => [
         'ua' => 'ZEN M9 Mini/MAUI WAP Browser',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-M' => [
         'ua' => 'ZEN X20/MAUI WAP Browser',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) angular-template/1.2.8 Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Start/52.0.2743.98 Chrome/52.0.2743.98 Mobile Safari/537.36',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-P' => [
         'ua' => 'Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-Q' => [
         'ua' => 'Sundance/4.8.0.0 (Compatible; Windows; U; en-US)Version/ 4.8.0.0',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-R' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ) Sundance/0.9x',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Downloader/1410 MyComGameCenter/141 Safari/537.36',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1378-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Ubuntu 15.04 like Android 4.4) AppleWebKit/537.36 Chromium/55.0.2883.75 Mobile Safari/537.36',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1378-U' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.120 Chrome/15.0.874.120 Safari/535.2',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1378-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Ubuntu 14.04 like Android 4.4) AppleWebKit/537.36 Chromium/35.0.1870.2 Mobile Safari/537.36',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1378-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Ubuntu 15.04 like Android 4.4) AppleWebKit/537.36 Chromium/53.0.2785.143 Mobile Safari/537.36',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1378-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Ubuntu 15.04 like Android 4.4) AppleWebKit/537.36 Chromium/51.0.2704.79 Mobile Safari/537.36',
@@ -1219,5 +1241,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

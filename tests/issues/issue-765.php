@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-765-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; A3-A11 Build/KOT49H) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [Pinterest/Android]',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A525 [Pinterest/iOS]',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-765-E' => [
         'ua' => 'Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-F' => [
         'ua' => 'Pinterest for Android Tablet/4.3.1 (A7600-H; 4.4.2)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-G' => [
         'ua' => 'Pinterest for Android/1.1.1 (endeavoru; 4.1.1)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-H' => [
         'ua' => 'Pinterest for Android/3.6.2 (klte; 4.4.2)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-I' => [
         'ua' => 'Pinterest/0.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-K' => [
         'ua' => 'Pinterest/3.2 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-L' => [
         'ua' => 'Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-765-M' => [
         'ua' => 'Pinterest/3356 CFNetwork/711.0.6 Darwin/14.0.0',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-765-N' => [
         'ua' => 'Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -689,5 +701,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

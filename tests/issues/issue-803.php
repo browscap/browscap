@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-803-B' => [
         'ua' => 'Instagram 7.8.0 (iPhone5,3; iPhone OS 9_0_2; en_US; en-US; scale=2.00; 640x1136) AppleWebKit/420+',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-803-C' => [
         'ua' => 'Mozilla/5.0 (Android 4.1.2; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
@@ -157,7 +159,8 @@ return [
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

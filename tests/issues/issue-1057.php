@@ -51,8 +51,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1057-B' => [
         'ua' => 'Mozilla/5.1 (Linux; U; Android 5.1; es-cl; Bmobile_AX810 Build/ JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1057-C' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.2;ru-ru;MTC 982 Build/JDQ39) AppleWebKit/534.30(KHTML,like Gecko) Version/4.2 Mobile Safari/534.30 SVN/160HVG1',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

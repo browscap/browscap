@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; G4S Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 320dpi; 720x1280; alps/JIAYU; G4S; S8; mt6592; cs_CZ)',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Infinix X507 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 10.7.0 Android (19/4.4.2; 240dpi; 854x480; Infinix; Infinix X507; Infinix_X507; mt6582; en_US)',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; VS880 Build/KOT49I.VS88012A) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 10.9.0 Android (19/4.4.2; 320dpi; 720x1200; LGE/lge; VS880; x10; x10; en_US)',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Instagram 10.3.0 (iPad5,1; iOS 10_0; ar_SA@calendar=gregorian; ar-SA; scale=2.00; gamut=normal; 640x960)',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72 Instagram 10.11.0 (iPhone8,1; iOS 10_1; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 10.0.1 (iPhone8,2; iOS 10_2; ar_SA@calendar=gregorian; ar-SA; scale=2.61; 1080x1920)',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Mobile/14E5239e Instagram 10.8.0 (iPhone7,2; iOS 10_3; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 Instagram 7.4.0 (iPhone6,1; iPhone OS 8_0_2; en_US; en)',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 Instagram 10.4.0 (iPhone7,2; iPhone OS 8_1; en_US; en; scale=2.00; gamut=normal; 750x1334)',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Instagram 10.7.0 (iPhone6,2; iPhone OS 8_4_1; he_US; he; scale=2.00; gamut=normal; 640x1136)',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Instagram 10.3.0 (iPhone5,4; iPhone OS 9_1; nl_BE; nl-BE; scale=2.00; gamut=normal; 640x1136)',
@@ -635,7 +646,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 Instagram 7.9.0 (iPhone5,3; iPhone OS 9_2_1; en_US; en-US; scale=2.00; 640x1136)',
@@ -688,7 +700,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E238 Instagram 10.3.0 (iPhone6,2; iPhone OS 9_3_1; de_AT; de-AT; scale=2.00; gamut=normal; 640x1136)',
@@ -741,7 +754,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1307-O' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 10.12.0 (iPod7,1; iOS 10_1_1; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-P' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 10.3.0 (iPod7,1; iOS 10_2; ar_SA@calendar=gregorian; ar-SA; scale=2.00; gamut=normal; 640x1136)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-Q' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 Instagram 10.11.0 (iPod5,1; iPhone OS 8_3; en_US; en; scale=2.00; gamut=normal; 640x1136)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-R' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Instagram 10.13.0 (iPod5,1; iPhone OS 9_3_5; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 Instagram 10.0.1 Android (21/5.0.1; 480dpi; 1080x1920; samsung; GT-I9500; ja3g; universal5410; ar_AE)',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.8.0 Android (21/5.0.1; 480dpi; 1080x1920; samsung; GT-I9505; jflte; qcom; en_GB)',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LG-D856 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 Instagram 10.0.1 Android (21/5.0.1; 640dpi; 1440x2392; LGE/lge; LG-D856; g3; g3; ar_EG)',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LG-H440AR Build/LRX21Y; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 Instagram 10.8.0 Android (21/5.0.1; 320dpi; 720x1184; LGE/lge; LG-H440AR; c70; c70; es_AR)',
@@ -1165,7 +1186,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG-SM-N910A Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.8.0 Android (21/5.0.1; 640dpi; 1440x2560; samsung; SAMSUNG-SM-N910A; trlteatt; qcom; en_US)',
@@ -1218,7 +1240,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; HTC Desire EYE Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.10.0 Android (21/5.0.2; 480dpi; 1080x1776; HTC/htc; HTC Desire EYE; htc_eyeul; qcom; en_GB)',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; HTC_E9pw Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.11.0 Android (21/5.0.2; 640dpi; 1440x2368; HTC/htc; HTC_E9pw; htc_a55ml_dtul; mt6795; en_US)',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G530FZ Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.10.0 Android (21/5.0.2; 240dpi; 540x960; samsung; SM-G530FZ; grandprimelte; qcom; fr_FR)',
@@ -1377,7 +1402,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G530H Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 Instagram 9.2.5 Android (21/5.0.2; 240dpi; 540x960; samsung; SM-G530H; fortunave3g; qcom; ar_AE)',
@@ -1430,7 +1456,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G850F Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.10.0 Android (21/5.0.2; 320dpi; 720x1280; samsung; SM-G850F; slte; universal5430; ar_AE)',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G850W Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (21/5.0.2; 320dpi; 720x1280; samsung; SM-G850W; sltecan; qcom; en_CA)',
@@ -1536,7 +1564,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (21/5.0; 480dpi; 1080x1920; samsung; SM-G900P; kltespr; qcom; en_US)',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900 Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.7.0 Android (21/5.0; 480dpi; 1080x1920; samsung; SM-N900; ha3g; universal5420; ar_AE)',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N9005 Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.7.0 Android (21/5.0; 480dpi; 1080x1920; samsung; SM-N9005; hlte; qcom; en_GB)',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Coolpad 3622A Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 Instagram 10.8.0 Android (22/5.1.1; 240dpi; 480x854; Coolpad; Coolpad 3622A; cp3622a; qcom; en_US)',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; D6603 Build/23.4.A.1.264; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.10.0 Android (22/5.1.1; 480dpi; 1080x1776; Sony; D6603; D6603; qcom; en_GB)',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-K330 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 Instagram 10.13.0 Android (22/5.1.1; 240dpi; 480x782; LGE/lge; LG-K330; m1; m1; en_US)',
@@ -1854,7 +1888,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGMS330 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 Instagram 8.3.0 Android (22/5.1.1; 240dpi; 480x782; LGE/MetroPCS; LGMS330; m1; m1; en_US)',
@@ -1907,7 +1942,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGMS631 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.4.0 Android (22/5.1.1; 320dpi; 720x1200; LGE/MetroPCS; LGMS631; g4stylusn; g4stylusn; en_US)',
@@ -1960,7 +1996,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; MI 4S Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 9.2.5 Android (22/5.1.1; 480dpi; 1080x1920; Xiaomi; MI 4S; aqua; qcom; ru_RU)',
@@ -2013,7 +2050,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G928A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (22/5.1.1; 560dpi; 1440x2560; samsung; SM-G928A; zenlteatt; samsungexynos7420; sq_AL)',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A710F Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.13.0 Android (22/5.1.1; 480dpi; 1080x1920; samsung; SM-A710F; a7xelte; samsungexynos7580; ar_AE)',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-E700F Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.10.0 Android (22/5.1.1; 320dpi; 720x1280; samsung; SM-E700F; e7lte; qcom; ar_AE)',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G531F Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.9.0 Android (22/5.1.1; 240dpi; 540x960; samsung; SM-G531F; grandprimevelte; pxa1908; ar_AE)',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G531H Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.11.0 Android (22/5.1.1; 240dpi; 540x960; samsung; SM-G531H; grandprimeve3g; sc8830; ar_AE)',
@@ -2278,7 +2320,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G800F Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (22/5.1.1; 320dpi; 720x1280; samsung; SM-G800F; kminilte; universal3470; fr_BE)',
@@ -2331,7 +2374,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J110M Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.6.0 Android (22/5.1.1; 240dpi; 480x800; samsung; SM-J110M; j1acelteltn; pxa1908; en_US)',
@@ -2384,7 +2428,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J200H Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.8.0 Android (22/5.1.1; 240dpi; 540x960; samsung; SM-J200H; j23g; sc8830; fr_FR)',
@@ -2437,7 +2482,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J320H Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 Instagram 10.8.0 Android (22/5.1.1; 320dpi; 720x1280; samsung; SM-J320H; j3x3g; sc8830; ar_AE)',
@@ -2490,7 +2536,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J700M Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.4.0 Android (22/5.1.1; 320dpi; 720x1280; samsung; SM-J700M; j7elte; samsungexynos7580; es_US)',
@@ -2543,7 +2590,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-N910H Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.7.0 Android (22/5.1.1; 640dpi; 1440x2560; samsung; SM-N910H; tre3g; universal5433; en_US)',
@@ -2596,7 +2644,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.8.0 Android (22/5.1; 320dpi; 720x1280; OPPO; A1601; A1601; mt6755; en_GB)',
@@ -2649,7 +2698,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L21 Build/HUAWEICUN-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 Instagram 10.12.0 Android (22/5.1; 320dpi; 720x1184; HUAWEI; HUAWEI CUN-L21; HWCUN-L6735; mt6735; ar_BH)',
@@ -2702,7 +2752,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-AZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; IP7 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Instagram 10.7.0 Android (22/5.1; 320dpi; 720x1184; HOTWAV; IP7; k15_v8_2_hotwav_64_8; sc7731; ar_EG)',
@@ -2755,7 +2806,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; iris 600 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (22/5.1; 240dpi; 480x854; LAVA; iris 600; lava72_sp51; mt6572; en_GB)',
@@ -2808,7 +2860,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Lenovo S1La40 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Instagram 10.9.0 Android (22/5.1; 480dpi; 1080x1920; LENOVO/Lenovo; Lenovo S1La40; S1La40; mt6735; en_US)',
@@ -2861,7 +2914,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; M3s Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.117 Mobile Safari/537.36 Instagram 10.13.0 Android (22/5.1; 320dpi; 720x1280; Meizu; M3s; M3s; mt6755; ru_RU)',
@@ -2914,7 +2968,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Instagram 9.1.0 Android (19/4.4.2; 160dpi; 1280x800; samsung; GT-P5200; santos103g; santos103g; ar_AE)',
@@ -2967,7 +3022,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini 2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.5.1 Android (19/4.4.2; 320dpi; 720x1184; HTC/htc; HTC One mini 2; htc_memul; qcom; en_GB)',
@@ -3020,7 +3076,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC One mini Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.4.0 Android (19/4.4.2; 320dpi; 720x1280; HTC/htc; HTC One mini; htc_m4; m4; en_GB)',
@@ -3073,7 +3130,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.4.0 Android (19/4.4.2; 320dpi; 720x1184; HUAWEI/Huawei; HUAWEI P6-U06; hwp6-u06; k3v2oem1; en_CA)',
@@ -3126,7 +3184,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.2.0 Android (19/4.4.2; 240dpi; 480x800; LENOVO/Lenovo; Lenovo A319; A319; mt6572; en_US)',
@@ -3179,7 +3238,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.3.0 Android (19/4.4.2; 240dpi; 480x854; LENOVO/Lenovo; Lenovo A328; A328; mt6582; uk_UA)',
@@ -3232,7 +3292,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A358t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 240dpi; 480x854; LENOVO/Lenovo; Lenovo A358t; A358t; mt6582; en_US)',
@@ -3285,7 +3346,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.2.0 Android (19/4.4.2; 320dpi; 720x1280; LENOVO/Lenovo; Lenovo A5000; A5000; mt6582; en_US)',
@@ -3338,7 +3400,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.1.0 Android (19/4.4.2; 240dpi; 480x854; LENOVO/Lenovo; Lenovo A536; A536; mt6582; ru_RU)',
@@ -3391,7 +3454,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Instagram 8.3.0 Android (19/4.4.2; 213dpi; 1280x736; Lenovo; Lenovo A5500-F; A5500-F; mt8121; en_GB)',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 213dpi; 800x1216; Lenovo; Lenovo A5500-H; A5500-H; mt8382; it_IT)',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 213dpi; 800x1216; Lenovo; Lenovo A5500-HV; A5500-HV; mt8382; vi_VN)',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 160dpi; 800x1232; Lenovo; Lenovo A7600-H; A7600-H; mt8382; ru_RU)',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A806 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 8.4.0 Android (19/4.4.2; 320dpi; 720x1280; LENOVO/Lenovo; Lenovo A806; A806; mt6592; en_US)',
@@ -3656,7 +3724,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A916 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 320dpi; 720x1280; Lenovo; Lenovo A916; A916; mt6592; en_GB)',
@@ -3709,7 +3778,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Vodafone Smart Tab 3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 9.2.5 Android (19/4.4.2; 160dpi; 540x912; Vodafone; Vodafone Smart Tab 3G; Vodafone_Smart_Tab_3G; mt8312; en_GB)',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A6000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Instagram 10.0.1 Android (19/4.4.4; 320dpi; 720x1280; LENOVO/Lenovo; Lenovo A6000; Kraft-A6000; qcom; ru_RU)',
@@ -3815,7 +3886,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Vodafone Smart Tab 4G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36 Instagram 10.3.2 Android (19/4.4.4; 213dpi; 800x1216; Vodafone; Vodafone Smart Tab 4G; Vodafone_Smart_Tab_4G; qcom; de_DE)',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Lenovo A7000-a Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 Instagram 9.2.0 Android (21/5.0.2; 480dpi; 1080x1920; LENOVO/Lenovo; Lenovo A7000-a; A7000plus; mt6752; en_US)',
@@ -3921,7 +3994,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 Instagram 8.2.0 Android (21/5.0; 480dpi; 1080x1920; asus; ASUS_Z00AD; Z00A_1; mofd_v1; en_US)',
@@ -3974,7 +4048,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1307-BX' => [
         'ua' => 'Mozilla/5.0 (osmeta like iPhone; U; osmeta 8.3.46377481; RM-1045_1069) AppleWebKit/602.1.1 (KHTML, like Gecko) Mobile/46377481 Instagram 10.1.0 (Windows Phone; osmeta/Windows Phone 8_3_46377481; en-US_SA; en-US; scale=3.00; 1080x1920)',
@@ -4028,5 +4103,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

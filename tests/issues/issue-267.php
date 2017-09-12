@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-B' => [
         'ua' => 'CheckSite Verification Agent (+http://www.checksite.us)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-C' => [
         'ua' => 'CybEye.com/2.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/4.0; GTB6.4)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-D' => [
         'ua' => 'Dolphin http client/10.3.0(280) (Android)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-E' => [
         'ua' => 'Experibot_v1 (https://dl.dropboxusercontent.com/u/8024465/site/Info.html)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-F' => [
         'ua' => 'FeedBlitz/1.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-G' => [
         'ua' => 'FeeddlerRSS 2.4 (iPad; iPhone OS 7.1; en_GB)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-H' => [
         'ua' => 'FeedForAll rss2html.php v2',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-I' => [
         'ua' => 'FeedlyApp/1.0 (http://www.feedly.com)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-J' => [
         'ua' => 'GarlikCrawler/1.2 (http://garlik.com/, crawler@garlik.com)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-K' => [
         'ua' => 'Genderanalyzer/1.0',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-L' => [
         'ua' => 'gooblog/2.0 (http://help.goo.ne.jp/contact/)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-M' => [
         'ua' => 'MetaGeneratorCrawler/1.3.4 (www.metagenerator.info)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-N' => [
         'ua' => 'Microsoft Office Mobile/15.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-O' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; .NET CLR 2.0.50727;)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-P' => [
         'ua' => 'Mozilla/5.0 (compatible; LoadTimeBot/0.9; +http://www.loadtime.net/bot.html)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; Scrubby/3.2; +http://seotools.scrubtheweb.com/webpage-analyzer.html)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-R' => [
         'ua' => 'Mozilla/5.0 (compatible; Squzer/0.0.1; +http://www.declum.com/)',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-S' => [
         'ua' => 'Mozilla/5.0 (lbot/2.6.4) (lbot@mailme.not)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-T' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; de-de; Sony Tablet P Build/THMD01900) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-267-U' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFSOWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.15 Safari/535.19 Silk-Accelerated=true',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-V' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.15 Safari/535.19 Silk-Accelerated=true',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-W' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.8.0.11) Firefox/1.5.0.11;',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-X' => [
         'ua' => 'Tumblr/14.0.835.186',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-Y' => [
         'ua' => 'W3C_I18n-Checker/1.0 (http://validator.w3.org/services)',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-Z' => [
         'ua' => 'W3C_Unicorn/1.0 (http://validator.w3.org/services)',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AA' => [
         'ua' => 'WDG_Validator/1.6.5',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AB' => [
         'ua' => 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AC' => [
         'ua' => 'Mozilla/5.0 (compatible; EasouSpider; +http://www.easou.com/search/spider.html)',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AD' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0; en-US; bot@infegy.com)',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AE' => [
         'ua' => 'Alltop/1.1',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AF' => [
         'ua' => 'InternetSeer.com',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AG' => [
         'ua' => 'Pinterest/0.1 +http://pinterest.com/',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AH' => [
         'ua' => 'Mozilla/4.0 (compatible; Synapse)',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; 125LA; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AJ' => [
         'ua' => 'Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/about/bots/)',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AK' => [
         'ua' => 'Mozilla/5.0 (compatible; coccoc/1.0; +http://help.coccoc.com/)',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AL' => [
         'ua' => 'ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AM' => [
         'ua' => 'UniversalFeedParser/5.1.3 +https://code.google.com/p/feedparser/',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AN' => [
         'ua' => 'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AO' => [
         'ua' => 'binlar_2.6.3 test@mgmt.mic',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AP' => [
         'ua' => 'UnityPlayer/4.3.2f1 (http://unity3d.com)',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AQ' => [
         'ua' => 'Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/bots/)',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; fr-fr; Desire_A8181 Build/FRF91) App3leWebKit/53.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AS' => [
         'ua' => 'WeSEE:Search/0.1 (Alpha, http://www.wesee.com/en/support/bot/)',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AT' => [
         'ua' => 'A6-Indexer/1.0 (http://www.a6corp.com/a6-web-scraping-policy/)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AU' => [
         'ua' => 'NerdyBot',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AV' => [
         'ua' => 'Mozilla/5.0 (compatible; SemrushBot/0.97sa; +http://www.semrush.com/bot.html)',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AW' => [
         'ua' => 'Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AX' => [
         'ua' => 'Peeplo Screenshot Bot/0.20 ( abuse at peeplo dot_com )',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AY' => [
         'ua' => 'CCBot/2.0 (http://commoncrawl.org/faq/)',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-AZ' => [
         'ua' => 'visionutils/0.2',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BA' => [
         'ua' => 'Mozilla/5.0 (compatible; SemrushBot/0.97; +http://www.semrush.com/bot.html)',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BB' => [
         'ua' => 'Mozilla/5.0 (compatible; IstellaBot/1.18.81 +http://www.tiscali.it/)',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BC' => [
         'ua' => 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.2',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BE' => [
         'ua' => 'FeedBlitz/1.0 (1 subscribers)',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BF' => [
         'ua' => 'ScreenerBot Crawler Beta 2.0 (+http://www.ScreenerBot.com)',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko, Google-Publisher-Plugin) Chrome/27.0.1453 Safari/537.36',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-267-BH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http://tab.search.daum.net/aboutWebSearch.html) Daumoa/3.0',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BJ' => [
         'ua' => 'Photon/1.0',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BK' => [
         'ua' => 'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BL' => [
         'ua' => 'Mozilla/5.0 (compatible; Apercite; +http://www.apercite.fr/robot/index.html)',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BM' => [
         'ua' => 'LSSRocketCrawler/1.0 LightspeedSystems',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BN' => [
         'ua' => 'Mozilla/5.0 (compatible; XML Sitemaps Generator; http://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BO' => [
         'ua' => 'Aboundex/0.3 (http://www.aboundex.com/crawler/)',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BP' => [
         'ua' => 'Mozilla/5.0 (compatible; URLAppendBot/1.0; +http://www.profound.net/urlappendbot.html)',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BQ' => [
         'ua' => 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BR' => [
         'ua' => 'Mozilla/5.0 (compatible; PiplBot;  http://www.pipl.com/bot/)',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BS' => [
         'ua' => 'Mozilla/5.0 (compatible; Add Catalog/2.1;)',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BT' => [
         'ua' => 'Mozilla/5.0 Moreover/5.1 (+http://www.moreover.com; webmaster@moreover.com)',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BU' => [
         'ua' => 'Mozilla/5.0 (compatible; LinkpadBot/1.06; +http://www.linkpad.ru)',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BW' => [
         'ua' => 'Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spider.html)',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; )  Firefox/1.5.0.11; 360Spider',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BY' => [
         'ua' => 'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://SiteExplorer.Info/)',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-BZ' => [
         'ua' => 'Mozilla/5.0 (compatible; Lipperhey SEO Service; http://www.lipperhey.com/)',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent',
@@ -4080,7 +4156,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-267-CB' => [
         'ua' => 'Mozilla/4.0 (compatible; Blog Search;)',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CC' => [
         'ua' => 'YisouSpider',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CD' => [
         'ua' => 'Mozilla/3.0 (x86 [en] Windows NT 5.1; Sun)',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CE' => [
         'ua' => 'hivaBot(http://gorgor.ir and info@gorgor.ir)/hivaBot-0.2',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CF' => [
         'ua' => 'WeSEE:Search/0.1 (Alpha, http://www.wesee.com/bot/)',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CG' => [
         'ua' => 'Mozilla/5.0 (compatible; Qualidator.com Bot 1.0;)',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko)',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-267-CI' => [
         'ua' => 'Mozilla/5.0 (en-us) AppleWebKit/537.36 (KHTML, like Gecko; Google PP Default) Chrome/27.0.1453 Safari/537.36',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CJ' => [
         'ua' => 'Mozilla/5.0 (compatible; fr-crawler/1.1)',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.2.19) Gecko WebThumb/1.0',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CL' => [
         'ua' => 'Comodo Spider 1.2',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.16 Safari/535.19 Silk-Accelerated=true',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.19 (KHTML,         like Gecko) Chrome/18.0.1025.45 Safari/535.19',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-267-CQ' => [
         'ua' => 'Wada.vn Vietnamese Search',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CR' => [
         'ua' => 'Aboundex/0.2 (http://www.aboundex.com/crawler/)',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) KomodiaBot/1.0',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Qt/4.6.3 Safari/532.4',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CW' => [
         'ua' => 'Mozilla / reddit pic scraper v0.8 (bklug@tyx.net)',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CX' => [
         'ua' => 'Mozilla/5.0 (compatible; GroupHigh/1.0; +http://www.grouphigh.com/bot.html)',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CY' => [
         'ua' => 'Mozilla/4.0 (compatible- MSIE 6.0- Windows NT 5.1- SV1- .NET CLR 1.1.4322',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-CZ' => [
         'ua' => 'AntBot/1.0 (http://www.ant.com)',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DA' => [
         'ua' => 'Mozilla/5.0 (compatible; theoldreader.com; 1 subscribers; feed-id=51413de5bd9279ea5002d75b)',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DE' => [
         'ua' => 'Mozilla/5.0 (compatible; Google-Site-Verification/1.0)',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-267-DH' => [
         'ua' => 'hivaBot/hivaBot-0.2 (info@gorgor.ir)',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DI' => [
         'ua' => 'binlar_2.6.3 (test@mgmt.mic)',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DJ' => [
         'ua' => 'ZumBot/1.0 (ZUM Search; http://help.zum.com/inquiry)',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DK' => [
         'ua' => 'Opera/9.80 (MAUI Runtime; Opera Mini/6.1.27412/34.1853; U; en) Presto/2.8.119 Version/11.10',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DL' => [
         'ua' => 'OpenWebSpider v0.1.4 (http://www.openwebspider.org/)',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DM' => [
         'ua' => 'Mozilla/5.0 (compatible; TweetmemeBot/3.0; +http://tweetmeme.com/)',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DN' => [
         'ua' => '\'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)\'',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DO' => [
         'ua' => 'Mozilla/5.0 (compatible; EveryoneSocialBot/1.0; support@everyonesocial.com http://everyonesocial.com/)',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DP' => [
         'ua' => 'R6_CommentReader(www.radian6.com/crawler)',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DQ' => [
         'ua' => 'Mozilla/5.0 (compatible; Prlog/1.0; +http://prlog.ru/)',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DR' => [
         'ua' => 'Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DS' => [
         'ua' => 'PagesInventory (robot http://www.pagesinventory.com)',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DT' => [
         'ua' => 'Mozilla/5.0 (lbot/2.6.4) lbot@mailme.not',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DU' => [
         'ua' => 'Mozilla/5.0 (compatible; SeznamBot/3.2-test1; +http://fulltext.sblog.cz/)',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DV' => [
         'ua' => 'Mozilla/4.0 (CMS Crawler: http://www.cmscrawler.com)',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DW' => [
         'ua' => 'psbot-image (+http://www.picsearch.com/bot.html)',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DX' => [
         'ua' => 'PagesInventory (robot http://www.pagesinvenotry.com)',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-DZ' => [
         'ua' => 'Bloglovin/1.0 (http://www.bloglovin.com; 0 subscribers)',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EA' => [
         'ua' => 'viralvideochart.unrulymedia.com',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EB' => [
         'ua' => 'Mozilla/5.0 (compatible; pmoz.info ODP link checker; +http://pmoz.info/doc/botinfo.htm)',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EC' => [
         'ua' => 'MetaHeadersBot (+http://www.metaheaders.com/bot.html)',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-ED' => [
         'ua' => 'PagesInventory (robot +http://www.pagesinventory.com)',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EE' => [
         'ua' => 'Mozilla/5.0 (compatible; Twingly Recon; twingly.com)',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EF' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like Gecko',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-267-EG' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like Gecko',
@@ -6837,5 +6965,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

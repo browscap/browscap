@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-B' => [
         'ua' => 'Mozilla/5.0 (Android 5.1.1; SM-J700M Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 NTENTBrowser/3.0.0.100 (CellularOne-US) Mobile Safari/537.36',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-C' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; EPIC F50G Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 NTENTBrowser/3.0.0.108 (CellularOne-US) Mobile Safari/537.36',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-D' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; U613 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.113 NTENTBrowser/2.6.0.346 (CellularOne-US) Mobile Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-E' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; U613 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 NTENTBrowser/3.0.0.108 (CellularOne-US) Mobile Safari/537.36',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-F' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; SM-G935F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 NTENTBrowser/3.0.0.108 (CellularOne-US) Mobile Safari/537.36',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-G' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; EPIC F50G Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/1.0.0.547 (CellularOne-US) Mobile Safari/537.36',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-H' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; U613 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/1.0.0.547 (CellularOne-US) Mobile Safari/537.36',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-I' => [
         'ua' => 'Mozilla/5.0 (Android 5.1; U613 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/2.0.0.56 (CellularOne-US) Mobile Safari/537.36',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-J' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; SM-G935F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/2.0.0.54 (CellularOne-US) Mobile Safari/537.36',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1371-K' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; SM-J510MN Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/1.0.0.547 (CellularOne-US) Mobile Safari/537.36',
@@ -583,5 +593,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -23,6 +23,23 @@ use Browscap\Writer\WriterInterface;
 class FullFilter implements FilterInterface
 {
     /**
+     * @var \Browscap\Data\PropertyHolder
+     */
+    private $propertyHolder = null;
+
+    /**
+     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
+     */
+    public function __construct(PropertyHolder $propertyHolder = null)
+    {
+        if (null === $propertyHolder) {
+            $this->propertyHolder = new PropertyHolder();
+        } else {
+            $this->propertyHolder = $propertyHolder;
+        }
+    }
+
+    /**
      * returns the Type of the filter
      *
      * @return string
@@ -66,8 +83,6 @@ class FullFilter implements FilterInterface
      */
     public function isOutputProperty($property, WriterInterface $writer = null)
     {
-        $propertyHolder = new PropertyHolder();
-
-        return $propertyHolder->isOutputProperty($property, $writer);
+        return $this->propertyHolder->isOutputProperty($property, $writer);
     }
 }

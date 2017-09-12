@@ -130,10 +130,12 @@ class PropertyHolder
      * Determine if the specified property is an property that should
      * be included in the "full" versions of the files only
      *
-     * @param  string $propertyName
+     * @param string                           $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
      * @return bool
      */
-    public function isLiteModeProperty($propertyName)
+    public function isLiteModeProperty(string $propertyName, ?WriterInterface $writer = null) : bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -146,7 +148,19 @@ class PropertyHolder
             'Device_Type' => 1,
         ];
 
-        return isset($outputProperties[$propertyName]);
+        if (isset($outputProperties[$propertyName])) {
+            return true;
+        }
+
+        if (null !== $writer && $writer->getType() === 'ini') {
+            $additionalProperties = ['PatternId'];
+
+            if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**

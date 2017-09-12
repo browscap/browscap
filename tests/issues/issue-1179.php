@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1179-B' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; KDDI-TS3B) Opera 8.60 [ja]',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1179-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola A1000;735b) Opera 7.50 [en]./A1000./1.0 UP.Link/6.3.1.15.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1179-D' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola M1000;811) Opera 7.50 [ja]./M1000./1.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1179-E' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

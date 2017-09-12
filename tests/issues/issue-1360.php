@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-E' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:35.0) Gecko/20100101 Firefox/35.0',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-F' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-G' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:42.0) Gecko/20100101 Firefox/42.0',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-H' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-I' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1360-J' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -370,6 +376,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

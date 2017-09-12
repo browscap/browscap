@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-418-B' => [
         'ua' => 'Mozilla/5.0 (compatible; Abonti/0.92 - http://www.abonti.com)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-418-C' => [
         'ua' => 'GG PeekBot 2.0 ( http://gg.pl/ http://info.gadu-gadu.pl/praca )',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

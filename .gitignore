@@ -8,3 +8,6 @@ test*.txt
 /coverage
 coverage.json
 coverage.clover
+coverage-full.json
+coverage-standard.json
+coverage-lite.json

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MixrankBot; crawler@mixrank.com)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-C' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux; InfegyAtlas/1.0; en-US; collection@infegy.com)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-D' => [
         'ua' => 'Mozilla/5.0 (compatible; MojeekBot/0.6; +https://www.mojeek.com/bot.html)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.2) Firefox/3.5.2',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-F' => [
         'ua' => 'Mozilla/5.0 (compatible; memoryBot/1.20.235 +http://internetmemory.org/en/)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-G' => [
         'ua' => 'Icarus6j - (contact: phil@icarus6.com)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-H' => [
         'ua' => 'Mozilla/5.0 (compatible; DomainAppender /1.0; +http://www.profound.net/domainappender)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-I' => [
         'ua' => 'Mozilla/5.1 (compatible; MonoBot/1.0; +http://mono.name)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-J' => [
         'ua' => 'Mozilla/5.1 (compatible; GLBot/1.0; +http://galaxydownloads.co)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-K' => [
         'ua' => 'Mozilla/5.1 (compatible; DBot/7.0; +http://getdownload.ws)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-L' => [
         'ua' => 'ADmantX Platform Semantic Analyzer US Async - ADmantX Inc. - www.admantx.com - support@admantx.com',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-M' => [
         'ua' => 'Mozilla/5.1 (compatible; PWBot/1.0; +http://opendownload.pw)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-N' => [
         'ua' => 'Mozilla/5.1 (compatible; +5Bot/1.0; +http://plus5files.net)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-O' => [
         'ua' => 'Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-P' => [
         'ua' => 'Mozilla/5.0 (compatible; WASALive-Bot ; http://blog.wasalive.com/wasalive-bots/)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-Q' => [
         'ua' => 'wsr-agent/1.0',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-R' => [
         'ua' => 'Mozilla/5.0 (URLfilterDB-crawler/1.1) ufdb/1.0',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-S' => [
         'ua' => 'Mozilla/5.0 (compatible; OpenHoseBot/2.1; +http://www.openhose.org/bot.html)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-T' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;) Daumoa/4.0',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-U' => [
         'ua' => 'Blogshares Spiders (Renewed V1.65)',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-V' => [
         'ua' => 'TinEye-bot/0.02 (see http://www.tineye.com/crawler.html)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-W' => [
         'ua' => 'QuickiWiki/1.0 (http://www.quickiwiki.com; admin@quickiwiki.com) BasedOnNodeJs/0.10.23',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-X' => [
         'ua' => 'Mozilla/5.0 (compatible; metager2-verification-bot; +http://metager2.de/technology.php)',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-497-Y' => [
         'ua' => 'Mozilla/5.0 (compatible; DomainSigmaCrawler/0.1; +http://domainsigma.com/robot)',
@@ -1325,5 +1349,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

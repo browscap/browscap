@@ -28,6 +28,8 @@
 namespace BrowscapTest\Data;
 
 use Browscap\Data\PropertyHolder;
+use Browscap\Writer\CsvWriter;
+use Browscap\Writer\IniWriter;
 
 /**
  * Class PropertyHolderTest
@@ -189,6 +191,21 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    public function testIsLiteModePropertyWithWriter()
+    {
+        $mockWriter = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue('ini'));
+
+        self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
+    }
+
     /**
      * Data Provider for the test testIsStandardModeProperty
      *
@@ -261,7 +278,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsStandardModePropertyWithWriter()
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
             ->getMock();
@@ -350,7 +367,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputPropertyWithWriter()
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
             ->getMock();

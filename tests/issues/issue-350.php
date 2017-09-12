@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-350-B' => [
         'ua' => 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-350-C' => [
         'ua' => 'Mozilla/5.0 (compatible; AOLbot/4.0; +http://www.aol-soft.com/)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-350-D' => [
         'ua' => 'Go 1.1 package http',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-350-E' => [
         'ua' => 'Mozilla/5.0 (compatible; DomainSCAN/2.0; +http://domainscan.info/robot/)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-350-F' => [
         'ua' => 'Proxy Gear Pro/2.1 (Windows; N; Windows NT 6.1; en)',
@@ -318,5 +323,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

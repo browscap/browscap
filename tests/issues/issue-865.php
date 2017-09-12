@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-B' => [
         'ua' => 'Digg Deeper/v1 (http://digg.com/about)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Maxthon/4.5.1',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-D' => [
         'ua' => 'Blackboard Safeassign',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-E' => [
         'ua' => 'Mozilla/5.0 (compatible; +http://tweetedtimes.com)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-F' => [
         'ua' => 'Mozilla/5.0 (compatible; ExaleadCloudView/5;)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-G' => [
         'ua' => 'Typhoeus - https://github.com/typhoeus/typhoeus',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-H' => [
         'ua' => 'Microsoft Office Word 2013',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-I' => [
         'ua' => 'Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +http://developers.google.com/structured-data/testing-tool/)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-J' => [
         'ua' => 'Camo Asset Proxy 2.2.0',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-K' => [
         'ua' => 'YahooCacheSystem; YahooWebServiceClient',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-L' => [
         'ua' => 'Mozilla/5.0 (compatible; wmtips.com/1.0; +http://www.wmtips.com/tools/)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-M' => [
         'ua' => 'Mozilla/5.0 (compatible; linkCheckV3.0)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-N' => [
         'ua' => 'Mozilla/5.0 ;Windows NT 6.2; WOW64; rv:27.0; Gecko/20100101 Firefox/27.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-O' => [
         'ua' => 'Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-P' => [
         'ua' => 'Mozilla/5.0 (compatible; GWPImages/1.0)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-Q' => [
         'ua' => 'WEBDAV Client',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-R' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-S' => [
         'ua' => 'NoteTextView',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-T' => [
         'ua' => 'NING/1.0',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-U' => [
         'ua' => 'Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-V' => [
         'ua' => 'Mozilla/5.0 (X11; U;                                     Linux i686; en-US; rv:1.8.1.1)                                     Gecko/20061205 Iceweasel/2.0.0.1                                     (Debian-2.0.0.1+dfsg-2)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-W' => [
         'ua' => 'Sprinklr 2.0',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-X' => [
         'ua' => 'URLChecker',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-Y' => [
         'ua' => 'newsme/1.0; feedback@news.me',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-Z' => [
         'ua' => 'Traackr.com',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AA' => [
         'ua' => 'Kimengi/nineconnections.com',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AB' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 5.0;HUAWEI ALE-21/ALE-L21AUTC674B130)AppleWebKit/537.36 (KHTML, likeGecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36',
@@ -1482,8 +1509,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE8.0; Windows NT 6.0) .NET CLR 2.0.50727)',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AD' => [
         'ua' => 'node-superagent/1.4.0',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AE' => [
         'ua' => 'Goose/1.0.25',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AF' => [
         'ua' => 'KKT20/MIDP-2.0 Configuration/CLDC-1.1/Screen-240x320',
@@ -1695,7 +1726,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-AG' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.60 Safari/534.30',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-AH' => [
         'ua' => 'AHC/1.0',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AI' => [
         'ua' => 'newspaper/0.0.6',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AJ' => [
         'ua' => 'Hatena::Bookmark/2.00 (Hatena::Bookmark; master;)',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AK' => [
         'ua' => 'ALCATEL_TRIBE_3075A/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A',
@@ -1960,7 +1996,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-865-AL' => [
         'ua' => 'EasyBib AutoCite (http://content.easybib.com/autocite/)',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AO' => [
         'ua' => 'ShortLinkTranslate',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AP' => [
         'ua' => 'HubSpot Marketing Grader',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AQ' => [
         'ua' => 'Grammarly/1.0 (http://www.grammarly.com)',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML,like Gecko) Chrome/26.0.1410.65 Safari/537.31',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-AS' => [
         'ua' => 'Dispatch/0.11.1-SNAPSHOT',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AT' => [
         'ua' => 'Videocon_S351_Wap Browser',
@@ -2437,7 +2482,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-AU' => [
         'ua' => 'Raven Link Checker',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AV' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 SlimerJS/0.9.5',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AX' => [
         'ua' => 'http-kit/2.0',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AY' => [
         'ua' => 'sfFeedReader/0.9',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-AZ' => [
         'ua' => 'Opera/7.50 (Windows XP; U)',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-BA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-BB' => [
         'ua' => 'Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BC' => [
         'ua' => 'Twikle/1.0 , http://twikle.com , contact@twikle.com',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BD' => [
         'ua' => 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BE' => [
         'ua' => 'Mozilla/5.0 (Linux) LINE PagePoker',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; ru:1',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) BrokenLinkCheck.com/1.1',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 5.5; Windows NT 6.0)',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Q3; Android/4.4.2; Release/03.05.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BJ' => [
         'ua' => 'BCKLINKS 1.0',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BK' => [
         'ua' => 'Go-http-client/1.1',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BL' => [
         'ua' => 'Mozilla/5.0 (Windows; chromeframe/2.4.8.5746) AppleWebKit/1.0 (KHTML, like Gecko) Bromium Safari/1.0',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BM' => [
         'ua' => 'Faraday v0.9.2',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BN' => [
         'ua' => 'gettor/0.5',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BO' => [
         'ua' => 'SEOstats 2.1.0 https://github.com/eyecatchup/SEOstats',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T710 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BQ' => [
         'ua' => 'ZnajdzFoto/Image 2.0',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BR' => [
         'ua' => 'WordPress.com; https://positivecups.wordpress.com',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BS' => [
         'ua' => 'Microsoft Office/16.0 (Microsoft Outlook Mail 16.0.6310; Pro)',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BT' => [
         'ua' => 'Opera/9.80 (Tizen; Opera Mini/7.7.15/37.6897; U; en) Presto/2.12.423 Version/12.16',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BU' => [
         'ua' => 'infoX-WISG',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BV' => [
         'ua' => 'wscheck.com/1.0.0 (+http://wscheck.com/)',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BX' => [
         'ua' => 'Mozilla/5.0 Tweetminster',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BY' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.45.0 PHP/5.6.14',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-BZ' => [
         'ua' => 'Astute SRM',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CA' => [
         'ua' => 'LongURL API',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; itel_it1502; Android/4.4.2; Release/03.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CC' => [
         'ua' => 'Ruby/Curb',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CD' => [
         'ua' => '\'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36\'',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CE' => [
         'ua' => 'Mozilla/5.0 (compatible; alexa site audit/1.0; +http://www.alexa.com/help/webmasters; )',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CF' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.1; en_us; ZTE Grand X2 Build/JOP40D) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4344,8 +4425,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CG' => [
         'ua' => 'no-ua',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CH' => [
         'ua' => 'Trove (help@trove.com, http://www.trove.com)',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CI' => [
         'ua' => 'Melvil/1.0',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CJ' => [
         'ua' => 'Melvil Favicon/1.0 (Favicon fetcher for Melvil)',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CK' => [
         'ua' => 'Quora Link Preview/1.0 (http://www.quora.com)',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CL' => [
         'ua' => 'Pearltrees',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CM' => [
         'ua' => 'Ruby, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CN' => [
         'ua' => 'Svven-Summarizer',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CO' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 5.0; ZangoToolbar 7.8.58; MyIE2)',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-CP' => [
         'ua' => 'Athena Site Analyzer (bestsiteanalyzer.com)',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; AquaSense5.0; Android/4.4.2; Release/07.29.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; X1 Beats; Android/4.4.2; Release/01.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200GU Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CT' => [
         'ua' => 'Ruby, link_thumbnailer',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CU' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-CV' => [
         'ua' => 'Mozilla/5.0 (compatible; Exploratodo/1.0; +http://www.exploratodo.com',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Andi 4F ARC3; Android/4.4.2; Release/07.14.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/276742; Windows/6.3.9600 (Win64); Safari/536.5',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-CZ' => [
         'ua' => 'Mozilla/5.0 (X11;) Firefox/38.0',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64)',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DB' => [
         'ua' => 'AppleWebKit/525.13 (KHTML, like Gecko) Safari/525.13.',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DC' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.35.0 PHP/5.5.9-1ubuntu4.14',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DD' => [
         'ua' => 'WhatsApp',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DE' => [
         'ua' => 'Mozilla/5.0 (Android 3.2; en-us) AppleWebKit/1.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.1',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DF' => [
         'ua' => 'DDG-Android-3.0.11',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DG' => [
         'ua' => 'Mozilla/5.0 (compatible; WebCorp/5.0; +http://www.webcorp.org.uk)',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DH' => [
         'ua' => 'ROR Sitemap Generator (http://www.rorweb.com)',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1)',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DJ' => [
         'ua' => 'Mozilla/5.0 (compatible; XML Sitemaps Generator; https://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DK' => [
         'ua' => 'AuditMyPC Webmaster Tool',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DL' => [
         'ua' => 'XmlSitemapGenerator - http://xmlsitemapgenerator.org',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DM' => [
         'ua' => 'XmlSitemapGenerator - http://XmlSitemapGenerator.org',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DO' => [
         'ua' => 'LAVA.KKT22S/Dorado WAP-Browser/1.0.0',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DP' => [
         'ua' => 'newspaper/0.0.7',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; X1 atom; Android/4.4.2; Release/04.08.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DS' => [
         'ua' => 'Stratagems Kumo',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DT' => [
         'ua' => 'WordPress.com; http://fleurdelyz.com',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DU' => [
         'ua' => 'Spice QT-75',
@@ -6359,7 +6478,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/276742; Windows/10.0.10240 (Win64); Safari/536.5',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DW' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) Gecko Firefox/3.0.8',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DX' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://z-url.us)',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DY' => [
         'ua' => 'Embed PHP Library',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-DZ' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.127.211',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EA' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.176.193',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EB' => [
         'ua' => 'Mozilla/4.0 (compatible; Virtuoso)',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EC' => [
         'ua' => 'SPIP-3.0.20 (http://www.spip.net)',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-ED' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://xurl.co)',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EE' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://rutlink.info)',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EF' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.127.108',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EG' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://revmkt.in)',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EH' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://urlmicro.me)',
@@ -7049,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EI' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://2u4.us)',
@@ -7102,6 +7235,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EJ' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://vaiqui.com)',
@@ -7155,6 +7289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EK' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://ecra.se)',
@@ -7208,6 +7343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EL' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.0-1182; http://frndc.saschaschroeder.eu',
@@ -7261,6 +7397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EM' => [
         'ua' => 'Taproot (Guzzle) http://taprootproject.com',
@@ -7314,6 +7451,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EN' => [
         'ua' => 'MagpieRSS/0.72 \\(+http://magpierss.sf.net\\)',
@@ -7367,6 +7505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EO' => [
         'ua' => 'GentleSource Short URL Checker ( http://www.gentlesource.com/ )',
@@ -7420,6 +7559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EP' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://3uves.com)',
@@ -7473,6 +7613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EQ' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.vrbas.be/url)',
@@ -7526,6 +7667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-ER' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://mrk.im)',
@@ -7579,6 +7721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-ES' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://www.easylink.mobi)',
@@ -7632,6 +7775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-ET' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://pagn.info)',
@@ -7685,6 +7829,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EU' => [
         'ua' => 'YOURLS v1.0-rc +http://yourls.org/ (running on http://epi.my)',
@@ -7738,6 +7883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EV' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on http://bp7.org)',
@@ -7791,6 +7937,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EW' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://jmp.su)',
@@ -7844,6 +7991,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EX' => [
         'ua' => 'Short URL Checker ( http://www.kurld.com/ )',
@@ -7897,6 +8045,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EY' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on http://sresc.io)',
@@ -7950,6 +8099,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-EZ' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 95.215.52.150',
@@ -8003,6 +8153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FA' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 93.61.114.253',
@@ -8056,6 +8207,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FB' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://fhort.com)',
@@ -8109,6 +8261,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FC' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://shortr.at)',
@@ -8162,6 +8315,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FD' => [
         'ua' => 'webnumbrFetcher/1.0 (http://webnumbr.com/)',
@@ -8215,6 +8369,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FE' => [
         'ua' => 'vBulletin via PHP',
@@ -8268,6 +8423,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FF' => [
         'ua' => 'Mozilla/5.0 (GetLinkInfo.com - http://www.getlinkinfo.com)',
@@ -8321,6 +8477,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FG' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://u.vsil.org)',
@@ -8374,6 +8531,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FH' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.bv-xa.com)',
@@ -8427,6 +8585,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FI' => [
         'ua' => 'Slinky v1.0 +http://dentedreality.com.au/projects/slinky/',
@@ -8480,6 +8639,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FJ' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://mv2.me)',
@@ -8533,6 +8693,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FK' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://onj.me)',
@@ -8586,6 +8747,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FL' => [
         'ua' => 'ARC Reader (http://arc.semsol.org/)',
@@ -8639,6 +8801,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FM' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 108.62.195.142',
@@ -8692,6 +8855,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FN' => [
         'ua' => 'Friendica \'Ginger\' 3.3.1-1174; http://friendica.offerman.com',
@@ -8745,6 +8909,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FO' => [
         'ua' => 'Friendica',
@@ -8798,6 +8963,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FP' => [
         'ua' => 'Vinti/0.1',
@@ -8851,6 +9017,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FQ' => [
         'ua' => 'Mozilla/5.0 (compatible; Friendica)',
@@ -8904,6 +9071,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FR' => [
         'ua' => 'OpmlViewer network fetcher version 1.0.0.0',
@@ -8957,6 +9125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FS' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on https://ivyti.es)',
@@ -9010,6 +9179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FT' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://shelby.im)',
@@ -9063,6 +9233,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FU' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://jim-s.com)',
@@ -9116,6 +9287,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FV' => [
         'ua' => 'SPDYCheck SPDY Protocol Tester, see http://spdycheck.org/about.html',
@@ -9169,6 +9341,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FW' => [
         'ua' => 'Premium URL Shortener 4.0',
@@ -9222,6 +9395,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FX' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.0-1182; http://social.feder8.ru',
@@ -9275,6 +9449,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FY' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://myfriendica.net',
@@ -9328,6 +9503,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-FZ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.3-dev-1191; http://toktan.org',
@@ -9381,6 +9557,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T810 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
@@ -9434,6 +9611,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GB' => [
         'ua' => 'EBSCO EJS Content Server',
@@ -9487,6 +9665,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GC' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://linkcut.eu)',
@@ -9540,6 +9719,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GD' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://ezurl.me)',
@@ -9593,6 +9773,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GE' => [
         'ua' => 'asafaweb.com',
@@ -9646,6 +9827,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GF' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://friendika.openmindspace.org',
@@ -9699,6 +9881,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GG' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; http://mozartweg.dyndns.org/friendica',
@@ -9752,6 +9935,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GH' => [
         'ua' => 'Friendica \'Ginger\' 3.3.3-RC-1178; https://anthron.octans.uberspace.de/friendica',
@@ -9805,6 +9989,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34',
@@ -9858,6 +10043,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GJ' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://oerk.at)',
@@ -9911,6 +10097,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GK' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://rlink.eu)',
@@ -9964,6 +10151,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GL' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://clickand.co)',
@@ -10017,6 +10205,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GM' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://friends.tausys.de',
@@ -10070,6 +10259,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GN' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://tty.nu)',
@@ -10123,6 +10313,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GO' => [
         'ua' => 'Mozilla/4.0 (compatible; TURLValidator/1.0)',
@@ -10176,6 +10367,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GP' => [
         'ua' => 'HTTP Service',
@@ -10229,6 +10421,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GQ' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 108.62.151.31',
@@ -10282,6 +10475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GR' => [
         'ua' => 'Friendica \'Ginger\' 3.3.1-1174; http://ccc.serpens.uberspace.de',
@@ -10335,6 +10529,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GS' => [
         'ua' => 'Mozilla/4.0 (compatible; Globel; Traffic Sent From: http://addictive.me.uk)',
@@ -10388,6 +10583,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GT' => [
         'ua' => 'BlueDragon',
@@ -10441,6 +10637,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GU' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://sgfx.co)',
@@ -10494,6 +10691,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GV' => [
         'ua' => 'Mozilla/4.2 (compatible; MSIE 7.0; Windows NT 5.2; en-US)',
@@ -10547,6 +10745,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GW' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.h-link.de)',
@@ -10600,6 +10799,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GX' => [
         'ua' => 'Stewdio Windmaker 2.2',
@@ -10653,6 +10853,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GY' => [
         'ua' => 'raynette_httprequest/1.0',
@@ -10706,6 +10907,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-GZ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://karl.marx.pm',
@@ -10759,6 +10961,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HA' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://f.tschlotfeldt.de',
@@ -10812,6 +11015,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HB' => [
         'ua' => 'CATExplorador/1.0beta (sistemes at domini dot cat; http://domini.cat/catexplorador.html)',
@@ -10865,6 +11069,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HC' => [
         'ua' => 'aboutthedomain',
@@ -10918,6 +11123,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64)',
@@ -10971,6 +11177,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HE' => [
         'ua' => 'Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41',
@@ -11024,6 +11231,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-HF' => [
         'ua' => 'Ruby, Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6',
@@ -11077,6 +11285,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HG' => [
         'ua' => 'SAMSUNG-GT-I9100/100.40102',
@@ -11130,6 +11339,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HH' => [
         'ua' => 'www.deadlinkchecker.com XMLHTTP/1.0 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',
@@ -11183,6 +11393,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HI' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 23.19.188.134',
@@ -11236,6 +11447,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HJ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.3-dev-1191; https://friendica.xyz',
@@ -11289,6 +11501,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HK' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://u.i4x3.tk)',
@@ -11342,6 +11555,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HL' => [
         'ua' => 'Microsoft Office PowerPoint 2013',
@@ -11395,6 +11609,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HM' => [
         'ua' => 'WeSEE',
@@ -11448,6 +11663,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; WOW; Android/4.4.2; Release/02.02.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -11501,6 +11717,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HO' => [
         'ua' => 'Mozilla/5.0 (compatible; Sitemap Generator/1.3; +http://www.check-domains.com/sitemap/index.php)',
@@ -11554,6 +11771,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HP' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.38.0 PHP/7.0.0RC7',
@@ -11607,6 +11825,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HQ' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100',
@@ -11660,6 +11879,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-HR' => [
         'ua' => 'Mozilla/5.0(Windows; U; Windows NT 5.2; rv:1.9.2) Gecko/20100101 Firefox/3.6',
@@ -11713,6 +11933,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HS' => [
         'ua' => 'Leadify/1.01 Page Staleness Detector',
@@ -11766,6 +11987,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HT' => [
         'ua' => 'HubPages V0.2.2 (http://hubpages.com/help/crawlingpolicy)',
@@ -11819,6 +12041,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) kioclient/4.11.2 Safari/534.34',
@@ -11872,6 +12095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; PLAY Style; Android/4.4.2; Release/08.11.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -11925,6 +12149,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HW' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.2;pt;CCE SK352)/AppleWebKit534.30 Mobile Safari/534.30',
@@ -11978,6 +12203,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HX' => [
         'ua' => 'Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)',
@@ -12031,6 +12257,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HY' => [
         'ua' => 'Mozilla/5.0 Windows NT 6.1 WOW64 rv 9.0.1 Gecko/20100101 Firefox/9.0.1',
@@ -12084,6 +12311,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-HZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
@@ -12137,6 +12365,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; era; Android/4.4.2; Release/06.24.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -12190,6 +12419,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
@@ -12243,6 +12473,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9',
@@ -12296,6 +12527,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-ID' => [
         'ua' => 'Mozilla/5.0 (compatible; Macintosh; Intel Mac OS X 10_7_4)',
@@ -12349,6 +12581,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IE' => [
         'ua' => 'CakePHP',
@@ -12402,6 +12635,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IF' => [
         'ua' => 'Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; de) Presto/2.4.13 Version/10.00',
@@ -12455,6 +12689,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-IG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4)',
@@ -12508,6 +12743,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IH' => [
         'ua' => 'Page Analyzer v4.0 ( http://www.ranks.nl/ )',
@@ -12561,6 +12797,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-II' => [
         'ua' => 'Mozilla/4.0 (compatible; Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
@@ -12614,6 +12851,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/06.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -12667,6 +12905,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IK' => [
         'ua' => 'WordPress.com; https://ramaransonvsthecult.wordpress.com',
@@ -12720,6 +12959,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IL' => [
         'ua' => 'gpEasy RemoteGet',
@@ -12773,6 +13013,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; Infinix X510 Build/ AppleWebKit/534.30 (KHTML, like Gecko) Version/5.1 Mobile Safari/534.30;',
@@ -12824,8 +13065,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IN' => [
         'ua' => 'LAVA Spark284/MIDP-2.0 Configuration/CLDC-1.1/Screen-240x320',
@@ -12878,7 +13120,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-IO' => [
         'ua' => 'asynchttp',
@@ -12932,6 +13175,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Atom 2; Android/4.4.2; Release/07.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -12985,6 +13229,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IQ' => [
         'ua' => 'Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/v0.12.4',
@@ -13038,6 +13283,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IR' => [
         'ua' => 'WAP Browser Karbonn K52*/1.0.0',
@@ -13090,7 +13336,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-IS' => [
         'ua' => 'WebFuck V2.1 T0PHackTeam www.t0p.xyz',
@@ -13144,6 +13391,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IT' => [
         'ua' => 'Microsoft Office Word 2014',
@@ -13197,6 +13445,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko',
@@ -13250,6 +13499,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; 8_96_Android; Android/4.4.2; Release/07.30.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -13303,6 +13553,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/46.9.15.424 Chrome/46.0.2490.86 Safari/537.36',
@@ -13356,6 +13607,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IX' => [
         'ua' => 'Lemon B556',
@@ -13408,7 +13660,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-IY' => [
         'ua' => 'Casterly',
@@ -13462,6 +13715,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-IZ' => [
         'ua' => 'Mozilla/4.76 [en] (X11; U; FreeBSD 4.4-STABLE i386)',
@@ -13515,6 +13769,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JA' => [
         'ua' => 'TIANYU-KTOUCH/A930/Screen-240X320',
@@ -13567,7 +13822,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-JB' => [
         'ua' => 'WebClient/1.0',
@@ -13621,6 +13877,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JC' => [
         'ua' => 'greasemonkey &#8211; google images relinker (v 2.0)',
@@ -13674,6 +13931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II HD; Android/4.4.2; Release/04.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -13727,6 +13985,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JE' => [
         'ua' => 'Mozilla/5.0 (compatible; http://alyze.info)',
@@ -13780,6 +14039,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows 98; Dealio Toolbar 3.1.03)',
@@ -13833,6 +14093,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 6.1; InfoPath.2)',
@@ -13886,6 +14147,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 5.0; FDM; Zango 2.6.91; Zango 5.3.98)',
@@ -13938,7 +14200,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-865-JI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
@@ -13992,6 +14255,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JJ' => [
         'ua' => 'Apache OpenOffice/4.1.2',
@@ -14045,6 +14309,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/05.04.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -14098,6 +14363,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JL' => [
         'ua' => 'inboundli link checker',
@@ -14151,6 +14417,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JM' => [
         'ua' => 'inbound.li parser',
@@ -14204,6 +14471,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JN' => [
         'ua' => 'SoftMaker Fetch/1.0',
@@ -14257,6 +14525,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JO' => [
         'ua' => 'Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; like Android) AppleWebKit/538.1 (KHTML, like Gecko) Mobile Safari/538.1 (compatible)',
@@ -14310,6 +14579,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JP' => [
         'ua' => 'newspaper/0.0.9.8',
@@ -14363,6 +14633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
@@ -14416,6 +14687,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.8.12.389 Chrome/45.0.2454.93 Safari/537.36',
@@ -14469,6 +14741,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JS' => [
         'ua' => 'EasyBib AutoCite (http://autocite-info.citation-api.com/)',
@@ -14522,6 +14795,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JT' => [
         'ua' => 'SAMSUNG-SPH-L720/101.40402',
@@ -14575,6 +14849,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-865-JU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/xxx.x (KHTML like Gecko) Safari/12x.x',
@@ -14626,8 +14901,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JV' => [
         'ua' => 'WordPress.com; https://longboardrules.wordpress.com',
@@ -14681,6 +14957,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/277494; Windows/10.0.10240 (Win64); Safari/536.5',
@@ -14734,6 +15011,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JX' => [
         'ua' => 'Guzzle/4.2.3 curl/7.35.0 PHP/5.5.9-1ubuntu4.11',
@@ -14787,6 +15065,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JY' => [
         'ua' => 'UserAgent/1.0',
@@ -14840,6 +15119,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-JZ' => [
         'ua' => '\'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36\'',
@@ -14893,6 +15173,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-KA' => [
         'ua' => 'Mozilla/5.0 ( compatible ; Veooz/1.0 ; +http://www.veooz.com/veoozbot.html )',
@@ -14946,6 +15227,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-KB' => [
         'ua' => 'wonderbot/JS 1.0',
@@ -14999,6 +15281,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-KC' => [
         'ua' => 'WeSEE_Bot:we_help_monitize_your_site (http://www.wesee.com/bot/)',
@@ -15052,6 +15335,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-865-KD' => [
         'ua' => 'Mozilla/5.0 CommonCrawler Node MNATI3RZFBD6ZTQNRVQGXBDCQOEXIA4CIDEUKNYZDF3MJSH5G7BCQ5EMADE5TLF.MHCZ3LLTWGHIHMYLM.YFBJBHE6R2YQTHOTJ3N5BGFP457JRX4AJRXGAJYGDAANRY24.cdn0.common.crawl.zone',
@@ -15105,5 +15389,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; X11; en-US; Valve Steam GameOverlay/1424305157; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; X11; en-US; Valve Steam Tenfoot/1463778979; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-D' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_10_2; en-US; Valve Steam Client/1424305157; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_11_3; en-US; Valve Steam Tenfoot/1456366706; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_11_6; en-US; Valve Steam GameOverlay/1484790260; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.10 Safari/537.36',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-G' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_12_3; en-US; Valve Steam GameOverlay/1484790260; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.10 Safari/537.36',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-H' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_12_4; en-US; Valve Steam Tenfoot/1496897923; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-I' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_8_5; en-US; Valve Client/1490228413; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-J' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_9_5; en-US; Valve Client/1484790260; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.10 Safari/537.36',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; MacOS X 10_9_5; en-US; Valve Steam GameOverlay/1484790260; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.10 Safari/537.36',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-L' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 10.0; en-US; Valve Client/1482202190; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.59 Safari/537.36',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-M' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 10.0; en-US; Valve Steam GameOverlay/1479336357; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.44 Safari/537.36',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-N' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 10.0; en-US; Valve Steam Tenfoot/1482202190; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.59 Safari/537.36',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-O' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; Valve Client/1437790054; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-P' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; Valve Steam GameOverlay/1361807486; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-Q' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; Valve Steam Tenfoot/2095; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-R' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; Valve Steam GameOverlay/1363394288; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-S' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; Valve Steam Tenfoot/1363394288; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-T' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Valve Client/1431729692; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-U' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Valve Steam GameOverlay/1361807486; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-V' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Valve Steam Tenfoot/1440016726; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-W' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; Valve Client/1412014971; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-X' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; Valve Steam GameOverlay/1361807486; ) AppleWebKit/535.15 (KHTML, like Gecko) Chrome/18.0.989.0 Safari/535.11',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-Y' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; Valve Steam Tenfoot/1412014971; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-Z' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; Valve Client/1411443970; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-AA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; Valve Steam GameOverlay/1407966480; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-AB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; Valve Steam Tenfoot/1411443970; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-AC' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.3; en-US; Valve Client/1484790260; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.10 Safari/537.36',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-AD' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.3; en-US; Valve Steam GameOverlay/1478032887; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.21 Safari/537.36',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1518-AE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.3; en-US; Valve Steam Tenfoot/1482202200; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.59 Safari/537.36',
@@ -1643,5 +1673,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

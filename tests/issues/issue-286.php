@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-286-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; Avant Browser; rv:11.0) like Gecko',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-286-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0; Avant TriCore) Gecko/20100101 Firefox/27.0',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

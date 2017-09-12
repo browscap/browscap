@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-B' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile 2008.0 (mobilesearch.support@orange-ftgroup.com)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-904-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.01; GomezAgent 2.0; Windows NT)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-904-D' => [
         'ua' => 'Crawllybot/0.1/0.1 (Crawllybot/0.1; http://www.crawlly.com; crawler@crawlly.com)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-E' => [
         'ua' => 'Wget/1.15 (linux-gnu)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-F' => [
         'ua' => 'http://www.almaden.ibm.com/cs/crawler',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-G' => [
         'ua' => 'abot/0.1 (abot; http://www.abot.com; abot@abot.com)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-H' => [
         'ua' => 'Feed Wrangler/1.0 (3 subscribers; feed-id=248559; http://feedwrangler.net; Allow like Gecko)',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-I' => [
         'ua' => 'KDDI-CA34 UP.Browser/6.2.0.10.2.2(GUI)MMP/2.0 (compatible; KDDI-Googlebot-Mobile/2.1; http://www.google.com/bot.html)',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-904-J' => [
         'ua' => 'AdnormCrawler www.adnorm.com/crawler',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-K' => [
         'ua' => 'Feedfetcher-feedraider; (+http://feedraider.com/help/feedfetcher.html; X subscribers; Allow like Gecko)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-L' => [
         'ua' => 'Mozilla/5.0 (compatible; FatBot 2.0; http://www.thefind.com/crawler)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-M' => [
         'ua' => 'Mozilla/5.0 (compatible; InfuzApp/1.0; +http://www.infuz.com/bot.html)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-N' => [
         'ua' => 'wume_crawler/1.1 (http://wume.cse.lehigh.edu/~xiq204/crawler/)',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-O' => [
         'ua' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-P' => [
         'ua' => 'Inne: Mozilla/2.0 (compatible; Ask Jeeves/Teoma; http://sp.ask.com/docs/about/tech_crawling.html)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-Q' => [
         'ua' => 'ExactSeek Crawler/0.1',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-R' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.4 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.4',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-S' => [
         'ua' => 'CydralSpider/3.2 (Cydral Image Search; http://www.cydral.com)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-T' => [
         'ua' => 'Mozilla/5.0 (compatible; 80bot/0.71; http://www.80legs.com/spider.html;) Gecko/2008032620',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-U' => [
         'ua' => 'Diffbot/0.1',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-V' => [
         'ua' => 'msnbot/1.1 ( http://search.msn.com/msnbot.htm)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-W' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us; EasouSpider; +http://www.easou.com/search/spider.html)',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-904-X' => [
         'ua' => 'Mozilla/4.0, VM-Crawler/cs version info ofni noisrev sc',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-Y' => [
         'ua' => 'OpenLink Virtuoso RDF crawler',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-Z' => [
         'ua' => 'Mozilla/5.0 (compatible; SRCCN!Spider/1.1; +http://site.srccn.com/spider.html)',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AA' => [
         'ua' => 'ZoomInfo::Beehive Crawler',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AB' => [
         'ua' => 'Mozilla/5.0 (compatible; Baiduspider-cpro; +http://www.baidu.com/search/spider.html)',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AC' => [
         'ua' => 'Mozilla/5.0 (compatible;YodaoBot-Image/1.0;http://www.youdao.com/help/webmaster/spider/;)',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36 GoogleBot/2.1',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AE' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.2.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AF' => [
         'ua' => 'Googlebot/2.1 (+http://www.google.com/bot.html)',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AG' => [
         'ua' => 'WinWebBot/1.0; (Balaena Ltd, UK); http://www.balaena.com/winwebbot.html; winwebbot@balaena.com;)',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AH' => [
         'ua' => 'NewsGatorOnline/2.0 (http://www.newsgator.com)',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-904-AI' => [
         'ua' => 'Mozilla/5.0 (compatible; Sosospider/2.0; +http://help.soso.com/webspider.htm)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AJ' => [
         'ua' => 'FyberSpider/1.3 (http://www.fybersearch.com/fyberspider.php)',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AK' => [
         'ua' => 'rogerbot/1.1 (http://moz.com/help/pro/what-is-rogerbot-, rogerbot-crawler+pr1-crawler-14@moz.com)',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AL' => [
         'ua' => 'msnbot/2.0b v1394720947.6703',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AM' => [
         'ua' => 'Y!J-BRP/YFSBJ crawler (compatible; Mozilla 4.0; MSIE 5.5; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html; YahooFeedSeekerBetaJp/2.0; users 0; views 80)',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AN' => [
         'ua' => 'Mozilla/5.0 (compatible; Infohelfer/1.2.0; +http://www.infohelfer.de/crawler.php)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AO' => [
         'ua' => 'Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 2 subscribers; feed-id=17860707833818568603)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AP' => [
         'ua' => 'Googlebot-Video/1.0',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AQ' => [
         'ua' => 'dotbot',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AR' => [
         'ua' => 'livedoor HttpClient',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AS' => [
         'ua' => 'Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AT' => [
         'ua' => 'Mozilla/5.0 (compatible; crawler/3.0.0 +http://www.notconfigured.com/)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; YoudaoBot/1.0; http://www.youdao.com/help/webmaster/spider/; )',
@@ -2490,7 +2536,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-904-AV' => [
         'ua' => 'Liquida.it-Crawler/1.0 ( crawler@liquida.it +http://www.liquida.it )',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AW' => [
         'ua' => 'CosmixCrawler/0.1',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AX' => [
         'ua' => 'Content Crawler',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-904-AY' => [
         'ua' => 'NewsGatorOnline/2.0 (http://www.newsgator.com; 2 subscribers)',
@@ -2702,7 +2752,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-904-AZ' => [
         'ua' => 'Wget/1.16.1 (darwin14.0.0)',
@@ -2756,5 +2807,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

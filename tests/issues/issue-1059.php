@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-5' => [
         'ua' => 'HbbTV/1.1.1 (;Access;NetFront NX 3;;;) Netfont webkit',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-6' => [
         'ua' => 'HbbTV/1.1.1 (;Hisense;MT5651;;;) ANTGalio/3.3.0.26.04',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-7' => [
         'ua' => 'HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.210;0071-3403 1000-0000;)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-8' => [
         'ua' => 'HbbTV/1.1.1 (;Samsung;SmartTV2016;T-HKMFKDEUC-0622.20;;) WebKit',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-10' => [
         'ua' => 'HbbTV/1.1.1 (+PVR;Humax;HD FOX+;1.00.17;1.0;)CE-HTML/1.0 ANTGalio/3.3.0.26.03',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-11' => [
         'ua' => 'HbbTV/1.1.1 (+PVR;Panasonic;DIGA WebKit M8156;3.200;;)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-12' => [
         'ua' => 'HbbTV/1.1.1 (+PVR;Sky_worth;HC7620;2.07.12;1.0;)CE-HTML/1.0 Skykid/5.1.6.2.04',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-13' => [
         'ua' => 'HbbTV/1.1.1 (+PVR+RTSP;HANDAN;ST7108HBB;;;) ANTGalio/3.2.1.25.09',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-16' => [
         'ua' => 'HbbTV/1.2.1 (;Panasonic;VIERA 2016;0.001;0601-0003 0080-0000;)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-17' => [
         'ua' => 'HbbTV/1.2.1 (;Philips;MT5580;;;) ANTGalio/3.3.0.26.04',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-18' => [
         'ua' => 'HbbTV/1.2.1 (;Philips;MT5580;PhilipsTV, 4.1.1;;) ANTGalio/3.4.0.27.00.devel',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-19' => [
         'ua' => 'HbbTV/1.2.1 (;Samsung;SmartTV2015;T-HKPDEUC-0610.10;;) WebKit',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-21' => [
         'ua' => 'HbbTV/1.2.1 (+DRM;Samsung;SmartTV2015;T-HKM6DEUC-1443.0;;) WebKit',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-22' => [
         'ua' => 'HbbTV/1.2.1 (+PVR;Panasonic;DIGA WebKit M6346;3.010;;)',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-23' => [
         'ua' => 'HTCD816t_LTE/1.0 Android/4.4 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-24' => [
         'ua' => 'HTCM8St_TD/1.0 Android/4.4 release/2014 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-25' => [
         'ua' => 'HUAWEI_G610-T00_TD/1.0 Android/4.2.1 (Linux; U; Android 4.2.1; zh-cn) Release/05.15.2013 Browser/WAP2.0 (AppleWebKit/534.30) Mobile Safari/534.30',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-32' => [
         'ua' => 'Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) Navigateur web/1.0 Safari/538.1',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-34' => [
         'ua' => 'Mozilla/5.0 (Linux mips; U;HbbTV/1.1.1 (+RTSP;DMM;Dreambox;0.1a;1.0;) CE-HTML/1.0; en) AppleWebKit/535.19 QtWebkit/2.2',
@@ -1059,7 +1078,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1059-35' => [
         'ua' => 'Mozilla/5.0 (Linux mips; U;HbbTV/1.1.1 (+RTSP;Dream Property GmbH;Dreambox;0.1a;1.0;) CE-HTML/1.0; en) AppleWebKit/535.19 no/Volksbox QtWebkit/2.2',
@@ -1112,7 +1132,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1059-36' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; AQUILA 080-1008 Build/ICS.g12refM805CMX.20120925; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.8.0.2790AT',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-37' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B)AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 MobileSafari/535.19',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-38' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; LIFETAB_S9512 Build/IMM76D; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.3.0.1852AT',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-39' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; C6603 Build/10.1.A.1.350) AppleWebKit/535.19 (KHTML, like Gecko)',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-40' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N7000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) YoloBrowser/1.0.1.74 Mobile Safari/537.36',
@@ -1376,8 +1401,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1059-41' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P3110 Build/JZO54K; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.7.4.2567AT',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-42' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; HUAWEI MT1-U06 Build/HuaweiMT1-U06; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/1.0.0.115AT',
@@ -1483,7 +1510,8 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-1059-43' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; ASUS Transformer Pad TF300TG Build/JOP40D; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.7.4.2567AT',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-44' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; Galaxy Nexus Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko)',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-45' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-810 Build/JDQ39; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-46' => [
         'ua' => 'Mozilla/5.0 (Linux; Linux mips) AppleWebKit/537.36; (KHTML, like Gecko) Chromium/30.0.1599.114 Safari/537.36) SRAF/3.0 HbbTV/1.1.1 (+TRICKMODE; NEXUS; Nexus_AN01; sw-01; hw-01); CE-HTML/1.0 FXM-U2FsdGVkX1/BKNh9pLTEdu27Q990Ib8IXWELN4R+3k4StEdgIJJFqXx4m+W8/PLI-END',
@@ -1694,8 +1725,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1059-47' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-52' => [
         'ua' => 'Mozilla/5.0 (SMART-TV;Linux;Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 Safari/538.1',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-53' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42LA6208-ZA; 03.20.37; 0x00000001;); LG NetCast.TV-2013 /03.20.37 (LG, 42LA6208-ZA, wired)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-54' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 55UF695V-ZA; 03.00.23; 0x00000001;); LG NetCast.TV-2013 /03.00.23 (LG, 55UF695V-ZA, wired)',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-55' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ HbbTV/1.1.1 (; LGE; 42LB671V-ZB; 03.00.56; 1M14;)',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-56' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chr0me/38.0.2125.122 Safari/537.36 LG Browser/8.00.00(LGE; 49LH604V-ZB; 03.20.40; 1; DTV_W16R); webOS.TV-2016; LG NetCast.TV-2013 Compatible (LGE, 49LH604V-ZB, wireless)',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-57' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; 49UH668V-ZA; WEBOS3.0 03.00.87; W3_M16;)',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-58' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 43LF630V-ZA; 04.05.01; 1; DTV_W15M); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 43LF630V-ZA, wireless)',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-59' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 79UF860V-ZA; 03.20.05; 1; DTV_W15U); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 79UF860V-ZA, wireless)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-60' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) (SecondLife/4.7.7.48706 (Firestorm-Releasex64; firestorm skin)) Chrome/47.0.2526.80 Safari/537.36',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-61' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; RM-1104_15448) AppleWebKit/537.36(KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10536',
@@ -2277,8 +2319,9 @@ return [
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1059-62' => [
         'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/538.11  HbbTV/1.1.1 (+DL+PVR; THOMSON; Thomson THS845; 1.0; 1.0;) CE-HTML/1.0 hdplusinteraktiv/1.0 (NETRANGEMMH;)',
@@ -2330,8 +2373,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-63' => [
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; en-SG) AppleWebKit/535.25 (KHTML, like Gecko) Safari/535.25',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-64' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/43.4 Safari/537.36 Chrome/43.0.2357.125',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-65' => [
         'ua' => 'Mozilla/5.0 (X11; SunOS sun4u; en-NZ) AppleWebKit/527.15.36 (KHTML, like Gecko) Version/5.0.3 Safari/527.15.36',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-66' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (+DRM;ASTON;XenaHd Twin Connect;V2.0050;002000000;)',
@@ -2542,8 +2589,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-67' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;MSTAR;t42;42;42;)',
@@ -2595,8 +2643,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-68' => [
         'ua' => 'MT6735_TD/Cynus_F9_4GLinux/3.10.65+ Android/5.0 Release/11.05.2015 Browser/AppleWebKit537.36 Chrome/37.0.0.0 Mobile Safari/537.36 System/Android 5.0;',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1059-69' => [
         'ua' => 'MT6735_TD/V1 Linux/3.18.19+ Android/6.0 Release/10.10.2015 Browser/AppleWebKit537.36 Chrome/44.0.2403.119 Mobile Safari/537.36 System/Android 6.0;',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1059-70' => [
         'ua' => 'MWP/1.0/Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; Microsoft; Lumia 950 XL Dual SIM) like Gecko',
@@ -2756,5 +2807,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-B' => [
         'ua' => 'BlackBerry7100/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-C' => [
         'ua' => 'BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-D' => [
         'ua' => 'BlackBerry7130/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-E' => [
         'ua' => 'BlackBerry7130/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-F' => [
         'ua' => 'BlackBerry7130e/5.0.0.351Profile/MIDP-2.1Configuration/',
@@ -317,7 +322,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-G' => [
         'ua' => 'BlackBerry7250/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-H' => [
         'ua' => 'BlackBerry7250/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-I' => [
         'ua' => 'BlackBerry7290/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-J' => [
         'ua' => 'BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -529,7 +538,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-K' => [
         'ua' => 'BlackBerry7520/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -582,7 +592,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-L' => [
         'ua' => 'BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/ CLDC-1.1 VendorID/100',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-M' => [
         'ua' => 'BlackBerry8100/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-N' => [
         'ua' => 'BlackBerry8110/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-O' => [
         'ua' => 'BlackBerry8110/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-P' => [
         'ua' => 'BlackBerry8120/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-Q' => [
         'ua' => 'BlackBerry8120/4.5.0.102 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-R' => [
         'ua' => 'BlackBerry8130/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-S' => [
         'ua' => 'BlackBerry8130/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106',
@@ -1006,7 +1024,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-T' => [
         'ua' => 'BlackBerry8130m/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-U' => [
         'ua' => 'BlackBerry8220/4.6.0.151 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-V' => [
         'ua' => 'BlackBerry8230/4.6.1.182 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/109',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-W' => [
         'ua' => 'BlackBerry8230f/4.6.1.208 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/-1',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-X' => [
         'ua' => 'BlackBerry8300/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-Y' => [
         'ua' => 'BlackBerry8300/4.5.0.102 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/122',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-Z' => [
         'ua' => 'BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AA' => [
         'ua' => 'BlackBerry8310/4.5.0.10 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AB' => [
         'ua' => 'BlackBerry8320/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AC' => [
         'ua' => 'BlackBerry8320/4.3.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AD' => [
         'ua' => 'BlackBerry8320/4.5.0.102 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/179',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AE' => [
         'ua' => 'BlackBerry8330/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AF' => [
         'ua' => 'BlackBerry8330/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AG' => [
         'ua' => 'BlackBerry8330/5.0.0.230 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AH' => [
         'ua' => 'BlackBerry8330m/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/0',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AI' => [
         'ua' => 'BlackBerry8350i/4.6.1.128 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AJ' => [
         'ua' => 'BlackBerry8350i/5.0.0.1051 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/103',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AK' => [
         'ua' => 'BlackBerry8520/4.6.1.259 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AL' => [
         'ua' => 'BlackBerry8520/5.0.0.1007 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/613',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AM' => [
         'ua' => 'BlackBerry8530/5.0.0.1000 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -2066,7 +2104,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AN' => [
         'ua' => 'BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AO' => [
         'ua' => 'BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AP' => [
         'ua' => 'BlackBerry8700/4.5.0.124 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -2225,7 +2266,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AQ' => [
         'ua' => 'BlackBerry8703e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -2278,7 +2320,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AR' => [
         'ua' => 'BlackBerry8703e/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/',
@@ -2331,7 +2374,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AS' => [
         'ua' => 'BlackBerry8703e/4.5.0.191 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/236',
@@ -2384,7 +2428,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AT' => [
         'ua' => 'BlackBerry8707/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120',
@@ -2437,7 +2482,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AU' => [
         'ua' => 'BlackBerry8707/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/128',
@@ -2490,7 +2536,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-AV' => [
         'ua' => 'BlackBerry8800/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AW' => [
         'ua' => 'BlackBerry8800/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AX' => [
         'ua' => 'BlackBerry8820/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AY' => [
         'ua' => 'BlackBerry8820/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-AZ' => [
         'ua' => 'BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BA' => [
         'ua' => 'BlackBerry8830/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/109',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BB' => [
         'ua' => 'BlackBerry8830m/4.5.0.135 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BC' => [
         'ua' => 'BlackBerry8900/4.6.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BD' => [
         'ua' => 'BlackBerry8900/5.0.0.100 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/142',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BE' => [
         'ua' => 'BlackBerry8980/5.0.0.978 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/168',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BF' => [
         'ua' => 'BlackBerry9000/4.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/125',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BG' => [
         'ua' => 'BlackBerry9000/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/1',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BH' => [
         'ua' => 'BlackBerry9100/4.6.0.31 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BI' => [
         'ua' => 'BlackBerry9100/5.0.0.449 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/1',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BJ' => [
         'ua' => 'BlackBerry9105/5.0.0.604 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/173',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BK' => [
         'ua' => 'Blackberry9220/7.1.0.1033 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/608',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BL' => [
         'ua' => 'BlackBerry9300/5.0.0.1007 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BM' => [
         'ua' => 'BlackBerry9300/6.0.0.448 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/173',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BN' => [
         'ua' => 'Blackberry9320/7.1.0.398 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/173',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BO' => [
         'ua' => 'BlackBerry9330/5.0.0.1030 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BP' => [
         'ua' => 'Blackberry9330/6.0.0.522 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BQ' => [
         'ua' => 'BlackBerry9360/7.0.0.319 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BR' => [
         'ua' => 'Blackberry9360/7.1.0.1098 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/125',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BS' => [
         'ua' => 'BlackBerry9380/7.0.0.513 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/142',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BT' => [
         'ua' => 'BlackBerry9500/4.7.0.106 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/124',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BU' => [
         'ua' => 'BlackBerry9500/5.0.0.1005 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/120',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BV' => [
         'ua' => 'BlackBerry9520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/136',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BW' => [
         'ua' => 'BlackBerry9530/4.7 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BX' => [
         'ua' => 'BlackBerry9530/5.0.0.1041 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BY' => [
         'ua' => 'BlackBerry9550/5.0.0.1015 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-BZ' => [
         'ua' => 'BlackBerry9630/4.2.0.424 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CA' => [
         'ua' => 'BlackBerry9630/4.7.1.40 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CB' => [
         'ua' => 'BlackBerry9630/5.0.0.1030 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CC' => [
         'ua' => 'BlackBerry9650/5.0.0.1006 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CD' => [
         'ua' => 'Blackberry9650/6.0.0.415 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CE' => [
         'ua' => 'Blackberry9670/6.0.0.407 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CF' => [
         'ua' => 'BlackBerry9700/5.0.0.1014 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/-1',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CG' => [
         'ua' => 'BlackBerry9700/6.0.0.418 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/600',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CH' => [
         'ua' => 'Blackberry9720/7.1.0.1046 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/173',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CI' => [
         'ua' => 'BlackBerry9780/6.0.0.285 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CJ' => [
         'ua' => 'Blackberry9790/7.0.0.528 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/600',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CK' => [
         'ua' => 'Blackberry9790/7.1.0.569 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/131',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CL' => [
         'ua' => 'BlackBerry9800/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/100',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CM' => [
         'ua' => 'Blackberry9800/6.0.0.141 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CN' => [
         'ua' => 'BlackBerry9810/7.0.0.261 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102',
@@ -4876,6 +4967,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CO' => [
         'ua' => 'BlackBerry9810/7.1.0.1098 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/125',
@@ -4929,6 +5021,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CP' => [
         'ua' => 'BlackBerry9850/7.1.0.1066 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CQ' => [
         'ua' => 'BlackBerry9860/7.0.0.440 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CR' => [
         'ua' => 'BlackBerry9860/7.1.0.694 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102',
@@ -5088,6 +5183,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CS' => [
         'ua' => 'Blackberry9900/7.0.0.296 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/369',
@@ -5141,6 +5237,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CT' => [
         'ua' => 'BlackBerry9900/7.1.0.267 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CU' => [
         'ua' => 'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.1.0.1483 Mobile Safari/537.10+',
@@ -5246,7 +5344,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-CV' => [
         'ua' => 'Mozilla/5.0 (BB10; Touch) AppleWebKit/537.1+ (KHTML, like Gecko) Version/10.0.0.1337 Mobile Safari/537.1+',
@@ -5299,7 +5398,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-CW' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9100; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.461 Mobile Safari/534.8+',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CX' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9105; ar) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.481 Mobile Safari/534.8+',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CY' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9300; ar) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-CZ' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9310; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.380 Mobile Safari/534.11+',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DA' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9315; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.523 Mobile Safari/534.11+',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DB' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9330; en) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.431 Mobile Safari/534.1+',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DC' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9330; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.346 Mobile Safari/534.11+',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DD' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9350; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.261 Mobile Safari/534.11+',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DE' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9350; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1066 Mobile Safari/534.11+',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DF' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9360; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.353 Mobile Safari/534.11+',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DG' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9360; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1033 Mobile Safari/534.11+',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DH' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9370; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1066 Mobile Safari/534.11+',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DI' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9370; en-US) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.261 Mobile Safari/534.11+',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DJ' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.513 Mobile Safari/534.11+',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DK' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.336 Mobile Safari/534.11+',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DL' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9620; en-US) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.807 Mobile Safari/534.11+',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DM' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.222 Mobile Safari/534.1+',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DN' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9670; en) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.407 Mobile Safari/534.1+',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DO' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9700; ar) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.344 Mobile Safari/534.8+',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DP' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9720; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1046 Mobile Safari/534.11+',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DQ' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9790; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.528 Mobile Safari/534.11+',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DR' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9790; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1070 Mobile Safari/534.11+',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-DS' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9810; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.296 Mobile Safari/534.11+',
@@ -6518,7 +6640,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DT' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9850; en) AppleWebKit/534.11  (KHTML, like Gecko) Version/7.0.0.254 Mobile Safari/534.11',
@@ -6571,7 +6694,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DU' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9850; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1066 Mobile Safari/534.11+',
@@ -6624,7 +6748,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DV' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9860; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.296 Mobile Safari/534.11+',
@@ -6677,7 +6802,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DW' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9860; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.342 Mobile Safari/534.11+',
@@ -6730,7 +6856,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DX' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.176 Mobile Safari/534.11+',
@@ -6783,7 +6910,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DY' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1033 Mobile Safari/534.11+',
@@ -6836,7 +6964,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-DZ' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.254 Mobile Safari/534.11+',
@@ -6889,7 +7018,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-EA' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.1066 Mobile Safari/534.11+',
@@ -6942,7 +7072,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1438-EB' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9981; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.579 Mobile Safari/534.11+',
@@ -6996,6 +7127,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-EC' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9981; ar) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.342 Mobile Safari/534.11+',
@@ -7049,6 +7181,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1438-ED' => [
         'ua' => 'Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.1.0; en-US) AppleWebKit/536.2+ (KHTML, like Gecko) Version/7.2.1.0 Safari/536.2+',
@@ -7101,6 +7234,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
 ];

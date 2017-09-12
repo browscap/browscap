@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-B' => [
         'ua' => 'Mozilla/5.0 (compatible; discoverybot/2.0; +http://discoveryengine.com/discoverybot.html)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-C' => [
         'ua' => 'Mozilla/5.0 (compatible; AcoonBot/4.11.1; +http://www.acoon.de/robot.asp)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-D' => [
         'ua' => 'Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0; +http://www.AboutUs.org/)',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-E' => [
         'ua' => 'Mozilla/5.0 (compatible; woriobot +http://worio.com)',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-F' => [
         'ua' => 'Mozilla/5.0 (compatible; woriobot support [at] zite [dot] com +http://zite.com)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-G' => [
         'ua' => 'GIDBot/2.0 (+http://www.gidnetwork.com/tools/gzip-test.php)',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-H' => [
         'ua' => 'Zookabot/2.4; +http://zookabot.com',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-I' => [
         'ua' => 'FreeWebMonitoring SiteChecker/0.1 (+http://www.freewebmonitoring.com)',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-J' => [
         'ua' => 'IPv4Scan (+http://ipv4scan.com)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-K' => [
         'ua' => 'MetaURI API/2.0 +metauri.com',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-L' => [
         'ua' => 'domainsbot (+http://www.domainsbot.com)',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-M' => [
         'ua' => 'netEstate NE Crawler (+http://www.sengine.info/)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-484-N' => [
         'ua' => 'RED/1 (http://redbot.org/)',
@@ -742,5 +755,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

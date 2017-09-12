@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1402-B' => [
         'ua' => 'MOT-280/00.00.00 MIB/2.2.1 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-C' => [
         'ua' => 'MOT-A668/ WAP.Browser/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-D' => [
         'ua' => 'MOT-A728/R505_G_00.02.A1R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-E' => [
         'ua' => 'MOT-A732/ WAP.Browser/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-F' => [
         'ua' => 'MOT-A760i/R501_G_00.06.A3I MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-G' => [
         'ua' => 'MOT-A768i/R503_G_00.17.A1R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-H' => [
         'ua' => 'MOT-A820/00.00.00 MIB/2.1 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-I' => [
         'ua' => 'MOT-C168i/1.0 Release/13.07.2007 Browser/CMCS1.0 Software/2.350',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-J' => [
         'ua' => 'MOT-c350/G_09.04.35R MIB/2.0',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-K' => [
         'ua' => 'MOT-c350M/AS_G_09.04.23R MIB/2.0 UP.Link/1.1',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-L' => [
         'ua' => 'MOT-C550/0A.10.12R MIB/2.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-M' => [
         'ua' => 'MOT-Canary/SJUG1361AA 08.02.27I/10.21.2005 MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/1.0 UP.Link/1.1',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-N' => [
         'ua' => 'MOT-E550/08.83.21I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-O' => [
         'ua' => 'MOT-E680/R51_G_0F.26.A1R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-P' => [
         'ua' => 'MOT-E825/03.0F.01. MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-Q' => [
         'ua' => 'MOT-KLGO iTunes/0E.30.16R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-R' => [
         'ua' => 'MOT-L6/00.00.00 MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-S' => [
         'ua' => 'MOT-l7/08.B7.ACR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-T' => [
         'ua' => 'MOT-RAZRV3xv/85.83.E1P MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-U' => [
         'ua' => 'MOT-T720/05.05.21R MIB/2.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-V' => [
         'ua' => 'MOT-T720M/AS_G_05.06.20R MIB/2.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-W' => [
         'ua' => 'MOT-TA02/06.03.25R MIB/1.2.1 UP.Link/1.1',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-X' => [
         'ua' => 'MOT-ta02/06.04.2fr_columbia_3mnc_fix MIB/1.2.1',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-Y' => [
         'ua' => 'MOT-U15/71.20.18. MIB/2.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-Z' => [
         'ua' => 'MOT-Unx/0B.D1.1FR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AA' => [
         'ua' => 'MOT-V180/0B.D1.09R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AB' => [
         'ua' => 'MOT-V180ENS/0B.D1.32R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AC' => [
         'ua' => 'MOT-V185/0B.D1.1ER MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AD' => [
         'ua' => 'MOT-V186/08.30.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AE' => [
         'ua' => 'MOT-V188/0B.D2.2BR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AF' => [
         'ua' => 'MOT-V270/0A.50.22R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AG' => [
         'ua' => 'MOT-V280/0A.50.1AR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AH' => [
         'ua' => 'MOT-V300/0B.08.03I MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AI' => [
         'ua' => 'MOT-V365/08.C8.37R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AJ' => [
         'ua' => 'MOT-V3e/08.00.11I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AK' => [
         'ua' => 'MOT-V3i_iTunes/08.22.09R MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/1.0',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AL' => [
         'ua' => 'MOT-V3ire/08.00.31R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AM' => [
         'ua' => 'MOT-V3r',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AN' => [
         'ua' => 'MOT-V3re',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AO' => [
         'ua' => 'MOT-V400/0B.08.9FR MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AP' => [
         'ua' => 'MOT-V525M/0B.09.1DR MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AQ' => [
         'ua' => 'MOT-V535/0E.65.0FR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AR' => [
         'ua' => 'MOT-V545/0E.66.04R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AS' => [
         'ua' => 'MOT-V547/08.17.15R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AT' => [
         'ua' => 'MOT-V551/08.00.11I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AU' => [
         'ua' => 'MOT-V551J/08.18.16R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AV' => [
         'ua' => 'MOT-V555/08.17.21R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AW' => [
         'ua' => 'MOT-V557p/08.27.3CR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AX' => [
         'ua' => 'MOT-V6/08.83.37I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AY' => [
         'ua' => 'MOT-V600i/0E.65.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-AZ' => [
         'ua' => 'MOT-V60M/03.30.10R MIB/1.2.1 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BA' => [
         'ua' => 'MOT-V620/08.17.0FR MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BB' => [
         'ua' => 'MOT-V690/ WAP.Browser/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BC' => [
         'ua' => 'MOT-V730/1.0 MIB1.2/v1.0',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BD' => [
         'ua' => 'MOT-V80/0E.03.0EI MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BE' => [
         'ua' => 'MOT-V868/1.0 MIB1.2/v1.0',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BF' => [
         'ua' => 'MOT-V878/ WAP.Browser/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BG' => [
         'ua' => 'MOT-V975/80.3F.64I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BH' => [
         'ua' => 'MOT-V980/80.2A.06I MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BI' => [
         'ua' => 'MOT-V980M/80.2F.63. MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BJ' => [
         'ua' => 'MOT-V551/08.17.0FR MIB/2.2.1',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BK' => [
         'ua' => 'MOT-V3/0E.42.10R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BL' => [
         'ua' => 'MOT-V300/0B.09.19R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BM' => [
         'ua' => 'MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BN' => [
         'ua' => 'MOT-Z3/08.00.10R MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/1.0',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1402-BO' => [
         'ua' => 'MOT-L7/NA.ACR_RB MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -3551,5 +3617,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

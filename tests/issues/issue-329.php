@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-329-B' => [
         'ua' => 'AppStore/2.0 iOS/7.0.4 model/iPhone6,1 (6; dt:89)',
@@ -105,7 +106,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-329-C' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone3,2 build/11D201 (4; dt:27)',
@@ -158,7 +160,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-329-D' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone6,1 build/11D201 (6; dt:89)',
@@ -211,7 +214,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-329-E' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone4,1 build/11D201 (6; dt:73)',
@@ -264,7 +268,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-329-F' => [
         'ua' => 'AppStore/2.0 iOS/7.0.6 model/iPhone6,1 (6; dt:89)',
@@ -317,6 +322,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
 ];

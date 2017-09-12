@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1064-B' => [
         'ua' => 'Mozilla/5.0 (compatible; NLCrawler/2.0.27; Linux 2.6.3-7; i686; en_US)KHTML/3.4.89 (like Gecko)',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

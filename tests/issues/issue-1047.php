@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1047-B' => [
         'ua' => 'Kodi/17.0-BETA1 (Windows NT 10.0; WOW64) App_Bitness/32 Version/17.0-BETA1-Git:20160821-81d5d26',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

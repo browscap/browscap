@@ -52,7 +52,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-539-B' => [
         'ua' => 'CookieReports.com/0.1',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-C' => [
         'ua' => 'Elmer, the Thinglink ImageBot (http://www.thinglink.com/help/ThinglinkImageBot)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-D' => [
         'ua' => 'FlixsteriOS/6.15 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-E' => [
         'ua' => 'FlixsteriOS/6.18.4 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-G' => [
         'ua' => 'Iframely/0.7.1 (+http://iframe.ly/;)',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-H' => [
         'ua' => 'Lenovo A789/S210 Linux/3.0.13 Android/4.0 Release/05.11.2012 Browser/AppleWebKit533.1 Profile/ Configuration/',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-539-J' => [
         'ua' => 'MQQBrowser/2.7 Mozilla/5.0 (Linux; U; Android A5000; in-id; A5000 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-K' => [
         'ua' => 'MQQBrowser/36 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-539-L' => [
         'ua' => 'MQQBrowser/Mini2.4 (SAMSUNG-GT-E2252)',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-539-M' => [
         'ua' => 'MetaInspector/3.0.0 (+https://github.com/jaimeiniesta/metainspector)',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-N' => [
         'ua' => 'Microsoft-CryptoAPI/6.1',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-O' => [
         'ua' => 'MozilMozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.2; SV1; .NET CLR 3.3.69573; WOW64; en-US)',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-P' => [
         'ua' => 'Mozilla 5.0 (Linux; U; Android 2.2.2; zh-cn; 8810 Build FRG83G) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-Q' => [
         'ua' => 'Mozilla 5.0 (Linux; U; Android 4.0.3; zh-cn; HTC T328d Build IML74K) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-R' => [
         'ua' => 'Mozilla/4.0 (compatible; Dillo 3.0)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-S' => [
         'ua' => 'Mozilla/5.0 (Digg/1.0; support@digg.com)',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Zetakey/3.2',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android; es_mx; WT19a Build/) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; zh-cn) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AF' => [
         'ua' => 'Mozilla/5.0 (SH05C;FOMA;like Gecko)',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-539-AG' => [
         'ua' => 'Mozilla/5.0 (Unknown; BSD Four) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:25.1) Gecko/20141110 PaleMoon/25.1.0',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) OpenWebKitSharp',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.1) Gecko/20141110 PaleMoon/25.1.0',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; en-US) AppleWebKit/533.3 (KHTML, like Gecko) SecondLife/3.7.23.297296 (Second Life Release; default skin) Safari/533.3',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AN' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD; U; Viera; de-DE) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.3.2 Chrome/23.0.1271.97 Safari/537.11',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AO' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD; U; Viera; en-US) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.3.2 Chrome/23.0.1271.97 Safari/537.11',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:25.1) Gecko/20141127 PaleMoon/25.1.0',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-539-AR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408',
@@ -1748,7 +1780,8 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-539-AS' => [
         'ua' => 'Mozilla/5.0 (compatible; AjaxSnapBot; +http://ajaxsnapshots.com/bot.html)',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AT' => [
         'ua' => 'Mozilla/5.0 (compatible; CrawlRobot; +http://localhost/bot.php)',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; Owler/0.4; +; )',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AV' => [
         'ua' => 'Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AX' => [
         'ua' => 'Mozilla/5.0 (compatible; pub-crawler; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AY' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile [TWCAN/SportsNetForiOS]',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-AZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-539-BC' => [
         'ua' => 'Mozilla/5.0 (linux; u; android 4.1.1; ja-jp; sgpt12 build/tjs0166) applewebkit/534.30 (khtml, like gecko) version/4.0 safari/534.30 yjapp-android jp.co.yahoo.android.yjtop/2.1.8',
@@ -2172,7 +2212,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-539-BD' => [
         'ua' => 'Mozilla/5.0 CK={tiPpw0h4g7kIf1T8snFdwpPeIcraLTUImXjwPsV9F27k+ityupIdD4AzdYENl6wfnuyvIKM9PR/5QIO4s8bR9TktqUNKcfYcpCrtOqEXuc/SNsbkxUc3cw==} (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BE' => [
         'ua' => 'Mozilla/5.0(Linux; Android 4.4.2; Micromax A065 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -2277,8 +2319,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BG' => [
         'ua' => 'Mozilla/5.0+(compatible; RevIP.info site analyzer v4.00; http://poweredby.revip.info)',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BJ' => [
         'ua' => 'Mozzila/5.0 (Linux; U; Android 4.1.2; ru-ru; Fly IQ449 Build/JZ054K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BK' => [
         'ua' => 'Mozzila/5.0 (compatible; Sonic/1.0; http://www.yama.info.waseda.ac.jp/~crawler/info.html)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BL' => [
         'ua' => 'Mozzila/5.0(Linux; Android 4.4.2; ru-ru; Fly IQ4415 Quad Build/KOT49H) AppleWebKit/537.36(KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36;',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BO' => [
         'ua' => 'OWASP_SECRET_BROWSER/3.0',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BP' => [
         'ua' => 'SMRF URL Expander',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BQ' => [
         'ua' => 'Speedy Spider (http://www.entireweb.com)',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BR' => [
         'ua' => 'Superarama.com - BOT/v.0.1',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BS' => [
         'ua' => 'TBD1083 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -2754,8 +2805,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-539-BT' => [
         'ua' => 'TBDB863 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -2807,8 +2859,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BU' => [
         'ua' => 'TBDC1093 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -2860,8 +2913,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-539-BV' => [
         'ua' => 'TERRA_101 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -2913,8 +2967,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-539-BW' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Mozilla) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BX' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; ALCATEL_one_touch_818) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BY' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; SonyEricssonK790i) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-BZ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; C2305) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
@@ -3126,7 +3184,8 @@ return [
             'RenderingEngine_Maker' => 'UCWeb Inc.',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-539-CA' => [
         'ua' => 'UCWEB/2.0(Java; U; MIDP-2.0; fr-fr; generic) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CB' => [
         'ua' => 'WNMbot/0.4.0',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CC' => [
         'ua' => 'Website Explorer/0.9.9.9',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CD' => [
         'ua' => 'city-map screenshot service',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CE' => [
         'ua' => 'eb-iphone/3.8.6.1 (iPhone OS 8.1, iPad) Mobile',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CF' => [
         'ua' => 'gosquared-thumbnailer/1.0',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CG' => [
         'ua' => 'iPhone OS/8.1.1 (iPhone) Salesforce1/7.0(3002930) XBranding/1.0 SalesforceTouchContainer/2.0 Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435',
@@ -3497,7 +3562,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-539-CH' => [
         'ua' => 'optivo(R) NetHelper',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CI' => [
         'ua' => 'phantomas/1.8.0 (PhantomJS/1.9.8; linux x64)',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-539-CJ' => [
         'ua' => 'pr-cy.ru Screenshot Bot',
@@ -3657,5 +3725,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

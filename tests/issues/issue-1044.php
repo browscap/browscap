@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1044-B' => [
         'ua' => 'YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1044-C' => [
         'ua' => 'Barca/2.8.2',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1044-D' => [
         'ua' => 'BarcaPro/1.4.12',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1044-E' => [
         'ua' => 'The Bat! 4.0.0.22',
@@ -265,5 +269,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

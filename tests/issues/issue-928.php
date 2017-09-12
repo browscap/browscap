@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-928-B' => [
         'ua' => 'Mozilla/5.0 (iOS; U; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-928-C' => [
         'ua' => 'Mozilla/5.0 (iOS; U; en-GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
@@ -159,5 +161,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -51,7 +51,8 @@ return [
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1289-B' => [
         'ua' => 'Mozilla/5.0 (compatible; TeeRaidBot; +https://teeraid.com/bot/)',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1289-C' => [
         'ua' => 'Mozilla/5.0 (compatible; ToutiaoSpider/1.0; http://web.toutiao.com/media_cooperation/;)',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-1289-D' => [
         'ua' => 'Mozilla/5.0 (compatible; TrialPay URL checker; +http://www.trialpay.com) Gecko/20100101 Firefox/19.0',
@@ -212,5 +215,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

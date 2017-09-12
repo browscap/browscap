@@ -53,6 +53,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-B' => [
         'ua' => '(null) [FBAN/FBIOS;FBAV/15.0.0.16.28;FBBV/4463064;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/U.S.Cellular;FBID/phone;FBLC/en_US;FBOP/5]',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-C' => [
         'ua' => '\\x22Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)\\x22',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-D' => [
         'ua' => '\\x22Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-E' => [
         'ua' => 'A6-Indexer',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-F' => [
         'ua' => 'Adsense-Snapshot-Google',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-G' => [
         'ua' => 'Amazon CloudFront',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-H' => [
         'ua' => 'AndroidDownloadManager',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-I' => [
         'ua' => 'Arachnida Web Crawler',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-J' => [
         'ua' => 'bandscraper',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-K' => [
         'ua' => 'bitlybot',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-L' => [
         'ua' => 'bot',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-M' => [
         'ua' => 'cars-app-browser',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-N' => [
         'ua' => 'Coursera-Mobile 1.2.1',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-O' => [
         'ua' => 'Coursera-Mobile/1.3.0-1192',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-P' => [
         'ua' => 'Crowsnest/0.5 (+http://www.crowsnest.tv/)',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-Q' => [
         'ua' => 'DINO762 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -899,8 +915,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-513-R' => [
         'ua' => 'Dorado WAP-Browser/1.0.0',
@@ -954,6 +971,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-T' => [
         'ua' => 'eb-iphone/3.8.6.1 (iPhone OS 7.0.3, iPad) Mobile',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-U' => [
         'ua' => 'eb-iphone/3.8.6.1 (iPhone OS 7.1.2, iPad) Mobile',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-V' => [
         'ua' => 'ElmediaPlayer Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
@@ -1113,6 +1133,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-W' => [
         'ua' => 'EventMachine HttpClient',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-X' => [
         'ua' => 'Goldfire Server',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-Y' => [
         'ua' => 'GOOG',
@@ -1272,6 +1295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-Z' => [
         'ua' => 'googlebot',
@@ -1325,6 +1349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AA' => [
         'ua' => 'HggH PhantomJS Screenshoter',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AB' => [
         'ua' => 'HTC_ChaCha_A810e/Mozilla/5.0(Linux; U; Android 2.3.5;it-it; Build/GRH78C) AppleWebkit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-AC' => [
         'ua' => 'HTC7088_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-AD' => [
         'ua' => 'HTC802t_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-AE' => [
         'ua' => 'iBall Majestic 2.4D',
@@ -1589,7 +1618,8 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-AF' => [
         'ua' => 'IC OpenGraph Crawler 4.5 (proprietary)',
@@ -1643,6 +1673,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AG' => [
         'ua' => 'ICC-Crawler/2.0 (Mozilla-compatible; ; http://kc.nict.go.jp/project1/crawl.html)',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AH' => [
         'ua' => 'InAGist URL Resolver (http://inagist.com)',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AI' => [
         'ua' => 'IVO/1.0 Android/4.4.2 Release/KVT49L Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -1801,7 +1834,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-513-AJ' => [
         'ua' => 'Jeode/1.x.x',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AK' => [
         'ua' => 'JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;480*800;)UCWEB7.8.0.95/139/355',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AL' => [
         'ua' => 'kraken/0.6.0',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AM' => [
         'ua' => 'label=ypmobapp;anv=YPmobile4.3.1;os=Android 4.4.2;dev=hlteatt;devm=SAMSUNG-SM-N900A;man=samsung;brw=Android;shwd=1080x1920;shwa=1080x1845;cs=yes;is=yes;as=yes;vs=yes;jss=yes;ls=DAM;',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AN' => [
         'ua' => 'Lenovo-A388t_TD/S100 Linux/3.4.5 Android/4.1.2 Release/07.30.2013 Browser/AppleWebkit534.30 Mobile Safari/534.30',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-AO' => [
         'ua' => 'LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2',
@@ -2120,6 +2159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AP' => [
         'ua' => 'LivelapBot/0.2 (http://site.livelap.com/crawler)',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AQ' => [
         'ua' => 'Locubot (compatible; Googlebot; msnbot)',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AR' => [
         'ua' => 'MailChimp.com',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AS' => [
         'ua' => 'MixBot (+http://t.co/GSRLLKex24)',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AT' => [
         'ua' => 'Mozilla,BuSecurityProject',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AU' => [
         'ua' => 'Mozilla/4.0 (compatible; focuseekbot)',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; b2w 0.1)',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Win32)',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.0450',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; FunWebProducts; GTB6.3; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.0.0; .NET CLR 3.0.30729; InfoPath.2; MS-RTC LM 8; .NE',
@@ -2648,8 +2697,9 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-AZ' => [
         'ua' => 'Mozilla/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BA' => [
         'ua' => 'Mozilla/4.0 (compatible;Android;320x480)',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BB' => [
         'ua' => 'Mozilla/4.0 (vBSEO; http://www.vbseo.com)',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BC' => [
         'ua' => 'Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.1)',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BD' => [
         'ua' => 'Mozilla/5.0  (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BE' => [
         'ua' => 'Mozilla/5.0  Gecko/2009042316 Firefox/2.0.0.x',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BF' => [
         'ua' => 'Mozilla/5.0 (;;; en-us; Huawei-U8651S Build/U8651SV100R001USAC85B843) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BG' => [
         'ua' => 'Mozilla/5.0 ()',
@@ -3074,6 +3131,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BH' => [
         'ua' => 'Mozilla/5.0 (bl.uk_lddc_bot; Linux x86_64) PhantomJS/1.9.7 (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BI' => [
         'ua' => 'Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BJ' => [
         'ua' => 'Mozilla/5.0 (compatible; imrbot/1.10.8 +http://www.mignify.com)',
@@ -3233,6 +3293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BK' => [
         'ua' => 'Mozilla/5.0 (compatible; JobdiggerSpider +http://www.jobdigger.nl/spider)',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BL' => [
         'ua' => 'Mozilla/5.0 (compatible; kgbody/2.0; +http://kids.goo.ne.jp/tool/kgbody.php)',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BM' => [
         'ua' => 'Mozilla/5.0 (compatible; kulturarw3 +http://www.kb.se/om/projekt/Svenska-webbsidor---Kulturarw3/)',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BN' => [
         'ua' => 'Mozilla/5.0 (compatible; LucidWorks/; +; crawler at example dot com)',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BO' => [
         'ua' => 'Mozilla/5.0 (compatible; memorybot/1.20.207 +http://mignify.com/bot.html)',
@@ -3498,6 +3563,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BP' => [
         'ua' => 'Mozilla/5.0 (compatible; MerchantCentricBot/1.0)',
@@ -3551,6 +3617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BQ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.1028; Windows NT 5.1; WOW64; Trident/7.0)',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/BD6)',
@@ -3657,6 +3725,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BS' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.3; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; 360SE)',
@@ -3710,6 +3779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BT' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)',
@@ -3763,6 +3833,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BU' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT; MarketwireBot +http://www.marketwire.com)',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BV' => [
         'ua' => 'Mozilla/5.0 (compatible; Nett.io bot/1.0; +http://nett.io/)',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; GT-P3100) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
@@ -3921,7 +3994,8 @@ return [
             'RenderingEngine_Maker' => 'UCWeb Inc.',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-BX' => [
         'ua' => 'Mozilla/5.0 (compatible; rv:33.0; ; Trident/5.0)',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BY' => [
         'ua' => 'Mozilla/5.0 (compatible; SemanticBot/1.1)',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-BZ' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.3.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)',
@@ -4081,6 +4157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CA' => [
         'ua' => 'Mozilla/5.0 (compatible; TweetedTimes Bot/1.0 (resolver); +http://tweetedtimes.com)',
@@ -4134,6 +4211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CB' => [
         'ua' => 'Mozilla/5.0 (compatible; TweetedTimes Bot/1.0; +http://tweetedtimes.com)',
@@ -4187,6 +4265,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CC' => [
         'ua' => 'Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)',
@@ -4240,6 +4319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CD' => [
         'ua' => 'Mozilla/5.0 (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)',
@@ -4293,6 +4373,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CE' => [
         'ua' => 'Mozilla/5.0 (compatible; YioopBot; +http://173.13.143.74/bot.php)',
@@ -4346,6 +4427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CF' => [
         'ua' => 'Mozilla/5.0 (compatible; zitebot support [at] zite [dot] com +http://zite.com)',
@@ -4399,6 +4481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CG' => [
         'ua' => 'Mozilla/5.0 (compatible;acapbot/0.1.;treat like Googlebot)',
@@ -4452,6 +4535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CH' => [
         'ua' => 'Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.15 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)',
@@ -4505,6 +4589,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CI' => [
         'ua' => 'Mozilla/5.0 (en-us) AppleWebKit/537.36(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;) Chrome/27.0.1453Safari/537.36',
@@ -4558,6 +4643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CK' => [
         'ua' => 'Mozilla/5.0 (iPhone) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7',
@@ -4611,6 +4697,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-CL' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile Schoolwires',
@@ -4664,6 +4751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CM' => [
         'ua' => 'Mozilla/5.0 (Linux x86_64) AppleWebKit/537.6+ (KHTML, like Gecko) WebKitGTK+/1.10.2 luakit/0d5f4',
@@ -4717,6 +4805,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; N; Android 4.0.3; ru-ru; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4770,6 +4859,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2;es-es;GT-I5500 Build/ FROYO) AppleWebKit/533.1 (KHTML, like Geccko) Version/4.0 Mobile Safari/533.1',
@@ -4823,6 +4913,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; Bmobile_AX540 Build/IMM76D) AppleWebKit/534.30 (KHMTL, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4874,8 +4965,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TAB10-400Build/NobleTAB10-400) AppleWebKit/534.30 (KHTML, likeGecko) Version/4.0 Safari/534.30',
@@ -4927,8 +5019,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-513-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-gb) AppleWebKit/418.9.1 (KHTML, like Gecko) SiteCon/8.10.22',
@@ -4982,6 +5075,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CU' => [
         'ua' => 'Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spi_der.html)',
@@ -5035,6 +5129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CV' => [
         'ua' => 'Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;HTC Desire Build) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -5086,8 +5181,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CW' => [
         'ua' => 'Mozilla/5.0 (Linux;U;Android 4.2.2; en-us; Nuqleo; Zaffire 1010 Build/ICS) AppleWebKit/531.21.10(KTHML,like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10',
@@ -5139,8 +5235,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CX' => [
         'ua' => 'Mozilla/5.0 (Linux;U;Android 4.4.2;Lenovo A328 Build/KOT49H) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/537.306 Mobile Safari/534.30;',
@@ -5194,6 +5291,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) iBooks Author/652',
@@ -5247,6 +5345,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) iWeb/304',
@@ -5300,6 +5399,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) NewsFire',
@@ -5353,6 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) RMSnapKit/1.0',
@@ -5406,6 +5507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DC' => [
         'ua' => 'Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)',
@@ -5459,6 +5561,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) NewsFire',
@@ -5512,6 +5615,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) Version/2.9.1 Sandvox',
@@ -5565,6 +5669,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) TubeTV',
@@ -5618,6 +5723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) PowerPoint/14.43.0',
@@ -5671,6 +5777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.141.16-Gen4_11004310) AppleWebkit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true',
@@ -5724,6 +5831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/533.21.1 (KHTML, like Gecko) Elluminate Live! Web Tour',
@@ -5777,6 +5885,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/15.0',
@@ -5830,6 +5939,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DK' => [
         'ua' => 'Mozilla/5.0 (Mobile; LG-D300; rv:18.1) Gecko/18.1 Firefox/18.1',
@@ -5883,6 +5993,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-DL' => [
         'ua' => 'Mozilla/5.0 (Mobile; ZTEOPEN; rv:18.1) Gecko/18.1 Firefox/18.1',
@@ -5936,6 +6047,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-DM' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:28.1) Gecko/28.1 Firefox/28.1',
@@ -5989,6 +6101,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-513-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
@@ -6042,6 +6155,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) SuperBird/24.0',
@@ -6095,6 +6209,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.15 (KHTML, like Gecko; +http://www.diffbot.com) Chrome/24.0.1295.0 Safari/537.15',
@@ -6148,6 +6263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; Trident/8.0; rv:550) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 Safari/550.1.3',
@@ -6201,6 +6317,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -6254,6 +6371,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2181.0 Safari/537.36',
@@ -6307,6 +6425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -6360,6 +6479,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER',
@@ -6413,6 +6533,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2188.2 Safari/537.36 OPR/27.0.1670.0 (Edition developer)',
@@ -6466,6 +6587,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/30.0.1599.101 Safari/537.36',
@@ -6519,6 +6641,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; en_US) AppleWebKit/533.19.4 (KHTML, like Gecko) Dreamweaver/12.0.0.5808 Version/5.0.3 Safari/533.19.4',
@@ -6572,6 +6695,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-DZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/523+ (KHTML, like Gecko) AdobeAIR/1.5 Community Help Client 1.0',
@@ -6625,6 +6749,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/15.0',
@@ -6678,6 +6803,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533+ (KHTML, like Gecko) Element Browser 5.0',
@@ -6731,6 +6857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EC' => [
         'ua' => 'Mozilla/5.0 (X11; BSD Four) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34',
@@ -6784,6 +6911,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-ED' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.14.1 (like Gecko) Konqueror/4.14',
@@ -6837,6 +6965,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EF' => [
         'ua' => 'Mozilla/5.0 (X11;) AppleWebKit/534.34 (KHTML, like Gecko) akregator/4.14.1 Safari/534.34',
@@ -6890,6 +7019,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EG' => [
         'ua' => 'Mozilla/5.0 AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1 Installatron (Mimicking WebKit)',
@@ -6943,6 +7073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EH' => [
         'ua' => 'Mozilla/5.0(Linux; Android 4.4.2; ru-ru; Fly IQ4409 Quad Build/KOT49H) AppleWebKit/537.36(KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -6994,8 +7125,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-513-EI' => [
         'ua' => 'Mozilla/5.0(Linux;U; Android 4.0.4; en-us;NEC-0912 Build/A8212300)AppleWebKit/534.30(KHTML, Like Gecko)Version/4.0 Mobile Safari/534.30',
@@ -7047,8 +7179,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-513-EJ' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.2;en-us;BLU Studio 5.0 S II Build/JDQ39)AppleWebKit/534.30(KHTML,like Gecko)Version/4.0 Mobile Safari/534.30',
@@ -7100,8 +7233,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EK' => [
         'ua' => 'Mozilla/5.0(Linux/3.4.5; U; Android 4.4.2; zh-cn; Lenovo A536 Build/KOT49H)AppleWebKit/534.30 (KHTML, like Gecko) Version/4.4.2 Mobile Safari/534.30 Release/01.17.2014',
@@ -7155,6 +7289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EM' => [
         'ua' => 'Opera/9.80 (Windows Phone; Opera Mini/7.6.8/35.4999; U; en) Presto/2.8.119 Version/11.10',
@@ -7208,6 +7343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EN' => [
         'ua' => 'PageFreezer (pagefreezer crawler; http://pagefreezer.com/pagefreezer-crawler/; info@pagefreezer.com)',
@@ -7261,6 +7397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EO' => [
         'ua' => 'Quora 4.0.1 rv:222 (iPhone3,1; iPhone OS 7.1.2; he_IL)',
@@ -7313,7 +7450,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-EP' => [
         'ua' => 'Quora 4.0.4 rv:236 (iPhone6,1; iPhone OS 8.1; en_US)',
@@ -7366,7 +7504,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-EQ' => [
         'ua' => 'RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko/20100101 Firefox/7.0.1',
@@ -7420,6 +7559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-ER' => [
         'ua' => 'restify/2.6.3 (x64-darwin; v8/3.14.5.9; OpenSSL/1.0.1i) node/0.10.32',
@@ -7473,6 +7613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-ES' => [
         'ua' => 'Rocky ChatWork Mobile/3.4.1 iosv7.1.2 (iPhone App iPhone6,1)',
@@ -7525,7 +7666,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-ET' => [
         'ua' => 'Rocky ChatWork Mobile/3.4.1 iosv8.0.2 (iPhone App iPhone7,2)',
@@ -7578,7 +7720,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-513-EU' => [
         'ua' => 'ShowyouBot (http://showyou.com/crawler)',
@@ -7632,6 +7775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EV' => [
         'ua' => 'VLC/2.0.6 LibVLC/2.0.6',
@@ -7685,6 +7829,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EW' => [
         'ua' => 'VLC/2.1.4 LibVLC/2.1.4',
@@ -7738,6 +7883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EX' => [
         'ua' => 'WebRingChecker/1.71 LWP/5.79',
@@ -7791,6 +7937,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EY' => [
         'ua' => 'wp-android/3.0.1 (Android 4.4.2; nl_NL; samsung GT-N7100/t03gxx)',
@@ -7844,6 +7991,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-513-EZ' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; SAMSUNG-SGH-T669) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -7897,5 +8045,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];

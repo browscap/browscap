@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-CD' => [
         'ua' => 'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; fr-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 Touchpad/1.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-CC' => [
         'ua' => 'Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;en)/400x240 Samsung SCH-U820',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-CB' => [
         'ua' => 'Mozilla/5.0(iPad; U;CPU OS 7 like Mac OS X; zh-CN; iPad2,5) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.0.1.280 U3/0.8.0 Safari/7543.48.3',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-CA' => [
         'ua' => 'LG-GD350/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BZ' => [
         'ua' => 'Mozilla/5.0 (iPod touch; U; CPU iPhone OS 4_2_1 like Mac OS X; es_ES) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPod2,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/4.2.1;FBSS/1; FBCR/;FBID/phone;FBLC/es_ES;FBSF/1.0]',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-au; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
@@ -370,7 +376,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-096-BX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFJWA Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=false',
@@ -423,7 +430,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-096-BW' => [
         'ua' => 'SAMSUNG-SGH-T528g/T528UDKE4[TF355314045027030009640018153425713] Dolfin/1.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
@@ -477,6 +485,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-BV' => [
         'ua' => 'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BU' => [
         'ua' => 'Firefox/25.0 (de); anonymized by Abelssoft 1704153795',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; GT-I5700 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BS' => [
         'ua' => 'iBrowser/3.1/Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-I5510 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_1; en-US) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11 OmniWeb/622.16.0',
@@ -742,6 +755,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BQ' => [
         'ua' => 'MQQBrowser/3.2/Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -795,6 +809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BP' => [
         'ua' => 'Tablet-PC-4.1-Mozilla/5.0 (Linux; U; Android 4.1.1; el-gr; INM8002KP Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -848,6 +863,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-BO' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD; U; Viera; pt-BR) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1',
@@ -901,6 +917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BN' => [
         'ua' => 'JUC (Linux; U; 2.2.1; zh-cn; GT-S5570; 240*320) UCWEB7.9.0.94/139/444',
@@ -953,7 +970,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-096-BM' => [
         'ua' => 'Huawei/1.0/HUAWEI-G7300 Browser/Opera MMS/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; it-IT) Presto/2.5.28 Version/10.10',
@@ -1007,6 +1025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BL' => [
         'ua' => 'OPPO_R813T/1.0 Linux/3.0.35.7 Android/4.0 Release/11.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2',
@@ -1060,6 +1079,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; sprd-B51+/1.0 Android/2.3.6 Release/fk.ho.hfgi Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -1111,8 +1131,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
-        'standard' => false,
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
     ],
     'issue-096-BJ' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -1166,6 +1187,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BI' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU iPhone OS 5_1_1 like Mac OS X; en_US) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/en_US;FBSF/2.0]',
@@ -1219,6 +1241,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BH' => [
         'ua' => 'Mozilla/5.0 (iPhone5,2; iPhone; U; CPU OS 7_0_4 like Mac OS X; it_IT) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N42AP (gzip)',
@@ -1271,7 +1294,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-BG' => [
         'ua' => 'SAMSUNG-GT-E3309T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.34189/34.1016; U; en) Presto/2.8.119 Version/11.10',
@@ -1324,7 +1348,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.10990AT Mobile',
@@ -1378,6 +1403,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:) Gecko/20100101 Firefox/ anonymized by Abelssoft 1433017337',
@@ -1431,6 +1457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BD' => [
         'ua' => 'AT-AS40SE Linux/3.0.13 Android/4.0.4 Release/04.10.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
@@ -1484,6 +1511,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-BC' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; AX5_Duo) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
@@ -1537,6 +1565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BB' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/5.0/27.2339; U; en) Presto/2.8.119 320X240 Samsung SCH-U750',
@@ -1590,6 +1619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-BA' => [
         'ua' => 'UCWEB/2.0 (iOS; U; iPh OS 7_0_4; zh-CN; iPh5,2) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile',
@@ -1642,7 +1672,8 @@ return [
             'RenderingEngine_Maker' => 'UCWeb Inc.',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-AZ' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 7.10; en-US; SAMSUNG; GT-I8350) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile',
@@ -1696,6 +1727,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-AY' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V5; en-US; SonyEricssonU1) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile',
@@ -1749,6 +1781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AX' => [
         'ua' => 'OneBrowser/3.5/Mozilla/5.0 (Linux; U; Android 2.3.6; en-gb; GT-S5302 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -1802,6 +1835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AW' => [
         'ua' => 'JUC (Linux; U; 2.3.6; zh-cn; Aqua_Star; 320*480) UCWEB7.9.0.94/139/444',
@@ -1855,6 +1889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AV' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.2.1; en-US; GT-S5570) U2/1.0.0 UCBrowser/8.2.0.242 U2/1.0.0 Mobile',
@@ -1908,6 +1943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AU' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.6; en-US; GT-S5360) U2/1.0.0 UCBrowser/9.2.3.324 U2/1.0.0 Mobile',
@@ -1961,6 +1997,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AT' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile',
@@ -2014,6 +2051,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
@@ -2067,6 +2105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AR' => [
         'ua' => 'MicromaxX650 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Sync/SyncClient1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; U; en-US) Presto/2.5.28 Version/10.10',
@@ -2119,7 +2158,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-AQ' => [
         'ua' => 'Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31762/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -2173,6 +2213,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AP' => [
         'ua' => 'Opera/9.80 (Bada; Opera Mini/6.5/34.1016; U; tr) Presto/2.8.119 Version/11.10',
@@ -2226,6 +2267,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-AO' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/6.5/34.1016; U; en) Presto/2.8.119 Version/11.10',
@@ -2279,6 +2321,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AN' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.1.1; en-US; AURUS III) U2/1.0.0 UCBrowser/9.3.0.321 U2/1.0.0 Mobile',
@@ -2332,6 +2375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Safari/535.7',
@@ -2385,6 +2429,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-AL' => [
         'ua' => 'JUC(Linux;U;Android2.3.5;Zh_cn;Micromax A35;480*800;)UCWEB7.8.0.95/139/444',
@@ -2438,6 +2483,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AK' => [
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 2.3.5; en-us; Micromax A27 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
@@ -2491,6 +2537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AJ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.5; en-US; Micromax A27) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile',
@@ -2544,6 +2591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.2.349 U3/0.8.0 Mobile Safari/534.31',
@@ -2597,6 +2645,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.12 Safari/535.19 Silk-Accelerated=true',
@@ -2650,6 +2699,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
@@ -2703,6 +2753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AF' => [
         'ua' => 'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
@@ -2756,6 +2807,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-AE' => [
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 4.0.4; en-gb; GT-S7562 Build/IMM76I) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
@@ -2809,6 +2861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AD' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.8.119 Version/11.10',
@@ -2862,6 +2915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
@@ -2915,6 +2969,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
@@ -2968,6 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-AA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:29.0) Gecko/20100101 Firefox/29.0',
@@ -3021,6 +3077,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; ALCATEL ONE TOUCH 4030D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
@@ -3072,8 +3129,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-Y' => [
         'ua' => 'MT6515M-A1+/1.0 Linux/2.6.35.7 Android 2.3.6 Release/12.09.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
@@ -3127,6 +3185,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-W' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
@@ -3180,6 +3239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-V' => [
         'ua' => 'SAMSUNG-GT-S3802 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32830/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3232,7 +3292,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-S' => [
         'ua' => 'SAMSUNG-GT-C6712/C6712DDKG1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B',
@@ -3286,6 +3347,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-R' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.27510/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3339,6 +3401,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-Q' => [
         'ua' => 'SAMSUNG-GT-C3262 Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.30281/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3392,6 +3455,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-P' => [
         'ua' => 'iBrowser/2.7 Mozilla/5.0 (Linux; U; Android 2.3.6; en-in; A1+ Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -3445,6 +3509,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-O' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
@@ -3496,8 +3561,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-N' => [
         'ua' => 'SAMSUNG-GT-E2202 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.32420/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3550,7 +3616,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-M' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
@@ -3604,6 +3671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-L' => [
         'ua' => 'SAMSUNG-GT-E2252 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29595/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3656,7 +3724,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-K' => [
         'ua' => 'Mozilla/5.0 (Linux;U; Android 2.3.5; en-us; Micromax A40 Build/IML74K) AppleWebKit/534.30(khtml,LIKE Gecko) Version/4.0 Mobile Safari/534.30',
@@ -3708,8 +3777,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-J' => [
         'ua' => 'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1016; U; en) Presto/2.8.119 Version/11.10',
@@ -3762,7 +3832,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFSOWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
@@ -3816,6 +3887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
@@ -3869,6 +3941,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-G' => [
         'ua' => 'Mastone_G9_TD/V2.00 Release/3.19.2012 Mozilla/5.0 (Linux; U; Android 2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -3922,6 +3995,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-096-F' => [
         'ua' => 'Opera/9.80 (SpreadTrum; Opera Mini/4.4.31492/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -3975,6 +4049,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
@@ -4028,6 +4103,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-C' => [
         'ua' => 'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1000; U; en) Presto/2.8.119 Version/11.10',
@@ -4080,7 +4156,8 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-096-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A35 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4132,8 +4209,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-096-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A27 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4185,7 +4263,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

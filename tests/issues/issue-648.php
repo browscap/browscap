@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-648-B' => [
         'ua' => 'Mail/53 CFNetwork/711.2.23 Darwin/14.0.0',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-648-C' => [
         'ua' => 'Safari/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -157,7 +159,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
 ];

@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:26.0.0b2) Goanna/20150828 Gecko/20100101 AppleWebKit/601.1.37 (KHTML, like Gecko) Version/9.0 Safari/601.1.37 PaleMoon/26.0.0b2',
@@ -106,6 +107,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -159,6 +161,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-E' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:32.0) Gecko/20100101 Firefox/32.0',
@@ -212,6 +215,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -265,6 +269,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
@@ -318,6 +323,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 7.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0',
@@ -371,6 +377,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-I' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
@@ -424,6 +431,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-J' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5;Windows NT)',
@@ -476,7 +484,8 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
+        'full' => true,
     ],
     'issue-811-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) KcB/16.0 Firefox/16.0',
@@ -530,6 +539,7 @@ return [
         ],
         'lite' => true,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-L' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.1-development Safari/538.1',
@@ -583,6 +593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-M' => [
         'ua' => 'Mozilla/5.0 (X11; CrOS armv7l 6457.83.0) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/40.0.2214.93 Safari/537.36',
@@ -636,6 +647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-N' => [
         'ua' => 'Mozilla/5.0 (X11; CrOS x86_64 6946.31.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.46 Safari/537.36',
@@ -689,6 +701,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
     'issue-811-O' => [
         'ua' => 'fastbot crawler beta 4.0 (+http://www.fastbot.de)',
@@ -742,5 +755,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => true,
     ],
 ];

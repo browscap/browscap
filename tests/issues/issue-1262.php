@@ -53,6 +53,7 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
     'issue-1262-B' => [
         'ua' => 'WhatsApp/2.6.4 iPhone_OS/5.0.1 Device/iPhone_4',
@@ -106,5 +107,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
+        'full' => true,
     ],
 ];
