@@ -27,12 +27,12 @@ class FullFilter implements FilterInterface
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $propertyHolder = null;
+    private $propertyHolder;
 
     /**
      * @param \Browscap\Data\PropertyHolder|null $propertyHolder
      */
-    public function __construct(PropertyHolder $propertyHolder = null)
+    public function __construct(?PropertyHolder $propertyHolder = null)
     {
         if (null === $propertyHolder) {
             $this->propertyHolder = new PropertyHolder();
@@ -46,7 +46,7 @@ class FullFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return 'FULL';
     }
@@ -58,7 +58,7 @@ class FullFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division)
+    public function isOutput(Division $division) : bool
     {
         return true;
     }
@@ -70,7 +70,7 @@ class FullFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section)
+    public function isOutputSection(array $section) : bool
     {
         return true;
     }
@@ -83,7 +83,7 @@ class FullFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, WriterInterface $writer = null)
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         return $this->propertyHolder->isOutputProperty($property, $writer);
     }

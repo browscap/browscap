@@ -11,6 +11,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Formatter;
 
+use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\CsvFormatter;
 
 /**
@@ -55,7 +56,7 @@ class CsvFormatterTest extends \PHPUnit\Framework\TestCase
      */
     public function testSetGetFilter() : void
     {
-        $mockFilter = $this->createMock(\Browscap\Filter\StandardFilter::class);
+        $mockFilter = $this->createMock(StandardFilter::class);
 
         $this->object->setFilter($mockFilter);
         self::assertSame($mockFilter, $this->object->getFilter());

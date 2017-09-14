@@ -11,7 +11,12 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Generator\Helper;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
 use Browscap\Generator\Helper\BuildHelper;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\WriterCollection;
+use Monolog\Logger;
 
 /**
  * Class BuildGeneratorTest
@@ -30,9 +35,9 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     public function testRun() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',
@@ -71,7 +76,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             }))
             ->will(self::returnSelf());
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -99,7 +104,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -125,7 +130,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -145,9 +150,9 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     public function testRunWithPatternIdCollectionEnabled() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',
@@ -186,7 +191,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             }))
             ->will(self::returnSelf());
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -214,7 +219,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -240,7 +245,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();

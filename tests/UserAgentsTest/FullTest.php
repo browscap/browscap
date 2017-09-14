@@ -96,9 +96,8 @@ class FullTest extends \PHPUnit\Framework\TestCase
         $fullPhpWriter = new IniWriter(self::$buildFolder . '/full_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
         $formatter->setFilter(self::$filter);
-        $fullPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($fullPhpWriter);
 
         $buildGenerator->setCollectionCreator(new CollectionCreator($logger));

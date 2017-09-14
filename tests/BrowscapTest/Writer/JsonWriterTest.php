@@ -11,7 +11,13 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Writer;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
+use Browscap\Data\Expander;
+use Browscap\Filter\StandardFilter;
+use Browscap\Formatter\JsonFormatter;
 use Browscap\Writer\JsonWriter;
+use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -49,7 +55,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.json';
 
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
         $this->object = new JsonWriter($this->file, $logger);
     }
@@ -84,9 +90,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testSetGetFormatter() : void
     {
-        $mockFormatter = $this->createMock(\Browscap\Formatter\JsonFormatter::class);
+        $mockFormatter = $this->createMock(JsonFormatter::class);
 
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        $this->object->setFormatter($mockFormatter);
         self::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
@@ -98,9 +104,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testSetGetFilter() : void
     {
-        $mockFilter = $this->createMock(\Browscap\Filter\StandardFilter::class);
+        $mockFilter = $this->createMock(StandardFilter::class);
 
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $this->object->setFilter($mockFilter);
         self::assertSame($mockFilter, $this->object->getFilter());
     }
 
@@ -114,7 +120,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $silent = true;
 
-        self::assertSame($this->object, $this->object->setSilent($silent));
+        $this->object->setSilent($silent);
         self::assertSame($silent, $this->object->isSilent());
     }
 
@@ -128,7 +134,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->fileStart());
+        $this->object->fileStart();
         self::assertSame(
             '{' . PHP_EOL,
             file_get_contents($this->file)
@@ -145,7 +151,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->fileStart());
+        $this->object->fileStart();
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -159,7 +165,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->fileEnd());
+        $this->object->fileEnd();
         self::assertSame('}' . PHP_EOL, file_get_contents($this->file));
     }
 
@@ -173,7 +179,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->fileEnd());
+        $this->object->fileEnd();
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -189,7 +195,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->renderHeader($header));
+        $this->object->renderHeader($header);
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -205,7 +211,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->renderHeader($header));
+        $this->object->renderHeader($header);
         self::assertSame(
             '  "comments": [' . PHP_EOL . '    "TestData to be renderd into the Header"' . PHP_EOL . '  ],'
             . PHP_EOL,
@@ -230,7 +236,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->renderVersion($version));
+        $this->object->renderVersion($version);
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -251,7 +257,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->renderVersion($version));
+        $this->object->renderVersion($version);
         self::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "test",' . PHP_EOL
             . '    "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '  },' . PHP_EOL,
@@ -271,7 +277,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->renderVersion($version));
+        $this->object->renderVersion($version);
         self::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "0",' . PHP_EOL
             . '    "Released": ""' . PHP_EOL . '  },' . PHP_EOL,
@@ -287,9 +293,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsHeader() : void
     {
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
-        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
+        $this->object->renderAllDivisionsHeader($collection);
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -303,7 +309,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        $this->object->renderDivisionHeader('test');
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -317,7 +323,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(false);
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+        $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -327,9 +333,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('formatPropertyName')
             ->will(self::returnValue('test'));
 
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        $this->object->setFormatter($mockFormatter);
 
-        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        $this->object->renderSectionHeader('test');
         self::assertSame('  test: ', file_get_contents($this->file));
     }
 
@@ -343,7 +349,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        $this->object->renderSectionHeader('test');
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -372,7 +378,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+        $mockExpander = $this->getMockBuilder(Expander::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -382,9 +388,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setExpander($mockExpander));
+        $this->object->setExpander($mockExpander);
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -394,7 +400,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -404,7 +410,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+        $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
@@ -418,9 +424,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        $this->object->setFormatter($mockFormatter);
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+        $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
@@ -436,9 +442,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map));
 
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $this->object->setFilter($mockFilter);
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
+        $this->object->renderSectionBody($section, $collection);
         self::assertSame(
             '{"Test":1,"abc":"bcd"}',
             file_get_contents($this->file)
@@ -481,7 +487,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+        $mockExpander = $this->getMockBuilder(Expander::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -491,9 +497,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setExpander($mockExpander));
+        $this->object->setExpander($mockExpander);
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -503,7 +509,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -513,7 +519,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+        $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
@@ -527,7 +533,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        $this->object->setFormatter($mockFormatter);
 
         $map = [
             ['Comment', $this->object, true],
@@ -536,7 +542,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+        $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
@@ -546,9 +552,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map));
 
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $this->object->setFilter($mockFilter);
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection, $sections));
+        $this->object->renderSectionBody($section, $collection, $sections);
         self::assertSame(
             '{"Parent":"X1","Comment":"1"}',
             file_get_contents($this->file)
@@ -586,7 +592,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+        $mockExpander = $this->getMockBuilder(Expander::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -596,9 +602,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setExpander($mockExpander));
+        $this->object->setExpander($mockExpander);
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -608,7 +614,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -618,7 +624,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+        $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
@@ -632,7 +638,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0));
 
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        $this->object->setFormatter($mockFormatter);
 
         $map = [
             ['Comment', $this->object, true],
@@ -641,7 +647,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+        $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
@@ -651,9 +657,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map));
 
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $this->object->setFilter($mockFilter);
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection, $sections));
+        $this->object->renderSectionBody($section, $collection, $sections);
         self::assertSame(
             '{"Parent":"DefaultProperties","Comment":"1"}',
             file_get_contents($this->file)
@@ -676,9 +682,9 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
             'abc' => 'bcd',
         ];
 
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
+        $this->object->renderSectionBody($section, $collection);
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -692,7 +698,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(false);
 
-        self::assertSame($this->object, $this->object->renderSectionFooter());
+        $this->object->renderSectionFooter();
         self::assertSame(',' . PHP_EOL, file_get_contents($this->file));
     }
 
@@ -706,7 +712,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
     {
         $this->object->setSilent(true);
 
-        self::assertSame($this->object, $this->object->renderSectionFooter());
+        $this->object->renderSectionFooter();
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -718,7 +724,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderDivisionFooter() : void
     {
-        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        $this->object->renderDivisionFooter();
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -730,7 +736,7 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsFooter() : void
     {
-        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        $this->object->renderAllDivisionsFooter();
         self::assertSame('', file_get_contents($this->file));
     }
 }

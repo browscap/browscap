@@ -11,7 +11,11 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Generator;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\WriterCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
@@ -79,7 +83,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuild() : void
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -107,7 +111,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -133,7 +137,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $mockCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $mockCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -143,7 +147,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',
@@ -195,7 +199,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithoutZip() : void
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -223,7 +227,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -249,7 +253,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $mockCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $mockCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -259,7 +263,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',

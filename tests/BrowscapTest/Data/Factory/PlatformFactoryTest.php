@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Device;
 use Browscap\Data\Factory\PlatformFactory;
 
 /**
@@ -50,7 +52,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 
         $deviceData = ['Device_Name' => 'TestDevice'];
 
-        $deviceMock = $this->getMockBuilder(\Browscap\Data\Device::class)
+        $deviceMock = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -59,7 +61,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
             ->method('getProperties')
             ->will(self::returnValue($deviceData));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDevice'])
             ->getMock();

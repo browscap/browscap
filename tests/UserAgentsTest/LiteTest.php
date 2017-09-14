@@ -96,9 +96,8 @@ class LiteTest extends \PHPUnit\Framework\TestCase
         $litePhpWriter = new IniWriter(self::$buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
         $formatter->setFilter(self::$filter);
-        $litePhpWriter
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
+        $litePhpWriter->setFormatter($formatter);
+        $litePhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($litePhpWriter);
 
         $buildGenerator->setCollectionCreator(new CollectionCreator($logger));

@@ -11,6 +11,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Formatter;
 
+use Browscap\Filter\FullFilter;
 use Browscap\Formatter\AspFormatter;
 
 /**
@@ -55,7 +56,7 @@ class AspFormatterTest extends \PHPUnit\Framework\TestCase
      */
     public function testSetGetFilter() : void
     {
-        $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
+        $mockFilter = $this->createMock(FullFilter::class);
 
         $this->object->setFilter($mockFilter);
         self::assertSame($mockFilter, $this->object->getFilter());

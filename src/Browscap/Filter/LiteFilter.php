@@ -46,7 +46,7 @@ class LiteFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return 'LITE';
     }
@@ -58,7 +58,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division)
+    public function isOutput(Division $division) : bool
     {
         return $division->isLite();
     }
@@ -70,7 +70,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section)
+    public function isOutputSection(array $section) : bool
     {
         return isset($section['lite']) && $section['lite'];
     }
@@ -83,7 +83,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, ?WriterInterface $writer = null)
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

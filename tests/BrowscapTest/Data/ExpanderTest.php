@@ -11,7 +11,11 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Device;
+use Browscap\Data\Division;
 use Browscap\Data\Expander;
+use Browscap\Data\Platform;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
@@ -47,7 +51,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted() : void
     {
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
         $this->object->setDataCollection($collection);
         self::assertSame($collection, $this->object->getDataCollection());
@@ -75,7 +79,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testParseDoesNothingOnEmptyDatacollection() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
@@ -85,7 +89,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -100,7 +104,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -125,7 +129,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testParseOnNotEmptyDatacollectionWithoutChildren() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
@@ -135,7 +139,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -150,7 +154,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -189,7 +193,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testParseOnNotEmptyDatacollectionWithChildren() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
@@ -199,7 +203,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -231,7 +235,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -256,7 +260,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
@@ -266,7 +270,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -276,7 +280,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $device = $this->getMockBuilder(\Browscap\Data\Device::class)
+        $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -317,7 +321,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -342,12 +346,12 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -379,7 +383,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getFileName'])
             ->getMock();
@@ -410,12 +414,12 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
             ->getMock();
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -425,7 +429,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $platform = $this->getMockBuilder(\Browscap\Data\Platform::class)
+        $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -465,7 +469,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getFileName'])
             ->getMock();
@@ -496,12 +500,12 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
             ->getMock();
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -511,12 +515,12 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $device = $this->getMockBuilder(\Browscap\Data\Device::class)
+        $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
 
-        $platform = $this->getMockBuilder(\Browscap\Data\Platform::class)
+        $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -568,7 +572,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getFileName'])
             ->getMock();
@@ -602,12 +606,12 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -617,7 +621,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $device = $this->getMockBuilder(\Browscap\Data\Device::class)
+        $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -658,7 +662,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getFileName'])
             ->getMock();

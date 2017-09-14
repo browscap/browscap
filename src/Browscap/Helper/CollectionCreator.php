@@ -46,14 +46,10 @@ class CollectionCreator
 
     /**
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Helper\CollectionCreator
      */
-    public function setDataCollection(DataCollection $collection)
+    public function setDataCollection(DataCollection $collection) : void
     {
         $this->collection = $collection;
-
-        return $this;
     }
 
     /**
@@ -65,7 +61,7 @@ class CollectionCreator
      *
      * @return \Browscap\Data\DataCollection
      */
-    public function createDataCollection($resourceFolder)
+    public function createDataCollection(string $resourceFolder) : DataCollection
     {
         if (null === $this->collection) {
             throw new \LogicException(
@@ -75,11 +71,10 @@ class CollectionCreator
         }
 
         $this->logger->debug('add platform file');
-        $this->collection
-            ->addPlatformsFile($resourceFolder . '/platforms.json')
-            ->addEnginesFile($resourceFolder . '/engines.json')
-            ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
-            ->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
+        $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
+        $this->collection->addEnginesFile($resourceFolder . '/engines.json');
+        $this->collection->addDefaultProperties($resourceFolder . '/core/default-properties.json');
+        $this->collection->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
         $deviceDirectory = $resourceFolder . '/devices';
 

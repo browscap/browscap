@@ -62,8 +62,8 @@ abstract class AbstractBuildGenerator
      */
     public function __construct(string $resourceFolder, string $buildFolder, LoggerInterface $logger)
     {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder);
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder);
         $this->logger         = $logger;
     }
 
@@ -111,18 +111,13 @@ abstract class AbstractBuildGenerator
 
     /**
      * @param string $directory
-     * @param string $type
      *
      * @throws \Exception
      *
      * @return string
      */
-    protected function checkDirectoryExists($directory, $type) : string
+    protected function checkDirectoryExists(string $directory) : string
     {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
         $realDirectory = realpath($directory);
 
         if ($realDirectory === false) {

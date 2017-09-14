@@ -45,9 +45,8 @@ class FullPhpWriterFactory
         $fullPhpWriter = new IniWriter($file, $logger);
         $formatter     = new PhpFormatter();
         $formatter->setFilter($fullFilter);
-        $fullPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter($fullFilter);
 
         $writerCollection->addWriter($fullPhpWriter);
 

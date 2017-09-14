@@ -12,6 +12,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
+use Browscap\Data\Engine;
+use Browscap\Data\Platform;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
@@ -179,7 +182,7 @@ HERE;
         self::assertInternalType('array', $this->object->getPlatforms());
         $platform = $this->object->getPlatform('Platform1');
 
-        self::assertInstanceOf('\Browscap\Data\Platform', $platform);
+        self::assertInstanceOf(Platform::class, $platform);
 
         $properties = $platform->getProperties();
 
@@ -290,7 +293,7 @@ HERE;
         self::assertInternalType('array', $this->object->getEngines());
         $engine = $this->object->getEngine('Foobar');
 
-        self::assertInstanceOf('\Browscap\Data\Engine', $engine);
+        self::assertInstanceOf(Engine::class, $engine);
         $properties = $engine->getProperties();
 
         self::assertInternalType('array', $properties);
@@ -875,7 +878,7 @@ HERE;
 
         self::assertInternalType('array', $divisions);
         self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf(\Browscap\Data\Division::class, $divisions[0]);
+        self::assertInstanceOf(Division::class, $divisions[0]);
     }
 
     /**
@@ -892,7 +895,7 @@ HERE;
 
         self::assertInternalType('array', $divisions);
         self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf(\Browscap\Data\Division::class, $divisions[0]);
+        self::assertInstanceOf(Division::class, $divisions[0]);
     }
 
     /**
@@ -903,14 +906,11 @@ HERE;
      */
     public function testAddDefaultProperties() : void
     {
-        self::assertSame(
-            $this->object,
-            $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json')
-        );
+        $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json');
 
         $division = $this->object->getDefaultProperties();
 
-        self::assertInstanceOf(\Browscap\Data\Division::class, $division);
+        self::assertInstanceOf(Division::class, $division);
         self::assertSame('DefaultProperties', $division->getName());
     }
 
@@ -922,14 +922,11 @@ HERE;
      */
     public function testAddDefaultBrowser() : void
     {
-        self::assertSame(
-            $this->object,
-            $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json')
-        );
+        $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json');
 
         $division = $this->object->getDefaultBrowser();
 
-        self::assertInstanceOf(\Browscap\Data\Division::class, $division);
+        self::assertInstanceOf(Division::class, $division);
         self::assertSame('Default Browser', $division->getName());
     }
 
@@ -1032,6 +1029,8 @@ HERE;
             'isMobileDevice' => false,
         ];
 
-        self::assertTrue($this->object->checkProperty('test', $properties));
+        $this->object->checkProperty('test', $properties);
+        // if the test fails, this will not reached
+        self::assertTrue(true);
     }
 }

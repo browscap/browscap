@@ -32,13 +32,13 @@ class CustomFilter implements FilterInterface
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $propertyHolder = null;
+    private $propertyHolder;
 
     /**
-     * @param array $fields
+     * @param array                              $fields
      * @param \Browscap\Data\PropertyHolder|null $propertyHolder
      */
-    public function __construct(array $fields, PropertyHolder $propertyHolder = null)
+    public function __construct(array $fields, ?PropertyHolder $propertyHolder = null)
     {
         $this->fields = $fields;
 
@@ -54,7 +54,7 @@ class CustomFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return 'CUSTOM';
     }
@@ -66,7 +66,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division)
+    public function isOutput(Division $division) : bool
     {
         return true;
     }
@@ -78,7 +78,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section)
+    public function isOutputSection(array $section) : bool
     {
         return true;
     }
@@ -91,7 +91,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, WriterInterface $writer = null)
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

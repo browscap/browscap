@@ -11,6 +11,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Helper;
 
+use Browscap\Data\DataCollection;
 use Browscap\Helper\CollectionCreator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
@@ -64,7 +65,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\RunTimeException');
         $this->expectExceptionMessage('File "./platforms.json" does not exist.');
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
             ->getMock();
@@ -85,7 +86,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCreateDataCollection() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'])
             ->getMock();
@@ -106,7 +107,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
         $this->object->setDataCollection($collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
-        self::assertInstanceOf(\Browscap\Data\DataCollection::class, $result);
+        self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
     }
 }

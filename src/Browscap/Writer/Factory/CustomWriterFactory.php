@@ -113,9 +113,8 @@ class CustomWriterFactory
 
         $formatter->setFilter($filter);
 
-        $writer
-            ->setFormatter($formatter)
-            ->setFilter($filter);
+        $writer->setFormatter($formatter);
+        $writer->setFilter($filter);
 
         $writerCollection->addWriter($writer);
 

@@ -12,6 +12,8 @@ declare(strict_types = 1);
 namespace BrowscapTest\Writer\Factory;
 
 use Browscap\Writer\Factory\CustomWriterFactory;
+use Browscap\Writer\WriterCollection;
+use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -49,9 +51,9 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testCreateCollection() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(\Browscap\Writer\WriterCollection::class, $this->object->createCollection($logger, $dir));
+        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 }

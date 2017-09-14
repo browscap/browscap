@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\LiteFilter;
 
 /**
@@ -55,7 +57,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['isLite'])
             ->getMock();
@@ -146,7 +148,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputPropertyWithPropertyHolder($propertyName) : void
     {
-        $propertyHolder = $this->getMockBuilder(\Browscap\Data\PropertyHolder::class)
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();

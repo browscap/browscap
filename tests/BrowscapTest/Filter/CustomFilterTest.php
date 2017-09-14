@@ -11,6 +11,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
 use Browscap\Filter\CustomFilter;
 
 /**
@@ -55,7 +56,7 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }

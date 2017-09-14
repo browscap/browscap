@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 
 /**
@@ -55,7 +57,7 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }
@@ -138,7 +140,7 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputPropertyWithPropertyHolder($propertyName) : void
     {
-        $propertyHolder = $this->getMockBuilder(\Browscap\Data\PropertyHolder::class)
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();

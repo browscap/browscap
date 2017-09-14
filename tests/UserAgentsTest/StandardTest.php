@@ -96,9 +96,8 @@ class StandardTest extends \PHPUnit\Framework\TestCase
         $stdPhpWriter = new IniWriter(self::$buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
         $formatter->setFilter(self::$filter);
-        $stdPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
+        $stdPhpWriter->setFormatter($formatter);
+        $stdPhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($stdPhpWriter);
 
         $buildGenerator->setCollectionCreator(new CollectionCreator($logger));

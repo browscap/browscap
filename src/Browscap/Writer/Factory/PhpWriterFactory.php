@@ -45,25 +45,22 @@ class PhpWriterFactory
         $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
         $formatter->setFilter($fullFilter);
-        $fullPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter($fullFilter);
         $writerCollection->addWriter($fullPhpWriter);
 
         $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
         $formatter->setFilter($stdFilter);
-        $stdPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($stdFilter);
+        $stdPhpWriter->setFormatter($formatter);
+        $stdPhpWriter->setFilter($stdFilter);
         $writerCollection->addWriter($stdPhpWriter);
 
         $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
         $formatter->setFilter($liteFilter);
-        $litePhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($liteFilter);
+        $litePhpWriter->setFormatter($formatter);
+        $litePhpWriter->setFilter($liteFilter);
         $writerCollection->addWriter($litePhpWriter);
 
         return $writerCollection;

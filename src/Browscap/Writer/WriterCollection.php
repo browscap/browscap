@@ -72,9 +72,9 @@ class WriterCollection
     }
 
     /**
-     * @param mixed $section
+     * @param bool[] $section
      */
-    public function setSilentSection($section) : void
+    public function setSilentSection(array $section) : void
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutputSection($section));
@@ -151,7 +151,7 @@ class WriterCollection
      * @param string $division
      * @param string $parent
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties') : void
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderDivisionHeader($division, $parent);
@@ -163,7 +163,7 @@ class WriterCollection
      *
      * @param string $sectionName
      */
-    public function renderSectionHeader($sectionName) : void
+    public function renderSectionHeader(string $sectionName) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionHeader($sectionName);
@@ -180,7 +180,7 @@ class WriterCollection
      *
      * @throws \InvalidArgumentException
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '') : void
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionBody($section, $collection, $sections, $sectionName);
@@ -192,7 +192,7 @@ class WriterCollection
      *
      * @param string $sectionName
      */
-    public function renderSectionFooter($sectionName = '') : void
+    public function renderSectionFooter(string $sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionFooter($sectionName);

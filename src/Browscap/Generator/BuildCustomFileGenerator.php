@@ -12,7 +12,6 @@ declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
-use Browscap\Writer;
 use Browscap\Writer\Factory\CustomWriterFactory;
 
 /**

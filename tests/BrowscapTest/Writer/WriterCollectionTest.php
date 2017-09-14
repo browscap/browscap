@@ -11,7 +11,13 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Writer;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
+use Browscap\Filter\FullFilter;
+use Browscap\Formatter\XmlFormatter;
+use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
+use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -60,7 +66,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testAddWriterAndSetSilent() : void
     {
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
+        $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutput'])
             ->getMock();
@@ -70,9 +76,9 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('isOutput')
             ->will(self::returnValue(true));
 
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getFilter'])
             ->getMock();
@@ -95,7 +101,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testSetSilentSection() : void
     {
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
+        $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputSection'])
             ->getMock();
@@ -107,7 +113,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
         $mockDivision = [];
 
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getFilter'])
             ->getMock();
@@ -129,7 +135,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testFileStart() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['fileStart'])
             ->getMock();
@@ -150,7 +156,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testFileEnd() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['fileEnd'])
             ->getMock();
@@ -173,7 +179,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
     {
         $header = ['TestData to be renderd into the Header'];
 
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderHeader'])
             ->getMock();
@@ -196,7 +202,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
     {
         $version = 'test';
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
             ->getMock();
@@ -206,7 +212,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
+        $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutput', 'getType'])
             ->getMock();
@@ -220,7 +226,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getType')
             ->will(self::returnValue('Test'));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
             ->getMock();
@@ -230,9 +236,9 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getType')
             ->will(self::returnValue('test'));
 
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->setMethods(['getFilter', 'getFormatter', 'getLogger'])
             ->setConstructorArgs([$this->file, $logger])
             ->getMock();
@@ -259,9 +265,9 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsHeader() : void
     {
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderAllDivisionsHeader'])
             ->getMock();
@@ -282,7 +288,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderDivisionHeader() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderDivisionHeader'])
             ->getMock();
@@ -303,7 +309,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderSectionHeader() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderSectionHeader'])
             ->getMock();
@@ -330,8 +336,8 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             'Platform' => 'bcd',
         ];
 
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $collection = $this->createMock(DataCollection::class);
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderSectionBody'])
             ->getMock();
@@ -352,7 +358,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderSectionFooter() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderSectionFooter'])
             ->getMock();
@@ -373,7 +379,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderDivisionFooter() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderDivisionFooter'])
             ->getMock();
@@ -394,7 +400,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsFooter() : void
     {
-        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+        $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['renderAllDivisionsFooter'])
             ->getMock();
