@@ -27,7 +27,7 @@ interface ProcessorInterface
      *
      * @return void
      */
-    public function process(array $coveredIds);
+    public function process(array $coveredIds) : void;
 
     /**
      * Write the processed coverage data to filename
@@ -36,7 +36,7 @@ interface ProcessorInterface
      *
      * @return void
      */
-    public function write(string $fileName);
+    public function write(string $fileName) : void;
 
     /**
      * Set covered pattern ids

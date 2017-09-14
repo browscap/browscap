@@ -23,28 +23,28 @@ use org\bovigo\vfs\vfsStream;
  */
 class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 {
-    const STORAGE_DIR = 'storage';
+    private const STORAGE_DIR = 'storage';
 
     /**
      * @var \Browscap\Writer\WriterCollection
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var \org\bovigo\vfs\vfsStreamDirectory
      */
-    private $root = null;
+    private $root;
 
     /**
      * @var string
      */
-    private $file = null;
+    private $file;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
@@ -58,7 +58,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testAddWriterAndSetSilent()
+    public function testAddWriterAndSetSilent() : void
     {
         $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
             ->disableOriginalConstructor()
@@ -93,7 +93,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetSilentSection()
+    public function testSetSilentSection() : void
     {
         $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
             ->disableOriginalConstructor()
@@ -127,7 +127,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileStart()
+    public function testFileStart() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -148,7 +148,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileEnd()
+    public function testFileEnd() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -169,7 +169,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeader()
+    public function testRenderHeader() : void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -192,7 +192,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersion()
+    public function testRenderVersion() : void
     {
         $version = 'test';
 
@@ -257,7 +257,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsHeader()
+    public function testRenderAllDivisionsHeader() : void
     {
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
@@ -280,7 +280,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionHeader()
+    public function testRenderDivisionHeader() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -301,7 +301,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeader()
+    public function testRenderSectionHeader() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -322,7 +322,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBody()
+    public function testRenderSectionBody() : void
     {
         $section = [
             'Comment' => 1,
@@ -350,7 +350,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooter()
+    public function testRenderSectionFooter() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -371,7 +371,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionFooter()
+    public function testRenderDivisionFooter() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()
@@ -392,7 +392,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsFooter()
+    public function testRenderAllDivisionsFooter() : void
     {
         $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
             ->disableOriginalConstructor()

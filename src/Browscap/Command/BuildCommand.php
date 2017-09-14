@@ -33,17 +33,17 @@ class BuildCommand extends Command
     /**
      * @var string
      */
-    const DEFAULT_BUILD_FOLDER = '/../../../build';
+    private const DEFAULT_BUILD_FOLDER = '/../../../build';
 
     /**
      * @var string
      */
-    const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
+    private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
     /**
      * Configures the current command.
      */
-    protected function configure()
+    protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -70,7 +70,7 @@ class BuildCommand extends Command
      *
      * @throws \LogicException When this abstract method is not implemented
      *
-     * @return null|int null or 0 if everything went fine, or an error code
+     * @return int|null null or 0 if everything went fine, or an error code
      *
      * @see    setCode()
      */

@@ -23,28 +23,28 @@ use org\bovigo\vfs\vfsStream;
  */
 class CsvWriterTest extends \PHPUnit\Framework\TestCase
 {
-    const STORAGE_DIR = 'storage';
+    private const STORAGE_DIR = 'storage';
 
     /**
      * @var \Browscap\Writer\CsvWriter
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var \org\bovigo\vfs\vfsStreamDirectory
      */
-    private $root = null;
+    private $root;
 
     /**
      * @var string
      */
-    private $file = null;
+    private $file;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
@@ -58,7 +58,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function teardown()
+    public function teardown() : void
     {
         $this->object->close();
 
@@ -71,7 +71,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('csv', $this->object->getType());
     }
@@ -82,7 +82,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFormatter()
+    public function testSetGetFormatter() : void
     {
         $mockFormatter = $this->createMock(\Browscap\Formatter\CsvFormatter::class);
 
@@ -96,7 +96,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFilter()
+    public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
 
@@ -110,7 +110,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetSilent()
+    public function testSetGetSilent() : void
     {
         $silent = true;
 
@@ -124,7 +124,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileStart()
+    public function testFileStart() : void
     {
         self::assertSame($this->object, $this->object->fileStart());
         self::assertSame('', file_get_contents($this->file));
@@ -136,7 +136,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileEnd()
+    public function testFileEnd() : void
     {
         self::assertSame($this->object, $this->object->fileEnd());
         self::assertSame('', file_get_contents($this->file));
@@ -148,7 +148,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeader()
+    public function testRenderHeader() : void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -162,7 +162,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfSilent()
+    public function testRenderVersionIfSilent() : void
     {
         $version = [
             'version' => 'test',
@@ -183,7 +183,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilent()
+    public function testRenderVersionIfNotSilent() : void
     {
         $version = [
             'version' => 'test',
@@ -207,7 +207,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilentButWithoutVersion()
+    public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
         $version = [];
 
@@ -226,7 +226,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsHeader()
+    public function testRenderAllDivisionsHeader() : void
     {
         $expectedAgents = [
             0 => [
@@ -296,7 +296,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsHeaderWithoutProperties()
+    public function testRenderAllDivisionsHeaderWithoutProperties() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -328,7 +328,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionHeader()
+    public function testRenderDivisionHeader() : void
     {
         self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
         self::assertSame('', file_get_contents($this->file));
@@ -340,7 +340,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeader()
+    public function testRenderSectionHeader() : void
     {
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
         self::assertSame('', file_get_contents($this->file));
@@ -352,7 +352,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilent()
+    public function testRenderSectionBodyIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -409,7 +409,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['isOutputProperty'])
             ->getMock();
 
-        $map        = [
+        $map = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
             ['abc', $this->object, true],
@@ -433,7 +433,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfSilent()
+    public function testRenderSectionBodyIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -455,7 +455,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooter()
+    public function testRenderSectionFooter() : void
     {
         self::assertSame($this->object, $this->object->renderSectionFooter());
         self::assertSame('', file_get_contents($this->file));
@@ -467,7 +467,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionFooter()
+    public function testRenderDivisionFooter() : void
     {
         self::assertSame($this->object, $this->object->renderDivisionFooter());
         self::assertSame('', file_get_contents($this->file));
@@ -479,7 +479,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsFooter()
+    public function testRenderAllDivisionsFooter() : void
     {
         self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
         self::assertSame('', file_get_contents($this->file));

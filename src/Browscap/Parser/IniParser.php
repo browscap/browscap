@@ -142,6 +142,7 @@ class IniParser implements ParserInterface
 
             if (mb_substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
                 $currentDivision = trim(mb_substr($currentLine, 41));
+
                 continue;
             }
 
@@ -152,16 +153,17 @@ class IniParser implements ParserInterface
 
             if ($currentLine[0] === '[') {
                 $currentSection = mb_substr($currentLine, 1, ($currentLineLength - 2));
+
                 continue;
             }
 
             $bits = explode('=', $currentLine);
 
-            if (count($bits) > 2) {
+            if (2 < count($bits)) {
                 throw new \RuntimeException("Too many equals in line: {$currentLine}, in Division: {$currentDivision}");
             }
 
-            if (count($bits) < 2) {
+            if (2 > count($bits)) {
                 $bits[1] = '';
             }
 

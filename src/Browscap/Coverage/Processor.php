@@ -30,13 +30,13 @@ final class Processor implements ProcessorInterface
      *
      * @var int
      */
-    const JSON_OBJECT_START = 17;
-    const JSON_OBJECT_END   = 18;
-    const JSON_ARRAY_START  = 23;
-    const JSON_ARRAY_END    = 24;
-    const JSON_EOF          = 1;
-    const JSON_STRING       = 4;
-    const JSON_COLON        = 21;
+    private const JSON_OBJECT_START = 17;
+    private const JSON_OBJECT_END   = 18;
+    private const JSON_ARRAY_START  = 23;
+    private const JSON_ARRAY_END    = 24;
+    private const JSON_EOF          = 1;
+    private const JSON_STRING       = 4;
+    private const JSON_COLON        = 21;
     /**@-*/
 
     /**
@@ -161,7 +161,7 @@ final class Processor implements ProcessorInterface
      *
      * @return void
      */
-    public function setCoveredPatternIds(array $coveredIds)
+    public function setCoveredPatternIds(array $coveredIds) : void
     {
         $this->coveredIds = $this->groupIdsByFile($coveredIds);
     }
@@ -422,6 +422,7 @@ final class Processor implements ProcessorInterface
                             'end' => $this->getLocationCoordinates($lexer, true, '"' . $match . '"'),
                         ];
                     }
+
                     break;
                 case self::JSON_OBJECT_START:
                     if ($enterDevices === true) {
@@ -430,12 +431,14 @@ final class Processor implements ProcessorInterface
                     } else {
                         $code = $this->ignoreObjectBlock($lexer);
                     }
+
                     break;
                 case self::JSON_ARRAY_START:
                     if ($enterPlatforms === true) {
                         $code           = $this->handlePlatformBlock($lexer, $useragentPosition, $childPosition);
                         $enterPlatforms = false;
                     }
+
                     break;
             }
         } while ($code !== self::JSON_OBJECT_END);
@@ -663,8 +666,8 @@ final class Processor implements ProcessorInterface
      */
     private function getCoverageCount(string $id, array $covered) : int
     {
-        $id                  = str_replace('\/', '/', $id);
-        list($u, $c, $d, $p) = explode('::', $id);
+        $id              = str_replace('\/', '/', $id);
+        [$u, $c, $d, $p] = explode('::', $id);
 
         $u = preg_quote(mb_substr($u, 1), '/');
         $c = preg_quote(mb_substr($c, 1), '/');

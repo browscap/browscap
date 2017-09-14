@@ -62,7 +62,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
      */
     private static $filter = null;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
@@ -129,7 +129,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
      * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
      * the $coveredPatterns array isn't empty
      */
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
             $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
@@ -201,7 +201,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgents($userAgent, $expectedProperties)
+    public function testUserAgents($userAgent, $expectedProperties) : void
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');

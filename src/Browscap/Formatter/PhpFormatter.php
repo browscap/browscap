@@ -26,7 +26,7 @@ class PhpFormatter implements FormatterInterface
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $filter = null;
+    private $filter;
 
     /**
      * returns the Type of the formatter
@@ -66,6 +66,7 @@ class PhpFormatter implements FormatterInterface
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
                 $valueOutput = '"' . trim((string) $value) . '"';
+
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
@@ -75,6 +76,7 @@ class PhpFormatter implements FormatterInterface
                 } else {
                     $valueOutput = '';
                 }
+
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
@@ -82,6 +84,7 @@ class PhpFormatter implements FormatterInterface
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
+
                 break;
             default:
                 if (preg_match('/[^a-zA-Z0-9]/', $valueOutput)) {

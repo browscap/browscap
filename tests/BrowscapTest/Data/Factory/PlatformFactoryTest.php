@@ -25,13 +25,13 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Data\Factory\PlatformFactory
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new PlatformFactory();
     }
@@ -42,7 +42,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testBuild()
+    public function testBuild() : void
     {
         $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true];
         $json         = [];

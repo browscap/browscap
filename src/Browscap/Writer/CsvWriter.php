@@ -28,22 +28,22 @@ class CsvWriter implements WriterInterface
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var resource
      */
-    private $file = null;
+    private $file;
 
     /**
      * @var \Browscap\Formatter\FormatterInterface
      */
-    private $formatter = null;
+    private $formatter;
 
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $type = null;
+    private $type;
 
     /**
      * @var bool
@@ -78,7 +78,7 @@ class CsvWriter implements WriterInterface
     /**
      * closes the Writer and the written File
      */
-    public function close()
+    public function close() : void
     {
         fclose($this->file);
     }

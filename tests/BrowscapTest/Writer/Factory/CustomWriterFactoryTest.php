@@ -23,18 +23,18 @@ use org\bovigo\vfs\vfsStream;
  */
 class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 {
-    const STORAGE_DIR = 'storage';
+    private const STORAGE_DIR = 'storage';
 
     /**
      * @var \Browscap\Writer\Factory\CustomWriterFactory
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
 
@@ -47,7 +47,7 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testCreateCollection()
+    public function testCreateCollection() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);

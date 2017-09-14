@@ -25,7 +25,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Coverage\Processor
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var string
@@ -35,7 +35,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
     /**
      * Run before each test, creates a new Processor object
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new Processor($this->resourceDir);
     }
@@ -61,7 +61,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * @param string $fileName
      * @param array  $expected
      */
-    public function testJsonStructure(string $fileName, array $expected)
+    public function testJsonStructure(string $fileName, array $expected) : void
     {
         $coverage = $this->object->processFile($fileName, file_get_contents($this->resourceDir . $fileName), []);
 
@@ -144,7 +144,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * @param string[] $coveredIds
      * @param array    $expected
      */
-    public function testCoverage(string $fileName, array $coveredIds, array $expected)
+    public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
     {
         $coverage = $this->object->processFile(
             $fileName,
@@ -167,7 +167,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
      */
-    public function testPatternIdGrouping()
+    public function testPatternIdGrouping() : void
     {
         $patternIds = [
             'abc.json::u0::c0::d::p',

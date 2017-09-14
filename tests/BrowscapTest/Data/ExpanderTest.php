@@ -27,13 +27,13 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Data\Expander
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $logger       = new Logger('browscapTest', [new NullHandler()]);
         $this->object = new Expander($logger);
@@ -45,7 +45,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
+    public function testGetDataCollectionReturnsSameDatacollectionAsInserted() : void
     {
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
@@ -59,7 +59,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetVersionParts()
+    public function testGetVersionParts() : void
     {
         $result = $this->object->getVersionParts('1');
 
@@ -73,7 +73,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testParseDoesNothingOnEmptyDatacollection()
+    public function testParseDoesNothingOnEmptyDatacollection() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -123,7 +123,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testParseOnNotEmptyDatacollectionWithoutChildren()
+    public function testParseOnNotEmptyDatacollectionWithoutChildren() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -187,7 +187,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testParseOnNotEmptyDatacollectionWithChildren()
+    public function testParseOnNotEmptyDatacollectionWithChildren() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -254,7 +254,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices()
+    public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -340,7 +340,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren()
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -408,7 +408,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms()
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -494,7 +494,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices()
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()
@@ -600,7 +600,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices()
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()

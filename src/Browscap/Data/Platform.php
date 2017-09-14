@@ -23,7 +23,7 @@ class Platform
     /**
      * @var string|null
      */
-    private $match = null;
+    private $match;
 
     /**
      * @var string[]

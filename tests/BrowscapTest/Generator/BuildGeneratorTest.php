@@ -32,13 +32,13 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->logger   = new Logger('browscapTest', [new NullHandler()]);
         $this->messages = [];
@@ -50,7 +50,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testConstructFailsIfTheDirDoesNotExsist()
+    public function testConstructFailsIfTheDirDoesNotExsist() : void
     {
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
@@ -64,7 +64,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testConstructFailsIfTheDirIsNotAnDirectory()
+    public function testConstructFailsIfTheDirIsNotAnDirectory() : void
     {
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
@@ -77,7 +77,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testBuild()
+    public function testBuild() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -193,7 +193,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testBuildWithoutZip()
+    public function testBuildWithoutZip() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()

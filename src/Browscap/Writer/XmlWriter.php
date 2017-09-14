@@ -29,22 +29,22 @@ class XmlWriter implements WriterInterface
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var resource
      */
-    private $file = null;
+    private $file;
 
     /**
      * @var FormatterInterface
      */
-    private $formatter = null;
+    private $formatter;
 
     /**
      * @var FilterInterface
      */
-    private $type = null;
+    private $type;
 
     /**
      * @var bool
@@ -79,7 +79,7 @@ class XmlWriter implements WriterInterface
     /**
      * closes the Writer and the written File
      */
-    public function close()
+    public function close() : void
     {
         fclose($this->file);
     }

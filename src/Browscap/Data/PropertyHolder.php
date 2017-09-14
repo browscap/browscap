@@ -310,6 +310,7 @@ class PropertyHolder
                     'Tool',
                     'unknown',
                 ];
+
                 break;
             case 'Device_Type':
                 $allowedValues = [
@@ -324,18 +325,21 @@ class PropertyHolder
                     'Digital Camera',
                     'unknown',
                 ];
+
                 break;
             case 'Device_Pointing_Method':
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = [
                     'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown',
                 ];
+
                 break;
             case 'Browser_Bits':
             case 'Platform_Bits':
                 $allowedValues = [
                     '0', '8', '16', '32', '64',
                 ];
+
                 break;
             default:
                 throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');

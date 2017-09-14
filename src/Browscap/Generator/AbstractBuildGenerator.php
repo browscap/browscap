@@ -38,17 +38,17 @@ abstract class AbstractBuildGenerator
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    protected $logger = null;
+    protected $logger;
 
     /**
      * @var \Browscap\Helper\CollectionCreator
      */
-    protected $collectionCreator = null;
+    protected $collectionCreator;
 
     /**
      * @var \Browscap\Writer\WriterCollection
      */
-    protected $writerCollection = null;
+    protected $writerCollection;
 
     /**
      * @var bool

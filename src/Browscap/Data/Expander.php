@@ -22,21 +22,15 @@ use Psr\Log\LoggerInterface;
  */
 class Expander
 {
-    const TYPE_STRING   = 'string';
-    const TYPE_GENERIC  = 'generic';
-    const TYPE_NUMBER   = 'number';
-    const TYPE_BOOLEAN  = 'boolean';
-    const TYPE_IN_ARRAY = 'in_array';
-
     /**
      * @var \Browscap\Data\DataCollection
      */
-    private $collection = null;
+    private $collection;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
@@ -519,8 +513,8 @@ class Expander
                 }
 
                 if ($key !== $parent
-                    && isset($allInputDivisions[$parent]['sortIndex'])
-                    && isset($properties['sortIndex'])
+                    && isset($allInputDivisions[$parent]['sortIndex'], $properties['sortIndex'])
+
                     && ($allInputDivisions[$parent]['division'] !== $properties['division'])
                 ) {
                     if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
@@ -591,19 +585,22 @@ class Expander
      *
      * @param string $propertyValue
      *
-     * @return string|bool
+     * @return bool|string
      */
     public function trimProperty(string $propertyValue)
     {
         switch ($propertyValue) {
             case 'true':
                 $propertyValue = true;
+
                 break;
             case 'false':
                 $propertyValue = false;
+
                 break;
             default:
                 $propertyValue = trim($propertyValue);
+
                 break;
         }
 

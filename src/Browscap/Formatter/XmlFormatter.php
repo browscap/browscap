@@ -26,7 +26,7 @@ class XmlFormatter implements FormatterInterface
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $filter = null;
+    private $filter;
 
     /**
      * returns the Type of the formatter
@@ -65,6 +65,7 @@ class XmlFormatter implements FormatterInterface
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
                 $valueOutput = htmlentities(trim((string) $value));
+
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
@@ -74,6 +75,7 @@ class XmlFormatter implements FormatterInterface
                 } else {
                     $valueOutput = '';
                 }
+
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
@@ -81,9 +83,11 @@ class XmlFormatter implements FormatterInterface
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
+
                 break;
             default:
                 $valueOutput = htmlentities($value);
+
                 break;
         }
 

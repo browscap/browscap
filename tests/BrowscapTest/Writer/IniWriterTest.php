@@ -23,28 +23,28 @@ use org\bovigo\vfs\vfsStream;
  */
 class IniWriterTest extends \PHPUnit\Framework\TestCase
 {
-    const STORAGE_DIR = 'storage';
+    private const STORAGE_DIR = 'storage';
 
     /**
      * @var \Browscap\Writer\IniWriter
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var \org\bovigo\vfs\vfsStreamDirectory
      */
-    private $root = null;
+    private $root;
 
     /**
      * @var string
      */
-    private $file = null;
+    private $file;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.ini';
@@ -58,7 +58,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function teardown()
+    public function teardown() : void
     {
         $this->object->close();
 
@@ -71,7 +71,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('ini', $this->object->getType());
     }
@@ -82,7 +82,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFormatter()
+    public function testSetGetFormatter() : void
     {
         $mockFormatter = $this->createMock(\Browscap\Formatter\PhpFormatter::class);
 
@@ -96,7 +96,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFilter()
+    public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
 
@@ -110,7 +110,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetSilent()
+    public function testSetGetSilent() : void
     {
         $silent = true;
 
@@ -124,7 +124,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileStart()
+    public function testFileStart() : void
     {
         self::assertSame($this->object, $this->object->fileStart());
         self::assertSame('', file_get_contents($this->file));
@@ -136,7 +136,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileEnd()
+    public function testFileEnd() : void
     {
         self::assertSame($this->object, $this->object->fileEnd());
         self::assertSame('', file_get_contents($this->file));
@@ -148,7 +148,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeaderIfSilent()
+    public function testRenderHeaderIfSilent() : void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -164,7 +164,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeaderIfNotSilent()
+    public function testRenderHeaderIfNotSilent() : void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -183,7 +183,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfSilent()
+    public function testRenderVersionIfSilent() : void
     {
         $version = [
             'version' => 'test',
@@ -204,7 +204,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilent()
+    public function testRenderVersionIfNotSilent() : void
     {
         $version = [
             'version' => 'test',
@@ -230,7 +230,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilentButWithoutVersion()
+    public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
         $version = [];
 
@@ -251,7 +251,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsHeader()
+    public function testRenderAllDivisionsHeader() : void
     {
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
@@ -265,7 +265,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionHeaderIfNotSilent()
+    public function testRenderDivisionHeaderIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -282,7 +282,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionHeaderIfSilent()
+    public function testRenderDivisionHeaderIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -296,7 +296,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeaderIfNotSilent()
+    public function testRenderSectionHeaderIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -310,7 +310,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeaderIfSilent()
+    public function testRenderSectionHeaderIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -324,7 +324,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilent()
+    public function testRenderSectionBodyIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -391,7 +391,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['isOutputProperty'])
             ->getMock();
 
-        $map        = [
+        $map = [
             ['Comment', $this->object, true],
             ['Win16', $this->object, false],
             ['Platform', $this->object, true],
@@ -414,7 +414,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilentWithParents()
+    public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
         $this->object->setSilent(false);
 
@@ -516,7 +516,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent()
+    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
         $this->object->setSilent(false);
 
@@ -617,7 +617,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfSilent()
+    public function testRenderSectionBodyIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -639,7 +639,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooterIfNotSilent()
+    public function testRenderSectionFooterIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -653,7 +653,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooterIfSilent()
+    public function testRenderSectionFooterIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -667,7 +667,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionFooter()
+    public function testRenderDivisionFooter() : void
     {
         self::assertSame($this->object, $this->object->renderDivisionFooter());
         self::assertSame('', file_get_contents($this->file));
@@ -679,7 +679,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsFooter()
+    public function testRenderAllDivisionsFooter() : void
     {
         self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
         self::assertSame('', file_get_contents($this->file));

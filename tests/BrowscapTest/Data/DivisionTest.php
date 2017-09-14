@@ -28,7 +28,7 @@ class DivisionTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetter()
+    public function testGetter() : void
     {
         $name       = 'TestName';
         $sortIndex  = 42;

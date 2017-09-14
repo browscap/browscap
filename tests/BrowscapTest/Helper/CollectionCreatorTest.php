@@ -27,13 +27,13 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Helper\CollectionCreator
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $logger       = new Logger('browscapTest', [new NullHandler()]);
         $this->object = new CollectionCreator($logger);
@@ -45,7 +45,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      * @group helper
      * @group sourcetest
      */
-    public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
+    public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet() : void
     {
         $this->expectException('\LogicException');
         $this->expectExceptionMessage('An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
@@ -59,7 +59,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      * @group helper
      * @group sourcetest
      */
-    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
+    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
         $this->expectException('\RunTimeException');
         $this->expectExceptionMessage('File "./platforms.json" does not exist.');
@@ -83,7 +83,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      * @group helper
      * @group sourcetest
      */
-    public function testCreateDataCollection()
+    public function testCreateDataCollection() : void
     {
         $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
             ->disableOriginalConstructor()

@@ -29,7 +29,7 @@ class LoggerHelperTest extends \PHPUnit\Framework\TestCase
      * @group helper
      * @group sourcetest
      */
-    public function testCreate()
+    public function testCreate() : void
     {
         $output = new NullOutput();
         $helper = new LoggerHelper();

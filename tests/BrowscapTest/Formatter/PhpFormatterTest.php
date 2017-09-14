@@ -25,13 +25,13 @@ class PhpFormatterTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Formatter\PhpFormatter
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new PhpFormatter();
     }
@@ -42,7 +42,7 @@ class PhpFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('php', $this->object->getType());
     }
@@ -53,7 +53,7 @@ class PhpFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testSetGetFilter()
+    public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
 
@@ -67,7 +67,7 @@ class PhpFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testFormatPropertyName()
+    public function testFormatPropertyName() : void
     {
         self::assertSame('text', $this->object->formatPropertyName('text'));
     }
@@ -117,7 +117,7 @@ class PhpFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue)
+    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");

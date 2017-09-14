@@ -28,7 +28,7 @@ class IniParserTest extends \PHPUnit\Framework\TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testConstructorSetsFilename()
+    public function testConstructorSetsFilename() : void
     {
         $parser = new IniParser('foobar');
         self::assertSame('foobar', $parser->getFilename());
@@ -40,7 +40,7 @@ class IniParserTest extends \PHPUnit\Framework\TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testSetShouldSort()
+    public function testSetShouldSort() : void
     {
         $parser = new IniParser('');
 
@@ -62,7 +62,7 @@ class IniParserTest extends \PHPUnit\Framework\TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testShouldSort()
+    public function testShouldSort() : void
     {
         $parser = new IniParser('');
 
@@ -101,7 +101,7 @@ class IniParserTest extends \PHPUnit\Framework\TestCase
      * @param mixed $unsorted
      * @param mixed $sorted
      */
-    public function testSortArrayAndChildArrays($unsorted, $sorted)
+    public function testSortArrayAndChildArrays($unsorted, $sorted) : void
     {
         $parser = new IniParser('');
 
@@ -116,7 +116,7 @@ class IniParserTest extends \PHPUnit\Framework\TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testGetLinesFromFileReturnsArrayWithLines()
+    public function testGetLinesFromFileReturnsArrayWithLines() : void
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
@@ -150,7 +150,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist()
+    public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist() : void
     {
         $file   = '/hopefully/this/file/does/not/exist';
         $parser = new IniParser($file);
@@ -167,7 +167,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetFileLinesReturnsLinesFromFile()
+    public function testGetFileLinesReturnsLinesFromFile() : void
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
@@ -201,7 +201,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetFileLinesReturnsLinesFromPreviouslySetLines()
+    public function testGetFileLinesReturnsLinesFromPreviouslySetLines() : void
     {
         $lines = ['first', 'second', 'third'];
 
@@ -217,7 +217,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseWithoutSorting()
+    public function testParseWithoutSorting() : void
     {
         $lines = [
             '',
@@ -265,7 +265,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseWithSorting()
+    public function testParseWithSorting() : void
     {
         $lines = [
             '',
@@ -310,7 +310,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseThrowsExceptionWhenInvalidFormatting()
+    public function testParseThrowsExceptionWhenInvalidFormatting() : void
     {
         $this->expectException('\RuntimeException');
         $this->expectExceptionMessage('Too many equals in line: double=equals=here');

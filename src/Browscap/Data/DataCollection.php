@@ -70,7 +70,7 @@ class DataCollection
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var string[]
@@ -345,7 +345,7 @@ class DataCollection
                         );
                     }
 
-                    if (isset($child['device']) && isset($child['devices'])) {
+                    if (isset($child['device'], $child['devices'])) {
                         throw new \LogicException(
                             'a child may not define both the "device" and the "devices" entries for key "'
                             . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
@@ -367,7 +367,7 @@ class DataCollection
                     }
 
                     if (isset($child['platforms'])
-                        && count($child['platforms']) > 1
+                        && 1 < count($child['platforms'])
                         && mb_strpos($child['match'], '#PLATFORM#') === false
                     ) {
                         throw new \LogicException(
@@ -377,7 +377,7 @@ class DataCollection
                     }
 
                     if (isset($child['devices'])
-                        && count($child['devices']) > 1
+                        && 1 < count($child['devices'])
                         && mb_strpos($child['match'], '#DEVICE#') === false
                     ) {
                         throw new \LogicException(
@@ -434,8 +434,7 @@ class DataCollection
                             );
                         }
 
-                        if (isset($useragent['properties']['Version'])
-                            && isset($child['properties']['Version'])
+                        if (isset($useragent['properties']['Version'], $child['properties']['Version'])
                             && $useragent['properties']['Version'] === $child['properties']['Version']
                         ) {
                             $this->logger->warning(
@@ -510,7 +509,7 @@ class DataCollection
             throw new \RuntimeException('File "' . $src . '" contains Non-ASCII-Characters.');
         }
 
-        $json        = json_decode($fileContent, true);
+        $json = json_decode($fileContent, true);
 
         if (null === $json) {
             throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
@@ -527,7 +526,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkPlatformData(array $properties, $message)
+    private function checkPlatformData(array $properties, $message) : void
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -551,7 +550,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkEngineData(array $properties, $message)
+    private function checkEngineData(array $properties, $message) : void
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -573,7 +572,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkDeviceData(array $properties, $message)
+    private function checkDeviceData(array $properties, $message) : void
     {
         if (array_key_exists('Device_Name', $properties)
             || array_key_exists('Device_Maker', $properties)
@@ -862,6 +861,7 @@ class DataCollection
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
                     );
                 }
+
                 break;
             case 'Mobile Phone':
             case 'Mobile Device':
@@ -880,6 +880,7 @@ class DataCollection
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
                     );
                 }
+
                 break;
             case 'TV Device':
             case 'Desktop':
@@ -896,6 +897,7 @@ class DataCollection
                         . $key . '"'
                     );
                 }
+
                 break;
         }
 

@@ -9,32 +9,6 @@
  */
 
 declare(strict_types = 1);
-/**
- * Copyright (c) 1998-2017 Browser Capabilities Project
- *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- *
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
- */
 namespace BrowscapTest\Data;
 
 use Browscap\Data\PropertyHolder;
@@ -53,13 +27,13 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new PropertyHolder();
     }
@@ -125,7 +99,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $expectedType
      */
-    public function testGetPropertyType($propertyName, $expectedType)
+    public function testGetPropertyType($propertyName, $expectedType) : void
     {
         $actualType = $this->object->getPropertyType($propertyName);
         self::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
@@ -135,7 +109,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped()
+    public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped() : void
     {
         $this->expectException('\InvalidArgumentException');
         $this->expectExceptionMessage('Property Foobar did not have a defined property type');
@@ -205,13 +179,13 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsLiteModeProperty($propertyName, $isExtra)
+    public function testIsLiteModeProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isLiteModeProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
     }
 
-    public function testIsLiteModePropertyWithWriter()
+    public function testIsLiteModePropertyWithWriter() : void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -288,7 +262,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsStandardModeProperty($propertyName, $isExtra)
+    public function testIsStandardModeProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isStandardModeProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
@@ -300,7 +274,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testIsStandardModePropertyWithWriter()
+    public function testIsStandardModePropertyWithWriter() : void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -381,7 +355,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra)
+    public function testIsOutputProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
@@ -393,7 +367,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testIsOutputPropertyWithWriter()
+    public function testIsOutputPropertyWithWriter() : void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -445,7 +419,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $propertyValue
      */
-    public function testCheckValueInArray($propertyName, $propertyValue)
+    public function testCheckValueInArray($propertyName, $propertyValue) : void
     {
         $actualValue = $this->object->checkValueInArray($propertyName, $propertyValue);
         self::assertSame($propertyValue, $actualValue);
@@ -455,7 +429,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testCheckValueInArrayExceptionUndfinedProperty()
+    public function testCheckValueInArrayExceptionUndfinedProperty() : void
     {
         $this->expectException('\InvalidArgumentException');
         $this->expectExceptionMessage('Property "abc" is not defined to be validated');
@@ -467,7 +441,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testCheckValueInArrayExceptionWrongValue()
+    public function testCheckValueInArrayExceptionWrongValue() : void
     {
         $this->expectException('\InvalidArgumentException');
         $this->expectExceptionMessage('invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","Tool","unknown"]');

@@ -27,7 +27,7 @@ class BrowscapTest extends \PHPUnit\Framework\TestCase
      * @param \Symfony\Component\Console\Application $app
      * @param string                                 $command
      */
-    private static function assertAppHasCommand(Application $app, $command)
+    private static function assertAppHasCommand(Application $app, $command) : void
     {
         $cmdObject = $app->get($command);
 
@@ -41,7 +41,7 @@ class BrowscapTest extends \PHPUnit\Framework\TestCase
      * @group browscap
      * @group sourcetest
      */
-    public function testConstructorAddsExpectedCommands()
+    public function testConstructorAddsExpectedCommands() : void
     {
         $app = new Browscap();
 

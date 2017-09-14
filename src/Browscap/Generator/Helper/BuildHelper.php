@@ -132,7 +132,7 @@ class BuildHelper
             $versions = $division->getVersions();
 
             foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts((string) $version);
+                [$majorVer, $minorVer] = $expander->getVersionParts((string) $version);
 
                 $divisionName = $expander->parseProperty($division->getName(), (string) $majorVer, (string) $minorVer);
 
@@ -151,6 +151,7 @@ class BuildHelper
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
                         );
+
                         continue;
                     }
 

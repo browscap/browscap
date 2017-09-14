@@ -28,7 +28,7 @@ class EngineTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetProperties()
+    public function testGetProperties() : void
     {
         $properties = ['abc' => 'def'];
 

@@ -13,6 +13,7 @@ namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer;
+use Browscap\Writer\Factory\CustomWriterFactory;
 
 /**
  * Class BuildGenerator
@@ -24,24 +25,6 @@ use Browscap\Writer;
  */
 class BuildCustomFileGenerator extends AbstractBuildGenerator
 {
-    /**@+
-     * @var string
-     */
-    const OUTPUT_FORMAT_PHP  = 'php';
-    const OUTPUT_FORMAT_ASP  = 'asp';
-    const OUTPUT_FORMAT_CSV  = 'csv';
-    const OUTPUT_FORMAT_XML  = 'xml';
-    const OUTPUT_FORMAT_JSON = 'json';
-    /**@-*/
-
-    /**@+
-     * @var string
-     */
-    const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'normal';
-    const OUTPUT_TYPE_LITE    = 'lite';
-    /**@-*/
-
     /**
      * Entry point for generating builds for a specified version
      *
@@ -54,7 +37,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         string $version,
         array $fields = [],
         $file = null,
-        string $format = self::OUTPUT_FORMAT_PHP
+        string $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
     ) : void {
         $this->preBuild($fields, $file, $format);
         $this->build($version);
@@ -71,7 +54,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     protected function preBuild(
         array $fields = [],
         $file = null,
-        string $format = self::OUTPUT_FORMAT_PHP
+        string $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
     ) : void {
         parent::preBuild();
 
@@ -82,7 +65,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         }
 
         if (null === $this->writerCollection) {
-            $factory = new Writer\Factory\CustomWriterFactory();
+            $factory = new CustomWriterFactory();
 
             $this->setWriterCollection(
                 $factory->createCollection(

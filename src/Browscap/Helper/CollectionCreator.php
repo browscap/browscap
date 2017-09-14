@@ -27,12 +27,12 @@ class CollectionCreator
     /**
      * @var \Browscap\Data\DataCollection
      */
-    private $collection = null;
+    private $collection;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * Create a new collection creator

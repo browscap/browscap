@@ -25,13 +25,13 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Filter\StandardFilter
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new StandardFilter();
     }
@@ -42,7 +42,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('', $this->object->getType());
     }
@@ -53,7 +53,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutputTrue()
+    public function testIsOutputTrue() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -74,7 +74,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutputFalse()
+    public function testIsOutputFalse() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -151,7 +151,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra)
+    public function testIsOutputProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
@@ -165,7 +165,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      *
      * @param mixed $propertyName
      */
-    public function testIsOutputPropertyWithPropertyHolder($propertyName)
+    public function testIsOutputPropertyWithPropertyHolder($propertyName) : void
     {
         $propertyHolder = $this->getMockBuilder(\Browscap\Data\PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -187,7 +187,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutputSectionAlways()
+    public function testIsOutputSectionAlways() : void
     {
         $this->assertTrue($this->object->isOutputSection([]));
         $this->assertTrue($this->object->isOutputSection(['lite' => false]));

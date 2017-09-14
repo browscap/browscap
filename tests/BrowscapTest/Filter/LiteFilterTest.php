@@ -25,13 +25,13 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Filter\LiteFilter
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new LiteFilter();
     }
@@ -42,7 +42,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('LITE', $this->object->getType());
     }
@@ -53,7 +53,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutput()
+    public function testIsOutput() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -130,7 +130,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra)
+    public function testIsOutputProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
@@ -144,7 +144,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      *
      * @param mixed $propertyName
      */
-    public function testIsOutputPropertyWithPropertyHolder($propertyName)
+    public function testIsOutputPropertyWithPropertyHolder($propertyName) : void
     {
         $propertyHolder = $this->getMockBuilder(\Browscap\Data\PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -166,7 +166,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutputSectionOnlyWhenLite()
+    public function testIsOutputSectionOnlyWhenLite() : void
     {
         $this->assertFalse($this->object->isOutputSection([]));
         $this->assertFalse($this->object->isOutputSection(['lite' => false]));

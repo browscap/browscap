@@ -28,7 +28,7 @@ class PlatformTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testGetter()
+    public function testGetter() : void
     {
         $match      = 'TestMatchName';
         $properties = ['abc' => 'def'];

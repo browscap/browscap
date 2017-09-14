@@ -28,7 +28,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testRun()
+    public function testRun() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
 
@@ -143,7 +143,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testRunWithPatternIdCollectionEnabled()
+    public function testRunWithPatternIdCollectionEnabled() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
 
