@@ -18,9 +18,7 @@
         {
           "match": "CRAZYWEBCRAWLER 0.9*",
           "properties": {
-            "Version": "0.9",
-            "MajorVer": "0",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {

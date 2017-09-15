@@ -11,8 +11,6 @@
         "Comment": "Translators",
         "Browser": "Translators",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -26,9 +24,7 @@
           "match": "TeragramWebcrawler/*",
           "properties": {
             "Browser": "TeragramWebcrawler",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

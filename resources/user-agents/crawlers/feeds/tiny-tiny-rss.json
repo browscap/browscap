@@ -12,8 +12,6 @@
         "Comment": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
         "Browser": "Tiny Tiny RSS",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"

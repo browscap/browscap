@@ -18,13 +18,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "JavaScript": "true",
-        "CssVersion": "3",
-        "Cookies": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true"
+        "Crawler": "false"
       },
       "children": [
         {

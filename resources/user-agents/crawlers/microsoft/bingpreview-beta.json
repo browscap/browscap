@@ -13,13 +13,8 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview #MAJORVER#.#MINORVER#",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Beta": "true"
       },
       "children": [
@@ -80,13 +75,8 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Beta": "true"
       },
       "children": [
@@ -117,13 +107,8 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for iOS #MAJORVER#.#MINORVER#",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Beta": "true"
       },
       "children": [

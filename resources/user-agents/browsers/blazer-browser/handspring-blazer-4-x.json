@@ -16,13 +16,7 @@
         "Browser": "Blazer",
         "Browser_Maker": "Palm",
         "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

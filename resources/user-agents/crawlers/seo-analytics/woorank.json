@@ -19,18 +19,14 @@
           "match": "woobot/1.1*",
           "properties": {
             "Browser": "WooRank",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "woobot/2.0*",
           "properties": {
             "Browser": "WooRank",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         }
       ]

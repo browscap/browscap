@@ -21,9 +21,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.10*",
           "properties": {
-            "Version": "8.10",
-            "MajorVer": "8",
-            "MinorVer": "10"
+            "Version": "8.10"
           },
           "platforms": [
             "Linux"
@@ -32,9 +30,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.8*",
           "properties": {
-            "Version": "8.8",
-            "MajorVer": "8",
-            "MinorVer": "8"
+            "Version": "8.8"
           },
           "platforms": [
             "Linux"

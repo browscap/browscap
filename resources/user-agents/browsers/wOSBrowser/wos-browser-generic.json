@@ -13,13 +13,7 @@
         "Comment": "WebKit/webOS Generic",
         "Browser": "WebKit/webOS",
         "Browser_Type": "Browser",
-        "Browser_Maker": "HP",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "HP"
       },
       "children": [
         {

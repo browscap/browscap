@@ -12,13 +12,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iPhone Simulator",
-        "Browser": "iPhone Simulator",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser": "iPhone Simulator"
 
       },
       "children": [

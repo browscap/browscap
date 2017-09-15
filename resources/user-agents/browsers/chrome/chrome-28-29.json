@@ -17,15 +17,7 @@
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "JavaApplets": "false"
       },
       "children": [
         {
@@ -410,15 +402,7 @@
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "JavaApplets": "false"
       },
       "children": [
         {
@@ -471,15 +455,7 @@
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "JavaApplets": "false"
       },
       "children": [
         {

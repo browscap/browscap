@@ -14,13 +14,7 @@
         "Comment": "Twitter App",
         "Browser": "Twitter App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Twitter",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Twitter"
       },
       "children": [
         {
@@ -70,13 +64,7 @@
         "Comment": "Twitter App",
         "Browser": "Twitter App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Twitter",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Twitter"
       },
       "children": [
         {

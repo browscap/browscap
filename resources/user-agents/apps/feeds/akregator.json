@@ -16,8 +16,6 @@
         "Browser": "akregator",
         "Browser_Maker": "KDE e.V.",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "isSyndicationReader": "true",
         "Browser_Type": "Feed Reader",
         "Crawler": "false"

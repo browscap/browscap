@@ -13,13 +13,7 @@
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -176,9 +170,7 @@
             "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ],
           "properties": {
-            "Version": "3.5",
-            "MajorVer": "3",
-            "MinorVer": "5"
+            "Version": "3.5"
           }
         },
         {
@@ -188,9 +180,7 @@
             "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ],
           "properties": {
-            "Version": "3.6",
-            "MajorVer": "3",
-            "MinorVer": "6"
+            "Version": "3.6"
           }
         }
       ]
@@ -205,13 +195,7 @@
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

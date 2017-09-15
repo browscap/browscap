@@ -16,9 +16,7 @@
         "Browser": "ESPN Radio",
         "Browser_Type": "Multimedia Player",
         "Browser_Maker": "ESPN Internet Ventures.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -173,9 +171,7 @@
         "Browser": "ESPN Radio",
         "Browser_Type": "Multimedia Player",
         "Browser_Maker": "ESPN Internet Ventures.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

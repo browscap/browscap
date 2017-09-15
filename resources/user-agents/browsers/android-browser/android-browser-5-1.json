@@ -16,15 +16,7 @@
         "Browser": "Android",
         "Browser_Type": "Browser",
         "Browser_Maker": "Google Inc",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -59,8 +51,7 @@
           "match": "Mozilla/5.2 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/5.2*Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "Version": "5.2",
-            "MinorVer": "2"
+            "Version": "5.2"
           },
           "devices": {
             "HTC_EVO3D_X515m": "HTC X515m"

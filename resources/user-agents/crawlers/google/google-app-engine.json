@@ -11,10 +11,6 @@
         "Comment": "Google App Engine",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true",
         "Crawler": "true",
         "Browser": "Google App Engine"
       },

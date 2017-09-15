@@ -18,17 +18,13 @@
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot-SA/0.96*",
           "properties": {
-            "Version": "0.96",
-            "MajorVer": "0",
-            "MinorVer": "96"
+            "Version": "0.96"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot-SA/0.97*",
           "properties": {
-            "Version": "0.97",
-            "MajorVer": "0",
-            "MinorVer": "97"
+            "Version": "0.97"
           }
         },
         {
@@ -37,17 +33,13 @@
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot-SI/0.96*",
           "properties": {
-            "Version": "0.96",
-            "MajorVer": "0",
-            "MinorVer": "96"
+            "Version": "0.96"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot-SI/0.97*",
           "properties": {
-            "Version": "0.97",
-            "MajorVer": "0",
-            "MinorVer": "97"
+            "Version": "0.97"
           }
         },
         {
@@ -56,17 +48,13 @@
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot/0.96*",
           "properties": {
-            "Version": "0.96",
-            "MajorVer": "0",
-            "MinorVer": "96"
+            "Version": "0.96"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SemrushBot/0.97*",
           "properties": {
-            "Version": "0.97",
-            "MajorVer": "0",
-            "MinorVer": "97"
+            "Version": "0.97"
           }
         },
         {

@@ -12,9 +12,6 @@
         "Browser": "Ask",
         "Browser_Maker": "Ask.com",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -19,9 +19,7 @@
           "match": "python-requests/2.5* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
+            "Version": "2.5"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -30,18 +28,14 @@
         {
           "match": "python-requests/2.5*",
           "properties": {
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
+            "Version": "2.5"
           }
         },
         {
           "match": "python-requests/2.4* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -50,18 +44,14 @@
         {
           "match": "python-requests/2.4*",
           "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           }
         },
         {
           "match": "python-requests/2.3* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -70,18 +60,14 @@
         {
           "match": "python-requests/2.3*",
           "properties": {
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           }
         },
         {
           "match": "python-requests/2.2* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -90,18 +76,14 @@
         {
           "match": "python-requests/2.2*",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           }
         },
         {
           "match": "python-requests/2.1* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -110,18 +92,14 @@
         {
           "match": "python-requests/2.1*",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {
           "match": "python-requests/2.0* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -130,9 +108,7 @@
         {
           "match": "python-requests/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {

@@ -16,12 +16,6 @@
         "Browser": "Outlook",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
-        "Frames": "true",
-        "Tables": "true",
-        "CssVersion": "2",
-        "JavaScript": "false",
         "isSyndicationReader": "false"
       },
       "children": [

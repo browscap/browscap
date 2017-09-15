@@ -24,9 +24,7 @@
           "engine": "WebKit",
           "device": "iPhone",
           "properties": {
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6"
+            "Version": "2.6"
           },
           "platforms": [
             "iOS_H_5_0", "iOS_H"

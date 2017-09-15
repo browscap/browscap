@@ -18,9 +18,7 @@
         {
           "match": "SophosUpdateManager/1.5.*",
           "properties": {
-            "Version": "1.5",
-            "MajorVer": "1",
-            "MinorVer": "5"
+            "Version": "1.5"
           }
         },
         {

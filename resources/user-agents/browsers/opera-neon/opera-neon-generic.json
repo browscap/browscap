@@ -13,13 +13,7 @@
         "Comment": "Opera Neon Generic",
         "Browser": "Opera Neon",
         "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -11,13 +11,7 @@
         "Comment": "LibreOffice",
         "Browser": "LibreOffice",
         "Browser_Type": "Application",
-        "Browser_Maker": "The Document Foundation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "The Document Foundation"
       },
       "children": [
         {

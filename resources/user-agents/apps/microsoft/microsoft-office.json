@@ -16,13 +16,8 @@
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -31,8 +26,7 @@
           "properties": {
             "Comment": "Microsoft Office SyncProc",
             "Browser": "Office SyncProc",
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "Win8_32"
@@ -44,8 +38,7 @@
           "properties": {
             "Comment": "Microsoft Office Upload Center",
             "Browser": "Office Upload Center",
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "Win8_32"
@@ -57,8 +50,7 @@
           "properties": {
             "Comment": "Microsoft Office",
             "Browser": "Office",
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "Win8_32"

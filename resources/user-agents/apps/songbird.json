@@ -16,13 +16,8 @@
         "Browser_Maker": "POTI Inc",
         "Alpha": "false",
         "Beta": "false",
-        "IFrames": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "Tables": "true"
+        "Crawler": "false"
       },
       "children": [
         {

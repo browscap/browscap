@@ -12,12 +12,8 @@
         "Comment": "WordPress #MAJORVER#.#MINORVER#",
         "Browser": "WordPress",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "wordpress.org",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

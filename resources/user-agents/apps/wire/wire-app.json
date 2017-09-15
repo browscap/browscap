@@ -15,14 +15,7 @@
         "Browser": "Wire App",
         "Browser_Type": "Application",
         "Browser_Maker": "Wire Swiss GmbH",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

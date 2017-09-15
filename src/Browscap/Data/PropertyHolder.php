@@ -189,6 +189,37 @@ class PropertyHolder
     }
 
     /**
+     * Determine if the specified property is an property that should
+     * be included in the "full" versions of the files only
+     *
+     * @param  string $propertyName
+     * @return bool
+     */
+    public function isDeprecatedProperty($propertyName)
+    {
+        $deprecatedProperties = [
+            'MajorVer' => 1,
+            'MinorVer' => 1,
+            'Win16' => 1,
+            'Win32' => 1,
+            'Win64' => 1,
+            'Frames' => 1,
+            'IFrames' => 1,
+            'Tables' => 1,
+            'Cookies' => 1,
+            'BackgroundSounds' => 1,
+            'JavaScript' => 1,
+            'VBScript' => 1,
+            'JavaApplets' => 1,
+            'ActiveXControls' => 1,
+            'CssVersion' => 1,
+            'AolVersion' => 1,
+        ];
+
+        return isset($deprecatedProperties[$propertyName]);
+    }
+
+    /**
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *

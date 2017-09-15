@@ -14,13 +14,7 @@
         "Browser": "Opera",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

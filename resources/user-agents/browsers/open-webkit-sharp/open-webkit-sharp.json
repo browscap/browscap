@@ -12,9 +12,6 @@
         "Comment": "open-webkit-sharp",
         "Browser": "open-webkit-sharp",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

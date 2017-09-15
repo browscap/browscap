@@ -11,8 +11,6 @@
         "Comment": "Nutch test crawler",
         "Browser": "Nutch test crawler",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -17,13 +17,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "0"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -32,9 +26,7 @@
             "Amiga"
           ],
           "properties": {
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           }
         },
         {
@@ -43,9 +35,7 @@
             "Amiga"
           ],
           "properties": {
-            "Version": "2.95",
-            "MajorVer": "2",
-            "MinorVer": "95"
+            "Version": "2.95"
           }
         },
         {

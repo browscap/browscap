@@ -16,11 +16,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "Pic%20Collage/2.10* CFNetwork/*",
           "properties": {
-            "Version": "2.10",
-            "MajorVer": "2",
-            "MinorVer": "10"
+            "Version": "2.10"
           },
           "platforms": [
             "Darwin"

@@ -14,13 +14,7 @@
         "Browser_Maker": "Shilyaev Egor",
         "Browser_Type": "Feed Reader",
         "isSyndicationReader": "true",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

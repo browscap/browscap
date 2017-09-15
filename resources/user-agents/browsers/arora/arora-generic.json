@@ -12,13 +12,7 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Comment": "Arora Generic",
-        "Browser": "Arora",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser": "Arora"
       },
       "children": [
         {

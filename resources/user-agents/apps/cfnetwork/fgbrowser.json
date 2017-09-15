@@ -16,11 +16,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "fgBrowserPrivate/3.2* CFNetwork/*",
           "properties": {
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           },
           "platforms": [
             "Darwin"
@@ -39,9 +32,7 @@
         {
           "match": "fgBrowserPrivate/4.* CFNetwork/*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "Darwin"
@@ -56,9 +47,7 @@
         {
           "match": "fgBrowser/3.2* CFNetwork/*",
           "properties": {
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           },
           "platforms": [
             "Darwin"
@@ -67,9 +56,7 @@
         {
           "match": "fgBrowser/4.* CFNetwork/*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "Darwin"

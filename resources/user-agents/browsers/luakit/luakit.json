@@ -17,11 +17,6 @@
         "Browser_Maker": "Mason Larobina",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -29,9 +24,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebKitGTK+/1.10* luakit*",
           "properties": {
-            "Version": "1.10",
-            "MajorVer": "1",
-            "MinorVer": "10"
+            "Version": "1.10"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -40,9 +33,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebKitGTK+/1.8* luakit*",
           "properties": {
-            "Version": "1.8",
-            "MajorVer": "1",
-            "MinorVer": "8"
+            "Version": "1.8"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -51,9 +42,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebKitGTK+/1.6* luakit*",
           "properties": {
-            "Version": "1.6",
-            "MajorVer": "1",
-            "MinorVer": "6"
+            "Version": "1.6"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -62,9 +51,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebKitGTK+/1.1* luakit*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

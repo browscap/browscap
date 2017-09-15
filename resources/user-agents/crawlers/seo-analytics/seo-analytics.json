@@ -47,8 +47,6 @@
             "Browser": "SiteExplorer",
             "Browser_Maker": "siteexplorer.info",
             "Version": "1.0b",
-            "MajorVer": "1",
-            "MinorVer": "0b",
             "Beta": "true"
           }
         },
@@ -64,9 +62,7 @@
           "properties": {
             "Browser": "Prlog",
             "Browser_Maker": "prlog.ru",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -95,9 +91,7 @@
           "properties": {
             "Browser": "FreeWebMonitoring SiteChecker",
             "Browser_Maker": "www.freewebmonitoring.com",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -112,9 +106,7 @@
           "properties": {
             "Browser": "GIDBot",
             "Browser_Maker": "J de Silva",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -142,9 +134,7 @@
           "match": "Mozilla/5.0 (compatible; SemanticBot/1.1*",
           "properties": {
             "Browser": "SemanticBot",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
@@ -158,9 +148,7 @@
           "properties": {
             "Browser": "chlooe Bot",
             "Browser_Maker": "AsiaWS network",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -175,9 +163,7 @@
           "properties": {
             "Browser": "WSCheck Bot",
             "Browser_Maker": "AsiaWS network",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -199,9 +185,7 @@
           "properties": {
             "Browser": "HyperCrawl",
             "Browser_Maker": "SEOGraph",
-            "Version": "0.2",
-            "MajorVer": "0",
-            "MinorVer": "2"
+            "Version": "0.2"
           }
         },
         {
@@ -226,9 +210,7 @@
           "properties": {
             "Browser": "SEOstats",
             "Browser_Maker": "Stephan Schmitz",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {
@@ -278,9 +260,7 @@
           "properties": {
             "Browser": "Page Analyzer",
             "Browser_Maker": "ranks.nl",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
@@ -302,9 +282,7 @@
           "properties": {
             "Browser": "Leikibot",
             "Browser_Maker": "Leiki Ltd",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

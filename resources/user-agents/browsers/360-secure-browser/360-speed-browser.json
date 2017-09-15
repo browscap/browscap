@@ -11,12 +11,7 @@
         "Comment": "360 Speed Browser",
         "Browser": "360 Speed Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Qihoo 360 Technology Co. Ltd.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Qihoo 360 Technology Co. Ltd."
       },
       "children": [
         {

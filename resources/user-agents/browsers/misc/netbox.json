@@ -11,13 +11,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netbox",
-        "Browser": "Netbox",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Browser": "Netbox"
       },
       "children": [
         {

@@ -13,13 +13,7 @@
         "Comment": "Instagram App Generic",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Facebook"
       },
       "children": [
         {

@@ -13,20 +13,13 @@
         "Comment": "Openwave Mobile Browser",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Myriad Group",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Myriad Group"
       },
       "children": [
         {
           "match": "* Browser/OpenWave/1.0* Profile/MIDP*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -35,9 +28,7 @@
             "SonyEricssonS312": "SonyEricsson S312"
           },
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -67,46 +58,37 @@
         {
           "match": "UP.Browser/3.01-IG01 UP.Link/3.2.3.4",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3"
+            "Version": "3.0"
           }
         },
         {
           "match": "UP.Browser/3.04-SN17 UP.Link/3.4.5.6",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3"
+            "Version": "3.0"
           }
         },
         {
           "match": "UP.Browser/3.1.04-DS15 UP.Link/*",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "UP.Browser/3.1.04-NZ01 UP.Link/*.1",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "UP.Browser/3.1.04-SC02 UP.Link/*",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO",
           "properties": {
-            "Version": "7.0",
-            "MajorVer": "7"
+            "Version": "7.0"
           }
         },
         {

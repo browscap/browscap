@@ -12,14 +12,8 @@
         "Comment": "QuickTime #MAJORVER#.#MINORVER#",
         "Browser": "QuickTime",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Apple Inc",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true"
+        "Browser_Maker": "Apple Inc"
       },
       "children": [
         {

@@ -60,9 +60,7 @@
           "match": "Browser Capabilities Project - PHP Browscap*",
           "properties": {
             "Browser": "BCP - PHP Browscap",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -168,9 +166,7 @@
           "match": "WebRingChecker/1.71*",
           "properties": {
             "Browser": "WebRingChecker",
-            "Version": "1.71",
-            "MajorVer": "1",
-            "MinorVer": "71"
+            "Version": "1.71"
           }
         },
         {

@@ -12,9 +12,6 @@
         "Browser": "Yandex Mobile Bot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yandex LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

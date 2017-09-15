@@ -17,9 +17,7 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
         "Crawler": "true",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

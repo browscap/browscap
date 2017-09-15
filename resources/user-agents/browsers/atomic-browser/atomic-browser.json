@@ -16,14 +16,7 @@
         "Browser": "Atomic Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Richard Trautvetter",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

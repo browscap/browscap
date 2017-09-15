@@ -9,12 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "fantomas",
-        "Browser": "fantomas",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser": "fantomas"
       },
       "children": [
         {

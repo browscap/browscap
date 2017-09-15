@@ -12,9 +12,6 @@
         "Browser": "Yahoo! Verifier",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo! Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -22,9 +19,7 @@
           "match": "Mozilla/5.0 (compatible; Yahoo! Verifier/*)",
           "properties": {
             "Browser": "Yahoo! Verifier",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         }
       ]

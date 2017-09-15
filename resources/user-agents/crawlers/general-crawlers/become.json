@@ -20,18 +20,14 @@
           "match": "Mozilla/5.0 (compatible; BecomeBot/3.0*",
           "properties": {
             "Browser": "BecomeBot",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeBot/2.3*",
           "properties": {
             "Browser": "BecomeBot",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           }
         },
         {
@@ -62,9 +58,7 @@
           "match": "Mozilla/5.0 (compatible; BecomeJPBot/2.3*",
           "properties": {
             "Browser": "BecomeJPBot",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           }
         },
         {

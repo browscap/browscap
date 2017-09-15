@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/4.0 (compatible; Powermarks/3.5*",
           "properties": {
-            "Version": "3.5",
-            "MajorVer": "3",
-            "MinorVer": "5"
+            "Version": "3.5"
           }
         },
         {
@@ -29,9 +27,7 @@
         {
           "match": "*Powermarks/3.5*",
           "properties": {
-            "Version": "3.5",
-            "MajorVer": "3",
-            "MinorVer": "5"
+            "Version": "3.5"
           }
         },
         {

@@ -14,13 +14,7 @@
         "Comment": "Kontact Generic",
         "Browser": "Kontact",
         "Browser_Type": "Email Client",
-        "Browser_Maker": "KDE e.V.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "KDE e.V."
       },
       "children": [
         {

@@ -12,8 +12,6 @@
         "Browser": "Facebook",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Facebook",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -21,27 +19,21 @@
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* facebookexternalhit/1.1*",
           "properties": {
             "Browser": "FacebookExternalHit",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "facebookexternalhit/1.0*",
           "properties": {
             "Browser": "FacebookExternalHit",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
           "match": "facebookexternalhit/1.1*",
           "properties": {
             "Browser": "FacebookExternalHit",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
@@ -56,9 +48,7 @@
         {
           "match": "facebookplatform/1.0 *",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -67,18 +57,14 @@
         {
           "match": "Facebook API PHP5 Client 1.1 (curl)*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "Facebot/1.0*",
           "properties": {
             "Browser": "Facebot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -91,9 +77,7 @@
           "match": "facebookscraper/1.0( http*://www.facebook.com/sharescraper_help.php)*",
           "properties": {
             "Browser": "Facebookscraper",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
