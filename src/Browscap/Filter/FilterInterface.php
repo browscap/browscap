@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Filter;
 
 use Browscap\Data\Division;
@@ -17,7 +18,8 @@ use Browscap\Writer\WriterInterface;
  * Interface FilterInterface
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 
 interface FilterInterface
@@ -27,7 +29,7 @@ interface FilterInterface
      *
      * @return string
      */
-    public function getType();
+    public function getType() : string;
 
     /**
      * checks if a division should be in the output
@@ -36,16 +38,16 @@ interface FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division);
+    public function isOutput(Division $division) : bool;
 
     /**
      * checks if a section should be in the output
      *
-     * @param string[] $section
+     * @param bool[] $section
      *
      * @return bool
      */
-    public function isOutputSection(array $section);
+    public function isOutputSection(array $section) : bool;
 
     /**
      * checks if a property should be in the output
@@ -55,5 +57,5 @@ interface FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, WriterInterface $writer = null);
+    public function isOutputProperty(string $property, WriterInterface $writer = null) : bool;
 }

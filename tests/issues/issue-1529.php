@@ -163,6 +163,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1529-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6',
+        'properties' => [
+            'Comment' => 'Thunderbird Generic',
+            'Browser' => 'Thunderbird',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1529-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:14.0) Gecko/20120714 Thunderbird/14.0',
         'properties' => [

@@ -541,6 +541,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-500-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:18.1) Gecko/18.1 Firefox/18.1',
+        'properties' => [
+            'Comment' => 'Firefox for FirefoxOS Generic',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'FirefoxOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-500-K' => [
         'ua' => 'Mozilla/5.0 (Linux;U; Android 4.2.2;  en-us;  Nuqleo; Zaffire 785 Build/ICS) AppleWebKit/531.21.10(KTHML,like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10',
         'properties' => [

@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator\Helper;
 
 use Browscap\Data\DataCollection;
@@ -20,8 +21,9 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildHelper
 {
@@ -33,8 +35,8 @@ class BuildHelper
      * @param \Psr\Log\LoggerInterface           $logger
      * @param \Browscap\Writer\WriterCollection  $writerCollection
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     * @param bool                               $collectPatternIds
      *
-     * @return void
      * @throws \Exception
      */
     public static function run(
@@ -44,15 +46,12 @@ class BuildHelper
         WriterCollection $writerCollection,
         CollectionCreator $collectionCreator,
         bool $collectPatternIds = false
-    ) {
+    ) : void {
         $logger->info('started creating a data collection');
 
-        $dataCollection = new DataCollection($version);
-        $dataCollection->setLogger($logger);
+        $dataCollection = new DataCollection($version, $logger);
 
-        $collectionCreator
-            ->setLogger($logger)
-            ->setDataCollection($dataCollection);
+        $collectionCreator->setDataCollection($dataCollection);
 
         $collection = $collectionCreator->createDataCollection($resourceFolder);
 
@@ -60,10 +59,8 @@ class BuildHelper
 
         $logger->info('started initialisation of writers');
 
-        $expander = new Expander();
-        $expander
-            ->setDataCollection($collection)
-            ->setLogger($logger);
+        $expander = new Expander($logger);
+        $expander->setDataCollection($collection);
 
         $logger->info('finished initialisation of writers');
 
@@ -79,11 +76,10 @@ class BuildHelper
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.',
         ];
 
-        $writerCollection
-            ->setExpander($expander)
-            ->fileStart()
-            ->renderHeader($comments)
-            ->renderVersion($version, $collection);
+        $writerCollection->setExpander($expander);
+        $writerCollection->fileStart();
+        $writerCollection->renderHeader($comments);
+        $writerCollection->renderVersion($version, $collection);
 
         $logger->info('finished output of header and version');
 
@@ -95,9 +91,8 @@ class BuildHelper
 
         $logger->info('handle division ' . $division->getName());
 
-        $writerCollection
-            ->renderAllDivisionsHeader($collection)
-            ->renderDivisionHeader($division->getName());
+        $writerCollection->renderAllDivisionsHeader($collection);
+        $writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
         $sections = [$ua[0]['userAgent'] => $ua[0]['properties']];
@@ -109,11 +104,10 @@ class BuildHelper
                 unset($section['PatternId']);
             }
 
-            $writerCollection
-                ->setSilent($division)
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName);
+            $writerCollection->setSilent($division);
+            $writerCollection->renderSectionHeader($sectionName);
+            $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
+            $writerCollection->renderSectionFooter($sectionName);
         }
 
         $writerCollection->renderDivisionFooter();
@@ -138,9 +132,9 @@ class BuildHelper
             $versions = $division->getVersions();
 
             foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts($version);
+                [$majorVer, $minorVer] = $expander->getVersionParts((string) $version);
 
-                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
+                $divisionName = $expander->parseProperty($division->getName(), (string) $majorVer, (string) $minorVer);
 
                 $logger->info('handle division ' . $divisionName);
 
@@ -157,6 +151,7 @@ class BuildHelper
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
                         );
+
                         continue;
                     }
 
@@ -168,10 +163,9 @@ class BuildHelper
 
                     $writerCollection->setSilentSection($section);
 
-                    $writerCollection
-                        ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName)
-                        ->renderSectionFooter($sectionName);
+                    $writerCollection->renderSectionHeader($sectionName);
+                    $writerCollection->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName);
+                    $writerCollection->renderSectionFooter($sectionName);
 
                     $output[$sectionName] = 1;
                 }
@@ -203,24 +197,21 @@ class BuildHelper
                 unset($section['PatternId']);
             }
 
-            $writerCollection
-                ->setSilent($division)
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName);
+            $writerCollection->setSilent($division);
+            $writerCollection->renderSectionHeader($sectionName);
+            $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
+            $writerCollection->renderSectionFooter($sectionName);
         }
 
-        $writerCollection
-            ->renderDivisionFooter()
-            ->renderAllDivisionsFooter();
+        $writerCollection->renderDivisionFooter();
+        $writerCollection->renderAllDivisionsFooter();
 
         $logger->info('finished output of divisions');
 
         $logger->info('started closing writers');
 
-        $writerCollection
-            ->fileEnd()
-            ->close();
+        $writerCollection->fileEnd();
+        $writerCollection->close();
 
         $logger->info('finished closing writers');
     }

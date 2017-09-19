@@ -11,6 +11,7 @@
 *.dist text eol=lf
 *.txt text eol=lf
 *.ini text eol=lf
+*.neon text eol=lf
 .gitattributes text eol=lf
 .gitignore text eol=lf
 .zip binary

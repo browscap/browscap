@@ -271,6 +271,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1446-E (standard)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) adbeat.com/policy AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Adbeat',
+            'Browser' => 'Adbeat Bot',
+            'Browser_Maker' => 'adbeat.com',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => true,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1446-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) adbeat.com/policy AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8',
         'properties' => [

@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * This file is part of the browscap package.
  *
@@ -11,13 +8,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
  * Class Division
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Division
 {
@@ -27,9 +26,9 @@ class Division
     private $name = '';
 
     /**
-     * @var string
+     * @var string|null
      */
-    private $fileName = '';
+    private $fileName;
 
     /**
      * @var int
@@ -57,13 +56,13 @@ class Division
     private $userAgents = [];
 
     /**
-     * @param string $name
-     * @param int    $sortIndex
-     * @param array  $userAgents
-     * @param bool   $lite
-     * @param bool   $standard
-     * @param array  $versions
-     * @param string $fileName
+     * @param string      $name
+     * @param int         $sortIndex
+     * @param array       $userAgents
+     * @param bool        $lite
+     * @param bool        $standard
+     * @param array       $versions
+     * @param string|null $fileName
      */
     public function __construct(
         string $name,
@@ -72,7 +71,7 @@ class Division
         bool $lite,
         bool $standard = true,
         array $versions = [],
-        string $fileName = null
+        ?string $fileName = null
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -132,9 +131,9 @@ class Division
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getFileName() : string
+    public function getFileName() : ?string
     {
         return $this->fileName;
     }

@@ -55,6 +55,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-860-A (standard)' => [
+        'ua' => 'SoundCloud/3.0.0 build 2547; iPhone/iPhone OS/7.1.1',
+        'properties' => [
+            'Comment' => 'SoundCloud App 3.0 for iOS',
+            'Browser' => 'SoundCloud App',
+            'Browser_Maker' => 'SoundCloud Limited',
+            'Version' => '3.0',
+            'MajorVer' => '3',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-860-B' => [
         'ua' => 'SoundCloud-Android/14.08.21-17 (Android 4.4.2; samsung SAMSUNG-SGH-I337)',
         'properties' => [

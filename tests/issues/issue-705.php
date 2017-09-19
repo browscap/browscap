@@ -649,6 +649,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-705-L (standard)' => [
+        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-GB) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IP',
+        'properties' => [
+            'Comment' => 'Puffin 4.4',
+            'Browser' => 'Puffin',
+            'Browser_Maker' => 'CloudMosa Inc.',
+            'Version' => '4.4',
+            'MajorVer' => '4',
+            'MinorVer' => '4',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-705-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.185 Chrome/43.0.2357.81 Safari/537.36',
         'properties' => [

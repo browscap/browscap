@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Filter\FilterInterface;
@@ -16,7 +17,8 @@ use Browscap\Filter\FilterInterface;
  * Interface FormatterInterface
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 interface FormatterInterface
 {
@@ -25,7 +27,7 @@ interface FormatterInterface
      *
      * @return string
      */
-    public function getType();
+    public function getType() : string;
 
     /**
      * formats the name of a property
@@ -34,27 +36,25 @@ interface FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyName($name);
+    public function formatPropertyName(string $name) : string;
 
     /**
      * formats the name of a property
      *
-     * @param string $value
+     * @param mixed  $value
      * @param string $property
      *
      * @return string
      */
-    public function formatPropertyValue($value, $property);
+    public function formatPropertyValue($value, string $property) : string;
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Formatter\FormatterInterface
      */
-    public function setFilter(FilterInterface $filter);
+    public function setFilter(FilterInterface $filter) : void;
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter();
+    public function getFilter() : FilterInterface;
 }

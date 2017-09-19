@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Psr\Log\LoggerInterface;
@@ -16,6 +17,7 @@ use Psr\Log\LoggerInterface;
  * Class DataCollection
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class DataCollection
@@ -43,12 +45,12 @@ class DataCollection
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultProperties = [];
+    private $defaultProperties;
 
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultBrowser = [];
+    private $defaultBrowser;
 
     /**
      * @var bool
@@ -68,7 +70,7 @@ class DataCollection
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var string[]
@@ -78,46 +80,27 @@ class DataCollection
     /**
      * Create a new data collection for the specified version
      *
-     * @param string $version
+     * @param string                   $version
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($version)
+    public function __construct(string $version, LoggerInterface $logger)
     {
         $this->version        = $version;
+        $this->logger         = $logger;
         $this->generationDate = new \DateTime();
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Data\DataCollection
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger()
-    {
-        return $this->logger;
     }
 
     /**
      * Load a platforms.json file and parse it into the platforms data array
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
-     * @return \Browscap\Data\DataCollection
      */
-    public function addPlatformsFile($src)
+    public function addPlatformsFile(string $fileName) : void
     {
-        $json = $this->loadFile($src);
+        $json = $this->loadFile($fileName);
 
         if (!isset($json['platforms'])) {
             throw new \UnexpectedValueException('required "platforms" structure is missing');
@@ -140,21 +123,18 @@ class DataCollection
         }
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
      * Load a engines.json file and parse it into the platforms data array
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
-     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
-    public function addEnginesFile($src)
+    public function addEnginesFile(string $fileName) : void
     {
-        $json = $this->loadFile($src);
+        $json = $this->loadFile($fileName);
 
         if (!isset($json['engines'])) {
             throw new \UnexpectedValueException('required "engines" structure is missing');
@@ -173,22 +153,19 @@ class DataCollection
         }
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
      * Load a devices.json file and parse it into the platforms data array
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException     if the properties and the inherits kyewords are missing
-     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException         if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
      */
-    public function addDevicesFile($src)
+    public function addDevicesFile(string $fileName) : void
     {
-        $json          = $this->loadFile($src);
+        $json          = $this->loadFile($fileName);
         $deviceFactory = new Factory\DeviceFactory();
 
         foreach ($json as $deviceName => $deviceData) {
@@ -200,38 +177,35 @@ class DataCollection
         }
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
      * Load a JSON file, parse it's JSON and add it to our divisions list
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException     If required attibutes are missing in the division
+     * @throws \RuntimeException         If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException If required attibutes are missing in the division
      * @throws \LogicException
-     * @return \Browscap\Data\DataCollection
      */
-    public function addSourceFile($src)
+    public function addSourceFile(string $fileName) : void
     {
-        $divisionData = $this->loadFile($src);
+        $divisionData = $this->loadFile($fileName);
 
         if (!array_key_exists('division', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "division" is missing in File ' . $src);
+            throw new \UnexpectedValueException('required attibute "division" is missing in File ' . $fileName);
         }
 
         if (!array_key_exists('sortIndex', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "sortIndex" is missing in File ' . $src);
+            throw new \UnexpectedValueException('required attibute "sortIndex" is missing in File ' . $fileName);
         }
 
         if (!array_key_exists('lite', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $src);
+            throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $fileName);
         }
 
         if (!array_key_exists('standard', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "standard" is missing in File ' . $src);
+            throw new \UnexpectedValueException('required attibute "standard" is missing in File ' . $fileName);
         }
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
@@ -252,14 +226,14 @@ class DataCollection
                     );
                 }
 
-                if (false === strpos($useragent['userAgent'], '#')
+                if (false === mb_strpos($useragent['userAgent'], '#')
                     && in_array($useragent['userAgent'], $this->allDivision)
                 ) {
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
                 }
 
-                if ((false !== strpos($useragent['userAgent'], '#MAJORVER#')
-                        || false !== strpos($useragent['userAgent'], '#MINORVER#'))
+                if ((false !== mb_strpos($useragent['userAgent'], '#MAJORVER#')
+                        || false !== mb_strpos($useragent['userAgent'], '#MINORVER#'))
                     && ['0.0'] === $versions
                 ) {
                     throw new \UnexpectedValueException(
@@ -357,7 +331,7 @@ class DataCollection
                         );
                     }
 
-                    if (isset($child['device']) && isset($child['devices'])) {
+                    if (isset($child['device'], $child['devices'])) {
                         throw new \LogicException(
                             'a child may not define both the "device" and the "devices" entries for key "'
                             . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
@@ -379,8 +353,8 @@ class DataCollection
                     }
 
                     if (isset($child['platforms'])
-                        && count($child['platforms']) > 1
-                        && strpos($child['match'], '#PLATFORM#') === false
+                        && 1 < count($child['platforms'])
+                        && false === mb_strpos($child['match'], '#PLATFORM#')
                     ) {
                         throw new \LogicException(
                             'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
@@ -389,8 +363,8 @@ class DataCollection
                     }
 
                     if (isset($child['devices'])
-                        && count($child['devices']) > 1
-                        && strpos($child['match'], '#DEVICE#') === false
+                        && 1 < count($child['devices'])
+                        && false === mb_strpos($child['match'], '#DEVICE#')
                     ) {
                         throw new \LogicException(
                             'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
@@ -404,8 +378,8 @@ class DataCollection
                         );
                     }
 
-                    if ((false !== strpos($child['match'], '#MAJORVER#')
-                            || false !== strpos($child['match'], '#MINORVER#'))
+                    if ((false !== mb_strpos($child['match'], '#MAJORVER#')
+                            || false !== mb_strpos($child['match'], '#MINORVER#'))
                         && ['0.0'] === $versions
                     ) {
                         throw new \UnexpectedValueException(
@@ -414,7 +388,7 @@ class DataCollection
                         );
                     }
 
-                    if (false !== strpos($child['match'], '#PLATFORM#')
+                    if (false !== mb_strpos($child['match'], '#PLATFORM#')
                         && !isset($child['platforms'])
                     ) {
                         throw new \UnexpectedValueException(
@@ -423,7 +397,7 @@ class DataCollection
                         );
                     }
 
-                    if (false !== strpos($child['match'], '#DEVICE#')
+                    if (false !== mb_strpos($child['match'], '#DEVICE#')
                         && !isset($child['devices'])
                     ) {
                         throw new \UnexpectedValueException(
@@ -446,8 +420,7 @@ class DataCollection
                             );
                         }
 
-                        if (isset($useragent['properties']['Version'])
-                            && isset($child['properties']['Version'])
+                        if (isset($useragent['properties']['Version'], $child['properties']['Version'])
                             && $useragent['properties']['Version'] === $child['properties']['Version']
                         ) {
                             $this->logger->warning(
@@ -488,43 +461,42 @@ class DataCollection
             $divisionData['division'],
             (int) $divisionData['sortIndex'],
             $userAgents,
-            (boolean) $divisionData['lite'],
-            (boolean) $divisionData['standard'],
+            (bool) $divisionData['lite'],
+            (bool) $divisionData['standard'],
             $versions,
-            substr($src, strpos($src, 'resources/'))
+            mb_substr($fileName, (int) mb_strpos($fileName, 'resources/'))
         );
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
-     * @param string $src
+     * @param string $fileName
      *
      * @throws \RuntimeException
+     *
      * @return array
      */
-    private function loadFile($src)
+    private function loadFile(string $fileName) : array
     {
-        if (!file_exists($src)) {
-            throw new \RuntimeException('File "' . $src . '" does not exist.');
+        if (!file_exists($fileName)) {
+            throw new \RuntimeException('File "' . $fileName . '" does not exist.');
         }
 
-        if (!is_readable($src)) {
-            throw new \RuntimeException('File "' . $src . '" is not readable.');
+        if (!is_readable($fileName)) {
+            throw new \RuntimeException('File "' . $fileName . '" is not readable.');
         }
 
-        $fileContent = file_get_contents($src);
+        $fileContent = file_get_contents($fileName);
 
         if (preg_match('/[^ -~\s]/', $fileContent)) {
-            throw new \RuntimeException('File "' . $src . '" contains Non-ASCII-Characters.');
+            throw new \RuntimeException('File "' . $fileName . '" contains Non-ASCII-Characters.');
         }
 
-        $json        = json_decode($fileContent, true);
+        $json = json_decode($fileContent, true);
 
-        if (is_null($json)) {
-            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
+        if (null === $json) {
+            throw new \RuntimeException('File "' . $fileName . '" had invalid JSON.');
         }
 
         return $json;
@@ -538,7 +510,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkPlatformData(array $properties, $message)
+    private function checkPlatformData(array $properties, string $message) : void
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -562,7 +534,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkEngineData(array $properties, $message)
+    private function checkEngineData(array $properties, string $message) : void
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -584,7 +556,7 @@ class DataCollection
      *
      * @throws \LogicException
      */
-    private function checkDeviceData(array $properties, $message)
+    private function checkDeviceData(array $properties, string $message) : void
     {
         if (array_key_exists('Device_Name', $properties)
             || array_key_exists('Device_Maker', $properties)
@@ -602,14 +574,13 @@ class DataCollection
     /**
      * Load the file for the default properties
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
-     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
-    public function addDefaultProperties($src)
+    public function addDefaultProperties(string $fileName) : void
     {
-        $divisionData = $this->loadFile($src);
+        $divisionData = $this->loadFile($fileName);
 
         $this->defaultProperties = new Division(
             $divisionData['division'],
@@ -619,21 +590,18 @@ class DataCollection
         );
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
      * Load the file for the default browser
      *
-     * @param string $src Name of the file
+     * @param string $fileName Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
-     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
-    public function addDefaultBrowser($src)
+    public function addDefaultBrowser(string $fileName) : void
     {
-        $divisionData = $this->loadFile($src);
+        $divisionData = $this->loadFile($fileName);
 
         $this->defaultBrowser = new Division(
             $divisionData['division'],
@@ -643,8 +611,6 @@ class DataCollection
         );
 
         $this->divisionsHaveBeenSorted = false;
-
-        return $this;
     }
 
     /**
@@ -652,7 +618,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Division[]
      */
-    public function getDivisions()
+    public function getDivisions() : array
     {
         $this->sortDivisions();
 
@@ -661,35 +627,33 @@ class DataCollection
 
     /**
      * Sort the divisions (if they haven't already been sorted)
-     *
-     * @return \Browscap\Data\DataCollection
      */
-    public function sortDivisions()
+    public function sortDivisions() : void
     {
-        if (!$this->divisionsHaveBeenSorted) {
-            $sortIndex    = [];
-            $sortPosition = [];
-
-            foreach ($this->divisions as $key => $division) {
-                /** @var \Browscap\Data\Division $division */
-                $sortIndex[$key]    = $division->getSortIndex();
-                $sortPosition[$key] = $key;
-            }
-
-            array_multisort(
-                $sortIndex,
-                SORT_ASC,
-                SORT_NUMERIC,
-                $sortPosition,
-                SORT_DESC,
-                SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
-                $this->divisions
-            );
-
-            $this->divisionsHaveBeenSorted = true;
+        if ($this->divisionsHaveBeenSorted) {
+            return;
         }
 
-        return $this;
+        $sortIndex    = [];
+        $sortPosition = [];
+
+        foreach ($this->divisions as $key => $division) {
+            /* @var \Browscap\Data\Division $division */
+            $sortIndex[$key]    = $division->getSortIndex();
+            $sortPosition[$key] = $key;
+        }
+
+        array_multisort(
+            $sortIndex,
+            SORT_ASC,
+            SORT_NUMERIC,
+            $sortPosition,
+            SORT_DESC,
+            SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
+            $this->divisions
+        );
+
+        $this->divisionsHaveBeenSorted = true;
     }
 
     /**
@@ -697,7 +661,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Division
      */
-    public function getDefaultProperties()
+    public function getDefaultProperties() : Division
     {
         return $this->defaultProperties;
     }
@@ -707,7 +671,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Division
      */
-    public function getDefaultBrowser()
+    public function getDefaultBrowser() : Division
     {
         return $this->defaultBrowser;
     }
@@ -717,7 +681,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Platform[]
      */
-    public function getPlatforms()
+    public function getPlatforms() : array
     {
         return $this->platforms;
     }
@@ -729,9 +693,10 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Platform
      */
-    public function getPlatform($platform)
+    public function getPlatform($platform) : Platform
     {
         if (!array_key_exists($platform, $this->platforms)) {
             throw new \OutOfBoundsException(
@@ -747,7 +712,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Engine[]
      */
-    public function getEngines()
+    public function getEngines() : array
     {
         return $this->engines;
     }
@@ -759,9 +724,10 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Engine
      */
-    public function getEngine($engine)
+    public function getEngine($engine) : Engine
     {
         if (!array_key_exists($engine, $this->engines)) {
             throw new \OutOfBoundsException(
@@ -777,7 +743,7 @@ class DataCollection
      *
      * @return \Browscap\Data\Device[]
      */
-    public function getDevices()
+    public function getDevices() : array
     {
         return $this->devices;
     }
@@ -789,9 +755,10 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Device
      */
-    public function getDevice($device)
+    public function getDevice($device) : Device
     {
         if (!array_key_exists($device, $this->devices)) {
             throw new \OutOfBoundsException(
@@ -807,7 +774,7 @@ class DataCollection
      *
      * @return string
      */
-    public function getVersion()
+    public function getVersion() : string
     {
         return $this->version;
     }
@@ -817,7 +784,7 @@ class DataCollection
      *
      * @return \DateTime
      */
-    public function getGenerationDate()
+    public function getGenerationDate() : \DateTime
     {
         return $this->generationDate;
     }
@@ -827,11 +794,10 @@ class DataCollection
      * @param array  $properties
      *
      * @throws \UnexpectedValueException
-     * @return bool
      */
-    public function checkProperty($key, array $properties)
+    public function checkProperty(string $key, array $properties) : void
     {
-        $this->getLogger()->debug('check if all required propeties are available');
+        $this->logger->debug('check if all required propeties are available');
 
         if (!isset($properties['Version'])) {
             throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
@@ -867,6 +833,7 @@ class DataCollection
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
                     );
                 }
+
                 break;
             case 'Mobile Phone':
             case 'Mobile Device':
@@ -885,6 +852,7 @@ class DataCollection
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
                     );
                 }
+
                 break;
             case 'TV Device':
             case 'Desktop':
@@ -901,9 +869,8 @@ class DataCollection
                         . $key . '"'
                     );
                 }
+
                 break;
         }
-
-        return true;
     }
 }

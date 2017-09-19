@@ -3,6 +3,7 @@ vendor/
 .buildpath
 .settings
 .project
+.php_cs.cache
 composer.phar
 test*.txt
 /coverage

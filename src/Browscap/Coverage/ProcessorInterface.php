@@ -8,12 +8,14 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Coverage;
 
 /**
  * Interface ProcessorInterface
  *
  * @category   Browscap
+ *
  * @author     Jay Klehr <jay.klehr@gmail.com>
  */
 interface ProcessorInterface
@@ -25,7 +27,7 @@ interface ProcessorInterface
      *
      * @return void
      */
-    public function process(array $coveredIds);
+    public function process(array $coveredIds) : void;
 
     /**
      * Write the processed coverage data to filename
@@ -34,7 +36,7 @@ interface ProcessorInterface
      *
      * @return void
      */
-    public function write(string $fileName);
+    public function write(string $fileName) : void;
 
     /**
      * Set covered pattern ids

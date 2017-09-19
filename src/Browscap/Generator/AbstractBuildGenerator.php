@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
@@ -18,8 +19,9 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 abstract class AbstractBuildGenerator
 {
@@ -36,17 +38,17 @@ abstract class AbstractBuildGenerator
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    protected $logger = null;
+    protected $logger;
 
     /**
      * @var \Browscap\Helper\CollectionCreator
      */
-    protected $collectionCreator = null;
+    protected $collectionCreator;
 
     /**
      * @var \Browscap\Writer\WriterCollection
      */
-    protected $writerCollection = null;
+    protected $writerCollection;
 
     /**
      * @var bool
@@ -54,107 +56,71 @@ abstract class AbstractBuildGenerator
     protected $collectPatternIds = false;
 
     /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     *
-     * @throws \Exception
-     */
-    public function __construct($resourceFolder, $buildFolder)
-    {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
-    }
-
-    /**
+     * @param string                   $resourceFolder
+     * @param string                   $buildFolder
      * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setLogger(LoggerInterface $logger)
+    public function __construct(string $resourceFolder, string $buildFolder, LoggerInterface $logger)
     {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
+        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder);
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder);
+        $this->logger         = $logger;
     }
 
     /**
      * Sets the flag to collect pattern ids during this build
      *
      * @param bool $value
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setCollectPatternIds(bool $value) : self
+    public function setCollectPatternIds(bool $value) : void
     {
-        $this->collectPatternIds = (bool) $value;
-
-        return $this;
+        $this->collectPatternIds = $value;
     }
 
     /**
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setCollectionCreator(CollectionCreator $collectionCreator)
+    public function setCollectionCreator(CollectionCreator $collectionCreator) : void
     {
         $this->collectionCreator = $collectionCreator;
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Helper\CollectionCreator
      */
-    public function getCollectionCreator()
+    public function getCollectionCreator() : CollectionCreator
     {
         return $this->collectionCreator;
     }
 
     /**
      * @param \Browscap\Writer\WriterCollection $writerCollection
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setWriterCollection(WriterCollection $writerCollection)
+    public function setWriterCollection(WriterCollection $writerCollection) : void
     {
         $this->writerCollection = $writerCollection;
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Writer\WriterCollection
      */
-    public function getWriterCollection()
+    public function getWriterCollection() : WriterCollection
     {
         return $this->writerCollection;
     }
 
     /**
      * @param string $directory
-     * @param string $type
      *
      * @throws \Exception
+     *
      * @return string
      */
-    protected function checkDirectoryExists($directory, $type)
+    protected function checkDirectoryExists(string $directory) : string
     {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
         $realDirectory = realpath($directory);
 
-        if ($realDirectory === false) {
+        if (false === $realDirectory) {
             throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
@@ -169,58 +135,45 @@ abstract class AbstractBuildGenerator
      * Entry point for generating builds for a specified version
      *
      * @param string $version
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function run($version)
+    public function run(string $version) : void
     {
-        return $this
-            ->preBuild()
-            ->build($version)
-            ->postBuild();
+        $this->preBuild();
+        $this->build($version);
+        $this->postBuild();
     }
 
     /**
      * runs before the build
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    protected function preBuild()
+    protected function preBuild() : void
     {
-        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
-
-        return $this;
+        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->logger->info('Build folder: ' . $this->buildFolder . '');
     }
 
     /**
      * runs the build
      *
      * @param string $version
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    protected function build($version)
+    protected function build(string $version) : void
     {
         Helper\BuildHelper::run(
             $version,
             $this->resourceFolder,
-            $this->getLogger(),
+            $this->logger,
             $this->getWriterCollection(),
             $this->getCollectionCreator(),
             $this->collectPatternIds
         );
-
-        return $this;
     }
 
     /**
      * runs after the build
-     *
-     * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    protected function postBuild()
+    protected function postBuild() : void
     {
-        return $this;
+        // do nothing here
     }
 }

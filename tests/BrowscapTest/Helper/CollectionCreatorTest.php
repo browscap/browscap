@@ -1,32 +1,17 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Helper;
 
+use Browscap\Data\DataCollection;
 use Browscap\Helper\CollectionCreator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
@@ -35,28 +20,24 @@ use Monolog\Logger;
  * Class CollectionCreatorTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger = null;
-
-    /**
      * @var \Browscap\Helper\CollectionCreator
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
-        $this->logger = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new CollectionCreator();
+        $logger       = new Logger('browscapTest', [new NullHandler()]);
+        $this->object = new CollectionCreator($logger);
     }
 
     /**
@@ -64,11 +45,12 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      *
      * @group helper
      * @group sourcetest
-     * @expectedException \LogicException
-     * @expectedExceptionMessage An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection
      */
-    public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
+    public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet() : void
     {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
+
         $this->object->createDataCollection('.');
     }
 
@@ -77,13 +59,13 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      *
      * @group helper
      * @group sourcetest
-     *
-     * @expectedException \RunTimeException
-     * @expectedExceptionMessage File "./platforms.json" does not exist.
      */
-    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
+    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $this->expectException('\RunTimeException');
+        $this->expectExceptionMessage('File "./platforms.json" does not exist.');
+
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
             ->getMock();
@@ -92,9 +74,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
 
-        $this->object
-            ->setLogger($this->logger)
-            ->setDataCollection($collection);
+        $this->object->setDataCollection($collection);
         $this->object->createDataCollection('.');
     }
 
@@ -104,9 +84,9 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      * @group helper
      * @group sourcetest
      */
-    public function testCreateDataCollection()
+    public function testCreateDataCollection() : void
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'])
             ->getMock();
@@ -124,12 +104,10 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('addSourceFile')
             ->will(self::returnSelf());
 
-        $this->object
-            ->setLogger($this->logger)
-            ->setDataCollection($collection);
+        $this->object->setDataCollection($collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
-        self::assertInstanceOf(\Browscap\Data\DataCollection::class, $result);
+        self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
     }
 }

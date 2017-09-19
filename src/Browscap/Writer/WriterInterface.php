@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -19,170 +20,135 @@ use Psr\Log\LoggerInterface;
  * Interface WriterInterface
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 interface WriterInterface
 {
     /**
-     * @param string $file
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file);
+    public function __construct(string $file, LoggerInterface $logger);
 
     /**
      * returns the Type of the writer
      *
      * @return string
      */
-    public function getType();
+    public function getType() : string;
 
     /**
      * closes the Writer and the written File
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function close();
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setLogger(LoggerInterface $logger);
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger();
+    public function close() : void;
 
     /**
      * @param bool $silent
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent);
+    public function setSilent(bool $silent) : void;
 
     /**
      * @return bool
      */
-    public function isSilent();
+    public function isSilent() : bool;
 
     /**
      * Generates a start sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function fileStart();
+    public function fileStart() : void;
 
     /**
      * Generates a end sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function fileEnd();
+    public function fileEnd() : void;
 
     /**
      * Generate the header
      *
      * @param string[] $comments
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = []);
+    public function renderHeader(array $comments = []) : void;
 
     /**
      * renders the version information
      *
      * @param string[] $versionData
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = []);
+    public function renderVersion(array $versionData = []) : void;
 
     /**
      * renders the header for all divisions
      *
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderAllDivisionsHeader(DataCollection $collection);
+    public function renderAllDivisionsHeader(DataCollection $collection) : void;
 
     /**
      * renders the header for a division
      *
      * @param string $division
      * @param string $parent
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties');
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void;
 
     /**
      * renders the header for a section
      *
      * @param string $sectionName
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionHeader($sectionName);
+    public function renderSectionHeader(string $sectionName) : void;
 
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|true)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '');
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void;
 
     /**
      * renders the footer for a section
      *
      * @param string $sectionName
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionFooter($sectionName = '');
+    public function renderSectionFooter(string $sectionName = '') : void;
 
     /**
      * renders the footer for a division
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionFooter();
+    public function renderDivisionFooter() : void;
 
     /**
      * renders the footer for all divisions
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderAllDivisionsFooter();
+    public function renderAllDivisionsFooter() : void;
 
     /**
      * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setFormatter(FormatterInterface $formatter);
+    public function setFormatter(FormatterInterface $formatter) : void;
 
     /**
      * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter();
+    public function getFormatter() : FormatterInterface;
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setFilter(FilterInterface $filter);
+    public function setFilter(FilterInterface $filter) : void;
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter();
+    public function getFilter() : FilterInterface;
 }

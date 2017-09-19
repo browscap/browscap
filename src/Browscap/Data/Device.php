@@ -8,13 +8,15 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
  * Class Device
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Device
 {
@@ -32,16 +34,16 @@ class Device
      * @param string[] $properties
      * @param bool     $standard
      */
-    public function __construct(array $properties, $standard)
+    public function __construct(array $properties, bool $standard)
     {
         $this->properties = $properties;
-        $this->standard   = (bool) $standard;
+        $this->standard   = $standard;
     }
 
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties() : array
     {
         return $this->properties;
     }
@@ -49,7 +51,7 @@ class Device
     /**
      * @return bool
      */
-    public function isStandard()
+    public function isStandard() : bool
     {
         return $this->standard;
     }

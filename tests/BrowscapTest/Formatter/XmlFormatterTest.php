@@ -1,52 +1,38 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Formatter;
 
+use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\XmlFormatter;
 
 /**
  * Class XmlFormatterTest
  *
  * @category   BrowscapTest
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\XmlFormatter
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new XmlFormatter();
     }
@@ -57,7 +43,7 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('xml', $this->object->getType());
     }
@@ -68,11 +54,11 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testSetGetFilter()
+    public function testSetGetFilter() : void
     {
-        $mockFilter = $this->createMock(\Browscap\Filter\StandardFilter::class);
+        $mockFilter = $this->createMock(StandardFilter::class);
 
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $this->object->setFilter($mockFilter);
         self::assertSame($mockFilter, $this->object->getFilter());
     }
 
@@ -82,7 +68,7 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testFormatPropertyName()
+    public function testFormatPropertyName() : void
     {
         self::assertSame('text', $this->object->formatPropertyName('text'));
     }
@@ -146,7 +132,7 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
      * @group formatter
      * @group sourcetest
      */
-    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue)
+    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");

@@ -271,6 +271,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-470-E (standard)' => [
+        'ua' => 'Nokia2320c-2b/2.0(ATT.11.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
+        'properties' => [
+            'Comment' => 'Nokia Browser',
+            'Browser' => 'Nokia Browser',
+            'Browser_Maker' => 'Nokia',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-470-F' => [
         'ua' => 'Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.11 NintendoBrowser/2.1.0.9559.EU',
         'properties' => [

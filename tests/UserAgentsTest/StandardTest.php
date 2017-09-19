@@ -62,7 +62,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      */
     private static $filter = null;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
@@ -84,29 +84,23 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
-            self::$buildFolder
+            self::$buildFolder,
+            $logger
         );
-
-        $buildGenerator->setLogger($logger);
 
         $writerCollection = new WriterCollection();
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new StandardFilter(self::$propertyHolder);
 
-        $stdPhpWriter = new IniWriter(self::$buildFolder . '/php_browscap.ini');
+        $stdPhpWriter = new IniWriter(self::$buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
         $formatter->setFilter(self::$filter);
-        $stdPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
+        $stdPhpWriter->setFormatter($formatter);
+        $stdPhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($stdPhpWriter);
 
-        $collectionCreator = new CollectionCreator();
-        $collectionCreator->setLogger($logger);
-
-        $buildGenerator->setCollectionCreator($collectionCreator);
+        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
         $buildGenerator->setWriterCollection($writerCollection);
         $buildGenerator->setCollectPatternIds(true);
 
@@ -134,7 +128,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
      * the $coveredPatterns array isn't empty
      */
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
             $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
@@ -159,7 +153,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'php') {
+            if (!$file->isFile() || 'php' !== $file->getExtension()) {
                 continue;
             }
 
@@ -193,7 +187,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgents($userAgent, $expectedProperties)
+    public function testUserAgents($userAgent, $expectedProperties) : void
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');

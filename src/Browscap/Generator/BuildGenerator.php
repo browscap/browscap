@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use ZipArchive;
@@ -16,8 +17,9 @@ use ZipArchive;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildGenerator extends AbstractBuildGenerator
 {
@@ -26,31 +28,26 @@ class BuildGenerator extends AbstractBuildGenerator
      *
      * @param string $version
      * @param bool   $createZipFile
-     *
-     * @return \Browscap\Generator\BuildGenerator
      */
-    public function run($version, $createZipFile = true)
+    public function run(string $version, bool $createZipFile = true) : void
     {
-        return $this
-            ->preBuild()
-            ->build($version)
-            ->postBuild($createZipFile);
+        $this->preBuild();
+        $this->build($version);
+        $this->postBuild($createZipFile);
     }
 
     /**
      * runs after the build
      *
      * @param bool $createZipFile
-     *
-     * @return \Browscap\Generator\BuildGenerator
      */
-    protected function postBuild($createZipFile = true)
+    protected function postBuild(bool $createZipFile = true) : void
     {
         if (!$createZipFile) {
-            return $this;
+            return;
         }
 
-        $this->getLogger()->info('started creating the zip archive');
+        $this->logger->info('started creating the zip archive');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
@@ -79,8 +76,6 @@ class BuildGenerator extends AbstractBuildGenerator
 
         $zip->close();
 
-        $this->getLogger()->info('finished creating the zip archive');
-
-        return $this;
+        $this->logger->info('finished creating the zip archive');
     }
 }

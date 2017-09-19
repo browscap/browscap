@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -20,7 +21,8 @@ use Psr\Log\LoggerInterface;
  * Class JsonWriter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 
 class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
@@ -28,22 +30,22 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var resource
      */
-    private $file = null;
+    private $file;
 
     /**
      * @var FormatterInterface
      */
-    private $formatter = null;
+    private $formatter;
 
     /**
      * @var FilterInterface
      */
-    private $type = null;
+    private $filter;
 
     /**
      * @var bool
@@ -58,14 +60,16 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @var \Browscap\Data\Expander
      */
-    private $expander = null;
+    private $expander;
 
     /**
-     * @param string $file
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file)
+    public function __construct(string $file, LoggerInterface $logger)
     {
-        $this->file = fopen($file, 'w');
+        $this->logger = $logger;
+        $this->file   = fopen($file, 'w');
     }
 
     /**
@@ -73,194 +77,142 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return 'json';
     }
 
     /**
      * closes the Writer and the written File
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function close()
+    public function close() : void
     {
         fclose($this->file);
     }
 
     /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
-    }
-
-    /**
      * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setFormatter(FormatterInterface $formatter)
+    public function setFormatter(FormatterInterface $formatter) : void
     {
         $this->formatter = $formatter;
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter()
+    public function getFormatter() : FormatterInterface
     {
         return $this->formatter;
     }
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setFilter(FilterInterface $filter)
+    public function setFilter(FilterInterface $filter) : void
     {
-        $this->type             = $filter;
-        $this->outputProperties = [];
-
-        return $this;
+        $this->filter             = $filter;
+        $this->outputProperties   = [];
     }
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter()
+    public function getFilter() : FilterInterface
     {
-        return $this->type;
+        return $this->filter;
     }
 
     /**
      * @param \Browscap\Data\Expander $expander
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setExpander(Expander $expander)
+    public function setExpander(Expander $expander) : void
     {
         $this->expander = $expander;
-
-        return $this;
     }
 
     /**
      * @param bool $silent
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent)
+    public function setSilent(bool $silent) : void
     {
-        $this->silent = (boolean) $silent;
-
-        return $this;
+        $this->silent = $silent;
     }
 
     /**
      * @return bool
      */
-    public function isSilent()
+    public function isSilent() : bool
     {
         return $this->silent;
     }
 
     /**
      * Generates a start sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function fileStart()
+    public function fileStart() : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
-        fputs($this->file, '{' . PHP_EOL);
-
-        return $this;
+        fwrite($this->file, '{' . PHP_EOL);
     }
 
     /**
      * Generates a end sequence for the output file
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function fileEnd()
+    public function fileEnd() : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
-        fputs($this->file, '}' . PHP_EOL);
-
-        return $this;
+        fwrite($this->file, '}' . PHP_EOL);
     }
 
     /**
      * Generate the header
      *
      * @param string[] $comments
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = [])
+    public function renderHeader(array $comments = []) : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
-        $this->getLogger()->debug('rendering comments');
+        $this->logger->debug('rendering comments');
 
-        fputs($this->file, '  "comments": [' . PHP_EOL);
+        fwrite($this->file, '  "comments": [' . PHP_EOL);
 
         foreach ($comments as $i => $text) {
-            fputs($this->file, '    ' . json_encode($text));
+            fwrite($this->file, '    ' . json_encode($text));
 
             if ($i < (count($comments) - 1)) {
-                fputs($this->file, ',');
+                fwrite($this->file, ',');
             }
 
-            fputs($this->file, PHP_EOL);
+            fwrite($this->file, PHP_EOL);
         }
 
-        fputs($this->file, '  ],' . PHP_EOL);
-
-        return $this;
+        fwrite($this->file, '  ],' . PHP_EOL);
     }
 
     /**
      * renders the version information
      *
      * @param string[] $versionData
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = [])
+    public function renderVersion(array $versionData = []) : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
-        $this->getLogger()->debug('rendering version information');
+        $this->logger->debug('rendering version information');
 
-        fputs($this->file, '  "GJK_Browscap_Version": {' . PHP_EOL);
+        fwrite($this->file, '  "GJK_Browscap_Version": {' . PHP_EOL);
 
         if (!isset($versionData['version'])) {
             $versionData['version'] = '0';
@@ -270,24 +222,20 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
             $versionData['released'] = '';
         }
 
-        fputs($this->file, '    "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
-        fputs($this->file, '    "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
+        fwrite($this->file, '    "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
+        fwrite($this->file, '    "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
 
-        fputs($this->file, '  },' . PHP_EOL);
-
-        return $this;
+        fwrite($this->file, '  },' . PHP_EOL);
     }
 
     /**
      * renders the header for all divisions
      *
      * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderAllDivisionsHeader(DataCollection $collection)
+    public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
-        return $this;
+        // nothing to do here
     }
 
     /**
@@ -295,47 +243,40 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param string $division
      * @param string $parent
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
-        return $this;
+        // nothing to do here
     }
 
     /**
      * renders the header for a section
      *
      * @param string $sectionName
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionHeader($sectionName)
+    public function renderSectionHeader(string $sectionName) : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
-        fputs($this->file, '  ' . $this->getFormatter()->formatPropertyName($sectionName) . ': ');
-
-        return $this;
+        fwrite($this->file, '  ' . $this->formatter->formatPropertyName($sectionName) . ': ');
     }
 
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|true)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
-     * @return JsonWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         $division          = $collection->getDefaultProperties();
@@ -344,7 +285,11 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
         $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
-            $defaultproperties[$propertyName] = $this->expander->trimProperty($propertyValue);
+            if (is_bool($propertyValue)) {
+                $defaultproperties[$propertyName] = $propertyValue;
+            } else {
+                $defaultproperties[$propertyName] = $this->expander->trimProperty((string) $propertyValue);
+            }
         }
 
         $propertiesToOutput = [];
@@ -355,7 +300,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
             }
 
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
@@ -385,12 +330,10 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
             $propertiesToOutput[$property] = $section[$property];
         }
 
-        fputs(
+        fwrite(
             $this->file,
-            $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
         );
-
-        return $this;
     }
 
     /**
@@ -400,38 +343,32 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionFooter($sectionName = '')
+    public function renderSectionFooter(string $sectionName = '') : void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         if ('*' !== $sectionName) {
-            fputs($this->file, ',');
+            fwrite($this->file, ',');
         }
 
-        fputs($this->file, PHP_EOL);
-
-        return $this;
+        fwrite($this->file, PHP_EOL);
     }
 
     /**
      * renders the footer for a division
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionFooter()
+    public function renderDivisionFooter() : void
     {
-        return $this;
+        // nothing to do here
     }
 
     /**
      * renders the footer for all divisions
-     *
-     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderAllDivisionsFooter()
+    public function renderAllDivisionsFooter() : void
     {
-        return $this;
+        // nothing to do here
     }
 }

@@ -487,6 +487,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-811-J (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5;Windows NT)',
+        'properties' => [
+            'Comment' => 'IE 5.5',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '5.5',
+            'MajorVer' => '5',
+            'MinorVer' => '5',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-811-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) KcB/16.0 Firefox/16.0',
         'properties' => [

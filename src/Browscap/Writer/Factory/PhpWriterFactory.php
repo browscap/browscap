@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\FullFilter;
@@ -22,7 +23,8 @@ use Psr\Log\LoggerInterface;
  * Class FullPhpWriterFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class PhpWriterFactory
 {
@@ -40,28 +42,25 @@ class PhpWriterFactory
         $stdFilter  = new StandardFilter();
         $liteFilter = new LiteFilter();
 
-        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
+        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter);
+        $formatter->setFilter($fullFilter);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter($fullFilter);
         $writerCollection->addWriter($fullPhpWriter);
 
-        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini');
+        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
         $formatter    = new PhpFormatter();
-        $stdPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter);
+        $formatter->setFilter($stdFilter);
+        $stdPhpWriter->setFormatter($formatter);
+        $stdPhpWriter->setFilter($stdFilter);
         $writerCollection->addWriter($stdPhpWriter);
 
-        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini');
+        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter     = new PhpFormatter();
-        $litePhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($liteFilter))
-            ->setFilter($liteFilter);
+        $formatter->setFilter($liteFilter);
+        $litePhpWriter->setFormatter($formatter);
+        $litePhpWriter->setFilter($liteFilter);
         $writerCollection->addWriter($litePhpWriter);
 
         return $writerCollection;

@@ -1,38 +1,25 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Device;
 use Browscap\Data\Factory\PlatformFactory;
 
 /**
  * Class PlatformTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
@@ -40,13 +27,13 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Browscap\Data\Factory\PlatformFactory
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new PlatformFactory();
     }
@@ -57,7 +44,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testBuild()
+    public function testBuild() : void
     {
         $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true];
         $json         = [];
@@ -65,7 +52,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 
         $deviceData = ['Device_Name' => 'TestDevice'];
 
-        $deviceMock = $this->getMockBuilder(\Browscap\Data\Device::class)
+        $deviceMock = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -74,7 +61,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
             ->method('getProperties')
             ->will(self::returnValue($deviceData));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDevice'])
             ->getMock();
@@ -85,7 +72,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 
         self::assertInstanceOf(
             '\Browscap\Data\Platform',
-            $this->object->build($platformData, $json, $platformName, $collection)
+            $this->object->build($platformData, $json, $platformName)
         );
     }
 }

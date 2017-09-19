@@ -217,6 +217,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1459-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 SznProhlizec/3.4.1',
+        'properties' => [
+            'Comment' => 'Seznam Browser 3.4',
+            'Browser' => 'Seznam Browser',
+            'Browser_Maker' => 'Seznam.cz, a.s.',
+            'Version' => '3.4',
+            'MajorVer' => '3',
+            'MinorVer' => '4',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1459-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 SznProhlizec/3.3.0',
         'properties' => [

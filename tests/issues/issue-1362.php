@@ -649,6 +649,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1362-M (standard)' => [
+        'ua' => 'Opera/6.04 (Windows XP; U; [de])',
+        'properties' => [
+            'Comment' => 'Opera 6.04',
+            'Browser' => 'Opera',
+            'Browser_Maker' => 'Opera Software ASA',
+            'Version' => '6.04',
+            'MajorVer' => '6',
+            'MinorVer' => '04',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1362-N' => [
         'ua' => 'Opera/7.21 (Windows; U; nb)',
         'properties' => [

@@ -1081,6 +1081,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1378-U (standard)' => [
+        'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.120 Chrome/15.0.874.120 Safari/535.2',
+        'properties' => [
+            'Comment' => 'Chromium 15.0',
+            'Browser' => 'Chromium',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '15.0',
+            'MajorVer' => '15',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1378-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Ubuntu 14.04 like Android 4.4) AppleWebKit/537.36 Chromium/35.0.1870.2 Mobile Safari/537.36',
         'properties' => [

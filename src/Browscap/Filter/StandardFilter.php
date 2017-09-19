@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Filter;
 
 use Browscap\Data\Division;
@@ -18,14 +19,15 @@ use Browscap\Writer\WriterInterface;
  * Class StandardFilter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class StandardFilter implements FilterInterface
 {
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $propertyHolder = null;
+    private $propertyHolder;
 
     /**
      * @param \Browscap\Data\PropertyHolder|null $propertyHolder
@@ -44,7 +46,7 @@ class StandardFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return '';
     }
@@ -56,7 +58,7 @@ class StandardFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division)
+    public function isOutput(Division $division) : bool
     {
         return $division->isStandard();
     }
@@ -64,11 +66,11 @@ class StandardFilter implements FilterInterface
     /**
      * checks if a section should be in the output
      *
-     * @param string[] $section
+     * @param bool[] $section
      *
      * @return bool
      */
-    public function isOutputSection(array $section)
+    public function isOutputSection(array $section) : bool
     {
         return !isset($section['standard']) || $section['standard'];
     }
@@ -81,7 +83,7 @@ class StandardFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty($property, ?WriterInterface $writer = null)
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\FullFilter;
@@ -20,7 +21,8 @@ use Psr\Log\LoggerInterface;
  * Class FullPhpWriterFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullPhpWriterFactory
 {
@@ -40,13 +42,14 @@ class FullPhpWriterFactory
         }
 
         $fullFilter    = new FullFilter();
-        $fullPhpWriter = new IniWriter($file);
+        $fullPhpWriter = new IniWriter($file, $logger);
         $formatter     = new PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter);
+        $formatter->setFilter($fullFilter);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter($fullFilter);
 
-        return $writerCollection->addWriter($fullPhpWriter);
+        $writerCollection->addWriter($fullPhpWriter);
+
+        return $writerCollection;
     }
 }

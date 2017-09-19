@@ -1,38 +1,28 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Generator\Helper;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
 use Browscap\Generator\Helper\BuildHelper;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\WriterCollection;
+use Monolog\Logger;
 
 /**
  * Class BuildGeneratorTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildHelperTest extends \PHPUnit\Framework\TestCase
@@ -43,11 +33,11 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testRun()
+    public function testRun() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',
@@ -86,7 +76,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             }))
             ->will(self::returnSelf());
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -114,7 +104,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -140,17 +130,11 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
-            ->setMethods(['setLogger', 'getLogger', 'createDataCollection'])
+            ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $collectionCreator->expects(self::once())
-            ->method('setLogger')
-            ->will(self::returnSelf());
-        $collectionCreator->expects(self::never())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
         $collectionCreator->expects(self::once())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
@@ -164,11 +148,11 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testRunWithPatternIdCollectionEnabled()
+    public function testRunWithPatternIdCollectionEnabled() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                     'fileStart',
@@ -207,7 +191,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             }))
             ->will(self::returnSelf());
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -235,7 +219,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -261,17 +245,11 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
-            ->setMethods(['setLogger', 'getLogger', 'createDataCollection'])
+            ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $collectionCreator->expects(self::once())
-            ->method('setLogger')
-            ->will(self::returnSelf());
-        $collectionCreator->expects(self::never())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
         $collectionCreator->expects(self::once())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));

@@ -8,20 +8,22 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
  * Class Platform
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Platform
 {
     /**
-     * @var string
+     * @var string|null
      */
-    private $match = null;
+    private $match;
 
     /**
      * @var string[]
@@ -44,18 +46,18 @@ class Platform
      * @param bool     $isLite
      * @param bool     $standard
      */
-    public function __construct($match, array $properties, $isLite, $standard)
+    public function __construct(string $match, array $properties, bool $isLite, bool $standard)
     {
         $this->match      = $match;
         $this->properties = $properties;
-        $this->isLite     = (bool) $isLite;
-        $this->isStandard = (bool) $standard;
+        $this->isLite     = $isLite;
+        $this->isStandard = $standard;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getMatch()
+    public function getMatch() : ?string
     {
         return $this->match;
     }
@@ -63,7 +65,7 @@ class Platform
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties() : array
     {
         return $this->properties;
     }
@@ -71,7 +73,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isLite()
+    public function isLite() : bool
     {
         return $this->isLite;
     }
@@ -79,7 +81,7 @@ class Platform
     /**
      * @return bool
      */
-    public function isStandard()
+    public function isStandard() : bool
     {
         return $this->isStandard;
     }

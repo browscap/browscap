@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
@@ -17,21 +18,22 @@ use Browscap\Filter\FilterInterface;
  * Class CsvFormatter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CsvFormatter implements FormatterInterface
 {
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $filter = null;
+    private $filter;
 
     /**
      * returns the Type of the formatter
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
         return 'csv';
     }
@@ -43,7 +45,7 @@ class CsvFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyName($name)
+    public function formatPropertyName(string $name) : string
     {
         return '"' . str_replace('"', '""', $name) . '"';
     }
@@ -51,28 +53,30 @@ class CsvFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param string $value
+     * @param mixed  $value
      * @param string $property
      *
      * @return string
      */
-    public function formatPropertyValue($value, $property)
+    public function formatPropertyValue($value, string $property) : string
     {
         $valueOutput    = $value;
         $propertyHolder = new PropertyHolder();
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = trim($value);
+                $valueOutput = trim((string) $value);
+
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || $value === 'true') {
+                if (true === $value || 'true' === $value) {
                     $valueOutput = 'true';
-                } elseif (false === $value || $value === 'false') {
+                } elseif (false === $value || 'false' === $value) {
                     $valueOutput = 'false';
                 } else {
                     $valueOutput = '';
                 }
+
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
@@ -80,6 +84,7 @@ class CsvFormatter implements FormatterInterface
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
+
                 break;
             default:
                 // nothing t do here
@@ -95,20 +100,16 @@ class CsvFormatter implements FormatterInterface
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Formatter\FormatterInterface
      */
-    public function setFilter(FilterInterface $filter)
+    public function setFilter(FilterInterface $filter) : void
     {
         $this->filter = $filter;
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter()
+    public function getFilter() : FilterInterface
     {
         return $this->filter;
     }
