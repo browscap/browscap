@@ -27,7 +27,7 @@ class StandardFilter implements FilterInterface
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $propertyHolder = null;
+    private $propertyHolder;
 
     /**
      * @param \Browscap\Data\PropertyHolder|null $propertyHolder

@@ -117,7 +117,7 @@ final class Processor implements ProcessorInterface
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'json') {
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
 
@@ -246,13 +246,13 @@ final class Processor implements ProcessorInterface
         $lineNumber  = $lexer->yylineno;
         $lineContent = $this->fileLines[$lineNumber];
 
-        if ($content === '') {
+        if ('' === $content) {
             $content = $lexer->yytext;
         }
 
         $position = mb_strpos($lineContent, $content);
 
-        if ($end === true) {
+        if (true === $end) {
             $position += mb_strlen($content);
         }
 
@@ -274,10 +274,10 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_OBJECT_START) {
+            if (self::JSON_OBJECT_START === $code) {
                 $code = $this->handleJsonDivision($lexer);
             }
-        } while ($code !== self::JSON_EOF);
+        } while (self::JSON_EOF !== $code);
     }
 
     /**
@@ -297,15 +297,15 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_STRING && $lexer->yytext === 'userAgents') {
+            if (self::JSON_STRING === $code && 'userAgents' === $lexer->yytext) {
                 $enterUaGroup = true;
-            } elseif ($code === self::JSON_ARRAY_START && $enterUaGroup === true) {
+            } elseif (self::JSON_ARRAY_START === $code && true === $enterUaGroup) {
                 $code         = $this->handleUseragentGroup($lexer);
                 $enterUaGroup = false;
-            } elseif ($code === self::JSON_OBJECT_START) {
+            } elseif (self::JSON_OBJECT_START === $code) {
                 $code = $this->ignoreObjectBlock($lexer);
             }
-        } while ($code !== self::JSON_OBJECT_END);
+        } while (self::JSON_OBJECT_END !== $code);
 
         return $lexer->lex();
     }
@@ -324,11 +324,11 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_OBJECT_START) {
+            if (self::JSON_OBJECT_START === $code) {
                 $code = $this->handleUseragentBlock($lexer, $useragentPosition);
                 ++$useragentPosition;
             }
-        } while ($code !== self::JSON_ARRAY_END);
+        } while (self::JSON_ARRAY_END !== $code);
 
         return $lexer->lex();
     }
@@ -348,15 +348,15 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_STRING && $lexer->yytext === 'children') {
+            if (self::JSON_STRING === $code && 'children' === $lexer->yytext) {
                 $enterChildGroup = true;
-            } elseif ($code === self::JSON_ARRAY_START && $enterChildGroup === true) {
+            } elseif (self::JSON_ARRAY_START === $code && true === $enterChildGroup) {
                 $code            = $this->handleChildrenGroup($lexer, $useragentPosition);
                 $enterChildGroup = false;
-            } elseif ($code === self::JSON_OBJECT_START) {
+            } elseif (self::JSON_OBJECT_START === $code) {
                 $code = $this->ignoreObjectBlock($lexer);
             }
-        } while ($code !== self::JSON_OBJECT_END);
+        } while (self::JSON_OBJECT_END !== $code);
 
         return $lexer->lex();
     }
@@ -376,11 +376,11 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_OBJECT_START) {
+            if (self::JSON_OBJECT_START === $code) {
                 $code = $this->handleChildBlock($lexer, $useragentPosition, $childPosition);
                 ++$childPosition;
             }
-        } while ($code !== self::JSON_ARRAY_END);
+        } while (self::JSON_ARRAY_END !== $code);
 
         return $lexer->lex();
     }
@@ -408,13 +408,13 @@ final class Processor implements ProcessorInterface
 
             switch ($code) {
                 case self::JSON_STRING:
-                    if ($lexer->yytext === 'platforms') {
+                    if ('platforms' === $lexer->yytext) {
                         $enterPlatforms = true;
-                    } elseif ($lexer->yytext === 'devices') {
+                    } elseif ('devices' === $lexer->yytext) {
                         $enterDevices = true;
-                    } elseif ($lexer->yytext === 'match') {
+                    } elseif ('match' === $lexer->yytext) {
                         $collectMatch = true;
-                    } elseif ($collectMatch === true) {
+                    } elseif (true === $collectMatch) {
                         $collectMatch        = false;
                         $match               = $lexer->yytext;
                         $functionDeclaration = [
@@ -425,7 +425,7 @@ final class Processor implements ProcessorInterface
 
                     break;
                 case self::JSON_OBJECT_START:
-                    if ($enterDevices === true) {
+                    if (true === $enterDevices) {
                         $code         = $this->handleDeviceBlock($lexer, $useragentPosition, $childPosition);
                         $enterDevices = false;
                     } else {
@@ -434,14 +434,14 @@ final class Processor implements ProcessorInterface
 
                     break;
                 case self::JSON_ARRAY_START:
-                    if ($enterPlatforms === true) {
+                    if (true === $enterPlatforms) {
                         $code           = $this->handlePlatformBlock($lexer, $useragentPosition, $childPosition);
                         $enterPlatforms = false;
                     }
 
                     break;
             }
-        } while ($code !== self::JSON_OBJECT_END);
+        } while (self::JSON_OBJECT_END !== $code);
 
         $functionEnd = $this->getLocationCoordinates($lexer, true);
 
@@ -476,7 +476,7 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_STRING && $capturedKey === false) {
+            if (self::JSON_STRING === $code && false === $capturedKey) {
                 $branchLocations[] = [
                     'start' => $this->getLocationCoordinates($lexer, false, '"' . $lexer->yytext . '"'),
                     'end' => $this->getLocationCoordinates($lexer, true, '"' . $lexer->yytext . '"'),
@@ -486,12 +486,12 @@ final class Processor implements ProcessorInterface
                     $this->fileCoveredIds
                 );
                 $capturedKey = true;
-            } elseif ($code === self::JSON_COLON) {
+            } elseif (self::JSON_COLON === $code) {
                 $sawColon = true;
-            } elseif ($code === self::JSON_STRING && $sawColon === true) {
+            } elseif (self::JSON_STRING === $code && true === $sawColon) {
                 $capturedKey = false;
             }
-        } while ($code !== self::JSON_OBJECT_END);
+        } while (self::JSON_OBJECT_END !== $code);
 
         $branchEnd = $this->getLocationCoordinates($lexer, true);
 
@@ -518,7 +518,7 @@ final class Processor implements ProcessorInterface
         do {
             $code = $lexer->lex();
 
-            if ($code === self::JSON_STRING) {
+            if (self::JSON_STRING === $code) {
                 $branchLocations[] = [
                     'start' => $this->getLocationCoordinates($lexer, false, '"' . $lexer->yytext . '"'),
                     'end' => $this->getLocationCoordinates($lexer, true, '"' . $lexer->yytext . '"'),
@@ -528,7 +528,7 @@ final class Processor implements ProcessorInterface
                     $this->fileCoveredIds
                 );
             }
-        } while ($code !== self::JSON_ARRAY_END);
+        } while (self::JSON_ARRAY_END !== $code);
 
         $branchEnd = $this->getLocationCoordinates($lexer, true);
 
@@ -550,10 +550,10 @@ final class Processor implements ProcessorInterface
             $code = $lexer->lex();
 
             // recursively ignore nested objects
-            if ($code === self::JSON_OBJECT_START) {
+            if (self::JSON_OBJECT_START === $code) {
                 $this->ignoreObjectBlock($lexer);
             }
-        } while ($code !== self::JSON_OBJECT_END);
+        } while (self::JSON_OBJECT_END !== $code);
 
         return $lexer->lex();
     }
@@ -676,10 +676,10 @@ final class Processor implements ProcessorInterface
 
         $count = 0;
 
-        if (mb_strlen($p) === 0) {
+        if (0 === mb_strlen($p)) {
             $p = '.*?';
         }
-        if (mb_strlen($d) === 0) {
+        if (0 === mb_strlen($d)) {
             $d = '.*?';
         }
 

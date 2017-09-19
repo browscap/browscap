@@ -488,7 +488,7 @@ class Expander
             $parents   = [$userAgent];
 
             while (isset($allInputDivisions[$userAgent]['Parent'])) {
-                if ($userAgent === $allInputDivisions[$userAgent]['Parent']) {
+                if ($allInputDivisions[$userAgent]['Parent'] === $userAgent) {
                     break;
                 }
 

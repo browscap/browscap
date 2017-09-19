@@ -39,8 +39,7 @@
     "phpunit/phpunit": "^6.2",
     "browscap/browscap-php": "^3.1.0",
     "mikey179/vfsStream": "^1.6",
-    "squizlabs/php_codesniffer": "^3.0",
-    "friendsofphp/php-cs-fixer": "^2.5",
+    "friendsofphp/php-cs-fixer": "^2.6",
     "seld/jsonlint": "^1.5",
     "phpstan/phpstan": "^0.8.4"
   },

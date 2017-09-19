@@ -120,7 +120,7 @@ abstract class AbstractBuildGenerator
     {
         $realDirectory = realpath($directory);
 
-        if ($realDirectory === false) {
+        if (false === $realDirectory) {
             throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 

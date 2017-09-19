@@ -69,9 +69,9 @@ class PhpFormatter implements FormatterInterface
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || $value === 'true') {
+                if (true === $value || 'true' === $value) {
                     $valueOutput = '"true"';
-                } elseif (false === $value || $value === 'false') {
+                } elseif (false === $value || 'false' === $value) {
                     $valueOutput = '"false"';
                 } else {
                     $valueOutput = '';

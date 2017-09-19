@@ -153,7 +153,7 @@ class LiteTest extends \PHPUnit\Framework\TestCase
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'php') {
+            if (!$file->isFile() || 'php' !== $file->getExtension()) {
                 continue;
             }
 

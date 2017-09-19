@@ -139,7 +139,7 @@ class PropertyHolder
      *
      * @return bool
      */
-    public function isLiteModeProperty(string$propertyName, ?WriterInterface $writer = null) : bool
+    public function isLiteModeProperty(string $propertyName, ?WriterInterface $writer = null) : bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -156,7 +156,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && $writer->getType() === 'ini') {
+        if (null !== $writer && 'ini' === $writer->getType()) {
             $additionalProperties = ['PatternId'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -276,8 +276,8 @@ class PropertyHolder
             }
         }
 
-        if (null !== $writer && $writer->getType() === 'ini') {
-            if ($propertyName === 'PatternId') {
+        if (null !== $writer && 'ini' === $writer->getType()) {
+            if ('PatternId' === $propertyName) {
                 return true;
             }
         }

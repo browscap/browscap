@@ -95,7 +95,7 @@ class BuildCommand extends Command
         $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
         $buildGenerator->setWriterCollection($writerCollection);
 
-        if ($input->getOption('coverage') !== false) {
+        if (false !== $input->getOption('coverage')) {
             $buildGenerator->setCollectPatternIds(true);
         }
 

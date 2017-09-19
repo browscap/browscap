@@ -354,7 +354,7 @@ class DataCollection
 
                     if (isset($child['platforms'])
                         && 1 < count($child['platforms'])
-                        && mb_strpos($child['match'], '#PLATFORM#') === false
+                        && false === mb_strpos($child['match'], '#PLATFORM#')
                     ) {
                         throw new \LogicException(
                             'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
@@ -364,7 +364,7 @@ class DataCollection
 
                     if (isset($child['devices'])
                         && 1 < count($child['devices'])
-                        && mb_strpos($child['match'], '#DEVICE#') === false
+                        && false === mb_strpos($child['match'], '#DEVICE#')
                     ) {
                         throw new \LogicException(
                             'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
