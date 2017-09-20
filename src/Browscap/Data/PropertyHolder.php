@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Browscap\Writer\WriterInterface;
@@ -16,21 +17,24 @@ use Browscap\Writer\WriterInterface;
  * Class PropertyHolder
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class PropertyHolder
 {
-    const TYPE_STRING   = 'string';
-    const TYPE_GENERIC  = 'generic';
-    const TYPE_NUMBER   = 'number';
-    const TYPE_BOOLEAN  = 'boolean';
-    const TYPE_IN_ARRAY = 'in_array';
+    public const TYPE_STRING   = 'string';
+    public const TYPE_GENERIC  = 'generic';
+    public const TYPE_NUMBER   = 'number';
+    public const TYPE_BOOLEAN  = 'boolean';
+    public const TYPE_IN_ARRAY = 'in_array';
 
     /**
      * Get the type of a property
      *
-     * @param  string     $propertyName
+     * @param string $propertyName
+     *
      * @throws \Exception
+     *
      * @return string
      */
     public function getPropertyType($propertyName)
@@ -152,7 +156,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && $writer->getType() === 'ini') {
+        if (null !== $writer && 'ini' === $writer->getType()) {
             $additionalProperties = ['PatternId'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -167,8 +171,9 @@ class PropertyHolder
      * Determine if the specified property is an property that should
      * be included in the "full" versions of the files only
      *
-     * @param  string                           $propertyName
-     * @param  \Browscap\Writer\WriterInterface $writer
+     * @param string                           $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
      * @return bool
      */
     public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
@@ -200,8 +205,9 @@ class PropertyHolder
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *
-     * @param  string                           $propertyName
-     * @param  \Browscap\Writer\WriterInterface $writer
+     * @param string                           $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
      * @return bool
      */
     public function isOutputProperty($propertyName, WriterInterface $writer = null)
@@ -270,8 +276,8 @@ class PropertyHolder
             }
         }
 
-        if (null !== $writer && $writer->getType() === 'ini') {
-            if ($propertyName === 'PatternId') {
+        if (null !== $writer && 'ini' === $writer->getType()) {
+            if ('PatternId' === $propertyName) {
                 return true;
             }
         }
@@ -284,6 +290,7 @@ class PropertyHolder
      * @param string $value
      *
      * @throws \InvalidArgumentException
+     *
      * @return string
      */
     public function checkValueInArray($property, $value)
@@ -303,6 +310,7 @@ class PropertyHolder
                     'Tool',
                     'unknown',
                 ];
+
                 break;
             case 'Device_Type':
                 $allowedValues = [
@@ -317,18 +325,21 @@ class PropertyHolder
                     'Digital Camera',
                     'unknown',
                 ];
+
                 break;
             case 'Device_Pointing_Method':
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = [
                     'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown',
                 ];
+
                 break;
             case 'Browser_Bits':
             case 'Platform_Bits':
                 $allowedValues = [
                     '0', '8', '16', '32', '64',
                 ];
+
                 break;
             default:
                 throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');

@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Helper;
 
 use Monolog\ErrorHandler;
@@ -21,7 +22,8 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class LoggerHelper
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class LoggerHelper
 {

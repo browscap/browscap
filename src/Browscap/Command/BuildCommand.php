@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
@@ -24,6 +25,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class BuildCommand
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildCommand extends Command
@@ -31,17 +33,17 @@ class BuildCommand extends Command
     /**
      * @var string
      */
-    const DEFAULT_BUILD_FOLDER = '/../../../build';
+    private const DEFAULT_BUILD_FOLDER = '/../../../build';
 
     /**
      * @var string
      */
-    const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
+    private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
     /**
      * Configures the current command.
      */
-    protected function configure()
+    protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -67,7 +69,8 @@ class BuildCommand extends Command
      * @param OutputInterface $output An OutputInterface instance
      *
      * @throws \LogicException When this abstract method is not implemented
-     * @return null|int        null or 0 if everything went fine, or an error code
+     *
+     * @return int|null null or 0 if everything went fine, or an error code
      *
      * @see    setCode()
      */
@@ -93,12 +96,14 @@ class BuildCommand extends Command
             ->setCollectionCreator(new CollectionCreator())
             ->setWriterCollection($writerCollection);
 
-        if ($input->getOption('coverage') !== false) {
+        if (false !== $input->getOption('coverage')) {
             $buildGenerator->setCollectPatternIds(true);
         }
 
         $buildGenerator->run($input->getArgument('version'));
 
         $logger->info('Build done.');
+
+        return 0;
     }
 }

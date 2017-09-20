@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Helper;
 
 use Browscap\Data\DataCollection;
@@ -17,20 +18,21 @@ use Psr\Log\LoggerInterface;
  * Class CollectionCreator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CollectionCreator
 {
     /**
      * @var \Browscap\Data\DataCollection
      */
-    private $collection = null;
+    private $collection;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @param \Browscap\Data\DataCollection $collection
@@ -70,6 +72,7 @@ class CollectionCreator
      * @param string $resourceFolder
      *
      * @throws \LogicException
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function createDataCollection($resourceFolder)
@@ -94,7 +97,7 @@ class CollectionCreator
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'json') {
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
 
@@ -108,7 +111,7 @@ class CollectionCreator
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'json') {
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
 

@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Filter;
 
 use Browscap\Data\Division;
@@ -18,14 +19,15 @@ use Browscap\Writer\WriterInterface;
  * Class FullFilter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullFilter implements FilterInterface
 {
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private $propertyHolder = null;
+    private $propertyHolder;
 
     /**
      * @param \Browscap\Data\PropertyHolder|null $propertyHolder

@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -19,7 +20,8 @@ use Psr\Log\LoggerInterface;
  * Interface WriterInterface
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 interface WriterInterface
 {
@@ -135,6 +137,7 @@ interface WriterInterface
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
      * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '');

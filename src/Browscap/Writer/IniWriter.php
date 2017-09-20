@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -20,29 +21,30 @@ use Psr\Log\LoggerInterface;
  * Class IniWriter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var resource
      */
-    private $file = null;
+    private $file;
 
     /**
      * @var \Browscap\Formatter\FormatterInterface
      */
-    private $formatter = null;
+    private $formatter;
 
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $type = null;
+    private $type;
 
     /**
      * @var bool
@@ -57,7 +59,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @var \Browscap\Data\Expander
      */
-    private $expander = null;
+    private $expander;
 
     /**
      * @param string $file
@@ -167,7 +169,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      */
     public function setSilent($silent)
     {
-        $this->silent = (boolean) $silent;
+        $this->silent = (bool) $silent;
 
         return $this;
     }
@@ -216,10 +218,10 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
         $this->getLogger()->debug('rendering comments');
 
         foreach ($comments as $comment) {
-            fputs($this->file, ';;; ' . $comment . PHP_EOL);
+            fwrite($this->file, ';;; ' . $comment . PHP_EOL);
         }
 
-        fputs($this->file, PHP_EOL);
+        fwrite($this->file, PHP_EOL);
 
         return $this;
     }
@@ -241,7 +243,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
 
         $this->renderDivisionHeader('Browscap Version');
 
-        fputs($this->file, '[GJK_Browscap_Version]' . PHP_EOL);
+        fwrite($this->file, '[GJK_Browscap_Version]' . PHP_EOL);
 
         if (!isset($versionData['version'])) {
             $versionData['version'] = '0';
@@ -259,10 +261,10 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             $versionData['type'] = '';
         }
 
-        fputs($this->file, 'Version=' . $versionData['version'] . PHP_EOL);
-        fputs($this->file, 'Released=' . $versionData['released'] . PHP_EOL);
-        fputs($this->file, 'Format=' . $versionData['format'] . PHP_EOL);
-        fputs($this->file, 'Type=' . $versionData['type'] . PHP_EOL . PHP_EOL);
+        fwrite($this->file, 'Version=' . $versionData['version'] . PHP_EOL);
+        fwrite($this->file, 'Released=' . $versionData['released'] . PHP_EOL);
+        fwrite($this->file, 'Format=' . $versionData['format'] . PHP_EOL);
+        fwrite($this->file, 'Type=' . $versionData['type'] . PHP_EOL . PHP_EOL);
 
         return $this;
     }
@@ -293,7 +295,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             return $this;
         }
 
-        fputs($this->file, ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL);
+        fwrite($this->file, ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL);
 
         return $this;
     }
@@ -311,7 +313,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             return $this;
         }
 
-        fputs($this->file, '[' . $sectionName . ']' . PHP_EOL);
+        fwrite($this->file, '[' . $sectionName . ']' . PHP_EOL);
 
         return $this;
     }
@@ -325,6 +327,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
      * @return IniWriter
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
@@ -339,7 +342,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
         $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
-            $defaultproperties[$propertyName] = $this->expander->trimProperty($propertyValue);
+            $defaultproperties[$propertyName] = $this->expander->trimProperty((string) $propertyValue);
         }
 
         foreach ($properties as $property) {
@@ -375,7 +378,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
                 }
             }
 
-            fputs(
+            fwrite(
                 $this->file,
                 $this->getFormatter()->formatPropertyName($property)
                 . '=' . $this->getFormatter()->formatPropertyValue($section[$property], $property) . PHP_EOL
@@ -398,7 +401,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             return $this;
         }
 
-        fputs($this->file, PHP_EOL);
+        fwrite($this->file, PHP_EOL);
 
         return $this;
     }

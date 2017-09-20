@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -19,29 +20,30 @@ use Psr\Log\LoggerInterface;
  * Class CsvWriter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CsvWriter implements WriterInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * @var resource
      */
-    private $file = null;
+    private $file;
 
     /**
      * @var \Browscap\Formatter\FormatterInterface
      */
-    private $formatter = null;
+    private $formatter;
 
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $type = null;
+    private $type;
 
     /**
      * @var bool
@@ -149,7 +151,7 @@ class CsvWriter implements WriterInterface
      */
     public function setSilent($silent)
     {
-        $this->silent = (boolean) $silent;
+        $this->silent = (bool) $silent;
 
         return $this;
     }
@@ -209,7 +211,7 @@ class CsvWriter implements WriterInterface
 
         $this->getLogger()->debug('rendering version information');
 
-        fputs($this->file, '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL);
+        fwrite($this->file, '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL);
 
         if (!isset($versionData['version'])) {
             $versionData['version'] = '0';
@@ -219,7 +221,7 @@ class CsvWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fputs($this->file, '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL);
+        fwrite($this->file, '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL);
 
         return $this;
     }
@@ -260,7 +262,7 @@ class CsvWriter implements WriterInterface
             $values[] = $this->getFormatter()->formatPropertyName($property);
         }
 
-        fputs($this->file, implode(',', $values) . PHP_EOL);
+        fwrite($this->file, implode(',', $values) . PHP_EOL);
 
         return $this;
     }
@@ -299,6 +301,7 @@ class CsvWriter implements WriterInterface
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
      * @return CsvWriter
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
@@ -344,7 +347,7 @@ class CsvWriter implements WriterInterface
             $values[] = $this->getFormatter()->formatPropertyValue($value, $property);
         }
 
-        fputs($this->file, implode(',', $values) . PHP_EOL);
+        fwrite($this->file, implode(',', $values) . PHP_EOL);
 
         return $this;
     }

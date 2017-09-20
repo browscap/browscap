@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
@@ -18,7 +19,8 @@ use Browscap\Data\Expander;
  * Class WriterCollection
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class WriterCollection
 {
@@ -225,6 +227,7 @@ class WriterCollection
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
      * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
