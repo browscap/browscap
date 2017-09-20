@@ -34,10 +34,10 @@ class Device
      * @param string[] $properties
      * @param bool     $standard
      */
-    public function __construct(array $properties, $standard)
+    public function __construct(array $properties, bool $standard)
     {
         $this->properties = $properties;
-        $this->standard   = (bool) $standard;
+        $this->standard   = $standard;
     }
 
     /**

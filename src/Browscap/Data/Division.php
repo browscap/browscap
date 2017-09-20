@@ -26,7 +26,7 @@ class Division
     private $name = '';
 
     /**
-     * @var string
+     * @var string|null
      */
     private $fileName = '';
 
@@ -56,13 +56,13 @@ class Division
     private $userAgents = [];
 
     /**
-     * @param string $name
-     * @param int    $sortIndex
-     * @param array  $userAgents
-     * @param bool   $lite
-     * @param bool   $standard
-     * @param array  $versions
-     * @param string $fileName
+     * @param string      $name
+     * @param int         $sortIndex
+     * @param array       $userAgents
+     * @param bool        $lite
+     * @param bool        $standard
+     * @param array       $versions
+     * @param string|null $fileName
      */
     public function __construct(
         string $name,
@@ -71,7 +71,7 @@ class Division
         bool $lite,
         bool $standard = true,
         array $versions = [],
-        string $fileName = null
+        ?string $fileName = null
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -131,9 +131,9 @@ class Division
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getFileName() : string
+    public function getFileName() : ?string
     {
         return $this->fileName;
     }

@@ -45,12 +45,12 @@ class DataCollection
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultProperties = [];
+    private $defaultProperties;
 
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultBrowser = [];
+    private $defaultBrowser;
 
     /**
      * @var bool

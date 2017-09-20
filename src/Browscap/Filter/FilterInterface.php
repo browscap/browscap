@@ -43,7 +43,7 @@ interface FilterInterface
     /**
      * checks if a section should be in the output
      *
-     * @param string[] $section
+     * @param bool[] $section
      *
      * @return bool
      */

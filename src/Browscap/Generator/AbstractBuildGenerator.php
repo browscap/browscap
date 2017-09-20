@@ -61,7 +61,7 @@ abstract class AbstractBuildGenerator
      *
      * @throws \Exception
      */
-    public function __construct($resourceFolder, $buildFolder)
+    public function __construct(string $resourceFolder, string $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
         $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
@@ -96,7 +96,7 @@ abstract class AbstractBuildGenerator
      */
     public function setCollectPatternIds(bool $value) : self
     {
-        $this->collectPatternIds = (bool) $value;
+        $this->collectPatternIds = $value;
 
         return $this;
     }

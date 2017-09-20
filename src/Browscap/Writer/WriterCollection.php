@@ -74,7 +74,7 @@ class WriterCollection
     /**
      * @param Expander $expander
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function setExpander(Expander $expander)
     {
@@ -221,7 +221,7 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|bool)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName

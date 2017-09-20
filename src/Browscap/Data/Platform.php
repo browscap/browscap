@@ -46,12 +46,12 @@ class Platform
      * @param bool     $isLite
      * @param bool     $standard
      */
-    public function __construct($match, array $properties, $isLite, $standard)
+    public function __construct(string $match, array $properties, bool $isLite, bool $standard)
     {
         $this->match      = $match;
         $this->properties = $properties;
-        $this->isLite     = (bool) $isLite;
-        $this->isStandard = (bool) $standard;
+        $this->isLite     = $isLite;
+        $this->isStandard = $standard;
     }
 
     /**
