@@ -8,42 +8,26 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
-use Browscap\Writer;
+use Browscap\Writer\Factory\CustomWriterFactory;
 
 /**
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildCustomFileGenerator extends AbstractBuildGenerator
 {
-    /**@+
-     * @var string
-     */
-    const OUTPUT_FORMAT_PHP  = 'php';
-    const OUTPUT_FORMAT_ASP  = 'asp';
-    const OUTPUT_FORMAT_CSV  = 'csv';
-    const OUTPUT_FORMAT_XML  = 'xml';
-    const OUTPUT_FORMAT_JSON = 'json';
-    /**@-*/
-
-    /**@+
-     * @var string
-     */
-    const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'normal';
-    const OUTPUT_TYPE_LITE    = 'lite';
-    /**@-*/
-
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string      $version
+     * @param string      $buildVersion
      * @param array       $fields
      * @param string|null $file
      * @param string      $format
@@ -51,15 +35,16 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     public function run(
-        $version,
+        $buildVersion,
         $fields = [],
         $file = null,
-        $format = self::OUTPUT_FORMAT_PHP
+        $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
     ) {
-        return $this
-            ->preBuild($fields, $file, $format)
-            ->build($version)
-            ->postBuild();
+        $this->preBuild($fields, $file, $format);
+        $this->build($buildVersion);
+        $this->postBuild();
+
+        return $this;
     }
 
     /**
@@ -74,7 +59,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     protected function preBuild(
         $fields = [],
         $file = null,
-        $format = self::OUTPUT_FORMAT_PHP
+        $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
     ) {
         parent::preBuild();
 
@@ -85,7 +70,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         }
 
         if (null === $this->writerCollection) {
-            $factory = new Writer\Factory\CustomWriterFactory();
+            $factory = new CustomWriterFactory();
 
             $this->setWriterCollection(
                 $factory->createCollection(

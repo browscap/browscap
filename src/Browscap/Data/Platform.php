@@ -8,20 +8,22 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
  * Class Platform
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Platform
 {
     /**
      * @var string
      */
-    private $match = null;
+    private $match;
 
     /**
      * @var string[]

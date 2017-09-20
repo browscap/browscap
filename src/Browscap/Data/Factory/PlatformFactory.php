@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Platform;
@@ -16,7 +17,8 @@ use Browscap\Data\Platform;
  * Class PlatformFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class PlatformFactory
 {
@@ -29,6 +31,7 @@ class PlatformFactory
      *
      * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Platform
      */
     public function build(array $platformData, array $json, $platformName)

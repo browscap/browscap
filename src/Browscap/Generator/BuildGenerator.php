@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use ZipArchive;
@@ -16,25 +17,27 @@ use ZipArchive;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildGenerator extends AbstractBuildGenerator
 {
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string $buildVersion
      * @param bool   $createZipFile
      *
      * @return \Browscap\Generator\BuildGenerator
      */
-    public function run($version, $createZipFile = true)
+    public function run($buildVersion, $createZipFile = true)
     {
-        return $this
-            ->preBuild()
-            ->build($version)
-            ->postBuild($createZipFile);
+        $this->preBuild();
+        $this->build($buildVersion);
+        $this->postBuild($createZipFile);
+
+        return $this;
     }
 
     /**

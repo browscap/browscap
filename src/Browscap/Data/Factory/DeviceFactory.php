@@ -1,17 +1,14 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as
- * published by the Free Software Foundation, either version 3 of the
- * License, or (at your option) any later version.
- * Refer to the LICENSE file distributed with this package.
+ * This file is part of the browscap package.
  *
- * @category   Browscap
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Device;
@@ -20,7 +17,8 @@ use Browscap\Data\Device;
  * Class DeviceFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class DeviceFactory
 {
@@ -31,7 +29,8 @@ class DeviceFactory
      * @param array  $json
      * @param string $deviceName
      *
-     * @throws \RuntimeException     if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     *
      * @return \Browscap\Data\Device
      */
     public function build(array $deviceData, array $json, $deviceName)

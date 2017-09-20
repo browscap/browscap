@@ -1,30 +1,14 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
 use Browscap\Filter\LiteFilter;
@@ -33,20 +17,21 @@ use Browscap\Filter\LiteFilter;
  * Class LiteFilterTest
  *
  * @category   BrowscapTest
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class LiteFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Filter\LiteFilter
      */
-    private $object = null;
+    private $object;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->object = new LiteFilter();
     }
@@ -57,7 +42,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('LITE', $this->object->getType());
     }
@@ -68,7 +53,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutput()
+    public function testIsOutput() : void
     {
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
@@ -141,8 +126,11 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      *
      * @group filter
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra)
+    public function testIsOutputProperty($propertyName, $isExtra) : void
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
@@ -154,7 +142,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutputSectionOnlyWhenLite()
+    public function testIsOutputSectionOnlyWhenLite() : void
     {
         $this->assertFalse($this->object->isOutputSection([]));
         $this->assertFalse($this->object->isOutputSection(['lite' => false]));

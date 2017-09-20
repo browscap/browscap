@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
@@ -17,14 +18,15 @@ use Browscap\Filter\FilterInterface;
  * Class XmlFormatter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class XmlFormatter implements FormatterInterface
 {
     /**
      * @var \Browscap\Filter\FilterInterface
      */
-    private $filter = null;
+    private $filter;
 
     /**
      * returns the Type of the formatter
@@ -63,15 +65,17 @@ class XmlFormatter implements FormatterInterface
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
                 $valueOutput = htmlentities(trim($value));
+
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || $value === 'true') {
+                if (true === $value || 'true' === $value) {
                     $valueOutput = 'true';
-                } elseif (false === $value || $value === 'false') {
+                } elseif (false === $value || 'false' === $value) {
                     $valueOutput = 'false';
                 } else {
                     $valueOutput = '';
                 }
+
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
@@ -79,9 +83,11 @@ class XmlFormatter implements FormatterInterface
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
+
                 break;
             default:
                 $valueOutput = htmlentities($value);
+
                 break;
         }
 

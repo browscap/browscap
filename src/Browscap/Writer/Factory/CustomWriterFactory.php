@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\CustomFilter;
@@ -20,18 +21,19 @@ use Psr\Log\LoggerInterface;
  * Class FullPhpWriterFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CustomWriterFactory
 {
     /**@+
      * @var string
      */
-    const OUTPUT_FORMAT_PHP  = 'php';
-    const OUTPUT_FORMAT_ASP  = 'asp';
-    const OUTPUT_FORMAT_CSV  = 'csv';
-    const OUTPUT_FORMAT_XML  = 'xml';
-    const OUTPUT_FORMAT_JSON = 'json';
+    public const OUTPUT_FORMAT_PHP  = 'php';
+    public const OUTPUT_FORMAT_ASP  = 'asp';
+    public const OUTPUT_FORMAT_CSV  = 'csv';
+    public const OUTPUT_FORMAT_XML  = 'xml';
+    public const OUTPUT_FORMAT_JSON = 'json';
     /**@-*/
 
     /**
@@ -56,19 +58,24 @@ class CustomWriterFactory
             switch ($format) {
                 case self::OUTPUT_FORMAT_ASP:
                     $file = $buildFolder . '/full_browscap.ini';
+
                     break;
                 case self::OUTPUT_FORMAT_CSV:
                     $file = $buildFolder . '/browscap.csv';
+
                     break;
                 case self::OUTPUT_FORMAT_XML:
                     $file = $buildFolder . '/browscap.xml';
+
                     break;
                 case self::OUTPUT_FORMAT_JSON:
                     $file = $buildFolder . '/browscap.json';
+
                     break;
                 case self::OUTPUT_FORMAT_PHP:
                 default:
                     $file = $buildFolder . '/full_php_browscap.ini';
+
                     break;
             }
         }
@@ -79,23 +86,28 @@ class CustomWriterFactory
             case self::OUTPUT_FORMAT_ASP:
                 $writer    = new Writer\IniWriter($file);
                 $formatter = new Formatter\AspFormatter();
+
                 break;
             case self::OUTPUT_FORMAT_CSV:
                 $writer    = new Writer\CsvWriter($file);
                 $formatter = new Formatter\CsvFormatter();
+
                 break;
             case self::OUTPUT_FORMAT_XML:
                 $writer    = new Writer\XmlWriter($file);
                 $formatter = new Formatter\XmlFormatter();
+
                 break;
             case self::OUTPUT_FORMAT_JSON:
                 $writer    = new Writer\JsonWriter($file);
                 $formatter = new Formatter\JsonFormatter();
+
                 break;
             case self::OUTPUT_FORMAT_PHP:
             default:
                 $writer    = new Writer\IniWriter($file);
                 $formatter = new Formatter\PhpFormatter();
+
                 break;
         }
 

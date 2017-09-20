@@ -1,33 +1,21 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Generator;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
 use Browscap\Generator\BuildCustomFileGenerator;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\WriterCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
@@ -35,6 +23,7 @@ use Monolog\Logger;
  * Class BuildGeneratorTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
@@ -47,44 +36,16 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->logger   = new Logger('browscapTest', [new NullHandler()]);
         $this->messages = [];
-    }
-
-    /**
-     * tests failing the build without parameters
-     *
-     * @group generator
-     * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage You must specify a resource folder
-     */
-    public function testConstructFailsWithoutParameters()
-    {
-        new BuildCustomFileGenerator(null, null);
-    }
-
-    /**
-     * tests failing the build without build dir
-     *
-     * @group generator
-     * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage You must specify a build folder
-     */
-    public function testConstructFailsWithoutTheSecondParameter()
-    {
-        new BuildCustomFileGenerator('.', null);
     }
 
     /**
@@ -92,13 +53,13 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      *
      * @group generator
      * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage The directory "/dar" does not exist, or we cannot access it
      */
-    public function testConstructFailsIfTheDirDoesNotExsist()
+    public function testConstructFailsIfTheDirDoesNotExsist() : void
     {
-        new BuildCustomFileGenerator('/dar', null);
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
+
+        new BuildCustomFileGenerator('/dar', '');
     }
 
     /**
@@ -107,7 +68,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testConstructFailsIfTheDirIsNotAnDirectory()
+    public function testConstructFailsIfTheDirIsNotAnDirectory() : void
     {
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
@@ -121,7 +82,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testSetLogger()
+    public function testSetLogger() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
 
@@ -141,9 +102,9 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      * @group generator
      * @group sourcetest
      */
-    public function testBuild()
+    public function testBuild() : void
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
@@ -169,9 +130,9 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getVersions')
-            ->will(self::returnValue([2]));
+            ->will(self::returnValue(['2']));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
             ->getMock();
@@ -197,7 +158,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $mockCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+        $mockCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -207,7 +168,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
                 'fileStart',

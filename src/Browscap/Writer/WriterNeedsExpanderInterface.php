@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\Expander;
@@ -16,7 +17,8 @@ use Browscap\Data\Expander;
  * Interface WriterInterface
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 interface WriterNeedsExpanderInterface
 {

@@ -49,7 +49,7 @@ jobs:
     - stage: check coding style
       php: 7.1
       env: COMPOSER_FLAGS=""
-      script: php -n -d memory_limit=768M vendor/bin/phpcs
+      script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
     - stage: integration test
       php: 7.1
       env:

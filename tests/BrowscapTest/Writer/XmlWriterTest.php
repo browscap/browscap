@@ -1,65 +1,56 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Writer;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
+use Browscap\Filter\FullFilter;
+use Browscap\Filter\StandardFilter;
+use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\XmlWriter;
+use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
  * Class XmlWriterTest
  *
  * @category   BrowscapTest
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class XmlWriterTest extends \PHPUnit\Framework\TestCase
 {
-    const STORAGE_DIR = 'storage';
+    private const STORAGE_DIR = 'storage';
 
     /**
      * @var \Browscap\Writer\XmlWriter
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var \org\bovigo\vfs\vfsStreamDirectory
      */
-    private $root = null;
+    private $root;
 
     /**
      * @var string
      */
-    private $file = null;
+    private $file;
 
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function setUp()
+    public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.xml';
@@ -71,7 +62,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      */
-    public function teardown()
+    public function teardown() : void
     {
         $this->object->close();
 
@@ -84,7 +75,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetLogger()
+    public function testSetGetLogger() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
 
@@ -98,7 +89,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testGetType()
+    public function testGetType() : void
     {
         self::assertSame('xml', $this->object->getType());
     }
@@ -109,9 +100,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFormatter()
+    public function testSetGetFormatter() : void
     {
-        $mockFormatter = $this->createMock(\Browscap\Formatter\XmlFormatter::class);
+        $mockFormatter = $this->createMock(XmlFormatter::class);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -123,9 +114,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetFilter()
+    public function testSetGetFilter() : void
     {
-        $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
+        $mockFilter = $this->createMock(FullFilter::class);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -137,7 +128,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testSetGetSilent()
+    public function testSetGetSilent() : void
     {
         $silent = true;
 
@@ -151,7 +142,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileStartIfNotSilent()
+    public function testFileStartIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -168,7 +159,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileStartIfSilent()
+    public function testFileStartIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -182,7 +173,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileEndIfNotSilent()
+    public function testFileEndIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -196,7 +187,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testFileEndIfSilent()
+    public function testFileEndIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -210,9 +201,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeaderIfSilent()
+    public function testRenderHeaderIfSilent() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
         $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
@@ -229,9 +220,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderHeaderIfNotSilent()
+    public function testRenderHeaderIfNotSilent() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
         $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
@@ -252,9 +243,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfSilent()
+    public function testRenderVersionIfSilent() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
         $this->object->setLogger($logger);
 
         $version = [
@@ -262,7 +253,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-
         ];
 
         $this->object->setSilent(true);
@@ -277,7 +267,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilent()
+    public function testRenderVersionIfNotSilent() : void
     {
         $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
@@ -287,12 +277,11 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-
         ];
 
         $this->object->setSilent(false);
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -317,16 +306,16 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderVersionIfNotSilentButWithoutVersion()
+    public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
-        $logger = $this->createMock(\Monolog\Logger::class);
+        $logger = $this->createMock(Logger::class);
         $this->object->setLogger($logger);
 
         $version = [];
 
         $this->object->setSilent(false);
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -352,9 +341,9 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsHeader()
+    public function testRenderAllDivisionsHeader() : void
     {
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
         self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
@@ -366,7 +355,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionHeader()
+    public function testRenderDivisionHeader() : void
     {
         $this->object->setSilent(true);
 
@@ -380,11 +369,11 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeaderIfNotSilent()
+    public function testRenderSectionHeaderIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -406,7 +395,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionHeaderIfSilent()
+    public function testRenderSectionHeaderIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -420,7 +409,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilent()
+    public function testRenderSectionBodyIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -439,7 +428,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -448,7 +437,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -458,7 +447,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
@@ -474,12 +463,12 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
+        $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
 
-        $map        = [
+        $map = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
             ['abc', $this->object, true],
@@ -505,7 +494,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilentWithParents()
+    public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
         $this->object->setSilent(false);
 
@@ -535,7 +524,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -545,7 +534,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -555,7 +544,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -574,7 +563,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+        $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
@@ -600,7 +589,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent()
+    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
         $this->object->setSilent(false);
 
@@ -625,7 +614,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ],
         ];
 
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
@@ -635,7 +624,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+        $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getDefaultProperties'])
             ->getMock();
@@ -645,7 +634,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\XmlFormatter::class)
+        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
             ->setMethods(['formatPropertyName'])
             ->getMock();
@@ -664,7 +653,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+        $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
             ->setMethods(['isOutputProperty'])
             ->getMock();
@@ -689,7 +678,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionBodyIfSilent()
+    public function testRenderSectionBodyIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -699,7 +688,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'abc' => 'bcd',
         ];
 
-        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
+        $collection = $this->createMock(DataCollection::class);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
         self::assertSame('', file_get_contents($this->file));
@@ -711,7 +700,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooterIfNotSilent()
+    public function testRenderSectionFooterIfNotSilent() : void
     {
         $this->object->setSilent(false);
 
@@ -725,7 +714,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderSectionFooterIfSilent()
+    public function testRenderSectionFooterIfSilent() : void
     {
         $this->object->setSilent(true);
 
@@ -739,7 +728,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderDivisionFooter()
+    public function testRenderDivisionFooter() : void
     {
         self::assertSame($this->object, $this->object->renderDivisionFooter());
         self::assertSame('', file_get_contents($this->file));
@@ -751,7 +740,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
      * @group writer
      * @group sourcetest
      */
-    public function testRenderAllDivisionsFooter()
+    public function testRenderAllDivisionsFooter() : void
     {
         self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
         self::assertSame('</browsercapitems>' . PHP_EOL, file_get_contents($this->file));

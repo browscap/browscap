@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
@@ -18,8 +19,9 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 abstract class AbstractBuildGenerator
 {
@@ -36,17 +38,17 @@ abstract class AbstractBuildGenerator
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    protected $logger = null;
+    protected $logger;
 
     /**
      * @var \Browscap\Helper\CollectionCreator
      */
-    protected $collectionCreator = null;
+    protected $collectionCreator;
 
     /**
      * @var \Browscap\Writer\WriterCollection
      */
-    protected $writerCollection = null;
+    protected $writerCollection;
 
     /**
      * @var bool
@@ -144,6 +146,7 @@ abstract class AbstractBuildGenerator
      * @param string $type
      *
      * @throws \Exception
+     *
      * @return string
      */
     protected function checkDirectoryExists($directory, $type)
@@ -154,7 +157,7 @@ abstract class AbstractBuildGenerator
 
         $realDirectory = realpath($directory);
 
-        if ($realDirectory === false) {
+        if (false === $realDirectory) {
             throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
@@ -168,15 +171,15 @@ abstract class AbstractBuildGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string $buildVersion
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function run($version)
+    public function run($buildVersion)
     {
         return $this
             ->preBuild()
-            ->build($version)
+            ->build($buildVersion)
             ->postBuild();
     }
 
@@ -196,14 +199,14 @@ abstract class AbstractBuildGenerator
     /**
      * runs the build
      *
-     * @param string $version
+     * @param string $buildVersion
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    protected function build($version)
+    protected function build($buildVersion)
     {
         Helper\BuildHelper::run(
-            $version,
+            $buildVersion,
             $this->resourceFolder,
             $this->getLogger(),
             $this->getWriterCollection(),

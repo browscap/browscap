@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator\Helper;
 
 use Browscap\Data\DataCollection;
@@ -20,34 +21,37 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildHelper
 {
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string                             $version
+     * @param string                             $buildVersion
      * @param string                             $resourceFolder
      * @param \Psr\Log\LoggerInterface           $logger
      * @param \Browscap\Writer\WriterCollection  $writerCollection
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     * @param bool                               $collectPatternIds
+     *
+     * @throws \Exception
      *
      * @return void
-     * @throws \Exception
      */
     public static function run(
-        string $version,
+        string $buildVersion,
         string $resourceFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
         CollectionCreator $collectionCreator,
         bool $collectPatternIds = false
-    ) {
+    ) : void {
         $logger->info('started creating a data collection');
 
-        $dataCollection = new DataCollection($version);
+        $dataCollection = new DataCollection($buildVersion);
         $dataCollection->setLogger($logger);
 
         $collectionCreator
@@ -83,7 +87,7 @@ class BuildHelper
             ->setExpander($expander)
             ->fileStart()
             ->renderHeader($comments)
-            ->renderVersion($version, $collection);
+            ->renderVersion($buildVersion, $collection);
 
         $logger->info('finished output of header and version');
 
@@ -138,7 +142,7 @@ class BuildHelper
             $versions = $division->getVersions();
 
             foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts($version);
+                [$majorVer, $minorVer] = $expander->getVersionParts((string) $version);
 
                 $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
 
@@ -157,6 +161,7 @@ class BuildHelper
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
                         );
+
                         continue;
                     }
 

@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * This file is part of the browscap package.
  *
@@ -11,6 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Psr\Log\LoggerInterface;
@@ -19,25 +17,20 @@ use Psr\Log\LoggerInterface;
  * Class Expander
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Expander
 {
-    const TYPE_STRING   = 'string';
-    const TYPE_GENERIC  = 'generic';
-    const TYPE_NUMBER   = 'number';
-    const TYPE_BOOLEAN  = 'boolean';
-    const TYPE_IN_ARRAY = 'in_array';
-
     /**
      * @var \Browscap\Data\DataCollection
      */
-    private $collection = null;
+    private $collection;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger = null;
+    private $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
@@ -50,7 +43,7 @@ class Expander
     /**
      * Set the data collection
      *
-     * @param  \Browscap\Data\DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Data\Expander
      */
@@ -73,7 +66,7 @@ class Expander
         $dots = explode('.', $version, 2);
 
         $majorVer = $dots[0];
-        $minorVer = (isset($dots[1]) ? $dots[1] : 0);
+        $minorVer = (isset($dots[1]) ? $dots[1] : '0');
 
         return [$majorVer, $minorVer];
     }
@@ -83,6 +76,7 @@ class Expander
      * @param string                  $divisionName
      *
      * @throws \UnexpectedValueException
+     *
      * @return array
      */
     public function expand(Division $division, string $divisionName) : array
@@ -100,7 +94,7 @@ class Expander
      *
      * @return void
      */
-    private function resetPatternId()
+    private function resetPatternId() : void
     {
         $this->patternId = [
             'division' => '',
@@ -276,6 +270,7 @@ class Expander
      * Get the data collection
      *
      * @throws \LogicException
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function getDataCollection() : DataCollection
@@ -432,9 +427,10 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
+     *
      * @return void
      */
-    private function checkPlatformData(array $properties, string $message)
+    private function checkPlatformData(array $properties, string $message) : void
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -453,9 +449,10 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
+     *
      * @return void
      */
-    private function checkEngineData(array $properties, string $message)
+    private function checkEngineData(array $properties, string $message) : void
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -473,6 +470,7 @@ class Expander
      * @param array $allInputDivisions
      *
      * @throws \UnexpectedValueException
+     *
      * @return array
      */
     private function expandProperties(array $allInputDivisions) : array
@@ -490,7 +488,7 @@ class Expander
             $parents   = [$userAgent];
 
             while (isset($allInputDivisions[$userAgent]['Parent'])) {
-                if ($userAgent === $allInputDivisions[$userAgent]['Parent']) {
+                if ($allInputDivisions[$userAgent]['Parent'] === $userAgent) {
                     break;
                 }
 
@@ -515,8 +513,8 @@ class Expander
                 }
 
                 if ($key !== $parent
-                    && isset($allInputDivisions[$parent]['sortIndex'])
-                    && isset($properties['sortIndex'])
+                    && isset($allInputDivisions[$parent]['sortIndex'], $properties['sortIndex'])
+
                     && ($allInputDivisions[$parent]['division'] !== $properties['division'])
                 ) {
                     if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
@@ -581,21 +579,24 @@ class Expander
     /**
      * trims the value of a property and converts the string values "true" and "false" to boolean
      *
-     * @param string|bool $propertyValue
+     * @param string $propertyValue
      *
-     * @return string|bool
+     * @return bool|string
      */
     public function trimProperty(string $propertyValue)
     {
         switch ($propertyValue) {
             case 'true':
                 $propertyValue = true;
+
                 break;
             case 'false':
                 $propertyValue = false;
+
                 break;
             default:
                 $propertyValue = trim($propertyValue);
+
                 break;
         }
 
