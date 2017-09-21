@@ -47,11 +47,11 @@ class CustomWriterFactory
      */
     public function createCollection(
         LoggerInterface $logger,
-        $buildFolder,
-        $file = null,
-        $fields = [],
-        $format = self::OUTPUT_FORMAT_PHP
-    ) {
+        string $buildFolder,
+        ?string $file = null,
+        array $fields = [],
+        string $format = self::OUTPUT_FORMAT_PHP
+    ): WriterCollection {
         $writerCollection = new WriterCollection();
 
         if (null === $file) {
@@ -113,9 +113,8 @@ class CustomWriterFactory
 
         $formatter->setFilter($filter);
 
-        $writer
-            ->setFormatter($formatter)
-            ->setFilter($filter);
+        $writer->setFormatter($formatter);
+        $writer->setFilter($filter);
 
         $writerCollection->addWriter($writer);
 

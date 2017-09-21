@@ -65,7 +65,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      * @param string                   $file
      * @param \Psr\Log\LoggerInterface $logger
      */
-    public function __construct($file, LoggerInterface $logger)
+    public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
         $this->file   = fopen($file, 'w');
@@ -76,7 +76,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return string
      */
-    public function getType()
+    public function getType(): string
     {
         return 'ini';
     }
@@ -84,9 +84,9 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * closes the Writer and the written File
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function close()
+    public function close(): void
     {
         fclose($this->file);
     }
@@ -94,19 +94,17 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @param \Browscap\Formatter\FormatterInterface $formatter
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function setFormatter(FormatterInterface $formatter)
+    public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter()
+    public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
@@ -114,20 +112,18 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function setFilter(FilterInterface $filter)
+    public function setFilter(FilterInterface $filter): void
     {
         $this->type             = $filter;
         $this->outputProperties = [];
-
-        return $this;
     }
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter()
+    public function getFilter(): FilterInterface
     {
         return $this->type;
     }
@@ -135,31 +131,27 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @param \Browscap\Data\Expander $expander
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function setExpander(Expander $expander)
+    public function setExpander(Expander $expander): void
     {
         $this->expander = $expander;
-
-        return $this;
     }
 
     /**
      * @param bool $silent
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function setSilent(bool $silent)
+    public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
-
-        return $this;
     }
 
     /**
      * @return bool
      */
-    public function isSilent()
+    public function isSilent(): bool
     {
         return $this->silent;
     }
@@ -167,21 +159,21 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * Generates a start sequence for the output file
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function fileStart()
+    public function fileStart(): void
     {
-        return $this;
+        //
     }
 
     /**
      * Generates a end sequence for the output file
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function fileEnd()
+    public function fileEnd(): void
     {
-        return $this;
+        //
     }
 
     /**
@@ -189,12 +181,12 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param string[] $comments
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderHeader(array $comments = [])
+    public function renderHeader(array $comments = []): void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         $this->logger->debug('rendering comments');
@@ -204,8 +196,6 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
         }
 
         fwrite($this->file, PHP_EOL);
-
-        return $this;
     }
 
     /**
@@ -213,12 +203,12 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param string[] $versionData
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderVersion(array $versionData = [])
+    public function renderVersion(array $versionData = []): void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         $this->logger->debug('rendering version information');
@@ -247,8 +237,6 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
         fwrite($this->file, 'Released=' . $versionData['released'] . PHP_EOL);
         fwrite($this->file, 'Format=' . $versionData['format'] . PHP_EOL);
         fwrite($this->file, 'Type=' . $versionData['type'] . PHP_EOL . PHP_EOL);
-
-        return $this;
     }
 
     /**
@@ -256,11 +244,11 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param \Browscap\Data\DataCollection $collection
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderAllDivisionsHeader(DataCollection $collection)
+    public function renderAllDivisionsHeader(DataCollection $collection): void
     {
-        return $this;
+        //
     }
 
     /**
@@ -269,17 +257,15 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      * @param string $division
      * @param string $parent
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
     {
         if ($this->isSilent() || 'DefaultProperties' !== $parent) {
-            return $this;
+            return;
         }
 
         fwrite($this->file, ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL);
-
-        return $this;
     }
 
     /**
@@ -287,17 +273,15 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param string $sectionName
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderSectionHeader($sectionName)
+    public function renderSectionHeader(string $sectionName): void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         fwrite($this->file, '[' . $sectionName . ']' . PHP_EOL);
-
-        return $this;
     }
 
     /**
@@ -310,12 +294,12 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @throws \InvalidArgumentException
      *
-     * @return IniWriter
+     * @return void
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         $division          = $collection->getDefaultProperties();
@@ -366,8 +350,6 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
                 . '=' . $this->getFormatter()->formatPropertyValue($section[$property], $property) . PHP_EOL
             );
         }
-
-        return $this;
     }
 
     /**
@@ -375,36 +357,34 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @param string $sectionName
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderSectionFooter($sectionName = '')
+    public function renderSectionFooter(string $sectionName = ''): void
     {
         if ($this->isSilent()) {
-            return $this;
+            return;
         }
 
         fwrite($this->file, PHP_EOL);
-
-        return $this;
     }
 
     /**
      * renders the footer for a division
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderDivisionFooter()
+    public function renderDivisionFooter(): void
     {
-        return $this;
+        //
     }
 
     /**
      * renders the footer for all divisions
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function renderAllDivisionsFooter()
+    public function renderAllDivisionsFooter(): void
     {
-        return $this;
+        //
     }
 }

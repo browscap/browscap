@@ -33,7 +33,7 @@ class DeviceFactory
      *
      * @return \Browscap\Data\Device
      */
-    public function build(array $deviceData, array $json, $deviceName)
+    public function build(array $deviceData, array $json, string $deviceName): Device
     {
         if (!isset($deviceData['properties'])) {
             $deviceData['properties'] = [];

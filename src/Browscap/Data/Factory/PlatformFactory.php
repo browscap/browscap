@@ -34,7 +34,7 @@ class PlatformFactory
      *
      * @return \Browscap\Data\Platform
      */
-    public function build(array $platformData, array $json, $platformName)
+    public function build(array $platformData, array $json, string $platformName): Platform
     {
         if (!isset($platformData['properties'])) {
             $platformData['properties'] = [];

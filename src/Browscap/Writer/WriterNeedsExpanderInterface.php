@@ -25,7 +25,7 @@ interface WriterNeedsExpanderInterface
     /**
      * @param Expander $expander
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return void
      */
-    public function setExpander(Expander $expander);
+    public function setExpander(Expander $expander): void;
 }

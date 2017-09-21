@@ -34,7 +34,7 @@ class PhpWriterFactory
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function createCollection(LoggerInterface $logger, $buildFolder)
+    public function createCollection(LoggerInterface $logger, string $buildFolder): WriterCollection
     {
         $writerCollection = new WriterCollection();
 
