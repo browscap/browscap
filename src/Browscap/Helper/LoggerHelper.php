@@ -34,7 +34,7 @@ class LoggerHelper
      *
      * @return \Monolog\Logger
      */
-    public function create(OutputInterface $output)
+    public function create(OutputInterface $output): Logger
     {
         $logger        = new Logger('browscap');
         $consoleLogger = new ConsoleLogger($output);

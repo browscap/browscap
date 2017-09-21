@@ -51,9 +51,9 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @param string      $format
      */
     protected function preBuild(
-        $fields = [],
-        $file = null,
-        $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
+        array $fields = [],
+        ?string $file = null,
+        string $format = CustomWriterFactory::OUTPUT_FORMAT_PHP
     ) : void {
         parent::preBuild();
 

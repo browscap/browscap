@@ -33,7 +33,7 @@ class EngineFactory
      *
      * @return \Browscap\Data\Engine
      */
-    public function build(array $engineData, array $json, $engineName)
+    public function build(array $engineData, array $json, string $engineName): Engine
     {
         if (!isset($engineData['properties'])) {
             $engineData['properties'] = [];

@@ -36,7 +36,7 @@ class Engine
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties(): array
     {
         return $this->properties;
     }

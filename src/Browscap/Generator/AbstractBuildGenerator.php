@@ -88,7 +88,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Helper\CollectionCreator
      */
-    public function getCollectionCreator()
+    public function getCollectionCreator(): CollectionCreator
     {
         return $this->collectionCreator;
     }
@@ -104,7 +104,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Writer\WriterCollection
      */
-    public function getWriterCollection()
+    public function getWriterCollection(): WriterCollection
     {
         return $this->writerCollection;
     }
@@ -117,7 +117,7 @@ abstract class AbstractBuildGenerator
      *
      * @return string
      */
-    protected function checkDirectoryExists($directory, $type)
+    protected function checkDirectoryExists(string $directory, string $type): string
     {
         if (!isset($directory)) {
             throw new \Exception('You must specify a ' . $type . ' folder');
