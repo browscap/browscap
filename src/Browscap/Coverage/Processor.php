@@ -48,7 +48,7 @@ final class Processor implements ProcessorInterface
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
      * if the statement/function/branch is covered.
      *
-     * @var string[]
+     * @var array
      */
     private $coveredIds = [];
 

@@ -73,7 +73,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
-        new BuildCustomFileGenerator(__FILE__, null);
+        new BuildCustomFileGenerator(__FILE__, '');
     }
 
     /**

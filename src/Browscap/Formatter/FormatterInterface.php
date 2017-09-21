@@ -41,12 +41,12 @@ interface FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param string $value
-     * @param string $property
+     * @param bool|string $value
+     * @param string      $property
      *
      * @return string
      */
-    public function formatPropertyValue($value, $property);
+    public function formatPropertyValue($value, string $property);
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter

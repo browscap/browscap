@@ -53,12 +53,12 @@ class AspFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param string $value
-     * @param string $property
+     * @param bool|string $value
+     * @param string      $property
      *
      * @return string
      */
-    public function formatPropertyValue($value, $property)
+    public function formatPropertyValue($value, string $property)
     {
         $valueOutput    = $value;
         $propertyHolder = new PropertyHolder();
@@ -80,7 +80,7 @@ class AspFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $propertyHolder->checkValueInArray($property, $value);
+                    $valueOutput = $propertyHolder->checkValueInArray($property, (string) $value);
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }

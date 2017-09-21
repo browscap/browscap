@@ -53,12 +53,12 @@ class XmlFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param string $value
-     * @param string $property
+     * @param bool|string $value
+     * @param string      $property
      *
      * @return string
      */
-    public function formatPropertyValue($value, $property)
+    public function formatPropertyValue($value, string $property)
     {
         $propertyHolder = new PropertyHolder();
 
@@ -79,7 +79,7 @@ class XmlFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = htmlentities($propertyHolder->checkValueInArray($property, $value));
+                    $valueOutput = htmlentities($propertyHolder->checkValueInArray($property, (string) $value));
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }

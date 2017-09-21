@@ -167,9 +167,9 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent)
+    public function setSilent(bool $silent)
     {
-        $this->silent = (bool) $silent;
+        $this->silent = $silent;
 
         return $this;
     }
@@ -321,7 +321,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|bool)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName

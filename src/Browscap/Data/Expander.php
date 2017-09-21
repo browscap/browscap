@@ -290,7 +290,7 @@ class Expander
      * @param bool   $lite
      * @param bool   $standard
      *
-     * @return \array[]
+     * @return array[]
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {

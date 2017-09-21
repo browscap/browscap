@@ -61,7 +61,7 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setSilent($silent);
+    public function setSilent(bool $silent);
 
     /**
      * @return bool
@@ -131,7 +131,7 @@ interface WriterInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[]                      $section
+     * @param (int|string|bool)[]           $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
      * @param string                        $sectionName

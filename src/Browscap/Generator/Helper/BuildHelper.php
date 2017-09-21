@@ -86,8 +86,8 @@ class BuildHelper
         $writerCollection
             ->setExpander($expander)
             ->fileStart()
-            ->renderHeader($comments)
-            ->renderVersion($buildVersion, $collection);
+            ->renderHeader($comments);
+        $writerCollection->renderVersion($buildVersion, $collection);
 
         $logger->info('finished output of header and version');
 

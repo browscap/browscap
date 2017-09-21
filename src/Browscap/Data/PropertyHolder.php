@@ -293,7 +293,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function checkValueInArray($property, $value)
+    public function checkValueInArray(string $property, string $value)
     {
         switch ($property) {
             case 'Browser_Type':
@@ -350,7 +350,7 @@ class PropertyHolder
         }
 
         throw new \InvalidArgumentException(
-            'invalid value given for Property "' . $property . '": given value "' . (string) $value . '", allowed: '
+            'invalid value given for Property "' . $property . '": given value "' . $value . '", allowed: '
             . json_encode($allowedValues)
         );
     }
