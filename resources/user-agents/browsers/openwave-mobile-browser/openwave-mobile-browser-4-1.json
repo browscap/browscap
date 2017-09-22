@@ -8,6 +8,7 @@
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
@@ -24,69 +25,6 @@
         "MinorVer": "#MINORVER#"
       },
       "children": [
-        {
-          "match": "ALAV UP/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "GSD-550/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "IAC KM100/168 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "IAC/KM15/UP.Link/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "IAC/KM178/UP.Link/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "IM1K UP/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-K4xxN/MY1002 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-K4xxN/MY1003 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-KE414/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-KX414c/1.0.39 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-KX414c/1.0.46 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-KX414c/1.0.48 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-KX444c-BC/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-SE44/1.0.08 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-SE44/1.0.11 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KWC-SE44/1.0.22 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "OWG1 UP/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "QC-2255/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "QC-2325/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "QC-5135/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "QC07 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
         {
           "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -111,6 +49,7 @@
             "MOT-F6": "Motorola F6",
             "MOT-FE": "Motorola FE",
             "MOT-MCCB": "Motorola MCCB",
+            "MOT-SAP4_": "Motorola SAP4",
             "NOKIA-NPD-4AW": "Nokia NPD-4AW",
             "NOKIA-RH-17": "Nokia RH-17",
             "NOKIA-RH-44": "Nokia RH-44",

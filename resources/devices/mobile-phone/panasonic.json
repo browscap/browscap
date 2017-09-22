@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "Panasonic G60": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G60",
+            "Device_Name": "G60",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Panasonic VS3": {
         "standard": false,
         "properties": {

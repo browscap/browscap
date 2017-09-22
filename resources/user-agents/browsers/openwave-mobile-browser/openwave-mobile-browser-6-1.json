@@ -8,9 +8,10 @@
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Myriad Group",
@@ -25,228 +26,10 @@
       },
       "children": [
         {
-          "match": "Alcatel-OH5/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ-A500/1.00/WAP2.0/MIDP1.0/CLDC1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ-Athena/0.1 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ-Morpheus/0.1 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ-NIKE1/CLDC_1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ-S680C/CLDC_1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQS700?1.00?WAP2.0?MIDP2.0?CLDC1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BIRD.G118 MO130m-128x160/1.1 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M220/#MAJORVER#.#MINORVER#.0.7 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M300/#MAJORVER#.#MINORVER#.0.7 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M300/#MAJORVER#.#MINORVER#.07 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M305/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M315/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BenQ-M350/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Bird.V89/KK3,LA/WAP1.2.1 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "EGISS-WAP/22 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "G-xxx/1.0beta * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "GEO-GV500/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Hitachi-P300 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "MOT-V290/#MAJORVER#.#MINORVER#.0.7 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "MOT-V295/#MAJORVER#.#MINORVER#.0.7 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "NEC-N800/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "NEC-N810/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "NEC-e101/2.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "O2-X1i/#MAJORVER#.#MINORVER#.0.7 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Opera/92 Profile/JAVAS-3.0.1 Configuration/CLDC-3.0.6 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS568/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-A210/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-G50/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-G60/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-G70/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-SC3/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-X300/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "QCI-31/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-my202/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myC-3b/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myC3-2/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-2m/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-5m/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-5m/1.1 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-6/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX2-2m/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX3-2/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG SGH-X100 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG SGH-X100A UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-E100/T2 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-E100A/T2 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-E108/T2* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-E700A/BSI UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X100/PEARL UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X100A/Pearl UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X108/1.0* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X460/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X460C/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X468/1.0* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X600A/K3 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-SGH-X608/1.0* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SEC-SGHD410-X100/PEARL UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SEC-SGHS100/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX1/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10/1.1 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10/1.1gr * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10N/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10i/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-GX10i/1.1 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SHARP-TQ-V750/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Soutec-SG7610/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "T618X UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Telit-G80/2.01 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "V750/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Wonu S3 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "YAS-COSMOS/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
           "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "LGE-LX5350": "LG LX5350",
+            "Panasonic-G60": "Panasonic G60",
             "SAMSUNG-SGH-E700-OLYMPIC2004": "Samsung SGH-E700",
             "SEC-SGHS300": "Samsung SGH-S300",
             "SEC-SGHV200": "Samsung SGH-V200"
@@ -261,6 +44,7 @@
             "NEC-N8": "NEC N8",
             "Nokia1100": "Nokia 1100",
             "Nokia7650": "Nokia 7650",
+            "SHARP-TQ-GX10i": "Sharp GX10I",
             "SIE-A31": "Siemens A31",
             "SIE-A31a": "Siemens A31A",
             "SIE-A60": "Siemens A60",
@@ -353,6 +137,9 @@
         },
         {
           "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

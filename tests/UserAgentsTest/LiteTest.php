@@ -163,7 +163,7 @@ class LiteTest extends \PHPUnit\Framework\TestCase
                 continue;
             }
 
-            $tests = require_once $file->getPathname();
+            $tests = require $file->getPathname();
 
             foreach ($tests as $key => $test) {
                 if (!array_key_exists('lite', $test)) {

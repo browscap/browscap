@@ -8,6 +8,7 @@
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
@@ -24,186 +25,6 @@
         "MinorVer": "#MINORVER#"
       },
       "children": [
-        {
-          "match": "0077746577;CR-X95/06 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "?=Fega_LoveRz=? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BAWOR/IDLE UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BENQ UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BIRD SC01 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BIRD.D700 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "BIRD.Q168 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "DBTEL6588C/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "DBTEL6669/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "DBTELJ7/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "EZZE-EZZE/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla/4.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Opera/8.* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Optimay-Seville/1.4 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS-FISIO 620/3.14 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS-FISIO 820/3.14 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS-FISIO 822/3.14 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS-SYSOL2/3.11 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "PHILIPS-SYSOL3/3.11 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Panasonic-GAD67/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myC2-3/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-1/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-2/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-3/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-3/2.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAGEM-myX-5/2.0 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-2128/12 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-2128/18 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-2128/24 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-3618/24 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-6618/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A25/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A50/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A52/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A55/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A55/09 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A56/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A56i/03 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-A57/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C45/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C45/31 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C55/0? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C55/1? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C55/2? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-C62/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-M50/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-ME45/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-ME45/1? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-ME45/23 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-ME45/2? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-ME45i/04 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-MT50/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-MT50/09 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-S45/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-S45/21 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-S45/2? UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-S45i/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SIE-S46/* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Vulcan-Color UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "polytron-big-band-s UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
         {
           "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -223,6 +44,7 @@
             "MOT-ED": "Motorola ED",
             "MOT-FE": "Motorola FE",
             "SIE-M55": "Siemens M55",
+            "SIE-ME45": "Siemens ME45",
             "SIE-S55": "Siemens S55",
             "SonyEricssonK500": "SonyEricsson K500",
             "SonyEricssonK500i": "SonyEricsson K500i"

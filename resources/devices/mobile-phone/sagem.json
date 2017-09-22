@@ -1,26 +1,26 @@
 {
-    "AUDIOVOX CDM-8915": {
+    "Sagem VF526": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Name": "Snapper (Virgin Mobile)",
-            "Device_Code_Name": "CDM-8915",
-            "Device_Maker": "AUDIOVOX",
+            "Device_Code_Name": "VF526",
+            "Device_Name": "VF526",
+            "Device_Maker": "Sagem",
+            "Device_Brand_Name": "Sagem",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AUDIOVOX",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
     },
-    "AUDIOVOX SMT5600": {
+    "Sagem VF540": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Name": "SMT5600",
-            "Device_Code_Name": "SMT5600",
-            "Device_Maker": "AUDIOVOX",
+            "Device_Code_Name": "VF540",
+            "Device_Name": "VF540",
+            "Device_Maker": "Sagem",
+            "Device_Brand_Name": "Sagem",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AUDIOVOX",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
