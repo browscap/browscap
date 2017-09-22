@@ -28,7 +28,7 @@ class Division
     /**
      * @var string|null
      */
-    private $fileName = '';
+    private $fileName;
 
     /**
      * @var int
@@ -51,18 +51,18 @@ class Division
     private $versions = [];
 
     /**
-     * @var array
+     * @var \Browscap\Data\Useragent[]
      */
     private $userAgents = [];
 
     /**
-     * @param string      $name
-     * @param int         $sortIndex
-     * @param array       $userAgents
-     * @param bool        $lite
-     * @param bool        $standard
-     * @param array       $versions
-     * @param string|null $fileName
+     * @param string                     $name
+     * @param int                        $sortIndex
+     * @param \Browscap\Data\Useragent[] $userAgents
+     * @param bool                       $lite
+     * @param bool                       $standard
+     * @param array                      $versions
+     * @param string|null                $fileName
      */
     public function __construct(
         string $name,
@@ -115,7 +115,7 @@ class Division
     }
 
     /**
-     * @return array
+     * @return \Browscap\Data\Useragent[]
      */
     public function getUserAgents() : array
     {

@@ -1,6 +1,9 @@
 {
   "division": "Division3",
+  "versions": ["3.0"],
   "sortIndex": 100,
+  "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UA3",

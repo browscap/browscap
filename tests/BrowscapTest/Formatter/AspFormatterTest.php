@@ -11,7 +11,9 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Formatter;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Formatter\AspFormatter;
+use Browscap\Formatter\FormatterInterface;
 
 /**
  * Class AspFormatterTest
@@ -33,7 +35,17 @@ class AspFormatterTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new AspFormatter();
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new AspFormatter($propertyHolder);
     }
 
     /**
@@ -44,21 +56,7 @@ class AspFormatterTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame('asp', $this->object->getType());
-    }
-
-    /**
-     * tests setter and getter for the filter
-     *
-     * @group formatter
-     * @group sourcetest
-     */
-    public function testSetGetFilter() : void
-    {
-        $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
-
-        $this->object->setFilter($mockFilter);
-        self::assertSame($mockFilter, $this->object->getFilter());
+        self::assertSame(FormatterInterface::TYPE_ASP, $this->object->getType());
     }
 
     /**
@@ -121,5 +119,29 @@ class AspFormatterTest extends \PHPUnit\Framework\TestCase
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
+    }
+
+    /**
+     * tests formatting a property value
+     *
+     * @group formatter
+     * @group sourcetest
+     */
+    public function testFormatPropertyValueWithException() : void
+    {
+        $actualValue = $this->object->formatPropertyValue('Browserx', 'Browser_Type');
+        self::assertSame('', $actualValue);
+    }
+
+    /**
+     * tests formatting a property value
+     *
+     * @group formatter
+     * @group sourcetest
+     */
+    public function testFormatPropertyValueWithUnknownValue() : void
+    {
+        $actualValue = $this->object->formatPropertyValue('unknown', 'Browser_Type');
+        self::assertSame('unknown', $actualValue);
     }
 }

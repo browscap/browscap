@@ -11,8 +11,10 @@
 declare(strict_types = 1);
 namespace Browscap\Generator\Helper;
 
-use Browscap\Data\DataCollection;
 use Browscap\Data\Expander;
+use Browscap\Data\Helper\CheckProperties;
+use Browscap\Data\Helper\SplitVersion;
+use Browscap\Data\Helper\VersionNumber;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
@@ -51,18 +53,13 @@ class BuildHelper
     ) : void {
         $logger->info('started creating a data collection');
 
-        $dataCollection = new DataCollection($buildVersion, $logger);
-
-        $collectionCreator->setDataCollection($dataCollection);
-
         $collection = $collectionCreator->createDataCollection($resourceFolder);
 
         $logger->info('finished creating a data collection');
 
         $logger->info('started initialisation of writers');
 
-        $expander = new Expander($logger);
-        $expander->setDataCollection($collection);
+        $expander = new Expander($logger, $collection);
 
         $logger->info('finished initialisation of writers');
 
@@ -89,15 +86,15 @@ class BuildHelper
 
         $logger->info('started output of divisions');
 
-        $division = $collection->getDefaultProperties();
+        $defaultProperties = $collection->getDefaultProperties();
 
-        $logger->info('handle division ' . $division->getName());
+        $logger->info('handle division ' . $defaultProperties->getName());
 
         $writerCollection->renderAllDivisionsHeader($collection);
-        $writerCollection->renderDivisionHeader($division->getName());
+        $writerCollection->renderDivisionHeader($defaultProperties->getName());
 
-        $ua       = $division->getUserAgents();
-        $sections = [$ua[0]['userAgent'] => $ua[0]['properties']];
+        $ua       = $defaultProperties->getUserAgents()[0];
+        $sections = [$ua->getUserAgent() => $ua->getProperties()];
 
         foreach (array_keys($sections) as $sectionName) {
             $section = $sections[$sectionName];
@@ -106,7 +103,7 @@ class BuildHelper
                 unset($section['PatternId']);
             }
 
-            $writerCollection->setSilent($division);
+            $writerCollection->setSilent($defaultProperties);
             $writerCollection->renderSectionHeader($sectionName);
             $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
             $writerCollection->renderSectionFooter($sectionName);
@@ -126,7 +123,7 @@ class BuildHelper
             foreach (array_keys($sections) as $sectionName) {
                 $section = $sections[$sectionName];
 
-                $collection->checkProperty($sectionName, $section);
+                (new CheckProperties())->check($sectionName, $section);
             }
 
             $writerCollection->setSilent($division);
@@ -134,14 +131,14 @@ class BuildHelper
             $versions = $division->getVersions();
 
             foreach ($versions as $version) {
-                [$majorVer, $minorVer] = $expander->getVersionParts((string) $version);
+                [$majorVer, $minorVer] = (new SplitVersion())->getVersionParts((string) $version);
 
-                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
+                $divisionName = (new VersionNumber())->replace($division->getName(), (string) $majorVer, (string) $minorVer);
 
                 $logger->info('handle division ' . $divisionName);
 
                 $encodedSections = json_encode($sections);
-                $encodedSections = $expander->parseProperty($encodedSections, $majorVer, $minorVer);
+                $encodedSections = (new VersionNumber())->replace($encodedSections, $majorVer, $minorVer);
 
                 $sectionsWithVersion = json_decode($encodedSections, true);
                 $firstElement        = current($sectionsWithVersion);
@@ -178,17 +175,17 @@ class BuildHelper
             }
         }
 
-        $division = $collection->getDefaultBrowser();
+        $defaultBrowser = $collection->getDefaultBrowser();
 
-        $logger->info('handle division ' . $division->getName());
+        $logger->info('handle division ' . $defaultBrowser->getName());
 
-        $writerCollection->renderDivisionHeader($division->getName());
+        $writerCollection->renderDivisionHeader($defaultBrowser->getName());
 
-        $ua       = $division->getUserAgents();
+        $ua       = $defaultBrowser->getUserAgents()[0];
         $sections = [
-            $ua[0]['userAgent'] => array_merge(
+            $ua->getUserAgent() => array_merge(
                 ['Parent' => 'DefaultProperties'],
-                $ua[0]['properties']
+                $ua->getProperties()
             ),
         ];
 
@@ -199,7 +196,7 @@ class BuildHelper
                 unset($section['PatternId']);
             }
 
-            $writerCollection->setSilent($division);
+            $writerCollection->setSilent($defaultBrowser);
             $writerCollection->renderSectionHeader($sectionName);
             $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
             $writerCollection->renderSectionFooter($sectionName);

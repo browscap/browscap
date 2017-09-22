@@ -80,7 +80,7 @@ final class Processor implements ProcessorInterface
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
      * file begins)
      *
-     * @var string[]
+     * @var array
      */
     private $fileCoveredIds = [];
 
@@ -666,8 +666,8 @@ final class Processor implements ProcessorInterface
      */
     private function getCoverageCount(string $id, array $covered) : int
     {
-        $id                  = str_replace('\/', '/', $id);
-        [$u, $c, $d, $p]     = explode('::', $id);
+        $id              = str_replace('\/', '/', $id);
+        [$u, $c, $d, $p] = explode('::', $id);
 
         $u = preg_quote(mb_substr($u, 1), '/');
         $c = preg_quote(mb_substr($c, 1), '/');

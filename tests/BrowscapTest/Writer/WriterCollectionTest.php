@@ -13,9 +13,11 @@ namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\Expander;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\CsvWriter;
+use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
@@ -239,7 +241,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
         $logger = $this->createMock(Logger::class);
 
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->setMethods(['getFilter', 'getFormatter', 'getLogger'])
+            ->setMethods(['getFilter', 'getFormatter'])
             ->setConstructorArgs([$this->file, $logger])
             ->getMock();
 
@@ -347,6 +349,47 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('renderSectionBody');
 
         $this->object->addWriter($mockWriter);
+        $this->object->renderSectionBody($section, $collection);
+    }
+
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
+    public function testRenderSectionBodyWithExpander() : void
+    {
+        $section = [
+            'Comment' => 1,
+            'Win16' => true,
+            'Platform' => 'bcd',
+        ];
+
+        $collection = $this->createMock(DataCollection::class);
+        $mockWriter = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['renderSectionBody'])
+            ->getMock();
+
+        $mockWriter
+            ->expects(self::once())
+            ->method('renderSectionBody');
+
+        $this->object->addWriter($mockWriter);
+
+        $mockExpander = $this->getMockBuilder(Expander::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['trimProperty'])
+            ->getMock();
+
+        $mockExpander
+            ->expects(self::any())
+            ->method('trimProperty')
+            ->will(self::returnArgument(0));
+
+        $this->object->setExpander($mockExpander);
+
         $this->object->renderSectionBody($section, $collection);
     }
 

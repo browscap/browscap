@@ -34,7 +34,7 @@ class PlatformFactory
      *
      * @return \Browscap\Data\Platform
      */
-    public function build(array $platformData, array $json, string $platformName): Platform
+    public function build(array $platformData, array $json, string $platformName) : Platform
     {
         if (!isset($platformData['properties'])) {
             $platformData['properties'] = [];
@@ -49,6 +49,12 @@ class PlatformFactory
         if (!array_key_exists('standard', $platformData)) {
             throw new \UnexpectedValueException(
                 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"'
+            );
+        }
+
+        if (!array_key_exists('match', $platformData)) {
+            throw new \UnexpectedValueException(
+                'the value for the "match" key is missing for the platform with the key "' . $platformName . '"'
             );
         }
 
@@ -72,7 +78,7 @@ class PlatformFactory
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
-                        . '" and its parent "' . $platformData['inherits'] . '"'
+                        . '" and its parent "' . $parentName . '"'
                     );
                 }
             }

@@ -14,6 +14,7 @@ namespace BrowscapTest\Data;
 use Browscap\Data\PropertyHolder;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterInterface;
 
 /**
  * Class PropertyHolderTest
@@ -185,6 +186,12 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * tests detecting a standard mode property
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testIsLiteModePropertyWithWriter() : void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
@@ -195,7 +202,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         $mockWriter
             ->expects(self::once())
             ->method('getType')
-            ->will(self::returnValue('ini'));
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
 
         self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
     }
@@ -254,6 +261,27 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
+     * tests detecting a standard mode property
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testIsLiteModePropertyWithIniWriter() : void
+    {
+        $mockWriter = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
+    }
+
+    /**
      * @dataProvider standardPropertiesDataProvider
      *
      * @group data
@@ -284,7 +312,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         $mockWriter
             ->expects(self::once())
             ->method('getType')
-            ->will(self::returnValue('csv'));
+            ->will(self::returnValue(WriterInterface::TYPE_CSV));
 
         self::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
     }
@@ -367,7 +395,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testIsOutputPropertyWithWriter() : void
+    public function testIsOutputPropertyWithCsvWriter() : void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -377,11 +405,11 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         $mockWriterCsv
             ->expects(self::once())
             ->method('getType')
-            ->will(self::returnValue('csv'));
+            ->will(self::returnValue(WriterInterface::TYPE_CSV));
 
         self::assertTrue($this->object->isOutputProperty('PropertyName', $mockWriterCsv));
 
-        $mockWriterIni = $this->getMockBuilder(\Browscap\Writer\IniWriter::class)
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
             ->getMock();
@@ -389,9 +417,30 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         $mockWriterIni
             ->expects(self::exactly(2))
             ->method('getType')
-            ->will(self::returnValue('ini'));
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
 
         self::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
+    }
+
+    /**
+     * tests detecting a output property if a writer is given
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testIsOutputPropertyWithIniWriter() : void
+    {
+        $mockWriter = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriter
+            ->expects(self::exactly(2))
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        self::assertTrue($this->object->isOutputProperty('PatternId', $mockWriter));
     }
 
     /**

@@ -33,7 +33,7 @@ class DeviceFactory
      *
      * @return \Browscap\Data\Device
      */
-    public function build(array $deviceData, array $json, string $deviceName): Device
+    public function build(array $deviceData, array $json, string $deviceName) : Device
     {
         if (!isset($deviceData['properties'])) {
             $deviceData['properties'] = [];
@@ -54,28 +54,28 @@ class DeviceFactory
                 );
             }
 
-            $parentEngine     = $this->build($json['devices'][$parentName], $json, $parentName);
-            $parentEngineData = $parentEngine->getProperties();
+            $parentDevice     = $this->build($json['devices'][$parentName], $json, $parentName);
+            $parentDeviceData = $parentDevice->getProperties();
 
-            $inheritedPlatformProperties = $deviceData['properties'];
+            $deviceProperties = $deviceData['properties'];
 
-            foreach ($inheritedPlatformProperties as $name => $value) {
-                if (isset($parentEngineData[$name])
-                    && $parentEngineData[$name] === $value
+            foreach ($deviceProperties as $name => $value) {
+                if (isset($parentDeviceData[$name])
+                    && $parentDeviceData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $deviceName
-                        . '" and its parent "' . $deviceData['inherits'] . '"'
+                        . '" and its parent "' . $parentName . '"'
                     );
                 }
             }
 
             $deviceData['properties'] = array_merge(
-                $parentEngineData,
-                $inheritedPlatformProperties
+                $parentDeviceData,
+                $deviceProperties
             );
 
-            if (!$parentEngine->isStandard()) {
+            if (!$parentDevice->isStandard()) {
                 $deviceData['standard'] = false;
             }
         }

@@ -33,7 +33,7 @@ class EngineFactory
      *
      * @return \Browscap\Data\Engine
      */
-    public function build(array $engineData, array $json, string $engineName): Engine
+    public function build(array $engineData, array $json, string $engineName) : Engine
     {
         if (!isset($engineData['properties'])) {
             $engineData['properties'] = [];
@@ -51,22 +51,22 @@ class EngineFactory
             $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
             $parentEngineData = $parentEngine->getProperties();
 
-            $inhEngineProperties = $engineData['properties'];
+            $engineProperties = $engineData['properties'];
 
-            foreach ($inhEngineProperties as $name => $value) {
+            foreach ($engineProperties as $name => $value) {
                 if (isset($parentEngineData[$name])
                     && $parentEngineData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $engineName
-                        . '" and its parent "' . $engineData['inherits'] . '"'
+                        . '" and its parent "' . $parentName . '"'
                     );
                 }
             }
 
             $engineData['properties'] = array_merge(
                 $parentEngineData,
-                $inhEngineProperties
+                $engineProperties
             );
         }
 

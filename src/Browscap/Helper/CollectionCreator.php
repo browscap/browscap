@@ -41,19 +41,8 @@ class CollectionCreator
      */
     public function __construct(LoggerInterface $logger)
     {
-        $this->logger = $logger;
-    }
-
-    /**
-     * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Helper\CollectionCreator
-     */
-    public function setDataCollection(DataCollection $collection)
-    {
-        $this->collection = $collection;
-
-        return $this;
+        $this->logger     = $logger;
+        $this->collection = new DataCollection($logger);
     }
 
     /**
@@ -65,26 +54,20 @@ class CollectionCreator
      *
      * @return \Browscap\Data\DataCollection
      */
-    public function createDataCollection($resourceFolder)
+    public function createDataCollection(string $resourceFolder) : DataCollection
     {
-        if (null === $this->collection) {
-            throw new \LogicException(
-                'An instance of \Browscap\Data\DataCollection is required for this function. '
-                . 'Please set it with setDataCollection'
-            );
-        }
-
         $this->logger->debug('add platform file');
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
+        $this->logger->debug('add engine file');
         $this->collection->addEnginesFile($resourceFolder . '/engines.json');
+        $this->logger->debug('add file for default properties');
         $this->collection->addDefaultProperties($resourceFolder . '/core/default-properties.json');
+        $this->logger->debug('add file for default browser');
         $this->collection->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
         $deviceDirectory = $resourceFolder . '/devices';
 
-        $iterator = new \RecursiveDirectoryIterator($deviceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($deviceDirectory)) as $file) {
             /** @var $file \SplFileInfo */
             if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
@@ -96,9 +79,7 @@ class CollectionCreator
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($uaSourceDirectory)) as $file) {
             /** @var $file \SplFileInfo */
             if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;

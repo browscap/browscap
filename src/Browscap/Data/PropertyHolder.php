@@ -156,7 +156,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && 'ini' === $writer->getType()) {
+        if (null !== $writer && WriterInterface::TYPE_INI === $writer->getType()) {
             $additionalProperties = ['PatternId'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -190,7 +190,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+        if (null !== $writer && in_array($writer->getType(), [WriterInterface::TYPE_CSV, WriterInterface::TYPE_XML])) {
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -268,7 +268,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+        if (null !== $writer && in_array($writer->getType(), [WriterInterface::TYPE_CSV, WriterInterface::TYPE_XML])) {
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -276,7 +276,7 @@ class PropertyHolder
             }
         }
 
-        if (null !== $writer && 'ini' === $writer->getType()) {
+        if (null !== $writer && WriterInterface::TYPE_INI === $writer->getType()) {
             if ('PatternId' === $propertyName) {
                 return true;
             }

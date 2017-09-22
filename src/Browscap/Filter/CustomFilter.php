@@ -35,18 +35,13 @@ class CustomFilter implements FilterInterface
     private $propertyHolder;
 
     /**
-     * @param array                              $fields
-     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
+     * @param \Browscap\Data\PropertyHolder $propertyHolder
+     * @param array                         $fields
      */
-    public function __construct(array $fields, PropertyHolder $propertyHolder = null)
+    public function __construct(PropertyHolder $propertyHolder, array $fields)
     {
-        $this->fields = $fields;
-
-        if (null === $propertyHolder) {
-            $this->propertyHolder = new PropertyHolder();
-        } else {
-            $this->propertyHolder = $propertyHolder;
-        }
+        $this->fields         = $fields;
+        $this->propertyHolder = $propertyHolder;
     }
 
     /**
@@ -54,7 +49,7 @@ class CustomFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType(): string
+    public function getType() : string
     {
         return 'CUSTOM';
     }
@@ -66,7 +61,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division): bool
+    public function isOutput(Division $division) : bool
     {
         return true;
     }
@@ -78,7 +73,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section): bool
+    public function isOutputSection(array $section) : bool
     {
         return true;
     }
@@ -91,7 +86,7 @@ class CustomFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty(string $property, ?WriterInterface $writer = null): bool
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

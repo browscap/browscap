@@ -16,7 +16,6 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
@@ -82,11 +81,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $buildGenerator = new BuildGenerator(
-            $resourceFolder,
-            self::$buildFolder,
-            $logger
-        );
+        $version = (string) $buildNumber;
 
         $writerCollection = new WriterCollection();
 
@@ -94,18 +89,20 @@ class FullTest extends \PHPUnit\Framework\TestCase
         self::$filter         = new FullFilter(self::$propertyHolder);
 
         $fullPhpWriter = new IniWriter(self::$buildFolder . '/full_php_browscap.ini', $logger);
-        $formatter     = new PhpFormatter();
-        $formatter->setFilter(self::$filter);
-        $fullPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
+        $formatter     = new PhpFormatter(self::$propertyHolder);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($fullPhpWriter);
 
-        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
-        $buildGenerator->setWriterCollection($writerCollection);
-        $buildGenerator->setCollectPatternIds(true);
+        $buildGenerator = new BuildGenerator(
+            $resourceFolder,
+            self::$buildFolder,
+            $logger,
+            $writerCollection
+        );
 
-        $buildGenerator->run((string) $buildNumber, false);
+        $buildGenerator->setCollectPatternIds(true);
+        $buildGenerator->run($version, false);
 
         $cache = new File([File::DIR => $cacheFolder]);
         $cache->flush();
@@ -141,7 +138,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
     /**
      * @return array[]
      */
-    public function userAgentDataProvider()
+    public function userAgentDataProvider() : array
     {
         static $data = [];
 
@@ -201,9 +198,9 @@ class FullTest extends \PHPUnit\Framework\TestCase
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgents($userAgent, $expectedProperties) : void
+    public function testUserAgents(string $userAgent, array $expectedProperties) : void
     {
-        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+        if (!count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
@@ -228,7 +225,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] . ')'
+                . '"; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
             );
         }
     }
