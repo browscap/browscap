@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 
 /**
@@ -33,7 +35,17 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new FullFilter();
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new FullFilter($propertyHolder);
     }
 
     /**
@@ -55,77 +67,44 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }
 
     /**
-     * Data Provider for the test testIsOutputProperty
-     *
-     * @return array<string|boolean>[]
-     */
-    public function outputPropertiesDataProvider()
-    {
-        return [
-            ['Comment', true],
-            ['Browser', true],
-            ['Platform', true],
-            ['Platform_Description', true],
-            ['Device_Name', true],
-            ['Device_Maker', true],
-            ['RenderingEngine_Name', true],
-            ['RenderingEngine_Description', true],
-            ['Parent', true],
-            ['Platform_Version', true],
-            ['RenderingEngine_Version', true],
-            ['Version', true],
-            ['MajorVer', true],
-            ['MinorVer', true],
-            ['CssVersion', true],
-            ['AolVersion', true],
-            ['Alpha', true],
-            ['Beta', true],
-            ['Win16', true],
-            ['Win32', true],
-            ['Win64', true],
-            ['Frames', true],
-            ['IFrames', true],
-            ['Tables', true],
-            ['Cookies', true],
-            ['BackgroundSounds', true],
-            ['JavaScript', true],
-            ['VBScript', true],
-            ['JavaApplets', true],
-            ['ActiveXControls', true],
-            ['isMobileDevice', true],
-            ['isSyndicationReader', true],
-            ['Crawler', true],
-            ['lite', false],
-            ['sortIndex', false],
-            ['Parents', false],
-            ['division', false],
-            ['Browser_Type', true],
-            ['Device_Type', true],
-            ['Device_Pointing_Method', true],
-            ['isTablet', true],
-            ['Browser_Maker', true],
-        ];
-    }
-
-    /**
-     * @dataProvider outputPropertiesDataProvider
-     *
      * @group filter
      * @group sourcetest
      *
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra) : void
+    public function testIsOutputProperty() : void
     {
-        $actualValue = $this->object->isOutputProperty($propertyName);
-        self::assertSame($isExtra, $actualValue);
+        self::assertTrue($this->object->isOutputProperty('Comment'));
+    }
+
+    /**
+     * @group filter
+     * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
+     */
+    public function testIsOutputPropertyModified() : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $object = new FullFilter($propertyHolder);
+        self::assertFalse($object->isOutputProperty('Comment'));
     }
 
     /**
@@ -137,7 +116,7 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
     public function testIsOutputSectionAlways() : void
     {
         $this->assertTrue($this->object->isOutputSection([]));
-        $this->assertTrue($this->object->isOutputSection(['lite' => false]));
-        $this->assertTrue($this->object->isOutputSection(['lite' => true]));
+        $this->assertTrue($this->object->isOutputSection(['full' => false]));
+        $this->assertTrue($this->object->isOutputSection(['full' => true]));
     }
 }

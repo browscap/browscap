@@ -16,7 +16,7 @@ use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Expander;
 use Browscap\Data\Platform;
-use Monolog\Handler\NullHandler;
+use Browscap\Data\Useragent;
 use Monolog\Logger;
 
 /**
@@ -39,36 +39,10 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $logger       = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new Expander($logger);
-    }
-
-    /**
-     * tests setter and getter for the data collection
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testGetDataCollectionReturnsSameDatacollectionAsInserted() : void
-    {
+        $logger     = $this->createMock(Logger::class);
         $collection = $this->createMock(DataCollection::class);
 
-        $this->object->setDataCollection($collection);
-        self::assertSame($collection, $this->object->getDataCollection());
-    }
-
-    /**
-     * tests setter and getter for the version parts
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testGetVersionParts() : void
-    {
-        $result = $this->object->getVersionParts('1');
-
-        self::assertInternalType('array', $result);
-        self::assertSame(['1', '0'], $result);
+        $this->object = new Expander($logger, $collection);
     }
 
     /**
@@ -89,6 +63,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -97,7 +81,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $collection
             ->expects(self::once())
@@ -114,7 +98,9 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getUserAgents')
             ->will(self::returnValue([]));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -139,6 +125,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -147,12 +143,32 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
+
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -165,20 +181,14 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->will(
                 self::returnValue(
                     [
-                        0 => [
-                            'userAgent' => 'abc',
-                            'properties' => [
-                                'Parent' => 'Defaultproperties',
-                                'Version' => '1.0',
-                                'MajorVer' => 1,
-                                'Browser' => 'xyz',
-                            ],
-                        ],
+                        0 => $useragent,
                     ]
                 )
             );
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -203,6 +213,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -211,29 +231,42 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*',
+                    'properties' => ['Browser' => 'xyza'],
                 ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*',
-                        'properties' => ['Browser' => 'xyza'],
-                    ],
-                ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -243,9 +276,13 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -270,6 +307,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -278,7 +325,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -300,26 +347,39 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDevice')
             ->will(self::returnValue($device));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
-                ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*#DEVICE#',
-                        'devices' => [
-                            'abc' => 'ABC',
-                            'def' => 'DEF',
-                        ],
-                        'properties' => ['Browser' => 'xyza'],
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*#DEVICE#',
+                    'devices' => [
+                        'abc' => 'ABC',
+                        'def' => 'DEF',
                     ],
+                    'properties' => ['Browser' => 'xyza'],
                 ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -329,9 +389,13 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
@@ -351,6 +415,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -359,29 +433,42 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*',
+                    'properties' => ['Browser' => 'xyza'],
                 ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*',
-                        'properties' => ['Browser' => 'xyza'],
-                    ],
-                ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -391,14 +478,18 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
         $division
             ->expects(self::once())
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -419,6 +510,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
             ->getMock();
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -427,7 +528,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -449,25 +550,38 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getPlatform')
             ->will(self::returnValue($platform));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
-                ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*#PLATFORM#',
-                        'properties' => ['Browser' => 'xyza'],
-                        'platforms' => [
-                            'Platform_1',
-                        ],
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*#PLATFORM#',
+                    'properties' => ['Browser' => 'xyza'],
+                    'platforms' => [
+                        'Platform_1',
                     ],
                 ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -477,14 +591,18 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
         $division
             ->expects(self::once())
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -505,6 +623,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
             ->getMock();
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -513,7 +641,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -550,27 +678,40 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getPlatform')
             ->will(self::returnValue($platform));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
-                ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*#DEVICE#',
-                        'devices' => [
-                            'abc' => 'ABC',
-                            'def' => 'DEF',
-                        ],
-                        'platforms' => ['Platform_1'],
-                        'properties' => ['Browser' => 'xyza'],
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*#DEVICE#',
+                    'devices' => [
+                        'abc' => 'ABC',
+                        'def' => 'DEF',
                     ],
+                    'platforms' => ['Platform_1'],
+                    'properties' => ['Browser' => 'xyza'],
                 ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -580,14 +721,18 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
         $division
             ->expects(self::once())
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 
@@ -611,6 +756,16 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
@@ -619,7 +774,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+            ->will(self::returnValue([0 => $useragent]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -641,26 +796,39 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDevice')
             ->will(self::returnValue($device));
 
-        $uaData = [
-            0 => [
-                'userAgent' => 'abc',
-                'properties' => ['Parent' => 'Defaultproperties',
-                                      'Version' => '1.0',
-                                      'MajorVer' => 1,
-                                      'Browser' => 'xyz',
-                ],
-                'children' => [
-                    0 => [
-                        'match' => 'abc*#DEVICE#',
-                        'devices' => [
-                            'abc' => 'ABC',
-                            'def' => 'DEF',
-                        ],
-                        'properties' => ['Browser' => 'xyza'],
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'Defaultproperties',
+                'Version' => '1.0',
+                'MajorVer' => 1,
+                'Browser' => 'xyz',
+            ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                0 => [
+                    'match' => 'abc*#DEVICE#',
+                    'devices' => [
+                        'abc' => 'ABC',
+                        'def' => 'DEF',
                     ],
+                    'properties' => ['Browser' => 'xyza'],
                 ],
-            ],
-        ];
+            ]));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -670,14 +838,18 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
         $division
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData));
+            ->will(self::returnValue([
+                0 => $useragent,
+            ]));
 
         $division
             ->expects(self::once())
             ->method('getFileName')
             ->will(self::returnValue('tests/test.json'));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->expand($division, 'TestDivision');
 

@@ -11,8 +11,10 @@
 declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
 use Browscap\Formatter;
+use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
@@ -26,16 +28,6 @@ use Psr\Log\LoggerInterface;
  */
 class CustomWriterFactory
 {
-    /**@+
-     * @var string
-     */
-    public const OUTPUT_FORMAT_PHP  = 'php';
-    public const OUTPUT_FORMAT_ASP  = 'asp';
-    public const OUTPUT_FORMAT_CSV  = 'csv';
-    public const OUTPUT_FORMAT_XML  = 'xml';
-    public const OUTPUT_FORMAT_JSON = 'json';
-    /**@-*/
-
     /**
      * @param \Psr\Log\LoggerInterface $logger
      * @param string                   $buildFolder
@@ -50,29 +42,30 @@ class CustomWriterFactory
         string $buildFolder,
         ?string $file = null,
         array $fields = [],
-        string $format = self::OUTPUT_FORMAT_PHP
-    ): WriterCollection {
+        string $format = FormatterInterface::TYPE_PHP
+    ) : WriterCollection {
         $writerCollection = new WriterCollection();
+        $propertyHolder   = new PropertyHolder();
 
         if (null === $file) {
             switch ($format) {
-                case self::OUTPUT_FORMAT_ASP:
+                case FormatterInterface::TYPE_ASP:
                     $file = $buildFolder . '/full_browscap.ini';
 
                     break;
-                case self::OUTPUT_FORMAT_CSV:
+                case FormatterInterface::TYPE_CSV:
                     $file = $buildFolder . '/browscap.csv';
 
                     break;
-                case self::OUTPUT_FORMAT_XML:
+                case FormatterInterface::TYPE_XML:
                     $file = $buildFolder . '/browscap.xml';
 
                     break;
-                case self::OUTPUT_FORMAT_JSON:
+                case FormatterInterface::TYPE_JSON:
                     $file = $buildFolder . '/browscap.json';
 
                     break;
-                case self::OUTPUT_FORMAT_PHP:
+                case FormatterInterface::TYPE_PHP:
                 default:
                     $file = $buildFolder . '/full_php_browscap.ini';
 
@@ -80,38 +73,36 @@ class CustomWriterFactory
             }
         }
 
-        $filter = new CustomFilter($fields);
+        $filter = new CustomFilter($propertyHolder, $fields);
 
         switch ($format) {
-            case self::OUTPUT_FORMAT_ASP:
+            case FormatterInterface::TYPE_ASP:
                 $writer    = new Writer\IniWriter($file, $logger);
-                $formatter = new Formatter\AspFormatter();
+                $formatter = new Formatter\AspFormatter($propertyHolder);
 
                 break;
-            case self::OUTPUT_FORMAT_CSV:
+            case FormatterInterface::TYPE_CSV:
                 $writer    = new Writer\CsvWriter($file, $logger);
-                $formatter = new Formatter\CsvFormatter();
+                $formatter = new Formatter\CsvFormatter($propertyHolder);
 
                 break;
-            case self::OUTPUT_FORMAT_XML:
+            case FormatterInterface::TYPE_XML:
                 $writer    = new Writer\XmlWriter($file, $logger);
-                $formatter = new Formatter\XmlFormatter();
+                $formatter = new Formatter\XmlFormatter($propertyHolder);
 
                 break;
-            case self::OUTPUT_FORMAT_JSON:
+            case FormatterInterface::TYPE_JSON:
                 $writer    = new Writer\JsonWriter($file, $logger);
-                $formatter = new Formatter\JsonFormatter();
+                $formatter = new Formatter\JsonFormatter($propertyHolder);
 
                 break;
-            case self::OUTPUT_FORMAT_PHP:
+            case FormatterInterface::TYPE_PHP:
             default:
                 $writer    = new Writer\IniWriter($file, $logger);
-                $formatter = new Formatter\PhpFormatter();
+                $formatter = new Formatter\PhpFormatter($propertyHolder);
 
                 break;
         }
-
-        $formatter->setFilter($filter);
 
         $writer->setFormatter($formatter);
         $writer->setFilter($filter);

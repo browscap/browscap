@@ -12,7 +12,6 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use Symfony\Component\Console\Command\Command;
@@ -42,6 +41,8 @@ class BuildCommand extends Command
 
     /**
      * Configures the current command.
+     *
+     * @return void
      */
     protected function configure() : void
     {
@@ -82,24 +83,23 @@ class BuildCommand extends Command
         $logger->info('Build started.');
 
         $buildFolder = $input->getOption('output');
-
-        $buildGenerator = new BuildGenerator(
-            $input->getOption('resources'),
-            $buildFolder,
-            $logger
-        );
+        $version     = $input->getArgument('version');
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
 
-        $buildGenerator->setCollectionCreator(new CollectionCreator($logger));
-        $buildGenerator->setWriterCollection($writerCollection);
+        $buildGenerator = new BuildGenerator(
+            $input->getOption('resources'),
+            $buildFolder,
+            $logger,
+            $writerCollection
+        );
 
         if (false !== $input->getOption('coverage')) {
             $buildGenerator->setCollectPatternIds(true);
         }
 
-        $buildGenerator->run($input->getArgument('version'));
+        $buildGenerator->run($version);
 
         $logger->info('Build done.');
 

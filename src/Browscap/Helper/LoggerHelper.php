@@ -15,6 +15,7 @@ use Monolog\ErrorHandler;
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\PsrHandler;
 use Monolog\Logger;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Logger\ConsoleLogger;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -32,9 +33,9 @@ class LoggerHelper
      *
      * @param \Symfony\Component\Console\Output\OutputInterface $output
      *
-     * @return \Monolog\Logger
+     * @return \Psr\Log\LoggerInterface
      */
-    public function create(OutputInterface $output): Logger
+    public function create(OutputInterface $output) : LoggerInterface
     {
         $logger        = new Logger('browscap');
         $consoleLogger = new ConsoleLogger($output);

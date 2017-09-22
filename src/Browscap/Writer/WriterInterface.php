@@ -25,6 +25,11 @@ use Psr\Log\LoggerInterface;
  */
 interface WriterInterface
 {
+    public const TYPE_CSV  = 'csv';
+    public const TYPE_INI  = 'ini';
+    public const TYPE_JSON = 'json';
+    public const TYPE_XML  = 'xml';
+
     /**
      * @param string                   $file
      * @param \Psr\Log\LoggerInterface $logger
@@ -36,40 +41,40 @@ interface WriterInterface
      *
      * @return string
      */
-    public function getType(): string;
+    public function getType() : string;
 
     /**
      * closes the Writer and the written File
      *
      * @return void
      */
-    public function close(): void;
+    public function close() : void;
 
     /**
      * @param bool $silent
      *
      * @return void
      */
-    public function setSilent(bool $silent): void;
+    public function setSilent(bool $silent) : void;
 
     /**
      * @return bool
      */
-    public function isSilent(): bool;
+    public function isSilent() : bool;
 
     /**
      * Generates a start sequence for the output file
      *
      * @return void
      */
-    public function fileStart(): void;
+    public function fileStart() : void;
 
     /**
      * Generates a end sequence for the output file
      *
      * @return void
      */
-    public function fileEnd(): void;
+    public function fileEnd() : void;
 
     /**
      * Generate the header
@@ -78,7 +83,7 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderHeader(array $comments = []): void;
+    public function renderHeader(array $comments = []) : void;
 
     /**
      * renders the version information
@@ -87,7 +92,7 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderVersion(array $versionData = []): void;
+    public function renderVersion(array $versionData = []) : void;
 
     /**
      * renders the header for all divisions
@@ -96,7 +101,7 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderAllDivisionsHeader(DataCollection $collection): void;
+    public function renderAllDivisionsHeader(DataCollection $collection) : void;
 
     /**
      * renders the header for a division
@@ -106,7 +111,7 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void;
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void;
 
     /**
      * renders the header for a section
@@ -115,7 +120,7 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderSectionHeader(string $sectionName): void;
+    public function renderSectionHeader(string $sectionName) : void;
 
     /**
      * renders all found useragents into a string
@@ -127,9 +132,9 @@ interface WriterInterface
      *
      * @throws \InvalidArgumentException
      *
-     * @return \Browscap\Writer\WriterCollection
+     * @return void
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void;
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void;
 
     /**
      * renders the footer for a section
@@ -138,43 +143,43 @@ interface WriterInterface
      *
      * @return void
      */
-    public function renderSectionFooter(string $sectionName = ''): void;
+    public function renderSectionFooter(string $sectionName = '') : void;
 
     /**
      * renders the footer for a division
      *
      * @return void
      */
-    public function renderDivisionFooter():void;
+    public function renderDivisionFooter() : void;
 
     /**
      * renders the footer for all divisions
      *
      * @return void
      */
-    public function renderAllDivisionsFooter(): void;
+    public function renderAllDivisionsFooter() : void;
 
     /**
      * @param \Browscap\Formatter\FormatterInterface $formatter
      *
      * @return void
      */
-    public function setFormatter(FormatterInterface $formatter): void;
+    public function setFormatter(FormatterInterface $formatter) : void;
 
     /**
      * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter(): FormatterInterface;
+    public function getFormatter() : FormatterInterface;
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      *
      * @return void
      */
-    public function setFilter(FilterInterface $filter): void;
+    public function setFilter(FilterInterface $filter) : void;
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter(): FilterInterface;
+    public function getFilter() : FilterInterface;
 }

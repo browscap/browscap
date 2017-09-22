@@ -13,7 +13,6 @@ namespace BrowscapTest\Helper;
 
 use Browscap\Data\DataCollection;
 use Browscap\Helper\CollectionCreator;
-use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
 /**
@@ -36,22 +35,8 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $logger       = new Logger('browscapTest', [new NullHandler()]);
+        $logger       = $this->createMock(Logger::class);
         $this->object = new CollectionCreator($logger);
-    }
-
-    /**
-     * tests throwing an exception while creating a data collaction if the collction class is not set before
-     *
-     * @group helper
-     * @group sourcetest
-     */
-    public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet() : void
-    {
-        $this->expectException('\LogicException');
-        $this->expectExceptionMessage('An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
-
-        $this->object->createDataCollection('.');
     }
 
     /**
@@ -74,7 +59,10 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
+
         $this->object->createDataCollection('.');
     }
 
@@ -86,8 +74,10 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCreateDataCollection() : void
     {
+        $logger = $this->createMock(Logger::class);
+
         $collection = $this->getMockBuilder(DataCollection::class)
-            ->disableOriginalConstructor()
+            ->setConstructorArgs([$logger])
             ->setMethods(['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'])
             ->getMock();
 
@@ -104,9 +94,12 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
             ->method('addSourceFile')
             ->will(self::returnSelf());
 
-        $this->object->setDataCollection($collection);
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
+
         self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
     }

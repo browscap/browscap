@@ -27,5 +27,5 @@ interface WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function setExpander(Expander $expander): void;
+    public function setExpander(Expander $expander) : void;
 }

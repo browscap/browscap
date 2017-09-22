@@ -1,6 +1,5 @@
 {
   "division": "Division1",
-  "versions": ["1.0"],
   "sortIndex": 200,
   "lite": true,
   "standard": true,
@@ -13,8 +12,7 @@
         "Browser": "UA1",
         "Version": "1.0",
         "MajorVer": "1",
-        "MinorVer": "0",
-        "Platform": "xyz"
+        "MinorVer": "0"
       },
       "children": "abc"
     }

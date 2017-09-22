@@ -45,7 +45,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @var FilterInterface
      */
-    private $type;
+    private $filter;
 
     /**
      * @var bool
@@ -77,9 +77,9 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return string
      */
-    public function getType(): string
+    public function getType() : string
     {
-        return 'json';
+        return WriterInterface::TYPE_JSON;
     }
 
     /**
@@ -87,7 +87,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function close(): void
+    public function close() : void
     {
         fclose($this->file);
     }
@@ -97,7 +97,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function setFormatter(FormatterInterface $formatter): void
+    public function setFormatter(FormatterInterface $formatter) : void
     {
         $this->formatter = $formatter;
     }
@@ -105,7 +105,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter(): FormatterInterface
+    public function getFormatter() : FormatterInterface
     {
         return $this->formatter;
     }
@@ -115,18 +115,18 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function setFilter(FilterInterface $filter): void
+    public function setFilter(FilterInterface $filter) : void
     {
-        $this->type             = $filter;
+        $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
     /**
      * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter(): FilterInterface
+    public function getFilter() : FilterInterface
     {
-        return $this->type;
+        return $this->filter;
     }
 
     /**
@@ -134,7 +134,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function setExpander(Expander $expander): void
+    public function setExpander(Expander $expander) : void
     {
         $this->expander = $expander;
     }
@@ -144,7 +144,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function setSilent(bool $silent): void
+    public function setSilent(bool $silent) : void
     {
         $this->silent = $silent;
     }
@@ -152,7 +152,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
     /**
      * @return bool
      */
-    public function isSilent(): bool
+    public function isSilent() : bool
     {
         return $this->silent;
     }
@@ -162,7 +162,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function fileStart(): void
+    public function fileStart() : void
     {
         if ($this->isSilent()) {
             return;
@@ -176,7 +176,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function fileEnd(): void
+    public function fileEnd() : void
     {
         if ($this->isSilent()) {
             return;
@@ -192,7 +192,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderHeader(array $comments = []): void
+    public function renderHeader(array $comments = []) : void
     {
         if ($this->isSilent()) {
             return;
@@ -222,7 +222,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderVersion(array $versionData = []): void
+    public function renderVersion(array $versionData = []) : void
     {
         if ($this->isSilent()) {
             return;
@@ -253,9 +253,9 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderAllDivisionsHeader(DataCollection $collection): void
+    public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
-        //
+        // nothing to do here
     }
 
     /**
@@ -266,9 +266,9 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
-        //
+        // nothing to do here
     }
 
     /**
@@ -278,13 +278,13 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderSectionHeader(string $sectionName): void
+    public function renderSectionHeader(string $sectionName) : void
     {
         if ($this->isSilent()) {
             return;
         }
 
-        fwrite($this->file, '  ' . $this->getFormatter()->formatPropertyName($sectionName) . ': ');
+        fwrite($this->file, '  ' . $this->formatter->formatPropertyName($sectionName) . ': ');
     }
 
     /**
@@ -299,19 +299,23 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
         if ($this->isSilent()) {
             return;
         }
 
         $division          = $collection->getDefaultProperties();
-        $ua                = $division->getUserAgents();
-        $defaultproperties = $ua[0]['properties'];
+        $ua                = $division->getUserAgents()[0];
+        $defaultproperties = $ua->getProperties();
         $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
-            $defaultproperties[$propertyName] = $this->expander->trimProperty((string) $propertyValue);
+            if (is_bool($propertyValue)) {
+                $defaultproperties[$propertyName] = $propertyValue;
+            } else {
+                $defaultproperties[$propertyName] = $this->expander->trimProperty((string) $propertyValue);
+            }
         }
 
         $propertiesToOutput = [];
@@ -322,7 +326,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
             }
 
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
@@ -354,7 +358,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
 
         fwrite(
             $this->file,
-            $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
         );
     }
 
@@ -365,7 +369,7 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderSectionFooter(string $sectionName = ''): void
+    public function renderSectionFooter(string $sectionName = '') : void
     {
         if ($this->isSilent()) {
             return;
@@ -383,9 +387,9 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderDivisionFooter(): void
+    public function renderDivisionFooter() : void
     {
-        //
+        // nothing to do here
     }
 
     /**
@@ -393,8 +397,8 @@ class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return void
      */
-    public function renderAllDivisionsFooter(): void
+    public function renderAllDivisionsFooter() : void
     {
-        //
+        // nothing to do here
     }
 }

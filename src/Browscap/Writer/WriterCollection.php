@@ -33,6 +33,8 @@ class WriterCollection
      * add a new writer to the collection
      *
      * @param \Browscap\Writer\WriterInterface $writer
+     *
+     * @return void
      */
     public function addWriter(WriterInterface $writer) : void
     {
@@ -41,6 +43,8 @@ class WriterCollection
 
     /**
      * closes the Writer and the written File
+     *
+     * @return void
      */
     public function close() : void
     {
@@ -51,6 +55,8 @@ class WriterCollection
 
     /**
      * @param \Browscap\Data\Division $division
+     *
+     * @return void
      */
     public function setSilent(Division $division) : void
     {
@@ -61,6 +67,8 @@ class WriterCollection
 
     /**
      * @param Expander $expander
+     *
+     * @return void
      */
     public function setExpander(Expander $expander) : void
     {
@@ -72,7 +80,9 @@ class WriterCollection
     }
 
     /**
-     * @param array $section
+     * @param bool[] $section
+     *
+     * @return void
      */
     public function setSilentSection(array $section) : void
     {
@@ -83,6 +93,8 @@ class WriterCollection
 
     /**
      * Generates a start sequence for the output file
+     *
+     * @return void
      */
     public function fileStart() : void
     {
@@ -93,6 +105,8 @@ class WriterCollection
 
     /**
      * Generates a end sequence for the output file
+     *
+     * @return void
      */
     public function fileEnd() : void
     {
@@ -105,6 +119,8 @@ class WriterCollection
      * Generate the header
      *
      * @param string[] $comments
+     *
+     * @return void
      */
     public function renderHeader(array $comments = []) : void
     {
@@ -118,6 +134,8 @@ class WriterCollection
      *
      * @param string                        $version
      * @param \Browscap\Data\DataCollection $collection
+     *
+     * @return void
      */
     public function renderVersion(string $version, DataCollection $collection) : void
     {
@@ -137,6 +155,8 @@ class WriterCollection
      * renders the header for all divisions
      *
      * @param \Browscap\Data\DataCollection $collection
+     *
+     * @return void
      */
     public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
@@ -150,6 +170,8 @@ class WriterCollection
      *
      * @param string $division
      * @param string $parent
+     *
+     * @return void
      */
     public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
@@ -162,6 +184,8 @@ class WriterCollection
      * renders the header for a section
      *
      * @param string $sectionName
+     *
+     * @return void
      */
     public function renderSectionHeader(string $sectionName) : void
     {
@@ -179,6 +203,8 @@ class WriterCollection
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
+     * @return void
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
@@ -191,8 +217,10 @@ class WriterCollection
      * renders the footer for a section
      *
      * @param string $sectionName
+     *
+     * @return void
      */
-    public function renderSectionFooter($sectionName = '') : void
+    public function renderSectionFooter(string $sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionFooter($sectionName);
@@ -201,6 +229,8 @@ class WriterCollection
 
     /**
      * renders the footer for a division
+     *
+     * @return void
      */
     public function renderDivisionFooter() : void
     {
@@ -211,6 +241,8 @@ class WriterCollection
 
     /**
      * renders the footer for all divisions
+     *
+     * @return void
      */
     public function renderAllDivisionsFooter() : void
     {

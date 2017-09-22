@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
 
 /**
@@ -33,7 +35,17 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new CustomFilter(['Parent']);
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new CustomFilter($propertyHolder, ['Parent']);
     }
 
     /**
@@ -55,7 +67,7 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }
@@ -119,13 +131,60 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
-        $actualValue = $this->object->isOutputProperty($propertyName);
-        self::assertSame($isExtra, $actualValue);
+        self::assertSame($isExtra, $this->object->isOutputProperty($propertyName));
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
+     *
+     * @param mixed $propertyName
+     */
+    public function testIsOutputPropertyModified($propertyName) : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $object = new CustomFilter($propertyHolder, ['Parent']);
+        self::assertFalse($object->isOutputProperty($propertyName));
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
+     *
+     * @param string $propertyName
+     */
+    public function testIsOutputPropertyWithPropertyHolder(string $propertyName) : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::once())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $object = new CustomFilter($propertyHolder, ['Parent']);
+        self::assertFalse($object->isOutputProperty($propertyName));
     }
 
     /**

@@ -13,10 +13,10 @@ namespace BrowscapTest\Generator;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\Useragent;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
-use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
 /**
@@ -44,8 +44,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->logger   = new Logger('browscapTest', [new NullHandler()]);
-        $this->messages = [];
+        $this->logger = $this->createMock(Logger::class);
     }
 
     /**
@@ -59,7 +58,8 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
-        new BuildGenerator('/dar', '', $this->logger);
+        $writerCollection = $this->createMock(WriterCollection::class);
+        new BuildGenerator('/dar', '', $this->logger, $writerCollection);
     }
 
     /**
@@ -72,7 +72,9 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
     {
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
-        new BuildGenerator(__FILE__, '', $this->logger);
+
+        $writerCollection = $this->createMock(WriterCollection::class);
+        new BuildGenerator(__FILE__, '', $this->logger, $writerCollection);
     }
 
     /**
@@ -83,6 +85,29 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuild() : void
     {
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::exactly(3))
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::exactly(4))
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'DefaultProperties',
+                'Browser' => 'xyz',
+                'Version' => '1.0',
+                'MajorBer' => '1',
+                'Device_Type' => 'Desktop',
+                'isTablet' => false,
+                'isMobileDevice' => false,
+            ]));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
@@ -94,15 +119,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->will(
                 self::returnValue(
                     [
-                        0 => [
-                            'properties' => [
-                                'Parent' => 'DefaultProperties',
-                                'Browser' => 'xyz',
-                                'Version' => '1.0',
-                                'MajorBer' => '1',
-                            ],
-                            'userAgent' => 'abc',
-                        ],
+                        0 => $useragent,
                     ]
                 )
             );
@@ -113,7 +130,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
+            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -132,10 +149,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
-        $collection
-            ->expects(self::once())
-            ->method('checkProperty')
-            ->will(self::returnValue(true));
 
         $mockCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
@@ -172,11 +185,11 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('renderAllDivisionsHeader')
             ->will(self::returnSelf());
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::any())
             ->method('renderSectionHeader')
             ->will(self::returnSelf());
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::any())
             ->method('renderSectionBody')
             ->will(self::returnSelf());
         $writerCollection
@@ -184,9 +197,12 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger);
-        $generator->setCollectionCreator($mockCreator);
-        $generator->setWriterCollection($writerCollection);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection);
+        $generator->setCollectPatternIds(false);
+
+        $property = new \ReflectionProperty($generator, 'collectionCreator');
+        $property->setAccessible(true);
+        $property->setValue($generator, $mockCreator);
 
         $generator->run('test', false);
     }
@@ -199,6 +215,29 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithoutZip() : void
     {
+        $useragent = $this->getMockBuilder(Useragent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::exactly(3))
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::exactly(4))
+            ->method('getProperties')
+            ->will(self::returnValue([
+                'Parent' => 'DefaultProperties',
+                'Browser' => 'xyz',
+                'Version' => '1.0',
+                'MajorBer' => '1',
+                'Device_Type' => 'Desktop',
+                'isTablet' => false,
+                'isMobileDevice' => false,
+            ]));
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
@@ -210,15 +249,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->will(
                 self::returnValue(
                     [
-                        0 => [
-                            'properties' => [
-                                'Parent' => 'DefaultProperties',
-                                'Browser' => 'xyz',
-                                'Version' => '1.0',
-                                'MajorBer' => '1',
-                            ],
-                            'userAgent' => 'abc',
-                        ],
+                        0 => $useragent,
                     ]
                 )
             );
@@ -229,7 +260,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
+            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -248,10 +279,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
-        $collection
-            ->expects(self::once())
-            ->method('checkProperty')
-            ->will(self::returnValue(true));
 
         $mockCreator = $this->getMockBuilder(CollectionCreator::class)
             ->disableOriginalConstructor()
@@ -288,11 +315,11 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('renderAllDivisionsHeader')
             ->will(self::returnSelf());
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::any())
             ->method('renderSectionHeader')
             ->will(self::returnSelf());
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::any())
             ->method('renderSectionBody')
             ->will(self::returnSelf());
         $writerCollection
@@ -300,9 +327,12 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger);
-        $generator->setCollectionCreator($mockCreator);
-        $generator->setWriterCollection($writerCollection);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection);
+        $generator->setCollectPatternIds(true);
+
+        $property = new \ReflectionProperty($generator, 'collectionCreator');
+        $property->setAccessible(true);
+        $property->setValue($generator, $mockCreator);
 
         $generator->run('test', false);
     }

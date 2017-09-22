@@ -8,7 +8,7 @@
     beStrictAboutOutputDuringTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
     beStrictAboutTodoAnnotatedTests="true"
-    verbose="true"
+    verbose="false"
     bootstrap="vendor/autoload.php"
     failOnWarning="true"
     >

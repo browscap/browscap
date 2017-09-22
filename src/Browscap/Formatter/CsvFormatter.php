@@ -12,7 +12,6 @@ declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\FilterInterface;
 
 /**
  * Class CsvFormatter
@@ -24,9 +23,17 @@ use Browscap\Filter\FilterInterface;
 class CsvFormatter implements FormatterInterface
 {
     /**
-     * @var \Browscap\Filter\FilterInterface
+     * @var \Browscap\Data\PropertyHolder
      */
-    private $filter;
+    private $propertyHolder;
+
+    /**
+     * @param \Browscap\Data\PropertyHolder $propertyHolder
+     */
+    public function __construct(PropertyHolder $propertyHolder)
+    {
+        $this->propertyHolder = $propertyHolder;
+    }
 
     /**
      * returns the Type of the formatter
@@ -35,7 +42,7 @@ class CsvFormatter implements FormatterInterface
      */
     public function getType() : string
     {
-        return 'csv';
+        return FormatterInterface::TYPE_CSV;
     }
 
     /**
@@ -60,12 +67,11 @@ class CsvFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, string $property) : string
     {
-        $valueOutput    = $value;
-        $propertyHolder = new PropertyHolder();
+        $valueOutput = $value;
 
-        switch ($propertyHolder->getPropertyType($property)) {
+        switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = trim($value);
+                $valueOutput = trim((string) $value);
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
@@ -80,7 +86,7 @@ class CsvFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $propertyHolder->checkValueInArray($property, (string) $value);
+                    $valueOutput = $this->propertyHolder->checkValueInArray($property, (string) $value);
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
@@ -96,21 +102,5 @@ class CsvFormatter implements FormatterInterface
         }
 
         return '"' . str_replace('"', '""', $valueOutput) . '"';
-    }
-
-    /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     */
-    public function setFilter(FilterInterface $filter) : void
-    {
-        $this->filter = $filter;
-    }
-
-    /**
-     * @return \Browscap\Filter\FilterInterface
-     */
-    public function getFilter() : FilterInterface
-    {
-        return $this->filter;
     }
 }

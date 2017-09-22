@@ -42,8 +42,10 @@ interface ProcessorInterface
      * Set covered pattern ids
      *
      * @param string[] $coveredIds
+     *
+     * @return void
      */
-    public function setCoveredPatternIds(array $coveredIds);
+    public function setCoveredPatternIds(array $coveredIds) : void;
 
     /**
      * Returns the stored pattern ids

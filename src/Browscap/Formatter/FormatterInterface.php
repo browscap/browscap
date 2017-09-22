@@ -11,8 +11,6 @@
 declare(strict_types = 1);
 namespace Browscap\Formatter;
 
-use Browscap\Filter\FilterInterface;
-
 /**
  * Interface FormatterInterface
  *
@@ -22,6 +20,12 @@ use Browscap\Filter\FilterInterface;
  */
 interface FormatterInterface
 {
+    public const TYPE_ASP  = 'asp';
+    public const TYPE_CSV  = 'csv';
+    public const TYPE_PHP  = 'php';
+    public const TYPE_JSON = 'json';
+    public const TYPE_XML  = 'xml';
+
     /**
      * returns the Type of the formatter
      *
@@ -47,14 +51,4 @@ interface FormatterInterface
      * @return string
      */
     public function formatPropertyValue($value, string $property) : string;
-
-    /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     */
-    public function setFilter(FilterInterface $filter) : void;
-
-    /**
-     * @return \Browscap\Filter\FilterInterface
-     */
-    public function getFilter() : FilterInterface;
 }

@@ -30,15 +30,11 @@ class LiteFilter implements FilterInterface
     private $propertyHolder;
 
     /**
-     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
+     * @param \Browscap\Data\PropertyHolder $propertyHolder
      */
-    public function __construct(PropertyHolder $propertyHolder = null)
+    public function __construct(PropertyHolder $propertyHolder)
     {
-        if (null === $propertyHolder) {
-            $this->propertyHolder = new PropertyHolder();
-        } else {
-            $this->propertyHolder = $propertyHolder;
-        }
+        $this->propertyHolder = $propertyHolder;
     }
 
     /**
@@ -46,7 +42,7 @@ class LiteFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType(): string
+    public function getType() : string
     {
         return 'LITE';
     }
@@ -58,7 +54,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutput(Division $division):bool
+    public function isOutput(Division $division) : bool
     {
         return $division->isLite();
     }
@@ -70,7 +66,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section):bool
+    public function isOutputSection(array $section) : bool
     {
         return isset($section['lite']) && $section['lite'];
     }
@@ -83,7 +79,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputProperty(string $property, ?WriterInterface $writer = null): bool
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

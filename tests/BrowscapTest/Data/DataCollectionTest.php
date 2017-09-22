@@ -12,6 +12,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Engine;
 use Browscap\Data\Platform;
@@ -35,11 +36,14 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
+     *
+     * @return void
      */
     public function setUp() : void
     {
-        $logger       = new Logger('browscapTest', [new NullHandler()]);
-        $this->object = new DataCollection('1234', $logger);
+        $logger = new Logger('browscap');
+        $logger->pushHandler(new NullHandler(Logger::DEBUG));
+        $this->object = new DataCollection($logger);
     }
 
     private function getPlatformsJsonFixture()
@@ -71,6 +75,8 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist() : void
     {
@@ -87,6 +93,8 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsInvalidJson() : void
     {
@@ -107,6 +115,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoData() : void
     {
@@ -119,6 +129,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoMatch() : void
     {
@@ -131,6 +143,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoProperties() : void
     {
@@ -143,6 +157,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void
     {
@@ -158,6 +174,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
     {
@@ -174,6 +192,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetPlatform() : void
     {
@@ -194,6 +214,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddEnginesFileThrowsExceptionIfFileDoesNotExist() : void
     {
@@ -210,6 +232,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsInvalidJson() : void
     {
@@ -230,6 +254,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoData() : void
     {
@@ -242,6 +268,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoProperties() : void
     {
@@ -254,6 +282,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist() : void
     {
@@ -268,6 +298,38 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     */
+    public function testGetDeviceOk() : void
+    {
+        $this->object->addDevicesFile($this->getDevicesJsonFixture());
+
+        $device = $this->object->getDevice('unknown');
+
+        self::assertInstanceOf(Device::class, $device);
+    }
+
+    /**
+     * @group data
+     * @group sourcetest
+     */
+    public function testGetDevicesOk() : void
+    {
+        $this->object->addDevicesFile($this->getDevicesJsonFixture());
+
+        $devices = $this->object->getDevices();
+
+        self::assertInternalType('array', $devices);
+
+        foreach ($devices as $device) {
+            self::assertInstanceOf(Device::class, $device);
+        }
+    }
+
+    /**
+     * @group data
+     * @group sourcetest
+     *
+     * @return void
      */
     public function testGetEngineThrowsExceptionIfPlatformDoesNotExist() : void
     {
@@ -285,6 +347,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetEngine() : void
     {
@@ -302,21 +366,12 @@ HERE;
     }
 
     /**
-     * tests getting the version
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testGetVersion() : void
-    {
-        self::assertSame('1234', $this->object->getVersion());
-    }
-
-    /**
      * tests getting the generation date
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testGetGenerationDate() : void
     {
@@ -337,6 +392,8 @@ HERE;
     /**
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist() : void
     {
@@ -353,6 +410,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfFileContainsInvalidJson() : void
     {
@@ -375,6 +434,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable() : void
     {
@@ -389,6 +450,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoSortIndexIsAvailable() : void
     {
@@ -403,6 +466,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoLitePropertyIsAvailable() : void
     {
@@ -417,6 +482,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoStandardPropertyIsAvailable() : void
     {
@@ -431,6 +498,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoNameIsAvailableForUseragent() : void
     {
@@ -445,6 +514,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNameHasInvalidCharsForUseragent() : void
     {
@@ -459,6 +530,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoVersionsAreDefinedWithVersionPlaceholders() : void
     {
@@ -473,6 +546,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable() : void
     {
@@ -487,11 +562,13 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesEntryIsNotAnArray() : void
     {
         $this->expectException('\RuntimeException');
-        $this->expectExceptionMessage('the properties entry has to be an array for key "UA1"');
+        $this->expectExceptionMessage('the properties entry has to be an non-empty array for key "UA1"');
 
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties-as-array.json');
     }
@@ -501,6 +578,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoParentPropertyIsAvailable() : void
     {
@@ -515,6 +594,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfParentPropertyIsNotDefaultProperties() : void
     {
@@ -529,6 +610,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoCommentPropertyIsAvailable() : void
     {
@@ -543,20 +626,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
-     */
-    public function testAddSourceFileThrowsExceptionIfNoVersionsAreDefinedButVersionPropertyIsAvailable() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('the "Version" property is set for key "UA1", but no versions are defined');
-
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-version-property-but-no-versions.json');
-    }
-
-    /**
-     * checks if a exception is thrown if the sortindex property is missing
      *
-     * @group data
-     * @group sourcetest
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfNoChildrenPropertyIsAvailable() : void
     {
@@ -571,6 +642,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenPropertyIsNotAnArray() : void
     {
@@ -585,6 +658,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray() : void
     {
@@ -599,6 +674,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludePlatformData() : void
     {
@@ -613,6 +690,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData() : void
     {
@@ -627,6 +706,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeDeviceData() : void
     {
@@ -641,6 +722,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenAreNotArrays() : void
     {
@@ -655,6 +738,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword() : void
     {
@@ -669,6 +754,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHaveAnInvalidMatchKeyword() : void
     {
@@ -683,6 +770,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasVersionPlaceHolderWithoutVersions() : void
     {
@@ -697,6 +786,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasPlatformPlaceHolderWithoutPlatforms() : void
     {
@@ -711,6 +802,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasDevicePlaceHolderWithoutDevices() : void
     {
@@ -725,6 +818,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenPropertiesAreNotArrays() : void
     {
@@ -739,6 +834,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasParentProperty() : void
     {
@@ -753,6 +850,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasPlatformProperties() : void
     {
@@ -767,6 +866,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties() : void
     {
@@ -781,11 +882,13 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasDeviceProperties() : void
     {
         $this->expectException('\LogicException');
-        $this->expectExceptionMessage('the properties array contains device data for key "cde", please use the "device" keyword');
+        $this->expectExceptionMessage('the properties array contains device data for key "cde", please use the "device" or the "devices" keyword');
 
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-device-properties.json');
     }
@@ -795,6 +898,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfChildHasDeviceAndDevicesKeys() : void
     {
@@ -809,6 +914,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfDevicesEntryIsNotAnArray() : void
     {
@@ -823,6 +930,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfDevicesEntryHasMultipleDevicesAndNoDeviceToken() : void
     {
@@ -837,6 +946,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfPlatformsEntryHasMultiplePlatformsAndNoPlatformToken() : void
     {
@@ -851,6 +962,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileThrowsExceptionIfDivisionIsAddedTwice() : void
     {
@@ -869,6 +982,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileOk() : void
     {
@@ -886,6 +1001,8 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddSourceFileOkWithLiteAndVersions() : void
     {
@@ -903,13 +1020,12 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddDefaultProperties() : void
     {
-        self::assertSame(
-            $this->object,
-            $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json')
-        );
+        $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json');
 
         $division = $this->object->getDefaultProperties();
 
@@ -922,119 +1038,16 @@ HERE;
      *
      * @group data
      * @group sourcetest
+     *
+     * @return void
      */
     public function testAddDefaultBrowser() : void
     {
-        self::assertSame(
-            $this->object,
-            $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json')
-        );
+        $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json');
 
         $division = $this->object->getDefaultBrowser();
 
         self::assertInstanceOf(Division::class, $division);
         self::assertSame('Default Browser', $division->getName());
-    }
-
-    /**
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyWithoutVersion() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('Version property not found for key "test"');
-
-        $properties = [];
-        $this->object->checkProperty('test', $properties);
-    }
-
-    /**
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyWithoutParent() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('Parent property is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-        ];
-
-        $this->object->checkProperty('test', $properties);
-    }
-
-    /**
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyWithoutDeviceType() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('property "Device_Type" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-        ];
-
-        $this->object->checkProperty('test', $properties);
-    }
-
-    /**
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyWithoutIsTablet() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('property "isTablet" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-        ];
-
-        $this->object->checkProperty('test', $properties);
-    }
-
-    /**
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyWithoutIsMobileDevice() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('property "isMobileDevice" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => false,
-        ];
-
-        $this->object->checkProperty('test', $properties);
-    }
-
-    /**
-     * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testCheckPropertyOk() : void
-    {
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => false,
-            'isMobileDevice' => false,
-        ];
-
-        self::assertTrue($this->object->checkProperty('test', $properties));
     }
 }

@@ -11,6 +11,8 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\LiteFilter;
 
 /**
@@ -33,7 +35,17 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new LiteFilter();
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new LiteFilter($propertyHolder);
     }
 
     /**
@@ -55,7 +67,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutput() : void
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+        $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['isLite'])
             ->getMock();
@@ -127,13 +139,37 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      * @group filter
      * @group sourcetest
      *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
+     *
+     * @param string $propertyName
+     */
+    public function testIsOutputPropertyWithPropertyHolder(string $propertyName) : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::once())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $object = new LiteFilter($propertyHolder);
+        self::assertFalse($object->isOutputProperty($propertyName));
     }
 
     /**
