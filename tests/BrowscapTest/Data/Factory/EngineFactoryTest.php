@@ -87,8 +87,14 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuild() : void
     {
-        $engineData = ['abc' => 'def'];
-        $json       = [];
+        $engineData = ['properties' => ['abc' => 'xyz'], 'inherits' => 'abc'];
+        $json       = [
+            'engines' => [
+                'abc' => [
+                    'properties' => ['abc' => 'def'],
+                ],
+            ],
+        ];
         $engineName = 'Test';
 
         self::assertInstanceOf(Engine::class, $this->object->build($engineData, $json, $engineName));

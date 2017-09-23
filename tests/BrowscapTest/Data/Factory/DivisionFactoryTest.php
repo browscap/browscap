@@ -14,6 +14,7 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DivisionFactory;
 use Browscap\Data\Factory\UseragentFactory;
+use Browscap\Data\Validator\DivisionData;
 use Monolog\Logger;
 
 /**
@@ -48,119 +49,17 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             ->method('build')
             ->will(self::returnValue([]));
 
+        $divisionData     = $this->createMock(DivisionData::class);
+
         $this->object = new DivisionFactory($logger);
 
         $property = new \ReflectionProperty($this->object, 'useragentFactory');
         $property->setAccessible(true);
         $property->setValue($this->object, $useragentFactory);
-    }
 
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithMissingDivisionAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "division" is missing in File test.xyz');
-
-        $divisionData = [];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithMissingSortIndexAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "sortIndex" is missing in File test.xyz');
-
-        $divisionData = ['division' => 'abc'];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithMissingLiteAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "lite" is missing in File test.xyz');
-
-        $divisionData = ['division' => 'abc', 'sortIndex' => 1];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithMissingStandardAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "standard" is missing in File test.xyz');
-
-        $divisionData = ['division' => 'abc', 'sortIndex' => 1, 'lite' => true];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithMissingUserAgentsAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "userAgents" is missing in File test.xyz');
-
-        $divisionData = ['division' => 'abc', 'sortIndex' => 1, 'lite' => true, 'standard' => true];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuildWithWrongUserAgentsAttribute() : void
-    {
-        $this->expectException('\UnexpectedValueException');
-        $this->expectExceptionMessage('required attibute "userAgents" should be an non-empty array in File test.xyz');
-
-        $divisionData = ['division' => 'abc', 'sortIndex' => 1, 'lite' => true, 'standard' => true, 'userAgents' => 'available'];
-        $filename     = 'test.xyz';
-        $allDivisions = [];
-
-        $this->object->build($divisionData, $filename, $allDivisions, false);
+        $property = new \ReflectionProperty($this->object, 'divisionData');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $divisionData);
     }
 
     /**
@@ -176,7 +75,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             'sortIndex' => 1,
             'lite' => true,
             'standard' => true,
-            'userAgents' => [[]],
+            'userAgents' => [[], []],
         ];
         $filename     = 'test.xyz';
         $allDivisions = [];

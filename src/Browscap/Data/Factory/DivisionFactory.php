@@ -35,12 +35,18 @@ class DivisionFactory
     private $useragentFactory;
 
     /**
+     * @var \Browscap\Data\Validator\DivisionData
+     */
+    private $divisionData;
+
+    /**
      * @param \Psr\Log\LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger           = $logger;
         $this->useragentFactory = new UseragentFactory();
+        $this->divisionData     = new DivisionData();
     }
 
     /**
@@ -60,7 +66,7 @@ class DivisionFactory
         array &$allDivisions,
         bool $isCore
     ) : Division {
-        DivisionData::validate($divisionData, $filename);
+        $this->divisionData->validate($divisionData, $filename);
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $versions = $divisionData['versions'];

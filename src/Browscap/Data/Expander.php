@@ -14,6 +14,7 @@ namespace Browscap\Data;
 use Browscap\Data\Helper\CheckDeviceData;
 use Browscap\Data\Helper\CheckEngineData;
 use Browscap\Data\Helper\CheckPlatformData;
+use Browscap\Data\Helper\TrimProperty;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -59,6 +60,11 @@ class Expander
     private $checkPlatformData;
 
     /**
+     * @var \Browscap\Data\Helper\TrimProperty
+     */
+    private $trimProperty;
+
+    /**
      * Create a new data expander
      *
      * @param \Psr\Log\LoggerInterface      $logger
@@ -71,6 +77,7 @@ class Expander
         $this->checkDeviceData   = new CheckDeviceData();
         $this->checkEngineData   = new CheckEngineData();
         $this->checkPlatformData = new CheckPlatformData();
+        $this->trimProperty      = new TrimProperty();
     }
 
     /**
@@ -168,28 +175,28 @@ class Expander
                 $standard = false;
             }
 
-            $platformData = $platform->getProperties();
+            $platformProperties = $platform->getProperties();
         } else {
-            $this->patternId['platform'] = '';
-            $platformData                = [];
+            $this->patternId['platform']       = '';
+            $platformProperties                = [];
         }
 
         if (null !== $uaData->getEngine()) {
-            $engine     = $this->collection->getEngine($uaData->getEngine());
-            $engineData = $engine->getProperties();
+            $engine           = $this->collection->getEngine($uaData->getEngine());
+            $engineProperties = $engine->getProperties();
         } else {
-            $engineData = [];
+            $engineProperties = [];
         }
 
         if (null !== $uaData->getDevice()) {
-            $device     = $this->collection->getDevice($uaData->getDevice());
-            $deviceData = $device->getProperties();
+            $device           = $this->collection->getDevice($uaData->getDevice());
+            $deviceProperties = $device->getProperties();
 
             if (!$device->isStandard()) {
                 $standard = false;
             }
         } else {
-            $deviceData = [];
+            $deviceProperties = [];
         }
 
         $ua = $uaData->getUserAgent();
@@ -202,9 +209,9 @@ class Expander
                     'sortIndex' => $sortIndex,
                     'division' => $divisionName,
                 ],
-                $platformData,
-                $engineData,
-                $deviceData,
+                $platformProperties,
+                $engineProperties,
+                $deviceProperties,
                 $uaProperties
             ),
         ];
@@ -254,43 +261,43 @@ class Expander
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $this->patternId['platform'] = $platform;
-                $properties                  = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
-                $platformData                = $this->collection->getPlatform($platform);
+                $this->patternId['platform']       = $platform;
+                $properties                        = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
+                $platformProperties                = $this->collection->getPlatform($platform);
 
-                if (!$platformData->isLite()) {
+                if (!$platformProperties->isLite()) {
                     $properties['lite'] = false;
                 }
 
-                if (!$platformData->isStandard()) {
+                if (!$platformProperties->isStandard()) {
                     $properties['standard'] = false;
                 }
 
-                $uaBase = str_replace('#PLATFORM#', $platformData->getMatch(), $uaDataChild['match']);
+                $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine     = $this->collection->getEngine($uaDataChild['engine']);
-                    $engineData = $engine->getProperties();
+                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties = $engine->getProperties();
                 } else {
-                    $engineData = [];
+                    $engineProperties = [];
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
-                    $device     = $this->collection->getDevice($uaDataChild['device']);
-                    $deviceData = $device->getProperties();
+                    $device           = $this->collection->getDevice($uaDataChild['device']);
+                    $deviceProperties = $device->getProperties();
 
                     if (!$device->isStandard()) {
                         $properties['standard'] = false;
                     }
                 } else {
-                    $deviceData = [];
+                    $deviceProperties = [];
                 }
 
                 $properties = array_merge(
                     $properties,
-                    $engineData,
-                    $deviceData,
-                    $platformData->getProperties()
+                    $engineProperties,
+                    $deviceProperties,
+                    $platformProperties->getProperties()
                 );
 
                 if (isset($uaDataChild['properties'])
@@ -309,24 +316,24 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine     = $this->collection->getEngine($uaDataChild['engine']);
-                $engineData = $engine->getProperties();
+                $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties = $engine->getProperties();
             } else {
-                $engineData = [];
+                $engineProperties = [];
             }
 
             if (array_key_exists('device', $uaDataChild)) {
-                $device     = $this->collection->getDevice($uaDataChild['device']);
-                $deviceData = $device->getProperties();
+                $device           = $this->collection->getDevice($uaDataChild['device']);
+                $deviceProperties = $device->getProperties();
 
                 if (!$device->isStandard()) {
                     $properties['standard'] = false;
                 }
             } else {
-                $deviceData = [];
+                $deviceProperties = [];
             }
 
-            $properties = array_merge($properties, $engineData, $deviceData);
+            $properties = array_merge($properties, $engineProperties, $deviceProperties);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
@@ -455,7 +462,7 @@ class Expander
                 if (is_bool($browserData[$propertyName])) {
                     $properties[$propertyName] = $browserData[$propertyName];
                 } else {
-                    $properties[$propertyName] = $this->trimProperty((string) $browserData[$propertyName]);
+                    $properties[$propertyName] = $this->trimProperty->trimProperty((string) $browserData[$propertyName]);
                 }
             }
 
@@ -483,32 +490,5 @@ class Expander
         }
 
         return $allDivisions;
-    }
-
-    /**
-     * trims the value of a property and converts the string values "true" and "false" to boolean
-     *
-     * @param string $propertyValue
-     *
-     * @return bool|string
-     */
-    public function trimProperty(string $propertyValue)
-    {
-        switch ($propertyValue) {
-            case 'true':
-                $propertyValue = true;
-
-                break;
-            case 'false':
-                $propertyValue = false;
-
-                break;
-            default:
-                $propertyValue = trim($propertyValue);
-
-                break;
-        }
-
-        return $propertyValue;
     }
 }

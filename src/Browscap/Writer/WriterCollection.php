@@ -13,7 +13,6 @@ namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Data\Expander;
 
 /**
  * Class WriterCollection
@@ -62,20 +61,6 @@ class WriterCollection
     {
         foreach ($this->writers as $writer) {
             $writer->setSilent(!$writer->getFilter()->isOutput($division));
-        }
-    }
-
-    /**
-     * @param Expander $expander
-     *
-     * @return void
-     */
-    public function setExpander(Expander $expander) : void
-    {
-        foreach ($this->writers as $writer) {
-            if ($writer instanceof WriterNeedsExpanderInterface) {
-                $writer->setExpander($expander);
-            }
         }
     }
 
