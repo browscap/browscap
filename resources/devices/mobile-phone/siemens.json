@@ -376,6 +376,19 @@
             "isTablet": "false"
         }
     },
+    "Siemens ME45": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "ME45",
+            "Device_Code_Name": "ME45",
+            "Device_Maker": "Siemens",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Siemens",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Siemens ME75": {
         "standard": false,
         "properties": {

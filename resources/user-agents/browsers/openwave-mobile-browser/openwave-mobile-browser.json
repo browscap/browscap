@@ -24,6 +24,7 @@
         {
           "match": "* Browser/OpenWave/1.0* Profile/MIDP*",
           "properties": {
+            "Comment": "Openwave Mobile Browser 1.0",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -35,6 +36,7 @@
             "SonyEricssonS312": "SonyEricsson S312"
           },
           "properties": {
+            "Comment": "Openwave Mobile Browser 1.0",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -62,11 +64,9 @@
           }
         },
         {
-          "match": "MOT-GATW_/* UP.Browser/*"
-        },
-        {
           "match": "UP.Browser/3.01-IG01 UP.Link/3.2.3.4",
           "properties": {
+            "Comment": "Openwave Mobile Browser 3.0",
             "Version": "3.0",
             "MajorVer": "3"
           }
@@ -74,6 +74,7 @@
         {
           "match": "UP.Browser/3.04-SN17 UP.Link/3.4.5.6",
           "properties": {
+            "Comment": "Openwave Mobile Browser 3.0",
             "Version": "3.0",
             "MajorVer": "3"
           }
@@ -81,6 +82,7 @@
         {
           "match": "UP.Browser/3.1.04-DS15 UP.Link/*",
           "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
@@ -89,6 +91,7 @@
         {
           "match": "UP.Browser/3.1.04-NZ01 UP.Link/*.1",
           "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
@@ -97,6 +100,7 @@
         {
           "match": "UP.Browser/3.1.04-SC02 UP.Link/*",
           "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
@@ -105,6 +109,7 @@
         {
           "match": "UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO",
           "properties": {
+            "Comment": "Openwave Mobile Browser 7.0",
             "Version": "7.0",
             "MajorVer": "7"
           }

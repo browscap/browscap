@@ -8,6 +8,7 @@
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
@@ -24,9 +25,6 @@
         "MinorVer": "#MINORVER#"
       },
       "children": [
-        {
-          "match": "UPG1* UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
         {
           "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Nokia)"
