@@ -47,8 +47,8 @@ class UseragentFactory
      * @param array   &$allDivisions
      * @param string  $filename
      *
-     * @throws \RuntimeException         If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException If required attibutes are missing in the division
+     * @throws \RuntimeException If the file does not exist or has invalid JSON
+     * @throws \LogicException   If required attibutes are missing in the division
      * @throws \LogicException
      *
      * @return \Browscap\Data\Useragent[]
@@ -65,7 +65,7 @@ class UseragentFactory
             if (!$isCore) {
                 foreach ($useragent['children'] as $child) {
                     if (!is_array($child)) {
-                        throw new \UnexpectedValueException(
+                        throw new \LogicException(
                             'each entry of the children property has to be an array for key "'
                             . $useragent['userAgent'] . '"'
                         );

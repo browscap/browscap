@@ -13,7 +13,7 @@ namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Data\Expander;
+use Browscap\Data\Helper\TrimProperty;
 use Browscap\Data\PropertyHolder;
 use Browscap\Data\Useragent;
 use Browscap\Filter\FullFilter;
@@ -353,7 +353,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
                 'Win16' => true,
             ]));
 
-        $mockExpander = $this->getMockBuilder(Expander::class)
+        $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -363,7 +363,9 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        $this->object->setExpander($mockExpander);
+        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -453,7 +455,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
             'X2' => $section,
         ];
 
-        $mockExpander = $this->getMockBuilder(Expander::class)
+        $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -463,7 +465,9 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        $this->object->setExpander($mockExpander);
+        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $mockExpander);
 
         $useragent = $this->getMockBuilder(Useragent::class)
             ->disableOriginalConstructor()
@@ -577,7 +581,7 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
                 'Platform' => 'bcd',
             ]));
 
-        $mockExpander = $this->getMockBuilder(Expander::class)
+        $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
             ->setMethods(['trimProperty'])
             ->getMock();
@@ -587,7 +591,9 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
             ->method('trimProperty')
             ->will(self::returnArgument(0));
 
-        $this->object->setExpander($mockExpander);
+        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()

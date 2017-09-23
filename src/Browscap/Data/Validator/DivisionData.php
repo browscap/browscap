@@ -22,52 +22,52 @@ class DivisionData
 {
     /**
      * @param array  $divisionData
-     * @param string $fileName
+     * @param string $filename
      *
-     * @throws \UnexpectedValueException
+     * @throws \LogicException
      *
      * @return void
      */
-    public static function validate(array $divisionData, string $fileName) : void
+    public function validate(array $divisionData, string $filename) : void
     {
         if (!array_key_exists('division', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "division" is missing in File ' . $fileName);
+            throw new \LogicException('required attibute "division" is missing in File ' . $filename);
         }
 
         if (!is_string($divisionData['division'])) {
-            throw new \UnexpectedValueException('required attibute "division" has to be a string in File ' . $fileName);
+            throw new \LogicException('required attibute "division" has to be a string in File ' . $filename);
         }
 
         if (!array_key_exists('sortIndex', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "sortIndex" is missing in File ' . $fileName);
+            throw new \LogicException('required attibute "sortIndex" is missing in File ' . $filename);
         }
 
         if (!is_int($divisionData['sortIndex']) || 0 > $divisionData['sortIndex']) {
-            throw new \UnexpectedValueException('required attibute "sortIndex" has to be a positive integer in File ' . $fileName);
+            throw new \LogicException('required attibute "sortIndex" has to be a positive integer in File ' . $filename);
         }
 
         if (!array_key_exists('lite', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $fileName);
+            throw new \LogicException('required attibute "lite" is missing in File ' . $filename);
         }
 
         if (!is_bool($divisionData['lite'])) {
-            throw new \UnexpectedValueException('required attibute "lite" has to be an boolean in File ' . $fileName);
+            throw new \LogicException('required attibute "lite" has to be an boolean in File ' . $filename);
         }
 
         if (!array_key_exists('standard', $divisionData)) {
-            throw new \UnexpectedValueException('required attibute "standard" is missing in File ' . $fileName);
+            throw new \LogicException('required attibute "standard" is missing in File ' . $filename);
         }
 
         if (!is_bool($divisionData['standard'])) {
-            throw new \UnexpectedValueException('required attibute "standard" has to be an boolean in File ' . $fileName);
+            throw new \LogicException('required attibute "standard" has to be an boolean in File ' . $filename);
         }
 
         if (!isset($divisionData['userAgents'])) {
-            throw new \UnexpectedValueException('required attibute "userAgents" is missing in File ' . $fileName);
+            throw new \LogicException('required attibute "userAgents" is missing in File ' . $filename);
         }
 
         if (!is_array($divisionData['userAgents']) || empty($divisionData['userAgents'])) {
-            throw new \UnexpectedValueException('required attibute "userAgents" should be an non-empty array in File ' . $fileName);
+            throw new \LogicException('required attibute "userAgents" should be an non-empty array in File ' . $filename);
         }
     }
 }

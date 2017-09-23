@@ -42,7 +42,7 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutVersion() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException('\LogicException');
         $this->expectExceptionMessage('Version property not found for key "test"');
 
         $properties = [];
@@ -53,9 +53,25 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
+    public function testCheckPropertyWithoutParent() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('Parent property is missing for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * @group data
+     * @group sourcetest
+     */
     public function testCheckPropertyWithoutDeviceType() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException('\LogicException');
         $this->expectExceptionMessage('property "Device_Type" is missing for key "test"');
 
         $properties = [
@@ -72,7 +88,7 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutIsTablet() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException('\LogicException');
         $this->expectExceptionMessage('property "isTablet" is missing for key "test"');
 
         $properties = [
@@ -90,7 +106,7 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutIsMobileDevice() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException('\LogicException');
         $this->expectExceptionMessage('property "isMobileDevice" is missing for key "test"');
 
         $properties = [
@@ -109,7 +125,139 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testCheckPropertyOk() : void
+    public function testCheckTabletMismatchIsTablet() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Tablet for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Tablet',
+            'isTablet' => false,
+            'isMobileDevice' => false,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckTabletMismatchIsMobileDevice() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Mobile Device for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Tablet',
+            'isTablet' => true,
+            'isMobileDevice' => false,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckMobileMismatchIsTablet() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Mobile Phone" is marked as Tablet for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Mobile Phone',
+            'isTablet' => true,
+            'isMobileDevice' => false,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckMobileMismatchIsMobileDevice() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Mobile Phone" is NOT marked as Mobile Device for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Mobile Phone',
+            'isTablet' => false,
+            'isMobileDevice' => false,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckDesktopMismatchIsTablet() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Desktop" is marked as Tablet for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Desktop',
+            'isTablet' => true,
+            'isMobileDevice' => true,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckDesktopMismatchIsMobileDevice() : void
+    {
+        $this->expectException('\LogicException');
+        $this->expectExceptionMessage('the device of type "Desktop" is marked as Mobile Device for key "test"');
+
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Desktop',
+            'isTablet' => false,
+            'isMobileDevice' => true,
+        ];
+
+        $this->object->check('test', $properties);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckPropertyOkDesktop() : void
     {
         $properties = [
             'Version' => 'abc',
@@ -117,6 +265,48 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
             'Device_Type' => 'Desktop',
             'isTablet' => false,
             'isMobileDevice' => false,
+        ];
+
+        $this->object->check('test', $properties);
+
+        self::assertTrue(true);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckPropertyOkTablet() : void
+    {
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Tablet',
+            'isTablet' => true,
+            'isMobileDevice' => true,
+        ];
+
+        $this->object->check('test', $properties);
+
+        self::assertTrue(true);
+    }
+
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testCheckPropertyOkMobile() : void
+    {
+        $properties = [
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Mobile Phone',
+            'isTablet' => false,
+            'isMobileDevice' => true,
         ];
 
         $this->object->check('test', $properties);

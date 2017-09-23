@@ -75,7 +75,6 @@ class BuildHelper
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.',
         ];
 
-        $writerCollection->setExpander($expander);
         $writerCollection->fileStart();
         $writerCollection->renderHeader($comments);
         $writerCollection->renderVersion($buildVersion, $collection);

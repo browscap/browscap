@@ -29,6 +29,20 @@ use Monolog\Logger;
 class BuildHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger;
+
+    /**
+     * Sets up the fixture, for example, open a network connection.
+     * This method is called before a test is executed.
+     */
+    public function setUp() : void
+    {
+        $this->logger = $this->createMock(Logger::class);
+    }
+
+    /**
      * tests running a build
      *
      * @group generator
@@ -36,8 +50,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     public function testRun() : void
     {
-        $logger = $this->createMock(Logger::class);
-
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
@@ -152,7 +164,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $logger, $writerCollection, $collectionCreator);
+        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
@@ -163,8 +175,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     public function testRunDuplicateDivision() : void
     {
-        $logger = $this->createMock(Logger::class);
-
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
@@ -279,7 +289,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $logger, $writerCollection, $collectionCreator);
+        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
@@ -290,8 +300,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     public function testRunWithPatternIdCollectionEnabled() : void
     {
-        $logger = $this->createMock(Logger::class);
-
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
             ->setMethods([
@@ -406,6 +414,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $logger, $writerCollection, $collectionCreator, true);
+        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator, true);
     }
 }

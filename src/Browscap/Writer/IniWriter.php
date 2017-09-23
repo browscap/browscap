@@ -12,7 +12,7 @@ declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
+use Browscap\Data\Helper\TrimProperty;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -24,7 +24,7 @@ use Psr\Log\LoggerInterface;
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */
-class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
+class IniWriter implements WriterInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface
@@ -57,9 +57,9 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     private $outputProperties = [];
 
     /**
-     * @var \Browscap\Data\Expander
+     * @var \Browscap\Data\Helper\TrimProperty
      */
-    private $expander;
+    private $trimProperty;
 
     /**
      * @param string                   $file
@@ -67,8 +67,9 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      */
     public function __construct(string $file, LoggerInterface $logger)
     {
-        $this->logger = $logger;
-        $this->file   = fopen($file, 'w');
+        $this->logger       = $logger;
+        $this->file         = fopen($file, 'w');
+        $this->trimProperty = new TrimProperty();
     }
 
     /**
@@ -126,16 +127,6 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     public function getFilter() : FilterInterface
     {
         return $this->filter;
-    }
-
-    /**
-     * @param \Browscap\Data\Expander $expander
-     *
-     * @return void
-     */
-    public function setExpander(Expander $expander) : void
-    {
-        $this->expander = $expander;
     }
 
     /**
@@ -311,7 +302,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
             if (is_bool($propertyValue)) {
                 $defaultproperties[$propertyName] = $propertyValue;
             } else {
-                $defaultproperties[$propertyName] = $this->expander->trimProperty((string) $propertyValue);
+                $defaultproperties[$propertyName] = $this->trimProperty->trimProperty((string) $propertyValue);
             }
         }
 
