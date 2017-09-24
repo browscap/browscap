@@ -177,8 +177,8 @@ class Expander
 
             $platformProperties = $platform->getProperties();
         } else {
-            $this->patternId['platform']       = '';
-            $platformProperties                = [];
+            $this->patternId['platform'] = '';
+            $platformProperties          = [];
         }
 
         if (null !== $uaData->getEngine()) {
@@ -261,9 +261,9 @@ class Expander
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $this->patternId['platform']       = $platform;
-                $properties                        = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
-                $platformProperties                = $this->collection->getPlatform($platform);
+                $this->patternId['platform'] = $platform;
+                $properties                  = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
+                $platformProperties          = $this->collection->getPlatform($platform);
 
                 if (!$platformProperties->isLite()) {
                     $properties['lite'] = false;

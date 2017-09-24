@@ -37,7 +37,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $logger       = $this->createMock(Logger::class);
+        $logger = $this->createMock(Logger::class);
 
         $useragentFactory = $this->getMockBuilder(UseragentFactory::class)
             ->disableOriginalConstructor()
@@ -49,7 +49,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             ->method('build')
             ->will(self::returnValue([]));
 
-        $divisionData     = $this->createMock(DivisionData::class);
+        $divisionData = $this->createMock(DivisionData::class);
 
         $this->object = new DivisionFactory($logger);
 
