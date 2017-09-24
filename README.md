@@ -41,6 +41,35 @@ $
 
 Now you if you look at `browscap/browscap.ini` you will see a new INI file has been generated.
 
+## How to build a custom browscap.ini
+
+It is not possible to build a custom browscap.ini file with the CLI command.
+
+```php
+$logger = new \Monolog\Logger('browscap'); // or maybe any other PSR-3 compatible Logger
+
+$format = \Browscap\Formatter\FormatterInterface::TYPE_PHP; // you may choose the output format you want, the format must be already supported
+$file   = null; // you may set a custom file name here
+$fields = []; // choose the fields you want inside of your browscap file
+
+$resourceFolder = 'resources/'; // please point to the resources directory inside the project
+$buildFolder = ''; // choose the directory where the generated file should be written to
+
+$writerCollection = (new \Browscap\Writer\Factory\CustomWriterFactory())->createCollection($logger, $buildFolder, $file, $fields);
+
+$buildGenerator = new BuildGenerator(
+    $resourceFolder,
+    $buildFolder,
+    $logger,
+    $writerCollection
+);
+
+$version       = '';    // what you want to be written into the generated file
+$createZipFile = false; // It is not possible yet to create a zipped version of a custom named browscap file
+
+$buildGenerator->run($version, $createZipFile);
+```
+
 ## Directory Structure
 
 * `bin` - Contains executable files

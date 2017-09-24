@@ -39,9 +39,9 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $checkDeviceData     = $this->createMock(CheckDeviceData::class);
-        $checkEngineData     = $this->createMock(CheckEngineData::class);
-        $checkPlatformData   = $this->createMock(CheckPlatformData::class);
+        $checkDeviceData   = $this->createMock(CheckDeviceData::class);
+        $checkEngineData   = $this->createMock(CheckEngineData::class);
+        $checkPlatformData = $this->createMock(CheckPlatformData::class);
 
         $this->object = new ChildrenData();
 
