@@ -719,6 +719,20 @@
             "Browser": "Newsbeuter RSS Aggregator",
             "Browser_Maker": "newsbeuter.org"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Specificfeeds- http://www.specificfeeds.com",
+          "properties": {
+            "Browser": "SpecificFeeds Aggregator",
+            "Browser_Maker": "specificfeeds.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; U; Linux*; en-US; rv:*) Gecko/* Firefox/* Specificfeeds- http://www.specificfeeds.com",
+          "properties": {
+            "Browser": "SpecificFeeds Aggregator",
+            "Browser_Maker": "specificfeeds.com"
+          }
         }
       ]
     }

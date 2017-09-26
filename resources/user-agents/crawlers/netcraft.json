@@ -44,6 +44,12 @@
           "properties": {
             "Browser": "NetcraftSurveyAgent"
           }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Netcraft SSL Server Survey - contact info@netcraft.com)",
+          "properties": {
+            "Browser": "NetcraftSurveyAgent"
+          }
         }
       ]
     }

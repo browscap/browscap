@@ -1193,7 +1193,7 @@ return [
         'ua' => 'Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)',
         'properties' => [
             'Comment' => 'Search Engines',
-            'Browser' => 'CocCoc Bot',
+            'Browser' => 'Coccoc Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Coc Coc Company Limited',

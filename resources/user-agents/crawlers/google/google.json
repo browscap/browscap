@@ -148,6 +148,30 @@
           "properties": {
             "Browser": "Google Adwords DisplayAds WebRender"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko* Google Search Console) Chrome/* Safari/*",
+          "properties": {
+            "Browser": "Google Search Console"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; Google Search Console)",
+          "properties": {
+            "Browser": "Google Search Console"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-HotelAdsVerifier/*)",
+          "properties": {
+            "Browser": "Google Hotel Ads Verifier"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; U; Windows NT *; rv:*; Google-SearchByImage) Gecko/* Firefox/*",
+          "properties": {
+            "Browser": "Google SearchByImage"
+          }
         }
       ]
     }

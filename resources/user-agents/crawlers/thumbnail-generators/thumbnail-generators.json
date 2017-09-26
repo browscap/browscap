@@ -112,6 +112,13 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/20100101 Firefox/* WordPress.com mShots",
+          "properties": {
+            "Browser": "Wordpress.com MShots Thumbnailer",
+            "Browser_Maker": "Automattic"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (*Macintosh*) AppleWebKit/* (*khtml*like*gecko*) Like-Version/* Safari/* webkit2png/*",
           "properties": {
             "Browser": "webkit2png",
@@ -123,6 +130,34 @@
           "properties": {
             "Browser": "ShrinkTheWeb Bot",
             "Browser_Maker": "ShrinkTheWeb"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/* HeartRails_Capture/* (+http://capture.heartrails.com/) *",
+          "properties": {
+            "Browser": "HeartRails Capture Bot",
+            "Browser_Maker": "capture.heartrails.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) web-capture.net/* Safari/*",
+          "properties": {
+            "Browser": "Web-Capture Bot",
+            "Browser_Maker": "web-capture.net"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) *Site-Shot/* (http://www.site-shot.com/) Safari/*",
+          "properties": {
+            "Browser": "Site-Shot Bot",
+            "Browser_Maker": "site-shot.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) www.HomepageScreenshot.de - Free ScreenShotService/* Safari/*",
+          "properties": {
+            "Browser": "Free ScreenShotService",
+            "Browser_Maker": "www.homepagescreenshot.de"
           }
         }
       ]

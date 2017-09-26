@@ -2836,6 +2836,146 @@
             "Browser": "Discord Bot",
             "Browser_Maker": "Discord"
           }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)",
+          "properties": {
+            "Browser": "Retrevo Page Analyzer",
+            "Browser_Maker": "Retrevo Inc."
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) CrawlerProcess (http://www.PowerMapper.com)*",
+          "properties": {
+            "Browser": "Powermapper Bot",
+            "Browser_Maker": "PowerMapper.com"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*) CrawlerProcess (http://www.PowerMapper.com)*",
+          "properties": {
+            "Browser": "Powermapper Bot",
+            "Browser_Maker": "PowerMapper.com"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; DomainDB-*; http://domaindb.com/crawler/)",
+          "properties": {
+            "Browser": "DomainDB Crawler",
+            "Browser_Maker": "domaindb.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Clarsentia)",
+          "properties": {
+            "Browser": "Clarsentia Bot",
+            "Browser_Maker": "Clarsentia"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* DareBoost",
+          "properties": {
+            "Browser": "DareBoost Bot",
+            "Browser_Maker": "DareBoost"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* DareBoost",
+          "properties": {
+            "Browser": "DareBoost Bot",
+            "Browser_Maker": "DareBoost"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* DareBoost",
+          "properties": {
+            "Browser": "DareBoost Bot",
+            "Browser_Maker": "DareBoost"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64; rv:*) Gecko/20100101 Firefox/* DareBoost",
+          "properties": {
+            "Browser": "DareBoost Bot",
+            "Browser_Maker": "DareBoost"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* DareBoost",
+          "properties": {
+            "Browser": "DareBoost Bot",
+            "Browser_Maker": "DareBoost"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* http://spyonweb.com spyonweb@gmail.com",
+          "properties": {
+            "Browser": "SpyOnWeb Bot",
+            "Browser_Maker": "spyonweb.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit/* (*khtml*like*gecko*) YLT Chrome/* Safari/*",
+          "properties": {
+            "Browser": "YellowLabTools Bot",
+            "Browser_Maker": "yellowlab.tools"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *; compatible; BDCbot/*; +http://*.bigdatacorp.com.br/faq.aspx) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "properties": {
+            "Browser": "BigDataCorp Bot",
+            "Browser_Maker": "bigweb.bigdatacorp.com.br"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; aylienbot/*; +http://www.aylien.com/bot.html)",
+          "properties": {
+            "Browser": "AylienBot",
+            "Browser_Maker": "aylien.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *; rv:*) Gecko/20100101 Firefox/* Evidon (lab@evidon.com)",
+          "properties": {
+            "Browser": "Evidon Bot",
+            "Browser_Maker": "evidon.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; U; Windows NT *; en-US; rv:*) Gecko/* Firefox/* (BrowserSpyBot/*) (http://browserspy.dk/)",
+          "properties": {
+            "Browser": "BrowserSpyBot",
+            "Browser_Maker": "browserspy.dk"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *; rv:*) Gecko/20100101 Firefox/* glindahl-cocrawler/*",
+          "properties": {
+            "Browser": "cocrawler",
+            "Browser_Maker": "Greg Lindahl"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko*) Version/* Instapaper/* (+http://www.instapaper.com/)",
+          "properties": {
+            "Browser": "Instapaper Bot",
+            "Browser_Maker": "instapaper.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (* like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* mixed-content-scan",
+          "properties": {
+            "Browser": "mixed-content-scan",
+            "Browser_Maker": "Bramus!"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; IDwhois/*; Linux; en-US; +http://idwhois.info/about)",
+          "properties": {
+            "Browser": "IDwhois Bot",
+            "Browser_Maker": "idwhois.info"
+          }
         }
       ]
     }

@@ -43,6 +43,26 @@
         },
         {
           "match": "WordPress*"
+        },
+        {
+          "match": "Automattic Analytics Crawler/*; http://wordpress.com/crawler/",
+          "properties": {
+            "Browser": "Automattic Analytics Crawler"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Mobile Safari/*",
+          "properties": {
+            "Browser": "Google Publisher Wordpress Plugin",
+            "Browser_Maker": "Google Inc."
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Safari/*",
+          "properties": {
+            "Browser": "Google Publisher Wordpress Plugin",
+            "Browser_Maker": "Google Inc."
+          }
         }
       ]
     }

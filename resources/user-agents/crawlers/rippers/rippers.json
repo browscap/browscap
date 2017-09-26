@@ -1386,6 +1386,13 @@
           "properties": {
             "Browser": "SimpleScraper"
           }
+        },
+        {
+          "match": "fasthttp*",
+          "properties": {
+            "Browser": "Go fasthttp",
+            "Browser_Maker": "Aliaksandr Valialkin"
+          }
         }
       ]
     }

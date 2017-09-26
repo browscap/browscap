@@ -21,6 +21,12 @@
           }
         },
         {
+          "match": "Mozilla/3.0 (compatible; Fluffy the spider; http://www.searchhippo.com/; info@searchhippo.com)",
+          "properties": {
+            "Browser": "SearchHippo"
+          }
+        },
+        {
           "match": "*Fluffy the spider*",
           "properties": {
             "Browser": "SearchHippo"
@@ -923,7 +929,7 @@
         {
           "match": "Mozilla/5.0 (compatible; coccoc/1.0*",
           "properties": {
-            "Browser": "Coccoc bot",
+            "Browser": "Coccoc Bot",
             "Browser_Maker": "Coc Coc Company Limited",
             "Version": "1.0",
             "MajorVer": "1",
@@ -933,14 +939,14 @@
         {
           "match": "Mozilla/5.0 (compatible; coccoc/*",
           "properties": {
-            "Browser": "Coccoc bot",
+            "Browser": "Coccoc Bot",
             "Browser_Maker": "Coc Coc Company Limited"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; coccocbot-web/1.0*",
           "properties": {
-            "Browser": "CocCoc Bot",
+            "Browser": "Coccoc Bot",
             "Browser_Maker": "Coc Coc Company Limited",
             "Version": "1.0",
             "MajorVer": "1",
@@ -950,7 +956,7 @@
         {
           "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
           "properties": {
-            "Browser": "CocCoc Bot",
+            "Browser": "Coccoc Bot",
             "Browser_Maker": "Coc Coc Company Limited"
           }
         },
@@ -980,6 +986,13 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; AcoonBot/*",
+          "properties": {
+            "Browser": "AcoonBot",
+            "Browser_Maker": "Michael Schoebel"
+          }
+        },
+        {
+          "match": "Acoon* (*www.acoon.de)",
           "properties": {
             "Browser": "AcoonBot",
             "Browser_Maker": "Michael Schoebel"
@@ -1250,6 +1263,13 @@
           "properties": {
             "Browser": "IDBot",
             "Browser_Maker": "id-search.xyz"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows NT *; rv:* trendictionbot*; *) Gecko/* Firefox/*",
+          "properties": {
+            "Browser": "Trendiction Bot",
+            "Browser_Maker": "trendiction.de"
           }
         }
       ]

@@ -21,9 +21,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (Applebot/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (*Applebot/*",
           "device": "Macintosh",
           "platforms": [
+            "iOS_A",
             "OSX"
           ]
         }
