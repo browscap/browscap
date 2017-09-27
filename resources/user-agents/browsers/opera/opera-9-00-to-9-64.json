@@ -193,10 +193,6 @@
           ]
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#*(Nintendo Wii*)",
-          "device": "Nintendo Wii"
-        },
-        {
           "match": "Opera?#MAJORVER#.#MINORVER#*"
         }
       ]

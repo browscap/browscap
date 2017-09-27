@@ -1,0 +1,43 @@
+{
+  "division": "Nintendo Browser",
+  "versions": ["5.1"],
+  "sortIndex": 1550,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nintendo Browser #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nintendo Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Nintendo Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Nintendo",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "JavaApplets": "false",
+        "CssVersion": "3",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) *NintendoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "NintendoSwitch_OS"
+          ],
+          "device": "Nintendo Switch"
+        }
+      ]
+    }
+  ]
+}
