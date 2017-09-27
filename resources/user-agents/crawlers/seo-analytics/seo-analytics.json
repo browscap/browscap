@@ -348,6 +348,13 @@
             "Browser": "NetTrack Scanner",
             "Browser_Maker": "NetTrack"
           }
+        },
+        {
+          "match": "TA SEO Crawler v* URLData.pm (smcquaker@tripadvisor.com)",
+          "properties": {
+            "Browser": "TripAdvisor SEO Crawler",
+            "Browser_Maker": "TripAdvisor"
+          }
         }
       ]
     }

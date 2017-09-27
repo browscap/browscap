@@ -46,6 +46,14 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardBrowserProxy/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Macintosh",
           "properties": {

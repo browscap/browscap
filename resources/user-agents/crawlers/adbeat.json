@@ -92,6 +92,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) adbeat.com/policy applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_4_3",
+            "iOS_A"
+          ]
+        },
+        {
           "match": "adbeat_bot*"
         }
       ]

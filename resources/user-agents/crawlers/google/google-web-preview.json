@@ -55,6 +55,9 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko; Google Web Preview) Version/* Safari/*"
+        },
+        {
           "match": "*Google Web Preview*"
         }
       ]

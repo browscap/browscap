@@ -16,6 +16,9 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* TinEye/* (via http://www.tineye.com/)"
+        },
+        {
           "match": "TinEye-bot/0.02*",
           "properties": {
             "Version": "0.02",

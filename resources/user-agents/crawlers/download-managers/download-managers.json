@@ -347,6 +347,20 @@
             "Browser": "MyComGameCenter Downloader",
             "Browser_Maker": "My.com"
           }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*; QQDownload *",
+          "properties": {
+            "Browser": "QQDownload",
+            "Browser_Maker": "Tencent Ltd."
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; QQDownload *",
+          "properties": {
+            "Browser": "QQDownload",
+            "Browser_Maker": "Tencent Ltd."
+          }
         }
       ]
     }

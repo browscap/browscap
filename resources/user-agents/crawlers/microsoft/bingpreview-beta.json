@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident/6.0*)*BingPreview/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident/6.0* BingPreview/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_6",
           "platforms": [

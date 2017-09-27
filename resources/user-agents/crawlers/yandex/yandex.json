@@ -188,6 +188,12 @@
           "properties": {
             "Browser": "YandexVertisBot"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Yandex.Translate",
+          "properties": {
+            "Browser": "Yandex Translate Bot"
+          }
         }
       ]
     }

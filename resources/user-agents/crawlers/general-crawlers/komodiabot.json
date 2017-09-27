@@ -16,6 +16,27 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM#) KomodiaBot/1.0*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "WinXPa_32", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM#) KomodiaBot/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) KomodiaBot/1.0*",
           "device": "Windows Desktop",
           "properties": {

@@ -116,6 +116,13 @@
             "Browser": "Apache Synapse",
             "Browser_Maker": "The Apache Software Foundation"
           }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; mowser; http://www.mowser.com)",
+          "properties": {
+            "Browser": "Mowser Mobile Proxy",
+            "Browser_Maker": "dotMobi"
+          }
         }
       ]
     }

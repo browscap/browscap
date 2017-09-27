@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)  Firefox/*; 360Spider*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Firefox/* 360Spider*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
