@@ -24,6 +24,10 @@ use Browscap\Writer\WriterInterface;
 
 interface FilterInterface
 {
+    public const TYPE_FULL     = 'FULL';
+    public const TYPE_STANDARD = '';
+    public const TYPE_LITE     = 'LITE';
+
     /**
      * returns the Type of the filter
      *

@@ -285,7 +285,9 @@ class DataCollection
         $json = json_decode($fileContent, true);
 
         if (null === $json) {
-            throw new \RuntimeException('File "' . $filename . '" had invalid JSON.');
+            throw new \RuntimeException(
+                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']'
+            );
         }
 
         return $json;

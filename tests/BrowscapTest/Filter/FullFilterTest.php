@@ -13,6 +13,7 @@ namespace BrowscapTest\Filter;
 
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
+use Browscap\Filter\FilterInterface;
 use Browscap\Filter\FullFilter;
 
 /**
@@ -56,7 +57,7 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame('FULL', $this->object->getType());
+        self::assertSame(FilterInterface::TYPE_FULL, $this->object->getType());
     }
 
     /**

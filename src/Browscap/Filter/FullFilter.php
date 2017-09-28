@@ -44,7 +44,7 @@ class FullFilter implements FilterInterface
      */
     public function getType() : string
     {
-        return 'FULL';
+        return FilterInterface::TYPE_FULL;
     }
 
     /**

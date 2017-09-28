@@ -13,6 +13,7 @@ namespace BrowscapTest\Filter;
 
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
+use Browscap\Filter\FilterInterface;
 use Browscap\Filter\StandardFilter;
 
 /**
@@ -56,7 +57,7 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame('', $this->object->getType());
+        self::assertSame(FilterInterface::TYPE_STANDARD, $this->object->getType());
     }
 
     /**
