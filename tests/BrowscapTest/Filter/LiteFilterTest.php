@@ -13,6 +13,7 @@ namespace BrowscapTest\Filter;
 
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
+use Browscap\Filter\FilterInterface;
 use Browscap\Filter\LiteFilter;
 
 /**
@@ -56,7 +57,7 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame('LITE', $this->object->getType());
+        self::assertSame(FilterInterface::TYPE_LITE, $this->object->getType());
     }
 
     /**

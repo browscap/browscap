@@ -44,7 +44,7 @@ class StandardFilter implements FilterInterface
      */
     public function getType() : string
     {
-        return '';
+        return FilterInterface::TYPE_STANDARD;
     }
 
     /**

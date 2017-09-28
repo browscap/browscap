@@ -44,7 +44,7 @@ class LiteFilter implements FilterInterface
      */
     public function getType() : string
     {
-        return 'LITE';
+        return FilterInterface::TYPE_LITE;
     }
 
     /**

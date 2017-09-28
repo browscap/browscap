@@ -47,9 +47,9 @@ class UseragentData
     }
 
     /**
-     * @param array $useragentData
-     * @param array $versions
-     * @param array %$allDivisions
+     * @param array  $useragentData
+     * @param array  $versions
+     * @param array  $allDivisions
      * @param bool   $isCore
      * @param string $filename
      *
@@ -60,7 +60,7 @@ class UseragentData
     public function validate(
         array $useragentData,
         array $versions,
-        array &$allDivisions,
+        array $allDivisions,
         bool $isCore,
         string $filename
     ) : void {
