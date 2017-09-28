@@ -5966,6 +5966,84 @@
         "Platform_Version": "unknown",
         "Platform_Description": "Playstation Vita System Software"
       }
+    },
+    "NintendoDS_OS": {
+      "match": "Nintendo DS",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo DS",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo DS System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NintendoDSi_OS": {
+      "match": "Nintendo DSi",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo DSi",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo DSi System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NintendoWii_OS": {
+      "match": "Nintendo Wii",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo Wii",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo Wii System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NintendoWiiU_OS": {
+      "match": "Nintendo WiiU",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo WiiU",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo WiiU System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Nintendo3DS_OS": {
+      "match": "*Nintendo 3DS",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo 3DS",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo 3DS/New Nintendo 3DS System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NintendoSwitch_OS": {
+      "match": "Nintendo Switch",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Nintendo Switch",
+        "Platform_Maker": "Nintendo",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Nintendo Switch System Software",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
     }
   }
 }

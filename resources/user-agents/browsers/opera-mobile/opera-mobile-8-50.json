@@ -27,10 +27,6 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera #MAJORVER#.#MINORVER#*",
-          "device": "Nintendo DS"
-        },
-        {
           "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE", "SymbianOS", "SymbianOS_D"

@@ -27,10 +27,6 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) NX/#MAJORVER#.#MINORVER#* NintendoBrowser/*",
-          "device": "Nintendo WiiU"
-        },
-        {
           "match": "#DEVICE#/*NetFront#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
           "devices": {
             "SAMSUNG-GT-S3501C": "Samsung GT-S3501C"
