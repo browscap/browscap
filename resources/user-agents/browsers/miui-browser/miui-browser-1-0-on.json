@@ -1,6 +1,6 @@
 {
   "division": "Miui Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.1", 2, 1],
+  "versions": ["9.2", "9.1", 9, "8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "2.1", 2, 1],
   "sortIndex": 1110,
   "lite": false,
   "standard": true,
@@ -50,7 +50,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_5_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2",
             "Android"
           ]

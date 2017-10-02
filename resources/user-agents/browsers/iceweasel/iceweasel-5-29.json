@@ -1,6 +1,6 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [29, 28, 27, 26, 25, "24.3", 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
+  "versions": [29, 28, 27, 26, 25, "24.8", "24.6", "24.5", "24.4", "24.3", "24.2", 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
   "sortIndex": 3149,
   "lite": false,
   "standard": true,
@@ -30,19 +30,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Iceweasel/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel/#MAJORVER#.#MINORVER#* Firefox/*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_32_on_x64_2", "Linux_64", "Linux_32", "Linux"
+            "Linux_32_on_x64_2", "Linux_64", "Linux"
           ]
         }
       ]

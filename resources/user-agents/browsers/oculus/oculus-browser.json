@@ -1,6 +1,6 @@
 {
   "division": "Oculus Browser #MAJORVER#.#MINORVER#",
-  "versions": ["3.1"],
+  "versions": ["3.7", "3.6", "3.1"],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
@@ -41,6 +41,8 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
           "platforms": [
             "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1",
             "Android"
           ]
         }

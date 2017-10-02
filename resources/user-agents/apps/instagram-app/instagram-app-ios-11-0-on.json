@@ -1,6 +1,6 @@
 {
   "division": "Instagram App Webview #MAJORVER#.#MINORVER#",
-  "versions": [13, 12, 11],
+  "versions": [16, 15, 14, 13, 12, 11],
   "sortIndex": 1990,
   "lite": false,
   "standard": true,
