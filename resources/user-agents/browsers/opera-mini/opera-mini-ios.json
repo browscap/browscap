@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
-  "versions": [15, 14, 13, "12.1", 12, 11, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
+  "versions": [16, 15, 14, 13, "12.1", 12, 11, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
   "sortIndex": 1931,
   "lite": false,
   "standard": true,

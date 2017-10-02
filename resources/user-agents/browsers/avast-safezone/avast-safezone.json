@@ -1,6 +1,6 @@
 {
   "division": "Avast SafeZone #MAJORVER#.#MINORVER#",
-  "versions": ["3.55", "1.51", "1.48", "1.46"],
+  "versions": ["4.58", "3.55", "1.51", "1.48", "1.46"],
   "sortIndex": 883,
   "lite": false,
   "standard": true,

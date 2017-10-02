@@ -1,6 +1,6 @@
 {
   "division": "Iridium Browser #MAJORVER#.#MINORVER#",
-  "versions": [57, 51, 50, 49, 48, 47, 44, 43, 41, 40],
+  "versions": [58, 57, 51, 50, 49, 48, 47, 44, 43, 41, 40],
   "sortIndex": 883,
   "lite": false,
   "standard": true,

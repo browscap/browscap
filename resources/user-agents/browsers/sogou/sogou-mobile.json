@@ -1,6 +1,6 @@
 {
   "division": "Sogou Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["5.6", "4.2", 4],
+  "versions": ["5.9", "5.6", "5.1", "4.2", 4],
   "sortIndex": 1028,
   "lite": false,
   "standard": true,
