@@ -1,67 +1,10 @@
 {
-  "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.12", "13.11", "13.10", "13.9", "1.20"],
+  "division": "YaBrowser #MAJORVER#.#MINORVER# for Android",
+  "versions": ["14.12", "14.10", "14.8", "14.7", "14.5", "14.4", "14.2", "13.12", "13.11", "13.9"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
   "userAgents": [
-    {
-      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
-      "engine": "Blink",
-      "device": "general Desktop",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_10", "OSX_10_9", "OSX_10_8",
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_10", "OSX_10_9", "OSX_10_8",
-            "OSX"
-          ]
-        }
-      ]
-    },
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
@@ -127,6 +70,7 @@
             "C07000": "Nomi C07000",
             "E4G": "Sony E4G",
             "GT-N7105": "Samsung GT-N7105",
+            "GT-N8000": "Samsung GT-N8000",
             "iDrQ10_3G": "Digma iDrQ10 3G",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A328": "Lenovo A328",
@@ -137,15 +81,20 @@
             "Lenovo A536": "Lenovo A536",
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo A606": "Lenovo A606",
+            "Lenovo A7600-F": "Lenovo A7600-F",
+            "Lenovo A7600-H": "Lenovo A7600-H",
             "Lenovo B6000-H": "Lenovo B6000-H",
             "Lenovo B8000-H": "Lenovo B8000-H",
             "LG-D325": "LG D325",
+            "LG-V500": "LG V500",
             "M6": "PiPO M6",
             "MI 4LTE": "Xiaomi Mi 4 LTE",
             "P93G": "PiPO P9 3G",
             "PMT3037_3G": "Prestigio PMT3037_3G",
             "PMT3047_3G": "Prestigio PMT3047_3G",
+            "SGP312": "Sony SGP312",
             "SM-G900": "Samsung SM-G900",
+            "SM-T231": "Samsung SM-T231",
             "T72ER3G": "Oysters T72ER 3G",
             "TAB917QC-16GB": "Sunstech TAB917QC 16GB",
             "TT7007MG": "Digma TT7007MG",
@@ -153,6 +102,15 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SGP321": "Sony SGP321"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -181,20 +139,30 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "A1-810": "Acer A1-810",
+            "A1-811": "Acer A1-811",
             "ALCATEL ONE TOUCH 7041D": "Alcatel OT-7041D",
+            "B1-711": "Acer B1-711",
+            "Flylife Connect 7 3G": "Fly Flylife Connect 7 3G",
+            "GT-P3100": "Samsung GT-P3100",
             "i75": "PiPO i75",
+            "IdeaTab A3000-H": "Lenovo A3000-H",
+            "IdeaTab S6000-H": "Lenovo S6000-H",
             "iDjD7": "Digma iDjD7",
+            "iP890-3G": "DEX iP890",
+            "iP977": "DEX iP977",
             "IQ4404": "Fly IQ4404",
             "IQ452 Quad": "Fly IQ452",
             "JK11": "Jiake JK11",
             "K-8S": "Keener K-8S",
             "Keneksi-Crystal": "Keneksi Crystal",
+            "Lenovo A316i": "Lenovo A316i",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A656": "Lenovo A656",
             "Lenovo A680": "Lenovo A680",
             "Lenovo A680_ROW": "Lenovo A680",
             "Lenovo A850": "Lenovo A850",
+            "Lenovo A850+": "Lenovo A850+",
             "Lenovo A859": "Lenovo A859",
             "Lenovo A880": "Lenovo A880",
             "Lenovo S960": "Lenovo S960",
@@ -205,6 +173,7 @@
             "N8000D": "Samsung GT-N8000D",
             "NaviPad TM-7055HD 3G": "TeXet TM-7055HD",
             "OK999": "Sunup OK999",
+            "Philips W8510": "Philips W8510",
             "Plane 10.5 3G PS1005MG": "Digma PS1005MG",
             "PMP7079D_QUAD": "Prestigio PMP7079D_QUAD",
             "PMP7480D3G_QUAD": "Prestigio PMP7480D3G_QUAD",
@@ -212,6 +181,7 @@
             "radxa rock": "Radxa Rock",
             "RP-UDM02A": "Verico RP-UDM02A",
             "T880G": "Etuline T880G",
+            "TAB A742": "Wexler TABA742",
             "teXet X-navi": "TeXet TM-4672",
             "Turbo X6": "TurboPad Turbo X6",
             "U51GT_C4": "Cube U51GT_C4",
@@ -219,13 +189,6 @@
           },
           "platforms": [
             "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/PMP3870C) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "Prestigio PMP3870C",
-          "platforms": [
-            "Android_4_1"
           ]
         },
         {
@@ -257,6 +220,7 @@
           "devices": {
             "GT-S7562": "Samsung GT-S7562",
             "HUAWEI U8815": "Huawei U8815",
+            "Lenovo A390t": "Lenovo A390t",
             "Philips W336": "Philips W336",
             "PMP7170B3G": "Prestigio PMP7170B3G",
             "Rio R1": "Gigabyte GSmart Rio R1",
@@ -283,67 +247,14 @@
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for iOS",
-      "platform": "iOS",
-      "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
-          "devices": {
-            "iPhone": "iPhone",
-            "iPod": "iPod Touch"
-          },
-          "platforms": [
-            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A"
-          ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/#DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
-            "iPad": "iPad"
+            "PMP3870C": "Prestigio PMP3870C"
           },
           "platforms": [
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
-            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_6_1", "iOS_C_6_0",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
-          "platforms": [
-            "iOS_A",
-            "iOS_C"
+            "Android_4_1"
           ]
         }
       ]
