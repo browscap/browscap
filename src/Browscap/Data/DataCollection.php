@@ -7,10 +7,6 @@ use Psr\Log\LoggerInterface;
 
 /**
  * Class DataCollection
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  */
 class DataCollection
 {
@@ -50,7 +46,7 @@ class DataCollection
     private $divisionsHaveBeenSorted = false;
 
     /**
-     * @var \DateTime
+     * @var \DateTimeImmutable
      */
     private $generationDate;
 
@@ -78,7 +74,7 @@ class DataCollection
     public function __construct(LoggerInterface $logger)
     {
         $this->logger          = $logger;
-        $this->generationDate  = new \DateTime();
+        $this->generationDate  = new \DateTimeImmutable();
         $this->divisionFactory = new DivisionFactory($logger);
     }
 
@@ -445,9 +441,9 @@ class DataCollection
     /**
      * Get the generation DateTime object
      *
-     * @return \DateTime
+     * @return \DateTimeImmutable
      */
-    public function getGenerationDate() : \DateTime
+    public function getGenerationDate() : \DateTimeImmutable
     {
         return $this->generationDate;
     }

@@ -10,8 +10,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class XmlWriter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 

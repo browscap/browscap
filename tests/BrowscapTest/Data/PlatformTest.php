@@ -5,11 +5,7 @@ namespace BrowscapTest\Data;
 use Browscap\Data\Platform;
 
 /**
- * Class PlatformTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class PlatformTestTest
  */
 class PlatformTest extends \PHPUnit\Framework\TestCase
 {

@@ -7,9 +7,7 @@ use Monolog\Logger;
 use Symfony\Component\Console\Output\NullOutput;
 
 /**
- * Class LoggerHelperTest
- *
- * @category   BrowscapTest
+ * Class LoggerHelperTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

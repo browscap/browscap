@@ -12,9 +12,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class WriterCollectionTest
- *
- * @category   BrowscapTest
+ * Class WriterCollectionTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */
@@ -201,7 +199,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()

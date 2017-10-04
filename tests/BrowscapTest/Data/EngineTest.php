@@ -5,11 +5,7 @@ namespace BrowscapTest\Data;
 use Browscap\Data\Engine;
 
 /**
- * Class EngineTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class EngineTestTest
  */
 class EngineTest extends \PHPUnit\Framework\TestCase
 {

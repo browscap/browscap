@@ -5,9 +5,7 @@ namespace BrowscapTest\Data;
 use Browscap\Data\Useragent;
 
 /**
- * Class UseragentTest
- *
- * @category   BrowscapTest
+ * Class UseragentTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

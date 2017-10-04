@@ -7,10 +7,6 @@ use Psr\Log\LoggerInterface;
 
 /**
  * Class CollectionCreator
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class CollectionCreator

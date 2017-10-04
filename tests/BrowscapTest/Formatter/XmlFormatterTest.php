@@ -7,9 +7,7 @@ use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\XmlFormatter;
 
 /**
- * Class XmlFormatterTest
- *
- * @category   BrowscapTest
+ * Class XmlFormatterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

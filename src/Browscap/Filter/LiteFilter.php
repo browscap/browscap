@@ -9,8 +9,6 @@ use Browscap\Writer\WriterInterface;
 /**
  * Class LiteFilter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class LiteFilter implements FilterInterface

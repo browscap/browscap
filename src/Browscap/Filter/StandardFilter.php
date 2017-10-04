@@ -9,8 +9,6 @@ use Browscap\Writer\WriterInterface;
 /**
  * Class StandardFilter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class StandardFilter implements FilterInterface

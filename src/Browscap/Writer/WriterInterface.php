@@ -10,8 +10,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Interface WriterInterface
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 interface WriterInterface

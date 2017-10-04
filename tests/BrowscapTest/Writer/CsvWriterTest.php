@@ -13,9 +13,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class CsvWriterTest
- *
- * @category   BrowscapTest
+ * Class CsvWriterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

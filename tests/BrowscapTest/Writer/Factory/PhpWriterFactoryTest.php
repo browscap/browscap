@@ -8,9 +8,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class FullPhpWriterFactoryTest
- *
- * @category   BrowscapTest
+ * Class FullPhpWriterFactoryTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

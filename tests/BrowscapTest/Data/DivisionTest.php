@@ -6,11 +6,7 @@ use Browscap\Data\Division;
 use Browscap\Data\Useragent;
 
 /**
- * Class DivisionTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class DivisionTestTest
  */
 class DivisionTest extends \PHPUnit\Framework\TestCase
 {

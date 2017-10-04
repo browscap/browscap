@@ -13,8 +13,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class LoggerHelper
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class LoggerHelper

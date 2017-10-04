@@ -14,9 +14,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class JsonWriterTest
- *
- * @category   BrowscapTest
+ * Class JsonWriterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

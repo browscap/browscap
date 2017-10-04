@@ -9,9 +9,7 @@ use Browscap\Data\Validator\DivisionData;
 use Monolog\Logger;
 
 /**
- * Class DivisionFactoryTest
- *
- * @category   BrowscapTest
+ * Class DivisionFactoryTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

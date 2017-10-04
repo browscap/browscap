@@ -8,11 +8,7 @@ use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class PropertyHolderTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class PropertyHolderTestTest
  */
 class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 {

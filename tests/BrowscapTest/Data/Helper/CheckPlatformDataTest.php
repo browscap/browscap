@@ -5,11 +5,7 @@ namespace BrowscapTest\Data\Helper;
 use Browscap\Data\Helper\CheckPlatformData;
 
 /**
- * Class DataCollectionTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class DataCollectionTestTest
  */
 class CheckPlatformDataTest extends \PHPUnit\Framework\TestCase
 {

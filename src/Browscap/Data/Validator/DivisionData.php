@@ -5,8 +5,6 @@ namespace Browscap\Data\Validator;
 /**
  * Class DivisionData
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class DivisionData

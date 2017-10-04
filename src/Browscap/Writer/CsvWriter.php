@@ -10,8 +10,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class CsvWriter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class CsvWriter implements WriterInterface

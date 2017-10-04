@@ -5,8 +5,6 @@ namespace Browscap\Data;
 /**
  * Class Device
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class Device

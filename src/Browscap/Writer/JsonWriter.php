@@ -11,8 +11,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class JsonWriter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 

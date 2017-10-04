@@ -11,8 +11,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class IniWriter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class IniWriter implements WriterInterface

@@ -9,8 +9,6 @@ use Browscap\Writer\WriterInterface;
 /**
  * Class FullFilter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class CustomFilter implements FilterInterface
@@ -42,7 +40,7 @@ class CustomFilter implements FilterInterface
      */
     public function getType() : string
     {
-        return 'CUSTOM';
+        return FilterInterface::TYPE_CUSTOM;
     }
 
     /**

@@ -8,8 +8,6 @@ use Browscap\Data\Division;
 /**
  * Class WriterCollection
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class WriterCollection

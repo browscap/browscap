@@ -5,8 +5,6 @@ namespace Browscap\Formatter;
 /**
  * Interface FormatterInterface
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 interface FormatterInterface

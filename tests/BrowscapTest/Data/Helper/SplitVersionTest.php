@@ -5,9 +5,7 @@ namespace BrowscapTest\Data\Helper;
 use Browscap\Data\Helper\SplitVersion;
 
 /**
- * Class SplitVersionTest
- *
- * @category   BrowscapTest
+ * Class SplitVersionTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

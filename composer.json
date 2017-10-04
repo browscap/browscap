@@ -33,7 +33,8 @@
   "require": {
     "php": "^7.1",
     "symfony/console": "^3.3",
-    "monolog/monolog": "^1.23"
+    "monolog/monolog": "^1.23",
+    "beberlei/assert": "^2.7"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.3",

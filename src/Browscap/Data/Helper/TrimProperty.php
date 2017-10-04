@@ -5,8 +5,6 @@ namespace Browscap\Data\Helper;
 /**
  * Class Expander
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class TrimProperty

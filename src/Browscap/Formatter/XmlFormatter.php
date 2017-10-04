@@ -7,8 +7,6 @@ use Browscap\Data\PropertyHolder;
 /**
  * Class XmlFormatter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class XmlFormatter implements FormatterInterface

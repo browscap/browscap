@@ -5,9 +5,7 @@ namespace BrowscapTest\Data;
 use Browscap\Data\Device;
 
 /**
- * Class DeviceTest
- *
- * @category   BrowscapTest
+ * Class DeviceTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

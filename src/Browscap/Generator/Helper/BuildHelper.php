@@ -12,10 +12,6 @@ use Psr\Log\LoggerInterface;
 
 /**
  * Class BuildGenerator
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildHelper
