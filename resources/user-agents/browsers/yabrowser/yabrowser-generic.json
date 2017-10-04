@@ -30,12 +30,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Windows"
           ]
         },
@@ -43,7 +43,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         },
@@ -51,19 +51,19 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Windows"
           ]
         },
@@ -71,7 +71,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         },
@@ -79,7 +79,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]
@@ -110,6 +110,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/* Mobile Safari/*",
           "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
             "Android_5_1","Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -119,6 +122,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/* Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
             "Android_5_1","Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -156,6 +162,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
+            "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
@@ -169,6 +176,7 @@
             "iPad": "iPad"
           },
           "platforms": [
+            "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",

@@ -1,93 +1,10 @@
 {
-  "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["17.9", "17.8", "17.7", "17.6", "17.4", "17.3", "17.2", "17.1", 17, "16.11", "16.10", "16.9", "16.8", "16.7", "16.6", "16.5", "16.4", "16.3", "16.2", "16.1", 16, "15.12", "15.11", "15.10", "15.9", "15.8", "15.7", "15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15],
+  "division": "YaBrowser #MAJORVER#.#MINORVER# for Android",
+  "versions": ["17.9", "17.7", "17.6", "17.4", "17.3", "17.1", "16.11", "16.10", "16.9", "16.7", "16.6", "16.4", "16.2", "15.12", "15.10", "15.6", "15.4", "15.2"],
   "sortIndex": 1017,
   "lite": false,
   "standard": true,
   "userAgents": [
-    {
-      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
-      "engine": "Blink",
-      "device": "general Desktop",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
-            "Windows"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
-            "Windows"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        }
-      ]
-    },
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
@@ -117,6 +34,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "HTC Desire 626s": "HTC 0PM92",
+            "P01T_1": "Asus P01T_1",
+            "PMT3118_3G": "Prestigio PMT3118_3G",
             "TZ857": "Irbis TZ857"
           },
           "platforms": [
@@ -149,10 +69,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "Lenovo YT3-850M": "Lenovo YT3-850M",
             "Nexus 5": "LG Nexus 5",
             "Nexus 6": "Motorola Nexus 6",
+            "Nexus 7": "Asus Nexus 7",
             "P80h(D4C5)": "Teclast D4C5",
             "PS7005MG": "Digma PS7005MG",
+            "SGP321": "Sony SGP321",
             "SM-T331": "Samsung SM-T331",
             "T72HA_3G": "Oysters T72A 3G",
             "T72HM3G": "Oysters T72HM 3G",
@@ -177,7 +100,10 @@
             "D6603": "Sony D6603",
             "GT-I9500": "Samsung GT-I9500",
             "GT-I9505*": "Samsung GT-I9505",
-            "SM-T555": "Samsung SM-T555"
+            "SM-T531": "Samsung SM-T531",
+            "SM-T535": "Samsung SM-T535",
+            "SM-T555": "Samsung SM-T555",
+            "SM-T805": "Samsung SM-T805"
           },
           "platforms": [
             "Android_5_0"
@@ -186,6 +112,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "Lenovo TAB 2 A7-30*": "Lenovo Tab 2 A7-30",
             "LG-D855": "LG D855",
             "LG-E975*": "LG E975"
           },
@@ -198,6 +125,7 @@
           "devices": {
             "9005X": "Alcatel 9005X",
             "5042D": "Alcatel OT-5042D",
+            "A3300-HV": "Lenovo A3300-HV",
             "Beeline Pro": "ZTE Beeline Pro",
             "Beeline Smart2": "ZTE Beeline Smart2",
             "C07000": "Nomi C07000",
@@ -206,16 +134,17 @@
             "GT-N7100": "Samsung GT-N7100",
             "GT-N7105": "Samsung GT-N7105",
             "GT-N8000": "Samsung GT-N8000",
+            "GT-P5200": "Samsung GT-P5200",
             "iDrQ10_3G": "Digma iDrQ10 3G",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A328": "Lenovo A328",
             "Lenovo A3500-F": "Lenovo A3500-F",
-            "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A3500-HV": "Lenovo A3500-HV",
             "Lenovo A5000": "Lenovo A5000",
             "Lenovo A536": "Lenovo A536",
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo A606": "Lenovo A606",
+            "Lenovo A7600-F": "Lenovo A7600-F",
             "Lenovo B6000-H": "Lenovo B6000-H",
             "Lenovo B6000-HV": "Lenovo B6000-HV",
             "Lenovo B8000-H": "Lenovo B8000-H",
@@ -228,7 +157,9 @@
             "SM-G900": "Samsung SM-G900",
             "SM-N900A": "Samsung SM-N900A",
             "SM-T211": "Samsung SM-T211",
+            "SM-T231": "Samsung SM-T231",
             "SM-T311": "Samsung SM-T311",
+            "SM-T561": "Samsung SM-T561",
             "T72ER3G": "Oysters T72ER 3G",
             "T72N_3G": "Oysters T72N 3G",
             "TAB917QC-16GB": "Sunstech TAB917QC 16GB",
@@ -237,10 +168,20 @@
             "TT7071MG": "Digma TT7071MG",
             "TX08": "Irbis TX08",
             "TX22": "Irbis TX22",
-            "Venue 7 HSPA+": "Dell Venue 7 HSPA+"
+            "Venue 7 HSPA+": "Dell Venue 7 HSPA+",
+            "YOGA Tablet 2-830L": "Lenovo 830L"
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "Lenovo A3500-H": "Lenovo A3500-H"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -281,6 +222,9 @@
           "devices": {
             "A1-810": "Acer A1-810",
             "ALCATEL ONE TOUCH 7041D": "Alcatel OT-7041D",
+            "Art 3G": "Explay Art 3G",
+            "B1-711": "Acer B1-711",
+            "CinemaTV 3G": "Explay CinemaTV 3G",
             "GT-P3100": "Samsung GT-P3100",
             "HTC Desire 310": "HTC Desire 310",
             "i75": "PiPO i75",
@@ -290,17 +234,18 @@
             "JK11": "Jiake JK11",
             "K-8S": "Keener K-8S",
             "Keneksi-Crystal": "Keneksi Crystal",
-            "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A656": "Lenovo A656",
             "Lenovo A680": "Lenovo A680",
             "Lenovo A680_ROW": "Lenovo A680",
+            "Lenovo A7600-H": "Lenovo A7600-H",
             "Lenovo A850": "Lenovo A850",
             "Lenovo A859": "Lenovo A859",
             "Lenovo A880": "Lenovo A880",
             "Lenovo S960": "Lenovo S960",
             "LINX 6.0 PS604M": "Digma PS604M",
+            "ME173X": "Asus ME173X",
             "MediaPad 10 Link+": "Huawei MediaPad 10+",
             "MediaPad 7 Classic": "Huawei MediaPad 7 Classic",
             "N8000": "Star N8000",
@@ -373,6 +318,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -384,73 +330,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for iOS",
-      "platform": "iOS",
-      "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
-          "devices": {
-            "iPhone": "iPhone",
-            "iPod": "iPod Touch"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
-            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
-          "devices": {
-            "iPad": "iPad"
-          },
-          "platforms": [
-            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
-            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
-          "platforms": [
-            "iOS_A",
-            "iOS_C"
           ]
         }
       ]
