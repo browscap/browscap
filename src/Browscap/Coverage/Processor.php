@@ -4,13 +4,6 @@ namespace Browscap\Coverage;
 
 use Seld\JsonLint\Lexer;
 
-/**
- * Class Processor
- *
- * @category   Browscap
- *
- * @author     Jay Klehr <jay.klehr@gmail.com>
- */
 final class Processor implements ProcessorInterface
 {
     /**@+
@@ -39,7 +32,7 @@ final class Processor implements ProcessorInterface
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
      * if the statement/function/branch is covered.
      *
-     * @var array
+     * @var array[]
      */
     private $coveredIds = [];
 
@@ -47,7 +40,7 @@ final class Processor implements ProcessorInterface
      * This is the full coverage array that gets output in the write method.  For each file an entry in the array
      * is added.  Each entry contains the elements required for Istanbul compatible coverage reporters.
      *
-     * @var array
+     * @var array[]
      */
     private $coverage = [];
 
@@ -71,7 +64,7 @@ final class Processor implements ProcessorInterface
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
      * file begins)
      *
-     * @var array
+     * @var string[]
      */
     private $fileCoveredIds = [];
 
@@ -79,7 +72,7 @@ final class Processor implements ProcessorInterface
      * A temporary storage for coverage information for a specific file that is later merged into the main $coverage
      * property after the file is done processing.
      *
-     * @var array
+     * @var (string|array)[]
      */
     private $fileCoverage = [];
 
@@ -160,7 +153,7 @@ final class Processor implements ProcessorInterface
     /**
      * Returns the grouped pattern ids previously set
      *
-     * @return array
+     * @return array[]
      */
     public function getCoveredPatternIds() : array
     {

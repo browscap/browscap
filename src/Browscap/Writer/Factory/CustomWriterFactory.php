@@ -13,8 +13,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class FullPhpWriterFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class CustomWriterFactory

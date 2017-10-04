@@ -21,8 +21,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class FullCollectionFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullCollectionFactory

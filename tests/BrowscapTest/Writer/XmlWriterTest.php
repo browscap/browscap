@@ -15,9 +15,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class XmlWriterTest
- *
- * @category   BrowscapTest
+ * Class XmlWriterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

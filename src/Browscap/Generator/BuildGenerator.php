@@ -9,10 +9,6 @@ use ZipArchive;
 
 /**
  * Class BuildGenerator
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildGenerator
@@ -28,17 +24,17 @@ class BuildGenerator
     private $buildFolder;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
     /**
-     * @var \Browscap\Helper\CollectionCreator
+     * @var CollectionCreator
      */
     private $collectionCreator;
 
     /**
-     * @var \Browscap\Writer\WriterCollection
+     * @var WriterCollection
      */
     private $writerCollection;
 
@@ -48,22 +44,24 @@ class BuildGenerator
     private $collectPatternIds = false;
 
     /**
-     * @param string                            $resourceFolder
-     * @param string                            $buildFolder
-     * @param \Psr\Log\LoggerInterface          $logger
-     * @param \Browscap\Writer\WriterCollection $writerCollection
+     * @param string            $resourceFolder
+     * @param string            $buildFolder
+     * @param LoggerInterface   $logger
+     * @param WriterCollection  $writerCollection
+     * @param CollectionCreator $collectionCreator
      */
     public function __construct(
         string $resourceFolder,
         string $buildFolder,
         LoggerInterface $logger,
-        WriterCollection $writerCollection
+        WriterCollection $writerCollection,
+        CollectionCreator $collectionCreator
     ) {
         $this->resourceFolder    = $this->checkDirectoryExists($resourceFolder);
         $this->buildFolder       = $this->checkDirectoryExists($buildFolder);
         $this->logger            = $logger;
         $this->writerCollection  = $writerCollection;
-        $this->collectionCreator = new CollectionCreator($logger);
+        $this->collectionCreator = $collectionCreator;
     }
 
     /**
@@ -165,7 +163,7 @@ class BuildGenerator
     /**
      * @param string $directory
      *
-     * @throws \Exception
+     * @throws \InvalidArgumentException
      *
      * @return string
      */
@@ -174,11 +172,11 @@ class BuildGenerator
         $realDirectory = realpath($directory);
 
         if (false === $realDirectory) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
+            throw new DirectoryMissingException('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
         if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
+            throw new NoDirectoryException('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 
         return $realDirectory;

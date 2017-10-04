@@ -5,9 +5,7 @@ namespace BrowscapTest\Data\Helper;
 use Browscap\Data\Helper\TrimProperty;
 
 /**
- * Class ExpanderTest
- *
- * @category   BrowscapTest
+ * Class ExpanderTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

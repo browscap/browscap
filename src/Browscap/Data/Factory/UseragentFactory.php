@@ -9,8 +9,6 @@ use Browscap\Data\Validator\UseragentData;
 /**
  * Class UaFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class UseragentFactory

@@ -9,8 +9,6 @@ use Psr\Log\LoggerInterface;
 /**
  * Class DivisionFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class DivisionFactory

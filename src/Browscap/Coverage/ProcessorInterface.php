@@ -4,10 +4,6 @@ namespace Browscap\Coverage;
 
 /**
  * Interface ProcessorInterface
- *
- * @category   Browscap
- *
- * @author     Jay Klehr <jay.klehr@gmail.com>
  */
 interface ProcessorInterface
 {

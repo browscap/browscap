@@ -6,11 +6,7 @@ use Browscap\Data\Engine;
 use Browscap\Data\Factory\EngineFactory;
 
 /**
- * Class EngineFactoryTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class EngineFactoryTestTest
  */
 class EngineFactoryTest extends \PHPUnit\Framework\TestCase
 {

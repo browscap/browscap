@@ -7,8 +7,6 @@ use Browscap\Data\Engine;
 /**
  * Class EngineFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class EngineFactory

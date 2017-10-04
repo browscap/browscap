@@ -7,9 +7,7 @@ use Browscap\Formatter\CsvFormatter;
 use Browscap\Formatter\FormatterInterface;
 
 /**
- * Class CsvFormatterTest
- *
- * @category   BrowscapTest
+ * Class CsvFormatterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

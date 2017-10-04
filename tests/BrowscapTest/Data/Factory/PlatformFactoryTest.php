@@ -8,11 +8,7 @@ use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
 
 /**
- * Class PlatformFactoryTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class PlatformFactoryTestTest
  */
 class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 {

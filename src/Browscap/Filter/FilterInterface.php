@@ -8,8 +8,6 @@ use Browscap\Writer\WriterInterface;
 /**
  * Interface FilterInterface
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 
@@ -18,6 +16,7 @@ interface FilterInterface
     public const TYPE_FULL     = 'FULL';
     public const TYPE_STANDARD = '';
     public const TYPE_LITE     = 'LITE';
+    public const TYPE_CUSTOM   = 'CUSTOM';
 
     /**
      * returns the Type of the filter

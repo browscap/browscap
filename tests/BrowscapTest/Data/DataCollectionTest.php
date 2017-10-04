@@ -11,11 +11,7 @@ use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
 /**
- * Class DataCollectionTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class DataCollectionTestTest
  */
 class DataCollectionTest extends \PHPUnit\Framework\TestCase
 {
@@ -362,7 +358,7 @@ HERE;
 
         $testDateTime = $this->object->getGenerationDate();
 
-        self::assertInstanceOf('\DateTime', $testDateTime);
+        self::assertInstanceOf(\DateTimeImmutable::class, $testDateTime);
 
         $testTime = $testDateTime->getTimestamp();
         self::assertGreaterThanOrEqual($minTime, $testTime);

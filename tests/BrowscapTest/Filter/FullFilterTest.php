@@ -8,9 +8,7 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\FullFilter;
 
 /**
- * Class FullFilterTest
- *
- * @category   BrowscapTest
+ * Class FullFilterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

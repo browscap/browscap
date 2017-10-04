@@ -9,9 +9,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class CustomWriterFactoryTest
- *
- * @category   BrowscapTest
+ * Class CustomWriterFactoryTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

@@ -6,11 +6,7 @@ use Browscap\Data\Device;
 use Browscap\Data\Factory\DeviceFactory;
 
 /**
- * Class DeviceFactoryTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class DeviceFactoryTestTest
  */
 class DeviceFactoryTest extends \PHPUnit\Framework\TestCase
 {

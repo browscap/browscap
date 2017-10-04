@@ -5,11 +5,10 @@ namespace BrowscapTest\Filter;
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
+use Browscap\Filter\FilterInterface;
 
 /**
- * Class CustomFilterTest
- *
- * @category   BrowscapTest
+ * Class CustomFilterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */
@@ -47,7 +46,7 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame('CUSTOM', $this->object->getType());
+        self::assertSame(FilterInterface::TYPE_CUSTOM, $this->object->getType());
     }
 
     /**

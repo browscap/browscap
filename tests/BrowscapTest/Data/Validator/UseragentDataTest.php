@@ -10,9 +10,7 @@ use Browscap\Data\Useragent;
 use Browscap\Data\Validator\UseragentData;
 
 /**
- * Class UseragentDataTest
- *
- * @category   BrowscapTest
+ * Class UseragentDataTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

@@ -6,9 +6,7 @@ use Browscap\Data\Division;
 use Browscap\Data\Validator\DivisionData;
 
 /**
- * Class DivisionDataTest
- *
- * @category   BrowscapTest
+ * Class DivisionDataTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

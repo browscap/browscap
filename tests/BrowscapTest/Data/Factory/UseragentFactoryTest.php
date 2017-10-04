@@ -8,11 +8,7 @@ use Browscap\Data\Validator\ChildrenData;
 use Browscap\Data\Validator\UseragentData;
 
 /**
- * Class UseragentFactoryTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class UseragentFactoryTestTest
  */
 class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
 {

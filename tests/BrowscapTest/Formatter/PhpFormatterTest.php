@@ -7,9 +7,7 @@ use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\PhpFormatter;
 
 /**
- * Class PhpFormatterTest
- *
- * @category   BrowscapTest
+ * Class PhpFormatterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

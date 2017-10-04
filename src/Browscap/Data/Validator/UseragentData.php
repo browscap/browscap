@@ -9,8 +9,6 @@ use Browscap\Data\Helper\CheckPlatformData;
 /**
  * Class UseragentData
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class UseragentData

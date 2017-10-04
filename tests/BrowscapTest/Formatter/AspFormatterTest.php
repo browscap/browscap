@@ -7,9 +7,7 @@ use Browscap\Formatter\AspFormatter;
 use Browscap\Formatter\FormatterInterface;
 
 /**
- * Class AspFormatterTest
- *
- * @category   BrowscapTest
+ * Class AspFormatterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

@@ -11,9 +11,7 @@ use Browscap\Data\Useragent;
 use Monolog\Logger;
 
 /**
- * Class ExpanderTest
- *
- * @category   BrowscapTest
+ * Class ExpanderTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

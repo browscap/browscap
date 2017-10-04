@@ -7,8 +7,6 @@ use Browscap\Data\PropertyHolder;
 /**
  * Class PhpFormatter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class PhpFormatter implements FormatterInterface

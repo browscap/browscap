@@ -11,11 +11,7 @@ use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
 /**
- * Class BuildGeneratorTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class BuildGeneratorTestTest
  */
 class BuildHelperTest extends \PHPUnit\Framework\TestCase
 {
@@ -132,7 +128,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -257,7 +253,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(3))
             ->method('getDefaultProperties')
@@ -382,7 +378,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')

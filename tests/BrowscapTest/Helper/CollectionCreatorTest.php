@@ -7,11 +7,7 @@ use Browscap\Helper\CollectionCreator;
 use Monolog\Logger;
 
 /**
- * Class CollectionCreatorTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class CollectionCreatorTestTest
  */
 class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 {
@@ -48,7 +44,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 
         $collection->expects(self::any())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);

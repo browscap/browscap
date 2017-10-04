@@ -8,9 +8,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class FullCollectionFactoryTest
- *
- * @category   BrowscapTest
+ * Class FullCollectionFactoryTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

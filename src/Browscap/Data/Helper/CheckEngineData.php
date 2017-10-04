@@ -4,10 +4,6 @@ namespace Browscap\Data\Helper;
 
 /**
  * Class DataCollection
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  */
 class CheckEngineData
 {

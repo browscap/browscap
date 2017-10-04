@@ -5,11 +5,7 @@ namespace BrowscapTest\Coverage;
 use Browscap\Coverage\Processor;
 
 /**
- * Class ExpanderTest
- *
- * @category   BrowscapTest
- *
- * @author     Jay Klehr <jay.klehr@gmail.com>
+ * Class ExpanderTestTest
  */
 final class ProcessorTest extends \PHPUnit\Framework\TestCase
 {

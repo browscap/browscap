@@ -7,8 +7,6 @@ use Browscap\Data\PropertyHolder;
 /**
  * Class AspFormatter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class AspFormatter implements FormatterInterface

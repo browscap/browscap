@@ -11,9 +11,7 @@ use Browscap\Data\Useragent;
 use Browscap\Data\Validator\ChildrenData;
 
 /**
- * Class ChildrenDataTest
- *
- * @category   BrowscapTest
+ * Class ChildrenDataTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

@@ -4,13 +4,6 @@ namespace Browscap;
 
 use Symfony\Component\Console\Application;
 
-/**
- * Class Browscap
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
- */
 class Browscap extends Application
 {
     public function __construct()

@@ -6,11 +6,7 @@ use Browscap\Browscap;
 use Symfony\Component\Console\Application;
 
 /**
- * Class BrowscapTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
+ * Class BrowscapTestTest
  */
 class BrowscapTest extends \PHPUnit\Framework\TestCase
 {

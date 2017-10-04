@@ -8,10 +8,6 @@ use Browscap\Data\Helper\CheckPlatformData;
 
 /**
  * Class Children
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
  */
 class ChildrenData
 {

@@ -7,9 +7,7 @@ use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\JsonFormatter;
 
 /**
- * Class JsonFormatterTest
- *
- * @category   BrowscapTest
+ * Class JsonFormatterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

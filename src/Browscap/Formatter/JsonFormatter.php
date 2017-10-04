@@ -7,8 +7,6 @@ use Browscap\Data\PropertyHolder;
 /**
  * Class JsonFormatter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class JsonFormatter implements FormatterInterface

@@ -15,9 +15,7 @@ use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class IniWriterTest
- *
- * @category   BrowscapTest
+ * Class IniWriterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */

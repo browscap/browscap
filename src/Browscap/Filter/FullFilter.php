@@ -9,8 +9,6 @@ use Browscap\Writer\WriterInterface;
 /**
  * Class FullFilter
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullFilter implements FilterInterface

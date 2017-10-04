@@ -7,8 +7,6 @@ use Browscap\Data\Device;
 /**
  * Class DeviceFactory
  *
- * @category   Browscap
- *
  * @author     Thomas Müller <mimmi20@live.de>
  */
 class DeviceFactory

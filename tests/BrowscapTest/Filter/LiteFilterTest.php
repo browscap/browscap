@@ -8,9 +8,7 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\LiteFilter;
 
 /**
- * Class LiteFilterTest
- *
- * @category   BrowscapTest
+ * Class LiteFilterTestTest
  *
  * @author     Thomas Müller <mimmi20@live.de>
  */
