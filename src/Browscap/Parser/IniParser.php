@@ -1,6 +1,14 @@
 <?php
-declare(strict_types=1);
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
+declare(strict_types = 1);
 namespace Browscap\Parser;
 
 final class IniParser implements ParserInterface
@@ -30,12 +38,12 @@ final class IniParser implements ParserInterface
         $this->filename = $filename;
     }
 
-    public function setShouldSort(bool $shouldSort): void
+    public function setShouldSort(bool $shouldSort) : void
     {
         $this->shouldSort = $shouldSort;
     }
 
-    public function shouldSort(): bool
+    public function shouldSort() : bool
     {
         return $this->shouldSort;
     }
@@ -43,7 +51,7 @@ final class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getParsed(): array
+    public function getParsed() : array
     {
         return $this->data;
     }
@@ -51,16 +59,17 @@ final class IniParser implements ParserInterface
     /**
      * @return string
      */
-    public function getFilename(): string
+    public function getFilename() : string
     {
         return $this->filename;
     }
 
     /**
      * @throws \InvalidArgumentException
+     *
      * @return array
      */
-    public function getLinesFromFile(): array
+    public function getLinesFromFile() : array
     {
         $filename = $this->filename;
 
@@ -74,7 +83,7 @@ final class IniParser implements ParserInterface
     /**
      * @param string[] $fileLines
      */
-    public function setFileLines(array $fileLines)
+    public function setFileLines(array $fileLines) : void
     {
         $this->fileLines = $fileLines;
     }
@@ -82,7 +91,7 @@ final class IniParser implements ParserInterface
     /**
      * @return array
      */
-    public function getFileLines(): array
+    public function getFileLines() : array
     {
         if (!$this->fileLines) {
             $fileLines = $this->getLinesFromFile();
@@ -95,9 +104,10 @@ final class IniParser implements ParserInterface
 
     /**
      * @throws \RuntimeException
+     *
      * @return array
      */
-    public function parse(): array
+    public function parse() : array
     {
         $fileLines = $this->getFileLines();
 
@@ -108,34 +118,36 @@ final class IniParser implements ParserInterface
 
         for ($line = 0, $count = count($fileLines); $line < $count; ++$line) {
             $currentLine       = ($fileLines[$line]);
-            $currentLineLength = strlen($currentLine);
+            $currentLineLength = mb_strlen($currentLine);
 
-            if ($currentLineLength === 0) {
+            if (0 === $currentLineLength) {
                 continue;
             }
 
-            if (substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
-                $currentDivision = trim(substr($currentLine, 41));
+            if (';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;' === mb_substr($currentLine, 0, 40)) {
+                $currentDivision = trim(mb_substr($currentLine, 41));
+
                 continue;
             }
 
             // We only skip comments that *start* with semicolon
-            if ($currentLine[0] === ';') {
+            if (';' === $currentLine[0]) {
                 continue;
             }
 
-            if ($currentLine[0] === '[') {
-                $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
+            if ('[' === $currentLine[0]) {
+                $currentSection = mb_substr($currentLine, 1, ($currentLineLength - 2));
+
                 continue;
             }
 
             $bits = explode('=', $currentLine);
 
-            if (count($bits) > 2) {
+            if (2 < count($bits)) {
                 throw new \RuntimeException("Too many equals in line: {$currentLine}, in Division: {$currentDivision}");
             }
 
-            if (count($bits) < 2) {
+            if (2 > count($bits)) {
                 $bits[1] = '';
             }
 
@@ -157,7 +169,7 @@ final class IniParser implements ParserInterface
      *
      * @return array
      */
-    private function sortArrayAndChildArrays(array $array): array
+    private function sortArrayAndChildArrays(array $array) : array
     {
         ksort($array);
 
