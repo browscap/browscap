@@ -4,6 +4,11 @@ namespace Browscap\Coverage;
 
 use Seld\JsonLint\Lexer;
 
+/**
+ * This class creates coverage data for the json files in the resources directory
+ *
+ * @author Jay Klehr <jay.klehr@gmail.com>
+ */
 final class Processor implements ProcessorInterface
 {
     /**@+

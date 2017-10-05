@@ -1,11 +1,8 @@
 <?php
 declare(strict_types = 1);
-namespace Browscap\Data\Helper;
+namespace Browscap\Data\Validator;
 
-/**
- * Class DataCollection
- */
-class CheckDeviceData
+class DeviceDataValidator
 {
     /**
      * checks if device properties are set inside a properties array

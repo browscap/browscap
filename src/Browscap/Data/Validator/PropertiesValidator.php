@@ -1,11 +1,8 @@
 <?php
 declare(strict_types = 1);
-namespace Browscap\Data\Helper;
+namespace Browscap\Data\Validator;
 
-/**
- * Class DataCollection
- */
-class CheckProperties
+class PropertiesValidator
 {
     /**
      * @param string $key
@@ -15,7 +12,7 @@ class CheckProperties
      *
      * @return void
      */
-    public function check($key, array $properties) : void
+    public function check(string $key, array $properties) : void
     {
         if (!array_key_exists('Version', $properties)) {
             throw new \LogicException('Version property not found for key "' . $key . '"');

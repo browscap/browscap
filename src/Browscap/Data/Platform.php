@@ -3,9 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Platform
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * represents a platform as defined in the resources/platforms.json file
  */
 class Platform
 {

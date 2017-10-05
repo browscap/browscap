@@ -6,8 +6,8 @@ use Browscap\Data\Division;
 use Browscap\Data\Helper\CheckDeviceData;
 use Browscap\Data\Helper\CheckEngineData;
 use Browscap\Data\Helper\CheckPlatformData;
-use Browscap\Data\Useragent;
-use Browscap\Data\Validator\UseragentData;
+use Browscap\Data\UserAgent;
+use Browscap\Data\Validator\UseragentDataValidator;
 
 /**
  * Class UseragentDataTestTest
@@ -17,7 +17,7 @@ use Browscap\Data\Validator\UseragentData;
 class UseragentDataTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Validator\UseragentData
+     * @var \Browscap\Data\Validator\UseragentDataValidator
      */
     private $object;
 
@@ -31,7 +31,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
         $checkEngineData   = $this->createMock(CheckEngineData::class);
         $checkPlatformData = $this->createMock(CheckPlatformData::class);
 
-        $this->object = new UseragentData();
+        $this->object = new UseragentDataValidator();
 
         $property = new \ReflectionProperty($this->object, 'checkDeviceData');
         $property->setAccessible(true);

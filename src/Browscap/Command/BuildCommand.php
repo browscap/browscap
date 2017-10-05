@@ -24,11 +24,6 @@ class BuildCommand extends Command
      */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * Configures the current command.
-     *
-     * @return void
-     */
     protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;

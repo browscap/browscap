@@ -3,11 +3,9 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Useragent
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * represents one useragent section inside of a division as defined in the resources/user-agents directory
  */
-class Useragent
+class UserAgent
 {
     /**
      * @var string
@@ -20,7 +18,7 @@ class Useragent
     private $properties = [];
 
     /**
-     * @var array
+     * @var array[]
      */
     private $children = [];
 
@@ -42,7 +40,7 @@ class Useragent
     /**
      * @param string      $userAgent
      * @param string[]    $properties
-     * @param array       $children
+     * @param array[]     $children
      * @param string|null $platform
      * @param string|null $engine
      * @param string|null $device
@@ -80,7 +78,7 @@ class Useragent
     }
 
     /**
-     * @return array
+     * @return array[]
      */
     public function getChildren() : array
     {

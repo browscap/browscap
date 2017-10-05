@@ -2,25 +2,21 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assertion;
 use Browscap\Data\Device;
 
-/**
- * Class DeviceFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class DeviceFactory
 {
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * validates the $deviceData array and creates Device objects from it
      *
-     * @param array  $deviceData
-     * @param array  $json
-     * @param string $deviceName
+     * @param array  $deviceData The Device data for the current object
+     * @param array  $json       The Device data for all devices
+     * @param string $deviceName The name for the current device
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      *
-     * @return \Browscap\Data\Device
+     * @return Device
      */
     public function build(array $deviceData, array $json, string $deviceName) : Device
     {
@@ -28,20 +24,12 @@ class DeviceFactory
             $deviceData['properties'] = [];
         }
 
-        if (!array_key_exists('standard', $deviceData)) {
-            throw new \UnexpectedValueException(
-                'the value for "standard" key is missing for device "' . $deviceName . '"'
-            );
-        }
+        Assertion::keyExists($deviceData, 'standard', 'the value for "standard" key is missing for device "' . $deviceName . '"');
 
         if (array_key_exists('inherits', $deviceData)) {
             $parentName = $deviceData['inherits'];
 
-            if (!isset($json['devices'][$parentName])) {
-                throw new \UnexpectedValueException(
-                    'parent Device "' . $parentName . '" is missing for device "' . $deviceName . '"'
-                );
-            }
+            Assertion::keyExists($json['devices'], $parentName, 'parent Device "' . $parentName . '" is missing for device "' . $deviceName . '"');
 
             $parentDevice     = $this->build($json['devices'][$parentName], $json, $parentName);
             $parentDeviceData = $parentDevice->getProperties();

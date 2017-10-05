@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 
 /**
  * Class UseragentTestTest
@@ -26,7 +26,7 @@ class UseragentTest extends \PHPUnit\Framework\TestCase
         $engine     = 'TestEngine';
         $device     = 'TestDevice';
 
-        $object = new Useragent($userAgent, $properties, $children, $platform, $engine, $device);
+        $object = new UserAgent($userAgent, $properties, $children, $platform, $engine, $device);
 
         self::assertSame($userAgent, $object->getUserAgent());
         self::assertSame($properties, $object->getProperties());

@@ -2,9 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Coverage;
 
-/**
- * Interface ProcessorInterface
- */
 interface ProcessorInterface
 {
     /**

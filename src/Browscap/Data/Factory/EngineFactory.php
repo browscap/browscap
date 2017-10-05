@@ -2,25 +2,21 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assertion;
 use Browscap\Data\Engine;
 
-/**
- * Class EngineFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class EngineFactory
 {
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * validates the $engineData array and creates Engine objects from it
      *
-     * @param array  $engineData
-     * @param array  $json
-     * @param string $engineName
+     * @param array  $engineData The Engine data for the current object
+     * @param array  $json       The Engine data for all engines
+     * @param string $engineName The name for the current engine
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      *
-     * @return \Browscap\Data\Engine
+     * @return Engine
      */
     public function build(array $engineData, array $json, string $engineName) : Engine
     {
@@ -31,11 +27,7 @@ class EngineFactory
         if (array_key_exists('inherits', $engineData)) {
             $parentName = $engineData['inherits'];
 
-            if (!isset($json['engines'][$parentName])) {
-                throw new \UnexpectedValueException(
-                    'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"'
-                );
-            }
+            Assertion::keyExists($json['engines'], $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
 
             $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
             $parentEngineData = $parentEngine->getProperties();

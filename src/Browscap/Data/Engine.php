@@ -3,9 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Engine
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * represents an engine as defined in the resources/engines.json file
  */
 class Engine
 {

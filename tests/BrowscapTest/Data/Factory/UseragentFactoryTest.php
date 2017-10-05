@@ -2,10 +2,10 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
-use Browscap\Data\Factory\UseragentFactory;
-use Browscap\Data\Useragent;
-use Browscap\Data\Validator\ChildrenData;
-use Browscap\Data\Validator\UseragentData;
+use Browscap\Data\Factory\UserAgentFactory;
+use Browscap\Data\UserAgent;
+use Browscap\Data\Validator\ChildrenDataValidator;
+use Browscap\Data\Validator\UseragentDataValidator;
 
 /**
  * Class UseragentFactoryTestTest
@@ -13,7 +13,7 @@ use Browscap\Data\Validator\UseragentData;
 class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\UseragentFactory
+     * @var \Browscap\Data\Factory\UserAgentFactory
      */
     private $object;
 
@@ -23,15 +23,15 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new UseragentFactory();
+        $this->object = new UserAgentFactory();
 
-        $useragentData = $this->createMock(UseragentData::class);
+        $useragentData = $this->createMock(UseragentDataValidator::class);
 
         $property = new \ReflectionProperty($this->object, 'useragentData');
         $property->setAccessible(true);
         $property->setValue($this->object, $useragentData);
 
-        $childrenData = $this->createMock(ChildrenData::class);
+        $childrenData = $this->createMock(ChildrenDataValidator::class);
 
         $property = new \ReflectionProperty($this->object, 'childrenData');
         $property->setAccessible(true);
@@ -67,7 +67,7 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         self::assertInternalType('array', $uas);
 
         foreach ($uas as $useragent) {
-            self::assertInstanceOf(Useragent::class, $useragent);
+            self::assertInstanceOf(UserAgent::class, $useragent);
         }
     }
 
@@ -101,7 +101,7 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         self::assertInternalType('array', $uas);
 
         foreach ($uas as $useragent) {
-            self::assertInstanceOf(Useragent::class, $useragent);
+            self::assertInstanceOf(UserAgent::class, $useragent);
         }
     }
 
@@ -134,7 +134,7 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         self::assertInternalType('array', $uas);
 
         foreach ($uas as $useragent) {
-            self::assertInstanceOf(Useragent::class, $useragent);
+            self::assertInstanceOf(UserAgent::class, $useragent);
         }
     }
 }
