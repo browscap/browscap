@@ -4,7 +4,7 @@ namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\CsvFormatter;
 use Browscap\Writer\CsvWriter;
@@ -219,7 +219,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsHeader() : void
     {
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -299,7 +299,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
      */
     public function testRenderAllDivisionsHeaderWithoutProperties() : void
     {
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -373,7 +373,7 @@ class CsvWriterTest extends \PHPUnit\Framework\TestCase
             'abc' => 'bcd',
         ];
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();

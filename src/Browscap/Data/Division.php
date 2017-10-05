@@ -3,9 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Division
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * represents a useragent as defined in the resources/user-agents directory
  */
 class Division
 {
@@ -40,18 +38,18 @@ class Division
     private $versions = [];
 
     /**
-     * @var \Browscap\Data\Useragent[]
+     * @var UserAgent[]
      */
     private $userAgents = [];
 
     /**
-     * @param string                     $name
-     * @param int                        $sortIndex
-     * @param \Browscap\Data\Useragent[] $userAgents
-     * @param bool                       $lite
-     * @param bool                       $standard
-     * @param array                      $versions
-     * @param string|null                $fileName
+     * @param string      $name
+     * @param int         $sortIndex
+     * @param UserAgent[] $userAgents
+     * @param bool        $lite
+     * @param bool        $standard
+     * @param array       $versions
+     * @param string|null $fileName
      */
     public function __construct(
         string $name,
@@ -104,7 +102,7 @@ class Division
     }
 
     /**
-     * @return \Browscap\Data\Useragent[]
+     * @return UserAgent[]
      */
     public function getUserAgents() : array
     {

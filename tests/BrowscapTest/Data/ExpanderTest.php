@@ -7,7 +7,7 @@ use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Expander;
 use Browscap\Data\Platform;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 use Monolog\Logger;
 
 /**
@@ -52,7 +52,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -114,7 +114,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -139,7 +139,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
@@ -202,7 +202,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -227,7 +227,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
@@ -296,7 +296,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -336,7 +336,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDevice')
             ->will(self::returnValue($device));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
@@ -404,7 +404,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -429,7 +429,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($division));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
@@ -499,7 +499,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -539,7 +539,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getPlatform')
             ->will(self::returnValue($platform));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
@@ -612,7 +612,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -667,7 +667,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getPlatform')
             ->will(self::returnValue($platform));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
@@ -745,7 +745,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -785,7 +785,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
             ->method('getDevice')
             ->will(self::returnValue($device));
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();

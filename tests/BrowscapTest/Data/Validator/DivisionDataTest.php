@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Division;
-use Browscap\Data\Validator\DivisionData;
+use Browscap\Data\Validator\DivisionDataValidator;
 
 /**
  * Class DivisionDataTestTest
@@ -13,7 +13,7 @@ use Browscap\Data\Validator\DivisionData;
 class DivisionDataTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Validator\DivisionData
+     * @var \Browscap\Data\Validator\DivisionDataValidator
      */
     private $object;
 
@@ -23,7 +23,7 @@ class DivisionDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new DivisionData();
+        $this->object = new DivisionDataValidator();
     }
 
     /**

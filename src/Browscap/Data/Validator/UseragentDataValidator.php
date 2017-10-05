@@ -6,12 +6,7 @@ use Browscap\Data\Helper\CheckDeviceData;
 use Browscap\Data\Helper\CheckEngineData;
 use Browscap\Data\Helper\CheckPlatformData;
 
-/**
- * Class UseragentData
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class UseragentData
+class UseragentDataValidator
 {
     /**
      * @var \Browscap\Data\Helper\CheckDeviceData

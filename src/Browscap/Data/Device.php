@@ -3,9 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Device
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * represents a device as defined in the resources/devices directory
  */
 class Device
 {

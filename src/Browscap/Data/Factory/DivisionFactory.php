@@ -3,42 +3,33 @@ declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Division;
-use Browscap\Data\Validator\DivisionData;
+use Browscap\Data\Validator\DivisionDataValidator;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class DivisionFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class DivisionFactory
 {
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
     /**
-     * @var UseragentFactory
+     * @var UserAgentFactory
      */
     private $useragentFactory;
 
     /**
-     * @var \Browscap\Data\Validator\DivisionData
-     */
-    private $divisionData;
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger           = $logger;
-        $this->useragentFactory = new UseragentFactory();
-        $this->divisionData     = new DivisionData();
+        $this->useragentFactory = new UserAgentFactory();
     }
 
     /**
+     * validates the $deviceData array and creates Device objects from it
+     *
      * @param array  $divisionData
      * @param string $filename
      * @param array  &$allDivisions
@@ -47,7 +38,7 @@ class DivisionFactory
      * @throws \UnexpectedValueException If required attibutes are missing in the division
      * @throws \LogicException
      *
-     * @return \Browscap\Data\Division
+     * @return Division
      */
     public function build(
         array $divisionData,
@@ -55,8 +46,6 @@ class DivisionFactory
         array &$allDivisions,
         bool $isCore
     ) : Division {
-        $this->divisionData->validate($divisionData, $filename);
-
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $versions = $divisionData['versions'];
         } else {

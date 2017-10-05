@@ -4,7 +4,7 @@ namespace BrowscapTest\Generator;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
@@ -72,7 +72,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuild() : void
     {
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
@@ -202,7 +202,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithoutZip() : void
     {
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();

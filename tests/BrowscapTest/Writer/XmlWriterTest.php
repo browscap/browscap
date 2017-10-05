@@ -5,7 +5,7 @@ namespace BrowscapTest\Writer;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 use Browscap\Filter\FullFilter;
 use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\XmlFormatter;
@@ -379,7 +379,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'abc' => 'bcd',
         ];
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -478,7 +478,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'X2' => $section,
         ];
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();
@@ -574,7 +574,7 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
             'X2' => $section,
         ];
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getProperties'])
             ->getMock();

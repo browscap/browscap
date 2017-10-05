@@ -2,34 +2,31 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
-use Browscap\Data\Useragent;
-use Browscap\Data\Validator\ChildrenData;
-use Browscap\Data\Validator\UseragentData;
+use Browscap\Data\UserAgent;
+use Browscap\Data\Validator\ChildrenDataValidator;
+use Browscap\Data\Validator\UseragentDataValidator;
 
-/**
- * Class UaFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class UseragentFactory
+class UserAgentFactory
 {
     /**
-     * @var \Browscap\Data\Validator\UseragentData
+     * @var UseragentDataValidator
      */
     private $useragentData;
 
     /**
-     * @var \Browscap\Data\Validator\ChildrenData
+     * @var ChildrenDataValidator
      */
     private $childrenData;
 
     public function __construct()
     {
-        $this->useragentData = new UseragentData();
-        $this->childrenData  = new ChildrenData();
+        $this->useragentData = new UseragentDataValidator();
+        $this->childrenData  = new ChildrenDataValidator();
     }
 
     /**
+     * validates the $userAgentsData array and creates at least one Useragent object from it
+     *
      * @param array[] $userAgentsData
      * @param array   $versions
      * @param bool    $isCore
@@ -40,7 +37,7 @@ class UseragentFactory
      * @throws \LogicException   If required attibutes are missing in the division
      * @throws \LogicException
      *
-     * @return \Browscap\Data\Useragent[]
+     * @return UserAgent[]
      */
     public function build(array $userAgentsData, array $versions, bool $isCore, array &$allDivisions, string $filename) : array
     {
@@ -66,7 +63,7 @@ class UseragentFactory
                 $children = $useragent['children'];
             }
 
-            $useragents[] = new Useragent(
+            $useragents[] = new UserAgent(
                 $useragent['userAgent'],
                 $useragent['properties'],
                 $children,

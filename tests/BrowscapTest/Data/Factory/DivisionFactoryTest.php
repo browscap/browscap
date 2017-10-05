@@ -4,8 +4,8 @@ namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DivisionFactory;
-use Browscap\Data\Factory\UseragentFactory;
-use Browscap\Data\Validator\DivisionData;
+use Browscap\Data\Factory\UserAgentFactory;
+use Browscap\Data\Validator\DivisionDataValidator;
 use Monolog\Logger;
 
 /**
@@ -28,7 +28,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
     {
         $logger = $this->createMock(Logger::class);
 
-        $useragentFactory = $this->getMockBuilder(UseragentFactory::class)
+        $useragentFactory = $this->getMockBuilder(UserAgentFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['build'])
             ->getMock();
@@ -38,7 +38,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             ->method('build')
             ->will(self::returnValue([]));
 
-        $divisionData = $this->createMock(DivisionData::class);
+        $divisionData = $this->createMock(DivisionDataValidator::class);
 
         $this->object = new DivisionFactory($logger);
 

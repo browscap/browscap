@@ -2,6 +2,8 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assert;
+use Assert\Assertion;
 use Browscap\Data\Platform;
 
 /**
@@ -12,16 +14,16 @@ use Browscap\Data\Platform;
 class PlatformFactory
 {
     /**
-     * Load a platforms.json file and parse it into the platforms data array
+     * validates the $platformData array and creates Platform objects from it
      *
-     * @param array  $platformData
-     * @param array  $json
-     * @param string $platformName
+     * @param array  $platformData The Platform data for the current object
+     * @param array  $json         The Platform data for all platforms
+     * @param string $platformName The name for the current platform
      *
      * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
      *
-     * @return \Browscap\Data\Platform
+     * @return Platform
      */
     public function build(array $platformData, array $json, string $platformName) : Platform
     {
@@ -29,32 +31,14 @@ class PlatformFactory
             $platformData['properties'] = [];
         }
 
-        if (!array_key_exists('lite', $platformData)) {
-            throw new \UnexpectedValueException(
-                'the value for "lite" key is missing for the platform with the key "' . $platformName . '"'
-            );
-        }
-
-        if (!array_key_exists('standard', $platformData)) {
-            throw new \UnexpectedValueException(
-                'the value for "standard" key is missing for the platform with the key "' . $platformName . '"'
-            );
-        }
-
-        if (!array_key_exists('match', $platformData)) {
-            throw new \UnexpectedValueException(
-                'the value for the "match" key is missing for the platform with the key "' . $platformName . '"'
-            );
-        }
+        Assertion::keyExists($platformData, 'lite', 'the value for "lite" key is missing for the platform with the key "' . $platformName . '"');
+        Assertion::keyExists($platformData, 'standard', 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"');
+        Assertion::keyExists($platformData, 'match', 'the value for the "match" key is missing for the platform with the key "' . $platformName . '"');
 
         if (array_key_exists('inherits', $platformData)) {
             $parentName = $platformData['inherits'];
 
-            if (!isset($json['platforms'][$parentName])) {
-                throw new \UnexpectedValueException(
-                    'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"'
-                );
-            }
+            Assertion::keyExists($json['platforms'], $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
 
             $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
@@ -62,9 +46,7 @@ class PlatformFactory
             $platformProperties = $platformData['properties'];
 
             foreach ($platformProperties as $name => $value) {
-                if (isset($parentPlatformData[$name])
-                    && $parentPlatformData[$name] === $value
-                ) {
+                if (isset($parentPlatformData[$name]) && $parentPlatformData[$name] === $value) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
                         . '" and its parent "' . $parentName . '"'

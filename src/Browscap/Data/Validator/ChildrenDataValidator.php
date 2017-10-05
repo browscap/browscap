@@ -6,10 +6,7 @@ use Browscap\Data\Helper\CheckDeviceData;
 use Browscap\Data\Helper\CheckEngineData;
 use Browscap\Data\Helper\CheckPlatformData;
 
-/**
- * Class Children
- */
-class ChildrenData
+class ChildrenDataValidator
 {
     /**
      * @var \Browscap\Data\Helper\CheckDeviceData
@@ -34,11 +31,12 @@ class ChildrenData
     }
 
     /**
-     * @param array $childData
-     * @param array $useragentData
-     * @param array $versions
+     * @param array $childData     The children section to be validated
+     * @param array $useragentData The complete UserAgent section which is the parent of the children section
+     * @param array $versions      The versions from the division
      *
      * @return void
+     * @throws \LogicException
      */
     public function validate(array $childData, array $useragentData, array $versions) : void
     {

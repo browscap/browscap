@@ -7,8 +7,8 @@ use Browscap\Data\Helper\CheckDeviceData;
 use Browscap\Data\Helper\CheckEngineData;
 use Browscap\Data\Helper\CheckPlatformData;
 use Browscap\Data\Platform;
-use Browscap\Data\Useragent;
-use Browscap\Data\Validator\ChildrenData;
+use Browscap\Data\UserAgent;
+use Browscap\Data\Validator\ChildrenDataValidator;
 
 /**
  * Class ChildrenDataTestTest
@@ -18,7 +18,7 @@ use Browscap\Data\Validator\ChildrenData;
 class ChildrenDataTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Validator\ChildrenData
+     * @var \Browscap\Data\Validator\ChildrenDataValidator
      */
     private $object;
 
@@ -32,7 +32,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
         $checkEngineData   = $this->createMock(CheckEngineData::class);
         $checkPlatformData = $this->createMock(CheckPlatformData::class);
 
-        $this->object = new ChildrenData();
+        $this->object = new ChildrenDataValidator();
 
         $property = new \ReflectionProperty($this->object, 'checkDeviceData');
         $property->setAccessible(true);

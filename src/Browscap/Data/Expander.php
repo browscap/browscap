@@ -8,20 +8,15 @@ use Browscap\Data\Helper\CheckPlatformData;
 use Browscap\Data\Helper\TrimProperty;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class Expander
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class Expander
 {
     /**
-     * @var \Browscap\Data\DataCollection
+     * @var DataCollection
      */
     private $collection;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -34,30 +29,30 @@ class Expander
     private $patternId = [];
 
     /**
-     * @var \Browscap\Data\Helper\CheckDeviceData
+     * @var CheckDeviceData
      */
     private $checkDeviceData;
 
     /**
-     * @var \Browscap\Data\Helper\CheckEngineData
+     * @var CheckEngineData
      */
     private $checkEngineData;
 
     /**
-     * @var \Browscap\Data\Helper\CheckPlatformData
+     * @var CheckPlatformData
      */
     private $checkPlatformData;
 
     /**
-     * @var \Browscap\Data\Helper\TrimProperty
+     * @var TrimProperty
      */
     private $trimProperty;
 
     /**
      * Create a new data expander
      *
-     * @param \Psr\Log\LoggerInterface      $logger
-     * @param \Browscap\Data\DataCollection $collection
+     * @param LoggerInterface $logger
+     * @param DataCollection  $collection
      */
     public function __construct(LoggerInterface $logger, DataCollection $collection)
     {
@@ -70,12 +65,12 @@ class Expander
     }
 
     /**
-     * @param \Browscap\Data\Division $division
-     * @param string                  $divisionName
+     * @param Division $division
+     * @param string   $divisionName
      *
      * @throws \UnexpectedValueException
      *
-     * @return array
+     * @return array[]
      */
     public function expand(Division $division, string $divisionName) : array
     {
@@ -104,12 +99,12 @@ class Expander
     }
 
     /**
-     * Render a single division
+     * parses and expands a single division
      *
-     * @param \Browscap\Data\Division $division
-     * @param string                  $divisionName
+     * @param Division $division
+     * @param string   $divisionName
      *
-     * @return array
+     * @return array[]
      */
     private function parseDivision(Division $division, string $divisionName) : array
     {
@@ -138,17 +133,17 @@ class Expander
     }
 
     /**
-     * Render a single User Agent block
+     * parses and expands a single User Agent block
      *
-     * @param \Browscap\Data\Useragent $uaData
-     * @param bool                     $lite
-     * @param bool                     $standard
-     * @param int                      $sortIndex
-     * @param string                   $divisionName
+     * @param UserAgent $uaData
+     * @param bool      $lite
+     * @param bool      $standard
+     * @param int       $sortIndex
+     * @param string    $divisionName
      *
-     * @return array
+     * @return array[]
      */
-    private function parseUserAgent(Useragent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
+    private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
         $uaProperties = $uaData->getProperties();
 
@@ -235,7 +230,7 @@ class Expander
     }
 
     /**
-     * Render the children section in a single User Agent block
+     * parses and expands the children section in a single User Agent block
      *
      * @param string $ua
      * @param array  $uaDataChild
@@ -382,11 +377,11 @@ class Expander
      * expands all properties for all useragents to make sure all properties are set and make it possible to skip
      * incomplete properties and remove duplicate definitions
      *
-     * @param array $allInputDivisions
+     * @param array[] $allInputDivisions
      *
      * @throws \UnexpectedValueException
      *
-     * @return array
+     * @return array[]
      */
     private function expandProperties(array $allInputDivisions) : array
     {

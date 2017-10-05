@@ -2,41 +2,40 @@
 declare(strict_types = 1);
 namespace Browscap\Data;
 
+use Assert\Assertion;
 use Browscap\Data\Factory\DivisionFactory;
+use Browscap\Data\Validator\DivisionDataValidator;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class DataCollection
- */
 class DataCollection
 {
     /**
-     * @var \Browscap\Data\Platform[]
+     * @var Platform[]
      */
     private $platforms = [];
 
     /**
-     * @var \Browscap\Data\Engine[]
+     * @var Engine[]
      */
     private $engines = [];
 
     /**
-     * @var \Browscap\Data\Device[]
+     * @var Device[]
      */
     private $devices = [];
 
     /**
-     * @var \Browscap\Data\Division[]
+     * @var Division[]
      */
     private $divisions = [];
 
     /**
-     * @var \Browscap\Data\Division
+     * @var Division
      */
     private $defaultProperties;
 
     /**
-     * @var \Browscap\Data\Division
+     * @var Division
      */
     private $defaultBrowser;
 
@@ -51,7 +50,7 @@ class DataCollection
     private $generationDate;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -66,16 +65,21 @@ class DataCollection
     private $divisionFactory;
 
     /**
+     * @var \Browscap\Data\Validator\DivisionDataValidator
+     */
+    private $divisionData;
+
+    /**
      * Create a new data collection for the specified version
      *
-     * @param string                   $version
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger          = $logger;
         $this->generationDate  = new \DateTimeImmutable();
         $this->divisionFactory = new DivisionFactory($logger);
+        $this->divisionData     = new DivisionDataValidator();
     }
 
     /**
@@ -188,6 +192,8 @@ class DataCollection
     {
         $divisionData = $this->loadFile($filename);
 
+        $this->divisionData->validate($divisionData, $filename);
+
         $this->divisions[] = $this->divisionFactory->build(
             $divisionData,
             $filename,
@@ -210,8 +216,9 @@ class DataCollection
     public function addDefaultProperties(string $filename) : void
     {
         $divisionData = $this->loadFile($filename);
-        $allDivisions = [];
+        $this->divisionData->validate($divisionData, $filename);
 
+        $allDivisions            = [];
         $this->defaultProperties = $this->divisionFactory->build(
             $divisionData,
             $filename,
@@ -234,8 +241,9 @@ class DataCollection
     public function addDefaultBrowser(string $filename) : void
     {
         $divisionData = $this->loadFile($filename);
-        $allDivisions = [];
+        $this->divisionData->validate($divisionData, $filename);
 
+        $allDivisions         = [];
         $this->defaultBrowser = $this->divisionFactory->build(
             $divisionData,
             $filename,
@@ -259,31 +267,20 @@ class DataCollection
             throw new \RuntimeException('File "' . $filename . '" does not exist.');
         }
 
-        if (!is_readable($filename)) {
-            throw new \RuntimeException('File "' . $filename . '" is not readable.');
-        }
+        Assertion::readable($filename, 'File "%s" is not readable.');
 
         $fileContent = file_get_contents($filename);
 
-        if (preg_match('/[^ -~\s]/', $fileContent)) {
-            throw new \RuntimeException('File "' . $filename . '" contains Non-ASCII-Characters.');
-        }
+        Assertion::regex($fileContent, '/[^ -~\s]/', 'File "' . $filename . '" contains Non-ASCII-Characters.');
+        Assertion::isJsonString($fileContent, 'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
 
-        $json = json_decode($fileContent, true);
-
-        if (null === $json) {
-            throw new \RuntimeException(
-                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']'
-            );
-        }
-
-        return $json;
+        return json_decode($fileContent, true);
     }
 
     /**
      * Get the divisions array containing UA data
      *
-     * @return \Browscap\Data\Division[]
+     * @return Division[]
      */
     public function getDivisions() : array
     {
@@ -328,7 +325,7 @@ class DataCollection
     /**
      * Get the divisions array containing UA data
      *
-     * @return \Browscap\Data\Division
+     * @return Division
      */
     public function getDefaultProperties() : Division
     {
@@ -338,7 +335,7 @@ class DataCollection
     /**
      * Get the divisions array containing UA data
      *
-     * @return \Browscap\Data\Division
+     * @return Division
      */
     public function getDefaultBrowser() : Division
     {
@@ -348,7 +345,7 @@ class DataCollection
     /**
      * Get the array of platform data
      *
-     * @return \Browscap\Data\Platform[]
+     * @return Platform[]
      */
     public function getPlatforms() : array
     {
@@ -363,7 +360,7 @@ class DataCollection
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return \Browscap\Data\Platform
+     * @return Platform
      */
     public function getPlatform(string $platform) : Platform
     {
@@ -379,7 +376,7 @@ class DataCollection
     /**
      * Get the array of engine data
      *
-     * @return \Browscap\Data\Engine[]
+     * @return Engine[]
      */
     public function getEngines() : array
     {
@@ -394,7 +391,7 @@ class DataCollection
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return \Browscap\Data\Engine
+     * @return Engine
      */
     public function getEngine(string $engine) : Engine
     {
@@ -410,7 +407,7 @@ class DataCollection
     /**
      * Get the array of engine data
      *
-     * @return \Browscap\Data\Device[]
+     * @return Device[]
      */
     public function getDevices() : array
     {
@@ -425,7 +422,7 @@ class DataCollection
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return \Browscap\Data\Device
+     * @return Device
      */
     public function getDevice(string $device) : Device
     {

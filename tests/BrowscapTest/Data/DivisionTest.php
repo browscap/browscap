@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Division;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 
 /**
  * Class DivisionTestTest
@@ -18,7 +18,7 @@ class DivisionTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetter() : void
     {
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();

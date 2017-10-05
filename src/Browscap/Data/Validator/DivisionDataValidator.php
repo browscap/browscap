@@ -2,12 +2,7 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Validator;
 
-/**
- * Class DivisionData
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class DivisionData
+class DivisionDataValidator
 {
     /**
      * @param array  $divisionData

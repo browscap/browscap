@@ -4,7 +4,7 @@ namespace BrowscapTest\Generator\Helper;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Data\Useragent;
+use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
@@ -81,7 +81,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
@@ -206,7 +206,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
@@ -331,7 +331,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->setMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(Useragent::class)
+        $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
