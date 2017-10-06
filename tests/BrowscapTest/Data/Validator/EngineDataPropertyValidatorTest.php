@@ -20,6 +20,7 @@ class EngineDataPropertyValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
+        self::markTestSkipped();
         $this->object = new EngineDataPropertyValidator();
     }
 

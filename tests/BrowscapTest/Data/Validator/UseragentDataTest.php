@@ -27,6 +27,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
+        self::markTestSkipped();
         $checkDeviceData   = $this->createMock(DeviceDataPropertyValidator::class);
         $checkEngineData   = $this->createMock(EngineDataPropertyValidator::class);
         $checkPlatformData = $this->createMock(PlatformDataPropertyValidator::class);
