@@ -3,9 +3,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Device;
-use Browscap\Data\Helper\CheckDeviceData;
-use Browscap\Data\Helper\CheckEngineData;
-use Browscap\Data\Helper\CheckPlatformData;
+use Browscap\Data\Helper\DeviceDataPropertyValidator;
+use Browscap\Data\Helper\EngineDataPropertyValidator;
+use Browscap\Data\Helper\PlatformDataPropertyValidator;
 use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
 use Browscap\Data\Validator\ChildrenDataValidator;
@@ -28,9 +28,9 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $checkDeviceData   = $this->createMock(CheckDeviceData::class);
-        $checkEngineData   = $this->createMock(CheckEngineData::class);
-        $checkPlatformData = $this->createMock(CheckPlatformData::class);
+        $checkDeviceData   = $this->createMock(DeviceDataPropertyValidator::class);
+        $checkEngineData   = $this->createMock(EngineDataPropertyValidator::class);
+        $checkPlatformData = $this->createMock(PlatformDataPropertyValidator::class);
 
         $this->object = new ChildrenDataValidator();
 

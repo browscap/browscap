@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace UserAgentsTest;
 
 use Browscap\Coverage\Processor;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\LiteFilter;
 use Browscap\Formatter\PhpFormatter;
@@ -85,11 +86,14 @@ class LiteTest extends \PHPUnit\Framework\TestCase
         $litePhpWriter->setFilter(self::$filter);
         $writerCollection->addWriter($litePhpWriter);
 
+        $dataCollectionFactory = new DataCollectionFactory($logger);
+
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
             self::$buildFolder,
             $logger,
-            $writerCollection
+            $writerCollection,
+            $dataCollectionFactory
         );
 
         $buildGenerator->setCollectPatternIds(true);

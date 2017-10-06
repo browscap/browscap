@@ -13,9 +13,9 @@ class Division
     private $name = '';
 
     /**
-     * @var string|null
+     * @var string
      */
-    private $fileName;
+    private $fileName = '';
 
     /**
      * @var int
@@ -49,16 +49,16 @@ class Division
      * @param bool        $lite
      * @param bool        $standard
      * @param array       $versions
-     * @param string|null $fileName
+     * @param string      $fileName
      */
     public function __construct(
         string $name,
         int $sortIndex,
         array $userAgents,
         bool $lite,
-        bool $standard = true,
-        array $versions = [],
-        ?string $fileName = null
+        bool $standard,
+        array $versions,
+        string $fileName
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;

@@ -4,9 +4,9 @@ namespace BrowscapTest\Generator\Helper;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
@@ -142,7 +142,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -267,7 +267,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division, $division]));
 
-        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -392,7 +392,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $collectionCreator = $this->getMockBuilder(CollectionCreator::class)
+        $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();

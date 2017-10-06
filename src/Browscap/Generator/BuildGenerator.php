@@ -2,16 +2,17 @@
 declare(strict_types = 1);
 namespace Browscap\Generator;
 
-use Browscap\Helper\CollectionCreator;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
 /**
  * Class BuildGenerator
+ *
  * @author     Thomas Müller <mimmi20@live.de>
  */
-class BuildGenerator
+final class BuildGenerator
 {
     /**
      * @var string
@@ -29,9 +30,9 @@ class BuildGenerator
     private $logger;
 
     /**
-     * @var CollectionCreator
+     * @var DataCollectionFactory
      */
-    private $collectionCreator;
+    private $dataCollectionFactory;
 
     /**
      * @var WriterCollection
@@ -44,24 +45,24 @@ class BuildGenerator
     private $collectPatternIds = false;
 
     /**
-     * @param string            $resourceFolder
-     * @param string            $buildFolder
-     * @param LoggerInterface   $logger
-     * @param WriterCollection  $writerCollection
-     * @param CollectionCreator $collectionCreator
+     * @param string                $resourceFolder
+     * @param string                $buildFolder
+     * @param LoggerInterface       $logger
+     * @param WriterCollection      $writerCollection
+     * @param DataCollectionFactory $dataCollectionFactory
      */
     public function __construct(
         string $resourceFolder,
         string $buildFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
-        CollectionCreator $collectionCreator
+        DataCollectionFactory $dataCollectionFactory
     ) {
-        $this->resourceFolder    = $this->checkDirectoryExists($resourceFolder);
-        $this->buildFolder       = $this->checkDirectoryExists($buildFolder);
-        $this->logger            = $logger;
-        $this->writerCollection  = $writerCollection;
-        $this->collectionCreator = $collectionCreator;
+        $this->resourceFolder        = $this->checkDirectoryExists($resourceFolder);
+        $this->buildFolder           = $this->checkDirectoryExists($buildFolder);
+        $this->logger                = $logger;
+        $this->writerCollection      = $writerCollection;
+        $this->dataCollectionFactory = $dataCollectionFactory;
     }
 
     /**
@@ -69,61 +70,21 @@ class BuildGenerator
      *
      * @param string $buildVersion
      * @param bool   $createZipFile
-     *
-     * @return void
      */
     public function run(string $buildVersion, bool $createZipFile = true) : void
     {
-        $this->preBuild();
-        $this->build($buildVersion);
-        $this->postBuild($createZipFile);
-    }
-
-    /**
-     * Sets the flag to collect pattern ids during this build
-     *
-     * @param bool $value
-     */
-    public function setCollectPatternIds(bool $value) : void
-    {
-        $this->collectPatternIds = $value;
-    }
-
-    /**
-     * runs before the build
-     */
-    private function preBuild() : void
-    {
         $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
         $this->logger->info('Build folder: ' . $this->buildFolder . '');
-    }
 
-    /**
-     * runs the build
-     *
-     * @param string $buildVersion
-     */
-    private function build(string $buildVersion) : void
-    {
         Helper\BuildHelper::run(
             $buildVersion,
             $this->resourceFolder,
             $this->logger,
             $this->writerCollection,
-            $this->collectionCreator,
+            $this->dataCollectionFactory,
             $this->collectPatternIds
         );
-    }
 
-    /**
-     * runs after the build
-     *
-     * @param bool $createZipFile
-     *
-     * @return void
-     */
-    private function postBuild(bool $createZipFile = true) : void
-    {
         if (!$createZipFile) {
             return;
         }
@@ -158,6 +119,16 @@ class BuildGenerator
         $zip->close();
 
         $this->logger->info('finished creating the zip archive');
+    }
+
+    /**
+     * Sets the flag to collect pattern ids during this build
+     *
+     * @param bool $value
+     */
+    public function setCollectPatternIds(bool $value) : void
+    {
+        $this->collectPatternIds = $value;
     }
 
     /**
