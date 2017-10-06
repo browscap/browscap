@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Helper;
 
 use Browscap\Data\DataCollection;
-use Browscap\Helper\CollectionCreator;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
 
 /**
@@ -12,7 +12,7 @@ use Monolog\Logger;
 class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Helper\CollectionCreator
+     * @var \Browscap\Data\Factory\DataCollectionFactory
      */
     private $object;
 
@@ -23,7 +23,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
     public function setUp() : void
     {
         $logger       = $this->createMock(Logger::class);
-        $this->object = new CollectionCreator($logger);
+        $this->object = new DataCollectionFactory($logger);
     }
 
     /**

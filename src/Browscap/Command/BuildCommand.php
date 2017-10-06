@@ -2,8 +2,8 @@
 declare(strict_types = 1);
 namespace Browscap\Command;
 
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use Symfony\Component\Console\Command\Command;
@@ -66,14 +66,14 @@ class BuildCommand extends Command
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
-        $collectionCreator       = new CollectionCreator($logger);
+        $dataCollectionFactory   = new DataCollectionFactory($logger);
 
         $buildGenerator = new BuildGenerator(
             $input->getOption('resources'),
             $buildFolder,
             $logger,
             $writerCollection,
-            $collectionCreator
+            $dataCollectionFactory
         );
 
         if (false !== $input->getOption('coverage')) {

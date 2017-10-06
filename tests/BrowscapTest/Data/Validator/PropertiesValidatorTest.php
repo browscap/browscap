@@ -1,16 +1,16 @@
 <?php
 declare(strict_types = 1);
-namespace BrowscapTest\Data\Helper;
+namespace BrowscapTest\Data\Validator;
 
-use Browscap\Data\Helper\CheckProperties;
+use Browscap\Data\Validator\PropertiesValidator;
 
 /**
  * Class DataCollectionTestTest
  */
-class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
+class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\CheckProperties
+     * @var PropertiesValidator
      */
     private $object;
 
@@ -20,7 +20,7 @@ class CheckpropertiesTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new CheckProperties();
+        $this->object = new PropertiesValidator();
     }
 
     /**

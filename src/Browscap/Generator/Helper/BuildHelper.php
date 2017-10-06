@@ -3,28 +3,29 @@ declare(strict_types = 1);
 namespace Browscap\Generator\Helper;
 
 use Browscap\Data\Expander;
-use Browscap\Data\Helper\CheckProperties;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\Helper\SplitVersion;
 use Browscap\Data\Helper\VersionNumber;
-use Browscap\Helper\CollectionCreator;
+use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class BuildGenerator
+ *
  * @author     Thomas Müller <mimmi20@live.de>
  */
-class BuildHelper
+final class BuildHelper
 {
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string                             $buildVersion
-     * @param string                             $resourceFolder
-     * @param \Psr\Log\LoggerInterface           $logger
-     * @param \Browscap\Writer\WriterCollection  $writerCollection
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     * @param bool                               $collectPatternIds
+     * @param string                $buildVersion
+     * @param string                $resourceFolder
+     * @param LoggerInterface       $logger
+     * @param WriterCollection      $writerCollection
+     * @param DataCollectionFactory $dataCollectionFactory
+     * @param bool                  $collectPatternIds
      *
      * @throws \Exception
      *
@@ -35,12 +36,12 @@ class BuildHelper
         string $resourceFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
-        CollectionCreator $collectionCreator,
+        DataCollectionFactory $dataCollectionFactory,
         bool $collectPatternIds = false
     ) : void {
         $logger->info('started creating a data collection');
 
-        $collection = $collectionCreator->createDataCollection($resourceFolder);
+        $collection = $dataCollectionFactory->createDataCollection($resourceFolder);
 
         $logger->info('finished creating a data collection');
 
@@ -79,22 +80,18 @@ class BuildHelper
         $writerCollection->renderAllDivisionsHeader($collection);
         $writerCollection->renderDivisionHeader($defaultProperties->getName());
 
-        $ua       = $defaultProperties->getUserAgents()[0];
-        $sections = [$ua->getUserAgent() => $ua->getProperties()];
+        $ua          = $defaultProperties->getUserAgents()[0];
+        $sectionName = $ua->getUserAgent();
+        $section     = $ua->getProperties();
 
-        foreach (array_keys($sections) as $sectionName) {
-            $section = $sections[$sectionName];
-
-            if (!$collectPatternIds) {
-                unset($section['PatternId']);
-            }
-
-            $writerCollection->setSilent($defaultProperties);
-            $writerCollection->renderSectionHeader($sectionName);
-            $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
-            $writerCollection->renderSectionFooter($sectionName);
+        if (!$collectPatternIds) {
+            unset($section['PatternId']);
         }
 
+        $writerCollection->setSilent($defaultProperties);
+        $writerCollection->renderSectionHeader($sectionName);
+        $writerCollection->renderSectionBody($section, $collection, [$sectionName => $section], $sectionName);
+        $writerCollection->renderSectionFooter($sectionName);
         $writerCollection->renderDivisionFooter();
 
         foreach ($collection->getDivisions() as $division) {
@@ -109,14 +106,12 @@ class BuildHelper
             foreach (array_keys($sections) as $sectionName) {
                 $section = $sections[$sectionName];
 
-                (new CheckProperties())->check($sectionName, $section);
+                (new PropertiesValidator())->check($sectionName, $section);
             }
 
             $writerCollection->setSilent($division);
 
-            $versions = $division->getVersions();
-
-            foreach ($versions as $version) {
+            foreach ($division->getVersions() as $version) {
                 [$majorVer, $minorVer] = (new SplitVersion())->getVersionParts((string) $version);
 
                 $divisionName = (new VersionNumber())->replace($division->getName(), (string) $majorVer, (string) $minorVer);
@@ -167,26 +162,21 @@ class BuildHelper
 
         $writerCollection->renderDivisionHeader($defaultBrowser->getName());
 
-        $ua       = $defaultBrowser->getUserAgents()[0];
-        $sections = [
-            $ua->getUserAgent() => array_merge(
-                ['Parent' => 'DefaultProperties'],
-                $ua->getProperties()
-            ),
-        ];
+        $ua          = $defaultBrowser->getUserAgents()[0];
+        $sectionName = $ua->getUserAgent();
+        $section     = array_merge(
+            ['Parent' => 'DefaultProperties'],
+            $ua->getProperties()
+        );
 
-        foreach (array_keys($sections) as $sectionName) {
-            $section = $sections[$sectionName];
-
-            if (!$collectPatternIds) {
-                unset($section['PatternId']);
-            }
-
-            $writerCollection->setSilent($defaultBrowser);
-            $writerCollection->renderSectionHeader($sectionName);
-            $writerCollection->renderSectionBody($section, $collection, $sections, $sectionName);
-            $writerCollection->renderSectionFooter($sectionName);
+        if (!$collectPatternIds) {
+            unset($section['PatternId']);
         }
+
+        $writerCollection->setSilent($defaultBrowser);
+        $writerCollection->renderSectionHeader($sectionName);
+        $writerCollection->renderSectionBody($section, $collection, [$sectionName => $section], $sectionName);
+        $writerCollection->renderSectionFooter($sectionName);
 
         $writerCollection->renderDivisionFooter();
         $writerCollection->renderAllDivisionsFooter();

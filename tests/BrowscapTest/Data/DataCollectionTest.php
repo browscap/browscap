@@ -143,7 +143,6 @@ HERE;
 
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
 
-        self::assertInternalType('array', $this->object->getPlatforms());
         $this->object->getPlatform('NotExists');
     }
 
@@ -175,7 +174,6 @@ HERE;
     {
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
 
-        self::assertInternalType('array', $this->object->getPlatforms());
         $platform = $this->object->getPlatform('Platform1');
 
         self::assertInstanceOf(Platform::class, $platform);
@@ -292,10 +290,6 @@ HERE;
     {
         $this->object->addDevicesFile($this->getDevicesJsonFixture());
 
-        $devices = $this->object->getDevices();
-
-        self::assertInternalType('array', $devices);
-
         foreach ($devices as $device) {
             self::assertInstanceOf(Device::class, $device);
         }
@@ -314,7 +308,6 @@ HERE;
 
         $this->object->addEnginesFile($this->getEngineJsonFixture());
 
-        self::assertInternalType('array', $this->object->getEngines());
         $this->object->getEngine('NotExists');
     }
 
@@ -330,7 +323,6 @@ HERE;
     {
         $this->object->addEnginesFile($this->getEngineJsonFixture());
 
-        self::assertInternalType('array', $this->object->getEngines());
         $engine = $this->object->getEngine('Foobar');
 
         self::assertInstanceOf(Engine::class, $engine);

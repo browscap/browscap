@@ -4,9 +4,9 @@ namespace BrowscapTest\Generator;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
@@ -45,8 +45,10 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
-        $writerCollection = $this->createMock(WriterCollection::class);
-        new BuildGenerator('/dar', '', $this->logger, $writerCollection);
+        $writerCollection      = $this->createMock(WriterCollection::class);
+        $dataCollectionFactory = $this->createMock(DataCollectionFactory::class);
+
+        new BuildGenerator('/dar', '', $this->logger, $writerCollection, $dataCollectionFactory);
     }
 
     /**
@@ -60,8 +62,10 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
         $this->expectException('\Exception');
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
-        $writerCollection = $this->createMock(WriterCollection::class);
-        new BuildGenerator(__FILE__, '', $this->logger, $writerCollection);
+        $writerCollection      = $this->createMock(WriterCollection::class);
+        $dataCollectionFactory = $this->createMock(DataCollectionFactory::class);
+
+        new BuildGenerator(__FILE__, '', $this->logger, $writerCollection, $dataCollectionFactory);
     }
 
     /**
@@ -137,7 +141,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $mockCreator = $this->getMockBuilder(CollectionCreator::class)
+        $mockCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -184,12 +188,8 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $mockCreator);
         $generator->setCollectPatternIds(false);
-
-        $property = new \ReflectionProperty($generator, 'collectionCreator');
-        $property->setAccessible(true);
-        $property->setValue($generator, $mockCreator);
 
         $generator->run('test', false);
     }
@@ -267,7 +267,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $mockCreator = $this->getMockBuilder(CollectionCreator::class)
+        $mockCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
@@ -314,12 +314,8 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $mockCreator);
         $generator->setCollectPatternIds(true);
-
-        $property = new \ReflectionProperty($generator, 'collectionCreator');
-        $property->setAccessible(true);
-        $property->setValue($generator, $mockCreator);
 
         $generator->run('test', false);
     }

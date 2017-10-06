@@ -2,7 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
-use Assert\Assert;
 use Assert\Assertion;
 use Browscap\Data\Platform;
 

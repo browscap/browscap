@@ -1,16 +1,16 @@
 <?php
 declare(strict_types = 1);
-namespace BrowscapTest\Data\Helper;
+namespace BrowscapTest\Data\Validator;
 
-use Browscap\Data\Helper\CheckPlatformData;
+use Browscap\Data\Validator\PlatformDataPropertyValidator;
 
 /**
  * Class DataCollectionTestTest
  */
-class CheckPlatformDataTest extends \PHPUnit\Framework\TestCase
+class PlatformDataPropertyValidatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\CheckPlatformData
+     * @var PlatformDataPropertyValidator
      */
     private $object;
 
@@ -20,7 +20,7 @@ class CheckPlatformDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new CheckPlatformData();
+        $this->object = new PlatformDataPropertyValidator();
     }
 
     /**

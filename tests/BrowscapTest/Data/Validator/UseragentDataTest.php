@@ -3,9 +3,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Division;
-use Browscap\Data\Helper\CheckDeviceData;
-use Browscap\Data\Helper\CheckEngineData;
-use Browscap\Data\Helper\CheckPlatformData;
+use Browscap\Data\Helper\DeviceDataPropertyValidator;
+use Browscap\Data\Helper\EngineDataPropertyValidator;
+use Browscap\Data\Helper\PlatformDataPropertyValidator;
 use Browscap\Data\UserAgent;
 use Browscap\Data\Validator\UseragentDataValidator;
 
@@ -27,9 +27,9 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $checkDeviceData   = $this->createMock(CheckDeviceData::class);
-        $checkEngineData   = $this->createMock(CheckEngineData::class);
-        $checkPlatformData = $this->createMock(CheckPlatformData::class);
+        $checkDeviceData   = $this->createMock(DeviceDataPropertyValidator::class);
+        $checkEngineData   = $this->createMock(EngineDataPropertyValidator::class);
+        $checkPlatformData = $this->createMock(PlatformDataPropertyValidator::class);
 
         $this->object = new UseragentDataValidator();
 

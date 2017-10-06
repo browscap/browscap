@@ -1,16 +1,16 @@
 <?php
 declare(strict_types = 1);
-namespace BrowscapTest\Data\Helper;
+namespace BrowscapTest\Data\Validator;
 
-use Browscap\Data\Helper\CheckEngineData;
+use Browscap\Data\Validator\DeviceDataPropertyValidator;
 
 /**
  * Class DataCollectionTestTest
  */
-class CheckEngineDataTest extends \PHPUnit\Framework\TestCase
+class DeviceDataPropertyValidatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\CheckEngineData
+     * @var DeviceDataPropertyValidator
      */
     private $object;
 
@@ -20,19 +20,19 @@ class CheckEngineDataTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        $this->object = new CheckEngineData();
+        $this->object = new DeviceDataPropertyValidator();
     }
 
     /**
      * @group data
      * @group sourcetest
      */
-    public function testCheckPropertyWithEngineProperties() : void
+    public function testCheckPropertyWithDeviceProperties() : void
     {
         $this->expectException('\LogicException');
         $this->expectExceptionMessage('error message');
 
-        $properties = ['RenderingEngine_Name' => 'test'];
+        $properties = ['Device_Name' => 'test'];
         $this->object->check($properties, 'error message');
     }
 
@@ -40,7 +40,7 @@ class CheckEngineDataTest extends \PHPUnit\Framework\TestCase
      * @group data
      * @group sourcetest
      */
-    public function testCheckPropertyWithoutEngineProperties() : void
+    public function testCheckPropertyWithoutDeviceProperties() : void
     {
         $properties = [];
         $this->object->check($properties, 'error message');

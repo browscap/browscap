@@ -2,9 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Data;
 
-use Assert\Assertion;
-use Browscap\Data\Factory\DivisionFactory;
-use Browscap\Data\Validator\DivisionDataValidator;
 use Psr\Log\LoggerInterface;
 
 class DataCollection
@@ -55,151 +52,55 @@ class DataCollection
     private $logger;
 
     /**
-     * @var string[]
-     */
-    private $allDivisions = [];
-
-    /**
-     * @var DivisionFactory
-     */
-    private $divisionFactory;
-
-    /**
-     * @var \Browscap\Data\Validator\DivisionDataValidator
-     */
-    private $divisionData;
-
-    /**
      * Create a new data collection for the specified version
      *
      * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
     {
-        $this->logger          = $logger;
-        $this->generationDate  = new \DateTimeImmutable();
-        $this->divisionFactory = new DivisionFactory($logger);
-        $this->divisionData     = new DivisionDataValidator();
+        $this->logger         = $logger;
+        $this->generationDate = new \DateTimeImmutable();
     }
 
     /**
-     * Load a platforms.json file and parse it into the platforms data array
-     *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException         if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException
-     *
-     * @return void
+     * @param string   $platformName Name of the platform
+     * @param Platform $platform
      */
-    public function addPlatformsFile(string $filename) : void
+    public function addPlatform(string $platformName, Platform $platform) : void
     {
-        $json = $this->loadFile($filename);
-
-        if (!isset($json['platforms'])) {
-            throw new \UnexpectedValueException('required "platforms" structure is missing');
-        }
-
-        $platformFactory = new Factory\PlatformFactory();
-
-        foreach (array_keys($json['platforms']) as $platformName) {
-            $platformData = $json['platforms'][$platformName];
-
-            if (!isset($platformData['match'])) {
-                throw new \UnexpectedValueException('required attibute "match" is missing');
-            }
-
-            if (!isset($platformData['properties']) && !isset($platformData['inherits'])) {
-                throw new \UnexpectedValueException('required attibute "properties" is missing');
-            }
-
-            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
-        }
+        $this->platforms[$platformName] = $platform;
 
         $this->divisionsHaveBeenSorted = false;
     }
 
     /**
-     * Load a engines.json file and parse it into the platforms data array
-     *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
-     *
-     * @return void
+     * @param string $engineName Name of the engine
+     * @param Engine $engine
      */
-    public function addEnginesFile(string $filename) : void
+    public function addEngine(string $engineName, Engine $engine) : void
     {
-        $json = $this->loadFile($filename);
-
-        if (!isset($json['engines'])) {
-            throw new \UnexpectedValueException('required "engines" structure is missing');
-        }
-
-        $engineFactory = new Factory\EngineFactory();
-
-        foreach (array_keys($json['engines']) as $engineName) {
-            $engineData = $json['engines'][$engineName];
-
-            if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
-                throw new \UnexpectedValueException('required attibute "properties" is missing');
-            }
-
-            $this->engines[$engineName] = $engineFactory->build($engineData, $json, $engineName);
-        }
+        $this->engines[$engineName] = $engine;
 
         $this->divisionsHaveBeenSorted = false;
     }
 
     /**
-     * Load a devices.json file and parse it into the platforms data array
-     *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException         if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
-     *
-     * @return void
+     * @param string $deviceName Name of the device
+     * @param Device $device
      */
-    public function addDevicesFile(string $filename) : void
+    public function addDevice(string $deviceName, Device $device) : void
     {
-        $json          = $this->loadFile($filename);
-        $deviceFactory = new Factory\DeviceFactory();
-
-        foreach ($json as $deviceName => $deviceData) {
-            if (!isset($deviceData['properties']) && !isset($deviceData['inherits'])) {
-                throw new \UnexpectedValueException('required attibute "properties" is missing');
-            }
-
-            $this->devices[$deviceName] = $deviceFactory->build($deviceData, $json, $deviceName);
-        }
+        $this->devices[$deviceName] = $device;
 
         $this->divisionsHaveBeenSorted = false;
     }
 
     /**
-     * Load a JSON file, parse it's JSON and add it to our divisions list
-     *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException         If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException If required attibutes are missing in the division
-     * @throws \LogicException
-     *
-     * @return void
+     * @param Division $division
      */
-    public function addSourceFile(string $filename) : void
+    public function addDivision(Division $division) : void
     {
-        $divisionData = $this->loadFile($filename);
-
-        $this->divisionData->validate($divisionData, $filename);
-
-        $this->divisions[] = $this->divisionFactory->build(
-            $divisionData,
-            $filename,
-            $this->allDivisions,
-            false
-        );
+        $this->divisions[] = $division;
 
         $this->divisionsHaveBeenSorted = false;
     }
@@ -207,24 +108,11 @@ class DataCollection
     /**
      * Load the file for the default properties
      *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
-     *
-     * @return void
+     * @param @param Division $division
      */
-    public function addDefaultProperties(string $filename) : void
+    public function addDefaultProperties(Division $division) : void
     {
-        $divisionData = $this->loadFile($filename);
-        $this->divisionData->validate($divisionData, $filename);
-
-        $allDivisions            = [];
-        $this->defaultProperties = $this->divisionFactory->build(
-            $divisionData,
-            $filename,
-            $allDivisions,
-            true
-        );
+        $this->defaultProperties = $division;
 
         $this->divisionsHaveBeenSorted = false;
     }
@@ -232,49 +120,15 @@ class DataCollection
     /**
      * Load the file for the default browser
      *
-     * @param string $filename Name of the file
-     *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @param @param Division $division
      *
      * @return void
      */
-    public function addDefaultBrowser(string $filename) : void
+    public function addDefaultBrowser(Division $division) : void
     {
-        $divisionData = $this->loadFile($filename);
-        $this->divisionData->validate($divisionData, $filename);
-
-        $allDivisions         = [];
-        $this->defaultBrowser = $this->divisionFactory->build(
-            $divisionData,
-            $filename,
-            $allDivisions,
-            true
-        );
+        $this->defaultBrowser = $division;
 
         $this->divisionsHaveBeenSorted = false;
-    }
-
-    /**
-     * @param string $filename
-     *
-     * @throws \RuntimeException
-     *
-     * @return array
-     */
-    private function loadFile(string $filename) : array
-    {
-        if (!file_exists($filename)) {
-            throw new \RuntimeException('File "' . $filename . '" does not exist.');
-        }
-
-        Assertion::readable($filename, 'File "%s" is not readable.');
-
-        $fileContent = file_get_contents($filename);
-
-        Assertion::regex($fileContent, '/[^ -~\s]/', 'File "' . $filename . '" contains Non-ASCII-Characters.');
-        Assertion::isJsonString($fileContent, 'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
-
-        return json_decode($fileContent, true);
     }
 
     /**
@@ -294,7 +148,7 @@ class DataCollection
      *
      * @return void
      */
-    public function sortDivisions() : void
+    private function sortDivisions() : void
     {
         if ($this->divisionsHaveBeenSorted) {
             return;
@@ -343,16 +197,6 @@ class DataCollection
     }
 
     /**
-     * Get the array of platform data
-     *
-     * @return Platform[]
-     */
-    public function getPlatforms() : array
-    {
-        return $this->platforms;
-    }
-
-    /**
      * Get a single platform data array
      *
      * @param string $platform
@@ -374,16 +218,6 @@ class DataCollection
     }
 
     /**
-     * Get the array of engine data
-     *
-     * @return Engine[]
-     */
-    public function getEngines() : array
-    {
-        return $this->engines;
-    }
-
-    /**
      * Get a single engine data array
      *
      * @param string $engine
@@ -402,16 +236,6 @@ class DataCollection
         }
 
         return $this->engines[$engine];
-    }
-
-    /**
-     * Get the array of engine data
-     *
-     * @return Device[]
-     */
-    public function getDevices() : array
-    {
-        return $this->devices;
     }
 
     /**

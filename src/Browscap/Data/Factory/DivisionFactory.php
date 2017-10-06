@@ -3,7 +3,6 @@ declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Division;
-use Browscap\Data\Validator\DivisionDataValidator;
 use Psr\Log\LoggerInterface;
 
 class DivisionFactory
@@ -19,12 +18,13 @@ class DivisionFactory
     private $useragentFactory;
 
     /**
-     * @param LoggerInterface $logger
+     * @param LoggerInterface  $logger
+     * @param UserAgentFactory $useragentFactory
      */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger, UserAgentFactory $useragentFactory)
     {
         $this->logger           = $logger;
-        $this->useragentFactory = new UserAgentFactory();
+        $this->useragentFactory = $useragentFactory;
     }
 
     /**
@@ -32,7 +32,6 @@ class DivisionFactory
      *
      * @param array  $divisionData
      * @param string $filename
-     * @param array  &$allDivisions
      * @param bool   $isCore
      *
      * @throws \UnexpectedValueException If required attibutes are missing in the division
@@ -43,7 +42,6 @@ class DivisionFactory
     public function build(
         array $divisionData,
         string $filename,
-        array &$allDivisions,
         bool $isCore
     ) : Division {
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
@@ -59,7 +57,7 @@ class DivisionFactory
         return new Division(
             $divisionData['division'],
             (int) $divisionData['sortIndex'],
-            $this->useragentFactory->build($divisionData['userAgents'], $versions, $isCore, $allDivisions, $filename),
+            $this->useragentFactory->build($divisionData['userAgents'], $versions, $isCore),
             (bool) $divisionData['lite'],
             (bool) $divisionData['standard'],
             $versions,

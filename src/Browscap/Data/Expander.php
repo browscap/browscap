@@ -2,9 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Data;
 
-use Browscap\Data\Helper\CheckDeviceData;
-use Browscap\Data\Helper\CheckEngineData;
-use Browscap\Data\Helper\CheckPlatformData;
 use Browscap\Data\Helper\TrimProperty;
 use Psr\Log\LoggerInterface;
 
@@ -29,21 +26,6 @@ class Expander
     private $patternId = [];
 
     /**
-     * @var CheckDeviceData
-     */
-    private $checkDeviceData;
-
-    /**
-     * @var CheckEngineData
-     */
-    private $checkEngineData;
-
-    /**
-     * @var CheckPlatformData
-     */
-    private $checkPlatformData;
-
-    /**
      * @var TrimProperty
      */
     private $trimProperty;
@@ -56,12 +38,9 @@ class Expander
      */
     public function __construct(LoggerInterface $logger, DataCollection $collection)
     {
-        $this->logger            = $logger;
-        $this->collection        = $collection;
-        $this->checkDeviceData   = new CheckDeviceData();
-        $this->checkEngineData   = new CheckEngineData();
-        $this->checkPlatformData = new CheckPlatformData();
-        $this->trimProperty      = new TrimProperty();
+        $this->logger       = $logger;
+        $this->collection   = $collection;
+        $this->trimProperty = new TrimProperty();
     }
 
     /**
@@ -322,27 +301,7 @@ class Expander
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
-                $childProperties = $uaDataChild['properties'];
-
-                $this->checkPlatformData->check(
-                    $childProperties,
-                    'the properties array contains platform data for key "' . $ua
-                    . '", please use the "platforms" keyword'
-                );
-
-                $this->checkEngineData->check(
-                    $childProperties,
-                    'the properties array contains engine data for key "' . $ua
-                    . '", please use the "engine" keyword'
-                );
-
-                $this->checkDeviceData->check(
-                    $childProperties,
-                    'the properties array contains device data for key "' . $ua
-                    . '", please use the "device" or the "devices" keyword'
-                );
-
-                $properties = array_merge($properties, $childProperties);
+                $properties = array_merge($properties, $uaDataChild['properties']);
             }
 
             $uaBase                      = str_replace('#PLATFORM#', '', $uaDataChild['match']);
