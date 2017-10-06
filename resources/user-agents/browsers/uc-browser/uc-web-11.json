@@ -192,6 +192,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -226,6 +227,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
