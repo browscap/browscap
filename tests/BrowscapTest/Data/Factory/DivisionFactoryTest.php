@@ -26,6 +26,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
+        self::markTestSkipped();
         $logger = $this->createMock(Logger::class);
 
         $useragentFactory = $this->getMockBuilder(UserAgentFactory::class)
