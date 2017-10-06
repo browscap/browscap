@@ -15,10 +15,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* RealPlayer",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* RealPlayer*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
           ]
         },
         {
