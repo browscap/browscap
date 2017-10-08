@@ -16,10 +16,6 @@ class VersionNumberTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->object = new VersionNumber();
@@ -27,9 +23,6 @@ class VersionNumberTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children, platforms and devices
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {

@@ -13,10 +13,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         self::markTestSkipped();

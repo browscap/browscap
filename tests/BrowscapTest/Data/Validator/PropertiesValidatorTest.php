@@ -15,10 +15,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->object = new PropertiesValidator();
@@ -109,9 +105,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckTabletMismatchIsTablet() : void
     {
@@ -131,9 +124,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckTabletMismatchIsMobileDevice() : void
     {
@@ -153,9 +143,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckMobileMismatchIsTablet() : void
     {
@@ -175,9 +162,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckMobileMismatchIsMobileDevice() : void
     {
@@ -197,9 +181,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckDesktopMismatchIsTablet() : void
     {
@@ -219,9 +200,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckDesktopMismatchIsMobileDevice() : void
     {
@@ -241,9 +219,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckPropertyOkDesktop() : void
     {
@@ -262,9 +237,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckPropertyOkTablet() : void
     {
@@ -283,9 +255,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if no error is raised if all went well
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testCheckPropertyOkMobile() : void
     {

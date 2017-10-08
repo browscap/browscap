@@ -110,7 +110,7 @@ class DataCollection
      *
      * @param @param Division $division
      */
-    public function addDefaultProperties(Division $division) : void
+    public function setDefaultProperties(Division $division) : void
     {
         $this->defaultProperties = $division;
 
@@ -124,7 +124,7 @@ class DataCollection
      *
      * @return void
      */
-    public function addDefaultBrowser(Division $division) : void
+    public function setDefaultBrowser(Division $division) : void
     {
         $this->defaultBrowser = $division;
 

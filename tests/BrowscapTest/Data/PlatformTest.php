@@ -11,9 +11,6 @@ class PlatformTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter for the match property
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testGetter() : void
     {

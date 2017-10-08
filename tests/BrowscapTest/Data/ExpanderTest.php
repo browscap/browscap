@@ -22,10 +22,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $logger     = $this->createMock(Logger::class);
@@ -36,9 +32,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests parsing an empty data collection
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testParseDoesNothingOnEmptyDatacollection() : void
     {
@@ -98,9 +91,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests parsing a not empty data collection without children
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testParseOnNotEmptyDatacollectionWithoutChildren() : void
     {
@@ -186,9 +176,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests parsing an not empty data collection with children
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testParseOnNotEmptyDatacollectionWithChildren() : void
     {
@@ -280,9 +267,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests parsing a non empty data collection with children and devices
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
@@ -393,9 +377,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children, no devices or platforms
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren() : void
     {
@@ -488,9 +469,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children and platforms, no devices
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms() : void
     {
@@ -601,9 +579,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children and devices, no platforms
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
@@ -734,9 +709,6 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children, platforms and devices
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {

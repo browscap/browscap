@@ -26,15 +26,22 @@ class PlatformFactory
      */
     public function build(array $platformData, array $dataAllPlatforms, string $platformName) : Platform
     {
-        if (!isset($platformData['properties'])) {
-            $platformData['properties'] = [];
-        }
-
+        Assertion::isArray($platformData, 'each entry inside the "platforms" structure has to be an array');
         Assertion::keyExists($platformData, 'lite', 'the value for "lite" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'standard', 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'match', 'the value for the "match" key is missing for the platform with the key "' . $platformName . '"');
 
+        if (!array_key_exists('properties', $platformData) && !array_key_exists('inherits', $platformData)) {
+            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        }
+
+        if (!array_key_exists('properties', $platformData)) {
+            $platformData['properties'] = [];
+        }
+
         if (array_key_exists('inherits', $platformData)) {
+            Assertion::string($platformData['inherits'], 'parent Platform key has to be a string for platform "' . $platformName . '"');
+
             $parentName = $platformData['inherits'];
 
             Assertion::keyExists($dataAllPlatforms, $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');

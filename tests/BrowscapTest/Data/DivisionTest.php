@@ -12,9 +12,6 @@ class DivisionTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testGetter() : void
     {

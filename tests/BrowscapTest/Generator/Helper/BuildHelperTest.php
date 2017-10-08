@@ -17,10 +17,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
      */
     private $logger;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->logger = $this->createMock(Logger::class);

@@ -7,32 +7,23 @@ use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
+use PHPUnit\Framework\TestCase;
 use UnexpectedValueException;
 
-/**
- * Class PlatformFactoryTestTest
- */
-class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
+class PlatformFactoryTest extends TestCase
 {
     /**
      * @var \Browscap\Data\Factory\PlatformFactory
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->object = new PlatformFactory();
     }
 
     /**
-     * tests the creating of an platform factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests that the missing "lite" property is leading to an error
      */
     public function testBuildMissingLiteProperty() : void
     {
@@ -47,10 +38,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * tests the creating of an platform factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests that the missing "standard" property is leading to an error
      */
     public function testBuildMissingStandardProperty() : void
     {
@@ -65,10 +53,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests that the missing "match" property is leading to an error
      */
     public function testBuildWithoutMatchProperty() : void
     {
@@ -89,10 +74,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * tests the creating of an platform factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests that a missing parent platform is leading to an error
      */
     public function testBuildMissingParentPlatform() : void
     {
@@ -106,12 +88,6 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object->build($platformData, $json, $platformName);
     }
 
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
     public function testBuildWithRepeatingProperties() : void
     {
         $this->expectException(UnexpectedValueException::class);
@@ -132,48 +108,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * tests the creating of an platform factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testBuild() : void
-    {
-        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true];
-        $json         = [];
-        $platformName = 'Test';
-
-        $deviceData = ['Device_Name' => 'TestDevice'];
-
-        $deviceMock = $this->getMockBuilder(Device::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
-            ->getMock();
-
-        $deviceMock->expects(self::any())
-            ->method('getProperties')
-            ->will(self::returnValue($deviceData));
-
-        $collection = $this->getMockBuilder(DataCollection::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getDevice'])
-            ->getMock();
-
-        $collection->expects(self::any())
-            ->method('getDevice')
-            ->will(self::returnValue($deviceMock));
-
-        self::assertInstanceOf(
-            Platform::class,
-            $this->object->build($platformData, $json, $platformName)
-        );
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests the successfull creating of an platform
      */
     public function testBuildOk() : void
     {

@@ -11,9 +11,6 @@ class EngineTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter for the engine properties
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testGetProperties() : void
     {

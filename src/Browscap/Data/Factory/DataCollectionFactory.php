@@ -70,10 +70,10 @@ class DataCollectionFactory
         $this->addEnginesFile($resourceFolder . '/engines.json');
 
         $this->logger->debug('add file for default properties');
-        $this->addDefaultProperties($resourceFolder . '/core/default-properties.json');
+        $this->setDefaultProperties($resourceFolder . '/core/default-properties.json');
 
         $this->logger->debug('add file for default browser');
-        $this->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
+        $this->setDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
         $deviceDirectory = $resourceFolder . '/devices';
 
@@ -123,12 +123,6 @@ class DataCollectionFactory
         foreach (array_keys($decodedFileContent['platforms']) as $platformName) {
             $platformData = $decodedFileContent['platforms'][$platformName];
 
-            Assertion::keyExists($platformData, 'match', 'required attibute "match" is missing for platform "' . $platformName . '"');
-
-            if (!isset($platformData['properties']) && !isset($platformData['inherits'])) {
-                throw new \UnexpectedValueException('required attibute "properties" is missing');
-            }
-
             $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent['platforms'], $platformName));
         }
     }
@@ -152,10 +146,6 @@ class DataCollectionFactory
 
         foreach (array_keys($decodedFileContent['engines']) as $engineName) {
             $engineData = $decodedFileContent['engines'][$engineName];
-
-            if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
-                throw new \UnexpectedValueException('required attibute "properties" is missing');
-            }
 
             $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent['engines'], $engineName));
         }
@@ -211,12 +201,12 @@ class DataCollectionFactory
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
-    public function addDefaultProperties(string $filename) : void
+    public function setDefaultProperties(string $filename) : void
     {
         $divisionData = $this->loadFile($filename);
         $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, true);
 
-        $this->collection->addDefaultProperties(
+        $this->collection->setDefaultProperties(
             $this->divisionFactory->build(
                 $divisionData,
                 $filename,
@@ -232,12 +222,12 @@ class DataCollectionFactory
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
-    public function addDefaultBrowser(string $filename) : void
+    public function setDefaultBrowser(string $filename) : void
     {
         $divisionData = $this->loadFile($filename);
         $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, true);
 
-        $this->collection->addDefaultBrowser(
+        $this->collection->setDefaultBrowser(
             $this->divisionFactory->build(
                 $divisionData,
                 $filename,

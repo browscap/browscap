@@ -17,10 +17,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->object = new EngineFactory();
@@ -28,9 +24,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testBuildWithMissingParent() : void
     {
@@ -46,9 +39,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testBuildWithRepeatingProperties() : void
     {
@@ -68,9 +58,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testBuild() : void
     {
