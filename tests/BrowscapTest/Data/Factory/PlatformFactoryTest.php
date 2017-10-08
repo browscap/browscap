@@ -74,6 +74,21 @@ class PlatformFactoryTest extends TestCase
     }
 
     /**
+     * tests that the missing "inherits" property and missing "properties" property is leading to an error
+     */
+    public function testBuildWithMissingInheritAndProperties() : void
+    {
+        $this->expectException(UnexpectedValueException::class);
+        $this->expectExceptionMessage('required attibute "properties" is missing');
+
+        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => false, 'standard' => false];
+        $json         = [];
+        $platformName = 'Test';
+
+        $this->object->build($platformData, $json, $platformName);
+    }
+
+    /**
      * tests that a missing parent platform is leading to an error
      */
     public function testBuildMissingParentPlatform() : void

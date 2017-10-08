@@ -22,9 +22,18 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object = new EngineFactory();
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
+    public function testBuildWithMissingInheritAndProperties() : void
+    {
+        $this->expectException(UnexpectedValueException::class);
+        $this->expectExceptionMessage('required attibute "properties" is missing');
+
+        $engineData = ['abc' => 'def'];
+        $json       = [];
+        $engineName = 'Test';
+
+        $this->object->build($engineData, $json, $engineName);
+    }
+
     public function testBuildWithMissingParent() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -37,9 +46,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object->build($engineData, $json, $engineName);
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildWithRepeatingProperties() : void
     {
         $this->expectException(UnexpectedValueException::class);
@@ -56,9 +62,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object->build($engineData, $json, $engineName);
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuild() : void
     {
         $engineData = ['properties' => ['abc' => 'xyz'], 'inherits' => 'abc'];
