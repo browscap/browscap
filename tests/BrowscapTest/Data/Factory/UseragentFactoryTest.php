@@ -6,6 +6,7 @@ use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Data\Validator\ChildrenDataValidator;
 use Browscap\Data\Validator\UseragentDataValidator;
+use LogicException;
 
 /**
  * Class UseragentFactoryTestTest
@@ -80,7 +81,7 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testChildrenNotArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('each entry of the children property has to be an array for key "abc"');
 
         $userAgentsData = [

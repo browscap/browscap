@@ -2,10 +2,12 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
+use UnexpectedValueException;
 
 /**
  * Class PlatformFactoryTestTest
@@ -23,7 +25,6 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        self::markTestSkipped();
         $this->object = new PlatformFactory();
     }
 
@@ -35,7 +36,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildMissingLiteProperty() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "lite" key is missing for the platform with the key "Test"');
 
         $platformData = ['abc' => 'def'];
@@ -53,7 +54,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildMissingStandardProperty() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "standard" key is missing for the platform with the key "Test"');
 
         $platformData = ['abc' => 'def', 'lite' => false];
@@ -71,17 +72,15 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithoutMatchProperty() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for the "match" key is missing for the platform with the key "Test"');
 
         $platformData = ['properties' => ['abc' => 'def'], 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
         $json         = [
-            'platforms' => [
-                'abc' => [
-                    'properties' => ['abc' => 'def'],
-                    'standard' => false,
-                    'lite' => false,
-                ],
+            'abc' => [
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
             ],
         ];
         $platformName = 'Test';
@@ -97,7 +96,7 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildMissingParentPlatform() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('parent Platform "abc" is missing for platform "Test"');
 
         $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
@@ -115,18 +114,16 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithRepeatingProperties() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('the value for property "abc" has the same value in the keys "Test" and its parent "abc"');
 
         $platformData = ['properties' => ['abc' => 'def'], 'match' => 'test*', 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
         $json         = [
-            'platforms' => [
-                'abc' => [
-                    'match' => 'test*',
-                    'properties' => ['abc' => 'def'],
-                    'standard' => false,
-                    'lite' => false,
-                ],
+            'abc' => [
+                'match' => 'test*',
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
             ],
         ];
         $platformName = 'Test';
@@ -182,13 +179,11 @@ class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
     {
         $platformData = ['properties' => ['abc' => 'zyx'], 'match' => 'test*', 'lite' => true, 'standard' => true, 'inherits' => 'abc'];
         $json         = [
-            'platforms' => [
-                'abc' => [
-                    'match' => 'test*',
-                    'properties' => ['abc' => 'def'],
-                    'standard' => false,
-                    'lite' => false,
-                ],
+            'abc' => [
+                'match' => 'test*',
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
             ],
         ];
         $platformName = 'Test';

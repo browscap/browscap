@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Validator\DeviceDataPropertyValidator;
+use LogicException;
 
 /**
  * Class DataCollectionTestTest
@@ -30,7 +31,7 @@ class DeviceDataPropertyValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithDeviceProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('error message');
 
         $properties = ['Device_Name' => 'test'];

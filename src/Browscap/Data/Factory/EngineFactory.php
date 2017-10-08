@@ -27,9 +27,9 @@ class EngineFactory
         if (array_key_exists('inherits', $engineData)) {
             $parentName = $engineData['inherits'];
 
-            Assertion::keyExists($json['engines'], $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
+            Assertion::keyExists($json, $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
 
-            $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
+            $parentEngine     = $this->build($json[$parentName], $json, $parentName);
             $parentEngineData = $parentEngine->getProperties();
 
             $engineProperties = $engineData['properties'];

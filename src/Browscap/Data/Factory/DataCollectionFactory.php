@@ -129,7 +129,7 @@ class DataCollectionFactory
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $json, $platformName));
+            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $json['platforms'], $platformName));
         }
     }
 
@@ -157,7 +157,7 @@ class DataCollectionFactory
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $json, $engineName));
+            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $json['engines'], $engineName));
         }
     }
 
@@ -175,9 +175,7 @@ class DataCollectionFactory
         $json = $this->loadFile($filename);
 
         foreach ($json as $deviceName => $deviceData) {
-            Assertion::keyExists($deviceData, 'properties', 'required attibute "properties" is missing for device "' . $deviceName . '"');
-
-            $this->collection->addDevice($deviceName, $this->deviceFactory->build($deviceData, $json, $deviceName));
+            $this->collection->addDevice($deviceName, $this->deviceFactory->build($deviceData, $deviceName));
         }
     }
 

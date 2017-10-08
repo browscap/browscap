@@ -5,6 +5,7 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
+use RunTimeException;
 
 /**
  * Class CollectionCreatorTestTest
@@ -35,7 +36,7 @@ class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $this->expectException('\RunTimeException');
+        $this->expectException(RunTimeException::class);
         $this->expectExceptionMessage('File "./platforms.json" does not exist.');
 
         $collection = $this->getMockBuilder(DataCollection::class)

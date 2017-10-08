@@ -9,6 +9,7 @@ use Browscap\Data\Helper\PlatformDataPropertyValidator;
 use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
 use Browscap\Data\Validator\ChildrenDataValidator;
+use LogicException;
 
 /**
  * Class ChildrenDataTestTest
@@ -54,7 +55,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testDeviceAndDevicesPropertiesAreAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('a child may not define both the "device" and the "devices" entries for key "testUA", for child data: {"device":[],"devices":"def"}');
 
         $childData = [
@@ -77,7 +78,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testDevicesPropertyIsNotAnArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "devices" entry for key "testUA" has to be an array for child data: {"devices":"def"}');
 
         $childData = [
@@ -99,7 +100,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testDevicePropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "device" entry has to be a string for key "testUA", for child data: {"device":[]}');
 
         $childData = [
@@ -121,7 +122,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testMatchPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('each entry of the children property requires an "match" entry for key "testUA", missing for child data: {"device":"abc"}');
 
         $childData = [
@@ -143,7 +144,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testMatchPropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "match" entry for key "testUA" has to be a string for child data: {"device":"abc","match":[]}');
 
         $childData = [
@@ -166,7 +167,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testMatchPropertyIncludesInvalidCharacters() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('key "[abc" includes invalid characters');
 
         $childData = [
@@ -189,7 +190,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testMatchPropertyIncludesPlatformPlaceholder() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the key "abc#PLATFORM#" is defined with platform placeholder, but no platforms are assigned');
 
         $childData = [
@@ -212,7 +213,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPlatformsPropertyIsNotAnArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "platforms" entry for key "testUA" has to be an array for child data: {"device":"abc","match":"abc","platforms":"abc"}');
 
         $childData = [
@@ -236,7 +237,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testMultiplePlatformsWithoutPlatformPlaceholder() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "testUA", for child data: {"device":"abc","match":"abc","platforms":["abc","def"]}');
 
         $childData = [
@@ -260,7 +261,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testVersionPlaceholderIsAvailableButNoVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the key "abc#MAJORVER#" is defined with version placeholders, but no versions are set');
 
         $childData = [
@@ -283,7 +284,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testNoVersionPlaceholderIsAvailableButMultipleVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the key "abc" is defined without version placeholders, but there are versions set');
 
         $childData = [
@@ -306,7 +307,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testNoVersionPlaceholderIsAvailableButMultipleVersionsAndNoDynamicPlatform() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the key "abc#PLATFORM#" is defined without version placeholders, but there are versions set');
 
         $childData = [
@@ -352,7 +353,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testDevicePlaceholderIsAvailableButNoDevices() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the key "abc#DEVICE#" is defined with device placeholder, but no devices are assigned');
 
         $childData = [
@@ -375,7 +376,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testNoDevicePlaceholderIsAvailableButMultipleDevices() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "devices" entry contains multiple devices but there is no #DEVICE# token for key "testUA", for child data: {"match":"abc","devices":["cdf","xyz"]}');
 
         $childData = [
@@ -419,7 +420,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPropertiesPropertyIsNotAnArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the properties entry has to be an array for key "abc"');
 
         $childData = [
@@ -443,7 +444,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPropertiesPropertyHasParent() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the Parent property must not set inside the children array for key "abc"');
 
         $childData = [
@@ -467,7 +468,7 @@ class ChildrenDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPropertiesPropertyHasVersionSameAsParent() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Version" property is set for key "abc", but was already set for its parent "testUA" with the same value');
 
         $childData = [
