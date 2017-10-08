@@ -26,7 +26,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        self::markTestSkipped();
         $logger = $this->createMock(Logger::class);
 
         $useragentFactory = $this->getMockBuilder(UserAgentFactory::class)
@@ -41,15 +40,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
 
         $divisionData = $this->createMock(DivisionDataValidator::class);
 
-        $this->object = new DivisionFactory($logger);
-
-        $property = new \ReflectionProperty($this->object, 'useragentFactory');
-        $property->setAccessible(true);
-        $property->setValue($this->object, $useragentFactory);
-
-        $property = new \ReflectionProperty($this->object, 'divisionData');
-        $property->setAccessible(true);
-        $property->setValue($this->object, $divisionData);
+        $this->object = new DivisionFactory($logger, $useragentFactory);
     }
 
     /**
@@ -68,9 +59,8 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             'userAgents' => [[], []],
         ];
         $filename     = 'test.xyz';
-        $allDivisions = [];
 
-        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, $allDivisions, false));
+        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 
     /**
@@ -90,8 +80,7 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
             'versions' => ['1.0'],
         ];
         $filename     = 'test.xyz';
-        $allDivisions = [];
 
-        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, $allDivisions, false));
+        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 }

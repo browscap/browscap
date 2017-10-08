@@ -113,15 +113,15 @@ class DataCollectionFactory
      */
     public function addPlatformsFile(string $filename) : void
     {
-        $json = $this->loadFile($filename);
+        $decodedFileContent = $this->loadFile($filename);
 
-        Assertion::keyExists($json, 'platforms', 'required "platforms" structure is missing');
-        Assertion::isArray($json['platforms'], 'required "platforms" structure has to be an array');
+        Assertion::keyExists($decodedFileContent, 'platforms', 'required "platforms" structure is missing');
+        Assertion::isArray($decodedFileContent['platforms'], 'required "platforms" structure has to be an array');
 
         $platformFactory = new PlatformFactory();
 
-        foreach (array_keys($json['platforms']) as $platformName) {
-            $platformData = $json['platforms'][$platformName];
+        foreach (array_keys($decodedFileContent['platforms']) as $platformName) {
+            $platformData = $decodedFileContent['platforms'][$platformName];
 
             Assertion::keyExists($platformData, 'match', 'required attibute "match" is missing for platform "' . $platformName . '"');
 
@@ -129,7 +129,7 @@ class DataCollectionFactory
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $json['platforms'], $platformName));
+            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent['platforms'], $platformName));
         }
     }
 
@@ -143,21 +143,21 @@ class DataCollectionFactory
      */
     public function addEnginesFile(string $filename) : void
     {
-        $json = $this->loadFile($filename);
+        $decodedFileContent = $this->loadFile($filename);
 
-        Assertion::keyExists($json, 'engines', 'required "engines" structure is missing');
-        Assertion::isArray($json['engines'], 'required "engines" structure has to be an array');
+        Assertion::keyExists($decodedFileContent, 'engines', 'required "engines" structure is missing');
+        Assertion::isArray($decodedFileContent['engines'], 'required "engines" structure has to be an array');
 
         $engineFactory = new EngineFactory();
 
-        foreach (array_keys($json['engines']) as $engineName) {
-            $engineData = $json['engines'][$engineName];
+        foreach (array_keys($decodedFileContent['engines']) as $engineName) {
+            $engineData = $decodedFileContent['engines'][$engineName];
 
             if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $json['engines'], $engineName));
+            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent['engines'], $engineName));
         }
     }
 
@@ -172,9 +172,9 @@ class DataCollectionFactory
      */
     public function addDevicesFile(string $filename) : void
     {
-        $json = $this->loadFile($filename);
+        $decodedFileContent = $this->loadFile($filename);
 
-        foreach ($json as $deviceName => $deviceData) {
+        foreach ($decodedFileContent as $deviceName => $deviceData) {
             $this->collection->addDevice($deviceName, $this->deviceFactory->build($deviceData, $deviceName));
         }
     }
@@ -259,13 +259,24 @@ class DataCollectionFactory
             throw new \RuntimeException('File "' . $filename . '" does not exist.');
         }
 
-        Assertion::readable($filename, 'File "%s" is not readable.');
+        Assertion::readable($filename, 'File "' . $filename . '" is not readable.');
 
         $fileContent = file_get_contents($filename);
 
-        Assertion::regex($fileContent, '/[^ -~\s]/', 'File "' . $filename . '" contains Non-ASCII-Characters.');
-        Assertion::isJsonString($fileContent, 'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
+        Assertion::string($fileContent);
 
-        return json_decode($fileContent, true);
+        if (preg_match('/[^ -~\s]/', $fileContent)) {
+            throw new \RuntimeException('File "' . $filename . '" contains Non-ASCII-Characters.');
+        }
+
+        $decodedFileContent = json_decode($fileContent, true);
+
+        if (null === $decodedFileContent) {
+            throw new \RuntimeException(
+                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']'
+            );
+        }
+
+        return $decodedFileContent;
     }
 }

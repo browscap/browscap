@@ -25,7 +25,10 @@ class DivisionDataValidator
 
         Assertion::keyExists($divisionData, 'sortIndex', 'required attibute "sortIndex" is missing in File ' . $filename);
         Assertion::integer($divisionData['sortIndex'], 'required attibute "sortIndex" has to be a integer in File ' . $filename);
-        Assertion::greaterThan($divisionData['sortIndex'], 0, 'required attibute "sortIndex" has to be a positive integer in File ' . $filename);
+
+        if (!$isCore) {
+            Assertion::greaterThan($divisionData['sortIndex'], 0, 'required attibute "sortIndex" has to be a positive integer in File ' . $filename);
+        }
 
         Assertion::keyExists($divisionData, 'lite', 'required attibute "lite" is missing in File ' . $filename);
         Assertion::boolean($divisionData['lite'], 'required attibute "lite" has to be an boolean in File ' . $filename);
@@ -68,7 +71,10 @@ class DivisionDataValidator
     ) : void {
         Assertion::keyExists($useragentData, 'userAgent', 'required attibute "userAgent" is missing in userAgents section ' . $index . ' in File ' . $filename);
         Assertion::string($useragentData['userAgent'], 'required attibute "userAgent" has to be a string in userAgents section ' . $index . ' in File ' . $filename);
-        Assertion::regex($useragentData['userAgent'], '/[\[\]]/', 'required attibute "userAgent" includes invalid characters in userAgents section ' . $index . ' in File ' . $filename);
+
+        if (preg_match('/[\[\]]/', $useragentData['userAgent'])) {
+            throw new \LogicException('required attibute "userAgent" includes invalid characters in userAgents section ' . $index . ' in File ' . $filename);
+        }
 
         if (false === mb_strpos($useragentData['userAgent'], '#')
             && in_array($useragentData['userAgent'], $allDivisions)
@@ -103,7 +109,7 @@ class DivisionDataValidator
 
         if (!$isCore) {
             Assertion::keyExists($useragentData['properties'], 'Parent', 'the "Parent" property is missing for key "' . $useragentData['userAgent'] . '" in file "' . $filename . '"');
-            Assertion::same($useragentData['properties']['Parent'], 'the "Parent" property is not linked to the "DefaultProperties" for key "' . $useragentData['userAgent'] . '" in file "' . $filename . '"');
+            Assertion::same($useragentData['properties']['Parent'], 'DefaultProperties', 'the "Parent" property is not linked to the "DefaultProperties" for key "' . $useragentData['userAgent'] . '" in file "' . $filename . '"');
         }
 
         Assertion::keyExists($useragentData['properties'], 'Comment', 'the "Comment" property is missing for key "' . $useragentData['userAgent'] . '" in file "' . $filename . '"');
@@ -212,7 +218,10 @@ class DivisionDataValidator
 
         Assertion::keyExists($childData, 'match', 'each entry of the children property requires an "match" entry for key "' . $useragentData['userAgent'] . '", missing for child data: ');
         Assertion::string($childData['match'], 'the "match" entry for key "' . $useragentData['userAgent'] . '" has to be a string for child data: ');
-        Assertion::regex($childData['match'], '/[\[\]]/', 'key "' . $childData['match'] . '" includes invalid characters');
+
+        if (preg_match('/[\[\]]/', $childData['match'])) {
+            throw new \LogicException('key "' . $childData['match'] . '" includes invalid characters');
+        }
 
         Assertion::notSame($childData['match'], $useragentData['userAgent'], 'the "match" entry is identical to its parents "userAgent" entry for child data: ');
 
