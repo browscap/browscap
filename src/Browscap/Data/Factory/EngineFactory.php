@@ -20,11 +20,19 @@ class EngineFactory
      */
     public function build(array $engineData, array $dataAllEngines, string $engineName) : Engine
     {
-        if (!isset($engineData['properties'])) {
+        Assertion::isArray($engineData, 'each entry inside the "engines" structure has to be an array');
+
+        if (!array_key_exists('properties', $engineData) && !array_key_exists('inherits', $engineData)) {
+            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        }
+
+        if (!array_key_exists('properties', $engineData) || !is_array($engineData['properties'])) {
             $engineData['properties'] = [];
         }
 
         if (array_key_exists('inherits', $engineData)) {
+            Assertion::string($engineData['inherits'], 'parent Engine key has to be a string for engine "' . $engineName . '"');
+
             $parentName = $engineData['inherits'];
 
             Assertion::keyExists($dataAllEngines, $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');

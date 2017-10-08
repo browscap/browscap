@@ -75,9 +75,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider propertyNameTypeDataProvider
      *
-     * @group data
-     * @group sourcetest
-     *
      * @param mixed $propertyName
      * @param mixed $expectedType
      */
@@ -155,9 +152,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider litePropertiesDataProvider
      *
-     * @group data
-     * @group sourcetest
-     *
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
@@ -179,9 +173,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting a standard mode property
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testIsLiteModePropertyWithWriter() : void
     {
@@ -253,9 +244,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting a standard mode property
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testIsLiteModePropertyWithIniWriter() : void
     {
@@ -274,9 +262,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @dataProvider standardPropertiesDataProvider
-     *
-     * @group data
-     * @group sourcetest
      *
      * @param mixed $propertyName
      * @param mixed $isExtra
@@ -299,9 +284,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting a standard mode property
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testIsStandardModePropertyWithWriter() : void
     {
@@ -378,9 +360,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group data
-     * @group sourcetest
-     *
      * @param mixed $propertyName
      * @param mixed $isExtra
      */
@@ -402,9 +381,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting a output property if a writer is given
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testIsOutputPropertyWithCsvWriter() : void
     {
@@ -435,9 +411,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting a output property if a writer is given
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testIsOutputPropertyWithIniWriter() : void
     {
@@ -472,9 +445,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @dataProvider checkValueInArrayProvider
-     *
-     * @group data
-     * @group sourcetest
      *
      * @param mixed $propertyName
      * @param mixed $propertyValue

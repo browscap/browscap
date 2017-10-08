@@ -20,10 +20,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $logger = $this->createMock(Logger::class);
@@ -45,9 +41,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testBuildOk() : void
     {
@@ -65,9 +58,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
      */
     public function testBuildOkWithVersions() : void
     {

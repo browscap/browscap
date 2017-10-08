@@ -17,10 +17,6 @@ use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use WurflCache\Adapter\File;
 
-/**
- * @group      useragenttest
- * @group      full
- */
 class FullTest extends \PHPUnit\Framework\TestCase
 {
     /**

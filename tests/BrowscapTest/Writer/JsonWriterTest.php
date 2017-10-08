@@ -32,10 +32,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
      */
     private $file;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -46,10 +42,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
         $this->object = new JsonWriter($this->file, $logger);
     }
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function teardown() : void
     {
         $this->object->close();
