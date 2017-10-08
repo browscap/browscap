@@ -6,12 +6,9 @@ use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 use Browscap\Filter\FullFilter;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterInterface;
 
-/**
- * Class FullFilterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class FullFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -19,10 +16,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
@@ -71,7 +64,17 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputProperty() : void
     {
-        self::assertTrue($this->object->isOutputProperty('Comment'));
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        self::assertTrue($this->object->isOutputProperty('Comment', $mockWriterIni));
     }
 
     /**
@@ -93,8 +96,18 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValue(false));
 
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
         $object = new FullFilter($propertyHolder);
-        self::assertFalse($object->isOutputProperty('Comment'));
+        self::assertFalse($object->isOutputProperty('Comment', $mockWriterIni));
     }
 
     /**

@@ -5,12 +5,7 @@ namespace BrowscapTest\Data\Validator;
 use Browscap\Data\Division;
 use Browscap\Data\Validator\DivisionDataValidator;
 
-/**
- * Class DivisionDataTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class DivisionDataTest extends \PHPUnit\Framework\TestCase
+class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Data\Validator\DivisionDataValidator

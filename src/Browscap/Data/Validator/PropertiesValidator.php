@@ -5,6 +5,8 @@ namespace Browscap\Data\Validator;
 class PropertiesValidator
 {
     /**
+     * validates the fully expanded properties
+     *
      * @param string $key
      * @param array  $properties
      *

@@ -26,22 +26,22 @@ class FullTest extends \PHPUnit\Framework\TestCase
     /**
      * @var \BrowscapPHP\Browscap
      */
-    private static $browscap = null;
+    private static $browscap;
 
     /**
      * @var \BrowscapPHP\BrowscapUpdater
      */
-    private static $browscapUpdater = null;
+    private static $browscapUpdater;
 
     /**
      * @var string
      */
-    private static $buildFolder = null;
+    private static $buildFolder;
 
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private static $propertyHolder = null;
+    private static $propertyHolder;
 
     /**
      * @var string[]
@@ -49,9 +49,14 @@ class FullTest extends \PHPUnit\Framework\TestCase
     private static $coveredPatterns = [];
 
     /**
-     * @var \Browscap\Filter\FullFilter
+     * @var \Browscap\Filter\FilterInterface
      */
-    private static $filter = null;
+    private static $filter;
+
+    /**
+     * @var \Browscap\Writer\WriterInterface
+     */
+    private static $writer;
 
     public static function setUpBeforeClass() : void
     {
@@ -79,12 +84,11 @@ class FullTest extends \PHPUnit\Framework\TestCase
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new FullFilter(self::$propertyHolder);
-
-        $fullPhpWriter = new IniWriter(self::$buildFolder . '/full_php_browscap.ini', $logger);
-        $formatter     = new PhpFormatter(self::$propertyHolder);
-        $fullPhpWriter->setFormatter($formatter);
-        $fullPhpWriter->setFilter(self::$filter);
-        $writerCollection->addWriter($fullPhpWriter);
+        self::$writer         = new IniWriter(self::$buildFolder . '/full_php_browscap.ini', $logger);
+        $formatter            = new PhpFormatter(self::$propertyHolder);
+        self::$writer->setFormatter($formatter);
+        self::$writer->setFilter(self::$filter);
+        $writerCollection->addWriter(self::$writer);
 
         $dataCollectionFactory = new DataCollectionFactory($logger);
 
@@ -206,7 +210,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
         }
 
         foreach ($expectedProperties as $propName => $propValue) {
-            if (!self::$filter->isOutputProperty($propName)) {
+            if (!self::$filter->isOutputProperty($propName, self::$writer)) {
                 continue;
             }
 

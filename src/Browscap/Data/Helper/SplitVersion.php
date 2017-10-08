@@ -2,11 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Helper;
 
-/**
- * Class Expander
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class SplitVersion
 {
     /**

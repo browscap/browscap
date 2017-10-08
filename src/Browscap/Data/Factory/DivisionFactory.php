@@ -28,7 +28,7 @@ class DivisionFactory
     }
 
     /**
-     * validates the $deviceData array and creates Device objects from it
+     * validates the $divisionData array and creates Division objects from it
      *
      * @param array  $divisionData
      * @param string $filename

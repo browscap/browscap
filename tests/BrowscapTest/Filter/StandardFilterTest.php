@@ -6,12 +6,9 @@ use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 use Browscap\Filter\StandardFilter;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterInterface;
 
-/**
- * Class StandardFilterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class StandardFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -19,10 +16,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
@@ -155,7 +148,17 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
-        $actualValue = $this->object->isOutputProperty($propertyName);
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterIni);
         self::assertSame($isExtra, $actualValue);
     }
 
@@ -179,8 +182,18 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValue(false));
 
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
         $object = new StandardFilter($propertyHolder);
-        self::assertFalse($object->isOutputProperty($propertyName));
+        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**

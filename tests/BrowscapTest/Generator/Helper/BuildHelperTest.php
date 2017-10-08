@@ -10,9 +10,6 @@ use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
-/**
- * Class BuildGeneratorTestTest
- */
 class BuildHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**

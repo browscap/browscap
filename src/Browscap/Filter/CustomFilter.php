@@ -70,12 +70,12 @@ class CustomFilter implements FilterInterface
     /**
      * checks if a property should be in the output
      *
-     * @param string                                $property
-     * @param \Browscap\Writer\WriterInterface|null $writer
+     * @param string          $property
+     * @param WriterInterface $writer
      *
      * @return bool
      */
-    public function isOutputProperty(string $property, ?WriterInterface $writer = null) : bool
+    public function isOutputProperty(string $property, WriterInterface $writer) : bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;
