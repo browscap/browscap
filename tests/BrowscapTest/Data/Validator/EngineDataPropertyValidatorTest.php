@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Validator\EngineDataPropertyValidator;
+use LogicException;
 
 /**
  * Class DataCollectionTestTest
@@ -30,7 +31,7 @@ class EngineDataPropertyValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithEngineProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('error message');
 
         $properties = ['RenderingEngine_Name' => 'test'];

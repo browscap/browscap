@@ -7,6 +7,8 @@ use Browscap\Data\Division;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\DirectoryMissingException;
+use Browscap\Generator\NoDirectoryException;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
@@ -34,7 +36,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testConstructFailsIfTheDirDoesNotExsist() : void
     {
-        $this->expectException('\Exception');
+        $this->expectException(DirectoryMissingException::class);
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
 
         $writerCollection      = $this->createMock(WriterCollection::class);
@@ -51,7 +53,7 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory() : void
     {
-        $this->expectException('\Exception');
+        $this->expectException(NoDirectoryException::class);
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
         $writerCollection      = $this->createMock(WriterCollection::class);

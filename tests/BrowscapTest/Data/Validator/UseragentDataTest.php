@@ -8,6 +8,7 @@ use Browscap\Data\Helper\EngineDataPropertyValidator;
 use Browscap\Data\Helper\PlatformDataPropertyValidator;
 use Browscap\Data\UserAgent;
 use Browscap\Data\Validator\UseragentDataValidator;
+use LogicException;
 
 /**
  * Class UseragentDataTestTest
@@ -53,7 +54,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Name for Division is missing in file "abc.json"');
 
         $useragentData = [];
@@ -72,7 +73,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Name of Division has to be a string in file "abc.json"');
 
         $useragentData = [
@@ -93,7 +94,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertyHasInvalidCharacters() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Name of Division "abc[" includes invalid characters in file "abc.json"');
 
         $useragentData = [
@@ -114,7 +115,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertisDefinedTwicy() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Division "abc" is defined twice in file "abc.json"');
 
         $useragentData = [
@@ -135,7 +136,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertyHasVersionPlaceholdersButNoVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Division "abc#MAJORVER#" is defined with version placeholders, but no versions are set in file "abc.json"');
 
         $useragentData = [
@@ -156,7 +157,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentPropertyHasNoVersionPlaceholdersButMultipleVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Division "abc" is defined without version placeholders, but there are versions set in file "abc.json"');
 
         $useragentData = [
@@ -177,7 +178,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPropertiesPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the properties entry is missing for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -198,7 +199,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testPropertiesPropertyIsNotArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the properties entry has to be an non-empty array for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -220,7 +221,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testParentPropertyIsMissingInProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Parent" property is missing for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -242,7 +243,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testWrongParentProperty() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Parent" property is not linked to the "DefaultProperties" for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -264,7 +265,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testCommentPropertyIsMissingInProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Comment" property is missing for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -286,7 +287,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testCommentPropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Comment" property has to be a string for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -308,7 +309,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testVersionPropertyIsMissingInProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Version" property is missing for key "abc" in file "abc.json", but there are defined versions');
 
         $useragentData = [
@@ -350,7 +351,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testVersionPropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Version" property has to be a string for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -372,7 +373,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testVersionPropertyHasPlaceholdersButNoVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Version" property has version placeholders for key "abc" in file "abc.json", but no versions are defined');
 
         $useragentData = [
@@ -394,7 +395,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testVersionPropertyHasNoPlaceholdersButMultipleVersions() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the "Version" property has no version placeholders for key "abc#MAJORVER#" in file "abc.json", but versions are defined');
 
         $useragentData = [
@@ -416,7 +417,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testChildrenPropertyIsMissingInProperties() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the children property is missing for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -438,7 +439,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testChildrenPropertyIsNotAnArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the children property has to be an array for key "abc" in file "abc.json"');
 
         $useragentData = [
@@ -461,7 +462,7 @@ class UseragentDataTest extends \PHPUnit\Framework\TestCase
      */
     public function testChildrenPropertyHasDirectMatch() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the children property shall not have the "match" entry for key "abc" in file "abc.json"');
 
         $useragentData = [

@@ -6,6 +6,7 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use InvalidArgumentException;
 
 class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 {
@@ -92,7 +93,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped() : void
     {
-        $this->expectException('\InvalidArgumentException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Property Foobar did not have a defined property type');
 
         $this->object->getPropertyType('Foobar');
@@ -490,7 +491,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckValueInArrayExceptionUndfinedProperty() : void
     {
-        $this->expectException('\InvalidArgumentException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Property "abc" is not defined to be validated');
 
         $this->object->checkValueInArray('abc', 'bcd');
@@ -502,7 +503,7 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckValueInArrayExceptionWrongValue() : void
     {
-        $this->expectException('\InvalidArgumentException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","Tool","unknown"]');
 
         $this->object->checkValueInArray('Browser_Type', 'bcd');

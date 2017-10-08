@@ -9,6 +9,9 @@ use Browscap\Data\Engine;
 use Browscap\Data\Platform;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
+use OutOfBoundsException;
+use RuntimeException;
+use UnexpectedValueException;
 
 /**
  * Class DataCollectionTestTest
@@ -57,7 +60,7 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
      */
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist() : void
     {
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "/hopefully/this/file/does/not/exist" does not exist');
 
         $file = '/hopefully/this/file/does/not/exist';
@@ -77,7 +80,7 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
 
         $in = <<<'HERE'
@@ -97,7 +100,7 @@ HERE;
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoData() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required "platforms" structure is missing');
 
         $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-data.json');
@@ -111,7 +114,7 @@ HERE;
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoMatch() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required attibute "match" is missing');
 
         $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-match.json');
@@ -125,7 +128,7 @@ HERE;
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoProperties() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required attibute "properties" is missing');
 
         $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-properties.json');
@@ -139,7 +142,7 @@ HERE;
      */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void
     {
-        $this->expectException('\OutOfBoundsException');
+        $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Platform "NotExists" does not exist in data');
 
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
@@ -155,7 +158,7 @@ HERE;
      */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
     {
-        $this->expectException('\OutOfBoundsException');
+        $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Rendering Engine "NotExists" does not exist in data');
 
         $this->object->addEnginesFile($this->getEngineJsonFixture());
@@ -194,7 +197,7 @@ HERE;
      */
     public function testAddEnginesFileThrowsExceptionIfFileDoesNotExist() : void
     {
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "/hopefully/this/file/does/not/exist" does not exist');
 
         $file = '/hopefully/this/file/does/not/exist';
@@ -214,7 +217,7 @@ HERE;
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
 
         $in = <<<'HERE'
@@ -234,7 +237,7 @@ HERE;
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoData() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required "engines" structure is missing');
 
         $this->object->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines-without-data.json');
@@ -248,7 +251,7 @@ HERE;
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoProperties() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required attibute "properties" is missing');
 
         $this->object->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines-without-properties.json');
@@ -262,7 +265,7 @@ HERE;
      */
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist() : void
     {
-        $this->expectException('\OutOfBoundsException');
+        $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Device "NotExists" does not exist in data');
 
         $this->object->addDevicesFile($this->getDevicesJsonFixture());
@@ -304,7 +307,7 @@ HERE;
      */
     public function testGetEngineThrowsExceptionIfPlatformDoesNotExist() : void
     {
-        $this->expectException('\OutOfBoundsException');
+        $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Rendering Engine "NotExists" does not exist in data');
 
         $this->object->addEnginesFile($this->getEngineJsonFixture());
@@ -366,7 +369,7 @@ HERE;
      */
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist() : void
     {
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "/hopefully/this/file/does/not/exist" does not exist');
 
         $file = '/hopefully/this/file/does/not/exist';
@@ -386,7 +389,7 @@ HERE;
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
-        $this->expectException('\RuntimeException');
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
 
         $in = <<<'HERE'

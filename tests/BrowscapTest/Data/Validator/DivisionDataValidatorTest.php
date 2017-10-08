@@ -4,6 +4,7 @@ namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Division;
 use Browscap\Data\Validator\DivisionDataValidator;
+use LogicException;
 
 class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
 {
@@ -28,7 +29,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testDivisionPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "division" is missing in File abc.json');
 
         $divisionData = [];
@@ -44,7 +45,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testDivisionPropertyIsNotString() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "division" has to be a string in File abc.json');
 
         $divisionData = [
@@ -62,7 +63,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testSortIndexPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "sortIndex" is missing in File abc.json');
 
         $divisionData = [
@@ -80,7 +81,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testSortIndexPropertyIsNotInteger() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "sortIndex" has to be a positive integer in File abc.json');
 
         $divisionData = [
@@ -99,7 +100,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testSortIndexPropertyIsZero() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "sortIndex" has to be a positive integer in File abc.json');
 
         $divisionData = [
@@ -118,7 +119,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testLitePropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "lite" is missing in File abc.json');
 
         $divisionData = [
@@ -137,7 +138,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testLitePropertyIsNotBoolean() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "lite" has to be an boolean in File abc.json');
 
         $divisionData = [
@@ -157,7 +158,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testStandardPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "standard" is missing in File abc.json');
 
         $divisionData = [
@@ -177,7 +178,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testStandardPropertyIsNotBoolean() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "standard" has to be an boolean in File abc.json');
 
         $divisionData = [
@@ -198,7 +199,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentsPropertyIsNotAvailable() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "userAgents" is missing in File abc.json');
 
         $divisionData = [
@@ -219,7 +220,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testUserAgentsPropertyIsNotAnArray() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('required attibute "userAgents" should be an non-empty array in File abc.json');
 
         $divisionData = [

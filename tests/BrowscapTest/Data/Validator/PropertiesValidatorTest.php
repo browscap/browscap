@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Validator\PropertiesValidator;
+use LogicException;
 
 /**
  * Class DataCollectionTestTest
@@ -29,7 +30,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutVersion() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Version property not found for key "test"');
 
         $properties = [];
@@ -42,7 +43,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutParent() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('Parent property is missing for key "test"');
 
         $properties = [
@@ -58,7 +59,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutDeviceType() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('property "Device_Type" is missing for key "test"');
 
         $properties = [
@@ -75,7 +76,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutIsTablet() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('property "isTablet" is missing for key "test"');
 
         $properties = [
@@ -93,7 +94,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckPropertyWithoutIsMobileDevice() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('property "isMobileDevice" is missing for key "test"');
 
         $properties = [
@@ -114,7 +115,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckTabletMismatchIsTablet() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Tablet for key "test"');
 
         $properties = [
@@ -136,7 +137,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckTabletMismatchIsMobileDevice() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Mobile Device for key "test"');
 
         $properties = [
@@ -158,7 +159,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckMobileMismatchIsTablet() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Mobile Phone" is marked as Tablet for key "test"');
 
         $properties = [
@@ -180,7 +181,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckMobileMismatchIsMobileDevice() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Mobile Phone" is NOT marked as Mobile Device for key "test"');
 
         $properties = [
@@ -202,7 +203,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckDesktopMismatchIsTablet() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Desktop" is marked as Tablet for key "test"');
 
         $properties = [
@@ -224,7 +225,7 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testCheckDesktopMismatchIsMobileDevice() : void
     {
-        $this->expectException('\LogicException');
+        $this->expectException(LogicException::class);
         $this->expectExceptionMessage('the device of type "Desktop" is marked as Mobile Device for key "test"');
 
         $properties = [

@@ -2,8 +2,10 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Assert\InvalidArgumentException;
 use Browscap\Data\Engine;
 use Browscap\Data\Factory\EngineFactory;
+use UnexpectedValueException;
 
 /**
  * Class EngineFactoryTestTest
@@ -21,7 +23,6 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        self::markTestSkipped();
         $this->object = new EngineFactory();
     }
 
@@ -33,7 +34,7 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithMissingParent() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('parent Engine "abc" is missing for engine "Test"');
 
         $engineData = ['abc' => 'def', 'inherits' => 'abc'];
@@ -51,15 +52,13 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testBuildWithRepeatingProperties() : void
     {
-        $this->expectException('\UnexpectedValueException');
+        $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('the value for property "abc" has the same value in the keys "Test" and its parent "abc"');
 
         $engineData = ['properties' => ['abc' => 'def'], 'inherits' => 'abc'];
         $json       = [
-            'engines' => [
-                'abc' => [
-                    'properties' => ['abc' => 'def'],
-                ],
+            'abc' => [
+                'properties' => ['abc' => 'def'],
             ],
         ];
         $engineName = 'Test';
@@ -77,10 +76,8 @@ class EngineFactoryTest extends \PHPUnit\Framework\TestCase
     {
         $engineData = ['properties' => ['abc' => 'xyz'], 'inherits' => 'abc'];
         $json       = [
-            'engines' => [
-                'abc' => [
-                    'properties' => ['abc' => 'def'],
-                ],
+            'abc' => [
+                'properties' => ['abc' => 'def'],
             ],
         ];
         $engineName = 'Test';

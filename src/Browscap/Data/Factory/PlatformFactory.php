@@ -37,9 +37,9 @@ class PlatformFactory
         if (array_key_exists('inherits', $platformData)) {
             $parentName = $platformData['inherits'];
 
-            Assertion::keyExists($json['platforms'], $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
+            Assertion::keyExists($json, $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
 
-            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
+            $parentPlatform     = $this->build($json[$parentName], $json, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
 
             $platformProperties = $platformData['properties'];
