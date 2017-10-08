@@ -10,15 +10,15 @@ class EngineFactory
     /**
      * validates the $engineData array and creates Engine objects from it
      *
-     * @param array  $engineData The Engine data for the current object
-     * @param array  $json       The Engine data for all engines
-     * @param string $engineName The name for the current engine
+     * @param array  $engineData     The Engine data for the current object
+     * @param array  $dataAllEngines The Engine data for all engines
+     * @param string $engineName     The name for the current engine
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      *
      * @return Engine
      */
-    public function build(array $engineData, array $json, string $engineName) : Engine
+    public function build(array $engineData, array $dataAllEngines, string $engineName) : Engine
     {
         if (!isset($engineData['properties'])) {
             $engineData['properties'] = [];
@@ -27,9 +27,9 @@ class EngineFactory
         if (array_key_exists('inherits', $engineData)) {
             $parentName = $engineData['inherits'];
 
-            Assertion::keyExists($json, $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
+            Assertion::keyExists($dataAllEngines, $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
 
-            $parentEngine     = $this->build($json[$parentName], $json, $parentName);
+            $parentEngine     = $this->build($dataAllEngines[$parentName], $dataAllEngines, $parentName);
             $parentEngineData = $parentEngine->getProperties();
 
             $engineProperties = $engineData['properties'];

@@ -4,9 +4,6 @@ namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\UserAgent;
-use Browscap\Data\Validator\ChildrenDataValidator;
-use Browscap\Data\Validator\UseragentDataValidator;
-use LogicException;
 
 /**
  * Class UseragentFactoryTestTest
@@ -24,20 +21,7 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        self::markTestSkipped();
         $this->object = new UserAgentFactory();
-
-        $useragentData = $this->createMock(UseragentDataValidator::class);
-
-        $property = new \ReflectionProperty($this->object, 'useragentData');
-        $property->setAccessible(true);
-        $property->setValue($this->object, $useragentData);
-
-        $childrenData = $this->createMock(ChildrenDataValidator::class);
-
-        $property = new \ReflectionProperty($this->object, 'childrenData');
-        $property->setAccessible(true);
-        $property->setValue($this->object, $childrenData);
     }
 
     /**
@@ -65,40 +49,6 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         $allDivisions = [];
 
         $uas = $this->object->build($userAgentsData, [], true, $allDivisions, '');
-
-        self::assertInternalType('array', $uas);
-
-        foreach ($uas as $useragent) {
-            self::assertInstanceOf(UserAgent::class, $useragent);
-        }
-    }
-
-    /**
-     * tests the creating of an engine factory
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testChildrenNotArray() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('each entry of the children property has to be an array for key "abc"');
-
-        $userAgentsData = [
-            [
-                'userAgent' => 'abc',
-                'properties' => [
-                    'Parent' => 'DefaultProperties',
-                    'Comment' => 'abc',
-                    'Version' => '0.0',
-                ],
-                'children' => ['test'],
-            ],
-        ];
-
-        $allDivisions = [];
-
-        $uas = $this->object->build($userAgentsData, [], false, $allDivisions, '');
 
         self::assertInternalType('array', $uas);
 

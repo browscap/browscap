@@ -15,16 +15,16 @@ class PlatformFactory
     /**
      * validates the $platformData array and creates Platform objects from it
      *
-     * @param array  $platformData The Platform data for the current object
-     * @param array  $json         The Platform data for all platforms
-     * @param string $platformName The name for the current platform
+     * @param array  $platformData     The Platform data for the current object
+     * @param array  $dataAllPlatforms The Platform data for all platforms
+     * @param string $platformName     The name for the current platform
      *
      * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
      *
      * @return Platform
      */
-    public function build(array $platformData, array $json, string $platformName) : Platform
+    public function build(array $platformData, array $dataAllPlatforms, string $platformName) : Platform
     {
         if (!isset($platformData['properties'])) {
             $platformData['properties'] = [];
@@ -37,9 +37,9 @@ class PlatformFactory
         if (array_key_exists('inherits', $platformData)) {
             $parentName = $platformData['inherits'];
 
-            Assertion::keyExists($json, $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
+            Assertion::keyExists($dataAllPlatforms, $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
 
-            $parentPlatform     = $this->build($json[$parentName], $json, $parentName);
+            $parentPlatform     = $this->build($dataAllPlatforms[$parentName], $dataAllPlatforms, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
 
             $platformProperties = $platformData['properties'];

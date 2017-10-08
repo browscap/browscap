@@ -23,7 +23,6 @@ class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp() : void
     {
-        self::markTestSkipped();
         $logger       = $this->createMock(Logger::class);
         $this->object = new DataCollectionFactory($logger);
     }
@@ -87,7 +86,7 @@ class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
+        $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures');
 
         self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
