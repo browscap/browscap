@@ -40,7 +40,7 @@ class DataCollectionFactory
     private $allDivisions = [];
 
     /**
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
     {

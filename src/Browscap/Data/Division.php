@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * represents a useragent as defined in the resources/user-agents directory
+ * represents a useragent division as defined in the resources/user-agents directory
  */
 class Division
 {

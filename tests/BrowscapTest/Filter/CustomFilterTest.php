@@ -6,12 +6,9 @@ use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
 use Browscap\Filter\FilterInterface;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterInterface;
 
-/**
- * Class CustomFilterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class CustomFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -19,10 +16,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
@@ -126,7 +119,17 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
-        self::assertSame($isExtra, $this->object->isOutputProperty($propertyName));
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        self::assertSame($isExtra, $this->object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -149,8 +152,18 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValue(false));
 
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
         $object = new CustomFilter($propertyHolder, ['Parent']);
-        self::assertFalse($object->isOutputProperty($propertyName));
+        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -173,8 +186,18 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
             ->method('isOutputProperty')
             ->will(self::returnValue(false));
 
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
         $object = new CustomFilter($propertyHolder, ['Parent']);
-        self::assertFalse($object->isOutputProperty($propertyName));
+        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**

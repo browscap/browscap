@@ -10,16 +10,8 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 
-/**
- * Class BuildGeneratorTestTest
- */
 class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 {
-    /**
-     * @var array
-     */
-    private $messages = [];
-
     /**
      * @var \Psr\Log\LoggerInterface
      */
