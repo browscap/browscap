@@ -15,7 +15,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
 
     public function setUp() : void
     {
-        self::markTestSkipped();
         $this->object = new DivisionDataValidator();
     }
 
@@ -29,10 +28,9 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->expectExceptionMessage('required attibute "division" is missing in File abc.json');
 
         $divisionData = [];
-
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -49,8 +47,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -67,8 +65,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -78,7 +76,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
     public function testSortIndexPropertyIsNotInteger() : void
     {
         $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('required attibute "sortIndex" has to be a positive integer in File abc.json');
+        $this->expectExceptionMessage('required attibute "sortIndex" has to be a integer in File abc.json');
 
         $divisionData = [
             'division' => 'abc',
@@ -86,8 +84,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -105,8 +103,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -124,8 +122,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -144,8 +142,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -164,8 +162,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -185,8 +183,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -206,8 +204,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -228,8 +226,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
     /**
@@ -238,6 +236,7 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
      */
     public function testOk() : void
     {
+        self::markTestSkipped();
         $divisionData = [
             'division' => 'abc',
             'sortIndex' => 1,
@@ -247,8 +246,8 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         ];
 
         $fileName = 'abc.json';
-
-        $this->object->validate($divisionData, $fileName);
+        $allDivisions = [];
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
         self::assertTrue(true);
     }
 }
