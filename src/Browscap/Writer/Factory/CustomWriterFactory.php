@@ -11,20 +11,18 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class FullPhpWriterFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * a factory to create a writer collection to write a custom browscap file
  */
 class CustomWriterFactory
 {
     /**
-     * @param \Psr\Log\LoggerInterface $logger
-     * @param string                   $buildFolder
-     * @param string|null              $file
-     * @param array                    $fields
-     * @param string                   $format
+     * @param LoggerInterface $logger
+     * @param string          $buildFolder
+     * @param string|null     $file
+     * @param array           $fields
+     * @param string          $format
      *
-     * @return \Browscap\Writer\WriterCollection
+     * @return WriterCollection
      */
     public function createCollection(
         LoggerInterface $logger,

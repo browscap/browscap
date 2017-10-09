@@ -7,11 +7,12 @@ use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use InvalidArgumentException;
+use PHPUnit\Framework\TestCase;
 
-class PropertyHolderTest extends \PHPUnit\Framework\TestCase
+class PropertyHolderTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\PropertyHolder
+     * @var PropertyHolder
      */
     private $object;
 
@@ -75,19 +76,15 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider propertyNameTypeDataProvider
      *
-     * @param mixed $propertyName
-     * @param mixed $expectedType
+     * @param string $propertyName
+     * @param string $expectedType
      */
-    public function testGetPropertyType($propertyName, $expectedType) : void
+    public function testGetPropertyType(string $propertyName, string $expectedType) : void
     {
         $actualType = $this->object->getPropertyType($propertyName);
         self::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -152,10 +149,10 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider litePropertiesDataProvider
      *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsLiteModeProperty($propertyName, $isExtra) : void
+    public function testIsLiteModeProperty(string $propertyName, bool $isExtra) : void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -263,10 +260,10 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider standardPropertiesDataProvider
      *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsStandardModeProperty($propertyName, $isExtra) : void
+    public function testIsStandardModeProperty(string $propertyName, bool $isExtra) : void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -360,10 +357,10 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -446,19 +443,15 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider checkValueInArrayProvider
      *
-     * @param mixed $propertyName
-     * @param mixed $propertyValue
+     * @param string $propertyName
+     * @param string $propertyValue
      */
-    public function testCheckValueInArray($propertyName, $propertyValue) : void
+    public function testCheckValueInArray(string $propertyName, string $propertyValue) : void
     {
         $actualValue = $this->object->checkValueInArray($propertyName, $propertyValue);
         self::assertSame($propertyValue, $actualValue);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckValueInArrayExceptionUndfinedProperty() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -467,10 +460,6 @@ class PropertyHolderTest extends \PHPUnit\Framework\TestCase
         $this->object->checkValueInArray('abc', 'bcd');
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckValueInArrayExceptionWrongValue() : void
     {
         $this->expectException(InvalidArgumentException::class);

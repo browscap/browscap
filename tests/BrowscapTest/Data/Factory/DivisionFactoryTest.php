@@ -7,16 +7,12 @@ use Browscap\Data\Factory\DivisionFactory;
 use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\Validator\DivisionDataValidator;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DivisionFactoryTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
+class DivisionFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\DivisionFactory
+     * @var DivisionFactory
      */
     private $object;
 
@@ -39,9 +35,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object = new DivisionFactory($logger, $useragentFactory);
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildOk() : void
     {
         $divisionData = [
@@ -56,9 +49,6 @@ class DivisionFactoryTest extends \PHPUnit\Framework\TestCase
         self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildOkWithVersions() : void
     {
         $divisionData = [

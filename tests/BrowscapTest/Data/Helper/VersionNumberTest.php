@@ -3,16 +3,12 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Helper;
 
 use Browscap\Data\Helper\VersionNumber;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class ExpanderTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class VersionNumberTest extends \PHPUnit\Framework\TestCase
+class VersionNumberTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\VersionNumber
+     * @var VersionNumber
      */
     private $object;
 

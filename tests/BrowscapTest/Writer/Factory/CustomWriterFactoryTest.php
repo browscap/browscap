@@ -7,18 +7,14 @@ use Browscap\Writer\Factory\CustomWriterFactory;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class CustomWriterFactoryTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
+class CustomWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\Factory\CustomWriterFactory
+     * @var CustomWriterFactory
      */
     private $object;
 
@@ -31,9 +27,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionWithDefaultParams() : void
     {
@@ -45,9 +38,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionForCsvFile() : void
     {
@@ -59,9 +49,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionForAspFile() : void
     {
@@ -73,9 +60,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionForXmlFile() : void
     {
@@ -87,9 +71,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionForJsonFile() : void
     {
@@ -101,9 +82,6 @@ class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollectionForPhpFile() : void
     {

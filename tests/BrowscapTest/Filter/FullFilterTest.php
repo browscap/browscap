@@ -8,11 +8,12 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\FullFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\TestCase;
 
-class FullFilterTest extends \PHPUnit\Framework\TestCase
+class FullFilterTest extends TestCase
 {
     /**
-     * @var \Browscap\Filter\FullFilter
+     * @var FullFilter
      */
     private $object;
 
@@ -33,9 +34,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getter for the filter type
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -44,9 +42,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutput() : void
     {
@@ -55,13 +50,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
         self::assertTrue($this->object->isOutput($division));
     }
 
-    /**
-     * @group filter
-     * @group sourcetest
-     *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
-     */
     public function testIsOutputProperty() : void
     {
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
@@ -77,13 +65,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
         self::assertTrue($this->object->isOutputProperty('Comment', $mockWriterIni));
     }
 
-    /**
-     * @group filter
-     * @group sourcetest
-     *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
-     */
     public function testIsOutputPropertyModified() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
@@ -112,9 +93,6 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if a section is always in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputSectionAlways() : void
     {

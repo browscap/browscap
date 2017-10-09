@@ -5,19 +5,17 @@ namespace Browscap\Formatter;
 use Browscap\Data\PropertyHolder;
 
 /**
- * Class JsonFormatter
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * this formatter is responsible to format the output into the "json" version of the browscap files
  */
 class JsonFormatter implements FormatterInterface
 {
     /**
-     * @var \Browscap\Data\PropertyHolder
+     * @var PropertyHolder
      */
     private $propertyHolder;
 
     /**
-     * @param \Browscap\Data\PropertyHolder $propertyHolder
+     * @param PropertyHolder $propertyHolder
      */
     public function __construct(PropertyHolder $propertyHolder)
     {

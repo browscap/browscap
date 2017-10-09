@@ -3,11 +3,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Coverage;
 
 use Browscap\Coverage\Processor;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class ExpanderTestTest
- */
-final class ProcessorTest extends \PHPUnit\Framework\TestCase
+final class ProcessorTest extends TestCase
 {
     /**
      * @var \Browscap\Coverage\Processor
@@ -21,8 +19,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Run before each test, creates a new Processor object
-     *
-     * @return void
      */
     public function setUp() : void
     {
@@ -49,8 +45,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @param string $fileName
      * @param array  $expected
-     *
-     * @return void
      */
     public function testJsonStructure(string $fileName, array $expected) : void
     {
@@ -134,8 +128,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * @param string   $fileName
      * @param string[] $coveredIds
      * @param array    $expected
-     *
-     * @return void
      */
     public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
     {
@@ -159,8 +151,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
-     *
-     * @return void
      */
     public function testPatternIdGrouping() : void
     {

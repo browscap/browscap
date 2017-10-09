@@ -2,11 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Formatter;
 
-/**
- * Interface FormatterInterface
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 interface FormatterInterface
 {
     public const TYPE_ASP  = 'asp';

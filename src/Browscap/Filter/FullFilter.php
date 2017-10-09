@@ -7,19 +7,17 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class FullFilter
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * this filter is responsible to select properties and sections for the "full" version of the browscap files
  */
 class FullFilter implements FilterInterface
 {
     /**
-     * @var \Browscap\Data\PropertyHolder
+     * @var PropertyHolder
      */
     private $propertyHolder;
 
     /**
-     * @param \Browscap\Data\PropertyHolder $propertyHolder
+     * @param PropertyHolder $propertyHolder
      */
     public function __construct(PropertyHolder $propertyHolder)
     {
@@ -39,7 +37,7 @@ class FullFilter implements FilterInterface
     /**
      * checks if a division should be in the output
      *
-     * @param \Browscap\Data\Division $division
+     * @param Division $division
      *
      * @return bool
      */

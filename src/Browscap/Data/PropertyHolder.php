@@ -116,7 +116,7 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an property that should
-     * be included in the "full" versions of the files only
+     * be included in the all versions of the files
      *
      * @param string          $propertyName
      * @param WriterInterface $writer
@@ -153,7 +153,7 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an property that should
-     * be included in the "full" versions of the files only
+     * be included in the "standard" or "full" versions of the files only
      *
      * @param string          $propertyName
      * @param WriterInterface $writer
@@ -187,7 +187,7 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
+     * be included in any version of the files)
      *
      * @param string          $propertyName
      * @param WriterInterface $writer

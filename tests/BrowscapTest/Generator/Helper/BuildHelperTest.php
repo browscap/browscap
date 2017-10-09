@@ -9,11 +9,13 @@ use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
-class BuildHelperTest extends \PHPUnit\Framework\TestCase
+class BuildHelperTest extends TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -24,9 +26,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests running a build
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testRun() : void
     {
@@ -149,9 +148,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests running a build
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testRunDuplicateDivision() : void
     {
@@ -274,9 +270,6 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests running a build with pattern id collection enabled
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testRunWithPatternIdCollectionEnabled() : void
     {

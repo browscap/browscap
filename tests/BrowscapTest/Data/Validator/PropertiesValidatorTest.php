@@ -4,11 +4,9 @@ namespace BrowscapTest\Data\Validator;
 
 use Browscap\Data\Validator\PropertiesValidator;
 use LogicException;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DataCollectionTestTest
- */
-class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
+class PropertiesValidatorTest extends TestCase
 {
     /**
      * @var PropertiesValidator
@@ -20,10 +18,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object = new PropertiesValidator();
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckPropertyWithoutVersion() : void
     {
         $this->expectException(LogicException::class);
@@ -33,10 +27,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckPropertyWithoutParent() : void
     {
         $this->expectException(LogicException::class);
@@ -49,10 +39,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckPropertyWithoutDeviceType() : void
     {
         $this->expectException(LogicException::class);
@@ -66,10 +52,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckPropertyWithoutIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -84,10 +66,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testCheckPropertyWithoutIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -103,9 +81,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckTabletMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -122,9 +97,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckTabletMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -141,9 +113,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckMobileMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -160,9 +129,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckMobileMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -179,9 +145,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckDesktopMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -198,9 +161,6 @@ class PropertiesValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->check('test', $properties);
     }
 
-    /**
-     * tests if no error is raised if all went well
-     */
     public function testCheckDesktopMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);

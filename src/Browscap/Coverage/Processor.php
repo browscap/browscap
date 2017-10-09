@@ -95,8 +95,6 @@ final class Processor implements ProcessorInterface
      * Process the directory of JSON files using the collected pattern ids
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function process(array $coveredIds) : void
     {
@@ -128,8 +126,6 @@ final class Processor implements ProcessorInterface
      * Write the coverage data in JSON format to specified filename
      *
      * @param string $fileName
-     *
-     * @return void
      */
     public function write(string $fileName) : void
     {
@@ -147,8 +143,6 @@ final class Processor implements ProcessorInterface
      * Stores passed in pattern ids, grouping them by file first
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function setCoveredPatternIds(array $coveredIds) : void
     {
@@ -255,8 +249,6 @@ final class Processor implements ProcessorInterface
      * (in this case, Division is the only one), returns to caller when EOF is reached
      *
      * @param Lexer $lexer
-     *
-     * @return void
      */
     private function handleJsonRoot(Lexer $lexer) : void
     {
@@ -554,8 +546,6 @@ final class Processor implements ProcessorInterface
      * @param array $end
      * @param array $declaration
      * @param int   $coverage
-     *
-     * @return void
      */
     private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0) : void
     {
@@ -581,8 +571,6 @@ final class Processor implements ProcessorInterface
      * @param array $end
      * @param array $locations
      * @param int[] $coverage
-     *
-     * @return void
      */
     private function collectBranch(array $start, array $end, array $locations, array $coverage = []) : void
     {
@@ -608,8 +596,6 @@ final class Processor implements ProcessorInterface
      * @param array $start
      * @param array $end
      * @param int   $coverage
-     *
-     * @return void
      */
     private function collectStatement(array $start, array $end, int $coverage = 0) : void
     {

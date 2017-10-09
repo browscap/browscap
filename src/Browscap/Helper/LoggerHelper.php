@@ -10,19 +10,14 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Logger\ConsoleLogger;
 use Symfony\Component\Console\Output\OutputInterface;
 
-/**
- * Class LoggerHelper
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class LoggerHelper
 {
     /**
-     * creates a \Monolo\Logger instance
+     * creates an instance of a PSR-3 Logger
      *
-     * @param \Symfony\Component\Console\Output\OutputInterface $output
+     * @param OutputInterface $output
      *
-     * @return \Psr\Log\LoggerInterface
+     * @return LoggerInterface
      */
     public function create(OutputInterface $output) : LoggerInterface
     {

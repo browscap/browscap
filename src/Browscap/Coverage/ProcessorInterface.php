@@ -8,8 +8,6 @@ interface ProcessorInterface
      * Process the directory of JSON files using the collected pattern ids
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function process(array $coveredIds) : void;
 
@@ -17,8 +15,6 @@ interface ProcessorInterface
      * Write the processed coverage data to filename
      *
      * @param string $fileName
-     *
-     * @return void
      */
     public function write(string $fileName) : void;
 
@@ -26,8 +22,6 @@ interface ProcessorInterface
      * Set covered pattern ids
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function setCoveredPatternIds(array $coveredIds) : void;
 

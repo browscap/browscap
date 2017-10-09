@@ -3,24 +3,21 @@ declare(strict_types = 1);
 namespace BrowscapTest;
 
 use Browscap\Browscap;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Command\Command;
 
-/**
- * Class BrowscapTestTest
- */
-class BrowscapTest extends \PHPUnit\Framework\TestCase
+class BrowscapTest extends TestCase
 {
     /**
-     * @param \Symfony\Component\Console\Application $app
-     * @param string                                 $command
-     *
-     * @return void
+     * @param Application $app
+     * @param string      $command
      */
     private static function assertAppHasCommand(Application $app, $command) : void
     {
         $cmdObject = $app->get($command);
 
-        self::assertInstanceOf('Symfony\Component\Console\Command\Command', $cmdObject);
+        self::assertInstanceOf(Command::class, $cmdObject);
         self::assertSame($command, $cmdObject->getName());
     }
 
@@ -29,8 +26,6 @@ class BrowscapTest extends \PHPUnit\Framework\TestCase
      *
      * @group browscap
      * @group sourcetest
-     *
-     * @return void
      */
     public function testConstructorAddsExpectedCommands() : void
     {

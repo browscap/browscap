@@ -63,8 +63,6 @@ class Expander
 
     /**
      * Resets the pattern id
-     *
-     * @return void
      */
     private function resetPatternId() : void
     {

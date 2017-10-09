@@ -13,18 +13,14 @@ use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class IniWriterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class IniWriterTest extends \PHPUnit\Framework\TestCase
+class IniWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\IniWriter
+     * @var IniWriter
      */
     private $object;
 
@@ -52,9 +48,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getting the writer type
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -63,9 +56,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a formatter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFormatter() : void
     {
@@ -77,9 +67,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a filter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFilter() : void
     {
@@ -91,9 +78,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetSilent() : void
     {
@@ -105,9 +89,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStart() : void
     {
@@ -117,9 +98,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEnd() : void
     {
@@ -129,9 +107,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfSilent() : void
     {
@@ -145,9 +120,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfNotSilent() : void
     {
@@ -166,9 +138,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfSilent() : void
     {
@@ -187,9 +156,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilent() : void
     {
@@ -213,9 +179,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
@@ -234,9 +197,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -248,9 +208,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeaderIfNotSilent() : void
     {
@@ -265,9 +222,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeaderIfSilent() : void
     {
@@ -279,9 +233,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfNotSilent() : void
     {
@@ -293,9 +244,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfSilent() : void
     {
@@ -307,9 +255,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilent() : void
     {
@@ -412,9 +357,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -529,9 +471,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -645,9 +584,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -667,9 +603,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfNotSilent() : void
     {
@@ -681,9 +614,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfSilent() : void
     {
@@ -695,9 +625,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionFooter() : void
     {
@@ -707,9 +634,6 @@ class IniWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer after all divisions
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsFooter() : void
     {

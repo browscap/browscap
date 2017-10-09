@@ -6,18 +6,14 @@ use Browscap\Writer\Factory\FullPhpWriterFactory;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class FullPhpWriterFactoryTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class FullPhpWriterFactoryTest extends \PHPUnit\Framework\TestCase
+class FullPhpWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\Factory\FullPhpWriterFactory
+     * @var FullPhpWriterFactory
      */
     private $object;
 
@@ -30,9 +26,6 @@ class FullPhpWriterFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testCreateCollection() : void
     {

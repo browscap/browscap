@@ -13,8 +13,6 @@ class DivisionDataValidator
      * @param string $filename
      * @param array  &$allDivisions
      * @param bool   $isCore
-     *
-     * @return void
      */
     public function validate(
         array $divisionData,
@@ -189,8 +187,6 @@ class DivisionDataValidator
      * @param array $versions      The versions from the division
      *
      * @throws \LogicException
-     *
-     * @return void
      */
     private function validateChildSection(array $childData, array $useragentData, array $versions) : void
     {
@@ -340,8 +336,6 @@ class DivisionDataValidator
      * @param string $message
      *
      * @throws \LogicException
-     *
-     * @return void
      */
     private function checkPlatformProperties(array $properties, string $message) : void
     {
@@ -366,8 +360,6 @@ class DivisionDataValidator
      * @param string $message
      *
      * @throws \LogicException
-     *
-     * @return void
      */
     public function checkEngineProperties(array $properties, string $message) : void
     {
@@ -390,8 +382,6 @@ class DivisionDataValidator
      * @param string $message
      *
      * @throws \LogicException
-     *
-     * @return void
      */
     public function checkDeviceProperties(array $properties, string $message) : void
     {

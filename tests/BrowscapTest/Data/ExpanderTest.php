@@ -9,16 +9,12 @@ use Browscap\Data\Expander;
 use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class ExpanderTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class ExpanderTest extends \PHPUnit\Framework\TestCase
+class ExpanderTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Expander
+     * @var Expander
      */
     private $object;
 

@@ -11,11 +11,13 @@ use Browscap\Generator\DirectoryMissingException;
 use Browscap\Generator\NoDirectoryException;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
-class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
+class BuildGeneratorTest extends TestCase
 {
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -26,9 +28,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests failing the build if the build dir does not exist
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testConstructFailsIfTheDirDoesNotExsist() : void
     {
@@ -43,9 +42,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests failing the build if no build dir is a file
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory() : void
     {
@@ -60,9 +56,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests running a build
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testBuild() : void
     {
@@ -186,9 +179,6 @@ class BuildGeneratorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests running a build without generating a zip file
-     *
-     * @group generator
-     * @group sourcetest
      */
     public function testBuildWithoutZip() : void
     {

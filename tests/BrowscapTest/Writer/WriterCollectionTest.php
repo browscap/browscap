@@ -10,23 +10,20 @@ use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use org\bovigo\vfs\vfsStreamDirectory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class WriterCollectionTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class WriterCollectionTest extends \PHPUnit\Framework\TestCase
+class WriterCollectionTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\WriterCollection
+     * @var WriterCollection
      */
     private $object;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var vfsStreamDirectory
      */
     private $root;
 
@@ -45,9 +42,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a writer
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testAddWriterAndSetSilent() : void
     {
@@ -80,9 +74,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetSilentSection() : void
     {
@@ -114,9 +105,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStart() : void
     {
@@ -135,9 +123,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEnd() : void
     {
@@ -156,9 +141,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeader() : void
     {
@@ -179,9 +161,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersion() : void
     {
@@ -244,9 +223,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -267,9 +243,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeader() : void
     {
@@ -288,9 +261,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeader() : void
     {
@@ -309,9 +279,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBody() : void
     {
@@ -337,9 +304,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooter() : void
     {
@@ -358,9 +322,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionFooter() : void
     {
@@ -379,9 +340,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer after all divisions
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsFooter() : void
     {

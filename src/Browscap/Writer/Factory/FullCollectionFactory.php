@@ -19,17 +19,15 @@ use Browscap\Writer\XmlWriter;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class FullCollectionFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * a factory to create a writer collection to write all browscap files at once
  */
 class FullCollectionFactory
 {
     /**
-     * @param \Psr\Log\LoggerInterface $logger
-     * @param string                   $buildFolder
+     * @param LoggerInterface $logger
+     * @param string          $buildFolder
      *
-     * @return \Browscap\Writer\WriterCollection
+     * @return WriterCollection
      */
     public function createCollection(LoggerInterface $logger, string $buildFolder) : WriterCollection
     {

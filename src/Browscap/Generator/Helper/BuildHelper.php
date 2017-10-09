@@ -10,16 +10,9 @@ use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class BuildGenerator
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 final class BuildHelper
 {
     /**
-     * Entry point for generating builds for a specified version
-     *
      * @param string                $buildVersion
      * @param string                $resourceFolder
      * @param LoggerInterface       $logger
@@ -28,8 +21,6 @@ final class BuildHelper
      * @param bool                  $collectPatternIds
      *
      * @throws \Exception
-     *
-     * @return void
      */
     public static function run(
         string $buildVersion,

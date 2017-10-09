@@ -8,11 +8,12 @@ use Browscap\Filter\CustomFilter;
 use Browscap\Filter\FilterInterface;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\TestCase;
 
-class CustomFilterTest extends \PHPUnit\Framework\TestCase
+class CustomFilterTest extends TestCase
 {
     /**
-     * @var \Browscap\Filter\CustomFilter
+     * @var CustomFilter
      */
     private $object;
 
@@ -33,9 +34,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getter for the filter type
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -44,9 +42,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutput() : void
     {
@@ -111,9 +106,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group filter
-     * @group sourcetest
-     *
      * @param string $propertyName
      * @param bool   $isExtra
      */
@@ -135,12 +127,9 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group filter
-     * @group sourcetest
-     *
-     * @param mixed $propertyName
+     * @param string $propertyName
      */
-    public function testIsOutputPropertyModified($propertyName) : void
+    public function testIsOutputPropertyModified(string $propertyName) : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -168,9 +157,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @group filter
-     * @group sourcetest
      *
      * @param string $propertyName
      */
@@ -202,9 +188,6 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if a section is always in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputSectionAlways() : void
     {

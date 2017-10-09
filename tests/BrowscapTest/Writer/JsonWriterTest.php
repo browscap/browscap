@@ -12,18 +12,14 @@ use Browscap\Writer\JsonWriter;
 use Browscap\Writer\WriterInterface;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class JsonWriterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class JsonWriterTest extends \PHPUnit\Framework\TestCase
+class JsonWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\JsonWriter
+     * @var JsonWriter
      */
     private $object;
 
@@ -51,9 +47,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getting the writer type
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -62,9 +55,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a formatter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFormatter() : void
     {
@@ -76,9 +66,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a filter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFilter() : void
     {
@@ -90,9 +77,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetSilent() : void
     {
@@ -104,9 +88,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStartIfNotSilent() : void
     {
@@ -121,9 +102,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStartIfSilent() : void
     {
@@ -135,9 +113,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEndIfNotSilent() : void
     {
@@ -149,9 +124,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEndIfSilent() : void
     {
@@ -163,9 +135,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfSilent() : void
     {
@@ -179,9 +148,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfNotSilent() : void
     {
@@ -199,9 +165,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfSilent() : void
     {
@@ -220,9 +183,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilent() : void
     {
@@ -245,9 +205,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
@@ -265,9 +222,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -279,9 +233,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeader() : void
     {
@@ -293,9 +244,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfNotSilent() : void
     {
@@ -319,9 +267,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfSilent() : void
     {
@@ -333,9 +278,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilent() : void
     {
@@ -437,9 +379,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -553,9 +492,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -664,9 +600,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -686,9 +619,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfNotSilent() : void
     {
@@ -700,9 +630,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfSilent() : void
     {
@@ -714,9 +641,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionFooter() : void
     {
@@ -726,9 +650,6 @@ class JsonWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer after all divisions
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsFooter() : void
     {
