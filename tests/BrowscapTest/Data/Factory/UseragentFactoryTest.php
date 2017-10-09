@@ -4,14 +4,12 @@ namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\UserAgent;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class UseragentFactoryTestTest
- */
-class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
+class UseragentFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\UserAgentFactory
+     * @var UserAgentFactory
      */
     private $object;
 
@@ -20,9 +18,6 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object = new UserAgentFactory();
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildOkCore() : void
     {
         $userAgentsData = [
@@ -50,9 +45,6 @@ class UseragentFactoryTest extends \PHPUnit\Framework\TestCase
         }
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildOkNotCore() : void
     {
         $userAgentsData = [

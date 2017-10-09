@@ -13,18 +13,14 @@ use Browscap\Writer\WriterInterface;
 use Browscap\Writer\XmlWriter;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class XmlWriterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class XmlWriterTest extends \PHPUnit\Framework\TestCase
+class XmlWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\XmlWriter
+     * @var XmlWriter
      */
     private $object;
 
@@ -52,9 +48,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getting the writer type
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -63,9 +56,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a formatter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFormatter() : void
     {
@@ -77,9 +67,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a filter
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetFilter() : void
     {
@@ -91,9 +78,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetGetSilent() : void
     {
@@ -105,9 +89,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStartIfNotSilent() : void
     {
@@ -122,9 +103,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStartIfSilent() : void
     {
@@ -136,9 +114,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEndIfNotSilent() : void
     {
@@ -150,9 +125,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEndIfSilent() : void
     {
@@ -164,9 +136,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfSilent() : void
     {
@@ -180,9 +149,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeaderIfNotSilent() : void
     {
@@ -200,9 +166,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfSilent() : void
     {
@@ -221,9 +184,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilent() : void
     {
@@ -257,9 +217,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersionIfNotSilentButWithoutVersion() : void
     {
@@ -289,9 +246,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -303,9 +257,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeader() : void
     {
@@ -317,9 +268,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfNotSilent() : void
     {
@@ -343,9 +291,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeaderIfSilent() : void
     {
@@ -357,9 +302,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilent() : void
     {
@@ -446,9 +388,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -547,9 +486,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -642,9 +578,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -664,9 +597,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfNotSilent() : void
     {
@@ -678,9 +608,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooterIfSilent() : void
     {
@@ -692,9 +619,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionFooter() : void
     {
@@ -704,9 +628,6 @@ class XmlWriterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests rendering the footer after all divisions
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsFooter() : void
     {

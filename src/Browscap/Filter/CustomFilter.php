@@ -7,9 +7,7 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class FullFilter
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * with this filter is possible to create a custom browscap file
  */
 class CustomFilter implements FilterInterface
 {
@@ -24,8 +22,8 @@ class CustomFilter implements FilterInterface
     private $propertyHolder;
 
     /**
-     * @param \Browscap\Data\PropertyHolder $propertyHolder
-     * @param array                         $fields
+     * @param PropertyHolder $propertyHolder
+     * @param array          $fields
      */
     public function __construct(PropertyHolder $propertyHolder, array $fields)
     {
@@ -46,7 +44,7 @@ class CustomFilter implements FilterInterface
     /**
      * checks if a division should be in the output
      *
-     * @param \Browscap\Data\Division $division
+     * @param Division $division
      *
      * @return bool
      */

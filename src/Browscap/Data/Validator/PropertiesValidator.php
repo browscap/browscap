@@ -11,8 +11,6 @@ class PropertiesValidator
      * @param array  $properties
      *
      * @throws \LogicException
-     *
-     * @return void
      */
     public function check(string $key, array $properties) : void
     {

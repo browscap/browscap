@@ -4,11 +4,9 @@ namespace BrowscapTest\Data;
 
 use Browscap\Data\Division;
 use Browscap\Data\UserAgent;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DivisionTestTest
- */
-class DivisionTest extends \PHPUnit\Framework\TestCase
+class DivisionTest extends TestCase
 {
     /**
      * tests setter and getter

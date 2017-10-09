@@ -10,23 +10,15 @@ use Browscap\Data\Platform;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use OutOfBoundsException;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DataCollectionTestTest
- */
-class DataCollectionTest extends \PHPUnit\Framework\TestCase
+class DataCollectionTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\DataCollection
+     * @var DataCollection
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     *
-     * @return void
-     */
     public function setUp() : void
     {
         $logger = new Logger('browscap');
@@ -51,8 +43,6 @@ class DataCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getting the generation date
-     *
-     * @return void
      */
     public function testGetGenerationDate() : void
     {

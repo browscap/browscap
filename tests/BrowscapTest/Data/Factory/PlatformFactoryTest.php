@@ -11,7 +11,7 @@ use UnexpectedValueException;
 class PlatformFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\PlatformFactory
+     * @var PlatformFactory
      */
     private $object;
 

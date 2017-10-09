@@ -8,11 +8,12 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\StandardFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\TestCase;
 
-class StandardFilterTest extends \PHPUnit\Framework\TestCase
+class StandardFilterTest extends TestCase
 {
     /**
-     * @var \Browscap\Filter\StandardFilter
+     * @var StandardFilter
      */
     private $object;
 
@@ -33,9 +34,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getter for the filter type
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -44,9 +42,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputTrue() : void
     {
@@ -65,9 +60,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputFalse() : void
     {
@@ -140,9 +132,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group filter
-     * @group sourcetest
-     *
      * @param string $propertyName
      * @param bool   $isExtra
      */
@@ -164,9 +153,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @group filter
-     * @group sourcetest
      *
      * @param string $propertyName
      */
@@ -198,9 +184,6 @@ class StandardFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if a section is always in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputSectionAlways() : void
     {

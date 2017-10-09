@@ -7,11 +7,6 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
-/**
- * Class BuildGenerator
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 final class BuildGenerator
 {
     /**

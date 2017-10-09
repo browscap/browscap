@@ -5,15 +5,13 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
 use RunTimeException;
 
-/**
- * Class CollectionCreatorTestTest
- */
-class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
+class DataCollectionFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\DataCollectionFactory
+     * @var DataCollectionFactory
      */
     private $object;
 
@@ -25,9 +23,6 @@ class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests throwing an exception while creating a data collaction when a dir is invalid
-     *
-     * @group helper
-     * @group sourcetest
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
@@ -52,9 +47,6 @@ class DataCollectionFactoryTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests creating a data collection
-     *
-     * @group helper
-     * @group sourcetest
      */
     public function testCreateDataCollection() : void
     {

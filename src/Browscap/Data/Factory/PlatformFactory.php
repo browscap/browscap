@@ -5,11 +5,6 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\Platform;
 
-/**
- * Class PlatformFactory
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class PlatformFactory
 {
     /**

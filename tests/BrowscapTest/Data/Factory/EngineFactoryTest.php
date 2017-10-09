@@ -5,15 +5,13 @@ namespace BrowscapTest\Data\Factory;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Engine;
 use Browscap\Data\Factory\EngineFactory;
+use PHPUnit\Framework\TestCase;
 use UnexpectedValueException;
 
-/**
- * Class EngineFactoryTestTest
- */
-class EngineFactoryTest extends \PHPUnit\Framework\TestCase
+class EngineFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\EngineFactory
+     * @var EngineFactory
      */
     private $object;
 

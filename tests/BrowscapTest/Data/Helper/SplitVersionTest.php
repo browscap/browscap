@@ -3,16 +3,12 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Helper;
 
 use Browscap\Data\Helper\SplitVersion;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class SplitVersionTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class SplitVersionTest extends \PHPUnit\Framework\TestCase
+class SplitVersionTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\SplitVersion
+     * @var SplitVersion
      */
     private $object;
 
@@ -21,10 +17,6 @@ class SplitVersionTest extends \PHPUnit\Framework\TestCase
         $this->object = new SplitVersion();
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testGetVersionParts() : void
     {
         $result = $this->object->getVersionParts('1');

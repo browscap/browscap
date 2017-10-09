@@ -5,14 +5,12 @@ namespace BrowscapTest\Data\Factory;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Device;
 use Browscap\Data\Factory\DeviceFactory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DeviceFactoryTestTest
- */
-class DeviceFactoryTest extends \PHPUnit\Framework\TestCase
+class DeviceFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\DeviceFactory
+     * @var DeviceFactory
      */
     private $object;
 
@@ -21,16 +19,12 @@ class DeviceFactoryTest extends \PHPUnit\Framework\TestCase
         $this->object = new DeviceFactory();
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
     public function testBuildWithoutStandardProperty() : void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "standard" key is missing for device "Test"');
 
         $deviceData = ['abc' => 'def'];
-        $json       = [];
         $deviceName = 'Test';
 
         $this->object->build($deviceData, $deviceName);

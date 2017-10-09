@@ -52,8 +52,6 @@ class DataCollection
     private $logger;
 
     /**
-     * Create a new data collection for the specified version
-     *
      * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)
@@ -121,8 +119,6 @@ class DataCollection
      * Load the file for the default browser
      *
      * @param @param Division $division
-     *
-     * @return void
      */
     public function setDefaultBrowser(Division $division) : void
     {
@@ -145,8 +141,6 @@ class DataCollection
 
     /**
      * Sort the divisions (if they haven't already been sorted)
-     *
-     * @return void
      */
     private function sortDivisions() : void
     {

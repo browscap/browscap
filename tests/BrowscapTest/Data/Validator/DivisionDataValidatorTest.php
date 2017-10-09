@@ -6,11 +6,12 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\Division;
 use Browscap\Data\Validator\DivisionDataValidator;
 use LogicException;
+use PHPUnit\Framework\TestCase;
 
-class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
+class DivisionDataValidatorTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Validator\DivisionDataValidator
+     * @var DivisionDataValidator
      */
     private $object;
 
@@ -19,10 +20,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object = new DivisionDataValidator();
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDivisionPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -34,10 +31,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDivisionPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -52,10 +45,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testSortIndexPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -70,10 +59,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testSortIndexPropertyIsNotInteger() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -89,10 +74,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testSortIndexPropertyIsZero() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -108,10 +89,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testLitePropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -127,10 +104,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testLitePropertyIsNotBoolean() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -147,10 +120,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testStandardPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -167,10 +136,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testStandardPropertyIsNotBoolean() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -188,10 +153,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testUserAgentsPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -209,10 +170,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testUserAgentsPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -692,10 +649,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDeviceAndDevicesPropertiesAreAvailable() : void
     {
         $this->expectException(LogicException::class);
@@ -727,10 +680,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDevicesPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -761,10 +710,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDevicePropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -950,10 +895,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testMultiplePlatformsWithoutPlatformPlaceholder() : void
     {
         $this->expectException(LogicException::class);
@@ -1201,10 +1142,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         self::assertTrue(true);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testPropertiesPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -1397,10 +1334,6 @@ class DivisionDataValidatorTest extends \PHPUnit\Framework\TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testOk() : void
     {
         $divisionData = [

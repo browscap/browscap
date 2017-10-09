@@ -3,11 +3,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Platform;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class PlatformTestTest
- */
-class PlatformTest extends \PHPUnit\Framework\TestCase
+class PlatformTest extends TestCase
 {
     /**
      * tests setter and getter for the match property

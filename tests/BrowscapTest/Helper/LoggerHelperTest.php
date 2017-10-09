@@ -4,20 +4,13 @@ namespace BrowscapTest\Helper;
 
 use Browscap\Helper\LoggerHelper;
 use Monolog\Logger;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 
-/**
- * Class LoggerHelperTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class LoggerHelperTest extends \PHPUnit\Framework\TestCase
+class LoggerHelperTest extends TestCase
 {
     /**
      * tests creating a logger instance
-     *
-     * @group helper
-     * @group sourcetest
      */
     public function testCreate() : void
     {

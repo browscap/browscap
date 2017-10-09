@@ -8,15 +8,12 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class XmlWriter
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * this writer si responsible to create the browscap.xml files
  */
-
 class XmlWriter implements WriterInterface
 {
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -46,8 +43,8 @@ class XmlWriter implements WriterInterface
     private $outputProperties = [];
 
     /**
-     * @param string                   $file
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param string          $file
+     * @param LoggerInterface $logger
      */
     public function __construct(string $file, LoggerInterface $logger)
     {
@@ -67,8 +64,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * closes the Writer and the written File
-     *
-     * @return void
      */
     public function close() : void
     {
@@ -76,9 +71,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return void
+     * @param FormatterInterface $formatter
      */
     public function setFormatter(FormatterInterface $formatter) : void
     {
@@ -86,7 +79,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @return \Browscap\Formatter\FormatterInterface
+     * @return FormatterInterface
      */
     public function getFormatter() : FormatterInterface
     {
@@ -94,9 +87,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return void
+     * @param FilterInterface $filter
      */
     public function setFilter(FilterInterface $filter) : void
     {
@@ -105,7 +96,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @return \Browscap\Filter\FilterInterface
+     * @return FilterInterface
      */
     public function getFilter() : FilterInterface
     {
@@ -114,8 +105,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * @param bool $silent
-     *
-     * @return void
      */
     public function setSilent(bool $silent) : void
     {
@@ -132,8 +121,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * Generates a start sequence for the output file
-     *
-     * @return void
      */
     public function fileStart() : void
     {
@@ -147,8 +134,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * Generates a end sequence for the output file
-     *
-     * @return void
      */
     public function fileEnd() : void
     {
@@ -163,8 +148,6 @@ class XmlWriter implements WriterInterface
      * Generate the header
      *
      * @param string[] $comments
-     *
-     * @return void
      */
     public function renderHeader(array $comments = []) : void
     {
@@ -187,8 +170,6 @@ class XmlWriter implements WriterInterface
      * renders the version information
      *
      * @param string[] $versionData
-     *
-     * @return void
      */
     public function renderVersion(array $versionData = []) : void
     {
@@ -217,9 +198,7 @@ class XmlWriter implements WriterInterface
     /**
      * renders the header for all divisions
      *
-     * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return void
+     * @param DataCollection $collection
      */
     public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
@@ -231,8 +210,6 @@ class XmlWriter implements WriterInterface
      *
      * @param string $division
      * @param string $parent
-     *
-     * @return void
      */
     public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
@@ -243,8 +220,6 @@ class XmlWriter implements WriterInterface
      * renders the header for a section
      *
      * @param string $sectionName
-     *
-     * @return void
      */
     public function renderSectionHeader(string $sectionName) : void
     {
@@ -261,14 +236,12 @@ class XmlWriter implements WriterInterface
     /**
      * renders all found useragents into a string
      *
-     * @param (int|string|bool)[]           $section
-     * @param \Browscap\Data\DataCollection $collection
-     * @param array[]                       $sections
-     * @param string                        $sectionName
+     * @param (int|string|bool)[] $section
+     * @param DataCollection      $collection
+     * @param array[]             $sections
+     * @param string              $sectionName
      *
      * @throws \InvalidArgumentException
-     *
-     * @return void
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
@@ -307,8 +280,6 @@ class XmlWriter implements WriterInterface
      * renders the footer for a section
      *
      * @param string $sectionName
-     *
-     * @return void
      */
     public function renderSectionFooter(string $sectionName = '') : void
     {
@@ -321,8 +292,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for a division
-     *
-     * @return void
      */
     public function renderDivisionFooter() : void
     {
@@ -331,8 +300,6 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for all divisions
-     *
-     * @return void
      */
     public function renderAllDivisionsFooter() : void
     {

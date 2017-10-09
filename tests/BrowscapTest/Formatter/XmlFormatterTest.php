@@ -5,16 +5,12 @@ namespace BrowscapTest\Formatter;
 use Browscap\Data\PropertyHolder;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\XmlFormatter;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class XmlFormatterTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class XmlFormatterTest extends \PHPUnit\Framework\TestCase
+class XmlFormatterTest extends TestCase
 {
     /**
-     * @var \Browscap\Formatter\XmlFormatter
+     * @var XmlFormatter
      */
     private $object;
 
@@ -35,9 +31,6 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getter for the formatter type
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -46,9 +39,6 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests formatting a property name
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testFormatPropertyName() : void
     {
@@ -110,11 +100,8 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
      * @param string $propertyName
      * @param string $inputValue
      * @param string $expectedValue
-     *
-     * @group formatter
-     * @group sourcetest
      */
-    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue) : void
+    public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
@@ -122,9 +109,6 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests formatting a property value
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testFormatPropertyValueWithException() : void
     {
@@ -134,9 +118,6 @@ class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests formatting a property value
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testFormatPropertyValueWithUnknownValue() : void
     {

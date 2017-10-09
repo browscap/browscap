@@ -8,11 +8,12 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\LiteFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\TestCase;
 
-class LiteFilterTest extends \PHPUnit\Framework\TestCase
+class LiteFilterTest extends TestCase
 {
     /**
-     * @var \Browscap\Filter\LiteFilter
+     * @var LiteFilter
      */
     private $object;
 
@@ -33,9 +34,6 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests getter for the filter type
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
@@ -44,9 +42,6 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutput() : void
     {
@@ -119,9 +114,6 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group filter
-     * @group sourcetest
-     *
      * @param string $propertyName
      * @param bool   $isExtra
      */
@@ -143,9 +135,6 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @group filter
-     * @group sourcetest
      *
      * @param string $propertyName
      */
@@ -177,9 +166,6 @@ class LiteFilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests if a section is always in the output, if the lite flag is true
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputSectionOnlyWhenLite() : void
     {

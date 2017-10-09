@@ -3,13 +3,9 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Device;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class DeviceTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class DeviceTest extends \PHPUnit\Framework\TestCase
+class DeviceTest extends TestCase
 {
     /**
      * tests setter and getter for the match property

@@ -5,12 +5,6 @@ namespace Browscap\Filter;
 use Browscap\Data\Division;
 use Browscap\Writer\WriterInterface;
 
-/**
- * Interface FilterInterface
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-
 interface FilterInterface
 {
     public const TYPE_FULL     = 'FULL';
@@ -28,7 +22,7 @@ interface FilterInterface
     /**
      * checks if a division should be in the output
      *
-     * @param \Browscap\Data\Division $division
+     * @param Division $division
      *
      * @return bool
      */

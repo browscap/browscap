@@ -3,16 +3,12 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Helper;
 
 use Browscap\Data\Helper\TrimProperty;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class ExpanderTestTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class TrimPropertyTest extends \PHPUnit\Framework\TestCase
+class TrimPropertyTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Helper\TrimProperty
+     * @var TrimProperty
      */
     private $object;
 
@@ -21,28 +17,16 @@ class TrimPropertyTest extends \PHPUnit\Framework\TestCase
         $this->object = new TrimProperty();
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testTrue() : void
     {
         self::assertSame(true, $this->object->trimProperty('true'));
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testFalse() : void
     {
         self::assertSame(false, $this->object->trimProperty('false'));
     }
 
-    /**
-     * @group data
-     * @group sourcetest
-     */
     public function testDefault() : void
     {
         self::assertSame('abc', $this->object->trimProperty('  abc '));
