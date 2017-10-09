@@ -10,8 +10,6 @@ use Browscap\Data\Platform;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use OutOfBoundsException;
-use RuntimeException;
-use UnexpectedValueException;
 
 /**
  * Class DataCollectionTestTest

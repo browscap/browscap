@@ -3,8 +3,6 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
 use Assert\InvalidArgumentException;
-use Browscap\Data\DataCollection;
-use Browscap\Data\Device;
 use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
 use PHPUnit\Framework\TestCase;

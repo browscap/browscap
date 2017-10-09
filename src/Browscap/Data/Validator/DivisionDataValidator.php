@@ -7,6 +7,8 @@ use Assert\Assertion;
 class DivisionDataValidator
 {
     /**
+     * valdates the structure of a division
+     *
      * @param array  $divisionData
      * @param string $filename
      * @param array  &$allDivisions
@@ -194,8 +196,8 @@ class DivisionDataValidator
     {
         if (array_key_exists('device', $childData) && array_key_exists('devices', $childData)) {
             throw new \LogicException(
-                'a child may not define both the "device" and the "devices" entries for key "'
-                . $useragentData['userAgent'] . '", for child data: ' . json_encode($childData)
+                'a child entry may not define both the "device" and the "devices" entries for key "'
+                . $useragentData['userAgent'] . '"'
             );
         }
 
@@ -207,7 +209,7 @@ class DivisionDataValidator
             ) {
                 throw new \LogicException(
                     'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
-                    . $useragentData['userAgent'] . '", for child data: ' . json_encode($childData)
+                    . $useragentData['userAgent'] . '"'
                 );
             }
         }
@@ -216,14 +218,14 @@ class DivisionDataValidator
             Assertion::string($childData['device'], 'the "device" entry has to be a string for key "' . $useragentData['userAgent'] . '"');
         }
 
-        Assertion::keyExists($childData, 'match', 'each entry of the children property requires an "match" entry for key "' . $useragentData['userAgent'] . '", missing for child data: ');
-        Assertion::string($childData['match'], 'the "match" entry for key "' . $useragentData['userAgent'] . '" has to be a string for child data: ');
+        Assertion::keyExists($childData, 'match', 'each entry of the children property requires an "match" entry for key "' . $useragentData['userAgent'] . '"');
+        Assertion::string($childData['match'], 'the "match" entry for key "' . $useragentData['userAgent'] . '" has to be a string');
 
         if (preg_match('/[\[\]]/', $childData['match'])) {
             throw new \LogicException('key "' . $childData['match'] . '" includes invalid characters');
         }
 
-        Assertion::notSame($childData['match'], $useragentData['userAgent'], 'the "match" entry is identical to its parents "userAgent" entry for child data: ');
+        Assertion::notSame($childData['match'], $useragentData['userAgent'], 'the "match" entry is identical to its parents "userAgent" entry');
 
         if (false !== mb_strpos($childData['match'], '#PLATFORM#')
             && !array_key_exists('platforms', $childData)
@@ -242,7 +244,7 @@ class DivisionDataValidator
             ) {
                 throw new \LogicException(
                     'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
-                    . $useragentData['userAgent'] . '", for child data: ' . json_encode($childData)
+                    . $useragentData['userAgent'] . '"'
                 );
             }
         }
