@@ -24,6 +24,18 @@ What's changed in version 6027
  * In many classes Setters and Getters have been removed, the parameters have been moved to the class constructor
  * Some classes are now `final` - use composition instead of inheritance
 
+What's changed in version 6025
+------------------------------
+
+## BC breaks listed
+
+ * The `grep` command and the `diff` command were removed
+
+## Changes
+
+ * The tests for integration testing the source files are splitted from the other tests
+ * Tests on travis use the build pipiline now
+
 Directory Structure
 -------------------
 
