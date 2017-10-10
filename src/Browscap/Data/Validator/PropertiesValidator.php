@@ -2,17 +2,17 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Validator;
 
-class PropertiesValidator
+class PropertiesValidator implements ValidatorInterface
 {
     /**
      * validates the fully expanded properties
      *
+     * @param array  $properties Data to validate
      * @param string $key
-     * @param array  $properties
      *
      * @throws \LogicException
      */
-    public function check(string $key, array $properties) : void
+    public function validate(array $properties, string $key) : void
     {
         if (!array_key_exists('Version', $properties)) {
             throw new \LogicException('Version property not found for key "' . $key . '"');

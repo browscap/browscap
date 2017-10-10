@@ -24,7 +24,7 @@ class PropertiesValidatorTest extends TestCase
         $this->expectExceptionMessage('Version property not found for key "test"');
 
         $properties = [];
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckPropertyWithoutParent() : void
@@ -36,7 +36,7 @@ class PropertiesValidatorTest extends TestCase
             'Version' => 'abc',
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckPropertyWithoutDeviceType() : void
@@ -49,7 +49,7 @@ class PropertiesValidatorTest extends TestCase
             'Parent' => '123',
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckPropertyWithoutIsTablet() : void
@@ -63,7 +63,7 @@ class PropertiesValidatorTest extends TestCase
             'Device_Type' => 'Desktop',
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckPropertyWithoutIsMobileDevice() : void
@@ -78,7 +78,7 @@ class PropertiesValidatorTest extends TestCase
             'isTablet' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckTabletMismatchIsTablet() : void
@@ -94,7 +94,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckTabletMismatchIsMobileDevice() : void
@@ -110,7 +110,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckMobileMismatchIsTablet() : void
@@ -126,7 +126,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckMobileMismatchIsMobileDevice() : void
@@ -142,7 +142,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckDesktopMismatchIsTablet() : void
@@ -158,7 +158,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => true,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     public function testCheckDesktopMismatchIsMobileDevice() : void
@@ -174,7 +174,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => true,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
     }
 
     /**
@@ -190,7 +190,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => false,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
 
         self::assertTrue(true);
     }
@@ -208,7 +208,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => true,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
 
         self::assertTrue(true);
     }
@@ -226,7 +226,7 @@ class PropertiesValidatorTest extends TestCase
             'isMobileDevice' => true,
         ];
 
-        $this->object->check('test', $properties);
+        $this->object->validate($properties, 'test');
 
         self::assertTrue(true);
     }
