@@ -1,6 +1,6 @@
 {
   "division": "Baidu Box App WebKit #MAJORVER#.#MINORVER#",
-  "versions": ["6.3", "6.2", "6.1", 6, "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.9", "4.8", "4.3", "4.2", "4.1", 4, "3.6"],
+  "versions": ["6.6", "6.3", "6.1", 6, "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.9", "4.8", "4.7", "4.5", "4.4", "4.3", "4.2", "3.6"],
   "sortIndex": 1903,
   "lite": false,
   "standard": true,
@@ -79,6 +79,13 @@
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         }
       ]
