@@ -97,7 +97,7 @@ final class BuildHelper
             foreach (array_keys($sections) as $sectionName) {
                 $section = $sections[$sectionName];
 
-                (new PropertiesValidator())->check($sectionName, $section);
+                (new PropertiesValidator())->validate($section, $sectionName);
             }
 
             $writerCollection->setSilent($division);

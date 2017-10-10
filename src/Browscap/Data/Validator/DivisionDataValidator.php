@@ -4,12 +4,12 @@ namespace Browscap\Data\Validator;
 
 use Assert\Assertion;
 
-class DivisionDataValidator
+class DivisionDataValidator implements ValidatorInterface
 {
     /**
      * valdates the structure of a division
      *
-     * @param array  $divisionData
+     * @param array  $divisionData  Data to validate
      * @param string $filename
      * @param array  &$allDivisions
      * @param bool   $isCore
@@ -17,8 +17,8 @@ class DivisionDataValidator
     public function validate(
         array $divisionData,
         string $filename,
-        array &$allDivisions,
-        bool $isCore
+        array &$allDivisions = [],
+        bool $isCore = false
     ) : void {
         Assertion::keyExists($divisionData, 'division', 'required attibute "division" is missing in File ' . $filename);
         Assertion::string($divisionData['division'], 'required attibute "division" has to be a string in File ' . $filename);
