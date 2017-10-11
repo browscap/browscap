@@ -172,6 +172,12 @@
           "properties": {
             "Browser": "Google SearchByImage"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* Chrome-Lighthouse",
+          "properties": {
+            "Browser": "Google Lighthouse"
+          }
         }
       ]
     }

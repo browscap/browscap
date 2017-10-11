@@ -715,6 +715,13 @@
             "Browser": "topster.de Linkchecker",
             "Browser_Maker": "topster.de"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (ClickMagick Link Monitor v*)",
+          "properties": {
+            "Browser": "ClickMagick Link Monitor",
+            "Browser_Maker": "ClickMagick"
+          }
         }
       ]
     }

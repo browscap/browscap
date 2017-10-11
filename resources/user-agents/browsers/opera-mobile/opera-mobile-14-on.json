@@ -146,6 +146,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "E5823": "Sony E5823",
             "Nexus 4": "LG Nexus 4",
             "Nexus 7": "Asus Nexus 7"
           },
@@ -182,6 +183,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
             "A1-810": "Acer A1-810",
+            "A7600-F": "Lenovo A7600-F",
             "BRAVIS NP 844": "Bravis NP 844",
             "genm14": "Nokia XL2",
             "GIONEE M3": "Gionee Marathon M3",
@@ -201,6 +203,7 @@
             "Lenovo A536": "Lenovo A536",
             "Lenovo A5500-F": "Lenovo A5500-F",
             "Lenovo A5500-HV": "Lenovo A5500-HV",
+            "Lenovo A6000": "Lenovo A6000",
             "Lenovo B8000-H": "Lenovo B8000-H",
             "Lenovo B8080-H": "Lenovo B8080-H",
             "LG-D285": "LG D285",

@@ -2,14 +2,14 @@
     "Pegatron Chagall": {
         "standard": false,
         "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Tablet",
             "Device_Name": "Chagall",
             "Device_Code_Name": "Chagall",
             "Device_Maker": "Pegatron",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Pegatron",
             "isMobileDevice": "true",
-            "isTablet": "false"
+            "isTablet": "true"
         }
     }
 }
