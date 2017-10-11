@@ -1393,6 +1393,13 @@
             "Browser": "Go fasthttp",
             "Browser_Maker": "Aliaksandr Valialkin"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Snacktory; +*)",
+          "properties": {
+            "Browser": "Snacktory",
+            "Browser_Maker": "Peter Karich"
+          }
         }
       ]
     }

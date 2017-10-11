@@ -1,0 +1,51 @@
+{
+  "division": "Camera 360",
+  "sortIndex": 1160,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Camera 360",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Camera 360",
+        "Browser": "Camera 360",
+        "Browser_Type": "Application",
+        "Browser_Maker": "PinGuo Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Camera360/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Camera360/*",
+          "platforms": [
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

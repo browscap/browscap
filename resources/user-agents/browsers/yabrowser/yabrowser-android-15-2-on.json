@@ -178,7 +178,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
-            "Lenovo A3500-H": "Lenovo A3500-H"
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A7600-H": "Lenovo A7600-H"
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2"
@@ -239,7 +240,6 @@
             "Lenovo A656": "Lenovo A656",
             "Lenovo A680": "Lenovo A680",
             "Lenovo A680_ROW": "Lenovo A680",
-            "Lenovo A7600-H": "Lenovo A7600-H",
             "Lenovo A850": "Lenovo A850",
             "Lenovo A859": "Lenovo A859",
             "Lenovo A880": "Lenovo A880",

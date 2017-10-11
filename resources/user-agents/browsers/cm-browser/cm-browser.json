@@ -257,6 +257,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* ACHEETAHI/*",
           "devices": {
             "Desire 700 dual sim": "HTC Desire 700",
+            "GT-S7710": "Samsung GT-S7710",
             "H7100": "Feiteng H7100",
             "IQ430": "Fly IQ430",
             "LC0720C": "3Q LC0720C",
@@ -286,8 +287,21 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* ACHEETAHI/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* ACHEETAHI/*",
           "engine": "WebKit",
+          "device": "general Tablet",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",
