@@ -1,0 +1,53 @@
+{
+  "division": "Miui Browser #MAJORVER#.#MINORVER#",
+  "versions": ["9.2", "9.1", 9, "8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3", "8.2", "8.1", 8],
+  "sortIndex": 1109,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "engine": "Blink",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miui Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Miui Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Xiaomi Tech",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MI PAD": "Xiaomi Mi Pad"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
