@@ -33,8 +33,8 @@ What's changed in version 6025
 
 ## Changes
 
- * The tests for integration testing the source files are splitted from the other tests
- * Tests on travis use the build pipiline now
+ * The tests for integration testing the source files are split from the other tests
+ * Tests on travis use the build pipeline now
 
 Directory Structure
 -------------------
