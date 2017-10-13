@@ -142,7 +142,7 @@ final class BuildGenerator
         }
 
         if (!is_dir($realDirectory)) {
-            throw new NoDirectoryException('The path "' . $realDirectory . '" did not resolve to a directory');
+            throw new NotADirectoryException('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 
         return $realDirectory;
