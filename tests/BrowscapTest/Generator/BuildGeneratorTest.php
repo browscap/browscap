@@ -8,7 +8,7 @@ use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\DirectoryMissingException;
-use Browscap\Generator\NoDirectoryException;
+use Browscap\Generator\NotADirectoryException;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
@@ -45,7 +45,7 @@ class BuildGeneratorTest extends TestCase
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory() : void
     {
-        $this->expectException(NoDirectoryException::class);
+        $this->expectException(NotADirectoryException::class);
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
         $writerCollection      = $this->createMock(WriterCollection::class);
