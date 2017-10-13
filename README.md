@@ -48,7 +48,7 @@ Directory Structure
 the CLI commands
 ----------------
 
-There is actaully only one cli command available.
+There is actually only one cli command available.
 
 ## build
 
@@ -63,7 +63,7 @@ bin/browscap build [version]
 - `version` (required) the name of the version that should be built
 - `output` (optional) the directory where the files should be created
 - `resources` (optional) the directory where the sources for the build are located
-- `coverage` (optional) if this option is set, during the build a coverage file is created
+- `coverage` (optional) if this option is set, during the build information are added which are used to generate a coverage report
 
 For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
 
