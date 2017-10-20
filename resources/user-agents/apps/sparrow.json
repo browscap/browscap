@@ -1,0 +1,39 @@
+{
+  "division": "Sparrow",
+  "sortIndex": 1759,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sparrow",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sparrow",
+        "Browser": "Sparrow",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Sparrow SARL",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Sparrow/*",
+          "platforms": [
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
