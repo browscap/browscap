@@ -52,7 +52,7 @@ There is actually only one cli command available.
 
 ## build
 
-This command is made to build a set defined of broswscap files.
+This command is used to build a set of defined browscap files.
 
 ```php
 bin/browscap build [version]
@@ -63,7 +63,7 @@ bin/browscap build [version]
 - `version` (required) the name of the version that should be built
 - `output` (optional) the directory where the files should be created
 - `resources` (optional) the directory where the sources for the build are located
-- `coverage` (optional) if this option is set, during the build information are added which are used to generate a coverage report
+- `coverage` (optional) if this option is set, during the build information is added which can be used to generate a coverage report
 
 For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
 
