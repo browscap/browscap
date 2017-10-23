@@ -1,0 +1,137 @@
+{
+  "division": "Konqueror Generic",
+  "sortIndex": 2491,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror Generic",
+      "engine": "KHTML",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror Generic",
+        "Browser": "Konqueror",
+        "Frames": "false",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*; Debian) KHTML/* (like Gecko)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "platforms": [
+            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows", "CygWin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*) KHTML/* (like Gecko)*"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) KHTML/* (like Gecko) Konqueror/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) KHTML/* (like Gecko) Konqueror/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) KHTML/* (like Gecko) Konqueror/*"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit",
+          "platforms": [
+            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#",
+          "platforms": [
+            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*"
+        },
+        {
+          "match": "*Konqueror/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "*Konqueror/#PLATFORM#",
+          "platforms": [
+            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+          ]
+        },
+        {
+          "match": "*Konqueror/*"
+        }
+      ]
+    }
+  ]
+}
