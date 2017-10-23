@@ -1,0 +1,119 @@
+{
+  "division": "Konqueror #MAJORVER#.#MINORVER#",
+  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.2", "2.1"],
+  "sortIndex": 2492,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
+      "engine": "KHTML",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror #MAJORVER#.#MINORVER#",
+        "Browser": "Konqueror",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "false",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "platforms": [
+            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows", "CygWin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER#*) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows", "CygWin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "*Konqueror/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
