@@ -150,6 +150,18 @@
           ]
         },
         {
+          "match": "GoodReader4/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "GoodReader4/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "GoodReader4/* CFNetwork/*",
           "platforms": [
             "iOS"

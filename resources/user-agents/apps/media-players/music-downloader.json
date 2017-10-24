@@ -1,6 +1,6 @@
 {
   "division": "MusicDownloader #MAJORVER#.#MINORVER#",
-  "versions": [2, 1],
+  "versions": [2, "1.5", 1],
   "sortIndex": 7121,
   "lite": false,
   "standard": true,
@@ -141,6 +141,18 @@
           ]
         },
         {
+          "match": "MusicDownloader/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "MusicDownloader/#MAJORVER#.#MINORVER#* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -264,6 +276,18 @@
           "match": "MusicDownloaderLite/#MAJORVER#.#MINORVER#* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

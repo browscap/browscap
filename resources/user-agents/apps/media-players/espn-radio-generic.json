@@ -138,6 +138,18 @@
           ]
         },
         {
+          "match": "ESPN%20Radio/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "ESPN%20Radio/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "ESPN%20Radio/* CFNetwork/*",
           "platforms": [
             "iOS"

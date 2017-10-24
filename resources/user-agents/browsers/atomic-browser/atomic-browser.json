@@ -147,6 +147,18 @@
           ]
         },
         {
+          "match": "AtomicBrowser/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "AtomicBrowser/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "AtomicBrowser/#MAJORVER#.#MINORVER#* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -270,6 +282,18 @@
           "match": "AtomicLite/#MAJORVER#.#MINORVER#* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "AtomicLite/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "AtomicLite/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

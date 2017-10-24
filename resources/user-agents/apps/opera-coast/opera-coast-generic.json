@@ -180,6 +180,18 @@
           ]
         },
         {
+          "match": "Opera%20Coast/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Opera%20Coast/* CFNetwork/*",
           "platforms": [
             "iOS"

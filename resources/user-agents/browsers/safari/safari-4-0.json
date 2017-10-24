@@ -178,24 +178,6 @@
           ]
         },
         {
-          "match": "Safari/65??.* CFNetwork/596*",
-          "platforms": [
-            "OSX_10_8"
-          ]
-        },
-        {
-          "match": "Safari/65??.* CFNetwork/673*",
-          "platforms": [
-            "OSX_10_9"
-          ]
-        },
-        {
-          "match": "Safari/65??.* CFNetwork/720*",
-          "platforms": [
-            "OSX_10_10"
-          ]
-        },
-        {
           "match": "Safari/65??.* CFNetwork/*",
           "platforms": [
             "OSX"

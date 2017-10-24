@@ -652,14 +652,14 @@ return [
     'issue-618-M' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.16 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mobile Safari 4.0',
+            'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Version' => '8.0',
+            'MajorVer' => '8',
             'MinorVer' => '0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.1',
@@ -5026,7 +5026,7 @@ return [
     'issue-618-CR' => [
         'ua' => 'Mercury/894 CFNetwork/711.1.16 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

@@ -171,6 +171,18 @@
           ]
         },
         {
+          "match": "Kenshoo/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Kenshoo/* CFNetwork/*",
           "platforms": [
             "iOS"

@@ -354,6 +354,18 @@
           ]
         },
         {
+          "match": "Pinterest/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Pinterest/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Pinterest/* CFNetwork/*",
           "platforms": [
             "iOS"

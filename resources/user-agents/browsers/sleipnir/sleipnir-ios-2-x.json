@@ -66,6 +66,12 @@
             "iOS_A",
             "iOS_C"
           ]
+        },
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*",
+          "platforms": [
+            "iOS_A"
+          ]
         }
       ]
     }

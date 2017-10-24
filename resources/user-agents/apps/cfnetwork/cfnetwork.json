@@ -24,6 +24,12 @@
       },
       "children": [
         {
+          "match": "*CFNetwork/342*",
+          "platforms": [
+            "iOS_A_2_1"
+          ]
+        },
+        {
           "match": "*CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
@@ -60,19 +66,25 @@
           ]
         },
         {
-          "match": "*CFNetwork/548.1*",
-          "platforms": [
-            "iOS_A_5_1"
-          ]
-        },
-        {
           "match": "*CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
+          "match": "*CFNetwork/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
           "match": "*CFNetwork/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
@@ -84,9 +96,9 @@
           ]
         },
         {
-          "match": "*CFNetwork/609*",
+          "match": "*CFNetwork/671*",
           "platforms": [
-            "iOS_A_6_0"
+            "iOS_A_7_0"
           ]
         },
         {
@@ -138,9 +150,33 @@
           ]
         },
         {
+          "match": "*CFNetwork/757*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
           "match": "*CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork/758.2*",
+          "platforms": [
+            "iOS_A_9_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork/758.3*",
+          "platforms": [
+            "iOS_A_9_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork/758.5*",
+          "platforms": [
+            "iOS_A_9_3"
           ]
         },
         {
@@ -165,6 +201,18 @@
           "match": "*CFNetwork/808.3*",
           "platforms": [
             "iOS_A_10_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork/811*",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         }
       ]
@@ -366,6 +414,24 @@
           "match": "*CFNetwork/760*",
           "platforms": [
             "OSX_10_11"
+          ]
+        },
+        {
+          "match": "*CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "*CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "*CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
           ]
         }
       ]

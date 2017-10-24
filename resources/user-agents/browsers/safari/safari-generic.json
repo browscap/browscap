@@ -179,6 +179,30 @@
           ]
         },
         {
+          "match": "Safari/* CFNetwork/760*",
+          "platforms": [
+            "OSX_10_11"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
+          ]
+        },
+        {
           "match": "Safari/* CFNetwork/*",
           "platforms": [
             "OSX"
