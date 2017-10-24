@@ -65,6 +65,24 @@
             "iOS_A",
             "iOS_C"
           ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
         }
       ]
     }

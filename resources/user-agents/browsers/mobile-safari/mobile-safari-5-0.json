@@ -86,6 +86,18 @@
           "platforms": [
             "iOS_C"
           ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
         }
       ]
     }
