@@ -48,6 +48,18 @@
             "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
+        },
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/673*",
+          "platforms": [
+            "OSX_10_9"
+          ]
+        },
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*",
+          "platforms": [
+            "OSX"
+          ]
         }
       ]
     }

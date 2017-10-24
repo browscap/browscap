@@ -137,6 +137,18 @@
           ]
         },
         {
+          "match": "Free-Podcasts/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Free-Podcasts/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Free-Podcasts/* CFNetwork/*",
           "platforms": [
             "iOS"

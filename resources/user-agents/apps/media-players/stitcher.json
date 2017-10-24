@@ -144,6 +144,18 @@
           ]
         },
         {
+          "match": "Stitcher/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Stitcher/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Stitcher/* CFNetwork/*",
           "platforms": [
             "iOS"

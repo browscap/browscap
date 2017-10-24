@@ -137,6 +137,18 @@
           ]
         },
         {
+          "match": "MusicDownloader/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "MusicDownloader/* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -260,6 +272,18 @@
           "match": "MusicDownloaderLite/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

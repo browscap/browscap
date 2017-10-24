@@ -146,6 +146,18 @@
           ]
         },
         {
+          "match": "Perfect%20Browser-iPad/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Perfect%20Browser-iPad/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Perfect%20Browser-iPad/* CFNetwork/*",
           "platforms": [
             "iOS"

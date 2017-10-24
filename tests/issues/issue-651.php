@@ -2542,7 +2542,7 @@ return [
     'issue-651-AV' => [
         'ua' => 'Mercury/810 CFNetwork/672.0.8 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2596,7 +2596,7 @@ return [
     'issue-651-AW' => [
         'ua' => 'Mercury/830 CFNetwork/609.1.4 Darwin/13.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2650,7 +2650,7 @@ return [
     'issue-651-AX' => [
         'ua' => 'Mercury/830 CFNetwork/672.0.8 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2704,7 +2704,7 @@ return [
     'issue-651-AY' => [
         'ua' => 'Mercury/830 CFNetwork/672.1.13 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2758,7 +2758,7 @@ return [
     'issue-651-AZ' => [
         'ua' => 'Mercury/840 CFNetwork/672.1.13 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2812,7 +2812,7 @@ return [
     'issue-651-BA' => [
         'ua' => 'Mercury/841 CFNetwork/672.1.13 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2866,7 +2866,7 @@ return [
     'issue-651-BB' => [
         'ua' => 'Mercury/841 CFNetwork/672.1.14 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2920,7 +2920,7 @@ return [
     'issue-651-BC' => [
         'ua' => 'Mercury/850 CFNetwork/672.1.14 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2974,7 +2974,7 @@ return [
     'issue-651-BD' => [
         'ua' => 'Mercury/850 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3028,7 +3028,7 @@ return [
     'issue-651-BE' => [
         'ua' => 'Mercury/860 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3082,7 +3082,7 @@ return [
     'issue-651-BF' => [
         'ua' => 'Mercury/861 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3136,7 +3136,7 @@ return [
     'issue-651-BG' => [
         'ua' => 'Mercury/870 CFNetwork/672.0.8 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3190,7 +3190,7 @@ return [
     'issue-651-BH' => [
         'ua' => 'Mercury/870 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3244,7 +3244,7 @@ return [
     'issue-651-BI' => [
         'ua' => 'Mercury/870 CFNetwork/711.0.6 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3298,7 +3298,7 @@ return [
     'issue-651-BJ' => [
         'ua' => 'Mercury/872 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3352,7 +3352,7 @@ return [
     'issue-651-BK' => [
         'ua' => 'Mercury/872 CFNetwork/711.0.6 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3406,7 +3406,7 @@ return [
     'issue-651-BL' => [
         'ua' => 'Mercury/872 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3460,7 +3460,7 @@ return [
     'issue-651-BM' => [
         'ua' => 'Mercury/882 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3514,7 +3514,7 @@ return [
     'issue-651-BN' => [
         'ua' => 'Mercury/883 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3568,7 +3568,7 @@ return [
     'issue-651-BO' => [
         'ua' => 'Mercury/883 CFNetwork/711.1.16 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3622,7 +3622,7 @@ return [
     'issue-651-BP' => [
         'ua' => 'Mercury/894 CFNetwork/672.0.2 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3676,7 +3676,7 @@ return [
     'issue-651-BQ' => [
         'ua' => 'Mercury/894 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3730,7 +3730,7 @@ return [
     'issue-651-BS' => [
         'ua' => 'Mercury/894 CFNetwork/711.2.23 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3784,7 +3784,7 @@ return [
     'issue-651-BT' => [
         'ua' => 'Mercury/894 CFNetwork/711.3.18 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mercury',
+            'Comment' => 'Mercury Generic',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3838,14 +3838,14 @@ return [
     'issue-651-BU' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.0.6 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mobile Safari 4.0',
+            'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Version' => '8.0',
+            'MajorVer' => '8',
             'MinorVer' => '0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.0',
@@ -3892,14 +3892,14 @@ return [
     'issue-651-BV' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Mobile Safari 4.0',
+            'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Version' => '8.0',
+            'MajorVer' => '8',
             'MinorVer' => '0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.1',
@@ -3994,7 +3994,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-651-BZ' => [
@@ -4047,8 +4047,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
         'full' => true,
     ],
     'issue-651-CA' => [
@@ -4101,7 +4101,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
     ],
@@ -4155,7 +4155,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
     ],
@@ -4209,7 +4209,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
     ],
@@ -4263,7 +4263,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
     ],

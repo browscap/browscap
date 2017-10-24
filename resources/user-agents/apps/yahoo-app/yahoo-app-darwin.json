@@ -147,6 +147,18 @@
           ]
         },
         {
+          "match": "YJTop/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "YJTop/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "YJTop/#MAJORVER#.#MINORVER#* CFNetwork/*",
           "platforms": [
             "iOS"

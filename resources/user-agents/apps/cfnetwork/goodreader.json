@@ -150,6 +150,18 @@
           ]
         },
         {
+          "match": "GoodReader/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "GoodReader/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "GoodReader/#MAJORVER#.#MINORVER#* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -293,6 +305,20 @@
           "device": "iPad",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "GoodReaderIPad/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "GoodReaderIPad/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

@@ -1,6 +1,6 @@
 {
   "division": "Reeder #MAJORVER#.#MINORVER#",
-  "versions": ["2.2", "2.1", 2],
+  "versions": ["3.2", 3, "2.5", "2.2", "2.1", 2],
   "sortIndex": 9910,
   "lite": false,
   "standard": true,
@@ -147,6 +147,18 @@
           "match": "Reeder/#MAJORVER#.#MINORVER#* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Reeder/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Reeder/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

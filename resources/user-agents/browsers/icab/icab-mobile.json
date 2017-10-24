@@ -1,6 +1,6 @@
 {
   "division": "iCab #MAJORVER#.#MINORVER#",
-  "versions": ["8.6", "8.5", "1.3", "1.1", 1],
+  "versions": ["9.6", "8.6", "8.5", "1.3", "1.1", 1],
   "sortIndex": 1400,
   "lite": false,
   "standard": true,
@@ -144,6 +144,18 @@
           "match": "iCabMobile/#MAJORVER#.#MINORVER#* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "iCabMobile/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "iCabMobile/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

@@ -137,6 +137,18 @@
           ]
         },
         {
+          "match": "TopPodcasts/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "TopPodcasts/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "TopPodcasts/* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -260,6 +272,18 @@
           "match": "TopPodcastsPro/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "TopPodcastsPro/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "TopPodcastsPro/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

@@ -1,17 +1,17 @@
 {
-  "division": "Mercury",
+  "division": "Mercury Generic",
   "sortIndex": 1949,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Mercury",
+      "userAgent": "Mercury Generic",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mercury",
+        "Comment": "Mercury Generic",
         "Browser": "Mercury",
         "Browser_Type": "Browser",
         "Browser_Maker": "iLegendSoft, Inc.",
@@ -148,6 +148,18 @@
           ]
         },
         {
+          "match": "Mercury/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Mercury/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Mercury/* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -271,6 +283,18 @@
           "match": "Mercury3/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Mercury3/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Mercury3/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

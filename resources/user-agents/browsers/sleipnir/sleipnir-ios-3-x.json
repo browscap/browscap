@@ -1,6 +1,6 @@
 {
   "division": "Sleipnir #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["3.2", "3.1", 3],
+  "versions": ["3.3", "3.2", "3.1", 3],
   "sortIndex": 3130,
   "lite": false,
   "standard": true,
@@ -61,6 +61,18 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        },
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*",
+          "platforms": [
+            "iOS_A"
           ]
         }
       ]

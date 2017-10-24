@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [7],
-  "sortIndex": 1973,
+  "versions": [10],
+  "sortIndex": 1969,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -30,7 +30,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },
@@ -38,37 +38,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
-      "device": "general Mobile Device",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "SymbianOS"
           ]
         }
       ]
@@ -96,31 +67,43 @@
       },
       "children": [
         {
-          "match": "Safari/95??.* CFNetwork/596*",
-          "platforms": [
-            "OSX_10_8"
-          ]
-        },
-        {
-          "match": "Safari/95??.* CFNetwork/673*",
+          "match": "Safari/126??.* CFNetwork/673*",
           "platforms": [
             "OSX_10_9"
           ]
         },
         {
-          "match": "Safari/95??.* CFNetwork/720*",
+          "match": "Safari/126??.* CFNetwork/720*",
           "platforms": [
             "OSX_10_10"
           ]
         },
         {
-          "match": "Safari/95??.* CFNetwork/760*",
+          "match": "Safari/126??.* CFNetwork/760*",
           "platforms": [
             "OSX_10_11"
           ]
         },
         {
-          "match": "Safari/95??.* CFNetwork/*",
+          "match": "Safari/126??.* CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/126??.* CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/126??.* CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
+          ]
+        },
+        {
+          "match": "Safari/126??.* CFNetwork/*",
           "platforms": [
             "OSX"
           ]

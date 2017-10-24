@@ -34,6 +34,19 @@
           ]
         },
         {
+          "match": "Reeder/* CFNetwork/720*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10"
+          ]
+        },
+        {
+          "match": "Reeder/* CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
+          ]
+        },
+        {
           "match": "Reeder/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
@@ -151,6 +164,18 @@
           "match": "Reeder/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Reeder/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Reeder/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

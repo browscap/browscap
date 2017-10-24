@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [7],
-  "sortIndex": 1973,
+  "versions": ["9.1", 9],
+  "sortIndex": 1970,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -30,7 +30,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
             "OSX"
           ]
         },
@@ -38,7 +38,73 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari #MAJORVER#.#MINORVER# for Darwin",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari #MAJORVER#.#MINORVER#",
+        "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Safari/116??.* CFNetwork/596*",
+          "platforms": [
+            "OSX_10_8"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/673*",
+          "platforms": [
+            "OSX_10_9"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/720*",
+          "platforms": [
+            "OSX_10_10"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/760*",
+          "platforms": [
+            "OSX_10_11"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/116??.* CFNetwork/*",
+          "platforms": [
             "OSX"
           ]
         }
@@ -69,60 +135,6 @@
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Safari #MAJORVER#.#MINORVER# for Darwin",
-      "platform": "OSX",
-      "engine": "WebKit",
-      "device": "Macintosh",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Safari/95??.* CFNetwork/596*",
-          "platforms": [
-            "OSX_10_8"
-          ]
-        },
-        {
-          "match": "Safari/95??.* CFNetwork/673*",
-          "platforms": [
-            "OSX_10_9"
-          ]
-        },
-        {
-          "match": "Safari/95??.* CFNetwork/720*",
-          "platforms": [
-            "OSX_10_10"
-          ]
-        },
-        {
-          "match": "Safari/95??.* CFNetwork/760*",
-          "platforms": [
-            "OSX_10_11"
-          ]
-        },
-        {
-          "match": "Safari/95??.* CFNetwork/*",
-          "platforms": [
-            "OSX"
           ]
         }
       ]

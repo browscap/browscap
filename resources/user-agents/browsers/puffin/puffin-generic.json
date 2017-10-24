@@ -344,6 +344,18 @@
           ]
         },
         {
+          "match": "Puffin%20Free/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Puffin%20Free/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
           "match": "Puffin%20Free/* CFNetwork/*",
           "platforms": [
             "iOS"
@@ -467,6 +479,18 @@
           "match": "Puffin/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Puffin/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Puffin/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
           ]
         },
         {

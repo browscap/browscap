@@ -96,60 +96,6 @@
       },
       "children": [
         {
-          "match": "Safari/85??.* CFNetwork/128*",
-          "platforms": [
-            "OSX_10_4"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/129*",
-          "platforms": [
-            "OSX_10_4"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/217*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/220*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/221*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/330*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/339*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/422*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/438*",
-          "platforms": [
-            "OSX_10_5"
-          ]
-        },
-        {
           "match": "Safari/85??.* CFNetwork/454*",
           "platforms": [
             "OSX_10_6"
@@ -171,12 +117,6 @@
           "match": "Safari/85??.* CFNetwork/673*",
           "platforms": [
             "OSX_10_9"
-          ]
-        },
-        {
-          "match": "Safari/85??.* CFNetwork/720*",
-          "platforms": [
-            "OSX_10_10"
           ]
         },
         {
