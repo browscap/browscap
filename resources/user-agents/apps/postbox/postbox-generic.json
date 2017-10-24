@@ -1,24 +1,20 @@
 {
-  "division": "Postbox #MAJORVER#.#MINORVER#",
-  "versions": [3],
-  "sortIndex": 1760,
+  "division": "Postbox Generic",
+  "sortIndex": 1762,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Postbox #MAJORVER#.#MINORVER#",
+      "userAgent": "Postbox Generic",
       "platform": "OSX",
       "engine": "Gecko",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Postbox #MAJORVER#.#MINORVER#",
+        "Comment": "Postbox Generic",
         "Browser": "Postbox",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Postbox, Inc.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Frames": "false",
@@ -31,16 +27,18 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/*",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/*",
           "device": "Windows Desktop",
           "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Windows"
