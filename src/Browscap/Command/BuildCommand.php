@@ -44,7 +44,7 @@ class BuildCommand extends Command
      *
      * @return int|null null or 0 if everything went fine, or an error code
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output) : ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
