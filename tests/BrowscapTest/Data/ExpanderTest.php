@@ -495,13 +495,18 @@ class ExpanderTest extends TestCase
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getProperties', 'getMatch'])
             ->getMock();
 
         $platform
             ->expects(self::any())
             ->method('getProperties')
             ->will(self::returnValue([]));
+
+        $platform
+            ->expects(self::any())
+            ->method('getMatch')
+            ->will(self::returnValue(''));
 
         $collection
             ->expects(self::once())
@@ -610,13 +615,18 @@ class ExpanderTest extends TestCase
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getProperties', 'getMatch'])
             ->getMock();
 
         $platform
             ->expects(self::any())
             ->method('getProperties')
             ->will(self::returnValue([]));
+
+        $platform
+            ->expects(self::any())
+            ->method('getMatch')
+            ->will(self::returnValue(''));
 
         $device
             ->expects(self::any())

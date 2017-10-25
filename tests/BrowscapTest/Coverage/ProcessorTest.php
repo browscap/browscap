@@ -27,8 +27,6 @@ final class ProcessorTest extends TestCase
 
     /**
      * Data provider for the testJsonStructure test
-     *
-     * @return array[]
      */
     public function jsonStructureProvider() : array
     {
@@ -62,8 +60,6 @@ final class ProcessorTest extends TestCase
 
     /**
      * Data provider for the testCoverage test
-     *
-     * @return array[]
      */
     public function coverageProvider() : array
     {

@@ -9,7 +9,7 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * this writer si responsible to create the browscap.json files
+ * This writer is responsible to create the browscap.json files
  */
 class JsonWriter implements WriterInterface
 {

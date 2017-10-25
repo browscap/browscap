@@ -124,12 +124,12 @@ class BuildGeneratorTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $mockCreator = $this->getMockBuilder(DataCollectionFactory::class)
+        $dataCollectionFactory = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $mockCreator
+        $dataCollectionFactory
             ->expects(self::any())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
@@ -171,7 +171,7 @@ class BuildGeneratorTest extends TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $mockCreator);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(false);
 
         $generator->run('test', false);
@@ -247,12 +247,12 @@ class BuildGeneratorTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([$division]));
 
-        $mockCreator = $this->getMockBuilder(DataCollectionFactory::class)
+        $dataCollectionFactory = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
             ->setMethods(['createDataCollection'])
             ->getMock();
 
-        $mockCreator
+        $dataCollectionFactory
             ->expects(self::any())
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
@@ -294,7 +294,7 @@ class BuildGeneratorTest extends TestCase
             ->method('fileEnd')
             ->will(self::returnSelf());
 
-        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $mockCreator);
+        $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(true);
 
         $generator->run('test', false);

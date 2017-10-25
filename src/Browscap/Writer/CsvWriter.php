@@ -8,7 +8,7 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * this writer si responsible to create the browscap.csv files
+ * This writer is responsible to create the browscap.csv files
  */
 class CsvWriter implements WriterInterface
 {

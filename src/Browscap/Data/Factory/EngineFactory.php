@@ -5,7 +5,7 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\Engine;
 
-class EngineFactory
+final class EngineFactory
 {
     /**
      * validates the $engineData array and creates Engine objects from it

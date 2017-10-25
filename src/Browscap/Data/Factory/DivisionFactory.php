@@ -5,7 +5,7 @@ namespace Browscap\Data\Factory;
 use Browscap\Data\Division;
 use Psr\Log\LoggerInterface;
 
-class DivisionFactory
+final class DivisionFactory
 {
     /**
      * @var LoggerInterface

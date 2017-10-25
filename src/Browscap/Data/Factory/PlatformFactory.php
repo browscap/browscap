@@ -5,7 +5,7 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\Platform;
 
-class PlatformFactory
+final class PlatformFactory
 {
     /**
      * validates the $platformData array and creates Platform objects from it

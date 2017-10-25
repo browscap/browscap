@@ -120,10 +120,7 @@ class PlatformFactoryTest extends TestCase
         $this->object->build($platformData, $json, $platformName);
     }
 
-    /**
-     * tests the successfull creating of an platform
-     */
-    public function testBuildOk() : void
+    public function testCreationOfPlatform() : void
     {
         $platformData = ['properties' => ['abc' => 'zyx'], 'match' => 'test*', 'lite' => true, 'standard' => true, 'inherits' => 'abc'];
         $json         = [

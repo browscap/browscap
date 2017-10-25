@@ -30,10 +30,7 @@ class DeviceFactoryTest extends TestCase
         $this->object->build($deviceData, $deviceName);
     }
 
-    /**
-     * tests the creating of an engine factory
-     */
-    public function testBuildOk() : void
+    public function testCreationOfDevice() : void
     {
         $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true];
         $deviceName = 'Test';
