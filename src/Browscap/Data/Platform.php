@@ -8,7 +8,7 @@ namespace Browscap\Data;
 class Platform
 {
     /**
-     * @var string|null
+     * @var string
      */
     private $match;
 
