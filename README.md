@@ -1,12 +1,10 @@
-Browser Capabilities Project
-============================
+# Browser Capabilities Project
 
 [![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap) [![Code Coverage](https://scrutinizer-ci.com/g/browscap/browscap/badges/coverage.png?s=82d775d431d7e22060cf06be0115aa2da2aa6546)](https://scrutinizer-ci.com/g/browscap/browscap/) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/browscap/browscap/badges/quality-score.png?s=2df900495a8b7951066cec5b5ded3a69279240d9)](https://scrutinizer-ci.com/g/browscap/browscap/)
 
 This tool is used to build and maintain browscap files.
 
-Installation
-------------
+## Installation
 
 ```
 $ git clone git://github.com/browscap/browscap.git
@@ -15,29 +13,26 @@ $ curl -s https://getcomposer.org/installer | php
 $ php composer.phar install
 ```
 
-What's changed in version 6027
-------------------------------
+## What's changed in version 6027
 
-## BC breaks listed
+### BC breaks listed
 
  * Strict type hints have been added throughout. This may break some type assumptions made in earlier versions.
  * In many classes Setters and Getters have been removed, the parameters have been moved to the class constructor
  * Some classes are now `final` - use composition instead of inheritance
 
-What's changed in version 6025
-------------------------------
+## What's changed in version 6025
 
-## BC breaks listed
+### BC breaks listed
 
  * The `grep` command and the `diff` command were removed
 
-## Changes
+### Changes
 
  * The tests for integration testing the source files are split from the other tests
  * Tests on travis use the build pipeline now
 
-Directory Structure
--------------------
+## Directory Structure
 
 * `bin` - Contains executable files
 * `build` - Contains various builds
@@ -45,12 +40,11 @@ Directory Structure
 * `src` - The code of this project lives here
 * `tests` - The testing code of this project lives here
 
-the CLI commands
-----------------
+## the CLI commands
 
 There is actually only one cli command available.
 
-## build
+### build
 
 This command is used to build a set of defined browscap files.
 
@@ -58,7 +52,7 @@ This command is used to build a set of defined browscap files.
 bin/browscap build [version]
 ```
 
-### options
+#### options
 
 - `version` (required) the name of the version that should be built
 - `output` (optional) the directory where the files should be created
@@ -67,8 +61,7 @@ bin/browscap build [version]
 
 For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
 
-CLI Examples
-------------
+## CLI Examples
 
 You can export a new set of browscap files:
 
@@ -87,10 +80,9 @@ $
 
 Now you if you look at `browscap/browscap.ini` you will see a new INI file has been generated.
 
-Usage Examples
---------------
+## Usage Examples
 
-## How to build a standard set of browscap files
+### How to build a standard set of browscap files
 
 This example assumes that you want to build all *php_browscap.ini files.
 
@@ -121,7 +113,7 @@ $createZipFile = false; // It is not possible yet to create a zipped version of 
 $buildGenerator->run($version, $createZipFile);
 ```
 
-## How to build a custom set of browscap files
+### How to build a custom set of browscap files
 
 If you want to build a custom set of browscap files, you may not use the predefined WriterFactories.
 
@@ -171,7 +163,7 @@ $createZipFile = false; // It is not possible yet to create a zipped version of 
 $buildGenerator->run($version, $createZipFile);
 ```
 
-## How to build a custom browscap.ini
+### How to build a custom browscap.ini
 
 If you want to build a custom browscap file you may choose the file name and the fields which are included.
 
@@ -205,16 +197,14 @@ $createZipFile = false; // It is not possible yet to create a zipped version of 
 $buildGenerator->run($version, $createZipFile);
 ```
 
-Issues and feature requests
----------------------------
+## Issues and feature requests
 
-Please report your issues and ask for new features on the GitHub Issue Tracker
-at https://github.com/browscap/browscap/issues
+Please report your issues and ask for new features on the GitHub Issue Tracker at https://github.com/browscap/browscap/issues
 
-## Contributing
+### Contributing
 
 For instructions on how to contribute see the [CONTRIBUTE.md](https://github.com/browscap/browscap/blob/master/CONTRIBUTING.md) file.
 
-## License
+### License
 
 See the [LICENSE](https://github.com/browscap/browscap/blob/master/LICENSE) file.
