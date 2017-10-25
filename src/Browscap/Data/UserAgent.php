@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * represents one useragent section inside of a division as defined in the resources/user-agents directory
+ * Represents one useragent section inside of a division as defined in the resources/user-agents directory
  */
 class UserAgent
 {
@@ -61,49 +61,31 @@ class UserAgent
         $this->device     = $device;
     }
 
-    /**
-     * @return string
-     */
     public function getUserAgent() : string
     {
         return $this->userAgent;
     }
 
-    /**
-     * @return (string|bool)[]
-     */
     public function getProperties() : array
     {
         return $this->properties;
     }
 
-    /**
-     * @return array[]
-     */
     public function getChildren() : array
     {
         return $this->children;
     }
 
-    /**
-     * @return string|null
-     */
     public function getPlatform() : ?string
     {
         return $this->platform;
     }
 
-    /**
-     * @return string|null
-     */
     public function getEngine() : ?string
     {
         return $this->engine;
     }
 
-    /**
-     * @return string|null
-     */
     public function getDevice() : ?string
     {
         return $this->device;

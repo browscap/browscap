@@ -5,7 +5,7 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\Device;
 
-class DeviceFactory
+final class DeviceFactory
 {
     /**
      * validates the $deviceData array and creates Device objects from it

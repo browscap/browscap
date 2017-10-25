@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * represents a useragent division as defined in the resources/user-agents directory
+ * Represents a useragent division as defined in the resources/user-agents directory
  */
 class Division
 {
@@ -69,33 +69,21 @@ class Division
         $this->fileName   = $fileName;
     }
 
-    /**
-     * @return bool
-     */
     public function isLite() : bool
     {
         return $this->lite;
     }
 
-    /**
-     * @return bool
-     */
     public function isStandard() : bool
     {
         return $this->standard;
     }
 
-    /**
-     * @return string
-     */
     public function getName() : string
     {
         return $this->name;
     }
 
-    /**
-     * @return int
-     */
     public function getSortIndex() : int
     {
         return $this->sortIndex;
@@ -109,17 +97,11 @@ class Division
         return $this->userAgents;
     }
 
-    /**
-     * @return array
-     */
     public function getVersions() : array
     {
         return $this->versions;
     }
 
-    /**
-     * @return string|null
-     */
     public function getFileName() : ?string
     {
         return $this->fileName;

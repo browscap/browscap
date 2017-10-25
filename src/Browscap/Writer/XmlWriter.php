@@ -8,7 +8,7 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * this writer si responsible to create the browscap.xml files
+ * This writer is responsible to create the browscap.xml files
  */
 class XmlWriter implements WriterInterface
 {

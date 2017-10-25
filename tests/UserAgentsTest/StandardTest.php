@@ -130,9 +130,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
         }
     }
 
-    /**
-     * @return array[]
-     */
     public function userAgentDataProvider() : array
     {
         static $data = [];

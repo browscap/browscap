@@ -49,7 +49,7 @@ class Expander
      *
      * @throws \UnexpectedValueException
      *
-     * @return array[]
+     * @return array
      */
     public function expand(Division $division, string $divisionName) : array
     {
@@ -81,7 +81,7 @@ class Expander
      * @param Division $division
      * @param string   $divisionName
      *
-     * @return array[]
+     * @return array
      */
     private function parseDivision(Division $division, string $divisionName) : array
     {
@@ -118,7 +118,7 @@ class Expander
      * @param int       $sortIndex
      * @param string    $divisionName
      *
-     * @return array[]
+     * @return array
      */
     private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
@@ -214,7 +214,7 @@ class Expander
      * @param bool   $lite
      * @param bool   $standard
      *
-     * @return array[]
+     * @return array
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
@@ -338,7 +338,7 @@ class Expander
      *
      * @throws \UnexpectedValueException
      *
-     * @return array[]
+     * @return array
      */
     private function expandProperties(array $allInputDivisions) : array
     {

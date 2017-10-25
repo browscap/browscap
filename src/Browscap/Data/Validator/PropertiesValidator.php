@@ -2,7 +2,9 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Validator;
 
-class PropertiesValidator implements ValidatorInterface
+use Assert\Assertion;
+
+final class PropertiesValidator implements ValidatorInterface
 {
     /**
      * validates the fully expanded properties
@@ -14,25 +16,15 @@ class PropertiesValidator implements ValidatorInterface
      */
     public function validate(array $properties, string $key) : void
     {
-        if (!array_key_exists('Version', $properties)) {
-            throw new \LogicException('Version property not found for key "' . $key . '"');
+        Assertion::keyExists($properties, 'Version', 'Version property not found for key "' . $key . '"');
+
+        if (!in_array($key, ['DefaultProperties', '*'])) {
+            Assertion::keyExists($properties, 'Parent', 'Parent property is missing for key "' . $key . '"');
         }
 
-        if (!array_key_exists('Parent', $properties) && !in_array($key, ['DefaultProperties', '*'])) {
-            throw new \LogicException('Parent property is missing for key "' . $key . '"');
-        }
-
-        if (!array_key_exists('Device_Type', $properties)) {
-            throw new \LogicException('property "Device_Type" is missing for key "' . $key . '"');
-        }
-
-        if (!array_key_exists('isTablet', $properties)) {
-            throw new \LogicException('property "isTablet" is missing for key "' . $key . '"');
-        }
-
-        if (!array_key_exists('isMobileDevice', $properties)) {
-            throw new \LogicException('property "isMobileDevice" is missing for key "' . $key . '"');
-        }
+        Assertion::keyExists($properties, 'Device_Type', 'property "Device_Type" is missing for key "' . $key . '"');
+        Assertion::keyExists($properties, 'isTablet', 'property "isTablet" is missing for key "' . $key . '"');
+        Assertion::keyExists($properties, 'isMobileDevice', 'property "isMobileDevice" is missing for key "' . $key . '"');
 
         switch ($properties['Device_Type']) {
             case 'Tablet':

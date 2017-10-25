@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * represents a platform as defined in the resources/platforms.json file
+ * Represents a platform as defined in the resources/platforms.json file
  */
 class Platform
 {
@@ -41,10 +41,7 @@ class Platform
         $this->isStandard = $standard;
     }
 
-    /**
-     * @return string|null
-     */
-    public function getMatch() : ?string
+    public function getMatch() : string
     {
         return $this->match;
     }
@@ -57,17 +54,11 @@ class Platform
         return $this->properties;
     }
 
-    /**
-     * @return bool
-     */
     public function isLite() : bool
     {
         return $this->isLite;
     }
 
-    /**
-     * @return bool
-     */
     public function isStandard() : bool
     {
         return $this->isStandard;

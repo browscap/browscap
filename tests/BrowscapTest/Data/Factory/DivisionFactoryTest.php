@@ -35,7 +35,7 @@ class DivisionFactoryTest extends TestCase
         $this->object = new DivisionFactory($logger, $useragentFactory);
     }
 
-    public function testBuildOk() : void
+    public function testCreationOfDivision() : void
     {
         $divisionData = [
             'division' => 'abc',

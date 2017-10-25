@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * represents a device as defined in the resources/devices directory
+ * Represents a device as defined in the resources/devices directory
  */
 class Device
 {
@@ -35,9 +35,6 @@ class Device
         return $this->properties;
     }
 
-    /**
-     * @return bool
-     */
     public function isStandard() : bool
     {
         return $this->standard;

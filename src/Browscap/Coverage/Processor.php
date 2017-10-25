@@ -37,7 +37,7 @@ final class Processor implements ProcessorInterface
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
      * if the statement/function/branch is covered.
      *
-     * @var array[]
+     * @var array
      */
     private $coveredIds = [];
 
@@ -45,7 +45,7 @@ final class Processor implements ProcessorInterface
      * This is the full coverage array that gets output in the write method.  For each file an entry in the array
      * is added.  Each entry contains the elements required for Istanbul compatible coverage reporters.
      *
-     * @var array[]
+     * @var array
      */
     private $coverage = [];
 
@@ -77,7 +77,7 @@ final class Processor implements ProcessorInterface
      * A temporary storage for coverage information for a specific file that is later merged into the main $coverage
      * property after the file is done processing.
      *
-     * @var (string|array)[]
+     * @var array
      */
     private $fileCoverage = [];
 
@@ -152,7 +152,7 @@ final class Processor implements ProcessorInterface
     /**
      * Returns the grouped pattern ids previously set
      *
-     * @return array[]
+     * @return array
      */
     public function getCoveredPatternIds() : array
     {

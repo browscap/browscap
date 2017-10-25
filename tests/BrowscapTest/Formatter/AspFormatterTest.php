@@ -47,10 +47,8 @@ class AspFormatterTest extends TestCase
 
     /**
      * Data Provider for the test testGetPropertyType
-     *
-     * @return array[]
      */
-    public function propertyNameTypeDataProvider()
+    public function propertyNameTypeDataProvider(): array
     {
         return [
             ['Comment', 'test', 'test'],

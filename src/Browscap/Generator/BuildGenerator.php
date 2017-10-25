@@ -7,7 +7,7 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
-final class BuildGenerator
+final class BuildGenerator implements GeneratorInterface
 {
     /**
      * @var string
