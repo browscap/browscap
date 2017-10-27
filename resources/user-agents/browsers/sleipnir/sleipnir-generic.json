@@ -261,10 +261,7 @@
           ]
         },
         {
-          "match": "Sleipnir/*CFNetwork/*",
-          "platforms": [
-            "Darwin"
-          ]
+          "match": "Sleipnir/*CFNetwork/*"
         }
       ]
     }
