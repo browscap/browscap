@@ -1,76 +1,142 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Assert\InvalidArgumentException;
 use Browscap\Data\Factory\PlatformFactory;
+use Browscap\Data\Platform;
+use PHPUnit\Framework\TestCase;
+use UnexpectedValueException;
 
-/**
- * Class PlatformTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
- */
-class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
+class PlatformFactoryTest extends TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\PlatformFactory
+     * @var PlatformFactory
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->object = new PlatformFactory();
     }
 
     /**
-     * tests the creating of an platform factory
-     *
-     * @group data
-     * @group sourcetest
+     * tests that the missing "lite" property is leading to an error
      */
-    public function testBuild() : void
+    public function testBuildMissingLiteProperty() : void
     {
-        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true];
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('the value for "lite" key is missing for the platform with the key "Test"');
+
+        $platformData = ['abc' => 'def'];
         $json         = [];
         $platformName = 'Test';
 
-        $deviceData = ['Device_Name' => 'TestDevice'];
+        $this->object->build($platformData, $json, $platformName);
+    }
 
-        $deviceMock = $this->getMockBuilder(\Browscap\Data\Device::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
-            ->getMock();
+    /**
+     * tests that the missing "standard" property is leading to an error
+     */
+    public function testBuildMissingStandardProperty() : void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('the value for "standard" key is missing for the platform with the key "Test"');
 
-        $deviceMock->expects(self::any())
-            ->method('getProperties')
-            ->will(self::returnValue($deviceData));
+        $platformData = ['abc' => 'def', 'lite' => false];
+        $json         = [];
+        $platformName = 'Test';
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getDevice'])
-            ->getMock();
+        $this->object->build($platformData, $json, $platformName);
+    }
 
-        $collection->expects(self::any())
-            ->method('getDevice')
-            ->will(self::returnValue($deviceMock));
+    /**
+     * tests that the missing "match" property is leading to an error
+     */
+    public function testBuildWithoutMatchProperty() : void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('the value for the "match" key is missing for the platform with the key "Test"');
 
-        self::assertInstanceOf(
-            '\Browscap\Data\Platform',
-            $this->object->build($platformData, $json, $platformName)
-        );
+        $platformData = ['properties' => ['abc' => 'def'], 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
+        $json         = [
+            'abc' => [
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
+            ],
+        ];
+        $platformName = 'Test';
+
+        $this->object->build($platformData, $json, $platformName);
+    }
+
+    /**
+     * tests that the missing "inherits" property and missing "properties" property is leading to an error
+     */
+    public function testBuildWithMissingInheritAndProperties() : void
+    {
+        $this->expectException(UnexpectedValueException::class);
+        $this->expectExceptionMessage('required attibute "properties" is missing');
+
+        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => false, 'standard' => false];
+        $json         = [];
+        $platformName = 'Test';
+
+        $this->object->build($platformData, $json, $platformName);
+    }
+
+    /**
+     * tests that a missing parent platform is leading to an error
+     */
+    public function testBuildMissingParentPlatform() : void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('parent Platform "abc" is missing for platform "Test"');
+
+        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
+        $json         = [];
+        $platformName = 'Test';
+
+        $this->object->build($platformData, $json, $platformName);
+    }
+
+    public function testBuildWithRepeatingProperties() : void
+    {
+        $this->expectException(UnexpectedValueException::class);
+        $this->expectExceptionMessage('the value for property "abc" has the same value in the keys "Test" and its parent "abc"');
+
+        $platformData = ['properties' => ['abc' => 'def'], 'match' => 'test*', 'lite' => false, 'standard' => false, 'inherits' => 'abc'];
+        $json         = [
+            'abc' => [
+                'match' => 'test*',
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
+            ],
+        ];
+        $platformName = 'Test';
+
+        $this->object->build($platformData, $json, $platformName);
+    }
+
+    public function testCreationOfPlatform() : void
+    {
+        $platformData = ['properties' => ['abc' => 'zyx'], 'match' => 'test*', 'lite' => true, 'standard' => true, 'inherits' => 'abc'];
+        $json         = [
+            'abc' => [
+                'match' => 'test*',
+                'properties' => ['abc' => 'def'],
+                'standard' => false,
+                'lite' => false,
+            ],
+        ];
+        $platformName = 'Test';
+
+        $platform = $this->object->build($platformData, $json, $platformName);
+
+        self::assertInstanceOf(Platform::class, $platform);
+        self::assertFalse($platform->isLite());
+        self::assertFalse($platform->isStandard());
     }
 }

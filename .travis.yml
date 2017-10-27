@@ -30,11 +30,8 @@ script:
 jobs:
   fast_finish: true
   allow_failures:
-    - php: 7.2
     - php: nightly
   include:
-    - php: 7.2
-      env: COMPOSER_FLAGS="--ignore-platform-reqs"
     - php: nightly
       env: COMPOSER_FLAGS="--ignore-platform-reqs"
     - stage: test with coverage
@@ -53,7 +50,7 @@ jobs:
     - stage: static code analysis
       php: 7.1
       env: COMPOSER_FLAGS=""
-      script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=4096M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
+      script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
     - stage: integration test
       php: 7.1
       env:

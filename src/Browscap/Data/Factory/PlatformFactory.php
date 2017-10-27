@@ -1,78 +1,56 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assertion;
 use Browscap\Data\Platform;
 
-/**
- * Class PlatformFactory
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class PlatformFactory
+final class PlatformFactory
 {
     /**
-     * Load a platforms.json file and parse it into the platforms data array
+     * validates the $platformData array and creates Platform objects from it
      *
-     * @param array  $platformData
-     * @param array  $json
-     * @param string $platformName
+     * @param array  $platformData     The Platform data for the current object
+     * @param array  $dataAllPlatforms The Platform data for all platforms
+     * @param string $platformName     The name for the current platform
      *
      * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
      *
-     * @return \Browscap\Data\Platform
+     * @return Platform
      */
-    public function build(array $platformData, array $json, $platformName)
+    public function build(array $platformData, array $dataAllPlatforms, string $platformName) : Platform
     {
-        if (!isset($platformData['properties'])) {
+        Assertion::isArray($platformData, 'each entry inside the "platforms" structure has to be an array');
+        Assertion::keyExists($platformData, 'lite', 'the value for "lite" key is missing for the platform with the key "' . $platformName . '"');
+        Assertion::keyExists($platformData, 'standard', 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"');
+        Assertion::keyExists($platformData, 'match', 'the value for the "match" key is missing for the platform with the key "' . $platformName . '"');
+
+        if (!array_key_exists('properties', $platformData) && !array_key_exists('inherits', $platformData)) {
+            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        }
+
+        if (!array_key_exists('properties', $platformData)) {
             $platformData['properties'] = [];
         }
 
-        if (!array_key_exists('lite', $platformData)) {
-            throw new \UnexpectedValueException(
-                'the value for "lite" key is missing for the platform with the key "' . $platformName . '"'
-            );
-        }
-
-        if (!array_key_exists('standard', $platformData)) {
-            throw new \UnexpectedValueException(
-                'the value for "standard" key is missing for the platform with the key "' . $platformName . '"'
-            );
-        }
-
         if (array_key_exists('inherits', $platformData)) {
+            Assertion::string($platformData['inherits'], 'parent Platform key has to be a string for platform "' . $platformName . '"');
+
             $parentName = $platformData['inherits'];
 
-            if (!isset($json['platforms'][$parentName])) {
-                throw new \UnexpectedValueException(
-                    'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"'
-                );
-            }
+            Assertion::keyExists($dataAllPlatforms, $parentName, 'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"');
 
-            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
+            $parentPlatform     = $this->build($dataAllPlatforms[$parentName], $dataAllPlatforms, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
 
             $platformProperties = $platformData['properties'];
 
             foreach ($platformProperties as $name => $value) {
-                if (isset($parentPlatformData[$name])
-                    && $parentPlatformData[$name] === $value
-                ) {
+                if (isset($parentPlatformData[$name]) && $parentPlatformData[$name] === $value) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
-                        . '" and its parent "' . $platformData['inherits'] . '"'
+                        . '" and its parent "' . $parentName . '"'
                     );
                 }
             }

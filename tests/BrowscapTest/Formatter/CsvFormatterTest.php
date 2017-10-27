@@ -1,71 +1,44 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace BrowscapTest\Formatter;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Formatter\CsvFormatter;
+use Browscap\Formatter\FormatterInterface;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class CsvFormatterTest
- *
- * @category   BrowscapTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class CsvFormatterTest extends \PHPUnit\Framework\TestCase
+class CsvFormatterTest extends TestCase
 {
     /**
-     * @var \Browscap\Formatter\CsvFormatter
+     * @var CsvFormatter
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
-        $this->object = new CsvFormatter();
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new CsvFormatter($propertyHolder);
     }
 
     /**
      * tests getter for the formatter type
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
-        self::assertSame('csv', $this->object->getType());
-    }
-
-    /**
-     * tests setter and getter for the filter
-     *
-     * @group formatter
-     * @group sourcetest
-     */
-    public function testSetGetFilter() : void
-    {
-        $mockFilter = $this->createMock(\Browscap\Filter\StandardFilter::class);
-
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
-        self::assertSame($mockFilter, $this->object->getFilter());
+        self::assertSame(FormatterInterface::TYPE_CSV, $this->object->getType());
     }
 
     /**
      * tests formatting a property name
-     *
-     * @group formatter
-     * @group sourcetest
      */
     public function testFormatPropertyName() : void
     {
@@ -74,10 +47,8 @@ class CsvFormatterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Data Provider for the test testGetPropertyType
-     *
-     * @return array[]
      */
-    public function propertyNameTypeDataProvider()
+    public function propertyNameTypeDataProvider() : array
     {
         return [
             ['Comment', 'test', '"test"'],
@@ -113,13 +84,28 @@ class CsvFormatterTest extends \PHPUnit\Framework\TestCase
      * @param string $propertyName
      * @param string $inputValue
      * @param string $expectedValue
-     *
-     * @group formatter
-     * @group sourcetest
      */
-    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue) : void
+    public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
+    }
+
+    /**
+     * tests formatting a property value
+     */
+    public function testFormatPropertyValueWithException() : void
+    {
+        $actualValue = $this->object->formatPropertyValue('Browserx', 'Browser_Type');
+        self::assertSame('""', $actualValue);
+    }
+
+    /**
+     * tests formatting a property value
+     */
+    public function testFormatPropertyValueWithUnknownValue() : void
+    {
+        $actualValue = $this->object->formatPropertyValue('unknown', 'Browser_Type');
+        self::assertSame('""', $actualValue);
     }
 }

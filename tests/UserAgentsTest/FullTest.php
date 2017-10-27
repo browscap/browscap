@@ -1,22 +1,13 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace UserAgentsTest;
 
 use Browscap\Coverage\Processor;
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
@@ -26,31 +17,27 @@ use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use WurflCache\Adapter\File;
 
-/**
- * @group      useragenttest
- * @group      full
- */
 class FullTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
      */
-    private static $browscap = null;
+    private static $browscap;
 
     /**
      * @var \BrowscapPHP\BrowscapUpdater
      */
-    private static $browscapUpdater = null;
+    private static $browscapUpdater;
 
     /**
      * @var string
      */
-    private static $buildFolder = null;
+    private static $buildFolder;
 
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private static $propertyHolder = null;
+    private static $propertyHolder;
 
     /**
      * @var string[]
@@ -58,9 +45,14 @@ class FullTest extends \PHPUnit\Framework\TestCase
     private static $coveredPatterns = [];
 
     /**
-     * @var \Browscap\Filter\FullFilter
+     * @var \Browscap\Filter\FilterInterface
      */
-    private static $filter = null;
+    private static $filter;
+
+    /**
+     * @var \Browscap\Writer\WriterInterface
+     */
+    private static $writer;
 
     public static function setUpBeforeClass() : void
     {
@@ -82,35 +74,30 @@ class FullTest extends \PHPUnit\Framework\TestCase
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $buildGenerator = new BuildGenerator(
-            $resourceFolder,
-            self::$buildFolder
-        );
-
-        $buildGenerator->setLogger($logger);
+        $version = (string) $buildNumber;
 
         $writerCollection = new WriterCollection();
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new FullFilter(self::$propertyHolder);
+        self::$writer         = new IniWriter(self::$buildFolder . '/full_php_browscap.ini', $logger);
+        $formatter            = new PhpFormatter(self::$propertyHolder);
+        self::$writer->setFormatter($formatter);
+        self::$writer->setFilter(self::$filter);
+        $writerCollection->addWriter(self::$writer);
 
-        $fullPhpWriter = new IniWriter(self::$buildFolder . '/full_php_browscap.ini');
-        $formatter     = new PhpFormatter();
-        $formatter->setFilter(self::$filter);
-        $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter)
-            ->setFilter(self::$filter);
-        $writerCollection->addWriter($fullPhpWriter);
+        $dataCollectionFactory = new DataCollectionFactory($logger);
 
-        $collectionCreator = new CollectionCreator();
-        $collectionCreator->setLogger($logger);
+        $buildGenerator = new BuildGenerator(
+            $resourceFolder,
+            self::$buildFolder,
+            $logger,
+            $writerCollection,
+            $dataCollectionFactory
+        );
 
-        $buildGenerator->setCollectionCreator($collectionCreator);
-        $buildGenerator->setWriterCollection($writerCollection);
         $buildGenerator->setCollectPatternIds(true);
-
-        $buildGenerator->run((string) $buildNumber, false);
+        $buildGenerator->run($version, false);
 
         $cache = new File([File::DIR => $cacheFolder]);
         $cache->flush();
@@ -143,10 +130,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
         }
     }
 
-    /**
-     * @return array[]
-     */
-    public function userAgentDataProvider()
+    public function userAgentDataProvider() : array
     {
         static $data = [];
 
@@ -206,9 +190,9 @@ class FullTest extends \PHPUnit\Framework\TestCase
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgents($userAgent, $expectedProperties) : void
+    public function testUserAgents(string $userAgent, array $expectedProperties) : void
     {
-        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+        if (!count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
@@ -219,7 +203,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
         }
 
         foreach ($expectedProperties as $propName => $propValue) {
-            if (!self::$filter->isOutputProperty($propName)) {
+            if (!self::$filter->isOutputProperty($propName, self::$writer)) {
                 continue;
             }
 
@@ -233,7 +217,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] . ')'
+                . '"; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
             );
         }
     }

@@ -1,16 +1,8 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Filter\LiteFilter;
 use Browscap\Filter\StandardFilter;
@@ -20,50 +12,40 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class FullPhpWriterFactory
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * a factory to create a writer collection to write all php browscap files at once
  */
 class PhpWriterFactory
 {
     /**
-     * @param \Psr\Log\LoggerInterface $logger
-     * @param string                   $buildFolder
+     * @param LoggerInterface $logger
+     * @param string          $buildFolder
      *
-     * @return \Browscap\Writer\WriterCollection
+     * @return WriterCollection
      */
-    public function createCollection(LoggerInterface $logger, $buildFolder)
+    public function createCollection(LoggerInterface $logger, string $buildFolder) : WriterCollection
     {
         $writerCollection = new WriterCollection();
+        $propertyHolder   = new PropertyHolder();
 
-        $fullFilter = new FullFilter();
-        $stdFilter  = new StandardFilter();
-        $liteFilter = new LiteFilter();
+        $fullFilter = new FullFilter($propertyHolder);
+        $stdFilter  = new StandardFilter($propertyHolder);
+        $liteFilter = new LiteFilter($propertyHolder);
 
-        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
-        $formatter     = new PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter);
+        $formatter = new PhpFormatter($propertyHolder);
+
+        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
+        $fullPhpWriter->setFormatter($formatter);
+        $fullPhpWriter->setFilter($fullFilter);
         $writerCollection->addWriter($fullPhpWriter);
 
-        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini');
-        $formatter    = new PhpFormatter();
-        $stdPhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter);
+        $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
+        $stdPhpWriter->setFormatter($formatter);
+        $stdPhpWriter->setFilter($stdFilter);
         $writerCollection->addWriter($stdPhpWriter);
 
-        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini');
-        $formatter     = new PhpFormatter();
-        $litePhpWriter
-            ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($liteFilter))
-            ->setFilter($liteFilter);
+        $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
+        $litePhpWriter->setFormatter($formatter);
+        $litePhpWriter->setFilter($liteFilter);
         $writerCollection->addWriter($litePhpWriter);
 
         return $writerCollection;

@@ -1,25 +1,9 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Browscap\Writer\WriterInterface;
 
-/**
- * Class PropertyHolder
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class PropertyHolder
 {
     public const TYPE_STRING   = 'string';
@@ -37,7 +21,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function getPropertyType($propertyName)
+    public function getPropertyType(string $propertyName) : string
     {
         $stringProperties = [
             'Comment' => 1,
@@ -132,14 +116,14 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an property that should
-     * be included in the "full" versions of the files only
+     * be included in the all versions of the files
      *
-     * @param string                           $propertyName
-     * @param \Browscap\Writer\WriterInterface $writer
+     * @param string          $propertyName
+     * @param WriterInterface $writer
      *
      * @return bool
      */
-    public function isLiteModeProperty(string $propertyName, ?WriterInterface $writer = null) : bool
+    public function isLiteModeProperty(string $propertyName, WriterInterface $writer) : bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -156,7 +140,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && 'ini' === $writer->getType()) {
+        if (WriterInterface::TYPE_INI === $writer->getType()) {
             $additionalProperties = ['PatternId'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -169,14 +153,14 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an property that should
-     * be included in the "full" versions of the files only
+     * be included in the "standard" or "full" versions of the files only
      *
-     * @param string                           $propertyName
-     * @param \Browscap\Writer\WriterInterface $writer
+     * @param string          $propertyName
+     * @param WriterInterface $writer
      *
      * @return bool
      */
-    public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
+    public function isStandardModeProperty(string $propertyName, WriterInterface $writer) : bool
     {
         $outputProperties = [
             'MajorVer' => 1,
@@ -190,7 +174,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+        if (in_array($writer->getType(), [WriterInterface::TYPE_CSV, WriterInterface::TYPE_XML])) {
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -203,14 +187,14 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
+     * be included in any version of the files)
      *
-     * @param string                           $propertyName
-     * @param \Browscap\Writer\WriterInterface $writer
+     * @param string          $propertyName
+     * @param WriterInterface $writer
      *
      * @return bool
      */
-    public function isOutputProperty($propertyName, WriterInterface $writer = null)
+    public function isOutputProperty(string $propertyName, WriterInterface $writer) : bool
     {
         $outputProperties = [
             'Comment' => 1,
@@ -268,7 +252,7 @@ class PropertyHolder
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+        if (in_array($writer->getType(), [WriterInterface::TYPE_CSV, WriterInterface::TYPE_XML])) {
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -276,7 +260,7 @@ class PropertyHolder
             }
         }
 
-        if (null !== $writer && 'ini' === $writer->getType()) {
+        if (WriterInterface::TYPE_INI === $writer->getType()) {
             if ('PatternId' === $propertyName) {
                 return true;
             }
@@ -293,7 +277,7 @@ class PropertyHolder
      *
      * @return string
      */
-    public function checkValueInArray(string $property, string $value)
+    public function checkValueInArray(string $property, string $value) : string
     {
         switch ($property) {
             case 'Browser_Type':

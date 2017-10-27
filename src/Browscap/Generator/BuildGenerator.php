@@ -1,59 +1,90 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Generator;
 
+use Browscap\Data\Factory\DataCollectionFactory;
+use Browscap\Writer\WriterCollection;
+use Psr\Log\LoggerInterface;
 use ZipArchive;
 
-/**
- * Class BuildGenerator
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class BuildGenerator extends AbstractBuildGenerator
+final class BuildGenerator implements GeneratorInterface
 {
+    /**
+     * @var string
+     */
+    private $resourceFolder;
+
+    /**
+     * @var string
+     */
+    private $buildFolder;
+
+    /**
+     * @var LoggerInterface
+     */
+    private $logger;
+
+    /**
+     * @var DataCollectionFactory
+     */
+    private $dataCollectionFactory;
+
+    /**
+     * @var WriterCollection
+     */
+    private $writerCollection;
+
+    /**
+     * @var bool
+     */
+    private $collectPatternIds = false;
+
+    /**
+     * @param string                $resourceFolder
+     * @param string                $buildFolder
+     * @param LoggerInterface       $logger
+     * @param WriterCollection      $writerCollection
+     * @param DataCollectionFactory $dataCollectionFactory
+     */
+    public function __construct(
+        string $resourceFolder,
+        string $buildFolder,
+        LoggerInterface $logger,
+        WriterCollection $writerCollection,
+        DataCollectionFactory $dataCollectionFactory
+    ) {
+        $this->resourceFolder        = $this->checkDirectoryExists($resourceFolder);
+        $this->buildFolder           = $this->checkDirectoryExists($buildFolder);
+        $this->logger                = $logger;
+        $this->writerCollection      = $writerCollection;
+        $this->dataCollectionFactory = $dataCollectionFactory;
+    }
+
     /**
      * Entry point for generating builds for a specified version
      *
      * @param string $buildVersion
      * @param bool   $createZipFile
-     *
-     * @return \Browscap\Generator\BuildGenerator
      */
-    public function run($buildVersion, $createZipFile = true)
+    public function run(string $buildVersion, bool $createZipFile = true) : void
     {
-        $this->preBuild();
-        $this->build($buildVersion);
-        $this->postBuild($createZipFile);
+        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->logger->info('Build folder: ' . $this->buildFolder . '');
 
-        return $this;
-    }
+        Helper\BuildHelper::run(
+            $buildVersion,
+            $this->resourceFolder,
+            $this->logger,
+            $this->writerCollection,
+            $this->dataCollectionFactory,
+            $this->collectPatternIds
+        );
 
-    /**
-     * runs after the build
-     *
-     * @param bool $createZipFile
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    protected function postBuild($createZipFile = true)
-    {
         if (!$createZipFile) {
-            return $this;
+            return;
         }
 
-        $this->getLogger()->info('started creating the zip archive');
+        $this->logger->info('started creating the zip archive');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
@@ -82,8 +113,38 @@ class BuildGenerator extends AbstractBuildGenerator
 
         $zip->close();
 
-        $this->getLogger()->info('finished creating the zip archive');
+        $this->logger->info('finished creating the zip archive');
+    }
 
-        return $this;
+    /**
+     * Sets the flag to collect pattern ids during this build
+     *
+     * @param bool $value
+     */
+    public function setCollectPatternIds(bool $value) : void
+    {
+        $this->collectPatternIds = $value;
+    }
+
+    /**
+     * @param string $directory
+     *
+     * @throws \InvalidArgumentException
+     *
+     * @return string
+     */
+    private function checkDirectoryExists(string $directory) : string
+    {
+        $realDirectory = realpath($directory);
+
+        if (false === $realDirectory) {
+            throw new DirectoryMissingException('The directory "' . $directory . '" does not exist, or we cannot access it');
+        }
+
+        if (!is_dir($realDirectory)) {
+            throw new NotADirectoryException('The path "' . $realDirectory . '" did not resolve to a directory');
+        }
+
+        return $realDirectory;
     }
 }
