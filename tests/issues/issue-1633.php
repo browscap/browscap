@@ -1894,7 +1894,7 @@ return [
     'issue-1633-AJ' => [
         'ua' => 'Sleipnir/3.3 CFNetwork/711.1.12 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Sleipnir 3.3',
+            'Comment' => 'Sleipnir 3.3 for Darwin',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
