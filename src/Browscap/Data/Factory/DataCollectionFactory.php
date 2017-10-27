@@ -6,6 +6,8 @@ use Assert\Assertion;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
 use Psr\Log\LoggerInterface;
+use Seld\JsonLint\JsonParser;
+use Seld\JsonLint\ParsingException;
 
 class DataCollectionFactory
 {
@@ -259,14 +261,16 @@ class DataCollectionFactory
             throw new \RuntimeException('File "' . $filename . '" contains Non-ASCII-Characters.');
         }
 
-        $decodedFileContent = json_decode($fileContent, true);
+        $jsonParser = new JsonParser();
 
-        if (null === $decodedFileContent) {
+        try {
+            return $jsonParser->parse($fileContent, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
+        } catch (ParsingException $e) {
             throw new \RuntimeException(
-                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']'
+                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']',
+                0,
+                $e
             );
         }
-
-        return $decodedFileContent;
     }
 }
