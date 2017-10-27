@@ -50,7 +50,6 @@
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
         "Comment": "Qt Generic for Desktop",
         "Browser": "Qt",
         "Browser_Type": "Browser",

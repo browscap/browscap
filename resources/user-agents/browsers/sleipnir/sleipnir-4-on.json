@@ -54,12 +54,6 @@
           "platforms": [
             "OSX_10_9"
           ]
-        },
-        {
-          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*",
-          "platforms": [
-            "OSX"
-          ]
         }
       ]
     }

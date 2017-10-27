@@ -58,12 +58,39 @@
             "iOS_A",
             "iOS_C"
           ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",
+      "device": "general Mobile Device (Apple)",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",
+        "Browser": "Sleipnir",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Fenrir Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
         },
         {
-          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*",
-          "platforms": [
-            "iOS_A"
-          ]
+          "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/*"
         }
       ]
     }

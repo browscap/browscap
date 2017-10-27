@@ -72,8 +72,6 @@
           "match": "#DEVICE#/* Browser/Obigo-Q05A/*",
           "devices": {
             "LG/HB620T": "LG HB620T",
-            "LG/HB620T": "LG HB620T",
-            "LG/KU990": "LG KU990",
             "LG/KU990": "LG KU990"
           }
         },
