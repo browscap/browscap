@@ -649,7 +649,7 @@ return [
         'full' => true
     ],
     'issue-1653-M' => [
-        'ua' => 'python-requests/2.10.0',
+        'ua' => 'python-requests/2.12.4',
         'properties' => [
             'Comment' => 'python-requests',
             'Browser' => 'python-requests',
@@ -657,9 +657,9 @@ return [
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',
-            'Version' => '2.10',
+            'Version' => '2.12',
             'MajorVer' => '2',
-            'MinorVer' => '10',
+            'MinorVer' => '12',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
