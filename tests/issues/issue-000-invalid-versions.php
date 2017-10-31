@@ -1941,4 +1941,342 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    // Safari 6.0 was most likely not available on iOS 7.1.2 (it would have come with Safari 7.0).
+    // I don't have a concrete source for this, but there are a couple of things wrong with this UA
+    // 1) The AppleWebKit version "537.51.2" matches what is seen in Safari 7.0 UAs, not 6.0.
+    // 2) The Safari version for 6.0 is "8536.25" not "537.51.2"
+    // That said, this one does return Safari 6.0 on iOS, but it says it's iOS 7.0, not 7.1.
+    // 7.0 was left in for Safari 6.0 due to Beta releases of iOS containing the previous version's Safari until
+    // it's updated before general release.
+    'issue-000-invalid-versions-DE' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 Version/6.0 Safari/537.51.2',
+        'properties' => [
+            'Comment' => 'Mobile Safari 6.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '6.0',
+            'MajorVer' => '6',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 8.0 would not have been available on iOS 7.1.1 (it would have released with iOS 8.0, and it's not
+    // possible to update Safari outside of an iOS update). There are also a couple of things wrong with this UA,
+    // which implies that it's probably spoofed.
+    // 1) The iOS build "12B435" (in the mobile tag) belongs to iOS version 8.1.1, not 7.1.1:
+    // https://ipsw.me/8.1.1
+    // http://iosindex.com/iphone/4s/8.1.1-12B435
+    // 2) The Safari build number for 8.0 is "600.1.4" not "500.4"
+    'issue-000-invalid-versions-DF' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/500.14 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/500.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.1',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
+    // It's not possible to run an older version of Safari on newer versions of iOS. iOS 10.x would come with Safari 10, not 8.0.
+    // Also the WebKit version here (602.3.12) applies to older version of Safari (10.0 in this case), 8.0 was at 600.1.3 - 601.1.37
+    'issue-000-invalid-versions-DG' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Version/8.0 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '10.2',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 8.0 would not have been available on iOS 9.1.1 (Safari 9.0 was in use by this release)
+    // Also, the iOS build number here (12B435) is for iOS 8.1.1, not 9.1.1
+    // https://ipsw.me/8.1.1
+    // http://iosindex.com/iphone/4s/8.1.1-12B435
+    // This gets caught as iOS 9.0 since 9.0 exists in the Safari 8.0 file due to beta iOS releases.
+    'issue-000-invalid-versions-DH' => [
+        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari 8.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '8.0',
+            'MajorVer' => '8',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '9.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => true,
+    ],
+    // Same issue as above, just for iPhone instead of iPod
+    'issue-000-invalid-versions-DI' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari 8.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '8.0',
+            'MajorVer' => '8',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '9.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 10.0 isn't available on iOS 9.3 (would have released with iOS 10.x, and isn't separately updateable)
+    // Also, the iOS build here (14B100) is for iOS 10.1.1, not 9.3.5:
+    // https://ipsw.me/10.1.1
+    // http://iosindex.com/ios/iphone/7g-plus/10.1.1-14B100
+    'issue-000-invalid-versions-DJ' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9.3.5 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 10.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '10.0',
+            'MajorVer' => '10',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 9.0 came out with iOS 9.0 and is not updateable on older iOS versions
+    // Also, the iOS build here (13B143) belongs to iOS 9.1, not 8.3
+    // https://ipsw.me/9.1
+    // http://iosindex.com/ios/iphone/6s/9.1-13B143
+    'issue-000-invalid-versions-DK' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4.15.16 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 9.0 was not available on iOS 8.1.1
+    // The iOS build number (13B143) is for iOS 9.1 not 8.1.1
+    // https://ipsw.me/9.1
+    // http://iosindex.com/ios/iphone/6g/9.1-13B143
+    'issue-000-invalid-versions-DL' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4.12.4 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 9.0 was not available on iOS 7.1.2
+    // The iOS build number (13B143) is for iOS 9.1 not 7.1.2
+    // https://ipsw.me/9.1
+    // http://iosindex.com/ios/iphone/6g/9.1-13B143
+    'issue-000-invalid-versions-DM' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 8.0 was not available on iOS 7.0.5
+    // The iOS build number (12F70) is for iOS 8.3 not 7.0.5
+    // https://ipsw.me/8.3
+    // http://iosindex.com/iphone/5s-global/8.3-12F70
+    'issue-000-invalid-versions-DN' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_5 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari 8.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '8.0',
+            'MajorVer' => '8',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Safari 9.0 is not available on iOS 10.3 (Safari 10.0 would have come with 10.3)
+    // The iOS build number (13B143) is for 9.1 not 10.3
+    // https://ipsw.me/9.1
+    // http://iosindex.com/ios/iphone/6s/9.1-13B143
+    // This parses as iOS 10.0 since 10.0 is left in the Safari 9.0 file for the beta releases
+    'issue-000-invalid-versions-DO' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30.1.33 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '10.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Identical to the one above, but instead of iOS 10.3, this one has iOS 10.2 defined in the UA
+    'issue-000-invalid-versions-DP' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '10.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
+    // Similar to the ones above, but this one has "13C75" as the build number, which is for iOS 9.2, not 10.1
+    // https://ipsw.me/9.2
+    // http://iosindex.com/ios/iphone/6g/9.2-13C75
+    // Parses as iOS 10.0
+    'issue-000-invalid-versions-DQ' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 9.0',
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '9.0',
+            'MajorVer' => '9',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '10.0',
+            'Platform_Description' => 'iPod, iPhone & iPad',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
 ];
