@@ -55,7 +55,7 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1656-G' => [
+    'issue-1656-B' => [
         'ua' => 'Java/1.8.0_05',
         'properties' => [
             'Comment' => 'Java Standard Library',
