@@ -1,7 +1,7 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["6.1"],
-  "sortIndex": 1962,
+  "versions": [10],
+  "sortIndex": 1957,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -34,14 +34,9 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
-            "iOS_A_3_1", "iOS_A_3_0",
-            "iOS_A",
-            "iOS_C"
+            "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A"
           ]
         },
         {
@@ -50,12 +45,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_6_1", "iOS_C_6_0",
-            "iOS_C_5_1", "iOS_C_5_0",
-            "iOS_C_4_3", "iOS_C_4_2",
-            "iOS_C_3_2",
+            "iOS_C_11_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C"
           ]
         },
@@ -64,6 +55,36 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.1*",
+          "platforms": [
+            "iOS_A_10_1"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.2*",
+          "platforms": [
+            "iOS_A_10_2"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.3*",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/811*",
+          "platforms": [
+            "iOS_A_10_3"
           ]
         }
       ]
