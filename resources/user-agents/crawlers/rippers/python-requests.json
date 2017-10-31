@@ -16,6 +16,110 @@
       },
       "children": [
         {
+          "match": "python-requests/2.18*",
+          "properties": {
+            "Version": "2.18",
+            "MajorVer": "2",
+            "MinorVer": "18"
+          }
+        },
+        {
+          "match": "python-requests/2.17*",
+          "properties": {
+            "Version": "2.17",
+            "MajorVer": "2",
+            "MinorVer": "17"
+          }
+        },
+        {
+          "match": "python-requests/2.16*",
+          "properties": {
+            "Version": "2.16",
+            "MajorVer": "2",
+            "MinorVer": "16"
+          }
+        },
+        {
+          "match": "python-requests/2.15*",
+          "properties": {
+            "Version": "2.15",
+            "MajorVer": "2",
+            "MinorVer": "15"
+          }
+        },
+        {
+          "match": "python-requests/2.14*",
+          "properties": {
+            "Version": "2.14",
+            "MajorVer": "2",
+            "MinorVer": "14"
+          }
+        },
+        {
+          "match": "python-requests/2.13*",
+          "properties": {
+            "Version": "2.13",
+            "MajorVer": "2",
+            "MinorVer": "13"
+          }
+        },
+        {
+          "match": "python-requests/2.12*",
+          "properties": {
+            "Version": "2.12",
+            "MajorVer": "2",
+            "MinorVer": "12"
+          }
+        },
+        {
+          "match": "python-requests/2.11*",
+          "properties": {
+            "Version": "2.11",
+            "MajorVer": "2",
+            "MinorVer": "11"
+          }
+        },
+        {
+          "match": "python-requests/2.10*",
+          "properties": {
+            "Version": "2.10",
+            "MajorVer": "2",
+            "MinorVer": "10"
+          }
+        },
+        {
+          "match": "python-requests/2.9*",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "python-requests/2.8*",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "python-requests/2.7*",
+          "properties": {
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "python-requests/2.6*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
           "match": "python-requests/2.5* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
