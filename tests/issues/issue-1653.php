@@ -3,7 +3,7 @@ return [
     'issue-1653-A' => [
         'ua' => 'python-requests/2.18.4',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.18',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -57,7 +57,7 @@ return [
     'issue-1653-B' => [
         'ua' => 'python-requests/2.18.3',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.18',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -111,7 +111,7 @@ return [
     'issue-1653-C' => [
         'ua' => 'python-requests/2.18.2',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.18',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -165,7 +165,7 @@ return [
     'issue-1653-D' => [
         'ua' => 'python-requests/2.18.1',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.18',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -219,7 +219,7 @@ return [
     'issue-1653-E' => [
         'ua' => 'python-requests/2.17.3',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.17',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -273,7 +273,7 @@ return [
     'issue-1653-F' => [
         'ua' => 'python-requests/2.16.5',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.16',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -327,7 +327,7 @@ return [
     'issue-1653-G' => [
         'ua' => 'python-requests/2.16.4',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.16',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -381,7 +381,7 @@ return [
     'issue-1653-H' => [
         'ua' => 'python-requests/2.14.2',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.14',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -435,7 +435,7 @@ return [
     'issue-1653-I' => [
         'ua' => 'python-requests/2.14.1',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.14',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -489,7 +489,7 @@ return [
     'issue-1653-J' => [
         'ua' => 'python-requests/2.13.0',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.13',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -543,7 +543,7 @@ return [
     'issue-1653-K' => [
         'ua' => 'python-requests/2.12.5',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.12',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -597,7 +597,7 @@ return [
     'issue-1653-L' => [
         'ua' => 'python-requests/2.11.1',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.11',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -651,7 +651,7 @@ return [
     'issue-1653-M' => [
         'ua' => 'python-requests/2.12.4',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.12',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -705,7 +705,7 @@ return [
     'issue-1653-N' => [
         'ua' => 'python-requests/2.9.2',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.9',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -759,7 +759,7 @@ return [
     'issue-1653-O' => [
         'ua' => 'python-requests/2.8.1',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.8',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -813,7 +813,7 @@ return [
     'issue-1653-P' => [
         'ua' => 'python-requests/2.6.0 CPython/2.7.13 Windows/8.1',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.6',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -822,7 +822,7 @@ return [
             'Version' => '2.6',
             'MajorVer' => '2',
             'MinorVer' => '6',
-            'Platform' => 'unknown',
+            'Platform' => 'Windows',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
             'Platform_Bits' => '0',
@@ -864,4 +864,58 @@ return [
         'standard' => true,
         'full' => true
     ],
+    'issue-1653-Q' => [
+        'ua' => 'python-requests/2.7.0 CPython/3.6.1 Darwin/17.2.0',
+        'properties' => [
+            'Comment' => 'python-requests 2.7',
+            'Browser' => 'python-requests',
+            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Bits' => '0',
+            'Browser_Maker' => 'Python Software Foundation',
+            'Browser_Modus' => 'unknown',
+            'Version' => '2.7',
+            'MajorVer' => '2',
+            'MinorVer' => '7',
+            'Platform' => 'Macintosh',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'unknown',
+            'Platform_Bits' => '0',
+            'Platform_Maker' => 'unknown',
+            'Alpha' => false,
+            'Beta' => false,
+            'Win16' => false,
+            'Win32' => false,
+            'Win64' => false,
+            'Frames' => false,
+            'IFrames' => false,
+            'Tables' => false,
+            'Cookies' => false,
+            'BackgroundSounds' => false,
+            'JavaScript' => false,
+            'VBScript' => false,
+            'JavaApplets' => false,
+            'ActiveXControls' => false,
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'isSyndicationReader' => false,
+            'Crawler' => true,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '0',
+            'AolVersion' => '0',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'unknown',
+            'Device_Pointing_Method' => 'unknown',
+            'Device_Code_Name' => 'unknown',
+            'Device_Brand_Name' => 'unknown',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown'
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true
+    ]
 ];

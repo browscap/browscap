@@ -3946,7 +3946,7 @@ return [
     'issue-618-BW' => [
         'ua' => 'python-requests/2.5.1 CPython/2.7.6 Linux/3.13.0-36-generic',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.5',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',

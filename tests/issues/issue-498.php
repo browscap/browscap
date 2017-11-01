@@ -112,7 +112,7 @@ return [
     'issue-498-C' => [
         'ua' => 'python-requests/2.2.1 CPython/2.7.3 Linux/3.2.0-56-generic',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.2',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
