@@ -17,6 +17,29 @@
       "children": [
         {
           "match": "python-requests/*"
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64",
+            "Linux_64_amd",
+            "Linux"
+          ]
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
         }
       ]
     }
