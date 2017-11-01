@@ -42,10 +42,10 @@
       },
       "children": [
         {
-          "match": "python-requests/#MAJORVER#.#MINORVER#*"
+          "match": "python-requests/#MAJORVER#.#MINORVER#.*"
         },
         {
-          "match": "python-requests/#MAJORVER#.#MINORVER#* CPython/#PLATFORM#",
+          "match": "python-requests/#MAJORVER#.#MINORVER#.* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64",
@@ -54,14 +54,14 @@
           ]
         },
         {
-          "match": "python-requests/#MAJORVER#.#MINORVER#* CPython/#PLATFORM#",
+          "match": "python-requests/#MAJORVER#.#MINORVER#.* CPython/#PLATFORM#",
           "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "python-requests/#MAJORVER#.#MINORVER#* CPython/#PLATFORM#",
+          "match": "python-requests/#MAJORVER#.#MINORVER#.* CPython/#PLATFORM#",
           "device": "Macintosh",
           "platforms": [
             "Darwin"
