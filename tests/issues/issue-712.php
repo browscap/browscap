@@ -6214,7 +6214,7 @@ return [
     'issue-712-EA' => [
         'ua' => 'gvfs/1.24.1',
         'properties' => [
-            'Comment' => 'gvfs',
+            'Comment' => 'gvfs 1.24',
             'Browser' => 'gvfs',
             'Browser_Type' => 'Tool',
             'Browser_Bits' => '32',
