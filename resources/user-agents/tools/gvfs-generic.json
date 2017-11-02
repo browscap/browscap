@@ -1,0 +1,29 @@
+{
+  "division": "gvfs Generic",
+  "sortIndex": 131,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "gvfs Generic",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "gvfs Generic",
+        "Browser": "gvfs",
+        "Browser_Type": "Tool",
+        "Browser_Maker": "The GNOME Project",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "gvfs/*"
+        }
+      ]
+    }
+  ]
+}
