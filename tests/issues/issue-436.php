@@ -2218,7 +2218,7 @@ return [
     'issue-436-AS' => [
         'ua' => 'python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-24-generic',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.3',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -2650,7 +2650,7 @@ return [
     'issue-436-BA' => [
         'ua' => 'python-requests/2.0.0 CPython/2.6.6 Linux/2.6.32-431.el6.x86_64',
         'properties' => [
-            'Comment' => 'python-requests',
+            'Comment' => 'python-requests 2.0',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',

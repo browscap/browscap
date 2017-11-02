@@ -1752,7 +1752,7 @@
       }
     },
     "Linux_64_amd": {
-      "match": "*Linux amd64*",
+      "match": "*Linux*amd64*",
       "lite": false,
       "standard": false,
       "inherits": "Linux",
