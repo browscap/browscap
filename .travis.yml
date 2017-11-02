@@ -8,7 +8,6 @@ php:
 os: linux
 
 env:
-  - COMPOSER_FLAGS="--prefer-lowest"
   - COMPOSER_FLAGS=""
 
 cache:
@@ -21,7 +20,7 @@ before_install:
   - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - travis_retry composer self-update
 
-install: travis_retry composer install --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+install: travis_retry composer install --optimize-autoloader --prefer-dist --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
 script:
   - composer validate --strict
