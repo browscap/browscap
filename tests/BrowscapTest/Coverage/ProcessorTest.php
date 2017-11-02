@@ -1,26 +1,11 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace BrowscapTest\Coverage;
 
 use Browscap\Coverage\Processor;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class ExpanderTest
- *
- * @category   BrowscapTest
- *
- * @author     Jay Klehr <jay.klehr@gmail.com>
- */
-final class ProcessorTest extends \PHPUnit\Framework\TestCase
+final class ProcessorTest extends TestCase
 {
     /**
      * @var \Browscap\Coverage\Processor
@@ -34,8 +19,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Run before each test, creates a new Processor object
-     *
-     * @return void
      */
     public function setUp() : void
     {
@@ -44,8 +27,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Data provider for the testJsonStructure test
-     *
-     * @return array
      */
     public function jsonStructureProvider() : array
     {
@@ -62,8 +43,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @param string $fileName
      * @param array  $expected
-     *
-     * @return void
      */
     public function testJsonStructure(string $fileName, array $expected) : void
     {
@@ -81,8 +60,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Data provider for the testCoverage test
-     *
-     * @return array
      */
     public function coverageProvider() : array
     {
@@ -147,8 +124,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * @param string   $fileName
      * @param string[] $coveredIds
      * @param array    $expected
-     *
-     * @return void
      */
     public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
     {
@@ -172,8 +147,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
-     *
-     * @return void
      */
     public function testPatternIdGrouping() : void
     {

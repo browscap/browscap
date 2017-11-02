@@ -1,0 +1,93 @@
+{
+  "division": "Mobile Safari #MAJORVER#.#MINORVER#",
+  "versions": [10],
+  "sortIndex": 1957,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
+        "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_11_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.1*",
+          "platforms": [
+            "iOS_A_10_1"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.2*",
+          "platforms": [
+            "iOS_A_10_2"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/808.3*",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
+        },
+        {
+          "match": "MobileSafari/* CFNetwork/811*",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
+        }
+      ]
+    }
+  ]
+}

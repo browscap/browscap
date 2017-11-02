@@ -1,22 +1,9 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Platform
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * Represents a platform as defined in the resources/platforms.json file
  */
 class Platform
 {
@@ -54,10 +41,7 @@ class Platform
         $this->isStandard = $standard;
     }
 
-    /**
-     * @return string
-     */
-    public function getMatch()
+    public function getMatch() : string
     {
         return $this->match;
     }
@@ -65,23 +49,17 @@ class Platform
     /**
      * @return string[]
      */
-    public function getProperties()
+    public function getProperties() : array
     {
         return $this->properties;
     }
 
-    /**
-     * @return bool
-     */
-    public function isLite()
+    public function isLite() : bool
     {
         return $this->isLite;
     }
 
-    /**
-     * @return bool
-     */
-    public function isStandard()
+    public function isStandard() : bool
     {
         return $this->isStandard;
     }

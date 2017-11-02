@@ -1,41 +1,35 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\FilterInterface;
 
 /**
- * Class PhpFormatter
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * this formatter is responsible to format the output into the "php" ini version of the browscap files
  */
 class PhpFormatter implements FormatterInterface
 {
     /**
-     * @var \Browscap\Filter\FilterInterface
+     * @var PropertyHolder
      */
-    private $filter;
+    private $propertyHolder;
+
+    /**
+     * @param PropertyHolder $propertyHolder
+     */
+    public function __construct(PropertyHolder $propertyHolder)
+    {
+        $this->propertyHolder = $propertyHolder;
+    }
 
     /**
      * returns the Type of the formatter
      *
      * @return string
      */
-    public function getType()
+    public function getType() : string
     {
-        return 'php';
+        return FormatterInterface::TYPE_PHP;
     }
 
     /**
@@ -45,7 +39,7 @@ class PhpFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyName($name)
+    public function formatPropertyName(string $name) : string
     {
         return $name;
     }
@@ -58,14 +52,13 @@ class PhpFormatter implements FormatterInterface
      *
      * @return string
      */
-    public function formatPropertyValue($value, string $property)
+    public function formatPropertyValue($value, string $property) : string
     {
-        $valueOutput    = (string) $value;
-        $propertyHolder = new PropertyHolder();
+        $valueOutput = (string) $value;
 
-        switch ($propertyHolder->getPropertyType($property)) {
+        switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = '"' . trim($value) . '"';
+                $valueOutput = '"' . trim((string) $value) . '"';
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
@@ -80,7 +73,7 @@ class PhpFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = '"' . $propertyHolder->checkValueInArray($property, (string) $value) . '"';
+                    $valueOutput = '"' . $this->propertyHolder->checkValueInArray($property, (string) $value) . '"';
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
@@ -95,25 +88,5 @@ class PhpFormatter implements FormatterInterface
         }
 
         return $valueOutput;
-    }
-
-    /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Formatter\FormatterInterface
-     */
-    public function setFilter(FilterInterface $filter)
-    {
-        $this->filter = $filter;
-
-        return $this;
-    }
-
-    /**
-     * @return \Browscap\Filter\FilterInterface
-     */
-    public function getFilter()
-    {
-        return $this->filter;
     }
 }

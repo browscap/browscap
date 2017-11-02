@@ -1,22 +1,9 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Class Division
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * Represents a useragent division as defined in the resources/user-agents directory
  */
 class Division
 {
@@ -26,7 +13,7 @@ class Division
     private $name = '';
 
     /**
-     * @var string|null
+     * @var string
      */
     private $fileName = '';
 
@@ -51,27 +38,27 @@ class Division
     private $versions = [];
 
     /**
-     * @var array
+     * @var UserAgent[]
      */
     private $userAgents = [];
 
     /**
      * @param string      $name
      * @param int         $sortIndex
-     * @param array       $userAgents
+     * @param UserAgent[] $userAgents
      * @param bool        $lite
      * @param bool        $standard
      * @param array       $versions
-     * @param string|null $fileName
+     * @param string      $fileName
      */
     public function __construct(
         string $name,
         int $sortIndex,
         array $userAgents,
         bool $lite,
-        bool $standard = true,
-        array $versions = [],
-        ?string $fileName = null
+        bool $standard,
+        array $versions,
+        string $fileName
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -82,57 +69,39 @@ class Division
         $this->fileName   = $fileName;
     }
 
-    /**
-     * @return bool
-     */
     public function isLite() : bool
     {
         return $this->lite;
     }
 
-    /**
-     * @return bool
-     */
     public function isStandard() : bool
     {
         return $this->standard;
     }
 
-    /**
-     * @return string
-     */
     public function getName() : string
     {
         return $this->name;
     }
 
-    /**
-     * @return int
-     */
     public function getSortIndex() : int
     {
         return $this->sortIndex;
     }
 
     /**
-     * @return array
+     * @return UserAgent[]
      */
     public function getUserAgents() : array
     {
         return $this->userAgents;
     }
 
-    /**
-     * @return array
-     */
     public function getVersions() : array
     {
         return $this->versions;
     }
 
-    /**
-     * @return string|null
-     */
     public function getFileName() : ?string
     {
         return $this->fileName;

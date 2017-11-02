@@ -1,24 +1,13 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Coverage;
 
 use Seld\JsonLint\Lexer;
 
 /**
- * Class Processor
+ * This class creates coverage data for the json files in the resources directory
  *
- * @category   Browscap
- *
- * @author     Jay Klehr <jay.klehr@gmail.com>
+ * @author Jay Klehr <jay.klehr@gmail.com>
  */
 final class Processor implements ProcessorInterface
 {
@@ -106,8 +95,6 @@ final class Processor implements ProcessorInterface
      * Process the directory of JSON files using the collected pattern ids
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function process(array $coveredIds) : void
     {
@@ -139,8 +126,6 @@ final class Processor implements ProcessorInterface
      * Write the coverage data in JSON format to specified filename
      *
      * @param string $fileName
-     *
-     * @return void
      */
     public function write(string $fileName) : void
     {
@@ -158,8 +143,6 @@ final class Processor implements ProcessorInterface
      * Stores passed in pattern ids, grouping them by file first
      *
      * @param string[] $coveredIds
-     *
-     * @return void
      */
     public function setCoveredPatternIds(array $coveredIds) : void
     {
@@ -266,8 +249,6 @@ final class Processor implements ProcessorInterface
      * (in this case, Division is the only one), returns to caller when EOF is reached
      *
      * @param Lexer $lexer
-     *
-     * @return void
      */
     private function handleJsonRoot(Lexer $lexer) : void
     {
@@ -565,8 +546,6 @@ final class Processor implements ProcessorInterface
      * @param array $end
      * @param array $declaration
      * @param int   $coverage
-     *
-     * @return void
      */
     private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0) : void
     {
@@ -592,8 +571,6 @@ final class Processor implements ProcessorInterface
      * @param array $end
      * @param array $locations
      * @param int[] $coverage
-     *
-     * @return void
      */
     private function collectBranch(array $start, array $end, array $locations, array $coverage = []) : void
     {
@@ -619,8 +596,6 @@ final class Processor implements ProcessorInterface
      * @param array $start
      * @param array $end
      * @param int   $coverage
-     *
-     * @return void
      */
     private function collectStatement(array $start, array $end, int $coverage = 0) : void
     {
@@ -666,8 +641,8 @@ final class Processor implements ProcessorInterface
      */
     private function getCoverageCount(string $id, array $covered) : int
     {
-        $id                  = str_replace('\/', '/', $id);
-        [$u, $c, $d, $p]     = explode('::', $id);
+        $id              = str_replace('\/', '/', $id);
+        [$u, $c, $d, $p] = explode('::', $id);
 
         $u = preg_quote(mb_substr($u, 1), '/');
         $c = preg_quote(mb_substr($c, 1), '/');

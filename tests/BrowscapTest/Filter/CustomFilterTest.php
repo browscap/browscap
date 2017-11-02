@@ -1,61 +1,51 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
+use Browscap\Filter\FilterInterface;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class CustomFilterTest
- *
- * @category   BrowscapTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class CustomFilterTest extends \PHPUnit\Framework\TestCase
+class CustomFilterTest extends TestCase
 {
     /**
-     * @var \Browscap\Filter\CustomFilter
+     * @var CustomFilter
      */
     private $object;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
-        $this->object = new CustomFilter(['Parent']);
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true));
+
+        $this->object = new CustomFilter($propertyHolder, ['Parent']);
     }
 
     /**
      * tests getter for the filter type
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testGetType() : void
     {
-        self::assertSame('CUSTOM', $this->object->getType());
+        self::assertSame(FilterInterface::TYPE_CUSTOM, $this->object->getType());
     }
 
     /**
      * tests detecting if a divion should be in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutput() : void
     {
-        $division = $this->createMock(\Browscap\Data\Division::class);
+        $division = $this->createMock(Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }
@@ -116,23 +106,88 @@ class CustomFilterTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider outputPropertiesDataProvider
      *
-     * @group filter
-     * @group sourcetest
-     *
-     * @param mixed $propertyName
-     * @param mixed $isExtra
+     * @param string $propertyName
+     * @param bool   $isExtra
      */
-    public function testIsOutputProperty($propertyName, $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
-        $actualValue = $this->object->isOutputProperty($propertyName);
-        self::assertSame($isExtra, $actualValue);
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        self::assertSame($isExtra, $this->object->isOutputProperty($propertyName, $mockWriterIni));
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @param string $propertyName
+     */
+    public function testIsOutputPropertyModified(string $propertyName) : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::any())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        $object = new CustomFilter($propertyHolder, ['Parent']);
+        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @param string $propertyName
+     */
+    public function testIsOutputPropertyWithPropertyHolder(string $propertyName) : void
+    {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::once())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $mockWriterIni = $this->getMockBuilder(IniWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
+        $mockWriterIni
+            ->expects(self::never())
+            ->method('getType')
+            ->will(self::returnValue(WriterInterface::TYPE_INI));
+
+        $object = new CustomFilter($propertyHolder, ['Parent']);
+        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
      * tests if a section is always in the output
-     *
-     * @group filter
-     * @group sourcetest
      */
     public function testIsOutputSectionAlways() : void
     {

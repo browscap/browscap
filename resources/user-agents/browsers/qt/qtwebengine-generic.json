@@ -10,7 +10,6 @@
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
         "Comment": "QtWebEngine Generic",
         "Browser": "QtWebEngine",
         "Browser_Type": "Browser",

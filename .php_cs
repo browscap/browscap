@@ -1,23 +1,5 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
-
-$header = <<<'EOF'
-This file is part of the browscap package.
-
-Copyright (c) 1998-2017, Browser Capabilities Project
-
-For the full copyright and license information, please view the LICENSE
-file that was distributed with this source code.
-EOF;
 
 $finder = PhpCsFixer\Finder::create()
     ->files()
@@ -59,7 +41,7 @@ return PhpCsFixer\Config::create()
         'function_to_constant' => ['functions' => ['get_class', 'php_sapi_name', 'phpversion', 'pi']],
         'function_typehint_space' => true,
         'general_phpdoc_annotation_remove' => ['expectedExceptionMessageRegExp', 'expectedException', 'expectedExceptionMessage'],
-        'header_comment' => ['header' => $header, 'commentType' => 'PHPDoc', 'location' => 'after_open', 'separate' => 'bottom'],
+        'header_comment' => false,
         'heredoc_to_nowdoc' => true,
         'include' => true,
         'indentation_type' => true,

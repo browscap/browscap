@@ -1,13 +1,4 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace BrowscapTest\Writer;
 
@@ -19,25 +10,20 @@ use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
+use org\bovigo\vfs\vfsStreamDirectory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Class WriterCollectionTest
- *
- * @category   BrowscapTest
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class WriterCollectionTest extends \PHPUnit\Framework\TestCase
+class WriterCollectionTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\WriterCollection
+     * @var WriterCollection
      */
     private $object;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var vfsStreamDirectory
      */
     private $root;
 
@@ -46,10 +32,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
      */
     private $file;
 
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
     public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
@@ -60,22 +42,6 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
 
     /**
      * tests setting and getting a writer
-     *
-     * @group writer
-     * @group sourcetest
-     */
-    public function testAddWriter() : void
-    {
-        $mockWriter = $this->createMock(\Browscap\Writer\CsvWriter::class);
-
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-    }
-
-    /**
-     * tests setting and getting a writer
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testAddWriterAndSetSilent() : void
     {
@@ -101,15 +67,13 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getFilter')
             ->will(self::returnValue($mockFilter));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->setSilent($division));
+        $this->object->addWriter($mockWriter);
+
+        $this->object->setSilent($division);
     }
 
     /**
      * tests setting a file into silent mode
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testSetSilentSection() : void
     {
@@ -135,15 +99,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->method('getFilter')
             ->will(self::returnValue($mockFilter));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->setSilentSection($mockDivision));
+        $this->object->addWriter($mockWriter);
+        $this->object->setSilentSection($mockDivision);
     }
 
     /**
      * tests rendering the start of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileStart() : void
     {
@@ -156,15 +117,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('fileStart');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->fileStart());
+        $this->object->addWriter($mockWriter);
+        $this->object->fileStart();
     }
 
     /**
      * tests rendering the end of the file
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testFileEnd() : void
     {
@@ -177,15 +135,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('fileEnd');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->fileEnd());
+        $this->object->addWriter($mockWriter);
+        $this->object->fileEnd();
     }
 
     /**
      * tests rendering the header information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderHeader() : void
     {
@@ -200,15 +155,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderHeader');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderHeader($header));
+        $this->object->addWriter($mockWriter);
+        $this->object->renderHeader($header);
     }
 
     /**
      * tests rendering the version information
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderVersion() : void
     {
@@ -222,7 +174,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()));
+            ->will(self::returnValue(new \DateTimeImmutable()));
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
@@ -251,8 +203,8 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
         $logger = $this->createMock(Logger::class);
 
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->setMethods(['getFilter', 'getFormatter', 'getLogger'])
-            ->setConstructorArgs([$this->file])
+            ->setMethods(['getFilter', 'getFormatter'])
+            ->setConstructorArgs([$this->file, $logger])
             ->getMock();
 
         $mockWriter
@@ -263,21 +215,14 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('getFormatter')
             ->will(self::returnValue($mockFormatter));
-        $mockWriter
-            ->expects(self::once())
-            ->method('getLogger')
-            ->will(self::returnValue($logger));
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderVersion($version, $collection));
-        self::assertSame($this->object, $this->object->close());
+        $this->object->addWriter($mockWriter);
+        $this->object->renderVersion($version, $collection);
+        $this->object->close();
     }
 
     /**
      * tests rendering the header for all division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -292,15 +237,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderAllDivisionsHeader');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
+        $this->object->addWriter($mockWriter);
+        $this->object->renderAllDivisionsHeader($collection);
     }
 
     /**
      * tests rendering the header of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionHeader() : void
     {
@@ -313,15 +255,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderDivisionHeader');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        $this->object->addWriter($mockWriter);
+        $this->object->renderDivisionHeader('test');
     }
 
     /**
      * tests rendering the header of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionHeader() : void
     {
@@ -334,15 +273,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderSectionHeader');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionHeader('test');
     }
 
     /**
      * tests rendering the body of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionBody() : void
     {
@@ -362,15 +298,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderSectionBody');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionBody($section, $collection);
     }
 
     /**
      * tests rendering the footer of one section
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderSectionFooter() : void
     {
@@ -383,15 +316,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderSectionFooter');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderSectionFooter());
+        $this->object->addWriter($mockWriter);
+        $this->object->renderSectionFooter();
     }
 
     /**
      * tests rendering the footer of one division
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderDivisionFooter() : void
     {
@@ -404,15 +334,12 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderDivisionFooter');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        $this->object->addWriter($mockWriter);
+        $this->object->renderDivisionFooter();
     }
 
     /**
      * tests rendering the footer after all divisions
-     *
-     * @group writer
-     * @group sourcetest
      */
     public function testRenderAllDivisionsFooter() : void
     {
@@ -425,7 +352,7 @@ class WriterCollectionTest extends \PHPUnit\Framework\TestCase
             ->expects(self::once())
             ->method('renderAllDivisionsFooter');
 
-        self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        $this->object->addWriter($mockWriter);
+        $this->object->renderAllDivisionsFooter();
     }
 }

@@ -1,79 +1,51 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data;
 
+use Browscap\Data\Helper\TrimProperty;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class Expander
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
 class Expander
 {
     /**
-     * @var \Browscap\Data\DataCollection
+     * @var DataCollection
      */
     private $collection;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
-     * can be seen in the resetPatternId method.
+     * can be seen in the {@see resetPatternId} method.
      *
      * @var array
      */
     private $patternId = [];
 
     /**
-     * Set the data collection
-     *
-     * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return \Browscap\Data\Expander
+     * @var TrimProperty
      */
-    public function setDataCollection(DataCollection $collection) : self
-    {
-        $this->collection = $collection;
+    private $trimProperty;
 
-        return $this;
+    /**
+     * Create a new data expander
+     *
+     * @param LoggerInterface $logger
+     * @param DataCollection  $collection
+     */
+    public function __construct(LoggerInterface $logger, DataCollection $collection)
+    {
+        $this->logger       = $logger;
+        $this->collection   = $collection;
+        $this->trimProperty = new TrimProperty();
     }
 
     /**
-     * splits a version into the major and the minor version
-     *
-     * @param string $version
-     *
-     * @return string[]
-     */
-    public function getVersionParts(string $version) : array
-    {
-        $dots = explode('.', $version, 2);
-
-        $majorVer = $dots[0];
-        $minorVer = (isset($dots[1]) ? $dots[1] : '0');
-
-        return [$majorVer, $minorVer];
-    }
-
-    /**
-     * @param \Browscap\Data\Division $division
-     * @param string                  $divisionName
+     * @param Division $division
+     * @param string   $divisionName
      *
      * @throws \UnexpectedValueException
      *
@@ -91,8 +63,6 @@ class Expander
 
     /**
      * Resets the pattern id
-     *
-     * @return void
      */
     private function resetPatternId() : void
     {
@@ -106,10 +76,10 @@ class Expander
     }
 
     /**
-     * Render a single division
+     * parses and expands a single division
      *
-     * @param \Browscap\Data\Division $division
-     * @param string                  $divisionName
+     * @param Division $division
+     * @param string   $divisionName
      *
      * @return array
      */
@@ -140,31 +110,23 @@ class Expander
     }
 
     /**
-     * Render a single User Agent block
+     * parses and expands a single User Agent block
      *
-     * @param string[] $uaData
-     * @param bool     $lite
-     * @param bool     $standard
-     * @param int      $sortIndex
-     * @param string   $divisionName
+     * @param UserAgent $uaData
+     * @param bool      $lite
+     * @param bool      $standard
+     * @param int       $sortIndex
+     * @param string    $divisionName
      *
      * @return array
      */
-    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
+    private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
-        if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
-            throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
-        }
+        $uaProperties = $uaData->getProperties();
 
-        $uaProperties = $uaData['properties'];
-
-        if (!isset($uaProperties['Parent'])) {
-            throw new \LogicException('the "parent" property is missing for key "' . $uaData['userAgent'] . '"');
-        }
-
-        if (array_key_exists('platform', $uaData)) {
-            $this->patternId['platform'] = $uaData['platform'];
-            $platform                    = $this->getDataCollection()->getPlatform($uaData['platform']);
+        if (null !== $uaData->getPlatform()) {
+            $this->patternId['platform'] = $uaData->getPlatform();
+            $platform                    = $this->collection->getPlatform($uaData->getPlatform());
 
             if (!$platform->isLite()) {
                 $lite = false;
@@ -174,31 +136,31 @@ class Expander
                 $standard = false;
             }
 
-            $platformData = $platform->getProperties();
+            $platformProperties = $platform->getProperties();
         } else {
             $this->patternId['platform'] = '';
-            $platformData                = [];
+            $platformProperties          = [];
         }
 
-        if (array_key_exists('engine', $uaData)) {
-            $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
-            $engineData = $engine->getProperties();
+        if (null !== $uaData->getEngine()) {
+            $engine           = $this->collection->getEngine($uaData->getEngine());
+            $engineProperties = $engine->getProperties();
         } else {
-            $engineData = [];
+            $engineProperties = [];
         }
 
-        if (array_key_exists('device', $uaData)) {
-            $device     = $this->getDataCollection()->getDevice($uaData['device']);
-            $deviceData = $device->getProperties();
+        if (null !== $uaData->getDevice()) {
+            $device           = $this->collection->getDevice($uaData->getDevice());
+            $deviceProperties = $device->getProperties();
 
             if (!$device->isStandard()) {
                 $standard = false;
             }
         } else {
-            $deviceData = [];
+            $deviceProperties = [];
         }
 
-        $ua = $uaData['userAgent'];
+        $ua = $uaData->getUserAgent();
 
         $output = [
             $ua => array_merge(
@@ -208,19 +170,15 @@ class Expander
                     'sortIndex' => $sortIndex,
                     'division' => $divisionName,
                 ],
-                $platformData,
-                $engineData,
-                $deviceData,
+                $platformProperties,
+                $engineProperties,
+                $deviceProperties,
                 $uaProperties
             ),
         ];
 
-        if (!isset($uaData['children']) || !is_array($uaData['children']) || !count($uaData['children'])) {
-            return $output;
-        }
-
         $i = 0;
-        foreach ($uaData['children'] as $child) {
+        foreach ($uaData->getChildren() as $child) {
             $this->patternId['child'] = $i;
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
@@ -249,48 +207,14 @@ class Expander
     }
 
     /**
-     * Render the property of a single User Agent
-     *
-     * @param string $value
-     * @param string $majorVer
-     * @param string $minorVer
-     *
-     * @return string
-     */
-    public function parseProperty(string $value, string $majorVer, string $minorVer) : string
-    {
-        return str_replace(
-            ['#MAJORVER#', '#MINORVER#'],
-            [$majorVer, $minorVer],
-            $value
-        );
-    }
-
-    /**
-     * Get the data collection
-     *
-     * @throws \LogicException
-     *
-     * @return \Browscap\Data\DataCollection
-     */
-    public function getDataCollection() : DataCollection
-    {
-        if (!isset($this->collection)) {
-            throw new \LogicException('Data collection has not been set yet - call setDataCollection');
-        }
-
-        return $this->collection;
-    }
-
-    /**
-     * Render the children section in a single User Agent block
+     * parses and expands the children section in a single User Agent block
      *
      * @param string $ua
      * @param array  $uaDataChild
      * @param bool   $lite
      * @param bool   $standard
      *
-     * @return array[]
+     * @return array
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
@@ -300,41 +224,41 @@ class Expander
             foreach ($uaDataChild['platforms'] as $platform) {
                 $this->patternId['platform'] = $platform;
                 $properties                  = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
-                $platformData                = $this->getDataCollection()->getPlatform($platform);
+                $platformProperties          = $this->collection->getPlatform($platform);
 
-                if (!$platformData->isLite()) {
+                if (!$platformProperties->isLite()) {
                     $properties['lite'] = false;
                 }
 
-                if (!$platformData->isStandard()) {
+                if (!$platformProperties->isStandard()) {
                     $properties['standard'] = false;
                 }
 
-                $uaBase = str_replace('#PLATFORM#', $platformData->getMatch(), $uaDataChild['match']);
+                $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                    $engineData = $engine->getProperties();
+                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties = $engine->getProperties();
                 } else {
-                    $engineData = [];
+                    $engineProperties = [];
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
-                    $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
-                    $deviceData = $device->getProperties();
+                    $device           = $this->collection->getDevice($uaDataChild['device']);
+                    $deviceProperties = $device->getProperties();
 
                     if (!$device->isStandard()) {
                         $properties['standard'] = false;
                     }
                 } else {
-                    $deviceData = [];
+                    $deviceProperties = [];
                 }
 
                 $properties = array_merge(
                     $properties,
-                    $engineData,
-                    $deviceData,
-                    $platformData->getProperties()
+                    $engineProperties,
+                    $deviceProperties,
+                    $platformProperties->getProperties()
                 );
 
                 if (isset($uaDataChild['properties'])
@@ -353,43 +277,29 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                $engineData = $engine->getProperties();
+                $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties = $engine->getProperties();
             } else {
-                $engineData = [];
+                $engineProperties = [];
             }
 
             if (array_key_exists('device', $uaDataChild)) {
-                $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
-                $deviceData = $device->getProperties();
+                $device           = $this->collection->getDevice($uaDataChild['device']);
+                $deviceProperties = $device->getProperties();
 
                 if (!$device->isStandard()) {
                     $properties['standard'] = false;
                 }
             } else {
-                $deviceData = [];
+                $deviceProperties = [];
             }
 
-            $properties = array_merge($properties, $engineData, $deviceData);
+            $properties = array_merge($properties, $engineProperties, $deviceProperties);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
-                $childProperties = $uaDataChild['properties'];
-
-                $this->checkPlatformData(
-                    $childProperties,
-                    'the properties array contains platform data for key "' . $ua
-                    . '", please use the "platforms" keyword'
-                );
-
-                $this->checkEngineData(
-                    $childProperties,
-                    'the properties array contains engine data for key "' . $ua
-                    . '", please use the "engine" keyword'
-                );
-
-                $properties = array_merge($properties, $childProperties);
+                $properties = array_merge($properties, $uaDataChild['properties']);
             }
 
             $uaBase                      = str_replace('#PLATFORM#', '', $uaDataChild['match']);
@@ -421,53 +331,10 @@ class Expander
     }
 
     /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param string[] $properties
-     * @param string   $message
-     *
-     * @throws \LogicException
-     *
-     * @return void
-     */
-    private function checkPlatformData(array $properties, string $message) : void
-    {
-        if (array_key_exists('Platform', $properties)
-            || array_key_exists('Platform_Description', $properties)
-            || array_key_exists('Platform_Maker', $properties)
-            || array_key_exists('Platform_Bits', $properties)
-            || array_key_exists('Platform_Version', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
-    }
-
-    /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param string[] $properties
-     * @param string   $message
-     *
-     * @throws \LogicException
-     *
-     * @return void
-     */
-    private function checkEngineData(array $properties, string $message) : void
-    {
-        if (array_key_exists('RenderingEngine_Name', $properties)
-            || array_key_exists('RenderingEngine_Version', $properties)
-            || array_key_exists('RenderingEngine_Description', $properties)
-            || array_key_exists('RenderingEngine_Maker', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
-    }
-
-    /**
      * expands all properties for all useragents to make sure all properties are set and make it possible to skip
      * incomplete properties and remove duplicate definitions
      *
-     * @param array $allInputDivisions
+     * @param array[] $allInputDivisions
      *
      * @throws \UnexpectedValueException
      *
@@ -475,14 +342,14 @@ class Expander
      */
     private function expandProperties(array $allInputDivisions) : array
     {
-        $this->getLogger()->debug('expand all properties');
+        $this->logger->debug('expand all properties');
         $allDivisions = [];
 
-        $ua                = $this->collection->getDefaultProperties()->getUserAgents();
-        $defaultproperties = $ua[0]['properties'];
+        $ua                = $this->collection->getDefaultProperties()->getUserAgents()[0];
+        $defaultproperties = $ua->getProperties();
 
         foreach (array_keys($allInputDivisions) as $key) {
-            $this->getLogger()->debug('expand all properties for key "' . $key . '"');
+            $this->logger->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
             $parents   = [$userAgent];
@@ -533,7 +400,11 @@ class Expander
             unset($parents);
 
             foreach (array_keys($browserData) as $propertyName) {
-                $properties[$propertyName] = $this->trimProperty((string) $browserData[$propertyName]);
+                if (is_bool($browserData[$propertyName])) {
+                    $properties[$propertyName] = $browserData[$propertyName];
+                } else {
+                    $properties[$propertyName] = $this->trimProperty->trimProperty((string) $browserData[$propertyName]);
+                }
             }
 
             unset($browserData);
@@ -546,14 +417,7 @@ class Expander
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            if (!isset($properties['MajorVer']) || '#MAJORVER#' === $properties['MajorVer']) {
-                $properties['MajorVer'] = (string) $completeVersions[0];
-            } elseif ($properties['MajorVer'] !== (string) $completeVersions[0]) {
-                throw new \UnexpectedValueException(
-                    'MajorVersion from properties does not match with Version for key "' . $key . '", "'
-                    . $properties['MajorVer'] . '" was defined, "' . (string) $completeVersions[0] . '" was expected'
-                );
-            }
+            $properties['MajorVer'] = (string) $completeVersions[0];
 
             if (isset($completeVersions[1])) {
                 $minorVersion = (string) $completeVersions[1];
@@ -561,65 +425,11 @@ class Expander
                 $minorVersion = '0';
             }
 
-            if (!isset($properties['MinorVer']) || '#MINORVER#' === $properties['MinorVer']) {
-                $properties['MinorVer'] = $minorVersion;
-            } elseif ($properties['MinorVer'] !== $minorVersion) {
-                throw new \UnexpectedValueException(
-                    'MinorVersion from properties does not match with Version for key "' . $key . '", "'
-                    . $properties['MinorVer'] . '" was defined, "' . $minorVersion . '" was expected'
-                );
-            }
+            $properties['MinorVer'] = $minorVersion;
 
             $allDivisions[$key] = $properties;
         }
 
         return $allDivisions;
-    }
-
-    /**
-     * trims the value of a property and converts the string values "true" and "false" to boolean
-     *
-     * @param string $propertyValue
-     *
-     * @return bool|string
-     */
-    public function trimProperty(string $propertyValue)
-    {
-        switch ($propertyValue) {
-            case 'true':
-                $propertyValue = true;
-
-                break;
-            case 'false':
-                $propertyValue = false;
-
-                break;
-            default:
-                $propertyValue = trim($propertyValue);
-
-                break;
-        }
-
-        return $propertyValue;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface $logger
-     */
-    public function getLogger() : LoggerInterface
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Data\Expander
-     */
-    public function setLogger(LoggerInterface $logger) : self
-    {
-        $this->logger = $logger;
-
-        return $this;
     }
 }

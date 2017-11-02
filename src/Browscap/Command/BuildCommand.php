@@ -1,18 +1,9 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Command;
 
+use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use Symfony\Component\Console\Command\Command;
@@ -21,13 +12,6 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-/**
- * Class BuildCommand
- *
- * @category   Browscap
- *
- * @author     James Titcumb <james@asgrim.com>
- */
 class BuildCommand extends Command
 {
     /**
@@ -40,9 +24,6 @@ class BuildCommand extends Command
      */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * Configures the current command.
-     */
     protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
@@ -58,23 +39,12 @@ class BuildCommand extends Command
     }
 
     /**
-     * Executes the current command.
-     *
-     * This method is not abstract because you can use this class
-     * as a concrete class. In this case, instead of defining the
-     * execute() method, you set the code to execute by passing
-     * a Closure to the setCode() method.
-     *
-     * @param InputInterface  $input  An InputInterface instance
-     * @param OutputInterface $output An OutputInterface instance
-     *
-     * @throws \LogicException When this abstract method is not implemented
+     * @param InputInterface  $input
+     * @param OutputInterface $output
      *
      * @return int|null null or 0 if everything went fine, or an error code
-     *
-     * @see    setCode()
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output) : ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -83,18 +53,17 @@ class BuildCommand extends Command
 
         $buildFolder = $input->getOption('output');
 
-        $buildGenerator = new BuildGenerator(
-            $input->getOption('resources'),
-            $buildFolder
-        );
-
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
+        $dataCollectionFactory   = new DataCollectionFactory($logger);
 
-        $buildGenerator
-            ->setLogger($logger)
-            ->setCollectionCreator(new CollectionCreator())
-            ->setWriterCollection($writerCollection);
+        $buildGenerator = new BuildGenerator(
+            $input->getOption('resources'),
+            $buildFolder,
+            $logger,
+            $writerCollection,
+            $dataCollectionFactory
+        );
 
         if (false !== $input->getOption('coverage')) {
             $buildGenerator->setCollectPatternIds(true);

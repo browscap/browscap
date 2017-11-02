@@ -234,7 +234,6 @@
           "devices": {
             "C6903": "Sony C6903",
             "FP1": "Fairphone FP1",
-            "FP1": "Fairphone FP1",
             "GT-N5100": "Samsung GT-N5100",
             "K1": "Lenovo K1",
             "Keneksi-Libra_Dual": "Keneksi Libra",
@@ -776,7 +775,6 @@
             "Nokia2700c*": "Nokia 2700c",
             "NokiaC2-00": "Nokia C2-00",
             "NokiaX2-00": "Nokia X2-00",
-            "NokiaX2-01": "Nokia X2-01",
             "NokiaX2-01": "Nokia X2-01",
             "NokiaX2-02": "Nokia X2-02"
           },

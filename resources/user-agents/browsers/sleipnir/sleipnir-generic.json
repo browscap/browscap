@@ -160,17 +160,28 @@
           ]
         },
         {
-          "match": "Sleipnir/*CFNetwork/673*",
-          "platforms": [
-            "OSX_10_9"
-          ]
-        },
-        {
-          "match": "Sleipnir/*CFNetwork/*",
-          "platforms": [
-            "OSX"
-          ]
-        },
+          "match": "Sleipnir*"
+        }
+      ]
+    },
+    {
+      "userAgent": "Sleipnir Generic for iOS",
+      "device": "general Mobile Device (Apple)",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sleipnir Generic",
+        "Browser": "Sleipnir",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile/* Safari/* Sleipnir/*",
           "engine": "WebKit",
@@ -214,7 +225,27 @@
             "iOS_A",
             "iOS_C"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Sleipnir Generic for Darwin",
+      "device": "general Mobile Device (Apple)",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sleipnir Generic",
+        "Browser": "Sleipnir",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
         {
           "match": "Sleipnir/*CFNetwork/711.1*",
           "engine": "WebKit",
@@ -224,15 +255,13 @@
           ]
         },
         {
-          "match": "Sleipnir/*CFNetwork/*",
-          "engine": "WebKit",
-          "device": "general Mobile Device (Apple)",
+          "match": "Sleipnir/*CFNetwork/673*",
           "platforms": [
-            "iOS_A"
+            "OSX_10_9"
           ]
         },
         {
-          "match": "Sleipnir*"
+          "match": "Sleipnir/*CFNetwork/*"
         }
       ]
     }
