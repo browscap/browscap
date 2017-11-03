@@ -7,9 +7,6 @@ php:
 
 os: linux
 
-env:
-  - COMPOSER_FLAGS=""
-
 cache:
   directories:
     - $HOME/.composer/cache
@@ -37,37 +34,31 @@ jobs:
       php: 7.1
       env:
         - COVERAGE=yes
-        - COMPOSER_FLAGS=""
       script: vendor/bin/phpunit -c phpunit.xml.dist --colors --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
     - stage: check coding style
       php: 7.1
-      env: COMPOSER_FLAGS=""
       script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
     - stage: static code analysis
       php: 7.1
-      env: COMPOSER_FLAGS=""
       script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
     - stage: integration test
       php: 7.1
       env:
         - TEST_SET="full"
-        - COMPOSER_FLAGS=""
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/FullTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
     - stage: integration test
       php: 7.1
       env:
         - TEST_SET="standard"
-        - COMPOSER_FLAGS=""
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/StandardTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
     - stage: integration test
       php: 7.1
       env:
         - TEST_SET="lite"
-        - COMPOSER_FLAGS=""
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/LiteTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite
