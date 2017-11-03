@@ -1,6 +1,6 @@
 {
   "division": "Access NetFront #MAJORVER#.#MINORVER#",
-  "versions": ["4.2", "4.1", "4.0"],
+  "versions": ["4.2", "4.1", 4],
   "sortIndex": 1540,
   "lite": false,
   "standard": true,
@@ -66,6 +66,12 @@
         },
         {
           "match": "Mozilla/4.0 (*) *NetFront/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (#PLATFORM#*NetFront/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Brew_MP"
+          ]
         },
         {
           "match": "Mozilla/4.0 (*NetFront/#MAJORVER#.#MINORVER#*)*"
