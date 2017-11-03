@@ -1,6 +1,6 @@
 {
   "division": "Thunderbird #MAJORVER#.#MINORVER#",
-  "versions": ["52.2", "52.1", 52],
+  "versions": ["52.4", "52.3", "52.2", "52.1", 52],
   "sortIndex": 3084,
   "lite": false,
   "standard": true,
@@ -49,7 +49,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         }

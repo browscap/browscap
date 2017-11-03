@@ -30,7 +30,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "AndroidMobile_2_0", "AndroidMobile_2_1", "AndroidMobile_2_2", "AndroidMobile_2_3",
+            "AndroidMobile_2_3", "AndroidMobile_2_2", "AndroidMobile_2_1", "AndroidMobile_2_0",
             "AndroidMobile"
           ]
         },
@@ -38,8 +38,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
-            "AndroidTablet_2_0", "AndroidTablet_2_1", "AndroidTablet_2_2", "AndroidTablet_2_3",
-            "AndroidTablet_3_0", "AndroidTablet_3_1", "AndroidTablet_3_2",
+            "AndroidTablet_3_2", "AndroidTablet_3_1", "AndroidTablet_3_0",
+            "AndroidTablet_2_3", "AndroidTablet_2_2", "AndroidTablet_2_1", "AndroidTablet_2_0",
             "AndroidTablet"
           ]
         }

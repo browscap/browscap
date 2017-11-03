@@ -214,6 +214,12 @@
           "platforms": [
             "iOS_A_11_0"
           ]
+        },
+        {
+          "match": "*CFNetwork/889*",
+          "platforms": [
+            "iOS_A_11_1"
+          ]
         }
       ]
     },
