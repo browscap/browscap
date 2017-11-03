@@ -30,6 +30,7 @@
     "issues": "https://github.com/browscap/browscap/issues",
     "source": "https://github.com/browscap/browscap"
   },
+  "prefer-stable": true,
   "require": {
     "php": "^7.1",
     "symfony/console": "^3.3",
@@ -40,7 +41,7 @@
     "phpunit/phpunit": "^6.3",
     "browscap/browscap-php": "^3.1.0",
     "mikey179/vfsStream": "^1.6",
-    "friendsofphp/php-cs-fixer": "^2.7",
+    "friendsofphp/php-cs-fixer": "2.7.1",
     "seld/jsonlint": "^1.5",
     "phpstan/phpstan": "^0.8.4"
   },
