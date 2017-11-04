@@ -1,16 +1,8 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Filter\LiteFilter;
 use Browscap\Filter\StandardFilter;
@@ -27,107 +19,79 @@ use Browscap\Writer\XmlWriter;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class FullCollectionFactory
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * a factory to create a writer collection to write all browscap files at once
  */
 class FullCollectionFactory
 {
     /**
-     * @param \Psr\Log\LoggerInterface $logger
-     * @param string                   $buildFolder
+     * @param LoggerInterface $logger
+     * @param string          $buildFolder
      *
-     * @return \Browscap\Writer\WriterCollection
+     * @return WriterCollection
      */
-    public function createCollection(LoggerInterface $logger, string $buildFolder): WriterCollection
+    public function createCollection(LoggerInterface $logger, string $buildFolder) : WriterCollection
     {
         $writerCollection = new WriterCollection();
+        $propertyHolder   = new PropertyHolder();
 
-        $fullFilter = new FullFilter();
-        $stdFilter  = new StandardFilter();
-        $liteFilter = new LiteFilter();
+        $fullFilter = new FullFilter($propertyHolder);
+        $stdFilter  = new StandardFilter($propertyHolder);
+        $liteFilter = new LiteFilter($propertyHolder);
+
+        $aspFormatter  = new AspFormatter($propertyHolder);
+        $phpFormatter  = new PhpFormatter($propertyHolder);
+        $csvFormatter  = new CsvFormatter($propertyHolder);
+        $xmlFormatter  = new XmlFormatter($propertyHolder);
+        $jsonFormatter = new JsonFormatter($propertyHolder);
 
         $fullAspWriter = new IniWriter($buildFolder . '/full_asp_browscap.ini', $logger);
-        $formatter     = new AspFormatter();
-        $formatter->setFilter($fullFilter);
-        $fullAspWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $fullAspWriter->setFormatter($aspFormatter);
+        $fullAspWriter->setFilter($fullFilter);
         $writerCollection->addWriter($fullAspWriter);
 
         $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
-        $formatter     = new PhpFormatter();
-        $formatter->setFilter($fullFilter);
-        $fullPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $fullPhpWriter->setFormatter($phpFormatter);
+        $fullPhpWriter->setFilter($fullFilter);
         $writerCollection->addWriter($fullPhpWriter);
 
         $stdAspWriter = new IniWriter($buildFolder . '/browscap.ini', $logger);
-        $formatter    = new AspFormatter();
-        $formatter->setFilter($stdFilter);
-        $stdAspWriter
-            ->setFormatter($formatter)
-            ->setFilter($stdFilter);
+        $stdAspWriter->setFormatter($aspFormatter);
+        $stdAspWriter->setFilter($stdFilter);
         $writerCollection->addWriter($stdAspWriter);
 
         $stdPhpWriter = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
-        $formatter    = new PhpFormatter();
-        $formatter->setFilter($stdFilter);
-        $stdPhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($stdFilter);
+        $stdPhpWriter->setFormatter($phpFormatter);
+        $stdPhpWriter->setFilter($stdFilter);
         $writerCollection->addWriter($stdPhpWriter);
 
         $liteAspWriter = new IniWriter($buildFolder . '/lite_asp_browscap.ini', $logger);
-        $formatter     = new AspFormatter();
-        $formatter->setFilter($liteFilter);
-        $liteAspWriter
-            ->setFormatter($formatter)
-            ->setFilter($liteFilter);
+        $liteAspWriter->setFormatter($aspFormatter);
+        $liteAspWriter->setFilter($liteFilter);
         $writerCollection->addWriter($liteAspWriter);
 
         $litePhpWriter = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
-        $formatter     = new PhpFormatter();
-        $formatter->setFilter($liteFilter);
-        $litePhpWriter
-            ->setFormatter($formatter)
-            ->setFilter($liteFilter);
+        $litePhpWriter->setFormatter($phpFormatter);
+        $litePhpWriter->setFilter($liteFilter);
         $writerCollection->addWriter($litePhpWriter);
 
         $csvWriter = new CsvWriter($buildFolder . '/browscap.csv', $logger);
-        $formatter = new CsvFormatter();
-        $formatter->setFilter($fullFilter);
-        $csvWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $csvWriter->setFormatter($csvFormatter);
+        $csvWriter->setFilter($fullFilter);
         $writerCollection->addWriter($csvWriter);
 
         $xmlWriter = new XmlWriter($buildFolder . '/browscap.xml', $logger);
-        $formatter = new XmlFormatter();
-        $formatter->setFilter($stdFilter);
-        $xmlWriter
-            ->setFormatter($formatter)
-            ->setFilter($stdFilter);
+        $xmlWriter->setFormatter($xmlFormatter);
+        $xmlWriter->setFilter($stdFilter);
         $writerCollection->addWriter($xmlWriter);
 
         $jsonWriter = new JsonWriter($buildFolder . '/browscap.json', $logger);
-        $formatter  = new JsonFormatter();
-        $formatter->setFilter($fullFilter);
-        $jsonWriter
-            ->setFormatter($formatter)
-            ->setFilter($fullFilter);
+        $jsonWriter->setFormatter($jsonFormatter);
+        $jsonWriter->setFilter($fullFilter);
         $writerCollection->addWriter($jsonWriter);
 
         $liteJsonWriter = new JsonWriter($buildFolder . '/lite_browscap.json', $logger);
-        $formatter      = new JsonFormatter();
-        $formatter->setFilter($liteFilter);
-
-        $liteJsonWriter
-          ->setFormatter($formatter)
-          ->setFilter($liteFilter);
+        $liteJsonWriter->setFormatter($jsonFormatter);
+        $liteJsonWriter->setFilter($liteFilter);
         $writerCollection->addWriter($liteJsonWriter);
 
         return $writerCollection;

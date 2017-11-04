@@ -1,72 +1,61 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assertion;
 use Browscap\Data\Engine;
 
-/**
- * Class EngineFactory
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
- */
-class EngineFactory
+final class EngineFactory
 {
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * validates the $engineData array and creates Engine objects from it
      *
-     * @param array  $engineData
-     * @param array  $json
-     * @param string $engineName
+     * @param array  $engineData     The Engine data for the current object
+     * @param array  $dataAllEngines The Engine data for all engines
+     * @param string $engineName     The name for the current engine
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      *
-     * @return \Browscap\Data\Engine
+     * @return Engine
      */
-    public function build(array $engineData, array $json, string $engineName): Engine
+    public function build(array $engineData, array $dataAllEngines, string $engineName) : Engine
     {
-        if (!isset($engineData['properties'])) {
+        Assertion::isArray($engineData, 'each entry inside the "engines" structure has to be an array');
+
+        if (!array_key_exists('properties', $engineData) && !array_key_exists('inherits', $engineData)) {
+            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        }
+
+        if (!array_key_exists('properties', $engineData) || !is_array($engineData['properties'])) {
             $engineData['properties'] = [];
         }
 
         if (array_key_exists('inherits', $engineData)) {
+            Assertion::string($engineData['inherits'], 'parent Engine key has to be a string for engine "' . $engineName . '"');
+
             $parentName = $engineData['inherits'];
 
-            if (!isset($json['engines'][$parentName])) {
-                throw new \UnexpectedValueException(
-                    'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"'
-                );
-            }
+            Assertion::keyExists($dataAllEngines, $parentName, 'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"');
 
-            $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
+            $parentEngine     = $this->build($dataAllEngines[$parentName], $dataAllEngines, $parentName);
             $parentEngineData = $parentEngine->getProperties();
 
-            $inhEngineProperties = $engineData['properties'];
+            $engineProperties = $engineData['properties'];
 
-            foreach ($inhEngineProperties as $name => $value) {
+            foreach ($engineProperties as $name => $value) {
                 if (isset($parentEngineData[$name])
                     && $parentEngineData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $engineName
-                        . '" and its parent "' . $engineData['inherits'] . '"'
+                        . '" and its parent "' . $parentName . '"'
                     );
                 }
             }
 
             $engineData['properties'] = array_merge(
                 $parentEngineData,
-                $inhEngineProperties
+                $engineProperties
             );
         }
 

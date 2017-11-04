@@ -1,13 +1,4 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace Browscap\Writer;
 
@@ -17,17 +8,12 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class XmlWriter
- *
- * @category   Browscap
- *
- * @author     Thomas Müller <mimmi20@live.de>
+ * This writer is responsible to create the browscap.xml files
  */
-
 class XmlWriter implements WriterInterface
 {
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var LoggerInterface
      */
     private $logger;
 
@@ -44,7 +30,7 @@ class XmlWriter implements WriterInterface
     /**
      * @var FilterInterface
      */
-    private $type;
+    private $filter;
 
     /**
      * @var bool
@@ -57,8 +43,8 @@ class XmlWriter implements WriterInterface
     private $outputProperties = [];
 
     /**
-     * @param string                   $file
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param string          $file
+     * @param LoggerInterface $logger
      */
     public function __construct(string $file, LoggerInterface $logger)
     {
@@ -71,64 +57,56 @@ class XmlWriter implements WriterInterface
      *
      * @return string
      */
-    public function getType(): string
+    public function getType() : string
     {
-        return 'xml';
+        return WriterInterface::TYPE_XML;
     }
 
     /**
      * closes the Writer and the written File
-     *
-     * @return void
      */
-    public function close(): void
+    public function close() : void
     {
         fclose($this->file);
     }
 
     /**
-     * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return void
+     * @param FormatterInterface $formatter
      */
-    public function setFormatter(FormatterInterface $formatter): void
+    public function setFormatter(FormatterInterface $formatter) : void
     {
         $this->formatter = $formatter;
     }
 
     /**
-     * @return \Browscap\Formatter\FormatterInterface
+     * @return FormatterInterface
      */
-    public function getFormatter(): FormatterInterface
+    public function getFormatter() : FormatterInterface
     {
         return $this->formatter;
     }
 
     /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return void
+     * @param FilterInterface $filter
      */
-    public function setFilter(FilterInterface $filter): void
+    public function setFilter(FilterInterface $filter) : void
     {
-        $this->type             = $filter;
+        $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
     /**
-     * @return \Browscap\Filter\FilterInterface
+     * @return FilterInterface
      */
-    public function getFilter(): FilterInterface
+    public function getFilter() : FilterInterface
     {
-        return $this->type;
+        return $this->filter;
     }
 
     /**
      * @param bool $silent
-     *
-     * @return void
      */
-    public function setSilent(bool $silent): void
+    public function setSilent(bool $silent) : void
     {
         $this->silent = $silent;
     }
@@ -136,17 +114,15 @@ class XmlWriter implements WriterInterface
     /**
      * @return bool
      */
-    public function isSilent(): bool
+    public function isSilent() : bool
     {
         return $this->silent;
     }
 
     /**
      * Generates a start sequence for the output file
-     *
-     * @return void
      */
-    public function fileStart(): void
+    public function fileStart() : void
     {
         if ($this->isSilent()) {
             return;
@@ -158,10 +134,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * Generates a end sequence for the output file
-     *
-     * @return void
      */
-    public function fileEnd(): void
+    public function fileEnd() : void
     {
         if ($this->isSilent()) {
             return;
@@ -174,10 +148,8 @@ class XmlWriter implements WriterInterface
      * Generate the header
      *
      * @param string[] $comments
-     *
-     * @return void
      */
-    public function renderHeader(array $comments = []): void
+    public function renderHeader(array $comments = []) : void
     {
         if ($this->isSilent()) {
             return;
@@ -198,10 +170,8 @@ class XmlWriter implements WriterInterface
      * renders the version information
      *
      * @param string[] $versionData
-     *
-     * @return void
      */
-    public function renderVersion(array $versionData = []): void
+    public function renderVersion(array $versionData = []) : void
     {
         if ($this->isSilent()) {
             return;
@@ -219,8 +189,8 @@ class XmlWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fwrite($this->file, '<item name="Version" value="' . $this->getFormatter()->formatPropertyName($versionData['version']) . '"/>' . PHP_EOL);
-        fwrite($this->file, '<item name="Released" value="' . $this->getFormatter()->formatPropertyName($versionData['released']) . '"/>' . PHP_EOL);
+        fwrite($this->file, '<item name="Version" value="' . $this->formatter->formatPropertyName($versionData['version']) . '"/>' . PHP_EOL);
+        fwrite($this->file, '<item name="Released" value="' . $this->formatter->formatPropertyName($versionData['released']) . '"/>' . PHP_EOL);
 
         fwrite($this->file, '</gjk_browscap_version>' . PHP_EOL);
     }
@@ -228,11 +198,9 @@ class XmlWriter implements WriterInterface
     /**
      * renders the header for all divisions
      *
-     * @param \Browscap\Data\DataCollection $collection
-     *
-     * @return void
+     * @param DataCollection $collection
      */
-    public function renderAllDivisionsHeader(DataCollection $collection): void
+    public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
         fwrite($this->file, '<browsercapitems>' . PHP_EOL);
     }
@@ -242,22 +210,18 @@ class XmlWriter implements WriterInterface
      *
      * @param string $division
      * @param string $parent
-     *
-     * @return void
      */
-    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
     {
-        //
+        // nothing to do here
     }
 
     /**
      * renders the header for a section
      *
      * @param string $sectionName
-     *
-     * @return void
      */
-    public function renderSectionHeader(string $sectionName): void
+    public function renderSectionHeader(string $sectionName) : void
     {
         if ($this->isSilent()) {
             return;
@@ -265,31 +229,29 @@ class XmlWriter implements WriterInterface
 
         fwrite(
             $this->file,
-            '<browscapitem name="' . $this->getFormatter()->formatPropertyName($sectionName) . '">' . PHP_EOL
+            '<browscapitem name="' . $this->formatter->formatPropertyName($sectionName) . '">' . PHP_EOL
         );
     }
 
     /**
      * renders all found useragents into a string
      *
-     * @param (int|string|bool)[]           $section
-     * @param \Browscap\Data\DataCollection $collection
-     * @param array[]                       $sections
-     * @param string                        $sectionName
+     * @param (int|string|bool)[] $section
+     * @param DataCollection      $collection
+     * @param array[]             $sections
+     * @param string              $sectionName
      *
      * @throws \InvalidArgumentException
-     *
-     * @return void
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
     {
         if ($this->isSilent()) {
             return;
         }
 
         $division          = $collection->getDefaultProperties();
-        $ua                = $division->getUserAgents();
-        $defaultproperties = $ua[0]['properties'];
+        $ua                = $division->getUserAgents()[0];
+        $defaultproperties = $ua->getProperties();
         $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($properties as $property) {
@@ -298,7 +260,7 @@ class XmlWriter implements WriterInterface
             }
 
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
@@ -307,8 +269,8 @@ class XmlWriter implements WriterInterface
 
             fwrite(
                 $this->file,
-                '<item name="' . $this->getFormatter()->formatPropertyName($property)
-                . '" value="' . $this->getFormatter()->formatPropertyValue($section[$property], $property)
+                '<item name="' . $this->formatter->formatPropertyName($property)
+                . '" value="' . $this->formatter->formatPropertyValue($section[$property], $property)
                 . '"/>' . PHP_EOL
             );
         }
@@ -318,10 +280,8 @@ class XmlWriter implements WriterInterface
      * renders the footer for a section
      *
      * @param string $sectionName
-     *
-     * @return void
      */
-    public function renderSectionFooter(string $sectionName = ''): void
+    public function renderSectionFooter(string $sectionName = '') : void
     {
         if ($this->isSilent()) {
             return;
@@ -332,20 +292,16 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for a division
-     *
-     * @return void
      */
-    public function renderDivisionFooter(): void
+    public function renderDivisionFooter() : void
     {
-        //
+        // nothing to do here
     }
 
     /**
      * renders the footer for all divisions
-     *
-     * @return void
      */
-    public function renderAllDivisionsFooter(): void
+    public function renderAllDivisionsFooter() : void
     {
         fwrite($this->file, '</browsercapitems>' . PHP_EOL);
     }
