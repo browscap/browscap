@@ -1,26 +1,18 @@
 {
-  "division": "KMail2 #MAJORVER#.#MINORVER#",
-  "versions": [
-    "5.2",
-    "4.14",
-    "4.12"
-  ],
-  "sortIndex": 1661,
+  "division": "KMail2 Generic",
+  "sortIndex": 1662,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "KMail2 #MAJORVER#.#MINORVER#",
+      "userAgent": "KMail2 Generic",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "KMail2 #MAJORVER#.#MINORVER#",
+        "Comment": "KMail2 Generic",
         "Browser": "KMail2",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Maker": "KDE e.V.",
         "Browser_Type": "Email Client",
         "Alpha": "false",
@@ -35,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kmail2/#MAJORVER#.#MINORVER#.* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kmail2* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64",
