@@ -1752,7 +1752,7 @@
       }
     },
     "Linux_64_amd": {
-      "match": "*Linux amd64*",
+      "match": "*Linux*amd64*",
       "lite": false,
       "standard": false,
       "inherits": "Linux",
@@ -4401,15 +4401,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "AndroidMobile_6_1": {
-      "match": "*Android 6.1*Mobile*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
-      }
-    },
     "AndroidMobile_7_0": {
       "match": "*Android 7.0*Mobile*",
       "lite": false,
@@ -4426,6 +4417,15 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "7.1"
+      }
+    },
+    "AndroidMobile_8_0": {
+      "match": "*Android 8.0*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
       }
     },
     "AndroidMobile": {
@@ -4575,15 +4575,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "AndroidTablet_6_1": {
-      "match": "*Android 6.1*Tablet*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
-      }
-    },
     "AndroidTablet_7_0": {
       "match": "*Android 7.0*Tablet*",
       "lite": false,
@@ -4600,6 +4591,15 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "7.1"
+      }
+    },
+    "AndroidTablet_8_0": {
+      "match": "*Android 8.0*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.0"
       }
     },
     "AndroidTablet": {

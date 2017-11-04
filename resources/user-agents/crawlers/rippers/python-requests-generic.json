@@ -1,0 +1,47 @@
+{
+  "division": "python-requests Generic",
+  "sortIndex": 482,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "python-requests Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "python-requests Generic",
+        "Browser": "python-requests",
+        "Browser_Maker": "Python Software Foundation",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "python-requests/*"
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64",
+            "Linux_64_amd",
+            "Linux"
+          ]
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "python-requests/* CPython/#PLATFORM#",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}
