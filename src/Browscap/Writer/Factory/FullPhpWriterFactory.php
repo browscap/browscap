@@ -1,8 +1,16 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
-use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Writer\IniWriter;
@@ -10,31 +18,36 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
- * a factory to create a writer collection to write the full php browscap file
+ * Class FullPhpWriterFactory
+ *
+ * @category   Browscap
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullPhpWriterFactory
 {
     /**
-     * @param LoggerInterface $logger
-     * @param string          $buildFolder
-     * @param string|null     $file
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param string                   $buildFolder
+     * @param string|null              $file
      *
-     * @return WriterCollection
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function createCollection(LoggerInterface $logger, string $buildFolder, ?string $file = null) : WriterCollection
+    public function createCollection(LoggerInterface $logger, string $buildFolder, ?string $file = null): WriterCollection
     {
         $writerCollection = new WriterCollection();
-        $propertyHolder   = new PropertyHolder();
 
         if (null === $file) {
             $file = $buildFolder . '/full_php_browscap.ini';
         }
 
-        $fullFilter    = new FullFilter($propertyHolder);
+        $fullFilter    = new FullFilter();
         $fullPhpWriter = new IniWriter($file, $logger);
-        $formatter     = new PhpFormatter($propertyHolder);
-        $fullPhpWriter->setFormatter($formatter);
-        $fullPhpWriter->setFilter($fullFilter);
+        $formatter     = new PhpFormatter();
+        $formatter->setFilter($fullFilter);
+        $fullPhpWriter
+            ->setFormatter($formatter)
+            ->setFilter($fullFilter);
 
         $writerCollection->addWriter($fullPhpWriter);
 

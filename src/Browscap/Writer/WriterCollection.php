@@ -1,24 +1,38 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\Expander;
 
 /**
- * a collection of writers to be able to write multiple files at once
+ * Class WriterCollection
+ *
+ * @category   Browscap
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class WriterCollection
 {
     /**
-     * @var WriterInterface[]
+     * @var \Browscap\Writer\WriterInterface[]
      */
     private $writers = [];
 
     /**
      * add a new writer to the collection
      *
-     * @param WriterInterface $writer
+     * @param \Browscap\Writer\WriterInterface $writer
      */
     public function addWriter(WriterInterface $writer) : void
     {
@@ -36,7 +50,7 @@ class WriterCollection
     }
 
     /**
-     * @param Division $division
+     * @param \Browscap\Data\Division $division
      */
     public function setSilent(Division $division) : void
     {
@@ -46,7 +60,19 @@ class WriterCollection
     }
 
     /**
-     * @param bool[] $section
+     * @param Expander $expander
+     */
+    public function setExpander(Expander $expander) : void
+    {
+        foreach ($this->writers as $writer) {
+            if ($writer instanceof WriterNeedsExpanderInterface) {
+                $writer->setExpander($expander);
+            }
+        }
+    }
+
+    /**
+     * @param array $section
      */
     public function setSilentSection(array $section) : void
     {
@@ -90,8 +116,8 @@ class WriterCollection
     /**
      * renders the version information
      *
-     * @param string         $version
-     * @param DataCollection $collection
+     * @param string                        $version
+     * @param \Browscap\Data\DataCollection $collection
      */
     public function renderVersion(string $version, DataCollection $collection) : void
     {
@@ -110,7 +136,7 @@ class WriterCollection
     /**
      * renders the header for all divisions
      *
-     * @param DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      */
     public function renderAllDivisionsHeader(DataCollection $collection) : void
     {
@@ -147,10 +173,10 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param (int|string|bool)[] $section
-     * @param DataCollection      $collection
-     * @param array[]             $sections
-     * @param string              $sectionName
+     * @param (int|string|bool)[]           $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
+     * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
      */
@@ -166,7 +192,7 @@ class WriterCollection
      *
      * @param string $sectionName
      */
-    public function renderSectionFooter(string $sectionName = '') : void
+    public function renderSectionFooter($sectionName = '') : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionFooter($sectionName);

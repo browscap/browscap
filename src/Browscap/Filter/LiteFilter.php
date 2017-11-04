@@ -1,4 +1,13 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace Browscap\Filter;
 
@@ -7,21 +16,29 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * this filter is responsible to select properties and sections for the "lite" version of the browscap files
+ * Class LiteFilter
+ *
+ * @category   Browscap
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class LiteFilter implements FilterInterface
 {
     /**
-     * @var PropertyHolder
+     * @var \Browscap\Data\PropertyHolder
      */
     private $propertyHolder;
 
     /**
-     * @param PropertyHolder $propertyHolder
+     * @param \Browscap\Data\PropertyHolder|null $propertyHolder
      */
-    public function __construct(PropertyHolder $propertyHolder)
+    public function __construct(PropertyHolder $propertyHolder = null)
     {
-        $this->propertyHolder = $propertyHolder;
+        if (null === $propertyHolder) {
+            $this->propertyHolder = new PropertyHolder();
+        } else {
+            $this->propertyHolder = $propertyHolder;
+        }
     }
 
     /**
@@ -29,19 +46,19 @@ class LiteFilter implements FilterInterface
      *
      * @return string
      */
-    public function getType() : string
+    public function getType(): string
     {
-        return FilterInterface::TYPE_LITE;
+        return 'LITE';
     }
 
     /**
      * checks if a division should be in the output
      *
-     * @param Division $division
+     * @param \Browscap\Data\Division $division
      *
      * @return bool
      */
-    public function isOutput(Division $division) : bool
+    public function isOutput(Division $division):bool
     {
         return $division->isLite();
     }
@@ -53,7 +70,7 @@ class LiteFilter implements FilterInterface
      *
      * @return bool
      */
-    public function isOutputSection(array $section) : bool
+    public function isOutputSection(array $section):bool
     {
         return isset($section['lite']) && $section['lite'];
     }
@@ -61,12 +78,12 @@ class LiteFilter implements FilterInterface
     /**
      * checks if a property should be in the output
      *
-     * @param string          $property
-     * @param WriterInterface $writer
+     * @param string                                $property
+     * @param \Browscap\Writer\WriterInterface|null $writer
      *
      * @return bool
      */
-    public function isOutputProperty(string $property, WriterInterface $writer) : bool
+    public function isOutputProperty(string $property, ?WriterInterface $writer = null): bool
     {
         if (!$this->propertyHolder->isOutputProperty($property, $writer)) {
             return false;

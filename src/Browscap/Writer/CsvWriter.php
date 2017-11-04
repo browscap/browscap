@@ -1,4 +1,13 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace Browscap\Writer;
 
@@ -8,12 +17,16 @@ use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * This writer is responsible to create the browscap.csv files
+ * Class CsvWriter
+ *
+ * @category   Browscap
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CsvWriter implements WriterInterface
 {
     /**
-     * @var LoggerInterface
+     * @var \Psr\Log\LoggerInterface
      */
     private $logger;
 
@@ -23,12 +36,12 @@ class CsvWriter implements WriterInterface
     private $file;
 
     /**
-     * @var FormatterInterface
+     * @var \Browscap\Formatter\FormatterInterface
      */
     private $formatter;
 
     /**
-     * @var FilterInterface
+     * @var \Browscap\Filter\FilterInterface
      */
     private $filter;
 
@@ -43,8 +56,8 @@ class CsvWriter implements WriterInterface
     private $outputProperties = [];
 
     /**
-     * @param string          $file
-     * @param LoggerInterface $logger
+     * @param string                   $file
+     * @param \Psr\Log\LoggerInterface $logger
      */
     public function __construct(string $file, LoggerInterface $logger)
     {
@@ -57,56 +70,64 @@ class CsvWriter implements WriterInterface
      *
      * @return string
      */
-    public function getType() : string
+    public function getType(): string
     {
-        return WriterInterface::TYPE_CSV;
+        return 'csv';
     }
 
     /**
      * closes the Writer and the written File
+     *
+     * @return void
      */
-    public function close() : void
+    public function close(): void
     {
         fclose($this->file);
     }
 
     /**
-     * @param FormatterInterface $formatter
+     * @param \Browscap\Formatter\FormatterInterface $formatter
+     *
+     * @return void
      */
-    public function setFormatter(FormatterInterface $formatter) : void
+    public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
     /**
-     * @return FormatterInterface
+     * @return \Browscap\Formatter\FormatterInterface
      */
-    public function getFormatter() : FormatterInterface
+    public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
     /**
-     * @param FilterInterface $filter
+     * @param \Browscap\Filter\FilterInterface $filter
+     *
+     * @return void
      */
-    public function setFilter(FilterInterface $filter) : void
+    public function setFilter(FilterInterface $filter): void
     {
-        $this->filter           = $filter;
+        $this->filter             = $filter;
         $this->outputProperties = [];
     }
 
     /**
-     * @return FilterInterface
+     * @return \Browscap\Filter\FilterInterface
      */
-    public function getFilter() : FilterInterface
+    public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
     /**
      * @param bool $silent
+     *
+     * @return void
      */
-    public function setSilent(bool $silent) : void
+    public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
@@ -114,43 +135,51 @@ class CsvWriter implements WriterInterface
     /**
      * @return bool
      */
-    public function isSilent() : bool
+    public function isSilent(): bool
     {
         return $this->silent;
     }
 
     /**
      * Generates a start sequence for the output file
+     *
+     * @return void
      */
-    public function fileStart() : void
+    public function fileStart(): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * Generates a end sequence for the output file
+     *
+     * @return void
      */
-    public function fileEnd() : void
+    public function fileEnd(): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * Generate the header
      *
      * @param string[] $comments
+     *
+     * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = []) : void
+    public function renderHeader(array $comments = []): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * renders the version information
      *
      * @param string[] $versionData
+     *
+     * @return void
      */
-    public function renderVersion(array $versionData = []) : void
+    public function renderVersion(array $versionData = []): void
     {
         if ($this->isSilent()) {
             return;
@@ -174,18 +203,20 @@ class CsvWriter implements WriterInterface
     /**
      * renders the header for all divisions
      *
-     * @param DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
+     *
+     * @return void
      */
-    public function renderAllDivisionsHeader(DataCollection $collection) : void
+    public function renderAllDivisionsHeader(DataCollection $collection): void
     {
         $division = $collection->getDefaultProperties();
-        $ua       = $division->getUserAgents()[0];
+        $ua       = $division->getUserAgents();
 
-        if (empty($ua->getProperties())) {
+        if (empty($ua[0]['properties']) || !is_array($ua[0]['properties'])) {
             return;
         }
 
-        $defaultproperties = $ua->getProperties();
+        $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(
             ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
             array_keys($defaultproperties)
@@ -195,14 +226,14 @@ class CsvWriter implements WriterInterface
 
         foreach ($properties as $property) {
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
                 continue;
             }
 
-            $values[] = $this->formatter->formatPropertyName($property);
+            $values[] = $this->getFormatter()->formatPropertyName($property);
         }
 
         fwrite($this->file, implode(',', $values) . PHP_EOL);
@@ -213,45 +244,53 @@ class CsvWriter implements WriterInterface
      *
      * @param string $division
      * @param string $parent
+     *
+     * @return void
      */
-    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * renders the header for a section
      *
      * @param string $sectionName
+     *
+     * @return void
      */
-    public function renderSectionHeader(string $sectionName) : void
+    public function renderSectionHeader(string $sectionName): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * renders all found useragents into a string
      *
-     * @param (int|string|bool)[] $section
-     * @param DataCollection      $collection
-     * @param array[]             $sections
-     * @param string              $sectionName
+     * @param (int|string|bool)[]           $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
+     * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
+     *
+     * @return void
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
     {
         if ($this->isSilent()) {
             return;
         }
 
         $division          = $collection->getDefaultProperties();
-        $ua                = $division->getUserAgents()[0];
-        $defaultproperties = $ua->getProperties();
+        $ua                = $division->getUserAgents();
+        $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(
             ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
             array_keys($defaultproperties)
         );
+
+        $values = [];
 
         $section['PropertyName'] = $sectionName;
         $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
@@ -262,11 +301,9 @@ class CsvWriter implements WriterInterface
             $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
         }
 
-        $values = [];
-
         foreach ($properties as $property) {
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
@@ -279,7 +316,7 @@ class CsvWriter implements WriterInterface
                 $value = '';
             }
 
-            $values[] = $this->formatter->formatPropertyValue($value, $property);
+            $values[] = $this->getFormatter()->formatPropertyValue($value, $property);
         }
 
         fwrite($this->file, implode(',', $values) . PHP_EOL);
@@ -289,35 +326,41 @@ class CsvWriter implements WriterInterface
      * renders the footer for a section
      *
      * @param string $sectionName
+     *
+     * @return void
      */
-    public function renderSectionFooter(string $sectionName = '') : void
+    public function renderSectionFooter(string $sectionName = ''): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * renders the footer for a division
+     *
+     * @return void
      */
-    public function renderDivisionFooter() : void
+    public function renderDivisionFooter(): void
     {
-        // nothing to do here
+        //
     }
 
     /**
      * renders the footer for all divisions
+     *
+     * @return void
      */
-    public function renderAllDivisionsFooter() : void
+    public function renderAllDivisionsFooter(): void
     {
-        // nothing to do here
+        //
     }
 
     /**
-     * @param string   $key
-     * @param string[] $properties
+     * @param string $key
+     * @param array  $properties
      *
      * @return string
      */
-    private function detectMasterParent(string $key, array $properties) : string
+    private function detectMasterParent(string $key, array $properties): string
     {
         $this->logger->debug('check if the element can be marked as "MasterParent"');
 

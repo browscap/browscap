@@ -1,58 +1,78 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
-use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
 use Browscap\Formatter;
-use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
- * a factory to create a writer collection to write a custom browscap file
+ * Class FullPhpWriterFactory
+ *
+ * @category   Browscap
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CustomWriterFactory
 {
+    /**@+
+     * @var string
+     */
+    public const OUTPUT_FORMAT_PHP  = 'php';
+    public const OUTPUT_FORMAT_ASP  = 'asp';
+    public const OUTPUT_FORMAT_CSV  = 'csv';
+    public const OUTPUT_FORMAT_XML  = 'xml';
+    public const OUTPUT_FORMAT_JSON = 'json';
+    /**@-*/
+
     /**
-     * @param LoggerInterface $logger
-     * @param string          $buildFolder
-     * @param string|null     $file
-     * @param array           $fields
-     * @param string          $format
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param string                   $buildFolder
+     * @param string|null              $file
+     * @param array                    $fields
+     * @param string                   $format
      *
-     * @return WriterCollection
+     * @return \Browscap\Writer\WriterCollection
      */
     public function createCollection(
         LoggerInterface $logger,
         string $buildFolder,
         ?string $file = null,
         array $fields = [],
-        string $format = FormatterInterface::TYPE_PHP
-    ) : WriterCollection {
+        string $format = self::OUTPUT_FORMAT_PHP
+    ): WriterCollection {
         $writerCollection = new WriterCollection();
-        $propertyHolder   = new PropertyHolder();
 
         if (null === $file) {
             switch ($format) {
-                case FormatterInterface::TYPE_ASP:
+                case self::OUTPUT_FORMAT_ASP:
                     $file = $buildFolder . '/full_browscap.ini';
 
                     break;
-                case FormatterInterface::TYPE_CSV:
+                case self::OUTPUT_FORMAT_CSV:
                     $file = $buildFolder . '/browscap.csv';
 
                     break;
-                case FormatterInterface::TYPE_XML:
+                case self::OUTPUT_FORMAT_XML:
                     $file = $buildFolder . '/browscap.xml';
 
                     break;
-                case FormatterInterface::TYPE_JSON:
+                case self::OUTPUT_FORMAT_JSON:
                     $file = $buildFolder . '/browscap.json';
 
                     break;
-                case FormatterInterface::TYPE_PHP:
+                case self::OUTPUT_FORMAT_PHP:
                 default:
                     $file = $buildFolder . '/full_php_browscap.ini';
 
@@ -60,36 +80,38 @@ class CustomWriterFactory
             }
         }
 
-        $filter = new CustomFilter($propertyHolder, $fields);
+        $filter = new CustomFilter($fields);
 
         switch ($format) {
-            case FormatterInterface::TYPE_ASP:
+            case self::OUTPUT_FORMAT_ASP:
                 $writer    = new Writer\IniWriter($file, $logger);
-                $formatter = new Formatter\AspFormatter($propertyHolder);
+                $formatter = new Formatter\AspFormatter();
 
                 break;
-            case FormatterInterface::TYPE_CSV:
+            case self::OUTPUT_FORMAT_CSV:
                 $writer    = new Writer\CsvWriter($file, $logger);
-                $formatter = new Formatter\CsvFormatter($propertyHolder);
+                $formatter = new Formatter\CsvFormatter();
 
                 break;
-            case FormatterInterface::TYPE_XML:
+            case self::OUTPUT_FORMAT_XML:
                 $writer    = new Writer\XmlWriter($file, $logger);
-                $formatter = new Formatter\XmlFormatter($propertyHolder);
+                $formatter = new Formatter\XmlFormatter();
 
                 break;
-            case FormatterInterface::TYPE_JSON:
+            case self::OUTPUT_FORMAT_JSON:
                 $writer    = new Writer\JsonWriter($file, $logger);
-                $formatter = new Formatter\JsonFormatter($propertyHolder);
+                $formatter = new Formatter\JsonFormatter();
 
                 break;
-            case FormatterInterface::TYPE_PHP:
+            case self::OUTPUT_FORMAT_PHP:
             default:
                 $writer    = new Writer\IniWriter($file, $logger);
-                $formatter = new Formatter\PhpFormatter($propertyHolder);
+                $formatter = new Formatter\PhpFormatter();
 
                 break;
         }
+
+        $formatter->setFilter($filter);
 
         $writer->setFormatter($formatter);
         $writer->setFilter($filter);
