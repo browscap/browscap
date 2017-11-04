@@ -50,7 +50,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation'
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true
     ],
@@ -104,7 +104,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation'
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true
     ],
@@ -158,7 +158,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Moonchild Productions'
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true
     ],
@@ -212,7 +212,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Moonchild Productions'
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true
     ],
@@ -266,7 +266,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Moonchild Productions'
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true
     ]
