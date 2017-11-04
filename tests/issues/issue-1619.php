@@ -276,7 +276,7 @@ return [
             'Comment' => 'FossaMail 25.2',
             'Browser' => 'FossaMail',
             'Browser_Type' => 'Email Client',
-            'Browser_Bits' => '64',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Moonchild Productions',
             'Browser_Modus' => 'unknown',
             'Version' => '25.2',
@@ -290,8 +290,8 @@ return [
             'Alpha' => false,
             'Beta' => false,
             'Win16' => false,
-            'Win32' => true,
-            'Win64' => false,
+            'Win32' => false,
+            'Win64' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
@@ -321,7 +321,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation'
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true
     ],
     'issue-1619-G' => [
@@ -344,8 +344,8 @@ return [
             'Alpha' => false,
             'Beta' => false,
             'Win16' => false,
-            'Win32' => true,
-            'Win64' => false,
+            'Win32' => false,
+            'Win64' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
@@ -370,9 +370,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Goanna',
+            'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Moonchild Productions'
+            'RenderingEngine_Maker' => 'Mozilla Foundation'
         ],
         'lite' => false,
         'standard' => true,
