@@ -1,0 +1,52 @@
+{
+  "division": "Fossamail #MAJORVER#.#MINORVER#",
+  "versions": [
+    "38.2",
+    "38.1",
+    "38.0",
+    "27.0",
+    "25.2",
+    "25.1"
+  ],
+  "sortIndex": 3086,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FossaMail #MAJORVER#.#MINORVER#",
+      "device": "Windows Desktop",
+      "engine": "Gecko",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FossaMail #MAJORVER#.#MINORVER#",
+        "Browser": "FossaMail",
+        "Browser_Maker": "Moonchild Productions",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Email Client",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* FossaMail/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Vista_32", "Vista_x64", "Vista_64", "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32", "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Goanna/* FossaMail/#MAJORVER#.#MINORVER#.*",
+          "engine": "Goanna",
+          "platforms": [
+            "Vista_32", "Vista_x64", "Vista_64", "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32", "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}
