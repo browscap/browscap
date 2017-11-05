@@ -26,7 +26,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
           "platforms": [
-            "Platform_1", "Platform_2"
+            "Platform_1",
+            "Platform_2"
           ]
         },
         {
@@ -35,13 +36,14 @@
             "Browser": "Test Browser Override"
           },
           "platforms": [
-            "Platform_1", "Platform_2"
+            "Platform_1",
+            "Platform_2"
           ],
           "devices": {
             "device1": "Device_1",
             "device2": "Device_2"
           }
-        },
+        }
       ]
     },
     {
@@ -64,9 +66,9 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (*) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
+          "match": "Mozilla/5.0 (*) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*"
         }
       ]
-    },
+    }
   ]
 }
