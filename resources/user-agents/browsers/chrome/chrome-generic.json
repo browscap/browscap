@@ -27,7 +27,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/*Mobile Safari/*",
           "platforms": [
-            "Android_8_0",
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -39,7 +39,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/*Safari/*",
           "device": "general Tablet",
           "platforms": [
-            "Android_8_0",
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -137,7 +137,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_11_0",
+            "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
@@ -154,7 +154,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_11_0",
+            "iOS_C_11_1", "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",

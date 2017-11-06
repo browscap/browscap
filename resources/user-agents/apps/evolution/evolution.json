@@ -1,0 +1,48 @@
+{
+  "division": "Evolution #MAJORVER#.#MINORVER#",
+  "versions": [
+    "3.27",
+    "3.26",
+    "3.25",
+    "3.24",
+    "3.23",
+    "3.22",
+    "3.20",
+    "3.18",
+    "3.16",
+    "3.13",
+    "3.12",
+    "3.10",
+    "3.4",
+    "3.2",
+    "2.32"
+  ],
+  "sortIndex": 1661,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Evolution #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Evolution #MAJORVER#.#MINORVER#",
+        "Browser": "Evolution",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "The GNOME Project",
+        "Browser_Type": "Email Client"
+      },
+      "children": [
+        {
+          "match": "CamelHttpStream/1.0 Evolution/#MAJORVER#.#MINORVER#.*"
+        },
+        {
+          "match": "Evolution/#MAJORVER#.#MINORVER#.*"
+        }
+      ]
+    }
+  ]
+}

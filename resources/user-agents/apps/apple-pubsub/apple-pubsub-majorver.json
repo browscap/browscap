@@ -1,0 +1,31 @@
+{
+  "division": "Apple PubSub #MAJORVER#",
+  "versions": [65, 61, 28],
+  "sortIndex": 372,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple PubSub #MAJORVER#",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple PubSub #MAJORVER#",
+        "Browser": "Apple PubSub",
+        "Version": "#MAJORVER#",
+        "MajorVer": "#MAJORVER#",
+        "Browser_Maker": "Apple Inc",
+        "Browser_Type": "Feed Reader",
+        "isSyndicationReader": "true",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Apple-PubSub/#MAJORVER#"
+        }
+      ]
+    }
+  ]
+}

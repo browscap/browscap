@@ -166,7 +166,7 @@ return [
     'issue-498-D' => [
         'ua' => 'Apple-PubSub/65.28',
         'properties' => [
-            'Comment' => 'Apple PubSub',
+            'Comment' => 'Apple PubSub 65.28',
             'Browser' => 'Apple PubSub',
             'Browser_Type' => 'Feed Reader',
             'Browser_Bits' => '32',

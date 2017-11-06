@@ -58,7 +58,7 @@
           "match": "Opera/*(MAUI Runtime*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android"
+            "Maui"
           ]
         },
         {
