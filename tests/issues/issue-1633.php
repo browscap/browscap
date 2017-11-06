@@ -1356,7 +1356,7 @@ return [
         'properties' => [
             'Comment' => 'RealPlayer Downloader',
             'Browser' => 'RealPlayer Downloader',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
