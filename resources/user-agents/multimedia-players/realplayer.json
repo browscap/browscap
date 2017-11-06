@@ -9,7 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RealPlayer",
-        "Browser_Type": "Application",
+        "Browser_Type": "Multimedia Player",
         "Browser": "RealPlayer",
         "Browser_Maker": "Real Networks"
       },

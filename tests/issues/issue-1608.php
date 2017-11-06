@@ -276,7 +276,7 @@ return [
         'properties' => [
             'Comment' => 'RealPlayer',
             'Browser' => 'RealPlayer',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Real Networks',
             'Browser_Modus' => 'unknown',
