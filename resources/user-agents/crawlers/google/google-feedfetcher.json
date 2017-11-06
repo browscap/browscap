@@ -11,9 +11,6 @@
         "Comment": "Google Feedfetcher",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
         "Crawler": "true",
         "Browser": "Google Feedfetcher",
         "isSyndicationReader": "true"

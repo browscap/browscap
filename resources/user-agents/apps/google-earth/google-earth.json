@@ -14,15 +14,12 @@
         "Comment": "Google Earth #MAJORVER#.#MINORVER#",
         "Browser": "Google Earth",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Application",
         "Browser_Maker": "Google Inc",
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

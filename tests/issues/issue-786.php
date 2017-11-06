@@ -39,7 +39,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '2',
+            'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'Z10',
             'Device_Maker' => 'BlackBerry Limited',

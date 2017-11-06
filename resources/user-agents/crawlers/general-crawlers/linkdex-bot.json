@@ -12,26 +12,19 @@
         "Browser": "Linkdex Bot",
         "Browser_Maker": "Linkdex Limited",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; linkdexbot/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; linkdexbot/2.1*",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {
@@ -41,9 +34,7 @@
           "match": "Mozilla/5.0 (iPhone; *CPU iPhone OS 4_1*) applewebkit* (*khtml*like*gecko*) Version/4.0.5 Mobile/* Safari/* (compatible; linkdexbot-mobile/2.1*",
           "device": "iPhone",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "iOS_A_4_1"

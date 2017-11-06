@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 Moreover/5.1*",
           "properties": {
-            "Version": "5.1",
-            "MajorVer": "5",
-            "MinorVer": "1"
+            "Version": "5.1"
           }
         },
         {

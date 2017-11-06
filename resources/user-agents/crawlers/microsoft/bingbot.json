@@ -12,18 +12,13 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN",
         "Browser": "BingBot",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible;*bingbot/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -34,9 +29,7 @@
           "device": "general Mobile Device",
           "engine": "Trident_7",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "WinPhone8.1",
@@ -48,9 +41,7 @@
           "device": "iPhone",
           "engine": "WebKit",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "iOS_A_7_0",
@@ -62,9 +53,7 @@
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "iOS_A_7_0",

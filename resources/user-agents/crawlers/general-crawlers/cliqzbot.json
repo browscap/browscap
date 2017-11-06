@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Cliqzbot/0.1*",
           "properties": {
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -29,9 +27,7 @@
         {
           "match": "Cliqzbot/0.1*",
           "properties": {
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {

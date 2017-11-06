@@ -12,14 +12,9 @@
         "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "UnisterBot",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -42,14 +37,9 @@
         "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "UnisterTesting",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -76,14 +66,9 @@
         "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "UnisterPortale",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

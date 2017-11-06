@@ -16,11 +16,6 @@
         "Browser_Maker": "Ritlabs SRL.",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "The Bat! 4.0*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {

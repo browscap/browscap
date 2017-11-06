@@ -81,9 +81,7 @@
           "match": "Mozilla/5.0 (compatible; nextthing.org/*)",
           "properties": {
             "Browser": "nextthing.org",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -200,9 +198,7 @@
           "match": "Finderlein Research Crawler 1.0*",
           "properties": {
             "Browser": "Finderlein Research Crawler",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

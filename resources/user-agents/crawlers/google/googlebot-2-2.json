@@ -14,13 +14,7 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Google Bot",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

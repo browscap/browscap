@@ -13,13 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Galeon Generic",
         "Browser": "Galeon",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

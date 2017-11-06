@@ -1,32 +1,24 @@
 {
-  "division": "Microsoft Office #MAJORVER#",
-  "versions": [2007],
+  "division": "Microsoft Office 2007",
   "sortIndex": 1653,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Microsoft Office #MAJORVER#",
+      "userAgent": "Microsoft Office 2007",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Office #MAJORVER#",
+        "Comment": "Microsoft Office 2007",
         "Browser_Type": "Application",
         "Browser": "Office",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
+        "Version": "2007",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {

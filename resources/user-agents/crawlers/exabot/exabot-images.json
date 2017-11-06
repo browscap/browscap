@@ -12,17 +12,13 @@
         "Browser": "Exabot-Images",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Dassault Systemes",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Exabot-Images/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -31,9 +27,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Exabot-Images/3.0*)",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {

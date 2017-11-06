@@ -23,7 +23,7 @@ return [
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
-            'Frames' => false,
+            'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
             'Cookies' => true,

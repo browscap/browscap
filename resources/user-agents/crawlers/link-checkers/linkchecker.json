@@ -17,8 +17,7 @@
         {
           "match": "LinkChecker/7.*",
           "properties": {
-            "Version": "7.0",
-            "MajorVer": "7"
+            "Version": "7.0"
           }
         },
         {

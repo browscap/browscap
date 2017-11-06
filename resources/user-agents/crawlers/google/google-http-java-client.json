@@ -18,9 +18,7 @@
         {
           "match": "Google-HTTP-Java-Client/1.17*",
           "properties": {
-            "Version": "1.17",
-            "MajorVer": "1",
-            "MinorVer": "17"
+            "Version": "1.17"
           }
         },
         {

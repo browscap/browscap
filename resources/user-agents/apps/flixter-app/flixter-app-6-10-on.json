@@ -14,15 +14,10 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Flixster, Inc.",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false",
         "Comment": "Flixster App #MAJORVER#.#MINORVER#",
         "Browser": "Flixster App",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -15,20 +15,12 @@
         "Comment": "Crazy Browser #MAJORVER#.0",
         "Browser": "Crazy Browser",
         "Version": "#MAJORVER#.0",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "CrazyBrowser.com",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "CrazyBrowser.com"
       },
       "children": [
         {

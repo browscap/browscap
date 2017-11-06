@@ -11,9 +11,6 @@
         "Comment": "Online Scanners",
         "Browser": "Online Scanners",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -52,9 +49,7 @@
           "properties": {
             "Browser": "WhatWeb Web Scanner",
             "Browser_Maker": "Andrew Horton",
-            "Version": "0.4",
-            "MajorVer": "0",
-            "MinorVer": "4"
+            "Version": "0.4"
           }
         },
         {

@@ -1,29 +1,20 @@
 {
-  "division": "Microsoft Outlook #MAJORVER#",
-  "versions": [2016],
+  "division": "Microsoft Outlook 2016",
   "sortIndex": 1650,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Microsoft Outlook #MAJORVER#",
+      "userAgent": "Microsoft Outlook 2016",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Outlook #MAJORVER#",
+        "Comment": "Microsoft Outlook 2016",
         "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2",
-        "JavaScript": "false",
+        "Version": "2016",
         "isSyndicationReader": "false"
       },
       "children": [
@@ -65,7 +56,7 @@
           "match": "Microsoft Office/16.0 (Microsoft Outlook Mail 16.*; Pro)"
         },
         {
-          "match": "Microsoft Office Outlook #MAJORVER# (16.*) #PLATFORM#",
+          "match": "Microsoft Office Outlook 2016 (16.*) #PLATFORM#",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_32"

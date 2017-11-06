@@ -12,8 +12,6 @@
         "Comment": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
         "Browser": "Screaming Frog SEO Spider",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },

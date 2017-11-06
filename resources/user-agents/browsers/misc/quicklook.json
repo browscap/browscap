@@ -17,11 +17,6 @@
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -29,9 +24,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuickLook/5.*",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
+            "Version": "5.0"
           },
           "platforms": [
             "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
@@ -41,9 +34,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuickLook/4.*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",

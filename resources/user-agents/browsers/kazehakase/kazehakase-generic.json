@@ -13,12 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Kazehakase Generic",
         "Browser": "Kazehakase",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

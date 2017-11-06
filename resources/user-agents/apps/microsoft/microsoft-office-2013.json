@@ -1,32 +1,24 @@
 {
-  "division": "Microsoft Office #MAJORVER#",
-  "versions": [2013],
+  "division": "Microsoft Office 2013",
   "sortIndex": 1651,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Microsoft Office #MAJORVER#",
+      "userAgent": "Microsoft Office 2013",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Office #MAJORVER#",
+        "Comment": "Microsoft Office 2013",
         "Browser": "Office",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
+        "Version": "2013",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {

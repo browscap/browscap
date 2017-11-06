@@ -18,26 +18,20 @@
         {
           "match": "Mail.Ru/1.0",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/2.0*",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -47,9 +41,7 @@
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Fast/2.0*",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -59,9 +51,7 @@
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Img/2.0*",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

@@ -13,9 +13,6 @@
         "Browser": "PagePeeker Screenshot Maker",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "pagepeeker SRL",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

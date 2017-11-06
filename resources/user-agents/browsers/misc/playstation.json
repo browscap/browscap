@@ -13,13 +13,7 @@
         "Comment": "Playstation Browser",
         "Browser": "Playstation Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Frames": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Sony"
       },
       "children": [
         {
@@ -37,7 +31,6 @@
             "CellOS"
           ],
           "properties": {
-            "Frames": "false",
             "CssVersion": "2"
           }
         },
@@ -53,15 +46,10 @@
       "device": "Sony PS Vita",
       "properties": {
         "Parent": "DefaultProperties",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Comment": "PlayStation Vita",
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "false"
+        "Browser_Maker": "Sony"
       },
       "children": [
         {
@@ -84,12 +72,7 @@
         "Comment": "Playstation",
         "Browser": "Playstation",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Sony"
       },
       "children": [
         {

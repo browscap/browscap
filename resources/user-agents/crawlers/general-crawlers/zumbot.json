@@ -18,9 +18,7 @@
         {
           "match": "ZumBot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -29,9 +27,7 @@
         {
           "match": "Mozilla/5.0 (compatible; ZumBot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

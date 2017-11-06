@@ -13,9 +13,7 @@
         "Browser": "Banshee Media Player",
         "Browser_Maker": "Novell",
         "Browser_Type": "Multimedia Player",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

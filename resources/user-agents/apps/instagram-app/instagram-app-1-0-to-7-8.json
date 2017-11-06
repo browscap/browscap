@@ -16,15 +16,7 @@
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -62,15 +54,7 @@
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

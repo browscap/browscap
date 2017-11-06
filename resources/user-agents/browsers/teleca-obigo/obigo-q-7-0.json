@@ -15,15 +15,7 @@
         "Browser": "Obigo Q",
         "Browser_Maker": "Obigo",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -62,9 +54,7 @@
             "LG-GT400": "LG GT400"
           },
           "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
-            "MinorVer": "1"
+            "Version": "7.1"
           }
         },
         {
@@ -73,9 +63,7 @@
             "LG/KC910": "LG KC910"
           },
           "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
-            "MinorVer": "1"
+            "Version": "7.1"
           }
         },
         {
@@ -85,9 +73,7 @@
             "LG-T310i": "LG T310i"
           },
           "properties": {
-            "Version": "7.3",
-            "MajorVer": "7",
-            "MinorVer": "3"
+            "Version": "7.3"
           }
         },
         {
@@ -96,9 +82,7 @@
             "LG/BL40": "LG BL40"
           },
           "properties": {
-            "Version": "7.3",
-            "MajorVer": "7",
-            "MinorVer": "3"
+            "Version": "7.3"
           }
         },
         {
@@ -107,9 +91,7 @@
             "LG-KM900": "LG KM900"
           },
           "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
-            "MinorVer": "1"
+            "Version": "7.1"
           }
         },
         {

@@ -12,9 +12,6 @@
         "Browser": "Jakarta Commons HttpClient",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "The Apache Software Foundation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -27,17 +24,13 @@
         {
           "match": "Jakarta Commons-HttpClient/3.0*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
           "match": "Jakarta Commons-HttpClient/3.1*",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {

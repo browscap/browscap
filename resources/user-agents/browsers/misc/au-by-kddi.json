@@ -1,6 +1,5 @@
 {
   "division": "AU by KDDI",
-  "versions": ["4.1"],
   "sortIndex": 2240,
   "lite": false,
   "standard": true,
@@ -13,14 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "AU by KDDI",
         "Browser": "AU",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Version": "4.1"
       },
       "children": [
         {
@@ -29,9 +21,7 @@
             "BIRD.S580": "BIRD S580"
           },
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
@@ -41,9 +31,7 @@
             "EZZE-MP100-": "EZZE MP100"
           },
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -53,7 +41,7 @@
           }
         },
         {
-          "match": "#DEVICE# AU/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE# AU/4.1*",
           "devices": {
             "LG-C3100": "LG C3100",
             "LG-F7100": "LG F7100",
@@ -72,13 +60,11 @@
             "LG-G3100": "LG G3100"
           },
           "properties": {
-            "Version": "4.10",
-            "MajorVer": "4",
-            "MinorVer": "10"
+            "Version": "4.10"
           }
         },
         {
-          "match": "#DEVICE#/JM AU/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/JM AU/4.1*",
           "devices": {
             "LG-G5300i": "LG G5300i",
             "LG-G5310": "LG G5310"
@@ -91,9 +77,7 @@
             "LG-G510": "LG G510"
           },
           "properties": {
-            "Version": "4.2",
-            "MajorVer": "4",
-            "MinorVer": "2"
+            "Version": "4.2"
           }
         },
         {
@@ -102,9 +86,7 @@
             "LG-MG191a": "LG MG191a"
           },
           "properties": {
-            "Version": "4.8",
-            "MajorVer": "4",
-            "MinorVer": "8"
+            "Version": "4.8"
           }
         },
         {
@@ -113,9 +95,7 @@
             "LG-G4010": "LG G4010"
           },
           "properties": {
-            "Version": "4.12",
-            "MajorVer": "4",
-            "MinorVer": "12"
+            "Version": "4.12"
           }
         }
       ]

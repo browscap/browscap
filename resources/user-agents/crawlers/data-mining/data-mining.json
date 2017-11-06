@@ -19,9 +19,7 @@
           "properties": {
             "Browser": "Mignify Bot",
             "Browser_Maker": "Internet Memory Research",
-            "Version": "1.10",
-            "MajorVer": "1",
-            "MinorVer": "10"
+            "Version": "1.10"
           }
         },
         {

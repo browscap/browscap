@@ -12,24 +12,17 @@
         "Comment": "Prince",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "Prince",
         "Browser_Type": "Application",
         "Browser_Maker": "YesLogic Pty. Ltd.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [
         {
           "match": "Prince/7.1*",
           "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
-            "MinorVer": "1"
+            "Version": "7.1"
           }
         },
         {

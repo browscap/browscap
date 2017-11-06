@@ -17,13 +17,9 @@
         "Browser_Maker": "SonyEricsson",
         "Alpha": "false",
         "Beta": "false",
-        "IFrames": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "1",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

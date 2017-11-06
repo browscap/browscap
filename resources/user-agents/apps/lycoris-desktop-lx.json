@@ -1,26 +1,18 @@
 {
-  "division": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
-  "versions": [1],
+  "division": "Lycoris Desktop/LX 1.0",
   "sortIndex": 2420,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
+      "userAgent": "Lycoris Desktop/LX 1.0",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
+        "Comment": "Lycoris Desktop/LX 1.0",
         "Browser": "Lycoris Desktop/LX",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Version": "1.0"
       },
       "children": [
         {

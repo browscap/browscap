@@ -13,13 +13,7 @@
         "Comment": "WeChat App Generic",
         "Browser": "WeChat App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Tencent Ltd.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Tencent Ltd."
       },
       "children": [
         {

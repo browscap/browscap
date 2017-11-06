@@ -16,16 +16,9 @@
         "Browser_Type": "Application",
         "Browser_Maker": "KDE e.V.",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

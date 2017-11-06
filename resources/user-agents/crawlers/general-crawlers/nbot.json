@@ -17,9 +17,7 @@
         {
           "match": "Mozilla/5.0 (compatible; nbot/2.*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {

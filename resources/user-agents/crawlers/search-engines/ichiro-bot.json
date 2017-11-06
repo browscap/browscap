@@ -12,18 +12,13 @@
         "Browser": "Ichiro Bot",
         "Browser_Maker": "Ichiro",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "ichiro/3.0*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {

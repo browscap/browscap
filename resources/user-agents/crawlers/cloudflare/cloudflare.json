@@ -12,9 +12,6 @@
         "Browser": "CloudFlare",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "CloudFlare, Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -23,9 +20,7 @@
           "properties": {
             "Browser": "CloudFlare AlwaysOnline",
             "Comment": "Online Scanners",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

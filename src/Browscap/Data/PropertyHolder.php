@@ -270,6 +270,48 @@ class PropertyHolder
     }
 
     /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in any version of the files)
+     *
+     * @param string          $propertyName
+     * @param WriterInterface $writer
+     *
+     * @return bool
+     */
+    public function isDeprecatedProperty(string $propertyName, WriterInterface $writer) : bool
+    {
+        $outputProperties = [
+            'Win16' => 1,
+            'Win32' => 1,
+            'Win64' => 1,
+            'isMobileDevice' => 1,
+            'isTablet' => 1,
+            'Crawler' => 1,
+            'AolVersion' => 1,
+        ];
+
+        if (isset($outputProperties[$propertyName])) {
+            return true;
+        }
+
+        if (in_array($writer->getType(), [WriterInterface::TYPE_CSV, WriterInterface::TYPE_XML])) {
+            $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
+
+            if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
+        }
+
+        if (WriterInterface::TYPE_INI === $writer->getType()) {
+            if ('PatternId' === $propertyName) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
      * @param string $property
      * @param string $value
      *

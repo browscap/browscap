@@ -14,13 +14,7 @@
         "Comment": "NewsArticle App",
         "Browser": "NewsArticle App",
         "Browser_Type": "Application",
-        "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "unknown"
       },
       "children": [
         {

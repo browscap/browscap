@@ -12,18 +12,13 @@
         "Browser": "LinkedInBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "LinkedIn Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "LinkedInBot/1.*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

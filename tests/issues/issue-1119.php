@@ -39,7 +39,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '0',
+            'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'general Mobile Phone',
             'Device_Maker' => 'unknown',

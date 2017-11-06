@@ -39,7 +39,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '2',
+            'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'Smart TV',
             'Device_Maker' => 'Samsung',

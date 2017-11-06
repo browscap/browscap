@@ -16,21 +16,15 @@
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/12.*",
           "device": "Macintosh",
           "properties": {
-            "Version": "2007",
-            "MajorVer": "2007"
+            "Version": "2007"
           },
           "platforms": [
             "OSX"
@@ -40,8 +34,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/14.*",
           "device": "Macintosh",
           "properties": {
-            "Version": "2010",
-            "MajorVer": "2010"
+            "Version": "2010"
           },
           "platforms": [
             "OSX"
@@ -51,8 +44,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/15.*",
           "device": "Macintosh",
           "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "OSX"
@@ -62,8 +54,7 @@
           "match": "Microsoft Office/15.* (#PLATFORM#Microsoft PowerPoint 15.*)",
           "device": "Windows Desktop",
           "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "Win8_32"
@@ -73,8 +64,7 @@
           "match": "Microsoft Office PowerPoint 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           },
           "platforms": [
             "Win8_32"
@@ -83,8 +73,7 @@
         {
           "match": "Microsoft Office PowerPoint 2013",
           "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
+            "Version": "2013"
           }
         }
       ]

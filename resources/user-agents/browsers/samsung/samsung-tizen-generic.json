@@ -14,13 +14,7 @@
         "Comment": "Samsung Browser Generic for TV",
         "Browser": "Samsung Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Samsung"
       },
       "children": [
         {
@@ -44,13 +38,7 @@
         "Comment": "Samsung Browser Generic for Mobile",
         "Browser": "Samsung Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Samsung"
       },
       "children": [
         {
@@ -73,13 +61,7 @@
         "Comment": "Samsung WebView Generic for TV",
         "Browser": "Samsung WebView",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Samsung"
       },
       "children": [
         {

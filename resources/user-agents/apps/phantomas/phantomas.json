@@ -1,24 +1,22 @@
 {
-  "division": "phantomas",
+  "division": "phantomas #MAJORVER#.#MINORVER#",
   "versions": ["1.8"],
   "sortIndex": 259,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "phantomas",
+      "userAgent": "phantomas #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "phantomas",
+        "Comment": "phantomas #MAJORVER#.#MINORVER#",
         "Browser": "phantomas",
         "Browser_Type": "Application",
         "Browser_Maker": "Maciej Brencz",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Crawler": "false"
       },
       "children": [

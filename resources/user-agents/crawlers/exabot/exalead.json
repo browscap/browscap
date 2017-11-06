@@ -12,8 +12,6 @@
         "Browser": "Exalead",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Dassault Systemes",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -30,18 +28,14 @@
           "match": "Exabot/2.0",
           "properties": {
             "Browser": "Exabot",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "Exabot/3.0",
           "properties": {
             "Browser": "Exabot",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
@@ -57,9 +51,7 @@
           "match": "Mozilla/5.0 (compatible; Exabot/3.0*)",
           "properties": {
             "Browser": "Exabot",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {

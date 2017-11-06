@@ -11,8 +11,6 @@
         "Comment": "Jayde Online",
         "Browser": "Jayde Online",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -20,9 +18,7 @@
           "match": "ExactSeek Crawler/0.1*",
           "properties": {
             "Browser": "ExactSeek Crawler",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {

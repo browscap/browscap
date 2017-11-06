@@ -13,9 +13,7 @@
         "Browser": "Clementine",
         "Browser_Maker": "unknown",
         "Browser_Type": "Multimedia Player",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

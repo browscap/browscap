@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; WebThumbnail/3.*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {

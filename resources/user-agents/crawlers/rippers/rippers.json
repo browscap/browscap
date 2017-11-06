@@ -249,9 +249,7 @@
           "match": "httpclient/1.0*",
           "properties": {
             "Browser": "httpclient",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -405,9 +403,7 @@
           "match": "Mozilla/* (compatible; OffByOne; Windows*) Webster Pro V3.*",
           "properties": {
             "Browser": "OffByOne",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
@@ -420,10 +416,7 @@
           ]
         },
         {
-          "match": "Mozilla/3.0 (compatible; Indy Library)",
-          "properties": {
-            "Cookies": "true"
-          }
+          "match": "Mozilla/3.0 (compatible; Indy Library)"
         },
         {
           "match": "Mozilla/4.0 (compatible; BorderManager*)",
@@ -877,9 +870,7 @@
           "match": "Crawllybot/0.1*",
           "properties": {
             "Browser": "Crawllybot",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -935,9 +926,7 @@
           "properties": {
             "Browser": "Echoping",
             "Browser_Maker": "Stephane Bortzmeyer",
-            "Version": "6.0",
-            "MajorVer": "6",
-            "MinorVer": "0"
+            "Version": "6.0"
           }
         },
         {
@@ -1036,9 +1025,7 @@
           "properties": {
             "Browser": "Dolphin smalltalk http client",
             "Browser_Maker": "Steve Waring",
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           }
         },
         {
@@ -1078,9 +1065,7 @@
           "properties": {
             "Browser": "superagent",
             "Browser_Maker": "visionmedia",
-            "Version": "1.4",
-            "MajorVer": "1",
-            "MinorVer": "4"
+            "Version": "1.4"
           }
         },
         {
@@ -1095,9 +1080,7 @@
           "properties": {
             "Browser": "goose-extractor",
             "Browser_Maker": "Xavier Grangier",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1112,9 +1095,7 @@
           "properties": {
             "Browser": "Asynchronous HTTP Client",
             "Browser_Maker": "Jeanfrancois Arcand",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1129,9 +1110,7 @@
           "properties": {
             "Browser": "newspaper",
             "Browser_Maker": "Lucas Ou-Yang",
-            "Version": "0.0",
-            "MajorVer": "0",
-            "MinorVer": "0"
+            "Version": "0.0"
           }
         },
         {
@@ -1152,9 +1131,7 @@
           "match": "Dispatch/0.11*",
           "properties": {
             "Browser": "Dispatch",
-            "Version": "0.11",
-            "MajorVer": "0",
-            "MinorVer": "11"
+            "Version": "0.11"
           }
         },
         {
@@ -1168,9 +1145,7 @@
           "properties": {
             "Browser": "HTTP Kit",
             "Browser_Maker": "Feng Shen",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -1185,9 +1160,7 @@
           "properties": {
             "Browser": "node-fetch",
             "Browser_Maker": "David Frank",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1202,9 +1175,7 @@
           "properties": {
             "Browser": "Faraday",
             "Browser_Maker": "Mislav Marohnic",
-            "Version": "0.9",
-            "MajorVer": "0",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {
@@ -1232,9 +1203,7 @@
           "match": "OpmlViewer network fetcher version 1.0*",
           "properties": {
             "Browser": "OpmlViewer network fetcher",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1248,9 +1217,7 @@
           "properties": {
             "Browser": "HTTP Request",
             "Browser_Maker": "Raynette",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1264,9 +1231,7 @@
           "match": "Mozilla/5.0 (compatible; ProspectB2B/2.0*",
           "properties": {
             "Browser": "ProspectB2B Bot",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -1298,9 +1263,7 @@
           "match": "Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/v0.12*",
           "properties": {
             "Browser": "Pcore::HTTP::UA",
-            "Version": "0.12",
-            "MajorVer": "0",
-            "MinorVer": "12"
+            "Version": "0.12"
           }
         },
         {
@@ -1313,9 +1276,7 @@
           "match": "WebClient/1.0*",
           "properties": {
             "Browser": "WebClient",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -1328,9 +1289,7 @@
           "match": "greasemonkey &#8211; google images relinker (v 2.0*",
           "properties": {
             "Browser": "google images relinker",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -1343,9 +1302,7 @@
           "match": "SoftMaker Fetch/1.0*",
           "properties": {
             "Browser": "SoftMaker Fetch",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

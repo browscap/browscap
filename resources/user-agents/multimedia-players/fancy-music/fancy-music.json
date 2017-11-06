@@ -15,9 +15,7 @@
         "Browser": "FancyMusic",
         "Browser_Type": "Multimedia Player",
         "Browser_Maker": "unknown",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

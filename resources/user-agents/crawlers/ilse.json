@@ -11,8 +11,6 @@
         "Comment": "Ilse",
         "Browser": "Ilse",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -194,6 +194,10 @@ class LiteTest extends \PHPUnit\Framework\TestCase
                 continue;
             }
 
+            if (self::$propertyHolder->isDeprecatedProperty($propName, self::$writer)) {
+                continue;
+            }
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,

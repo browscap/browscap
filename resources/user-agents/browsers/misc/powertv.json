@@ -10,20 +10,13 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PowerTV",
-        "Browser": "PowerTV",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser": "PowerTV"
       },
       "children": [
         {
           "match": "Mozilla/4.0 PowerTV/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
           "properties": {
-            "Version": "1.5",
-            "MajorVer": "1",
-            "MinorVer": "5"
+            "Version": "1.5"
           }
         }
       ]

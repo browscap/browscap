@@ -14,13 +14,7 @@
         "Comment": "OmniWeb Generic",
         "Browser": "OmniWeb",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Omni Development Inc",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Browser_Maker": "Omni Development Inc"
       },
       "children": [
         {

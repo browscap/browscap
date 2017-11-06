@@ -13,15 +13,10 @@
         "Comment": "wkhtmltopdf",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "wkhtmltopdf",
         "Browser_Type": "Application",
         "Browser_Maker": "wkhtmltopdf.org",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

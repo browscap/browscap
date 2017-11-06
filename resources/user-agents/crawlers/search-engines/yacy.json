@@ -12,9 +12,7 @@
         "Comment": "YaCy Bot",
         "Browser": "YaCy Bot",
         "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Frames": "true",
-        "Tables": "true"
+        "Crawler": "true"
       },
       "children": [
         {

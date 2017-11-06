@@ -11,11 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "QuickTime Agent",
         "Browser": "QuickTime Agent",
-        "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true"
+        "Browser_Type": "Application"
       },
       "children": [
         {

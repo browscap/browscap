@@ -147,7 +147,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'AolVersion' => '0',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'unknown',

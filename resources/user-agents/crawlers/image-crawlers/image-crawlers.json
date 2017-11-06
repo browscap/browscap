@@ -30,9 +30,7 @@
           "match": "CydralSpider/3.2*",
           "properties": {
             "Browser": "Cydral Web Image Search",
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           }
         },
         {
@@ -69,9 +67,7 @@
           "match": "IconSurf/2.*",
           "properties": {
             "Browser": "IconSurf",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -146,9 +142,7 @@
           "properties": {
             "Browser": "ZnajdzFoto/ImageBot",
             "Browser_Maker": "Eksadata sp. z o.o.",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {

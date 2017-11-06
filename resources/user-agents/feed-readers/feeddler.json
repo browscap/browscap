@@ -20,9 +20,7 @@
           "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
           "device": "iPad",
           "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"
@@ -31,9 +29,7 @@
         {
           "match": "FeeddlerRSS 2.4 (#PLATFORM#)",
           "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"

@@ -11,20 +11,13 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetPositive",
-        "Browser": "NetPositive",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser": "NetPositive"
       },
       "children": [
         {
           "match": "*NetPositive/2.2*",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           }
         },
         {

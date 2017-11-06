@@ -69,7 +69,7 @@ final class Processor implements ProcessorInterface
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
      * file begins)
      *
-     * @var string[]
+     * @var array
      */
     private $fileCoveredIds = [];
 

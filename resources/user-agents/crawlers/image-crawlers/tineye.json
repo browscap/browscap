@@ -21,9 +21,7 @@
         {
           "match": "TinEye-bot/0.02*",
           "properties": {
-            "Version": "0.02",
-            "MajorVer": "0",
-            "MinorVer": "02"
+            "Version": "0.02"
           }
         },
         {
@@ -32,9 +30,7 @@
         {
           "match": "TinEye/1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {

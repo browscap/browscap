@@ -18,17 +18,13 @@
         {
           "match": "Mozilla/5.0 (compatible; Abonti/0.91*",
           "properties": {
-            "Version": "0.91",
-            "MajorVer": "0",
-            "MinorVer": "91"
+            "Version": "0.91"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Abonti/0.92*",
           "properties": {
-            "Version": "0.92",
-            "MajorVer": "0",
-            "MinorVer": "92"
+            "Version": "0.92"
           }
         },
         {

@@ -14,11 +14,6 @@
         "Browser_Maker": "RebelMouse",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -27,9 +22,7 @@
           "match": "RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko* Firefox/*",
           "engine": "Gecko",
           "properties": {
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         }
       ]
