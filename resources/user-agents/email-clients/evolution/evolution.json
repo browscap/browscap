@@ -30,8 +30,6 @@
         "Comment": "Evolution #MAJORVER#.#MINORVER#",
         "Browser": "Evolution",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Maker": "The GNOME Project",
         "Browser_Type": "Email Client"
       },

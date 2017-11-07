@@ -167,13 +167,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -231,13 +225,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -72,9 +72,7 @@
         {
           "match": "Mozilla/5.0 (*Mobile*) Gecko* Firefox/* commoncrawl.org/research//Nutch-1.7*",
           "properties": {
-            "Version": "1.7",
-            "MajorVer": "1",
-            "MinorVer": "7"
+            "Version": "1.7"
           }
         },
         {
@@ -89,9 +87,7 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) commoncrawl.org/research//Nutch-1.7*",
           "properties": {
-            "Version": "1.7",
-            "MajorVer": "1",
-            "MinorVer": "7"
+            "Version": "1.7"
           }
         },
         {

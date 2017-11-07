@@ -14,8 +14,7 @@
         "Comment": "Aloha Browser",
         "Browser": "Aloha Browser",
         "Browser_Maker": "Aloha Mobile Ltd",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -72,8 +71,7 @@
         "Comment": "Aloha Browser",
         "Browser": "Aloha Browser",
         "Browser_Maker": "Aloha Mobile Ltd",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -13,8 +13,7 @@
         "Comment": "Steam Overlay",
         "Browser": "Steam Overlay",
         "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application",
-        "JavaApplets": "false"
+        "Browser_Type": "Application"
       },
       "children": [
         {
@@ -56,8 +55,7 @@
         "Comment": "Steam Client",
         "Browser": "Steam",
         "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application",
-        "JavaApplets": "false"
+        "Browser_Type": "Application"
       },
       "children": [
         {

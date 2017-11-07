@@ -13,8 +13,7 @@
         "Comment": "Overwolf Browser",
         "Browser": "Overwolf Browser",
         "Browser_Maker": "Overwolf",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

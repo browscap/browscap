@@ -232,9 +232,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
+            "Version": "11.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -351,9 +349,7 @@
         {
           "match": "Mail/* CFNetwork/760*",
           "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "MinorVer": "0"
+            "Version": "9.0"
           },
           "platforms": [
             "OSX_10_11"
@@ -362,9 +358,7 @@
         {
           "match": "Mail/* CFNetwork/807*",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           },
           "platforms": [
             "OSX_10_12"
@@ -373,9 +367,7 @@
         {
           "match": "Mail/* CFNetwork/811*(x86_64)*",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           },
           "platforms": [
             "OSX_10_12"
@@ -384,9 +376,7 @@
         {
           "match": "Mail/* CFNetwork/887*(x86_64)*",
           "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
+            "Version": "11.0"
           },
           "platforms": [
             "OSX_10_13"

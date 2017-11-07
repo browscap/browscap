@@ -15,7 +15,6 @@
         "Browser": "1stBrowser",
         "Browser_Maker": "Sien",
         "Browser_Type": "Browser",
-        "JavaApplets": "false",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -17,13 +17,7 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Comment": "CometBird Generic",
-        "Browser": "CometBird",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser": "CometBird"
       },
       "children": [
         {

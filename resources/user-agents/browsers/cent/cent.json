@@ -13,8 +13,7 @@
         "Comment": "Cent Browser",
         "Browser": "Cent Browser",
         "Browser_Maker": "Cent Studio",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

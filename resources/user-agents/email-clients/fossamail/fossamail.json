@@ -22,15 +22,7 @@
         "Browser": "FossaMail",
         "Browser_Maker": "Moonchild Productions",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Email Client",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Email Client"
       },
       "children": [
         {

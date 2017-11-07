@@ -13,8 +13,7 @@
         "Comment": "Sputnik Browser",
         "Browser": "Sputnik Browser",
         "Browser_Maker": "Rostelecom",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -72,33 +72,25 @@
         {
           "match": "Mozilla/5.0 (compatible*spbot/4.2*",
           "properties": {
-            "Version": "4.2",
-            "MajorVer": "4",
-            "MinorVer": "2"
+            "Version": "4.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible*spbot/4.3*",
           "properties": {
-            "Version": "4.3",
-            "MajorVer": "4",
-            "MinorVer": "3"
+            "Version": "4.3"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible*spbot/4.4*",
           "properties": {
-            "Version": "4.4",
-            "MajorVer": "4",
-            "MinorVer": "4"
+            "Version": "4.4"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible*spbot/5.0*",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
+            "Version": "5.0"
           }
         },
         {

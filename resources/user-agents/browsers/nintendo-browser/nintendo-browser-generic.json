@@ -15,13 +15,6 @@
         "Browser_Maker": "Nintendo",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

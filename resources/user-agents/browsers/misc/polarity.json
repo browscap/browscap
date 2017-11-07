@@ -14,8 +14,7 @@
         "Comment": "Polarity",
         "Browser": "Polarity",
         "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -48,8 +47,7 @@
         "Comment": "Polarity",
         "Browser": "Polarity",
         "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

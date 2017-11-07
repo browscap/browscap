@@ -14,8 +14,7 @@
         "Comment": "Tenta Browser",
         "Browser": "Tenta Browser",
         "Browser_Maker": "Tenta LLC",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

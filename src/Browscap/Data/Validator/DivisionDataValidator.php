@@ -418,13 +418,9 @@ class DivisionDataValidator implements ValidatorInterface
      */
     public function checkDeprecatedProperties(array $properties, string $message) : void
     {
-        if (array_key_exists('Win16', $properties)
-            || array_key_exists('Win32', $properties)
-            || array_key_exists('Win64', $properties)
-            || array_key_exists('isMobileDevice', $properties)
-            || array_key_exists('isTablet', $properties)
-            || array_key_exists('Crawler', $properties)
-            || array_key_exists('AolVersion', $properties)
+        if (array_key_exists('AolVersion', $properties)
+            || array_key_exists('MinorVer', $properties)
+            || array_key_exists('MajorVer', $properties)
         ) {
             throw new \LogicException($message);
         }

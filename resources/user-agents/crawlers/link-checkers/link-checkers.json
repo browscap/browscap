@@ -511,9 +511,7 @@
           "properties": {
             "Browser": "BrokenLinkCheck",
             "Browser_Maker": "Raven Internet Marketing Tools",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           },
           "device": "Windows Desktop",
           "platforms": [

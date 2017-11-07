@@ -54,9 +54,7 @@
         {
           "match": "Java/1.8*",
           "properties": {
-            "Version": "1.8",
-            "MajorVer": "1",
-            "MinorVer": "8"
+            "Version": "1.8"
           }
         },
         {

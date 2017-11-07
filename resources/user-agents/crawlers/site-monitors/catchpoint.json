@@ -12,7 +12,6 @@
         "Browser": "Catchpoint Monitoring Service",
         "Browser_Maker": "Catchpoint Systems, Inc.",
         "Browser_Type": "Bot/Crawler",
-        "JavaApplets": "false",
         "Crawler": "true"
       },
       "children": [
