@@ -16,6 +16,7 @@
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
+        "JavaApplets": "false",
         "Beta": "true"
       },
       "children": [
