@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => true,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-959 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0; en-US; XT1068 Build/MPB24.65-34) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.8.730 U3/0.8.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

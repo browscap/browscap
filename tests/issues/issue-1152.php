@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => true,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1152 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.0 Chrome/51.0.2704.106 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

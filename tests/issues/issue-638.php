@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-638 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.83.38 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

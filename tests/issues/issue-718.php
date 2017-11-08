@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => true,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-718 (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 15.0.4737; ms-office; MSOffice 15)',
+        'properties' => [
+            'Comment' => 'IE 11.0 in IE 7.0 Compatibility Mode',
+            'Browser' => 'IE',
+            'Version' => '11.0',
+            'Platform' => 'Win10',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => true,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1178 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.3; NokiaX2DS Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.75439',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

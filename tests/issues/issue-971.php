@@ -25,8 +25,6 @@ return [
             'JavaScript' => false,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => true,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-971 (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; CrystalSemanticsBot http://www.crystalsemantics.com/service-navigation/imprint/useragent/)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

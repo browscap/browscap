@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => true,
             'JavaApplets' => true,
-            'isMobileDevice' => true,
-            'isTablet' => true,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1070 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; ARM; Trident/7.0;Touch;rv: 11.0) like Gecko',
+        'properties' => [
+            'Comment' => 'IE 11.0',
+            'Browser' => 'IE',
+            'Version' => '11.0',
+            'Platform' => 'Win8.1',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

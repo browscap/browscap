@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => true,
-            'isTablet' => true,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1238 (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 10_2 like Mac OS X; en-us; iPad4,7) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.4.0.367 U3/1 Safari/7543.48.3',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

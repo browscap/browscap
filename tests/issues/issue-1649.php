@@ -25,8 +25,6 @@ return [
             'JavaScript' => false,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => true,
             'isFake' => false,
@@ -46,5 +44,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ]
+    ],
 ];

@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => true,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-396 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; fa-fa; GT-S5830i Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MxBrowser/4.3.0.2000',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

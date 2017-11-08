@@ -1,4 +1,5 @@
 <?php
+
 return [
     'issue-1619-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:25.9) Gecko/20160817 FossaMail/25.2.3',
@@ -24,14 +25,12 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
@@ -40,11 +39,11 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Mozilla Foundation'
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
+        'full' => true,
     ],
     'issue-1619-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.8) Gecko/20160107 FossaMail/25.2.0',
@@ -70,14 +69,12 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
@@ -86,11 +83,11 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Mozilla Foundation'
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
+        'full' => true,
     ],
     'issue-1619-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:3.2) Gecko/20100101 Goanna/20170325 FossaMail/38.2.0',
@@ -116,8 +113,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -132,11 +127,11 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Goanna',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Moonchild Productions'
+            'RenderingEngine_Maker' => 'Moonchild Productions',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
+        'full' => true,
     ],
     'issue-1619-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:3.0) Gecko/20100101 Goanna/20170123 FossaMail/27.0.0 Lightning/2.9.0',
@@ -162,8 +157,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -178,11 +171,11 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Goanna',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Moonchild Productions'
+            'RenderingEngine_Maker' => 'Moonchild Productions',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
+        'full' => true,
     ],
     'issue-1619-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:3.0) Gecko/20100101 Goanna/20170215 FossaMail/38.0.0 Lightning/4.0.0',
@@ -208,8 +201,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -224,11 +215,24 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Goanna',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Moonchild Productions'
+            'RenderingEngine_Maker' => 'Moonchild Productions',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
+        'full' => true,
+    ],
+    'issue-1619-E (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:3.0) Gecko/20100101 Goanna/20170215 FossaMail/38.0.0 Lightning/4.0.0',
+        'properties' => [
+            'Comment' => 'Firefox 38.0',
+            'Browser' => 'Firefox',
+            'Version' => '38.0',
+            'Platform' => 'Win10',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1619-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:25.8) Gecko/20160107 FossaMail/25.2.0	',
@@ -254,14 +258,12 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
@@ -270,11 +272,11 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Mozilla Foundation'
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true
+        'standard' => true,
+        'full' => true,
     ],
     'issue-1619-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.8) Gecko/20151117 FossaMail/25.1.9',
@@ -300,14 +302,12 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
@@ -316,10 +316,10 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Mozilla Foundation'
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true
-    ]
+        'full' => true,
+    ],
 ];

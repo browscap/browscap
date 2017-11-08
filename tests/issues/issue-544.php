@@ -25,8 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
-            'isMobileDevice' => true,
-            'isTablet' => true,
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
@@ -46,5 +44,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-544 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux;U;Android 4.4.2;zh-cn;Lenovo A3300-HV Build/KOT49H) AppleWebkit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/537.306;',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];
