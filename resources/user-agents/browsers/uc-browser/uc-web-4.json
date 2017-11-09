@@ -71,6 +71,56 @@
             "WinPhone10_B",
             "WinPhone8.1_B", "WinPhone8_B"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "NOKIA; Lumia 630": "Nokia Lumia 630"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_6",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0; Touch; rv:11.0; IEMobile/11.0; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_7",
+          "devices": {
+            "NOKIA; Lumia 720": "Nokia Lumia 720"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0; Touch; rv:11.0;* IEMobile/11.0; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_7",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/8.0; Touch; rv:11.0;* IEMobile/11.0; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_8",
+          "devices": {
+            "Microsoft; Lumia 535 Dual SIM": "Microsoft RM-1090"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/8.0; Touch; rv:11.0;* IEMobile/11.0; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
         }
       ]
     },
