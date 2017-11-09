@@ -30,6 +30,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "GT-N7108": "Samsung GT-N7108"
           },
           "platforms": [
@@ -43,7 +52,6 @@
             "Lenovo A590": "Lenovo A590",
             "Lenovo A820": "Lenovo A820",
             "LT22i": "Sony LT22i",
-            "SM-T211": "Samsung SM-T211",
             "U705T": "OPPO U705T"
           },
           "platforms": [

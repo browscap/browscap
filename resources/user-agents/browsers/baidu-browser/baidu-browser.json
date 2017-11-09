@@ -1,6 +1,6 @@
 {
   "division": "Baidu Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.7", "6.4", "6.1", 6, "5.6", "5.3", "5.1", "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.2", "3.1", "2.9", "2.7", "2.6", "2.5", "1.9", "1.8", "1.1"],
+  "versions": ["7.7", "7.3", "6.4", "6.1", 6, "5.6", "5.3", "5.1", "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.2", "3.1", "2.9", "2.7", "2.6", "2.5", "1.9", "1.8", "1.1"],
   "sortIndex": 884,
   "lite": false,
   "standard": true,
@@ -141,6 +141,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
@@ -208,7 +219,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
@@ -226,7 +236,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"

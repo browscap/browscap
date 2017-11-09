@@ -42,6 +42,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "6036Y": "Alcatel OT-6036Y"
           },
           "platforms": [

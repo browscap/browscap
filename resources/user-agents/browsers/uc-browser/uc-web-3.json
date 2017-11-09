@@ -81,7 +81,8 @@
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A7600-F": "Lenovo A7600-F",
             "Lenovo A7600-H": "Lenovo A7600-H",
-            "SM-G350E": "Samsung SM-G350E"
+            "SM-G350E": "Samsung SM-G350E",
+            "SM-T211*": "Samsung SM-T211"
           },
           "platforms": [
             "Android_4_4"
@@ -135,7 +136,8 @@
           "engine": "WebKit",
           "devices": {
             "iDxD4": "Digma iDxD4 3G",
-            "LT26ii": "Sony LT26ii"
+            "LT26ii": "Sony LT26ii",
+            "SM-T211*": "Samsung SM-T211"
           },
           "platforms": [
             "Android_4_1"

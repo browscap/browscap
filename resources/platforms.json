@@ -4131,6 +4131,24 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_H_2_0": {
+      "match": "*Android?2.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "Android_H_2_1": {
+      "match": "*Android?2.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
     "Android_H_2_2": {
       "match": "*Android?2.2*",
       "lite": false,

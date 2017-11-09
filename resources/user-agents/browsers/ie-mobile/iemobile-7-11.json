@@ -91,6 +91,7 @@
         {
           "match": "#DEVICE#*(*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SAMSUNG-C6625": "Samsung C6625",
             "SAMSUNG-SGH-i900": "Samsung SGH-I900"
           },
           "platforms": [

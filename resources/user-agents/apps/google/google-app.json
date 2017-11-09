@@ -37,7 +37,20 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
+            "SGH-I337": "Samsung SGH-I337",
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
             "ARK Benefit M2": "ARK Benefit M2",
+            "GT-I9300": "Samsung GT-I9300",
             "HTC One mini 2": "HTC One Mini 2",
             "HTC One mini": "HTC One Mini",
             "HUAWEI P6-U06": "Huawei P6-U06",
@@ -80,6 +93,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
+            "SM-G800A": "Samsung SM-G800A",
             "SM-T705*": "Samsung SM-T705"
           },
           "platforms": [
@@ -122,12 +136,38 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-I9505": "Samsung GT-I9505"
           },
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
@@ -165,7 +205,6 @@
             "GT-I9070": "Samsung GT-I9070",
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9100G": "Samsung GT-I9100G",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-S5310": "Samsung GT-S5310",
             "GT-S6312": "Samsung GT-S6312",
             "GT-S7710": "Samsung GT-S7710",
@@ -186,6 +225,15 @@
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
           ]
         },
         {
@@ -235,8 +283,7 @@
             "GT-N8000": "Samsung GT-N8000",
             "GT-N8013": "Samsung GT-N8013",
             "ME371MG": "Asus ME371MG",
-            "PadFone": "Asus PadFone",
-            "SM-T211": "Samsung SM-T211"
+            "PadFone": "Asus PadFone"
           },
           "platforms": [
             "Android_4_1"
