@@ -1,6 +1,6 @@
 {
   "division": "SeaMonkey #MAJORVER#.#MINORVER#",
-  "versions": ["2.48", "2.46"],
+  "versions": ["2.49", "2.48", "2.46"],
   "sortIndex": 3019,
   "lite": false,
   "standard": true,

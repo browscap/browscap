@@ -319,6 +319,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "HTC One_M8*": "HTC M8",
+            "SM-G800A": "Samsung SM-G800A",
             "SM-G870A": "Samsung SM-G870A",
             "SM-G900A": "Samsung SM-G900A",
             "SM-G900P": "Samsung SM-G900P",
@@ -370,7 +371,6 @@
             "LGMS330": "LG MS330",
             "LGMS345": "LG MS345",
             "N9132": "ZTE Prestige",
-            "SM-G800A": "Samsung SM-G800A",
             "SM-T337A": "Samsung SM-T337A",
             "SM-G360T": "Samsung SM-G360T",
             "SM-G360T1": "Samsung SM-G360T1",
@@ -487,6 +487,7 @@
             "Coolpad 7620L-W00": "Coolpad 7620L-W00",
             "D6708": "Sony D6708",
             "Find 5": "OPPO X909",
+            "GT-I9300": "Samsung GT-I9300",
             "GT-I9300I": "Samsung GT-I9300I",
             "GT-I9301I": "Samsung GT-I9301I",
             "GT-N5110": "Samsung GT-N5110",
@@ -533,6 +534,7 @@
             "SM-S820L": "Samsung SM-S820L",
             "SM-S902L": "Samsung SM-S902L",
             "SM-T210R": "Samsung SM-T210R",
+            "SM-T211*": "Samsung SM-T211",
             "SM-T217S": "Samsung SM-T217S",
             "SM-T230": "Samsung SM-T230",
             "SM-T230NU": "Samsung SM-T230NU",
@@ -587,7 +589,6 @@
             "C5303": "Sony C5303",
             "C6606": "Sony C6606",
             "C6902": "Sony C6902",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-I9300I": "Samsung GT-I9300I",
             "GT-I9305": "Samsung GT-I9305",
             "GT-I9505": "Samsung GT-I9505",
@@ -611,8 +612,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
-            "GT-i9300": "Samsung GT-I9300",
             "SCH-S968C": "Samsung SCH-S968C",
             "SGH-T999": "Samsung SGH-T999"
           },
@@ -625,6 +635,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "GT-I9082L": "Samsung GT-I9082L",
+            "GT-I9300": "Samsung GT-I9300",
             "GT-I9300T": "Samsung GT-I9300T",
             "HTC One X+": "HTC PM63100",
             "LG-E615": "LG E615",
@@ -634,17 +645,6 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
-          "devices": {
-            "GT-I8190": "Samsung GT-I8190"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
           ]
         },
         {
@@ -720,6 +720,7 @@
             "AT300": "Toshiba AT300",
             "DROID RAZR": "Motorola Razr",
             "GT-I8160P": "Samsung GT-I8160P",
+            "GT-I8190": "Samsung GT-I8190",
             "GT-I8190L": "Samsung GT-I8190L",
             "GT-I8190N": "Samsung GT-I8190N",
             "GT-I8262": "Samsung GT-I8262",
@@ -756,6 +757,7 @@
             "SCH-I535": "Samsung SCH-I535",
             "SGH-I317": "Samsung SGH-I317",
             "SGH-T889": "Samsung SGH-T889",
+            "SM-T211*": "Samsung SM-T211",
             "TAB 7i 3G": "Wexler TAB 7i 3G"
           },
           "engine": "WebKit",

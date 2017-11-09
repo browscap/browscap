@@ -4,13 +4,13 @@ return [
     'issue-317-A' => [
         'ua' => 'Android-Cloud-X2/1.0 Linux/2.6.35.7 Android/2.3 Release/06.17.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
         'properties' => [
-            'Comment' => 'Android Browser 4.0',
+            'Comment' => 'Android Browser Generic',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '0.0',
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'Platform_Description' => 'Android OS',

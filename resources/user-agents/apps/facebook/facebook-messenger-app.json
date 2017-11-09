@@ -247,6 +247,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "devices": {
             "HTC One_M8*": "HTC M8",
+            "SM-G800A": "Samsung SM-G800A",
             "SM-G870A": "Samsung SM-G870A",
             "SM-G900A": "Samsung SM-G900A",
             "SM-G900P": "Samsung SM-G900P",
@@ -363,7 +364,6 @@
             "SCH-R970": "Samsung SCH-R970",
             "SGH-I337": "Samsung SGH-I337",
             "SM-G900AZ": "Samsung SM-G900AZ",
-            "SM-N900A": "Samsung SM-N900A",
             "SM-N900T": "Samsung SM-N900T",
             "SM-N900V": "Samsung SM-N900V",
             "SPH-L720T": "Samsung SPH-L720T"
@@ -376,8 +376,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "devices": {
             "0PCV1": "HTC Desire 510",
             "C6730": "Kyocera C6730",
+            "GT-I9300": "Samsung GT-I9300",
             "HTC Desire 510": "HTC Desire 510",
             "HTC Desire 610": "HTC Desire 610",
             "HTC0P3P7": "HTC 0P3P7",
@@ -439,7 +450,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "devices": {
-            "GT-I9300": "Samsung GT-I9300",
+            "SM-N900A": "Samsung SM-N900A",
             "SM-S975L": "Samsung SM-S975L"
           },
           "engine": "WebKit",
@@ -450,11 +461,31 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "devices": {
             "SCH-S968C": "Samsung SCH-S968C"
           },
           "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {

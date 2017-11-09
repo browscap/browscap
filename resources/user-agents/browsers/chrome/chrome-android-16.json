@@ -24,9 +24,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9100T": "Samsung GT-I9100T",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-N5100": "Samsung GT-N5100",
             "GT-N7100*": "Samsung GT-N7100",
             "GT-N8010": "Samsung GT-N8010",

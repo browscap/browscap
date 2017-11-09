@@ -39,6 +39,14 @@
           ]
         },
         {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
           "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
           "devices": {
             "MI 4LTE": "Xiaomi Mi 4 LTE"
@@ -55,14 +63,6 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2",
             "Android"
           ]
         },
@@ -89,6 +89,17 @@
           "engine": "Blink",
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -130,6 +141,15 @@
           },
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2"
           ]
         },
         {

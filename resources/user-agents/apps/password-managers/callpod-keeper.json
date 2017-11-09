@@ -24,38 +24,32 @@
       },
       "children": [
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#LG-H810 Build/*",
-          "device": "LG H810",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "LG-H810": "LG H810",
+            "SM-G920A": "Samsung SM-G920A"
+          },
           "platforms": [
             "Android_6_0"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#Z812 Build/*",
-          "device": "Kodak Z812",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SM-N910A": "Samsung SM-N910A",
+            "Z812": "Kodak Z812"
+          },
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SGH-I337 Build/*",
-          "device": "Samsung SGH-I337",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
           "platforms": [
             "Android_5_0"
-          ]
-        },
-        {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SM-N910A Build/*",
-          "device": "Samsung SM-N910A",
-          "platforms": [
-            "Android_5_1"
-          ]
-        },
-        {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SM-G920A Build/*",
-          "device": "Samsung SM-G920A",
-          "platforms": [
-            "Android_6_0"
           ]
         },
         {

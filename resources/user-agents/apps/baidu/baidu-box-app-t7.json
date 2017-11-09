@@ -40,6 +40,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "HTC One X": "HTC PJ83100"
           },
           "platforms": [

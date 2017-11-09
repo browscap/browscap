@@ -45,10 +45,21 @@
             "GT-I9500": "Samsung GT-I9500",
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D855": "LG D855",
-            "LG-F240L": "LG F240L"
+            "LG-F240L": "LG F240L",
+            "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
             "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -94,7 +105,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
-            "GT-I9300": "Samsung GT-I9300",
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
             "GT-I9505": "Samsung GT-I9505",
             "GT-N7100": "Samsung GT-N7100",
             "SM-N9005": "Samsung SM-N9005"
@@ -127,7 +146,6 @@
           "devices": {
             "GT-I8190": "Samsung GT-I8190",
             "GT-I9100G": "Samsung GT-I9100G",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-I9305": "Samsung GT-I9305",
             "GT-N7100": "Samsung GT-N7100",
             "GT-P3110": "Samsung GT-P3110",
@@ -143,7 +161,6 @@
           "devices": {
             "AQUILA 080-1008": "Cmx Aquila 080-1008",
             "GT-I9100G": "Samsung GT-I9100G",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-P5100": "Samsung GT-P5100",
             "GT-S7562": "Samsung GT-S7562",
             "LG-E730": "LG E730",

@@ -84,6 +84,15 @@
           ]
         },
         {
+          "match": "#DEVICE#* *NetFront/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-S7550": "Samsung GT-S7550"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "SAMSUNG* *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {

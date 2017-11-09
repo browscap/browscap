@@ -33,6 +33,31 @@
           "platforms": [
             "Android_3_2", "Android_3_1", "Android_3_0"
           ]
+        },
+        {
+          "match": "#DEVICE#/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "devices": {
+            "SAMSUNG-GT-I9008*": "Samsung GT-I9008"
+          },
+          "platforms": [
+            "Android_H_2_2"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "device": "general Mobile Device (Samsung)",
+          "platforms": [
+            "Android_H_2_3", "Android_H_2_2", "Android_H_2_1", "Android_H_2_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "*/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_2_3", "Android_H_2_2", "Android_H_2_1", "Android_H_2_0",
+            "Android_H"
+          ]
         }
       ]
     }

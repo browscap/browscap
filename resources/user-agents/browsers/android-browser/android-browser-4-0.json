@@ -55,6 +55,26 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
             "Nexus 4": "LG Nexus 4"
           },
           "platforms": [
@@ -145,7 +165,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "PadFone 2": "Asus A68",
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
             "C6603": "Sony C6603",
+            "GT-I9300*": "Samsung GT-I9300",
             "GT-I9505*": "Samsung GT-I9505",
             "GT-N5100": "Samsung GT-N5100",
             "GT-N5110": "Samsung GT-N5110",
@@ -225,7 +256,6 @@
             "C6503": "SonyEricsson C6503",
             "Galaxy Nexus": "Samsung Galaxy Nexus",
             "GT-I8190N": "Samsung GT-I8190N",
-            "GT-i9300": "Samsung GT-I9300",
             "GT-N8013": "Samsung GT-N8013",
             "ME301T": "Asus ME301T",
             "SGP321": "Sony SGP321"
@@ -252,7 +282,6 @@
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9192": "Samsung GT-I9192",
             "GT-I9205": "Samsung GT-I9205",
-            "GT-I9300*": "Samsung GT-I9300",
             "GT-I9305*": "Samsung GT-I9305",
             "GT-I9500": "Samsung GT-I9500",
             "GT-I9505X*": "Samsung GT-I9505X",
@@ -613,7 +642,6 @@
             "SHV-E160S": "Samsung SHV-E160S",
             "SHV-E210K*": "Samsung SHV-E210K",
             "SM-T210": "Samsung SM-T210",
-            "SM-T211": "Samsung SM-T211",
             "ST10216-2": "TrekStor ST10216-2",
             "Surfer 8.31 3G": "Explay Surfer 8.31 3G",
             "TechniPad_10-3G": "TechniSat TechniPad 10 3G",
@@ -959,6 +987,7 @@
             "FWS610_EU": "Phicomm FWS610",
             "FX2-PAD10": "Faktor Zwei FX2 PAD10",
             "generic_vortex": "ViMicro Vortex",
+            "GT-B5510*": "Samsung GT-B5510",
             "GT-I8150": "Samsung GT-I8150",
             "GT-I8530": "Samsung GT-I8530",
             "GT-I9070*": "Samsung GT-I9070",
