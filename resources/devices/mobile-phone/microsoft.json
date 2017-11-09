@@ -1,4 +1,30 @@
 {
+    "Microsoft Lumia 435": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Lumia 435",
+            "Device_Name": "Lumia 435",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Microsoft Lumia 435 Dual SIM": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Lumia 435 Dual SIM",
+            "Device_Name": "Lumia 435 Dual SIM",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Microsoft Lumia 650": {
         "standard": false,
         "properties": {
@@ -44,6 +70,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "RM-1067",
             "Device_Name": "Lumia 640 XL",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Microsoft RM-1067 Dual SIM": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "RM-1067 Dual SIM",
+            "Device_Name": "Lumia 640 XL Dual SIM",
             "Device_Maker": "Microsoft Corporation",
             "Device_Brand_Name": "Microsoft",
             "Device_Pointing_Method": "touchscreen",
