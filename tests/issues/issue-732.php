@@ -341,19 +341,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-H' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; ru; Lenovo A7600-H) U2/1.0.0 UCBrowser/9.1.0.297 U2/1.0.0 Mobile',
         'properties' => [
@@ -590,19 +577,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; Lenovo A355e Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36',
         'properties' => [
@@ -810,19 +784,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A6000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A859 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.383 U3/0.8.0 Mobile Safari/534.31',
@@ -1032,19 +993,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A7600-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-U' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A536 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
@@ -1088,19 +1036,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A536 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A606 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -1382,19 +1317,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
         'properties' => [
@@ -1438,19 +1360,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A806 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -1539,19 +1448,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A606 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A360t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -1701,19 +1597,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
         'properties' => [
@@ -1758,19 +1641,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.92117',
         'properties' => [
@@ -1814,19 +1684,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.92117',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A358t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -1916,19 +1773,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-FL Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
@@ -1972,19 +1816,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-FL Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A516 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -2178,19 +2009,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
         'properties' => [
@@ -2323,19 +2141,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A706_ROW Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
         'properties' => [
@@ -2467,19 +2272,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A516 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A680_ROW Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -2629,19 +2421,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-AZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36',
         'properties' => [
@@ -2789,19 +2568,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-BC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-BD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A516 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',
@@ -2995,19 +2761,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36',
         'properties' => [
@@ -3096,19 +2849,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.1.2000',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Lenovo A880 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
@@ -3153,19 +2893,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Lenovo A880 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
         'properties' => [
@@ -3209,19 +2936,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-BK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-BL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -3459,19 +3173,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A606 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
@@ -3516,19 +3217,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A606 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Mobile Safari/537.36',
         'properties' => [
@@ -3572,19 +3260,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-BR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A936 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -3794,19 +3469,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-BV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A328 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -3850,19 +3512,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A328 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-BX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -3995,19 +3644,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-BZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-CA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; Lenovo A820 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
@@ -4377,19 +4013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-; Lenovo A800 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 bdbrowser/4.9.1.7',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-CI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A706_ROW Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Mobile Safari/537.36',
         'properties' => [
@@ -4554,19 +4177,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Lenovo A526 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/41.0.0.25.131;]',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-CL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -4611,19 +4221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A5500-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
@@ -4667,19 +4264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-CM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A5500-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-CN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -4813,19 +4397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A5000 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Digital Camera',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -4869,19 +4440,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-CQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A706_ROW Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36',
@@ -4986,19 +4544,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-CS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; ru; Lenovo A238t Build/MDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.6.0.378 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
@@ -5164,19 +4709,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; Lenovo A706_ROW Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501080',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A516 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -5220,19 +4752,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-CW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A516 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5366,19 +4885,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-CZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; Lenovo A830 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MxBrowser/4.4.6.2000',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
         'properties' => [
@@ -5511,19 +5017,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36 OPR/25.0.1619.84037',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A338t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
         'properties' => [
@@ -5612,19 +5105,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-DE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100502006',
         'properties' => [
@@ -5668,19 +5148,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-DF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100502006',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
@@ -5902,19 +5369,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-DK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A680_ROW Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501094',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ua; Lenovo A706_ROW Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/41.0.0.25.131;]',
         'properties' => [
@@ -5958,19 +5412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-DL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ua; Lenovo A706_ROW Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/41.0.0.25.131;]',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-DM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A606 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
@@ -6360,19 +5801,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-DS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100502006',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Safari/537.36',
         'properties' => [
@@ -6537,19 +5965,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-DV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Lenovo A7000-a Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36',
         'properties' => [
@@ -6697,19 +6112,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-DY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-DZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36',
@@ -6859,19 +6261,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-EB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A5500-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-EC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
         'properties' => [
@@ -6915,19 +6304,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-EC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.128 Mobile Safari/537.36',
@@ -7017,19 +6393,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-EE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A606 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-EF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A760 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -7073,19 +6436,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-EF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A760 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-EG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -7295,19 +6645,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-EJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-EK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -7352,19 +6689,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-EK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-EL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A706_ROW Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
         'properties' => [
@@ -7408,19 +6732,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A706_ROW Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-EM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A3500-F Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36',
@@ -8102,19 +7413,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.00 Mobile Safari/537.36',
         'properties' => [
@@ -8159,19 +7457,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -8215,19 +7500,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A316i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36',
@@ -8333,19 +7605,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Lenovo A390_ROW Build/IMM76I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.92697',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
@@ -8389,19 +7648,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36',
@@ -8490,19 +7736,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A880 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Mobile Safari/537.36',
@@ -8607,19 +7840,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A316i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Lenovo A316i/S008) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -8829,19 +8049,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.9740.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -8885,19 +8092,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A526 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -9135,19 +8329,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A536 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5718.00 Mobile Safari/537.36',
         'properties' => [
@@ -9191,19 +8372,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5718.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
@@ -9249,19 +8417,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-FW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-FX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -9305,19 +8460,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-FY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36',
@@ -9406,19 +8548,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-FZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A5500-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36',
@@ -9523,19 +8652,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A5500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.4.484 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A369i Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -9728,19 +8844,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A536 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36',
@@ -9966,19 +9069,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-GJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.9740.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-GK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.11375.00 Mobile Safari/537.36',
         'properties' => [
@@ -10022,19 +9112,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.11375.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; Lenovo A536 Build/KOT49H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16',
@@ -10123,19 +9200,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A880 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
@@ -10329,19 +9393,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-GQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A328 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-GR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
         'properties' => [
@@ -10385,19 +9436,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31',
@@ -10531,19 +9569,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-GU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.92967',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-GV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36',
         'properties' => [
@@ -10631,19 +9656,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-GW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-GX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -11001,19 +10013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A320t Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.6.428/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
@@ -11057,19 +10056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru-ru; Lenovo A529 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Maxthon/4.1.8.2000',
@@ -11115,19 +10101,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru-ru; Lenovo A529 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Maxthon/4.1.8.2000',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
         'properties' => [
@@ -11171,19 +10144,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A7600-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -11229,19 +10189,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A7600-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru; Lenovo A6000 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
@@ -11285,19 +10232,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru; Lenovo A6000 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36',
@@ -11403,19 +10337,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3608.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.00 Mobile Safari/537.36',
         'properties' => [
@@ -11459,19 +10380,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.128 Safari/537.36',
@@ -11649,19 +10557,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-HV Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.00 Mobile Safari/537.36',
         'properties' => [
@@ -11706,19 +10601,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Safari/537.36 OPR/29.0.1809.91837',
         'properties' => [
@@ -11762,19 +10644,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Safari/537.36 OPR/29.0.1809.91837',
-        'properties' => [
-            'Comment' => 'Opera 29.0',
-            'Browser' => 'Opera',
-            'Version' => '29.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328t Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -11864,19 +10733,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
         'properties' => [
@@ -11920,19 +10776,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-FL Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.1.0.403',
@@ -11978,19 +10821,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-FL Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.1.0.403',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
         'properties' => [
@@ -12035,19 +10865,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-HW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A536 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-HX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
@@ -12091,19 +10908,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A3500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-HY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
@@ -12208,19 +11012,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-HZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A328 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; Lenovo A390_ROW/S030) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -12369,19 +11160,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-IC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18211.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-ID' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36',
@@ -12591,19 +11369,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-IG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-IH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A7600-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -12647,19 +11412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-IH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A7600-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-II' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36',
@@ -12825,19 +11577,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-IK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36 OPR/24.0.1565.82529',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-IL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.9740.00 Mobile Safari/537.36',
         'properties' => [
@@ -12881,19 +11620,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-IL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A369i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.9740.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-IM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A526 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.308 U3/0.8.0 Mobile Safari/534.31',
@@ -13043,19 +11769,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-IO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; Lenovo A390t Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Mobile Safari/537.36 OPR/22.0.1485.78487',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-IP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -13099,19 +11812,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-IP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-IQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -13541,19 +12241,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-IY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo A5500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-IZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A916 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
         'properties' => [
@@ -13866,19 +12553,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-JE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A6000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FBAN/FB4A;FBAV/23.0.0.22.14;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-JF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; Lenovo A800; 480*800; CTC/2.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
@@ -14187,19 +12861,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-JL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; uk-ua; Lenovo A859 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100502006',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-JM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A916 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
         'properties' => [
@@ -14347,19 +13008,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-JO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A859 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-JQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A526 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36',
@@ -14525,19 +13173,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-732-JS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5718.01 Yowser/2.0.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-732-JT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-FL Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100502006',
         'properties' => [
@@ -14581,19 +13216,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-732-JT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-FL Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100502006',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-732-JU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Lenovo A6000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Mobile Safari/537.36',

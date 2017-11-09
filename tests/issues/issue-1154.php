@@ -45,17 +45,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1154 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) Version/8.0 Safari/602.1 Epiphany/3.18.5',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

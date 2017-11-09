@@ -133,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1612-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Whale/0.10.36.14 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 60.0',
-            'Browser' => 'Chrome',
-            'Version' => '60.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; tr-tr; GT-S7710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100502012',
         'properties' => [
@@ -189,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1612-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; tr-tr; GT-S7710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100502012',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1612-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.5.9.3000',
@@ -247,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1612-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.5.9.3000',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/61.0.3116.0 Mobile Safari/537.36 Chrome-Lighthouse',
         'properties' => [
@@ -304,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1612-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/61.0.3116.0 Mobile Safari/537.36 Chrome-Lighthouse',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 Netvibes iOS App v.1.0.1',
         'properties' => [
@@ -360,19 +308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1612-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 Netvibes iOS App v.1.0.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1612-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 MailMaster/5.5.3.1050',
@@ -434,19 +369,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1612-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 MailMaster/5.5.3.1050',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-I' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 AolApp/3.3.2.8',
         'properties' => [
@@ -490,19 +412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1612-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 AolApp/3.3.2.8',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1612-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; Lenovo A6000 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 OPR/17.0.2211.105178',
@@ -548,19 +457,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1612-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; Lenovo A6000 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 OPR/17.0.2211.105178',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; E5823 Build/32.0.A.6.200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98679',
         'properties' => [
@@ -605,19 +501,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1612-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; E5823 Build/32.0.A.6.200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98679',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 OPR/34.0.2044.98679',
         'properties' => [
@@ -661,19 +544,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1612-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 OPR/34.0.2044.98679',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1612-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 AolApp/3.3.8.6',
@@ -733,19 +603,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1612-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 AolApp/3.3.8.6',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1612-N' => [
@@ -808,19 +665,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1612-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 AolApp/3.3.1.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-O' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Camera360/7.4.0',
         'properties' => [
@@ -879,19 +723,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1612-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Camera360/7.4.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1612-P' => [
@@ -954,19 +785,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1612-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Camera360/8.0.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-Q' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 Camera360/7.3.5',
         'properties' => [
@@ -1025,19 +843,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1612-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 Camera360/7.3.5',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1612-R' => [
@@ -1100,19 +905,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1612-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F61 Camera360/7.3.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1612-S' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 103; 4.0.1)',
         'properties' => [
@@ -1156,18 +948,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1612-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Version/5.1 Safari/7534.48.3 NAVER(inapp; search; 103; 4.0.1)',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

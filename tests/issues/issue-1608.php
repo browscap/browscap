@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1608-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 Safari/601.1 bingipadclient',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1608-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU OS 11_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/6.4.5 (like Version/11.0 Mobile/15A372 Safari/600.1.4)',
         'properties' => [
@@ -118,19 +105,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1608-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU OS 11_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/6.4.5 (like Version/11.0 Mobile/15A372 Safari/600.1.4)',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1608-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [Pinterest/iOS]',
         'properties' => [
@@ -189,19 +163,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1608-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [Pinterest/iOS]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1608-D' => [
@@ -379,18 +340,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1608-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/37.0.2062.99 Chrome/37.0.2062.99 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

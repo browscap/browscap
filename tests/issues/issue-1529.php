@@ -809,19 +809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1529-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.0.1 Lightning/5.4.0.1',
-        'properties' => [
-            'Comment' => 'Firefox 52.0',
-            'Browser' => 'Firefox',
-            'Version' => '52.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1529-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.3.0 Lightning/4.0.3.1',
         'properties' => [

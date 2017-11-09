@@ -473,19 +473,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-523-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0a2',
-        'properties' => [
-            'Comment' => 'Firefox 35.0',
-            'Browser' => 'Firefox',
-            'Version' => '35.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-523-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
         'properties' => [
@@ -573,19 +560,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-523-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-523-M' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; rv:1.9a3pre) Gecko/20070330',
@@ -1061,19 +1035,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-523-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.80062 Mobile/11D201 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-523-V' => [
@@ -9615,19 +9576,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-523-FN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Mobile Safari/537.36 OPR/15.0.1162.60140',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-523-FO' => [
         'ua' => 'Googlebot/2.1 (+http://www.googlebot.com/bot.html)',

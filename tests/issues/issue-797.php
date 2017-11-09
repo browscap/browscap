@@ -61,17 +61,4 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-797 (lite)' => [
-        'ua' => 'mozilla/5.0 (iphone; cpu iphone os 8_3 like mac os x) applewebkit/600.1.4 (khtml, like gecko) version/8.0 mobile/12f70 safari/600.1.4 (compatible; googlebot/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

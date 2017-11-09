@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00000 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00001' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.40',
         'properties' => [
@@ -101,19 +88,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00001 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.40',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00002' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.44',
@@ -159,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00002 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00003' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44',
         'properties' => [
@@ -215,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00003 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00004' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Listia/2.44',
@@ -273,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00004 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00005' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 Listia/2.44',
         'properties' => [
@@ -329,19 +264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00005 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00006' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.34',
@@ -387,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00006 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.34',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00007' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.41',
         'properties' => [
@@ -443,19 +352,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00007 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.41',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00008' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44',
@@ -501,19 +397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00008 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00009' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44 Listia/2.44',
         'properties' => [
@@ -557,19 +440,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00009 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00010' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Listia/2.43',
@@ -629,19 +499,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00010 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00011' => [
@@ -704,19 +561,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00011 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00012' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Listia/2.44',
         'properties' => [
@@ -775,19 +619,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00012 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00013' => [
@@ -850,19 +681,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00013 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.40',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00014' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.41',
         'properties' => [
@@ -921,19 +739,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00014 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.41',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00015' => [
@@ -996,19 +801,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00015 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00016' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.43',
         'properties' => [
@@ -1067,19 +859,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00016 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00017' => [
@@ -1142,19 +921,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00017 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00018' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.43',
         'properties' => [
@@ -1213,19 +979,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00018 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00019' => [
@@ -1288,19 +1041,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00019 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00020' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.45',
         'properties' => [
@@ -1359,19 +1099,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00020 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Listia/2.45',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00021' => [
@@ -1434,19 +1161,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00021 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B150 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00022' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.24',
         'properties' => [
@@ -1505,19 +1219,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00022 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.24',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00023' => [
@@ -1580,19 +1281,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00023 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.34',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00024' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.35',
         'properties' => [
@@ -1651,19 +1339,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00024 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.35',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00025' => [
@@ -1726,19 +1401,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00025 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00026' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.43',
         'properties' => [
@@ -1797,19 +1459,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00026 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00027' => [
@@ -1872,19 +1521,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00027 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00028' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.3 (KHTML, like Gecko) Mobile/14D15 Listia/2.42',
         'properties' => [
@@ -1943,19 +1579,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00028 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.3 (KHTML, like Gecko) Mobile/14D15 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00029' => [
@@ -2018,19 +1641,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00029 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.3 (KHTML, like Gecko) Mobile/14D15 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00030' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.32',
         'properties' => [
@@ -2089,19 +1699,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00030 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.32',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00031' => [
@@ -2164,19 +1761,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00031 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00032' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.43',
         'properties' => [
@@ -2235,19 +1819,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00032 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00033' => [
@@ -2310,19 +1881,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00033 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00034' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44 Listia/2.44',
         'properties' => [
@@ -2381,19 +1939,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00034 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00035' => [
@@ -2456,19 +2001,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00035 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.45',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00036' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.46',
         'properties' => [
@@ -2527,19 +2059,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00036 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.46',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00037' => [
@@ -2602,19 +2121,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00037 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00038' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Mobile/14E5239e Listia/2.44',
         'properties' => [
@@ -2673,19 +2179,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00038 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Mobile/14E5239e Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00039' => [
@@ -2748,19 +2241,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00039 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E277 Listia/2.45',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00040' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 Listia/2.43',
         'properties' => [
@@ -2819,19 +2299,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00040 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00041' => [
@@ -2894,19 +2361,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00041 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00042' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 Listia/2.43',
         'properties' => [
@@ -2965,19 +2419,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00042 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00043' => [
@@ -3040,19 +2481,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00043 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00044' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Listia/2.42',
         'properties' => [
@@ -3111,19 +2539,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00044 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00045' => [
@@ -3186,19 +2601,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00045 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 Listia/2.33',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00046' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Listia/2.44',
         'properties' => [
@@ -3257,19 +2659,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00046 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00047' => [
@@ -3332,19 +2721,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00047 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00048' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Listia/2.44',
         'properties' => [
@@ -3403,19 +2779,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00048 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00049' => [
@@ -3478,19 +2841,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00049 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C71 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00050' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 Listia/2.44',
         'properties' => [
@@ -3549,19 +2899,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00050 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00051' => [
@@ -3624,19 +2961,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00051 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00052' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G34 Listia/2.44',
         'properties' => [
@@ -3695,19 +3019,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00052 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G34 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00053' => [
@@ -3770,19 +3081,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00053 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00054' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 Listia/2.44',
         'properties' => [
@@ -3841,19 +3139,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00054 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00055' => [
@@ -3916,19 +3201,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00055 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.42',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00056' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.43',
         'properties' => [
@@ -3987,19 +3259,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-00175-00056 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-00175-00057' => [
@@ -4062,19 +3321,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00057 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00058' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44 Listia/2.44',
         'properties' => [
@@ -4135,19 +3381,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-00175-00058 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00059' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.44',
         'properties' => [
@@ -4191,19 +3424,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00059 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-00175-00060' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44',
@@ -4249,19 +3469,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00060 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00061' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.43',
         'properties' => [
@@ -4306,19 +3513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-00175-00061 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.43',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-00175-00062' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44',
         'properties' => [
@@ -4362,18 +3556,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-00175-00062 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Listia/2.44',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

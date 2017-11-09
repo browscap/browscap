@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1615-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-gb; MI PAD Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1615-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 2S Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1',
         'properties' => [
@@ -102,19 +89,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1615-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 2S Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1615-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-us; MI PAD Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.85 Mobile Safari/537.36 XiaoMi/MiuiBrowser/8.2.15',
         'properties' => [
@@ -158,18 +132,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1615-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-us; MI PAD Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.85 Mobile Safari/537.36 XiaoMi/MiuiBrowser/8.2.15',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

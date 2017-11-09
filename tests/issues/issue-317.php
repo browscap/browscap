@@ -1001,19 +1001,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-317-V (lite)' => [
-        'ua' => 'Instagram 5.0.2 (iPhone5,1; iPhone OS 7_0_4; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-317-W' => [
         'ua' => 'Airmail 1.3.1 rv:223 (Macintosh; Mac OS X 10.9.1; de_DE)',
         'properties' => [
@@ -1673,19 +1660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-317-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (DirectFB; Linux; ko-KR) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-317-AL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534+ (KHTML, like Gecko)',

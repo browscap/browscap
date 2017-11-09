@@ -61,19 +61,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-047-phpbrowscap-8 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-047-phpbrowscap-7' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0',
         'properties' => [
@@ -266,19 +253,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-047-phpbrowscap-2 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-047-phpbrowscap-1' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0 FirePHP/0.7.4',
         'properties' => [
@@ -322,18 +296,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-047-phpbrowscap-1 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0 FirePHP/0.7.4',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

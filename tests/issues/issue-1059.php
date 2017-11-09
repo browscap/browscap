@@ -969,19 +969,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1059-36 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; AQUILA 080-1008 Build/ICS.g12refM805CMX.20120925; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.8.0.2790AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1059-37' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B)AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 MobileSafari/535.19',
         'properties' => [
@@ -1085,19 +1072,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1059-38 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; LIFETAB_S9512 Build/IMM76D; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.3.0.1852AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1059-39' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; C6603 Build/10.1.A.1.350) AppleWebKit/535.19 (KHTML, like Gecko)',
@@ -1231,19 +1205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1059-41 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P3110 Build/JZO54K; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.7.4.2567AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1059-42' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; HUAWEI MT1-U06 Build/HuaweiMT1-U06; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/1.0.0.115AT',
         'properties' => [
@@ -1304,19 +1265,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1059-42 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; HUAWEI MT1-U06 Build/HuaweiMT1-U06; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/1.0.0.115AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1059-43' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; ASUS Transformer Pad TF300TG Build/JOP40D; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.7.4.2567AT',
         'properties' => [
@@ -1360,19 +1308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1059-43 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; ASUS Transformer Pad TF300TG Build/JOP40D; de-at) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.7.4.2567AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1059-44' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; Galaxy Nexus Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko)',
@@ -1462,19 +1397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1059-45 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-810 Build/JDQ39; de-de) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1059-46' => [
         'ua' => 'Mozilla/5.0 (Linux; Linux mips) AppleWebKit/537.36; (KHTML, like Gecko) Chromium/30.0.1599.114 Safari/537.36) SRAF/3.0 HbbTV/1.1.1 (+TRICKMODE; NEXUS; Nexus_AN01; sw-01; hw-01); CE-HTML/1.0 FXM-U2FsdGVkX1/BKNh9pLTEdu27Q990Ib8IXWELN4R+3k4StEdgIJJFqXx4m+W8/PLI-END',
         'properties' => [
@@ -1562,19 +1484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1059-47 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1059-52' => [
         'ua' => 'Mozilla/5.0 (SMART-TV;Linux;Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 Safari/538.1',
@@ -1840,19 +1749,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1059-57 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; 49UH668V-ZA; WEBOS3.0 03.00.87; W3_M16;)',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1059-58' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 43LF630V-ZA; 04.05.01; 1; DTV_W15M); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 43LF630V-ZA, wireless)',
         'properties' => [
@@ -1984,19 +1880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1059-60 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) (SecondLife/4.7.7.48706 (Firestorm-Releasex64; firestorm skin)) Chrome/47.0.2526.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1059-61' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; RM-1104_15448) AppleWebKit/537.36(KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10536',

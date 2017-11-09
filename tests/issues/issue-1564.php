@@ -265,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [FB_IAB/FB4A;FBAV/136.0.0.22.91;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [Pinterest/Android]',
         'properties' => [
@@ -322,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [Pinterest/Android]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [FB_IAB/MESSENGER;FBAV/132.0.0.22.90;]',
         'properties' => [
@@ -378,19 +352,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [FB_IAB/MESSENGER;FBAV/132.0.0.22.90;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T807V Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36',
@@ -568,19 +529,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T807V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [FB_IAB/FB4A;FBAV/113.0.0.16.70;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T807V Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36',
         'properties' => [
@@ -669,19 +617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T807V Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T807V Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
         'properties' => [
@@ -725,19 +660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T807V Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T807V Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -947,19 +869,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T807V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [Pinterest/Android]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T807V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Safari/537.36 ACHEETAHI/40015250',
         'properties' => [
@@ -1003,19 +912,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T807V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Safari/537.36 ACHEETAHI/40015250',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T337V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36',
@@ -1193,19 +1089,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [FB_IAB/FB4A;FBAV/112.0.0.20.70;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T337V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
         'properties' => [
@@ -1249,19 +1132,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-Y (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T337V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T337V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36',
@@ -1367,19 +1237,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/MESSENGER;FBAV/105.0.0.16.69;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Safari/537.36@-@991434918 (AirWatch Browser v3.1.0.50)',
         'properties' => [
@@ -1424,19 +1281,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Safari/537.36@-@991434918 (AirWatch Browser v3.1.0.50)',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [Pinterest/Android]',
         'properties' => [
@@ -1480,19 +1324,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [Pinterest/Android]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 9 Build/NRD90R) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Safari/537.36',
@@ -1790,19 +1621,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36',
         'properties' => [
@@ -1890,19 +1708,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MMB29S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 OPR/34.0.2044.98679',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0.1; Nexus 9 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36',
@@ -2007,19 +1812,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MOB30P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [FB_IAB/FB4A;FBAV/113.0.0.16.70;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Nexus 9 Build/LRX22L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
@@ -2153,19 +1945,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Nexus 9 Build/LRX21R; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/FB4A;FBAV/114.0.0.20.70;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Nexus 9 Build/LRX21I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.90 Safari/537.36',
         'properties' => [
@@ -2254,19 +2033,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9 Build/N9F27C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Safari/537.36 GSA/7.4.21.21.arm64',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9 Build/N4F27B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Safari/537.36 [FB_IAB/MESSENGER;FBAV/119.0.0.18.91;]',
         'properties' => [
@@ -2310,19 +2076,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9 Build/N4F27B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Safari/537.36 [FB_IAB/MESSENGER;FBAV/119.0.0.18.91;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 9 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
@@ -2368,19 +2121,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 9 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 [FB_IAB/FB4A;FBAV/106.0.0.26.68;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MOB30W; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.126 Safari/537.36 [Pinterest/Android]',
         'properties' => [
@@ -2424,19 +2164,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MOB30W; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.126 Safari/537.36 [Pinterest/Android]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1564-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MMB29S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.95 Safari/537.36 ACHEETAHI/2100502020',
@@ -2482,19 +2209,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MMB29S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.95 Safari/537.36 ACHEETAHI/2100502020',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 9 Build/LMY48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [FB_IAB/FB4A;FBAV/115.0.0.20.72;]',
         'properties' => [
@@ -2539,19 +2253,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1564-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 9 Build/LMY48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [FB_IAB/FB4A;FBAV/115.0.0.20.72;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1564-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Nexus 9 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.93524',
         'properties' => [
@@ -2595,18 +2296,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1564-AX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Nexus 9 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

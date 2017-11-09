@@ -61,19 +61,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-860-A (lite)' => [
-        'ua' => 'SoundCloud/3.0.0 build 2547; iPhone/iPhone OS/7.1.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-860-B' => [
         'ua' => 'SoundCloud-Android/14.08.21-17 (Android 4.4.2; samsung SAMSUNG-SGH-I337)',
         'properties' => [

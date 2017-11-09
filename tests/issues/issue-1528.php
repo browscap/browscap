@@ -133,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T211 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 YaBrowser/16.11.0.649.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 54.0',
-            'Browser' => 'Chrome',
-            'Version' => '54.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; SM-T111 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -189,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; SM-T111 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T531 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Safari/537.36',
@@ -335,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ru-ru; SAMSUNG SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Android WebView 1.5',
-            'Browser' => 'Android WebView',
-            'Version' => '1.5',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36',
         'properties' => [
@@ -451,19 +412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T331 Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T561 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Safari/537.36',
@@ -596,19 +544,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Light_AT200 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 YandexSearch/5.45/apad',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SUPRA M74CG Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -1054,19 +989,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Optima E7.1 3G TT7071MG Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; P80h(D4C5) Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.2.339.01 Safari/537.36',
         'properties' => [
@@ -1110,19 +1032,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; P80h(D4C5) Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.2.339.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; 9005X Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.0.412.01 Safari/537.36',
@@ -1168,19 +1077,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; 9005X Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.0.412.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Plane 7501M 3G PS7022MG Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 YandexSearch/6.30/apad',
         'properties' => [
@@ -1224,19 +1120,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Plane 7501M 3G PS7022MG Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 YandexSearch/6.30/apad',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Plane 8713T 3G PS8106PG Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36',
@@ -1326,19 +1209,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Plane S7.0 3G PS7005MG Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; T700i_3G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36',
         'properties' => [
@@ -1427,19 +1297,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; T72HA_3G Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T72ER3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.01 Safari/537.36',
         'properties' => [
@@ -1484,19 +1341,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T72ER3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12160.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; T72HM3G Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
         'properties' => [
@@ -1540,19 +1384,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; T72HM3G Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Oysters T72M 3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -1642,19 +1473,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T72N_3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Tab_2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -1698,19 +1516,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Tab_2 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo TAB 2 A7-30DC Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36',
@@ -2008,19 +1813,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; TX22 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; TZ709 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
         'properties' => [
@@ -2065,19 +1857,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1528-AN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; TZ709 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.2.414.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1528-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; TZ857 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 YaBrowser/16.11.0.653.01 Safari/537.36',
         'properties' => [
@@ -2121,19 +1900,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1528-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0; TZ857 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 YaBrowser/16.11.0.653.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 54.0',
-            'Browser' => 'Chrome',
-            'Version' => '54.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1528-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SGP321 Build/10.7.A.0.222) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36',

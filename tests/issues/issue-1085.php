@@ -61,17 +61,4 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1085 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

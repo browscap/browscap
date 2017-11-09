@@ -845,19 +845,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-Q (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux 2.4.18-bf2.4 i686) Opera 7.11  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-R' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.0',
         'properties' => [
@@ -1022,19 +1009,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-T (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.2; Trident/5.0) Opera 7.01 [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-U' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 6.2; Trident/4.0) Opera 7.02 Bork-edition [en]',
         'properties' => [
@@ -1078,19 +1052,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-U (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 6.2; Trident/4.0) Opera 7.02 Bork-edition [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-V' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows XP) Opera 7.0  [en]',
@@ -1376,19 +1337,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-Z (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 6.0  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 9.50',
         'properties' => [
@@ -1432,19 +1380,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 9.50',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 10.00',
@@ -1490,19 +1425,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 10.00',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 8.0',
         'properties' => [
@@ -1546,19 +1468,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 9.27',
@@ -1604,19 +1513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; en) Opera 9.27',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 10.00',
         'properties' => [
@@ -1660,19 +1556,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 10.00',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 9.26',
@@ -1718,19 +1601,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AF (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; en) Opera 9.26',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0) Opera 7.54 [en]',
         'properties' => [
@@ -1774,19 +1644,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0) Opera 7.54 [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0; ru) Opera 8.50',
@@ -1832,19 +1689,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.0; Trident/4.0; ru) Opera 8.50',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1) Opera 7.50  [en]',
         'properties' => [
@@ -1888,19 +1732,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1) Opera 7.50  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; en) Opera 8.0',
@@ -1946,19 +1777,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; en) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; ru) Opera 10.10',
         'properties' => [
@@ -2002,19 +1820,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; ru) Opera 10.10',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; Trident/4.0; ru) Opera 9.27',
@@ -2060,19 +1865,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.1; Trident/4.0; ru) Opera 9.27',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.2; en) Opera 8.51',
         'properties' => [
@@ -2116,19 +1908,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 6.2; en) Opera 8.51',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.0; Trident/4.0; en) Opera 11.00',
@@ -2234,19 +2013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 11.00',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 12.15',
         'properties' => [
@@ -2290,19 +2056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 12.15',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; en) Opera 11.00',
@@ -2348,19 +2101,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; en) Opera 11.00',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; de) Opera 11.01',
         'properties' => [
@@ -2405,19 +2145,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; de) Opera 11.01',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; ru) Opera 11.10',
         'properties' => [
@@ -2461,19 +2188,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; ru) Opera 11.10',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AT' => [
         'ua' => 'Mozilla/4.0 (Windows 98; US) Opera 10.00 [en]',
@@ -2607,19 +2321,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1) Opera 12.11',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AW' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; en) Opera 11.64',
         'properties' => [
@@ -2663,19 +2364,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; en) Opera 11.64',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AX' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 11.51',
@@ -2721,19 +2409,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AX (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 11.51',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-AY' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.00',
         'properties' => [
@@ -2777,19 +2452,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-AY (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.00',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-AZ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2) Opera 12.15',
@@ -2835,19 +2497,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-AZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2) Opera 12.15',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BA' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2; Trident/5.0; ru) Opera 11.60',
         'properties' => [
@@ -2891,19 +2540,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BA (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.2; Trident/5.0; ru) Opera 11.60',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BB' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; ru) Opera 11.52',
@@ -2949,19 +2585,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BB (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; ru) Opera 11.52',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BC' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; ru) Opera 11.60',
         'properties' => [
@@ -3005,19 +2628,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BC (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; ru) Opera 11.60',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BD' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; WOW64) Opera 12.14',
@@ -3063,19 +2673,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BD (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; WOW64) Opera 12.14',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; WOW64; en) Opera 11.64',
         'properties' => [
@@ -3119,19 +2716,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BE (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; WOW64; en) Opera 11.64',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.11',
@@ -3177,19 +2761,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BF (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.11',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51',
         'properties' => [
@@ -3233,19 +2804,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BG (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; en) Opera 12.00',
@@ -3291,19 +2849,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BH (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; en) Opera 12.00',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BI' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; ru) Opera 11.61',
         'properties' => [
@@ -3347,19 +2892,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BI (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; ru) Opera 11.61',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BJ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; Win64; x64; ru) Opera 12.01',
@@ -3405,19 +2937,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; Win64; x64; ru) Opera 12.01',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BK' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64) Opera 12.15',
         'properties' => [
@@ -3461,19 +2980,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BK (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64) Opera 12.15',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BL' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64) Opera 12.12',
@@ -3519,19 +3025,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BL (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64) Opera 12.12',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BM' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; de) Opera 12.00',
         'properties' => [
@@ -3575,19 +3068,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BM (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; de) Opera 12.00',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BN' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; ru) Opera 11.64',
@@ -3633,19 +3113,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BN (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; ru) Opera 11.64',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BO' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2) Opera 12.15',
         'properties' => [
@@ -3689,19 +3156,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BO (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2) Opera 12.15',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BP' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.52',
@@ -3747,19 +3201,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.52',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BQ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.62',
         'properties' => [
@@ -3803,19 +3244,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 11.62',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 12.02',
@@ -3861,19 +3289,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BR (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/4.0; ru) Opera 12.02',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BS' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Win64; x64) Opera 12.17',
         'properties' => [
@@ -3918,19 +3333,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-BS (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Win64; x64) Opera 12.17',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-BT' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64) Opera 12.15',
         'properties' => [
@@ -3974,19 +3376,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-BT (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64) Opera 12.15',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-BU' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; X11; Linux i686) Opera 12.15',
@@ -4340,19 +3729,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-CC' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 OPR/28.0.1750.51',
         'properties' => [
@@ -4573,19 +3949,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.48.ALSAN3.56',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-CH' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.103',
         'properties' => [
@@ -4673,19 +4036,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-CI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.122 Safari/537.36 OPR/24.0.1558.64',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-CJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
@@ -4907,19 +4257,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_6_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.122 Safari/537.36 OPR/24.0.1558.64',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-CO' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 OPR/30.0.1835.125',
         'properties' => [
@@ -5052,19 +4389,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.52 Safari/537.36 OPR/15.0.1147.100',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-CR' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1614.71',
         'properties' => [
@@ -5108,19 +4432,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-CR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1614.71',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-CS' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
@@ -5386,19 +4697,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 OPR/20.0.1387.91',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-CY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',
         'properties' => [
@@ -5442,19 +4740,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',
-        'properties' => [
-            'Comment' => 'Opera 38.0',
-            'Browser' => 'Opera',
-            'Version' => '38.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
@@ -5500,19 +4785,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-CZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
-        'properties' => [
-            'Comment' => 'Opera 42.0',
-            'Browser' => 'Opera',
-            'Version' => '42.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.0.2130.65',
         'properties' => [
@@ -5556,19 +4828,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-DA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.0.2130.65',
-        'properties' => [
-            'Comment' => 'Opera 36.0',
-            'Browser' => 'Opera',
-            'Version' => '36.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
@@ -5614,19 +4873,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-DB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-DC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
         'properties' => [
@@ -5670,19 +4916,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
-        'properties' => [
-            'Comment' => 'Opera 29.0',
-            'Browser' => 'Opera',
-            'Version' => '29.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 OPR/34.0.2036.50',
@@ -6844,19 +6077,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1434-EC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.45 Safari/537.36 OPR/15.0.1147.72',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-ED' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
         'properties' => [
@@ -6917,19 +6137,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1434-ED (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
         'properties' => [
@@ -6988,19 +6195,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1434-EE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1434-EF' => [
@@ -7135,19 +6329,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-EH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; en; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
         'properties' => [
@@ -7280,19 +6461,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-EK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.37 Safari/537.36 OPR/15.0.1147.44',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
         'properties' => [
@@ -7336,19 +6504,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-EM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.20660.92',
@@ -7394,19 +6549,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.20660.92',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64  NCLIENT50_AAP081D982F517) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36 OPR/31.0.1889.99',
         'properties' => [
@@ -7450,19 +6592,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64  NCLIENT50_AAP081D982F517) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36 OPR/31.0.1889.99',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 OPR/19.0.1326.59',
@@ -7508,19 +6637,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-EO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36 OPR/19.0.1326.59',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
         'properties' => [
@@ -7565,19 +6681,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-EP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-EQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
         'properties' => [
@@ -7621,19 +6724,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-EQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-ER' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; ru; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.00',
@@ -7723,19 +6813,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-ES (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-ET' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64  NCLIENT50_AAP3F872F3221B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.59',
         'properties' => [
@@ -7823,19 +6900,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64  NCLIENT50_AAPC5EA3F028CF) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36 OPR/25.0.1614.63',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-EV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.19',
@@ -8101,19 +7165,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.16',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.12 Safari/537.36 OPR/19.0.1341.73',
         'properties' => [
@@ -8157,19 +7208,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.12 Safari/537.36 OPR/19.0.1341.73',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-FC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/30.0.1835.125',
@@ -8347,19 +7385,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.01',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36 OPR/37.0.2142.0',
         'properties' => [
@@ -8536,19 +7561,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.02',
         'properties' => [
@@ -8592,19 +7604,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-FK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.02',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-FL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 U ru rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.00',
@@ -8650,19 +7649,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 U ru rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 ru rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
         'properties' => [
@@ -8707,19 +7693,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 ru rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.15',
         'properties' => [
@@ -8763,19 +7736,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-FN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64 rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.15',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36 OPR/32.0.1899.0',
@@ -8997,19 +7957,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-FS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.02',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-FT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1505.90 Safari/537.36 OPR/18.0.1331.40',
         'properties' => [
@@ -9053,19 +8000,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-FT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1505.90 Safari/537.36 OPR/18.0.1331.40',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-FU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2739.0 Safari/537.36 OPR/39.0.2248.0',
@@ -9683,19 +8617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-GH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.4 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36 OPR/24.0.1558.53',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69',
         'properties' => [
@@ -9872,19 +8793,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-GL (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11 Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.62 Safari/537.36 OPR/26.0.1656.20',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-GM' => [
         'ua' => 'Mozilla/5.0 (X11 Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36 OPR/32.0.1899.0',
         'properties' => [
@@ -9972,19 +8880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-GN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11 Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.60140',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-GO' => [
         'ua' => 'Mozilla/5.0 (X11; FreeBSD i386; U) Opera 7.23  [en]',
@@ -10206,19 +9101,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-GS (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; en; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.64',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-GT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.01',
         'properties' => [
@@ -10262,19 +9144,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-GT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; ru; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.01',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-GU' => [
         'ua' => 'Opera 9.4 (Windows NT 6.1 U en)',
@@ -20516,19 +19385,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-PB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-PC' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1) Opera 12.13',
         'properties' => [
@@ -20572,19 +19428,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PC (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1) Opera 12.13',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PD' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; it) Opera 11.61',
@@ -20630,19 +19473,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-PD (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; it) Opera 11.61',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-PE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.02',
         'properties' => [
@@ -20686,19 +19516,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PE (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 12.02',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/4.0; ru) Opera 11.52',
@@ -20744,19 +19561,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-PF (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/4.0; ru) Opera 11.52',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-PG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.12',
         'properties' => [
@@ -20800,19 +19604,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PG (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1) Opera 12.12',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PH' => [
         'ua' => 'Mozilla/5.0 (Intel Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36 OPR/30.0.1835.125',
@@ -20902,19 +19693,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-PI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-PJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/40.0.2214.115 Safari/537.36 OPR/27.0.1689.76',
         'properties' => [
@@ -20958,19 +19736,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/40.0.2214.115 Safari/537.36 OPR/27.0.1689.76',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; en) Opera 8.01 AppEngine-Google; (+http://code.google.com/appengine; appid: s~zwdant03)',
@@ -21060,19 +19825,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-PL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.10',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-PM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.17',
         'properties' => [
@@ -21116,19 +19868,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.17',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; U; en) Opera 8.01 AppEngine-Google; (+http://code.google.com/appengine; appid: s~zwdant03)',
@@ -21217,19 +19956,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-PO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.15',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-PP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; U) Opera 7.20  [en]',
@@ -23747,19 +22473,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-RR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android 2.2.1; Linux; Opera Tablet/ADR-1104201100; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-RS' => [
         'ua' => 'Mozilla/5.0 (Android 2.2.2; Linux; Opera Mobi/ADR-1103311355; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
         'properties' => [
@@ -23803,19 +22516,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-RS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android 2.2.2; Linux; Opera Mobi/ADR-1103311355; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-RT' => [
         'ua' => 'Mozilla/5.0 (Android 2.3.3; Linux; Opera Mobi/ADR-1105231029; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -23861,19 +22561,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-RT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android 2.3.3; Linux; Opera Mobi/ADR-1105231029; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-RU' => [
         'ua' => 'Mozilla/5.0 (Linux Android 4.4.4 C6902 Build/14.4.A.0.108) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
         'properties' => [
@@ -23917,19 +22604,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-RU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux Android 4.4.4 C6902 Build/14.4.A.0.108) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-RV' => [
         'ua' => 'Mozilla/5.0 (Linux armv6l; Maemo; Opera Mobi/8; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -23975,19 +22649,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-RV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux armv6l; Maemo; Opera Mobi/8; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-RW' => [
         'ua' => 'Mozilla/5.0 (Linux armv7l Maemo Opera Mobi/4 U fr rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.1',
         'properties' => [
@@ -24031,19 +22692,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-RW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux armv7l Maemo Opera Mobi/4 U fr rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-RX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 2.3.6; GT-I9100G Build/GINGERBREAD) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453',
@@ -24089,19 +22737,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-RX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 2.3.6; GT-I9100G Build/GINGERBREAD) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-RY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-I9300 Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.40 Mobile Safari/537.31 OPR/14.0.1074.54070',
         'properties' => [
@@ -24145,19 +22780,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-RY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-I9300 Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.40 Mobile Safari/537.31 OPR/14.0.1074.54070',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-RZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-N8010 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82529',
@@ -24203,19 +22825,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-RZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-N8010 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82529',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Mobile Safari/537.36 OPR/19.0.1340.69721',
         'properties' => [
@@ -24260,19 +22869,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.72 Mobile Safari/537.36 OPR/19.0.1340.69721',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N8010 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.95530',
         'properties' => [
@@ -24316,19 +22912,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N8010 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.95530',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.834.55 Mobile Safari/537.36 OPR/36.0.2126.101812',
@@ -24390,19 +22973,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1434-SC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.834.55 Mobile Safari/537.36 OPR/36.0.2126.101812',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; GT-I9300 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
         'properties' => [
@@ -24446,19 +23016,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; GT-I9300 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SCH-I545 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Mobile Safari/537.36 OPR/15.0.1162.60140',
@@ -24504,19 +23061,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SCH-I545 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Mobile Safari/537.36 OPR/15.0.1162.60140',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; GT-P3100 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.63780',
         'properties' => [
@@ -24560,19 +23104,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; GT-P3100 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.63780',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; Nexus 7 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.65583',
@@ -24618,19 +23149,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.3.1; Nexus 7 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.65583',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SCH-I545 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
         'properties' => [
@@ -24674,19 +23192,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SCH-I545 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904',
@@ -24732,19 +23237,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Nexus 6 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
         'properties' => [
@@ -24788,19 +23280,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Nexus 6 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G920V Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
@@ -24846,19 +23325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-G920V Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.81 Mobile Safari/537.36 OPR/28.0.1764.90386',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.78 Safari/537.36 OPR/32.0.1953.96473',
         'properties' => [
@@ -24902,19 +23368,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.78 Safari/537.36 OPR/32.0.1953.96473',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LMY47Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
@@ -24960,19 +23413,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LMY47Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Mobile Safari/537.36 OPR/18.0.1290.68007',
         'properties' => [
@@ -25016,19 +23456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Mobile Safari/537.36 OPR/18.0.1290.68007',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920V Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
@@ -25074,19 +23501,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920V Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.93524',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; LGLS991 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.95530',
         'properties' => [
@@ -25130,19 +23544,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; LGLS991 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36 OPR/30.0.1856.95530',
-        'properties' => [
-            'Comment' => 'Chrome 43.0',
-            'Browser' => 'Chrome',
-            'Version' => '43.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98637',
@@ -25188,19 +23589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Mobile Safari/537.36 OPR/34.0.2044.98637',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MHC19Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.1.2126.102083',
         'properties' => [
@@ -25244,19 +23632,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MHC19Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.1.2126.102083',
-        'properties' => [
-            'Comment' => 'Chrome 49.0',
-            'Browser' => 'Chrome',
-            'Version' => '49.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.2.2126.102826',
@@ -25302,19 +23677,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.2.2126.102826',
-        'properties' => [
-            'Comment' => 'Chrome 49.0',
-            'Browser' => 'Chrome',
-            'Version' => '49.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-ST' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; VS987 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
         'properties' => [
@@ -25358,19 +23720,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-ST (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; VS987 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1650 Build/MCLS24.246-36-3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.3.2192.109248',
@@ -25416,19 +23765,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1650 Build/MCLS24.246-36-3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.3.2192.109248',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Build/NBD90Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.1.2192.108356',
         'properties' => [
@@ -25473,19 +23809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-SV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Build/NBD90Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.1.2192.108356',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-SW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 6P Build/NBD90X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
         'properties' => [
@@ -25529,19 +23852,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-SW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 6P Build/NBD90X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-SX' => [
         'ua' => 'Mozilla/5.0 (S60; SymbOS; Opera Mobi/1181; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.1',
@@ -28815,19 +27125,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-VS (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12A405 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-VT' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.79435 Mobile/11D257 Safari/9537.53|iPad 8_1',
         'properties' => [
@@ -28871,19 +27168,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-VT (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.79435 Mobile/11D257 Safari/9537.53|iPad 8_1',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-VU' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12D508 Safari/9537.53',
@@ -28929,19 +27213,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1434-VU (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12D508 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-VV' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/12H143 Safari/9537.53',
         'properties' => [
@@ -28985,19 +27256,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-VV (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/12H143 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-VW' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) OPiOS/10.1.1.92212 Mobile/14B100 Safari/9537.53',
@@ -29057,19 +27315,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1434-VW (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) OPiOS/10.1.1.92212 Mobile/14B100 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1434-VX' => [
@@ -29132,19 +27377,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1434-VX (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/11A501 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-VY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13A405 Safari/9537.53',
         'properties' => [
@@ -29205,19 +27437,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1434-VY (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13A405 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1434-VZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13B143 Safari/9537.53',
         'properties' => [
@@ -29276,19 +27495,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1434-VZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13B143 Safari/9537.53',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1434-WA' => [
@@ -30278,19 +28484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1434-WU (lite)' => [
-        'ua' => 'Opera/9.80 (iPad; Opera Mini/6.0.1/35.4183; U; id) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1434-WV' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP  Opera Mini/4.0.10222/24.743  U  ru) Presto/2.5.25 Version/10.54',

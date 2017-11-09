@@ -2805,19 +2805,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-436-BN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-436-BO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         'properties' => [
@@ -2862,19 +2849,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-436-BO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-436-BP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         'properties' => [
@@ -2918,19 +2892,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-436-BP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-436-BQ' => [
         'ua' => 'SAMSUNG-GT-S5230/S5230RFJK1 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
@@ -3123,19 +3084,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-436-BT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-436-BU' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9320; de) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.714 Mobile Safari/534.11+',
@@ -3921,19 +3869,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-436-CJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows 95; de; rv:1.9.2.6) Gecko/20100625 Firefox/27.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 68827872',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-436-CK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)',
         'properties' => [
@@ -4260,19 +4195,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-436-CP (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/12.1.0.24.20;FBBV/3214247;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-436-CQ' => [
@@ -4659,19 +4581,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-436-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-436-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0',
         'properties' => [
@@ -4715,19 +4624,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-436-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-436-CZ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1; WOW64; U; de) Presto/2.10.289 Version/12.02',
@@ -4877,19 +4773,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-436-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20110516 Ubuntu/10.04 (lucid) Firefox/3.6.13',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-436-DD' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko)',
         'properties' => [
@@ -4948,19 +4831,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-436-DD (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-436-DE' => [

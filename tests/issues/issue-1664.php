@@ -89,19 +89,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSUWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/61.2.1 like Chrome/61.0.3163.98 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7) Gecko/20040707 Firefox/0.9.2',
         'properties' => [
@@ -190,19 +177,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
         'properties' => [
@@ -246,19 +220,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.321 Chrome/16.0.912.77 Safari/ED5FA',
@@ -304,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.321 Chrome/16.0.912.77 Safari/ED5FA',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.3.0.7376 Safari/537.36',
         'properties' => [
@@ -360,19 +308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.3.0.7376 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) SuperBird/23.0 Safari/537.11',
@@ -506,19 +441,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.110 Safari/537.36 Sleipnir/4.1.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/538.1 Midori/0.5',
         'properties' => [
@@ -562,19 +484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/538.1 Midori/0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.2.2 Waterfox/55.2.2',
@@ -620,19 +529,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.2.2 Waterfox/55.2.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/54.0 Safari/537.36 Chrome/54.0.2840.71',
         'properties' => [
@@ -676,19 +572,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/54.0 Safari/537.36 Chrome/54.0.2840.71',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-N' => [
         'ua' => 'Mozilla/5.0 (Android 8.0.0; Mobile; rv:56.0) Gecko/56.0 Firefox/56.0',
@@ -838,19 +721,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1664-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 Safari/7534.48.3 Sleipnir/3.3m',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.105 Safari/537.36 Swing/4.2.0.1',
         'properties' => [
@@ -894,19 +764,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.105 Safari/537.36 Swing/4.2.0.1',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72c SogouMobileBrowser/5.8.1',
@@ -968,19 +825,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1664-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72c SogouMobileBrowser/5.8.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
         'properties' => [
@@ -1024,19 +868,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-T' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
@@ -1126,19 +957,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
-        'properties' => [
-            'Comment' => 'Safari 11.0',
-            'Browser' => 'Safari',
-            'Version' => '11.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
         'properties' => [
@@ -1182,19 +1000,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
-        'properties' => [
-            'Comment' => 'Safari 11.0',
-            'Browser' => 'Safari',
-            'Version' => '11.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-W' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko)',
@@ -1300,19 +1105,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1664-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 SogouMobileBrowser/5.9.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-Y' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; bg; rv:1.9b2) Gecko/20040802 Firefox/0.9.2',
         'properties' => [
@@ -1356,19 +1148,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-Y (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; bg; rv:1.9b2) Gecko/20040802 Firefox/0.9.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-Z' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
@@ -1414,19 +1193,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-AA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
         'properties' => [
@@ -1470,19 +1236,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-AB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:56.0) Gecko/20100101 Firefox/56.0',
@@ -1572,19 +1325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1664-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) FxiOS/9.2b6679 Mobile/15A432 Safari/604.1.38',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-AD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Instagram 7.3.0 (iPhone7,2; iPhone OS 11_0_3; en_US; en)',
         'properties' => [
@@ -1643,19 +1383,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1664-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Instagram 7.3.0 (iPhone7,2; iPhone OS 11_0_3; en_US; en)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1664-AE' => [
@@ -1718,19 +1445,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1664-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 DaumApps/6.8.2 DaumDevice/mobile',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-AF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B92 Instagram 20.0.0.24.81 (iPhone9,4; iOS 11_1; en_US; en-US; scale=2.88; gamut=wide; 1080x1920)',
         'properties' => [
@@ -1789,19 +1503,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1664-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B92 Instagram 20.0.0.24.81 (iPhone9,4; iOS 11_1; en_US; en-US; scale=2.88; gamut=wide; 1080x1920)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1664-AG' => [
@@ -1864,19 +1565,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1664-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.3 (KHTML, like Gecko) FxiOS/9.2b6679 Mobile/15B5078e Safari/604.3.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1664-AH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8',
         'properties' => [
@@ -1920,19 +1608,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1664-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1664-AI' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Arora/0.11.0 Safari/538.1',

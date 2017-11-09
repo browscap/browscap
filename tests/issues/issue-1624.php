@@ -89,19 +89,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1624-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 Framabird/38.5.1 Lightning/4.0.5.2',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1624-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 Framabird/24.1.1',
         'properties' => [
@@ -145,19 +132,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1624-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 Framabird/24.1.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1624-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 Framabird/38.5.1',
@@ -203,19 +177,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1624-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 Framabird/38.5.1',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1624-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 Framabird/24.1.1',
         'properties' => [
@@ -259,18 +220,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1624-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 Framabird/24.1.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

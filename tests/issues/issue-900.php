@@ -133,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-E' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR   3.5.30729)',
         'properties' => [
@@ -189,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR   3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-F' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0;   Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;   SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
@@ -247,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-F (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0;   Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;   SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-G' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Avant Browser)',
         'properties' => [
@@ -303,19 +264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-G (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Avant Browser)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-H' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1;   .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
@@ -361,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-H (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1;   .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-I' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Maxthon; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
         'properties' => [
@@ -418,19 +353,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-I (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Maxthon; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-J' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5;',
         'properties' => [
@@ -474,19 +396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-J (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5;',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-K' => [
         'ua' => 'Mozilla/4.0 (compatible; Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR 3.5.30729); Windows NT 5.1; Trident/4.0)',
@@ -620,19 +529,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-M (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB6; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-N' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
         'properties' => [
@@ -676,19 +572,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-N (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-O' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
@@ -734,19 +617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-O (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-P' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
         'properties' => [
@@ -790,19 +660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-P (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-Q' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
@@ -848,19 +705,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-Q (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-R' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
         'properties' => [
@@ -904,19 +748,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-R (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-S' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
@@ -962,19 +793,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-S (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-T' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; InfoPath.2; .NET CLR 2.0.50727; Alexa Toolbar)',
         'properties' => [
@@ -1018,19 +836,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-T (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; InfoPath.2; .NET CLR 2.0.50727; Alexa Toolbar)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-U' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 1.1.4322)',
@@ -1076,19 +881,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-U (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-V' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2)',
         'properties' => [
@@ -1133,19 +925,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-V (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-W' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
         'properties' => [
@@ -1189,19 +968,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-W (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-X' => [
         'ua' => 'AmigaVoyager/3.2 (AmigaOS/MC680x0)',
@@ -6151,19 +5917,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Browzar)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; XH; rv:8.578.498) fr, Gecko/20121021 Camino/8.723+ (Firefox compatible)',
         'properties' => [
@@ -6296,19 +6049,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.9.2.28) Gecko/20130628 Camino/3.245.226 (MultiLang) (like Firefox/3.621.218)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.93.26.2658) Gecko/20141026 Camino/2.176.223 (MultiLang) (like Firefox/3.64.2268)0',
         'properties' => [
@@ -6353,19 +6093,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.93.26.2658) Gecko/20141026 Camino/2.176.223 (MultiLang) (like Firefox/3.64.2268)0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.14pre) Gecko/20101212 Camino/2.1a1pre (like Firefox/3.6.14pre)',
         'properties' => [
@@ -6409,19 +6136,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.14pre) Gecko/20101212 Camino/2.1a1pre (like Firefox/3.6.14pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EK' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.14pre)   Gecko/20101212 Camino/2.1a1pre (like Firefox/3.6.14pre)',
@@ -6511,19 +6225,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.29pre) Gecko/20130101 Camino/2.1.3pre (like Firefox/3.6.29pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
         'properties' => [
@@ -6567,19 +6268,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
@@ -6625,19 +6313,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EO' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
         'properties' => [
@@ -6681,19 +6356,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EP' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.2.24) Gecko/20111114 Camino/2.1 (like Firefox/3.6.24)',
@@ -6739,19 +6401,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.2.24) Gecko/20111114 Camino/2.1 (like Firefox/3.6.24)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en; rv:1.9.0.10pre) Gecko/2009041800 Camino/2.0b3pre (like Firefox/3.0.10pre)',
         'properties' => [
@@ -6795,19 +6444,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en; rv:1.9.0.10pre) Gecko/2009041800 Camino/2.0b3pre (like Firefox/3.0.10pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ER' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; it; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
@@ -6853,19 +6489,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ER (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; it; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ES' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
         'properties' => [
@@ -6909,19 +6532,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ES (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ET' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (like Firefox/3.0.19)',
@@ -6967,19 +6577,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ET (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (like Firefox/3.0.19)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; nl; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (MultiLang) (like Firefox/3.0.19)',
         'properties' => [
@@ -7023,19 +6620,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; nl; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.18) Gecko/2010021619 Camino/2.0.2 (like Firefox/3.0.18)',
@@ -7081,19 +6665,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.18) Gecko/2010021619 Camino/2.0.2 (like Firefox/3.0.18)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
         'properties' => [
@@ -7137,19 +6708,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; fr; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
@@ -7195,19 +6753,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; fr; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-EY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (like Firefox/2.0.0.21pre)',
         'properties' => [
@@ -7251,19 +6796,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-EY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (like Firefox/2.0.0.21pre)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-EZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.24) Gecko/20100305 Camino/1.6.11 (like Firefox/2.0.0.24)',
@@ -7309,19 +6841,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-EZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.24) Gecko/20100305 Camino/1.6.11 (like Firefox/2.0.0.24)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-FA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.6) Gecko/20070809 Firefox/2.0.0.6 Camino/1.5.1',
         'properties' => [
@@ -7366,19 +6885,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.6) Gecko/20070809 Firefox/2.0.0.6 Camino/1.5.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-FB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 Camino/1.5.1',
         'properties' => [
@@ -7422,19 +6928,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 Camino/1.5.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-FC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Max OS X Mach-O; it-IT; rv:1.8.0.7) Gecko/200609211 Camino/1.0.3',
@@ -7832,19 +7325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-FK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Safari/419.3 Cheshire/1.0.ALPHA',
-        'properties' => [
-            'Comment' => 'Safari 2.0',
-            'Browser' => 'Safari',
-            'Version' => '2.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-FL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko) Safari/419.3 Cheshire/1.0.ALPHA',
         'properties' => [
@@ -7888,19 +7368,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-FL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko) Safari/419.3 Cheshire/1.0.ALPHA',
-        'properties' => [
-            'Comment' => 'Safari 2.0',
-            'Browser' => 'Safari',
-            'Version' => '2.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-FM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko) AppleWebKit/418.9 Cheshire/1.0.ALPHA',
@@ -8362,19 +7829,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-GE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML,like Gecko) Chrome/9.1.0.0 Safari/540.0',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-GF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/9.1.0.0 Safari/540.0',
         'properties' => [
@@ -8493,19 +7947,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-900-GG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-CA) AppleWebKit/534.13 (KHTML like Gecko) Chrome/9.0.597.98 Safari/534.13',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-900-GI' => [
@@ -8688,19 +8129,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-GQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.59 Safari/525.19',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-GT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2',
         'properties' => [
@@ -8745,19 +8173,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-GT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-GU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.28.3 (KHTML, like Gecko) Version/3.2.3 ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/525.28.3',
         'properties' => [
@@ -8801,19 +8216,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-GU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.28.3 (KHTML, like Gecko) Version/3.2.3 ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/525.28.3',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-GV' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; mimic; rv:9.3.0) Gecko/20120117 Firefox/3.6.25 Classilla/CFM',
@@ -8947,19 +8349,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-GX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100409 Firefox/3.6.3 CometBird/3.6.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-GY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; it; rv:1.9.2.16) Gecko/20110325 Firefox/3.6.16 CometBird/3.6.16',
         'properties' => [
@@ -9004,19 +8393,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-GY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; it; rv:1.9.2.16) Gecko/20110325 Firefox/3.6.16 CometBird/3.6.16',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-GZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5',
         'properties' => [
@@ -9060,19 +8436,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-GZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-HA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5',
@@ -9162,19 +8525,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-HB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-HC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
         'properties' => [
@@ -9218,19 +8568,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-HC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-HD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
@@ -9276,19 +8613,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-HD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-HE' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
         'properties' => [
@@ -9333,19 +8657,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-HE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-HF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
         'properties' => [
@@ -9389,19 +8700,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-HF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-HG' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0.11) Gecko/20100101 conkeror/1.0pre (Debian-1.0~~pre+git120527-1)',
@@ -9711,19 +9009,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-HM (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; SV1; Crazy Browser 9.0.04)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-HN' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Crazy Browser 3.1.0)',
         'properties' => [
@@ -9768,19 +9053,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-HN (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Crazy Browser 3.1.0)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-HO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Crazy Browser 3.0.5) ; .NET CLR 3.0.04506.30; InfoPath.2; InfoPath.3; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)',
         'properties' => [
@@ -9824,19 +9096,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-HO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Crazy Browser 3.0.5) ; .NET CLR 3.0.04506.30; InfoPath.2; InfoPath.3; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-HP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Crazy Browser 2.0.1)',
@@ -10854,19 +10113,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Fedora/2.24.3-4.fc10 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IN' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -10910,19 +10156,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IO' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.14) Gecko/20080528 Ubuntu/9.10 (karmic) Epiphany/2.22 Firefox/3.0',
@@ -10968,19 +10201,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IO (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.14) Gecko/20080528 Ubuntu/9.10 (karmic) Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -11024,19 +10244,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
@@ -11082,19 +10289,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080322 Epiphany/2.22 Firefox/2.0.0.4',
         'properties' => [
@@ -11138,19 +10332,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080322 Epiphany/2.22 Firefox/2.0.0.4',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IS' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en_GB; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
@@ -11196,19 +10377,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IS (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en_GB; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IT' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -11252,19 +10420,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
@@ -11310,19 +10465,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.5) Gecko/20080528 Fedora/2.24.1-3.fc10 Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -11366,19 +10508,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.5) Gecko/20080528 Fedora/2.24.1-3.fc10 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IW' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.4) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
@@ -11424,19 +10553,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IW (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.4) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IX' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.15) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -11480,19 +10596,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-IX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.15) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-IY' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.12) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
@@ -11538,19 +10641,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.12) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-IZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9) Gecko/20080528 (Gentoo) Epiphany/2.22 Firefox/3.0',
         'properties' => [
@@ -11595,19 +10685,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-IZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9) Gecko/20080528 (Gentoo) Epiphany/2.22 Firefox/3.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-JA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.14) Gecko/20080616 Fedora/2.20.3-4.fc8 Epiphany/2.20 Firefox/2.0.0.14',
         'properties' => [
@@ -11651,19 +10728,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-JA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.14) Gecko/20080616 Fedora/2.20.3-4.fc8 Epiphany/2.20 Firefox/2.0.0.14',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-JB' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080326 (Debian-1.8.1.13-1) Epiphany/2.20',
@@ -11753,19 +10817,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-JC (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux ppc; en; rv:1.8.1.13) Gecko/20080325 Epiphany/2.20 Firefox/2.0.0.13',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-JD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9b3) Gecko Epiphany/2.20',
         'properties' => [
@@ -11854,19 +10905,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-JE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.19) Gecko/20081216 Epiphany/2.20 Firefox/2.0.0.19',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-JF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.17) Gecko/20080927 Epiphany/2.20 Firefox/2.0.0.17 (Dropline GNOME)',
         'properties' => [
@@ -11911,19 +10949,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-JF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.17) Gecko/20080927 Epiphany/2.20 Firefox/2.0.0.17 (Dropline GNOME)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-JG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.14) Gecko/20080418 Epiphany/2.20 Firefox/2.0.0.14',
         'properties' => [
@@ -11967,19 +10992,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-JG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.14) Gecko/20080418 Epiphany/2.20 Firefox/2.0.0.14',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-JH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-5) Epiphany/2.20',
@@ -12112,19 +11124,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-JJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.10) Gecko/20071213 Epiphany/2.20 Firefox/2.0.0.10',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-JK' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; pl; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12',
@@ -14018,19 +13017,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-LE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible;  Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-LG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20091218 Firefox 3.6b5',
         'properties' => [
@@ -14559,19 +13545,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-MY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-MZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7',
         'properties' => [
@@ -14615,19 +13588,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-MZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.17) Gecko/20080913 Firefox/2.0.0.17 Flock/1.2.6',
@@ -14673,19 +13633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.17) Gecko/20080913 Firefox/2.0.0.17 Flock/1.2.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NB' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080530 Firefox/2.0.0.14 Flock/1.2.1',
         'properties' => [
@@ -14729,19 +13676,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-NB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080530 Firefox/2.0.0.14 Flock/1.2.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NC' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080414 Firefox/2.0.0.14 Flock/1.1.2',
@@ -14787,19 +13721,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NC (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080414 Firefox/2.0.0.14 Flock/1.1.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ND' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080304 Firefox/2.0.0.12 Flock/1.1',
         'properties' => [
@@ -14843,19 +13764,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ND (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080304 Firefox/2.0.0.12 Flock/1.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NE' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.8.1.11) Gecko/20080131 Firefox/2.0.0.11 Flock/1.0.8',
@@ -14901,19 +13809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.8.1.11) Gecko/20080131 Firefox/2.0.0.11 Flock/1.0.8',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080126 Firefox/2.0.0.11 Flock/1.0.8',
         'properties' => [
@@ -14958,19 +13853,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080126 Firefox/2.0.0.11 Flock/1.0.8',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11) Gecko/20071206 Firefox/2.0.0.11 Flock/1.0.3',
         'properties' => [
@@ -15014,19 +13896,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-NG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11) Gecko/20071206 Firefox/2.0.0.11 Flock/1.0.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NH' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.7) Gecko/20071013 Firefox/2.0.0.7 Flock/0.9.1.3',
@@ -15116,19 +13985,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.7) Gecko/20070925 Firefox/2.0.0.7 Flock/0.9.1.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070914 Firefox/2.0.0.6 Flock/0.9.1.0',
         'properties' => [
@@ -15172,19 +14028,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-NJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070914 Firefox/2.0.0.6 Flock/0.9.1.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070801 Firefox/2.0.0.6 Flock/0.9.0.2',
@@ -15318,19 +14161,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2) Gecko/20070307 Firefox/2.0.0.2 Flock/0.7.99',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.9) Gecko/20061219 Flock/0.7.9.1',
         'properties' => [
@@ -15419,19 +14249,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NO (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux ia64; pl; rv:1.8.0.5) Gecko/20060801 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.5) Gecko/20060801 Firefox/1.5.0.5 Flock/0.7.4.1',
         'properties' => [
@@ -15475,19 +14292,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-NP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.5) Gecko/20060801 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.5) Gecko/20060731 Firefox/1.5.0.5 Flock/0.7.4.1',
@@ -15533,19 +14337,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.5) Gecko/20060731 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NR' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.11) Gecko/20070501 Firefox/1.5.0.11 Flock/0.7.13.1',
         'properties' => [
@@ -15590,19 +14381,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.11) Gecko/20070501 Firefox/1.5.0.11 Flock/0.7.13.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-NS' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.4) Gecko/20060612 Firefox/1.5.0.4 Flock/0.7.0.17.1',
         'properties' => [
@@ -15646,19 +14424,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-NS (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.4) Gecko/20060612 Firefox/1.5.0.4 Flock/0.7.0.17.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-NT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.1) Gecko/20060331 Flock/0.7',
@@ -15968,19 +14733,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-NZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8) Gecko/20060102 Flock/0.4.11 Firefox/1.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-OA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8) Gecko/20051119 Flock/0.4.11 Firefox/1.0+',
         'properties' => [
@@ -16068,19 +14820,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-OB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8b5) Gecko/20051019 Flock/0.4 Firefox/1.0+',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-OC' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8b5) Gecko/20051103 Flock/0.4 Firefox/1.0+',
@@ -16214,19 +14953,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-OE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8b5) Gecko/20051021 Flock/0.4 Firefox/1.0+',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-OF' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/532.3+ (KHTML, like Gecko) Fluid/0.9.6 Safari/532.3+',
         'properties' => [
@@ -16270,19 +14996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-OF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/532.3+ (KHTML, like Gecko) Fluid/0.9.6 Safari/532.3+',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-OG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/531.9 (KHTML, like Gecko) Fluid/0.9.6 Safari/531.9',
@@ -16328,19 +15041,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-OG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/531.9 (KHTML, like Gecko) Fluid/0.9.6 Safari/531.9',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-OH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/528.16 (KHTML, like Gecko) Fluid/0.9.6 Safari/528.16',
         'properties' => [
@@ -16384,19 +15084,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-OH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/528.16 (KHTML, like Gecko) Fluid/0.9.6 Safari/528.16',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-OI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Fluid/0.9.4 Safari/525.13',
@@ -16486,19 +15173,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-OL (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.19) Gecko/20081216 Galeon/2.0.4 Firefox/2.0.0.19',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-OM' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux sparc64; en-GB; rv:1.8.1.11) Gecko/20071217 Galeon/2.0.3 Firefox/2.0.0.11',
         'properties' => [
@@ -16543,19 +15217,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-OM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux sparc64; en-GB; rv:1.8.1.11) Gecko/20071217 Galeon/2.0.3 Firefox/2.0.0.11',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ON' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20080207 Galeon/2.0.1 (Ubuntu package 2.0.1-1ubuntu2) Firefox/1.5.0.13pre',
         'properties' => [
@@ -16599,19 +15260,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ON (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20080207 Galeon/2.0.1 (Ubuntu package 2.0.1-1ubuntu2) Firefox/1.5.0.13pre',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-OO' => [
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.7.12) Gecko/20051105 Galeon/1.3.21',
@@ -17965,19 +16613,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-QU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux sparc64; es-PY; rv:5.0) Gecko/20100101 IceCat/5.0 (like Firefox/5.0; Debian-6.0.1)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-QV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.2.13) Gecko/20101203 IceCat/3.6.13-g1',
         'properties' => [
@@ -18066,19 +16701,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-QW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; it; rv:1.9.2.12) Gecko/20101114 IceCat/3.6.12 (like Firefox/3.6.12)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-QX' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6.3 (like Firefox/3.6.3) GTB7.0',
         'properties' => [
@@ -18122,19 +16744,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-QX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6.3 (like Firefox/3.6.3) GTB7.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-QY' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.13) Gecko/20110109 Iceweasel/3.6.13 (like Firefox/3.6.13)',
@@ -18180,19 +16789,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-QY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.13) Gecko/20110109 Iceweasel/3.6.13 (like Firefox/3.6.13)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-QZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6 (like Firefox/3.6) GTB7.0',
         'properties' => [
@@ -18236,19 +16832,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-QZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6 (like Firefox/3.6) GTB7.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.9 (like Firefox/3.5.9)',
@@ -18294,19 +16877,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.9 (like Firefox/3.5.9)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RB' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.8 (like Firefox/3.5.8)',
         'properties' => [
@@ -18350,19 +16920,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.8 (like Firefox/3.5.8)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RC' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.6 (like Firefox/3.5.6; Debian-3.5.6-2)',
@@ -18408,19 +16965,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RC (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.6 (like Firefox/3.5.6; Debian-3.5.6-2)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.5) Gecko/20091112 Iceweasel/3.5.5 (like Firefox/3.5.5; Debian-3.5.5-1)',
         'properties' => [
@@ -18464,19 +17008,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.5) Gecko/20091112 Iceweasel/3.5.5 (like Firefox/3.5.5; Debian-3.5.5-1)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RE' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.19) Gecko/20110430 Iceweasel/3.5.19 (like Firefox/3.5.19)',
@@ -18522,19 +17053,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.19) Gecko/20110430 Iceweasel/3.5.19 (like Firefox/3.5.19)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.18) Gecko/20110324 Iceweasel/3.5.18 (like Firefox/3.5.18)',
         'properties' => [
@@ -18578,19 +17096,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.18) Gecko/20110324 Iceweasel/3.5.18 (like Firefox/3.5.18)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.1.16) Gecko/20120602 Iceweasel/3.5.16 (like Firefox/3.5.16)',
@@ -18636,19 +17141,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.1.16) Gecko/20120602 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.9.1.16) Gecko/20120714 Iceweasel/3.5.16 (like Firefox/3.5.16)',
         'properties' => [
@@ -18692,19 +17184,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RH (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.9.1.16) Gecko/20120714 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RI' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; es-ES; rv:1.9.1.16) Gecko/20111108 Iceweasel/3.5.16 (like Firefox/3.5.16)',
@@ -18750,19 +17229,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RI (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; es-ES; rv:1.9.1.16) Gecko/20111108 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.1.11) Gecko/20100819 Iceweasel/3.5.11 (like Firefox/3.5.11)',
         'properties' => [
@@ -18806,19 +17272,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.1.11) Gecko/20100819 Iceweasel/3.5.11 (like Firefox/3.5.11)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.0.6) Gecko/2009020409 Iceweasel 3.0.6 (Debian 5.0',
@@ -18996,19 +17449,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0 Iceweasel/2.0.0.3 (Debian-2.0.0.13-1)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a3) Gecko/20070409 IceWeasel/2.0.0.3',
         'properties' => [
@@ -19096,19 +17536,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.3 Iceweasel/2.0.0.13 (Debian-2.0.0.13-1)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RQ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ru; rv:1.9.2.13) Gecko/20101203 IceWeasel/2.0.0.11 Mnenhy/0.8.3',
@@ -19242,19 +17669,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-RS (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.8pre) Gecko/20061001 Firefox/1.5.0.8pre (Iceweasel)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-RT' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.0.7) Gecko/2009030814 Iceweasel Firefox/3.0.7 (Debian-3.0.7-1)',
         'properties' => [
@@ -19298,19 +17712,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-RT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.0.7) Gecko/2009030814 Iceweasel Firefox/3.0.7 (Debian-3.0.7-1)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-RU' => [
         'ua' => 'Mozilla/5.0 (Linux) Gecko Iceweasel (Debian) Mnenhy',
@@ -19724,19 +18125,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-TG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; iRider 2.21.1108)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-TH' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux amd64) Iron/21.0.1200.0 Chrome/21.0.1200.0 Safari/537.1',
         'properties' => [
@@ -19869,19 +18257,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-TJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.280.0 Safari/532.8 Iron/4.0.280.0',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-TK' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.275.2 Safari/532.8 Iron/4.0.275.2',
         'properties' => [
@@ -19925,19 +18300,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-TK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.275.2 Safari/532.8 Iron/4.0.275.2',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-TM' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) Chrome/0.0.0 Iron/3.0.197.0 AppleWebKit/532.0 (KHTML, like Gecko) Safari/532.0',
@@ -20555,19 +18917,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3)',
         'properties' => [
@@ -20611,19 +18960,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
@@ -20669,19 +19005,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.2)',
         'properties' => [
@@ -20725,19 +19048,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; eSobiSubscriber 2.0.4.16; InfoPath.3)',
@@ -20783,19 +19093,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; eSobiSubscriber 2.0.4.16; InfoPath.3)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
         'properties' => [
@@ -20839,19 +19136,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
@@ -20897,19 +19181,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-US' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)',
         'properties' => [
@@ -20953,19 +19224,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-US (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; .NET4.0C)',
@@ -21011,19 +19269,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0; InfoPath.3; .NET CLR 1.1.4322)',
         'properties' => [
@@ -21067,19 +19312,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0; InfoPath.3; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)',
@@ -21125,19 +19357,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
         'properties' => [
@@ -21181,19 +19400,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.2; InfoPath.1)',
@@ -21239,19 +19445,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.2; InfoPath.1)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-UY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKMAN3.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         'properties' => [
@@ -21295,19 +19488,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-UY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKMAN3.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-UZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; KKMAN3.2; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
@@ -21353,19 +19533,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-UZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; KKMAN3.2; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; AskTB5.6)',
         'properties' => [
@@ -21409,19 +19576,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; AskTB5.6)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
@@ -21467,19 +19621,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3)',
         'properties' => [
@@ -21523,19 +19664,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 1.1.4322; InfoPath.2)',
@@ -21581,19 +19709,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.6); KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
         'properties' => [
@@ -21637,19 +19752,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.6); KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKman3.0; .NET CLR 1.1.4322)',
@@ -21695,19 +19797,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VF (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKman3.0; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.5); KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
         'properties' => [
@@ -21751,19 +19840,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.5); KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C)',
@@ -21809,19 +19885,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET CLR 3.0.30729)',
         'properties' => [
@@ -21865,19 +19928,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET CLR 3.0.30729)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; .NET CLR 1.1.4322; MEGAUPLOAD 2.0; InfoPath.2)',
@@ -21923,19 +19973,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; .NET CLR 1.1.4322; MEGAUPLOAD 2.0; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)',
         'properties' => [
@@ -21979,19 +20016,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30618; .NET CLR 3.5.30729)',
@@ -22037,19 +20061,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30618; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2; .NET CLR 1.1.4322)',
         'properties' => [
@@ -22093,19 +20104,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)',
@@ -22151,19 +20149,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
         'properties' => [
@@ -22207,19 +20192,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322)',
@@ -22265,19 +20237,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
         'properties' => [
@@ -22321,19 +20280,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; .NET CLR 3.5.21022; InfoPath.1)',
@@ -22379,19 +20325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; .NET CLR 3.5.21022; InfoPath.1)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
         'properties' => [
@@ -22435,19 +20368,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; InfoPath.2)',
@@ -22493,19 +20413,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; InfoPath.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; InfoPath.2; .NET CLR 2.0.50727)',
         'properties' => [
@@ -22549,19 +20456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; InfoPath.2; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
@@ -22607,19 +20501,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)',
         'properties' => [
@@ -22663,19 +20544,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; InfoPath.1; .NET CLR 2.0.50727)',
@@ -22721,19 +20589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-VX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; InfoPath.1; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-VY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; .NET CLR 2.0.50727)',
         'properties' => [
@@ -22777,19 +20632,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-VY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-VZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; KKman2.0)',
@@ -22894,19 +20736,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-WA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-WD' => [
         'ua' => 'Mozilla/5.0 (X11) KHTML/4.9.1 (like Gecko) Konqueror/4.9',
@@ -23084,19 +20913,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XI (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Lunascape 6.7.1.25446)',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23140,19 +20956,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3; .NET4.0C; Lunascape 6.3.4.23051)',
@@ -23198,19 +21001,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23254,19 +21044,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; Lunascape 6.3.4.23051)',
@@ -23312,19 +21089,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23368,19 +21132,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
@@ -23426,19 +21177,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23482,19 +21220,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
@@ -23540,19 +21265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23596,19 +21308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
@@ -23654,19 +21353,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
         'properties' => [
@@ -23710,19 +21396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Lunascape 6.3.4.23051)',
@@ -23768,19 +21441,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Lunascape 6.3.4.23051)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; SLCC1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.',
         'properties' => [
@@ -23824,19 +21484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; SLCC1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.3.22929)',
@@ -23882,19 +21529,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.3.22929)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Lunascape 6.3.2.22803)',
         'properties' => [
@@ -23938,19 +21572,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Lunascape 6.3.2.22803)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-XY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.2.0.22177)',
@@ -23996,19 +21617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-XY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-XZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; Lunascape 6.2.0.22177)',
         'properties' => [
@@ -24052,19 +21660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-XZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.2.0.22177)',
@@ -24110,19 +21705,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
         'properties' => [
@@ -24166,19 +21748,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
@@ -24224,19 +21793,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; (R1 1.6); .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
         'properties' => [
@@ -24280,19 +21836,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; (R1 1.6); .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; Lunascape 6.2.0.22177)',
@@ -24338,19 +21881,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
         'properties' => [
@@ -24394,19 +21924,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YF (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Lunascape 6.1.7.21880)',
@@ -24452,19 +21969,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Lunascape 6.1.7.21880)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.7.21880)',
         'properties' => [
@@ -24509,19 +22013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.7.21880)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.5.21576)',
         'properties' => [
@@ -24565,19 +22056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.5.21576)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 6.1.5.21576)',
@@ -24639,19 +22117,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-YJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 6.1.5.21576)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Lunascape 5.1.4.5)',
         'properties' => [
@@ -24695,19 +22160,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Lunascape 5.1.4.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MathPlayer 2.10b; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.0.3705; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape',
@@ -24753,19 +22205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MathPlayer 2.10b; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.0.3705; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Lunascape 5.1.3.4)',
         'properties' => [
@@ -24810,19 +22249,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Lunascape 5.1.3.4)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729; Lunascape 5.1.3.4)',
         'properties' => [
@@ -24866,19 +22292,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729; Lunascape 5.1.3.4)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YO' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/532+ (KHTML, like Gecko, Safari/532.0) Lunascape/5.1.2.3',
@@ -24968,19 +22381,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 5.1.2.3)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YQ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/528+ (KHTML, like Gecko, Safari/528.0) Lunascape/5.1.2.0',
         'properties' => [
@@ -25068,19 +22468,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 5.1.1.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/528+ (KHTML, like Gecko, Safari/528.0) Lunascape/5.1.1.0',
@@ -25214,19 +22601,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.30729; Lunascape 5.0.5.0)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; Lunascape 5.0.3.0)',
         'properties' => [
@@ -25271,19 +22645,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-YV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; Lunascape 5.0.3.0)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; Tablet PC 2.0; Lunascape 5.0 alpha2)',
         'properties' => [
@@ -25327,19 +22688,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; Tablet PC 2.0; Lunascape 5.0 alpha2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-YX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.99',
@@ -25445,19 +22793,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-YY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Lunascape 4.9.9.98)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-YZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Lunascape 4.9.9.97)',
         'properties' => [
@@ -25501,19 +22836,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-YZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Lunascape 4.9.9.97)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ZA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.96',
@@ -25883,19 +23205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ZH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; Lunascape 4.8.1)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ZI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; Lunascape 4.7.2)',
         'properties' => [
@@ -25940,19 +23249,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ZI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; Lunascape 4.7.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ZJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Lunascape 4.0.1)',
         'properties' => [
@@ -25996,19 +23292,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ZJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Lunascape 4.0.1)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ZK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Q312461; .NET CLR 1.1.4322; Lunascape 4.0.1)',
@@ -26070,19 +23353,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-ZK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Q312461; .NET CLR 1.1.4322; Lunascape 4.0.1)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ZL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Lunascape 3.0.4)',
         'properties' => [
@@ -26126,19 +23396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ZL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Lunascape 3.0.4)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ZM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 2.1.3)',
@@ -26198,19 +23455,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-900-ZM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 2.1.3)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-900-ACC' => [
@@ -34573,19 +31817,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AKQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.8pre) Gecko/20070928 Firefox/2.0.0.7 Navigator/9.0RC1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AKR' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.8pre) Gecko/20070928 Firefox/2.0.0.7 Navigator/9.0RC1',
         'properties' => [
@@ -34690,19 +31921,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AKS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.8pre) Gecko/20071001 Firefox/2.0.0.7 Navigator/9.0RC1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AKT' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
         'properties' => [
@@ -34746,19 +31964,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AKT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AKU' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
@@ -34892,19 +32097,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AKW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AKX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows 98; en-US; rv:1.8.1.5pre) Gecko/20070710 Firefox/2.0.0.4 Navigator/9.0b2',
         'properties' => [
@@ -35009,19 +32201,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AKY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.5pre) Gecko/20070710 Firefox/2.0.0.4 Navigator/9.0b2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AKZ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
         'properties' => [
@@ -35066,19 +32245,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AKZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
         'properties' => [
@@ -35122,19 +32288,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALB' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
@@ -35224,19 +32377,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ALC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
         'properties' => [
@@ -35280,19 +32420,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALE' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5 GTB5',
@@ -35486,19 +32613,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ALH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
         'properties' => [
@@ -35542,19 +32656,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.10pre) Gecko/20071127 Firefox/2.0.0.10 Navigator/9.0.0.4',
@@ -35600,19 +32701,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ALJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.10pre) Gecko/20071127 Firefox/2.0.0.10 Navigator/9.0.0.4',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
         'properties' => [
@@ -35656,19 +32744,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALK (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
@@ -35878,19 +32953,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ALO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
         'properties' => [
@@ -35934,19 +32996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALQ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
@@ -36156,19 +33205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ALT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ALU' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
         'properties' => [
@@ -36212,19 +33248,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALU (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALV' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
@@ -36373,19 +33396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ALX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ALY' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20070321 Netscape/8.1.3',
@@ -40775,19 +37785,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-APT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.14',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-APU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) Gecko/20100101 Firefox/14.0 Opera/12.0',
         'properties' => [
@@ -40920,19 +37917,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-APX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; nl; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-APY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01',
         'properties' => [
@@ -40977,19 +37961,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-APY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-APZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; ja; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
         'properties' => [
@@ -41033,19 +38004,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-APZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; ja; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AQA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; pl; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
@@ -41222,19 +38180,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AQF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.62',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AQG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62',
@@ -41500,19 +38445,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AQL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.51',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AQM' => [
         'ua' => 'Mozilla/5.0 (Linux i686; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.51',
         'properties' => [
@@ -41556,19 +38488,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AQM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux i686; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.51',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AQN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Linux i686; en) Opera 10.51',
@@ -41702,19 +38621,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AQP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; tr; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.10',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AQQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; de) Opera 10.10',
         'properties' => [
@@ -41758,19 +38664,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AQQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; de) Opera 10.10',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AQS' => [
         'ua' => 'Opera/9.99 (Windows NT 5.1; U; pl) Presto/9.9.9',
@@ -41948,19 +38841,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AQX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.60',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AQY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux x86_64; en) Opera 9.60',
         'properties' => [
@@ -42004,19 +38884,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AQY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux x86_64; en) Opera 9.60',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AQZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; de; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.52',
@@ -42150,19 +39017,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ARB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ARC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
         'properties' => [
@@ -42206,19 +39060,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ARC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ARD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
@@ -42440,19 +39281,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ARH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux x86_64; en) Opera 9.50',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ARI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9b3) Gecko/2008020514 Opera 9.5',
         'properties' => [
@@ -42629,19 +39457,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ARM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.27',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ARN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 9.27',
         'properties' => [
@@ -42685,19 +39500,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ARN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 9.27',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ARO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.26',
@@ -42831,19 +39633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ARR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux i686; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.23',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ARS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.22',
         'properties' => [
@@ -42931,19 +39720,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ART (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 9.22',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ARX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Sprint:PPC-6700) Opera 8.65 [en]',
@@ -43589,19 +40365,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.54',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ASJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.52',
         'properties' => [
@@ -43645,19 +40408,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ASJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.52',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ASK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; ru) Opera 8.51',
@@ -43703,19 +40453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; ru) Opera 8.51',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ASL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.51',
         'properties' => [
@@ -43760,19 +40497,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.51',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ASM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.02',
         'properties' => [
@@ -43816,19 +40540,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ASM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.02',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ASN' => [
         'ua' => 'Opera/8.01 (Macintosh; U; PPC Mac OS; en)',
@@ -43934,19 +40645,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ASP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; IT) Opera 8.0',
         'properties' => [
@@ -43990,19 +40688,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ASP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; IT) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ASQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0',
@@ -44048,19 +40733,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ASR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 8.0',
         'properties' => [
@@ -44104,19 +40776,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ASR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ASS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; en) Opera 8.0',
@@ -44446,19 +41105,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ASY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686) Opera 7.54  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ATA' => [
         'ua' => 'Mozilla/4.78 (Windows NT 5.1; U) Opera 7.51  [en]',
         'properties' => [
@@ -44547,19 +41193,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ATC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; ; Linux x86_64) Opera 7.50 [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ATD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; ; Linux i686) Opera 7.50 [en]',
         'properties' => [
@@ -44604,19 +41237,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-ATD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; ; Linux i686) Opera 7.50 [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-ATE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686) Opera 7.23  [fi]',
         'properties' => [
@@ -44660,19 +41280,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ATE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686) Opera 7.23  [fi]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ATF' => [
         'ua' => 'Mozilla/4.78 (Windows NT 5.0; U) Opera 7.11  [en]',
@@ -44805,19 +41412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-ATL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.1) Opera 7.0  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-ATM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.0  [en]',
@@ -47347,19 +43941,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-AWD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-AWE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE) Opera',
         'properties' => [
@@ -47567,19 +44148,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-AYU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-AYV' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:24.0) Gecko/20100101 Firefox/24.0 SeaMonkey/2.21',
@@ -49225,19 +45793,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C; .NET4.0E; Sleipnir/2.9.9)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBI' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; Sleipnir/2.9.7)',
         'properties' => [
@@ -49281,19 +45836,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBI (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; Sleipnir/2.9.7)',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Sleipnir/2.9.6)',
@@ -49339,19 +45881,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Sleipnir/2.9.6)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB0.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.9.6)',
         'properties' => [
@@ -49395,19 +45924,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB0.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.9.6)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.1; MS-RTC LM 8; Sleipnir/2.9.6)',
@@ -49453,19 +45969,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.1; MS-RTC LM 8; Sleipnir/2.9.6)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.9.4)',
         'properties' => [
@@ -49509,19 +46012,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.9.4)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; Sleipnir/2.9.4)',
@@ -49567,19 +46057,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; Sleipnir/2.9.4)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; Sleipnir/2.9.3)',
         'properties' => [
@@ -49623,19 +46100,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; Sleipnir/2.9.3)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.9.3)',
@@ -49681,19 +46145,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.9.3)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; Sleipnir/2.9.2)',
         'properties' => [
@@ -49737,19 +46188,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.3; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
@@ -49795,19 +46233,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.3; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
         'properties' => [
@@ -49851,19 +46276,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
@@ -49909,19 +46321,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6.3; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
         'properties' => [
@@ -49965,19 +46364,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6.3; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
@@ -50023,19 +46409,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
         'properties' => [
@@ -50079,19 +46452,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BBX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
@@ -50137,19 +46497,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
         'properties' => [
@@ -50194,19 +46541,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BBY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BBZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Sleipnir/2.9.1)',
         'properties' => [
@@ -50250,19 +46584,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BBZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Sleipnir/2.9.1)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Sleipnir/2.9.1)',
@@ -50368,19 +46689,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.8.5)',
         'properties' => [
@@ -50424,19 +46732,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; FDM; Sleipnir/2.8.5)',
@@ -50482,19 +46777,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; FDM; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
         'properties' => [
@@ -50538,19 +46820,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SV1; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
@@ -50596,19 +46865,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCF (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SV1; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
         'properties' => [
@@ -50652,19 +46908,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.8.5)',
@@ -50710,19 +46953,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.20506; Sleipnir/2.8.5)',
         'properties' => [
@@ -50766,19 +46996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.20506; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.2; Sleipnir/2.8.5)',
@@ -50824,19 +47041,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.2; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.8.5)',
         'properties' => [
@@ -50880,19 +47084,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; Sleipnir/2.8.5)',
@@ -50938,19 +47129,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; msn OptimizedIE8;JAJP; Sleipnir/2.8.5)',
         'properties' => [
@@ -50994,19 +47172,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; msn OptimizedIE8;JAJP; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Sleipnir/2.8.5)',
@@ -51052,19 +47217,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.8.5)',
         'properties' => [
@@ -51108,19 +47260,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; Sleipnir/2.8.5)',
@@ -51166,19 +47305,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; Sleipnir/2.8.5)',
         'properties' => [
@@ -51222,19 +47348,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; Sleipnir/2.8.5)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Sleipnir/2.8.5)',
@@ -51340,19 +47453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; OfficeLiveConnector.1.3; OfficeLivePatch.1.3) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; MathPlayer 2.10d; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; OfficeLiveConnector.1.3; OfficeLivePatch.1.3; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET CLR 1.1.4322) Sleipnir/2.8.4',
         'properties' => [
@@ -51396,19 +47496,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; MathPlayer 2.10d; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; OfficeLiveConnector.1.3; OfficeLivePatch.1.3; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET CLR 1.1.4322) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
@@ -51454,19 +47541,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
         'properties' => [
@@ -51510,19 +47584,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
@@ -51568,19 +47629,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
         'properties' => [
@@ -51624,19 +47672,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BCY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.8.4',
@@ -51682,19 +47717,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BCY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BCZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727) Sleipnir/2.8.4',
         'properties' => [
@@ -51738,19 +47760,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BCZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
@@ -51796,19 +47805,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.8.4',
         'properties' => [
@@ -51852,19 +47848,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
@@ -51910,19 +47893,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts-AskJeevesJapan; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
         'properties' => [
@@ -51967,19 +47937,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDD (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts-AskJeevesJapan; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
         'properties' => [
@@ -52023,19 +47980,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM) Sleipnir/2.8.4',
@@ -52141,19 +48085,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.3',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322) Sleipnir/2.8.3',
         'properties' => [
@@ -52257,19 +48188,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Sleipnir/2.8.1',
@@ -52375,19 +48293,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.8.0',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.8.0',
         'properties' => [
@@ -52431,19 +48336,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.8.0',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.8.0',
@@ -52489,19 +48381,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0) Sleipnir/2.7.2',
         'properties' => [
@@ -52545,19 +48424,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0) Sleipnir/2.7.2',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.7.2',
@@ -52603,19 +48469,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDO (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.7.2',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.7.2',
         'properties' => [
@@ -52659,19 +48512,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.7.2',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.7.1',
@@ -52717,19 +48557,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.7.1',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.7.0',
         'properties' => [
@@ -52773,19 +48600,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.7.0',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322) Sleipnir/2.7.0',
@@ -52831,19 +48645,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322) Sleipnir/2.7.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506) Sleipnir/2.6.1',
         'properties' => [
@@ -52887,19 +48688,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506) Sleipnir/2.6.1',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.6.0',
@@ -52945,19 +48733,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.6.0',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.6.0',
         'properties' => [
@@ -53001,19 +48776,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.6.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1) Sleipnir/2.5.17',
@@ -53059,19 +48821,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1) Sleipnir/2.5.17',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152) Sleipnir/2.5.13',
         'properties' => [
@@ -53115,19 +48864,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BDX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152) Sleipnir/2.5.13',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BDY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.5.12',
@@ -53173,19 +48909,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.5.12',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BDZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.5.12',
         'properties' => [
@@ -53230,19 +48953,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BDZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.5.12',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.49',
         'properties' => [
@@ -53286,19 +48996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.49',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Sleipnir/2.49',
@@ -53404,19 +49101,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.48',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BED' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.48',
         'properties' => [
@@ -53460,19 +49144,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BED (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.48',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.46',
@@ -53518,19 +49189,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEE (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.46',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.41',
         'properties' => [
@@ -53574,19 +49232,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEF (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.41',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; Media Center PC 3.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.30',
@@ -53632,19 +49277,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEG (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; Media Center PC 3.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.30',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.30',
         'properties' => [
@@ -53688,19 +49320,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEH (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.30',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1) Sleipnir/2.21',
@@ -53746,19 +49365,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1) Sleipnir/2.21',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.21',
         'properties' => [
@@ -53802,19 +49408,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEJ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.21',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Sleipnir 2.8.4)',
@@ -53860,19 +49453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Sleipnir 2.8.4)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SlimBrowser)',
         'properties' => [
@@ -53916,19 +49496,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEL (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SlimBrowser)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BEM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; SlimBrowser)',
@@ -53974,19 +49541,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BEM (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; SlimBrowser)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BEN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; SlimBrowser)',
         'properties' => [
@@ -54030,19 +49584,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BEN (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; SlimBrowser)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BIQ' => [
         'ua' => 'Accoona-AI-Agent/1.1.2 (aicrawler at accoonabot dot com)',
@@ -54484,19 +50025,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BJA (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; BecomeBot/3.0; MSIE 6.0 compatible; +http://www.become.com/site_owners.html)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BJB' => [
         'ua' => 'Mozilla/5.0 (compatible; BecomeBot/2.3; MSIE 6.0 compatible; +http://www.become.com/site_owners.html)',
         'properties' => [
@@ -54540,19 +50068,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BJB (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; BecomeBot/2.3; MSIE 6.0 compatible; +http://www.become.com/site_owners.html)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BJC' => [
         'ua' => 'Mozilla/5.0 (compatible; BeslistBot; nl; BeslistBot 1.0;  http://www.beslist.nl/',
@@ -55697,19 +51212,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BKC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; Girafabot [girafa.com])',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BKD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; Girafabot; girafabot at girafa dot com; http://www.girafa.com)',
@@ -66567,19 +62069,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BUI (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16; 160x160',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BUJ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.340) AppleWebKit/530+ (KHTML, like Gecko) Version/4.0 Safari/530.17 UNTRUSTED/1.0 3gpp-gba',
         'properties' => [
@@ -66756,19 +62245,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BYD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BYE' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; pt-PT; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
         'properties' => [
@@ -66813,19 +62289,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BYE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; pt-PT; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BYF' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; no-NO; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
         'properties' => [
@@ -66869,19 +62332,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BYF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; no-NO; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BYG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025',
@@ -67559,19 +63009,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-BYU (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja)Presto/2.4.15',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BYV' => [
         'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja)Presto/ 2.4.15',
         'properties' => [
@@ -67632,19 +63069,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-900-BYV (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja)Presto/ 2.4.15',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BYW' => [
         'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja) Presto/2.4.15',
         'properties' => [
@@ -67703,19 +63127,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-900-BYW (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja) Presto/2.4.15',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-900-BYX' => [
@@ -68234,19 +63645,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BZH (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; xxxx like Mac OS X; en) AppleWebKit/24.838; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BZI' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; fr; CPU iPhone OS 4_2_1 like Mac OS X; fr) AppleWebKit/23.405; U; en) Presto/2.5.25 Version/10.54',
         'properties' => [
@@ -68290,19 +63688,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BZI (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; fr; CPU iPhone OS 4_2_1 like Mac OS X; fr) AppleWebKit/23.405; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BZJ' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
@@ -68348,19 +63733,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BZJ (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BZK' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.377; U; en) Presto/2.5.25 Version/10.54',
         'properties' => [
@@ -68405,19 +63777,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-900-BZK (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.377; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-900-BZL' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.3.24214; iPhone; CPU iPhone OS 4_2_1 like Mac OS X; AppleWebKit/24.783; U; en) Presto/2.5.25 Version/10.54',
         'properties' => [
@@ -68461,19 +63820,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-900-BZL (lite)' => [
-        'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.3.24214; iPhone; CPU iPhone OS 4_2_1 like Mac OS X; AppleWebKit/24.783; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-900-BZM' => [
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.3.24214 (Windows; U; Windows NT 6.1) AppleWebKit/24.838; U; id) Presto/2.5.25 Version/10.54',

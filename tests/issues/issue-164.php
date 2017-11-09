@@ -61,17 +61,4 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-164 (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 10.0; Trident/6.0; Windows 98; MyIE2)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

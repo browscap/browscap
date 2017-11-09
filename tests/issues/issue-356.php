@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-356-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/12.0.0.21.20;FBBV/3142790;FBDV/iPad4,5;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TelenorDK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-356-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/12.0.0.21.20;FBBV/3142790;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/vodaMT;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
@@ -118,19 +105,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-356-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/12.0.0.21.20;FBBV/3142790;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/vodaMT;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-356-C' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/12.0.0.21.20;FBBV/3142790;FBDV/iPod5,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
@@ -174,18 +148,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-356-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/12.0.0.21.20;FBBV/3142790;FBDV/iPod5,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; 2345Explorer 5.0.0.14102)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; 2345Explorer/6.3.0.9753)',
         'properties' => [
@@ -101,19 +88,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; 2345Explorer/6.3.0.9753)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-C' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; 2345Explorer 5.0.0.14102)',
@@ -159,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; 2345Explorer 5.0.0.14102)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-D' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; 2345Explorer/8.4.1.14855)',
         'properties' => [
@@ -215,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; 2345Explorer/8.4.1.14855)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-E' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; 2345Explorer 3.4.0.12519)',
@@ -273,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; 2345Explorer 3.4.0.12519)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-F' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; 2345Explorer/8.5.0.15179)',
         'properties' => [
@@ -329,19 +264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; 2345Explorer/8.5.0.15179)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.6.2.15784',
@@ -387,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.6.2.15784',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0; 2345Explorer/8.4.1.14855) like Gecko',
         'properties' => [
@@ -443,19 +352,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0; 2345Explorer/8.4.1.14855) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; 2345Explorer/6.1.0.8256) like Gecko',
@@ -501,19 +397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; 2345Explorer/6.1.0.8256) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.4.1.14855',
         'properties' => [
@@ -557,19 +440,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.4.1.14855',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer v6.0.0.7505',
@@ -615,19 +485,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer v6.0.0.7505',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; 2345Explorer/8.4.1.14855) like Gecko',
         'properties' => [
@@ -671,19 +528,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; 2345Explorer/8.4.1.14855) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer v6.0.0.7505',
@@ -729,19 +573,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer v6.0.0.7505',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer/6.1.0.8158',
         'properties' => [
@@ -785,19 +616,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer/6.1.0.8158',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; BOIE9;ENUS; rv:11.0; 2345Explorer 3.5.0.12758) like Gecko',
@@ -843,19 +661,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; BOIE9;ENUS; rv:11.0; 2345Explorer 3.5.0.12758) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-P' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP09; rv:11.0; 2345Explorer/8.3.1.14600) like Gecko',
         'properties' => [
@@ -899,19 +704,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP09; rv:11.0; 2345Explorer/8.3.1.14600) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.6.2.15784',
@@ -957,19 +749,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.6.2.15784',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; LCJB; rv:11.0; 2345Explorer 3.5.0.12816) like Gecko',
         'properties' => [
@@ -1013,19 +792,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; LCJB; rv:11.0; 2345Explorer 3.5.0.12816) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179',
@@ -1071,19 +837,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-T' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0; 2345Explorer/8.1.0.14039) like Gecko',
         'properties' => [
@@ -1127,19 +880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0; 2345Explorer/8.1.0.14039) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1555-U' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345chrome v3.0.0.8180',
@@ -1185,19 +925,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345chrome v3.0.0.8180',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-V' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.69 Safari/537.36 2345chrome v2.4.0.2847',
         'properties' => [
@@ -1242,19 +969,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1555-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.69 Safari/537.36 2345chrome v2.4.0.2847',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1555-W' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.69 Safari/537.36 2345chrome v2.5.0.5885',
         'properties' => [
@@ -1298,18 +1012,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1555-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.69 Safari/537.36 2345chrome v2.5.0.5885',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

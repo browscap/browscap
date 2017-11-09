@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-T705 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36',
         'properties' => [
@@ -322,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; en-ph; SAMSUNG SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Android WebView 1.5',
-            'Browser' => 'Android WebView',
-            'Version' => '1.5',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36',
         'properties' => [
@@ -423,19 +397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-T705 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.8.855 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36',
         'properties' => [
@@ -523,19 +484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 Instagram 10.3.2 Android (21/5.0.2; 320dpi; 1600x2560; samsung; SM-T705; klimtlte; universal5420; ar_AE)',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Safari/537.36',
@@ -641,19 +589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 OPR/42.6.2246.114522',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-N' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-T705 Build/MMB29K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -698,19 +633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-T705 Build/MMB29K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 [FB_IAB/FB4A;FBAV/120.0.0.18.72;]',
         'properties' => [
@@ -754,19 +676,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 [FB_IAB/FB4A;FBAV/120.0.0.18.72;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36',
@@ -900,19 +809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-T705 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-S' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-T705 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.0.575 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
@@ -956,19 +852,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-T705 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.0.575 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 Instagram 10.4.0 Android (23/6.0.1; 320dpi; 1600x2560; samsung; SM-T705; klimtlte; universal5420; en_US)',
@@ -1014,19 +897,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 Instagram 10.4.0 Android (23/6.0.1; 320dpi; 1600x2560; samsung; SM-T705; klimtlte; universal5420; en_US)',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
@@ -1070,19 +940,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Safari/537.36',
@@ -1171,19 +1028,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
@@ -1361,19 +1205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 GSA/6.14.20.21.arm',
         'properties' => [
@@ -1417,19 +1248,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 GSA/6.14.20.21.arm',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
@@ -1475,19 +1293,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705Y Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Safari/537.36 [FB_IAB/FB4A;FBAV/122.0.0.17.71;]',
         'properties' => [
@@ -1532,19 +1337,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1419-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705Y Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Safari/537.36 [FB_IAB/FB4A;FBAV/122.0.0.17.71;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1419-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 GSA/6.12.25.21.arm',
         'properties' => [
@@ -1588,19 +1380,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 GSA/6.12.25.21.arm',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1419-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705M Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Safari/537.36',
@@ -1689,18 +1468,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1419-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 GSA/6.14.29.16.arm',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

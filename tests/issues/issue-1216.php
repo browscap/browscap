@@ -177,17 +177,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1216-4 (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.1.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

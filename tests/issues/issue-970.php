@@ -149,19 +149,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-970-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [FBAN/FBIOS;FBAV/35.0.0.34.220;FBBV/12945441;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.4;FBSS/1; FBCR/;FBID/tablet;FBLC/en_US;FBOP/1]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-970-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-R970 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/38.0.0.47.240;]',
         'properties' => [
@@ -205,18 +192,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-970-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-R970 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/38.0.0.47.240;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

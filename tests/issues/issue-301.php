@@ -45,17 +45,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-301 (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; Media Center PC 4.0; SLCC1; .NET CLR 3.0.04320)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

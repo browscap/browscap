@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; Lenovo A390t Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SGP321 Build/10.1.1.A.1.307) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
         'properties' => [
@@ -101,19 +88,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SGP321 Build/10.1.1.A.1.307) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A398t+ Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5718.00 Mobile Safari/537.36',
@@ -159,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Lenovo A398t+ Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5718.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-811 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
         'properties' => [
@@ -215,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-811 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SGP321 Build/10.3.1.A.2.67) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
@@ -273,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; SGP321 Build/10.3.1.A.2.67) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; iP890-3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 YaBrowser/14.4.1750.13427.00 Safari/537.36',
         'properties' => [
@@ -329,19 +264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; iP890-3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 YaBrowser/14.4.1750.13427.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Flylife Connect 7 3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18211.00 Safari/537.36',
@@ -387,19 +309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Flylife Connect 7 3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18211.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab A3000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
         'properties' => [
@@ -443,19 +352,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab A3000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab S6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
@@ -501,19 +397,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab S6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
         'properties' => [
@@ -557,19 +440,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A850+ Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
@@ -615,19 +485,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A850+ Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Philips W8510 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
         'properties' => [
@@ -671,19 +528,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Philips W8510 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; TAB A742 Build/GSB7_20140710_INT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
@@ -729,19 +573,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; TAB A742 Build/GSB7_20140710_INT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; iP977 Build/iP977) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
         'properties' => [
@@ -785,19 +616,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; iP977 Build/iP977) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; B1-711 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15666.00 Safari/537.36',
@@ -843,19 +661,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; B1-711 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15666.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-P3100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Safari/537.36',
         'properties' => [
@@ -899,19 +704,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-P3100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A316i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Mobile Safari/537.36',
@@ -957,19 +749,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A316i Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15743.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; NaviPad TM-7055HD 3G Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -1013,19 +792,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; NaviPad TM-7055HD 3G Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A7600-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
@@ -1071,19 +837,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A7600-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; CinemaTV 3G Build/JOP40D[20140225.095826]) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -1127,19 +880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; CinemaTV 3G Build/JOP40D[20140225.095826]) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Art 3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
@@ -1185,19 +925,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Art 3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
         'properties' => [
@@ -1241,19 +968,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A680_ROW Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ME173X Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
@@ -1299,19 +1013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ME173X Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-X' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Primo76 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
         'properties' => [
@@ -1355,19 +1056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Primo76 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; B1-711 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 YaBrowser/16.10.2.1487.01 Safari/537.36',
@@ -1413,19 +1101,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-Y (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; B1-711 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 YaBrowser/16.10.2.1487.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 53.0',
-            'Browser' => 'Chrome',
-            'Version' => '53.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A850 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 YaBrowser/16.4.0.9335.00 Mobile Safari/537.36',
         'properties' => [
@@ -1469,19 +1144,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A850 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 YaBrowser/16.4.0.9335.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 49.0',
-            'Browser' => 'Chrome',
-            'Version' => '49.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; PMP7480D3G_QUAD Build/PrestigioPMP7480D3G_QUAD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 YaBrowser/16.9.0.1424.01 Safari/537.36',
@@ -1527,19 +1189,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; PMP7480D3G_QUAD Build/PrestigioPMP7480D3G_QUAD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 YaBrowser/16.9.0.1424.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 52.0',
-            'Browser' => 'Chrome',
-            'Version' => '52.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-810 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.359.01 Safari/537.36',
         'properties' => [
@@ -1583,19 +1232,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A1-810 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.359.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; KENEKSI-Crystal Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.359.00 Mobile Safari/537.36',
@@ -1641,19 +1277,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; KENEKSI-Crystal Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.1.359.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; MediaPad 7 Classic Build/HuaweiMediaPad) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.2.339.01 Safari/537.36',
         'properties' => [
@@ -1697,19 +1320,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; MediaPad 7 Classic Build/HuaweiMediaPad) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 YaBrowser/17.1.2.339.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-V500 Build/KOT49I.V50020a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.10549 YaBrowser/13.12.1599.10549 Safari/537.36',
@@ -1755,19 +1365,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-V500 Build/KOT49I.V50020a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.10549 YaBrowser/13.12.1599.10549 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.11375.01 Safari/537.36',
         'properties' => [
@@ -1811,19 +1408,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.11375.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
@@ -1869,19 +1453,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SGP312 Build/10.5.A.0.230) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12147.01 Safari/537.36',
         'properties' => [
@@ -1925,19 +1496,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SGP312 Build/10.5.A.0.230) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12147.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SGP321 Build/10.5.1.A.0.283) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
@@ -1983,19 +1541,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SGP321 Build/10.5.1.A.0.283) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
         'properties' => [
@@ -2039,19 +1584,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
@@ -2097,19 +1629,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18432.00 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3848.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -2153,19 +1672,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3848.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LenovoA3300-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
@@ -2211,19 +1717,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LenovoA3300-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -2267,19 +1760,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Beeline Pro Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.00 Mobile Safari/537.36',
@@ -2325,19 +1805,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Beeline Pro Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3845.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.1.6403.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -2381,19 +1848,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.1.6403.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T561 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
@@ -2439,19 +1893,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-T561 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo TAB 2 A7-30DC Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.2.7976.01 Safari/537.36',
         'properties' => [
@@ -2495,19 +1936,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo TAB 2 A7-30DC Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.2.7976.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D325 Build/KOT49I.A1441760949) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
@@ -2553,19 +1981,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D325 Build/KOT49I.A1441760949) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Optima 7.07 3G TT7007MG Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.0.5397.01 Safari/537.36',
         'properties' => [
@@ -2609,19 +2024,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Optima 7.07 3G TT7007MG Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.0.5397.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T72ER3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 YaBrowser/16.7.0.2777.01 Safari/537.36',
@@ -2667,19 +2069,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; T72ER3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 YaBrowser/16.7.0.2777.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; YOGA Tablet 2-830L Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
         'properties' => [
@@ -2723,19 +2112,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; YOGA Tablet 2-830L Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.373.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T535 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3768.01 Yowser/2.5.2 Safari/537.36',
@@ -2781,19 +2157,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T535 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3768.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T531 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.1.6403.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -2837,19 +2200,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T531 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.1.6403.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-AY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T805 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
@@ -2895,19 +2245,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-AY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T805 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.6088.01 Yowser/2.0.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-AZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Lenovo TAB 2 A7-30DC Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.01 Safari/537.36',
         'properties' => [
@@ -2951,19 +2288,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-AZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; Lenovo TAB 2 A7-30DC Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 7 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
@@ -3009,19 +2333,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 7 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SGP321 Build/10.7.A.0.222) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
         'properties' => [
@@ -3065,19 +2376,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SGP321 Build/10.7.A.0.222) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.2.6773.01 Yowser/2.5.2 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 46.0',
-            'Browser' => 'Chrome',
-            'Version' => '46.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A310F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.2.7988.00 Mobile Safari/537.36',
@@ -3123,19 +2421,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A310F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.2.7988.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A510F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
         'properties' => [
@@ -3179,19 +2464,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A510F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A710F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
@@ -3237,19 +2509,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-A710F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Lenovo YT3-850M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
         'properties' => [
@@ -3293,19 +2552,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Lenovo YT3-850M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.0.8810.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; PMT3118_3G Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.01 Safari/537.36',
@@ -3351,19 +2597,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0; PMT3118_3G Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.7529.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 47.0',
-            'Browser' => 'Chrome',
-            'Version' => '47.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; P01T_1 Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 YaBrowser/16.7.0.2777.01 Safari/537.36',
         'properties' => [
@@ -3408,19 +2641,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; P01T_1 Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 YaBrowser/16.7.0.2777.01 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTC Desire 626s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.1.369.00 Mobile Safari/537.36',
         'properties' => [
@@ -3464,19 +2684,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTC Desire 626s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.1.369.00 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 56.0',
-            'Browser' => 'Chrome',
-            'Version' => '56.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/17.3.1.778.10 Mobile/12B411 Safari/600.1.4',
@@ -3538,19 +2745,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1604-BJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/17.3.1.778.10 Mobile/12B411 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BK' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.12.2490.5202.11 Mobile/12D508 Safari/600.1.4',
         'properties' => [
@@ -3594,19 +2788,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BK (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.12.2490.5202.11 Mobile/12D508 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3114.10 Mobile/13D14 Safari/600.1.4',
@@ -3668,19 +2849,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1604-BL (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3114.10 Mobile/13D14 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BM' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3114.11 Mobile/13E233 Safari/600.1.4',
         'properties' => [
@@ -3724,19 +2892,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BM (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3114.11 Mobile/13E233 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3762.10 Mobile/13E238 Safari/600.1.4',
@@ -3796,19 +2951,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1604-BN (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.10.2454.3762.10 Mobile/13E238 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1604-BO' => [
@@ -3871,19 +3013,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1604-BO (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) YaBrowser/15.4.2272.2750.10 Mobile/14A456 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BP' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) YaBrowser/16.10.1.963.11 Mobile/14A403 Safari/601.1',
         'properties' => [
@@ -3927,19 +3056,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) YaBrowser/16.10.1.963.11 Mobile/14A403 Safari/601.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 YaBrowser/17.3.1.778.10 Mobile/14B100 Safari/602.1',
@@ -3999,19 +3115,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1604-BQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 YaBrowser/17.3.1.778.10 Mobile/14B100 Safari/602.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1604-BR' => [
@@ -4074,19 +3177,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1604-BR (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/10.0 YaBrowser/16.10.3.82.10 Mobile/14C92 Safari/601.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BS' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) YaBrowser/17.1.0.2148.11 Mobile/14C92 Safari/602.1',
         'properties' => [
@@ -4130,19 +3220,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BS (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) YaBrowser/17.1.0.2148.11 Mobile/14C92 Safari/602.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BT' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) YaBrowser/16.11.1.716.10 Mobile/14F89 Safari/602.1',
@@ -4204,19 +3281,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1604-BT (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) YaBrowser/16.11.1.716.10 Mobile/14F89 Safari/602.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BU' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 YaBrowser/17.6.0.1578.10 Mobile/14G60 Safari/602.1',
         'properties' => [
@@ -4260,19 +3324,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BU (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 YaBrowser/17.6.0.1578.10 Mobile/14G60 Safari/602.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BV' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.835 (beta) Yowser/2.5 Safari/537.36',
@@ -4318,19 +3369,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.835 (beta) Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 58.0',
-            'Browser' => 'Chrome',
-            'Version' => '58.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BW' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.62 YaBrowser/15.10.2454.2738 (beta) Yowser/2.5 Safari/537.36',
         'properties' => [
@@ -4374,19 +3412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.62 YaBrowser/15.10.2454.2738 (beta) Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BX' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.745 Yowser/2.5 Safari/537.36',
@@ -4432,19 +3457,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.745 Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 58.0',
-            'Browser' => 'Chrome',
-            'Version' => '58.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-BY' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.22074 Safari/537.22',
         'properties' => [
@@ -4488,19 +3500,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-BY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.22074 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-BZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.13023 YaBrowser/13.12.1599.13023 Safari/537.36',
@@ -4546,19 +3545,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-BZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.13023 YaBrowser/13.12.1599.13023 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3860 (fnrbhc) Safari/537.36',
         'properties' => [
@@ -4602,19 +3588,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3860 (fnrbhc) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 YaBrowser/17.7.0.1430 Yowser/2.5 Safari/537.36',
@@ -4660,19 +3633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 YaBrowser/17.7.0.1430 Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 59.0',
-            'Browser' => 'Chrome',
-            'Version' => '59.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12573 Safari/537.36',
         'properties' => [
@@ -4716,19 +3676,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12573 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3314 Safari/537.36',
@@ -4774,19 +3721,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3314 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CE' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.1.1084.5409 Chrome/19.1.1084.5409 Safari/536.5',
         'properties' => [
@@ -4830,19 +3764,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.1.1084.5409 Chrome/19.1.1084.5409 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CF' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.240 YaBrowser/1.5.1106.240 Safari/537.4',
@@ -4888,19 +3809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.240 YaBrowser/1.5.1106.240 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12383 Safari/537.22',
         'properties' => [
@@ -4944,19 +3852,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12383 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9322 Safari/537.36',
@@ -5002,19 +3897,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9322 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CI' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -5058,19 +3940,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CJ' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.221 YaBrowser/1.5.1104.221 Safari/537.4',
@@ -5116,19 +3985,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.221 YaBrowser/1.5.1104.221 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CK' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.15750 Safari/537.22',
         'properties' => [
@@ -5172,19 +4028,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_7_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.15750 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12573 Safari/537.36',
@@ -5230,19 +4073,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12573 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3654 Safari/537.36',
         'properties' => [
@@ -5286,19 +4116,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3654 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
@@ -5344,19 +4161,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CO' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.221 YaBrowser/1.5.1104.221 Safari/537.4',
         'properties' => [
@@ -5400,19 +4204,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.221 YaBrowser/1.5.1104.221 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CP' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.17132 Safari/537.22',
@@ -5458,19 +4249,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_8_2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.17132 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.10031 Safari/537.36',
         'properties' => [
@@ -5514,19 +4292,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.10031 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3860 (fnrbhc) Safari/537.36',
@@ -5572,19 +4337,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3860 (fnrbhc) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CS' => [
         'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.240 YaBrowser/1.5.1106.240 Safari/537.4',
         'properties' => [
@@ -5628,19 +4380,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh Intel Mac OS X 10_9_0) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.240 YaBrowser/1.5.1106.240 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CT' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.10031 Safari/537.36',
@@ -5686,19 +4425,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 YaBrowser/14.12.2125.10031 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3654 Safari/537.36',
         'properties' => [
@@ -5742,19 +4468,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3654 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3645 Safari/537.36',
@@ -5800,19 +4513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.4 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3645 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
         'properties' => [
@@ -5856,19 +4556,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.0.1368 (beta) Yowser/2.5 Safari/537.36',
@@ -5914,19 +4601,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.0.1368 (beta) Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 58.0',
-            'Browser' => 'Chrome',
-            'Version' => '58.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -5970,19 +4644,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-CZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
@@ -6028,19 +4689,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-CZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
         'properties' => [
@@ -6084,19 +4732,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
@@ -6142,19 +4777,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.13754 Safari/537.22',
         'properties' => [
@@ -6198,19 +4820,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.13754 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.22 (KHTML like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.21027 Safari/537.22',
@@ -6256,19 +4865,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.22 (KHTML like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.21027 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.8299 Safari/537.36',
         'properties' => [
@@ -6312,19 +4908,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.8299 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/13.10.1500.9323 Chrome/19.0.1084.5402 Safari/536.5',
@@ -6370,19 +4953,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/13.10.1500.9323 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
         'properties' => [
@@ -6426,19 +4996,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.0.1633 Yowser/2.5 Safari/537.36',
@@ -6484,19 +5041,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.0.1633 Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 58.0',
-            'Browser' => 'Chrome',
-            'Version' => '58.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2  LSCABLE_AAPA0AEA2188F8) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5406 Chrome/19.0.1084.5406 Safari/536.5',
         'properties' => [
@@ -6540,19 +5084,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2  LSCABLE_AAPA0AEA2188F8) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5406 Chrome/19.0.1084.5406 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5409 Safari/536.5',
@@ -6598,19 +5129,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5409 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
         'properties' => [
@@ -6654,19 +5172,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
@@ -6712,19 +5217,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.15751 Safari/537.22',
         'properties' => [
@@ -6768,19 +5260,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.15751 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.22 (KHTML like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.21027 Safari/537.22',
@@ -6826,19 +5305,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.22 (KHTML like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.21027 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
         'properties' => [
@@ -6882,19 +5348,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
@@ -6940,19 +5393,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
         'properties' => [
@@ -6996,19 +5436,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
@@ -7054,19 +5481,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.744 Yowser/2.5 Safari/537.36',
         'properties' => [
@@ -7110,19 +5524,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 YaBrowser/17.6.1.744 Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 58.0',
-            'Browser' => 'Chrome',
-            'Version' => '58.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3 WOW64  NCT50_AAP55DD21C2033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.13014 YaBrowser/13.12.1599.13014 Safari/537.36',
@@ -7168,19 +5569,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3 WOW64  NCT50_AAP55DD21C2033) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.13014 YaBrowser/13.12.1599.13014 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.12124 YaBrowser/13.12.1599.12124 Safari/537.36',
         'properties' => [
@@ -7224,19 +5612,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.12124 YaBrowser/13.12.1599.12124 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
@@ -7282,19 +5657,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
         'properties' => [
@@ -7338,19 +5700,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
@@ -7396,19 +5745,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-DY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -7452,19 +5788,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-DY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-DZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
@@ -7510,19 +5833,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-DZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
         'properties' => [
@@ -7566,19 +5876,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.222 YaBrowser/1.5.1104.222 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0  NCLIENT50_AAPCC2658B09F2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.22194 Safari/537.22',
@@ -7624,19 +5921,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0  NCLIENT50_AAPCC2658B09F2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.22194 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
         'properties' => [
@@ -7680,19 +5964,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-ED' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
@@ -7738,19 +6009,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-ED (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12061 Safari/537.36',
         'properties' => [
@@ -7794,19 +6052,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12061 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
@@ -7852,19 +6097,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
         'properties' => [
@@ -7908,19 +6140,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
@@ -7966,19 +6185,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -8022,19 +6228,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
@@ -8080,19 +6273,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
         'properties' => [
@@ -8136,19 +6316,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
@@ -8194,19 +6361,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1 WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
         'properties' => [
@@ -8250,19 +6404,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.8299 Safari/537.36',
@@ -8308,19 +6449,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.8299 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/13.10.1500.9323 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -8364,19 +6492,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/13.10.1500.9323 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
@@ -8422,19 +6537,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3387 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 YaBrowser/16.11.0.2680 Yowser/2.5 Safari/537.36',
         'properties' => [
@@ -8478,19 +6580,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 YaBrowser/16.11.0.2680 Yowser/2.5 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-ER' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5404 Chrome/19.0.1084.5404 Safari/536.5',
@@ -8536,19 +6625,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-ER (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5404 Chrome/19.0.1084.5404 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-ES' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
         'properties' => [
@@ -8592,19 +6668,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-ES (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-ET' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
@@ -8650,19 +6713,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-ET (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
         'properties' => [
@@ -8706,19 +6756,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1101.212 YaBrowser/1.5.1101.212 Safari/537.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
@@ -8764,19 +6801,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.12390 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.13754 Safari/537.22',
         'properties' => [
@@ -8820,19 +6844,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 YaBrowser/1.7.1364.13754 Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EX' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
@@ -8878,19 +6889,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-EY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12521 Safari/537.36',
         'properties' => [
@@ -8934,19 +6932,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-EY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 YaBrowser/14.10.2062.12521 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1604-EZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3865 Safari/537.36',
@@ -8992,19 +6977,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1604-EZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3865 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1604-FA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.0.6151 Safari/537.36',
         'properties' => [
@@ -9048,18 +7020,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1604-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.0.6151 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

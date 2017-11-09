@@ -485,19 +485,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-K (lite)' => [
-        'ua' => 'MobileRSSFree-iPad/3.1 CFNetwork/467.12 Darwin/10.3.1',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-L' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.3.18 Darwin/14.0.0',
         'properties' => [
@@ -541,19 +528,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-L (lite)' => [
-        'ua' => 'MobileSafari/600.1.4 CFNetwork/711.3.18 Darwin/14.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-M' => [
         'ua' => 'MobileSafari/601.1 CFNetwork/758.2.8 Darwin/15.0.0',
@@ -599,19 +573,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-M (lite)' => [
-        'ua' => 'MobileSafari/601.1 CFNetwork/758.2.8 Darwin/15.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-N' => [
         'ua' => 'MobileSafari/601.1 CFNetwork/758.5.3 Darwin/15.6.0',
         'properties' => [
@@ -655,19 +616,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-N (lite)' => [
-        'ua' => 'MobileSafari/601.1 CFNetwork/758.5.3 Darwin/15.6.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-O' => [
         'ua' => 'MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0',
@@ -713,19 +661,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-O (lite)' => [
-        'ua' => 'MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-P' => [
         'ua' => 'MobileSafari/602.1 CFNetwork/808.1.4 Darwin/16.1.0',
         'properties' => [
@@ -769,19 +704,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-P (lite)' => [
-        'ua' => 'MobileSafari/602.1 CFNetwork/808.1.4 Darwin/16.1.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-Q' => [
         'ua' => 'MobileSafari/602.1 CFNetwork/808.2.16 Darwin/16.3.0',
@@ -827,19 +749,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-Q (lite)' => [
-        'ua' => 'MobileSafari/602.1 CFNetwork/808.2.16 Darwin/16.3.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-R' => [
         'ua' => 'MobileSafari/602.1 CFNetwork/808.3 Darwin/16.3.0',
         'properties' => [
@@ -883,19 +792,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-R (lite)' => [
-        'ua' => 'MobileSafari/602.1 CFNetwork/808.3 Darwin/16.3.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-S' => [
         'ua' => 'MobileSafari/602.1 CFNetwork/811.4.18 Darwin/16.5.0',
@@ -941,19 +837,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-S (lite)' => [
-        'ua' => 'MobileSafari/602.1 CFNetwork/811.4.18 Darwin/16.5.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-T' => [
         'ua' => 'MobileSafari/604.1 CFNetwork/887 Darwin/17.0.0',
         'properties' => [
@@ -997,19 +880,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-T (lite)' => [
-        'ua' => 'MobileSafari/604.1 CFNetwork/887 Darwin/17.0.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-U' => [
         'ua' => 'MobileSafari/7534.48.3 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -1555,19 +1425,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-AF (lite)' => [
-        'ua' => 'Safari/12602.1.50.0.10 CFNetwork/807.0.4 Darwin/16.0.0 (x86_64)',
-        'properties' => [
-            'Comment' => 'Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-AG' => [
         'ua' => 'Safari/12603.1.30.0.34 CFNetwork/811.4.18 Darwin/16.5.0 (x86_64)',
         'properties' => [
@@ -1611,19 +1468,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-AG (lite)' => [
-        'ua' => 'Safari/12603.1.30.0.34 CFNetwork/811.4.18 Darwin/16.5.0 (x86_64)',
-        'properties' => [
-            'Comment' => 'Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-AH' => [
         'ua' => 'Safari/13604.1.38.1.6 CFNetwork/887 Darwin/17.0.0 (x86_64)',
@@ -1669,19 +1513,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1633-AH (lite)' => [
-        'ua' => 'Safari/13604.1.38.1.6 CFNetwork/887 Darwin/17.0.0 (x86_64)',
-        'properties' => [
-            'Comment' => 'Safari 11.0',
-            'Browser' => 'Safari',
-            'Version' => '11.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1633-AI' => [
         'ua' => 'Safari/7536.30.1 CFNetwork/520.5.1 Darwin/11.4.2 (i386) (MacBook3,1)',
         'properties' => [
@@ -1725,19 +1556,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1633-AI (lite)' => [
-        'ua' => 'Safari/7536.30.1 CFNetwork/520.5.1 Darwin/11.4.2 (i386) (MacBook3,1)',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1633-AJ' => [
         'ua' => 'Sleipnir/3.3 CFNetwork/711.1.12 Darwin/14.0.0',

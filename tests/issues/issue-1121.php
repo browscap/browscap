@@ -45,17 +45,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1121 (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 [FBAN/FBIOS;FBAV/68.0.0.49.70;FBBV/41924288;FBRV/0;FBDV/iPad4,1;FBMD/iPad;FBSN/iOS;FBSV/10.0.2;FBSS/2;FBCR/;FBID/tablet;FBLC/en_US;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

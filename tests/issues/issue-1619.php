@@ -221,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1619-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:3.0) Gecko/20100101 Goanna/20170215 FossaMail/38.0.0 Lightning/4.0.0',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1619-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:25.8) Gecko/20160107 FossaMail/25.2.0	',
         'properties' => [

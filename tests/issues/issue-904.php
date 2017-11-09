@@ -841,19 +841,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-904-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.4 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.4',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-904-S' => [
         'ua' => 'CydralSpider/3.2 (Cydral Image Search; http://www.cydral.com)',
         'properties' => [
@@ -1088,19 +1075,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-904-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us; EasouSpider; +http://www.easou.com/search/spider.html)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-904-X' => [
@@ -1410,19 +1384,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-904-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36 GoogleBot/2.1',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-904-AE' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.2.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)',

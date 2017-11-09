@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-B' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; sv-se) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AP',
         'properties' => [
@@ -101,19 +88,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; sv-se) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-F' => [
         'ua' => 'Mozilla/5.0',
@@ -203,19 +177,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-fr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -259,19 +220,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
@@ -317,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-K' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; nb-NO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
         'properties' => [
@@ -373,19 +308,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; nb-NO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-N' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; sv-se) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
@@ -431,19 +353,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; sv-se) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.383 Chrome/45.0.2454.93 Safari/537.36',
         'properties' => [
@@ -487,19 +396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.383 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-AD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36',
@@ -649,19 +545,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; cs-cz) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-AL' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IP',
         'properties' => [
@@ -722,19 +605,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-821-AL (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-AO' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
         'properties' => [
@@ -778,19 +648,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-AO (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; KFFOWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.102 like Chrome/45.0.2454.94 Safari/537.36',
@@ -836,19 +693,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-AP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; KFFOWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.102 like Chrome/45.0.2454.94 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.30; Windows NT 6.2; WOW64; Trident/8.0)',
         'properties' => [
@@ -892,19 +736,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-AU (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.30; Windows NT 6.2; WOW64; Trident/8.0)',
-        'properties' => [
-            'Comment' => 'IE 11.0 in IE 10.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-AV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.1IP',
@@ -966,19 +797,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-821-AV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.1IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-AW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2550.0 Safari/537.36',
         'properties' => [
@@ -1022,19 +840,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-AW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2550.0 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-AX' => [
         'ua' => '( ; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
@@ -1167,19 +972,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-BB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-BC' => [
         'ua' => 'bl.uk_lddc_bot/3.3.0-SNAPSHOT-2014-10-07T09:33:31Z (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)',
@@ -1357,19 +1149,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-BH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.385 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-BJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:45.0) Gecko/20100101 Firefox/45.0',
         'properties' => [
@@ -1546,19 +1325,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-BM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2550.0 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-BP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
         'properties' => [
@@ -1602,19 +1368,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; Aqua_Life V; Android/4.4.2; Release/07.29.2015) AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -1703,19 +1456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-BR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de-CH) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-BS' => [
         'ua' => 'Mozilla/5.0(Linux;Android 4.4.2; en-ca; ALCATEL ONETOUCH 6050A Build/KVT49L)AppleWebKit/537.36(KHTML,like Gecko) Version/4.0 Chrome/30.0.1599.36 Mobile Safari/537.36',
@@ -1849,19 +1589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-BU (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.1023; Windows NT 6.2; WOW64; Trident/8.0)',
-        'properties' => [
-            'Comment' => 'IE 11.0 in IE 10.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-BV' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
         'properties' => [
@@ -1905,19 +1632,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-BV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-BW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.3',
@@ -1963,19 +1677,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-BW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.3',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928P Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -2019,19 +1720,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-BY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928P Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-BZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.7) Gecko/20150929 Firefox/31.9 PaleMoon/25.7.2',
@@ -2077,19 +1765,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-BZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.7) Gecko/20150929 Firefox/31.9 PaleMoon/25.7.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; pt-br) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
         'properties' => [
@@ -2133,19 +1808,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CA (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; pt-br) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2545.0 Safari/537.36',
@@ -2191,19 +1853,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2545.0 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; pl-pl) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AP',
         'properties' => [
@@ -2247,19 +1896,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; pl-pl) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CE' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-au) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AT',
@@ -2305,19 +1941,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CE (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-au) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0.2036AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928F-ORANGE Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -2361,19 +1984,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928F-ORANGE Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CH' => [
         'ua' => 'X-WebBrowser',
@@ -2463,19 +2073,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.385 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CJ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; es-es) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.69 like Chrome/39.0.2171.93 Safari/537.36',
         'properties' => [
@@ -2519,19 +2116,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; es-es) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.69 like Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CK' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-ca) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
@@ -2577,19 +2161,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CK (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-ca) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/44.0 Safari/537.36 Chrome/43.0.2357.132',
         'properties' => [
@@ -2633,19 +2204,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/44.0 Safari/537.36 Chrome/43.0.2357.132',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CM' => [
         'ua' => 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380/Z3x_tmXXKK4',
@@ -2751,19 +2309,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-821-CN (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-IT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N9208 Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -2807,19 +2352,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N9208 Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; Velocitymicro/T408) AppleWebKit/530.17(KHTML, like Gecko) Version/4.0Safari/530.17',
@@ -2909,19 +2441,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2551.0 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CS' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.383 Chrome/45.0.2454.93 Safari/537.36',
         'properties' => [
@@ -2965,19 +2484,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.6.11.383 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CT' => [
         'ua' => 'MailBar/1.3.2 (Mac OS X Version 10.11.1 (Build 15B42))',
@@ -3111,19 +2617,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-CV (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-fr) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-CX' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-CA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IT',
         'properties' => [
@@ -3167,19 +2660,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-CX (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-CA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.0IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.10; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
@@ -3239,19 +2719,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-821-CY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 4.10; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.4',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-821-DA' => [
@@ -3341,19 +2808,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DB (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-IT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.0IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-DC' => [
         'ua' => 'MT6735_TD/V1 Linux/3.10.72+ Android/5.1 Release/03.03.2015 Browser/AppleWebKit537.36 Chrome/39.0.0.0 Mobile Safari/537.36 System/Android 5.1;',
@@ -3459,19 +2913,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DD (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-CA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920I Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         'properties' => [
@@ -3515,19 +2956,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920I Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-DF' => [
         'ua' => 'Mozilla/5.0 (compatible; SemrushBot-SA/0.97; +http://www.semrush.com/bot.html)',
@@ -3617,19 +3045,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DH (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; pl-pl) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1.2083AP',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DI' => [
         'ua' => 'Microsoft Office Excel 2014',
         'properties' => [
@@ -3718,19 +3133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ja-JP) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.6.1IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
         'properties' => [
@@ -3774,19 +3176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-DL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
@@ -3832,19 +3221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
         'properties' => [
@@ -3888,19 +3264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-DN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
@@ -3946,19 +3309,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
         'properties' => [
@@ -4003,19 +3353,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-821-DO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-821-DP' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-IT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.1IT',
         'properties' => [
@@ -4059,19 +3396,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-IT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.1IT',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-821-DQ' => [
         'ua' => 'Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)',
@@ -4160,18 +3484,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-821-DR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2272.76 Safari/537.36 Seznam.cz/2.0.5',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

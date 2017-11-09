@@ -221,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1497-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10166',
-        'properties' => [
-            'Comment' => 'Edge 12.0',
-            'Browser' => 'Edge',
-            'Version' => '12.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1497-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
         'properties' => [
@@ -277,19 +264,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1497-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
-        'properties' => [
-            'Comment' => 'Edge 13.0',
-            'Browser' => 'Edge',
-            'Version' => '13.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1497-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0',

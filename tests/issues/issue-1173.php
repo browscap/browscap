@@ -105,17 +105,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1173-2 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50',
-        'properties' => [
-            'Comment' => 'Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
 ];

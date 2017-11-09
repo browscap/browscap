@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1481-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1481-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36',
         'properties' => [
@@ -101,19 +88,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1481-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1481-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
@@ -159,19 +133,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1481-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1481-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
         'properties' => [
@@ -215,19 +176,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1481-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1481-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
@@ -273,19 +221,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1481-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1481-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36',
         'properties' => [
@@ -330,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1481-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2551.0 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1481-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
         'properties' => [
@@ -386,18 +308,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1481-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2549.1 (SBRO; Salam Browser) Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

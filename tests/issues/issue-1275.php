@@ -61,19 +61,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1275-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 [FBAN/FBIOS;FBAV/82.0.0.42.69;FBBV/51077300;FBRV/0;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/10.2.1;FBSS/3;FBCR/T-Mobile;FBID/phone;FBLC/en_US;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1275-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPad5,4;FBMD/iPad;FBSN/iPhone OS;FBSV/10.2.1;FBSS/2; FBCR/Verizon;FBID/tablet;FBLC/en_US;FBOP/1]',
         'properties' => [
@@ -117,19 +104,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1275-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPad5,4;FBMD/iPad;FBSN/iPhone OS;FBSV/10.2.1;FBSS/2; FBCR/Verizon;FBID/tablet;FBLC/en_US;FBOP/1]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1275-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/FBIOS;FBAV/75.0.0.48.61;FBBV/45926345;FBRV/0;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]',
@@ -191,19 +165,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1275-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/FBIOS;FBAV/75.0.0.48.61;FBBV/45926345;FBRV/0;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1275-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/FBIOS;FBAV/75.0.0.48.61;FBBV/45926345;FBRV/0;FBDV/iPad4,4;FBMD/iPad;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/;FBID/tablet;FBLC/en_US;FBOP/5]',
         'properties' => [
@@ -247,18 +208,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1275-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/FBIOS;FBAV/75.0.0.48.61;FBBV/45926345;FBRV/0;FBDV/iPad4,4;FBMD/iPad;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/;FBID/tablet;FBLC/en_US;FBOP/5]',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

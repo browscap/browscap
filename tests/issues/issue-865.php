@@ -1749,19 +1749,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-AM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-AN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6)',
         'properties' => [
@@ -3026,19 +3013,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-BP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T710 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-BQ' => [
         'ua' => 'ZnajdzFoto/Image 2.0',
         'properties' => [
@@ -4111,19 +4085,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-865-CO (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 5.0; ZangoToolbar 7.8.58; MyIE2)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-CP' => [
         'ua' => 'Athena Site Analyzer (bestsiteanalyzer.com)',
         'properties' => [
@@ -4299,19 +4260,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-865-CS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200GU Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-865-CT' => [
         'ua' => 'Ruby, link_thumbnailer',
@@ -5516,19 +5464,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-865-DW (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) Gecko Firefox/3.0.8',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-865-DX' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://z-url.us)',
@@ -7994,19 +7929,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-GA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T810 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-GB' => [
         'ua' => 'EBSCO EJS Content Server',
         'properties' => [
@@ -10283,19 +10205,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-HZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; era; Android/4.4.2; Release/06.24.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
         'properties' => [
@@ -10383,19 +10292,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-865-IB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-865-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9',
@@ -10704,19 +10600,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-865-II (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-865-IJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/06.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
@@ -11334,19 +11217,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-IW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/46.9.15.424 Chrome/46.0.2490.86 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-IX' => [
         'ua' => 'Lemon B556',
         'properties' => [
@@ -11891,19 +11761,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-JI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-JJ' => [
         'ua' => 'Apache OpenOffice/4.1.2',
         'properties' => [
@@ -12256,19 +12113,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-865-JQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-865-JR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.8.12.389 Chrome/45.0.2454.93 Safari/537.36',
         'properties' => [
@@ -12312,19 +12156,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-865-JR (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.8.12.389 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-865-JS' => [
         'ua' => 'EasyBib AutoCite (http://autocite-info.citation-api.com/)',

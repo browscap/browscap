@@ -193,19 +193,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-084-E (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS101607; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; Ask',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-084-D' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)',
         'properties' => [

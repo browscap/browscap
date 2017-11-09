@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1547-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.2.1 Chrome/60.0.3112.107 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1547-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36',
         'properties' => [
@@ -498,19 +485,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1547-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel XL Build/OPR6.170623.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/138.0.0.19.93;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1547-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel XL Build/OPR6.170623.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/132.0.0.22.90;]',
         'properties' => [
@@ -555,19 +529,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1547-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel XL Build/OPR6.170623.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/132.0.0.22.90;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1547-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0; Nexus 6P Build/OPR6.170623.013) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
         'properties' => [
@@ -611,18 +572,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1547-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 8.0; Nexus 6P Build/OPR6.170623.013) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
-        'properties' => [
-            'Comment' => 'Chrome 55.0',
-            'Browser' => 'Chrome',
-            'Version' => '55.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];

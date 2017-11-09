@@ -265,19 +265,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1020-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1020-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/538.1 (KHTML, like Gecko) WahOO Safari/538.1',
         'properties' => [

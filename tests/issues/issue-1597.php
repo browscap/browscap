@@ -1189,19 +1189,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-AC (lite)' => [
-        'ua' => 'Browser Lynx/5.0 (iPod; Amiga DOS 2.3.10; Win32) AppleWebKit/939.75 (KHTML, like Gecko) QupZilla/35.7.1028.46 Safari/939.75',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-AD' => [
         'ua' => 'CatchBot/3.0; +http://www.catchbot.com',
         'properties' => [
@@ -5662,19 +5649,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-DZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/KRT16M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2125.111 Mobile Safari/537.36 DareBoost',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EA' => [
         'ua' => 'Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13',
         'properties' => [
@@ -5895,19 +5869,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EE (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B410 Safari/600.1.4 (Applebot/0.1; +http://www.apple.com/go/applebot)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1 DareBoost',
         'properties' => [
@@ -5951,19 +5912,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-EF (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1 DareBoost',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-EG' => [
         'ua' => 'Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html; Linux; Android 4; iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25',
@@ -6009,19 +5957,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EG (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html; Linux; Android 4; iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25',
-        'properties' => [
-            'Comment' => 'Mobile Safari 6.0',
-            'Browser' => 'Safari',
-            'Version' => '6.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2 PTST/277',
         'properties' => [
@@ -6065,19 +6000,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-EH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2 PTST/277',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-EI' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-capture.net/0.9 Safari/537.21',
@@ -6227,19 +6149,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1597-EK (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-GB) adbeat.com/policy AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Google Search Console)',
         'properties' => [
@@ -6283,19 +6192,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-EL (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Google Search Console)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-EM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2; Shoppimon Analyzer (http://www.shoppimon.com/)',
@@ -6341,19 +6237,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2; Shoppimon Analyzer (http://www.shoppimon.com/)',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EN' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 1068) AppleWebKit/534.50 (KHTML like Gecko) Version/5.1 Instapaper/4.0 (+http://www.instapaper.com/)',
         'properties' => [
@@ -6397,19 +6280,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-EN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 1068) AppleWebKit/534.50 (KHTML like Gecko) Version/5.1 Instapaper/4.0 (+http://www.instapaper.com/)',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-EO' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) www.HomepageScreenshot.de - Free ScreenShotService/1.0 Safari/537.21',
@@ -6499,19 +6369,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.1(2.5.3) Safari(ReederForMac)',
-        'properties' => [
-            'Comment' => 'Safari 7.0',
-            'Browser' => 'Safari',
-            'Version' => '7.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 mixed-content-scan',
         'properties' => [
@@ -6556,19 +6413,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 mixed-content-scan',
-        'properties' => [
-            'Comment' => 'Mobile Safari 6.0',
-            'Browser' => 'Safari',
-            'Version' => '6.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-ER' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X; Neustar WPM) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25',
         'properties' => [
@@ -6612,19 +6456,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-ER (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X; Neustar WPM) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25',
-        'properties' => [
-            'Comment' => 'Mobile Safari 6.0',
-            'Browser' => 'Safari',
-            'Version' => '6.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-ES' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) QtWebEngine/5.3.0 Safari/538.1 Ghost Inspector',
@@ -6758,19 +6589,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EV' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:18.0) Gecko/18.0 Firefox/18.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT',
         'properties' => [
@@ -6859,19 +6677,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EW (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 DareBoost',
-        'properties' => [
-            'Comment' => 'Firefox 35.0',
-            'Browser' => 'Firefox',
-            'Version' => '35.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EX' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (NetShelter ContentScan)',
         'properties' => [
@@ -6916,19 +6721,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-EX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (NetShelter ContentScan)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-EY' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1',
         'properties' => [
@@ -6972,19 +6764,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-EY (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-EZ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7; Google-SearchByImage) Gecko/2009021910 Firefox/3.0.7',
@@ -7074,19 +6853,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0; Neustar WPM) Gecko/20100101 Firefox/38.0',
-        'properties' => [
-            'Comment' => 'Firefox 38.0',
-            'Browser' => 'Firefox',
-            'Version' => '38.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardBrowserProxy/0.0.5; +http://flipboard.com/browserproxy)',
         'properties' => [
@@ -7130,19 +6896,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardBrowserProxy/0.0.5; +http://flipboard.com/browserproxy)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FC' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008052906 Firefox/3.0 (BrowserSpyBot/1.0) (http://browserspy.dk/)',
@@ -7231,19 +6984,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:48.0) Gecko/20100101 Firefox/48.0 glindahl-cocrawler/0.01 (+http://www.pbm.com/~lindahl/glindahl-cocrawler.html)',
-        'properties' => [
-            'Comment' => 'Firefox 48.0',
-            'Browser' => 'Firefox',
-            'Version' => '48.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FE' => [
         'ua' => 'MovableType/x.x',
@@ -7569,19 +7309,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1597-FK (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; GoogleToolbar 4.0.1019.5266-big; Windows XP 5.1; MSIE 6.0.2900.2180)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FL' => [
         'ua' => 'Mozilla/4.0 (compatible; grub-client-0.3.0; Crawl your own stuff with http://grub.org)',
         'properties' => [
@@ -7818,19 +7545,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FP (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;  http://www.changedetection.com/bot.html )',
         'properties' => [
@@ -7874,19 +7588,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FQ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;  http://www.changedetection.com/bot.html )',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) LinkCheck by Siteimprove.com',
@@ -7932,19 +7633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FR (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) LinkCheck by Siteimprove.com',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) Match by Siteimprove.com',
         'properties' => [
@@ -7988,19 +7676,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FS (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) Match by Siteimprove.com',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FT' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; QQDownload 1.7; .NET CLR 2.0.50727)',
@@ -8046,19 +7721,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FT (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; QQDownload 1.7; .NET CLR 2.0.50727)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FU' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)',
         'properties' => [
@@ -8102,19 +7764,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FU (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; QQDownload 663; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET CLR 1.1.4322)',
@@ -8160,19 +7809,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FV (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; QQDownload 663; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET CLR 1.1.4322)',
-        'properties' => [
-            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729) CrawlerProcess (http://www.PowerMapper.com) /5.7.704.0',
         'properties' => [
@@ -8216,19 +7852,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FW (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729) CrawlerProcess (http://www.PowerMapper.com) /5.7.704.0',
-        'properties' => [
-            'Comment' => 'IE 10.0 in IE 7.0 Compatibility Mode',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows; Windows NT 5.1) BrokenLinkCheck.com/1.1',
@@ -8274,19 +7897,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FX (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows; Windows NT 5.1) BrokenLinkCheck.com/1.1',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-FY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; PTST 2.386)',
         'properties' => [
@@ -8330,19 +7940,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-FY (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; PTST 2.386)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-FZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; www.alertra.com)',
@@ -8388,19 +7985,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-FZ (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; www.alertra.com)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-GA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; PTST 2.386)',
         'properties' => [
@@ -8444,19 +8028,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-GA (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; PTST 2.386)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-GB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729; .NET4.0E) PTST/276',
@@ -8502,19 +8073,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-GB (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729; .NET4.0E) PTST/276',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-GC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; PTST 2.295)',
         'properties' => [
@@ -8558,19 +8116,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-GC (lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; PTST 2.295)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-GD' => [
         'ua' => 'Mozilla/4.0 (compatible; NaverBot/1.0; http://help.naver.com/customer_webtxt_02.jsp)',
@@ -8791,19 +8336,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-GH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android; Mobile; rv:21.0) Gecko/21.0 Firefox/21.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT',
-        'properties' => [
-            'Comment' => 'Firefox 21.0',
-            'Browser' => 'Firefox',
-            'Version' => '21.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-GI' => [
         'ua' => 'Mozilla/5.0 (compatible)',
@@ -10829,19 +10361,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-IB (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-IC' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com',
         'properties' => [
@@ -10885,19 +10404,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-IC (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-ID' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0;  WOW64;  Trident/6.0;  BingPreview/1.0b)',
@@ -10943,19 +10449,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-ID (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0;  WOW64;  Trident/6.0;  BingPreview/1.0b)',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-IE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) CrawlerProcess (http://www.PowerMapper.com) /5.11.740.0',
         'properties' => [
@@ -10999,19 +10492,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-IE (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) CrawlerProcess (http://www.PowerMapper.com) /5.11.740.0',
-        'properties' => [
-            'Comment' => 'IE 10.0',
-            'Browser' => 'IE',
-            'Version' => '10.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-IF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)',
@@ -11057,19 +10537,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-IF (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Version' => '7.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-IG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) KomodiaBot/1.0',
         'properties' => [
@@ -11113,19 +10580,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-IG (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) KomodiaBot/1.0',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-IH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.3; www.alertra.com)',
@@ -11171,19 +10625,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-IH (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.3; www.alertra.com)',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-II' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Clarsentia)',
         'properties' => [
@@ -11228,19 +10669,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-II (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Clarsentia)',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-IJ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) commoncrawl.org/research//Nutch-1.7-SNAPSHOT',
         'properties' => [
@@ -11284,19 +10712,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-IJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) commoncrawl.org/research//Nutch-1.7-SNAPSHOT',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-IK' => [
         'ua' => 'Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)',
@@ -13074,19 +12489,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1597-KA (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Version/8.0 Mobile/12F70 Safari/600.1.4',
-        'properties' => [
-            'Comment' => 'Mobile Safari 8.0',
-            'Browser' => 'Safari',
-            'Version' => '8.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KB' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 10_0 like Mac OS X; en-us) AppleWebKit/602.1.38 (KHTML, like Gecko) Version/10.0 Mobile/14A5297c Safari/602.1 (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)',
         'properties' => [
@@ -13145,19 +12547,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1597-KB (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 10_0 like Mac OS X; en-us) AppleWebKit/602.1.38 (KHTML, like Gecko) Version/10.0 Mobile/14A5297c Safari/602.1 (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Mobile Safari 10.0',
-            'Browser' => 'Safari',
-            'Version' => '10.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1597-KC' => [
@@ -13220,19 +12609,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1597-KC (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KD' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS) (compatible; Googlebot-Mobile/2.1;  http://www.google.com/bot.html)',
         'properties' => [
@@ -13276,19 +12652,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-KD (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS) (compatible; Googlebot-Mobile/2.1;  http://www.google.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-KE' => [
         'ua' => 'Mozilla/5.0 (Linux; U;Android 4.0.4; generic) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview)  Safari/534.51',
@@ -13378,19 +12741,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-KF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0 (FlipboardProxy/1.2; +http://flipboard.com/browserproxy)',
-        'properties' => [
-            'Comment' => 'Firefox 49.0',
-            'Browser' => 'Firefox',
-            'Version' => '49.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.6; +http://flipboard.com/browserproxy)',
         'properties' => [
@@ -13434,19 +12784,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-KG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.6; +http://flipboard.com/browserproxy)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-KH' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) adbeat.com/policy AppleWebKit/601.1.56 (KHTML, like Gecko) Version/9.0 Safari/601.1.56',
@@ -13580,19 +12917,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-KJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) RMSnapKit/1.0 Safari/534.51.22',
-        'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KK' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/0.0.5; +http://flipboard.com/browserproxy)',
         'properties' => [
@@ -13637,19 +12961,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-KK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/0.0.5; +http://flipboard.com/browserproxy)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KL' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)',
         'properties' => [
@@ -13693,19 +13004,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-KL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-KM' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; de-de) AppleWebKit/525.27.1 (KHTML, like Gecko) NetNewsWire/3.1.7',
@@ -14015,19 +13313,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-KS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~uswj207)',
-        'properties' => [
-            'Comment' => 'Firefox 55.0',
-            'Browser' => 'Firefox',
-            'Version' => '55.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/201',
         'properties' => [
@@ -14071,19 +13356,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-KT (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/201',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-KU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; Win64; fr; rv:1.8.1) VoilaBot BETA 1.2 (support.voilabot@orange-ftgroup.com)',
@@ -14173,19 +13445,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-KV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/201',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-KW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) adbeat.com/policy Gecko/20100101 Firefox/52.0',
         'properties' => [
@@ -14273,19 +13532,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-KX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0; PTST 2.386) like Gecko',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-KY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
@@ -14419,19 +13665,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-LA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spider',
-        'properties' => [
-            'Comment' => 'Chrome 50.0',
-            'Browser' => 'Chrome',
-            'Version' => '50.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-LB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~aeshortener)',
         'properties' => [
@@ -14475,19 +13708,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-LB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~aeshortener)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-LC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/276',
@@ -14533,19 +13753,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-LC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/276',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-LD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; topster.de Linkchecker 5.0) like Gecko (194.228.205.74)',
         'properties' => [
@@ -14589,19 +13796,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-LD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; topster.de Linkchecker 5.0) like Gecko (194.228.205.74)',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-LE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE; 360Spider',
@@ -14647,19 +13841,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-LE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE; 360Spider',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-LF' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv 11.0) like Gecko (compatible; Zombiebot/2.1; +http://www.zombiedomain.net/robot/)',
         'properties' => [
@@ -14703,19 +13884,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-LF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv 11.0) like Gecko (compatible; Zombiebot/2.1; +http://www.zombiedomain.net/robot/)',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-LG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:53.0) adbeat.com/policy Gecko/20100101 Firefox/53.0',
@@ -14805,19 +13973,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-LH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/276',
-        'properties' => [
-            'Comment' => 'IE 11.0',
-            'Browser' => 'IE',
-            'Version' => '11.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-LI' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21 PagePeeker/2.1; +http://pagepeeker.com/robots/',
         'properties' => [
@@ -14861,19 +14016,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-LI (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21 PagePeeker/2.1; +http://pagepeeker.com/robots/',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-LJ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.0.1; compatible; iCjobs Stellenangebote Jobs; http://www.icjobs.de) Gecko/20100401 iCjobs/3.2.3',
@@ -15050,19 +14192,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-LM (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1 AppEngine-Google; (+http://code.google.com/appengine; appid: s~metacdn-hr)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-LN' => [
         'ua' => 'Mozilla/5.0 (Yahoo-MMCrawler/4.0; mailto:vertical-crawl-support@yahoo-inc.com)',
@@ -18056,19 +17185,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/99.0 YottaaMonitor',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0 Evidon (lab@evidon.com)',
         'properties' => [
@@ -18112,19 +17228,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-OE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0 Evidon (lab@evidon.com)',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OF' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0; GTmetrix https://gtmetrix.com/) Gecko/20100101 Firefox/45.0',
@@ -18170,19 +17273,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OF (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0; GTmetrix https://gtmetrix.com/) Gecko/20100101 Firefox/45.0',
-        'properties' => [
-            'Comment' => 'Firefox 45.0',
-            'Browser' => 'Firefox',
-            'Version' => '45.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OG' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.16) Gecko/2009121601 Ubuntu/9.04 (jaunty) Firefox/3.0.16 Specificfeeds- http://www.specificfeeds.com',
         'properties' => [
@@ -18226,19 +17316,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-OG (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.16) Gecko/2009121601 Ubuntu/9.04 (jaunty) Firefox/3.0.16 Specificfeeds- http://www.specificfeeds.com',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OH' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729; Diffbot/0.1; +http://www.diffbot.com)',
@@ -18328,19 +17405,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0 PTST/279',
-        'properties' => [
-            'Comment' => 'Firefox 46.0',
-            'Browser' => 'Firefox',
-            'Version' => '46.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0 PTST/277',
         'properties' => [
@@ -18385,19 +17449,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0 PTST/277',
-        'properties' => [
-            'Comment' => 'Firefox 46.0',
-            'Browser' => 'Firefox',
-            'Version' => '46.0',
-            'Platform' => 'Win8.1',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OK' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20100101 Firefox/21.0 WordPress.com mShots',
         'properties' => [
@@ -18441,19 +17492,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-OK (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20100101 Firefox/21.0 WordPress.com mShots',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OL' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20110515 HeartRails_Capture/1.0.4 (+http://capture.heartrails.com/) Namoroka/3.6.17',
@@ -18543,19 +17581,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:45.0) Gecko/20100101 Firefox/45.0 PTST/276',
-        'properties' => [
-            'Comment' => 'Firefox 45.0',
-            'Browser' => 'Firefox',
-            'Version' => '45.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-ON' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0.2) Gecko/20100101 Firefox/52.0.2 Ghost Inspector',
         'properties' => [
@@ -18599,19 +17624,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-ON (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0.2) Gecko/20100101 Firefox/52.0.2 Ghost Inspector',
-        'properties' => [
-            'Comment' => 'Firefox 52.0',
-            'Browser' => 'Firefox',
-            'Version' => '52.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OO' => [
         'ua' => 'StackRambler/2.0 (MSIE incompatible)',
@@ -18789,19 +17801,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Search Console) Chrome/27.0.1453 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Galaxy Nexus Build/JZO54K; GTmetrix http://gtmetrix.com/) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.22',
         'properties' => [
@@ -18845,19 +17844,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-OS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Galaxy Nexus Build/JZO54K; GTmetrix http://gtmetrix.com/) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; GTmetrix https://gtmetrix.com/) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
@@ -18903,19 +17889,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-OT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64; GTmetrix https://gtmetrix.com/) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-OU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; compatible; BDCbot/1.0; +http://ecommerce.bigdatacorp.com.br/faq.aspx) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.107 Safari/535.1',
         'properties' => [
@@ -18959,19 +17932,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-OU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; compatible; BDCbot/1.0; +http://ecommerce.bigdatacorp.com.br/faq.aspx) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.107 Safari/535.1',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-OV' => [
         'ua' => 'Szukacz/1.5 (robot; www.szukacz.pl/jakdzialarobot.html; info@szukacz.pl)',
@@ -21057,19 +20017,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QP (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36 (compatible; aylienbot/0.2; +http://www.aylien.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Chrome 51.0',
-            'Browser' => 'Chrome',
-            'Version' => '51.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-QQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; HTC One Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2125.111 Mobile Safari/537.36 DareBoost',
         'properties' => [
@@ -21113,19 +20060,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-QQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; HTC One Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2125.111 Mobile Safari/537.36 DareBoost',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-QR' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2125.111 Safari/537.36 DareBoost',
@@ -21171,19 +20105,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QR (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2125.111 Safari/537.36 DareBoost',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-QS' => [
         'ua' => 'fasthttp, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36',
         'properties' => [
@@ -21227,19 +20148,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-QS (lite)' => [
-        'ua' => 'fasthttp, Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-QT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Safari/537.36 (compatible; Google-HotelAdsVerifier/2.0)',
@@ -21285,19 +20193,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QT (lite)' => [
-        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Safari/537.36 (compatible; Google-HotelAdsVerifier/2.0)',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-QU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; Google-Publisher-Plugin) Chrome/27.0.1453 Mobile Safari/537.36',
         'properties' => [
@@ -21341,19 +20236,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-QU (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; Google-Publisher-Plugin) Chrome/27.0.1453 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-QV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4 LinkTiger 2.0',
@@ -21399,19 +20281,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4 LinkTiger 2.0',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-QW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Neustar WPM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36',
         'properties' => [
@@ -21455,19 +20324,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-QW (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Neustar WPM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-QX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; HTC6435LVW Build/JRO03C; Neustar WPM) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22',
@@ -21513,19 +20369,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QX (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; HTC6435LVW Build/JRO03C; Neustar WPM) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-QY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36 Specificfeeds- http://www.specificfeeds.com',
         'properties' => [
@@ -21569,19 +20412,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-QY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36 Specificfeeds- http://www.specificfeeds.com',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-QZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1; http://spyonweb.com spyonweb@gmail.com',
@@ -21627,19 +20457,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-QZ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1; http://spyonweb.com spyonweb@gmail.com',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-RA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake SSL Monitor)',
         'properties' => [
@@ -21683,19 +20500,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-RA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake SSL Monitor)',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-RB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 TinEye/1.0 (via http://www.tineye.com/)',
@@ -21741,19 +20545,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-RB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 TinEye/1.0 (via http://www.tineye.com/)',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-RC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36 Yandex.Translate',
         'properties' => [
@@ -21797,19 +20588,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-RC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36 Yandex.Translate',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-RD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) YLT Chrome/27.0.1453.110 Safari/537.36',
@@ -21855,19 +20633,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1597-RD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) YLT Chrome/27.0.1453.110 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1597-RE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor',
         'properties' => [
@@ -21911,19 +20676,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1597-RE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'WinVista',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1597-RF' => [
         'ua' => 'YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; http://search.yahoo.com/)',

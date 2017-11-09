@@ -45,19 +45,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFARWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/54.2.3 like Chrome/54.0.2840.85 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; KFOT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.81 like Chrome/47.0.2526.83 Safari/537.36',
         'properties' => [
@@ -116,19 +103,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1552-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; KFOT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.81 like Chrome/47.0.2526.83 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1552-C' => [
@@ -191,19 +165,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1552-C (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.81 like Chrome/47.0.2526.83 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.81 like Chrome/47.0.2526.83 Safari/537.36',
         'properties' => [
@@ -264,19 +225,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1552-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.81 like Chrome/47.0.2526.83 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFAPWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
         'properties' => [
@@ -320,19 +268,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-E (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFAPWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
@@ -378,19 +313,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-F (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFARWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
         'properties' => [
@@ -434,19 +356,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-G (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFARWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFASWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
@@ -492,19 +401,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-H (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFASWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSAWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.99 like Chrome/45.0.2454.94 Safari/537.36',
         'properties' => [
@@ -548,19 +444,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-I (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSAWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.99 like Chrome/45.0.2454.94 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.1.81 like Chrome/44.0.2403.128 Safari/537.36',
@@ -606,19 +489,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-J (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.1.81 like Chrome/44.0.2403.128 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSOWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
         'properties' => [
@@ -662,19 +532,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-K (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFSOWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFTHWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
@@ -720,19 +577,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-L (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFTHWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
         'properties' => [
@@ -776,19 +620,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-M (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/44.2.49 like Chrome/44.0.2403.133 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Silk/54.3.1 like Chrome/54.0.2840.85 Mobile Safari/537.36',
@@ -850,19 +681,6 @@ return [
         'standard' => true,
         'full' => false,
     ],
-    'issue-1552-N (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Silk/54.3.1 like Chrome/54.0.2840.85 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFASWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
         'properties' => [
@@ -906,19 +724,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-O (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFASWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFAUWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
@@ -964,19 +769,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-P (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFAUWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFDOWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
         'properties' => [
@@ -1020,19 +812,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-Q (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFDOWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-R' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFGIWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
@@ -1078,19 +857,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-R (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFGIWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFMEWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
         'properties' => [
@@ -1134,19 +900,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-S (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFMEWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSAWA Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/54.4.4 like Chrome/54.0.2840.85 Safari/537.36',
@@ -1192,19 +945,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-T (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSAWA Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/54.4.4 like Chrome/54.0.2840.85 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-U' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSAWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
         'properties' => [
@@ -1248,19 +988,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-U (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSAWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.2526.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFTBWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
@@ -1306,19 +1033,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-V (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFTBWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/46.1.66 like Chrome/46.0.2490.80 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-W' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; de-de; Silk/1.0.22.153_10033210) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Silk-Accelerated=true',
         'properties' => [
@@ -1362,19 +1076,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-W (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; de-de; Silk/1.0.22.153_10033210) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Silk-Accelerated=true',
-        'properties' => [
-            'Comment' => 'Android Browser 4.0',
-            'Browser' => 'Android',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-X' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML like Gecko) Silk/2.4 Mobile Safari/535.19 Silk-Acceleratedtrue',
@@ -1508,19 +1209,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-Z (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-ca; KFJWA Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.70 like Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-ca; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.68 like Chrome/39.0.2171.93 Safari/537.36',
         'properties' => [
@@ -1564,19 +1252,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-AA (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-ca; KFJWI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.68 like Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; KFJWI Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Silk/2.2 Mobile Safari/535.19 Silk-Accelerated=true',
@@ -1666,19 +1341,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-AC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; KFAPWI Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.32 like Chrome/34.0.1847.137 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; KFTHWI Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.22 like Chrome/34.0.1847.137 Mobile Safari/537.36',
         'properties' => [
@@ -1722,19 +1384,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-AD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; KFTHWI Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.22 like Chrome/34.0.1847.137 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-AE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; KFARWI Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.22 like Chrome/34.0.1847.137 Safari/537.36',
@@ -1780,19 +1429,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-AE (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; KFARWI Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.22 like Chrome/34.0.1847.137 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-gb; KFAPWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.33 like Chrome/34.0.1847.137 Safari/537.36',
         'properties' => [
@@ -1836,19 +1472,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-AF (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-gb; KFAPWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.33 like Chrome/34.0.1847.137 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-AG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-gb; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.46 like Chrome/37.0.2026.117 Safari/537.36',
@@ -1894,19 +1517,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-AG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-gb; KFSAWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.46 like Chrome/37.0.2026.117 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-AH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.44 like Chrome/37.0.2026.117 Safari/537.36',
         'properties' => [
@@ -1950,19 +1560,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-AH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.44 like Chrome/37.0.2026.117 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFSAWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36',
@@ -2008,19 +1605,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1552-AI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFSAWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-1552-AJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.46 like Chrome/37.0.2026.117 Safari/537.36',
         'properties' => [
@@ -2064,19 +1648,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1552-AJ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; xx; KFTHWA Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.46 like Chrome/37.0.2026.117 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1552-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-gb; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.57 like Chrome/37.0.2026.117 Mobile Safari/537.36',
@@ -2136,19 +1707,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,
-    ],
-    'issue-1552-AK (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-gb; SD4930UR Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.57 like Chrome/37.0.2026.117 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
         'full' => false,
     ],
     'issue-1552-AL' => [
