@@ -78,6 +78,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-G800A": "Samsung SM-G800A",
             "SM-T705*": "Samsung SM-T705"
           },
           "platforms": [
@@ -137,12 +138,14 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SGH-I337": "Samsung SGH-I337",
             "SM-A300FU": "Samsung SM-A300FU",
             "SM-A500FU*": "Samsung SM-A500FU",
             "SM-A700F": "Samsung SM-A700F",
             "SM-A9000": "Samsung SM-A9000",
             "SM-G850F": "Samsung SM-G850F",
             "SM-G900F": "Samsung SM-G900F",
+            "SM-N900A": "Samsung SM-N900A",
             "SM-P550": "Samsung SM-P550",
             "SM-T350": "Samsung SM-T350",
             "SM-T355Y": "Samsung SM-T355Y",

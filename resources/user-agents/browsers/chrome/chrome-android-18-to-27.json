@@ -31,6 +31,26 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "F5281": "Hisense F5281",
             "Nexus 5": "LG Nexus 5"
           },
@@ -72,6 +92,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
+            "GT-I9300": "Samsung GT-I9300",
             "GT-I9505": "Samsung GT-I9505",
             "HTC One": "HTC M7",
             "HTC?One_M8": "HTC M8",
@@ -107,7 +128,6 @@
             "GT-I9100P": "Samsung GT-I9100P",
             "GT-I9100T": "Samsung GT-I9100T",
             "GT-I9205": "Samsung GT-I9205",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-I9505*": "Samsung GT-I9505",
             "GT-I9505X*": "Samsung GT-I9505X",
             "GT-N5100": "Samsung GT-N5100",

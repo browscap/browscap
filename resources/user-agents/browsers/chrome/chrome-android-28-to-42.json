@@ -73,6 +73,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-G800A": "Samsung SM-G800A",
             "SM-T705*": "Samsung SM-T705",
             "SM-T807V": "Samsung SM-T807V"
           },
@@ -160,7 +161,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "Nexus 5": "LG Nexus 5"
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Nexus 5": "LG Nexus 5",
+            "SGH-I337": "Samsung SGH-I337"
           },
           "platforms": [
             "Android_5_0",
@@ -335,7 +347,6 @@
             "SM-N7505": "Samsung SM-N7505",
             "SM-N900": "Samsung SM-N900",
             "SM-N9005*": "Samsung SM-N9005",
-            "SM-N900A": "Samsung SM-N900A",
             "SM-N900V": "Samsung SM-N900V",
             "SM-P600": "Samsung SM-P600",
             "SM-P605*": "Samsung SM-P605",
@@ -401,6 +412,15 @@
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
           ]
         },
         {
@@ -723,6 +743,7 @@
             "Ergo Tab Crystal Lite": "Ergo Tab Crystal Lite",
             "FreeTAB 8001 IPS X2 3G+": "MODECOM FreeTAB 8001 IPS X2 3G+",
             "G527-U081": "Huawei G527-U081",
+            "GT-I8190": "Samsung GT-I8190",
             "GT-S7390": "Samsung GT-S7390",
             "HTC?One dual sim": "HTC M8",
             "HUAWEI G525-U00": "Huawei G525-U00",
@@ -753,7 +774,6 @@
             "SCH-R530C": "Samsung SCH-R530C",
             "SHV-E250L": "Samsung SHV-E250L",
             "SM-T2105": "Samsung SM-T2105",
-            "SM-T211": "Samsung SM-T211",
             "Smarty Maxi 10L": "Smarty Maxi 10L",
             "SPH-M840": "Samsung SPH-M840",
             "ST26a": "Sony ST26a",
@@ -775,7 +795,6 @@
             "ASUS Transformer Pad TF300T": "Asus TF300T",
             "B1-A71": "Acer B1-A71",
             "folio100": "Toshiba Folio 100",
-            "GT-I8190": "Samsung GT-I8190",
             "GT-I9100G": "Samsung GT-I9100G",
             "GT-P5113": "Samsung GT-P5113",
             "HTC Desire X": "HTC T328E",

@@ -38,6 +38,7 @@
         {
           "match": "#DEVICE#/*NetFront/#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
           "devices": {
+             "SAMSUNG-GT-S3350": "Samsung GT-S3350",
             "SonyEricssonK550i": "SonyEricsson K550i"
           },
           "platforms": [

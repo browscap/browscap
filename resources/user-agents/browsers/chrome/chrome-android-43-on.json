@@ -143,6 +143,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-G800A": "Samsung SM-G800A",
             "SM-T705*": "Samsung SM-T705",
             "SM-T807V": "Samsung SM-T807V"
           },
@@ -243,7 +244,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "SCH-I545": "Samsung SCH-I545"
+            "SCH-I545": "Samsung SCH-I545",
+            "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
             "Android_5_0",
@@ -253,7 +255,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "Nexus 5": "LG Nexus 5"
+            "Nexus 5": "LG Nexus 5",
+            "SGH-I337": "Samsung SGH-I337"
           },
           "platforms": [
             "Android_5_0",
@@ -422,7 +425,6 @@
             "SM-N7505": "Samsung SM-N7505",
             "SM-N900": "Samsung SM-N900",
             "SM-N9005*": "Samsung SM-N9005",
-            "SM-N900A": "Samsung SM-N900A",
             "SM-N900V": "Samsung SM-N900V",
             "SM-P600": "Samsung SM-P600",
             "SM-P605*": "Samsung SM-P605",
@@ -485,7 +487,6 @@
             "Galaxy Nexus": "Samsung Galaxy Nexus",
             "GT-I9190*": "Samsung GT-I9190",
             "GT-I9195*": "Samsung GT-I9195",
-            "GT-I9300": "Samsung GT-I9300",
             "GT-I9505": "Samsung GT-I9505",
             "GT-I9505*": "Samsung GT-I9505",
             "GT-N5100": "Samsung GT-N5100",
@@ -511,6 +512,24 @@
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
           ]
         },
         {
@@ -829,7 +848,6 @@
             "SCH-R530C": "Samsung SCH-R530C",
             "SHV-E250L": "Samsung SHV-E250L",
             "SM-T2105": "Samsung SM-T2105",
-            "SM-T211": "Samsung SM-T211",
             "Smarty Maxi 10L": "Smarty Maxi 10L",
             "SPH-M840": "Samsung SPH-M840",
             "ST23i": "Sony ST23i",

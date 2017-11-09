@@ -48,7 +48,8 @@
         {
           "match": "#DEVICE#/* NetFront/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "SAMSUNG-GT-C3310": "Samsung GT-C3310"
+            "SAMSUNG-GT-C3310": "Samsung GT-C3310",
+            "SAMSUNG-GT-C3590": "Samsung GT-C3590"
           },
           "platforms": [
             "JAVA"
