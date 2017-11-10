@@ -1233,6 +1233,22 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-513-AC (standard)' => [
+        'ua' => 'HTC7088_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser Generic',
+            'Browser' => 'Android',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-513-AD' => [
         'ua' => 'HTC802t_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [

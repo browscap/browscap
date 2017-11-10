@@ -929,6 +929,22 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-096-BL (standard)' => [
+        'ua' => 'OPPO_R813T/1.0 Linux/3.0.35.7 Android/4.0 Release/11.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2',
+        'properties' => [
+            'Comment' => 'Android Browser Generic',
+            'Browser' => 'Android',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-096-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; sprd-B51+/1.0 Android/2.3.6 Release/fk.ho.hfgi Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         'properties' => [
@@ -2772,6 +2788,22 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-096-Y (standard)' => [
+        'ua' => 'MT6515M-A1+/1.0 Linux/2.6.35.7 Android 2.3.6 Release/12.09.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
+        'properties' => [
+            'Comment' => 'Android Browser Generic',
+            'Browser' => 'Android',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-096-W' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',

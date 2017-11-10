@@ -89,6 +89,22 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-378-B (standard)' => [
+        'ua' => 'Z15A-Z15A/1.0 Linux/2.6.35.7 Android/4.0 Release/03.25.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
+        'properties' => [
+            'Comment' => 'Android Browser Generic',
+            'Browser' => 'Android',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-378-C' => [
         'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.2) (Apple; iPod touch; iPhone OS/7.1.1); YHOO_Search_App/3.1.2',
         'properties' => [
