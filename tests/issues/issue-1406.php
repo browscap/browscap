@@ -19723,7 +19723,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Lumia 730',
+            'Device_Name' => 'Lumia 730 Dual SIM',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
