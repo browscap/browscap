@@ -71,7 +71,6 @@ foreach ($invalidUserAgents as $issue => $ua) {
             'Alpha' => false,
             'Beta' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
