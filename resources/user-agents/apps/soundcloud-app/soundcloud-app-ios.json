@@ -7,8 +7,8 @@
   "userAgents": [
     {
       "userAgent": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",

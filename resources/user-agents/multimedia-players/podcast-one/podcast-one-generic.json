@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "PodcastOne Generic",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PodcastOne Generic",

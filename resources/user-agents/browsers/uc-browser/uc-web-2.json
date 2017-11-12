@@ -181,6 +181,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",

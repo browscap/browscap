@@ -44,7 +44,7 @@
       "userAgent": "Firefox Focus Generic for iOS",
       "platform": "iOS",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox Focus Generic",

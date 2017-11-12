@@ -7,8 +7,8 @@
     {
       "userAgent": "Chrome Generic for iOS",
       "platform": "iOS",
-      "device": "general Mobile Device (Apple)",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",

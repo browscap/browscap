@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Pinterest App Generic for iOS",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic",
@@ -236,9 +236,9 @@
     },
     {
       "userAgent": "Pinterest App Generic for Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic",

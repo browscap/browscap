@@ -64,9 +64,9 @@
     },
     {
       "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App #MAJORVER#.#MINORVER#",

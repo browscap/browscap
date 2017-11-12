@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Sunrise Browser",
-      "platform": "iOS",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {

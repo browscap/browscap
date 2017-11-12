@@ -59,9 +59,9 @@
     },
     {
       "userAgent": "AirWatch Browser for Android",
-      "platform": "iOS",
+      "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "VmWare Browser",

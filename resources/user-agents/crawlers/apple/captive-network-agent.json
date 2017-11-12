@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "CaptiveNetworkAgent",
-      "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CaptiveNetworkAgent",

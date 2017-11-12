@@ -7,9 +7,9 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER# for iOS",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
@@ -59,9 +59,9 @@
     },
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",

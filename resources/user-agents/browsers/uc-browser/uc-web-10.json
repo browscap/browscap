@@ -468,9 +468,9 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
-      "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",

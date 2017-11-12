@@ -240,8 +240,8 @@
     {
       "userAgent": "UC Browser Generic for iOS",
       "platform": "iOS",
-      "device": "general Mobile Device (Apple)",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for iOS",

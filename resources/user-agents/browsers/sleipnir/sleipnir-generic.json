@@ -160,9 +160,9 @@
     },
     {
       "userAgent": "Sleipnir Generic for iOS",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
@@ -218,9 +218,9 @@
     },
     {
       "userAgent": "Sleipnir Generic for Darwin",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",

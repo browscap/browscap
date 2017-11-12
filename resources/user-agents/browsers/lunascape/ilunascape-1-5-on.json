@@ -8,6 +8,7 @@
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",

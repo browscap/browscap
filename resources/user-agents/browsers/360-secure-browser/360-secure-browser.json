@@ -78,8 +78,8 @@
     {
       "userAgent": "360 Secure Browser for iOS",
       "platform": "iOS",
-      "device": "general Mobile Device (Apple)",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "360 Secure Browser for iOS",
