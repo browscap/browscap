@@ -13,14 +13,8 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Browser_Maker": "Mozilla Foundation",
-        "CssVersion": "2",
         "Comment": "Chimera",
-        "Browser": "Chimera",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser": "Chimera"
       },
       "children": [
         {
@@ -29,9 +23,7 @@
             "OSX"
           ],
           "properties": {
-            "Version": "0.6",
-            "MajorVer": "0",
-            "MinorVer": "6"
+            "Version": "0.6"
           }
         },
         {

@@ -16,11 +16,6 @@
         "Browser_Maker": "Gocro, Inc.",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "Crowsnest/0.5*",
           "properties": {
-            "Version": "0.5",
-            "MajorVer": "0",
-            "MinorVer": "5"
+            "Version": "0.5"
           }
         },
         {

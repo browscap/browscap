@@ -14,13 +14,7 @@
         "Comment": "Firefox Focus Generic",
         "Browser": "Firefox Focus",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -50,19 +44,13 @@
       "userAgent": "Firefox Focus Generic for iOS",
       "platform": "iOS",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox Focus Generic",
         "Browser": "Firefox Focus",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

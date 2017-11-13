@@ -19,8 +19,7 @@
           "match": "Mozilla/* (compatible; HTTrack 3.#PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
-            "Version":       "3.0",
-            "MajorVer":      "3"
+            "Version":       "3.0"
           },
           "platforms": [
             "Win98_2", "Windows"
@@ -29,15 +28,13 @@
         {
           "match": "Mozilla/* (compatible; HTTrack 3.*",
           "properties": {
-            "Version":       "3.0",
-            "MajorVer":      "3"
+            "Version":       "3.0"
           }
         },
         {
           "match": "*HTTrack 3.*",
           "properties": {
-            "Version":       "3.0",
-            "MajorVer":      "3"
+            "Version":       "3.0"
           }
         },
         {

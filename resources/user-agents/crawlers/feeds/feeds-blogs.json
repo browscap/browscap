@@ -25,18 +25,14 @@
           "match": "Bloglines/3.1*",
           "properties": {
             "Browser": "BlogLines Web",
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "Bloglines/3.0*",
           "properties": {
             "Browser": "BlogLines Web",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
@@ -68,9 +64,7 @@
           "match": "Irish Blogs Aggregator/*1.0*",
           "properties": {
             "Browser": "Irish Blogs Aggregator",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -96,9 +90,7 @@
           "properties": {
             "Browser": "Bloglovin Bot",
             "Browser_Maker": "bloglovin.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

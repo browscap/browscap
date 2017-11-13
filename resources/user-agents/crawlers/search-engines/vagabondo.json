@@ -18,17 +18,13 @@
         {
           "match": "Mozilla/?.0 (compatible; *Vagabondo/4.0*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
           "match": "Mozilla/?.0 (compatible; *Vagabondo/2.1*",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {
@@ -37,9 +33,7 @@
         {
           "match": "Mozilla/?.0 (Vagabondo/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {

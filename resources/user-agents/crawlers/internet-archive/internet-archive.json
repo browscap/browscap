@@ -12,9 +12,6 @@
         "Browser": "Internet Archive",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "archive.org",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -34,27 +31,21 @@
           "match": "Mozilla/5.0 (compatible; special_archiver/3.1*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; special_archiver/3.2*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; special_archiver/3.3*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
-            "Version": "3.3",
-            "MajorVer": "3",
-            "MinorVer": "3"
+            "Version": "3.3"
           }
         },
         {

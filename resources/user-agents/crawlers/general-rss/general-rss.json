@@ -49,36 +49,28 @@
           "match": "UniversalFeedParser/4.1*",
           "properties": {
             "Browser": "UniversalFeedParser",
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           }
         },
         {
           "match": "UniversalFeedParser/4.*",
           "properties": {
             "Browser": "UniversalFeedParser",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
           "match": "UniversalFeedParser/5.1*",
           "properties": {
             "Browser": "UniversalFeedParser",
-            "Version": "5.1",
-            "MajorVer": "5",
-            "MinorVer": "1"
+            "Version": "5.1"
           }
         },
         {
           "match": "UniversalFeedParser/5.*",
           "properties": {
             "Browser": "UniversalFeedParser",
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
+            "Version": "5.0"
           }
         },
         {
@@ -100,9 +92,7 @@
           "properties": {
             "Browser": "Digg Feed Fetcher",
             "Browser_Maker": "News.me Inc",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX"

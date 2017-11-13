@@ -18,9 +18,7 @@
         {
           "match": "Peeplo Screenshot Bot/0.20*",
           "properties": {
-            "Version": "0.20",
-            "MajorVer": "0",
-            "MinorVer": "20"
+            "Version": "0.20"
           }
         },
         {

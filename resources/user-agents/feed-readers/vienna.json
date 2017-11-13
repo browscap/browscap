@@ -16,8 +16,6 @@
         "Browser": "Vienna",
         "Browser_Maker": "Steve Palmer",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "isSyndicationReader": "true",
         "Browser_Type": "Feed Reader",
         "Crawler": "false"

@@ -12,12 +12,7 @@
         "Comment": "Lunascape Generic",
         "Browser": "Lunascape",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Lunascape Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Lunascape Corporation"
       },
       "children": [
         {
@@ -115,6 +110,7 @@
     {
       "userAgent": "iLunascape Generic",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",

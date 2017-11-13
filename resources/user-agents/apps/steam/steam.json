@@ -13,14 +13,7 @@
         "Comment": "Steam Overlay",
         "Browser": "Steam Overlay",
         "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Application"
       },
       "children": [
         {
@@ -62,14 +55,7 @@
         "Comment": "Steam Client",
         "Browser": "Steam",
         "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Application"
       },
       "children": [
         {

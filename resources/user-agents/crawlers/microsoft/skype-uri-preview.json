@@ -14,11 +14,6 @@
         "Comment": "SkypeUriPreview #MAJORVER#.#MINORVER#",
         "Browser": "SkypeUriPreview",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

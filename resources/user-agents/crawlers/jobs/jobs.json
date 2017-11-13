@@ -18,9 +18,7 @@
           "match": "JobRoboter/1.1*",
           "properties": {
             "Browser": "JobRoboter",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {

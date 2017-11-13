@@ -16,14 +16,7 @@
         "Browser": "Yahoo! App",
         "Browser_Type": "Application",
         "Browser_Maker": "Yahoo! Inc.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

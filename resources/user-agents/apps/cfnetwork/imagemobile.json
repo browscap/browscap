@@ -16,11 +16,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "ImageMobile/1.2* CFNetwork/*",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           },
           "platforms": [
             "Darwin"

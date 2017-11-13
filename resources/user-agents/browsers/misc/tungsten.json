@@ -13,14 +13,7 @@
         "Comment": "Tungsten Browser",
         "Browser": "Tungsten Browser",
         "Browser_Maker": "MSR&Joker",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

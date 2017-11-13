@@ -1,0 +1,108 @@
+{
+  "division": "Chrome Generic for Android",
+  "sortIndex": 1165,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Chrome Generic for Android",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome Generic",
+        "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
+        "JavaApplets": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/*Mobile Safari/*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/*Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/*",
+          "platforms": [
+            "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "*Linux/* Android/5.0* Release/* Browser/applewebkit* Chrome/*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "*Linux/* Android/5.1* Release/* Browser/applewebkit* Chrome/*",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "*Linux/* Android/6.0* Release/* Browser/applewebkit* Chrome/*",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "device": "general TV Device",
+          "platforms": [
+            "Android_GoogleTV_3_2",
+            "Android_GoogleTV"
+          ]
+        },
+        {
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "devices": {
+            "DINO762": "Dino 762 A9",
+            "ELEMENT10 1": "Sencor Element 10.1",
+            "Tablet-PC-4": "CatSound Tablet PC 4",
+            "TBD1083": "Zeki TBD1083",
+            "TBDB863": "Zeki TBDB863",
+            "TBDC1093": "Zeki TBDC1093",
+            "TBDG773": "Zeki TBDG773",
+            "TERRA_101": "GOCLEVER A1021"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "* Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

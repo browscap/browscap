@@ -15,8 +15,6 @@
         "Comment": "Apple PubSub #MAJORVER#.#MINORVER#",
         "Browser": "Apple PubSub",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Maker": "Apple Inc",
         "Browser_Type": "Feed Reader",
         "isSyndicationReader": "true",

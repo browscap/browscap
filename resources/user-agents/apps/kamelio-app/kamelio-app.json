@@ -17,14 +17,7 @@
         "Browser": "Kamelio App",
         "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "false",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {

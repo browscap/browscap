@@ -168,6 +168,11 @@ class DivisionDataValidator implements ValidatorInterface
             . '", please use the "device" keyword'
         );
 
+        $this->checkDeprecatedProperties(
+            $useragentData['properties'],
+            'the properties array contains deprecated properties for key "' . $useragentData['userAgent'] . '"'
+        );
+
         Assertion::keyExists($useragentData, 'children', 'required attibute "children" is missing in userAgents section ' . $index . ' in File ' . $filename);
         Assertion::isArray($useragentData['children'], 'required attibute "children" should be an array in userAgents section ' . $index . ' in File ' . $filename);
         Assertion::notEmpty($useragentData['children'], 'required attibute "children" should be an non-empty array in userAgents section ' . $index . ' in File ' . $filename);
@@ -326,6 +331,11 @@ class DivisionDataValidator implements ValidatorInterface
                 'the properties array contains device data for key "' . $childData['match']
                 . '", please use the "device" or the "devices" keyword'
             );
+
+            $this->checkDeprecatedProperties(
+                $childData['properties'],
+                'the properties array contains deprecated properties for key "' . $childData['match'] . '"'
+            );
         }
     }
 
@@ -393,6 +403,24 @@ class DivisionDataValidator implements ValidatorInterface
             || array_key_exists('Device_Brand_Name', $properties)
             || array_key_exists('isMobileDevice', $properties)
             || array_key_exists('isTablet', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if deprecated properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    public function checkDeprecatedProperties(array $properties, string $message) : void
+    {
+        if (array_key_exists('AolVersion', $properties)
+            || array_key_exists('MinorVer', $properties)
+            || array_key_exists('MajorVer', $properties)
         ) {
             throw new \LogicException($message);
         }

@@ -24,8 +24,7 @@
         {
           "match": "IXI-CT-25/v2.0/Mozilla/4.0 (compatible; 240x320) IXI/Q05A2.4",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
+            "Version": "2.0"
           }
         }
       ]

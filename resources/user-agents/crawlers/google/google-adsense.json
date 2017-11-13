@@ -12,10 +12,6 @@
         "Browser": "AdSense Bot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true",
         "Crawler": "true"
       },
       "children": [
@@ -33,9 +29,7 @@
           "device":"iPhone",
           "engine": "WebKit",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_1",
@@ -48,9 +42,7 @@
           "device":"general Mobile Device (Apple)",
           "engine": "WebKit",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_1",

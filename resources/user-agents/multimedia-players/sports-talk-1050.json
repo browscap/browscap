@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Sports Talk 1050",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sports Talk 1050",

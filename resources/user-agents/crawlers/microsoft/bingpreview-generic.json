@@ -12,9 +12,6 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview Generic",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -67,9 +64,6 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for Windows Phone Generic",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Beta": "true"
       },
@@ -101,9 +95,6 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for iOS Generic",
         "Browser": "BingPreview",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

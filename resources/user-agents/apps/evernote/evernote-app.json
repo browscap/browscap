@@ -14,12 +14,6 @@
         "Browser_Maker": "Evernote Corporation",
         "Browser_Type": "Application",
         "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2",
-        "JavaScript": "false",
         "isSyndicationReader": "false"
       },
       "children": [

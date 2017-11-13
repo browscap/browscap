@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Custom Generic",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Custom Generic",

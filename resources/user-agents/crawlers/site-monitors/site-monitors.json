@@ -60,27 +60,21 @@
           "match": "Mozilla/5.0 (compatible; Chirp/1.0; +http://www.binarycanary.com/chirp.cfm)",
           "properties": {
             "Browser": "BinaryCanary",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0?(compatible; UptimeRobot/2.0*",
           "properties": {
             "Browser": "UptimeRobot",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0?(compatible; UptimeRobot/1.0*",
           "properties": {
             "Browser": "UptimeRobot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -165,9 +159,7 @@
           "match": "Webcheck *",
           "properties": {
             "Browser": "Webcheck",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -193,9 +185,7 @@
           "properties": {
             "Browser": "vSentry",
             "Browser_Maker": "Bromium",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

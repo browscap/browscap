@@ -270,6 +270,34 @@ class PropertyHolder
     }
 
     /**
+     * Determine if the specified property is marked as "deprecated"
+     *
+     * @param string $propertyName
+     *
+     * @return bool
+     */
+    public function isDeprecatedProperty(string $propertyName) : bool
+    {
+        $deprecatedProperties = [
+            'Win16' => 1,
+            'Win32' => 1,
+            'Win64' => 1,
+            'isMobileDevice' => 1,
+            'isTablet' => 1,
+            'Crawler' => 1,
+            'AolVersion' => 1,
+            'MajorVer' => 1,
+            'MinorVer' => 1,
+        ];
+
+        if (isset($deprecatedProperties[$propertyName])) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
      * @param string $property
      * @param string $value
      *

@@ -18,13 +18,7 @@
         "Alpha": "true",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -33,9 +27,7 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -50,9 +42,7 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -67,9 +57,7 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -84,9 +72,7 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

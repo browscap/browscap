@@ -13,14 +13,7 @@
         "Comment": "Overwolf Browser",
         "Browser": "Overwolf Browser",
         "Browser_Maker": "Overwolf",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

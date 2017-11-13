@@ -16,17 +16,14 @@
         "Browser_Maker": "Samsung",
         "Alpha": "false",
         "Beta": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) WebBrowser/1.0* SmartTV Safari/*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
+            "Version": "1.0"
           }
         }
       ]
@@ -45,13 +42,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -63,10 +54,7 @@
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.1* Safari/*",
           "properties": {
-            "Version": "5.1",
-            "MajorVer": "5",
-            "MinorVer": "1",
-            "CssVersion": "3"
+            "Version": "5.1"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -75,9 +63,7 @@
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.0* Safari/*",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "CssVersion": "3"
+            "Version": "5.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -86,9 +72,7 @@
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/4.0* Safari/*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "CssVersion": "3"
+            "Version": "4.0"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

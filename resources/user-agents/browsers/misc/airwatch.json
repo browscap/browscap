@@ -18,13 +18,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -65,9 +59,9 @@
     },
     {
       "userAgent": "AirWatch Browser for Android",
-      "platform": "iOS",
+      "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "VmWare Browser",
@@ -77,13 +71,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

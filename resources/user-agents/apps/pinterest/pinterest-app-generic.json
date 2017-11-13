@@ -6,21 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Pinterest App Generic for iOS",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic",
         "Browser": "Pinterest App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Ericsson Research"
       },
       "children": [
         {
@@ -73,13 +67,7 @@
         "Comment": "Pinterest App Generic",
         "Browser": "Pinterest App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Ericsson Research"
       },
       "children": [
         {
@@ -248,21 +236,15 @@
     },
     {
       "userAgent": "Pinterest App Generic for Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic",
         "Browser": "Pinterest App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Ericsson Research"
       },
       "children": [
         {

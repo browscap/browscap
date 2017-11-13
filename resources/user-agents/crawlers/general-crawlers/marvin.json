@@ -11,18 +11,13 @@
         "Comment": "MedHunt",
         "Browser": "MedHunt",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Marvin v0.3",
           "properties": {
-            "Version": "0.3",
-            "MajorVer": "0",
-            "MinorVer": "3"
+            "Version": "0.3"
           }
         },
         {

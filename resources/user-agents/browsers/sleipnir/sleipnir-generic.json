@@ -11,13 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -166,20 +160,14 @@
     },
     {
       "userAgent": "Sleipnir Generic for iOS",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -230,20 +218,14 @@
     },
     {
       "userAgent": "Sleipnir Generic for Darwin",
-      "device": "general Mobile Device (Apple)",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

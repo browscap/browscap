@@ -13,8 +13,7 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
+use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
 
 class StandardTest extends \PHPUnit\Framework\TestCase
@@ -54,6 +53,11 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      */
     private static $writer;
 
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger;
+
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
@@ -71,8 +75,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
             mkdir($cacheFolder, 0777, true);
         }
 
-        $logger = new Logger('browscap');
-        $logger->pushHandler(new NullHandler(Logger::DEBUG));
+        $logger = new NullLogger();
 
         $version = (string) $buildNumber;
 
@@ -132,11 +135,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
     public function userAgentDataProvider() : array
     {
-        static $data = [];
-
-        if (count($data)) {
-            return $data;
-        }
+        $data = [];
 
         $sourceDirectory = __DIR__ . '/../issues/';
         $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
@@ -193,6 +192,11 @@ class StandardTest extends \PHPUnit\Framework\TestCase
             if (!self::$filter->isOutputProperty($propName, self::$writer)) {
                 continue;
             }
+
+            self::assertFalse(
+                self::$propertyHolder->isDeprecatedProperty($propName),
+                'Actual result expects to test for deprecated property "' . $propName . '"'
+            );
 
             self::assertArrayHasKey(
                 $propName,

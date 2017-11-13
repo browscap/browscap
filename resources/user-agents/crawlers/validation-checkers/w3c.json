@@ -51,11 +51,6 @@
             "Browser": "W3C-mobileOK",
             "Alpha": "false",
             "Beta": "false",
-            "Frames": "false",
-            "IFrames": "false",
-            "Tables": "false",
-            "Cookies": "false",
-            "JavaScript": "false",
             "isSyndicationReader": "false",
             "Crawler": "true"
           }

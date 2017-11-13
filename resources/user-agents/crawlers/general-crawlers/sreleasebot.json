@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; sReleaseBot/6.1*",
           "properties": {
-            "Version": "6.1",
-            "MajorVer": "6",
-            "MinorVer": "1"
+            "Version": "6.1"
           }
         },
         {

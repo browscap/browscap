@@ -13,13 +13,7 @@
         "Comment": "Framabird Generic",
         "Browser": "Framabird",
         "Browser_Maker": "Framasoft",
-        "Browser_Type": "Email Client",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Email Client"
       },
       "children": [
         {

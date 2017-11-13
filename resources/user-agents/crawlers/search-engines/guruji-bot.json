@@ -18,9 +18,7 @@
           "match": "GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -33,9 +31,7 @@
           "match": "Mozilla/5.0 GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -48,9 +44,7 @@
           "match": "Mozilla/5.0 (compatible; GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

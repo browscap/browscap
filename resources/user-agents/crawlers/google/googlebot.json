@@ -12,11 +12,7 @@
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Browser": "Google Bot",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true"
+        "Browser": "Google Bot"
       },
       "children": [
         {
@@ -47,9 +43,7 @@
           "match": "Googlebot-Video/1.0*",
           "properties": {
             "Browser": "Googlebot-Video",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

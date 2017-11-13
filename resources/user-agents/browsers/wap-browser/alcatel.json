@@ -11,12 +11,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Alcatel",
-        "Browser": "Alcatel",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2"
+        "Browser": "Alcatel"
       },
       "children": [
         {

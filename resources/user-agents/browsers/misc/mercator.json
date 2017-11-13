@@ -14,11 +14,6 @@
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -26,8 +21,7 @@
         {
           "match": "Mercator-2.0",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
+            "Version": "2.0"
           }
         }
       ]

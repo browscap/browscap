@@ -12,9 +12,6 @@
         "Browser": "Yahoo Link Preview",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo! Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

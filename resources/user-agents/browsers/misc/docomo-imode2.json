@@ -1,29 +1,21 @@
 {
-  "division": "DoCoMo imode2",
+  "division": "DoCoMo imode#MAJORVER#",
   "versions": [2],
   "sortIndex": 3890,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "DoCoMo imode2",
+      "userAgent": "DoCoMo imode#MAJORVER#",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DoCoMo",
+        "Comment": "DoCoMo imode#MAJORVER#",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Browser": "i-mode Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "CssVersion": "2"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

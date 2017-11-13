@@ -11,17 +11,13 @@
         "Comment": "SpellCheck Bot",
         "Browser": "SpellCheck Bot",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; SpellCheck Bot 0.9*",
           "properties": {
-            "Version": "0.9",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {

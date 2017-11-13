@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; LinkpadBot/1.06*",
           "properties": {
-            "Version": "1.06",
-            "MajorVer": "1",
-            "MinorVer": "06"
+            "Version": "1.06"
           }
         },
         {

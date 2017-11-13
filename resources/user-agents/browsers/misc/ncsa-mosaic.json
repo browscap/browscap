@@ -10,9 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NCSA Mosaic",
-        "Browser": "Mosaic",
-        "Frames": "true",
-        "Tables": "true"
+        "Browser": "Mosaic"
       },
       "children": [
         {
@@ -21,26 +19,20 @@
         {
           "match": "VMS_Mosaic/3.7*",
           "properties": {
-            "Version": "3.7",
-            "MajorVer": "3",
-            "MinorVer": "7"
+            "Version": "3.7"
           }
         },
         {
           "match": "VMS_Mosaic/3.8*",
           "properties": {
-            "Version": "3.8",
-            "MajorVer": "3",
-            "MinorVer": "8"
+            "Version": "3.8"
           }
         },
         {
           "match": "VMS_Mosaic/4.0 (Motif;OpenVMS V8.3 COMPAQ Professional Workstation ) libwww/*_Mosaic",
           "properties": {
             "Browser": "VMS_Mosaic",
-            "Version": "8.3",
-            "MajorVer": "8",
-            "MinorVer": "3"
+            "Version": "8.3"
           }
         }
       ]

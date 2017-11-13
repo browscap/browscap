@@ -14,11 +14,6 @@
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -26,16 +21,13 @@
         {
           "match": "WinWAP-PRO/3.1*",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {
           "match": "WinWAP/3.*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3"
+            "Version": "3.0"
           }
         },
         {

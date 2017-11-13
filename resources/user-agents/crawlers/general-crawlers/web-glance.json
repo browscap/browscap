@@ -23,9 +23,7 @@
           "engine": "WebKit",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           },
           "platforms": [
             "Linux"

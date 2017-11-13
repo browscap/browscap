@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Sunrise Browser",
-      "platform": "iOS",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
@@ -18,13 +18,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

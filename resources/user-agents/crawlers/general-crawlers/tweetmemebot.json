@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (TweetmemeBot/4.0*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
@@ -29,9 +27,7 @@
         {
           "match": "Mozilla/5.0 (compatible; TweetmemeBot/3.0*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {

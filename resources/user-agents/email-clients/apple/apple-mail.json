@@ -17,11 +17,6 @@
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
@@ -67,11 +62,6 @@
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
@@ -235,11 +225,6 @@
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
@@ -247,9 +232,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
+            "Version": "11.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -259,9 +242,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -271,9 +252,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "MinorVer": "0"
+            "Version": "9.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -283,9 +262,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "8.0",
-            "MajorVer": "8",
-            "MinorVer": "0"
+            "Version": "8.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -295,9 +272,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
+            "Version": "7.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -307,9 +282,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "6.0",
-            "MajorVer": "6",
-            "MinorVer": "0"
+            "Version": "6.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -319,9 +292,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
+            "Version": "5.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -331,9 +302,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -343,9 +312,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -355,9 +322,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -367,9 +332,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "device": "Macintosh",
           "platforms": [
@@ -386,9 +349,7 @@
         {
           "match": "Mail/* CFNetwork/760*",
           "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "MinorVer": "0"
+            "Version": "9.0"
           },
           "platforms": [
             "OSX_10_11"
@@ -397,9 +358,7 @@
         {
           "match": "Mail/* CFNetwork/807*",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           },
           "platforms": [
             "OSX_10_12"
@@ -408,9 +367,7 @@
         {
           "match": "Mail/* CFNetwork/811*(x86_64)*",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
+            "Version": "10.0"
           },
           "platforms": [
             "OSX_10_12"
@@ -419,9 +376,7 @@
         {
           "match": "Mail/* CFNetwork/887*(x86_64)*",
           "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
+            "Version": "11.0"
           },
           "platforms": [
             "OSX_10_13"
@@ -442,11 +397,6 @@
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },

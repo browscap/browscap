@@ -7,24 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Instagram App Webview #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER# for iOS",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; SetLinks bot 1.2*",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
@@ -29,9 +27,7 @@
         {
           "match": "SetLinks bot 1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

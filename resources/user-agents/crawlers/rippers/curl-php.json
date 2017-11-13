@@ -12,18 +12,13 @@
         "Browser_Type": "Bot/Crawler",
         "Browser": "cURL PHP",
         "Browser_Maker": "team Haxx",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Curl/PHP 5.4*",
           "properties": {
-            "Version": "5.4",
-            "MajorVer": "5",
-            "MinorVer": "4"
+            "Version": "5.4"
           }
         },
         {

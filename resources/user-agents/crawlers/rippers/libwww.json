@@ -11,57 +11,43 @@
         "Comment": "libwww",
         "Browser": "libwww",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "ShowXML/* libwww/5.4*",
           "properties": {
-            "Version": "5.4",
-            "MajorVer": "5",
-            "MinorVer": "4"
+            "Version": "5.4"
           }
         },
         {
           "match": "libwww-perl/5.8*",
           "properties": {
-            "Version": "5.8",
-            "MajorVer": "5",
-            "MinorVer": "8"
+            "Version": "5.8"
           }
         },
         {
           "match": "Mozilla/* (windows; U; *) Gecko* libwww-perl/6.0*",
           "properties": {
-            "Version": "6.0",
-            "MajorVer": "6"
+            "Version": "6.0"
           }
         },
         {
           "match": "libwww-perl/6.03*",
           "properties": {
-            "Version": "6.03",
-            "MajorVer": "6",
-            "MinorVer": "03"
+            "Version": "6.03"
           }
         },
         {
           "match": "libwww-perl/6.04*",
           "properties": {
-            "Version": "6.04",
-            "MajorVer": "6",
-            "MinorVer": "04"
+            "Version": "6.04"
           }
         },
         {
           "match": "libwww-perl/6.05*",
           "properties": {
-            "Version": "6.05",
-            "MajorVer": "6",
-            "MinorVer": "05"
+            "Version": "6.05"
           }
         },
         {

@@ -467,4 +467,72 @@ class PropertyHolderTest extends TestCase
 
         $this->object->checkValueInArray('Browser_Type', 'bcd');
     }
+
+    /**
+     * Data Provider for the test isDeprecatedProperty
+     *
+     * @return array<string|boolean>[]
+     */
+    public function deprecatedPropertiesDataProvider()
+    {
+        return [
+            ['Comment', false],
+            ['Browser', false],
+            ['Platform', false],
+            ['Platform_Description', false],
+            ['Device_Name', false],
+            ['Device_Maker', false],
+            ['RenderingEngine_Name', false],
+            ['RenderingEngine_Description', false],
+            ['Parent', false],
+            ['Platform_Version', false],
+            ['RenderingEngine_Version', false],
+            ['Version', false],
+            ['MajorVer', true],
+            ['MinorVer', true],
+            ['CssVersion', false],
+            ['AolVersion', true],
+            ['Alpha', false],
+            ['Beta', false],
+            ['Win16', true],
+            ['Win32', true],
+            ['Win64', true],
+            ['Frames', false],
+            ['IFrames', false],
+            ['Tables', false],
+            ['Cookies', false],
+            ['BackgroundSounds', false],
+            ['JavaScript', false],
+            ['VBScript', false],
+            ['JavaApplets', false],
+            ['ActiveXControls', false],
+            ['isMobileDevice', true],
+            ['isSyndicationReader', false],
+            ['isFake', false],
+            ['isAnonymized', false],
+            ['isModified', false],
+            ['Crawler', true],
+            ['lite', false],
+            ['sortIndex', false],
+            ['Parents', false],
+            ['division', false],
+            ['Browser_Type', false],
+            ['Device_Type', false],
+            ['Device_Pointing_Method', false],
+            ['Browser_Maker', false],
+            ['isTablet', true],
+            ['PatternId', false],
+        ];
+    }
+
+    /**
+     * @dataProvider deprecatedPropertiesDataProvider
+     *
+     * @param string $propertyName
+     * @param bool   $isDeprecated
+     */
+    public function testIsDeprecatedProperty(string $propertyName, bool $isDeprecated) : void
+    {
+        self::assertSame($isDeprecated, $this->object->isDeprecatedProperty($propertyName));
+    }
 }

@@ -18,9 +18,7 @@
         {
           "match": "Pingdom.com_bot_version_1.4*",
           "properties": {
-            "Version": "1.4",
-            "MajorVer": "1",
-            "MinorVer": "4"
+            "Version": "1.4"
           }
         },
         {
@@ -33,9 +31,7 @@
           "match": "Mozilla/5.0 (Unknown; Linux x86_64) applewebkit* (*khtml*like*gecko*) PingdomTMS/0.8*",
           "properties": {
             "Browser": "Pingdom Transaction Monitoring",
-            "Version": "0.8",
-            "MajorVer": "0",
-            "MinorVer": "8"
+            "Version": "0.8"
           }
         },
         {

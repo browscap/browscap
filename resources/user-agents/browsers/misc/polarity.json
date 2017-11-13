@@ -14,14 +14,7 @@
         "Comment": "Polarity",
         "Browser": "Polarity",
         "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -54,14 +47,7 @@
         "Comment": "Polarity",
         "Browser": "Polarity",
         "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

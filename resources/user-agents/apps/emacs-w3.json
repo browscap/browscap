@@ -11,21 +11,14 @@
         "Parent": "DefaultProperties",
         "Comment": "Emacs/W3",
         "Browser": "Emacs/W3",
-        "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "false"
+        "Browser_Type": "Application"
       },
       "children": [
         {
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Linux"
@@ -35,9 +28,7 @@
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           },
           "platforms": [
             "Unix"
@@ -46,18 +37,14 @@
         {
           "match": "Emacs/W3/2.*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           },
           "platforms": [
             "Linux"
@@ -67,9 +54,7 @@
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           },
           "platforms": [
             "Unix"
@@ -78,18 +63,14 @@
         {
           "match": "Emacs/W3/3.*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "Linux"
@@ -99,9 +80,7 @@
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "Unix"
@@ -110,9 +89,7 @@
         {
           "match": "Emacs/W3/4.*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {

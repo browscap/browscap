@@ -13,12 +13,7 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN",
         "Browser": "MSN Mobile Proxy",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "true"
       },
       "children": [
         {

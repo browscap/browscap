@@ -7,8 +7,8 @@
   "userAgents": [
     {
       "userAgent": "Daum #MAJORVER#.#MINORVER# for iOS",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -16,15 +16,7 @@
         "Browser": "Daum",
         "Browser_Type": "Application",
         "Browser_Maker": "Daum Kakao Corp",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

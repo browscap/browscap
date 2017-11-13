@@ -19,9 +19,7 @@
           "match": "Proxy Gear Pro/2.1 (#PLATFORM#)*",
           "device": "Windows Desktop",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "Win7_32"

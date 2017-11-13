@@ -17,11 +17,6 @@
         "Browser_Maker": "Flipboard, Inc.",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -29,9 +24,7 @@
         {
           "match": "Flipboard/1.5* CFNetwork/*",
           "properties": {
-            "Version": "1.5",
-            "MajorVer": "1",
-            "MinorVer": "5"
+            "Version": "1.5"
           },
           "platforms": [
             "Darwin"
@@ -40,9 +33,7 @@
         {
           "match": "Flipboard/1.8* CFNetwork/*",
           "properties": {
-            "Version": "1.8",
-            "MajorVer": "1",
-            "MinorVer": "8"
+            "Version": "1.8"
           },
           "platforms": [
             "Darwin"

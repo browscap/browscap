@@ -12,9 +12,6 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "Bing Local Search Bot",
         "Browser": "Bing Local Search Bot",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

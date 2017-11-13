@@ -15,9 +15,7 @@
         "Browser": "Lotus Notes",
         "Browser_Type": "Email Client",
         "Browser_Maker": "IBM",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

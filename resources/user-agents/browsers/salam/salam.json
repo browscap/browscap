@@ -13,14 +13,7 @@
         "Comment": "Salam Browser",
         "Browser": "Salam Browser",
         "Browser_Maker": "SBRO Online Security Solutions",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "1"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

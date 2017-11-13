@@ -13,13 +13,7 @@
         "Comment": "Midori 0.0",
         "Browser": "Midori",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Christian Dywan",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "Christian Dywan"
       },
       "children": [
         {

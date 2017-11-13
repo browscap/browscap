@@ -13,15 +13,9 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Listia Inc.",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Comment": "Listia App",
-        "Browser": "Listia App",
-        "CssVersion": "3"
+        "Browser": "Listia App"
       },
       "children": [
         {
@@ -65,22 +59,16 @@
     },
     {
       "userAgent": "Listia App for Android",
-      "platform": "iOS",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Listia Inc.",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Comment": "Listia App",
-        "Browser": "Listia App",
-        "CssVersion": "3"
+        "Browser": "Listia App"
       },
       "children": [
         {

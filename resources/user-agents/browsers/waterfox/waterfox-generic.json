@@ -13,13 +13,7 @@
         "Comment": "Waterfox Generic",
         "Browser": "Waterfox",
         "Browser_Type": "Browser",
-        "Browser_Maker": "www.waterfoxproject.org",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "www.waterfoxproject.org"
       },
       "children": [
         {

@@ -15,12 +15,6 @@
         "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2",
-        "JavaScript": "false",
         "isSyndicationReader": "false"
       },
       "children": [

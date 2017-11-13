@@ -6,21 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Google+ App",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google+ App",
         "Browser": "Google+ App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Google Inc",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Google Inc"
       },
       "children": [
         {

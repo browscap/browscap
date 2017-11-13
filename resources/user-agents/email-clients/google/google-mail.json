@@ -14,11 +14,6 @@
         "Browser_Maker": "Google Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },

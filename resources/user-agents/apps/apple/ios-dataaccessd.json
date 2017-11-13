@@ -15,8 +15,6 @@
         "Comment": "iOS dataaccessd",
         "Browser": "iOS dataaccessd",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc"
       },

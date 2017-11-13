@@ -16,15 +16,7 @@
         "Browser": "Windows Live Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

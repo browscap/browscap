@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "KNBR 680",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "KNBR 680",

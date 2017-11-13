@@ -15,11 +15,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "billigFluegeFinal App"
@@ -28,9 +23,7 @@
         {
           "match": "billigFluegeFinal/1.6* CFNetwork/*",
           "properties": {
-            "Version": "1.6",
-            "MajorVer": "1",
-            "MinorVer": "6"
+            "Version": "1.6"
           },
           "platforms": [
             "Darwin"

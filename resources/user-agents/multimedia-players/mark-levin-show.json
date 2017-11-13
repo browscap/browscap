@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Mark Levin Show",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mark Levin Show",

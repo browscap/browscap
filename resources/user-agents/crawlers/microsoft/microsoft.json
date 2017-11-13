@@ -106,9 +106,7 @@
           "properties": {
             "Browser": "IIS Site Analysis Web Crawler",
             "Browser_Maker": "www.iis.net",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -122,9 +120,7 @@
           "match": "MS Web Services Client Protocol 1.0*",
           "properties": {
             "Browser": ".NET Framework CLR",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -137,9 +133,7 @@
           "match": "ZDM/4.0; Windows Mobile 8.1*",
           "properties": {
             "Browser": "BackgroundTransferService",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -150,9 +144,7 @@
           "match": "ZDM/4.0; Windows Mobile 8.0*",
           "properties": {
             "Browser": "BackgroundTransferService",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -163,9 +155,7 @@
           "match": "ZDM/4.0; Windows Mobile 7.0*",
           "properties": {
             "Browser": "BackgroundTransferService",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "device": "general Mobile Phone (Touch)",
           "platforms": [

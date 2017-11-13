@@ -16,15 +16,7 @@
         "Browser": "Android",
         "Browser_Type": "Browser",
         "Browser_Maker": "Google Inc",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -1396,9 +1388,7 @@
           "properties": {
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
-            "Version": "Basic",
-            "MajorVer": "Basic",
-            "MinorVer": "0"
+            "Version": "Basic"
           },
           "platforms": [
             "Android_2_3"
@@ -1410,9 +1400,7 @@
           "properties": {
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
-            "Version": "Home",
-            "MajorVer": "Home",
-            "MinorVer": "0"
+            "Version": "Home"
           },
           "platforms": [
             "Android_2_3"

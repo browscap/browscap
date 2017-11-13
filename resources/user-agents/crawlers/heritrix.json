@@ -11,26 +11,19 @@
         "Comment": "Heritrix",
         "Browser": "Heritrix",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible*; heritrix/3.3*",
           "properties": {
-            "Version": "3.3",
-            "MajorVer": "3",
-            "MinorVer": "3"
+            "Version": "3.3"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible*; heritrix/3.2*",
           "properties": {
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
+            "Version": "3.2"
           }
         },
         {
@@ -44,9 +37,7 @@
           "properties": {
             "Browser": "bl.uk_lddc_bot",
             "Browser_Maker": "The British Legal Deposit Libraries",
-            "Version": "3.3",
-            "MajorVer": "3",
-            "MinorVer": "3"
+            "Version": "3.3"
           }
         },
         {
