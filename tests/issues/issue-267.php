@@ -1010,7 +1010,7 @@ return [
         'properties' => [
             'Comment' => 'Tumblr App 14.0',
             'Browser' => 'Tumblr App',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Tumblr, Inc.',
             'Browser_Modus' => 'unknown',

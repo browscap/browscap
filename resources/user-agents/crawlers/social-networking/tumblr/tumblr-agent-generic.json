@@ -1,0 +1,25 @@
+{
+  "division": "Tumblr Agent Generic",
+  "sortIndex": 1992,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tumblr Agent Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tumblr Agent Generic",
+        "Browser": "Tumblr Agent",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Tumblr, Inc.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Tumblr/*"
+        }
+      ]
+    }
+  ]
+}
