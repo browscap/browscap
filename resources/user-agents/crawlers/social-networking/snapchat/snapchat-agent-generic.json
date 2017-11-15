@@ -1,0 +1,37 @@
+{
+  "division": "Snapchat Agent Generic",
+  "sortIndex": 1994,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Snapchat Agent Generic",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snapchat Agent Generic",
+        "Browser": "Snapchat Agent",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Snap Inc.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Snapchat/* (#DEVICE##PLATFORM#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_I_10_3", "iOS_I_10_2", "iOS_I_10_1",
+            "iOS_I"
+          ]
+        },
+        {
+          "match": "Snapchat/*"
+        }
+      ]
+    }
+  ]
+}
