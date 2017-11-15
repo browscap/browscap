@@ -1322,7 +1322,7 @@
       }
     },
     "iOS_I": {
-      "match": "* iOS/*",
+      "match": "* iOS?*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
@@ -1361,6 +1361,33 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.4"
+      }
+    },
+    "iOS_I_10_1": {
+      "match": "* iOS?10.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.1"
+      }
+    },
+    "iOS_I_10_2": {
+      "match": "* iOS?10.2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.2"
+      }
+    },
+    "iOS_I_10_3": {
+      "match": "* iOS?10.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.3"
       }
     },
     "iOS_J": {
