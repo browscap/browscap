@@ -1008,8 +1008,8 @@ return [
     'issue-267-X' => [
         'ua' => 'Tumblr/14.0.835.186',
         'properties' => [
-            'Comment' => 'Tumblr App 14.0',
-            'Browser' => 'Tumblr App',
+            'Comment' => 'Tumblr Agent 14.0',
+            'Browser' => 'Tumblr Agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Tumblr, Inc.',
