@@ -41,7 +41,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1532-B' => [
@@ -84,7 +84,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1532-C' => [
@@ -127,10 +127,10 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
-    'issue-1532-A' => [
+    'issue-1532-D' => [
         'ua' => 'Snapchat/9.45.10.0 (iPhone6,1; iOS 10.1.1; gzip)',
         'properties' => [
             'Comment' => 'Snapchat Agent 9.45',
@@ -170,7 +170,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
 ];
