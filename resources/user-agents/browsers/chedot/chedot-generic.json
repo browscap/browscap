@@ -7,7 +7,7 @@
     {
       "userAgent": "Chedot Generic",
       "platform": "Windows",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chedot/* Safari/*",
+          "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -34,7 +35,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chedot Chrome/* Safari/*",
           "device": "Windows Desktop",
-          "engine": "Blink",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -49,7 +49,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Chedot/* Safari/*",
           "device": "Windows Desktop",
-          "engine": "Blink",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",

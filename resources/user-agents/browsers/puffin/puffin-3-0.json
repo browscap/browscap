@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Puffin #MAJORVER#.#MINORVER#",
-      "engine": "Blink",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,6 +20,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*A?*",
+          "engine": "Blink",
           "devices": {
             "THOT61": "Thornton Pickard THOT61"
           },
@@ -29,6 +30,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*A?*",
+          "engine": "Blink",
           "devices": {
             "LG-E730": "LG E730"
           },
@@ -38,6 +40,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AP*",
+          "engine": "Blink",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -46,6 +49,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AT*",
+          "engine": "Blink",
           "device": "general Tablet",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -54,12 +58,14 @@
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AP*",
+          "engine": "Blink",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AT*",
+          "engine": "Blink",
           "device": "general Tablet",
           "platforms": [
             "Android"
@@ -68,7 +74,6 @@
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*IP*",
           "device": "iPhone",
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -76,7 +81,6 @@
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*IT*",
           "device": "iPad",
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -84,7 +88,6 @@
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*I?*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -95,7 +98,6 @@
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
           },
-          "engine": "WebKit",
           "platforms": [
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
@@ -108,7 +110,6 @@
           "devices": {
             "iPad": "iPad"
           },
-          "engine": "WebKit",
           "platforms": [
             "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C_6_1", "iOS_C_6_0",
@@ -119,7 +120,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS_A",
             "iOS_C"

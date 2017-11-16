@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_1_8",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,6 +20,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
+          "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
@@ -27,6 +28,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
+          "engine": "Gecko",
           "device": "Windows Desktop",
           "platforms": [
            "Win95", "Win98", "Win98_2", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
@@ -35,6 +37,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
+          "engine": "Gecko",
           "device": "Macintosh",
           "platforms": [
             "OSX", "MacPPC_3"
@@ -42,6 +45,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
+          "engine": "Gecko",
           "device": "general Desktop",
           "platforms": [
             "SunOS"
@@ -50,7 +54,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Windows Desktop",
-          "engine": "Gecko_1_8",
           "platforms": [
             "Win95", "Win98", "Win98_2", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
             "WinXPb_32", "WinXPb_v2", "Vista_32", "Win7_32", "Win8_32"
@@ -59,7 +62,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Macintosh",
-          "engine": "Gecko_1_8",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX_PPC_10_4",
@@ -70,7 +72,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Linux Desktop",
-          "engine": "Gecko_1_8",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

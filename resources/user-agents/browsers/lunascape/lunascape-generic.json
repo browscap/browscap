@@ -7,6 +7,7 @@
     {
       "userAgent": "Lunascape Generic",
       "device": "general Desktop",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lunascape Generic",
@@ -87,7 +88,6 @@
         },
         {
           "match": "Mozilla/4.0 (*MSIE *.0; #PLATFORM#; *Lunascape*",
-          "engine": "Trident",
           "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",

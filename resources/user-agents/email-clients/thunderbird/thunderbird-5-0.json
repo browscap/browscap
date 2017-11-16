@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_Dynamic",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
@@ -28,7 +27,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_64", "Win8_32",
@@ -40,7 +38,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_7", "OSX_10_6", "OSX_10_5",
@@ -78,7 +75,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
@@ -86,7 +82,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_64", "Win8_32",
@@ -98,7 +93,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_7", "OSX_10_6", "OSX_10_5",

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Diffbot",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Diffbot",
@@ -16,25 +17,28 @@
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Diffbot/0.1*",
+          "engine": "unknown",
           "properties": {
             "Version": "0.1"
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; Diffbot/*"
+          "match": "Mozilla/5.0 (compatible; Diffbot/*",
+          "engine": "unknown"
         },
         {
           "match": "Diffbot/0.1*",
+          "engine": "unknown",
           "properties": {
             "Version": "0.1"
           }
         },
         {
-          "match": "Diffbot/*"
+          "match": "Diffbot/*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; +http://www.diffbot.com) Chrome/* Safari/*",
-          "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"
@@ -42,7 +46,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# rv:*) Gecko/* Firefox/* (*Diffbot/*; +http://www.diffbot.com)",
-          "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -56,7 +59,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; +http://www.diffbot.com) Chrome/* Safari/*",
-          "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -70,7 +72,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; +http://www.diffbot.com) Chrome/* Safari/*",
-          "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Adbeat",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adbeat",
@@ -17,24 +18,24 @@
       "children": [
         {
           "match": "Mozilla/5.0 (*Linux*x86_64*) adbeat.com* Gecko#PLATFORM# Firefox*",
-          "device": "Linux Desktop",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_04_64"
           ]
         },
         {
           "match": "Mozilla/5.0 (*Linux x86*) adbeat.com* Gecko#PLATFORM# Firefox*",
-          "device": "Linux Desktop",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_04"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Gecko* Firefox*",
-          "device": "Linux Desktop",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32_x86", "Linux"
           ]
@@ -42,7 +43,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Version* Safari*",
           "device": "Macintosh",
-          "engine": "WebKit",
           "platforms": [
             "OSX_10_12", "OSX_10_10",
             "OSX"
@@ -51,7 +51,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* applewebkit* (*khtml*like*gecko*) Chrome* Safari*",
           "device": "Macintosh",
-          "engine": "WebKit",
           "platforms": [
             "OSX_10_11",
             "OSX"
@@ -59,8 +58,8 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Gecko* Firefox*",
-          "device": "Macintosh",
           "engine": "Gecko",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_11"
           ]
@@ -68,7 +67,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* applewebkit* (*khtml*like*gecko*) Chrome* Safari*",
           "device": "Windows Desktop",
-          "engine": "WebKit",
           "platforms": [
             "Win7_64", "Win7_32",
             "Win8_64", "Win8_1_64",
@@ -78,8 +76,8 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com* Gecko* Firefox*",
-          "device": "Windows Desktop",
           "engine": "Gecko",
+          "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32", "Win8_1_64", "Win10_64_B", "Win10_x64_B"
           ]
@@ -87,6 +85,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) adbeat.com*",
           "device": "Linux Desktop",
+          "engine": "unknown",
           "platforms": [
             "Linux_64", "Linux_32_x86", "Linux"
           ]
@@ -96,14 +95,14 @@
           "devices": {
             "iPhone": "iPhone"
           },
-          "engine": "WebKit",
           "platforms": [
             "iOS_A_4_3",
             "iOS_A"
           ]
         },
         {
-          "match": "adbeat_bot*"
+          "match": "adbeat_bot*",
+          "engine": "unknown"
         }
       ]
     }

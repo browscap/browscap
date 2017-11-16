@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "YandexMobileBot Generic",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Mobile Bot Generic",
@@ -18,7 +19,6 @@
         {
           "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/*",
           "device": "iPhone",
-          "engine": "WebKit",
           "platforms": [
             "iOS_C_8_1", "iOS_C_6_0", "iOS_C_4_1",
             "iOS_C"
@@ -27,7 +27,6 @@
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS_C_8_1", "iOS_C_6_0",
             "iOS_C"

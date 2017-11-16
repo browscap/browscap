@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Ntent Browser #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
           "devices": {
             "SM-G935F": "Samsung SM-G935F"
           },
@@ -30,7 +29,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
           "devices": {
             "EPIC F50G": "FiGO F50G",
             "SM-J320M": "Samsung SM-J320M",
@@ -43,6 +41,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
           "devices": {
             "SM-G935F": "Samsung SM-G935F",
             "SM-J510MN": "Samsung SM-J510MN"
@@ -53,6 +52,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
           "devices": {
             "EPIC F50G": "FiGO F50G",
             "U613": "Unnecto U613"
@@ -63,7 +63,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",
@@ -74,6 +73,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",

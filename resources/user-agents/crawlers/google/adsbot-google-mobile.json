@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "AdsBot Google-Mobile",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AdsBot Google-Mobile",
@@ -17,7 +18,6 @@
       "children": [
         {
           "match": "AdsBot?Google?Mobile (?http://www.google.com/mobile/adsbot.html) Mozilla (#DEVICE##PLATFORM#) AppleWebKit (*khtml*like*gecko*)*",
-          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone"
           },
@@ -33,7 +33,6 @@
         },
         {
           "match": "AdsBot?Google?Mobile (?http://www.google.com/mobile/adsbot.html) Mozilla (#PLATFORM#) AppleWebKit (*khtml*like*gecko*)*",
-          "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A",
@@ -42,7 +41,6 @@
         },
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)",
-          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone"
           },
@@ -52,7 +50,8 @@
           ]
         },
         {
-          "match": "AdsBot?Google?Mobile*"
+          "match": "AdsBot?Google?Mobile*",
+          "engine": "unknown"
         }
       ]
     }

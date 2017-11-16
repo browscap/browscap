@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "360Spider",
+      "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "360Spider",
@@ -18,7 +19,6 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident/4.0*)* 360Spider",
           "device": "Windows Desktop",
-          "engine": "Trident_4",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -49,8 +49,8 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*; 360Spider*",
-          "device": "Windows Desktop",
           "engine": "WebKit",
+          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_64", "Vista_32",

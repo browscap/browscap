@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "MSN-Media",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "msnbot-media",
@@ -17,22 +18,24 @@
       "children": [
         {
           "match": "msnbot-media/1.0*",
+          "engine": "unknown",
           "properties": {
             "Version": "1.0"
           }
         },
         {
           "match": "msnbot-media/1.1*",
+          "engine": "unknown",
           "properties": {
             "Version": "1.1"
           }
         },
         {
-          "match": "msnbot-media/*"
+          "match": "msnbot-media/*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) MsnBot-Media /1.0b*",
-          "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",

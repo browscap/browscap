@@ -8,6 +8,7 @@
       "userAgent": "Nokia Browser",
       "platform": "Series40",
       "device": "general Mobile Phone (Nokia)",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser",
@@ -22,7 +23,6 @@
       "children": [
         {
           "match": "#DEVICE#/1.0 (*; Series60/*; #PLATFORM#",
-          "engine": "WebKit",
           "devices": {
             "6600": "Nokia 6600"
           },
@@ -35,13 +35,13 @@
           "devices": {
             "Nokia9300i": "Nokia 9300i"
           },
+          "engine": "unknown",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Safari*",
-          "engine": "WebKit",
           "devices": {
             "GT-I8510C": "Samsung GT-I8510C",
             "I8510": "Samsung GT-I8510",
@@ -109,7 +109,6 @@
         },
         {
           "match": "Mozilla/5.0 (*#DEVICE#/*) applewebkit* (*khtml*like*gecko*)*Safari*",
-          "engine": "WebKit",
           "devices": {
             "Nokia3710fold": "Nokia 3710",
             "Nokia5330XpressMusic": "Nokia 5330",
@@ -122,14 +121,12 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Safari*",
-          "engine": "WebKit",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "#DEVICE#",
-          "engine": "WebKit",
           "devices": {
             "Nokia 5320": "Nokia 5320"
           },
@@ -143,12 +140,14 @@
             "Nokia3510": "Nokia 3510",
             "Nokia3510i": "Nokia 3510i"
           },
+          "engine": "unknown",
           "platforms": [
             "Series30"
           ]
         },
         {
           "match": "#DEVICE#/*",
+          "engine": "unknown",
           "devices": {
             "Nokia110": "Nokia 110",
             "Nokia1120": "Nokia 1120",
@@ -278,7 +277,6 @@
         },
         {
           "match": "#DEVICE#/* applewebkit*",
-          "engine": "WebKit",
           "devices": {
             "Nokia300": "Nokia 300",
             "Nokia3020": "Nokia 3020",
@@ -304,7 +302,6 @@
         },
         {
           "match": "#DEVICE#/*",
-          "engine": "WebKit",
           "devices": {
             "Nokia3230": "Nokia 3230",
             "Nokia3250": "Nokia 3250",
@@ -363,7 +360,6 @@
         },
         {
           "match": "#DEVICE#_*",
-          "engine": "WebKit",
           "devices": {
             "NokiaN95": "Nokia N95"
           },
@@ -373,6 +369,7 @@
         },
         {
           "match": "Nokia*/*",
+          "engine": "unknown",
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "JAVA"

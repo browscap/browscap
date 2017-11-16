@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "WhatsApp",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp",
@@ -21,7 +22,6 @@
         {
           "match": "WhatsApp/2.6* #PLATFORM# Device/iPhone*",
           "platform": "iOS",
-          "engine": "WebKit",
           "device": "iPhone",
           "properties": {
             "Version": "2.6"
@@ -33,14 +33,14 @@
         {
           "match": "WhatsApp/* #PLATFORM# Device/iPhone*",
           "platform": "iOS",
-          "engine": "WebKit",
           "device": "iPhone",
           "platforms": [
             "iOS_H_5_0", "iOS_H"
           ]
         },
         {
-          "match": "WhatsApp*"
+          "match": "WhatsApp*",
+          "engine": "unknown"
         }
       ]
     }

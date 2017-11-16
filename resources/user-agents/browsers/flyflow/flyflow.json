@@ -9,6 +9,7 @@
       "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
@@ -36,7 +37,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "devices": {
             "GT-I9300": "Samsung GT-I9300"
           },
@@ -46,7 +46,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "devices": {
             "GT-I9100G": "Samsung GT-I9100G"
           },
@@ -57,7 +56,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "devices": {
             "HUAWEI T8600": "Huawei T8600"
           },
@@ -67,7 +65,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#AX512 Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "device": "Bmobile AX512",
           "platforms": [
             "Android_4_2"
@@ -75,7 +72,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2",
@@ -93,7 +89,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2",

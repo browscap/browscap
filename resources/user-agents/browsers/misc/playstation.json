@@ -29,10 +29,7 @@
           "engine": "NetFront",
           "platforms": [
             "CellOS"
-          ],
-          "properties": {
-            "CssVersion": "2"
-          }
+          ]
         },
         {
           "match": "Mozilla/* (PLAYSTATION 4*",

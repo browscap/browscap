@@ -8,6 +8,7 @@
       "userAgent": "Sharp",
       "platform": "SymbianOS",
       "device": "general Mobile Phone",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sharp",
@@ -22,7 +23,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (SH05C;FOMA;like Gecko)*",
-          "engine": "Gecko",
           "device": "Sharp SH-05C"
         }
       ]

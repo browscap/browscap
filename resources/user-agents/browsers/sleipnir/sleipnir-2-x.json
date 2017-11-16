@@ -8,6 +8,7 @@
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
       "device": "general Desktop",
+      "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
@@ -19,7 +20,6 @@
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
-          "engine": "Trident_4",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
@@ -31,7 +31,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
-          "engine": "Trident_4",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
@@ -42,8 +41,8 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "engine": "Trident",
+          "device": "Windows Desktop",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -55,8 +54,8 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "engine": "Trident",
+          "device": "Windows Desktop",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -95,7 +94,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
-          "engine": "Trident_4",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -108,7 +106,6 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
-          "engine": "Trident_4",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -120,8 +117,8 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Sleipnir?#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "engine": "Trident",
+          "device": "Windows Desktop",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -132,7 +129,8 @@
           ]
         },
         {
-          "match": "Sleipnir?#MAJORVER#.#MINORVER#*"
+          "match": "Sleipnir?#MAJORVER#.#MINORVER#*",
+          "engine": "unknown"
         }
       ]
     }

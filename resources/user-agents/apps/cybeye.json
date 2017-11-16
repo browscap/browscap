@@ -8,6 +8,7 @@
       "userAgent": "CybEye",
       "platform": "Windows",
       "device": "Windows Desktop",
+      "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CybEye",
@@ -22,7 +23,6 @@
       "children": [
         {
           "match": "CybEye.com/2.0* (compatible; MSIE 9.0; #PLATFORM#; Trident/4.0; *",
-          "engine": "Trident_4",
           "properties": {
             "Version": "2.0"
           },
@@ -32,7 +32,6 @@
         },
         {
           "match": "CybEye.com/* (compatible; MSIE 9.0; #PLATFORM#; Trident/4.0; *",
-          "engine": "Trident_4",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]

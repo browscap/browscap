@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "SecondLife",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SecondLife",
@@ -59,7 +60,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) (SecondLife/4.7* Chrome/* Safari/*",
-          "engine": "Blink",
           "device": "Windows Desktop",
           "properties": {
             "Version": "4.7"
@@ -73,7 +73,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) (SecondLife/* Chrome/* Safari/*",
-          "engine": "Blink",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",

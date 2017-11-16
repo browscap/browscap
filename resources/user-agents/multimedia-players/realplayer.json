@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Realplayer",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RealPlayer",
@@ -23,11 +24,11 @@
           ]
         },
         {
-          "match": "RealPlayer*"
+          "match": "RealPlayer*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#applewebkit* RealPlayer*",
-          "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
             "OSX"

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Google Web Preview",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google",
@@ -25,7 +26,6 @@
         {
           "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "iPad",
-          "engine": "WebKit",
           "platforms": [
             "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
             "iOS_C_8_0",
@@ -35,7 +35,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
             "iOS_C_8_0",
@@ -45,16 +44,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "general Mobile Phone (Touch)",
-          "engine": "WebKit",
           "platforms": [
             "Android_2_3", "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko; Google Web Preview) Version/* Safari/*"
+          "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko; Google Web Preview) Version/* Safari/*",
+          "engine": "unknown"
         },
         {
-          "match": "*Google Web Preview*"
+          "match": "*Google Web Preview*",
+          "engine": "unknown"
         }
       ]
     }

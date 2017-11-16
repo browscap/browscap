@@ -9,7 +9,7 @@
       "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Miui Browser #MAJORVER#.#MINORVER#",
@@ -21,6 +21,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -29,7 +30,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "MI 2S": "Xiaomi MI 2S",
             "MI PAD": "Xiaomi Mi Pad"
@@ -40,7 +40,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

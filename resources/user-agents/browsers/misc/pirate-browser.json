@@ -7,6 +7,7 @@
     {
       "userAgent": "Pirate Browser",
       "device": "Windows Desktop",
+      "engine": "Gecko_23",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pirate Browser",
@@ -17,7 +18,6 @@
       "children": [
         {
           "match": "PB0.6b Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0",
-          "engine": "Gecko_23",
           "properties": {
             "Version": "0.6",
             "Beta": "true"

@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "UC Browser Generic",
-      "engine": "WebKit",
+      "engine": "U2",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "#PLATFORM#) UCWEB*",
+          "engine": "WebKit",
           "platforms": [
             "Android_D_5_1", "Android_D_5_0",
             "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
@@ -29,6 +30,7 @@
         },
         {
           "match": "#PLATFORM#)UCWEB*",
+          "engine": "WebKit",
           "platforms": [
             "Android_C_4_4", "Android_C_4_3", "Android_C_4_2", "Android_C_4_1", "Android_C_4_0",
             "Android_C_2_3", "Android_C_2_2", "Android_C_2_1", "Android_C_2_0",
@@ -38,7 +40,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser*",
-          "engine": "U2",
           "devices": {
             "AO5510": "YU AO5510"
           },
@@ -48,7 +49,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
-          "engine": "U2",
           "platforms": [
             "Android_E_7_1", "Android_E_7_0",
             "Android_E_6_0",
@@ -67,7 +67,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
-          "engine": "U2",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -75,7 +74,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UC Browser/* U2/*",
-          "engine": "U2",
           "platforms": [
             "Android_E_4_4", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
             "Android_E"
@@ -83,28 +81,24 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/*",
-          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/*",
-          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/*",
-          "engine": "U2",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/*",
-          "engine": "U2",
           "device": "general Mobile Device",
           "platforms": [
             "JAVA"
@@ -112,6 +106,7 @@
         },
         {
           "match": "Mozilla/5.0 (Java;*) UCBrowser*UCWEB*Mobile*",
+          "engine": "WebKit",
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
@@ -119,6 +114,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) UC applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_2_3",
             "Android"
@@ -178,7 +174,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/* U2/* Safari/*",
-          "engine": "U2",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -215,7 +210,6 @@
         },
         {
           "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/* U2/* Mobile*",
-          "engine": "U2",
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
@@ -231,6 +225,7 @@
         },
         {
           "match": "Opera (#PLATFORM#) UCWEB*",
+          "engine": "WebKit",
           "platforms": [
             "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
           ]
@@ -304,7 +299,7 @@
     {
       "userAgent": "UC Browser Generic for Desktop",
       "device": "Windows Desktop",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic",
@@ -315,6 +310,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/*",
+          "engine": "WebKit",
           "platforms": [
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
@@ -324,7 +320,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* UBrowser/* Safari/*",
-          "engine": "Blink",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_64", "Win8_1_32",

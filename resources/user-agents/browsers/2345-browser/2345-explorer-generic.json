@@ -7,7 +7,7 @@
     {
       "userAgent": "2345 Explorer Generic",
       "platform": "Windows",
-      "engine": "Blink",
+      "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* 2345Explorer*",
+          "engine": "Blink",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_64", "Win8_1_x64", "Win8_1_32",
@@ -39,8 +40,7 @@
             "Vista_64", "Vista_32",
             "WinXPa_64", "WinXPa_32",
             "Windows"
-          ],
-          "engine": "Trident"
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; Trident/* 2345Explorer*)*",
@@ -52,8 +52,7 @@
             "Vista_64", "Vista_32",
             "WinXPa_64", "WinXPa_32",
             "Windows"
-          ],
-          "engine": "Trident"
+          ]
         }
       ]
     }
