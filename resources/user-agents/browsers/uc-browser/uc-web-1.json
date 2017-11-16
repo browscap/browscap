@@ -9,6 +9,7 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
@@ -20,7 +21,6 @@
       "children": [
         {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "platforms": [
             "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
             "Android_D_2_3", "Android_D_2_2",

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Spinn3r RSS Aggregator",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Spinn3r RSS Aggregator",
@@ -18,7 +19,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
-          "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
             "Version": "2.3"
@@ -29,7 +29,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
-          "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
             "Version": "3.0"
@@ -40,7 +39,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
-          "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
             "Version": "3.1"
@@ -51,14 +49,14 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
-          "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "*Spinn3r*http://spinn3r.com/robot*"
+          "match": "*Spinn3r*http://spinn3r.com/robot*",
+          "engine": "unknown"
         }
       ]
     }

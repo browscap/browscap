@@ -7,7 +7,7 @@
     {
       "userAgent": "CM Browser",
       "platform": "Android",
-      "engine": "Blink",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "Nexus 9*": "HTC Nexus 9"
           },
@@ -30,6 +31,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "SM-G920P": "Samsung SM-G920P",
             "SM-G930A": "Samsung SM-G930A",
@@ -44,6 +46,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "SM-G800A": "Samsung SM-G800A",
             "SM-T807V": "Samsung SM-T807V"
@@ -56,6 +59,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "LGLS770": "LG LS770"
           },
@@ -65,6 +69,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "GT-N7105": "Samsung GT-N7105",
             "Honor": "Huawei U8860"
@@ -75,6 +80,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "K00E": "Asus K00E",
             "SGH-I337": "Samsung SGH-I337",
@@ -86,6 +92,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "devices": {
             "D5303": "Sony D5303",
             "HTC Desire 820": "HTC Desire 820",
@@ -109,6 +116,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Mobile*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -120,6 +128,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
           "device": "general Tablet",
           "platforms": [
             "Android_8_0",
@@ -137,7 +146,6 @@
             "LG-D295": "LG D295",
             "PAP5450": "Prestigio PAP5450"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4"
           ]
@@ -147,7 +155,6 @@
           "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3"
           ]
@@ -158,7 +165,6 @@
             "Lenovo B8000-H": "Lenovo B8000-H",
             "SGH-I337": "Samsung SGH-I337"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2"
           ]
@@ -170,7 +176,6 @@
             "K1 turbo": "Kingzone KZ-168",
             "SM-N900V": "Samsung SM-N900V"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3"
           ]
@@ -208,7 +213,6 @@
             "W200": "ThL W200",
             "W6500": "Philips W6500"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_2"
           ]
@@ -228,7 +232,6 @@
             "Surfer 8.31 3G": "Explay Surfer 8.31 3G",
             "X Point": "TeXet TM-4077"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]
@@ -241,14 +244,12 @@
             "S4702M": "DNS S4702M",
             "TM-5377": "TeXet TM-5377"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* ACHEETAHI/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -256,7 +257,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* ACHEETAHI/*",
-          "engine": "WebKit",
           "device": "general Tablet",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",

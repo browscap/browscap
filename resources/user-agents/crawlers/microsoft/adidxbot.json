@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "adidxbot",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -29,7 +30,6 @@
         },
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; adidxbot/2.0*",
-          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone",
             "iPad": "iPad",
@@ -45,27 +45,32 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; adidxbot/2.0; ?http://www.bing.com/bingbot.htm)",
+          "engine": "unknown",
           "properties": {
             "Version": "2.0"
           }
         },
         {
           "match": "adidxbot/1.1 (?http://search.msn.com/msnbot.htm)",
+          "engine": "unknown",
           "properties": {
             "Version": "1.1"
           }
         },
         {
           "match": "adidxbot/2.0*",
+          "engine": "unknown",
           "properties": {
             "Version": "2.0"
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; adidxbot/*; ?http://www.bing.com/bingbot.htm)"
+          "match": "Mozilla/5.0 (compatible; adidxbot/*; ?http://www.bing.com/bingbot.htm)",
+          "engine": "unknown"
         },
         {
-          "match": "adidxbot/*"
+          "match": "adidxbot/*",
+          "engine": "unknown"
         }
       ]
     }

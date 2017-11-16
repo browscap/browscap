@@ -7,6 +7,7 @@
     {
       "userAgent": "PaleMoon Generic",
       "device": "general Desktop",
+      "engine": "Goanna",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PaleMoon Generic",
@@ -60,7 +61,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* Firefox/* PaleMoon/*",
           "device": "Linux Desktop",
-          "engine": "Goanna",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
@@ -68,7 +68,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* Firefox/* PaleMoon/*",
           "device": "Windows Desktop",
-          "engine": "Goanna",
           "platforms": [
             "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
@@ -82,7 +81,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* PaleMoon/*",
           "device": "Linux Desktop",
-          "engine": "Goanna",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
@@ -90,7 +88,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* PaleMoon/*",
           "device": "Windows Desktop",
-          "engine": "Goanna",
           "platforms": [
             "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",

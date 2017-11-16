@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Nintendo Browser Generic",
-      "engine": "WebKit",
+      "engine": "Presto",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nintendo Browser Generic",
@@ -21,7 +21,6 @@
       "children": [
         {
           "match": "Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50*",
-          "engine": "Presto",
           "device": "Nintendo DS",
           "platforms": [
             "NintendoDS_OS"
@@ -30,7 +29,6 @@
         {
           "match": "Nintendo Wii*",
           "device": "Nintendo Wii",
-          "engine": "Presto",
           "platforms": [
             "NintendoWii_OS"
           ]
@@ -38,7 +36,6 @@
         {
           "match": "Opera/9.00 (Nintendo Wii*)",
           "device": "Nintendo Wii",
-          "engine": "Presto",
           "platforms": [
             "NintendoWii_OS"
           ]
@@ -46,7 +43,6 @@
         {
           "match": "Opera/9.10 (Nintendo Wii*)",
           "device": "Nintendo Wii",
-          "engine": "Presto",
           "platforms": [
             "NintendoWii_OS"
           ]
@@ -54,7 +50,6 @@
         {
           "match": "Opera/9.23 (Nintendo Wii*)",
           "device": "Nintendo Wii",
-          "engine": "Presto",
           "platforms": [
             "NintendoWii_OS"
           ]
@@ -62,7 +57,6 @@
         {
           "match": "Opera/9.30 (Nintendo Wii*)",
           "device": "Nintendo Wii",
-          "engine": "Presto",
           "platforms": [
             "NintendoWii_OS"
           ]
@@ -85,6 +79,7 @@
         },
         {
           "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
           "platforms": [
             "NintendoSwitch_OS"
           ],
@@ -92,6 +87,7 @@
         },
         {
           "match": "Mozilla/5.0 (Nintendo 3DS*) Version/*",
+          "engine": "WebKit",
           "platforms": [
             "Nintendo3DS_OS"
           ],
@@ -99,6 +95,7 @@
         },
         {
           "match": "Mozilla/5.0 (New Nintendo 3DS *) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
           "platforms": [
             "Nintendo3DS_OS"
           ],
@@ -106,6 +103,7 @@
         },
         {
           "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
           "platforms": [
             "NintendoWiiU_OS"
           ],
@@ -113,6 +111,7 @@
         },
         {
           "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *",
+          "engine": "WebKit",
           "platforms": [
             "NintendoWiiU_OS"
           ],

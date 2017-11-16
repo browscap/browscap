@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Spotify Generic",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Spotify",
@@ -17,17 +18,14 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Spotify/* Safari/*",
           "device": "Macintosh",
-          "engine": "WebKit",
           "platforms": [
             "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"
-          ],
-          "properties": {
-            "CssVersion": "3"
-          }
+          ]
         },
         {
           "match": "*Spotify/1.0*",
+          "engine": "unknown",
           "properties": {
             "Browser": "Spotify",
             "Version": "1.0"
@@ -35,6 +33,7 @@
         },
         {
           "match": "*Spotify*",
+          "engine": "unknown",
           "properties": {
             "Browser": "Spotify"
           }

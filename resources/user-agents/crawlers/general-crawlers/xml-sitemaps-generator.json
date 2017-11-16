@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "XML Sitemaps Generator",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "XML Sitemaps Generator",
@@ -16,18 +17,17 @@
       },
       "children": [
         {
-          "match": "XML Sitemaps Generator*"
+          "match": "XML Sitemaps Generator*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps/1.0*",
-          "engine": "Gecko",
           "properties": {
             "Version": "1.0"
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps/*",
-          "engine": "Gecko"
+          "match": "Mozilla/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps/*"
         }
       ]
     }

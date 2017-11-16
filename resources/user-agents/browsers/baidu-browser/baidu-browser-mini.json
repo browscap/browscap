@@ -8,7 +8,7 @@
     {
       "userAgent": "Baidu Browser Mini #MAJORVER#.#MINORVER#",
       "platform": "Android",
-      "engine": "T5",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -40,7 +40,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",

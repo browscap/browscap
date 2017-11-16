@@ -9,6 +9,7 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
@@ -20,7 +21,6 @@
       "children": [
         {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "platforms": [
             "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
             "Android_D_2_3",
@@ -46,7 +46,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2",
@@ -55,7 +54,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus"
           },
@@ -65,7 +63,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "GT-I9082L": "Samsung GT-I9082L",
             "HUAWEI P6-U06": "Huawei P6-U06",
@@ -78,7 +75,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "GT-I8190L": "Samsung GT-I8190L",
             "GT-I8190N": "Samsung GT-I8190N",
@@ -95,7 +91,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "GT-I9100G": "Samsung GT-I9100G",
             "Lenovo A390_ROW": "Lenovo A390"
@@ -106,7 +101,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "AT100": "Toshiba AT100"
           },
@@ -116,7 +110,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "GT-S5830i": "Samsung GT-S5830i",
             "LG-P970": "LG P970"
@@ -127,7 +120,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "devices": {
             "Desire HD": "HTC Desire HD",
             "HTC Desire HD A9191": "HTC Desire HD A9191"
@@ -138,7 +130,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -147,7 +138,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "device": "general Tablet",
           "platforms": [
             "Android_3_2", "Android_3_1", "Android_3_0"
@@ -181,7 +171,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
-      "engine": "WebKit",
+      "engine": "U3",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -205,7 +195,6 @@
         },
         {
           "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
           "devices": {
             "iPad": "iPad"
           },
@@ -219,7 +208,6 @@
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
           "platforms": [
             "iOS_C"
           ]

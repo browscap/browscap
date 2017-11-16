@@ -166,8 +166,8 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
           "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
@@ -471,7 +471,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
-      "engine": "WebKit",
+      "engine": "U2",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -484,7 +484,6 @@
       "children": [
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "platforms": [
             "iOS_D_8_0",
             "iOS_D_7_1", "iOS_D_7_0",

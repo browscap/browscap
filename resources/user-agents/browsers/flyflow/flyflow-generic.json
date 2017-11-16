@@ -8,6 +8,7 @@
       "userAgent": "FlyFlow Generic",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FlyFlow Generic",
@@ -25,7 +26,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/* Version/*Safari/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]

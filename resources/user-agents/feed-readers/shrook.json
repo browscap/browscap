@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Shrook",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Shrook",
@@ -18,7 +19,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Shrook/*",
-          "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX"

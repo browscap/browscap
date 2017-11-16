@@ -8,6 +8,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -110,7 +111,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Safari/*",
-          "engine": "U2",
           "devices": {
             "GT-I9505": "Samsung GT-I9505"
           },
@@ -120,7 +120,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Safari/*",
-          "engine": "U2",
           "devices": {
             "LG-E610*": "LG E610"
           },
@@ -130,7 +129,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Safari/*",
-          "engine": "U2",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2",
@@ -407,7 +405,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "NOKIA6700s": "Nokia 6700s",
             "NOKIAE5-00u": "Nokia E5-00"
@@ -418,7 +415,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "Micromax_A106": "Micromax A106"
           },
@@ -428,7 +424,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
@@ -440,7 +435,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "GT-S5360": "Samsung GT-S5360",
             "GT-S7562": "Samsung GT-S7562",
@@ -455,7 +449,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "GT-9000": "Star GT9000",
             "Lenovo_K910L": "Lenovo K910L"
@@ -466,7 +459,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "CinemaTV_3G": "Explay CinemaTV 3G",
             "GT-I9195": "Samsung GT-I9195",
@@ -490,7 +482,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "HS-U98": "Hisense HS-U98",
             "Lenovo_A706_ROW": "Lenovo A706",
@@ -502,7 +493,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "HTC_Ruby": "HTC Ruby",
             "iDxD8_3G": "Digma iDxD8 3G",
@@ -516,7 +506,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9100P": "Samsung GT-I9100P",
@@ -530,7 +519,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "U8230": "Huawei U8230"
           },
@@ -540,7 +528,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "platforms": [
             "Android_E_7_0",
             "Android_E_6_0",
@@ -557,7 +544,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -565,7 +551,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "Oysters_T72HRi_3G": "Oysters T72HRi 3G"
           },
@@ -575,7 +560,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "Adi_5S": "Artel Adi5S",
             "thl_4400": "ThL 4400",
@@ -587,7 +571,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "QUMO_QUEST_450": "Qumo QUEST 450",
             "SHV-E250S": "Samsung SHV-E250S",
@@ -599,7 +582,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "Lenovo_A376": "Lenovo A376",
             "LG-E612": "LG E612",
@@ -614,7 +596,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "ATLAS_W": "ZTE Atlas W",
             "USCCADR6230US": "HTC Wildfire S ADR6230"
@@ -625,7 +606,6 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "HTC_Desire_S": "HTC Desire S",
             "GT-S5670": "Samsung GT-S5670",
@@ -637,14 +617,12 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(Java; *#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "NokiaC6-00": "Nokia C6-00",
             "NokiaC6-01": "Nokia C6-01"
@@ -655,7 +633,6 @@
         },
         {
           "match": "UCWEB/*(Java; *#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "nokiaasha500dualsim": "Nokia Asha 500 Dual Sim"
           },
@@ -665,7 +642,6 @@
         },
         {
           "match": "UCWEB/*(Java; *#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "ALCATEL_one_touch_818": "Alcatel OT-818",
             "SAMSUNG-SGH-T669": "Samsung SGH-T669",
@@ -677,7 +653,6 @@
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
@@ -685,7 +660,6 @@
         },
         {
           "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "Nokia110": "Nokia 110",
             "Nokia112": "Nokia 112",
@@ -720,7 +694,6 @@
         },
         {
           "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "Nokia200": "Nokia 200",
             "Nokia201": "Nokia 201",
@@ -741,7 +714,6 @@
         },
         {
           "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "devices": {
             "SonyEricssonW910i": "SonyEricsson W910i"
           },
@@ -751,7 +723,6 @@
         },
         {
           "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
-          "engine": "U2",
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
@@ -794,6 +765,7 @@
         },
         {
           "match": "dv(#DEVICE#);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
+          "engine": "unknown",
           "devices": {
             "GT-S6102": "Samsung GT-S6102"
           },
@@ -803,6 +775,7 @@
         },
         {
           "match": "dv(*);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android*",
+          "engine": "unknown",
           "platforms": [
             "Android"
           ]
@@ -885,6 +858,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "device": "Windows Desktop",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -896,7 +870,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#; Desktop) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_64", "Win8_1_32",

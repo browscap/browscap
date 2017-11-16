@@ -7,6 +7,7 @@
     {
       "userAgent": "Sleipnir Generic",
       "device": "general Desktop",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir Generic",
@@ -16,8 +17,8 @@
       "children": [
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir*",
-          "device": "Windows Desktop",
           "engine": "Trident_4",
+          "device": "Windows Desktop",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
@@ -28,8 +29,8 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir*",
-          "device": "Windows Desktop",
           "engine": "Trident_4",
+          "device": "Windows Desktop",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
@@ -41,7 +42,6 @@
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir*",
           "device": "Windows Desktop",
-          "engine": "Trident",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -54,7 +54,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir*",
           "device": "Windows Desktop",
-          "engine": "Trident",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -119,7 +118,6 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Sleipnir*",
           "device": "Windows Desktop",
-          "engine": "Trident",
           "platforms": [
             "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -132,6 +130,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Sleipnir/*",
           "device": "Windows Desktop",
+          "engine": "WebKit",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
@@ -154,7 +153,8 @@
           ]
         },
         {
-          "match": "Sleipnir*"
+          "match": "Sleipnir*",
+          "engine": "unknown"
         }
       ]
     },
@@ -172,7 +172,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile/* Safari/* Sleipnir/*",
-          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
@@ -190,7 +189,6 @@
         },
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile/* Safari/* Sleipnir/*",
-          "engine": "WebKit",
           "devices": {
             "iPad": "iPad"
           },
@@ -207,7 +205,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile/* Safari/* Sleipnir/*",
-          "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A",
@@ -230,7 +227,6 @@
       "children": [
         {
           "match": "Sleipnir/*CFNetwork/711.1*",
-          "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_1"

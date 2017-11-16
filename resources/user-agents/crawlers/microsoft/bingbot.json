@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "BingBot",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -17,12 +18,14 @@
       "children": [
         {
           "match": "Mozilla/5.0 (compatible;*bingbot/2.0*",
+          "engine": "unknown",
           "properties": {
             "Version": "2.0"
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible;*bingbot/*"
+          "match": "Mozilla/5.0 (compatible;*bingbot/*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0* IEMobile/*) like Gecko (compatible; bingbot/2.0*",
@@ -39,7 +42,6 @@
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/2.0*",
           "device": "iPhone",
-          "engine": "WebKit",
           "properties": {
             "Version": "2.0"
           },
@@ -51,7 +53,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/2.0*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "properties": {
             "Version": "2.0"
           },
@@ -63,7 +64,6 @@
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/*",
           "device": "iPhone",
-          "engine": "WebKit",
           "platforms": [
             "iOS_A_7_0",
             "iOS_A"
@@ -72,7 +72,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/*",
           "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
           "platforms": [
             "iOS_A_7_0",
             "iOS_A"
@@ -80,6 +79,7 @@
         },
         {
           "match": "BingAdsAdInsight",
+          "engine": "unknown",
           "properties": {
             "Browser": "Bing Ads AdInsight Bot"
           }

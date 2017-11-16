@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "SpeedCurve WebPage Test",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SpeedCurve WebPage Test",
@@ -63,7 +64,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/?.0* rv:*) like gecko PTST/*",
-          "engine": "Trident",
           "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
@@ -80,7 +80,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/?.0* rv:* PTST?* like gecko",
-          "engine": "Trident",
           "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
@@ -112,7 +111,6 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM# Trident/?.0* PTST?*",
-          "engine": "Trident",
           "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
@@ -129,7 +127,6 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; #PLATFORM# Trident/?.0* PTST?*",
-          "engine": "Trident",
           "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"

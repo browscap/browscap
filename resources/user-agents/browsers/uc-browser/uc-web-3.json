@@ -8,6 +8,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -165,7 +166,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "SAMSUNG; GT-I8350": "Samsung GT-I8350"
           },
@@ -176,7 +176,6 @@
         },
         {
           "match": "UCWEB/*(*#DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "devices": {
             "GT-P3100": "Samsung GT-P3100"
           },
@@ -186,7 +185,6 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
           "platforms": [
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
@@ -198,21 +196,18 @@
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "device": "general Mobile Device",
           "platforms": [
             "JAVA"
@@ -220,7 +215,6 @@
         },
         {
           "match": "UCWEB/*(MIDP-2.0*#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "devices": {
             "A811": "Lexand A811",
             "Beeline Tab": "Beeline Tab",
@@ -236,7 +230,6 @@
         },
         {
           "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "platforms": [
             "JAVA"
           ]
@@ -312,6 +305,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "device": "general Desktop",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
@@ -331,7 +325,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",

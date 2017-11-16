@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "QQbrowser Generic for Android",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -18,7 +18,6 @@
       "children": [
         {
           "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -28,6 +27,7 @@
         },
         {
           "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2",
@@ -36,6 +36,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/* Safari/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -45,7 +46,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/*",
-          "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -56,7 +56,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* MQQBrowser/* Safari/*",
-          "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -69,7 +68,7 @@
     },
     {
       "userAgent": "QQbrowser Generic",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QQbrowser Generic",
@@ -80,10 +79,12 @@
       "children": [
         {
           "match": "MQQBrowser/*",
+          "engine": "WebKit",
           "device": "general Mobile Device (Touch)"
         },
         {
           "match": "MQQBrowser/Mini*",
+          "engine": "WebKit",
           "device": "general Mobile Device (Touch)",
           "properties": {
             "Browser": "QQbrowser Mini"
@@ -94,7 +95,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/*",
-          "engine": "Blink",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -109,7 +109,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/*",
-          "engine": "Blink",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
@@ -118,7 +117,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* QQBrowser/* Safari/*",
-          "engine": "Blink",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",

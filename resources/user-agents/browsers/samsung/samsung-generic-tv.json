@@ -7,6 +7,7 @@
     {
       "userAgent": "Samsung Generic TV",
       "device": "Smart-TV",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Generic TV",
@@ -27,8 +28,7 @@
             "SmartTV2014": "Smart-TV",
             "SmartTV2015": "Smart-TV",
             "SmartTV2016": "Smart-TV"
-          },
-          "engine": "WebKit"
+          }
         },
         {
           "match": "HbbTV/* (*;Samsung;#DEVICE#*) WebKit*",
@@ -36,12 +36,12 @@
             "SmartTV2015;T-HKM6DEUC": "Samsung Series J (2015)",
             "SmartTV2015;T-HKPDEUC": "Samsung Series J (2015)",
             "SmartTV2016;T-HKMFKDEUC": "Samsung Series J (2016)"
-          },
-          "engine": "WebKit"
+          }
         },
         {
           "match": "HbbTV/* (;;;;;) Maple_2011*",
-          "device": "Smart-TV"
+          "device": "Smart-TV",
+          "engine": "unknown"
         }
       ]
     }

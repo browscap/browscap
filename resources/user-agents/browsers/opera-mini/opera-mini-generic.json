@@ -114,10 +114,23 @@
           "platforms": [
             "JAVA"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mini iOS Generic",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini Generic",
+        "Browser": "Opera Mini",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
-          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone"
           },
@@ -128,14 +141,10 @@
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
-          ],
-          "properties": {
-            "CssVersion": "3"
-          }
+          ]
         },
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
-          "engine": "WebKit",
           "devices": {
             "iPad": "iPad"
           },
@@ -146,21 +155,14 @@
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C"
-          ],
-          "properties": {
-            "CssVersion": "3"
-          }
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
-          "engine": "WebKit",
           "platforms": [
             "iOS_A",
             "iOS_C"
-          ],
-          "properties": {
-            "CssVersion": "3"
-          }
+          ]
         }
       ]
     }

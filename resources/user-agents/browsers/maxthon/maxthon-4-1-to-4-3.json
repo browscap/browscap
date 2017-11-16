@@ -284,7 +284,7 @@
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
       "platform": "Windows",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -302,7 +302,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Linux Desktop",
-          "engine": "Blink",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
@@ -310,7 +309,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Windows Desktop",
-          "engine": "Blink",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -322,7 +320,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Windows Desktop",
-          "engine": "Blink",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -334,7 +331,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Macintosh",
-          "engine": "Blink",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
@@ -343,6 +339,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Linux Desktop",
+          "engine": "WebKit",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
@@ -350,6 +347,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
+          "engine": "WebKit",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -361,6 +359,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
+          "engine": "WebKit",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
