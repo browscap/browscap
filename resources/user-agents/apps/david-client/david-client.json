@@ -1,0 +1,38 @@
+{
+  "division": "David Client",
+  "sortIndex": 5150,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "David Client",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "engine": "Trident_7",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "David Client",
+        "Browser": "David Client",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tobit Software AG",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "David Client *Mozilla/5.0 (#PLATFORM#; Trident/7.0; rv:11.0) like Gecko*",
+          "platforms": [
+            "Win7_64", "Win7_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "David Client *",
+          "engine": "Trident"
+        }
+      ]
+    }
+  ]
+}
