@@ -2850,6 +2850,21 @@
             "Browser": "IDwhois Bot",
             "Browser_Maker": "idwhois.info"
           }
+        },
+        {
+          "match": "lua-resty-http/0.10 *",
+          "properties": {
+            "Browser": "Lua HTTP client cosocket driver",
+            "Browser_Maker": "James Hurst",
+            "Version": "0.10"
+          }
+        },
+        {
+          "match": "lua-resty-http/*",
+          "properties": {
+            "Browser": "Lua HTTP client cosocket driver",
+            "Browser_Maker": "James Hurst"
+          }
         }
       ]
     }
