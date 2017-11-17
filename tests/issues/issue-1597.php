@@ -4835,8 +4835,8 @@ return [
     'issue-1597-DK' => [
         'ua' => 'Mail.Ru/1.0',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mail.Ru Group',
@@ -9653,8 +9653,8 @@ return [
     'issue-1597-HR' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Img/2.0; +http://go.mail.ru/help/robots)',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Mail.Ru Group',
@@ -9825,8 +9825,8 @@ return [
     'issue-1597-HV' => [
         'ua' => 'Mozilla/5.0 (compatible; Mail.RU/2.0)',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mail.Ru Group',
