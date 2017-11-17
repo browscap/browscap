@@ -4,7 +4,7 @@ return [
     'issue-1627-A' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9) Gecko/20100722 Eudora/3.0.4',
         'properties' => [
-            'Comment' => 'Eudora OSE',
+            'Comment' => 'Eudora Open Source Edition',
             'Browser' => 'Eudora OSE',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1627-B' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.9.1.9) Gecko/20100722 Eudora/3.0.4',
         'properties' => [
-            'Comment' => 'Eudora OSE',
+            'Comment' => 'Eudora Open Source Edition',
             'Browser' => 'Eudora OSE',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',

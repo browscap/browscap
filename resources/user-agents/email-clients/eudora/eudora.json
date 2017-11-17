@@ -33,7 +33,7 @@
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Eudora OSE",
+        "Comment": "Eudora Open Source Edition",
         "Browser": "Eudora OSE",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Mozilla Foundation",
