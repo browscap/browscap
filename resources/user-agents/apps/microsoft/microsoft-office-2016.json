@@ -93,6 +93,9 @@
         {
           "match": "Microsoft Office Mobile/16.0",
           "device": "general Mobile Phone (Touch)"
+        },
+        {
+          "match": "Microsoft Office/16.0 *"
         }
       ]
     }
