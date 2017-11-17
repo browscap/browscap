@@ -4139,7 +4139,7 @@ return [
             'Browser' => 'Amigo',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Mail.ru',
+            'Browser_Maker' => 'Mail.Ru Group',
             'Browser_Modus' => 'unknown',
             'Version' => '32.0',
             'Platform' => 'WinVista',

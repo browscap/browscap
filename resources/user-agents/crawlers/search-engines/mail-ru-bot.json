@@ -8,8 +8,8 @@
       "userAgent": "Mail.Ru Bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mail.Ru",
-        "Browser": "Mail.Ru",
+        "Comment": "Mail.Ru Bot",
+        "Browser": "Mail.Ru Bot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Mail.Ru Group",
         "Crawler": "true"

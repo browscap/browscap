@@ -651,8 +651,8 @@ return [
     'issue-525-O' => [
         'ua' => 'Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mail.Ru Group',

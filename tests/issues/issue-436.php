@@ -406,8 +406,8 @@ return [
     'issue-436-J' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Fast/2.0; +http://go.mail.ru/help/robots)',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Mail.Ru Group',
@@ -2227,8 +2227,8 @@ return [
     'issue-436-BC' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots; +http://go.mail.ru/help/robots)',
         'properties' => [
-            'Comment' => 'Mail.Ru',
-            'Browser' => 'Mail.Ru',
+            'Comment' => 'Mail.Ru Bot',
+            'Browser' => 'Mail.Ru Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Mail.Ru Group',

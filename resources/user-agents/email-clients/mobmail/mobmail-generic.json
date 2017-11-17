@@ -1,0 +1,29 @@
+{
+  "division": "Mobmail Generic",
+  "sortIndex": 1671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobmail Generic",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobmail Generic",
+        "Browser": "Mobmail",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Kerverus IT Ltd",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "mobmail android*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "Mobmail #MAJORVER#.#MINORVER#",
+  "versions": ["6.1", 6, "5.8", "5.7"],
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobmail #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobmail #MAJORVER#.#MINORVER#",
+        "Browser": "Mobmail",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Kerverus IT Ltd",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "mobmail android #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
