@@ -63,6 +63,9 @@
           ]
         },
         {
+          "match": "Microsoft Office/16.0 (Microsoft Outlook 16.*; Pro)"
+        },
+        {
           "match": "Microsoft Outlook Social Connector (16.*) *"
         },
         {
