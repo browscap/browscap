@@ -1,19 +1,19 @@
 {
-  "division": "Freebox Browser",
+  "division": "Mail Free",
   "sortIndex": 5030,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Freebox Browser",
+      "userAgent": "Mail Free",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "FREE Freebox",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Freebox Browser",
-        "Browser": "Freebox Browser",
-        "Browser_Type": "Browser",
+        "Comment": "Mail Free",
+        "Browser": "Mail Free",
+        "Browser_Type": "Email Client",
         "Browser_Maker": "FREE SAS",
         "Alpha": "false",
         "Beta": "false",
@@ -22,13 +22,13 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/1.0* Safari/*",
+          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Mail Free/1.0* Safari/*",
           "properties": {
             "Version": "1.0"
           }
         },
         {
-          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/* Safari/*"
+          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Mail Free/* Safari/*"
         }
       ]
     }
