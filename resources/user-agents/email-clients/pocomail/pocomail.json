@@ -1,0 +1,33 @@
+{
+  "division": "PocoMail",
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PocoMail",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PocoMail",
+        "Browser": "PocoMail",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "poco systems inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Pocomail/4.8*",
+          "properties": {
+            "Version": "4.8"
+          }
+        },
+        {
+          "match": "Pocomail/*"
+        }
+      ]
+    }
+  ]
+}
