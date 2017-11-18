@@ -78,6 +78,21 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500G": "Samsung SM-A500G",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500M": "Samsung SM-A500M"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "Nexus 7": "Asus Nexus 7"
           },
           "platforms": [

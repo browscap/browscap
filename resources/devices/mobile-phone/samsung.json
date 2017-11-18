@@ -5862,12 +5862,64 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-A5009": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A5009",
+            "Device_Name": "Galaxy A5 Duos (China)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500F",
+            "Device_Name": "Galaxy A5 (Global)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500F1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500F1",
+            "Device_Name": "Galaxy A5 (Korea)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-A500FU": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-A500FU",
-            "Device_Name": "Galaxy A5",
+            "Device_Name": "Galaxy A5 (Europe)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500G",
+            "Device_Name": "Galaxy A5 Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -5881,6 +5933,97 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-A500H",
             "Device_Name": "Galaxy A5 Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500K": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500K",
+            "Device_Name": "Galaxy A5 (Korea)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500L",
+            "Device_Name": "Galaxy A5 (LG U+)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500M",
+            "Device_Name": "Galaxy A5 (Peru, Colombia)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500S",
+            "Device_Name": "Galaxy A5 (Korea)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500W": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500W",
+            "Device_Name": "Galaxy A5 (Rogers)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500Y": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500Y",
+            "Device_Name": "Galaxy A5 (Australia)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A500YZ": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A500YZ",
+            "Device_Name": "Galaxy A5 (Taiwan)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

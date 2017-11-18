@@ -90,6 +90,15 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "K00E": "Asus K00E",
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500K*": "Samsung SM-A500K",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500Y": "Samsung SM-A500Y",
+            "SM-A500YZ": "Samsung SM-A500YZ",
             "SM-G900F*": "Samsung SM-G900F"
           },
           "platforms": [
@@ -189,7 +198,6 @@
             "SC-02F": "Samsung SC-02F",
             "SGH-I337M": "Samsung SGH-I337M",
             "SGH-M919": "Samsung SGH-M919",
-            "SM-A500H": "Samsung SM-A500H",
             "SM-G313HU": "Samsung SM-G313HU",
             "SM-G800F*": "Samsung SM-G800F",
             "SM-G850F*": "Samsung SM-G850F",

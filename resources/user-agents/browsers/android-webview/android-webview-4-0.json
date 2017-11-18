@@ -82,6 +82,29 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500F1": "Samsung SM-A500F1",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500G": "Samsung SM-A500G",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500K*": "Samsung SM-A500K",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500S": "Samsung SM-A500S",
+            "SM-A500W*": "Samsung SM-A500W",
+            "SM-A500Y": "Samsung SM-A500Y",
+            "SM-A500YZ": "Samsung SM-A500YZ"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "HTC One_M8*": "HTC M8",
             "HTC One_E8*": "HTC E8",
             "SM-G800A": "Samsung SM-G800A",
@@ -275,7 +298,6 @@
             "SGH-I337M": "Samsung SGH-I337M",
             "SGH-I467": "Samsung SGH-I467",
             "SGH-M919": "Samsung SGH-M919",
-            "SM-A500H": "Samsung SM-A500H",
             "SM-G313HU": "Samsung SM-G313HU",
             "SM-G355H": "Samsung SM-G355H",
             "SM-G800F*": "Samsung SM-G800F",
