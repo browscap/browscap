@@ -74,6 +74,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Listia/*",
           "devices": {
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500W*": "Samsung SM-A500W"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Listia/*",
+          "devices": {
             "SGH-I337": "Samsung SGH-I337",
             "SM-N900A": "Samsung SM-N900A"
           },

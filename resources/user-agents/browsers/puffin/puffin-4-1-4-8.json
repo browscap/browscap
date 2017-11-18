@@ -33,6 +33,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
+            "SM-A500K*": "Samsung SM-A500K"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
             "THOT61": "Thornton Pickard THOT61"
           },
           "platforms": [

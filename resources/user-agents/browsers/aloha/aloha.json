@@ -31,6 +31,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* AlohaBrowser/*",
           "devices": {
+            "SM-A500G": "Samsung SM-A500G"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* AlohaBrowser/*",
+          "devices": {
             "LGE LG-D855": "LG D855"
           },
           "platforms": [
@@ -41,9 +52,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* AlohaBrowser/*",
           "devices": {
             "MOTOROLA XT907": "Motorola XT907",
-            "SAMSUNG GT-I9195": "Samsung GT-I9195",
-            "SAMSUNG GT-I9301I": "Samsung GT-I9301I",
-            "SAMSUNG-SM-G900A": "Samsung SM-G900A"
+            "GT-I9195": "Samsung GT-I9195",
+            "GT-I9301I": "Samsung GT-I9301I",
+            "SM-G900A": "Samsung SM-G900A"
           },
           "platforms": [
             "Android_4_4"

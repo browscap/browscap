@@ -1,5 +1,5 @@
 {
-  "division": "Naver #MAJORVER#.#MINORVER#",
+  "division": "Naver #MAJORVER#.#MINORVER# for iOS",
   "versions": ["8.2", "8.1", 8, "7.9", "7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7],
   "sortIndex": 884,
   "lite": false,
@@ -49,43 +49,6 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Naver #MAJORVER#.#MINORVER# for Android",
-      "platform": "Android",
-      "engine": "Blink",
-      "device": "general Mobile Phone (Touch)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Naver #MAJORVER#.#MINORVER# for Android",
-        "Browser": "Naver",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation",
-        "Version": "#MAJORVER#.#MINORVER#"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* NAVER(* #MAJORVER#.#MINORVER#.*)",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* NAVER(* #MAJORVER#.#MINORVER#.*)",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
           ]
         }
       ]
