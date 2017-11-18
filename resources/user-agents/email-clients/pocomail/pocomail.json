@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "PocoMail",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PocoMail",
