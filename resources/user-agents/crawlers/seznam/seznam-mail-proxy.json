@@ -1,0 +1,39 @@
+{
+  "division": "Seznam Email Proxy",
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Seznam Email Proxy",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Seznam Email Proxy",
+        "Browser": "Seznam Email Proxy",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Seznam.cz, a.s.",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 SeznamEmailProxy/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 SeznamEmailProxy/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 SeznamEmailProxy/*"
+        }
+      ]
+    }
+  ]
+}
