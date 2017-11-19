@@ -39,7 +39,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux"
           ]
         }
       ]
