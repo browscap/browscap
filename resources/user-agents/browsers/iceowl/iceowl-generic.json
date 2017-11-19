@@ -24,7 +24,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceowl/* Icedove/*",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         }
       ]

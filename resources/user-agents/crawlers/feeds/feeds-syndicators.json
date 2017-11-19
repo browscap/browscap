@@ -267,7 +267,7 @@
             "Browser_Maker": "The Apache Software Foundation"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -279,7 +279,7 @@
             "Browser_Maker": "Kevin Burton"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -291,7 +291,7 @@
             "Browser_Maker": "Rojo Networks"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {

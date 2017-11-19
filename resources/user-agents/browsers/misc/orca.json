@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Orca Browser",
+      "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "Gecko",
       "properties": {
@@ -22,7 +23,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Orca/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
             "Vista_64", "Vista_32", "Vista_x64",

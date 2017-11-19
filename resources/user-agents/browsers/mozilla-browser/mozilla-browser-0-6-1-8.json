@@ -22,7 +22,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200?????",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux_PPC", "Linux"
+            "Linux_64", "Linux_PPC", "Linux"
           ]
         },
         {

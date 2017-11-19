@@ -69,6 +69,7 @@
     {
       "userAgent": "QQbrowser Generic",
       "engine": "Blink",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QQbrowser Generic",
@@ -95,7 +96,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_64", "Win8_1_32",

@@ -7,9 +7,9 @@
   "userAgents": [
     {
       "userAgent": "Postbox #MAJORVER#.#MINORVER#",
-      "platform": "OSX",
+      "platform": "Windows",
       "engine": "Gecko",
-      "device": "Macintosh",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Postbox #MAJORVER#.#MINORVER#",
@@ -25,6 +25,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10",
             "OSX"
@@ -32,7 +33,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

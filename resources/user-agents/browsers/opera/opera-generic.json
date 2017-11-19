@@ -44,7 +44,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -83,14 +83,14 @@
           "match": "Mozilla/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -245,7 +245,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/*Safari/*OPR/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux", "ChromeOS", "ChromeOS_i686"
+            "Linux_64", "Linux", "ChromeOS", "ChromeOS_i686"
           ]
         },
         {

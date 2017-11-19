@@ -22,7 +22,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {

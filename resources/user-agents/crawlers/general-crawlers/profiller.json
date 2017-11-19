@@ -21,7 +21,7 @@
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "CentOS", "Linux_64", "Linux"
           ]
         },
         {
