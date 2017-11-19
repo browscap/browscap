@@ -40,14 +40,6 @@
           "platforms": [
             "Android"
           ]
-        },
-        {
-          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "device": "Sony PS Vita",
-          "platforms": [
-            "PS_Vita"
-          ]
         }
       ]
     }
