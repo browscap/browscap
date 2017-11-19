@@ -48,7 +48,7 @@ return [
         'ua' => 'Mozilla/5.0 (PlayStation Vita 3.18) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2',
         'properties' => [
             'Comment' => 'PlayStation Vita',
-            'Browser' => 'Sony Playstation Vita',
+            'Browser' => 'Playstation Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sony',

@@ -44,7 +44,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PlayStation Vita",
-        "Browser": "Sony Playstation Vita",
+        "Browser": "Playstation Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony"
       },
@@ -62,21 +62,13 @@
         {
           "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/3.2*",
           "engine": "WebKit",
-          "device": "Sony PS Vita",
-          "platforms": [
-            "PS_Vita"
-          ],
           "properties": {
             "Version": "3.2"
           }
         },
         {
           "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/*",
-          "engine": "WebKit",
-          "device": "Sony PS Vita",
-          "platforms": [
-            "PS_Vita"
-          ]
+          "engine": "WebKit"
         }
       ]
     },
