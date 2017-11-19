@@ -4,8 +4,8 @@ return [
     'issue-1668' => [
         'ua' => 'ZoomBot (Linkbot 1.0 http://suite.seozoom.it/bot.html)',
         'properties' => [
-            'Comment' => 'SEOZoom',
-            'Browser' => 'SEOZoom',
+            'Comment' => 'ZoomBot',
+            'Browser' => 'ZoomBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SEO Cube S.r.l.',
