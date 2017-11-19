@@ -1,0 +1,58 @@
+{
+  "division": "StumbleUpon",
+  "sortIndex": 10,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "StumbleUpon",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "StumbleUpon",
+        "Browser": "StumbleUpon",
+        "Browser_Maker": "StumbleUpon, Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Mozilla/5.0 StumbleUpon/*",
+          "engine": "Gecko",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* StumbleUpon/*",
+          "engine": "Gecko",
+          "platforms": [
+            "Win98"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#stumbleupon.com) Gecko/* Firefox/*",
+          "engine": "Gecko",
+          "platforms": [
+            "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#stumbleupon.com) Chrome/* Safari/*",
+          "engine": "Blink",
+          "platforms": [
+            "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#; StumbleUpon.com*",
+          "engine": "Trident",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
