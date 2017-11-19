@@ -1,6 +1,6 @@
 {
   "division": "Instagram App Webview #MAJORVER#.#MINORVER#",
-  "versions": [21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11],
+  "versions": [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11],
   "sortIndex": 1990,
   "lite": false,
   "standard": true,
@@ -26,7 +26,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A"
