@@ -1143,6 +1143,19 @@
             "isTablet": "false"
         }
     },
+    "HTC Nexus One": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus One",
+            "Device_Name": "HTC Nexus One",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC One ME": {
         "standard": false,
         "properties": {

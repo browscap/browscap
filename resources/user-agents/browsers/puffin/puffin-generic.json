@@ -7,7 +7,7 @@
     {
       "userAgent": "Puffin Generic for Android",
       "platform": "Android",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,6 +20,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Mobile Safari/* Puffin/*",
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -39,6 +40,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
           "device": "general Tablet",
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -49,6 +51,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*",
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -67,35 +70,21 @@
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Puffin/* Safari/*",
-          "platforms": [
-            "Android"
-          ]
+          "engine": "WebKit"
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
-          "platforms": [
-            "Android"
-          ]
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*"
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*",
-          "platforms": [
-            "Android"
-          ]
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android"
-          ]
+          "device": "general Tablet"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*AT Chrome/*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android"
-          ]
+          "device": "general Tablet"
         }
       ]
     },
@@ -183,31 +172,19 @@
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*IP*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPhone"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*IP Chrome/*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPhone"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*IT*",
-          "device": "iPad",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPad"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*IT Chrome/*",
-          "device": "iPad",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPad"
         }
       ]
     },
@@ -495,10 +472,7 @@
           ]
         },
         {
-          "match": "Puffin/* CFNetwork/*",
-          "platforms": [
-            "iOS"
-          ]
+          "match": "Puffin/* CFNetwork/*"
         }
       ]
     }

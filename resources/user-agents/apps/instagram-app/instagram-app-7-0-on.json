@@ -1,12 +1,12 @@
 {
-  "division": "Instagram App Webview #MAJORVER#.#MINORVER#",
+  "division": "Instagram App #MAJORVER#.#MINORVER#",
   "versions": [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7],
   "sortIndex": 1990,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App Webview #MAJORVER#.#MINORVER# for Android",
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
@@ -19,6 +19,16 @@
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
+            "Pixel 2": "Google Pixel 2",
+            "Pixel 2 XL": "Google Pixel 2 XL"
+          },
+          "platforms": [
+            "Android_8_1", "Android_8_0"
+          ]
+        },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
           "devices": {
@@ -144,6 +154,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",

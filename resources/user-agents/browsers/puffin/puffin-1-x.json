@@ -117,7 +117,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A"
           ]
@@ -130,11 +129,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS"
-          ]
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*"
         }
       ]
     }

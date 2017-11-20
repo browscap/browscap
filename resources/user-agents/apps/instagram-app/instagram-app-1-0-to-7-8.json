@@ -1,12 +1,12 @@
 {
-  "division": "Instagram App #MAJORVER#.#MINORVER#",
+  "division": "Instagram Agent #MAJORVER#.#MINORVER#",
   "versions": ["7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, 6, 5, "4.2", "4.1", 4, "3.4", "3.3", "3.2", "3.1", 3, 2, "1.1", 1],
   "sortIndex": 1990,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for iOS",
+      "userAgent": "Instagram Agent #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
+      "userAgent": "Instagram Agent #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
@@ -58,10 +58,7 @@
       },
       "children": [
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* Android*",
-          "platforms": [
-            "Android"
-          ]
+          "match": "Instagram #MAJORVER#.#MINORVER#* Android*"
         }
       ]
     }
