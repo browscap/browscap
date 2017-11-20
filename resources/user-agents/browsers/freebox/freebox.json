@@ -8,7 +8,7 @@
       "userAgent": "Freebox Browser",
       "platform": "Linux",
       "engine": "WebKit",
-      "device": "Linux Desktop",
+      "device": "FREE Freebox",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Freebox Browser",
@@ -23,14 +23,12 @@
       "children": [
         {
           "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/1.0* Safari/*",
-          "device": "FREE Freebox",
           "properties": {
             "Version": "1.0"
           }
         },
         {
-          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/* Safari/*",
-          "device": "FREE Freebox"
+          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/* Safari/*"
         }
       ]
     }

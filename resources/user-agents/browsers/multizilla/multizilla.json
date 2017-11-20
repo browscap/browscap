@@ -36,7 +36,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32"
+            "Linux"
           ]
         },
         {

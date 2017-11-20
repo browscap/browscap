@@ -22,7 +22,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "CentOS", "Linux_64", "Linux_32", "Linux"
+            "CentOS", "Linux_64", "Linux"
           ]
         },
         {

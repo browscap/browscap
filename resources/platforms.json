@@ -775,6 +775,15 @@
         "Platform_Version": "11.1"
       }
     },
+    "iOS_A_11_2": {
+      "match": "*CPU iPhone OS 11?2* like Mac OS X*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.2"
+      }
+    },
     "iOS_A_dynamic": {
       "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
       "lite": false,
@@ -1055,6 +1064,15 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "11.1"
+      }
+    },
+    "iOS_C_11_2": {
+      "match": "*CPU OS 11_2* like Mac OS X*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.2"
       }
     },
     "iOS_C_dynamic": {
@@ -1701,12 +1719,6 @@
         "Platform_Bits": "32"
       }
     },
-    "Linux_32": {
-      "match": "*Linux i686*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
-    },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
       "lite": false,
@@ -1725,18 +1737,6 @@
       "properties": {
         "Platform_Bits": "64"
       }
-    },
-    "Linux_32_x586": {
-      "match": "*Linux i586*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
-    },
-    "Linux_32_x86": {
-      "match": "*Linux x86*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
     },
     "Linux_64": {
       "match": "*Linux*x86_64*",

@@ -8,6 +8,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1_9_3",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -22,12 +23,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_x64_2", "WinXPa_32",
             "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32",
@@ -53,12 +53,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_x64_2", "WinXPa_32",
             "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32",

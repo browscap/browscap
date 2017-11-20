@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "Proxy Gear Pro",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Proxy Gear Pro",
@@ -17,7 +19,6 @@
       "children": [
         {
           "match": "Proxy Gear Pro/2.1 (#PLATFORM#)*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "2.1"
           },
@@ -27,7 +28,6 @@
         },
         {
           "match": "Proxy Gear Pro/* (#PLATFORM#)*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win7_32"
           ]

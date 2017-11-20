@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "FlipboardProxy",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FlipboardProxy",
@@ -22,12 +24,11 @@
             "Version": "1.1"
           },
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "1.1"
           },
@@ -64,12 +65,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
             "Win8_64", "Win8_32",

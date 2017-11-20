@@ -24,7 +24,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) rekonq*Safari/*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

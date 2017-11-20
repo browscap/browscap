@@ -38,7 +38,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Safari/* Epiphany/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {
@@ -52,26 +52,26 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Version/*Safari/* Epiphany/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Epiphany/*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) epiphany*",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {

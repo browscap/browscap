@@ -7,6 +7,8 @@
     {
       "userAgent": "PagePeeker",
       "engine": "WebKit",
+      "device": "Linux Desktop",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PagePeeker",
@@ -18,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Safari/* PagePeeker/2.1*",
-          "device": "Linux Desktop",
           "properties": {
             "Version": "2.1"
           },
@@ -28,7 +29,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Safari/* PagePeeker/*",
-          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]

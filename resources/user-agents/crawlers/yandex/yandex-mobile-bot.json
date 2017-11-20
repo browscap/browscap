@@ -8,6 +8,8 @@
     {
       "userAgent": "YandexMobileBot #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Mobile Bot #MAJORVER#.#MINORVER#",
@@ -32,7 +34,6 @@
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A",
             "iOS_C"

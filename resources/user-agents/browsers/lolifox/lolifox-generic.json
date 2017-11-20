@@ -27,7 +27,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* lolifox/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {

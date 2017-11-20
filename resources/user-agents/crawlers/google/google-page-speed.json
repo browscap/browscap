@@ -67,7 +67,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "Linux_64", "Linux"
           ]
         },
         {

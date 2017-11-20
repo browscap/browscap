@@ -103,7 +103,7 @@
           "match": "yacybot (i386 linux *http://yacy.net/bot.html",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32"
+            "Linux"
           ]
         },
         {

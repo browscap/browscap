@@ -48,7 +48,7 @@
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -57,7 +57,7 @@
             "Version": "5.1"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -66,7 +66,7 @@
             "Version": "5.0"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -75,7 +75,7 @@
             "Version": "4.0"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

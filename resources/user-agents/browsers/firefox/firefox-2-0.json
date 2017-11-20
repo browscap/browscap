@@ -22,7 +22,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux_PPC", "Linux"
+            "Linux_64", "Linux_PPC", "Linux"
           ]
         },
         {
@@ -69,7 +69,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* GranParadiso/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -98,7 +98,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* BonEcho/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux_PPC", "Linux"
+            "Linux_64", "Linux_PPC", "Linux"
           ]
         },
         {

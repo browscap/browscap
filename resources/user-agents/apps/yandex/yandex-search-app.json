@@ -33,6 +33,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
           "devices": {
+            "SM-A500F": "Samsung SM-A500F"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
+          "devices": {
             "PS7022MG": "Digma PS7022MG"
           },
           "platforms": [

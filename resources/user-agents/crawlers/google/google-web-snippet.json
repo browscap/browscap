@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Google Web Snippet",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -26,12 +27,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Google (+https://developers.google.com/+/web/snippet/)*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Google (+https://developers.google.com/+/web/snippet/)*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
             "Win8_64", "Win8_32",

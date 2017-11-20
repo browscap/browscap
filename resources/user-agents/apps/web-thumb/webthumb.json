@@ -7,6 +7,8 @@
     {
       "userAgent": "WebThumb",
       "engine": "Gecko_1_9_2",
+      "device": "Linux Desktop",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebThumb",
@@ -18,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb/1.0*",
-          "device": "Linux Desktop",
           "properties": {
             "Version": "1.0"
           },
@@ -28,7 +29,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb/*",
-          "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64_2", "Linux"
           ]

@@ -55,7 +55,7 @@
             "Browser_Maker": "The British Legal Deposit Libraries"
           },
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {

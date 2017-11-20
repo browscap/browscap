@@ -7,6 +7,8 @@
     {
       "userAgent": "Light Browser",
       "engine": "Gecko",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Light Browser",
@@ -21,7 +23,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Light/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
             "Vista_64", "Vista_32",

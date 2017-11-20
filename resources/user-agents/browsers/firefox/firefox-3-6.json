@@ -44,7 +44,7 @@
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -79,7 +79,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_32", "Ubuntu", "Linux_64", "Linux_64_B", "Linux_32", "Linux"
+            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
+            "Linux_64", "Linux_64_B", "Linux"
           ]
         },
         {
@@ -169,7 +170,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_64_B", "Linux_32", "Linux"
+            "Linux_64", "Linux_64_B", "Linux"
           ]
         },
         {

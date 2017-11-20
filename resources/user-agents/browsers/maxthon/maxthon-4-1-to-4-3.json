@@ -8,7 +8,7 @@
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -25,6 +25,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9300I": "Samsung GT-I9300I",
             "SM-N900A": "Samsung SM-N900A"
@@ -35,6 +36,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9500": "Samsung GT-I9500",
             "GT-I9505": "Samsung GT-I9505",
@@ -46,6 +48,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9305": "Samsung GT-I9305",
             "GT-N7100": "Samsung GT-N7100"
@@ -56,6 +59,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9300": "Samsung GT-I9300"
           },
@@ -65,6 +69,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "HUAWEI Y530-U00": "Huawei Y530-U00",
             "NokiaX2DS": "Nokia X2DS"
@@ -75,6 +80,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9060": "Samsung GT-I9060",
             "GT-S7580": "Samsung GT-S7580"
@@ -85,6 +91,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-S5310": "Samsung GT-S5310"
           },
@@ -94,6 +101,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9100": "Samsung GT-I9100"
           },
@@ -104,6 +112,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-S7562": "Samsung GT-S7562"
           },
@@ -113,6 +122,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9100": "Samsung GT-I9100"
           },
@@ -123,6 +133,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "Lenovo A529": "Lenovo A529"
           },
@@ -132,6 +143,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -140,6 +152,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
@@ -149,6 +162,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-S5830i": "Samsung GT-S5830i"
           },
@@ -158,6 +172,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -171,7 +186,6 @@
             "SM-N900": "Samsung SM-N900",
             "SM-N900A": "Samsung SM-N900A"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_5_0",
             "Android_4_4"
@@ -184,14 +198,12 @@
             "Lenovo A328": "Lenovo A328",
             "Lenovo A328t": "Lenovo A328t"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -204,7 +216,6 @@
           "devices": {
             "SM-G950F": "Samsung SM-G950F"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_7_0"
           ]
@@ -216,7 +227,6 @@
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1"
@@ -227,7 +237,6 @@
           "devices": {
             "Redmi Note 3": "Xiaomi Redmi Note 3"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0"
@@ -238,7 +247,6 @@
           "devices": {
             "L50u": "Sony L50u"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -248,10 +256,29 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500G": "Samsung SM-A500G",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500S": "Samsung SM-A500S",
+            "SM-A500W*": "Samsung SM-A500W",
+            "SM-A500Y": "Samsung SM-A500Y"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "SGH-I337": "Samsung SGH-I337",
             "SM-N900A": "Samsung SM-N900A"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_5_0",
             "Android_4_4"
@@ -263,14 +290,12 @@
             "Lenovo A319": "Lenovo A319",
             "SM-G355H": "Samsung SM-G355H"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -285,7 +310,7 @@
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
       "platform": "Windows",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
@@ -303,12 +328,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -319,21 +343,12 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
           ]
         },
         {
@@ -341,12 +356,11 @@
           "device": "Linux Desktop",
           "engine": "WebKit",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -355,11 +369,37 @@
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
           ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Mac",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Browser": "Maxthon",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Maxthon International Limited",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "engine": "Blink",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Macintosh",
-          "engine": "WebKit",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
@@ -367,8 +407,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
-          "device": "Macintosh",
-          "engine": "WebKit",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"

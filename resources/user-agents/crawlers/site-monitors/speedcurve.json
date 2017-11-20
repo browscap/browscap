@@ -7,6 +7,8 @@
     {
       "userAgent": "SpeedCurve WebPage Test",
       "engine": "Trident",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SpeedCurve WebPage Test",
@@ -19,7 +21,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# rv:*) Gecko/20100101 Firefox/* PTST/*",
           "engine": "Gecko",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "Firefox"
           },
@@ -36,7 +37,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
           "engine": "Blink",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "Chrome"
           },
@@ -58,13 +58,12 @@
             "Browser_Modus": "Chrome"
           },
           "platforms": [
-            "Linux_64", "Linux_32",
+            "Linux_64",
             "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/?.0* rv:*) like gecko PTST/*",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
           },
@@ -80,7 +79,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/?.0* rv:* PTST?* like gecko",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
           },
@@ -95,7 +93,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* PTST/*",
           "engine": "WebKit",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "Safari"
           },
@@ -111,7 +108,6 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM# Trident/?.0* PTST?*",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
           },
@@ -127,7 +123,6 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; #PLATFORM# Trident/?.0* PTST?*",
-          "device": "Windows Desktop",
           "properties": {
             "Browser_Modus": "IE"
           },
