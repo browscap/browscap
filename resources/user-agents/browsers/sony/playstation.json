@@ -41,6 +41,7 @@
       "userAgent": "Playstation Vita",
       "platform": "PS_Vita",
       "device": "Sony PS Vita",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PlayStation Vita",
@@ -50,25 +51,24 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit*",
-          "engine": "WebKit"
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit*"
         },
         {
-          "match": "Mozilla/5.0 (PlayStation Vita*"
+          "match": "Mozilla/5.0 (PlayStation Vita*",
+          "engine": "unknown"
         },
         {
-          "match": "Mozilla/* (PlayStation Vita*"
+          "match": "Mozilla/* (PlayStation Vita*",
+          "engine": "unknown"
         },
         {
           "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/3.2*",
-          "engine": "WebKit",
           "properties": {
             "Version": "3.2"
           }
         },
         {
-          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/*",
-          "engine": "WebKit"
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/*"
         }
       ]
     },

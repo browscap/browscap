@@ -105,6 +105,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "Pixel 2": "Google Pixel 2",
+            "Pixel 2 XL": "Google Pixel 2 XL"
+          },
+          "platforms": [
+            "Android_8_1",
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
             "Pixel": "Google Pixel",
             "Pixel XL": "Google Pixel XL"
           },

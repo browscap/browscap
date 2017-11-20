@@ -5,9 +5,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App Generic",
+      "userAgent": "Instagram App Generic for iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App Generic",
@@ -58,12 +59,26 @@
           "platforms": [
             "iOS_E"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Instagram App Generic for Android",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App Generic",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Chrome* Safari* Instagram* Android*",
-          "engine": "Blink",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -73,7 +88,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Safari* Instagram* Android*",
-          "device": "general Mobile Phone (Touch)",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -81,11 +96,22 @@
         },
         {
           "match": "Instagram* Android*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ]
-        },
+          "engine": "WebKit"
+        }
+      ]
+    },
+    {
+      "userAgent": "Instagram App Generic for Windows Phone",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App Generic",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) mobile* Instagram *Windows Phone*",
           "device": "general Mobile Phone (Touch)",

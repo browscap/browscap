@@ -6,9 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Puffin #MAJORVER#.#MINORVER#",
+      "userAgent": "Puffin #MAJORVER#.#MINORVER# for Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin #MAJORVER#.#MINORVER#",
@@ -54,41 +55,38 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
-          "platforms": [
-            "Android"
-          ]
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android"
-          ]
-        },
+          "device": "general Tablet"
+        }
+      ]
+    },
+    {
+      "userAgent": "Puffin #MAJORVER#.#MINORVER# for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Puffin #MAJORVER#.#MINORVER#",
+        "Browser": "Puffin",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "CloudMosa Inc."
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP*",
-          "device": "iPhone",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPhone"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IT*",
-          "device": "iPad",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS"
-          ]
+          "device": "iPad"
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
-          "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS"
-          ]
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*"
         }
       ]
     }

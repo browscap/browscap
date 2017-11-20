@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "Google Pixel 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Pixel 2",
+            "Device_Name": "Pixel 2",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Google Pixel XL": {
         "standard": false,
         "properties": {
@@ -25,13 +38,13 @@
             "isTablet": "false"
         }
     },
-    "HTC Nexus One": {
+    "Google Pixel 2 XL": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Nexus One",
-            "Device_Name": "HTC Nexus One",
-            "Device_Maker": "HTC",
+            "Device_Code_Name": "Pixel 2 XL",
+            "Device_Name": "Pixel 2 XL",
+            "Device_Maker": "LG",
             "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",

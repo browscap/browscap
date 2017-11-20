@@ -1,12 +1,12 @@
 {
-  "division": "Instagram App Webview #MAJORVER#.#MINORVER#",
+  "division": "Instagram App #MAJORVER#.#MINORVER# for iOS",
   "versions": [10, 9],
   "sortIndex": 1990,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App Webview #MAJORVER#.#MINORVER# for iOS",
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
