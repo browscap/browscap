@@ -7,7 +7,8 @@
     {
       "userAgent": "Rival IQ Bot",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rival IQ Bot",
@@ -21,7 +22,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (Rival IQ, rivaliq.com)*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9", "OSX"
+            "OSX_10_9",
+            "OSX"
           ]
         }
       ]

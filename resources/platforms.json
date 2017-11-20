@@ -1719,12 +1719,6 @@
         "Platform_Bits": "32"
       }
     },
-    "Linux_32": {
-      "match": "*Linux i686*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
-    },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
       "lite": false,
@@ -1743,18 +1737,6 @@
       "properties": {
         "Platform_Bits": "64"
       }
-    },
-    "Linux_32_x586": {
-      "match": "*Linux i586*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
-    },
-    "Linux_32_x86": {
-      "match": "*Linux x86*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Linux"
     },
     "Linux_64": {
       "match": "*Linux*x86_64*",

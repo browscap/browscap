@@ -70,7 +70,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

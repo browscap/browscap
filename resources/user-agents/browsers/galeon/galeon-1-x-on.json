@@ -21,13 +21,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/#MAJORVER#.#MINORVER#* Firefox/*",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         },
         {
@@ -40,7 +40,7 @@
         {
           "match": "Mozilla/5.0 Galeon/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux"
           ]
         }
       ]

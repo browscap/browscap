@@ -25,7 +25,7 @@
             "Beta": "true"
           },
           "platforms": [
-            "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
+            "Linux_64", "Linux_64_amd", "Linux"
           ]
         },
         {
@@ -53,7 +53,7 @@
             "Beta": "true"
           },
           "platforms": [
-            "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
+            "Linux_64", "Linux_64_amd", "Linux"
           ]
         },
         {

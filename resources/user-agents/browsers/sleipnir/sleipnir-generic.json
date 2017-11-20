@@ -227,13 +227,13 @@
       "children": [
         {
           "match": "Sleipnir/*CFNetwork/711.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
           "match": "Sleipnir/*CFNetwork/673*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_9"
           ]

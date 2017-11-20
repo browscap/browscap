@@ -24,7 +24,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltopdf Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
+            "ChromeOS", "CentOS", "Linux_64", "Linux"
           ]
         },
         {

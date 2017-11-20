@@ -24,7 +24,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Cunaguaro/*",
           "platforms": [
-            "Linux_32", "Linux_64", "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

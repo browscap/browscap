@@ -8,6 +8,8 @@
     {
       "userAgent": "QQbrowser #MAJORVER#.#MINORVER# for Mac",
       "engine": "Blink",
+      "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QQbrowser #MAJORVER#.#MINORVER#",
@@ -19,7 +21,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* QQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"

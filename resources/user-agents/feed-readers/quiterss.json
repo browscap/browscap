@@ -7,6 +7,8 @@
     {
       "userAgent": "Quite RSS",
       "engine": "WebKit",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Quite RSS",
@@ -19,7 +21,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuiteRSS/* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Vista_x64", "Vista_64", "Vista_32",
@@ -34,7 +35,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuiteRSS/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux"
           ]
         },
         {

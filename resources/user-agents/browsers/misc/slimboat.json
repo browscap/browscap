@@ -7,6 +7,8 @@
     {
       "userAgent": "SlimBoat",
       "engine": "WebKit",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SlimBoat",
@@ -17,7 +19,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SlimBoat/* Chrome/* Version/* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
             "Vista_64", "Vista_32",

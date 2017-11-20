@@ -8,6 +8,7 @@
       "userAgent": "StumbleUpon",
       "platform": "Windows",
       "device": "Windows Desktop",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "StumbleUpon",
@@ -19,21 +20,18 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Mozilla/5.0 StumbleUpon/*",
-          "engine": "Gecko",
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* StumbleUpon/*",
-          "engine": "Gecko",
           "platforms": [
             "Win98"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#stumbleupon.com) Gecko/* Firefox/*",
-          "engine": "Gecko",
           "platforms": [
             "Win7_32"
           ]

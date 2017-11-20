@@ -37,7 +37,7 @@
           "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32_x86", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -87,7 +87,7 @@
           "device": "Linux Desktop",
           "engine": "unknown",
           "platforms": [
-            "Linux_64", "Linux_32_x86", "Linux"
+            "Linux_64", "Linux"
           ]
         },
         {

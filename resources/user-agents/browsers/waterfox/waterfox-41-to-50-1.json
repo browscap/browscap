@@ -22,7 +22,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
+            "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
         {

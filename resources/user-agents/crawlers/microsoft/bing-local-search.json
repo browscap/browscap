@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "Bing Local Search",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -17,7 +19,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (BingLocalSearch)*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64"
           ]
