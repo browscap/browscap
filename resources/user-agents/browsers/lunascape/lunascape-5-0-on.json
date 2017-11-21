@@ -7,8 +7,9 @@
   "userAgents": [
     {
       "userAgent": "Lunascape #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Trident",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lunascape #MAJORVER#.#MINORVER#",
@@ -29,7 +30,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -57,7 +57,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#Trident/7.0* rv:11.0; Lunascape #MAJORVER#.#MINORVER#*) like Gecko*",
           "engine": "Trident_7",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -69,7 +68,6 @@
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -81,7 +79,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -92,7 +89,6 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -103,7 +99,6 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -115,7 +110,6 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/5.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_5",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -127,7 +121,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_5",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -139,7 +132,6 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -151,7 +143,6 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -162,7 +153,6 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -173,7 +163,6 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -185,7 +174,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",

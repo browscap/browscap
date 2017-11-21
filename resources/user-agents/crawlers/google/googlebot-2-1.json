@@ -8,6 +8,7 @@
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Googlebot #MAJORVER#.#MINORVER#",
@@ -20,7 +21,8 @@
       "children": [
         {
           "match": "Googlebot v#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
@@ -54,7 +56,8 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
@@ -74,11 +77,13 @@
         },
         {
           "match": "GoogleBot/#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "*Googlebot/#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         }
       ]
     }

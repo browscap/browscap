@@ -7,7 +7,7 @@
     {
       "userAgent": "Microsoft PowerPoint",
       "engine": "Trident",
-      "device": "general Desktop",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft PowerPoint",
@@ -72,6 +72,7 @@
         },
         {
           "match": "Microsoft Office PowerPoint 2013",
+          "device": "general Desktop",
           "properties": {
             "Version": "2013"
           }

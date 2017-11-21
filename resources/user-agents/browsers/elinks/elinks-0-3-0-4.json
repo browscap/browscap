@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ELinks #MAJORVER#.#MINORVER#",

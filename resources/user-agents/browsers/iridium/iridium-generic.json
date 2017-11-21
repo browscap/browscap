@@ -7,7 +7,7 @@
     {
       "userAgent": "Iridium Browser Generic",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iridium Browser Generic",

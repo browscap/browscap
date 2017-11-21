@@ -7,7 +7,7 @@
     {
       "userAgent": "Waterfox Generic",
       "engine": "Gecko_Dynamic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Waterfox Generic",
@@ -25,7 +25,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/*",
-          "device": "Windows Desktop",
           "platforms": [
             "NT4_64", "NT4_x64",
             "Vista_32", "Vista_x64", "Vista_64",

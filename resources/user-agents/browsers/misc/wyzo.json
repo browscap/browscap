@@ -6,8 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Wyzo Browser",
-      "platform": "OSX",
-      "device": "Macintosh",
+      "device": "Windows Desktop",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
@@ -34,6 +33,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Wyzo/*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_5", "OSX_10_4",
             "OSX"

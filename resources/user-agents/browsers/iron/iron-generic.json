@@ -7,7 +7,7 @@
     {
       "userAgent": "Iron Generic",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron Generic",

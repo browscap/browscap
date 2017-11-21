@@ -8,7 +8,7 @@
     {
       "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
@@ -31,7 +31,8 @@
           }
         },
         {
-          "match": "*/* SEMC-Browser/Symbian/#MAJORVER#.#MINORVER#*"
+          "match": "*/* SEMC-Browser/Symbian/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
         }
       ]
     }

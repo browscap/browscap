@@ -7,6 +7,7 @@
     {
       "userAgent": "SMTBot",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SMTBot",
@@ -38,13 +39,15 @@
         {
           "match": "Mozilla/5.0 (compatible; SMTBot/1.0*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SMTBot/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Safari/* (compatible; SMTBot/1.0*",

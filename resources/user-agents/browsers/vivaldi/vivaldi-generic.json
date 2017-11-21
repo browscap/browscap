@@ -7,7 +7,7 @@
     {
       "userAgent": "Vivaldi Generic",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vivaldi Generic",
@@ -37,7 +37,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Vivaldi/*Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
@@ -65,7 +64,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Vivaldi/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",

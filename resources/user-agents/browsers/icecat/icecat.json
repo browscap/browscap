@@ -7,9 +7,8 @@
   "userAgents": [
     {
       "userAgent": "IceCat #MAJORVER#.#MINORVER#",
-      "platform": "Linux",
       "engine": "Gecko",
-      "device": "Linux Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceCat #MAJORVER#.#MINORVER#",
@@ -24,18 +23,21 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* IceCat/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64_sparc", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* IceCat/#MAJORVER#.#MINORVER#* Firefox/*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64_sparc", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (GNU; rv:*) Gecko* IceCat/#MAJORVER#.#MINORVER#* Firefox/*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]

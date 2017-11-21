@@ -41,7 +41,7 @@
     {
       "userAgent": "Qt Generic for Desktop",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qt Generic for Desktop",

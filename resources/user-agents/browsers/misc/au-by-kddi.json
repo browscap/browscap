@@ -7,7 +7,7 @@
     {
       "userAgent": "AU by KDDI",
       "platform": "Brew",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AU by KDDI",

@@ -7,6 +7,7 @@
     {
       "userAgent": "EasouSpider",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "EasouSpider",
@@ -18,7 +19,8 @@
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; EasouSpider*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (iPhone; #PLATFORM#; EasouSpider*",

@@ -8,7 +8,7 @@
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Flock #MAJORVER#.#MINORVER#",

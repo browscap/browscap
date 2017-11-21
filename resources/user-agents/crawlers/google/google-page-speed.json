@@ -5,7 +5,8 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Google PageSpeed Insights",
+      "userAgent": "Google PageSpeed Insights Mobile",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -64,12 +65,27 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Safari/*",
-          "device": "Linux Desktop",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Version/*Safari/*",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux"
+            "iOS_A",
+            "iOS_C"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Google PageSpeed Insights",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Comment": "Google PageSpeed Insights",
+        "Browser": "Google PageSpeed Insights"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Safari/*",
           "device": "Windows Desktop",
@@ -92,11 +108,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Version/*Safari/*",
-          "device": "general Mobile Device (Apple)",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; Google Page Speed Insights) Chrome/* Safari/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "iOS_A",
-            "iOS_C"
+            "ChromeOS", "Linux_64", "Linux"
           ]
         }
       ]

@@ -7,6 +7,7 @@
     {
       "userAgent": "BingBot",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -19,13 +20,15 @@
         {
           "match": "Mozilla/5.0 (compatible;*bingbot/2.0*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible;*bingbot/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0* IEMobile/*) like Gecko (compatible; bingbot/2.0*",
@@ -80,6 +83,7 @@
         {
           "match": "BingAdsAdInsight",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Browser": "Bing Ads AdInsight Bot"
           }

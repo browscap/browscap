@@ -9,7 +9,7 @@
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinCE",
       "engine": "Trident_3_1",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile #MAJORVER#.#MINORVER#",
@@ -52,6 +52,7 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Vodafone/1.0/HPiPAQDataMessenger/* Browser/VF-Browser/*",
+          "device": "general Mobile Phone",
           "platforms": [
             "WinCE"
           ]
@@ -101,18 +102,21 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "*Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "*(*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "device": "general Mobile Phone",
           "platforms": [
             "WinCE"
           ]

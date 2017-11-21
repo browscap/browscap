@@ -8,7 +8,8 @@
     {
       "userAgent": "Avast SafeZone #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avast SafeZone #MAJORVER#.#MINORVER#",

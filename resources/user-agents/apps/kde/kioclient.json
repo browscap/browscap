@@ -8,7 +8,8 @@
     {
       "userAgent": "kioclient #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "kioclient #MAJORVER#.#MINORVER#",

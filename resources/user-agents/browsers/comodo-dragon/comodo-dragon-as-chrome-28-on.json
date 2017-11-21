@@ -7,9 +7,9 @@
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER# (as Chrome)",
-      "platform": "Linux",
+      "platform": "Windows",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",

@@ -8,7 +8,8 @@
     {
       "userAgent": "Miro #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Miro #MAJORVER#.#MINORVER#",
@@ -20,7 +21,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Miro/#MAJORVER#.#MINORVER#*",
-          "device": "Macintosh",
           "platforms": [
             "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"

@@ -8,7 +8,7 @@
     {
       "userAgent": "Conkeror #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Conkeror #MAJORVER#.#MINORVER#",

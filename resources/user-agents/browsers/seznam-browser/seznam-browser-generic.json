@@ -7,7 +7,7 @@
     {
       "userAgent": "Seznam Browser Generic",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Seznam Browser Generic",
@@ -22,7 +22,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Seznam.cz/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -36,7 +35,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* SznProhlizec/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -68,7 +66,7 @@
     {
       "userAgent": "Seznam Browser Generic for Android",
       "engine": "Blink",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Tablet",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -84,6 +82,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_7_0",
             "Android_6_0",

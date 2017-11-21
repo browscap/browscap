@@ -8,6 +8,7 @@
     {
       "userAgent": "Microsoft Zune #MAJORVER#.#MINORVER#",
       "engine": "Trident_4",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Zune #MAJORVER#.#MINORVER#",
@@ -29,7 +30,8 @@
         },
         {
           "match": "Zune/#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident/5.0*; Zune #MAJORVER#.#MINORVER#*",

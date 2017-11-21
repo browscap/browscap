@@ -8,7 +8,7 @@
     {
       "userAgent": "Brave #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Brave #MAJORVER#.#MINORVER#",

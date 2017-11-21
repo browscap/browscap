@@ -9,7 +9,7 @@
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -61,10 +61,12 @@
           }
         },
         {
-          "match": "*Dolphin/#MAJORVER#.#MINORVER#*"
+          "match": "*Dolphin/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device"
         },
         {
-          "match": "*Dolfin/#MAJORVER#.#MINORVER#*"
+          "match": "*Dolfin/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device"
         }
       ]
     }

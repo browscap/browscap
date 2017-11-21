@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "UR Browser #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
@@ -20,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* UR*/#MAJORVER#.* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",

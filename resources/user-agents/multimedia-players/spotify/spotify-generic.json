@@ -7,6 +7,7 @@
     {
       "userAgent": "Spotify Generic",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Spotify",
@@ -26,6 +27,7 @@
         {
           "match": "*Spotify/1.0*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Browser": "Spotify",
             "Version": "1.0"
@@ -34,6 +36,7 @@
         {
           "match": "*Spotify*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Browser": "Spotify"
           }

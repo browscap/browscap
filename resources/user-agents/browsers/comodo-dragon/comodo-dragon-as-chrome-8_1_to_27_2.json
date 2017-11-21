@@ -9,7 +9,7 @@
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER# (as Chrome)",
       "platform": "Linux",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",

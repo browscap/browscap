@@ -6,9 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
@@ -62,10 +63,40 @@
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
-            "Android",
-            "RIMOS"
+            "Android"
           ]
         },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Browser": "OneBrowser",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
           "device": "general Mobile Device (Apple)",
@@ -81,46 +112,60 @@
         },
         {
           "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android",
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Browser": "OneBrowser",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
             "RIMOS"
           ]
         },
         {
           "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
-            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android",
             "RIMOS"
           ]
         },
         {
           "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
-            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
-            "iOS_A"
+            "RIMOS"
           ]
         },
         {

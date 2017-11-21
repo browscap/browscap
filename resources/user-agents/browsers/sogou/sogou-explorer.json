@@ -8,7 +8,7 @@
     {
       "userAgent": "Sogou Explorer #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Explorer #MAJORVER#.#MINORVER#",
@@ -32,7 +32,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Win98_2", "NT4", "NT4_1", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",

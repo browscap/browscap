@@ -7,6 +7,7 @@
     {
       "userAgent": "WhatsApp",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp",
@@ -40,7 +41,8 @@
         },
         {
           "match": "WhatsApp*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         }
       ]
     }

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "BingPreview Generic",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -50,7 +51,8 @@
           ]
         },
         {
-          "match": "Mozilla/* (*) applewebkit* (*khtml*like*gecko*) BingPreview/*"
+          "match": "Mozilla/* (*) applewebkit* (*khtml*like*gecko*) BingPreview/*",
+          "device": "unknown"
         }
       ]
     },

@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "MSN Mobile Proxy",
-      "device": "general Mobile Device",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -18,7 +18,6 @@
       "children": [
         {
           "match": "Mozilla/* (compatible*; MSIE *; Windows*; MSN Mobile Proxy)",
-          "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]

@@ -8,7 +8,7 @@
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
       "engine": "Presto",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",

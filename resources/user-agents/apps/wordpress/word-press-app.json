@@ -7,7 +7,7 @@
     {
       "userAgent": "WordPress App",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WordPress App",
@@ -69,6 +69,7 @@
         },
         {
           "match": "wp-android/3.0* (#PLATFORM#",
+          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Version": "3.0"
           },
@@ -78,6 +79,7 @@
         },
         {
           "match": "wp-android/* (#PLATFORM#",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]

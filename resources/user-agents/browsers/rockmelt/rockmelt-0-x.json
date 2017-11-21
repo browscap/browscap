@@ -8,7 +8,7 @@
     {
       "userAgent": "RockMelt #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RockMelt #MAJORVER#.#MINORVER#",

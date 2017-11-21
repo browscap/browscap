@@ -9,7 +9,7 @@
       "userAgent": "SlimerJS #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SlimerJS #MAJORVER#.#MINORVER#",
@@ -25,7 +25,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SlimerJS/#MAJORVER#.#MINORVER#*",
-          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]

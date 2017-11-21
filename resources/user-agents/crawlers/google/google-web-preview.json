@@ -7,6 +7,7 @@
     {
       "userAgent": "Google Web Preview",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google",
@@ -50,11 +51,13 @@
         },
         {
           "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko; Google Web Preview) Version/* Safari/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "*Google Web Preview*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         }
       ]
     }

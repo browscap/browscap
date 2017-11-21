@@ -107,7 +107,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -154,6 +154,7 @@
         },
         {
           "match": "Nokia*/*Symbian*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "SymbianOS"
           ]
@@ -204,6 +205,7 @@
         },
         {
           "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "JAVA"
           ]
@@ -216,10 +218,12 @@
           ]
         },
         {
-          "match": "*/UC Browser#MAJORVER#.#MINORVER#*"
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)"
         },
         {
           "match": "J2ME/UCWeb#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "JAVA"
           ]

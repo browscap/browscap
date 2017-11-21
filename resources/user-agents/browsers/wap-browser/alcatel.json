@@ -7,7 +7,7 @@
     {
       "userAgent": "Alcatel",
       "platform": "JAVA",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Alcatel",

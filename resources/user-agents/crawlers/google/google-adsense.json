@@ -7,6 +7,7 @@
     {
       "userAgent": "AdSense Bot",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google",
@@ -18,18 +19,20 @@
       "children": [
         {
           "match": "Mediapartners-Google*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Adsense-Snapshot-Google*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Browser": "AdSense Snapshot Bot"
           }
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* (compatible; Mediapartners-Google/2.1*",
-          "device":"iPhone",
+          "device": "iPhone",
           "properties": {
             "Version": "2.1"
           },
@@ -41,7 +44,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* (compatible; Mediapartners-Google/2.1*",
-          "device":"general Mobile Device (Apple)",
+          "device": "general Mobile Device (Apple)",
           "properties": {
             "Version": "2.1"
           },

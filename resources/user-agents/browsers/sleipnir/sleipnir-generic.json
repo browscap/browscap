@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir Generic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
@@ -154,7 +154,8 @@
         },
         {
           "match": "Sleipnir*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "general Desktop"
         }
       ]
     },

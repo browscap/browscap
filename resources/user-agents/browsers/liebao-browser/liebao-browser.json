@@ -7,7 +7,8 @@
     {
       "userAgent": "liebao browser",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "liebao",

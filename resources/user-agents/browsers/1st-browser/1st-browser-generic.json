@@ -7,7 +7,7 @@
     {
       "userAgent": "1stBrowser Generic",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "1stBrowser Generic",

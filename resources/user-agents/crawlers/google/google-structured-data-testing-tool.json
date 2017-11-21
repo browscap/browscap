@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Google Structured-Data TestingTool",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -23,7 +24,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool*"
+          "match": "Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool*",
+          "device": "unknown"
         }
       ]
     }

@@ -7,7 +7,7 @@
     {
       "userAgent": "Midori 0.0",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Midori 0.0",
@@ -25,7 +25,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Midori/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
           ]

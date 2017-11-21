@@ -8,7 +8,7 @@
       "userAgent": "SlimerJS General",
       "platform": "Linux",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SlimerJS General",
@@ -23,7 +23,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SlimerJS/*",
-          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
