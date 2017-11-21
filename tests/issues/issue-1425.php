@@ -2594,7 +2594,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
-            'Platform' => 'Android',
+            'Platform' => 'RIM OS',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
         ],

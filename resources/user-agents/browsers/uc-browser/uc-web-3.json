@@ -6,9 +6,9 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
+      "engine": "Blink",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -39,7 +39,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
@@ -52,7 +51,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "SM-T705*": "Samsung SM-T705"
           },
@@ -64,7 +62,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "SM-A500F": "Samsung SM-A500F",
             "SM-A500H": "Samsung SM-A500H"
@@ -77,7 +74,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "Beeline Smart 3": "Beeline Smart 3",
             "GT-I8160": "Samsung GT-I8160",
@@ -96,7 +92,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -178,17 +173,8 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "devices": {
-            "SAMSUNG; GT-I8350": "Samsung GT-I8350"
-          },
-          "platforms": [
-            "WinPhone8_B",
-            "WinPhone7_C"
-          ]
-        },
-        {
           "match": "UCWEB/*(*#DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
           "devices": {
             "GT-P3100": "Samsung GT-P3100"
           },
@@ -198,36 +184,30 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
           "platforms": [
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
-            "Android_E",
-            "WinPhone8.1_B", "WinPhone8_B",
-            "WinPhone7_C",
-            "SymbianOS_B"
+            "Android_E"
           ]
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "UCWEB/*(MIDP-2.0*#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "devices": {
             "A811": "Lexand A811",
             "Beeline Tab": "Beeline Tab",
@@ -239,6 +219,46 @@
           },
           "platforms": [
             "Android_4_2"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "SAMSUNG; GT-I8350": "Samsung GT-I8350"
+          },
+          "platforms": [
+            "WinPhone8_B",
+            "WinPhone7_C"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "platforms": [
+            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone7_C",
+            "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "JAVA"
           ]
         },
         {

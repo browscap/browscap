@@ -6,9 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -95,6 +96,27 @@
             "Android_C_3_2", "Android_C_3_1", "Android_C_3_0"
           ]
         },
+        {
+          "match": "Opera (#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#.*/*",
+          "platforms": [
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -191,12 +213,6 @@
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "JAVA"
-          ]
-        },
-        {
-          "match": "Opera (#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#.*/*",
-          "platforms": [
-            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
           ]
         },
         {
