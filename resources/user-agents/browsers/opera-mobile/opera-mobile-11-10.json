@@ -6,9 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Presto_2_8",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -19,21 +20,13 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "SymbianOS_C"
-          ]
-        },
-        {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_F_5_0",
             "Android_F_4_4", "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
-            "Android_F",
-            "SymbianOS_C",
-            "WinMobile"
+            "Android_F"
           ]
         },
         {
@@ -65,6 +58,34 @@
           "match": "* Browser/Opera *Profile/MIDP* Opera/9.80 (MTK*) Presto/* Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_8",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS_C"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS_C",
+            "WinMobile"
           ]
         }
       ]

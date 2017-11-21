@@ -6,9 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Presto_2_9",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -25,10 +26,7 @@
             "Android_F_5_0",
             "Android_F_4_4", "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
-            "Android_F",
-            "SymbianOS_C",
-            "WinMobile",
-            "Maemo_ARM"
+            "Android_F"
           ]
         },
         {
@@ -40,6 +38,29 @@
             "Android_F_3_2", "Android_F_3_1", "Android_F_3_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
             "Android_F"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_9",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS_C",
+            "WinMobile",
+            "Maemo_ARM"
           ]
         }
       ]
