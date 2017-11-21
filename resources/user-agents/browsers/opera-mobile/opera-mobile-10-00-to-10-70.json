@@ -6,7 +6,7 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# Android",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
