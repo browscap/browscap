@@ -8,7 +8,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1_9",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",

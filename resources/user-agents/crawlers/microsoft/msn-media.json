@@ -7,6 +7,7 @@
     {
       "userAgent": "MSN-Media",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "msnbot-media",
@@ -19,6 +20,7 @@
         {
           "match": "msnbot-media/1.0*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "1.0"
           }
@@ -26,13 +28,15 @@
         {
           "match": "msnbot-media/1.1*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "1.1"
           }
         },
         {
           "match": "msnbot-media/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) MsnBot-Media /1.0b*",

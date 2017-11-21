@@ -7,7 +7,7 @@
     {
       "userAgent": "lolifox Generic",
       "engine": "Gecko_1_8_1",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "lolifox Generic",
@@ -31,7 +31,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*) Gecko/* lolifox/*"
+          "match": "Mozilla/5.0 (*) Gecko/* lolifox/*",
+          "device": "general Desktop"
         }
       ]
     }

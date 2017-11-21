@@ -8,7 +8,7 @@
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
       "engine": "Gecko_Major_Dynamic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
@@ -27,7 +27,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win10_64_B", "Win10_32_B",
             "Win8_1_64", "Win8_1_32",

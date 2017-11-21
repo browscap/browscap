@@ -9,7 +9,7 @@
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
       "platform": "RIMOS_Dynamic",
       "engine": "WebKit",
-      "device": "general Mobile Phone (old Blackberry)",
+      "device": "general Mobile Phone (Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
@@ -35,7 +35,8 @@
           }
         },
         {
-          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (old Blackberry)"
         },
         {
           "match": "Mozilla/5.0 (BlackBerry; ?; #DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",

@@ -228,7 +228,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -376,6 +376,7 @@
         },
         {
           "match": "Mozilla/5.0 (S60V*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]

@@ -9,7 +9,7 @@
       "userAgent": "PhantomJS #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PhantomJS #MAJORVER#.#MINORVER#",
@@ -59,7 +59,8 @@
           ]
         },
         {
-          "match": "PhantomJS/#MAJORVER#.#MINORVER#*"
+          "match": "PhantomJS/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop"
         }
       ]
     }

@@ -7,7 +7,7 @@
     {
       "userAgent": "Samsung Generic",
       "platform": "JAVA",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Generic",
@@ -37,7 +37,8 @@
           }
         },
         {
-          "match": "SAMSUNG* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
+          "match": "SAMSUNG* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
+          "device": "general Mobile Phone"
         }
       ]
     }

@@ -6,9 +6,9 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "userAgent": "Fennec #MAJORVER#.#MINORVER# Mobile",
       "engine": "Gecko_1_9",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -41,6 +41,28 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Maemo"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_1_9",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec #MAJORVER#.#MINORVER#",
+        "Browser": "Fennec",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
@@ -51,13 +73,6 @@
           "device": "Macintosh",
           "platforms": [
             "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "Maemo"
           ]
         },
         {

@@ -8,7 +8,7 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -51,7 +51,8 @@
           }
         },
         {
-          "match": "HTC/ 1.0 Opera #MAJORVER#.#MINORVER#*"
+          "match": "HTC/ 1.0 Opera #MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)"
         },
         {
           "match": "#DEVICE#* (*Opera Mobi; U*Opera #MAJORVER#.#MINORVER#*",

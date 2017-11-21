@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "python-requests Generic",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "python-requests Generic",
@@ -16,7 +17,8 @@
       },
       "children": [
         {
-          "match": "python-requests/*"
+          "match": "python-requests/*",
+          "device": "unknown"
         },
         {
           "match": "python-requests/* CPython/#PLATFORM#",

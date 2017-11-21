@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Nokia)",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
@@ -114,7 +114,8 @@
           "device": "general Mobile Phone (Nokia)"
         },
         {
-          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
         }
       ]
     }

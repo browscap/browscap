@@ -8,7 +8,7 @@
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",

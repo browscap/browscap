@@ -8,7 +8,7 @@
     {
       "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
-      "device": "Linux Desktop",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Epiphany #MAJORVER#.#MINORVER#",
@@ -24,12 +24,14 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#* (Debian/*)",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]

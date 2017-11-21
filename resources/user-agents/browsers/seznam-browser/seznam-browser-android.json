@@ -8,7 +8,7 @@
     {
       "userAgent": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
       "engine": "Blink",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Tablet",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -34,6 +34,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_7_0",
             "Android_6_0",

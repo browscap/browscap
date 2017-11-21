@@ -337,7 +337,7 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
-      "device": "general Desktop",
+      "device": "Macintosh",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
@@ -350,6 +350,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",

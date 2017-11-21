@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "PaleMoon Generic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Goanna",
       "properties": {
         "Parent": "DefaultProperties",

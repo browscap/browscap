@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "PaleMoon #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Gecko_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",

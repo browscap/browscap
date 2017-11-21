@@ -8,7 +8,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -54,7 +54,8 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -66,7 +67,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]

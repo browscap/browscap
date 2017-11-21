@@ -8,7 +8,7 @@
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -65,30 +65,35 @@
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/9.60 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/9.50 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/*(*Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -109,6 +114,7 @@
         },
         {
           "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

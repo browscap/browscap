@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "SlimBrowser",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
@@ -127,7 +127,8 @@
         },
         {
           "match": "SlimBrowser*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "general Desktop"
         }
       ]
     }

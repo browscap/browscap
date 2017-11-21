@@ -8,7 +8,7 @@
     {
       "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetFront NX #MAJORVER#.#MINORVER#",

@@ -8,7 +8,7 @@
       "userAgent": "Postbox Generic",
       "platform": "OSX",
       "engine": "Gecko",
-      "device": "Macintosh",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Postbox Generic",
@@ -23,6 +23,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"

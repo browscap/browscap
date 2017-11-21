@@ -8,6 +8,7 @@
       "userAgent": "WebPirate Browser",
       "platform": "SailfishOS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebPirate Browser",

@@ -8,7 +8,7 @@
     {
       "userAgent": "MultiZilla #MAJORVER#.#MINORVER#",
       "engine": "Gecko_Dynamic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MultiZilla #MAJORVER#.#MINORVER#",
@@ -41,6 +41,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
           "platforms": [
             "OS2"
           ]

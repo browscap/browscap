@@ -7,7 +7,7 @@
     {
       "userAgent": "profiller",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "profiller",
@@ -27,7 +27,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) profiller Safari/*",
           "engine": "WebKit",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
             "Win8_64", "Win8_32",

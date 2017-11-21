@@ -8,7 +8,7 @@
     {
       "userAgent": "Adobe AIR #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe AIR #MAJORVER#.#MINORVER#",
@@ -31,7 +31,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win32_B", "Windows"
           ]

@@ -7,6 +7,7 @@
     {
       "userAgent": "Diffbot",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Diffbot",
@@ -18,24 +19,28 @@
         {
           "match": "Mozilla/5.0 (compatible; Diffbot/0.1*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "0.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Diffbot/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Diffbot/0.1*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Version": "0.1"
           }
         },
         {
           "match": "Diffbot/*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko; +http://www.diffbot.com) Chrome/* Safari/*",

@@ -7,9 +7,9 @@
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
-      "platform": "Linux",
+      "platform": "Windows",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",

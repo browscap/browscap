@@ -7,7 +7,8 @@
     {
       "userAgent": "Wire App Generic",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Wire App Generic",

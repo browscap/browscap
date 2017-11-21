@@ -8,7 +8,7 @@
       "userAgent": "PhantomJS General",
       "platform": "Linux",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PhantomJS General",
@@ -57,7 +57,8 @@
           ]
         },
         {
-          "match": "PhantomJS/*"
+          "match": "PhantomJS/*",
+          "device": "general Desktop"
         }
       ]
     }

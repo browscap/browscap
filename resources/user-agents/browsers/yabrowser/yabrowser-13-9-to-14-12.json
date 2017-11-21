@@ -8,7 +8,7 @@
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
@@ -24,7 +24,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_x64", "Win8_1_32",
             "Win8_32", "Win8_64",
@@ -43,7 +42,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_x64", "Win8_1_32",
             "Win8_32", "Win8_64",

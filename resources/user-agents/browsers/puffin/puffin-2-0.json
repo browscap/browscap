@@ -9,7 +9,7 @@
       "userAgent": "Puffin #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin #MAJORVER#.#MINORVER#",
@@ -28,6 +28,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.* Mobile*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -46,14 +47,16 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AP*"
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AP*",
+          "device": "general Mobile Phone (Touch)"
         },
         {
           "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*AT*",
           "device": "general Tablet"
         },
         {
-          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*"
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.*",
+          "device": "general Mobile Phone (Touch)"
         }
       ]
     },

@@ -7,7 +7,7 @@
     {
       "userAgent": "Phoenix Generic",
       "engine": "Gecko_1",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Phoenix Generic",
@@ -38,7 +38,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*) Gecko/* Phoenix/*"
+          "match": "Mozilla/5.0 (*) Gecko/* Phoenix/*",
+          "device": "general Desktop"
         }
       ]
     }

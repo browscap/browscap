@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "YaCy",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YaCy Bot",
@@ -121,7 +121,8 @@
           ]
         },
         {
-          "match": "yacybot *"
+          "match": "yacybot *",
+          "device": "general Desktop"
         }
       ]
     }

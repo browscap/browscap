@@ -9,7 +9,7 @@
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "engine": "Gecko_Dynamic",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -21,6 +21,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidMobile_7_1", "AndroidMobile_7_0",
             "AndroidMobile_6_0",

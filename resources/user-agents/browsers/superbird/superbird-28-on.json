@@ -8,7 +8,7 @@
     {
       "userAgent": "SuperBird #MAJORVER#.#MINORVER#",
       "engine": "Blink",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SuperBird #MAJORVER#.#MINORVER#",
@@ -20,7 +20,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SuperBird/#MAJORVER#.* Chrome/* Safari/*",
-          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",

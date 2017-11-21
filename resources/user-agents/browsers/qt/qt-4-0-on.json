@@ -77,7 +77,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",

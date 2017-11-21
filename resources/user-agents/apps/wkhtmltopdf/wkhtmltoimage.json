@@ -7,7 +7,7 @@
     {
       "userAgent": "wkhtmltoimage",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "wkhtmltoimage",

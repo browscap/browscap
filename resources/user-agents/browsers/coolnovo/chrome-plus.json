@@ -8,7 +8,7 @@
     {
       "userAgent": "ChromePlus #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ChromePlus #MAJORVER#.#MINORVER#",

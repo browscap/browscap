@@ -7,7 +7,7 @@
     {
       "userAgent": "Prism Generic",
       "engine": "Gecko",
-      "device": "general Desktop",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Prism Generic",
@@ -38,7 +38,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*) Gecko/* Prism/*"
+          "match": "Mozilla/5.0 (*) Gecko/* Prism/*",
+          "device": "general Desktop"
         }
       ]
     }

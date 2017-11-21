@@ -8,7 +8,7 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Presto_2_10",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Tablet",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
@@ -21,6 +21,7 @@
       "children": [
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidLinux",
             "Android_F_7_1", "Android_F_7_0",

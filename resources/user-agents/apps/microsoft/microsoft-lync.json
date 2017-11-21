@@ -7,7 +7,8 @@
     {
       "userAgent": "Microsoft Lync",
       "engine": "Trident",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Lync",

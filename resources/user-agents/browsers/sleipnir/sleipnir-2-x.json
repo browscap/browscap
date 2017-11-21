@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
@@ -130,7 +130,8 @@
         },
         {
           "match": "Sleipnir?#MAJORVER#.#MINORVER#*",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "general Desktop"
         }
       ]
     }

@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Samsung Mobile Browser",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Mobile Browser",

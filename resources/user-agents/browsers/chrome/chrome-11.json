@@ -9,7 +9,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for GoogleTV",
       "platform": "Android",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -50,7 +50,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",

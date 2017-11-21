@@ -8,7 +8,7 @@
     {
       "userAgent": "Fluid #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fluid #MAJORVER#.#MINORVER#",

@@ -8,7 +8,7 @@
     {
       "userAgent": "Firebird #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firebird #MAJORVER#.#MINORVER#",

@@ -8,7 +8,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1_9",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -60,6 +60,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "FreeBSD_386", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS"
           ]
@@ -112,6 +113,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* GranParadiso/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
           "platforms": [
             "Darwin"
           ]
@@ -195,6 +197,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS"
           ]

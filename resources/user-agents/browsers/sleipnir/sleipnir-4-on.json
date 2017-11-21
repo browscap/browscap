@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
@@ -43,6 +43,7 @@
         },
         {
           "match": "Sleipnir/#MAJORVER#.#MINORVER#*CFNetwork/673*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_9"
           ]
