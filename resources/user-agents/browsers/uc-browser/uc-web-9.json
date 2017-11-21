@@ -6,7 +6,7 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "device": "general Mobile Phone (Touch)",
       "engine": "U2",
       "platform": "Android",
@@ -406,16 +406,6 @@
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
-            "NOKIA6700s": "Nokia 6700s",
-            "NOKIAE5-00u": "Nokia E5-00"
-          },
-          "platforms": [
-            "SymbianOS_B"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "devices": {
             "Micromax_A106": "Micromax A106"
           },
           "platforms": [
@@ -537,9 +527,7 @@
             "Android_E",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
-            "Android",
-            "WinPhone7_C", "WinPhone8_B",
-            "SymbianOS_B"
+            "Android"
           ]
         },
         {
@@ -619,6 +607,55 @@
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "dv(#DEVICE#);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
+          "engine": "unknown",
+          "devices": {
+            "GT-S6102": "Samsung GT-S6102"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "dv(*);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android*",
+          "engine": "unknown",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "NOKIA6700s": "Nokia 6700s",
+            "NOKIAE5-00u": "Nokia E5-00"
+          },
+          "platforms": [
+            "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "platforms": [
+            "WinPhone7_C", "WinPhone8_B",
+            "SymbianOS_B"
           ]
         },
         {
@@ -761,23 +798,6 @@
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
-          ]
-        },
-        {
-          "match": "dv(#DEVICE#);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
-          "engine": "unknown",
-          "devices": {
-            "GT-S6102": "Samsung GT-S6102"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "dv(*);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android*",
-          "engine": "unknown",
-          "platforms": [
-            "Android"
           ]
         }
       ]

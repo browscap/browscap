@@ -6,6 +6,226 @@
   "standard": true,
   "userAgents": [
     {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2",
+            "Android_D"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "D2105": "Sony D2105",
+            "SM-G530H": "Samsung SM-G530H",
+            "SPHS_on_Hsdroid": "sprd SPHS On HSDroid"
+          },
+          "platforms": [
+            "Android_E_4_4"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "GT-S5570": "Samsung GT-S5570",
+            "GT-S7262": "Samsung GT-S7262"
+          },
+          "platforms": [
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "A47": "Micromax A47",
+            "GT-I9082": "Samsung GT-I9082",
+            "S5A4": "Lexand S5A4"
+          },
+          "platforms": [
+            "Android_E_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "HUAWEI_D2-0082": "Huawei D2-0082",
+            "IQ4490": "Fly IQ4490",
+            "SHV-E210S": "Samsung SHV-E210S"
+          },
+          "platforms": [
+            "Android_E_4_1"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "IQ440": "Fly IQ440"
+          },
+          "platforms": [
+            "Android_E_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "platforms": [
+            "Android_E_6_0",
+            "Android_E_5_1", "Android_E_5_0",
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
+            "Android_E"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UC Browser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "SM-G530H": "Samsung SM-G530H"
+          },
+          "platforms": [
+            "Android_E_4_4"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UC Browser/#MAJORVER#.#MINORVER#* U2/*",
+          "platforms": [
+            "Android_E_4_4", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "ASUS_T00J": "Asus T00J",
+            "Infinityll": "Explay Infinity ll",
+            "GT-S7262": "Samsung GT-S7262"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Opera/9.80 (Android;* Opera Mini/*)*UCBrowser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100G": "Samsung GT-I9100G"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "SM-G130H": "Samsung SM-G130H"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Lenovo P780_ROW": "Lenovo P780"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "ST25i": "SonyEricsson ST25i"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Phone",
@@ -19,15 +239,6 @@
       },
       "children": [
         {
-          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
-            "Android_D_2_3", "Android_D_2_2",
-            "Android_D"
-          ]
-        },
-        {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "devices": {
@@ -38,102 +249,12 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "D2105": "Sony D2105",
-            "SM-G530H": "Samsung SM-G530H",
-            "SPHS_on_Hsdroid": "sprd SPHS On HSDroid"
-          },
-          "platforms": [
-            "Android_E_4_4"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "GT-S5570": "Samsung GT-S5570",
-            "GT-S7262": "Samsung GT-S7262"
-          },
-          "platforms": [
-            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
-            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "A47": "Micromax A47",
-            "GT-I9082": "Samsung GT-I9082",
-            "S5A4": "Lexand S5A4"
-          },
-          "platforms": [
-            "Android_E_4_2"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "HUAWEI_D2-0082": "Huawei D2-0082",
-            "IQ4490": "Fly IQ4490",
-            "SHV-E210S": "Samsung SHV-E210S"
-          },
-          "platforms": [
-            "Android_E_4_1"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "IQ440": "Fly IQ440"
-          },
-          "platforms": [
-            "Android_E_4_0"
-          ]
-        },
-        {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_E_6_0",
-            "Android_E_5_1", "Android_E_5_0",
-            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
-            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
-            "Android_E",
             "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UC Browser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "SM-G530H": "Samsung SM-G530H"
-          },
-          "platforms": [
-            "Android_E_4_4"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UC Browser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android_E_4_4", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
-            "Android_E"
           ]
         },
         {
@@ -150,42 +271,6 @@
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "devices": {
-            "ASUS_T00J": "Asus T00J",
-            "Infinityll": "Explay Infinity ll",
-            "GT-S7262": "Samsung GT-S7262"
-          },
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Opera/9.80 (Android;* Opera Mini/*)*UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
           ]
         },
         {
@@ -293,90 +378,6 @@
           "match": "Mozilla/5.0 (S60V*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "platforms": [
             "SymbianOS"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
-          "devices": {
-            "GT-I9100": "Samsung GT-I9100"
-          },
-          "platforms": [
-            "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
-          "devices": {
-            "GT-I9100G": "Samsung GT-I9100G"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SGH-I337": "Samsung SGH-I337"
-          },
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SM-G130H": "Samsung SM-G130H"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Lenovo P780_ROW": "Lenovo P780"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "ST25i": "SonyEricsson ST25i"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2",
-            "Android"
           ]
         },
         {

@@ -5,7 +5,7 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser Generic",
+      "userAgent": "UC Browser Generic for Android",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
@@ -58,11 +58,7 @@
             "Android_E",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
-            "Android",
-            "WinPhone8.1_B", "WinPhone8_B",
-            "WinPhone7_C",
-            "SymbianOS_B",
-            "any"
+            "Android"
           ]
         },
         {
@@ -89,27 +85,6 @@
           "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/*",
           "platforms": [
             "Android"
-          ]
-        },
-        {
-          "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/*",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Java*) U2/* UCBrowser/*",
-          "device": "general Mobile Device",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Java;*) UCBrowser*UCWEB*Mobile*",
-          "engine": "WebKit",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "JAVA"
           ]
         },
         {
@@ -209,6 +184,58 @@
           ]
         },
         {
+          "match": "Opera (#PLATFORM#) UCWEB*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc."
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "platforms": [
+            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone7_C",
+            "SymbianOS_B",
+            "RIMOS",
+            "any"
+          ]
+        },
+        {
+          "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*) UCBrowser*UCWEB*Mobile*",
+          "engine": "WebKit",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/* U2/* Mobile*",
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
@@ -221,13 +248,6 @@
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
-          ]
-        },
-        {
-          "match": "Opera (#PLATFORM#) UCWEB*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
           ]
         }
       ]
