@@ -129,6 +129,19 @@
             "isTablet": "true"
         }
     },
+    "Acer A3-A20": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A3-A20",
+            "Device_Name": "Iconia Tab A3-A20",
+            "Device_Maker": "Acer",
+            "Device_Brand_Name": "Acer",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Acer A500": {
         "standard": true,
         "properties": {

@@ -20,8 +20,10 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus Player*",
-          "device": "Asus Nexus Player",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "Nexus Player": "Asus Nexus Player"
+          },
           "platforms": [
             "Android_6_0"
           ]

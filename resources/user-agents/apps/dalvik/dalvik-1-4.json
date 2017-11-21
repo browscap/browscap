@@ -20,50 +20,24 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build/*",
-          "device": "Samsung GT-I9100",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-S5830": "Samsung GT-S5830",
+            "HTC HD2": "HTC T8585",
+            "HTC Sensation Z710e": "HTC Z710e",
+            "Nexus One": "HTC Nexus One"
+          },
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G Build/*",
-          "device": "Samsung GT-I9100G",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-S5830 Build/*",
-          "device": "Samsung GT-S5830",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC HD2 Build/*",
-          "device": "HTC T8585",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Sensation Z710e Build/*",
-          "device": "HTC Z710e",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus One Build/*",
-          "device": "HTC Nexus One",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "device": "Samsung GT-I9100G",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# *",
+          "devices": {
+            "GT-I9100G": "Samsung GT-I9100G"
+          },
           "platforms": [
             "Android_2_3"
           ]
@@ -71,7 +45,8 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "Android_2_3", "Android"
+            "Android_2_3",
+            "Android"
           ]
         }
       ]

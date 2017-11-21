@@ -6304,6 +6304,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G355HN": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G355HN",
+            "Device_Name": "Galaxy Core II",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G3588V": {
         "standard": false,
         "properties": {
@@ -6362,6 +6375,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G360V",
             "Device_Name": "Galaxy Core Prime LTE (Verizon)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G386F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G386F",
+            "Device_Name": "Galaxy Core LTE",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

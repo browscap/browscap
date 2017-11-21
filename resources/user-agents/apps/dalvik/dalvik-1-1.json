@@ -20,29 +20,13 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Garmin-Asus A50 Build/*",
-          "device": "Garmin-Asus A50",
-          "platforms": [
-            "Android_2_1"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#MB525 Build/*",
-          "device": "Motorola MB525",
-          "platforms": [
-            "Android_2_1"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Milestone Build/*",
-          "device": "Motorola Milestone",
-          "platforms": [
-            "Android_2_1"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#X10i Build/*",
-          "device": "SonyEricsson X10i",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "Garmin-Asus A50": "Garmin-Asus A50",
+            "MB525": "Motorola MB525",
+            "Milestone": "Motorola Milestone",
+            "X10i": "SonyEricsson X10i"
+          },
           "platforms": [
             "Android_2_1"
           ]

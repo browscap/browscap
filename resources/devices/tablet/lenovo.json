@@ -454,6 +454,19 @@
             "isTablet": "true"
         }
     },
+    "Lenovo Lifetab S831X": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Lifetab S831X",
+            "Device_Name": "Lifetab S831X",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo Pad A4": {
         "standard": true,
         "properties": {

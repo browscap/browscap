@@ -818,6 +818,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei Y221-U12": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Y221-U12",
+            "Device_Name": "Ascend Y221-U12",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei Y300": {
         "standard": false,
         "properties": {
@@ -901,6 +914,19 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Y511",
+            "Device_Name": "Ascend Y511",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei Y511-U30": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Y511-U30",
             "Device_Name": "Ascend Y511",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
