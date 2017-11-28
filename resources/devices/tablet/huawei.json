@@ -103,6 +103,19 @@
             "isTablet": "true"
         }
     },
+    "Huawei M2-A01W": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "M2-A01W",
+            "Device_Name": "MediaPad M2 10.0",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Huawei MediaPad T1 10": {
         "standard": true,
         "properties": {

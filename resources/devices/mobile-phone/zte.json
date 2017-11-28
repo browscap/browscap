@@ -90,6 +90,19 @@
             "isTablet": "false"
         }
     },
+    "ZTE Blade L5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Blade L5",
+            "Device_Name": "Blade L5",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE C6100": {
         "standard": false,
         "properties": {
@@ -577,6 +590,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z793C",
             "Device_Name": "Atrium (Straight Talk)",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z796C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z796C",
+            "Device_Name": "Majesty",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",

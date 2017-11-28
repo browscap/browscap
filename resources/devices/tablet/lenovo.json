@@ -675,6 +675,19 @@
             "isTablet": "true"
         }
     },
+    "Lenovo Tab 2 A7-10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A7-10",
+            "Device_Name": "Tab 2 A7-10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo Tab 2 A7-30": {
         "standard": true,
         "properties": {

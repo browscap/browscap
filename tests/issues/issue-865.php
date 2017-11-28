@@ -1206,7 +1206,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'P8lite',
+            'Device_Name' => 'P8 Lite',
             'Device_Maker' => 'Huawei',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

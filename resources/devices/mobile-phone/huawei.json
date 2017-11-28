@@ -4,7 +4,20 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ALE-21",
-            "Device_Name": "P8lite",
+            "Device_Name": "P8 Lite",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei ALE-L21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ALE-L21",
+            "Device_Name": "P8 Lite",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -31,6 +44,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ATH-AL00",
             "Device_Name": "Honor 7i",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei CAN-L11": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CAN-L11",
+            "Device_Name": "Nova",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -259,6 +285,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei GRA-L09": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GRA-L09",
+            "Device_Name": "P8",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei H30-U10": {
         "standard": false,
         "properties": {
@@ -291,6 +330,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "KII-L22",
             "Device_Name": "GR5",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei KIW-L21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "KIW-L21",
+            "Device_Name": "Honor 5x",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -382,6 +434,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MT7-TL10",
             "Device_Name": "Mate 7",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei NEM-L51": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "NEM-L51",
+            "Device_Name": "Honor 5c",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -528,6 +593,19 @@
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei TAG-L21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "TAG-L21",
+            "Device_Name": "GR3 Dual SIM",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -824,6 +902,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "U9508",
             "Device_Name": "Honor 2",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei VIE-L09": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "VIE-L09",
+            "Device_Name": "P9 Plus",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",

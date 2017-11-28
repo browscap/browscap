@@ -428,6 +428,19 @@
             "isTablet": "false"
         }
     },
+    "Lenovo A616": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A616",
+            "Device_Name": "A616",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo A656": {
         "standard": false,
         "properties": {
@@ -720,6 +733,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AT1010-T",
             "Device_Name": "AT1010-T",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Lenovo B5060": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "B5060",
+            "Device_Name": "B5060",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Pointing_Method": "touchscreen",
