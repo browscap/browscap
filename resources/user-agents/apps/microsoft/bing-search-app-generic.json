@@ -25,7 +25,6 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
             "Android"
           ]
         },
@@ -39,9 +38,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
@@ -52,11 +48,6 @@
           "engine": "WebKit",
           "device": "general Tablet",
           "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
             "Android"
           ]
         }
@@ -95,8 +86,6 @@
           },
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2",
-            "iOS_A_8_4",
-            "iOS_A_7_0",
             "iOS_A"
           ]
         }

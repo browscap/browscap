@@ -42,7 +42,6 @@
             "GT-P5210*": "Samsung GT-P5210",
             "HTC One_M8*": "HTC M8",
             "HTC One": "HTC M7",
-            "HUAWEI ALE-21": "Huawei ALE-21",
             "HUAWEI CAN-L11": "Huawei CAN-L11",
             "HUAWEI GRA-L09": "Huawei GRA-L09",
             "HUAWEI M2-A01W": "Huawei M2-A01W",
@@ -93,8 +92,7 @@
             "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
@@ -104,7 +102,6 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
             "Android"
           ]
         },
@@ -146,9 +143,6 @@
             "Z796C": "ZTE Z796C"
           },
           "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3"
           ]
@@ -157,22 +151,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
@@ -196,19 +174,17 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
           "devices": {
             "iPhone": "iPhone"
           },
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2",
-            "iOS_A_8_4",
-            "iOS_A_7_0",
             "iOS_A"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
           "devices": {
             "iPhone": "iPhone"
           },
