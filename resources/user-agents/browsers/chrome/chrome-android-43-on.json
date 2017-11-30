@@ -82,6 +82,7 @@
             "ONEPLUS A3010": "OnePlus A3010",
             "SM-G950F": "Samsung SM-G950F",
             "SM-T820": "Samsung SM-T820",
+            "SM-G930F": "Samsung SM-G930F",
             "VS987": "LG VS987",
             "VS995": "LG VS995",
             "XT1650": "Motorola XT1650"
@@ -125,7 +126,8 @@
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F",
-            "SM-G920V": "Samsung SM-G920V"
+            "SM-G920V": "Samsung SM-G920V",
+            "SM-G930F": "Samsung SM-G930F"
           },
           "platforms": [
             "Android_6_0",
