@@ -1112,7 +1112,7 @@
             "ALE-L21 model-orange": "Huawei ALE-L21"
           },
           "platforms": [
-            "Android_5_0", "Android_6_0"
+            "Android_6_0", "Android_5_0"
           ]
         },
         {
