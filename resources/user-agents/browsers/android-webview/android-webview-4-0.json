@@ -1106,6 +1106,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "ALE-L21": "Huawei ALE-L21",
+            "ALE-L21 model-orange": "Huawei ALE-L21"
+          },
+          "platforms": [
+            "Android_6_0", "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "general Tablet",
           "platforms": [
