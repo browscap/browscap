@@ -1,6 +1,6 @@
 {
   "division": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
-  "versions": ["4.2", "4.1", 4, "3.2"],
+  "versions": ["5.1", "5.0", "4.2", "4.1", 4, "3.2"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
@@ -30,6 +30,15 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "ALE-L21": "Huawei ALE-L21"
+          },
+          "platforms": [
+            "Android_6_0"
           ]
         },
         {
