@@ -673,6 +673,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
+          "engine": "WebKit",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F"
+          },
+          "platforms": [
+            "Android_7_0", "Android_6_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* OPR/#MAJORVER#.*",
           "engine": "WebKit",
           "platforms": [

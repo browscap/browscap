@@ -64,6 +64,7 @@
             "SM-N930V": "Samsung SM-N930V"
           },
           "platforms": [
+            "Android_7_0",
             "Android_6_0"
           ]
         },
@@ -138,6 +139,15 @@
           },
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG #DEVICE#/* Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F"
+          },
+          "platforms": [
+            "Android_7_0", "Android_6_0"
           ]
         },
         {

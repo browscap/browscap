@@ -38,6 +38,15 @@
           ]
         },
         {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F"
+          },
+          "platforms": [
+            "Android_8_0", "Android_7_0", "Android_6_0"
+          ]
+        },
+        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_8_0",
