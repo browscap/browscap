@@ -52,6 +52,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "SM-J510FN": "Samsung SM-J510FN"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [

@@ -7604,6 +7604,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-J510FN": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J510FN",
+            "Device_Name": "Galaxy J5 (2016)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G935P": {
         "standard": false,
         "properties": {
