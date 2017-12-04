@@ -1,0 +1,1544 @@
+{
+    "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+    "versions": [
+        "5.5",
+        "5.4",
+        "5.3",
+        "5.2",
+        5
+    ],
+    "sortIndex": 481,
+    "lite": false,
+    "standard": true,
+    "userAgents": [
+        {
+            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+            "engine": "Blink",
+            "device": "general Mobile Phone (Touch)",
+            "platform": "Android",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+                "Browser": "Bing Search App",
+                "Browser_Type": "Application",
+                "Browser_Maker": "Microsoft Corporation",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "Crawler": "false"
+            },
+            "children": [
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "A0001": "OnePlus A0001"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "A1-830": "Acer A1-830"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "A3-A40": "Acer A3-A40"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "ALE-L21": "Huawei ALE-L21"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "Apollo Lite": "Vernee Apollo Lite"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "Archos 50f Helium": "Archos 50f Helium"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "B5060": "Lenovo B5060"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "C6603": "Sony C6603"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "D5503": "Sony D5503"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "D5803": "Sony D5803"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "D6503": "Sony D6503"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "D6603": "Sony D6603"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "E2303": "Sony E2303"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "GT-I9195": "Samsung GT-I9195"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "GT-I9505": "Samsung GT-I9505"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "GT-I9515": "Samsung GT-I9515"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "GT-P5210*": "Samsung GT-P5210"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HTC One_M8*": "HTC M8"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HTC One": "HTC M7"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HUAWEI CAN-L11": "Huawei CAN-L11"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HUAWEI GRA-L09": "Huawei GRA-L09"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HUAWEI M2-A01W": "Huawei M2-A01W"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HUAWEI TAG-L21": "Huawei TAG-L21"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "HUAWEI VNS-L31": "Huawei VNS-L31"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "JERRY": "Wiko Jerry"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "KIW-L21": "Huawei KIW-L21"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "K00Z": "Asus ME175CG"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "LENNY": "Wiko Lenny"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "Lenovo A616": "Lenovo A616"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "LG-D620": "LG D620"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "LG-H818": "LG H818"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "LIFETAB_P831X.2": "Medion LifeTab P831X.2"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "LIFETAB_P970X": "Lenovo LifeTab P970X"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "NEM-L51": "Huawei NEM-L51"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "P1040X": "Medion P1040X"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-A300FU": "Samsung SM-A300FU"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-A310F": "Samsung SM-A310F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-A500FU*": "Samsung SM-A500FU"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-A510F": "Samsung SM-A510F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G531F": "Samsung SM-G531F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G550T": "Samsung SM-G550T"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G800F": "Samsung SM-G800F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G850F*": "Samsung SM-G850F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G900F": "Samsung SM-G900F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G903F": "Samsung SM-G903F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G925F*": "Samsung SM-G925F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G930A": "Samsung SM-G930A"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G930F": "Samsung SM-G930F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G935F": "Samsung SM-G935F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-J320F": "Samsung SM-J320F"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-J510FN": "Samsung SM-J510FN"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-N910V": "Samsung SM-N910V"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-N920P": "Samsung SM-N920P"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-N920V": "Samsung SM-N920V"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-T235": "Samsung SM-T235"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-T335": "Samsung SM-T335"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-T525": "Samsung SM-T525"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-T535": "Samsung SM-T535"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-T555": "Samsung SM-T555"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "Tab2A7-10*": "Lenovo Tab 2 A7-10"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "VIE-L09": "Huawei VIE-L09"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "VK810 4G": "LG VK810"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "XT1068": "Motorola XT1068"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "ZTE Blade L5": "ZTE Blade L5"
+                    },
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "platforms": [
+                        "Android_7_0",
+                        "Android_6_0",
+                        "Android_5_1",
+                        "Android_5_0",
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "platforms": [
+                        "Android"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "A700": "Acer A700"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "ADR6350": "HTC ADR6350"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "ASUS Transformer Pad TF300TL": "Asus TF300TL"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "C771": "Casio C771"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "C1905": "Sony C1905"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "C5215": "Kyocera C5215"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I8190": "Samsung GT-I8190"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I9001": "Samsung GT-I9001"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I9100": "Samsung GT-I9100"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I9195": "Samsung GT-I9195"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I9300*": "Samsung GT-I9300"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-N7000": "Samsung GT-N7000"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-P3110": "Samsung GT-P3110"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-P5100": "Samsung GT-P5100"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-P5113": "Samsung GT-P5113"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-S7500*": "Samsung GT-S7500"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-S7562": "Samsung GT-S7562"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "HTC D310w": "HTC Desire 310"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "HTC Desire 500": "HTC Desire 500"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "HUAWEI G510-*": "Huawei G510"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "JK809": "Blackview JK809"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "LG-E435f": "LG E435f"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "ST23i": "Sony ST23i"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "tolino tab 7": "Tolino Tab 7"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "VS910 4G": "LG VS910"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "Z796C": "ZTE Z796C"
+                    },
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "platforms": [
+                        "Android_4_4",
+                        "Android_4_3",
+                        "Android_4_2",
+                        "Android_4_1",
+                        "Android_4_0",
+                        "Android_2_3",
+                        "Android"
+                    ]
+                }
+            ]
+        }
+    ]
+}

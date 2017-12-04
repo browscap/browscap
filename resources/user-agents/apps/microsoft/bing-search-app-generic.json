@@ -42,14 +42,6 @@
             "Android_2_3",
             "Android"
           ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* BingWeb/*",
-          "engine": "WebKit",
-          "device": "general Tablet",
-          "platforms": [
-            "Android"
-          ]
         }
       ]
     },
