@@ -2332,7 +2332,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'Device_Name' => 'P8 Lite',
+            'Device_Name' => 'P8 Lite (2016)',
             'Device_Maker' => 'Huawei',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

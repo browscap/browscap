@@ -17,19 +17,6 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ALE-L21",
-            "Device_Name": "P8 Lite",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Huawei ALE-L21": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ALE-L21",
             "Device_Name": "P8 Lite (2016)",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",

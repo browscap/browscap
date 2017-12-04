@@ -21,22 +21,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
-            "iOS_A"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
           "devices": {
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
             "iOS_A_8_4",
             "iOS_A_7_0",
             "iOS_A"
