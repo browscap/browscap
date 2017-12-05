@@ -43,6 +43,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
           "devices": {
+            "ALE-L21": "Huawei ALE-L21"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
             "SM-A5000": "Samsung SM-A5000",
             "SM-A500F": "Samsung SM-A500F",
             "SM-A500FU*": "Samsung SM-A500FU",
@@ -254,15 +264,6 @@
           },
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
-          "devices": {
-            "ALE-L21": "Huawei ALE-L21"
-          },
-          "platforms": [
-            "Android_6_0", "Android_5_0"
           ]
         },
         {

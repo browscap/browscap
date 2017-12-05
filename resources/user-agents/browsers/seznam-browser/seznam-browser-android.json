@@ -26,19 +26,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
           "devices": {
-            "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G"
+            "SM-J510FN": "Samsung SM-J510FN"
           },
           "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
-          "devices": {
-            "ALE-L21": "Huawei ALE-L21"
-          },
-          "platforms": [
-            "Android_6_0"
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
           ]
         },
         {
@@ -54,12 +47,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
           "devices": {
-            "SM-J510FN": "Samsung SM-J510FN"
+            "ALE-L21": "Huawei ALE-L21"
           },
           "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0"
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G"
+          },
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

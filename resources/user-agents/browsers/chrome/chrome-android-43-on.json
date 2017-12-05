@@ -57,6 +57,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-J510FN": "Samsung SM-J510FN"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "Nexus 9*": "HTC Nexus 9"
           },
           "platforms": [
@@ -93,7 +104,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "SM-G930F": "Samsung SM-G930F"
+            "SM-G930F": "Samsung SM-G930F",
+            "SM-G935F": "Samsung SM-G935F"
           },
           "platforms": [
             "Android_7_0",
@@ -145,33 +157,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "ALE-L21": "Huawei ALE-L21",
             "SM-G920F": "Samsung SM-G920F"
           },
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "SM-A5000": "Samsung SM-A5000",
-            "SM-A500F": "Samsung SM-A500F",
-            "SM-A500FU*": "Samsung SM-A500FU",
-            "SM-A500G": "Samsung SM-A500G",
-            "SM-A500H": "Samsung SM-A500H",
-            "SM-A500K*": "Samsung SM-A500K",
-            "SM-A500L": "Samsung SM-A500L",
-            "SM-A500M": "Samsung SM-A500M",
-            "SM-A500S": "Samsung SM-A500S",
-            "SM-A500W*": "Samsung SM-A500W",
-            "SM-A500Y": "Samsung SM-A500Y",
-            "SM-A500YZ": "Samsung SM-A500YZ"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_0",
-            "Android_4_4"
           ]
         },
         {
@@ -196,6 +187,28 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500G": "Samsung SM-A500G",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500K*": "Samsung SM-A500K",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500S": "Samsung SM-A500S",
+            "SM-A500W*": "Samsung SM-A500W",
+            "SM-A500Y": "Samsung SM-A500Y",
+            "SM-A500YZ": "Samsung SM-A500YZ"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -896,38 +909,6 @@
           },
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "ALE-L21": "Huawei ALE-L21"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_1",
-            "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "SM-G935F": "Samsung SM-G935F"
-          },
-          "platforms": [
-            "Android_7_0",
-            "Android_6_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "SM-J510FN": "Samsung SM-J510FN"
-          },
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1"
           ]
         },
         {
