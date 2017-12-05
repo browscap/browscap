@@ -22,6 +22,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "SM-J510FN": "Samsung SM-J510FN"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
             "Moto G (4)": "Motorola G4"
           },
           "platforms": [
@@ -82,29 +93,6 @@
           "platforms": [
             "Android_6_0",
             "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "devices": {
-            "SM-J510FN": "Samsung SM-J510FN"
-          },
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
-          "devices": {
-            "SM-J510FN": "Samsung SM-J510FN"
-          },
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0"
           ]
         },
         {
@@ -266,7 +254,20 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
-            "HUAWEI NXT-AL10": "Huawei NXT-AL10"
+            "SM-J510FN": "Samsung SM-J510FN"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
+            "HUAWEI NXT-AL10": "Huawei NXT-AL10",
+            "SM-G935F": "Samsung SM-G935F"
           },
           "platforms": [
             "Android_7_0",
@@ -282,6 +283,17 @@
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
+            "ALE-L21": "Huawei ALE-L21"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0"
           ]
         },
         {
@@ -319,26 +331,6 @@
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
-          "devices": {
-            "ALE-L21": "Huawei ALE-L21"
-          },
-          "platforms": [
-            "Android_6_0", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "engine": "Blink",
-          "devices": {
-            "SM-G935F": "Samsung SM-G935F"
-          },
-          "platforms": [
-            "Android_7_0", "Android_6_0"
           ]
         },
         {

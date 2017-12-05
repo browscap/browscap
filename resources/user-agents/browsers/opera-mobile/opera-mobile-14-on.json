@@ -71,6 +71,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "SM-G935F": "Samsung SM-G935F",
             "SM-G935V": "Samsung SM-G935V",
             "VS987": "LG VS987",
             "XT1650": "Motorola XT1650"
@@ -670,16 +671,6 @@
           },
           "platforms": [
             "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
-          "engine": "WebKit",
-          "devices": {
-            "SM-G935F": "Samsung SM-G935F"
-          },
-          "platforms": [
-            "Android_7_0", "Android_6_0"
           ]
         },
         {

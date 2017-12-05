@@ -26,6 +26,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "SM-J510FN": "Samsung SM-J510FN"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
             "HTC Desire 626s": "HTC 0PM92",
             "P01T_1": "Asus P01T_1",
             "PMT3118_3G": "Prestigio PMT3118_3G",
@@ -56,6 +67,16 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "ALE-L21": "Huawei ALE-L21"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0"
           ]
         },
         {
@@ -353,26 +374,6 @@
           },
           "platforms": [
             "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "devices": {
-            "SM-J510FN": "Samsung SM-J510FN"
-          },
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "devices": {
-            "ALE-L21": "Huawei ALE-L21"
-          },
-          "platforms": [
-            "Android_6_0", "Android_5_0"
           ]
         },
         {
