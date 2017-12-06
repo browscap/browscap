@@ -99,6 +99,7 @@ final class BuildGenerator implements GeneratorInterface
             'browscap.xml',
             'browscap.csv',
             'browscap.json',
+            'lite_browscap.csv',
         ];
 
         foreach ($files as $file) {

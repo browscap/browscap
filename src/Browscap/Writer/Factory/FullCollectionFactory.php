@@ -94,6 +94,11 @@ class FullCollectionFactory
         $liteJsonWriter->setFilter($liteFilter);
         $writerCollection->addWriter($liteJsonWriter);
 
+        $liteCsvWriter = new CsvWriter($buildFolder . '/lite_browscap.csv', $logger);
+        $liteCsvWriter->setFormatter($csvFormatter);
+        $liteCsvWriter->setFilter($liteFilter);
+        $writerCollection->addWriter($liteCsvWriter);
+
         return $writerCollection;
     }
 }
