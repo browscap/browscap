@@ -1,10 +1,7 @@
 {
     "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-    "versions": [
-        "2.1",
-        2
-    ],
-    "sortIndex": 481,
+    "versions": ["2.1", 2],
+    "sortIndex": 485,
     "lite": false,
     "standard": true,
     "userAgents": [

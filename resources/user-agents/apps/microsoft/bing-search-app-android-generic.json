@@ -1,6 +1,6 @@
 {
-  "division": "Bing Search App Generic",
-  "sortIndex": 482,
+  "division": "Bing Search App Generic for Android",
+  "sortIndex": 486,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -41,44 +41,6 @@
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Bing Search App Generic for iOS",
-      "platform": "iOS",
-      "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Bing Search App Generic for iOS",
-        "Browser": "Bing Search App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "false"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/*",
-          "devices": {
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
-            "iOS_A_8_4",
-            "iOS_A_7_0",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/*",
-          "devices": {
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
-            "iOS_A"
           ]
         }
       ]

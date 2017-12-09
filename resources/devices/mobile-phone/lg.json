@@ -2183,6 +2183,19 @@
             "isTablet": "false"
         }
     },
+    "LG H870": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "H870",
+            "Device_Name": "G6",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG H900": {
         "standard": false,
         "properties": {
@@ -2261,12 +2274,38 @@
             "isTablet": "false"
         }
     },
+    "LG K100": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K100",
+            "Device_Name": "K3",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG K120": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "K120",
             "Device_Name": "Spree (Cricket)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG K130": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K130",
+            "Device_Name": "K4",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",

@@ -1,17 +1,7 @@
 {
     "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-    "versions": [
-        "6.11",
-        "6.9",
-        "6.8",
-        "6.7",
-        "6.6",
-        "6.5",
-        "6.4",
-        "6.3",
-        "6.1"
-    ],
-    "sortIndex": 481,
+    "versions": ["6.11", "6.10", "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6],
+    "sortIndex": 482,
     "lite": false,
     "standard": true,
     "userAgents": [
@@ -116,7 +106,8 @@
                     "devices": {
                         "E2303": "Sony E2303",
                         "GT-I9505": "Samsung GT-I9505",
-                        "LIFETAB_P831X.2": "Medion LifeTab P831X.2"
+                        "LIFETAB_P831X.2": "Medion LifeTab P831X.2",
+                        "SM-T530": "Samsung SM-T530"
                     },
                     "platforms": [
                         "Android_5_0"
@@ -149,7 +140,8 @@
                     "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
                     "engine": "WebKit",
                     "devices": {
-                        "C1905": "Sony C1905"
+                        "C1905": "Sony C1905",
+                        "GT-I9300": "Samsung GT-I9300"
                     },
                     "platforms": [
                         "Android_4_3"

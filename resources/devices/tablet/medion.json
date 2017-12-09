@@ -77,6 +77,19 @@
             "isTablet": "true"
         }
     },
+    "Medion P1050X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P1050X",
+            "Device_Name": "Life P1050X",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Medion LifeTab P4012": {
         "standard": true,
         "properties": {

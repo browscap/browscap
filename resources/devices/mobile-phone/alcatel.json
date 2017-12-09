@@ -25,6 +25,19 @@
             "isTablet": "false"
         }
     },
+    "Alcatel 5010D": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "5010D",
+            "Device_Name": "One Touch Pixi 4 5.0 3G",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Alcatel 5017B": {
         "standard": false,
         "properties": {
@@ -70,6 +83,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "5056N",
             "Device_Name": "Fierce 4 (T-Mobile)",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel 5080X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "5080X",
+            "Device_Name": "Shine Lite",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",

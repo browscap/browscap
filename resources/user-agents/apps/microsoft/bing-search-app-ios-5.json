@@ -1,7 +1,7 @@
 {
   "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
   "versions": ["5.5", "5.4", "5.3", "5.2", 5],
-  "sortIndex": 481,
+  "sortIndex": 488,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -26,7 +26,7 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_8_4",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2",
             "iOS_A_7_0",
             "iOS_A"
           ]

@@ -766,6 +766,19 @@
             "isTablet": "false"
         }
     },
+    "Lenovo K33a48": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K33a48",
+            "Device_Name": "K6",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo K900": {
         "standard": false,
         "properties": {

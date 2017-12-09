@@ -116,6 +116,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei EVA-L09": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "EVA-L09",
+            "Device_Name": "P9",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei G510": {
         "standard": false,
         "properties": {

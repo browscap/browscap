@@ -1,13 +1,7 @@
 {
     "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-    "versions": [
-        "5.5",
-        "5.4",
-        "5.3",
-        "5.2",
-        5
-    ],
-    "sortIndex": 481,
+    "versions": ["5.5", "5.4", "5.3", "5.2", "5.1", 5],
+    "sortIndex": 483,
     "lite": false,
     "standard": true,
     "userAgents": [
@@ -50,7 +44,8 @@
                     "devices": {
                         "D6503": "Sony D6503",
                         "GT-I9505": "Samsung GT-I9505",
-                        "SM-G900F": "Samsung SM-G900F"
+                        "SM-G900F": "Samsung SM-G900F",
+                        "HTC One_M8*": "HTC M8"
                     },
                     "platforms": [
                         "Android_5_0",
@@ -61,7 +56,6 @@
                     "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
                     "devices": {
                         "A0001": "OnePlus A0001",
-                        "HTC One_M8*": "HTC M8",
                         "HTC One": "HTC M7",
                         "HUAWEI GRA-L09": "Huawei GRA-L09",
                         "SM-T535": "Samsung SM-T535",
@@ -81,8 +75,11 @@
                         "GT-P5210*": "Samsung GT-P5210",
                         "K00Z": "Asus ME175CG",
                         "LG-D620": "LG D620",
+                        "SCH-I545": "Samsung SCH-I545",
+                        "SM-N9005": "Samsung SM-N9005",
                         "SM-T235": "Samsung SM-T235",
-                        "SM-T525": "Samsung SM-T525"
+                        "SM-T525": "Samsung SM-T525",
+                        "VS980 4G": "LG VS980"
                     },
                     "platforms": [
                         "Android_4_4"
@@ -113,6 +110,7 @@
                     "devices": {
                         "GT-P5100": "Samsung GT-P5100",
                         "JK809": "Blackview JK809",
+                        "GT-I8200N": "Samsung GT-I8200N",
                         "tolino tab 7": "Tolino Tab 7"
                     },
                     "platforms": [
@@ -141,7 +139,8 @@
                     "engine": "WebKit",
                     "devices": {
                         "GT-S7562": "Samsung GT-S7562",
-                        "ST23i": "Sony ST23i"
+                        "ST23i": "Sony ST23i",
+                        "Sony Tablet S": "Sony Tablet S"
                     },
                     "platforms": [
                         "Android_4_0"

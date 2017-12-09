@@ -64,12 +64,38 @@
             "isTablet": "false"
         }
     },
+    "Wiko Lenny 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Lenny 2",
+            "Device_Code_Name": "Lenny 2",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Wiko Rainbow": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Name": "Rainbow",
             "Device_Code_Name": "Rainbow",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Wiko Robby": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Robby",
+            "Device_Code_Name": "Robby",
             "Device_Maker": "Wiko",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Wiko",
