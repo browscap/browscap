@@ -35,7 +35,8 @@ class BuildCommand extends Command
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage');
+            ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage')
+            ->addOption('no-zip', null, InputOption::VALUE_NONE, 'Skip creating the zipped collection');
     }
 
     /**
@@ -69,7 +70,13 @@ class BuildCommand extends Command
             $buildGenerator->setCollectPatternIds(true);
         }
 
-        $buildGenerator->run($input->getArgument('version'));
+        $createZip = true;
+
+        if (false !== $input->getOption('no-zip')) {
+            $createZip = false;
+        }
+
+        $buildGenerator->run($input->getArgument('version'), $createZip);
 
         $logger->info('Build done.');
 

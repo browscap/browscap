@@ -58,6 +58,7 @@ bin/browscap build [version]
 - `output` (optional) the directory where the files should be created
 - `resources` (optional) the directory where the sources for the build are located
 - `coverage` (optional) if this option is set, during the build information is added which can be used to generate a coverage report
+- `no-zip` (optional) if this option is set, no zip file is generated during the build
 
 For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
 
