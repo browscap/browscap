@@ -17,7 +17,7 @@ class PropertyHolder
      *
      * @param string $propertyName
      *
-     * @throws \Exception
+     * @throws \InvalidArgumentException
      *
      * @return string
      */

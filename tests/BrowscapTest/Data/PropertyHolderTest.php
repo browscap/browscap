@@ -26,7 +26,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function propertyNameTypeDataProvider()
+    public function propertyNameTypeDataProvider() : array
     {
         return [
             ['Comment', PropertyHolder::TYPE_STRING],
@@ -78,6 +78,8 @@ class PropertyHolderTest extends TestCase
      *
      * @param string $propertyName
      * @param string $expectedType
+     *
+     * @throws \Exception
      */
     public function testGetPropertyType(string $propertyName, string $expectedType) : void
     {
@@ -98,7 +100,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function litePropertiesDataProvider()
+    public function litePropertiesDataProvider() : array
     {
         return [
             ['Comment', true],
@@ -191,7 +193,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function standardPropertiesDataProvider()
+    public function standardPropertiesDataProvider() : array
     {
         return [
             ['Comment', false],
@@ -302,7 +304,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function outputPropertiesDataProvider()
+    public function outputPropertiesDataProvider() : array
     {
         return [
             ['Comment', true],
@@ -429,7 +431,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function checkValueInArrayProvider()
+    public function checkValueInArrayProvider() : array
     {
         return [
             ['Browser_Type', 'Browser'],
@@ -473,7 +475,7 @@ class PropertyHolderTest extends TestCase
      *
      * @return array
      */
-    public function deprecatedPropertiesDataProvider()
+    public function deprecatedPropertiesDataProvider() : array
     {
         return [
             ['Comment', false],
