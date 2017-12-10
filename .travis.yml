@@ -99,19 +99,19 @@ jobs:
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/FullTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full3Test.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
     - stage: integration tests
       php: 7.1
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/StandardTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard3Test.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
     - stage: integration tests
       php: 7.1
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/LiteTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Lite3Test.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite
