@@ -5,7 +5,7 @@ namespace UserAgentsTest;
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\LiteFilter;
+use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\IteratorHelper;
@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
 
-class LiteTest extends TestCase
+class Full3Test extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
@@ -58,9 +58,8 @@ class LiteTest extends TestCase
         // First, generate the INI files
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
-
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/build/';
-        $cacheFolder = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/cache/';
+        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-full3-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-full3-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
         if (!file_exists($buildFolder)) {
@@ -70,15 +69,13 @@ class LiteTest extends TestCase
             mkdir($cacheFolder, 0777, true);
         }
 
-        $logger = new NullLogger();
-
         $version = (string) $buildNumber;
 
-        $writerCollection = new WriterCollection();
-
+        $logger               = new NullLogger();
+        $writerCollection     = new WriterCollection();
         self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new LiteFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
+        self::$filter         = new FullFilter(self::$propertyHolder);
+        self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
         $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
@@ -112,7 +109,7 @@ class LiteTest extends TestCase
         self::$browscapUpdater
             ->setCache($cache)
             ->setLogger($logger)
-            ->convertFile($buildFolder . '/lite_php_browscap.ini');
+            ->convertFile($buildFolder . '/full_php_browscap.ini');
     }
 
     /**
@@ -124,7 +121,7 @@ class LiteTest extends TestCase
         if (!empty(self::$coveredPatterns)) {
             $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-lite.json');
+            $coverageProcessor->write(__DIR__ . '/../../coverage-full.json');
         }
     }
 
@@ -135,7 +132,7 @@ class LiteTest extends TestCase
      */
     public function userAgentDataProvider() : array
     {
-        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'lite');
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
 
         if (!empty($errors)) {
             throw new \RuntimeException(

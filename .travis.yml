@@ -11,6 +11,15 @@ cache:
   directories:
     - $HOME/.composer/cache
 
+stages:
+  - composer validate
+  - check for duplicate integration tests
+  - test
+  - test with coverage
+  - check coding style
+  - static code analysis
+  - integration tests
+
 before_install:
   - stty cols 130
   - phpenv config-rm xdebug.ini || echo "xdebug not available"
@@ -20,9 +29,7 @@ before_install:
 
 install: travis_retry composer install --optimize-autoloader --prefer-dist --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
-script:
-  - composer validate --strict
-  - vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 121 --verbose
+script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --verbose
 
 jobs:
   fast_finish: true
@@ -42,6 +49,14 @@ jobs:
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
+    - stage: composer validate
+      php: 7.1
+      before_install:
+        - phpenv config-rm xdebug.ini || echo "xdebug not available"
+        - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+        - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+      install: skip
+      script: composer validate --strict
     - stage: check coding style
       php: 7.1
       script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
@@ -51,6 +66,36 @@ jobs:
     - stage: check for duplicate integration tests
       php: 7.1
       script: bin/browscap -v check-duplicate-tests
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="browscap-php 4.x@dev"
+        - TEST_SET="full"
+      install:
+        - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
+      before_script: php -n bin/browscap build --no-zip test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/full_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Full4Test.php
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="browscap-php 4.x@dev"
+        - TEST_SET="standard"
+      install:
+        - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
+      before_script: php -n bin/browscap build --no-zip test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Standard4Test.php
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="browscap-php 4.x@dev"
+        - TEST_SET="lite"
+      install:
+        - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
+      before_script: php -n bin/browscap build --no-zip test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/lite_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Lite4Test.php
     - stage: integration tests
       php: 7.1
       env:

@@ -1,68 +1,66 @@
 <?php
+/**
+ * This file is part of the browscap package.
+ *
+ * Copyright (c) 1998-2017, Browser Capabilities Project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 declare(strict_types = 1);
 namespace UserAgentsTest;
 
-use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\StandardFilter;
+use Browscap\Filter\LiteFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\IteratorHelper;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
-use WurflCache\Adapter\File;
+use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 
-class StandardTest extends TestCase
+/**
+ * @group      useragenttest
+ * @group      lite
+ */
+class Lite4Test extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
      */
-    private static $browscap;
-
-    /**
-     * @var \BrowscapPHP\BrowscapUpdater
-     */
-    private static $browscapUpdater;
+    private static $browscap = null;
 
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private static $propertyHolder;
+    private static $propertyHolder = null;
 
     /**
-     * @var string[]
+     * @var \Browscap\Filter\LiteFilter
      */
-    private static $coveredPatterns = [];
-
-    /**
-     * @var \Browscap\Filter\FilterInterface
-     */
-    private static $filter;
+    private static $filter = null;
 
     /**
      * @var \Browscap\Writer\WriterInterface
      */
     private static $writer;
 
-    /**
-     * @throws \BrowscapPHP\Exception
-     */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
+        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-lite4-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-lite4-' . $buildNumber . '/cache/';
 
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/build/';
-        $cacheFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/cache/';
-
-        // create build folder if it does not exist
+        // create folders if it does not exist
         if (!file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
         }
@@ -70,16 +68,14 @@ class StandardTest extends TestCase
             mkdir($cacheFolder, 0777, true);
         }
 
-        $logger = new NullLogger();
-
         $version = (string) $buildNumber;
 
-        $writerCollection = new WriterCollection();
-
+        $logger               = new NullLogger();
+        $writerCollection     = new WriterCollection();
         self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new StandardFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
+        self::$filter         = new LiteFilter(self::$propertyHolder);
         $formatter            = new PhpFormatter(self::$propertyHolder);
+        self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
         $writerCollection->addWriter(self::$writer);
@@ -97,50 +93,54 @@ class StandardTest extends TestCase
         $buildGenerator->setCollectPatternIds(true);
         $buildGenerator->run($version, false);
 
-        $cache = new File([File::DIR => $cacheFolder]);
-        $cache->flush();
+        $memoryCache = new ArrayCache();
+        $cache       = new SimpleCacheAdapter($memoryCache);
+        $cache->clear();
 
         $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap();
-        self::$browscap
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->setFormatter($resultFormatter);
+        self::$browscap = new Browscap($cache, $logger);
+        self::$browscap->setFormatter($resultFormatter);
 
-        self::$browscapUpdater = new BrowscapUpdater();
-        self::$browscapUpdater
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->convertFile($buildFolder . '/php_browscap.ini');
+        $updater = new BrowscapUpdater($cache, $logger);
+        $updater->convertFile($buildFolder . '/lite_php_browscap.ini');
     }
 
     /**
-     * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
-     * the $coveredPatterns array isn't empty
-     */
-    public static function tearDownAfterClass() : void
-    {
-        if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
-            $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-standard.json');
-        }
-    }
-
-    /**
-     * @throws \RuntimeException
-     *
-     * @return array
+     * @return array[]
      */
     public function userAgentDataProvider() : array
     {
-        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'standard');
+        $data = [];
 
-        if (!empty($errors)) {
-            throw new \RuntimeException(
-                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
-            );
+        $sourceDirectory = __DIR__ . '/../issues/';
+        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
+
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || 'php' !== $file->getExtension()) {
+                continue;
+            }
+
+            $tests = require_once $file->getPathname();
+
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
+                }
+
+                if (!array_key_exists('lite', $test)) {
+                    throw new \RuntimeException(
+                        '"lite" keyword is missing for  key "' . $key . '"'
+                    );
+                }
+
+                if (!$test['lite']) {
+                    continue;
+                }
+
+                $data[$key] = $test;
+            }
         }
 
         return $data;
@@ -163,10 +163,6 @@ class StandardTest extends TestCase
         }
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
-
-        if (isset($actualProps['PatternId'])) {
-            self::$coveredPatterns[] = $actualProps['PatternId'];
-        }
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$filter->isOutputProperty($propName, self::$writer)) {
