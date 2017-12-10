@@ -17,23 +17,33 @@
       },
       "children": [
         {
-          "match": "#DEVICE#* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
-          "devices": {
-            "SAMSUNG-B5722": "Samsung GT-B5722",
-            "SAMSUNG-GT-C3262": "Samsung GT-C3262",
-            "SAMSUNG-GT-C3322": "Samsung GT-C3322",
-            "SAMSUNG-GT-S3770Y": "Samsung GT-S3770Y",
-            "SAMSUNG-SGH-G600": "Samsung SGH-G600"
-          }
-        },
-        {
           "match": "Mozilla/5.0 (SAMSUNG; #DEVICE#*",
           "devices": {
             "SAMSUNG-GT-S5380": "Samsung GT-S5380"
           }
         },
         {
-          "match": "SAMSUNG* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
+          "match": "#DEVICE##PLATFORM#",
+          "devices": {
+            "SamsungI8910": "Samsung GT-I8910"
+          },
+          "platforms": [
+            "SymbianOS_E"
+          ]
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "SAMSUNG-B5722": "Samsung GT-B5722",
+            "SAMSUNG-GT-C3262": "Samsung GT-C3262",
+            "SAMSUNG-GT-C3322": "Samsung GT-C3322",
+            "SAMSUNG-GT-I9100": "Samsung GT-I9100",
+            "SAMSUNG-GT-S3770Y": "Samsung GT-S3770Y",
+            "SAMSUNG-SGH-G600": "Samsung SGH-G600"
+          }
+        },
+        {
+          "match": "SAMSUNG*",
           "device": "general Mobile Phone"
         }
       ]

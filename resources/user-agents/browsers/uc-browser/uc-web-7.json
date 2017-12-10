@@ -200,7 +200,7 @@
           ]
         },
         {
-          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
+          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "JAVA"

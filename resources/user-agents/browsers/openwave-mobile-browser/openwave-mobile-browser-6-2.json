@@ -17,9 +17,6 @@
       },
       "children": [
         {
-          "match": "SAMSUNG* Openwave/#MAJORVER#.#MINORVER#* Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0"
-        },
-        {
           "match": "Vodafone/1.0/#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SAMSUNG-B2100": "Samsung GT-B2100",

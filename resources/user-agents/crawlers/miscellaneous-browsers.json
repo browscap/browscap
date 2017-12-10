@@ -103,10 +103,6 @@
           }
         },
         {
-          "match": "*CaptiveNetworkSupport*wispr*",
-          "browser": "wispr"
-        },
-        {
           "match": "WEB.DE MailCheck/2.4*",
           "browser": "web.de mailcheck",
           "properties": {

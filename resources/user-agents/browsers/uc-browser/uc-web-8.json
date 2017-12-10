@@ -293,7 +293,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED/*",
+          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
           "devices": {
             "samsung-gt-s5263": "Samsung GT-S5263"
           },
@@ -379,7 +379,7 @@
           ]
         },
         {
-          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "samsung-gt-s3370": "Samsung GT-S3370",
             "samsung-gt-s5620": "Samsung GT-S5620"
@@ -404,7 +404,7 @@
           ]
         },
         {
-          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "nokia6120c": "Nokia 6120c"
           },
@@ -472,7 +472,7 @@
           ]
         },
         {
-          "match": "*/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)"
         }
       ]

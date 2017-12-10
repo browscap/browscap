@@ -5174,6 +5174,12 @@
       "standard": true,
       "inherits": "SymbianOS"
     },
+    "SymbianOS_E": {
+      "match": "*SymbianOS*",
+      "lite": false,
+      "standard": true,
+      "inherits": "SymbianOS"
+    },
     "Series30": {
       "match": "*Series40*",
       "lite": false,

@@ -79,14 +79,14 @@
           }
         },
         {
-          "match": "UTSTARCOM-GTX75/* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
+          "match": "UTSTARCOM-GTX75/* POLARIS/6.00 *",
           "device": "UTStarcom GTX75",
           "properties": {
             "Version": "6.0"
           }
         },
         {
-          "match": "* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
+          "match": "* POLARIS/6.00 *",
           "properties": {
             "Version": "6.0"
           }

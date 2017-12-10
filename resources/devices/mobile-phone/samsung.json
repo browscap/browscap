@@ -909,6 +909,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I8910": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8910",
+            "Device_Name": "GT-I8910",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9000": {
         "standard": false,
         "properties": {
