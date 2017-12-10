@@ -446,7 +446,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "NEM-L51",
-            "Device_Name": "Honor 5c",
+            "Device_Name": "Honor 5C",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -462,19 +462,6 @@
             "Device_Name": "Nexus 6P",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Huawei NEM-L51": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NEM-L51",
-            "Device_Name": "Honor 5C",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"

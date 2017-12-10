@@ -174,7 +174,7 @@
                     "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
                     "engine": "WebKit",
                     "platforms": [
-                        "Android_4_3", "Android_4_2",
+                        "Android_4_3", "Android_4_2", "Android_4_1",
                         "Android"
                     ]
                 }

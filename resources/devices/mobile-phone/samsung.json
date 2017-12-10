@@ -7994,19 +7994,6 @@
             "isTablet": "false"
         }
     },
-    "Samsung SM-J320F": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SM-J320F",
-            "Device_Name": "Galaxy J3 (Duos)",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Samsung SM-J327P": {
         "standard": false,
         "properties": {

@@ -26,7 +26,12 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
+            "iOS_A_10_3", "iOS_A_10_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
             "iOS_A"
           ]
         },
@@ -36,7 +41,12 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2",
+            "iOS_A_10_3", "iOS_A_10_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
             "iOS_A"
           ]
         }
