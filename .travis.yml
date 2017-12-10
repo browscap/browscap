@@ -29,7 +29,7 @@ before_install:
 
 install: travis_retry composer install --optimize-autoloader --prefer-dist --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
-script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --verbose
+script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 121 --verbose
 
 jobs:
   fast_finish: true
@@ -52,6 +52,7 @@ jobs:
     - stage: composer validate
       php: 7.1
       before_install:
+        - stty cols 130
         - phpenv config-rm xdebug.ini || echo "xdebug not available"
         - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
         - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
@@ -74,8 +75,7 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      before_script: php -n bin/browscap build --no-zip test
-      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/full_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Full4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Full4Test.php
     - stage: integration tests
       php: 7.1
       env:
@@ -84,8 +84,7 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      before_script: php -n bin/browscap build --no-zip test
-      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Standard4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard4Test.php
     - stage: integration tests
       php: 7.1
       env:
@@ -94,8 +93,7 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      before_script: php -n bin/browscap build --no-zip test
-      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/lite_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/Lite4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Lite4Test.php
     - stage: integration tests
       php: 7.1
       env:
