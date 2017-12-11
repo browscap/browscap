@@ -1108,6 +1108,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "devices": {
+            "SM-J320F*": "Samsung SM-J320F"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "devices": {
             "SM-G850F": "Samsung SM-G850F"
