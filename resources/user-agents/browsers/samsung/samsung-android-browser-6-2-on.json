@@ -22,6 +22,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-J320F*": "Samsung SM-J320F"
+          },
+          "platforms": [
+            "Android_7_1",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "SM-G485F": "Samsung SM-G485F",
             "SM-G930V": "Samsung SM-G930V",
             "SM-G935T": "Samsung SM-G935T",
@@ -148,17 +159,6 @@
           },
           "platforms": [
             "Android_5_1", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": {
-            "SM-J320F*": "Samsung SM-J320F"
-          },
-          "platforms": [
-            "Android_7_1",
-            "Android_6_0",
-            "Android_5_1"
           ]
         },
         {
