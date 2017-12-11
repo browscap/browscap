@@ -8057,7 +8057,7 @@ return [
     'issue-1406-EV' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; ar-sa; Nokia6220c-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8100,7 +8100,7 @@ return [
     'issue-1406-EW' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; ar-sa; NOKIA6720c) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8143,7 +8143,7 @@ return [
     'issue-1406-EX' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NOKIA6121c) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8186,7 +8186,7 @@ return [
     'issue-1406-EY' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NOKIA6650d-1bH) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8229,7 +8229,7 @@ return [
     'issue-1406-EZ' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NOKIA6720c-1b) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8272,7 +8272,7 @@ return [
     'issue-1406-FA' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NOKIA6790s-1c) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8315,7 +8315,7 @@ return [
     'issue-1406-FB' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NOKIAE60) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/355/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8358,7 +8358,7 @@ return [
     'issue-1406-FC' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; en-us; NokiaN77) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8401,7 +8401,7 @@ return [
     'issue-1406-FD' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; es-la; NOKIA6790s-1b) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8444,7 +8444,7 @@ return [
     'issue-1406-FE' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA5500) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8487,7 +8487,7 @@ return [
     'issue-1406-FF' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA5630d-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8530,7 +8530,7 @@ return [
     'issue-1406-FG' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA6110) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8573,7 +8573,7 @@ return [
     'issue-1406-FH' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA6710s) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8616,7 +8616,7 @@ return [
     'issue-1406-FI' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA6730c) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8659,7 +8659,7 @@ return [
     'issue-1406-FJ' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA6730c-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8702,7 +8702,7 @@ return [
     'issue-1406-FK' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIA6760s-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8745,7 +8745,7 @@ return [
     'issue-1406-FL' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAE50) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8788,7 +8788,7 @@ return [
     'issue-1406-FM' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAE61i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8831,7 +8831,7 @@ return [
     'issue-1406-FN' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAE71x) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.0.218/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8874,7 +8874,7 @@ return [
     'issue-1406-FO' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAE90) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8917,7 +8917,7 @@ return [
     'issue-1406-FP' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAN76) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8960,7 +8960,7 @@ return [
     'issue-1406-FQ' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAN86 8MP) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9003,7 +9003,7 @@ return [
     'issue-1406-FR' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAN93i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/355/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9089,7 +9089,7 @@ return [
     'issue-1406-FS (standard)' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; Pt-br; NOKIAX5-01.2) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/355/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.6',
@@ -9104,7 +9104,7 @@ return [
     'issue-1406-FT' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; ru; NOKIA6290) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/400/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9147,7 +9147,7 @@ return [
     'issue-1406-FU' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; ru; NOKIAN71) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/28/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9233,7 +9233,7 @@ return [
     'issue-1406-FV (standard)' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; en-us; Nokia5230-c) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/50/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.6',
@@ -9291,7 +9291,7 @@ return [
     'issue-1406-FW (standard)' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; en-us; Nokia5236) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/50/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.7',
@@ -9306,7 +9306,7 @@ return [
     'issue-1406-FX' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; en-us; NokiaC5-03) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.0.218/50/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9392,7 +9392,7 @@ return [
     'issue-1406-FY (standard)' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; Pt-br; Nokia701) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/50/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.6',
@@ -9407,7 +9407,7 @@ return [
     'issue-1406-FZ' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; Pt-br; Nokia808 PureView) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/50/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9450,7 +9450,7 @@ return [
     'issue-1406-GA' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; xx; NokiaC5-03) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/50/444/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9622,7 +9622,7 @@ return [
     'issue-1406-GD (standard)' => [
         'ua' => 'Mozilla/5.0 (Java; U; Ru; Nokia8600 Luna) UCBrowser8.2.1.144/70/352/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.2',
+            'Comment' => 'UC Browser 8.2 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.2',
@@ -9680,7 +9680,7 @@ return [
     'issue-1406-GE (standard)' => [
         'ua' => 'Nokia201/2.0 (11.21) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; en-us; nokia201) UCBrowser8.3.0.154/70/355/UCWEB Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.3',
+            'Comment' => 'UC Browser 8.3 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.3',
@@ -16354,7 +16354,7 @@ return [
     'issue-1406-LD' => [
         'ua' => 'Nokia3600slide/2.0 (04.11) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; Id; nokia3600slide) UCBrowser8.2.0.132/69/452/UCWEB Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.2',
+            'Comment' => 'UC Browser 8.2 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17265,7 +17265,7 @@ return [
     'issue-1406-LT (standard)' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0(Java; U; MIDP-2.0; en-us; nokia210) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.7',
@@ -18887,7 +18887,7 @@ return [
     'issue-1406-MW (standard)' => [
         'ua' => 'Mozilla/5.0 (Java; U; es-la; nokiae63-2) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.6',
@@ -18902,7 +18902,7 @@ return [
     'issue-1406-MX' => [
         'ua' => 'UCWEB/8.8 (SymbianOS/9.2; U; en-US; NokiaE63) AppleWebKit/534.1 UCBrowser/8.8.0.245 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18988,7 +18988,7 @@ return [
     'issue-1406-MY (standard)' => [
         'ua' => 'Mozilla/5.0 (Java; U; en-us; nokiae71-1) UCBrowser8.3.0.154/69/352/UCWEB Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.3',
+            'Comment' => 'UC Browser 8.3 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.3',
@@ -19046,7 +19046,7 @@ return [
     'issue-1406-MZ (standard)' => [
         'ua' => 'Mozilla/5.0 (Java; U; en-us; nokiae72-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/84/352/UCWEB Mobile UNTRUSTED/1.0 3gpp-gba',
         'properties' => [
-            'Comment' => 'UC Browser 8.5',
+            'Comment' => 'UC Browser 8.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.5',
@@ -20187,7 +20187,7 @@ return [
     'issue-1406-NW' => [
         'ua' => 'Nokia6208c/2.0 (04.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia6208c/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

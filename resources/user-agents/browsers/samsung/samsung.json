@@ -5,13 +5,13 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Samsung Generic",
+      "userAgent": "Samsung Generic for Bada",
       "browser": "samsung",
-      "platform": "JAVA",
+      "platform": "Bada_2_0",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Samsung Generic",
+        "Comment": "Samsung Generic for Bada"
         "Alpha": "false",
         "Beta": "false"
       },
@@ -20,8 +20,30 @@
           "match": "Mozilla/5.0 (SAMSUNG; #DEVICE#*",
           "devices": {
             "SAMSUNG-GT-S5380": "Samsung GT-S5380"
-          }
-        },
+          },
+          "platforms": [
+            "Bada_2_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung Generic for Symbian",
+      "browser": "samsung",
+      "platform": "SymbianOS_E",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic for Symbian",
+        "Browser": "Samsung",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
         {
           "match": "#DEVICE##PLATFORM#",
           "devices": {
@@ -32,19 +54,132 @@
           ]
         },
         {
-          "match": "#DEVICE#*",
+          "match": "SAMSUNG#PLATFORM#",
+          "platforms": [
+            "SymbianOS_E"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung Generic for Java",
+      "browser": "samsung",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic for Java",
+        "Browser": "Samsung",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/*",
           "devices": {
-            "SAMSUNG-B5722": "Samsung GT-B5722",
-            "SAMSUNG-GT-C3262": "Samsung GT-C3262",
-            "SAMSUNG-GT-C3322": "Samsung GT-C3322",
-            "SAMSUNG-GT-I9100": "Samsung GT-I9100",
+            "samsung-gt-s3370": "Samsung GT-S3370",
+            "SAMSUNG-GT-S3501C": "Samsung GT-S3501C",
             "SAMSUNG-GT-S3770Y": "Samsung GT-S3770Y",
-            "SAMSUNG-SGH-G600": "Samsung SGH-G600"
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560",
+            "samsung-gt-s5620": "Samsung GT-S5620",
+            "SAMSUNG-SGH-A800": "Samsung SGH-A800",
+            "SAMSUNG-SGH-D488": "Samsung SGH-D488",
+            "SAMSUNG-SGH-D500": "Samsung SGH-D500",
+            "SAMSUNG-SGH-D900": "Samsung SGH-D900",
+            "SAMSUNG-SGH-D900i": "Samsung SGH-D900i",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250",
+            "SAMSUNG-SGH-E335": "Samsung SGH-E335",
+            "SAMSUNG-SGH-E340": "Samsung SGH-E340",
+            "SAMSUNG-SGH-E368": "Samsung SGH-E368",
+            "SAMSUNG-SGH-E370": "Samsung SGH-E370",
+            "SAMSUNG-SGH-E635": "Samsung SGH-E635",
+            "SAMSUNG-SGH-E648": "Samsung SGH-E648",
+            "SAMSUNG-SGH-E700": "Samsung SGH-E700",
+            "SAMSUNG-SGH-E736": "Samsung SGH-E736",
+            "SAMSUNG-SGH-E758": "Samsung SGH-E758",
+            "SAMSUNG-SGH-G600": "Samsung SGH-G600",
+            "SAMSUNG-SGH-I858": "Samsung SGH-I858",
+            "SAMSUNG-SGH-J700i": "Samsung SGH-J700i",
+            "SAMSUNG-SGH-P200": "Samsung SGH-P200",
+            "SAMSUNG-SGH-S508": "Samsung SGH-S508",
+            "SAMSUNG-SGH-T100": "Samsung SGH-T100",
+            "SAMSUNG-SGH-T528g": "Samsung SGH-T528g",
+            "SAMSUNG-SGH-T578": "Samsung SGH-T578",
+            "SAMSUNG-SGH-X496": "Samsung SGH-X496",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
+            "SAMSUNG-SGH-X628": "Samsung SGH-X628",
+            "SAMSUNG-SGH-X640": "Samsung SGH-X640",
+            "SAMSUNG-SGH-X640C": "Samsung SGH-X640C",
+            "SAMSUNG-SGH-X648": "Samsung SGH-X648",
+            "SAMSUNG-SGH-X658": "Samsung SGH-X658",
+            "SAMSUNG-SGH-X670": "Samsung SGH-X670",
+            "Samsung SM-N9005": "Samsung SM-N9005"
           }
         },
         {
-          "match": "SAMSUNG*",
-          "device": "general Mobile Phone"
+          "match": "SAMSUNG*/*"
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "SAMSUNG-B2100": "Samsung GT-B2100",
+            "SAMSUNG-B5722": "Samsung GT-B5722",
+            "SAMSUNG-C3050": "Samsung C3050",
+            "SAMSUNG-C3053": "Samsung C3053",
+            "SAMSUNG-E2100": "Samsung E2100",
+            "SAMSUNG-E2210B": "Samsung E2210B",
+            "SAMSUNG-GT-B7722": "Samsung GT-B7722",
+            "SAMSUNG-GT-C3010": "Samsung C3010",
+            "SAMSUNG-GT-C3011": "Samsung GT-C3011",
+            "SAMSUNG-GT-C3222": "Samsung GT-C3222",
+            "SAMSUNG-GT-C3262": "Samsung GT-C3262",
+            "SAMSUNG-GT-C3322": "Samsung GT-C3322",
+            "SAMSUNG-GT-E2550": "Samsung GT-E2550",
+            "SAMSUNG-GT-I9100": "Samsung GT-I9100",
+            "SAMSUNG-GT-S3501C": "Samsung GT-S3501C",
+            "SAMSUNG-GT-S3770Y": "Samsung GT-S3770Y",
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560",
+            "samsung-gt-s5620": "Samsung GT-S5620",
+            "SAMSUNG-SGH-A800": "Samsung SGH-A800",
+            "SAMSUNG-SGH-D488": "Samsung SGH-D488",
+            "SAMSUNG-SGH-D500": "Samsung SGH-D500",
+            "SAMSUNG-SGH-D900": "Samsung SGH-D900",
+            "SAMSUNG-SGH-D900i": "Samsung SGH-D900i",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250",
+            "SAMSUNG-SGH-E335": "Samsung SGH-E335",
+            "SAMSUNG-SGH-E340": "Samsung SGH-E340",
+            "SAMSUNG-SGH-E368": "Samsung SGH-E368",
+            "SAMSUNG-SGH-E370": "Samsung SGH-E370",
+            "SAMSUNG-SGH-E635": "Samsung SGH-E635",
+            "SAMSUNG-SGH-E648": "Samsung SGH-E648",
+            "SAMSUNG-SGH-E700": "Samsung SGH-E700",
+            "SAMSUNG-SGH-E736": "Samsung SGH-E736",
+            "SAMSUNG-SGH-E758": "Samsung SGH-E758",
+            "SAMSUNG-SGH-G600": "Samsung SGH-G600",
+            "SAMSUNG-SGH-I858": "Samsung SGH-I858",
+            "SAMSUNG-SGH-J700i": "Samsung SGH-J700i",
+            "SAMSUNG-SGH-P200": "Samsung SGH-P200",
+            "SAMSUNG-SGH-S508": "Samsung SGH-S508",
+            "SAMSUNG-SGH-T100": "Samsung SGH-T100",
+            "SAMSUNG-SGH-T528g": "Samsung SGH-T528g",
+            "SAMSUNG-SGH-T578": "Samsung SGH-T578",
+            "SAMSUNG-SGH-X496": "Samsung SGH-X496",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
+            "SAMSUNG-SGH-X628": "Samsung SGH-X628",
+            "SAMSUNG-SGH-X640": "Samsung SGH-X640",
+            "SAMSUNG-SGH-X640C": "Samsung SGH-X640C",
+            "SAMSUNG-SGH-X648": "Samsung SGH-X648",
+            "SAMSUNG-SGH-X658": "Samsung SGH-X658",
+            "SAMSUNG-SGH-X670": "Samsung SGH-X670",
+            "Samsung SM-N9005": "Samsung SM-N9005"
+          }
+        },
+        {
+          "match": "SAMSUNG*"
         }
       ]
     }

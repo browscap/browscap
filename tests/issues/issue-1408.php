@@ -47,7 +47,7 @@ return [
     'issue-1408-A (standard)' => [
         'ua' => 'SAMSUNG-B5722/B5722XXJA1, SAMSUNG-GT-B5722/B5722XXJA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Maker' => 'Samsung',
             'Version' => '0.0',
@@ -249,7 +249,7 @@ return [
     'issue-1408-E (standard)' => [
         'ua' => 'SAMSUNG-GT-S3770Y/S3770YXXLC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Maker' => 'Samsung',
             'Version' => '0.0',
@@ -264,7 +264,7 @@ return [
     'issue-1408-F' => [
         'ua' => 'SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -307,7 +307,7 @@ return [
     'issue-1408-G' => [
         'ua' => 'SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2195,21 +2195,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1408-AX (standard)' => [
-        'ua' => 'SAMSUNG-GT-C3262/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
-        'properties' => [
-            'Comment' => 'Samsung Generic',
-            'Browser' => 'Samsung',
-            'Browser_Maker' => 'Samsung',
-            'Version' => '0.0',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1408-AY' => [
         'ua' => 'SonyEricssonK700c/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ',

@@ -418,21 +418,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-096-BW (standard)' => [
-        'ua' => 'SAMSUNG-SGH-T528g/T528UDKE4[TF355314045027030009640018153425713] Dolfin/1.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.5',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.5',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-096-BV' => [
         'ua' => 'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
@@ -1552,7 +1537,7 @@ return [
     'issue-096-AY' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V5; en-US; SonyEricssonU1) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2451,21 +2436,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-096-AF (standard)' => [
-        'ua' => 'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.5',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.5',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-096-AE' => [
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 4.0.4; en-gb; GT-S7562 Build/IMM76I) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',

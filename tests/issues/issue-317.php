@@ -363,7 +363,7 @@ return [
     'issue-317-I' => [
         'ua' => 'SAMSUNG-GT-C3322/C3322DDLK2 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -529,7 +529,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-317-M' => [
@@ -888,7 +888,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-317-U' => [

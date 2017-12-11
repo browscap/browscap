@@ -51,14 +51,21 @@
           ]
         },
         {
-          "match": "KDDI-CA34 UP.Browser/6.2*(GUI)MMP/2.0 (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE# UP.Browser/6.2* (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
           "engine": "unknown",
-          "device": "KDDI CA34"
+          "devices": {
+            "KDDI-CA34": "KDDI CA34"
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
-          "match": "SAMSUNG-SGH-E250/* UP.Browser/6.2* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/* UP.Browser/6.2* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
           "engine": "unknown",
-          "device": "Samsung SGH-E250",
+          "devices": {
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250"
+          },
           "platforms": [
             "JAVA"
           ]

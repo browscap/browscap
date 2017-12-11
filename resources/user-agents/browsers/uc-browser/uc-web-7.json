@@ -103,6 +103,29 @@
       ]
     },
     {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "IUC(U;iOS 4.3*)/UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "iPod Touch",
+          "platforms": [
+            "iOS_G_4_3"
+          ]
+        }
+      ]
+    },
+    {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "browser": "uc browser",
       "engine": "WebKit",
@@ -162,13 +185,6 @@
           },
           "platforms": [
             "Bada"
-          ]
-        },
-        {
-          "match": "IUC(U;iOS 4.3*)/UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_G_4_3"
           ]
         },
         {

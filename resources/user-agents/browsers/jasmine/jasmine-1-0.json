@@ -18,104 +18,34 @@
       },
       "children": [
         {
-          "match": "SAMSUNG-C3050*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3050"
-        },
-        {
-          "match": "SAMSUNG-GT-3210*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-3210"
-        },
-        {
-          "match": "SAMSUNG-GT-B3310*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B3310"
-        },
-        {
-          "match": "SAMSUNG-GT-B3410*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B3410"
-        },
-        {
-          "match": "SAMSUNG-GT-B7610*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B7610"
-        },
-        {
-          "match": "SAMSUNG-GT-E2550*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E2550"
-        },
-        {
-          "match": "SAMSUNG-GT-I6410*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I6410"
-        },
-        {
-          "match": "SAMSUNG-GT-I8320*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I8320"
-        },
-        {
-          "match": "SAMSUNG-GT-M8910* Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-M8910"
-        },
-        {
-          "match": "SAMSUNG-GT-S3370*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S3370"
-        },
-        {
-          "match": "SAMSUNG-GT-S3650*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S3650"
-        },
-        {
-          "match": "SAMSUNG-GT-S5230*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5230"
-        },
-        {
-          "match": "SAMSUNG-GT-S5230G*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5230G"
-        },
-        {
-          "match": "SAMSUNG-GT-S5560*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5560"
-        },
-        {
-          "match": "SAMSUNG-GT-S7550*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S7550"
-        },
-        {
-          "match": "SAMSUNG-GT-i8000*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I8000"
-        },
-        {
-          "match": "SAMSUNG-S8000*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8000"
-        },
-        {
-          "match": "SAMSUNG-S8003*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8003"
-        },
-        {
-          "match": "SAMSUNG-S8300*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8300"
-        },
-        {
-          "match": "SAMSUNG-SGH-E250*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E250"
-        },
-        {
-          "match": "SAMSUNG-SGH-F480*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-F480"
-        },
-        {
-          "match": "SAMSUNG-SGH-G800*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-G800"
-        },
-        {
-          "match": "SAMSUNG-SGH-U700*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-U700"
-        },
-        {
-          "match": "SAMSUNG-SGH-U900*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-U900"
-        },
-        {
-          "match": "SAMSUNG-SGH-i900*Jasmine/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-I900"
+          "match": "#DEVICE#*Jasmine/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-C3050": "Samsung C3050",
+            "SAMSUNG-GT-3210": "Samsung GT-3210",
+            "SAMSUNG-GT-B3310": "Samsung GT-B3310",
+            "SAMSUNG-GT-B3410": "Samsung GT-B3410",
+            "SAMSUNG-GT-B7610": "Samsung GT-B7610",
+            "SAMSUNG-GT-E2550": "Samsung GT-E2550",
+            "SAMSUNG-GT-I6410": "Samsung GT-I6410",
+            "SAMSUNG-GT-I8320": "Samsung GT-I8320",
+            "SAMSUNG-GT-M8910": "Samsung GT-M8910",
+            "SAMSUNG-GT-S3370": "Samsung GT-S3370",
+            "SAMSUNG-GT-S3650": "Samsung GT-S3650",
+            "SAMSUNG-GT-S5230": "Samsung GT-S5230",
+            "SAMSUNG-GT-S5230G": "Samsung GT-S5230G",
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560",
+            "SAMSUNG-GT-S7550": "Samsung GT-S7550",
+            "SAMSUNG-GT-i8000": "Samsung GT-I8000",
+            "SAMSUNG-S8000": "Samsung GT-S8000",
+            "SAMSUNG-S8003": "Samsung GT-S8003",
+            "SAMSUNG-S8300": "Samsung GT-S8300",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250",
+            "SAMSUNG-SGH-F480": "Samsung SGH-F480",
+            "SAMSUNG-SGH-G800": "Samsung SGH-G800",
+            "SAMSUNG-SGH-U700": "Samsung SGH-U700",
+            "SAMSUNG-SGH-U900": "Samsung SGH-U900",
+            "SAMSUNG-SGH-i900": "Samsung SGH-I900"
+          }
         },
         {
           "match": "SAMSUNG-GT*Jasmine/#MAJORVER#.#MINORVER#*"

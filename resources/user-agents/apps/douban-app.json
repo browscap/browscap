@@ -16,8 +16,10 @@
       },
       "children": [
         {
-          "match": "com.douban.group/2.2* Mozilla/5.0 (#PLATFORM#MI 2A Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
-          "device": "Xiaomi MI 2A",
+          "match": "com.douban.group/2.2* Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "devices": {
+            "MI 2A": "Xiaomi MI 2A"
+          },
           "platforms": [
             "Android_4_1"
           ],

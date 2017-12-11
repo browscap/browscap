@@ -474,21 +474,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1440-K (standard)' => [
-        'ua' => 'SAMSUNG-GT-S5560-Bouygues/S5560AGIL1 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.0',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.0',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1440-L' => [
         'ua' => 'SAMSUNG-GT-S5620/1.0 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
         'properties' => [
@@ -531,20 +516,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1440-L (standard)' => [
-        'ua' => 'SAMSUNG-GT-S5620/1.0 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.5',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.5',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
 ];

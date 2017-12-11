@@ -211,6 +211,30 @@
       ]
     },
     {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
+      "platform": "WinPhone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8_B",
+            "WinPhone7_C"
+          ]
+        }
+      ]
+    },
+    {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "browser": "uc browser",
       "engine": "U2",
@@ -225,8 +249,6 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone8_B",
-            "WinPhone7_C",
             "SymbianOS_B"
           ]
         },

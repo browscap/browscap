@@ -9512,7 +9512,7 @@ return [
     'issue-1219-212 (standard)' => [
         'ua' => 'nokia6120c/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.0',

@@ -2644,7 +2644,7 @@ return [
     'issue-539-CA' => [
         'ua' => 'UCWEB/2.0(Java; U; MIDP-2.0; fr-fr; generic) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

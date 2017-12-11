@@ -232,51 +232,6 @@
       ]
     },
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
-      "browser": "uc browser",
-      "engine": "U2",
-      "device": "general Mobile Phone (Touch)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#"
-      },
-      "children": [
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "devices": {
-            "SAMSUNG; GT-I8350": "Samsung GT-I8350"
-          },
-          "platforms": [
-            "WinPhone8_B",
-            "WinPhone7_C"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "platforms": [
-            "WinPhone8.1_B",
-            "WinPhone8_B",
-            "WinPhone7_C",
-            "SymbianOS_B"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "JAVA"
-          ]
-        }
-      ]
-    },
-    {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "browser": "uc browser",
       "platform": "iOS",
@@ -336,6 +291,71 @@
             "iOS_D_6_1", "iOS_D_6_0",
             "iOS_D_5_1", "iOS_D_5_0",
             "iOS_D"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+      "browser": "uc browser",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "SAMSUNG; GT-I8350": "Samsung GT-I8350"
+          },
+          "platforms": [
+            "WinPhone8_B",
+            "WinPhone7_C"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "platforms": [
+            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone7_C",
+            "SymbianOS_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
+      "browser": "uc browser",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
           ]
         }
       ]

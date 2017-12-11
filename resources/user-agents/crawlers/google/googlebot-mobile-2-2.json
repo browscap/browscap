@@ -16,8 +16,14 @@
       },
       "children": [
         {
-          "match": "KDDI-CA34 UP.Browser/6.2*(GUI)MMP/2.0 (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA34"
+          "match": "#DEVICE# UP.Browser/6.2* (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "devices": {
+            "KDDI-CA34": "KDDI CA34"
+          },
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }
