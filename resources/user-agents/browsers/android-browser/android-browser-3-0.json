@@ -81,8 +81,16 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "Android_4_1",
+            "Android_2_1",
             "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_0"
           ]
         }
       ]
