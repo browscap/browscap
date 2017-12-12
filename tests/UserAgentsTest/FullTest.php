@@ -129,8 +129,9 @@ class FullTest extends TestCase
     }
 
     /**
-     * @return array
      * @throws \RuntimeException
+     *
+     * @return array
      */
     public function userAgentDataProvider() : array
     {
