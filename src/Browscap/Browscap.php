@@ -11,5 +11,6 @@ class Browscap extends Application
         parent::__construct('Browser Capabilities Project', 'dev-master');
 
         $this->add(new Command\BuildCommand());
+        $this->add(new Command\CheckDuplicateTestsCommand());
     }
 }

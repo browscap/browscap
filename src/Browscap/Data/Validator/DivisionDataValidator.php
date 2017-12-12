@@ -9,10 +9,12 @@ class DivisionDataValidator implements ValidatorInterface
     /**
      * valdates the structure of a division
      *
-     * @param array  $divisionData  Data to validate
+     * @param array  $divisionData Data to validate
      * @param string $filename
-     * @param array  &$allDivisions
+     * @param array  $allDivisions
      * @param bool   $isCore
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function validate(
         array $divisionData,
@@ -60,6 +62,8 @@ class DivisionDataValidator implements ValidatorInterface
      * @param bool   $isCore
      * @param string $filename
      * @param int    $index
+     *
+     * @throws \Assert\AssertionFailedException
      */
     private function validateUserAgentSection(
         array $useragentData,
@@ -192,6 +196,7 @@ class DivisionDataValidator implements ValidatorInterface
      * @param array $versions      The versions from the division
      *
      * @throws \LogicException
+     * @throws \Assert\AssertionFailedException
      */
     private function validateChildSection(array $childData, array $useragentData, array $versions) : void
     {

@@ -8,15 +8,17 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Filter\LiteFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Helper\IteratorHelper;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
 
-class LiteTest extends \PHPUnit\Framework\TestCase
+class LiteTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
@@ -27,11 +29,6 @@ class LiteTest extends \PHPUnit\Framework\TestCase
      * @var \BrowscapPHP\BrowscapUpdater
      */
     private static $browscapUpdater;
-
-    /**
-     * @var string
-     */
-    private static $buildFolder;
 
     /**
      * @var \Browscap\Data\PropertyHolder
@@ -54,22 +51,20 @@ class LiteTest extends \PHPUnit\Framework\TestCase
     private static $writer;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @throws \BrowscapPHP\Exception
      */
-    private $logger;
-
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/build/';
-        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/cache/';
+        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/build/';
+        $cacheFolder = __DIR__ . '/../../build/browscap-ua-test-lite-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
-        if (!file_exists(self::$buildFolder)) {
-            mkdir(self::$buildFolder, 0777, true);
+        if (!file_exists($buildFolder)) {
+            mkdir($buildFolder, 0777, true);
         }
         if (!file_exists($cacheFolder)) {
             mkdir($cacheFolder, 0777, true);
@@ -83,7 +78,7 @@ class LiteTest extends \PHPUnit\Framework\TestCase
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new LiteFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter(self::$buildFolder . '/lite_php_browscap.ini', $logger);
+        self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
@@ -93,7 +88,7 @@ class LiteTest extends \PHPUnit\Framework\TestCase
 
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
-            self::$buildFolder,
+            $buildFolder,
             $logger,
             $writerCollection,
             $dataCollectionFactory
@@ -117,7 +112,7 @@ class LiteTest extends \PHPUnit\Framework\TestCase
         self::$browscapUpdater
             ->setCache($cache)
             ->setLogger($logger)
-            ->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
+            ->convertFile($buildFolder . '/lite_php_browscap.ini');
     }
 
     /**
@@ -133,34 +128,18 @@ class LiteTest extends \PHPUnit\Framework\TestCase
         }
     }
 
+    /**
+     * @return array
+     * @throws \RuntimeException
+     */
     public function userAgentDataProvider() : array
     {
-        $data = [];
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'lite');
 
-        $sourceDirectory = __DIR__ . '/../issues/';
-        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'php' !== $file->getExtension()) {
-                continue;
-            }
-
-            $tests = require $file->getPathname();
-
-            foreach ($tests as $key => $test) {
-                if (!array_key_exists('lite', $test)) {
-                    throw new \RuntimeException(
-                        '"lite" keyword is missing for  key "' . $key . '"'
-                    );
-                }
-
-                if (!$test['lite']) {
-                    continue;
-                }
-
-                $data[$key] = $test;
-            }
+        if (!empty($errors)) {
+            throw new \RuntimeException(
+                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
+            );
         }
 
         return $data;

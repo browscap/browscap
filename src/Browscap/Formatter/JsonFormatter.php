@@ -47,8 +47,10 @@ class JsonFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param bool|string $value
-     * @param string      $property
+     * @param bool|int|string $value
+     * @param string          $property
+     *
+     * @throws \Exception
      *
      * @return string
      */

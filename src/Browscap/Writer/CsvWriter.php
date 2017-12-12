@@ -312,8 +312,8 @@ class CsvWriter implements WriterInterface
     }
 
     /**
-     * @param string   $key
-     * @param string[] $properties
+     * @param string $key
+     * @param array  $properties
      *
      * @return string
      */

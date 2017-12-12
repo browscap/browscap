@@ -61,7 +61,7 @@ class LiteFilterTest extends TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array<string|boolean>[]
+     * @return array
      */
     public function outputPropertiesDataProvider()
     {
