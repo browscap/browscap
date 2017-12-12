@@ -350,7 +350,7 @@ return [
     'issue-378-H' => [
         'ua' => 'UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; fr-fr; MB525 Build/JRDNEM_U3_2.24.0) U2/1.0.0 UCBrowser/9.5.0.360 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -393,7 +393,7 @@ return [
     'issue-378-I' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4; en-US; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

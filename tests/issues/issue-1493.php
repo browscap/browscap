@@ -4,7 +4,7 @@ return [
     'issue-1493-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.8 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.1',
+            'Comment' => 'UC Browser 6.1 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1493-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.204 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.1',
+            'Comment' => 'UC Browser 6.1 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-1493-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -133,7 +133,7 @@ return [
     'issue-1493-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.16817.1002 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -176,7 +176,7 @@ return [
     'issue-1493-D (standard)' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.16817.1002 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '5.7',
@@ -191,7 +191,7 @@ return [
     'issue-1493-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.16817.1002 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -234,7 +234,7 @@ return [
     'issue-1493-E (standard)' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.16817.1002 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '5.7',
@@ -249,7 +249,7 @@ return [
     'issue-1493-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.14377.27 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -292,7 +292,7 @@ return [
     'issue-1493-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.15533.1004 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -335,7 +335,7 @@ return [
     'issue-1493-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.0.1308.1011 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.0',
+            'Comment' => 'UC Browser 6.0 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -378,7 +378,7 @@ return [
     'issue-1493-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.15533.1010 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -421,7 +421,7 @@ return [
     'issue-1493-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.0.1308.1003 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.0',
+            'Comment' => 'UC Browser 6.0 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -464,7 +464,7 @@ return [
     'issue-1493-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -507,7 +507,7 @@ return [
     'issue-1493-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -550,7 +550,7 @@ return [
     'issue-1493-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -593,7 +593,7 @@ return [
     'issue-1493-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 UBrowser/5.6.9703.282 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -636,7 +636,7 @@ return [
     'issue-1493-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -679,7 +679,7 @@ return [
     'issue-1493-P' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -722,7 +722,7 @@ return [
     'issue-1493-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -765,7 +765,7 @@ return [
     'issue-1493-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10551.6 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.6',
+            'Comment' => 'UC Browser 5.6 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -808,7 +808,7 @@ return [
     'issue-1493-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.204 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.1',
+            'Comment' => 'UC Browser 6.1 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -851,7 +851,7 @@ return [
     'issue-1493-T' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2015.1007 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 6.1',
+            'Comment' => 'UC Browser 6.1 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

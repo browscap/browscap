@@ -27053,7 +27053,7 @@ return [
     'issue-1434-WL' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/7.28879/27.1662; U; en-us) Presto/2.8.119 Version/11.10 UCBrowser/8.4.0.181/145/352/',
         'properties' => [
-            'Comment' => 'UC Browser 8.4',
+            'Comment' => 'UC Browser 8.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

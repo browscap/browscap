@@ -27,7 +27,8 @@
             "Nokia1100": "Nokia 1100",
             "Nokia7650": "Nokia 7650",
             "Panasonic-G60": "Panasonic G60",
-            "SAMSUNG-SGH-E700*": "Samsung SGH-E700",
+            "SAMSUNG-SGH-E700": "Samsung SGH-E700",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
             "SEC-SGHS300": "Samsung SGH-S300",
             "SEC-SGHV200": "Samsung SGH-V200",
             "SHARP-TQ-GX10i": "Sharp GX10I",
@@ -75,7 +76,6 @@
           "devices": {
             "Motorola-E365": "Motorola E365",
             "SAMSUNG-SGH-E700*": "Samsung SGH-E700",
-            "SAMSUNG-SGH-X600*": "Samsung SGH-X600",
             "SEC-SGHV200-X100*": "Samsung SGH-V200",
             "SIE-CX65": "Siemens CX65",
             "SIE-M55-XP*": "Siemens M55-XP",

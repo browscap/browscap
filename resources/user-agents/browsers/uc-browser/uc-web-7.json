@@ -13,7 +13,7 @@
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -126,13 +126,14 @@
       ]
     },
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Nokia)",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -147,6 +148,45 @@
             "JAVA"
           ]
         },
+        {
+          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)"
+        },
+        {
+          "match": "J2ME/UCWeb#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "platform": "SymbianOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -179,6 +219,29 @@
           ]
         },
         {
+          "match": "#DEVICE#/* Profile/MIDP* */UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaN70-1": "Nokia N70-1"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Bada",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "platform": "Bada",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Bada",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
           "match": "#DEVICE# UCWEB6.0/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "S8500": "Samsung S8500"
@@ -186,7 +249,21 @@
           "platforms": [
             "Bada"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "platform": "WinCE",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "#DEVICE#* Browser/IEMobile/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
@@ -196,7 +273,21 @@
           "platforms": [
             "WinCE"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "platform": "Series40",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "#DEVICE#/* Profile/MIDP* */UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -204,40 +295,6 @@
           },
           "platforms": [
             "Series40"
-          ]
-        },
-        {
-          "match": "#DEVICE#/* Profile/MIDP* */UC Browser#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "NokiaN70-1": "Nokia N70-1"
-          },
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
-          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Nokia*/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Nokia)",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)"
-        },
-        {
-          "match": "J2ME/UCWeb#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "JAVA"
           ]
         }
       ]

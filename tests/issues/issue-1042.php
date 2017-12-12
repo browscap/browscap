@@ -90,7 +90,7 @@ return [
     'issue-1042-C' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-974_1080) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -176,7 +176,7 @@ return [
     'issue-1042-E' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-1045_1012) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -348,7 +348,7 @@ return [
     'issue-1042-I' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-976_1166) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -563,7 +563,7 @@ return [
     'issue-1042-N' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; de-DE; NOKIA; RM-1045_1009) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -606,7 +606,7 @@ return [
     'issue-1042-O' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-846_eu_euro2_357) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -649,7 +649,7 @@ return [
     'issue-1042-P' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; Microsoft; RM-1089_1011) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -735,7 +735,7 @@ return [
     'issue-1042-R' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-1038_1009) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

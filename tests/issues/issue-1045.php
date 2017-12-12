@@ -4,7 +4,7 @@ return [
     'issue-1045' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.14488.1025 Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 5.7',
+            'Comment' => 'UC Browser 5.7 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

@@ -12,7 +12,7 @@
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

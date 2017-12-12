@@ -812,7 +812,7 @@ return [
     'issue-1750-Q' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B93 UCBrowser/10.9.1.998 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1508,7 +1508,7 @@ return [
     'issue-1750-AC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/15B202 Safari/7534.48.3 UCBrowser/10.9.1.998',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

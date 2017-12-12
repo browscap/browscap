@@ -47,7 +47,7 @@ return [
     'issue-1446-B' => [
         'ua' => 'J2ME/UCWEB7.0.3.45/139/7687',
         'properties' => [
-            'Comment' => 'UC Browser 7.0',
+            'Comment' => 'UC Browser 7.0 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

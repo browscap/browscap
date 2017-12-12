@@ -178,7 +178,7 @@ return [
     'issue-392-D' => [
         'ua' => 'Nokia5130c-2/2.0 (07.91) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia5130c-2) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -221,7 +221,7 @@ return [
     'issue-392-D (standard)' => [
         'ua' => 'Nokia5130c-2/2.0 (07.91) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia5130c-2) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.3',

@@ -4,7 +4,7 @@ return [
     'issue-732-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A316i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -335,7 +335,7 @@ return [
     'issue-732-H' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; ru; Lenovo A7600-H) U2/1.0.0 UCBrowser/9.1.0.297 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -522,7 +522,7 @@ return [
     'issue-732-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -767,7 +767,7 @@ return [
     'issue-732-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A859 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.383 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -982,7 +982,7 @@ return [
     'issue-732-U' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A536 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1068,7 +1068,7 @@ return [
     'issue-732-W' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2345,7 +2345,7 @@ return [
     'issue-732-AZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
         'properties' => [
-            'Comment' => 'UC Browser 3.0',
+            'Comment' => 'UC Browser 3.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2805,7 +2805,7 @@ return [
     'issue-732-BJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Lenovo A880 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2934,7 +2934,7 @@ return [
     'issue-732-BM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; Lenovo A390t Build/IML74K) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.308 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3121,7 +3121,7 @@ return [
     'issue-732-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A606 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3409,7 +3409,7 @@ return [
     'issue-732-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A328 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4297,7 +4297,7 @@ return [
     'issue-732-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A5000 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.5',
+            'Comment' => 'UC Browser 10.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4340,7 +4340,7 @@ return [
     'issue-732-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4441,7 +4441,7 @@ return [
     'issue-732-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; ru; Lenovo A238t Build/MDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.6.0.378 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4643,7 +4643,7 @@ return [
     'issue-732-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A516 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5159,7 +5159,7 @@ return [
     'issue-732-DI' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; Lenovo A7600-H) U2/1.0.0 UCBrowser/3.4.3.532 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5823,7 +5823,7 @@ return [
     'issue-732-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A328 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7476,7 +7476,7 @@ return [
     'issue-732-FG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8138,7 +8138,7 @@ return [
     'issue-732-FU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A536 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8353,7 +8353,7 @@ return [
     'issue-732-FZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A5500-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8454,7 +8454,7 @@ return [
     'issue-732-GB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A5500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.4.484 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8641,7 +8641,7 @@ return [
     'issue-732-GF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A536 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.5',
+            'Comment' => 'UC Browser 10.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9174,7 +9174,7 @@ return [
     'issue-732-GQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A328 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9217,7 +9217,7 @@ return [
     'issue-732-GR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A7600-F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
         'properties' => [
-            'Comment' => 'UC Browser 3.0',
+            'Comment' => 'UC Browser 3.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9260,7 +9260,7 @@ return [
     'issue-732-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Lenovo A369i Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9778,7 +9778,7 @@ return [
     'issue-732-HD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; Lenovo A320t Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.6.428/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9821,7 +9821,7 @@ return [
     'issue-732-HE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10006,7 +10006,7 @@ return [
     'issue-732-HI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru; Lenovo A6000 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10593,7 +10593,7 @@ return [
     'issue-732-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A3500-FL Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.1.0.403',
         'properties' => [
-            'Comment' => 'UC Browser 3.1',
+            'Comment' => 'UC Browser 3.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10793,7 +10793,7 @@ return [
     'issue-732-HZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A328 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.5',
+            'Comment' => 'UC Browser 10.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11182,7 +11182,7 @@ return [
     'issue-732-IH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A7600-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11427,7 +11427,7 @@ return [
     'issue-732-IM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; Lenovo A526 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.308 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11571,7 +11571,7 @@ return [
     'issue-732-IP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.6',
+            'Comment' => 'UC Browser 10.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12102,7 +12102,7 @@ return [
     'issue-732-JA' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; ru; Lenovo A369i) U2/1.0.0 UCBrowser/9.1.0.297 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12476,7 +12476,7 @@ return [
     'issue-732-JI' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; ru; Lenovo A316i) U2/1.0.0 UCBrowser/9.1.0.297 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

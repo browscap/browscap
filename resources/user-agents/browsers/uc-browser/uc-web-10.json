@@ -6,14 +6,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "browser": "uc browser",
       "platform": "Android",
       "engine": "U3",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -498,7 +498,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -571,7 +571,7 @@
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

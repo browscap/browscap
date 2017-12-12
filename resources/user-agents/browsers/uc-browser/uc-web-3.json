@@ -13,7 +13,7 @@
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -239,7 +239,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -304,9 +304,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -339,9 +336,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

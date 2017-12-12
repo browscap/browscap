@@ -5658,7 +5658,7 @@ return [
     'issue-563-DI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-US; A101 Build/HTK55D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5701,7 +5701,7 @@ return [
     'issue-563-DI (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-US; A101 Build/HTK55D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.2',
@@ -5716,7 +5716,7 @@ return [
     'issue-563-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-US; LG-P705 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5759,7 +5759,7 @@ return [
     'issue-563-DK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-US; QS0716D Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5802,7 +5802,7 @@ return [
     'issue-563-DK (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-US; QS0716D Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.2',
@@ -5875,7 +5875,7 @@ return [
     'issue-563-DM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ru; HUAWEI U8815 Build/HuaweiU8815C02B961) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5918,7 +5918,7 @@ return [
     'issue-563-DN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; RMD-1025 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5961,7 +5961,7 @@ return [
     'issue-563-DN (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; RMD-1025 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.0',
@@ -6019,7 +6019,7 @@ return [
     'issue-563-DP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; WEXLER-TAB-7T Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.6.495 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6062,7 +6062,7 @@ return [
     'issue-563-DP (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; WEXLER-TAB-7T Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.6.495 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.9',
@@ -6206,7 +6206,7 @@ return [
     'issue-563-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; iDnD7 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6249,7 +6249,7 @@ return [
     'issue-563-DT (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; iDnD7 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.2',
@@ -6264,7 +6264,7 @@ return [
     'issue-563-DU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; IQ4411 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6307,7 +6307,7 @@ return [
     'issue-563-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; Philips-W8500 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6350,7 +6350,7 @@ return [
     'issue-563-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; s4502M Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6393,7 +6393,7 @@ return [
     'issue-563-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; Surfer 7.34 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6436,7 +6436,7 @@ return [
     'issue-563-DX (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; Surfer 7.34 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.1',
@@ -6537,7 +6537,7 @@ return [
     'issue-563-EA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-us ; Lenovo P780_ROW Build/JOP40D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1/UCBrowser/8.6.1.262/145/33482',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6580,7 +6580,7 @@ return [
     'issue-563-EB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; TG97 Build/JOP40D[20131017.121449]) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6623,7 +6623,7 @@ return [
     'issue-563-EC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; ZTE V967S Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6808,7 +6808,7 @@ return [
     'issue-563-EG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ARK Benefit M3S Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6851,7 +6851,7 @@ return [
     'issue-563-EH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; F031 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6894,7 +6894,7 @@ return [
     'issue-563-EI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; X-pad STYLE 7.1 3G (revision 3) Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6937,7 +6937,7 @@ return [
     'issue-563-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Z150 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.0.488 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7668,7 +7668,7 @@ return [
     'issue-563-FA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; ASUS_T00N Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7711,7 +7711,7 @@ return [
     'issue-563-FB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; BQ 7056G Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7754,7 +7754,7 @@ return [
     'issue-563-FC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; M1_Plus Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7797,7 +7797,7 @@ return [
     'issue-563-FD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Philips W3509 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7840,7 +7840,7 @@ return [
     'issue-563-FE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-G900W8 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7969,7 +7969,7 @@ return [
     'issue-563-FH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-US; V370 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8012,7 +8012,7 @@ return [
     'issue-563-FI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; zh-CN; J188+ Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

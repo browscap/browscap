@@ -249,7 +249,7 @@ return [
     'issue-635-F' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; W8_beyond) U2/1.0.0 UCBrowser/9.2.0.419 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -552,7 +552,7 @@ return [
     'issue-635-L' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ROERPAD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -956,7 +956,7 @@ return [
     'issue-635-T' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; W200 Build/JOP40D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1474,7 +1474,7 @@ return [
     'issue-635-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GV7777 Build/GV7777) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.4.484 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1517,7 +1517,7 @@ return [
     'issue-635-AF (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GV7777 Build/GV7777) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.4.484 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.9',
@@ -1762,7 +1762,7 @@ return [
     'issue-635-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; Cubot GT99 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1949,7 +1949,7 @@ return [
     'issue-635-AQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; Fly IQ450 Quattro Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.1.483',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1992,7 +1992,7 @@ return [
     'issue-635-AR' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; en-US; NOKIA; RM-914_im_mea3_394) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2035,7 +2035,7 @@ return [
     'issue-635-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; HTC T328w Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2179,7 +2179,7 @@ return [
     'issue-635-AV' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; QUMO_QUEST_450) U2/1.0.0 UCBrowser/9.9.1.554 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2583,7 +2583,7 @@ return [
     'issue-635-BE' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; GSmart_T4) U2/1.0.0 UCBrowser/10.0.0.556 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2669,7 +2669,7 @@ return [
     'issue-635-BG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; M601 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2798,7 +2798,7 @@ return [
     'issue-635-BJ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; H1+) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3013,7 +3013,7 @@ return [
     'issue-635-BO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.2; ru; GT-A7100 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3157,7 +3157,7 @@ return [
     'issue-635-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; Lenovo_S820_ROW Build/JOP40D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3258,7 +3258,7 @@ return [
     'issue-635-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Impress_L Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3703,7 +3703,7 @@ return [
     'issue-635-CD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; TAB-97E-01 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3789,7 +3789,7 @@ return [
     'issue-635-CF' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; HTC_Desire_816) U2/1.0.0 UCBrowser/10.0.0.556 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3832,7 +3832,7 @@ return [
     'issue-635-CG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4; en-US; Android Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3875,7 +3875,7 @@ return [
     'issue-635-CH' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; PMP7070C3G) U2/1.0.0 UCBrowser/9.2.0.419 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3918,7 +3918,7 @@ return [
     'issue-635-CI' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; D2105) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4350,7 +4350,7 @@ return [
     'issue-635-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; M7T Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4436,7 +4436,7 @@ return [
     'issue-635-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ORION7o Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4565,7 +4565,7 @@ return [
     'issue-635-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.3; en-US; M5301 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5040,7 +5040,7 @@ return [
     'issue-635-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; UMI_X2 Build/JOP40D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.7.0.520 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5184,7 +5184,7 @@ return [
     'issue-635-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; en-US; SO-02D Build/6.0.A.5.14) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5356,7 +5356,7 @@ return [
     'issue-635-DN' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V3; en-US; NOKIAE5-00u) U2/1.0.0 UCBrowser/9.2.0.336 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5399,7 +5399,7 @@ return [
     'issue-635-DN (standard)' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V3; en-US; NOKIAE5-00u) U2/1.0.0 UCBrowser/9.2.0.336 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.2',
@@ -5543,7 +5543,7 @@ return [
     'issue-635-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-US; SmartTab7 Build/HTK75) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5586,7 +5586,7 @@ return [
     'issue-635-DR (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-US; SmartTab7 Build/HTK75) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.3',
@@ -5659,7 +5659,7 @@ return [
     'issue-635-DT' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; ATLAS_W) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5831,7 +5831,7 @@ return [
     'issue-635-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; HTC Desire SV Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.7.473 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5874,7 +5874,7 @@ return [
     'issue-635-DY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.3.3; ru; GT-9000) U2/1.0.0 UCBrowser/9.9.0.543 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6104,7 +6104,7 @@ return [
     'issue-635-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; SM-G130H Build/KOT49H) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.9.2.373 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6867,7 +6867,7 @@ return [
     'issue-635-ET' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; W100) U2/1.0.0 UCBrowser/9.0.2.389 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6910,7 +6910,7 @@ return [
     'issue-635-EU' => [
         'ua' => 'NokiaC1-01/2.0 (03.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac1-01/UC Browser7.6.1.82/69/351 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.6',
+            'Comment' => 'UC Browser 7.6 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6953,7 +6953,7 @@ return [
     'issue-635-EU (standard)' => [
         'ua' => 'NokiaC1-01/2.0 (03.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac1-01/UC Browser7.6.1.82/69/351 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.6',
+            'Comment' => 'UC Browser 7.6 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '7.6',
@@ -7269,7 +7269,7 @@ return [
     'issue-635-FC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; MB40II1 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7469,7 +7469,7 @@ return [
     'issue-635-FG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; ru; SK17i Build/4.0.2.A.0.62) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.9.0.543 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7785,7 +7785,7 @@ return [
     'issue-635-FN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; C6903 Build/14.1.G.2.257) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7828,7 +7828,7 @@ return [
     'issue-635-FO' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; T118) U2/1.0.0 UCBrowser/9.8.0.534 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7871,7 +7871,7 @@ return [
     'issue-635-FP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru; GT-S6802 Build/GINGERBREAD) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8318,7 +8318,7 @@ return [
     'issue-635-FY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; zh-CN; C1505 Build/11.3.A.2.33) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.0.2.299 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8419,7 +8419,7 @@ return [
     'issue-635-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.1; en-US; GT-I9500 Build/LRX22C) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8548,7 +8548,7 @@ return [
     'issue-635-GD' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; SUPRA_M121G) U2/1.0.0 UCBrowser/10.0.0.556 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8677,7 +8677,7 @@ return [
     'issue-635-GG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; ru; PMP7074B3GRU Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.6.0.378 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8720,7 +8720,7 @@ return [
     'issue-635-GG (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; ru; PMP7074B3GRU Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.6.0.378 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.6',
@@ -8735,7 +8735,7 @@ return [
     'issue-635-GH' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; es-LA; ZTE_V829) U2/1.0.0 UCBrowser/9.0.2.389 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8778,7 +8778,7 @@ return [
     'issue-635-GI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-US; HW-W718 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8965,7 +8965,7 @@ return [
     'issue-635-GM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; GT-P5200 Build/KOT49H) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/10.1.1.570 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9008,7 +9008,7 @@ return [
     'issue-635-GN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; SM-N910C Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9051,7 +9051,7 @@ return [
     'issue-635-GO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ZTE Geek Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9238,7 +9238,7 @@ return [
     'issue-635-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-gb; Lenovo A766 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.2.525',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9713,7 +9713,7 @@ return [
     'issue-635-HC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; PAP4500DUO Build/PrestigioPAP4500DUO) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.9.0.543 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9872,7 +9872,7 @@ return [
     'issue-635-HF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; SP-6020 QUASAR Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10203,7 +10203,7 @@ return [
     'issue-635-HM' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.0; ru; iPhone5) U2/1.0.0 UCBrowser/10.1.2.571 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10433,7 +10433,7 @@ return [
     'issue-635-HR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; LG-D415 Build/KOT49I.D41510e) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10519,7 +10519,7 @@ return [
     'issue-635-HT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; e2006v20_v89_gq2009hd Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10951,7 +10951,7 @@ return [
     'issue-635-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru; s4502 Build/JZO54K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.6.3.413 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11138,7 +11138,7 @@ return [
     'issue-635-IG' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SHV-E210K) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11353,7 +11353,7 @@ return [
     'issue-635-IL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru; GT-S7390 Build/JZO54K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11611,7 +11611,7 @@ return [
     'issue-635-IR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ar-SA; CTAB785R16-3G Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11697,7 +11697,7 @@ return [
     'issue-635-IT' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; USCCADR6230US) U2/1.0.0 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11983,7 +11983,7 @@ return [
     'issue-635-IZ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; S-TELL_M260) U2/1.0.0 UCBrowser/10.1.2.571 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12069,7 +12069,7 @@ return [
     'issue-635-JB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.4; ru; HM_1SW) U2/1.0.0 UCBrowser/9.3.0.440 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12112,7 +12112,7 @@ return [
     'issue-635-JC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; LG-D325 Build/KOT49I.A1396417092) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12299,7 +12299,7 @@ return [
     'issue-635-JG' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; Light) U2/1.0.0 UCBrowser/9.9.0.543 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12342,7 +12342,7 @@ return [
     'issue-635-JH' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; thl_4400) U2/1.0.0 UCBrowser/9.9.1.554 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12471,7 +12471,7 @@ return [
     'issue-635-JK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; ZTE LEO Q2 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12514,7 +12514,7 @@ return [
     'issue-635-JL' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.4; ru; GT-I9100) U2/1.0.0 UCBrowser/9.6.0.514 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12615,7 +12615,7 @@ return [
     'issue-635-JN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; iDxD4 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12658,7 +12658,7 @@ return [
     'issue-635-JO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; RG500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13133,7 +13133,7 @@ return [
     'issue-635-JY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; S4501M) U2/1.0.0 UCBrowser/10.1.1.570 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13219,7 +13219,7 @@ return [
     'issue-635-KA' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; en-US; IQ4490) U2/1.0.0 UCBrowser/8.8.0.332 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13649,7 +13649,7 @@ return [
     'issue-635-KJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; Sky Plus Build/IMM76D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13692,7 +13692,7 @@ return [
     'issue-635-KJ (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; Sky Plus Build/IMM76D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.8',
@@ -13765,7 +13765,7 @@ return [
     'issue-635-KL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; 1080P-N003 Build/1080P1080P-N003) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13851,7 +13851,7 @@ return [
     'issue-635-KN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; Lenovo S720 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14154,7 +14154,7 @@ return [
     'issue-635-KT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; LG-D325 Build/KOT49I.A1415155364) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14298,7 +14298,7 @@ return [
     'issue-635-KW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; x909 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14341,7 +14341,7 @@ return [
     'issue-635-KX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; GT-I8552 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14786,7 +14786,7 @@ return [
     'issue-635-LH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; A1002 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15145,7 +15145,7 @@ return [
     'issue-635-LP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ALCATEL ONE TOUCH 6030X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15461,7 +15461,7 @@ return [
     'issue-635-LW' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V3; ru; NOKIA6700s) U2/1.0.0 UCBrowser/9.0.1.317 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15504,7 +15504,7 @@ return [
     'issue-635-LW (standard)' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V3; ru; NOKIA6700s) U2/1.0.0 UCBrowser/9.0.1.317 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.0',
@@ -15519,7 +15519,7 @@ return [
     'issue-635-LX' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.1-update1; ru; GT-I5500) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15764,7 +15764,7 @@ return [
     'issue-635-MD' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; id; PICOpad_S1(7_3G)) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15807,7 +15807,7 @@ return [
     'issue-635-ME' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; en-US; P2) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15850,7 +15850,7 @@ return [
     'issue-635-MF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; DG800 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.3.478 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15994,7 +15994,7 @@ return [
     'issue-635-MI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; ZTE Blade L2 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16353,7 +16353,7 @@ return [
     'issue-635-MQ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; Adi_5S) U2/1.0.0 UCBrowser/9.1.1.420 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16598,7 +16598,7 @@ return [
     'issue-635-MW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; N003 Build/NewStockRom v2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16727,7 +16727,7 @@ return [
     'issue-635-MZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; LT26w Build/6.1.A.2.55) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16899,7 +16899,7 @@ return [
     'issue-635-ND' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SM-T2105) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16942,7 +16942,7 @@ return [
     'issue-635-ND (standard)' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SM-T2105) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.8',
@@ -16957,7 +16957,7 @@ return [
     'issue-635-NE' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; 107) U2/1.0.0 UCBrowser/9.5.0.480 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17318,7 +17318,7 @@ return [
     'issue-635-NL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; TCL M2U Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17505,7 +17505,7 @@ return [
     'issue-635-NP' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; LG-P765) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17591,7 +17591,7 @@ return [
     'issue-635-NR' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; ASUS_T00J) U2/1.0.0 UCBrowser/8.9.2.373 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17849,7 +17849,7 @@ return [
     'issue-635-NX' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; Fast) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17892,7 +17892,7 @@ return [
     'issue-635-NY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; Lenovo S660 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18223,7 +18223,7 @@ return [
     'issue-635-OF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; GT-N7000 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18309,7 +18309,7 @@ return [
     'issue-635-OH' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; A811) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18395,7 +18395,7 @@ return [
     'issue-635-OJ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; Spark) U2/1.0.0 UCBrowser/8.9.2.373 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18524,7 +18524,7 @@ return [
     'issue-635-OM' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; H30-U10) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18653,7 +18653,7 @@ return [
     'issue-635-OP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru; GT-S6500T Build/GINGERBREAD) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18999,7 +18999,7 @@ return [
     'issue-635-OW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.7; en-US; MB300) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19171,7 +19171,7 @@ return [
     'issue-635-PA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-US; Boost IIse Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19618,7 +19618,7 @@ return [
     'issue-635-PJ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; en-US; LG-D724) U2/1.0.0 UCBrowser/9.5.0.480 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19803,7 +19803,7 @@ return [
     'issue-635-PN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; ru; LG-D690 Build/KOT49I.A1413286746) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19889,7 +19889,7 @@ return [
     'issue-635-PP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; zh-CN; TM-5204 Build/IMM76D) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.0.308 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -20768,7 +20768,7 @@ return [
     'issue-635-QH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Novo7Fire Build/JDQ39B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -21041,7 +21041,7 @@ return [
     'issue-635-QN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; PMP3970B Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -21084,7 +21084,7 @@ return [
     'issue-635-QN (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; PMP3970B Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.3',
@@ -21142,7 +21142,7 @@ return [
     'issue-635-QP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; JY-F1 Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/10.0.0.556 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -21516,7 +21516,7 @@ return [
     'issue-635-QY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.1-update1; ru; U8230) U2/1.0.0 UCBrowser/9.2.0.419 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -21602,7 +21602,7 @@ return [
     'issue-635-RA' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.3; ru; HTC_Ruby) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -21933,7 +21933,7 @@ return [
     'issue-635-RH' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; Lenovo_A706_ROW) U2/1.0.0 UCBrowser/9.8.0.534 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22264,7 +22264,7 @@ return [
     'issue-635-RO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; HTC_One Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22307,7 +22307,7 @@ return [
     'issue-635-RP' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.3; ru; Lenovo_K910L) U2/1.0.0 UCBrowser/9.9.1.554 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22509,7 +22509,7 @@ return [
     'issue-635-RT' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; HUAWEI_D2-0082) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22552,7 +22552,7 @@ return [
     'issue-635-RU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; es-LA; LIFE PLAY Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22595,7 +22595,7 @@ return [
     'issue-635-RV' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; fa; GT-I9082) U2/1.0.0 UCBrowser/8.6.0.276 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22681,7 +22681,7 @@ return [
     'issue-635-RX' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; S200) U2/1.0.0 UCBrowser/10.1.0.563 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22868,7 +22868,7 @@ return [
     'issue-635-SB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; GT-I9082 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -22911,7 +22911,7 @@ return [
     'issue-635-SC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2; en-US; XLD Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.0.488 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23055,7 +23055,7 @@ return [
     'issue-635-SF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; GT-S7392 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.6.495 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23199,7 +23199,7 @@ return [
     'issue-635-SI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; BQS-4501 Bristol Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.0.488 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23242,7 +23242,7 @@ return [
     'issue-635-SJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; HTC Desire 400 dual sim Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23328,7 +23328,7 @@ return [
     'issue-635-SL' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; Oysters_T72HRi_3G) U2/1.0.0 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23429,7 +23429,7 @@ return [
     'issue-635-SN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; ru; ST25i Build/6.0.B.3.188) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.2.365 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -23760,7 +23760,7 @@ return [
     'issue-635-SU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; GU730C Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24033,7 +24033,7 @@ return [
     'issue-635-TA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; HUAWEI Y320-U10 Build/HUAWEIY320-U10) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.1.0.297 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24220,7 +24220,7 @@ return [
     'issue-635-TE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru; D2302 Build/18.0.B.1.23) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.8.425 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24392,7 +24392,7 @@ return [
     'issue-635-TI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; NT-3502M Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24435,7 +24435,7 @@ return [
     'issue-635-TI (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; NT-3502M Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.3',
@@ -24508,7 +24508,7 @@ return [
     'issue-635-TK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; M5302 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24882,7 +24882,7 @@ return [
     'issue-635-TT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-US; A808 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25443,7 +25443,7 @@ return [
     'issue-635-UF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; DIGMA iDsD10 3G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25486,7 +25486,7 @@ return [
     'issue-635-UF (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; DIGMA iDsD10 3G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.7',
@@ -25501,7 +25501,7 @@ return [
     'issue-635-UG' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; M785) U2/1.0.0 UCBrowser/10.0.0.556 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25716,7 +25716,7 @@ return [
     'issue-635-UL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; rk3188 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 Mobile UCBrowser/3.4.2.525',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25759,7 +25759,7 @@ return [
     'issue-635-UM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-US; Android TV Build/default.6160016.NO_TAG.20120712) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25802,7 +25802,7 @@ return [
     'issue-635-UM (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-US; Android TV Build/default.6160016.NO_TAG.20120712) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.0',
@@ -25860,7 +25860,7 @@ return [
     'issue-635-UO' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; HTC_Desire_310) U2/1.0.0 UCBrowser/9.2.0.419 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -25903,7 +25903,7 @@ return [
     'issue-635-UP' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; S5A4) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26090,7 +26090,7 @@ return [
     'issue-635-UT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; GT-I8160 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.2.1.441',
         'properties' => [
-            'Comment' => 'UC Browser 3.2',
+            'Comment' => 'UC Browser 3.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26176,7 +26176,7 @@ return [
     'issue-635-UV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; K1 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26421,7 +26421,7 @@ return [
     'issue-635-VA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Keneksi-Libra_Dual Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26520,7 +26520,7 @@ return [
     'issue-635-VC' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; Lenovo_A376) U2/1.0.0 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26563,7 +26563,7 @@ return [
     'issue-635-VD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; MIUI X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26692,7 +26692,7 @@ return [
     'issue-635-VG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; HTC One S Build/IML74K) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.0.2.299 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26864,7 +26864,7 @@ return [
     'issue-635-VK' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; CinemaTV_3G) U2/1.0.0 UCBrowser/9.0.2.389 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -26965,7 +26965,7 @@ return [
     'issue-635-VM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; M755 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -27109,7 +27109,7 @@ return [
     'issue-635-VP' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; ZTE_Grand_Era) U2/1.0.0 UCBrowser/9.9.0.543 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -27541,7 +27541,7 @@ return [
     'issue-635-VY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; Beeline Tab) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -27887,7 +27887,7 @@ return [
     'issue-635-WF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; ru; Lenovo_A529 Build/GRK39F) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.5.1.494 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -27930,7 +27930,7 @@ return [
     'issue-635-WG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; LG-P936 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.6.495 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -28349,7 +28349,7 @@ return [
     'issue-635-WO' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; HS-U98) U2/1.0.0 UCBrowser/9.5.1.494 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -28736,7 +28736,7 @@ return [
     'issue-635-WW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; Lenovo_A3000-H) U2/1.0.0 UCBrowser/9.9.0.543 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -28880,7 +28880,7 @@ return [
     'issue-635-WZ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; Lenovo_A516) U2/1.0.0 UCBrowser/9.9.1.554 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29067,7 +29067,7 @@ return [
     'issue-635-XD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G350E Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.1.483',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29226,7 +29226,7 @@ return [
     'issue-635-XG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; MD027G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29269,7 +29269,7 @@ return [
     'issue-635-XG (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; MD027G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.0',
@@ -29385,7 +29385,7 @@ return [
     'issue-635-XJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; JIAYU-G2S Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29572,7 +29572,7 @@ return [
     'issue-635-XN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; HUAWEI Build/IML74K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.7.5.418 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29658,7 +29658,7 @@ return [
     'issue-635-XP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; DIGMA iDsD8 3G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -29701,7 +29701,7 @@ return [
     'issue-635-XP (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; DIGMA iDsD8 3G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.8',
@@ -29931,7 +29931,7 @@ return [
     'issue-635-XV' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; IQ440) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30116,7 +30116,7 @@ return [
     'issue-635-XZ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; PAD_G781) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30303,7 +30303,7 @@ return [
     'issue-635-YD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; JY-G3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.0.461',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30346,7 +30346,7 @@ return [
     'issue-635-YE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; U2013 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30591,7 +30591,7 @@ return [
     'issue-635-YJ' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; nokiaasha500dualsim) U2/1.0.0 UCBrowser/9.2.0.311 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30634,7 +30634,7 @@ return [
     'issue-635-YJ (standard)' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; nokiaasha500dualsim) U2/1.0.0 UCBrowser/9.2.0.311 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.2',
@@ -30778,7 +30778,7 @@ return [
     'issue-635-YN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; en-us ; ST25i Build/6.0.B.3.188) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1/UCBrowser/8.5.1.235/145/355',
         'properties' => [
-            'Comment' => 'UC Browser 8.5',
+            'Comment' => 'UC Browser 8.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -30922,7 +30922,7 @@ return [
     'issue-635-YQ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.4; en-US; GT-I9100P) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -31195,7 +31195,7 @@ return [
     'issue-635-YW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.5; en-US; Micromax_A35) U2/1.0.0 UCBrowser/10.1.2.571 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -31410,7 +31410,7 @@ return [
     'issue-635-ZB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.4; ru; PantechP9060) U2/1.0.0 UCBrowser/9.8.0.534 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -31554,7 +31554,7 @@ return [
     'issue-635-ZE' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; PMP7280C3G) U2/1.0.0 UCBrowser/9.7.0.520 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -31597,7 +31597,7 @@ return [
     'issue-635-ZE (standard)' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; PMP7280C3G) U2/1.0.0 UCBrowser/9.7.0.520 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.7',
@@ -31958,7 +31958,7 @@ return [
     'issue-635-ZN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; ALCATEL ONE TOUCH 6010X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32001,7 +32001,7 @@ return [
     'issue-635-ZO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ru; WT19i Build/4.1.B.0.587) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32145,7 +32145,7 @@ return [
     'issue-635-ZR' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; P7mini) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32188,7 +32188,7 @@ return [
     'issue-635-ZR (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; P7mini) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.4',
@@ -32491,7 +32491,7 @@ return [
     'issue-635-ZY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; IQ430 Build/JRO03C) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32635,7 +32635,7 @@ return [
     'issue-635-AAB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; Kiano Elegance by Zanetti Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32678,7 +32678,7 @@ return [
     'issue-635-AAB (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; Kiano Elegance by Zanetti Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.3',
@@ -32751,7 +32751,7 @@ return [
     'issue-635-AAD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ru-ru; SM-P601 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Mobile UCBrowser/3.4.0.461',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32794,7 +32794,7 @@ return [
     'issue-635-AAE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; AirTab M104G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -32837,7 +32837,7 @@ return [
     'issue-635-AAE (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; AirTab M104G Build/JRO03H) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.1.362 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.4',
@@ -33069,7 +33069,7 @@ return [
     'issue-635-AAJ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; HTC_Desire_S) U2/1.0.0 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33155,7 +33155,7 @@ return [
     'issue-635-AAL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; OV-Vertis-01 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33284,7 +33284,7 @@ return [
     'issue-635-AAO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; GT-I9060 Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33385,7 +33385,7 @@ return [
     'issue-635-AAQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; Oysters T37 Build/IMM76L) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33428,7 +33428,7 @@ return [
     'issue-635-AAQ (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; Oysters T37 Build/IMM76L) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.0',
@@ -33660,7 +33660,7 @@ return [
     'issue-635-AAV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.2; ru; L925(L1020) Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33789,7 +33789,7 @@ return [
     'issue-635-AAY' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; en-US; Micromax_A94) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -33875,7 +33875,7 @@ return [
     'issue-635-ABA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; android Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34307,7 +34307,7 @@ return [
     'issue-635-ABJ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; iDxD8_3G) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34451,7 +34451,7 @@ return [
     'issue-635-ABM' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.2.2; ru; SM-T311) U2/1.0.0 UCBrowser/9.0.2.299 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34638,7 +34638,7 @@ return [
     'issue-635-ABQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Beeline Smart 3 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 UCBrowser/3.1.0.403',
         'properties' => [
-            'Comment' => 'UC Browser 3.1',
+            'Comment' => 'UC Browser 3.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34681,7 +34681,7 @@ return [
     'issue-635-ABR' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.1; ru; Lenovo_P770) U2/1.0.0 UCBrowser/9.4.0.460 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34782,7 +34782,7 @@ return [
     'issue-635-ABT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; NetTAB THOR-LE Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -34825,7 +34825,7 @@ return [
     'issue-635-ABT (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; NetTAB THOR-LE Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.0',
@@ -35186,7 +35186,7 @@ return [
     'issue-635-ACB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4.2; ru; Air) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -35835,7 +35835,7 @@ return [
     'issue-635-ACO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-CN; GT-I9152 Build/JDQ39) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -35979,7 +35979,7 @@ return [
     'issue-635-ACR' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.3; ru; WEXLER.BOOK_T7008) U2/1.0.0 UCBrowser/9.3.0.440 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -36022,7 +36022,7 @@ return [
     'issue-635-ACR (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.3; ru; WEXLER.BOOK_T7008) U2/1.0.0 UCBrowser/9.3.0.440 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.3',
@@ -36080,7 +36080,7 @@ return [
     'issue-635-ACT' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; Golf) U2/1.0.0 UCBrowser/9.5.1.494 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -36123,7 +36123,7 @@ return [
     'issue-635-ACU' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; Infinityll) U2/1.0.0 UCBrowser/8.9.2.373 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -36469,7 +36469,7 @@ return [
     'issue-635-ADB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; en-US; A47) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37017,7 +37017,7 @@ return [
     'issue-635-ADM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru; ASUS Transformer Pad TF700T) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.4.0.347 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37060,7 +37060,7 @@ return [
     'issue-635-ADN' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.4; ru; LG-P765) U2/1.0.0 UCBrowser/9.0.2.389 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37103,7 +37103,7 @@ return [
     'issue-635-ADO' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; LG-E612) U2/1.0.0 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37146,7 +37146,7 @@ return [
     'issue-635-ADP' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; GT-N8000) U2/1.0.0 UCBrowser/9.9.0.543 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37535,7 +37535,7 @@ return [
     'issue-635-ADX' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; T8700) U2/1.0.0 UCBrowser/9.9.1.554 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37578,7 +37578,7 @@ return [
     'issue-635-ADX (standard)' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; T8700) U2/1.0.0 UCBrowser/9.9.1.554 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.9',
@@ -37752,7 +37752,7 @@ return [
     'issue-635-AEB' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; id; Lenovo_A316i) U2/1.0.0 UCBrowser/9.6.0.514 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.6',
+            'Comment' => 'UC Browser 9.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -37881,7 +37881,7 @@ return [
     'issue-635-AEE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; MI 2S Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -38025,7 +38025,7 @@ return [
     'issue-635-AEH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; MID-717R Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -38068,7 +38068,7 @@ return [
     'issue-635-AEH (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; MID-717R Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.1.0.527 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.1',
@@ -38255,7 +38255,7 @@ return [
     'issue-635-AEL' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.4; ru; MT11i) U2/1.0.0 UCBrowser/9.4.1.482 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -38298,7 +38298,7 @@ return [
     'issue-635-AEM' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SHV-E250S) U2/1.0.0 UCBrowser/9.9.0.543 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -38485,7 +38485,7 @@ return [
     'issue-635-AEQ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.6; ru; Lenovo_A318t) U2/1.0.0 UCBrowser/9.9.1.554 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -38844,7 +38844,7 @@ return [
     'issue-635-AEX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Coolpad 8675 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -39248,7 +39248,7 @@ return [
     'issue-635-AFG' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; BIRDAPHONE) U2/1.0.0 UCBrowser/8.9.2.373 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -39392,7 +39392,7 @@ return [
     'issue-635-AFJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ru; TF-SP4502 Build/JRO03C) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.8.0.534 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -39738,7 +39738,7 @@ return [
     'issue-635-AFQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-US; NT-3507M Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40026,7 +40026,7 @@ return [
     'issue-635-AFW' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; en; NokiaC6-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile 3gpp-gba',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40069,7 +40069,7 @@ return [
     'issue-635-AFW (standard)' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; en; NokiaC6-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile 3gpp-gba',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -40342,7 +40342,7 @@ return [
     'issue-635-AGD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; JINGA_IGO_M1 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40428,7 +40428,7 @@ return [
     'issue-635-AGF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; IQ434 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 UCBrowser/3.1.0.403',
         'properties' => [
-            'Comment' => 'UC Browser 3.1',
+            'Comment' => 'UC Browser 3.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40701,7 +40701,7 @@ return [
     'issue-635-AGL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40744,7 +40744,7 @@ return [
     'issue-635-AGM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; F600 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40916,7 +40916,7 @@ return [
     'issue-635-AGQ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; GT-P3110) U2/1.0.0 UCBrowser/10.1.2.571 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -40959,7 +40959,7 @@ return [
     'issue-635-AGQ (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; ru; GT-P3110) U2/1.0.0 UCBrowser/10.1.2.571 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.1',
@@ -40974,7 +40974,7 @@ return [
     'issue-635-AGR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru; Effect Build/JDQ39) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.9.1.554 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -41378,7 +41378,7 @@ return [
     'issue-635-AGZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-US; X10 Build/GRI40) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.1.512 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -42055,7 +42055,7 @@ return [
     'issue-635-AHN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; E380 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -42242,7 +42242,7 @@ return [
     'issue-635-AHR' => [
         'ua' => 'nokia6120c/UC Browser7.4.0.65/69/400 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.4',
+            'Comment' => 'UC Browser 7.4 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -42285,7 +42285,7 @@ return [
     'issue-635-AHR (standard)' => [
         'ua' => 'nokia6120c/UC Browser7.4.0.65/69/400 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.4',
+            'Comment' => 'UC Browser 7.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '7.4',
@@ -42386,7 +42386,7 @@ return [
     'issue-635-AHU' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; IQ4406) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -42429,7 +42429,7 @@ return [
     'issue-635-AHU (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; IQ4406) U2/1.0.0 UCBrowser/3.4.3.532  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.4',
@@ -43091,7 +43091,7 @@ return [
     'issue-635-AIJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-CN; GT-S6802 Build/GINGERBREAD) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.0.2.299 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -43235,7 +43235,7 @@ return [
     'issue-635-AIM' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/10.1.1.570 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -43824,7 +43824,7 @@ return [
     'issue-635-AIZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-US; PAP4020DUO Build/GINGERBREAD) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.0.488 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -43996,7 +43996,7 @@ return [
     'issue-635-AJD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; P4 Build/KTU84Q) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44198,7 +44198,7 @@ return [
     'issue-635-AJH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; es-LA; GT-S5830 Build/KOT49H) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44428,7 +44428,7 @@ return [
     'issue-635-AJM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; ru-ru; A701 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 CyanogenMod/4.4.4/a701 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44701,7 +44701,7 @@ return [
     'issue-635-AJS' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.0.3; ru; Lenovo_A390t) U2/1.0.0 UCBrowser/9.4.1.482 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44845,7 +44845,7 @@ return [
     'issue-635-AJV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-G530H Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 10.0',
+            'Comment' => 'UC Browser 10.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44888,7 +44888,7 @@ return [
     'issue-635-AJW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; GT-I9105P Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -44931,7 +44931,7 @@ return [
     'issue-635-AJX' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.1.2; en-US; SHV-E210S) U2/1.0.0 UCBrowser/8.6.0.276 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.6',
+            'Comment' => 'UC Browser 8.6 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -45247,7 +45247,7 @@ return [
     'issue-635-AKE' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.6; en-US; U2) U2/1.0.0 UCBrowser/9.1.1.420 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.1',
+            'Comment' => 'UC Browser 9.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -45464,7 +45464,7 @@ return [
     'issue-635-AKI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI P7-L09 Build/HuaweiP7-L09) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.1.549 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -45550,7 +45550,7 @@ return [
     'issue-635-AKK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; Alpha GTR Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -45593,7 +45593,7 @@ return [
     'issue-635-AKL' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; NokiaC6-00) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0 3gpp-gba',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -45636,7 +45636,7 @@ return [
     'issue-635-AKL (standard)' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; NokiaC6-00) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0 3gpp-gba',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -45752,7 +45752,7 @@ return [
     'issue-635-AKO' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; ru; InFocus_M310) U2/1.0.0 UCBrowser/10.1.1.570 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -46068,7 +46068,7 @@ return [
     'issue-635-AKV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; LG-P713 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.3',
+            'Comment' => 'UC Browser 10.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -46240,7 +46240,7 @@ return [
     'issue-635-AKZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; Flylife Connect 7.85 3G Slim Build/unknown) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -46528,7 +46528,7 @@ return [
     'issue-635-ALF' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.2; ru; GT-I9195) U2/1.0.0 UCBrowser/9.9.1.554 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -46715,7 +46715,7 @@ return [
     'issue-635-ALJ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; PMP7280C) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

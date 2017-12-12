@@ -292,7 +292,7 @@ return [
     'issue-365-G' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; Videocon_A15) U2/1.0.0 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -507,7 +507,7 @@ return [
     'issue-365-M' => [
         'ua' => 'LG-KS20/TIM/V10b Browser/IEMobile/7.6 MMS/LG-MMS-WINCE-V1.0/1.2 Java/LGVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88/31/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.7',
+            'Comment' => 'UC Browser 7.7 for WinCE',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -550,11 +550,11 @@ return [
     'issue-365-M (standard)' => [
         'ua' => 'LG-KS20/TIM/V10b Browser/IEMobile/7.6 MMS/LG-MMS-WINCE-V1.0/1.2 Java/LGVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88/31/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.7',
+            'Comment' => 'UC Browser 7.7 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '7.7',
-            'Platform' => 'unknown',
+            'Platform' => 'JAVA',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
         ],

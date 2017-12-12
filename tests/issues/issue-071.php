@@ -90,7 +90,7 @@ return [
     'issue-071-A' => [
         'ua' => 'JUC (Linux; U; 4.0.4; zh-cn; GT-I9100; 480*800) UCWEB7.9.0.94/139/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.9',
+            'Comment' => 'UC Browser 7.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
