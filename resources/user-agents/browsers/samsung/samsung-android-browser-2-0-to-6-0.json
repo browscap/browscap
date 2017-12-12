@@ -36,7 +36,7 @@
             "SM-J320F*": "Samsung SM-J320F"
           },
           "platforms": [
-            "Android_7_1",
+            "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1"
           ]
