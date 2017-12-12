@@ -76,5 +76,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Asus Z012DE": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z012DE",
+            "Device_Name": "Zenfone 3",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }
