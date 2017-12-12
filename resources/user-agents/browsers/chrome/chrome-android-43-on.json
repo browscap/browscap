@@ -38,8 +38,7 @@
             "Pixel": "Google Pixel"
           },
           "platforms": [
-            "Android_8_1",
-            "Android_8_0",
+            "Android_8_1", "Android_8_0",
             "Android_7_1"
           ]
         },
@@ -50,8 +49,7 @@
             "Nexus 6P": "Huawei Nexus 6P"
           },
           "platforms": [
-            "Android_8_1",
-            "Android_8_0",
+            "Android_8_1", "Android_8_0",
             "Android_7_1",
             "Android_6_0"
           ]
