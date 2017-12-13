@@ -449,6 +449,16 @@
           ]
         },
         {
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaE71": "Nokia E71",
+            "NokiaN95*": "Nokia N95"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
           "match": "#DEVICE#/*UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia6208c": "Nokia 6208c"
