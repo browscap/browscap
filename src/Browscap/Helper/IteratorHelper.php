@@ -32,15 +32,17 @@ class IteratorHelper
 
             foreach ($tests as $key => $test) {
                 if (isset($data[$key])) {
-                    $logger->error('Test data is duplicated for key "' . $key . '"');
-                    $errors[] = 'Test data is duplicated for key "' . $key . '"';
+                    $error = 'Test data is duplicated for key "' . $key . '"';
+
+                    $logger->error($error);
+                    $errors[] = $error;
                 }
 
                 if (!array_key_exists($testKey, $test)) {
-                    $logger->error(
-                        '"full" keyword is missing for  key "' . $key . '"'
-                    );
-                    $errors[] = '"full" keyword is missing for  key "' . $key . '"';
+                    $error = '"' . $testKey . '" keyword is missing for  key "' . $key . '"';
+
+                    $logger->error($error);
+                    $errors[] = $error;
                 }
 
                 if (!$test[$testKey]) {
@@ -48,12 +50,11 @@ class IteratorHelper
                 }
 
                 if (isset($checks[$test['ua']])) {
-                    $logger->error(
-                        'UA "' . $test['ua'] . '" added more than once, now for key "' . $key . '", before for key "'
-                        . $checks[$test['ua']] . '"'
-                    );
-                    $errors[] = 'UA "' . $test['ua'] . '" added more than once, now for key "' . $key . '", before for key "'
+                    $error = 'UA "' . $test['ua'] . '" added more than once, now for key "' . $key . '", before for key "'
                         . $checks[$test['ua']] . '"';
+
+                    $logger->error($error);
+                    $errors[] = $error;
                 }
 
                 $data[$key]          = $test;
