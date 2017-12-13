@@ -14,10 +14,10 @@ cache:
 stages:
   - composer validate
   - check for duplicate integration tests
-  - test
-  - test with coverage
   - check coding style
   - static code analysis
+  - test
+  - test with coverage
   - integration tests
 
 before_install:
