@@ -464,7 +464,7 @@ return [
     'issue-687-L (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 4.2.0.201; en-us; 8530/4.2.0.201) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -681,7 +681,7 @@ return [
     'issue-687-P (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 9.49.0.31; en-us; 9320/9.49.0.31) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile - 23',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -1863,7 +1863,7 @@ return [
     'issue-687-AN (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 5.2.0.104; en-us; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -2166,7 +2166,7 @@ return [
     'issue-687-AT (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 6.6.0.236; en-us; 9700/6.6.0.236) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',

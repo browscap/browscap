@@ -62,7 +62,7 @@ return [
     'issue-1406-B' => [
         'ua' => 'Nokia6280/2.0 (03.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -105,7 +105,7 @@ return [
     'issue-1406-B (standard)' => [
         'ua' => 'Nokia6280/2.0 (03.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -120,7 +120,7 @@ return [
     'issue-1406-C' => [
         'ua' => 'NokiaC3-00/5.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -163,7 +163,7 @@ return [
     'issue-1406-C (standard)' => [
         'ua' => 'NokiaC3-00/5.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -178,7 +178,7 @@ return [
     'issue-1406-D' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE63-1/510.21.010; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -264,7 +264,7 @@ return [
     'issue-1406-F' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for MeeGo',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -509,7 +509,7 @@ return [
     'issue-1406-K' => [
         'ua' => 'NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.3) Clecko/20141026 Classilla/CFM',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -552,7 +552,7 @@ return [
     'issue-1406-K (standard)' => [
         'ua' => 'NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.3) Clecko/20141026 Classilla/CFM',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1072,7 +1072,7 @@ return [
     'issue-1406-V' => [
         'ua' => 'Nokia7610/2.0 (5.0509.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1098,7 +1098,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => '7610 Supernova',
+            'Device_Name' => '7610',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
@@ -1115,7 +1115,7 @@ return [
     'issue-1406-V (standard)' => [
         'ua' => 'Nokia7610/2.0 (5.0509.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1130,7 +1130,7 @@ return [
     'issue-1406-W' => [
         'ua' => 'Nokia6100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1173,7 +1173,7 @@ return [
     'issue-1406-W (standard)' => [
         'ua' => 'Nokia6100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1231,7 +1231,7 @@ return [
     'issue-1406-Y' => [
         'ua' => 'Nokia6630/1.0 (2.3.129) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1274,7 +1274,7 @@ return [
     'issue-1406-Y (standard)' => [
         'ua' => 'Nokia6630/1.0 (2.3.129) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1289,7 +1289,7 @@ return [
     'issue-1406-Z' => [
         'ua' => 'Nokia6500c/2.0 (09.48) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1332,7 +1332,7 @@ return [
     'issue-1406-Z (standard)' => [
         'ua' => 'Nokia6500c/2.0 (09.48) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1390,7 +1390,7 @@ return [
     'issue-1406-AB' => [
         'ua' => 'NokiaN80-1/3.0 (3.0617.0.5) Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1433,7 +1433,7 @@ return [
     'issue-1406-AB (standard)' => [
         'ua' => 'NokiaN80-1/3.0 (3.0617.0.5) Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1607,7 +1607,7 @@ return [
     'issue-1406-AF' => [
         'ua' => 'Nokia7230/5.0 (06.90) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1650,7 +1650,7 @@ return [
     'issue-1406-AF (standard)' => [
         'ua' => 'Nokia7230/5.0 (06.90) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2084,7 +2084,7 @@ return [
     'issue-1406-AO' => [
         'ua' => 'NokiaN70-1/',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2127,7 +2127,7 @@ return [
     'issue-1406-AO (standard)' => [
         'ua' => 'NokiaN70-1/',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2228,7 +2228,7 @@ return [
     'issue-1406-AR' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, Like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for MeeGo',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2271,7 +2271,7 @@ return [
     'issue-1406-AR (standard)' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, Like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for MeeGo',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '8.5',
@@ -2344,7 +2344,7 @@ return [
     'issue-1406-AT' => [
         'ua' => 'Nokia2320c-2b/2.0 (06.88) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2387,7 +2387,7 @@ return [
     'issue-1406-AT (standard)' => [
         'ua' => 'Nokia2320c-2b/2.0 (06.88) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2402,7 +2402,7 @@ return [
     'issue-1406-AU' => [
         'ua' => 'Nokia2720a-2b/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2445,7 +2445,7 @@ return [
     'issue-1406-AU (standard)' => [
         'ua' => 'Nokia2720a-2b/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2460,7 +2460,7 @@ return [
     'issue-1406-AV' => [
         'ua' => 'Nokia3120b/1.0 (05.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2503,7 +2503,7 @@ return [
     'issue-1406-AV (standard)' => [
         'ua' => 'Nokia3120b/1.0 (05.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2778,7 +2778,7 @@ return [
     'issue-1406-BB' => [
         'ua' => 'Nokia8910/1.0 (03.04)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2821,7 +2821,7 @@ return [
     'issue-1406-BB (standard)' => [
         'ua' => 'Nokia8910/1.0 (03.04)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2836,7 +2836,7 @@ return [
     'issue-1406-BC' => [
         'ua' => 'Nokia8910i/1.0 (02.10) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2879,7 +2879,7 @@ return [
     'issue-1406-BC (standard)' => [
         'ua' => 'Nokia8910i/1.0 (02.10) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2952,7 +2952,7 @@ return [
     'issue-1406-BE' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; U; [de]; NokiaE50-2/06.41.3.0 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3081,7 +3081,7 @@ return [
     'issue-1406-BH' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE66-2/102.07.81; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3268,7 +3268,7 @@ return [
     'issue-1406-BL' => [
         'ua' => 'Nokia6680/1.0 ((4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (for mobile crawler) )',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3311,7 +3311,7 @@ return [
     'issue-1406-BL (standard)' => [
         'ua' => 'Nokia6680/1.0 ((4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (for mobile crawler) )',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3384,7 +3384,7 @@ return [
     'issue-1406-BN' => [
         'ua' => 'Nokia3100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3427,7 +3427,7 @@ return [
     'issue-1406-BN (standard)' => [
         'ua' => 'Nokia3100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3442,7 +3442,7 @@ return [
     'issue-1406-BO' => [
         'ua' => 'Nokia3650/1.0 (4.17) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3485,7 +3485,7 @@ return [
     'issue-1406-BO (standard)' => [
         'ua' => 'Nokia3650/1.0 (4.17) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3500,7 +3500,7 @@ return [
     'issue-1406-BP' => [
         'ua' => 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3543,7 +3543,7 @@ return [
     'issue-1406-BP (standard)' => [
         'ua' => 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3558,7 +3558,7 @@ return [
     'issue-1406-BQ' => [
         'ua' => 'Nokia6100/1.0 (05.16)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3601,7 +3601,7 @@ return [
     'issue-1406-BQ (standard)' => [
         'ua' => 'Nokia6100/1.0 (05.16)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3616,7 +3616,7 @@ return [
     'issue-1406-BR' => [
         'ua' => 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3659,7 +3659,7 @@ return [
     'issue-1406-BR (standard)' => [
         'ua' => 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3674,7 +3674,7 @@ return [
     'issue-1406-BS' => [
         'ua' => 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3717,7 +3717,7 @@ return [
     'issue-1406-BS (standard)' => [
         'ua' => 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3732,7 +3732,7 @@ return [
     'issue-1406-BT' => [
         'ua' => 'Nokia6600/1.0 SymbianOS',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3775,7 +3775,7 @@ return [
     'issue-1406-BT (standard)' => [
         'ua' => 'Nokia6600/1.0 SymbianOS',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3790,7 +3790,7 @@ return [
     'issue-1406-BU' => [
         'ua' => 'Nokia6610/1.0 (5.63) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3833,7 +3833,7 @@ return [
     'issue-1406-BU (standard)' => [
         'ua' => 'Nokia6610/1.0 (5.63) Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3848,7 +3848,7 @@ return [
     'issue-1406-BV' => [
         'ua' => 'Nokia7250/1.0 (3.14)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3891,7 +3891,7 @@ return [
     'issue-1406-BV (standard)' => [
         'ua' => 'Nokia7250/1.0 (3.14)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3906,7 +3906,7 @@ return [
     'issue-1406-BW' => [
         'ua' => 'Nokia7610/2.0 (3.0417.0ch) Symbian',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3932,7 +3932,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => '7610 Supernova',
+            'Device_Name' => '7610',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
@@ -3949,7 +3949,7 @@ return [
     'issue-1406-BW (standard)' => [
         'ua' => 'Nokia7610/2.0 (3.0417.0ch) Symbian',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3964,7 +3964,7 @@ return [
     'issue-1406-BX' => [
         'ua' => 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4007,7 +4007,7 @@ return [
     'issue-1406-BX (standard)' => [
         'ua' => 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4022,7 +4022,7 @@ return [
     'issue-1406-BY' => [
         'ua' => 'Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4065,7 +4065,7 @@ return [
     'issue-1406-BY (standard)' => [
         'ua' => 'Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4080,7 +4080,7 @@ return [
     'issue-1406-BZ' => [
         'ua' => 'Nokia2730c-1/2.0 (09.41) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4123,7 +4123,7 @@ return [
     'issue-1406-BZ (standard)' => [
         'ua' => 'Nokia2730c-1/2.0 (09.41) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4138,7 +4138,7 @@ return [
     'issue-1406-CA' => [
         'ua' => 'Nokia6300/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4181,7 +4181,7 @@ return [
     'issue-1406-CA (standard)' => [
         'ua' => 'Nokia6300/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4196,7 +4196,7 @@ return [
     'issue-1406-CB' => [
         'ua' => 'Nokia6303iclassic/5.0 (06.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4239,7 +4239,7 @@ return [
     'issue-1406-CB (standard)' => [
         'ua' => 'Nokia6303iclassic/5.0 (06.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4254,7 +4254,7 @@ return [
     'issue-1406-CC' => [
         'ua' => 'Nokia6700c-1/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4297,7 +4297,7 @@ return [
     'issue-1406-CC (standard)' => [
         'ua' => 'Nokia6700c-1/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4312,7 +4312,7 @@ return [
     'issue-1406-CD' => [
         'ua' => 'NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4355,7 +4355,7 @@ return [
     'issue-1406-CD (standard)' => [
         'ua' => 'NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4370,7 +4370,7 @@ return [
     'issue-1406-CE' => [
         'ua' => 'NokiaX2-00/5.0 (04.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4413,7 +4413,7 @@ return [
     'issue-1406-CE (standard)' => [
         'ua' => 'NokiaX2-00/5.0 (04.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4428,7 +4428,7 @@ return [
     'issue-1406-CF' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia6760s-1/03.38; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4471,7 +4471,7 @@ return [
     'issue-1406-CG' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5800d-1/52.50.2008.24; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4514,7 +4514,7 @@ return [
     'issue-1406-CH' => [
         'ua' => 'Nokia6680/1.0 (4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4557,7 +4557,7 @@ return [
     'issue-1406-CH (standard)' => [
         'ua' => 'Nokia6680/1.0 (4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4572,7 +4572,7 @@ return [
     'issue-1406-CI' => [
         'ua' => 'Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4598,7 +4598,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => '7610 Supernova',
+            'Device_Name' => '7610',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
@@ -4615,7 +4615,7 @@ return [
     'issue-1406-CI (standard)' => [
         'ua' => 'Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4630,7 +4630,7 @@ return [
     'issue-1406-CJ' => [
         'ua' => 'NokiaN-Gage/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4673,7 +4673,7 @@ return [
     'issue-1406-CJ (standard)' => [
         'ua' => 'NokiaN-Gage/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4688,7 +4688,7 @@ return [
     'issue-1406-CK' => [
         'ua' => 'NokiaN-GageQD/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4731,7 +4731,7 @@ return [
     'issue-1406-CK (standard)' => [
         'ua' => 'NokiaN-GageQD/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4746,7 +4746,7 @@ return [
     'issue-1406-CL' => [
         'ua' => 'NokiaN70-1/3.0546.2.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4789,7 +4789,7 @@ return [
     'issue-1406-CL (standard)' => [
         'ua' => 'NokiaN70-1/3.0546.2.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4804,7 +4804,7 @@ return [
     'issue-1406-CM' => [
         'ua' => 'NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.0) Clecko/20120116 Classilla/CFM',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4847,7 +4847,7 @@ return [
     'issue-1406-CM (standard)' => [
         'ua' => 'NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.0) Clecko/20120116 Classilla/CFM',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4862,7 +4862,7 @@ return [
     'issue-1406-CN' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for MeeGo',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4905,7 +4905,7 @@ return [
     'issue-1406-CN (standard)' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for MeeGo',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '8.5',
@@ -5367,7 +5367,7 @@ return [
     'issue-1406-CX' => [
         'ua' => 'Nokia6120c/GoBrowser',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5410,7 +5410,7 @@ return [
     'issue-1406-CX (standard)' => [
         'ua' => 'Nokia6120c/GoBrowser',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -5756,7 +5756,7 @@ return [
     'issue-1406-DF' => [
         'ua' => 'Mozilla/5.0 (Maemo; Linux; Jolla; Sailfish; Mobile) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for SailfishOS',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5765,7 +5765,7 @@ return [
             'Version' => '8.5',
             'Platform' => 'SailfishOS',
             'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Symbian OS',
+            'Platform_Description' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Jolla Ltd.',
             'Alpha' => false,
@@ -5799,7 +5799,7 @@ return [
     'issue-1406-DF (standard)' => [
         'ua' => 'Mozilla/5.0 (Maemo; Linux; Jolla; Sailfish; Mobile) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         'properties' => [
-            'Comment' => 'Nokia Browser 8.5',
+            'Comment' => 'Nokia Browser 8.5 for SailfishOS',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '8.5',
@@ -5958,7 +5958,7 @@ return [
     'issue-1406-DI (standard)' => [
         'ua' => 'NokiaE72/071.004 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -5973,7 +5973,7 @@ return [
     'issue-1406-DJ' => [
         'ua' => 'Nokia5236/51.9.002 (SymbianOS/9.4; U; Series60/5.0; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6016,7 +6016,7 @@ return [
     'issue-1406-DJ (standard)' => [
         'ua' => 'Nokia5236/51.9.002 (SymbianOS/9.4; U; Series60/5.0; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6031,7 +6031,7 @@ return [
     'issue-1406-DK' => [
         'ua' => 'Nokia5250/10.0.011 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6074,7 +6074,7 @@ return [
     'issue-1406-DK (standard)' => [
         'ua' => 'Nokia5250/10.0.011 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6089,7 +6089,7 @@ return [
     'issue-1406-DL' => [
         'ua' => 'Nokia6700s/062.001 (SymbianOS/9.3; U; Series60/3.2; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML,like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6132,7 +6132,7 @@ return [
     'issue-1406-DL (standard)' => [
         'ua' => 'Nokia6700s/062.001 (SymbianOS/9.3; U; Series60/3.2; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML,like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6147,7 +6147,7 @@ return [
     'issue-1406-DM' => [
         'ua' => 'Nokia6730c/031.023 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6190,7 +6190,7 @@ return [
     'issue-1406-DM (standard)' => [
         'ua' => 'Nokia6730c/031.023 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6205,7 +6205,7 @@ return [
     'issue-1406-DN' => [
         'ua' => 'Nokia6788i/CMCC SymbianOS/9.3 Series60/3.2 Release/19.013.314.1; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6248,7 +6248,7 @@ return [
     'issue-1406-DN (standard)' => [
         'ua' => 'Nokia6788i/CMCC SymbianOS/9.3 Series60/3.2 Release/19.013.314.1; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6263,7 +6263,7 @@ return [
     'issue-1406-DO' => [
         'ua' => 'NokiaC5-00i/071.003 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) Version/3.0 Safari/533.4 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6306,7 +6306,7 @@ return [
     'issue-1406-DO (standard)' => [
         'ua' => 'NokiaC5-00i/071.003 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) Version/3.0 Safari/533.4 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6321,7 +6321,7 @@ return [
     'issue-1406-DP' => [
         'ua' => 'NokiaC5-06/23.6.015 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6364,7 +6364,7 @@ return [
     'issue-1406-DP (standard)' => [
         'ua' => 'NokiaC5-06/23.6.015 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6379,7 +6379,7 @@ return [
     'issue-1406-DQ' => [
         'ua' => 'NokiaE52/031.012 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6422,7 +6422,7 @@ return [
     'issue-1406-DQ (standard)' => [
         'ua' => 'NokiaE52/031.012 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6437,7 +6437,7 @@ return [
     'issue-1406-DR' => [
         'ua' => 'NokiaE71x/ATT.03.28 Mozilla/5.0 SymbianOS/9.3; U; [en]; Series60/3.2; Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6480,7 +6480,7 @@ return [
     'issue-1406-DR (standard)' => [
         'ua' => 'NokiaE71x/ATT.03.28 Mozilla/5.0 SymbianOS/9.3; U; [en]; Series60/3.2; Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6495,7 +6495,7 @@ return [
     'issue-1406-DS' => [
         'ua' => 'NokiaX5-00_TD/CMCC SymbianOS/9.3 Series60/3.2 Release/11.1026.019; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6538,7 +6538,7 @@ return [
     'issue-1406-DS (standard)' => [
         'ua' => 'NokiaX5-00_TD/CMCC SymbianOS/9.3 Series60/3.2 Release/11.1026.019; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6553,7 +6553,7 @@ return [
     'issue-1406-DT' => [
         'ua' => 'NokiaX6-00m/CMCC (SymbianOS/9.4; Series60/5.0; Release/21.1.004; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6596,7 +6596,7 @@ return [
     'issue-1406-DT (standard)' => [
         'ua' => 'NokiaX6-00m/CMCC (SymbianOS/9.4; Series60/5.0; Release/21.1.004; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6611,7 +6611,7 @@ return [
     'issue-1406-DU' => [
         'ua' => 'Nokia300/5.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6654,7 +6654,7 @@ return [
     'issue-1406-DU (standard)' => [
         'ua' => 'Nokia300/5.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6669,7 +6669,7 @@ return [
     'issue-1406-DV' => [
         'ua' => 'Nokia3020/5.0 (14.53) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6712,7 +6712,7 @@ return [
     'issue-1406-DV (standard)' => [
         'ua' => 'Nokia3020/5.0 (14.53) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6727,7 +6727,7 @@ return [
     'issue-1406-DW' => [
         'ua' => 'Nokia303/5.0 (13.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6770,7 +6770,7 @@ return [
     'issue-1406-DW (standard)' => [
         'ua' => 'Nokia303/5.0 (13.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6785,7 +6785,7 @@ return [
     'issue-1406-DX' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6828,7 +6828,7 @@ return [
     'issue-1406-DX (standard)' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6843,7 +6843,7 @@ return [
     'issue-1406-DY' => [
         'ua' => 'Nokia3710fold/5.0 (04.30) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6886,7 +6886,7 @@ return [
     'issue-1406-DY (standard)' => [
         'ua' => 'Nokia3710fold/5.0 (04.30) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6901,7 +6901,7 @@ return [
     'issue-1406-DZ' => [
         'ua' => 'Nokia3711fold/5.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6944,7 +6944,7 @@ return [
     'issue-1406-DZ (standard)' => [
         'ua' => 'Nokia3711fold/5.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -6959,7 +6959,7 @@ return [
     'issue-1406-EA' => [
         'ua' => 'Nokia3720c/2.0 (09.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7002,7 +7002,7 @@ return [
     'issue-1406-EA (standard)' => [
         'ua' => 'Nokia3720c/2.0 (09.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7017,7 +7017,7 @@ return [
     'issue-1406-EB' => [
         'ua' => 'Nokia3720classic/2.0 (cor6.53SSC) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7060,7 +7060,7 @@ return [
     'issue-1406-EB (standard)' => [
         'ua' => 'Nokia3720classic/2.0 (cor6.53SSC) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7075,7 +7075,7 @@ return [
     'issue-1406-EC' => [
         'ua' => 'Nokia5330-1d/5.0 (06.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7118,7 +7118,7 @@ return [
     'issue-1406-EC (standard)' => [
         'ua' => 'Nokia5330-1d/5.0 (06.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7133,7 +7133,7 @@ return [
     'issue-1406-ED' => [
         'ua' => 'Nokia6260s-1/2.0 (04.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7176,7 +7176,7 @@ return [
     'issue-1406-ED (standard)' => [
         'ua' => 'Nokia6260s-1/2.0 (04.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7191,7 +7191,7 @@ return [
     'issue-1406-EE' => [
         'ua' => 'Nokia6303c/2.0 (06.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420 (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7234,7 +7234,7 @@ return [
     'issue-1406-EE (standard)' => [
         'ua' => 'Nokia6303c/2.0 (06.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420 (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7249,7 +7249,7 @@ return [
     'issue-1406-EF' => [
         'ua' => 'Nokia6303c/2.0 (10.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7292,7 +7292,7 @@ return [
     'issue-1406-EF (standard)' => [
         'ua' => 'Nokia6303c/2.0 (10.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7307,7 +7307,7 @@ return [
     'issue-1406-EG' => [
         'ua' => 'Nokia6750-1b/2.0(ATT.4.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7350,7 +7350,7 @@ return [
     'issue-1406-EG (standard)' => [
         'ua' => 'Nokia6750-1b/2.0(ATT.4.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7365,7 +7365,7 @@ return [
     'issue-1406-EH' => [
         'ua' => 'Nokia7230-1c/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7408,7 +7408,7 @@ return [
     'issue-1406-EH (standard)' => [
         'ua' => 'Nokia7230-1c/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7423,7 +7423,7 @@ return [
     'issue-1406-EI' => [
         'ua' => 'NokiaC3-01.5/5.0 (06.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7466,7 +7466,7 @@ return [
     'issue-1406-EI (standard)' => [
         'ua' => 'NokiaC3-01.5/5.0 (06.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7481,7 +7481,7 @@ return [
     'issue-1406-EJ' => [
         'ua' => 'NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7524,7 +7524,7 @@ return [
     'issue-1406-EJ (standard)' => [
         'ua' => 'NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7539,7 +7539,7 @@ return [
     'issue-1406-EK' => [
         'ua' => 'NokiaX3-00/5.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7582,7 +7582,7 @@ return [
     'issue-1406-EK (standard)' => [
         'ua' => 'NokiaX3-00/5.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7597,7 +7597,7 @@ return [
     'issue-1406-EL' => [
         'ua' => 'NokiaX3-02.5/5.0 (06.73) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7640,7 +7640,7 @@ return [
     'issue-1406-EL (standard)' => [
         'ua' => 'NokiaX3-02.5/5.0 (06.73) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7655,7 +7655,7 @@ return [
     'issue-1406-EM' => [
         'ua' => 'NokiaX3-02i/5.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7698,7 +7698,7 @@ return [
     'issue-1406-EM (standard)' => [
         'ua' => 'NokiaX3-02i/5.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -7713,7 +7713,7 @@ return [
     'issue-1406-EN' => [
         'ua' => 'Mozilla/5.0 ( Nokia3710fold/5.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7756,7 +7756,7 @@ return [
     'issue-1406-EO' => [
         'ua' => 'Mozilla/5.0 ( Nokia5330XpressMusic/2.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7799,7 +7799,7 @@ return [
     'issue-1406-EP' => [
         'ua' => 'Mozilla/5.0 ( Nokia6260s-1/2.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7842,7 +7842,7 @@ return [
     'issue-1406-EQ' => [
         'ua' => 'Mozilla/5.0 ( Nokia6600s/2.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7885,7 +7885,7 @@ return [
     'issue-1406-ER' => [
         'ua' => 'Mozilla/5.0 ( Nokia7230-1c/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7928,7 +7928,7 @@ return [
     'issue-1406-ES' => [
         'ua' => 'Mozilla/5.0 ( Nokia7510a-b/2.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7971,7 +7971,7 @@ return [
     'issue-1406-ET' => [
         'ua' => 'Mozilla/5.0 ( Nokia7510Supernova/2.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420 (KHTML, like Gecko) Safari/420',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8014,7 +8014,7 @@ return [
     'issue-1406-EU' => [
         'ua' => 'Mozilla/5.0 ( NokiaX3-00/5.0 (08.40) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12042,7 +12042,7 @@ return [
     'issue-1406-IC' => [
         'ua' => 'Nokia110/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12085,7 +12085,7 @@ return [
     'issue-1406-IC (standard)' => [
         'ua' => 'Nokia110/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12186,7 +12186,7 @@ return [
     'issue-1406-IF' => [
         'ua' => 'Nokia114/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12229,7 +12229,7 @@ return [
     'issue-1406-IF (standard)' => [
         'ua' => 'Nokia114/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12330,7 +12330,7 @@ return [
     'issue-1406-II' => [
         'ua' => 'Nokia200/2.0 (10.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12373,7 +12373,7 @@ return [
     'issue-1406-II (standard)' => [
         'ua' => 'Nokia200/2.0 (10.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12489,7 +12489,7 @@ return [
     'issue-1406-IL' => [
         'ua' => 'Nokia201/2.0 (11.81) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12532,7 +12532,7 @@ return [
     'issue-1406-IL (standard)' => [
         'ua' => 'Nokia201/2.0 (11.81) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12663,7 +12663,7 @@ return [
     'issue-1406-IO' => [
         'ua' => 'Nokia2030/2.0 (20.36) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12706,7 +12706,7 @@ return [
     'issue-1406-IO (standard)' => [
         'ua' => 'Nokia2030/2.0 (20.36) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12721,7 +12721,7 @@ return [
     'issue-1406-IP' => [
         'ua' => 'Nokia205.1/2.0 (04.51) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12764,7 +12764,7 @@ return [
     'issue-1406-IP (standard)' => [
         'ua' => 'Nokia205.1/2.0 (04.51) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12779,7 +12779,7 @@ return [
     'issue-1406-IQ' => [
         'ua' => 'Nokia2060/2.0 (03.58) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12822,7 +12822,7 @@ return [
     'issue-1406-IQ (standard)' => [
         'ua' => 'Nokia2060/2.0 (03.58) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -12880,7 +12880,7 @@ return [
     'issue-1406-IS' => [
         'ua' => 'Nokia208.1/2.0 (04.06) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12923,7 +12923,7 @@ return [
     'issue-1406-IS (standard)' => [
         'ua' => 'Nokia208.1/2.0 (04.06) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13284,7 +13284,7 @@ return [
     'issue-1406-JA' => [
         'ua' => 'Nokia305/2.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13327,7 +13327,7 @@ return [
     'issue-1406-JA (standard)' => [
         'ua' => 'Nokia305/2.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13342,7 +13342,7 @@ return [
     'issue-1406-JB' => [
         'ua' => 'Nokia308/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13385,7 +13385,7 @@ return [
     'issue-1406-JB (standard)' => [
         'ua' => 'Nokia308/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13400,7 +13400,7 @@ return [
     'issue-1406-JC' => [
         'ua' => 'Nokia308A/2.0 (0.1324.0) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13443,7 +13443,7 @@ return [
     'issue-1406-JC (standard)' => [
         'ua' => 'Nokia308A/2.0 (0.1324.0) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13458,7 +13458,7 @@ return [
     'issue-1406-JD' => [
         'ua' => 'Nokia311/5.0 (07.37) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13501,7 +13501,7 @@ return [
     'issue-1406-JD (standard)' => [
         'ua' => 'Nokia311/5.0 (07.37) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13516,7 +13516,7 @@ return [
     'issue-1406-JE' => [
         'ua' => 'Nokia1120/2.0 (03.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13559,7 +13559,7 @@ return [
     'issue-1406-JE (standard)' => [
         'ua' => 'Nokia1120/2.0 (03.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13574,7 +13574,7 @@ return [
     'issue-1406-JF' => [
         'ua' => 'Nokia2610/2.0 (07.11) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13617,7 +13617,7 @@ return [
     'issue-1406-JF (standard)' => [
         'ua' => 'Nokia2610/2.0 (07.11) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13632,7 +13632,7 @@ return [
     'issue-1406-JG' => [
         'ua' => 'NOKIA2630/2.0 (05.61) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13675,7 +13675,7 @@ return [
     'issue-1406-JG (standard)' => [
         'ua' => 'NOKIA2630/2.0 (05.61) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13690,7 +13690,7 @@ return [
     'issue-1406-JH' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13733,7 +13733,7 @@ return [
     'issue-1406-JH (standard)' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13785,23 +13785,8 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
-    ],
-    'issue-1406-JI (standard)' => [
-        'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; nokia2690) U2/1.0.0 UCBrowser/8.9.0.251 U2/1.0.0 Mobile UNTRUSTED/1.0',
-        'properties' => [
-            'Comment' => 'UC Browser Generic',
-            'Browser' => 'UC Browser',
-            'Browser_Maker' => 'UCWeb Inc.',
-            'Version' => '0.0',
-            'Platform' => 'Series40',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
         'standard' => true,
-        'full' => false,
+        'full' => true,
     ],
     'issue-1406-JJ' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia2690) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -13892,7 +13877,7 @@ return [
     'issue-1406-JL' => [
         'ua' => 'Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13935,7 +13920,7 @@ return [
     'issue-1406-JL (standard)' => [
         'ua' => 'Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -13950,7 +13935,7 @@ return [
     'issue-1406-JM' => [
         'ua' => 'Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13993,7 +13978,7 @@ return [
     'issue-1406-JM (standard)' => [
         'ua' => 'Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14008,7 +13993,7 @@ return [
     'issue-1406-JN' => [
         'ua' => 'Nokia3555b/2.0 (05.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14051,7 +14036,7 @@ return [
     'issue-1406-JN (standard)' => [
         'ua' => 'Nokia3555b/2.0 (05.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14066,7 +14051,7 @@ return [
     'issue-1406-JO' => [
         'ua' => 'Nokia5200/2.0 (07.20) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14109,7 +14094,7 @@ return [
     'issue-1406-JO (standard)' => [
         'ua' => 'Nokia5200/2.0 (07.20) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14124,7 +14109,7 @@ return [
     'issue-1406-JP' => [
         'ua' => 'Nokia5250/11.0.008 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525.10+ (KHTML, like Gecko) Safari/525.12.2 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14167,7 +14152,7 @@ return [
     'issue-1406-JP (standard)' => [
         'ua' => 'Nokia5250/11.0.008 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525.10+ (KHTML, like Gecko) Safari/525.12.2 3gpp-gba',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14182,7 +14167,7 @@ return [
     'issue-1406-JQ' => [
         'ua' => 'Nokia6060v/2.0 (3.01) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14225,7 +14210,7 @@ return [
     'issue-1406-JQ (standard)' => [
         'ua' => 'Nokia6060v/2.0 (3.01) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14240,7 +14225,7 @@ return [
     'issue-1406-JR' => [
         'ua' => 'Nokia6233/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14283,7 +14268,7 @@ return [
     'issue-1406-JR (standard)' => [
         'ua' => 'Nokia6233/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14298,7 +14283,7 @@ return [
     'issue-1406-JS' => [
         'ua' => 'Nokia6234/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14341,7 +14326,7 @@ return [
     'issue-1406-JS (standard)' => [
         'ua' => 'Nokia6234/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14356,7 +14341,7 @@ return [
     'issue-1406-JT' => [
         'ua' => 'Nokia6301/2.0 (09.44) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14399,7 +14384,7 @@ return [
     'issue-1406-JT (standard)' => [
         'ua' => 'Nokia6301/2.0 (09.44) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14414,7 +14399,7 @@ return [
     'issue-1406-JU' => [
         'ua' => 'Nokia6350-1d/2.0(ATT.5.93) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14457,7 +14442,7 @@ return [
     'issue-1406-JU (standard)' => [
         'ua' => 'Nokia6350-1d/2.0(ATT.5.93) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14472,7 +14457,7 @@ return [
     'issue-1406-JV' => [
         'ua' => 'Nokia6555b/2.0 (03.31) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14515,7 +14500,7 @@ return [
     'issue-1406-JV (standard)' => [
         'ua' => 'Nokia6555b/2.0 (03.31) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14530,7 +14515,7 @@ return [
     'issue-1406-JW' => [
         'ua' => 'Nokia6650x/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14573,7 +14558,7 @@ return [
     'issue-1406-JW (standard)' => [
         'ua' => 'Nokia6650x/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14588,7 +14573,7 @@ return [
     'issue-1406-JX' => [
         'ua' => 'Nokia7380/2.0 (03.76) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14631,7 +14616,7 @@ return [
     'issue-1406-JX (standard)' => [
         'ua' => 'Nokia7380/2.0 (03.76) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14646,7 +14631,7 @@ return [
     'issue-1406-JY' => [
         'ua' => 'Nokia8800a/2.0 (09.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14689,7 +14674,7 @@ return [
     'issue-1406-JY (standard)' => [
         'ua' => 'Nokia8800a/2.0 (09.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14704,7 +14689,7 @@ return [
     'issue-1406-JZ' => [
         'ua' => 'Nokia1680c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14747,7 +14732,7 @@ return [
     'issue-1406-JZ (standard)' => [
         'ua' => 'Nokia1680c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14762,7 +14747,7 @@ return [
     'issue-1406-KA' => [
         'ua' => 'Nokia1680c-2/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14805,7 +14790,7 @@ return [
     'issue-1406-KA (standard)' => [
         'ua' => 'Nokia1680c-2/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14820,7 +14805,7 @@ return [
     'issue-1406-KB' => [
         'ua' => 'Nokia1680c-2b/06.82 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14863,7 +14848,7 @@ return [
     'issue-1406-KB (standard)' => [
         'ua' => 'Nokia1680c-2b/06.82 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14878,7 +14863,7 @@ return [
     'issue-1406-KC' => [
         'ua' => 'Nokia1681c/2.0 (06.82) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14921,7 +14906,7 @@ return [
     'issue-1406-KC (standard)' => [
         'ua' => 'Nokia1681c/2.0 (06.82) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14936,7 +14921,7 @@ return [
     'issue-1406-KD' => [
         'ua' => 'Nokia2320c-2/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14979,7 +14964,7 @@ return [
     'issue-1406-KD (standard)' => [
         'ua' => 'Nokia2320c-2/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -14994,7 +14979,7 @@ return [
     'issue-1406-KE' => [
         'ua' => 'NOKIA2320C-2/2.0 (08.20) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15037,7 +15022,7 @@ return [
     'issue-1406-KE (standard)' => [
         'ua' => 'NOKIA2320C-2/2.0 (08.20) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15052,7 +15037,7 @@ return [
     'issue-1406-KF' => [
         'ua' => 'Nokia2322c_CMCC/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15095,7 +15080,7 @@ return [
     'issue-1406-KF (standard)' => [
         'ua' => 'Nokia2322c_CMCC/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15110,7 +15095,7 @@ return [
     'issue-1406-KG' => [
         'ua' => 'Nokia2323c/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15153,7 +15138,7 @@ return [
     'issue-1406-KG (standard)' => [
         'ua' => 'Nokia2323c/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15168,7 +15153,7 @@ return [
     'issue-1406-KH' => [
         'ua' => 'Nokia2330c/2.0 (06.46) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15211,7 +15196,7 @@ return [
     'issue-1406-KH (standard)' => [
         'ua' => 'Nokia2330c/2.0 (06.46) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15226,7 +15211,7 @@ return [
     'issue-1406-KI' => [
         'ua' => 'Nokia2600c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15269,7 +15254,7 @@ return [
     'issue-1406-KI (standard)' => [
         'ua' => 'Nokia2600c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15284,7 +15269,7 @@ return [
     'issue-1406-KJ' => [
         'ua' => 'Nokia2600c-2b/2.0 (06.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15327,7 +15312,7 @@ return [
     'issue-1406-KJ (standard)' => [
         'ua' => 'Nokia2600c-2b/2.0 (06.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15342,7 +15327,7 @@ return [
     'issue-1406-KK' => [
         'ua' => 'Nokia2680s-2/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15385,7 +15370,7 @@ return [
     'issue-1406-KK (standard)' => [
         'ua' => 'Nokia2680s-2/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15400,7 +15385,7 @@ return [
     'issue-1406-KL' => [
         'ua' => 'Nokia2680s-2b/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15443,7 +15428,7 @@ return [
     'issue-1406-KL (standard)' => [
         'ua' => 'Nokia2680s-2b/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15458,7 +15443,7 @@ return [
     'issue-1406-KM' => [
         'ua' => 'Nokia2700c-2/2.0 (09.95) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15501,7 +15486,7 @@ return [
     'issue-1406-KM (standard)' => [
         'ua' => 'Nokia2700c-2/2.0 (09.95) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15516,7 +15501,7 @@ return [
     'issue-1406-KN' => [
         'ua' => 'Nokia2700c-2/2.0 (09.98) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15559,7 +15544,7 @@ return [
     'issue-1406-KN (standard)' => [
         'ua' => 'Nokia2700c-2/2.0 (09.98) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15789,7 +15774,7 @@ return [
     'issue-1406-KT' => [
         'ua' => 'Nokia2720a-2/09.55 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15832,7 +15817,7 @@ return [
     'issue-1406-KT (standard)' => [
         'ua' => 'Nokia2720a-2/09.55 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15847,7 +15832,7 @@ return [
     'issue-1406-KU' => [
         'ua' => 'Nokia2730c/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15890,7 +15875,7 @@ return [
     'issue-1406-KU (standard)' => [
         'ua' => 'Nokia2730c/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15905,7 +15890,7 @@ return [
     'issue-1406-KV' => [
         'ua' => 'Nokia3110c/2.0 (07.30) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -15948,7 +15933,7 @@ return [
     'issue-1406-KV (standard)' => [
         'ua' => 'Nokia3110c/2.0 (07.30) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -15963,7 +15948,7 @@ return [
     'issue-1406-KW' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16006,7 +15991,7 @@ return [
     'issue-1406-KW (standard)' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16021,7 +16006,7 @@ return [
     'issue-1406-KX' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16064,7 +16049,7 @@ return [
     'issue-1406-KX (standard)' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16079,7 +16064,7 @@ return [
     'issue-1406-KY' => [
         'ua' => 'Nokia3120Classic/2.0 (06.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16122,7 +16107,7 @@ return [
     'issue-1406-KY (standard)' => [
         'ua' => 'Nokia3120Classic/2.0 (06.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16137,7 +16122,7 @@ return [
     'issue-1406-KZ' => [
         'ua' => 'Nokia3120classic/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16180,7 +16165,7 @@ return [
     'issue-1406-KZ (standard)' => [
         'ua' => 'Nokia3120classic/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16238,7 +16223,7 @@ return [
     'issue-1406-LB' => [
         'ua' => 'Nokia3600s/2.0 (04.11) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16281,7 +16266,7 @@ return [
     'issue-1406-LB (standard)' => [
         'ua' => 'Nokia3600s/2.0 (04.11) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16296,7 +16281,7 @@ return [
     'issue-1406-LC' => [
         'ua' => 'Nokia3602s_CMCC/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16339,7 +16324,7 @@ return [
     'issue-1406-LC (standard)' => [
         'ua' => 'Nokia3602s_CMCC/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16455,7 +16440,7 @@ return [
     'issue-1406-LF' => [
         'ua' => 'Nokia5220XpressMusic/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16498,7 +16483,7 @@ return [
     'issue-1406-LF (standard)' => [
         'ua' => 'Nokia5220XpressMusic/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16513,7 +16498,7 @@ return [
     'issue-1406-LG' => [
         'ua' => 'Nokia5300/2.0 (05.51) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16556,7 +16541,7 @@ return [
     'issue-1406-LG (standard)' => [
         'ua' => 'Nokia5300/2.0 (05.51) Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16571,7 +16556,7 @@ return [
     'issue-1406-LH' => [
         'ua' => 'Nokia5310XpressMusic/2.0 (09.42) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16614,7 +16599,7 @@ return [
     'issue-1406-LH (standard)' => [
         'ua' => 'Nokia5310XpressMusic/2.0 (09.42) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16672,7 +16657,7 @@ return [
     'issue-1406-LJ' => [
         'ua' => 'Nokia6500s/2.0 (05.41) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16715,7 +16700,7 @@ return [
     'issue-1406-LJ (standard)' => [
         'ua' => 'Nokia6500s/2.0 (05.41) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16730,7 +16715,7 @@ return [
     'issue-1406-LK' => [
         'ua' => 'Nokia6500s/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16773,7 +16758,7 @@ return [
     'issue-1406-LK (standard)' => [
         'ua' => 'Nokia6500s/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16788,7 +16773,7 @@ return [
     'issue-1406-LL' => [
         'ua' => 'Mozilla/5.0 (Nokia6600s/2.0 (p) Profile/ MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, Like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16874,7 +16859,7 @@ return [
     'issue-1406-LN' => [
         'ua' => 'Nokia7210c/2.0 (05.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16917,7 +16902,7 @@ return [
     'issue-1406-LN (standard)' => [
         'ua' => 'Nokia7210c/2.0 (05.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16932,7 +16917,7 @@ return [
     'issue-1406-LO' => [
         'ua' => 'Nokia7610s/2.0 (05.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16958,11 +16943,11 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '0',
-            'Device_Name' => '7610 Supernova',
+            'Device_Name' => 'Supernova',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
-            'Device_Code_Name' => '7610',
+            'Device_Code_Name' => '7610s',
             'Device_Brand_Name' => 'Nokia',
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
@@ -16975,7 +16960,7 @@ return [
     'issue-1406-LO (standard)' => [
         'ua' => 'Nokia7610s/2.0 (05.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -16990,7 +16975,7 @@ return [
     'issue-1406-LP' => [
         'ua' => 'Nokia202/2.0 (20.37) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17033,7 +17018,7 @@ return [
     'issue-1406-LP (standard)' => [
         'ua' => 'Nokia202/2.0 (20.37) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17164,7 +17149,7 @@ return [
     'issue-1406-LS' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17207,7 +17192,7 @@ return [
     'issue-1406-LS (standard)' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17338,7 +17323,7 @@ return [
     'issue-1406-LV' => [
         'ua' => 'Nokia300/5.0 (07.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17381,7 +17366,7 @@ return [
     'issue-1406-LV (standard)' => [
         'ua' => 'Nokia300/5.0 (07.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17396,7 +17381,7 @@ return [
     'issue-1406-LW' => [
         'ua' => 'Nokia300/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17439,7 +17424,7 @@ return [
     'issue-1406-LW (standard)' => [
         'ua' => 'Nokia300/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17454,7 +17439,7 @@ return [
     'issue-1406-LX' => [
         'ua' => 'Nokia3000/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17497,7 +17482,7 @@ return [
     'issue-1406-LX (standard)' => [
         'ua' => 'Nokia3000/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17512,7 +17497,7 @@ return [
     'issue-1406-LY' => [
         'ua' => 'Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17555,7 +17540,7 @@ return [
     'issue-1406-LY (standard)' => [
         'ua' => 'Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17744,7 +17729,7 @@ return [
     'issue-1406-MC' => [
         'ua' => 'Nokia3030/5.0 (14.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17787,7 +17772,7 @@ return [
     'issue-1406-MC (standard)' => [
         'ua' => 'Nokia3030/5.0 (14.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17802,7 +17787,7 @@ return [
     'issue-1406-MD' => [
         'ua' => 'Nokia306/2.0 (03.63) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -17845,7 +17830,7 @@ return [
     'issue-1406-MD (standard)' => [
         'ua' => 'Nokia306/2.0 (03.63) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -17976,7 +17961,7 @@ return [
     'issue-1406-MG' => [
         'ua' => 'Nokia309/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18019,7 +18004,7 @@ return [
     'issue-1406-MG (standard)' => [
         'ua' => 'Nokia309/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18034,7 +18019,7 @@ return [
     'issue-1406-MH' => [
         'ua' => 'Nokia310/2.0 (07.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18077,7 +18062,7 @@ return [
     'issue-1406-MH (standard)' => [
         'ua' => 'Nokia310/2.0 (07.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18150,7 +18135,7 @@ return [
     'issue-1406-MJ' => [
         'ua' => 'Nokia501/2.0 (10.0.2) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18193,7 +18178,7 @@ return [
     'issue-1406-MJ (standard)' => [
         'ua' => 'Nokia501/2.0 (10.0.2) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18208,7 +18193,7 @@ return [
     'issue-1406-MK' => [
         'ua' => 'NokiaC1-01/2.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18251,7 +18236,7 @@ return [
     'issue-1406-MK (standard)' => [
         'ua' => 'NokiaC1-01/2.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18266,7 +18251,7 @@ return [
     'issue-1406-ML' => [
         'ua' => 'NokiaC1-01.1/2.0 (06.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18309,7 +18294,7 @@ return [
     'issue-1406-ML (standard)' => [
         'ua' => 'NokiaC1-01.1/2.0 (06.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18410,7 +18395,7 @@ return [
     'issue-1406-MO' => [
         'ua' => 'NokiaC1-02/2.0 (06.15) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18453,7 +18438,7 @@ return [
     'issue-1406-MO (standard)' => [
         'ua' => 'NokiaC1-02/2.0 (06.15) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18468,7 +18453,7 @@ return [
     'issue-1406-MP' => [
         'ua' => 'NokiaC1-02i/2.0 (04.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18511,7 +18496,7 @@ return [
     'issue-1406-MP (standard)' => [
         'ua' => 'NokiaC1-02i/2.0 (04.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18526,7 +18511,7 @@ return [
     'issue-1406-MQ' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18569,7 +18554,7 @@ return [
     'issue-1406-MQ (standard)' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18584,7 +18569,7 @@ return [
     'issue-1406-MR' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18627,7 +18612,7 @@ return [
     'issue-1406-MR (standard)' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18728,7 +18713,7 @@ return [
     'issue-1406-MU' => [
         'ua' => 'NokiaC2-03/2.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18771,7 +18756,7 @@ return [
     'issue-1406-MU (standard)' => [
         'ua' => 'NokiaC2-03/2.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -18786,7 +18771,7 @@ return [
     'issue-1406-MV' => [
         'ua' => 'NokiaE63/200.21.005 (SymbianOS/9.2; U; Series60/3.1 Mozilla/5.0; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -18829,7 +18814,7 @@ return [
     'issue-1406-MV (standard)' => [
         'ua' => 'NokiaE63/200.21.005 (SymbianOS/9.2; U; Series60/3.1 Mozilla/5.0; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19233,7 +19218,7 @@ return [
     'issue-1406-NE' => [
         'ua' => 'NokiaN70-5/2.0540.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19276,7 +19261,7 @@ return [
     'issue-1406-NE (standard)' => [
         'ua' => 'NokiaN70-5/2.0540.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19291,7 +19276,7 @@ return [
     'issue-1406-NF' => [
         'ua' => 'NokiaN70/. FASTMobileCrawl/6.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19334,7 +19319,7 @@ return [
     'issue-1406-NF (standard)' => [
         'ua' => 'NokiaN70/. FASTMobileCrawl/6.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19349,7 +19334,7 @@ return [
     'issue-1406-NG' => [
         'ua' => 'NokiaN71-1/2.0611 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19392,7 +19377,7 @@ return [
     'issue-1406-NG (standard)' => [
         'ua' => 'NokiaN71-1/2.0611 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19407,7 +19392,7 @@ return [
     'issue-1406-NH' => [
         'ua' => 'NokiaN72/ 5.0741.4.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19450,7 +19435,7 @@ return [
     'issue-1406-NH (standard)' => [
         'ua' => 'NokiaN72/ 5.0741.4.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19465,7 +19450,7 @@ return [
     'issue-1406-NI' => [
         'ua' => 'NokiaN73-2/3.0-630.0.2 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19508,7 +19493,7 @@ return [
     'issue-1406-NI (standard)' => [
         'ua' => 'NokiaN73-2/3.0-630.0.2 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19523,7 +19508,7 @@ return [
     'issue-1406-NJ' => [
         'ua' => 'NokiaN73-5/3.0628.0.0.6 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19566,7 +19551,7 @@ return [
     'issue-1406-NJ (standard)' => [
         'ua' => 'NokiaN73-5/3.0628.0.0.6 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19581,7 +19566,7 @@ return [
     'issue-1406-NK' => [
         'ua' => 'NokiaN90-2/3.0535.4.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19624,7 +19609,7 @@ return [
     'issue-1406-NK (standard)' => [
         'ua' => 'NokiaN90-2/3.0535.4.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19639,7 +19624,7 @@ return [
     'issue-1406-NL' => [
         'ua' => 'NokiaN92-1/2.0 (2.0646.0.0.2) S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19682,7 +19667,7 @@ return [
     'issue-1406-NL (standard)' => [
         'ua' => 'NokiaN92-1/2.0 (2.0646.0.0.2) S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19697,7 +19682,7 @@ return [
     'issue-1406-NM' => [
         'ua' => 'NokiaN95-5/11.2.011 Series60/3.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19740,7 +19725,7 @@ return [
     'issue-1406-NM (standard)' => [
         'ua' => 'NokiaN95-5/11.2.011 Series60/3.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -19884,7 +19869,7 @@ return [
     'issue-1406-NQ' => [
         'ua' => 'NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -19927,7 +19912,7 @@ return [
     'issue-1406-NQ (standard)' => [
         'ua' => 'NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -20028,7 +20013,7 @@ return [
     'issue-1406-NT' => [
         'ua' => 'NokiaX2-02/2.0 (11.79) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -20071,7 +20056,7 @@ return [
     'issue-1406-NT (standard)' => [
         'ua' => 'NokiaX2-02/2.0 (11.79) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -20129,7 +20114,7 @@ return [
     'issue-1406-NV' => [
         'ua' => 'NokiaX2-03/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -20172,7 +20157,7 @@ return [
     'issue-1406-NV (standard)' => [
         'ua' => 'NokiaX2-03/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',

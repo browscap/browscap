@@ -2928,13 +2928,13 @@ return [
     'issue-1590-BQ' => [
         'ua' => 'SAMSUNG-SGH-E370/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0',
         'properties' => [
-            'Comment' => 'Samsung Generic for Java',
-            'Browser' => 'Samsung',
+            'Comment' => 'Openwave Mobile Browser 6.2',
+            'Browser' => 'Openwave Mobile Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Samsung',
+            'Browser_Maker' => 'Myriad Group',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '6.2',
             'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
@@ -2965,7 +2965,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BR' => [

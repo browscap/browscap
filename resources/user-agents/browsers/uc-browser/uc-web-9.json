@@ -515,7 +515,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -529,7 +529,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -649,7 +649,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone8_B",
@@ -668,7 +668,7 @@
           ]
         },
         {
-          "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
+          "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SonyEricssonW910i": "SonyEricsson W910i"
           },
@@ -700,7 +700,7 @@
           ]
         },
         {
-          "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
+          "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia200": "Nokia 200",
             "Nokia201": "Nokia 201",
@@ -744,7 +744,7 @@
       },
       "children": [
         {
-          "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
+          "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia110": "Nokia 110",
             "Nokia112": "Nokia 112",
@@ -778,7 +778,7 @@
           ]
         },
         {
-          "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
+          "match": "Nokia*/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
@@ -877,7 +877,21 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "devices": {
+            "iPh*": "iPhone"
+          },
+          "platforms": [
+            "iOS_D_8_3", "iOS_D_8_2", "iOS_D_8_1", "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
             "iOS_D_8_3", "iOS_D_8_2", "iOS_D_8_1", "iOS_D_8_0",
@@ -896,20 +910,6 @@
           "platforms": [
             "iOS_C_7_1",
             "iOS_C"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "engine": "U2",
-          "devices": {
-            "iPh*": "iPhone"
-          },
-          "platforms": [
-            "iOS_D_8_0",
-            "iOS_D_7_1", "iOS_D_7_0",
-            "iOS_D_6_1", "iOS_D_6_0",
-            "iOS_D_5_1", "iOS_D_5_0",
-            "iOS_D"
           ]
         }
       ]

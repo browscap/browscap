@@ -4003,7 +4003,7 @@ return [
     'issue-436-CO' => [
         'ua' => 'Nokia6120c/3.83; Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4046,7 +4046,7 @@ return [
     'issue-436-CO (standard)' => [
         'ua' => 'Nokia6120c/3.83; Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',

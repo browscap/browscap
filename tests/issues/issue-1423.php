@@ -6950,7 +6950,7 @@ return [
     'issue-01423-FA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.0',
+            'Comment' => 'Nokia Browser 1.0 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6993,7 +6993,7 @@ return [
     'issue-01423-FA (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.0',
+            'Comment' => 'Nokia Browser 1.0 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '1.0',
@@ -7008,7 +7008,7 @@ return [
     'issue-01423-FB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.2',
+            'Comment' => 'Nokia Browser 1.2 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7051,7 +7051,7 @@ return [
     'issue-01423-FB (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.2',
+            'Comment' => 'Nokia Browser 1.2 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '1.2',

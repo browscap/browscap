@@ -80,7 +80,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -236,7 +236,21 @@
       },
       "children": [
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "devices": {
+            "iPh*": "iPhone"
+          },
+          "platforms": [
+            "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "iOS_D_8_0",
             "iOS_D_7_1", "iOS_D_7_0",
@@ -270,7 +284,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -409,15 +423,22 @@
       },
       "children": [
         {
-          "match": "UCWEB/*(#DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "devices": {
-            "BlackBerry": "Blackberry Blackberry",
-            "BlackBerry*8520/": "Blackberry 8520",
-            "BlackBerry*8530/": "Blackberry 8530",
-            "BlackBerry*9320/": "Blackberry 9320",
-            "BlackBerry*9700/": "Blackberry 9700"
+            "7130": "Blackberry 7130",
+            "8520": "Blackberry 8520",
+            "8530": "Blackberry 8530",
+            "9320": "Blackberry 9320",
+            "9700": "Blackberry 9700"
           },
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "RIMOS"
           ]
@@ -437,16 +458,6 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
-          "devices": {
-            "nokiae71-1": "Nokia E71-1",
-            "Nokia8600 Luna": "Nokia 8600"
-          },
-          "platforms": [
-            "Series40"
-          ]
-        },
-        {
           "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia2690": "Nokia 2690"
@@ -457,6 +468,16 @@
         },
         {
           "match": "Nokia*/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Series40"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
+          "devices": {
+            "nokiae71-1": "Nokia E71-1",
+            "Nokia8600 Luna": "Nokia 8600"
+          },
           "platforms": [
             "Series40"
           ]
@@ -541,7 +562,7 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
       "engine": "WebKit",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "platform": "WinPhone",
       "properties": {
         "Parent": "DefaultProperties",
@@ -550,7 +571,7 @@
       },
       "children": [
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [

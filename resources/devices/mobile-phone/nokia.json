@@ -2474,7 +2474,20 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "7610",
-            "Device_Name": "7610 Supernova",
+            "Device_Name": "7610",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nokia 7610s": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "7610s",
+            "Device_Name": "Supernova",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Pointing_Method": "unknown",
