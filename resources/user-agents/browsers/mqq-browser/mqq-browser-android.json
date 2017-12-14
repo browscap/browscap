@@ -70,6 +70,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "MI MAX": "Xiaomi Mi Max",
             "ONEPLUS A3000": "OnePlus A3000",
             "SM-G920F": "Samsung SM-G920F"

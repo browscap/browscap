@@ -1,6 +1,6 @@
 {
   "division": "2345 Browser #MAJORVER#.#MINORVER#",
-  "versions": ["8.9", "8.7", "8.5", "8.4", "7.5"],
+  "versions": ["8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -20,8 +20,20 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Coolpad 8675* Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Coolpad 8675",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Coolpad 8675*": "Coolpad 8675"
+          },
           "platforms": [
             "Android_4_4"
           ]

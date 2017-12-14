@@ -21,6 +21,28 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
             "SM-A500F": "Samsung SM-A500F",
             "SM-A500FU*": "Samsung SM-A500FU",
             "SM-A500H": "Samsung SM-A500H",

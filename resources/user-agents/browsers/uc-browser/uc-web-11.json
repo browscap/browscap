@@ -22,6 +22,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
             "SM-J510FN": "Samsung SM-J510FN"
           },
           "platforms": [
@@ -37,6 +47,16 @@
           },
           "platforms": [
             "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
           ]
         },
         {
@@ -254,6 +274,17 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
             "SM-J510FN": "Samsung SM-J510FN"
           },
           "platforms": [
@@ -267,6 +298,7 @@
           "engine": "Blink",
           "devices": {
             "HUAWEI NXT-AL10": "Huawei NXT-AL10",
+            "NEM-L51": "Huawei NEM-L51",
             "SM-G935F": "Samsung SM-G935F"
           },
           "platforms": [

@@ -40,6 +40,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F"

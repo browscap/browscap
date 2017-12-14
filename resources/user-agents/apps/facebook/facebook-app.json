@@ -127,6 +127,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
             "Nexus 9*": "HTC Nexus 9"
           },
           "platforms": [
@@ -154,6 +164,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "NEM-L51": "Huawei NEM-L51",
             "Nexus 6": "Motorola Nexus 6",
             "SM-G930P": "Samsung SM-G930P"
           },

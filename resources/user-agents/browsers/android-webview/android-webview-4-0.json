@@ -44,6 +44,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "Nexus 9*": "HTC Nexus 9",
             "SM-J510FN": "Samsung SM-J510FN"
           },
@@ -66,6 +76,16 @@
           },
           "platforms": [
             "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
           ]
         },
         {
