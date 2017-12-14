@@ -1,6 +1,6 @@
 {
   "division": "Baidu Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.7", "7.3", "6.4", "6.1", 6, "5.6", "5.3", "5.1", "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.2", "3.1", "2.9", "2.7", "2.6", "2.5", "1.9", "1.8", "1.1"],
+  "versions": ["7.9", "7.7", "7.3", "6.4", "6.1", 6, "5.6", "5.3", "5.1", "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.2", "3.1", "2.9", "2.7", "2.6", "2.5", "1.9", "1.8", "1.1"],
   "sortIndex": 884,
   "lite": false,
   "standard": true,
@@ -125,6 +125,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "MI NOTE Pro": "Xiaomi MI NOTE Pro"
           },
           "engine": "Blink",
@@ -147,6 +158,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
             "Android"

@@ -86,6 +86,7 @@
             "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
             "OSX",
             "Linux",
+            "Android",
             "any"
           ]
         }

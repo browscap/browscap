@@ -45,6 +45,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
+          "devices": {
             "Nexus 6": "Motorola Nexus 6",
             "Nexus 9*": "HTC Nexus 9"
           },
@@ -71,6 +81,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "NEM-L51": "Huawei NEM-L51",
             "SM-G935F": "Samsung SM-G935F",
             "SM-G935V": "Samsung SM-G935V",
             "VS987": "LG VS987",

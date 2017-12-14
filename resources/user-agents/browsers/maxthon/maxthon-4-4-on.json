@@ -174,6 +174,28 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "SM-N900": "Samsung SM-N900"
           },
           "platforms": [

@@ -24,6 +24,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
           "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* YandexSearch/*",
+          "devices": {
             "Light_AT200": "4Good Light AT200"
           },
           "platforms": [
