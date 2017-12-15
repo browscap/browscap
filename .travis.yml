@@ -12,6 +12,7 @@ cache:
     - $HOME/.composer/cache
 
 before_install:
+  - stty cols 130
   - phpenv config-rm xdebug.ini || echo "xdebug not available"
   - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
@@ -21,7 +22,7 @@ install: travis_retry composer install --optimize-autoloader --prefer-dist --no-
 
 script:
   - composer validate --strict
-  - vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --verbose
+  - vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 121 --verbose
 
 jobs:
   fast_finish: true
@@ -33,10 +34,11 @@ jobs:
     - stage: test with coverage
       php: 7.1
       before_install:
+        - stty cols 130
         - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
         - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
         - travis_retry composer self-update
-      script: vendor/bin/phpunit -c phpunit.xml.dist --colors --verbose --coverage-text --coverage-clover=coverage.clover
+      script: vendor/bin/phpunit -c phpunit.xml.dist --colors --columns 121 --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
@@ -46,21 +48,27 @@ jobs:
     - stage: static code analysis
       php: 7.1
       script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
-    - stage: integration test
+    - stage: check for duplicate integration tests
+      php: 7.1
+      script: bin/browscap -v check-duplicate-tests
+    - stage: integration tests
       php: 7.1
       env:
+        - parser="browscap-php 3.1"
         - TEST_SET="full"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/FullTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/FullTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
-    - stage: integration test
+    - stage: integration tests
       php: 7.1
       env:
+        - parser="browscap-php 3.1"
         - TEST_SET="standard"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/StandardTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/StandardTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
-    - stage: integration test
+    - stage: integration tests
       php: 7.1
       env:
+        - parser="browscap-php 3.1"
         - TEST_SET="lite"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --verbose tests/UserAgentsTest/LiteTest.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/LiteTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite

@@ -8,15 +8,17 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Helper\IteratorHelper;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
 
-class StandardTest extends \PHPUnit\Framework\TestCase
+class StandardTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
@@ -27,11 +29,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      * @var \BrowscapPHP\BrowscapUpdater
      */
     private static $browscapUpdater;
-
-    /**
-     * @var string
-     */
-    private static $buildFolder;
 
     /**
      * @var \Browscap\Data\PropertyHolder
@@ -54,22 +51,20 @@ class StandardTest extends \PHPUnit\Framework\TestCase
     private static $writer;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @throws \BrowscapPHP\Exception
      */
-    private $logger;
-
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/build/';
-        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/cache/';
+        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/build/';
+        $cacheFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
-        if (!file_exists(self::$buildFolder)) {
-            mkdir(self::$buildFolder, 0777, true);
+        if (!file_exists($buildFolder)) {
+            mkdir($buildFolder, 0777, true);
         }
         if (!file_exists($cacheFolder)) {
             mkdir($cacheFolder, 0777, true);
@@ -83,7 +78,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new StandardFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter(self::$buildFolder . '/php_browscap.ini', $logger);
+        self::$writer         = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
         $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
@@ -93,7 +88,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
         $buildGenerator = new BuildGenerator(
             $resourceFolder,
-            self::$buildFolder,
+            $buildFolder,
             $logger,
             $writerCollection,
             $dataCollectionFactory
@@ -117,7 +112,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
         self::$browscapUpdater
             ->setCache($cache)
             ->setLogger($logger)
-            ->convertFile(self::$buildFolder . '/php_browscap.ini');
+            ->convertFile($buildFolder . '/php_browscap.ini');
     }
 
     /**
@@ -133,34 +128,19 @@ class StandardTest extends \PHPUnit\Framework\TestCase
         }
     }
 
+    /**
+     * @throws \RuntimeException
+     *
+     * @return array
+     */
     public function userAgentDataProvider() : array
     {
-        $data = [];
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'standard');
 
-        $sourceDirectory = __DIR__ . '/../issues/';
-        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'php' !== $file->getExtension()) {
-                continue;
-            }
-
-            $tests = require $file->getPathname();
-
-            foreach ($tests as $key => $test) {
-                if (!array_key_exists('standard', $test)) {
-                    throw new \RuntimeException(
-                        '"standard" keyword is missing for  key "' . $key . '"'
-                    );
-                }
-
-                if (!$test['standard']) {
-                    continue;
-                }
-
-                $data[$key] = $test;
-            }
+        if (!empty($errors)) {
+            throw new \RuntimeException(
+                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
+            );
         }
 
         return $data;

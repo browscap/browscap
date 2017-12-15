@@ -106,7 +106,7 @@ class DataCollection
     /**
      * Load the file for the default properties
      *
-     * @param @param Division $division
+     * @param Division $division
      */
     public function setDefaultProperties(Division $division) : void
     {
@@ -118,7 +118,7 @@ class DataCollection
     /**
      * Load the file for the default browser
      *
-     * @param @param Division $division
+     * @param Division $division
      */
     public function setDefaultBrowser(Division $division) : void
     {
