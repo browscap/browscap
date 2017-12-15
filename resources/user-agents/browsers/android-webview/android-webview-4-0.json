@@ -345,6 +345,7 @@
             "MTC SMART Run": "MTC SMART Run",
             "Oysters T72H 3G": "Oysters T72H 3G",
             "Oysters T72M 3G": "Oysters T72M 3G",
+            "P7-L10": "Huawei P7-L10",
             "PSP5504DUO": "Prestigio PSP5504DUO",
             "SC-02F": "Samsung SC-02F",
             "SGH-I337M": "Samsung SGH-I337M",
@@ -970,7 +971,19 @@
           ]
         },
         {
+          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "general Tablet",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",

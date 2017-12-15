@@ -17,6 +17,9 @@
       },
       "children": [
         {
+          "match": "Tumblr/* CFNetwork/* Darwin/*"
+        },
+        {
           "match": "Tumblr/*"
         }
       ]

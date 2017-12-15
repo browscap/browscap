@@ -330,7 +330,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Linux; U;* Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "platforms": [
             "Android"
           ]
