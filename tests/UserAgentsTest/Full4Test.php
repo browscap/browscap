@@ -1,21 +1,14 @@
 <?php
-/**
- * This file is part of the browscap package.
- *
- * Copyright (c) 1998-2017, Browser Capabilities Project
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 declare(strict_types = 1);
 namespace UserAgentsTest;
 
+use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Helper\IteratorHelper;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
@@ -26,10 +19,6 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 
-/**
- * @group      useragenttest
- * @group      full
- */
 class Full4Test extends TestCase
 {
     /**
@@ -40,18 +29,27 @@ class Full4Test extends TestCase
     /**
      * @var \Browscap\Data\PropertyHolder
      */
-    private static $propertyHolder = null;
+    private static $propertyHolder;
 
     /**
-     * @var \Browscap\Filter\FullFilter
+     * @var string[]
      */
-    private static $filter = null;
+    private static $coveredPatterns = [];
+
+    /**
+     * @var \Browscap\Filter\FilterInterface
+     */
+    private static $filter;
 
     /**
      * @var \Browscap\Writer\WriterInterface
      */
     private static $writer;
 
+    /**
+     * @throws \BrowscapPHP\Exception
+     * @throws \Exception
+     */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
@@ -74,8 +72,8 @@ class Full4Test extends TestCase
         $writerCollection     = new WriterCollection();
         self::$propertyHolder = new PropertyHolder();
         self::$filter         = new FullFilter(self::$propertyHolder);
-        $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
+        $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
         $writerCollection->addWriter(self::$writer);
@@ -107,49 +105,31 @@ class Full4Test extends TestCase
     }
 
     /**
-     * @return array[]
+     * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
+     * the $coveredPatterns array isn't empty
+     */
+    public static function tearDownAfterClass() : void
+    {
+        if (!empty(self::$coveredPatterns)) {
+            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor->process(self::$coveredPatterns);
+            $coverageProcessor->write(__DIR__ . '/../../coverage-full4.json');
+        }
+    }
+
+    /**
+     * @throws \RuntimeException
+     *
+     * @return array
      */
     public function userAgentDataProvider() : array
     {
-        $data = [];
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
 
-        $checks          = [];
-        $sourceDirectory = __DIR__ . '/../issues/';
-        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'php' !== $file->getExtension()) {
-                continue;
-            }
-
-            $tests = require_once $file->getPathname();
-
-            foreach ($tests as $key => $test) {
-                if (isset($data[$key])) {
-                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                }
-
-                if (!array_key_exists('full', $test)) {
-                    throw new \RuntimeException(
-                        '"full" keyword is missing for  key "' . $key . '"'
-                    );
-                }
-
-                if (!$test['full']) {
-                    continue;
-                }
-
-                if (isset($checks[$test['ua']])) {
-                    throw new \RuntimeException(
-                        'UA "' . $test['ua'] . '" added more than once, now for key "' . $key . '", before for key "'
-                        . $checks[$test['ua']] . '"'
-                    );
-                }
-
-                $data[$key]          = $test;
-                $checks[$test['ua']] = $key;
-            }
+        if (!empty($errors)) {
+            throw new \RuntimeException(
+                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
+            );
         }
 
         return $data;
@@ -172,6 +152,10 @@ class Full4Test extends TestCase
         }
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
+
+        if (isset($actualProps['PatternId'])) {
+            self::$coveredPatterns[] = $actualProps['PatternId'];
+        }
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$filter->isOutputProperty($propName, self::$writer)) {

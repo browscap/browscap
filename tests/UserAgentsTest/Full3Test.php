@@ -52,6 +52,7 @@ class Full3Test extends TestCase
 
     /**
      * @throws \BrowscapPHP\Exception
+     * @throws \Exception
      */
     public static function setUpBeforeClass() : void
     {
@@ -61,7 +62,7 @@ class Full3Test extends TestCase
         $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-full3-' . $buildNumber . '/build/';
         $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-full3-' . $buildNumber . '/cache/';
 
-        // create build folder if it does not exist
+        // create folders if it does not exist
         if (!file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
         }
@@ -121,7 +122,7 @@ class Full3Test extends TestCase
         if (!empty(self::$coveredPatterns)) {
             $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-full.json');
+            $coverageProcessor->write(__DIR__ . '/../../coverage-full3.json');
         }
     }
 

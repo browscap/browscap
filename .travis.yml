@@ -49,7 +49,7 @@ jobs:
       script: vendor/bin/phpunit -c phpunit.xml.dist --colors --columns 117 --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
-        - bash <(curl -s https://codecov.io/bash) -f coverage.clover
+        - bash <(curl -s https://codecov.io/bash) -f coverage.clover -F phpunit
 
     - stage: composer validate
       php: 7.1
@@ -82,6 +82,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full4Test.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full4.json -F full4
 
     - stage: integration tests
       php: 7.1
@@ -92,6 +93,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard4Test.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard4.json -F standard4
 
     - stage: integration tests
       php: 7.1
@@ -102,6 +104,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Lite4Test.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite4.json -F lite4
 
     - stage: integration tests
       php: 7.1
@@ -109,7 +112,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full3Test.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full3.json -F full3
 
     - stage: integration tests
       php: 7.1
@@ -117,7 +120,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard3Test.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard3.json -F standard3
 
     - stage: integration tests
       php: 7.1
@@ -125,4 +128,4 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Lite3Test.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite3.json -F lite3
