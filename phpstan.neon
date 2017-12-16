@@ -1,7 +1,6 @@
 parameters:
   excludes_analyse:
     - */tests/*/data/*
-    - */Full2Test.php
     - */Full4Test.php
     - */Standard4Test.php
     - */Lite4Test.php
