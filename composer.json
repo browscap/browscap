@@ -33,7 +33,7 @@
   "prefer-stable": true,
   "require": {
     "php": "^7.1",
-    "symfony/console": "^3.3",
+    "symfony/console": "^3.3||^4.0",
     "monolog/monolog": "^1.23",
     "beberlei/assert": "^2.8",
     "seld/jsonlint": "^1.6"

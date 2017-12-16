@@ -29,7 +29,7 @@ before_install:
 
 install: travis_retry composer install --optimize-autoloader --prefer-dist --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
-script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 121 --verbose
+script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 117 --verbose
 
 jobs:
   fast_finish: true
@@ -38,6 +38,7 @@ jobs:
   include:
     - php: nightly
       env: COMPOSER_FLAGS="--ignore-platform-reqs"
+
     - stage: test with coverage
       php: 7.1
       before_install:
@@ -45,10 +46,11 @@ jobs:
         - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
         - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
         - travis_retry composer self-update
-      script: vendor/bin/phpunit -c phpunit.xml.dist --colors --columns 121 --verbose --coverage-text --coverage-clover=coverage.clover
+      script: vendor/bin/phpunit -c phpunit.xml.dist --colors --columns 117 --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
         - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
+
     - stage: composer validate
       php: 7.1
       before_install:
@@ -58,15 +60,19 @@ jobs:
         - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
       install: skip
       script: composer validate --strict
+
     - stage: check coding style
       php: 7.1
       script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
+
     - stage: static code analysis
       php: 7.1
       script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
+
     - stage: check for duplicate integration tests
       php: 7.1
       script: bin/browscap -v check-duplicate-tests
+
     - stage: integration tests
       php: 7.1
       env:
@@ -76,6 +82,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full4Test.php
+
     - stage: integration tests
       php: 7.1
       env:
@@ -85,6 +92,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard4Test.php
+
     - stage: integration tests
       php: 7.1
       env:
@@ -94,6 +102,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Lite4Test.php
+
     - stage: integration tests
       php: 7.1
       env:
@@ -101,6 +110,7 @@ jobs:
         - TEST_SET="full"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full3Test.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full
+
     - stage: integration tests
       php: 7.1
       env:
@@ -108,6 +118,7 @@ jobs:
         - TEST_SET="standard"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard3Test.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard
+
     - stage: integration tests
       php: 7.1
       env:
