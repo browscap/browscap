@@ -1827,6 +1827,17 @@
       "standard": false,
       "inherits": "Linux"
     },
+    "Mobilinux": {
+      "match": "*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Platform": "Mobilinux",
+        "Platform_Maker": "MontaVista",
+        "Platform_Description": "An Embedded-Linux-Distribution for Phones"
+      }
+    },
     "Chromecast_OS_ARM": {
       "match": "*Linux* arm*",
       "lite": false,

@@ -6,6 +6,149 @@
   "standard": true,
   "userAgents": [
     {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for WinMobile",
+      "browser": "opera mobile",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "platform": "WinMobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* (*Opera/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
+          "devices": {
+            "HTC-ST6356": "HTC ST6356",
+            "HTC-ST7377": "HTC ST7377"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "#DEVICE# Opera/#MAJORVER#.#MINORVER# (Windows*)",
+          "devices": {
+            "HTC_Touch2_T3335": "HTC T3335"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "#DEVICE#/ Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi/*)",
+          "devices": {
+            "MOT-A3100": "Motorola A3100"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "O2/1.0/#DEVICE#/R3AA Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi/*UP.Link/*",
+          "devices": {
+            "SEX1i": "SonyEricsson X1i"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile/*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* #DEVICE#* *Opera Mobi*)*",
+          "devices": {
+            "HTC_Touch_3G_T3232": "HTC T3232",
+            "HTC_X7510": "HTC X7510"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* Opera Mobi*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi/*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ],
+          "properties": {
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "PPC; 240x320; #DEVICE#; OpVer* Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows 6.5; U;*)",
+          "devices": {
+            "HTC_Mega-T3333-Orange": "HTC T3333"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for WinCE",
+      "browser": "opera mobile",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "platform": "WinCE",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows;#PLATFORM#Opera Mobi/*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* (Windows CE; Opera Mobi; ?*Opera #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-B7300": "Samsung GT-B7300"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM##DEVICE#*)*Opera?#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SHARP/WS020SH": "Sharp WS020SH"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    },
+    {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "browser": "opera mobile",
       "engine": "Presto_2_2",
@@ -13,6 +156,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -63,118 +209,6 @@
           "devices": {
             "SAMSUNG-GT-B7610": "Samsung GT-B7610"
           }
-        },
-        {
-          "match": "#DEVICE#/* (*Opera/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
-          "devices": {
-            "HTC-ST6356": "HTC ST6356",
-            "HTC-ST7377": "HTC ST7377"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "#DEVICE# Opera/#MAJORVER#.#MINORVER# (Windows*)",
-          "devices": {
-            "HTC_Touch2_T3335": "HTC T3335"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "#DEVICE#/ Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi/*)",
-          "devices": {
-            "MOT-A3100": "Motorola A3100"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "O2/1.0/#DEVICE#/R3AA Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi/*UP.Link/*",
-          "devices": {
-            "SEX1i": "SonyEricsson X1i"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows;#PLATFORM#Opera Mobi/*)*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile/*)*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* #DEVICE#* *Opera Mobi*)*",
-          "devices": {
-            "HTC_Touch_3G_T3232": "HTC T3232",
-            "HTC_X7510": "HTC X7510"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* Opera Mobi*)*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "Opera?#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi/*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinMobile"
-          ],
-          "properties": {
-            "Beta": "true"
-          }
-        },
-        {
-          "match": "PPC; 240x320; #DEVICE#; OpVer* Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows 6.5; U;*)",
-          "devices": {
-            "HTC_Mega-T3333-Orange": "HTC T3333"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
-        },
-        {
-          "match": "#DEVICE#/* (Windows CE; Opera Mobi; ?*Opera #MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-GT-B7300": "Samsung GT-B7300"
-          },
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM##DEVICE#*)*Opera?#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SHARP/WS020SH": "Sharp WS020SH"
-          },
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinCE"
-          ]
         }
       ]
     }

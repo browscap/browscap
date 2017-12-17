@@ -116,6 +116,19 @@
             "isTablet": "false"
         }
     },
+    "Motorola A1200": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A1200",
+            "Device_Name": "A1200",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola A3100": {
         "standard": false,
         "properties": {
@@ -229,6 +242,19 @@
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola A780": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A780",
+            "Device_Name": "A780",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -707,6 +733,32 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "E680",
             "Device_Name": "E680",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola E680i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E680i",
+            "Device_Name": "E680i",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola E690": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E690",
+            "Device_Name": "E690",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "unknown",
@@ -1312,6 +1364,32 @@
             "isTablet": "false"
         }
     },
+    "Motorola RAZRV3xxR": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "RAZRV3xxR",
+            "Device_Name": "RAZRV3xxR",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola RAZRV9x": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "RAZRV9x",
+            "Device_Name": "RAZRV9x",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola ROKR E1": {
         "standard": false,
         "properties": {
@@ -1321,6 +1399,19 @@
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola ROKR E6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ROKR E6",
+            "Device_Name": "ROKR E6",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
