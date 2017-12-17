@@ -24,7 +24,7 @@ class Lite4Test extends TestCase
     /**
      * @var \BrowscapPHP\Browscap
      */
-    private static $browscap = null;
+    private static $browscap;
 
     /**
      * @var \Browscap\Data\PropertyHolder
