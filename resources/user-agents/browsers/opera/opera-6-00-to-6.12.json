@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
