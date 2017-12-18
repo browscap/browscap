@@ -1,0 +1,36 @@
+{
+  "division": "RedCarpet",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RedCarpet",
+      "browser": "redcarpet",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RedCarpet"
+      },
+      "children": [
+        {
+          "match": "RedCarpet/* CFNetwork/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "RedCarpet/* CFNetwork/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "RedCarpet/*"
+        }
+      ]
+    }
+  ]
+}

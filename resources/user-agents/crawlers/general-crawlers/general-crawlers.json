@@ -418,10 +418,6 @@
           "browser": "radiation retriever"
         },
         {
-          "match": "RedCarpet/*",
-          "browser": "redcarpet"
-        },
-        {
           "match": "RixBot (http://babelserver.org/rix)",
           "browser": "rixbot"
         },

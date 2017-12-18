@@ -1,0 +1,37 @@
+{
+  "division": "Podcasts Generic",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Podcasts Generic",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Podcasts Generic",
+        "Browser": "Podcasts",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "Podcasts/* CFNetwork/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Podcasts/* CFNetwork/758.5*",
+          "platforms": [
+            "iOS_A_9_3"
+          ]
+        },
+        {
+          "match": "Podcasts/*"
+        }
+      ]
+    }
+  ]
+}

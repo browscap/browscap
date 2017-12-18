@@ -26090,7 +26090,7 @@ return [
     'issue-1434-VQ' => [
         'ua' => 'SonyEricssonP990i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 598) Opera 8.65 [ru]',
         'properties' => [
-            'Comment' => 'Opera Mobile 8.65',
+            'Comment' => 'Opera Mobile 8.65 for Symbian',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

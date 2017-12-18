@@ -345,24 +345,6 @@
           "browser": "replay"
         },
         {
-          "match": "Podcasts/2.2*",
-          "browser": "podcasts",
-          "properties": {
-            "Version": "2.2"
-          }
-        },
-        {
-          "match": "Podcasts/1.4*",
-          "browser": "podcasts",
-          "properties": {
-            "Version": "1.4"
-          }
-        },
-        {
-          "match": "Podcasts/*",
-          "browser": "podcasts"
-        },
-        {
           "match": "Peapod/1.0*",
           "browser": "peapod",
           "properties": {

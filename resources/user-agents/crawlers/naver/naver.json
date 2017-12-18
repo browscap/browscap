@@ -25,13 +25,13 @@
           "match": "NaverBot-* (NHN Corp*naver.com)"
         },
         {
-          "match": "Yeti/1.0*",
+          "match": "Yeti/1.0*http://help.naver.com/robots/)*",
           "properties": {
             "Version": "1.0"
           }
         },
         {
-          "match": "Yeti/*"
+          "match": "Yeti/*http://help.naver.com/robots/)*"
         },
         {
           "match": "Mozilla/5.0 (compatible; Yeti/1.1*",
