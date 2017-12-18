@@ -56,6 +56,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-G920F*": "Samsung SM-G920F"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "SM-A320F*": "Samsung SM-A320F",
             "SM-A520F": "Samsung SM-A520F",
             "SM-A520S": "Samsung SM-A520S",
@@ -117,7 +128,6 @@
           "devices": {
             "SM-G360T1": "Samsung SM-G360T1",
             "SM-G900T": "Samsung SM-G900T",
-            "SM-G920F*": "Samsung SM-G920F",
             "SM-G920I": "Samsung SM-G920I",
             "SM-G920P": "Samsung SM-G920P",
             "SM-G920T": "Samsung SM-G920T",

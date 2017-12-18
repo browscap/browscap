@@ -67,6 +67,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-G920F*": "Samsung SM-G920F"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "SM-J510FN": "Samsung SM-J510FN"
           },
           "platforms": [
@@ -180,8 +192,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "ALE-L21": "Huawei ALE-L21",
-            "SM-G920F": "Samsung SM-G920F"
+            "ALE-L21": "Huawei ALE-L21"
           },
           "platforms": [
             "Android_6_0",
