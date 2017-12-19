@@ -72,7 +72,8 @@
             "Pixel C": "Google Pixel C",
             "SM-G935F": "Samsung SM-G935F",
             "SM-G950F": "Samsung SM-G950F",
-            "SM-T820": "Samsung SM-T820"
+            "SM-T820": "Samsung SM-T820",
+            "PRA-LX1": "Huawei PRA-LX1"
           },
           "platforms": [
             "Android_7_0"
