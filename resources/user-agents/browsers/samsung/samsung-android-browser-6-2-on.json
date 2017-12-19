@@ -22,13 +22,24 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SM-J320F*": "Samsung SM-J320F"
+            "SM-G920F*": "Samsung SM-G920F"
           },
           "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1"
+            "Android_8_0",
+            "Android_7_0",
+            "Android_5_1", "Android_5_0"
           ]
+        },
+        {
+        "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+        "devices": {
+          "SM-J320F*": "Samsung SM-J320F"
+        },
+        "platforms": [
+          "Android_7_1", "Android_7_0",
+          "Android_6_0",
+          "Android_5_1"
+        ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
@@ -51,17 +62,6 @@
           "platforms": [
             "Android_7_0",
             "Android_6_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": {
-            "SM-G920F*": "Samsung SM-G920F"
-          },
-          "platforms": [
-            "Android_8_0",
-            "Android_7_0",
-            "Android_5_1", "Android_5_0"
           ]
         },
         {
