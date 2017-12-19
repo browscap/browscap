@@ -83,8 +83,7 @@
             "HPUX",
             "IRIX64",
             "SunOS",
-            "OS2",
-            "FreeBSD_386"
+            "OS2"
           ]
         },
         {

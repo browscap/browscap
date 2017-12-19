@@ -67,8 +67,7 @@
             "OpenBSD_64_2", "OpenBSD",
             "HPUX",
             "IRIX64",
-            "SunOS",
-            "FreeBSD_386"
+            "SunOS"
           ]
         },
         {

@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Podcasts Generic",
+      "browser": "podcasts",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Podcasts Generic",
-        "Browser": "Podcasts",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Podcasts Generic"
       },
       "children": [
         {

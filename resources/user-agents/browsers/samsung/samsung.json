@@ -30,7 +30,7 @@
     {
       "userAgent": "Samsung Generic for Symbian",
       "browser": "samsung",
-      "platform": "SymbianOS_E",
+      "platform": "SymbianOS",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -50,13 +50,13 @@
             "SamsungI8910": "Samsung GT-I8910"
           },
           "platforms": [
-            "SymbianOS_E"
+            "SymbianOS"
           ]
         },
         {
           "match": "SAMSUNG#PLATFORM#",
           "platforms": [
-            "SymbianOS_E"
+            "SymbianOS"
           ]
         }
       ]

@@ -64,8 +64,7 @@
             "BeOS",
             "SunOS",
             "OS2",
-            "AIX",
-            "FreeBSD_386"
+            "AIX"
           ]
         },
         {

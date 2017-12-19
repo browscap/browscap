@@ -28,7 +28,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win32_B", "Windows"
+            "Windows"
           ]
         },
         {
