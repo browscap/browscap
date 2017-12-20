@@ -575,7 +575,8 @@
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7_C", "WinPhone8_B"
+            "WinPhone8_B",
+            "WinPhone7_C"
           ]
         }
       ]

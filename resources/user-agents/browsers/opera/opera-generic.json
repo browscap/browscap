@@ -327,8 +327,7 @@
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_64_2", "FreeBSD",
-            "SunOS",
-            "FreeBSD_386"
+            "SunOS"
           ]
         },
         {

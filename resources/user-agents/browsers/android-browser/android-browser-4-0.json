@@ -1692,18 +1692,17 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit*(*khtml*like*gecko*)*Version/4.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.*Safari/*",
           "devices": {
             "NOOK": "Barnes & Noble Nook",
             "NookColor": "Barnes & Noble Nook Color"
           },
           "platforms": [
-            "Android_2_3", "Android_2_2",
-            "Android"
+            "Android_2_3", "Android_2_2"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*Apple*WebKit/*(*khtml*like*gecko*)*Version/4.*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*Apple*WebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.*Safari/*",
           "devices": {
             "NOOK BNRV200": "Barnes & Noble BNRV200"
           },
