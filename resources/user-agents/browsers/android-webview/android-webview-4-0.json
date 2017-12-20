@@ -69,11 +69,11 @@
             "E5823": "Sony E5823",
             "F5321": "Sony F5321",
             "HUAWEI NXT-AL10": "Huawei NXT-AL10",
+            "PRA-LX1": "Huawei PRA-LX1",
             "Pixel C": "Google Pixel C",
             "SM-G935F": "Samsung SM-G935F",
             "SM-G950F": "Samsung SM-G950F",
-            "SM-T820": "Samsung SM-T820",
-            "PRA-LX1": "Huawei PRA-LX1"
+            "SM-T820": "Samsung SM-T820"
           },
           "platforms": [
             "Android_7_0"

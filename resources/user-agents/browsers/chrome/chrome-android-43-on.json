@@ -112,12 +112,12 @@
             "LGLS992": "LG LS992",
             "LGMS210": "LG MS210",
             "ONEPLUS A3010": "OnePlus A3010",
+            "PRA-LX1": "Huawei PRA-LX1",
             "SM-G950F": "Samsung SM-G950F",
             "SM-T820": "Samsung SM-T820",
             "VS987": "LG VS987",
             "VS995": "LG VS995",
-            "XT1650": "Motorola XT1650",
-            "PRA-LX1": "Huawei PRA-LX1"
+            "XT1650": "Motorola XT1650"
           },
           "platforms": [
             "Android_7_0"
