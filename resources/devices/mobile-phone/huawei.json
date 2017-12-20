@@ -506,6 +506,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei PRA-LX1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "PRA-LX1",
+            "Device_Name": "P8 Lite (2017)",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei S41HW": {
         "standard": false,
         "properties": {
