@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Dorado WAP Browser",
+      "browser": "dorado wap browser",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dorado WAP Browser",
-        "Browser": "Dorado WAP Browser",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

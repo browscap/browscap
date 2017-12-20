@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Lotus Notes Generic",
+      "browser": "lotus notes",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes Generic",
-        "Browser": "Lotus Notes",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "IBM",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

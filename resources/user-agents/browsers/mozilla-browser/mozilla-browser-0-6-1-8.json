@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Mozilla #MAJORVER#.#MINORVER#",
+      "browser": "mozilla",
       "engine": "Gecko_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mozilla #MAJORVER#.#MINORVER#",
-        "Browser": "Mozilla",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

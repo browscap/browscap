@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Website Thumbnail Generator",
+      "browser": "website thumbnail generator",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Website Thumbnail Generator",
-        "Browser": "Website Thumbnail Generator",
-        "Browser_Maker": "webthumbnail.org",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Website Thumbnail Generator"
       },
       "children": [
         {

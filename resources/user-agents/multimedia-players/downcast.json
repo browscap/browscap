@@ -6,12 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Downcast",
+      "browser": "downcast",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Downcast",
-        "Browser": "Downcast",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Downcast"
       },
       "children": [
         {

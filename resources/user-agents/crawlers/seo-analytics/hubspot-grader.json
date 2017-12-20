@@ -6,26 +6,24 @@
   "userAgents": [
     {
       "userAgent": "HubSpot Grader",
+      "browser": "hubspot grader",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "HubSpot Grader",
-        "Browser": "HubSpot Grader",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "HubSpot, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "HubSpot Marketing Grader*",
+          "browser": "marketing grader",
           "properties": {
             "Browser": "Marketing Grader"
           }
         },
         {
           "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* HubSpot Marketing Grader",
+          "browser": "marketing grader",
           "properties": {
             "Browser": "Marketing Grader"
           }

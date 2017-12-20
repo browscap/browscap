@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "wget #MAJORVER#.#MINORVER#",
+      "browser": "wget",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "wget #MAJORVER#.#MINORVER#",
-        "Browser": "wget",
-        "Browser_Type": "Offline Browser",
-        "Browser_Maker": "Free Software Foundation, Inc.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

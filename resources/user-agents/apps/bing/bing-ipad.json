@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Bing iPad",
+      "browser": "bing ipad",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "Bing iPad",
-        "Browser": "Bing iPad",
-        "Crawler": "false"
+        "Comment": "Bing iPad"
       },
       "children": [
         {

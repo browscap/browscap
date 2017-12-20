@@ -6,44 +6,50 @@
   "userAgents": [
     {
       "userAgent": "fantomas",
+      "browser": "fantomas",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "fantomas",
-        "Browser": "fantomas"
+        "Comment": "fantomas"
       },
       "children": [
         {
           "match": "Mozilla/4.0 (cloakBrowser)",
+          "browser": "fantomas cloakbrowser",
           "properties": {
             "Browser": "fantomas cloakBrowser"
           }
         },
         {
           "match": "Mozilla/4.0 (fantomas shadowMaker Browser)",
+          "browser": "fantomas shadowmaker browser",
           "properties": {
             "Browser": "fantomas shadowMaker Browser"
           }
         },
         {
           "match": "Mozilla/4.0 (fantomBrowser)",
+          "browser": "fantomas fantombrowser",
           "properties": {
             "Browser": "fantomas fantomBrowser"
           }
         },
         {
           "match": "Mozilla/4.0 (fantomCrew Browser)",
+          "browser": "fantomas fantomcrew browser",
           "properties": {
             "Browser": "fantomas fantomCrew Browser"
           }
         },
         {
           "match": "Mozilla/4.0 (stealthBrowser)",
+          "browser": "fantomas stealthbrowser",
           "properties": {
             "Browser": "fantomas stealthBrowser"
           }
         },
         {
           "match": "multiBlocker browser*",
+          "browser": "fantomas multiblocker browser",
           "properties": {
             "Browser": "fantomas multiBlocker browser"
           }

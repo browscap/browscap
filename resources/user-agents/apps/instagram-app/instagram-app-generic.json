@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Instagram App Generic for iOS",
+      "browser": "instagram app",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App Generic",
-        "Browser": "Instagram App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Instagram App Generic"
       },
       "children": [
         {
@@ -64,15 +62,13 @@
     },
     {
       "userAgent": "Instagram App Generic for Android",
+      "browser": "instagram app",
       "engine": "Blink",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App Generic",
-        "Browser": "Instagram App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Instagram App Generic"
       },
       "children": [
         {
@@ -102,14 +98,12 @@
     },
     {
       "userAgent": "Instagram App Generic for Windows Phone",
+      "browser": "instagram app",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App Generic",
-        "Browser": "Instagram App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Instagram App Generic"
       },
       "children": [
         {

@@ -6,26 +6,23 @@
   "userAgents": [
     {
       "userAgent": "WooRank",
+      "browser": "woorank",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WooRank",
-        "Browser": "WooRank",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "woorank.com",
-        "Crawler": "true"
+        "Comment": "WooRank"
       },
       "children": [
         {
           "match": "woobot/1.1*",
+          "browser": "woorank",
           "properties": {
-            "Browser": "WooRank",
             "Version": "1.1"
           }
         },
         {
           "match": "woobot/2.0*",
+          "browser": "woorank",
           "properties": {
-            "Browser": "WooRank",
             "Version": "2.0"
           }
         }

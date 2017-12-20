@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Snowtape",
+      "browser": "snowtape",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Snowtape",
-        "Browser": "Snowtape",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

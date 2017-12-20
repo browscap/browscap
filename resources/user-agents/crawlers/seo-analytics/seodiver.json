@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SEOdiver Bot",
+      "browser": "seodiver bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SEOdiver Bot",
-        "Browser": "SEOdiver Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "seodiver.com",
-        "Crawler": "true"
+        "Comment": "SEOdiver Bot"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "YandexBot",
+      "browser": "yandexbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YandexBot",
-        "Browser": "YandexBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex LLC",
-        "Crawler": "true"
+        "Comment": "YandexBot"
       },
       "children": [
         {

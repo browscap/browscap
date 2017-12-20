@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+      "browser": "dreamweaver",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
-        "Browser": "Dreamweaver",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Adobe Systems Incorporated",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

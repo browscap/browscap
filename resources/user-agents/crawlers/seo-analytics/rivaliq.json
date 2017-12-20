@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Rival IQ Bot",
+      "browser": "rival iq bot",
       "engine": "WebKit",
       "device": "Macintosh",
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Rival IQ Bot",
-        "Browser": "Rival IQ Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Rival IQ Corporation",
-        "Crawler": "true"
+        "Comment": "Rival IQ Bot"
       },
       "children": [
         {

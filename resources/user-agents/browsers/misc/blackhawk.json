@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Blackhawk Browser",
+      "browser": "blackhawk",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Blackhawk Browser",
-        "Browser": "Blackhawk",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "NetGate Technologies",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

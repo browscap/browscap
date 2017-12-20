@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Yahoo RobotStudy",
+      "browser": "yahoo! robotstudy",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo! RobotStudy",
-        "Browser": "Yahoo! RobotStudy",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo! RobotStudy"
       },
       "children": [
         {

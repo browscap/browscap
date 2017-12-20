@@ -6,70 +6,78 @@
   "userAgents": [
     {
       "userAgent": "Fast/AllTheWeb",
+      "browser": "fast/alltheweb",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Fast/AllTheWeb",
-        "Browser": "Fast/AllTheWeb",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Fast/AllTheWeb"
       },
       "children": [
         {
           "match": "*FAST Enterprise Crawler*",
+          "browser": "fast enterprise crawler",
           "properties": {
             "Browser": "FAST Enterprise Crawler"
           }
         },
         {
           "match": "FAST Data Search Document Retriever/4.0*",
+          "browser": "fast data search document retriever",
           "properties": {
             "Browser": "FAST Data Search Document Retriever"
           }
         },
         {
           "match": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
+          "browser": "fast metaweb crawler",
           "properties": {
             "Browser": "FAST MetaWeb Crawler"
           }
         },
         {
           "match": "Fast PartnerSite Crawler*",
+          "browser": "fast partnersite",
           "properties": {
             "Browser": "FAST PartnerSite"
           }
         },
         {
           "match": "FAST-WebCrawler/*",
+          "browser": "fast-webcrawler",
           "properties": {
             "Browser": "FAST-WebCrawler"
           }
         },
         {
           "match": "FAST-WebCrawler/*/FirstPage*",
+          "browser": "fast-webcrawler/firstpage",
           "properties": {
             "Browser": "FAST-WebCrawler/FirstPage"
           }
         },
         {
           "match": "FAST-WebCrawler/*/Fresh*",
+          "browser": "fast-webcrawler/fresh",
           "properties": {
             "Browser": "FAST-WebCrawler/Fresh"
           }
         },
         {
           "match": "FAST-WebCrawler/*/PartnerSite*",
+          "browser": "fast partnersite",
           "properties": {
             "Browser": "FAST PartnerSite"
           }
         },
         {
           "match": "FAST-WebCrawler/*?Multimedia*",
+          "browser": "fast-webcrawler/multimedia",
           "properties": {
             "Browser": "FAST-WebCrawler/Multimedia"
           }
         },
         {
           "match": "FastSearch Web Crawler for*",
+          "browser": "fastsearch web crawler",
           "properties": {
             "Browser": "FastSearch Web Crawler"
           }

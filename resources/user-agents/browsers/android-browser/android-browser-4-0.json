@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "browser": "android",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Android",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Google Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -1385,10 +1383,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#i9988_custom Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "browser": "youwave android on pc",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "YouWave Android on PC",
-            "Browser_Maker": "youwave.com",
             "Version": "Basic"
           },
           "platforms": [
@@ -1397,10 +1394,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#i9999_custom Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "browser": "youwave android on pc",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "YouWave Android on PC",
-            "Browser_Maker": "youwave.com",
             "Version": "Home"
           },
           "platforms": [

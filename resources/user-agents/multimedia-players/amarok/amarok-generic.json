@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Amarok Generic",
+      "browser": "amarok",
       "device": "Linux Desktop",
       "engine": "WebKit",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Amarok Generic",
-        "Browser": "Amarok",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Amarok Generic"
       },
       "children": [
         {

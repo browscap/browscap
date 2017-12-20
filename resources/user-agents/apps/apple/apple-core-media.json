@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",
+      "browser": "applecoremedia",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AppleCoreMedia #MAJORVER#.#MINORVER#",
-        "Browser": "AppleCoreMedia",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

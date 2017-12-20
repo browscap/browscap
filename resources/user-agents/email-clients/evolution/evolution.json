@@ -23,15 +23,13 @@
   "userAgents": [
     {
       "userAgent": "Evolution #MAJORVER#.#MINORVER#",
+      "browser": "evolution",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Evolution #MAJORVER#.#MINORVER#",
-        "Browser": "Evolution",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Maker": "The GNOME Project",
-        "Browser_Type": "Email Client"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

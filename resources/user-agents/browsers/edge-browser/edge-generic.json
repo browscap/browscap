@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Edge Generic",
+      "browser": "edge",
       "engine": "Edge",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Edge Generic",
-        "Browser": "Edge",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Edge Generic"
       },
       "children": [
         {
@@ -42,15 +40,13 @@
     },
     {
       "userAgent": "Edge Mobile Generic",
+      "browser": "edge mobile",
       "engine": "Edge",
       "device": "general Mobile Phone (Touch)",
       "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Edge Mobile Generic",
-        "Browser": "Edge Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Edge Mobile Generic"
       },
       "children": [
         {
@@ -70,15 +66,13 @@
     },
     {
       "userAgent": "Edge Generic for Android",
+      "browser": "edge",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Edge Generic for Android",
-        "Browser": "Edge",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Edge Generic for Android"
       },
       "children": [
         {
@@ -95,15 +89,13 @@
     },
     {
       "userAgent": "Edge Generic for iOS",
+      "browser": "edge",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Edge Generic for iOS",
-        "Browser": "Edge",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Edge Generic for iOS"
       },
       "children": [
         {

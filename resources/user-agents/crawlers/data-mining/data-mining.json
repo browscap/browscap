@@ -6,60 +6,58 @@
   "userAgents": [
     {
       "userAgent": "Data Mining",
+      "browser": "data mining",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Data Mining",
-        "Browser": "Data Mining",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Data Mining"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; imrbot/1.10*",
+          "browser": "mignify bot",
           "properties": {
-            "Browser": "Mignify Bot",
-            "Browser_Maker": "Internet Memory Research",
             "Version": "1.10"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; imrbot/*",
+          "browser": "mignify bot",
           "properties": {
-            "Browser": "Mignify Bot",
             "Browser_Maker": "Internet Memory Research"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; LucidWorks*",
+          "browser": "lucidworks bot",
           "properties": {
-            "Browser": "Lucidworks Bot",
             "Browser_Maker": "Lucidworks"
           }
         },
         {
           "match": "Mozilla/5.0 CommonCrawler Node*",
+          "browser": "commoncrawler node",
           "properties": {
             "Browser": "CommonCrawler Node"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Dataprovider/*",
+          "browser": "dataprovider bot",
           "properties": {
-            "Browser": "Dataprovider Bot",
             "Browser_Maker": "Dataprovider.com"
           }
         },
         {
           "match": "SkyGrid/*",
+          "browser": "skygrid bot",
           "properties": {
-            "Browser": "SkyGrid Bot",
             "Browser_Maker": "SkyGrid"
           }
         },
         {
           "match": "Clickagy Intelligence Bot*",
+          "browser": "clickagy intelligence bot",
           "properties": {
-            "Browser": "Clickagy Intelligence Bot",
             "Browser_Maker": "Clickagy"
           }
         }

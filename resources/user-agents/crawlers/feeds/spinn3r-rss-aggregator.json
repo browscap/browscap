@@ -6,16 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Spinn3r RSS Aggregator",
+      "browser": "spinn3r rss aggregator",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Spinn3r RSS Aggregator",
-        "Browser": "Spinn3r RSS Aggregator",
-        "Browser_Maker": "Tailrank Inc",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Spinn3r RSS Aggregator"
       },
       "children": [
         {

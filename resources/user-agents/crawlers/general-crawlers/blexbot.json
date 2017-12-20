@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BLEXBot",
+      "browser": "blexbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BLEXBot",
-        "Browser": "BLEXBot",
-        "Browser_Maker": "WebMeUp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BLEXBot"
       },
       "children": [
         {

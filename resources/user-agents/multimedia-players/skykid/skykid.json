@@ -7,12 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Skykid #MAJORVER#.#MINORVER#",
+      "browser": "skykid",
       "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Skykid #MAJORVER#.#MINORVER#",
-        "Browser": "Skykid",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

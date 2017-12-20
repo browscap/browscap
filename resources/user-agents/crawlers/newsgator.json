@@ -6,42 +6,43 @@
   "userAgents": [
     {
       "userAgent": "NewsGator",
+      "browser": "newsgator",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NewsGator",
-        "Browser": "NewsGator",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "NewsGator"
       },
       "children": [
         {
           "match": "MarsEdit*",
+          "browser": "marsedit",
           "properties": {
             "Browser": "MarsEdit"
           }
         },
         {
           "match": "NewsGator FetchLinks extension/*",
+          "browser": "newsgator fetchlinks",
           "properties": {
             "Browser": "NewsGator FetchLinks"
           }
         },
         {
           "match": "NewsGator/*",
+          "browser": "newsgator",
           "properties": {
             "Browser": "NewsGator"
           }
         },
         {
           "match": "NewsGatorOnline/2.0*",
+          "browser": "newsgatoronline",
           "properties": {
-            "Browser": "NewsGatorOnline",
             "Version": "2.0"
           }
         },
         {
           "match": "NewsGatorOnline/*",
+          "browser": "newsgatoronline",
           "properties": {
             "Browser": "NewsGatorOnline"
           }

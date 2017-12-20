@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AOL Desktop Generic",
+      "browser": "aol desktop",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AOL Desktop Generic",
-        "Browser": "AOL Desktop",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "AOL"
+        "Comment": "AOL Desktop Generic"
       },
       "children": [
         {

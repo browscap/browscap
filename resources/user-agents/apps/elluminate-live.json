@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Elluminate Live",
+      "browser": "elluminate live",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Elluminate Live",
-        "Browser": "Elluminate Live",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Blackboard Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

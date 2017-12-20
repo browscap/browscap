@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "CCBot",
+      "browser": "ccbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CCBot",
-        "Browser": "CCBot",
-        "Browser_Maker": "CommonCrawl Foundation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "CCBot"
       },
       "children": [
         {

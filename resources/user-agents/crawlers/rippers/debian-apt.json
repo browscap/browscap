@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Debian APT-HTTP",
+      "browser": "apt http transport",
       "device": "Linux Desktop",
       "platform": "Debian",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Debian APT-HTTP",
-        "Browser": "Apt HTTP Transport",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Software in the Public Interest, Inc.",
-        "Crawler": "true"
+        "Comment": "Debian APT-HTTP"
       },
       "children": [
         {

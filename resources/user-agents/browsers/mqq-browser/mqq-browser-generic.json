@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "QQbrowser Generic for Android",
+      "browser": "qqbrowser",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser Generic",
-        "Browser": "QQbrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tencent Ltd."
+        "Comment": "QQbrowser Generic"
       },
       "children": [
         {
@@ -69,14 +67,12 @@
     },
     {
       "userAgent": "QQbrowser Generic",
+      "browser": "qqbrowser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser Generic",
-        "Browser": "QQbrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tencent Ltd."
+        "Comment": "QQbrowser Generic"
       },
       "children": [
         {
@@ -86,6 +82,7 @@
         },
         {
           "match": "MQQBrowser/Mini*",
+          "browser": "qqbrowser mini",
           "engine": "WebKit",
           "device": "general Mobile Device (Touch)",
           "properties": {
@@ -128,14 +125,12 @@
     },
     {
       "userAgent": "QQbrowser Generic for iOS",
+      "browser": "qqbrowser",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser for iOS",
-        "Browser": "QQbrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tencent Ltd."
+        "Comment": "QQbrowser for iOS"
       },
       "children": [
         {

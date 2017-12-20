@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "PodcastAddict",
+      "browser": "podcastaddict",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PodcastAddict",
-        "Browser": "PodcastAddict",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "unknown"
+        "Comment": "PodcastAddict"
       },
       "children": [
         {

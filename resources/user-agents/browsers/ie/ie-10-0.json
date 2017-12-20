@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
+      "browser": "ie",
       "engine": "Trident_6",
       "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
-        "Browser": "IE",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -28,14 +26,12 @@
     },
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Desktop",
+      "browser": "ie",
       "engine": "Trident_6",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
-        "Browser": "IE",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#",
         "Beta": "true"
       },

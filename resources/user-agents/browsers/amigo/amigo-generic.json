@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Amigo Generic",
+      "browser": "amigo",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Amigo Generic",
-        "Browser": "Amigo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mail.Ru Group"
+        "Comment": "Amigo Generic"
       },
       "children": [
         {

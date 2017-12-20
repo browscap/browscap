@@ -6,29 +6,29 @@
   "userAgents": [
     {
       "userAgent": "Sogou",
+      "browser": "sogou",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sogou",
-        "Browser": "Sogou",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Sogou Inc",
-        "Crawler": "true"
+        "Comment": "Sogou"
       },
       "children": [
         {
           "match": "shaboyi spider",
+          "browser": "sogou/shaboyi spider",
           "properties": {
             "Browser": "Sogou/Shaboyi Spider"
           }
         },
         {
           "match": "Sogou develop spider/*",
+          "browser": "sogou develop spider",
           "properties": {
             "Browser": "Sogou Develop Spider"
           }
         },
         {
           "match": "Sogou head spider*",
+          "browser": "sogou head spider",
           "properties": {
             "Browser": "Sogou Head Spider"
           }
@@ -38,62 +38,70 @@
         },
         {
           "match": "Sogou Orion spider/*",
+          "browser": "sogou orion spider",
           "properties": {
             "Browser": "Sogou Orion spider"
           }
         },
         {
           "match": "Sogou Pic Agent",
+          "browser": "sogou image crawler",
           "properties": {
             "Browser": "Sogou Image Crawler"
           }
         },
         {
           "match": "Sogou Pic Spider*",
+          "browser": "sogou image crawler",
           "properties": {
             "Browser": "Sogou Image Crawler"
           }
         },
         {
           "match": "Sogou-Test-Spider/*",
+          "browser": "sogou-test-spider",
           "properties": {
             "Browser": "Sogou-Test-Spider"
           }
         },
         {
           "match": "Sogou Push Spider*",
+          "browser": "sogou push spider",
           "properties": {
             "Browser": "Sogou Push Spider"
           }
         },
         {
           "match": "sogou spider*",
+          "browser": "sogou spider",
           "properties": {
             "Browser": "Sogou Spider"
           }
         },
         {
           "match": "Sogou web spider/4.0*",
+          "browser": "sogou web spider",
           "properties": {
-            "Browser": "Sogou Web Spider",
             "Version": "4.0"
           }
         },
         {
           "match": "Sogou web spider*",
+          "browser": "sogou web spider",
           "properties": {
             "Browser": "Sogou Web Spider"
           }
         },
         {
           "match": "New-Sogou-Spider/1.*",
+          "browser": "sogou spider",
           "properties": {
-            "Browser": "Sogou Spider",
             "Version": "1.0"
           }
         },
         {
           "match": "New-Sogou-Spider/*",
+          "browser": "sogou spider",
           "properties": {
             "Browser": "Sogou Spider"
           }

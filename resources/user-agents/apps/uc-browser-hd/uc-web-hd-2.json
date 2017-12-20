@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "UC Browser HD #MAJORVER#.#MINORVER#",
+      "browser": "uc browser hd",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser HD #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser HD",
-        "Browser_Type": "Application",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

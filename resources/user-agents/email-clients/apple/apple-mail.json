@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Apple Mail Generic for iOS",
+      "browser": "apple mail",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail Generic for iOS",
-        "Browser": "Apple Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -51,19 +47,15 @@
     },
     {
       "userAgent": "Apple Mail for Darwin",
+      "browser": "apple mail",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for Darwin",
-        "Browser": "Apple Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -214,19 +206,15 @@
     },
     {
       "userAgent": "Apple Mail for OSX",
+      "browser": "apple mail",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for OSX",
-        "Browser": "Apple Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -386,19 +374,15 @@
     },
     {
       "userAgent": "Apple Mail for Windows",
+      "browser": "apple mail",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for Windows",
-        "Browser": "Apple Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

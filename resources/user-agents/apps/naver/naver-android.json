@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Naver #MAJORVER#.#MINORVER# for Android",
+      "browser": "naver",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Naver #MAJORVER#.#MINORVER# for Android",
-        "Browser": "Naver",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

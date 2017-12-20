@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "PodcastOne #MAJORVER#.#MINORVER#",
+      "browser": "podcastone",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PodcastOne #MAJORVER#.#MINORVER#",
-        "Browser": "PodcastOne",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

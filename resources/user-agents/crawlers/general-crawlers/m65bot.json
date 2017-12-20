@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "m65bot",
+      "browser": "m65bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "m65bot",
-        "Browser": "m65bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "m65bot"
       },
       "children": [
         {

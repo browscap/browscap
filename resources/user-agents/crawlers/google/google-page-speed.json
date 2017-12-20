@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Google PageSpeed Insights Mobile",
+      "browser": "google pagespeed insights",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google PageSpeed Insights",
-        "Browser": "Google PageSpeed Insights"
+        "Comment": "Google PageSpeed Insights"
       },
       "children": [
         {
@@ -76,14 +73,11 @@
     },
     {
       "userAgent": "Google PageSpeed Insights",
+      "browser": "google pagespeed insights",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google PageSpeed Insights",
-        "Browser": "Google PageSpeed Insights"
+        "Comment": "Google PageSpeed Insights"
       },
       "children": [
         {

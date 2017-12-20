@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Brave Generic",
+      "browser": "brave",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Brave Generic",
-        "Browser": "Brave",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Brave Software Inc."
+        "Comment": "Brave Generic"
       },
       "children": [
         {

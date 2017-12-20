@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Bing Local Search",
+      "browser": "bing local search bot",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "Bing Local Search Bot",
-        "Browser": "Bing Local Search Bot",
-        "Crawler": "true"
+        "Comment": "Bing Local Search Bot"
       },
       "children": [
         {

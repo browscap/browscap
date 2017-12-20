@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Zimbra Desktop",
+      "browser": "zimbra desktop",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Zimbra Desktop",
-        "Browser": "Zimbra Desktop",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Synacor, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

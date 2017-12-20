@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird Generic",
+      "browser": "thunderbird",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Thunderbird Generic",
-        "Browser": "Thunderbird",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Email Client"
+        "Comment": "Thunderbird Generic"
       },
       "children": [
         {

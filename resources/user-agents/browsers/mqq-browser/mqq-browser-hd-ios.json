@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "QQbrowser #MAJORVER#.#MINORVER# HD for iOS",
+      "browser": "qqbrowser",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QQbrowser #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "QQbrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tencent Ltd.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

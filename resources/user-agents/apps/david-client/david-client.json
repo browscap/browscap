@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "David Client",
+      "browser": "david client",
       "platform": "Windows",
       "device": "Windows Desktop",
       "engine": "Trident_7",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "David Client",
-        "Browser": "David Client",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Tobit Software AG",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SeznamBot",
+      "browser": "seznambot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SeznamBot",
-        "Browser": "SeznamBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Seznam.cz, a.s.",
-        "Crawler": "true"
+        "Comment": "SeznamBot"
       },
       "children": [
         {

@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "SohuNews App Generic for Android",
+      "browser": "sohunews app",
       "engine": "Blink",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SohuNews App Generic for Android",
-        "Browser": "SohuNews App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Sohu.com Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

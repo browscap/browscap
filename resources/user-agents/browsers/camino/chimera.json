@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Chimera",
+      "browser": "chimera",
       "platform": "OSX",
       "device": "Macintosh",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mozilla Foundation",
-        "Comment": "Chimera",
-        "Browser": "Chimera"
+        "Comment": "Chimera"
       },
       "children": [
         {

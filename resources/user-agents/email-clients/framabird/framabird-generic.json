@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Framabird Generic",
+      "browser": "framabird",
       "device": "Windows Desktop",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Framabird Generic",
-        "Browser": "Framabird",
-        "Browser_Maker": "Framasoft",
-        "Browser_Type": "Email Client"
+        "Comment": "Framabird Generic"
       },
       "children": [
         {

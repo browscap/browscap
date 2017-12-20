@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "K-Ninja Generic",
+      "browser": "k-ninja",
       "engine": "Gecko_1_8",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "K-Ninja Generic",
-        "Browser": "K-Ninja",
-        "Browser_Maker": "Headbanging Sasquatches",
-        "Browser_Type": "Browser"
+        "Comment": "K-Ninja Generic"
       },
       "children": [
         {

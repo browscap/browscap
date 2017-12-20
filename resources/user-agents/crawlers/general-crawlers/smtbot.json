@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "SMTBot",
+      "browser": "smtbot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SMTBot",
-        "Browser": "SMTBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "SimilarTech Ltd.",
-        "Crawler": "true"
+        "Comment": "SMTBot"
       },
       "children": [
         {

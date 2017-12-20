@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Player FM",
+      "browser": "player fm",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Player FM",
-        "Browser": "Player FM",
-        "Browser_Maker": "Nuvomondo Ltd",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Player FM"
       },
       "children": [
         {

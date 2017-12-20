@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
+      "browser": "chrome",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
-        "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "JavaApplets": "false",
         "Beta": "true"

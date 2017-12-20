@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Whale Browser",
+      "browser": "whale browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Whale Browser",
-        "Browser": "Whale Browser",
-        "Browser_Maker": "NHN Corporation",
-        "Browser_Type": "Browser"
+        "Comment": "Whale Browser"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Polarity Browser for Android",
+      "browser": "polarity",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polarity",
-        "Browser": "Polarity",
-        "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser"
+        "Comment": "Polarity"
       },
       "children": [
         {
@@ -40,14 +38,12 @@
     },
     {
       "userAgent": "Polarity Browser",
+      "browser": "polarity",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polarity",
-        "Browser": "Polarity",
-        "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser"
+        "Comment": "Polarity"
       },
       "children": [
         {

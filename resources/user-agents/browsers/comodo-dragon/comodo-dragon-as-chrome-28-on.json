@@ -7,16 +7,14 @@
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER# (as Chrome)",
+      "browser": "dragon",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
-        "Browser": "Dragon",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Maker": "Comodo Group Inc",
-        "Browser_Type": "Browser"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

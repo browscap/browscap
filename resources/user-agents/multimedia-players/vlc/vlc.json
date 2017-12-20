@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "VLC Media Player",
+      "browser": "vlc media player",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "VLC Media Player",
-        "Browser": "VLC Media Player",
-        "Browser_Maker": "VideoLAN non-profit organization",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "VLC Media Player"
       },
       "children": [
         {

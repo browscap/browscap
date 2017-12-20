@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
+      "browser": "msnbot-media",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "msnbot-media",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "Beta": "true"
       },

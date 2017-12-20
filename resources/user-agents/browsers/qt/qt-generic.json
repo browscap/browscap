@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Qt Generic for Android",
+      "browser": "qt",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
-        "Comment": "Qt Generic",
-        "Browser": "Qt"
+        "Comment": "Qt Generic"
       },
       "children": [
         {
@@ -40,13 +39,12 @@
     },
     {
       "userAgent": "Qt Generic for Desktop",
+      "browser": "qt",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Qt Generic for Desktop",
-        "Browser": "Qt",
-        "Browser_Type": "Browser"
+        "Comment": "Qt Generic for Desktop"
       },
       "children": [
         {

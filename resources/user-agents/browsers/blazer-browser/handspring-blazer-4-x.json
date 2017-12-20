@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Blazer #MAJORVER#.#MINORVER#",
+      "browser": "blazer",
       "platform": "PalmOS",
       "device": "general Mobile Device",
       "engine": "NetFront",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Blazer",
-        "Browser": "Blazer",
-        "Browser_Maker": "Palm",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

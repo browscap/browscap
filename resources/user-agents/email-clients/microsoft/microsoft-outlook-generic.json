@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook Generic",
+      "browser": "outlook",
       "engine": "Trident_4",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook Generic",
-        "Browser": "Outlook",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

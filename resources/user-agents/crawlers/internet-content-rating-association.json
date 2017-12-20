@@ -6,22 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Internet Content Rating Association",
+      "browser": "internet content rating association",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Internet Content Rating Association",
-        "Browser": "Internet Content Rating Association",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Internet Content Rating Association"
       },
       "children": [
         {
           "match": "ICRA_label_generator/1.?",
+          "browser": "icra_label_generator",
           "properties": {
             "Browser": "ICRA_label_generator"
           }
         },
         {
           "match": "ICRA_Semantic_spider/0.?",
+          "browser": "icra_semantic_spider",
           "properties": {
             "Browser": "ICRA_Semantic_spider"
           }

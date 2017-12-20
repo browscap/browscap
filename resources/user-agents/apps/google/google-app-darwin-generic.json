@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Google App for Darwin",
+      "browser": "google app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Google App for Darwin",
-        "Browser": "Google App"
+        "Comment": "Google App for Darwin"
       },
       "children": [
         {

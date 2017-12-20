@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "SuperBird General",
+      "browser": "superbird",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SuperBird General",
-        "Browser": "SuperBird",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "superbird-browser.com"
+        "Comment": "SuperBird General"
       },
       "children": [
         {

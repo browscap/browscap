@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Google Structured-Data TestingTool",
+      "browser": "google structured-data testingtool",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google Structured-Data TestingTool",
-        "Browser": "Google Structured-Data TestingTool"
+        "Comment": "Google Structured-Data TestingTool"
       },
       "children": [
         {

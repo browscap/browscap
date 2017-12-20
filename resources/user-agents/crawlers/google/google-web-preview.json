@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Google Web Preview",
+      "browser": "google web preview",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser": "Google Web Preview",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Google"
       },
       "children": [
         {

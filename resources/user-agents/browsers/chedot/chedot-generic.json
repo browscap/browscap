@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Chedot Generic",
+      "browser": "chedot",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chedot Generic",
-        "Browser": "Chedot",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Chedot.com"
+        "Comment": "Chedot Generic"
       },
       "children": [
         {

@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "YellowPages Mobile App",
+      "browser": "yellowpages mobile app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YellowPages Mobile App",
-        "Browser": "YellowPages Mobile App",
-        "Browser_Maker": "YP LLC.",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

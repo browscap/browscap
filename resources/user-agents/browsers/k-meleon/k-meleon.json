@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",
+      "browser": "k-meleon",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "K-Meleon #MAJORVER#.#MINORVER#",
-        "Browser": "K-Meleon",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "kmeleonbrowser.org",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

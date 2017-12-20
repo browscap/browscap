@@ -6,24 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Accoona Bot",
+      "browser": "accoona bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Accoona Bot",
-        "Browser": "Accoona Bot",
-        "Browser_Maker": "Accoona.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Accoona Bot"
       },
       "children": [
         {
           "match": "Accoona-AI-Agent/1.1*",
+          "browser": "accoona-ai-agent",
           "properties": {
-            "Browser": "Accoona-AI-Agent",
             "Version": "1.1"
           }
         },
         {
           "match": "Accoona-AI-Agent/*",
+          "browser": "accoona-ai-agent",
           "properties": {
             "Browser": "Accoona-AI-Agent"
           }

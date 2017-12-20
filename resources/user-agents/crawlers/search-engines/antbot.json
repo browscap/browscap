@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AntBot",
+      "browser": "antbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AntBot",
-        "Browser": "AntBot",
-        "Browser_Maker": "Ant.com Ltd",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "AntBot"
       },
       "children": [
         {

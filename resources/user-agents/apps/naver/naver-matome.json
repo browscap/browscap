@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Matome #MAJORVER#.#MINORVER#",
+      "browser": "matome",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Matome #MAJORVER#.#MINORVER#",
-        "Browser": "Matome",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

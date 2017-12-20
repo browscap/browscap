@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",
+      "browser": "yahoo mobile app",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mobile App #MAJORVER#.#MINORVER#",
-        "Browser": "Yahoo Mobile App",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Airmail #MAJORVER#.#MINORVER#",
+      "browser": "airmail",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Airmail #MAJORVER#.#MINORVER#",
-        "Browser": "Airmail",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Maker": "Bloop S.R.L.",
-        "Browser_Type": "Email Client",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

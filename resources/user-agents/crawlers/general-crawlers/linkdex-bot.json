@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Linkdex Bot",
+      "browser": "linkdex bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Linkdex Bot",
-        "Browser": "Linkdex Bot",
-        "Browser_Maker": "Linkdex Limited",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Linkdex Bot"
       },
       "children": [
         {

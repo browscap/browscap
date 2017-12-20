@@ -7,16 +7,14 @@
   "userAgents": [
     {
       "userAgent": "iOS dataaccessd #MAJORVER#.#MINORVER#",
+      "browser": "ios dataaccessd",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iOS dataaccessd",
-        "Browser": "iOS dataaccessd",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

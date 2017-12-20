@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Headless Chrome",
+      "browser": "headless chrome",
       "engine": "Blink",
       "device": "Linux Desktop",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Headless Chrome",
-        "Browser": "Headless Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "JavaApplets": "false"
       },
       "children": [

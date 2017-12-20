@@ -6,14 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Google Feedfetcher",
+      "browser": "google feedfetcher",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google Feedfetcher",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google Feedfetcher",
-        "isSyndicationReader": "true"
+        "Comment": "Google Feedfetcher"
       },
       "children": [
         {

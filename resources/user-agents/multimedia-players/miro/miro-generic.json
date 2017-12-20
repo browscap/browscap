@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Miro Generic",
+      "browser": "miro",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Miro",
-        "Browser": "Miro",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Participatory Culture Foundation"
+        "Comment": "Miro"
       },
       "children": [
         {
@@ -26,33 +24,34 @@
         },
         {
           "match": "Miro/6.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "6.0"
           }
         },
         {
           "match": "Miro/5.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "5.0"
           }
         },
         {
           "match": "Miro/3.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "3.0"
           }
         },
         {
           "match": "Miro/*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {

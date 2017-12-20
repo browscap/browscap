@@ -7,13 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
+      "browser": "sleipnir",
       "device": "Windows Desktop",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
-        "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

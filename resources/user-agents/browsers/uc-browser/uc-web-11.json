@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "browser": "uc browser",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "engine": "U3",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -399,14 +397,12 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+      "browser": "uc browser",
       "device": "Windows Desktop",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

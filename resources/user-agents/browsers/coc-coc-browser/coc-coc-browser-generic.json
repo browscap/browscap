@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Coc Coc Browser Generic",
+      "browser": "coc coc browser",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Coc Coc Browser Generic",
-        "Browser": "Coc Coc Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Coc Coc Company Limited"
+        "Comment": "Coc Coc Browser Generic"
       },
       "children": [
         {

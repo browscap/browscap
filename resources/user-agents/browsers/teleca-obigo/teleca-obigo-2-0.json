@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+      "browser": "teleca-obigo",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
-        "Browser": "Teleca-Obigo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Obigo",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

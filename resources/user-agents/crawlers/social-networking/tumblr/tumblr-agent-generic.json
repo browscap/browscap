@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Tumblr Agent Generic",
+      "browser": "tumblr agent",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tumblr Agent Generic",
-        "Browser": "Tumblr Agent",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Tumblr, Inc.",
-        "Crawler": "true"
+        "Comment": "Tumblr Agent Generic"
       },
       "children": [
         {

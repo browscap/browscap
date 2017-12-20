@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Chrome Generic",
+      "browser": "chrome",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",
-        "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "JavaApplets": "false"
       },
       "children": [

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Samsung Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

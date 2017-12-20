@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Crowsnest Mobile App",
+      "browser": "crowsnest mobile app",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Crowsnest Mobile App",
-        "Browser": "Crowsnest Mobile App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Gocro, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

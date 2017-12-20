@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
+      "browser": "android download manager",
       "platform": "Android_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Browser": "Android Download Manager",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

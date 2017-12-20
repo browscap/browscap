@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Kinza #MAJORVER#.#MINORVER#",
+      "browser": "kinza",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kinza #MAJORVER#.#MINORVER#",
-        "Browser": "Kinza",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "kinza.jp",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

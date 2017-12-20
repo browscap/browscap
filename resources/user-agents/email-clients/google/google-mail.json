@@ -6,16 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Google Mail",
+      "browser": "google mail",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google Mail",
-        "Browser": "Google Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Google Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

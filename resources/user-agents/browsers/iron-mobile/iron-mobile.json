@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Iron Mobile #MAJORVER#.#MINORVER#",
+      "browser": "iron mobile",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Iron Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "SRWare",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

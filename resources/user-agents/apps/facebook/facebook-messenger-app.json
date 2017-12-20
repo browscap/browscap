@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Facebook Messenger App for iOS",
+      "browser": "facebook messenger",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook Messenger App for iOS",
-        "Browser": "Facebook Messenger",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook Messenger App for iOS"
       },
       "children": [
         {
@@ -57,15 +55,13 @@
     },
     {
       "userAgent": "Facebook Messenger App for Android",
+      "browser": "facebook messenger",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook Messenger App for Android",
-        "Browser": "Facebook Messenger",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook Messenger App for Android"
       },
       "children": [
         {

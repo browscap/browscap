@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Jasmine #MAJORVER#.#MINORVER#",
+      "browser": "jasmine",
       "platform": "JAVA",
       "engine": "NetFront",
       "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Jasmine #MAJORVER#.#MINORVER#",
-        "Browser": "Jasmine",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Pivotal Labs",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

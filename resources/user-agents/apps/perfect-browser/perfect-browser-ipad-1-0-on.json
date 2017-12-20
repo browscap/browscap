@@ -7,19 +7,16 @@
   "userAgents": [
     {
       "userAgent": "PERFECT Browser #MAJORVER#.#MINORVER# (iPad)",
+      "browser": "perfect browser",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "iPad",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PERFECT Browser #MAJORVER#.#MINORVER# (iPad)",
-        "Browser": "PERFECT Browser",
-        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

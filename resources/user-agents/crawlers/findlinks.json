@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "findlinks",
+      "browser": "findlinks",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FindLinks",
-        "Browser": "FindLinks",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "FindLinks"
       },
       "children": [
         {

@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Raptr",
+      "browser": "raptr",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Raptr",
-        "Browser": "Raptr",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Raptr"
+        "Comment": "Raptr"
       },
       "children": [
         {

@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "CaptiveNetworkAgent",
+      "browser": "captivenetworkagent",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CaptiveNetworkAgent",
-        "Browser": "CaptiveNetworkAgent",
-        "Browser_Maker": "Apple Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "CaptiveNetworkAgent"
       },
       "children": [
         {

@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Lycoris Desktop/LX 1.0",
+      "browser": "lycoris desktop/lx",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lycoris Desktop/LX 1.0",
-        "Browser": "Lycoris Desktop/LX",
         "Version": "1.0"
       },
       "children": [

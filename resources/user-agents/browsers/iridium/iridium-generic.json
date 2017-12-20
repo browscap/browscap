@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Iridium Browser Generic",
+      "browser": "iridium browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Iridium Browser Generic",
-        "Browser": "Iridium Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Iridium Browser Team"
+        "Comment": "Iridium Browser Generic"
       },
       "children": [
         {

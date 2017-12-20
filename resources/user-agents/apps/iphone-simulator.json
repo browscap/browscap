@@ -6,13 +6,13 @@
   "userAgents": [
     {
       "userAgent": "iPhone Simulator",
+      "browser": "iphone simulator",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "iPhone Simulator",
-        "Browser": "iPhone Simulator"
+        "Comment": "iPhone Simulator"
 
       },
       "children": [

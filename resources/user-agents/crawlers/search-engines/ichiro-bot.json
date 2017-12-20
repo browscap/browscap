@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Ichiro Bot",
+      "browser": "ichiro bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ichiro Bot",
-        "Browser": "Ichiro Bot",
-        "Browser_Maker": "Ichiro",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Ichiro Bot"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "B-Line Browser #MAJORVER#.#MINORVER#",
+      "browser": "b-line",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "B-Line Browser #MAJORVER#.#MINORVER#",
-        "Browser": "B-Line",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Riser Apps LLC",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

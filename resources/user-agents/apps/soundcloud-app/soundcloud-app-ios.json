@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "soundcloud app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "SoundCloud App",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "SoundCloud Limited",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

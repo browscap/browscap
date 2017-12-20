@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Zune #MAJORVER#.#MINORVER#",
+      "browser": "zune",
       "engine": "Trident_4",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Zune #MAJORVER#.#MINORVER#",
-        "Browser": "Zune",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

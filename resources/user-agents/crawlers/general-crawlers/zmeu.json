@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ZmEu",
+      "browser": "zmeu",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ZmEu",
-        "Browser": "ZmEu",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ZmEu"
       },
       "children": [
         {

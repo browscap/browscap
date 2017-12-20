@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "WBSearchBot",
+      "browser": "wbsearchbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WBSearchBot",
-        "Browser": "WBSearchBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "www.warebay.com",
-        "Crawler": "true"
+        "Comment": "WBSearchBot"
       },
       "children": [
         {

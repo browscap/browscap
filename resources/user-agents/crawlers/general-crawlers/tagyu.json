@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Tagyu",
+      "browser": "tagyu",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tagyu",
-        "Browser": "Tagyu",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Tagyu"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for iOS",
+      "browser": "firefox for ios",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Firefox for iOS",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

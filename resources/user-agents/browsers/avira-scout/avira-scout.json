@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avira Scout",
+      "browser": "avira scout",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avira Scout",
-        "Browser": "Avira Scout",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avira Operations GmbH & Co. KG."
+        "Comment": "Avira Scout"
       },
       "children": [
         {

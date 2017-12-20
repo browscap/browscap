@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "open-webkit-sharp",
+      "browser": "open-webkit-sharp",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "open-webkit-sharp",
-        "Browser": "open-webkit-sharp",
-        "Browser_Type": "Browser",
-        "Crawler": "false"
+        "Comment": "open-webkit-sharp"
       },
       "children": [
         {

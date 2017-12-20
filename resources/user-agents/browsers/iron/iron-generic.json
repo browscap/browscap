@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Iron Generic",
+      "browser": "iron",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Iron Generic",
-        "Browser": "Iron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "SRWare"
+        "Comment": "Iron Generic"
       },
       "children": [
         {

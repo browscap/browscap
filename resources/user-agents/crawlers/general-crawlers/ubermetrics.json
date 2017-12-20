@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "uMBot",
+      "browser": "umbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "uMBot",
-        "Browser": "uMBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "ubermetrics-technologies.com",
-        "Crawler": "true"
+        "Comment": "uMBot"
       },
       "children": [
         {

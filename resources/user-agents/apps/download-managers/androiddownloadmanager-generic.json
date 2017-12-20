@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager Generic",
+      "browser": "android download manager",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Android Download Manager Generic",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Browser": "Android Download Manager"
+        "Comment": "Android Download Manager Generic"
       },
       "children": [
         {

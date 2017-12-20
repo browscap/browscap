@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "WebKit/webOS Generic",
+      "browser": "webkit/webos",
       "engine": "WebKit",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebKit/webOS Generic",
-        "Browser": "WebKit/webOS",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "HP"
+        "Comment": "WebKit/webOS Generic"
       },
       "children": [
         {

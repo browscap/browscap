@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Googlebot",
+      "browser": "google bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Googlebot",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google Bot"
+        "Comment": "Googlebot"
       },
       "children": [
         {
@@ -23,31 +20,35 @@
         },
         {
           "match": "googlebot-urlconsole",
+          "browser": "googlebot-urlconsole",
           "properties": {
             "Browser": "googlebot-urlconsole"
           }
         },
         {
           "match": "Googlebot-Image*",
+          "browser": "google image search",
           "properties": {
             "Browser": "Google Image Search"
           }
         },
         {
           "match": "Googlebot-News*",
+          "browser": "googlebot-news",
           "properties": {
             "Browser": "Googlebot-News"
           }
         },
         {
           "match": "Googlebot-Video/1.0*",
+          "browser": "googlebot-video",
           "properties": {
-            "Browser": "Googlebot-Video",
             "Version": "1.0"
           }
         },
         {
           "match": "Googlebot-Video*",
+          "browser": "googlebot-video",
           "properties": {
             "Browser": "Googlebot-Video"
           }

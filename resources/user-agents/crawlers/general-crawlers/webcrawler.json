@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "WebCrawler",
+      "browser": "webcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebCrawler",
-        "Browser": "WebCrawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "WebCrawler"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SophosUpdateManager",
+      "browser": "sophosupdatemanager",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SophosUpdateManager",
-        "Browser": "SophosUpdateManager",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Sophos Ltd.",
-        "Crawler": "true"
+        "Comment": "SophosUpdateManager"
       },
       "children": [
         {

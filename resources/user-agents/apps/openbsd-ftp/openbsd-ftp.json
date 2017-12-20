@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "OpenBSD ftp",
+      "browser": "openbsd ftp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OpenBSD ftp",
-        "Browser": "OpenBSD ftp",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "OpenBSD ftp"
       },
       "children": [
         {

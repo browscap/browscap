@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "FancyMusic Generic",
+      "browser": "fancymusic",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FancyMusic Generic",
-        "Browser": "FancyMusic",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "unknown"
+        "Comment": "FancyMusic Generic"
       },
       "children": [
         {

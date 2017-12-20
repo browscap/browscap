@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Bolt",
+      "browser": "bolt",
       "engine": "WebKit",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Bolt",
-        "Browser": "Bolt"
+        "Comment": "Bolt"
       },
       "children": [
         {

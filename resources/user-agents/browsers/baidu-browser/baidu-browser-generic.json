@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Browser Generic",
+      "browser": "baidu browser",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Browser Generic",
-        "Browser": "Baidu Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Browser Generic"
       },
       "children": [
         {
@@ -88,15 +86,13 @@
     },
     {
       "userAgent": "Baidu Browser Generic for iOS",
+      "browser": "baidu browser",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Browser Generic",
-        "Browser": "Baidu Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Browser Generic"
       },
       "children": [
         {
@@ -124,15 +120,13 @@
     },
     {
       "userAgent": "Baidu Browser HD Generic",
+      "browser": "baidu browser hd",
       "platform": "Android",
       "engine": "T5",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Browser HD Generic",
-        "Browser": "Baidu Browser HD",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Browser HD Generic"
       },
       "children": [
         {
@@ -166,15 +160,13 @@
     },
     {
       "userAgent": "Baidu Browser Mini Generic",
+      "browser": "baidu browser mini",
       "platform": "Android",
       "engine": "T5",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Browser Mini Generic",
-        "Browser": "Baidu Browser Mini",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Browser Mini Generic"
       },
       "children": [
         {
@@ -208,15 +200,13 @@
     },
     {
       "userAgent": "Baidu Browser HD Generic for iOS",
+      "browser": "baidu browser hd",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Browser HD Generic",
-        "Browser": "Baidu Browser HD",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Browser HD Generic"
       },
       "children": [
         {

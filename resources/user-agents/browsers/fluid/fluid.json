@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Fluid #MAJORVER#.#MINORVER#",
+      "browser": "fluid",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fluid #MAJORVER#.#MINORVER#",
-        "Browser": "Fluid",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "unknown",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

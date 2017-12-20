@@ -6,17 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Yahoo",
+      "browser": "yahoo",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
-        "Browser": "Yahoo",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo"
       },
       "children": [
         {
           "match": "Mozilla/4.0 (compatible; Y!J; for robot study*)",
+          "browser": "y!j",
           "properties": {
             "Browser": "Y!J"
           }
@@ -36,43 +34,49 @@
         },
         {
           "match": "YahooCacheSystem*",
+          "browser": "yahoocachesystem",
           "properties": {
             "Browser": "YahooCacheSystem"
           }
         },
         {
           "match": "Mozilla/5.0 (Yahoo-MMCrawler/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "browser": "yahoo-mmcrawler",
           "properties": {
-            "Browser": "Yahoo-MMCrawler",
             "Version": "4.0"
           }
         },
         {
           "match": "Mozilla/5.0 (Yahoo-MMCrawler/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "browser": "yahoo-mmcrawler",
           "properties": {
             "Browser": "Yahoo-MMCrawler"
           }
         },
         {
           "match": "Mozilla/5.0 (Yahoo-Test/*)",
+          "browser": "yahoo-test",
           "properties": {
             "Browser": "Yahoo-Test"
           }
         },
         {
           "match": "Mozilla/5.0 (YahooYSMcm*)",
+          "browser": "yahooysmcm",
           "properties": {
             "Browser": "YahooYSMcm"
           }
         },
         {
           "match": "mp3Spider cn-search-devel at yahoo-inc dot com",
+          "browser": "yahoo! media",
           "properties": {
             "Browser": "Yahoo! Media"
           }
         },
         {
           "match": "My Browser",
+          "browser": "yahoo! my browser",
           "properties": {
             "Browser": "Yahoo! My Browser"
           }
@@ -85,90 +89,105 @@
         },
         {
           "match": "Scooter*",
+          "browser": "scooter",
           "properties": {
             "Browser": "Scooter"
           }
         },
         {
           "match": "Y!OASIS*",
+          "browser": "y!oasis",
           "properties": {
             "Browser": "Y!OASIS"
           }
         },
         {
           "match": "Yahoo Mindset",
+          "browser": "yahoo mindset",
           "properties": {
             "Browser": "Yahoo Mindset"
           }
         },
         {
           "match": "Yahoo Pipes*",
+          "browser": "yahoo pipes",
           "properties": {
             "Browser": "Yahoo Pipes"
           }
         },
         {
           "match": "Yahoo! Mindset",
+          "browser": "yahoo! mindset",
           "properties": {
             "Browser": "Yahoo! Mindset"
           }
         },
         {
           "match": "Yahoo-Blogs*",
+          "browser": "yahoo-blogs",
           "properties": {
             "Browser": "Yahoo-Blogs"
           }
         },
         {
           "match": "Yahoo-MMAudVid*",
+          "browser": "yahoo-mmaudvid",
           "properties": {
             "Browser": "Yahoo-MMAudVid"
           }
         },
         {
           "match": "Yahoo-MMCrawler*",
+          "browser": "yahoo-mmcrawler",
           "properties": {
             "Browser": "Yahoo-MMCrawler"
           }
         },
         {
           "match": "YahooExternalCache",
+          "browser": "yahooexternalcache",
           "properties": {
             "Browser": "YahooExternalCache"
           }
         },
         {
           "match": "YahooVideoSearch*",
+          "browser": "yahoovideosearch",
           "properties": {
             "Browser": "YahooVideoSearch"
           }
         },
         {
           "match": "YahooYSMcm*",
+          "browser": "yahooysmcm",
           "properties": {
             "Browser": "YahooYSMcm"
           }
         },
         {
           "match": "YRL_ODP_CRAWLER",
+          "browser": "yrl_odp_crawler",
           "properties": {
             "Browser": "YRL_ODP_CRAWLER"
           }
         },
         {
           "match": "Yahoo:LinkExpander:Slingstone",
+          "browser": "yahoo slingstone",
           "properties": {
             "Browser": "Yahoo Slingstone"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo Ad monitoring*",
+          "browser": "yahoo ad monitoring",
           "properties": {
             "Browser": "Yahoo Ad Monitoring"
           }
         },
         {
           "match": "Mozilla/5.0 (*OS * like Mac OS X) * (compatible; Yahoo Ad monitoring; https://help.yahoo.com*",
+          "browser": "yahoo ad monitoring",
           "properties": {
             "Browser": "Yahoo Ad Monitoring"
           }

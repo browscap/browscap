@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "CM Browser",
+      "browser": "cm browser",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CM Browser",
-        "Browser": "CM Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Cheetah Mobile"
+        "Comment": "CM Browser"
       },
       "children": [
         {

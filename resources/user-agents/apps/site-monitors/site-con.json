@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "SiteCon",
+      "browser": "sitecon",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SiteCon",
-        "Browser": "SiteCon",
-        "Browser_Maker": "NCC Group.",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "SiteCon"
       },
       "children": [
         {

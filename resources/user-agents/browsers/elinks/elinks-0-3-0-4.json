@@ -7,12 +7,11 @@
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",
+      "browser": "elinks",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ELinks #MAJORVER#.#MINORVER#",
-        "Browser": "ELinks",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

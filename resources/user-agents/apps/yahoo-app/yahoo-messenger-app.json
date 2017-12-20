@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Messenger",
+      "browser": "yahoo messenger",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo Messenger",
-        "Browser": "Yahoo Messenger",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "false"
+        "Comment": "Yahoo Messenger"
       },
       "children": [
         {

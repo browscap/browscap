@@ -6,14 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Feeddler RSS Reader",
+      "browser": "feeddler rss reader",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Feeddler RSS Reader",
-        "Browser": "Feeddler RSS Reader",
-        "Browser_Maker": "Che-Bin Liu",
-        "Browser_Type": "Feed Reader",
-        "isSyndicationReader": "true",
-        "Crawler": "false"
+        "Comment": "Feeddler RSS Reader"
       },
       "children": [
         {

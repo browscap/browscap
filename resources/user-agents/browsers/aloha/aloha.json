@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Aloha Browser for Android",
+      "browser": "aloha browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Aloha Browser",
-        "Browser": "Aloha Browser",
-        "Browser_Maker": "Aloha Mobile Ltd",
-        "Browser_Type": "Browser"
+        "Comment": "Aloha Browser"
       },
       "children": [
         {
@@ -74,15 +72,13 @@
     },
     {
       "userAgent": "Aloha Browser for iOS",
+      "browser": "aloha browser",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Aloha Browser",
-        "Browser": "Aloha Browser",
-        "Browser_Maker": "Aloha Mobile Ltd",
-        "Browser_Type": "Browser"
+        "Comment": "Aloha Browser"
       },
       "children": [
         {

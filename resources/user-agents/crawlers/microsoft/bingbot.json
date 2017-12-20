@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "BingBot",
+      "browser": "bingbot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "BingBot",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {
@@ -82,6 +79,7 @@
         },
         {
           "match": "BingAdsAdInsight",
+          "browser": "bing ads adinsight bot",
           "engine": "unknown",
           "device": "unknown",
           "properties": {

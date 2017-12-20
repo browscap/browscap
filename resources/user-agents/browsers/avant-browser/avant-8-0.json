@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avant/IE 8.0",
+      "browser": "avant",
       "device": "Windows Desktop",
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant/IE 8.0",
-        "Browser": "Avant",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force"
+        "Comment": "Avant/IE 8.0"
       },
       "children": [
         {

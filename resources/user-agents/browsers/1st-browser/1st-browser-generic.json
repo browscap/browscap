@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "1stBrowser Generic",
+      "browser": "1stbrowser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "1stBrowser Generic",
-        "Browser": "1stBrowser",
-        "Browser_Maker": "Sien",
-        "Browser_Type": "Browser"
+        "Comment": "1stBrowser Generic"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Beamrise Generic",
+      "browser": "beamrise",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Beamrise Generic",
-        "Browser": "Beamrise",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Beamrise Team"
+        "Comment": "Beamrise Generic"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Friendica",
+      "browser": "friendica",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Friendica",
-        "Browser": "Friendica",
-        "Browser_Maker": "the friendica project",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Friendica"
       },
       "children": [
         {

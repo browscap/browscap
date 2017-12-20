@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "PodcastOne Generic",
+      "browser": "podcastone",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PodcastOne Generic",
-        "Browser": "PodcastOne",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "PodcastOne Generic"
       },
       "children": [
         {

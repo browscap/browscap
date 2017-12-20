@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Proxy Gear Pro",
+      "browser": "proxy gear pro",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Proxy Gear Pro",
-        "Browser": "Proxy Gear Pro",
-        "Browser_Maker": "proxy-base.org",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Proxy Gear Pro"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
+      "browser": "lg browser",
       "device": "general TV Device",
       "platform": "webOS_20",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "LG Browser #MAJORVER#.#MINORVER#",
-        "Browser": "LG Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "LG",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

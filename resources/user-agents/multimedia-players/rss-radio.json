@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "RSSRadio",
+      "browser": "rssradio",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "RSSRadio",
-        "Browser": "RSSRadio",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "RSSRadio"
       },
       "children": [
         {

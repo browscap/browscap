@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Blackboard Safeassign",
+      "browser": "blackboard safeassign",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Blackboard Safeassign",
-        "Browser": "Blackboard Safeassign",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Blackboard Inc.",
-        "Crawler": "true"
+        "Comment": "Blackboard Safeassign"
       },
       "children": [
         {

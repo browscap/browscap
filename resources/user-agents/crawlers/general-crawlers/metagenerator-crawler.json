@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "MetaGeneratorCrawler",
+      "browser": "metageneratorcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MetaGeneratorCrawler",
-        "Browser": "MetaGeneratorCrawler",
-        "Browser_Maker": "Jan Bogutzki",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "MetaGeneratorCrawler"
       },
       "children": [
         {

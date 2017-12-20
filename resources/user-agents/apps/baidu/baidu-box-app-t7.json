@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Box App #MAJORVER#.#MINORVER#",
+      "browser": "baidu box app",
       "platform": "Android",
       "engine": "T7",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
-        "Browser": "Baidu Box App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

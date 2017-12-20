@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Cyberdog",
+      "browser": "cyberdog",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cyberdog",
-        "Browser": "Cyberdog",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

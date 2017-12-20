@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Tungsten Browser",
+      "browser": "tungsten browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tungsten Browser",
-        "Browser": "Tungsten Browser",
-        "Browser_Maker": "MSR&Joker",
-        "Browser_Type": "Browser"
+        "Comment": "Tungsten Browser"
       },
       "children": [
         {

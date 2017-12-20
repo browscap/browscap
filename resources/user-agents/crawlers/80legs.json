@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "80Legs",
+      "browser": "80legs",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "80Legs",
-        "Browser": "80Legs",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "80Legs"
       },
       "children": [
         {

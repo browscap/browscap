@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Sosospider",
+      "browser": "sosospider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sosospider",
-        "Browser": "Sosospider",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Sogou Inc",
-        "Crawler": "true"
+        "Comment": "Sosospider"
       },
       "children": [
         {

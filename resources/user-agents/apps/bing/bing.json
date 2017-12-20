@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Bing",
+      "browser": "bing",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "Bing",
-        "Browser": "Bing",
-        "Crawler": "false"
+        "Comment": "Bing"
       },
       "children": [
         {

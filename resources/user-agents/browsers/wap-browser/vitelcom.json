@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Vitelcom #MAJORVER#.#MINORVER#",
+      "browser": "vitelcom",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vitelcom #MAJORVER#.#MINORVER#",
-        "Browser": "Vitelcom",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

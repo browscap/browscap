@@ -6,38 +6,36 @@
   "userAgents": [
     {
       "userAgent": "Facebook",
+      "browser": "facebook",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook",
-        "Browser": "Facebook",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Facebook",
-        "Crawler": "true"
+        "Comment": "Facebook"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* facebookexternalhit/1.1*",
+          "browser": "facebookexternalhit",
           "properties": {
-            "Browser": "FacebookExternalHit",
             "Version": "1.1"
           }
         },
         {
           "match": "facebookexternalhit/1.0*",
+          "browser": "facebookexternalhit",
           "properties": {
-            "Browser": "FacebookExternalHit",
             "Version": "1.0"
           }
         },
         {
           "match": "facebookexternalhit/1.1*",
+          "browser": "facebookexternalhit",
           "properties": {
-            "Browser": "FacebookExternalHit",
             "Version": "1.1"
           }
         },
         {
           "match": "facebookexternalhit/*",
+          "browser": "facebookexternalhit",
           "properties": {
             "Browser": "FacebookExternalHit"
           }
@@ -62,26 +60,28 @@
         },
         {
           "match": "Facebot/1.0*",
+          "browser": "facebot",
           "properties": {
-            "Browser": "Facebot",
             "Version": "1.0"
           }
         },
         {
           "match": "Facebot/*",
+          "browser": "facebot",
           "properties": {
             "Browser": "Facebot"
           }
         },
         {
           "match": "facebookscraper/1.0( http*://www.facebook.com/sharescraper_help.php)*",
+          "browser": "facebookscraper",
           "properties": {
-            "Browser": "Facebookscraper",
             "Version": "1.0"
           }
         },
         {
           "match": "facebookscraper/*( http*://www.facebook.com/sharescraper_help.php)*",
+          "browser": "facebookscraper",
           "properties": {
             "Browser": "Facebookscraper"
           }

@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ActiveWorlds Bot",
+      "browser": "activeworlds bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ActiveWorlds Bot",
-        "Browser": "ActiveWorlds Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ActiveWorlds Bot"
       },
       "children": [
         {

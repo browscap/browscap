@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Steam Overlay",
+      "browser": "steam overlay",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Steam Overlay",
-        "Browser": "Steam Overlay",
-        "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application"
+        "Comment": "Steam Overlay"
       },
       "children": [
         {
@@ -48,14 +46,12 @@
     },
     {
       "userAgent": "Steam Client",
+      "browser": "steam",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Steam Client",
-        "Browser": "Steam",
-        "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application"
+        "Comment": "Steam Client"
       },
       "children": [
         {
@@ -88,6 +84,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
           "properties": {
             "Browser": "Steam Big Picture"
           },
@@ -98,6 +97,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
           "properties": {
             "Browser": "Steam Big Picture"
           },
@@ -114,6 +116,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
+          "browser": "steam big picture",
           "properties": {
             "Browser": "Steam Big Picture"
           },

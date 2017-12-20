@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox Generic for iOS",
+      "browser": "firefox for ios",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic for iOS",
-        "Browser": "Firefox for iOS",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Generic for iOS"
       },
       "children": [
         {

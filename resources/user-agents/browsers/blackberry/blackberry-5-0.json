@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
       "platform": "RIMOS_Dynamic",
       "device": "general Mobile Phone (Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
-        "Browser": "BlackBerry",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Research In Motion Limited",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

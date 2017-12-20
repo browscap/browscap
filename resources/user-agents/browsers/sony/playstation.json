@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Playstation Browser",
+      "browser": "playstation browser",
       "platform": "OrbisOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Playstation Browser",
-        "Browser": "Playstation Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony"
+        "Comment": "Playstation Browser"
       },
       "children": [
         {
@@ -39,15 +37,13 @@
     },
     {
       "userAgent": "Playstation Vita",
+      "browser": "playstation browser",
       "platform": "PS_Vita",
       "device": "Sony PS Vita",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PlayStation Vita",
-        "Browser": "Playstation Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony"
+        "Comment": "PlayStation Vita"
       },
       "children": [
         {
@@ -74,17 +70,16 @@
     },
     {
       "userAgent": "Playstation",
+      "browser": "playstation",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Playstation",
-        "Browser": "Playstation",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony"
+        "Comment": "Playstation"
       },
       "children": [
         {
           "match": "Mozilla/* (PSP (PlayStation Portable)*)",
+          "browser": "sony psp",
           "device": "Sony PSP",
           "properties": {
             "Browser": "Sony PSP"
@@ -92,6 +87,7 @@
         },
         {
           "match": "Sony PS2 (Linux)",
+          "browser": "sony ps2",
           "device": "Sony PS2",
           "properties": {
             "Browser": "Sony PS2"

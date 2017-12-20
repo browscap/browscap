@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "IAC",
+      "browser": "iac",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IAC",
-        "Browser": "IAC",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

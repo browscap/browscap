@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Windows Live Mail #MAJORVER#.#MINORVER#",
+      "browser": "windows live mail",
       "engine": "Trident_5",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows Live Mail #MAJORVER#.#MINORVER#",
-        "Browser": "Windows Live Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

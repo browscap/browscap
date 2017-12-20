@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "cURL",
+      "browser": "curl",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "cURL",
-        "Browser": "cURL",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "cURL"
       },
       "children": [
         {
@@ -63,27 +61,28 @@
         },
         {
           "match": "*WinHttpRequest*",
+          "browser": "winhttp",
           "properties": {
-            "Browser": "WinHttp",
             "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHTTP*",
+          "browser": "winhttp",
           "properties": {
-            "Browser": "WinHttp",
             "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHttp*",
+          "browser": "winhttp",
           "properties": {
-            "Browser": "WinHttp",
             "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "TrendWinHttp*",
+          "browser": "trendwinhttp",
           "properties": {
             "Browser": "TrendWinHttp"
           }

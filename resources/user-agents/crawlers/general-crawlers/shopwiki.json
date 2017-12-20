@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ShopWiki",
+      "browser": "shopwiki",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ShopWiki",
-        "Browser": "ShopWiki",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ShopWiki"
       },
       "children": [
         {

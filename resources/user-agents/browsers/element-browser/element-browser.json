@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Element Browser #MAJORVER#.#MINORVER#",
+      "browser": "element browser",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Element Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Element Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Element Software",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

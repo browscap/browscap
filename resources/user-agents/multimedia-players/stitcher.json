@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Stitcher for iOS",
+      "browser": "stitcher",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Stitcher",
-        "Browser": "Stitcher",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Deezer"
+        "Comment": "Stitcher"
       },
       "children": [
         {
@@ -165,15 +163,13 @@
     },
     {
       "userAgent": "Stitcher for Android",
+      "browser": "stitcher",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Stitcher",
-        "Browser": "Stitcher",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Deezer"
+        "Comment": "Stitcher"
       },
       "children": [
         {

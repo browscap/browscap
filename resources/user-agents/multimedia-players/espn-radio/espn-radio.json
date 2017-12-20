@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "ESPN Radio #MAJORVER#.#MINORVER#",
+      "browser": "espn radio",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ESPN Radio #MAJORVER#.#MINORVER#",
-        "Browser": "ESPN Radio",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -174,15 +172,13 @@
     },
     {
       "userAgent": "ESPN Radio #MAJORVER#.#MINORVER# for Android",
+      "browser": "espn radio",
       "device": "general Mobile Phone (Touch)",
       "engine": "Blink",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ESPN Radio #MAJORVER#.#MINORVER#",
-        "Browser": "ESPN Radio",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

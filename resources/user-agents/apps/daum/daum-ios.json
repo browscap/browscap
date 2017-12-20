@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Daum #MAJORVER#.#MINORVER# for iOS",
+      "browser": "daum",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Daum #MAJORVER#.#MINORVER#",
-        "Browser": "Daum",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Daum Kakao Corp",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

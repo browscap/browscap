@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Photon",
+      "browser": "photon",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Photon",
-        "Browser": "Photon",
-        "Browser_Maker": "photonproject.net",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Photon"
       },
       "children": [
         {

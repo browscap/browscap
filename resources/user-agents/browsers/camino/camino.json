@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Camino #MAJORVER#.#MINORVER#",
+      "browser": "camino",
       "platform": "OSX",
       "device": "Macintosh",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Camino #MAJORVER#.#MINORVER#",
-        "Browser": "Camino",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mozilla Foundation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

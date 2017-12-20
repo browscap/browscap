@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "UR Browser Generic",
+      "browser": "ur browser",
       "device": "Windows Desktop",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UR Browser Generic",
-        "Browser": "UR Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "AdaptiveBee SASU"
+        "Comment": "UR Browser Generic"
       },
       "children": [
         {

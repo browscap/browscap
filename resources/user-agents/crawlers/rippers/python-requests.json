@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "python-requests #MAJORVER#.#MINORVER#",
+      "browser": "python-requests",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "python-requests #MAJORVER#.#MINORVER#",
-        "Browser": "python-requests",
-        "Browser_Maker": "Python Software Foundation",
-        "Browser_Type": "Bot/Crawler",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

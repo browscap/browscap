@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Seznam Screenshot Generator",
+      "browser": "seznam screenshot generator",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Seznam Screenshot Generator",
-        "Browser": "Seznam Screenshot Generator",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Seznam.cz, a.s.",
-        "Crawler": "true"
+        "Comment": "Seznam Screenshot Generator"
       },
       "children": [
         {

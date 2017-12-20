@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "LibreOffice",
+      "browser": "libreoffice",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LibreOffice",
-        "Browser": "LibreOffice",
-        "Browser_Type": "Application",
-        "Browser_Maker": "The Document Foundation"
+        "Comment": "LibreOffice"
       },
       "children": [
         {

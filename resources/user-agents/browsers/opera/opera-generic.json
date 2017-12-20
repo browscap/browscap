@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Opera Generic",
+      "browser": "opera",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Generic",
-        "Browser": "Opera",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser"
+        "Comment": "Opera Generic"
       },
       "children": [
         {

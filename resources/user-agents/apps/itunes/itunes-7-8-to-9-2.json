@@ -7,18 +7,14 @@
   "userAgents": [
     {
       "userAgent": "iTunes #MAJORVER#.#MINORVER#",
+      "browser": "itunes",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes #MAJORVER#.#MINORVER#",
-        "Browser": "iTunes",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

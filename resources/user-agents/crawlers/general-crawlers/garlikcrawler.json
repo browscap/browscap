@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GarlikCrawler",
+      "browser": "garlikcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GarlikCrawler",
-        "Browser": "GarlikCrawler",
-        "Browser_Maker": "Experian Ltd",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "GarlikCrawler"
       },
       "children": [
         {

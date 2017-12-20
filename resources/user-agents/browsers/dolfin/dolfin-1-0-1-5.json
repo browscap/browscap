@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "browser": "dolfin",
       "platform": "JAVA",
       "engine": "WebKit",
       "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
-        "Browser": "Dolfin",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "MopoTab Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

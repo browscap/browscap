@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "adidxbot",
+      "browser": "adidxbot",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "adidxbot",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {

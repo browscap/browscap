@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "PagePeeker",
+      "browser": "pagepeeker",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PagePeeker",
-        "Browser": "PagePeeker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "pagepeeker SRL",
-        "Crawler": "true"
+        "Comment": "PagePeeker"
       },
       "children": [
         {

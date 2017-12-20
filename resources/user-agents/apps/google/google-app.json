@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Google App for Android",
+      "browser": "google app",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Google App for Android",
-        "Browser": "Google App"
+        "Comment": "Google App for Android"
       },
       "children": [
         {
@@ -332,15 +329,12 @@
     },
     {
       "userAgent": "Google App for iOS",
+      "browser": "google app",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Google App for iOS",
-        "Browser": "Google App"
+        "Comment": "Google App for iOS"
       },
       "children": [
         {

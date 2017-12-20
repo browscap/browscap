@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Alexabot",
+      "browser": "alexabot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Alexabot",
-        "Browser": "Alexabot",
-        "Browser_Maker": "Alexa Internet, Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Alexabot"
       },
       "children": [
         {

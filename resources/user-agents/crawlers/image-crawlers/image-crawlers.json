@@ -6,177 +6,191 @@
   "userAgents": [
     {
       "userAgent": "Image Crawlers",
+      "browser": "image crawlers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Image Crawlers",
-        "Browser": "Image Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Image Crawlers"
       },
       "children": [
         {
           "match": "*PhotoStickies/*",
+          "browser": "photostickies",
           "properties": {
             "Browser": "PhotoStickies"
           }
         },
         {
           "match": "Camcrawler*",
+          "browser": "camcrawler",
           "properties": {
             "Browser": "Camcrawler"
           }
         },
         {
           "match": "CydralSpider/3.2*",
+          "browser": "cydral web image search",
           "properties": {
-            "Browser": "Cydral Web Image Search",
             "Version": "3.2"
           }
         },
         {
           "match": "CydralSpider/*",
+          "browser": "cydral web image search",
           "properties": {
             "Browser": "Cydral Web Image Search"
           }
         },
         {
           "match": "Der gro?xdfe BilderSauger*",
+          "browser": "gallery grabber",
           "properties": {
             "Browser": "Gallery Grabber"
           }
         },
         {
           "match": "Extreme Picture Finder",
+          "browser": "extreme picture finder",
           "properties": {
             "Browser": "Extreme Picture Finder"
           }
         },
         {
           "match": "FLATARTS_FAVICO",
+          "browser": "flatarts favorites icon tool",
           "properties": {
             "Browser": "FlatArts Favorites Icon Tool"
           }
         },
         {
           "match": "HTML2JPG Blackbox, http://www.html2jpg.com",
+          "browser": "html2jpg",
           "properties": {
             "Browser": "HTML2JPG"
           }
         },
         {
           "match": "IconSurf/2.*",
+          "browser": "iconsurf",
           "properties": {
-            "Browser": "IconSurf",
             "Version": "2.0"
           }
         },
         {
           "match": "Mister PIX*",
+          "browser": "mister pix",
           "properties": {
             "Browser": "Mister PIX"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; KaloogaBot; http://www.kalooga.com/info.html?page=crawler)",
+          "browser": "kaloogabot",
           "properties": {
             "Browser": "KaloogaBot"
           }
         },
         {
           "match": "Mozilla/5.0 (Macintosh; U; *Mac OS X; *) applewebkit* (*) Pandora/2.*",
+          "browser": "pandora",
           "properties": {
             "Browser": "Pandora"
           }
         },
         {
           "match": "naoFavicon4IE*",
+          "browser": "naofavicon4ie",
           "properties": {
             "Browser": "naoFavicon4IE"
           }
         },
         {
           "match": "pixfinder/*",
+          "browser": "pixfinder",
           "properties": {
             "Browser": "pixfinder"
           }
         },
         {
           "match": "rssImagesBot/0.1 (*http://herbert.groot.jebbink.nl/?app=rssImages)",
+          "browser": "rssimagesbot",
           "properties": {
             "Browser": "rssImagesBot"
           }
         },
         {
           "match": "Web Image Collector*",
+          "browser": "web image collector",
           "properties": {
             "Browser": "Web Image Collector"
           }
         },
         {
           "match": "WebImages * (?http://herbert.groot.jebbink.nl/?app=WebImages?)",
+          "browser": "webimages",
           "properties": {
             "Browser": "WebImages"
           }
         },
         {
           "match": "WebPix*",
+          "browser": "custo",
           "properties": {
             "Browser": "Custo"
           }
         },
         {
           "match": "FOTOCHECKER",
+          "browser": "fotochecker",
           "properties": {
             "Browser": "FOTOCHECKER"
           }
         },
         {
           "match": "Elmer, the Thinglink ImageBot*",
+          "browser": "elmer",
           "properties": {
-            "Browser": "Elmer",
             "Browser_Maker": "ThingLink Oy"
           }
         },
         {
           "match": "ZnajdzFoto/Image 2.0*",
+          "browser": "znajdzfoto/imagebot",
           "properties": {
-            "Browser": "ZnajdzFoto/ImageBot",
-            "Browser_Maker": "Eksadata sp. z o.o.",
             "Version": "2.0"
           }
         },
         {
           "match": "ZnajdzFoto/Image*",
+          "browser": "znajdzfoto/imagebot",
           "properties": {
-            "Browser": "ZnajdzFoto/ImageBot",
             "Browser_Maker": "Eksadata sp. z o.o."
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Caroline/*; +http://justpicsplease.com/caroline.php)",
+          "browser": "caroline bot",
           "properties": {
-            "Browser": "Caroline Bot",
             "Browser_Maker": "JustPicsPlease"
           }
         },
         {
           "match": "Twiends Crawler*",
+          "browser": "twiends crawler",
           "properties": {
-            "Browser": "Twiends Crawler",
             "Browser_Maker": "Twiends.com"
           }
         },
         {
           "match": "myTaste image cacher*",
+          "browser": "mytaste image cacher",
           "properties": {
-            "Browser": "myTaste Image Cacher",
             "Browser_Maker": "203 Web Group"
           }
         },
         {
           "match": "Taringa UGC www.taringa.net/shared-link.php*",
+          "browser": "taringa bot",
           "properties": {
-            "Browser": "Taringa Bot",
             "Browser_Maker": "Taringa.net"
           }
         }

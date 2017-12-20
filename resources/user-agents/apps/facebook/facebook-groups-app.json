@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Facebook Groups App for iOS",
+      "browser": "facebook groups",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook Groups App for iOS",
-        "Browser": "Facebook Groups",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook Groups App for iOS"
       },
       "children": [
         {

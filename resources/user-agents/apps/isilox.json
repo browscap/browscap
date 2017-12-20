@@ -7,12 +7,11 @@
   "userAgents": [
     {
       "userAgent": "iSiloX #MAJORVER#.#MINORVER#",
+      "browser": "isilox",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iSiloX #MAJORVER#.#MINORVER#",
-        "Browser": "iSiloX",
-        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

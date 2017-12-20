@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "CareerBot",
+      "browser": "careerbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CareerBot",
-        "Browser": "CareerBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser_Maker": "career-x.de"
+        "Comment": "CareerBot"
       },
       "children": [
         {

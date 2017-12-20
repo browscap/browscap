@@ -8,14 +8,13 @@
 
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
+      "browser": "qt",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
-        "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -43,13 +42,12 @@
     },
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
+      "browser": "qt",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
-        "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -76,13 +74,12 @@
     },
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER#",
+      "browser": "qt",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
-        "Browser": "Qt",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

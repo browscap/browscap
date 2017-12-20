@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "DomainsBotBot",
+      "browser": "domainsbotbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DomainsBotBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "DomainsBotBot"
+        "Comment": "DomainsBotBot"
       },
       "children": [
         {

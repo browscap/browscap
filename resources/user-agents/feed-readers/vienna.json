@@ -7,18 +7,14 @@
   "userAgents": [
     {
       "userAgent": "Vienna #MAJORVER#.#MINORVER#",
+      "browser": "vienna",
       "engine": "WebKit",
       "platform": "OSX",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vienna #MAJORVER#.#MINORVER#",
-        "Browser": "Vienna",
-        "Browser_Maker": "Steve Palmer",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Feed Reader",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

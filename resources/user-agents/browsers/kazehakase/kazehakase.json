@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",
+      "browser": "kazehakase",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kazehakase #MAJORVER#.#MINORVER#",
-        "Browser": "Kazehakase",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

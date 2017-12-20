@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox Generic for Android",
+      "browser": "firefox",
       "platform": "Android",
       "engine": "Gecko",
       "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Generic"
       },
       "children": [
         {

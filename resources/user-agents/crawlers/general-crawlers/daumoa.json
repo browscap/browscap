@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Daumoa",
+      "browser": "daumoa",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Daumoa",
-        "Browser": "Daumoa",
-        "Browser_Maker": "Daum Communications Corp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Daumoa"
       },
       "children": [
         {

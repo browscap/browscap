@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "XML Sitemaps Generator",
+      "browser": "xml sitemaps generator",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "XML Sitemaps Generator",
-        "Browser": "XML Sitemaps Generator",
-        "Browser_Maker": "XML Sitemaps",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "XML Sitemaps Generator"
       },
       "children": [
         {

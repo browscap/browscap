@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "SpeedCurve WebPage Test",
+      "browser": "speedcurve webpage test",
       "engine": "Trident",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SpeedCurve WebPage Test",
-        "Browser": "SpeedCurve WebPage Test",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "SpeedCurve",
-        "Crawler": "true"
+        "Comment": "SpeedCurve WebPage Test"
       },
       "children": [
         {

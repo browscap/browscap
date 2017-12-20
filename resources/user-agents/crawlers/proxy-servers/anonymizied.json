@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Anonymizied",
+      "browser": "anonymizied",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Anonymizied",
-        "Browser": "Anonymizied",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
         "isAnonymized": "true"
       },
       "children": [

@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Listia App for iOS",
+      "browser": "listia app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Listia Inc.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Listia App",
-        "Browser": "Listia App"
+        "Comment": "Listia App"
       },
       "children": [
         {
@@ -59,16 +56,13 @@
     },
     {
       "userAgent": "Listia App for Android",
+      "browser": "listia app",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Listia Inc.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Listia App",
-        "Browser": "Listia App"
+        "Comment": "Listia App"
       },
       "children": [
         {

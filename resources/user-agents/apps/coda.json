@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Coda",
+      "browser": "coda",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Coda",
-        "Browser": "Coda",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Panic Software"
+        "Comment": "Coda"
       },
       "children": [
         {

@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "LucidMedia ClickSense",
+      "browser": "lucidmedia-clicksense",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LucidMedia-ClickSense",
-        "Browser": "LucidMedia-ClickSense",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "LucidMedia-ClickSense"
       },
       "children": [
         {

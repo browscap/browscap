@@ -8,15 +8,13 @@
   "userAgents": [
     {
       "userAgent": "FossaMail #MAJORVER#.#MINORVER#",
+      "browser": "fossamail",
       "device": "Windows Desktop",
       "engine": "Goanna",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FossaMail #MAJORVER#.#MINORVER#",
-        "Browser": "FossaMail",
-        "Browser_Maker": "Moonchild Productions",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Email Client"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

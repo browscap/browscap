@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser",
+      "browser": "nokia browser",
       "platform": "Series40",
       "device": "general Mobile Phone (Nokia)",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser",
-        "Browser": "Nokia Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Nokia",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

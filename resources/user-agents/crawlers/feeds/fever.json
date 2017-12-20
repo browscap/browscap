@@ -6,14 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Fever",
+      "browser": "fever",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Fever",
-        "Browser": "Fever",
-        "Browser_Maker": "Shaun Inman",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Fever"
       },
       "children": [
         {

@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "profiller",
+      "browser": "profiller",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "profiller",
-        "Browser": "profiller",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "profiller"
       },
       "children": [
         {

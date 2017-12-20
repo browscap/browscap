@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "SkypeUriPreview #MAJORVER#.#MINORVER#",
+      "browser": "skypeuripreview",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "SkypeUriPreview #MAJORVER#.#MINORVER#",
-        "Browser": "SkypeUriPreview",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

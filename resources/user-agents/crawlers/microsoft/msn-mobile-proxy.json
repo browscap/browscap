@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "MSN Mobile Proxy",
+      "browser": "msn mobile proxy",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "MSN Mobile Proxy",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "meanpathbot",
+      "browser": "meanpathbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "meanpathbot",
-        "Browser": "meanpathbot",
-        "Browser_Maker": "Meanpath",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "meanpathbot"
       },
       "children": [
         {

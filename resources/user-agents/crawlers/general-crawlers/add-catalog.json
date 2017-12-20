@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Add Catalog",
+      "browser": "add catalog",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Add Catalog",
-        "Browser": "Add Catalog",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Add Catalog"
       },
       "children": [
         {

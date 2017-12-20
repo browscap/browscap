@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "HTTP_Request2",
+      "browser": "pear http_request2",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PEAR HTTP_Request2",
-        "Browser_Maker": "the PHP Group",
-        "Browser": "PEAR HTTP_Request2",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "PEAR HTTP_Request2"
       },
       "children": [
         {

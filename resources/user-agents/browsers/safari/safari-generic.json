@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Safari Generic",
+      "browser": "safari",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari Generic"
       },
       "children": [
         {
@@ -71,15 +69,13 @@
     },
     {
       "userAgent": "Safari Generic for Darwin",
+      "browser": "safari",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari Generic"
       },
       "children": [
         {
@@ -242,14 +238,12 @@
     },
     {
       "userAgent": "Safari Generic Older",
+      "browser": "safari",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "TurnitinBot",
+      "browser": "turnitinbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TurnitinBot",
-        "Browser": "TurnitinBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Turnitin LLC",
-        "Crawler": "true"
+        "Comment": "TurnitinBot"
       },
       "children": [
         {

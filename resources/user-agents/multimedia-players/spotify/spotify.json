@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Spotify #MAJORVER#.#MINORVER#",
+      "browser": "spotify",
       "engine": "WebKit",
       "device": "Macintosh",
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Spotify #MAJORVER#.#MINORVER#",
-        "Browser": "Spotify",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Spotify AB",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

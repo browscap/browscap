@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "77 WABC",
+      "browser": "77 wabc",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "77 WABC",
-        "Browser": "77 WABC",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "77 WABC"
       },
       "children": [
         {

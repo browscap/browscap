@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Waterfox Generic",
+      "browser": "waterfox",
       "engine": "Gecko_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Waterfox Generic",
-        "Browser": "Waterfox",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "www.waterfoxproject.org"
+        "Comment": "Waterfox Generic"
       },
       "children": [
         {

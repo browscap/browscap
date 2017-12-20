@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Lunascape #MAJORVER#.#MINORVER#",
+      "browser": "lunascape",
       "device": "Windows Desktop",
       "engine": "Trident",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lunascape #MAJORVER#.#MINORVER#",
-        "Browser": "Lunascape",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Lunascape Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

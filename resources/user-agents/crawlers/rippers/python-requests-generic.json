@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "python-requests Generic",
+      "browser": "python-requests",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "python-requests Generic",
-        "Browser": "python-requests",
-        "Browser_Maker": "Python Software Foundation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "python-requests Generic"
       },
       "children": [
         {

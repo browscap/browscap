@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
+      "browser": "edge",
       "engine": "Edge_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge #MAJORVER#.#MINORVER#",
-        "Browser": "Edge",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -28,15 +26,13 @@
     },
     {
       "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
+      "browser": "edge mobile",
       "engine": "Edge_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Edge Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

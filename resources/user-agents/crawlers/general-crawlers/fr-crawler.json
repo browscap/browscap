@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "fr-crawler",
+      "browser": "fr-crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "fr-crawler",
-        "Browser": "fr-crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "fr-crawler"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Google App Engine",
+      "browser": "google app engine",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google App Engine",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google App Engine"
+        "Comment": "Google App Engine"
       },
       "children": [
         {

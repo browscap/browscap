@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Diffbot",
+      "browser": "diffbot",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Diffbot",
-        "Browser": "Diffbot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Diffbot"
       },
       "children": [
         {

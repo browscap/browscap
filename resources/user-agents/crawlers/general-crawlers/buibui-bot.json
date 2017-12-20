@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BuiBui-Bot",
+      "browser": "buibui-bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BuiBui-Bot",
-        "Browser": "BuiBui-Bot",
-        "Browser_Maker": "dadapro.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BuiBui-Bot"
       },
       "children": [
         {

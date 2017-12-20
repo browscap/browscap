@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "EB iPhone/IPad App",
+      "browser": "eb iphone/ipad app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "EB iPhone/IPad App",
-        "Browser": "EB iPhone/IPad App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "unknown",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

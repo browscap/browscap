@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Stainless #MAJORVER#.#MINORVER#",
+      "browser": "stainless",
       "platform": "OSX",
       "device": "Macintosh",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Stainless #MAJORVER#.#MINORVER#",
-        "Browser": "Stainless",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mesa Dynamics",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

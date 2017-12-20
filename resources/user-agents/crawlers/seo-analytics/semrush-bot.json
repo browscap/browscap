@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SemrushBot",
+      "browser": "semrushbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SemrushBot",
-        "Browser": "SemrushBot",
-        "Browser_Maker": "SEMrush",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SemrushBot"
       },
       "children": [
         {

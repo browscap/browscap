@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "SuperBird #MAJORVER#.#MINORVER#",
+      "browser": "superbird",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SuperBird #MAJORVER#.#MINORVER#",
-        "Browser": "SuperBird",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "superbird-browser.com",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Microsoft CryptoAPI",
+      "browser": "microsoft cryptoapi",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft CryptoAPI",
-        "Browser": "Microsoft CryptoAPI",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "true"
+        "Comment": "Microsoft CryptoAPI"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
+      "browser": "opera mobile",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

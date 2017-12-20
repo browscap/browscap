@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BabalooSpider",
+      "browser": "babaloospider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BabalooSpider",
-        "Browser": "BabalooSpider",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BabalooSpider"
       },
       "children": [
         {

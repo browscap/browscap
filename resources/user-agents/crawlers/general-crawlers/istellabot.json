@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "IstellaBot",
+      "browser": "istellabot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IstellaBot",
-        "Browser": "IstellaBot",
-        "Browser_Maker": "Tiscali Italia S.p.a",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "IstellaBot"
       },
       "children": [
         {

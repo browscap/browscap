@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AdsBot Google",
+      "browser": "adsbot google",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AdsBot Google",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "AdsBot Google"
+        "Comment": "AdsBot Google"
       },
       "children": [
         {

@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Xerka WebBot",
+      "browser": "xerka",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Xerka",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Xerka"
+        "Comment": "Xerka"
       },
       "children": [
         {

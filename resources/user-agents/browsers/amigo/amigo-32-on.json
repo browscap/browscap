@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Amigo #MAJORVER#.#MINORVER#",
+      "browser": "amigo",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Amigo #MAJORVER#.#MINORVER#",
-        "Browser": "Amigo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mail.Ru Group",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

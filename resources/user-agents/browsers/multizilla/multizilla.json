@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "MultiZilla #MAJORVER#.#MINORVER#",
+      "browser": "multizilla",
       "engine": "Gecko_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MultiZilla #MAJORVER#.#MINORVER#",
-        "Browser": "MultiZilla",
-        "Browser_Maker": "HJ van Rantwijk",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

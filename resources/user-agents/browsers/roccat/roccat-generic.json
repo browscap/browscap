@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Roccat Generic",
+      "browser": "roccat",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Roccat",
-        "Browser": "Roccat",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "RuneCats"
+        "Comment": "Roccat"
       },
       "children": [
         {

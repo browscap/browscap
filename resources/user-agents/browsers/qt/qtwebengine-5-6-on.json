@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "QtWebEngine #MAJORVER#.#MINORVER#",
+      "browser": "qtwebengine",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QtWebEngine #MAJORVER#.#MINORVER#",
-        "Browser": "QtWebEngine",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

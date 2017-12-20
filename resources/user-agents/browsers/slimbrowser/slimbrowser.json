@@ -6,13 +6,12 @@
   "userAgents": [
     {
       "userAgent": "SlimBrowser",
+      "browser": "slimbrowser",
       "device": "Windows Desktop",
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SlimBrowser",
-        "Browser": "SlimBrowser",
-        "Browser_Type": "Browser"
+        "Comment": "SlimBrowser"
       },
       "children": [
         {

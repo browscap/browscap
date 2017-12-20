@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Alienforce Browser",
+      "browser": "alienforce",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Alienforce Browser",
-        "Browser": "Alienforce",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "kbclub",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

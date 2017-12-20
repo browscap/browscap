@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avant 2015",
+      "browser": "avant",
       "device": "Windows Desktop",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant 2015",
-        "Browser": "Avant",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force"
+        "Comment": "Avant 2015"
       },
       "children": [
         {

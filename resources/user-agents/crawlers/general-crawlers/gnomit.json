@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Gnomit",
+      "browser": "gnomit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Gnomit",
-        "Browser": "Gnomit",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Gnomit"
       },
       "children": [
         {

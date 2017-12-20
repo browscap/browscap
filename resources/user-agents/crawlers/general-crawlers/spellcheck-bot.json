@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SpellCheck Bot",
+      "browser": "spellcheck bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SpellCheck Bot",
-        "Browser": "SpellCheck Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SpellCheck Bot"
       },
       "children": [
         {

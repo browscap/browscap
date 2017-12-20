@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Cliqzbot",
+      "browser": "cliqzbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Cliqzbot",
-        "Browser": "Cliqzbot",
-        "Browser_Maker": "10betterpages GmbH",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Cliqzbot"
       },
       "children": [
         {

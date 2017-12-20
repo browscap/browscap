@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Spiderlytics",
+      "browser": "spiderlytics",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Spiderlytics",
-        "Browser": "Spiderlytics",
-        "Browser_Maker": "spiderlytics.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Spiderlytics"
       },
       "children": [
         {

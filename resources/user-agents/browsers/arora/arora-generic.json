@@ -6,13 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Arora Generic",
+      "browser": "arora",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
-        "Comment": "Arora Generic",
-        "Browser": "Arora"
+        "Comment": "Arora Generic"
       },
       "children": [
         {

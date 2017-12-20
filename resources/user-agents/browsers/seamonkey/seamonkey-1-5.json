@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
+      "browser": "seamonkey",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
-        "Browser": "SeaMonkey",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "true"
       },

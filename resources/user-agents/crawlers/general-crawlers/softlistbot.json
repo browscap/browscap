@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SoftListBot",
+      "browser": "softlistbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SoftListBot",
-        "Browser": "SoftListBot",
-        "Browser_Maker": "softlist.us",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SoftListBot"
       },
       "children": [
         {

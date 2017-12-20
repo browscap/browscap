@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Ilse",
+      "browser": "ilse",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ilse",
-        "Browser": "Ilse",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Ilse"
       },
       "children": [
         {

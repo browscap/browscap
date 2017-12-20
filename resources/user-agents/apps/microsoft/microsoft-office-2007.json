@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Office 2007",
+      "browser": "office",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Office 2007",
-        "Browser_Type": "Application",
-        "Browser": "Office",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "2007",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

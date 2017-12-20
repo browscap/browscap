@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "LinkedInBot",
+      "browser": "linkedinbot",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LinkedInBot",
-        "Browser": "LinkedInBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "LinkedIn Corporation",
-        "Crawler": "true"
+        "Comment": "LinkedInBot"
       },
       "children": [
         {

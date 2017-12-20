@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "lftp",
+      "browser": "lftp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "lftp",
-        "Browser": "lftp",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "lftp"
       },
       "children": [
         {

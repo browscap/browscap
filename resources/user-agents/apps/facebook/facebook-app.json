@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Facebook App for iOS",
+      "browser": "facebook app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook App for iOS",
-        "Browser": "Facebook App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook App for iOS"
       },
       "children": [
         {
@@ -91,15 +89,13 @@
     },
     {
       "userAgent": "Facebook App for Android",
+      "browser": "facebook app",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook App for Android",
-        "Browser": "Facebook App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook App for Android"
       },
       "children": [
         {
@@ -909,14 +905,12 @@
     },
     {
       "userAgent": "Facebook App",
+      "browser": "facebook app",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook App",
-        "Browser": "Facebook App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook App"
       },
       "children": [
         {

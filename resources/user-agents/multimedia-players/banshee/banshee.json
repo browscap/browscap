@@ -7,12 +7,10 @@
   "userAgents": [
     {
       "userAgent": "Banshee #MAJORVER#.#MINORVER#",
+      "browser": "banshee media player",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Banshee #MAJORVER#.#MINORVER#",
-        "Browser": "Banshee Media Player",
-        "Browser_Maker": "Novell",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

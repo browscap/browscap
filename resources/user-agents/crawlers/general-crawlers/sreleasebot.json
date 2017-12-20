@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "sReleaseBot",
+      "browser": "sreleasebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "sReleaseBot",
-        "Browser": "sReleaseBot",
-        "Browser_Maker": "srelease.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "sReleaseBot"
       },
       "children": [
         {

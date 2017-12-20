@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Peeplo Screenshot Bot",
+      "browser": "peeplo screenshot bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Peeplo Screenshot Bot",
-        "Browser": "Peeplo Screenshot Bot",
-        "Browser_Maker": "peeplo.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Peeplo Screenshot Bot"
       },
       "children": [
         {

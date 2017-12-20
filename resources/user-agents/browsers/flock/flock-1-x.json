@@ -7,13 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",
+      "browser": "flock",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Flock #MAJORVER#.#MINORVER#",
-        "Browser": "Flock",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

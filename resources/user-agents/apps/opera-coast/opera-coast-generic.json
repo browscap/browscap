@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Coast",
+      "browser": "coast",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Coast",
-        "Browser": "Coast",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Opera Software ASA"
+        "Comment": "Coast"
       },
       "children": [
         {

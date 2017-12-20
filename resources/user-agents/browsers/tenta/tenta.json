@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Tenta Browser for Android",
+      "browser": "tenta browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tenta Browser",
-        "Browser": "Tenta Browser",
-        "Browser_Maker": "Tenta LLC",
-        "Browser_Type": "Browser"
+        "Comment": "Tenta Browser"
       },
       "children": [
         {

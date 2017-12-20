@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "NameProtect",
+      "browser": "nameprotect",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NameProtect",
-        "Browser": "NameProtect",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "NameProtect"
       },
       "children": [
         {

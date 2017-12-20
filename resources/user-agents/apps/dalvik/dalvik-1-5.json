@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
-        "Browser": "Dalvik",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Google Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

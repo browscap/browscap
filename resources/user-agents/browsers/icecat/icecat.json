@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "IceCat #MAJORVER#.#MINORVER#",
+      "browser": "icecat",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceCat #MAJORVER#.#MINORVER#",
-        "Browser": "IceCat",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

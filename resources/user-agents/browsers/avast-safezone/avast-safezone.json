@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Avast SafeZone #MAJORVER#.#MINORVER#",
+      "browser": "avast safezone",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avast SafeZone #MAJORVER#.#MINORVER#",
-        "Browser": "Avast SafeZone",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "AVAST Software s.r.o.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

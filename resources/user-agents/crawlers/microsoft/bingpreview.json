@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "BingPreview #MAJORVER#.#MINORVER#",
+      "browser": "bingpreview",
       "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "Trident_6",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview #MAJORVER#.#MINORVER#",
-        "Browser": "BingPreview",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -64,15 +61,12 @@
     },
     {
       "userAgent": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
+      "browser": "bingpreview",
       "engine": "Trident",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
-        "Browser": "BingPreview",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -95,15 +89,12 @@
     },
     {
       "userAgent": "BingPreview for iOS #MAJORVER#.#MINORVER#",
+      "browser": "bingpreview",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for iOS #MAJORVER#.#MINORVER#",
-        "Browser": "BingPreview",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

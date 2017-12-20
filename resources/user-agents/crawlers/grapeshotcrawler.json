@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GrapeshotCrawler",
+      "browser": "grapeshotcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GrapeshotCrawler",
-        "Browser": "GrapeshotCrawler",
-        "Browser_Maker": "Grapeshot Limited",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "GrapeshotCrawler"
       },
       "children": [
         {
@@ -26,13 +23,14 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk",
+          "browser": "grapefx",
           "properties": {
-            "Browser": "grapeFX",
             "Version": "0.9"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; grapeFX/*; crawler@grapeshot.co.uk",
+          "browser": "grapefx",
           "properties": {
             "Browser": "grapeFX"
           }

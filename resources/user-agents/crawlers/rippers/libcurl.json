@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "libcurl",
+      "browser": "libcurl",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "libcurl",
-        "Browser": "libcurl",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "libcurl"
       },
       "children": [
         {

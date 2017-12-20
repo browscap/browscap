@@ -6,32 +6,31 @@
   "userAgents": [
     {
       "userAgent": "Google",
+      "browser": "google",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser": "Google",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Google"
       },
       "children": [
         {
-          "match": "GoogleFriendConnect*"
+          "match": "GoogleFriendConnect*",
+          "browser": "google friend connect"
         },
         {
           "match": "Kml-Google; (+http://code.google.com/apis/kml)*"
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Youtube-Links)",
+          "browser": "youtube links bot",
           "properties": {
             "Browser": "YouTube Links Bot"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar 7.5#PLATFORM#",
+          "browser": "google toolbar",
           "device": "Windows Desktop",
           "properties": {
-            "Browser": "Google Toolbar",
             "Version": "7.5"
           },
           "platforms": [
@@ -40,14 +39,15 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar 7.5*",
+          "browser": "google toolbar",
           "device": "Windows Desktop",
           "properties": {
-            "Browser": "Google Toolbar",
             "Version": "7.5"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar#PLATFORM#",
+          "browser": "google toolbar",
           "device": "Windows Desktop",
           "properties": {
             "Browser": "Google Toolbar"
@@ -58,6 +58,7 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar*",
+          "browser": "google toolbar",
           "properties": {
             "Browser": "Google Toolbar"
           }
@@ -67,104 +68,121 @@
         },
         {
           "match": "google (*Enterprise*)",
+          "browser": "google enterprise",
           "properties": {
             "Browser": "Google Enterprise"
           }
         },
         {
           "match": "Google OpenSocial agent*",
+          "browser": "google opensocial",
           "properties": {
             "Browser": "Google OpenSocial"
           }
         },
         {
           "match": "*Google Wireless Transcoder*",
+          "browser": "google wireless transcoder",
           "properties": {
             "Browser": "Google Wireless Transcoder"
           }
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko; Google Wireless Transcoder) Chrome/* Safari/*",
+          "browser": "google wireless transcoder",
           "properties": {
             "Browser": "Google Wireless Transcoder"
           }
         },
         {
           "match": "Google-Site-Verification*",
+          "browser": "google-site-verification",
           "properties": {
             "Browser": "Google-Site-Verification"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Site-Verification/1.0*",
+          "browser": "google-site-verification",
           "properties": {
-            "Browser": "Google-Site-Verification",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Site-Verification/*",
+          "browser": "google-site-verification",
           "properties": {
             "Browser": "Google-Site-Verification"
           }
         },
         {
           "match": "Google-Sitemaps*",
+          "browser": "google-sitemaps",
+          "browser": "google-sitemaps",
           "properties": {
             "Browser": "Google-Sitemaps"
           }
         },
         {
           "match": "Feedfetcher-Google-iGoogleGadgets*",
+          "browser": "igooglegadgets",
           "properties": {
-            "Browser": "iGoogleGadgets",
             "isSyndicationReader": "true"
           }
         },
         {
           "match": "Google-Sitemaps*",
+          "browser": "google-sitemaps",
+          "browser": "google-sitemaps",
           "properties": {
             "Browser": "Google-Sitemaps"
           }
         },
         {
           "match": "GoogleFriendConnect*",
+          "browser": "google friend connect",
           "properties": {
             "Browser": "Google Friend Connect"
           }
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit*(*khtml*like*gecko; Google-Adwords-DisplayAds-WebRender;)*",
+          "browser": "google adwords displayads webrender",
           "properties": {
             "Browser": "Google Adwords DisplayAds WebRender"
           }
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko* Google Search Console) Chrome/* Safari/*",
+          "browser": "google search console",
           "properties": {
             "Browser": "Google Search Console"
           }
         },
         {
           "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; Google Search Console)",
+          "browser": "google search console",
           "properties": {
             "Browser": "Google Search Console"
           }
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-HotelAdsVerifier/*)",
+          "browser": "google hotel ads verifier",
           "properties": {
             "Browser": "Google Hotel Ads Verifier"
           }
         },
         {
           "match": "Mozilla/5.0 (Windows; U; Windows NT *; rv:*; Google-SearchByImage) Gecko/* Firefox/*",
+          "browser": "google searchbyimage",
           "properties": {
             "Browser": "Google SearchByImage"
           }
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* Chrome-Lighthouse",
+          "browser": "google lighthouse",
           "properties": {
             "Browser": "Google Lighthouse"
           }

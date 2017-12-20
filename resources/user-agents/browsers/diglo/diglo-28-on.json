@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Diglo #MAJORVER#.#MINORVER#",
+      "browser": "diglo",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Diglo #MAJORVER#.#MINORVER#",
-        "Browser": "Diglo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Diglo Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

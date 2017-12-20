@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "QuickTime #MAJORVER#.#MINORVER#",
+      "browser": "quicktime",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QuickTime #MAJORVER#.#MINORVER#",
-        "Browser": "QuickTime",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Apple Inc"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

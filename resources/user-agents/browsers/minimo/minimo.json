@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Minimo #MAJORVER#.#MINORVER#",
+      "browser": "minimo",
       "engine": "Gecko",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Minimo #MAJORVER#.#MINORVER#",
-        "Browser": "Minimo",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

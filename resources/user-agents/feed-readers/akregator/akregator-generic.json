@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "akregator Generic",
+      "browser": "akregator",
       "engine": "KHTML_Dynamic",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "akregator Generic",
-        "Browser": "akregator",
-        "Browser_Maker": "KDE e.V.",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Feed Reader",
-        "Crawler": "false"
+        "Comment": "akregator Generic"
       },
       "children": [
         {

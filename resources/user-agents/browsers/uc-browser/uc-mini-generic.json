@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "UC Browser Mini Generic",
+      "browser": "uc browser mini",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "engine": "U2",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser Mini Generic",
-        "Browser": "UC Browser Mini",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc."
+        "Comment": "UC Browser Mini Generic"
       },
       "children": [
         {

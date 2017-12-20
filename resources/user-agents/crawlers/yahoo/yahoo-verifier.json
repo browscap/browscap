@@ -6,19 +6,16 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Verifier",
+      "browser": "yahoo! verifier",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo! Verifier",
-        "Browser": "Yahoo! Verifier",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo! Verifier"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Verifier/*)",
+          "browser": "yahoo! verifier",
           "properties": {
-            "Browser": "Yahoo! Verifier",
             "Version": "1.1"
           }
         }

@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
+      "browser": "crazy browser",
       "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Crazy Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Crazy Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "CrazyBrowser.com"
+        "Beta": "false"
       },
       "children": [
         {

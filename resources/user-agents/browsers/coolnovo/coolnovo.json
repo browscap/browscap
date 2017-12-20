@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "CoolNovo #MAJORVER#.#MINORVER#",
+      "browser": "coolnovo",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CoolNovo #MAJORVER#.#MINORVER#",
-        "Browser": "CoolNovo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Maple Studio",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

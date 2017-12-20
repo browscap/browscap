@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Girafabot",
+      "browser": "girafabot",
       "device": "Windows Desktop",
       "engine": "Trident_4",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Girafabot",
-        "Browser": "Girafabot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Girafabot"
       },
       "children": [
         {

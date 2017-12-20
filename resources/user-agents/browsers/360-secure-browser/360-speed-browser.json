@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "360 Speed Browser",
+      "browser": "360 speed browser",
       "engine": "Trident_7",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "360 Speed Browser",
-        "Browser": "360 Speed Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Qihoo 360 Technology Co. Ltd."
+        "Comment": "360 Speed Browser"
       },
       "children": [
         {

@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Mail.Ru Bot",
+      "browser": "mail.ru bot",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mail.Ru Bot",
-        "Browser": "Mail.Ru Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Mail.Ru Group",
-        "Crawler": "true"
+        "Comment": "Mail.Ru Bot"
       },
       "children": [
         {

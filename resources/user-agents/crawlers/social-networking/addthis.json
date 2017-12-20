@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AddThis.com robot",
+      "browser": "addthis.com robot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AddThis.com robot",
-        "Browser": "AddThis.com robot",
-        "Browser_Maker": "AddThis.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "AddThis.com robot"
       },
       "children": [
         {

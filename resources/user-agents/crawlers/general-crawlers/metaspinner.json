@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Metaspinner",
+      "browser": "metaspinner",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Metaspinner",
-        "Browser": "Metaspinner",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Metaspinner"
       },
       "children": [
         {

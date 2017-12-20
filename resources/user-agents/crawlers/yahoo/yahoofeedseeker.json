@@ -6,14 +6,10 @@
   "userAgents": [
     {
       "userAgent": "YahooFeedSeeker",
+      "browser": "yahoofeedseeker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true",
-        "isSyndicationReader": "true"
+        "Comment": "YahooFeedSeeker"
       },
       "children": [
         {

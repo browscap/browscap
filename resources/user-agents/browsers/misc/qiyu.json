@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Qiyu Browser",
+      "browser": "qiyu browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Qiyu Browser",
-        "Browser": "Qiyu Browser",
-        "Browser_Maker": "RuanMei.com",
-        "Browser_Type": "Browser"
+        "Comment": "Qiyu Browser"
       },
       "children": [
         {

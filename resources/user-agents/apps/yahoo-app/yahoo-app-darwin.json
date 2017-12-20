@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Yahoo! App #MAJORVER#.#MINORVER#",
+      "browser": "yahoo! app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo! App #MAJORVER#.#MINORVER#",
-        "Browser": "Yahoo! App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Yahoo! Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AntiSpamBot",
+      "browser": "antispambot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AntiSpamBot",
-        "Browser": "AntiSpamBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Interdose Ltd. & Co KG",
-        "Crawler": "true"
+        "Comment": "AntiSpamBot"
       },
       "children": [
         {

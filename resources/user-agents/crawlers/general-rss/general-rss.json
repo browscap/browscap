@@ -6,92 +6,95 @@
   "userAgents": [
     {
       "userAgent": "General RSS",
+      "browser": "general rss",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General RSS",
-        "Browser": "General RSS",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "General RSS"
       },
       "children": [
         {
           "match": "BlijbolReallySimpleAggregator/2.0*",
+          "browser": "blijbolreallysimpleaggregator",
           "properties": {
             "Browser": "BlijbolReallySimpleAggregator"
           }
         },
         {
           "match": "CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper",
+          "browser": "cc metadata scaper",
           "properties": {
             "Browser": "CC Metadata Scaper"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible) GM RSS Panel",
+          "browser": "rss panel",
           "properties": {
             "Browser": "RSS Panel"
           }
         },
         {
           "match": "Mozilla/5.0 http://www.inclue.com; graeme@inclue.com",
+          "browser": "inclue",
           "properties": {
             "Browser": "Inclue"
           }
         },
         {
           "match": "Runnk online rss reader : http://www.runnk.com/ : RSS favorites : RSS ranking : RSS aggregator*",
+          "browser": "ruunk",
           "properties": {
             "Browser": "Ruunk"
           }
         },
         {
           "match": "UniversalFeedParser/4.1*",
+          "browser": "universalfeedparser",
           "properties": {
-            "Browser": "UniversalFeedParser",
             "Version": "4.1"
           }
         },
         {
           "match": "UniversalFeedParser/4.*",
+          "browser": "universalfeedparser",
           "properties": {
-            "Browser": "UniversalFeedParser",
             "Version": "4.0"
           }
         },
         {
           "match": "UniversalFeedParser/5.1*",
+          "browser": "universalfeedparser",
           "properties": {
-            "Browser": "UniversalFeedParser",
             "Version": "5.1"
           }
         },
         {
           "match": "UniversalFeedParser/5.*",
+          "browser": "universalfeedparser",
           "properties": {
-            "Browser": "UniversalFeedParser",
             "Version": "5.0"
           }
         },
         {
           "match": "RSSOwl/*",
+          "browser": "rssowl",
           "properties": {
             "Browser": "RSSOwl"
           }
         },
         {
           "match": "HiddenMarket-*",
+          "browser": "hiddenmarket",
           "properties": {
             "Browser": "HiddenMarket"
           }
         },
         {
           "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
+          "browser": "digg feed fetcher",
           "engine": "WebKit",
           "device": "Macintosh",
           "properties": {
-            "Browser": "Digg Feed Fetcher",
-            "Browser_Maker": "News.me Inc",
             "Version": "1.0"
           },
           "platforms": [

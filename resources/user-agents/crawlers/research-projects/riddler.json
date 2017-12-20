@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Riddler",
+      "browser": "riddler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Riddler",
-        "Browser": "Riddler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "riddler.io",
-        "Crawler": "true"
+        "Comment": "Riddler"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Chrome Generic for Android",
+      "browser": "chrome",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",
-        "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "JavaApplets": "false"
       },
       "children": [

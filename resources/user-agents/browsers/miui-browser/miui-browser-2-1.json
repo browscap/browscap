@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",
+      "browser": "miui browser",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Miui Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Miui Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Xiaomi Tech",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

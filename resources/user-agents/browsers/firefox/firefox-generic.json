@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Firefox Generic",
+      "browser": "firefox",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Generic"
       },
       "children": [
         {
@@ -187,15 +185,13 @@
     },
     {
       "userAgent": "Firefox Generic for Maemo",
+      "browser": "firefox",
       "engine": "Gecko",
       "device": "general Mobile Phone",
       "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Generic"
       },
       "children": [
         {

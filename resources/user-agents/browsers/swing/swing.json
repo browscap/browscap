@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Swing Browser #MAJORVER#.#MINORVER#",
+      "browser": "swing",
       "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Swing Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Swing",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Zoom Internet Co., Ltd",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

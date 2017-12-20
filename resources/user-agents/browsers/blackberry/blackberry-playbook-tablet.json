@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Blackberry Playbook Tablet",
+      "browser": "blackberry playbook tablet",
       "platform": "RIM_Tablet_OS_1",
       "engine": "WebKit",
       "device": "Blackberry PlayBook",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry Playbook Tablet",
-        "Browser_Maker": "Research In Motion Limited",
-        "Browser_Type": "Browser",
-        "Browser": "Blackberry Playbook Tablet"
+        "Comment": "BlackBerry Playbook Tablet"
       },
       "children": [
         {

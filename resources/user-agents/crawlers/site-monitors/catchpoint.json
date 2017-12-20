@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Catchpoint Monitoring Service",
+      "browser": "catchpoint monitoring service",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Catchpoint Monitoring Service",
-        "Browser": "Catchpoint Monitoring Service",
-        "Browser_Maker": "Catchpoint Systems, Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Catchpoint Monitoring Service"
       },
       "children": [
         {

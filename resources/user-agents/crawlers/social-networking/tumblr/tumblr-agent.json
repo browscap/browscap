@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Tumblr Agent #MAJORVER#.#MINORVER#",
+      "browser": "tumblr agent",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Tumblr Agent #MAJORVER#.#MINORVER#",
-        "Browser": "Tumblr Agent",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Tumblr, Inc.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

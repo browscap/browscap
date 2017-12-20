@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "FlipboardProxy",
+      "browser": "flipboardproxy",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FlipboardProxy",
-        "Browser": "FlipboardProxy",
-        "Browser_Maker": "Flipboard, Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "FlipboardProxy"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Exalead CloudView",
+      "browser": "exalead cloudview",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Exalead CloudView",
-        "Browser": "Exalead CloudView",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Dassault Systemes",
-        "Crawler": "true"
+        "Comment": "Exalead CloudView"
       },
       "children": [
         {

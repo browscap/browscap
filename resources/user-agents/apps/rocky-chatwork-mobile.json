@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
+      "browser": "rocky chatwork mobile",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Rocky ChatWork Mobile",
-        "Browser_Type": "Application",
-        "Browser_Maker": "ChatWork",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

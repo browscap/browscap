@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Slurp",
+      "browser": "yahoo! slurp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo! Slurp",
-        "Browser": "Yahoo! Slurp",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo! Slurp"
       },
       "children": [
         {
@@ -26,18 +23,21 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*)",
+          "browser": "yahoo! slurp china",
           "properties": {
             "Browser": "Yahoo! Slurp China"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! DE Slurp; http://help.yahoo.com/help/us/ysearch/slurp)",
+          "browser": "yahoo! directory engine",
           "properties": {
             "Browser": "Yahoo! Directory Engine"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*;*http://misc.yahoo.com.cn/help.html)",
+          "browser": "yahoo! slurp china",
           "properties": {
             "Browser": "Yahoo! Slurp China"
           }
@@ -47,12 +47,14 @@
         },
         {
           "match": "Yahoo! Slurp/Site Explorer",
+          "browser": "yahoo! site explorer",
           "properties": {
             "Browser": "Yahoo! Site Explorer"
           }
         },
         {
           "match": "Yahoo! Slurp China",
+          "browser": "yahoo! slurp china",
           "properties": {
             "Browser": "Yahoo! Slurp China"
           }

@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "TopPodcasts Generic",
+      "browser": "toppodcasts",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TopPodcasts Generic",
-        "Browser": "TopPodcasts",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "TopPodcasts Generic"
       },
       "children": [
         {

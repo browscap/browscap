@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Prismatic App",
+      "browser": "prismatic app",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Prismatic App",
-        "Browser": "Prismatic App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Prismatic",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

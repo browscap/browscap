@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Comodo Dragon Generic",
+      "browser": "dragon",
       "platform": "Linux",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Comodo Dragon Generic",
-        "Browser": "Dragon",
-        "Browser_Maker": "Comodo Group Inc",
-        "Browser_Type": "Browser"
+        "Comment": "Comodo Dragon Generic"
       },
       "children": [
         {

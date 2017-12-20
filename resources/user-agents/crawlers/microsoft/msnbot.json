@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "msnbot",
+      "browser": "msnbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "msnbot",
-        "Browser": "msnbot",
-        "Crawler": "true"
+        "Comment": "msnbot"
       },
       "children": [
         {

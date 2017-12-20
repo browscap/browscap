@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Comodo Spider",
+      "browser": "comodo spider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Comodo Spider",
-        "Browser": "Comodo Spider",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Comodo Group Inc",
-        "Crawler": "true"
+        "Comment": "Comodo Spider"
       },
       "children": [
         {

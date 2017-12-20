@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Roku DVP",
+      "browser": "roku dvp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Roku DVP",
-        "Browser": "Roku DVP",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Roku, Inc."
+        "Comment": "Roku DVP"
       },
       "children": [
         {

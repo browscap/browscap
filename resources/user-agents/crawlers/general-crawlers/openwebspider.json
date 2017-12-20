@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "OpenWebSpider",
+      "browser": "openwebspider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OpenWebSpider",
-        "Browser": "OpenWebSpider",
-        "Browser_Maker": "Stefano Alimonti",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "OpenWebSpider"
       },
       "children": [
         {

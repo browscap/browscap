@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AboutUs Bot",
+      "browser": "aboutus bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AboutUs Bot",
-        "Browser": "AboutUs Bot",
-        "Browser_Maker": "aboutus.org",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "AboutUs Bot"
       },
       "children": [
         {
@@ -20,13 +17,14 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0*",
+          "browser": "aboutus bot johnny5",
           "properties": {
-            "Browser": "AboutUs Bot Johnny5",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/*",
+          "browser": "aboutus bot johnny5",
           "properties": {
             "Browser": "AboutUs Bot Johnny5"
           }

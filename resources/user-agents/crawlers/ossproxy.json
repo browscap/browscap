@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "OSSProxy",
+      "browser": "ossproxy",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OSSProxy",
-        "Browser": "OSSProxy",
-        "Browser_Maker": "Marketscore",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "OSSProxy"
       },
       "children": [
         {

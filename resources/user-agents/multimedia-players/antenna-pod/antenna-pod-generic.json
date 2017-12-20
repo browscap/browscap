@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "AntennaPod Generic",
+      "browser": "antennapod",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AntennaPod Generic",
-        "Browser": "AntennaPod",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "AntennaPod Generic"
       },
       "children": [
         {

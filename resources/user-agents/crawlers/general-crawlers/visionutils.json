@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "visionutils",
+      "browser": "visionutils",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "visionutils",
-        "Browser": "visionutils",
-        "Browser_Maker": "Bob Mottram",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "visionutils"
       },
       "children": [
         {

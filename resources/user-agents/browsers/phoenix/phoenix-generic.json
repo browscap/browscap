@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Phoenix Generic",
+      "browser": "phoenix",
       "engine": "Gecko_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Phoenix Generic",
-        "Browser": "Phoenix",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Phoenix Generic"
       },
       "children": [
         {

@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "FossaMail Generic",
+      "browser": "fossamail",
       "device": "Windows Desktop",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FossaMail Generic",
-        "Browser": "FossaMail",
-        "Browser_Maker": "Moonchild Productions",
-        "Browser_Type": "Email Client"
+        "Comment": "FossaMail Generic"
       },
       "children": [
         {

@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "MacAppStore",
+      "browser": "macappstore",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MacAppStore",
-        "Browser": "MacAppStore",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -7,13 +7,12 @@
   "userAgents": [
     {
       "userAgent": "iBrowser #MAJORVER#.#MINORVER#",
+      "browser": "ibrowser",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "iBrowser",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

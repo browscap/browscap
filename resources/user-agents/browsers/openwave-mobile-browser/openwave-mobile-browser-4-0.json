@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+      "browser": "openwave mobile browser",
       "device": "general Mobile Phone",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Openwave Mobile Browser",
-        "Browser_Maker": "Myriad Group",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

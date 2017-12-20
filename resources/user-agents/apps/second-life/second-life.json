@@ -6,23 +6,20 @@
   "userAgents": [
     {
       "userAgent": "SecondLife",
+      "browser": "secondlife",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SecondLife",
-        "Browser": "SecondLife",
-        "Browser_Maker": "Linden Labs",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "SecondLife"
       },
       "children": [
         {
           "match": "Mozilla/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client v1.0*",
+          "browser": "second life commerce client",
           "engine": "Trident_4",
           "properties": {
-            "Browser": "Second Life Commerce Client",
             "Version": "1.0"
           },
           "platforms": [
@@ -31,6 +28,7 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client*",
+          "browser": "second life commerce client",
           "engine": "Trident_4",
           "properties": {
             "Browser": "Second Life Commerce Client"

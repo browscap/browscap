@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "GomezAgent #MAJORVER#.#MINORVER#",
+      "browser": "gomez site monitor",
       "platforms": "Windows",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Gomez Site Monitor #MAJORVER#.#MINORVER#",
-        "Browser": "Gomez Site Monitor",
-        "Browser_Maker": "Compuware Corporation",
-        "Browser_Type": "Bot/Crawler",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

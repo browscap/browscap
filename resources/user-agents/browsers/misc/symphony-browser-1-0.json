@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Symphony Browser #MAJORVER#.#MINORVER#",
+      "browser": "symphony browser",
       "platform": "Maemo",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Symphony Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Symphony Browser",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

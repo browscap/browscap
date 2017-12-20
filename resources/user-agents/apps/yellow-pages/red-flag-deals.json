@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "RedFlagDeals Mobile App",
+      "browser": "redflagdeals mobile app",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RedFlagDeals Mobile App",
-        "Browser": "RedFlagDeals Mobile App",
-        "Browser_Maker": "Yellow Pages Digital & Media Solutions Limited",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

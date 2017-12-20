@@ -6,155 +6,176 @@
   "userAgents": [
     {
       "userAgent": "E-Mail Harvesters",
+      "browser": "e-mail harvesters",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "E-Mail Harvesters",
-        "Browser": "E-Mail Harvesters",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "E-Mail Harvesters"
       },
       "children": [
         {
           "match": "*E-Mail Address Extractor*",
+          "browser": "e-mail address extractor",
           "properties": {
             "Browser": "E-Mail Address Extractor"
           }
         },
         {
           "match": "*www4mail/*",
+          "browser": "www4mail",
           "properties": {
             "Browser": "www4mail"
           }
         },
         {
           "match": "8484 Boston Project*",
+          "browser": "8484 boston project",
           "properties": {
             "Browser": "8484 Boston Project"
           }
         },
         {
           "match": "Atomic_Email",
+          "browser": "atomic_email",
           "properties": {
             "Browser": "Atomic_Email"
           }
         },
         {
           "match": "Atomic_Email_Hunter/*",
+          "browser": "atomic email hunter",
           "properties": {
             "Browser": "Atomic Email Hunter"
           }
         },
         {
           "match": "CherryPicker*/*",
+          "browser": "cherrypickerelite",
           "properties": {
             "Browser": "CherryPickerElite"
           }
         },
         {
           "match": "Chilkat/*",
+          "browser": "chilkat",
           "properties": {
             "Browser": "Chilkat"
           }
         },
         {
           "match": "ContactBot/*",
+          "browser": "contactbot",
           "properties": {
             "Browser": "ContactBot"
           }
         },
         {
           "match": "eCatch*",
+          "browser": "ecatch",
           "properties": {
             "Browser": "eCatch"
           }
         },
         {
           "match": "EmailCollector*",
+          "browser": "e-mail collector",
           "properties": {
             "Browser": "E-Mail Collector"
           }
         },
         {
           "match": "EMAILsearcher",
+          "browser": "emailsearcher",
           "properties": {
             "Browser": "EMAILsearcher"
           }
         },
         {
           "match": "EmailSiphon*",
+          "browser": "e-mail siphon",
           "properties": {
             "Browser": "E-Mail Siphon"
           }
         },
         {
           "match": "EmailWolf*",
+          "browser": "emailwolf",
           "properties": {
             "Browser": "EMailWolf"
           }
         },
         {
           "match": "Epsilon SoftWorks? MailMunky",
+          "browser": "mailmunky",
           "properties": {
-            "Browser": "MailMunky",
             "Browser_Maker": "Epsilon SoftWorks"
           }
         },
         {
           "match": "ExtractorPro*",
+          "browser": "extractorpro",
           "properties": {
             "Browser": "ExtractorPro"
           }
         },
         {
           "match": "Franklin Locator*",
+          "browser": "franklin locator",
           "properties": {
             "Browser": "Franklin Locator"
           }
         },
         {
           "match": "Missigua Locator*",
+          "browser": "missigua locator",
           "properties": {
             "Browser": "Missigua Locator"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; Advanced Email Extractor*)",
+          "browser": "advanced email extractor",
           "properties": {
             "Browser": "Advanced Email Extractor"
           }
         },
         {
           "match": "Netprospector*",
+          "browser": "netprospector",
           "properties": {
             "Browser": "Netprospector"
           }
         },
         {
           "match": "ProWebWalker*",
+          "browser": "prowebwalker",
           "properties": {
             "Browser": "ProWebWalker"
           }
         },
         {
           "match": "sna-0.0.*",
+          "browser": "mike elliotts e-mail harvester",
           "properties": {
             "Browser": "Mike Elliotts E-Mail Harvester"
           }
         },
         {
           "match": "WebEnhancer*",
+          "browser": "webenhancer",
           "properties": {
             "Browser": "WebEnhancer"
           }
         },
         {
           "match": "WebMiner*",
+          "browser": "webminer",
           "properties": {
             "Browser": "WebMiner"
           }
         },
         {
           "match": "ZIBB Crawler (email address / WWW address)",
+          "browser": "zibb crawler",
           "properties": {
             "Browser": "ZIBB Crawler"
           }

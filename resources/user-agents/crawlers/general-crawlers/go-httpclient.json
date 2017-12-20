@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GO HttpClient",
+      "browser": "go httpclient",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "HttpClient for Google Go Programming Language",
-        "Browser": "GO HttpClient",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Google Inc",
-        "Crawler": "true"
+        "Comment": "HttpClient for Google Go Programming Language"
       },
       "children": [
         {

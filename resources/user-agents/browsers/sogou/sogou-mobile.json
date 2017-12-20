@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Sogou Mobile #MAJORVER#.#MINORVER# for Android",
+      "browser": "sogou mobile",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser": "Sogou Mobile",
-        "Browser_Maker": "Sogou Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -61,20 +57,16 @@
     },
     {
       "userAgent": "Sogou Mobile #MAJORVER#.#MINORVER# for iOS",
+      "browser": "sogou mobile",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser": "Sogou Mobile",
-        "Browser_Maker": "Sogou Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "ESPN Radio Generic for iOS",
+      "browser": "espn radio",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ESPN Radio Generic",
-        "Browser": "ESPN Radio",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures."
+        "Comment": "ESPN Radio Generic"
       },
       "children": [
         {
@@ -172,15 +170,13 @@
     },
     {
       "userAgent": "ESPN Radio Generic for Android",
+      "browser": "espn radio",
       "device": "general Mobile Phone (Touch)",
       "engine": "Blink",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ESPN Radio Generic",
-        "Browser": "ESPN Radio",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures."
+        "Comment": "ESPN Radio Generic"
       },
       "children": [
         {
@@ -200,17 +196,16 @@
     },
     {
       "userAgent": "ESPN Radio Generic",
+      "browser": "espn radio",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ESPN Radio Generic",
-        "Browser": "ESPN Radio",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures."
+        "Comment": "ESPN Radio Generic"
       },
       "children": [
         {
           "match": "EspnDownloadManager*",
+          "browser": "espn downloadmanager",
           "properties": {
             "Browser": "ESPN DownloadManager"
           }

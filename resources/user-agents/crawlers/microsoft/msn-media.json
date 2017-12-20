@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "MSN-Media",
+      "browser": "msnbot-media",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "msnbot-media",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN-Media",
-        "Crawler": "true"
+        "Comment": "MSN-Media"
       },
       "children": [
         {

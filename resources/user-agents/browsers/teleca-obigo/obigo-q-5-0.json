@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
+      "browser": "obigo q",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
-        "Browser": "Obigo Q",
-        "Browser_Maker": "Obigo",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

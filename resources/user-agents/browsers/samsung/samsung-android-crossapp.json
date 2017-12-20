@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Samsung CrossApp",
+      "browser": "samsung crossapp",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Samsung CrossApp",
-        "Browser": "Samsung CrossApp",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung"
+        "Comment": "Samsung CrossApp"
       },
       "children": [
         {

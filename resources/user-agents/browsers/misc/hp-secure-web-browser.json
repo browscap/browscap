@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "HP Secure Web Browser",
+      "browser": "hp secure web browser",
       "platform": "OpenVMS",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "HP Secure Web Browser",
-        "Browser": "HP Secure Web Browser"
+        "Comment": "HP Secure Web Browser"
       },
       "children": [
         {

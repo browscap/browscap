@@ -8,15 +8,13 @@
   "userAgents": [
     {
       "userAgent": "Framabird #MAJORVER#.#MINORVER#",
+      "browser": "framabird",
       "device": "Windows Desktop",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Framabird #MAJORVER#.#MINORVER#",
-        "Browser": "Framabird",
-        "Browser_Maker": "Framasoft",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Email Client"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

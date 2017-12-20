@@ -6,11 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Mosaic",
+      "browser": "mosaic",
       "platform": "OpenVMS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NCSA Mosaic",
-        "Browser": "Mosaic"
+        "Comment": "NCSA Mosaic"
       },
       "children": [
         {
@@ -30,8 +30,8 @@
         },
         {
           "match": "VMS_Mosaic/4.0 (Motif;OpenVMS V8.3 COMPAQ Professional Workstation ) libwww/*_Mosaic",
+          "browser": "vms_mosaic",
           "properties": {
-            "Browser": "VMS_Mosaic",
             "Version": "8.3"
           }
         }

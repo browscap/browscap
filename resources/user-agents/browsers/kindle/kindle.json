@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Kindle",
+      "browser": "kindle",
       "platform": "Android",
       "engine": "WebKit",
       "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Kindle",
-        "Browser": "Kindle",
-        "Browser_Maker": "Amazon.com, Inc.",
-        "Browser_Type": "Browser"
+        "Comment": "Kindle"
       },
       "children": [
         {
@@ -52,9 +50,9 @@
         },
         {
           "match": "Mozilla/5.0 (Linux*Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari/*",
+          "browser": "kindle fire",
           "properties": {
             "Comment": "Kindle Fire",
-            "Browser": "Kindle Fire",
             "Version": "4.0"
           },
           "device": "Amazon Kindle Fire",

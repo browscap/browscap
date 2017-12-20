@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Python-urllib",
+      "browser": "python-urllib",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Python-urllib",
-        "Browser": "Python-urllib",
-        "Browser_Maker": "Python Software Foundation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Python-urllib"
       },
       "children": [
         {

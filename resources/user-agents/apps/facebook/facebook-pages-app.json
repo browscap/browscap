@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Facebook Pages App for iOS",
+      "browser": "facebook pages admin",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook Pages App for iOS",
-        "Browser": "Facebook Pages Admin",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook Pages App for iOS"
       },
       "children": [
         {

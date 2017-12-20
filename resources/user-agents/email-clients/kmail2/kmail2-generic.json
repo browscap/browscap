@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "KMail2 Generic",
+      "browser": "kmail2",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "KMail2 Generic",
-        "Browser": "KMail2",
-        "Browser_Maker": "KDE e.V.",
-        "Browser_Type": "Email Client",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

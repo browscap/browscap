@@ -6,17 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Jakarta Commons HttpClient",
+      "browser": "jakarta commons httpclient",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Jakarta Commons HttpClient",
-        "Browser": "Jakarta Commons HttpClient",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "The Apache Software Foundation",
-        "Crawler": "true"
+        "Comment": "Jakarta Commons HttpClient"
       },
       "children": [
         {
           "match": "Wepbot/*(*)*Jakarta Commons-HttpClient/*",
+          "browser": "wepbot",
           "properties": {
             "Browser": "Wepbot"
           }

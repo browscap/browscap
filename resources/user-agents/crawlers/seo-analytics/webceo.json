@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "webceo Bot",
+      "browser": "webceo bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "webceo Bot",
-        "Browser": "webceo Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Web CEO Limited",
-        "Crawler": "true"
+        "Comment": "webceo Bot"
       },
       "children": [
         {

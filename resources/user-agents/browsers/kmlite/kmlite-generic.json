@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "KMLite Generic",
+      "browser": "kmlite",
       "engine": "Gecko_1_8_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "KMLite Generic",
-        "Browser": "KMLite",
-        "Browser_Maker": "Ashrising Phoenixes",
-        "Browser_Type": "Browser"
+        "Comment": "KMLite Generic"
       },
       "children": [
         {

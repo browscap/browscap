@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Classilla",
+      "browser": "classilla",
       "engine": "Gecko",
       "device": "Macintosh",
       "platform": "MacPPC",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Classilla",
-        "Browser": "Classilla",
-        "Browser_Maker": "Cameron Kaiser",
-        "Browser_Type": "Browser"
+        "Comment": "Classilla"
       },
       "children": [
         {

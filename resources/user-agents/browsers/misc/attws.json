@@ -6,11 +6,11 @@
   "userAgents": [
     {
       "userAgent": "ATTWS",
+      "browser": "attws",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ATTWS",
-        "Browser": "ATTWS"
+        "Comment": "ATTWS"
       },
       "children": [
         {

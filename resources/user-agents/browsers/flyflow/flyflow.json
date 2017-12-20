@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
+      "browser": "flyflow",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
-        "Browser": "FlyFlow",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

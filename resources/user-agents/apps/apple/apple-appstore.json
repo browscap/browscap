@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",
+      "browser": "apple appstore app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple AppStore App #MAJORVER#.#MINORVER#",
-        "Browser": "Apple AppStore App",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

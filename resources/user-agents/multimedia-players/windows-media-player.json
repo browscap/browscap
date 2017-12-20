@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Windows Media Player",
+      "browser": "windows media player",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Windows Media Player",
-        "Browser": "Windows Media Player",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Windows Media Player"
       },
       "children": [
         {

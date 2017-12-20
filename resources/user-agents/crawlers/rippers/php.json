@@ -6,46 +6,38 @@
   "userAgents": [
     {
       "userAgent": "PHP",
+      "browser": "php",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PHP",
-        "Browser": "PHP",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser_Maker": "the PHP Group"
+        "Comment": "PHP"
       },
       "children": [
         {
           "match": "httpclient (http://www.phpclasses.org/httpclient $Revision:*",
+          "browser": "httpclient",
           "properties": {
-            "Browser": "httpclient",
             "Browser_Maker": "www.phpclasses.org"
           }
         },
         {
           "match": "PECL::HTTP/1.6*",
+          "browser": "pecl http",
           "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler",
             "Version": "1.6"
           }
         },
         {
           "match": "PECL::HTTP/1.7*",
+          "browser": "pecl http",
           "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler",
             "Version": "1.7"
           }
         },
         {
           "match": "PECL::HTTP/*",
+          "browser": "pecl http",
           "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "unknown"
           }
         },
         {
@@ -95,21 +87,22 @@
         },
         {
           "match": "XML-RPC for PHP *",
+          "browser": "xml-rpc for php",
           "properties": {
             "Browser": "XML-RPC for PHP"
           }
         },
         {
           "match": "Zend_XmlRpc_Client",
+          "browser": "zend_xmlrpc_client",
           "properties": {
-            "Browser": "Zend_XmlRpc_Client",
             "Browser_Maker": "Zend Technologies Ltd."
           }
         },
         {
           "match": "Zend_Http_Client",
+          "browser": "zend_http_client",
           "properties": {
-            "Browser": "Zend_Http_Client",
             "Browser_Maker": "Zend Technologies Ltd."
           }
         },
@@ -148,38 +141,36 @@
         },
         {
           "match": "GuzzleHttp/6.1*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling",
             "Version": "6.1"
           }
         },
         {
           "match": "GuzzleHttp/*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling"
           }
         },
         {
           "match": "Guzzle/4.2*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling",
             "Version": "4.2"
           }
         },
         {
           "match": "Guzzle/*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling"
           }
         },
         {
           "match": "Taproot*",
+          "browser": "taproot bot",
           "properties": {
-            "Browser": "Taproot Bot",
             "Browser_Maker": "Barnaby Walters"
           }
         }

@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "CFNetwork for iOS",
+      "browser": "cfnetwork",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CFNetwork for iOS",
-        "Browser": "CFNetwork",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
-        "Crawler": "false"
+        "Comment": "CFNetwork for iOS"
       },
       "children": [
         {
@@ -220,16 +217,13 @@
     },
     {
       "userAgent": "CFNetwork for MacOSX",
+      "browser": "cfnetwork",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CFNetwork for MacOSX",
-        "Browser": "CFNetwork",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
-        "Crawler": "false"
+        "Comment": "CFNetwork for MacOSX"
       },
       "children": [
         {
@@ -434,26 +428,25 @@
     },
     {
       "userAgent": "CFNetwork Generic",
+      "browser": "cfnetwork",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CFNetwork Generic",
-        "Browser": "CFNetwork",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
-        "Crawler": "false"
+        "Comment": "CFNetwork Generic"
       },
       "children": [
         {
           "match": "*CFNetwork*",
+          "browser": "cfnetwork",
           "properties": {
             "Browser": "CFNetwork"
           }
         },
         {
           "match": "CFNetwork/*",
+          "browser": "cfnetwork",
           "properties": {
             "Browser": "CFNetwork"
           }

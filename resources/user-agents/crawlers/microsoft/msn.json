@@ -6,19 +6,16 @@
   "userAgents": [
     {
       "userAgent": "MSN",
+      "browser": "msn",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "MSN",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko*",
+          "browser": "danger",
           "properties": {
-            "Browser": "Danger",
             "Version": "3.0"
           }
         },
@@ -27,110 +24,119 @@
         },
         {
           "match": "Vancouver*",
+          "browser": "vancouver",
           "properties": {
-            "Browser": "Vancouver",
             "isSyndicationReader": "true"
           }
         },
         {
           "match": "librabot/1.0 (*)",
+          "browser": "librabot",
           "properties": {
             "Browser": "librabot"
           }
         },
         {
           "match": "llssbot/1.0",
+          "browser": "llssbot",
           "properties": {
-            "Browser": "llssbot",
             "Version": "1.0"
           }
         },
         {
           "match": "Microsoft Bing Mobile SocialStreams Bot",
+          "browser": "microsoft bing mobile socialstreams bot",
           "properties": {
             "Browser": "Microsoft Bing Mobile SocialStreams Bot"
           }
         },
         {
           "match": "Mozilla/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko*",
+          "browser": "danger",
           "properties": {
-            "Browser": "Danger",
             "Version": "3.0"
           }
         },
         {
           "match": "MSMOBOT/1.1*",
+          "browser": "msnbot-mobile",
           "properties": {
-            "Browser": "msnbot-mobile",
             "Version": "1.1"
           }
         },
         {
           "match": "MSNBot-Academic/1.0*",
+          "browser": "msnbot-academic",
           "properties": {
-            "Browser": "MSNBot-Academic",
             "Version": "1.0"
           }
         },
         {
           "match": "MSNBot-News/1.0*",
+          "browser": "msnbot-news",
           "properties": {
-            "Browser": "MSNBot-News",
             "Version": "1.0"
           }
         },
         {
           "match": "MSNBot-NewsBlogs/1.0*",
+          "browser": "msnbot-newsblogs",
           "properties": {
-            "Browser": "MSNBot-NewsBlogs",
             "Version": "1.0"
           }
         },
         {
           "match": "msnbot-NewsBlogs/2.* (+http://search.msn.com/msnbot.htm)",
+          "browser": "msnbot-newsblogs",
           "properties": {
-            "Browser": "msnbot-NewsBlogs",
             "Version": "2.0"
           }
         },
         {
           "match": "msnbot-products",
+          "browser": "msnbot-products",
           "properties": {
             "Browser": "msnbot-products"
           }
         },
         {
           "match": "msnbot-webmaster/1.0 (*http://search.msn.com/msnbot.htm)",
+          "browser": "msnbot-webmaster tools",
           "properties": {
             "Browser": "msnbot-webmaster tools"
           }
         },
         {
           "match": "MSR-ISRCCrawler",
+          "browser": "msr-isrccrawler",
           "properties": {
             "Browser": "MSR-ISRCCrawler"
           }
         },
         {
           "match": "MSRBOT*",
+          "browser": "msrbot",
           "properties": {
             "Browser": "MSRBOT"
           }
         },
         {
           "match": "renlifangbot/1.0 (?http://search.msn.com/msnbot.htm)",
+          "browser": "renlifangbot",
           "properties": {
             "Browser": "renlifangbot"
           }
         },
         {
           "match": "Windows-Live-Social-Object-Extractor-Engine/1.0",
+          "browser": "windows-live-social-object-extractor-eng",
           "properties": {
             "Browser": "Windows-Live-Social-Object-Extractor-Eng"
           }
         },
         {
           "match": "T-Mobile Dash Mozilla/4.0 (*MSNBOT-MOBILE/1.1*",
+          "browser": "msnbot-mobile",
           "properties": {
             "Browser": "msnbot-mobile"
           }
@@ -140,18 +146,21 @@
         },
         {
           "match": "MSNBot-News/*",
+          "browser": "msnbot-news",
           "properties": {
             "Browser": "MSNBot-News"
           }
         },
         {
           "match": "MSNBot-NewsBlogs/*",
+          "browser": "msnbot-newsblogs",
           "properties": {
             "Browser": "msnbot-NewsBlogs"
           }
         },
         {
           "match": "msnbot-webmaster/*",
+          "browser": "msnbot-webmaster tools",
           "properties": {
             "Browser": "msnbot-webmaster tools"
           }

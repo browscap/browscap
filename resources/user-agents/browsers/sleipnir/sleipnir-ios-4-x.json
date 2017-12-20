@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER# for iOS",
+      "browser": "sleipnir",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
-        "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Fenrir Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -55,15 +53,13 @@
     },
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",
+      "browser": "sleipnir",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER# for Darwin",
-        "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Fenrir Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

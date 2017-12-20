@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Flixster App #MAJORVER#.#MINORVER#",
+      "browser": "flixster app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Flixster, Inc.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
         "Comment": "Flixster App #MAJORVER#.#MINORVER#",
-        "Browser": "Flixster App",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

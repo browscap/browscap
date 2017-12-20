@@ -7,19 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Otter #MAJORVER#.#MINORVER#",
+      "browser": "otter",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Otter #MAJORVER#.#MINORVER#",
-        "Browser": "Otter",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "otter-browser.org",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "true",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "true"
       },
       "children": [
         {

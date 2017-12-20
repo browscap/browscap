@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Odyssey Web Browser",
+      "browser": "odyssey web browser",
       "platform": "Amiga",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Odyssey Web Browser",
-        "Browser": "Odyssey Web Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Fabien Coeurjoly",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

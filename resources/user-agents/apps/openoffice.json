@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "OpenOffice",
+      "browser": "openoffice",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OpenOffice",
-        "Browser": "OpenOffice",
-        "Browser_Type": "Application",
-        "Browser_Maker": "The Apache Software Foundation"
+        "Comment": "OpenOffice"
       },
       "children": [
         {

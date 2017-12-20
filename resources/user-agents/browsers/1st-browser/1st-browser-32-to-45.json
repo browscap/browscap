@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "1stBrowser #MAJORVER#.#MINORVER#",
+      "browser": "1stbrowser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "1stBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "1stBrowser",
-        "Browser_Maker": "Sien",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

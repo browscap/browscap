@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "gvfs #MAJORVER#.#MINORVER#",
+      "browser": "gvfs",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "gvfs #MAJORVER#.#MINORVER#",
-        "Browser": "gvfs",
-        "Browser_Type": "Tool",
-        "Browser_Maker": "The GNOME Project",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

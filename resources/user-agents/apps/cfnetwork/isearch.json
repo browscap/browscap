@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "iSearch",
+      "browser": "isearch",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iSearch",
-        "Browser": "iSearch",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

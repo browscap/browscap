@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "picmole Bot",
+      "browser": "picmole bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "picmole Bot",
-        "Browser": "picmole Bot",
-        "Browser_Maker": "picmole.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "picmole Bot"
       },
       "children": [
         {

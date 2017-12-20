@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Google Favicon",
+      "browser": "google favicon",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google Favicon",
-        "Browser": "Google Favicon"
+        "Comment": "Google Favicon"
       },
       "children": [
         {

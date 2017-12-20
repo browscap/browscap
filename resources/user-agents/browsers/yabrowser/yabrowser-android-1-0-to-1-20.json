@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "yandex browser",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC"
+        "Beta": "false"
       },
       "children": [
         {

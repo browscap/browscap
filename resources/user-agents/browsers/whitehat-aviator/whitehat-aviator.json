@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "WhiteHat Aviator #MAJORVER#.#MINORVER#",
+      "browser": "whitehat aviator",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhiteHat Aviator #MAJORVER#.#MINORVER#",
-        "Browser": "WhiteHat Aviator",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "WhiteHat Security",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

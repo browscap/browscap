@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Kenshoo",
+      "browser": "kenshoo",
       "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Kenshoo, Ltd.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Kenshoo",
-        "Browser": "Kenshoo"
+        "Comment": "Kenshoo"
       },
       "children": [
         {
@@ -28,16 +25,13 @@
     },
     {
       "userAgent": "Kenshoo for Darwin",
+      "browser": "kenshoo",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Kenshoo, Ltd.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Kenshoo for Darwin",
-        "Browser": "Kenshoo"
+        "Comment": "Kenshoo for Darwin"
       },
       "children": [
         {

@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Iron #MAJORVER#.#MINORVER#",
+      "browser": "iron",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron #MAJORVER#.#MINORVER#",
-        "Browser": "Iron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "SRWare",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

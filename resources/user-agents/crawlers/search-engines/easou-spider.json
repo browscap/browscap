@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "EasouSpider",
+      "browser": "easouspider",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "EasouSpider",
-        "Browser": "EasouSpider",
-        "Browser_Maker": "easou.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "EasouSpider"
       },
       "children": [
         {

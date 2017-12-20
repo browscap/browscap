@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry",
+      "browser": "blackberry",
       "platform": "RIMOS",
       "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry",
-        "Browser": "BlackBerry",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Research In Motion Limited"
+        "Comment": "BlackBerry"
       },
       "children": [
         {

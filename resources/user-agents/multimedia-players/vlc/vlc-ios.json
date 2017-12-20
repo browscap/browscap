@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "VLC Media Player for iOS",
+      "browser": "vlc media player",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "VLC Media Player for iOS",
-        "Browser": "VLC Media Player",
-        "Browser_Maker": "VideoLAN non-profit organization",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "VLC Media Player for iOS"
       },
       "children": [
         {

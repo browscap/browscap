@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Google Search Appliance",
+      "browser": "google search appliance",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google Search Appliance",
-        "Browser": "Google Search Appliance"
+        "Comment": "Google Search Appliance"
       },
       "children": [
         {

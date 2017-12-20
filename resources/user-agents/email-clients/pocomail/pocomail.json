@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "PocoMail",
+      "browser": "pocomail",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PocoMail",
-        "Browser": "PocoMail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "poco systems inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

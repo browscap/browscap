@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Adbeat",
+      "browser": "adbeat bot",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Adbeat",
-        "Browser": "Adbeat Bot",
-        "Browser_Maker": "adbeat.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Adbeat"
       },
       "children": [
         {

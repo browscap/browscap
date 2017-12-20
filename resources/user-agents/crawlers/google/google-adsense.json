@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AdSense Bot",
+      "browser": "adsense bot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser": "AdSense Bot",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Google"
       },
       "children": [
         {
@@ -24,6 +21,7 @@
         },
         {
           "match": "Adsense-Snapshot-Google*",
+          "browser": "adsense snapshot bot",
           "engine": "unknown",
           "device": "unknown",
           "properties": {

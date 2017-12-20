@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "LoadTimeBot",
+      "browser": "loadtimebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LoadTimeBot",
-        "Browser": "LoadTimeBot",
-        "Browser_Maker": "LoadTime",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "LoadTimeBot"
       },
       "children": [
         {

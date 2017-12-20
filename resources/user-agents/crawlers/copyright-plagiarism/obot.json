@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "oBot",
+      "browser": "obot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "oBot",
-        "Browser": "oBot",
-        "Browser_Maker": "IBM",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "oBot"
       },
       "children": [
         {

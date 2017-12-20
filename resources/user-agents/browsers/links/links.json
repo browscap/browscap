@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Links #MAJORVER#.#MINORVER#",
+      "browser": "links",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Links #MAJORVER#.#MINORVER#",
-        "Browser": "Links",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mikulas Patocka",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

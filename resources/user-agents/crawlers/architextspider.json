@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ArchitextSpider",
+      "browser": "architextspider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ArchitextSpider",
-        "Browser": "ArchitextSpider",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ArchitextSpider"
       },
       "children": [
         {

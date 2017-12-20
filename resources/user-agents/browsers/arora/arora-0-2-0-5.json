@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
+      "browser": "arora",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Arora #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser": "Arora",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

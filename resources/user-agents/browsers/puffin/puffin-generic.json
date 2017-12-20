@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Puffin Generic for Android",
+      "browser": "puffin",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Puffin Generic",
-        "Browser": "Puffin",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "CloudMosa Inc."
+        "Comment": "Puffin Generic"
       },
       "children": [
         {
@@ -90,15 +88,13 @@
     },
     {
       "userAgent": "Puffin Generic for iOS",
+      "browser": "puffin",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Puffin Generic",
-        "Browser": "Puffin",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "CloudMosa Inc."
+        "Comment": "Puffin Generic"
       },
       "children": [
         {
@@ -190,15 +186,13 @@
     },
     {
       "userAgent": "Puffin for Darwin",
+      "browser": "puffin",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Puffin for Darwin",
-        "Browser": "Puffin",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "CloudMosa Inc."
+        "Comment": "Puffin for Darwin"
       },
       "children": [
         {

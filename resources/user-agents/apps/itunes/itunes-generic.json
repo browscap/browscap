@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "iTunes Generic",
+      "browser": "itunes",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes Generic",
-        "Browser": "iTunes",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

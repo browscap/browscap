@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "bitlybot",
+      "browser": "bitlybot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Bitlybot",
-        "Browser": "BitlyBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Bitlybot"
       },
       "children": [
         {

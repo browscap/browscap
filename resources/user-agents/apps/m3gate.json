@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "M3Gate",
+      "browser": "m3gate",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "M3Gate",
-        "Browser": "M3Gate",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

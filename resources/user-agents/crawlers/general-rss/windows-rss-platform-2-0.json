@@ -7,16 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
+      "browser": "windows-rss-platform",
       "platform": "Windows",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
-        "Browser": "Windows-RSS-Platform",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

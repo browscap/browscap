@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "okhttp",
+      "browser": "okhttp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "okhttp",
-        "Browser": "okhttp",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Square, Inc.",
-        "Crawler": "true"
+        "Comment": "okhttp"
       },
       "children": [
         {

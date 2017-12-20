@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER# Mobile",
+      "browser": "fennec",
       "engine": "Gecko_Major_Dynamic",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
-        "Browser": "Fennec",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -50,14 +48,12 @@
     },
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "browser": "fennec",
       "engine": "Gecko_Major_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
-        "Browser": "Fennec",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

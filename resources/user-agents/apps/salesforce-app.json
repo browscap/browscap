@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "SalesForce App for iOS",
+      "browser": "salesforce app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SalesForce App",
-        "Browser": "SalesForce App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Salesforce.com, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

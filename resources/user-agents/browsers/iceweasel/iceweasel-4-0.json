@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
+      "browser": "iceweasel",
       "platform": "Linux",
       "engine": "Gecko_2",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
-        "Browser": "Iceweasel",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Software in the Public Interest, Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

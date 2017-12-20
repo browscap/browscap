@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "WeChat App #MAJORVER#.#MINORVER#",
+      "browser": "wechat app",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WeChat App #MAJORVER#.#MINORVER#",
-        "Browser": "WeChat App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Tencent Ltd.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

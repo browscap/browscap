@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avant 2013",
+      "browser": "avant",
       "device": "Windows Desktop",
       "engine": "Gecko_20",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant 2013",
-        "Browser": "Avant",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force"
+        "Comment": "Avant 2013"
       },
       "children": [
         {

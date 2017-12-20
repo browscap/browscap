@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Qword Browser #MAJORVER#.#MINORVER#",
+      "browser": "qword browser",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qword Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Qword Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Qword Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

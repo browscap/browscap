@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Box App Generic",
+      "browser": "baidu box app",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu Box App Generic",
-        "Browser": "Baidu Box App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Baidu"
+        "Comment": "Baidu Box App Generic"
       },
       "children": [
         {

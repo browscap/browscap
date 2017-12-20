@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Apple Mail #MAJORVER#.#MINORVER# for iOS",
+      "browser": "apple mail",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Apple Mail",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

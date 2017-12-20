@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "SlimerJS #MAJORVER#.#MINORVER#",
+      "browser": "slimerjs",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SlimerJS #MAJORVER#.#MINORVER#",
-        "Browser": "SlimerJS",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Laurent Jouanneau",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

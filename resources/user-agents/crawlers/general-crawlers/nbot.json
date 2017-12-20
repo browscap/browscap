@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "nbot",
+      "browser": "nbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "nbot",
-        "Browser": "nbot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "nbot"
       },
       "children": [
         {

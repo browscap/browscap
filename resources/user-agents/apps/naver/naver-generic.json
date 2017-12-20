@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Naver Generic for iOS",
+      "browser": "naver",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Naver Generic",
-        "Browser": "Naver",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation"
+        "Comment": "Naver Generic"
       },
       "children": [
         {
@@ -59,15 +57,13 @@
     },
     {
       "userAgent": "Naver Generic for Android",
+      "browser": "naver",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Naver Generic",
-        "Browser": "Naver",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation"
+        "Comment": "Naver Generic"
       },
       "children": [
         {

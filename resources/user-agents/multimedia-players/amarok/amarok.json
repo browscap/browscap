@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Amarok #MAJORVER#.#MINORVER#",
+      "browser": "amarok",
       "device": "Linux Desktop",
       "engine": "WebKit",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Amarok #MAJORVER#.#MINORVER#",
-        "Browser": "Amarok",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

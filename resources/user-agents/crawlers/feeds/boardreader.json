@@ -6,33 +6,29 @@
   "userAgents": [
     {
       "userAgent": "BoardReader",
+      "browser": "boardreader",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BoardReader",
-        "Browser": "BoardReader",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "BoardReader",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "BoardReader"
       },
       "children": [
         {
           "match": "BoardReader Favicon Fetcher /1.0*",
+          "browser": "boardreader favicon fetcher",
           "properties": {
-            "Browser": "BoardReader Favicon Fetcher",
-            "isSyndicationReader": "false",
             "Version": "1.0"
           }
         },
         {
           "match": "BoardReader Favicon Fetcher /*",
+          "browser": "boardreader favicon fetcher",
           "properties": {
-            "Browser": "BoardReader Favicon Fetcher",
             "isSyndicationReader": "false"
           }
         },
         {
           "match": "BoardReader Blog Indexer*",
+          "browser": "boardreader indexer",
           "properties": {
             "Browser": "BoardReader Indexer"
           }

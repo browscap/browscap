@@ -6,63 +6,65 @@
   "userAgents": [
     {
       "userAgent": "Online Scanners",
+      "browser": "online scanners",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Online Scanners",
-        "Browser": "Online Scanners",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Online Scanners"
       },
       "children": [
         {
           "match": "JoeDog/* (X11; I; Siege *)",
+          "browser": "joedog",
           "properties": {
             "Browser": "JoeDog"
           }
         },
         {
           "match": "Morfeus Fucking Scanner",
+          "browser": "morfeus fucking scanner",
           "properties": {
             "Browser": "Morfeus Fucking Scanner"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; Trend Micro tmdr 1.*",
+          "browser": "trend micro",
           "properties": {
             "Browser": "Trend Micro"
           }
         },
         {
           "match": "Titanium 2005 (4.02.01)",
+          "browser": "panda antivirus titanium",
           "properties": {
             "Browser": "Panda Antivirus Titanium"
           }
         },
         {
           "match": "virus_detector*",
+          "browser": "secure computing corporation",
           "properties": {
             "Browser": "Secure Computing Corporation"
           }
         },
         {
           "match": "WhatWeb/0.4*",
+          "browser": "whatweb web scanner",
           "properties": {
-            "Browser": "WhatWeb Web Scanner",
-            "Browser_Maker": "Andrew Horton",
             "Version": "0.4"
           }
         },
         {
           "match": "WhatWeb/*",
+          "browser": "whatweb web scanner",
           "properties": {
-            "Browser": "WhatWeb Web Scanner",
             "Browser_Maker": "Andrew Horton"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Nmap Scripting Engine*",
+          "browser": "nmap scripting engine",
           "properties": {
-            "Browser": "Nmap Scripting Engine",
             "Browser_Maker": "Gordon Lyon"
           }
         }

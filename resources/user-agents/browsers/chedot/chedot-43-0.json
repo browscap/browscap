@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Chedot #MAJORVER#.#MINORVER#",
+      "browser": "chedot",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chedot #MAJORVER#.#MINORVER#",
-        "Browser": "Chedot",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Chedot.com",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

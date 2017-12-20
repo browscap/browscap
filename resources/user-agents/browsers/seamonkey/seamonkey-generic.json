@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "SeaMonkey Generic",
+      "browser": "seamonkey",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SeaMonkey Generic",
-        "Browser": "SeaMonkey",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "SeaMonkey Generic"
       },
       "children": [
         {

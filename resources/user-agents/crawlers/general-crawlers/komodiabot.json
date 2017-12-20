@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "KomodiaBot",
+      "browser": "komodiabot",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "KomodiaBot",
-        "Browser": "KomodiaBot",
-        "Browser_Maker": "Komodia Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "KomodiaBot"
       },
       "children": [
         {

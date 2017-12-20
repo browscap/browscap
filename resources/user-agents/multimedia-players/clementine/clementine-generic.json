@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Clementine Generic",
+      "browser": "clementine",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Clementine Generic",
-        "Browser": "Clementine",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Clementine Generic"
       },
       "children": [
         {

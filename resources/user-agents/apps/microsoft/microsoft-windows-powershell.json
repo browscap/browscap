@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Windows PowerShell",
+      "browser": "windows powershell",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Windows PowerShell",
-        "Browser": "Windows PowerShell",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "false"
+        "Comment": "Windows PowerShell"
       },
       "children": [
         {

@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
+      "browser": "sleipnir",
       "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
-        "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

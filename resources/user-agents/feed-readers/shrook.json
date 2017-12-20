@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Shrook",
+      "browser": "shrook",
       "engine": "WebKit",
       "device": "Macintosh",
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Shrook",
-        "Browser": "Shrook",
-        "Browser_Maker": "Utsire Software",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Feed Reader",
-        "Crawler": "false"
+        "Comment": "Shrook"
       },
       "children": [
         {

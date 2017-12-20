@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "douban App",
+      "browser": "douban app",
       "engine": "WebKit",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "douban App",
-        "Browser": "douban App",
-        "Browser_Type": "Application"
+        "Comment": "douban App"
       },
       "children": [
         {

@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Midori #MAJORVER#.#MINORVER#",
+      "browser": "midori",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Midori #MAJORVER#.#MINORVER#",
-        "Browser": "Midori",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Christian Dywan",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile",
+      "browser": "google bot mobile",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Googlebot",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google Bot Mobile"
+        "Comment": "Googlebot"
       },
       "children": [
         {

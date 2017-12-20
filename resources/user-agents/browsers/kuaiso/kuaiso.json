@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Kuaiso Browser",
+      "browser": "kuaiso",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Kuaiso",
-        "Browser": "Kuaiso",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Kuaiso Beijing ICP"
+        "Comment": "Kuaiso"
       },
       "children": [
         {
@@ -30,9 +28,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* 7Star/* Safari/*",
+          "browser": "7 star",
           "properties": {
-            "Comment": "7 Star",
-            "Browser": "7 Star"
+            "Comment": "7 Star"
           },
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",

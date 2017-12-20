@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Overwolf Browser",
+      "browser": "overwolf browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Overwolf Browser",
-        "Browser": "Overwolf Browser",
-        "Browser_Maker": "Overwolf",
-        "Browser_Type": "Browser"
+        "Comment": "Overwolf Browser"
       },
       "children": [
         {

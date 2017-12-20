@@ -7,19 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
+      "browser": "yandex browser",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC"
+        "Beta": "false"
       },
       "children": [
         {

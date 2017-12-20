@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Cynthia",
+      "browser": "cynthia",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Cynthia"
+        "Comment": "General Crawlers"
       },
       "children": [
         {

@@ -7,19 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Reeder #MAJORVER#.#MINORVER#",
+      "browser": "reeder",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Reeder #MAJORVER#.#MINORVER#",
-        "Browser": "Reeder",
-        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

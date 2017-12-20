@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "YOLO Browser #MAJORVER#.#MINORVER#",
+      "browser": "yolo browser",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YOLO Browser #MAJORVER#.#MINORVER#",
-        "Browser": "YOLO Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "YOLO Family",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

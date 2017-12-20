@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "INNO",
+      "browser": "inno",
       "device": "unknown",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "INNO",
-        "Browser": "INNO",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

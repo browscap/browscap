@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Roblox Studio",
+      "browser": "roblox studio",
       "platform": "Windows",
       "device": "Windows Desktop",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Roblox Studio",
-        "Browser": "Roblox Studio",
-        "Browser_Type": "Application",
-        "Browser_Maker": "ROBLOX Corporation"
+        "Comment": "Roblox Studio"
       },
       "children": [
         {

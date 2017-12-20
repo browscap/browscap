@@ -6,107 +6,120 @@
   "userAgents": [
     {
       "userAgent": "Yandex",
+      "browser": "yandex",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yandex",
-        "Browser": "Yandex",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex LLC",
-        "Crawler": "true"
+        "Comment": "Yandex"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; YandexAddurl/*",
+          "browser": "yandexaddurl",
           "properties": {
             "Browser": "YandexAddURL"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexBlogs/*)",
+          "browser": "yandexblogs",
           "properties": {
             "Browser": "YandexBlogs"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexBot/*; MirrorDetector*)",
+          "browser": "yandex mirrordetector",
           "properties": {
             "Browser": "Yandex MirrorDetector"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexCatalog/*",
+          "browser": "yandexcatalog",
           "properties": {
             "Browser": "YandexCatalog"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexDirect/*",
+          "browser": "yandexdirect-dyatel",
           "properties": {
             "Browser": "YandexDirect-Dyatel"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexFavicons/*",
+          "browser": "yandexfavicons",
           "properties": {
             "Browser": "YandexFavicons"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexImageResizer/*",
+          "browser": "yandeximageresizer",
           "properties": {
             "Browser": "YandexImageResizer"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexImages/*",
+          "browser": "yandeximages",
           "properties": {
             "Browser": "YandexImages"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexMedia/*",
+          "browser": "yandexmedia",
           "properties": {
             "Browser": "YandexMedia"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexMetrika/*",
+          "browser": "yandexmetrika",
           "properties": {
             "Browser": "YandexMetrika"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexNews/*",
+          "browser": "yandexnews",
           "properties": {
             "Browser": "YandexNews"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexVideo/*",
+          "browser": "yandexvideo",
           "properties": {
             "Browser": "YandexVideo"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexVideoParser/*",
+          "browser": "yandexvideoparser",
           "properties": {
             "Browser": "YandexVideoParser"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexWebmaster/*)",
+          "browser": "yandexwebmaster",
           "properties": {
             "Browser": "YandexWebmaster"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexZakladki/*)",
+          "browser": "yandexzakladki",
           "properties": {
             "Browser": "YandexZakladki"
           }
         },
         {
           "match": "Yandex/1.01.001 (compatible; Win16; *)",
+          "browser": "yandex",
           "properties": {
             "Browser": "Yandex"
           }
@@ -140,54 +153,63 @@
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; YandexScreenshotBot/*",
+          "browser": "yandexscreenshotbot",
           "properties": {
             "Browser": "YandexScreenshotBot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexAccessibilityBot/*",
+          "browser": "yandexaccessibilitybot",
           "properties": {
             "Browser": "YandexAccessibilityBot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexDirectDyn/*",
+          "browser": "yandexdynamicbannerbot",
           "properties": {
             "Browser": "YandexDynamicBannerBot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexPagechecker/*",
+          "browser": "yandexpagechecker",
           "properties": {
             "Browser": "YandexPagechecker"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YaDirectFetcher/*",
+          "browser": "yandexdirectfetcher",
           "properties": {
             "Browser": "YandexDirectFetcher"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexCalendar/*",
+          "browser": "yandexcalendarbot",
           "properties": {
             "Browser": "YandexCalendarBot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexSitelinks*",
+          "browser": "yandexsitelinksbot",
           "properties": {
             "Browser": "YandexSitelinksBot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; YandexVertis/*",
+          "browser": "yandexvertisbot",
           "properties": {
             "Browser": "YandexVertisBot"
           }
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Yandex.Translate",
+          "browser": "yandex translate bot",
           "properties": {
             "Browser": "Yandex Translate Bot"
           }

@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "YandexMobileBot #MAJORVER#.#MINORVER#",
+      "browser": "yandex mobile bot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Mobile Bot #MAJORVER#.#MINORVER#",
-        "Browser": "Yandex Mobile Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex LLC",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

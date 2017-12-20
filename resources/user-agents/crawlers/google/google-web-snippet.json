@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Google Web Snippet",
+      "browser": "google web snippet",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google Web Snippet",
-        "Browser": "Google Web Snippet"
+        "Comment": "Google Web Snippet"
       },
       "children": [
         {

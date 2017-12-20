@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Vagabondo",
+      "browser": "vagabondo",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Vagabondo",
-        "Browser": "Vagabondo",
-        "Browser_Maker": "wise-guys.nl",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Vagabondo"
       },
       "children": [
         {

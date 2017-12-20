@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Brave #MAJORVER#.#MINORVER#",
+      "browser": "brave",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Brave #MAJORVER#.#MINORVER#",
-        "Browser": "Brave",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Brave Software Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

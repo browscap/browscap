@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GWPImages",
+      "browser": "gwpimages",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GWPImages",
-        "Browser": "GWPImages",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "unknown",
-        "Crawler": "true"
+        "Comment": "GWPImages"
       },
       "children": [
         {

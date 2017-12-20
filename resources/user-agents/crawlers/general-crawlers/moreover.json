@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Moreover",
+      "browser": "moreover",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Moreover",
-        "Browser": "Moreover",
-        "Browser_Maker": "Moreover Technologies, Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Moreover"
       },
       "children": [
         {

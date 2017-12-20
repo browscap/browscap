@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "BIRD",
+      "browser": "bird",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BIRD",
-        "Browser": "BIRD"
+        "Comment": "BIRD"
       },
       "children": [
         {

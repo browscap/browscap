@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Kinza Generic",
+      "browser": "kinza",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Kinza Generic",
-        "Browser": "Kinza",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "kinza.jp"
+        "Comment": "Kinza Generic"
       },
       "children": [
         {

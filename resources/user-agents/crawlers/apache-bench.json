@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Apache Bench",
+      "browser": "apache bench",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apache Bench",
-        "Browser": "Apache Bench",
-        "Browser_Maker": "The Apache Software Foundation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Apache Bench"
       },
       "children": [
         {

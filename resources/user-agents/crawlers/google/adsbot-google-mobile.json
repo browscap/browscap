@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AdsBot Google-Mobile",
+      "browser": "adsbot google-mobile",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AdsBot Google-Mobile",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "AdsBot Google-Mobile"
+        "Comment": "AdsBot Google-Mobile"
       },
       "children": [
         {

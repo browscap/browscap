@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "MobileIron #MAJORVER#.#MINORVER#",
+      "browser": "mobileiron",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MobileIron #MAJORVER#.#MINORVER#",
-        "Browser": "MobileIron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "MobileIron",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -42,15 +40,13 @@
     },
     {
       "userAgent": "MobileIron #MAJORVER#.#MINORVER# for iOS",
+      "browser": "mobileiron",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MobileIron #MAJORVER#.#MINORVER#",
-        "Browser": "MobileIron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "MobileIron",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

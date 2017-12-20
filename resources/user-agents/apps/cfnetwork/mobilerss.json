@@ -6,17 +6,15 @@
   "userAgents": [
     {
       "userAgent": "MobileRSS",
+      "browser": "mobilerss",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MobileRSS",
-        "Browser": "MobileRSS",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

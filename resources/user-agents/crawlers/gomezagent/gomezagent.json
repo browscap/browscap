@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "GomezAgent",
+      "browser": "gomez site monitor",
       "platforms": "Windows",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Site Monitors",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Gomez Site Monitor",
-        "Browser_Maker": "Compuware Corporation"
+        "Comment": "Site Monitors"
       },
       "children": [
         {

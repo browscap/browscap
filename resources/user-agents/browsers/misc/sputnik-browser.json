@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Sputnik Browser",
+      "browser": "sputnik browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sputnik Browser",
-        "Browser": "Sputnik Browser",
-        "Browser_Maker": "Rostelecom",
-        "Browser_Type": "Browser"
+        "Comment": "Sputnik Browser"
       },
       "children": [
         {

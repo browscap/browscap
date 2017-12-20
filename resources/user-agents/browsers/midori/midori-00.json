@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Midori 0.0",
+      "browser": "midori",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Midori 0.0",
-        "Browser": "Midori",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Christian Dywan"
+        "Comment": "Midori 0.0"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "200PleaseBot",
+      "browser": "200pleasebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "200PleaseBot",
-        "Browser": "200PleaseBot",
-        "Browser_Maker": "200please.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "200PleaseBot"
       },
       "children": [
         {

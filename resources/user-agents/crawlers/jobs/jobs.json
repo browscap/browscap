@@ -6,45 +6,44 @@
   "userAgents": [
     {
       "userAgent": "Jobs",
+      "browser": "jobs",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Jobs",
-        "Browser": "Jobs",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Jobs"
       },
       "children": [
         {
           "match": "JobRoboter/1.1*",
+          "browser": "jobroboter",
           "properties": {
-            "Browser": "JobRoboter",
             "Version": "1.1"
           }
         },
         {
           "match": "JobRoboter/*",
+          "browser": "jobroboter",
           "properties": {
             "Browser": "JobRoboter"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; MetaJobBot*",
+          "browser": "metajobbot",
           "properties": {
-            "Browser": "MetaJobBot",
             "Browser_Maker": "Dr. Manfred Schauer"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; JobdiggerSpider*",
+          "browser": "jobdiggerspider",
           "properties": {
-            "Browser": "JobdiggerSpider",
             "Browser_Maker": "www.jobdigger.nl"
           }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#compatible; Jobboerse*) Gecko* Firefox/*",
+          "browser": "jobboerse bot",
           "properties": {
-            "Browser": "JobBoerse Bot",
             "Browser_Maker": "Jobboerse.com"
           },
           "platforms": [

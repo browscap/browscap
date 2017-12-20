@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "TWC SportsNet",
+      "browser": "twc sportsnet",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TWC SportsNet",
-        "Browser": "TWC SportsNet",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Time Warner Cable"
+        "Comment": "TWC SportsNet"
       },
       "children": [
         {

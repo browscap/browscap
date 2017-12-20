@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Evernote App",
+      "browser": "evernote app",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Evernote App",
-        "Browser": "Evernote App",
-        "Browser_Maker": "Evernote Corporation",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Comment": "Evernote App"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "MobileIron Generic",
+      "browser": "mobileiron",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MobileIron Generic",
-        "Browser": "MobileIron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "MobileIron"
+        "Comment": "MobileIron Generic"
       },
       "children": [
         {
@@ -31,15 +29,13 @@
     },
     {
       "userAgent": "MobileIron Generic for iOS",
+      "browser": "mobileiron",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MobileIron Generic",
-        "Browser": "MobileIron",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "MobileIron"
+        "Comment": "MobileIron Generic"
       },
       "children": [
         {

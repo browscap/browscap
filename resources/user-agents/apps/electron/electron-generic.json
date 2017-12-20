@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Electron Generic",
+      "browser": "electron",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Electron Generic",
-        "Browser": "Electron",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Github"
+        "Comment": "Electron Generic"
       },
       "children": [
         {

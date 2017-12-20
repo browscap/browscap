@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Microsoft-WebDAV",
+      "browser": "microsoft-webdav",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft-WebDAV",
-        "Browser": "Microsoft-WebDAV",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "true"
+        "Comment": "Microsoft-WebDAV"
       },
       "children": [
         {

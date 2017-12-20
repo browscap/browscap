@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Evolution Generic",
+      "browser": "evolution",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Evolution Generic",
-        "Browser": "Evolution",
-        "Browser_Maker": "The GNOME Project",
-        "Browser_Type": "Email Client"
+        "Comment": "Evolution Generic"
       },
       "children": [
         {

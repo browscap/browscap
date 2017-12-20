@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "QQbrowser Mini #MAJORVER#.#MINORVER#",
+      "browser": "qqbrowser mini",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QQbrowser Mini #MAJORVER#.#MINORVER#",
-        "Browser": "QQbrowser Mini",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tencent Ltd.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2007",
+      "browser": "outlook",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2007",
-        "Browser_Type": "Email Client",
-        "Browser": "Outlook",
-        "Browser_Maker": "Microsoft Corporation",
-        "Version": "2007",
-        "isSyndicationReader": "false"
+        "Version": "2007"
       },
       "children": [
         {

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Skyfire",
+      "browser": "skyfire",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Skyfire",
-        "Browser": "Skyfire",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Opera Software ASA"
+        "Comment": "Skyfire"
       },
       "children": [
         {

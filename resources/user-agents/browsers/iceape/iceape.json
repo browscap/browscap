@@ -7,19 +7,16 @@
   "userAgents": [
     {
       "userAgent": "IceApe #MAJORVER#.#MINORVER#",
+      "browser": "iceape",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceape #MAJORVER#.#MINORVER#",
-        "Browser": "Iceape",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

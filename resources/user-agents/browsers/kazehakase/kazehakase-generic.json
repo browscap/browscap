@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Kazehakase Generic",
+      "browser": "kazehakase",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Kazehakase Generic",
-        "Browser": "Kazehakase",
-        "Browser_Type": "Browser"
+        "Comment": "Kazehakase Generic"
       },
       "children": [
         {

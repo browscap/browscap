@@ -6,121 +6,135 @@
   "userAgents": [
     {
       "userAgent": "Proxy Servers",
+      "browser": "proxy servers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Proxy Servers",
-        "Browser": "Proxy Servers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Proxy Servers"
       },
       "children": [
         {
           "match": "*squid*",
+          "browser": "squid",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
           "match": "CE-Preload",
+          "browser": "ce-preload",
           "properties": {
             "Browser": "CE-Preload"
           }
         },
         {
           "match": "IE/6.01 (CP/M; 8-bit*)",
+          "browser": "squid",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
           "match": "Mozilla/* (TuringOS; Turing Machine; 0.0)",
+          "browser": "anonymizer",
           "properties": {
             "Browser": "Anonymizer"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; SaferSurf*)",
+          "browser": "safersurf",
           "properties": {
             "Browser": "SaferSurf"
           }
         },
         {
           "match": "Nutscrape",
+          "browser": "squid",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
           "match": "Nutscrape/* (CP/M; 8-bit*)",
+          "browser": "squid",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
           "match": "Privoxy/*",
+          "browser": "privoxy",
           "properties": {
             "Browser": "Privoxy"
           }
         },
         {
           "match": "ProxyTester*",
+          "browser": "proxytester",
           "properties": {
             "Browser": "ProxyTester"
           }
         },
         {
           "match": "SilentSurf*",
+          "browser": "silentsurf",
           "properties": {
             "Browser": "SilentSurf"
           }
         },
         {
           "match": "SmallProxy*",
+          "browser": "smallproxy",
           "properties": {
             "Browser": "SmallProxy"
           }
         },
         {
           "match": "Space*Bison/*",
+          "browser": "proxomitron",
           "properties": {
             "Browser": "Proxomitron"
           }
         },
         {
           "match": "Sqworm/*",
+          "browser": "websense",
           "properties": {
             "Browser": "Websense"
           }
         },
         {
           "match": "SurfControl",
+          "browser": "surfcontrol",
           "properties": {
             "Browser": "SurfControl"
           }
         },
         {
           "match": "CoralWebPrx*",
+          "browser": "coralweb proxy",
           "properties": {
             "Browser": "CoralWeb Proxy"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
+          "browser": "safersurf",
           "properties": {
             "Browser": "SaferSurf"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; Synapse)",
+          "browser": "apache synapse",
           "properties": {
-            "Browser": "Apache Synapse",
             "Browser_Maker": "The Apache Software Foundation"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; mowser; http://www.mowser.com)",
+          "browser": "mowser mobile proxy",
           "properties": {
-            "Browser": "Mowser Mobile Proxy",
             "Browser_Maker": "dotMobi"
           }
         }

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Lipperhey SEO Service",
+      "browser": "lipperhey seo service",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lipperhey SEO Service",
-        "Browser": "Lipperhey SEO Service",
-        "Browser_Maker": "Lipperhey",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Lipperhey SEO Service"
       },
       "children": [
         {
@@ -23,13 +20,14 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0*",
+          "browser": "lipperhey kaus australis",
           "properties": {
-            "Browser": "Lipperhey Kaus Australis",
             "Version": "5.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/*",
+          "browser": "lipperhey kaus australis",
           "properties": {
             "Browser": "Lipperhey Kaus Australis"
           }

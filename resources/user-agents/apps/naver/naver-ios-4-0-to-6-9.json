@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Naver #MAJORVER#.#MINORVER# for iOS",
+      "browser": "naver",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Naver #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Naver",
-        "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

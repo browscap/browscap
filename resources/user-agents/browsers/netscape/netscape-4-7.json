@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
+      "browser": "netscape",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netscape #MAJORVER#.#MINORVER#",
-        "Browser": "Netscape",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Netscape",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

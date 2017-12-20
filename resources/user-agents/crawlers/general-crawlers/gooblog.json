@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "gooblog",
+      "browser": "gooblog",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "gooblog",
-        "Browser": "gooblog",
-        "Browser_Maker": "NTT Resonant Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "gooblog"
       },
       "children": [
         {

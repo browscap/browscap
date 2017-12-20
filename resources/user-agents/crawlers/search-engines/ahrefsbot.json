@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AhrefsBot",
+      "browser": "ahrefsbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AhrefsBot",
-        "Browser": "AhrefsBot",
-        "Browser_Maker": "Ahrefs Pte Ltd",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "AhrefsBot"
       },
       "children": [
         {

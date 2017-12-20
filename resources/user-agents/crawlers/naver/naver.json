@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Naver",
+      "browser": "naverbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NaverBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "NHN Corporation",
-        "Browser": "NaverBot",
-        "Crawler": "true"
+        "Comment": "NaverBot"
       },
       "children": [
         {

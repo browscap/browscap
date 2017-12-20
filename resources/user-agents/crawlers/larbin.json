@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Larbin",
+      "browser": "larbin",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Larbin",
-        "Browser": "Larbin",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Larbin"
       },
       "children": [
         {

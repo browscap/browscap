@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "iCab Mobile #MAJORVER#.#MINORVER#",
+      "browser": "icab mobile",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iCab Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "iCab Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Alexander Clauss",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

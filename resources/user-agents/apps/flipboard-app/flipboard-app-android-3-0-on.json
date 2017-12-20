@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Flipboard App #MAJORVER#.#MINORVER#",
+      "browser": "flipboard app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Flipboard App #MAJORVER#.#MINORVER#",
-        "Browser": "Flipboard App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Flipboard, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Firebird #MAJORVER#.#MINORVER#",
+      "browser": "firebird",
       "engine": "Gecko_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firebird #MAJORVER#.#MINORVER#",
-        "Browser": "Firebird",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

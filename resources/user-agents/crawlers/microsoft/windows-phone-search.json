@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",
+      "browser": "windows phone search",
       "platform": "WinPhone",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "Windows Phone Search",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {

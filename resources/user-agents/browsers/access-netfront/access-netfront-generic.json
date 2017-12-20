@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "NetFront Generic",
+      "browser": "netfront",
       "engine": "NetFront",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Access NetFront Generic",
-        "Browser": "NetFront",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Access"
+        "Comment": "Access NetFront Generic"
       },
       "children": [
         {

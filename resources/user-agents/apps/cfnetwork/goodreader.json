@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "GoodReader #MAJORVER#.#MINORVER#",
+      "browser": "goodreader",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "GoodReader #MAJORVER#.#MINORVER#",
-        "Browser": "GoodReader",
-        "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

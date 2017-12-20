@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Roccat #MAJORVER#.#MINORVER#",
+      "browser": "roccat",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Roccat #MAJORVER#.#MINORVER#",
-        "Browser": "Roccat",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "RuneCats",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

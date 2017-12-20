@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Experibot",
+      "browser": "experibot",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Experibot",
-        "Browser": "Experibot",
-        "Browser_Maker": "Amir Krause",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
         "Alpha": "true"
       },
       "children": [

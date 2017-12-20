@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Tiny Tiny RSS Generic",
+      "browser": "tiny tiny rss",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tiny Tiny RSS Generic",
-        "Browser": "Tiny Tiny RSS",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Tiny Tiny RSS Generic"
       },
       "children": [
         {

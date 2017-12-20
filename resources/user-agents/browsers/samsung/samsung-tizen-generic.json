@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Samsung Browser Generic for TV",
+      "browser": "samsung browser",
       "platform": "Tizen",
       "engine": "WebKit",
       "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Samsung Browser Generic for TV",
-        "Browser": "Samsung Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung"
+        "Comment": "Samsung Browser Generic for TV"
       },
       "children": [
         {
@@ -30,15 +28,13 @@
     },
     {
       "userAgent": "Samsung Browser Generic for Mobile",
+      "browser": "samsung browser",
       "platform": "Tizen",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Samsung Browser Generic for Mobile",
-        "Browser": "Samsung Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung"
+        "Comment": "Samsung Browser Generic for Mobile"
       },
       "children": [
         {
@@ -53,15 +49,13 @@
     },
     {
       "userAgent": "Samsung WebView Generic for TV",
+      "browser": "samsung webview",
       "platform": "Tizen",
       "engine": "WebKit",
       "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Samsung WebView Generic for TV",
-        "Browser": "Samsung WebView",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung"
+        "Comment": "Samsung WebView Generic for TV"
       },
       "children": [
         {

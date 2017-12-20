@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Opera Mini Generic",
+      "browser": "opera mini",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini Generic",
-        "Browser": "Opera Mini",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser"
+        "Comment": "Opera Mini Generic"
       },
       "children": [
         {
@@ -119,14 +117,12 @@
     },
     {
       "userAgent": "Opera Mini iOS Generic",
+      "browser": "opera mini",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini Generic",
-        "Browser": "Opera Mini",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser"
+        "Comment": "Opera Mini Generic"
       },
       "children": [
         {

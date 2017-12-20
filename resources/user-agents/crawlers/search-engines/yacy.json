@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "YaCy",
+      "browser": "yacy bot",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YaCy Bot",
-        "Browser": "YaCy Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "YaCy Bot"
       },
       "children": [
         {

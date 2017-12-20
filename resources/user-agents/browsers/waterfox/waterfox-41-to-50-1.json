@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
+      "browser": "waterfox",
       "engine": "Gecko_Major_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Waterfox #MAJORVER#.#MINORVER#",
-        "Browser": "Waterfox",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "www.waterfoxproject.org",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

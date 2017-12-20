@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "RMSnapKit",
+      "browser": "rmsnapkit",
       "engine": "WebKit",
       "device": "Macintosh",
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "RMSnapKit",
-        "Browser": "RMSnapKit",
-        "Browser_Maker": "realmacsoftware",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "RMSnapKit"
       },
       "children": [
         {

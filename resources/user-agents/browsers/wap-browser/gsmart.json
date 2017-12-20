@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "GSmart",
+      "browser": "gsmart",
       "platform": "WinCE",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "GSmart",
-        "Browser": "GSmart",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -7,17 +7,14 @@
   "userAgents": [
     {
       "userAgent": "Snapchat Agent #MAJORVER#.#MINORVER#",
+      "browser": "snapchat agent",
       "engine": "WebKit",
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Snapchat Agent #MAJORVER#.#MINORVER#",
-        "Browser": "Snapchat Agent",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Snap Inc.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "NewsFire",
+      "browser": "newsfire",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NewsFire",
-        "Browser": "NewsFire",
-        "Browser_Type": "Application",
-        "Browser_Maker": "David Watanabe",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

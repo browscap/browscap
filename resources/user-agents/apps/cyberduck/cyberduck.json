@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Cyberduck",
+      "browser": "cyberduck",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Cyberduck",
-        "Browser": "Cyberduck",
-        "Browser_Maker": "iterate GmbH",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "Cyberduck"
       },
       "children": [
         {

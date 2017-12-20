@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Quite RSS",
+      "browser": "quite rss",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Quite RSS",
-        "Browser": "Quite RSS",
-        "Browser_Maker": "Shilyaev Egor",
-        "Browser_Type": "Feed Reader",
-        "isSyndicationReader": "true",
-        "Crawler": "false"
+        "Comment": "Quite RSS"
       },
       "children": [
         {

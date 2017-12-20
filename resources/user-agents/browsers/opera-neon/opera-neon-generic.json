@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Opera Neon Generic",
+      "browser": "opera neon",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Neon Generic",
-        "Browser": "Opera Neon",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser"
+        "Comment": "Opera Neon Generic"
       },
       "children": [
         {

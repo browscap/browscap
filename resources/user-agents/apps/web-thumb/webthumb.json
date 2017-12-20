@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "WebThumb",
+      "browser": "webthumb",
       "engine": "Gecko_1_9_2",
       "device": "Linux Desktop",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebThumb",
-        "Browser": "WebThumb",
-        "Browser_Maker": "Boutell.Com, Inc.",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "WebThumb"
       },
       "children": [
         {

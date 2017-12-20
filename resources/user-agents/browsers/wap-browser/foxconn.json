@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Foxconn",
+      "browser": "foxconn",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Foxconn",
-        "Browser": "Foxconn",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

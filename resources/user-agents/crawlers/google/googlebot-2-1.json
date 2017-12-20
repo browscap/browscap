@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
+      "browser": "google bot",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Googlebot #MAJORVER#.#MINORVER#",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google Bot",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Polaris",
+      "browser": "polaris",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polaris",
-        "Browser": "Polaris",
-        "Browser_Maker": "Infraware Inc",
-        "Browser_Type": "Application"
+        "Comment": "Polaris"
       },
       "children": [
         {

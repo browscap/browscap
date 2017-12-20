@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Browser HD #MAJORVER#.#MINORVER#",
+      "browser": "baidu browser hd",
       "platform": "Android",
       "engine": "T5",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu Browser HD #MAJORVER#.#MINORVER#",
-        "Browser": "Baidu Browser HD",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

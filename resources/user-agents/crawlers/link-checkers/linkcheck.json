@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "linkCheck",
+      "browser": "linkcheck",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "linkCheck",
-        "Browser": "linkCheck",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "linkCheck"
       },
       "children": [
         {

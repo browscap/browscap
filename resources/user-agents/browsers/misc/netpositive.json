@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "NetPositive",
+      "browser": "netpositive",
       "platform": "BeOS",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NetPositive",
-        "Browser": "NetPositive"
+        "Comment": "NetPositive"
       },
       "children": [
         {

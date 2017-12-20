@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Infohelfer",
+      "browser": "infohelfer webcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Infohelfer",
-        "Browser": "Infohelfer Webcrawler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "ITam GmbH",
-        "Crawler": "true"
+        "Comment": "Infohelfer"
       },
       "children": [
         {

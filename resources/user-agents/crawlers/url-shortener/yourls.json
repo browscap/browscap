@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "YOURLS",
+      "browser": "yourls",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YOURLS",
-        "Browser": "YOURLS",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "YOURLS"
       },
       "children": [
         {

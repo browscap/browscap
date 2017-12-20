@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Battle.net Overlay",
+      "browser": "battle.net overlay",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Battle.net Overlay",
-        "Browser": "Battle.net Overlay",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Blizzard Entertainment Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

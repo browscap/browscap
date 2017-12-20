@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Vivaldi Generic",
+      "browser": "vivaldi",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vivaldi Generic",
-        "Browser": "Vivaldi",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Vivaldi Technologies",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

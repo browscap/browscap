@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
+      "browser": "netfront nx",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetFront NX #MAJORVER#.#MINORVER#",
-        "Browser": "NetFront NX",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Access",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

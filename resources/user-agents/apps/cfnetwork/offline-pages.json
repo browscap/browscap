@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Offline Pages",
+      "browser": "offline pages",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Offline Pages",
-        "Browser": "Offline Pages",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "Offline Pages"
       },
       "children": [
         {

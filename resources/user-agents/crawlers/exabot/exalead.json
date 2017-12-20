@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Exalead",
+      "browser": "exalead",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Exalead",
-        "Browser": "Exalead",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Dassault Systemes",
-        "Crawler": "true"
+        "Comment": "Exalead"
       },
       "children": [
         {
@@ -20,21 +17,22 @@
         },
         {
           "match": "Exabot-Test/*",
+          "browser": "exabot-test",
           "properties": {
             "Browser": "Exabot-Test"
           }
         },
         {
           "match": "Exabot/2.0",
+          "browser": "exabot",
           "properties": {
-            "Browser": "Exabot",
             "Version": "2.0"
           }
         },
         {
           "match": "Exabot/3.0",
+          "browser": "exabot",
           "properties": {
-            "Browser": "Exabot",
             "Version": "3.0"
           }
         },
@@ -43,43 +41,49 @@
         },
         {
           "match": "Exalead NG/*",
+          "browser": "exalead ng",
           "properties": {
             "Browser": "Exalead NG"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Exabot/3.0*)",
+          "browser": "exabot",
           "properties": {
-            "Browser": "Exabot",
             "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Exabot/*)",
+          "browser": "exabot",
           "properties": {
             "Browser": "Exabot"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; NGBot/*)",
+          "browser": "ngbot",
           "properties": {
             "Browser": "NGBot"
           }
         },
         {
           "match": "NG-Search/*",
+          "browser": "ng-search",
           "properties": {
             "Browser": "NG-Search"
           }
         },
         {
           "match": "ng/*",
+          "browser": "exalead previewer",
           "properties": {
             "Browser": "Exalead Previewer"
           }
         },
         {
           "match": "*Exabot@exava.com*",
+          "browser": "exabot",
           "properties": {
             "Browser": "Exabot"
           }

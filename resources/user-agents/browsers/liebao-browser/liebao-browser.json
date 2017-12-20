@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "liebao browser",
+      "browser": "liebao",
       "engine": "Blink",
       "device": "Windows Desktop",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "liebao",
-        "Browser": "liebao",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Kingsoft"
+        "Comment": "liebao"
       },
       "children": [
         {

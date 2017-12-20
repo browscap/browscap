@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Web Glance",
+      "browser": "web glance",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Web Glance",
-        "Browser": "Web Glance",
-        "Browser_Maker": "webglance.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Web Glance"
       },
       "children": [
         {

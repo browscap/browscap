@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "NSO_Debugger_User",
+      "browser": "nso_debugger_user",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NSO_Debugger_User",
-        "Browser": "NSO_Debugger_User",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "NSO_Debugger_User"
       },
       "children": [
         {

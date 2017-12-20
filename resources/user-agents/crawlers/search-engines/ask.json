@@ -6,35 +6,36 @@
   "userAgents": [
     {
       "userAgent": "Ask",
+      "browser": "ask",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ask",
-        "Browser": "Ask",
-        "Browser_Maker": "Ask.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Ask"
       },
       "children": [
         {
           "match": "Mozilla/2.0 (compatible; Ask Jeeves/Teoma*",
+          "browser": "teoma",
           "properties": {
             "Browser": "Teoma"
           }
         },
         {
           "match": "Mozilla/2.0 (compatible; Ask Jeeves*",
+          "browser": "ask jeeves",
           "properties": {
             "Browser": "Ask Jeeves"
           }
         },
         {
           "match": "*Mozilla/2.0 (compatible; Ask Jeeves/Teoma*",
+          "browser": "teoma",
           "properties": {
             "Browser": "Teoma"
           }
         },
         {
           "match": "*Mozilla/2.0 (compatible; Ask Jeeves*",
+          "browser": "ask jeeves",
           "properties": {
             "Browser": "Ask Jeeves"
           }

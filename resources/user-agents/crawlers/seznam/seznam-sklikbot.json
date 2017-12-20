@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SklikBot",
+      "browser": "sklikbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SklikBot",
-        "Browser": "SklikBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Seznam.cz, a.s.",
-        "Crawler": "true"
+        "Comment": "SklikBot"
       },
       "children": [
         {

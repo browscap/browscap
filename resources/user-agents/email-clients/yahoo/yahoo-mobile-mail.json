@@ -7,19 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
+      "browser": "yahoo mail mobile",
       "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Yahoo Mail Mobile",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Yahoo! Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

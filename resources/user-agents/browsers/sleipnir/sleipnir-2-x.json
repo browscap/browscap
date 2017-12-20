@@ -7,13 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Sleipnir #MAJORVER#.#MINORVER#",
+      "browser": "sleipnir",
       "device": "Windows Desktop",
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sleipnir #MAJORVER#.#MINORVER#",
-        "Browser": "Sleipnir",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

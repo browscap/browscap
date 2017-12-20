@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "PodWrangler #MAJORVER#.#MINORVER#",
+      "browser": "podwrangler",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PodWrangler #MAJORVER#.#MINORVER#",
-        "Browser": "PodWrangler",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

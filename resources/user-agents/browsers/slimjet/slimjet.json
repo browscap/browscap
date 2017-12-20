@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "SlimJet Browser",
+      "browser": "slimjet browser",
       "device": "Windows Desktop",
       "platform": "Windows",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SlimJet Browser",
-        "Browser": "SlimJet Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "FlashPeak Inc"
+        "Comment": "SlimJet Browser"
       },
       "children": [
         {

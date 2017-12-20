@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "NetNewsWire",
+      "browser": "netnewswire",
       "platform": "OSX",
       "device": "Macintosh",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NetNewsWire",
-        "Browser": "NetNewsWire",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "NetNewsWire"
       },
       "children": [
         {

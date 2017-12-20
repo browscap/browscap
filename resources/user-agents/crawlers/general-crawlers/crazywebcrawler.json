@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Crazywebcrawler",
+      "browser": "crazywebcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Crazywebcrawler",
-        "Browser": "Crazywebcrawler",
-        "Browser_Maker": "crazywebcrawler.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Crazywebcrawler"
       },
       "children": [
         {

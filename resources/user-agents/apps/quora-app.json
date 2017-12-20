@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Quora App",
+      "browser": "quora app",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Quora App",
-        "Browser": "Quora App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Quora, Inc."
+        "Comment": "Quora App"
       },
       "children": [
         {

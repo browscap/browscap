@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Panasonic",
+      "browser": "panasonic",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Panasonic",
-        "Browser": "Panasonic",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -8,11 +8,7 @@
       "userAgent":  "HTTrack",
       "properties": {
         "Parent":  "DefaultProperties",
-        "Comment": "HTTrack",
-        "Browser": "HTTrack",
-        "Browser_Type": "Offline Browser",
-        "Browser_Maker": "Xavier Roche",
-        "Crawler": "true"
+        "Comment": "HTTrack"
       },
       "children":   [
         {

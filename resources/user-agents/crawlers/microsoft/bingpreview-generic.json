@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "BingPreview Generic",
+      "browser": "bingpreview",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true"
+        "Comment": "BingPreview Generic"
       },
       "children": [
         {
@@ -58,15 +55,12 @@
     },
     {
       "userAgent": "BingPreview for Windows Phone Generic",
+      "browser": "bingpreview",
       "engine": "Trident",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for Windows Phone Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true",
         "Beta": "true"
       },
       "children": [
@@ -89,15 +83,12 @@
     },
     {
       "userAgent": "BingPreview for iOS Generic",
+      "browser": "bingpreview",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview for iOS Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true"
+        "Comment": "BingPreview for iOS Generic"
       },
       "children": [
         {

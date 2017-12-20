@@ -7,12 +7,10 @@
   "userAgents": [
     {
       "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",
+      "browser": "pad-bot",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PAD-bot #MAJORVER#.#MINORVER#",
-        "Browser": "PAD-bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Inbot Technology Ltd.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "AOLbot",
+      "browser": "aolbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AOLbot",
-        "Browser": "AOLbot",
-        "Browser_Maker": "AOL-SOFT.COM",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "AOLbot"
       },
       "children": [
         {

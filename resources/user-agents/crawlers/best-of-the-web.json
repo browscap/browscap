@@ -6,24 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Best of the Web",
+      "browser": "best of the web",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Best of the Web",
-        "Browser": "Best of the Web",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "botw.org",
-        "Crawler": "true"
+        "Comment": "Best of the Web"
       },
       "children": [
         {
           "match": "Mozilla/4.0 (compatible; BOTW Feed Grabber*",
+          "browser": "botw feed grabber",
           "properties": {
-            "Browser": "BOTW Feed Grabber",
             "isSyndicationReader": "true"
           }
         },
         {
           "match": "Mozilla/4.0 (compatible; BOTW Spider*",
+          "browser": "botw spider",
           "properties": {
             "Browser": "BOTW Spider"
           }

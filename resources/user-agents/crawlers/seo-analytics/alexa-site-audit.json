@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Alexa Site Audit",
+      "browser": "alexa site audit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Alexa Site Audit",
-        "Browser": "Alexa Site Audit",
-        "Browser_Maker": "Alexa Internet, Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Alexa Site Audit"
       },
       "children": [
         {

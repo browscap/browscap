@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ZumBot",
+      "browser": "zumbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ZumBot",
-        "Browser": "ZumBot",
-        "Browser_Maker": "ZUMinternet Corp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ZumBot"
       },
       "children": [
         {

@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Mark Levin Show",
+      "browser": "mark levin show",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mark Levin Show",
-        "Browser": "Mark Levin Show",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Mark Levin Show"
       },
       "children": [
         {

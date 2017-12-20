@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+      "browser": "sohunews app",
       "engine": "Blink",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SohuNews App #MAJORVER#.#MINORVER# for Android",
-        "Browser": "SohuNews App",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Sohu.com Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

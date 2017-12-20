@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ht://Dig",
+      "browser": "ht://dig",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ht://Dig",
-        "Browser": "ht://Dig",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ht://Dig"
       },
       "children": [
         {

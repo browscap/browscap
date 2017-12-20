@@ -6,63 +6,64 @@
   "userAgents": [
     {
       "userAgent": "Become",
+      "browser": "become",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Become",
-        "Browser": "Become",
-        "Browser_Maker": "Become, Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Become"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; BecomeBot/3.0*",
+          "browser": "becomebot",
           "properties": {
-            "Browser": "BecomeBot",
             "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeBot/2.3*",
+          "browser": "becomebot",
           "properties": {
-            "Browser": "BecomeBot",
             "Version": "2.3"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeBot/*",
+          "browser": "becomebot",
           "properties": {
             "Browser": "BecomeBot"
           }
         },
         {
           "match": "*BecomeBot/*",
+          "browser": "becomebot",
           "properties": {
             "Browser": "BecomeBot"
           }
         },
         {
           "match": "*BecomeBot*",
+          "browser": "becomebot",
           "properties": {
             "Browser": "BecomeBot"
           }
         },
         {
           "match": "MonkeyCrawl/*",
+          "browser": "monkeycrawl",
           "properties": {
             "Browser": "MonkeyCrawl"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeJPBot/2.3*",
+          "browser": "becomejpbot",
           "properties": {
-            "Browser": "BecomeJPBot",
             "Version": "2.3"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeJPBot/*",
+          "browser": "becomejpbot",
           "properties": {
             "Browser": "BecomeJPBot"
           }

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ScoutJet",
+      "browser": "scoutjet",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ScoutJet",
-        "Browser": "ScoutJet",
-        "Browser_Maker": "Blekko Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ScoutJet"
       },
       "children": [
         {

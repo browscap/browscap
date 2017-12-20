@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "WordPress App",
+      "browser": "wordpress app",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WordPress App",
-        "Browser": "WordPress App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "wordpress.org"
+        "Comment": "WordPress App"
       },
       "children": [
         {

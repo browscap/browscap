@@ -7,18 +7,14 @@
   "userAgents": [
     {
       "userAgent": "Apple PubSub #MAJORVER#.#MINORVER#",
+      "browser": "apple pubsub",
       "platform": "OSX",
       "device": "Macintosh",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple PubSub #MAJORVER#.#MINORVER#",
-        "Browser": "Apple PubSub",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Maker": "Apple Inc",
-        "Browser_Type": "Feed Reader",
-        "isSyndicationReader": "true",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

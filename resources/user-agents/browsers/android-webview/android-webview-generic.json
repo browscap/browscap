@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Android WebView Generic",
+      "browser": "android webview",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Android WebView Generic",
-        "Browser": "Android WebView",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Google Inc"
+        "Comment": "Android WebView Generic"
       },
       "children": [
         {
