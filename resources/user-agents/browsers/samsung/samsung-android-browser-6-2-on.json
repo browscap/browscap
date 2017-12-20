@@ -27,6 +27,7 @@
           "platforms": [
             "Android_8_0",
             "Android_7_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0"
           ]
         },
