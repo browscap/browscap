@@ -38,12 +38,18 @@ class UserAgent
     private $device;
 
     /**
+     * @var string|null
+     */
+    private $browser;
+
+    /**
      * @param string      $userAgent
      * @param string[]    $properties
      * @param array[]     $children
      * @param string|null $platform
      * @param string|null $engine
      * @param string|null $device
+     * @param string|null $browser
      */
     public function __construct(
         string $userAgent,
@@ -51,7 +57,8 @@ class UserAgent
         array $children = [],
         ?string $platform = null,
         ?string $engine = null,
-        ?string $device = null
+        ?string $device = null,
+        ?string $browser = null
     ) {
         $this->userAgent  = $userAgent;
         $this->properties = $properties;
@@ -59,6 +66,7 @@ class UserAgent
         $this->platform   = $platform;
         $this->engine     = $engine;
         $this->device     = $device;
+        $this->browser    = $browser;
     }
 
     public function getUserAgent() : string
@@ -89,5 +97,10 @@ class UserAgent
     public function getDevice() : ?string
     {
         return $this->device;
+    }
+
+    public function getBrowser() : ?string
+    {
+        return $this->browser;
     }
 }

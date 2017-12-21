@@ -60,6 +60,7 @@ class DataCollectionFactory
      * @param string $resourceFolder
      *
      * @throws \LogicException
+     * @throws \Assert\AssertionFailedException
      *
      * @return DataCollection
      */
@@ -70,6 +71,9 @@ class DataCollectionFactory
 
         $this->logger->debug('add engine file');
         $this->addEnginesFile($resourceFolder . '/engines.json');
+
+        $this->logger->debug('add browser file');
+        $this->addBrowserFile($resourceFolder . '/browsers.json');
 
         $this->logger->debug('add file for default properties');
         $this->setDefaultProperties($resourceFolder . '/core/default-properties.json');
@@ -110,8 +114,9 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException         if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     * @throws \Assert\AssertionFailedException
      */
     public function addPlatformsFile(string $filename) : void
     {
@@ -135,7 +140,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
      */
     public function addEnginesFile(string $filename) : void
     {
@@ -154,13 +160,38 @@ class DataCollectionFactory
     }
 
     /**
+     * Load a browsers.json file and parse it into the browsers data array, validates these data and creates a
+     * collection of Browser objects
+     *
+     * @param string $filename Name of the file
+     *
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
+     */
+    public function addBrowserFile(string $filename) : void
+    {
+        $decodedFileContent = $this->loadFile($filename);
+
+        Assertion::isArray($decodedFileContent, 'required "browsers" structure has to be an array');
+
+        $browserFactory = new BrowserFactory();
+
+        foreach (array_keys($decodedFileContent) as $browserName) {
+            $browserData = $decodedFileContent[$browserName];
+
+            $this->collection->addBrowser($browserName, $browserFactory->build($browserData, $browserName));
+        }
+    }
+
+    /**
      * Load a devices.json file and parse it into the platforms data array, validates these data and creates a
      * collection of Device objects
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException         if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException        if the properties and the inherits kyewords are missing
+     * @throws \Assert\AssertionFailedException
      */
     public function addDevicesFile(string $filename) : void
     {
@@ -177,9 +208,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException         If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException If required attibutes are missing in the division
+     * @throws \RuntimeException                If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException        If required attibutes are missing in the division
      * @throws \LogicException
+     * @throws \Assert\AssertionFailedException
      */
     public function addSourceFile(string $filename) : void
     {
@@ -201,7 +233,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
      */
     public function setDefaultProperties(string $filename) : void
     {
@@ -222,7 +255,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
      */
     public function setDefaultBrowser(string $filename) : void
     {
@@ -242,6 +276,7 @@ class DataCollectionFactory
      * @param string $filename
      *
      * @throws \RuntimeException
+     * @throws \Assert\AssertionFailedException
      *
      * @return array
      */

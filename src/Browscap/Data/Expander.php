@@ -160,6 +160,21 @@ class Expander
             $deviceProperties = [];
         }
 
+        if (null !== $uaData->getBrowser()) {
+            $browser           = $this->collection->getBrowser($uaData->getBrowser());
+            $browserProperties = $browser->getProperties();
+
+            if (!$browser->isStandard()) {
+                $standard = false;
+            }
+
+            if (!$browser->isLite()) {
+                $lite = false;
+            }
+        } else {
+            $browserProperties = [];
+        }
+
         $ua = $uaData->getUserAgent();
 
         $output = [
@@ -173,6 +188,7 @@ class Expander
                 $platformProperties,
                 $engineProperties,
                 $deviceProperties,
+                $browserProperties,
                 $uaProperties
             ),
         ];
@@ -254,10 +270,26 @@ class Expander
                     $deviceProperties = [];
                 }
 
+                if (array_key_exists('browser', $uaDataChild)) {
+                    $browser           = $this->collection->getBrowser($uaDataChild['browser']);
+                    $browserProperties = $browser->getProperties();
+
+                    if (!$browser->isStandard()) {
+                        $properties['standard'] = false;
+                    }
+
+                    if (!$browser->isLite()) {
+                        $properties['lite'] = false;
+                    }
+                } else {
+                    $browserProperties = [];
+                }
+
                 $properties = array_merge(
                     $properties,
                     $engineProperties,
                     $deviceProperties,
+                    $browserProperties,
                     $platformProperties->getProperties()
                 );
 

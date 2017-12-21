@@ -57,7 +57,7 @@ final class DivisionFactory
         return new Division(
             $divisionData['division'],
             (int) $divisionData['sortIndex'],
-            $this->useragentFactory->build($divisionData['userAgents'], $versions, $isCore),
+            $this->useragentFactory->build($divisionData['userAgents'], $isCore),
             (bool) $divisionData['lite'],
             (bool) $divisionData['standard'],
             $versions,

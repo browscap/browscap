@@ -17,6 +17,11 @@ class DataCollection
     private $engines = [];
 
     /**
+     * @var Browser[]
+     */
+    private $browsers = [];
+
+    /**
      * @var Device[]
      */
     private $devices = [];
@@ -78,6 +83,17 @@ class DataCollection
     public function addEngine(string $engineName, Engine $engine) : void
     {
         $this->engines[$engineName] = $engine;
+
+        $this->divisionsHaveBeenSorted = false;
+    }
+
+    /**
+     * @param string  $browserName Name of the browser
+     * @param Browser $browser
+     */
+    public function addBrowser(string $browserName, Browser $browser) : void
+    {
+        $this->browsers[$browserName] = $browser;
 
         $this->divisionsHaveBeenSorted = false;
     }
@@ -230,6 +246,27 @@ class DataCollection
         }
 
         return $this->engines[$engine];
+    }
+
+    /**
+     * Get a single browser data array
+     *
+     * @param string $browser
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     *
+     * @return Browser
+     */
+    public function getBrowser(string $browser) : Browser
+    {
+        if (!array_key_exists($browser, $this->browsers)) {
+            throw new \OutOfBoundsException(
+                'Browser "' . $browser . '" does not exist in data'
+            );
+        }
+
+        return $this->browsers[$browser];
     }
 
     /**

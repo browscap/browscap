@@ -34,9 +34,7 @@ class UseragentFactoryTest extends TestCase
             ],
         ];
 
-        $allDivisions = [];
-
-        $uas = $this->object->build($userAgentsData, [], true);
+        $uas = $this->object->build($userAgentsData, true);
 
         self::assertInternalType('array', $uas);
 
@@ -61,9 +59,7 @@ class UseragentFactoryTest extends TestCase
             ],
         ];
 
-        $allDivisions = [];
-
-        $uas = $this->object->build($userAgentsData, [], false);
+        $uas = $this->object->build($userAgentsData, false);
 
         self::assertInternalType('array', $uas);
 

@@ -14,8 +14,9 @@ final class PlatformFactory
      * @param array  $dataAllPlatforms The Platform data for all platforms
      * @param string $platformName     The name for the current platform
      *
-     * @throws \RuntimeException         if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     * @throws \Assert\AssertionFailedException
      *
      * @return Platform
      */
