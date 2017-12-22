@@ -1,6 +1,6 @@
 {
   "division": "Apple PubSub #MAJORVER#.#MINORVER#",
-  "versions": ["65.28", "65.21", "65.19", "65.12", "65.11", "65.6", "65.20", "65.1"],
+  "versions": ["65.28", "65.21", "65.20", "65.19", "65.12", "65.11", "65.6", "65.1"],
   "sortIndex": 371,
   "lite": false,
   "standard": true,

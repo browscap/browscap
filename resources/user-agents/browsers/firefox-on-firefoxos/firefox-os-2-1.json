@@ -41,10 +41,10 @@
         },
         {
           "match": "Mozilla/5.0 (Tablet; *rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
           "properties": {
             "isModified": "true"
-          },
-          "device": "general Tablet"
+          }
         }
       ]
     }

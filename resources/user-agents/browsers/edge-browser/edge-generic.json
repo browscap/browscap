@@ -24,26 +24,27 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Anonymisiert durch AlMiSoft Browser-*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/*",
-          "properties": {
-            "isAnonymized": "true"
-          },
           "platforms": [
             "Windows"
-          ]
+          ],
+          "properties": {
+            "isAnonymized": "true"
+          }
         }
       ]
     },
     {
       "userAgent": "Edge Mobile Generic",
       "browser": "edge mobile",
+      "platform": "WinPhone10",
       "engine": "Edge",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Mobile Generic"
@@ -52,7 +53,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Edge/*",
           "platforms": [
-            "WinPhone10", "WinPhone10_Continuum"
+            "WinPhone10_Continuum", "WinPhone10"
           ]
         },
         {
@@ -67,9 +68,9 @@
     {
       "userAgent": "Edge Generic for Android",
       "browser": "edge",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Generic for Android"
@@ -90,9 +91,9 @@
     {
       "userAgent": "Edge Generic for iOS",
       "browser": "edge",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Generic for iOS"

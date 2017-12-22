@@ -135,12 +135,12 @@
         {
           "match": "Opera?#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi/*",
           "device": "general Mobile Phone",
-          "properties": {
-            "Beta": "true"
-          },
           "platforms": [
             "WinMobile"
-          ]
+          ],
+          "properties": {
+            "Beta": "true"
+          }
         },
         {
           "match": "PPC; 240x320; #DEVICE#; OpVer* Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows 6.5; U;*)",

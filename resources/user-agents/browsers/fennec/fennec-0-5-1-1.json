@@ -37,7 +37,8 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32"
+            "WinXPb_32",
+            "WinXPa_32"
           ]
         },
         {
@@ -60,7 +61,8 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32"
+            "WinXPb_32",
+            "WinXPa_32"
           ]
         },
         {

@@ -24,7 +24,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "Windows"
           ]
@@ -34,7 +35,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "Windows"
           ]
@@ -44,7 +46,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "Win98_2",
             "Windows"
@@ -55,7 +58,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "Win98_2",
             "Windows"
@@ -66,7 +70,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "Win98_2",
             "Windows"

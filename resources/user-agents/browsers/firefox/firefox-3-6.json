@@ -20,21 +20,27 @@
           "match": "Mozilla/5.0 (*Linux i686*) Gecko#PLATFORM# Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_08_04", "Ubuntu_10_04", "Ubuntu_10_10", "Ubuntu_12_04"
+            "Ubuntu_12_04",
+            "Ubuntu_10_10", "Ubuntu_10_04",
+            "Ubuntu_08_04"
           ]
         },
         {
           "match": "Mozilla/5.0 (*Linux x86_64*) Gecko#PLATFORM# Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_08_04_64", "Ubuntu_10_04_64", "Ubuntu_10_10_64", "Ubuntu_12_04_64"
+            "Ubuntu_12_04_64",
+            "Ubuntu_10_10_64", "Ubuntu_10_04_64",
+            "Ubuntu_08_04_64"
           ]
         },
         {
           "match": "Mozilla/5.0 (*Linux x86;*) Gecko#PLATFORM# Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_08_04", "Ubuntu_10_04", "Ubuntu_12_04"
+            "Ubuntu_12_04",
+            "Ubuntu_10_04",
+            "Ubuntu_08_04"
           ]
         },
         {
@@ -49,29 +55,36 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000",
-            "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
-            "Vista_x64_2", "Vista_32",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
             "Win7_x64_2", "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
-            "OSX_PPC_10_5", "OSX_PPC_10_4",
-            "MacPPC_3",
-            "OSX"
+            "OSX_PPC_10_5", "OSX_PPC_10_4", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX",
+            "MacPPC_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "FreeBSD_64", "FreeBSD_386",
-            "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "OS2", "NetBSD"
+            "FreeBSD_64", "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS",
+            "OS2",
+            "FreeBSD_386"
           ]
         },
         {
@@ -86,16 +99,20 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_x64_2", "WinXPa_32",
-            "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32", "Win7_x64_2",
-            "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_32",
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox?#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -103,7 +120,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "OS2", "NetBSD"
+            "FreeBSD_64", "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS",
+            "OS2"
           ]
         },
         {
@@ -124,35 +147,45 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Namoroka/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_x64_2", "WinXPa_32",
-            "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32", "Win7_x64_2",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_64", "Win7_32",
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Namoroka/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "NetBSD"
+            "FreeBSD_64", "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Namoroka/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; rv:1.9.2*) Gecko* Firefox anonymized*",
           "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32",
+            "Win7_32"
+          ],
           "properties": {
             "isAnonymized": "true"
-          },
-          "platforms": [
-            "Win7_32", "Win8_32"
-          ]
+          }
         },
         {
           "match": "Mozilla/5.0(#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
@@ -165,7 +198,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_32", "Vista_32", "Win7_x64_2", "Win7_32"
+            "Win7_x64_2", "Win7_32",
+            "Vista_32",
+            "WinXPa_32",
+            "Win2000"
           ]
         },
         {
@@ -179,16 +215,20 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_x64_2", "WinXPa_32",
-            "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32", "Win7_x64_2",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_64", "Win7_32",
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -196,7 +236,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS"
+            "FreeBSD_64", "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS"
           ]
         }
       ]

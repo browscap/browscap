@@ -28,7 +28,8 @@
           "device": "Windows Desktop",
           "platforms": [
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000",
             "NT4",
             "WinME",

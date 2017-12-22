@@ -21,7 +21,8 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",
@@ -43,7 +44,8 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",
@@ -80,7 +82,8 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",

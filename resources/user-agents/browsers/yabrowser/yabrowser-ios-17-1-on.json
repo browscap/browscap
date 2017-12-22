@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["17.9", "17.7", "17.6", "17.4", "17.3", "17.10", "17.1"],
+  "versions": ["17.10", "17.9", "17.7", "17.6", "17.4", "17.3", "17.1"],
   "sortIndex": 1017,
   "lite": false,
   "standard": true,

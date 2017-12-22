@@ -26,10 +26,7 @@
         },
         {
           "match": "Weblide/*",
-          "browser": "weblide",
-          "properties": {
-
-          }
+          "browser": "weblide"
         },
         {
           "match": "WebmasterWorld StickyMail Server Header Checker*",

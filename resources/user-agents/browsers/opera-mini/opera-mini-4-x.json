@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["4.5", "4.4", "4.3", "4.2", "4.1", "4.0"],
+  "versions": ["4.5", "4.4", "4.3", "4.2", "4.1", 4],
   "sortIndex": 1935,
   "lite": false,
   "standard": true,
@@ -60,21 +60,21 @@
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Windows NT*Version/*",
-          "properties": {
-            "isModified": "true"
-          },
           "platforms": [
             "JAVA"
-          ]
+          ],
+          "properties": {
+            "isModified": "true"
+          }
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Mac OS X*Version/*",
-          "properties": {
-            "isModified": "true"
-          },
           "platforms": [
             "JAVA"
-          ]
+          ],
+          "properties": {
+            "isModified": "true"
+          }
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",

@@ -20,7 +20,8 @@
           "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",
@@ -33,7 +34,8 @@
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",
@@ -46,7 +48,8 @@
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Win2000_2", "Win2000",
             "NT4",
             "WinME_2",

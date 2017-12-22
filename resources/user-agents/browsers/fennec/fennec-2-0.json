@@ -27,7 +27,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
-            "AndroidMobile", "Android_F"
+            "Android_F", "AndroidMobile"
           ]
         },
         {
@@ -77,7 +77,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_32"
+            "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
           ]
         }
       ]

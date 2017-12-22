@@ -69,7 +69,8 @@
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Win2000",
             "NT4"
           ]
@@ -82,7 +83,8 @@
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Win2000",
             "NT4"
           ]

@@ -31,7 +31,8 @@
             "Win8_32",
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
@@ -73,7 +74,8 @@
             "Win8_32",
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
@@ -105,7 +107,8 @@
             "Win8_32",
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },

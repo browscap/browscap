@@ -14,17 +14,11 @@
       "children": [
         {
           "match": "Nutch test crawler/Nutch*",
-          "browser": "nutch test crawler",
-          "properties": {
-            "Browser": "Nutch test crawler"
-          }
+          "browser": "nutch test crawler"
         },
         {
           "match": "Mozilla/5.0 (*Windows NT 6.1*WOW64*) Gecko* Firefox/4.0*/Nutch*",
           "browser": "nutch test crawler",
-          "properties": {
-            "Division": "Nutch"
-          },
           "platforms": [
             "Win7_64"
           ]

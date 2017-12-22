@@ -17,7 +17,8 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM#) KomodiaBot/1.0*",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ],
           "properties": {
@@ -27,7 +28,8 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM#) KomodiaBot/*",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },

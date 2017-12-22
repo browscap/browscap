@@ -76,7 +76,8 @@
           "device": "Windows Desktop",
           "platforms": [
             "Vista_32",
-            "WinXPa_32", "WinXPb_32"
+            "WinXPb_32",
+            "WinXPa_32"
           ]
         },
         {
