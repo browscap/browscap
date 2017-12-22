@@ -25,7 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isSyndicationReader' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,

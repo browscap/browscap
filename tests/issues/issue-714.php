@@ -25,7 +25,6 @@ return [
             'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => true,
-            'isSyndicationReader' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -43,20 +42,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-714 (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Debian/7.8 (3.8.2.0-0rpi21rpi1) Epiphany/3.8.2',
-        'properties' => [
-            'Comment' => 'Safari 6.0',
-            'Browser' => 'Safari',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '6.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
 ];

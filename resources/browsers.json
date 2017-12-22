@@ -1239,7 +1239,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "android download manager": {
@@ -3827,6 +3827,17 @@
         "lite": false,
         "standard": true
     },
+    "charlotte (searchme.com)": {
+        "properties": {
+            "Browser": "Charlotte",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "searchme.com",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
     "charon": {
         "properties": {
             "Browser": "Charon",
@@ -3968,8 +3979,8 @@
             "Crawler": "false",
             "JavaApplets": "false"
         },
-        "lite": false,
-        "standard": false
+        "lite": true,
+        "standard": true
     },
     "chromeplus": {
         "properties": {
@@ -3990,7 +4001,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "cipinetbot": {
@@ -7686,7 +7697,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "firefox focus": {
@@ -10393,7 +10404,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "ie offline browser": {
@@ -10426,7 +10437,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "iexplore.exe": {
@@ -14041,7 +14052,7 @@
         "properties": {
             "Browser": "MojeekBot",
             "Browser_Type": "Bot/Crawler",
-            "Browser_Maker": "unknown",
+            "Browser_Maker": "Mojeek Ltd.",
             "isSyndicationReader": "false",
             "Crawler": "true"
         },
@@ -14358,7 +14369,7 @@
     },
     "msnbot-academic": {
         "properties": {
-            "Browser": "MSNBot-Academic",
+            "Browser": "msnbot-Academic",
             "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Microsoft Corporation",
             "isSyndicationReader": "false",
@@ -14391,7 +14402,7 @@
     },
     "msnbot-news": {
         "properties": {
-            "Browser": "MSNBot-News",
+            "Browser": "msnbot-News",
             "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Microsoft Corporation",
             "isSyndicationReader": "false",
@@ -14402,7 +14413,7 @@
     },
     "msnbot-newsblogs": {
         "properties": {
-            "Browser": "MSNBot-NewsBlogs",
+            "Browser": "msnbot-NewsBlogs",
             "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Microsoft Corporation",
             "isSyndicationReader": "false",
@@ -16223,7 +16234,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": false,
+        "lite": true,
         "standard": true
     },
     "opera mini": {
@@ -16256,7 +16267,7 @@
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
-        "lite": true,
+        "lite": false,
         "standard": true
     },
     "opmlviewer network fetcher": {
@@ -16658,7 +16669,7 @@
     "pandora": {
         "properties": {
             "Browser": "Pandora",
-            "Browser_Type": "Bot/Crawler",
+            "Browser_Type": "Multimedia Player",
             "Browser_Maker": "unknown",
             "isSyndicationReader": "false",
             "Crawler": "true"
@@ -19249,7 +19260,7 @@
             "Crawler": "false"
         },
         "lite": false,
-        "standard": false
+        "standard": true
     },
     "search engine world html validator": {
         "properties": {
@@ -20223,7 +20234,7 @@
         "properties": {
             "Browser": "Sleipnir",
             "Browser_Type": "Browser",
-            "Browser_Maker": "unknown",
+            "Browser_Maker": "Fenrir Inc",
             "isSyndicationReader": "false",
             "Crawler": "false"
         },
@@ -22610,7 +22621,7 @@
         "properties": {
             "Browser": "Twingly Recon",
             "Browser_Type": "Bot/Crawler",
-            "Browser_Maker": "unknown",
+            "Browser_Maker": "Twingly AB",
             "isSyndicationReader": "false",
             "Crawler": "true"
         },
@@ -24106,7 +24117,7 @@
         "properties": {
             "Browser": "WebCorp",
             "Browser_Type": "Bot/Crawler",
-            "Browser_Maker": "unknown",
+            "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University",
             "isSyndicationReader": "false",
             "Crawler": "true"
         },

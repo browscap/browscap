@@ -20,7 +20,8 @@
             "Win7_64"
           ],
           "properties": {
-            "Version": "0.6"
+            "Version": "0.6",
+            "Beta": "true"
           }
         }
       ]

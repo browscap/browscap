@@ -424,6 +424,13 @@
         {
           "match": "Pandora/*",
           "browser": "pandora"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* Pandora/*",
+          "browser": "pandora",
+          "platforms": [
+            "OSX"
+          ]
         }
       ]
     }

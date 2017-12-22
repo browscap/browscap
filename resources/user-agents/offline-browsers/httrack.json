@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "HTTrack",
+      "browser": "httrack",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "HTTrack"

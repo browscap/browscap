@@ -2,7 +2,7 @@
   "division": "Opera Neon #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 1043,
-  "lite": true,
+  "lite": false,
   "standard": true,
   "userAgents": [
     {

@@ -1,7 +1,7 @@
 {
   "division": "Opera Neon Generic",
   "sortIndex": 1044,
-  "lite": true,
+  "lite": false,
   "standard": true,
   "userAgents": [
     {

@@ -334,7 +334,7 @@
         },
         {
           "match": "Mozilla/5.0 *Charlotte/*searchme.com/support/*",
-          "browser": "charlotte",
+          "browser": "charlotte (searchme.com)",
           "properties": {
             "Comment": "Charlotte (searchme.com bot)"
           }

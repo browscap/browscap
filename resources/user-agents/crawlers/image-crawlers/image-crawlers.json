@@ -63,10 +63,6 @@
           "browser": "kaloogabot"
         },
         {
-          "match": "Mozilla/5.0 (Macintosh; U; *Mac OS X; *) applewebkit* (*) Pandora/2.*",
-          "browser": "pandora"
-        },
-        {
           "match": "naoFavicon4IE*",
           "browser": "naofavicon4ie"
         },
