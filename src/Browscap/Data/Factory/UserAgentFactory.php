@@ -12,10 +12,6 @@ class UserAgentFactory
      * @param array[] $userAgentsData
      * @param bool    $isCore
      *
-     * @throws \RuntimeException If the file does not exist or has invalid JSON
-     * @throws \LogicException   If required attibutes are missing in the division
-     * @throws \LogicException
-     *
      * @return UserAgent[]
      */
     public function build(array $userAgentsData, bool $isCore) : array

@@ -5,6 +5,15 @@
       "lite": true,
       "standard": true,
       "properties": {
+        "Platform": "unknown",
+        "Platform_Description": "unknown",
+        "Platform_Maker": "unknown",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "0",
+        "Platform_Bits": "0"
       }
     },
     "ChromeOS": {
@@ -293,6 +302,8 @@
       "standard": true,
       "inherits": "OSX",
       "properties": {
+        "Platform": "macOS",
+        "Platform_Description": "macOS",
         "Platform_Version": "10.12"
       }
     },

@@ -18,6 +18,11 @@ class UseragentFactoryTest extends TestCase
         $this->object = new UserAgentFactory();
     }
 
+    /**
+     * @throws \LogicException
+     * @throws \PHPUnit\Framework\Exception
+     * @throws \RuntimeException
+     */
     public function testBuildOkCore() : void
     {
         $userAgentsData = [
@@ -43,6 +48,11 @@ class UseragentFactoryTest extends TestCase
         }
     }
 
+    /**
+     * @throws \LogicException
+     * @throws \PHPUnit\Framework\Exception
+     * @throws \RuntimeException
+     */
     public function testBuildOkNotCore() : void
     {
         $userAgentsData = [

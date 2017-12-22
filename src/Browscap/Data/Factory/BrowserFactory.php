@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
+use Assert\Assertion;
 use Browscap\Data\Browser;
 
 class BrowserFactory
@@ -13,26 +14,20 @@ class BrowserFactory
      * @param string $browserName
      *
      * @throws \RuntimeException if the file does not exist or has invalid JSON
-     *
      * @return \Browscap\Data\Browser
+     * @throws \Assert\AssertionFailedException
      */
     public function build(array $browserData, $browserName)
     {
-        if (!isset($browserData['properties'])) {
+        if (!isset($browserData['properties']) || !is_array($browserData['properties'])) {
             $browserData['properties'] = [];
         }
 
-        if (!array_key_exists('standard', $browserData)) {
-            throw new \UnexpectedValueException(
-                'the value for "standard" key is missing for browser "' . $browserName . '"'
-            );
-        }
+        Assertion::keyExists($browserData, 'standard', 'the value for "standard" key is missing for browser "' . $browserName . '"');
+        Assertion::boolean($browserData['standard']);
 
-        if (!array_key_exists('lite', $browserData)) {
-            throw new \UnexpectedValueException(
-                'the value for "lite" key is missing for browser "' . $browserName . '"'
-            );
-        }
+        Assertion::keyExists($browserData, 'lite', 'the value for "lite" key is missing for browser "' . $browserName . '"');
+        Assertion::boolean($browserData['lite']);
 
         return new Browser($browserData['properties'], $browserData['lite'], $browserData['standard']);
     }

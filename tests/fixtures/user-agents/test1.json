@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "2345 Browser #MAJORVER#.#MINORVER#",
+      "browser": "2345 browser",
       "platform": "Platform1",
       "engine": "Foo",
       "device": "unknown",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "2345 Browser #MAJORVER#.#MINORVER#",
-        "Browser": "2345 Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "unknown",
         "Version": "#MAJORVER#.#MINORVER#",
         "Frames": "true",
         "IFrames": "true",

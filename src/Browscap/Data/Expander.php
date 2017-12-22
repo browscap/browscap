@@ -48,8 +48,8 @@ class Expander
      * @param string   $divisionName
      *
      * @throws \UnexpectedValueException
-     *
      * @return array
+     * @throws \OutOfBoundsException
      */
     public function expand(Division $division, string $divisionName) : array
     {
@@ -71,6 +71,7 @@ class Expander
             'useragent' => '',
             'platform' => '',
             'device' => '',
+            'browser' => '',
             'child' => '',
         ];
     }
@@ -82,6 +83,8 @@ class Expander
      * @param string   $divisionName
      *
      * @return array
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      */
     private function parseDivision(Division $division, string $divisionName) : array
     {
@@ -119,6 +122,8 @@ class Expander
      * @param string    $divisionName
      *
      * @return array
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      */
     private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
@@ -161,6 +166,7 @@ class Expander
         }
 
         if (null !== $uaData->getBrowser()) {
+            $this->patternId['browser'] = $uaData->getBrowser();
             $browser           = $this->collection->getBrowser($uaData->getBrowser());
             $browserProperties = $browser->getProperties();
 
@@ -173,6 +179,7 @@ class Expander
             }
         } else {
             $browserProperties = [];
+            $this->patternId['browser'] = '';
         }
 
         $ua = $uaData->getUserAgent();
@@ -196,6 +203,7 @@ class Expander
         $i = 0;
         foreach ($uaData->getChildren() as $child) {
             $this->patternId['child'] = $i;
+
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
@@ -204,6 +212,7 @@ class Expander
                     $subChild['match']         = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
                     $subChild['device']        = $deviceName;
                     unset($subChild['devices']);
+
                     $output = array_merge(
                         $output,
                         $this->parseChildren($ua, $subChild, $lite, $standard)
@@ -211,11 +220,13 @@ class Expander
                 }
             } else {
                 $this->patternId['device'] = '';
+
                 $output                    = array_merge(
                     $output,
                     $this->parseChildren($ua, $child, $lite, $standard)
                 );
             }
+
             ++$i;
         }
 
@@ -231,6 +242,8 @@ class Expander
      * @param bool   $standard
      *
      * @return array
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
@@ -255,6 +268,7 @@ class Expander
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine           = $this->collection->getEngine($uaDataChild['engine']);
                     $engineProperties = $engine->getProperties();
+                    $this->patternId['engine'] = $uaDataChild['engine'];
                 } else {
                     $engineProperties = [];
                 }
@@ -311,6 +325,7 @@ class Expander
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine           = $this->collection->getEngine($uaDataChild['engine']);
                 $engineProperties = $engine->getProperties();
+                $this->patternId['engine'] = $uaDataChild['engine'];
             } else {
                 $engineProperties = [];
             }
@@ -326,7 +341,22 @@ class Expander
                 $deviceProperties = [];
             }
 
-            $properties = array_merge($properties, $engineProperties, $deviceProperties);
+            if (array_key_exists('browser', $uaDataChild)) {
+                $browser           = $this->collection->getBrowser($uaDataChild['browser']);
+                $browserProperties = $browser->getProperties();
+
+                if (!$browser->isStandard()) {
+                    $properties['standard'] = false;
+                }
+
+                if (!$browser->isLite()) {
+                    $properties['lite'] = false;
+                }
+            } else {
+                $browserProperties = [];
+            }
+
+            $properties = array_merge($properties, $engineProperties, $deviceProperties, $browserProperties);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
@@ -342,6 +372,11 @@ class Expander
             $output[$uaBase] = $properties;
         }
 
+        if ('DoggCatcher/1.2*' === $uaDataChild['match']) {
+            var_dump($uaDataChild, $output, $properties);
+
+        }
+
         return $output;
     }
 
@@ -353,12 +388,13 @@ class Expander
     private function getPatternId() : string
     {
         return sprintf(
-            '%s::u%d::c%d::d%s::p%s',
+            '%s::u%d::c%d::d%s::p%s::b%s',
             $this->patternId['division'],
             $this->patternId['useragent'],
             $this->patternId['child'],
             $this->patternId['device'],
-            $this->patternId['platform']
+            $this->patternId['platform'],
+            $this->patternId['browser']
         );
     }
 

@@ -34,9 +34,6 @@ final class DivisionFactory
      * @param string $filename
      * @param bool   $isCore
      *
-     * @throws \UnexpectedValueException If required attibutes are missing in the division
-     * @throws \LogicException
-     *
      * @return Division
      */
     public function build(
@@ -48,10 +45,6 @@ final class DivisionFactory
             $versions = $divisionData['versions'];
         } else {
             $versions = ['0.0'];
-        }
-
-        if (1 < count($divisionData['userAgents'])) {
-            $this->logger->info('division "' . $divisionData['division'] . '" has more than one "userAgents" section, try to separate them');
         }
 
         return new Division(

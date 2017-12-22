@@ -59,10 +59,10 @@ class DataCollectionFactory
      *
      * @param string $resourceFolder
      *
-     * @throws \LogicException
-     * @throws \Assert\AssertionFailedException
-     *
      * @return DataCollection
+     * @throws \Assert\AssertionFailedException
+     * @throws \RuntimeException
+     * @throws \UnexpectedValueException
      */
     public function createDataCollection(string $resourceFolder) : DataCollection
     {
@@ -178,6 +178,7 @@ class DataCollectionFactory
 
         foreach (array_keys($decodedFileContent) as $browserName) {
             $browserData = $decodedFileContent[$browserName];
+            $browserName = (string) $browserName;
 
             $this->collection->addBrowser($browserName, $browserFactory->build($browserData, $browserName));
         }
@@ -189,9 +190,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException        if the properties and the inherits kyewords are missing
      * @throws \Assert\AssertionFailedException
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addDevicesFile(string $filename) : void
     {
@@ -208,10 +208,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException        If required attibutes are missing in the division
-     * @throws \LogicException
      * @throws \Assert\AssertionFailedException
+     * @throws \RuntimeException If the file does not exist or has invalid JSON
      */
     public function addSourceFile(string $filename) : void
     {
@@ -233,8 +231,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
      * @throws \Assert\AssertionFailedException
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function setDefaultProperties(string $filename) : void
     {
@@ -255,8 +253,8 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
      * @throws \Assert\AssertionFailedException
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function setDefaultBrowser(string $filename) : void
     {

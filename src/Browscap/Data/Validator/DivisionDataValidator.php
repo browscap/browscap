@@ -15,6 +15,7 @@ class DivisionDataValidator implements ValidatorInterface
      * @param bool   $isCore
      *
      * @throws \Assert\AssertionFailedException
+     * @throws \LogicException
      */
     public function validate(
         array $divisionData,
@@ -64,6 +65,7 @@ class DivisionDataValidator implements ValidatorInterface
      * @param int    $index
      *
      * @throws \Assert\AssertionFailedException
+     * @throws \LogicException
      */
     private function validateUserAgentSection(
         array $useragentData,
@@ -170,6 +172,12 @@ class DivisionDataValidator implements ValidatorInterface
             $useragentData['properties'],
             'the properties array contains device data for key "' . $useragentData['userAgent']
             . '", please use the "device" keyword'
+        );
+
+        $this->checkBrowserProperties(
+            $useragentData['properties'],
+            'the properties array contains browser data for key "' . $useragentData['userAgent']
+            . '", please use the "browser" keyword'
         );
 
         $this->checkDeprecatedProperties(
@@ -337,6 +345,12 @@ class DivisionDataValidator implements ValidatorInterface
                 . '", please use the "device" or the "devices" keyword'
             );
 
+            $this->checkBrowserProperties(
+                $childData['properties'],
+                'the properties array contains browser data for key "' . $childData['match']
+                . '", please use the "browser" keyword'
+            );
+
             $this->checkDeprecatedProperties(
                 $childData['properties'],
                 'the properties array contains deprecated properties for key "' . $childData['match'] . '"'
@@ -408,6 +422,26 @@ class DivisionDataValidator implements ValidatorInterface
             || array_key_exists('Device_Brand_Name', $properties)
             || array_key_exists('isMobileDevice', $properties)
             || array_key_exists('isTablet', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if device properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    public function checkBrowserProperties(array $properties, string $message) : void
+    {
+        if (array_key_exists('Browser', $properties)
+            || array_key_exists('Browser_Type', $properties)
+            || array_key_exists('Browser_Maker', $properties)
+            || array_key_exists('isSyndicationReader', $properties)
+            || array_key_exists('Crawler', $properties)
         ) {
             throw new \LogicException($message);
         }
