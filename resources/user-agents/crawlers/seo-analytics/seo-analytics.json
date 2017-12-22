@@ -32,7 +32,8 @@
           "match": "Mozilla/5.0 (compatible; SiteExplorer/1.0b;*",
           "browser": "siteexplorer",
           "properties": {
-            "Version": "1.0b"            "Beta": "true"
+            "Version": "1.0b",
+            "Beta": "true"
           }
         },
         {

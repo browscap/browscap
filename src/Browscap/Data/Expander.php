@@ -372,11 +372,6 @@ class Expander
             $output[$uaBase] = $properties;
         }
 
-        if ('DoggCatcher/1.2*' === $uaDataChild['match']) {
-            var_dump($uaDataChild, $output, $properties);
-
-        }
-
         return $output;
     }
 
