@@ -70,7 +70,6 @@ foreach ($invalidUserAgents as $issue => $ua) {
             'Platform_Maker' => 'unknown',
             'Alpha' => false,
             'Beta' => false,
-            'isSyndicationReader' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
