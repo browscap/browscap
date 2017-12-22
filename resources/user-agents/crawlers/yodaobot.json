@@ -39,24 +39,15 @@
         },
         {
           "match": "Best Whois (http://www.bestwhois.net/)",
-          "browser": "best whois",
-          "properties": {
-            "Browser": "Best Whois"
-          }
+          "browser": "best whois"
         },
         {
           "match": "DNSGroup/*",
-          "browser": "dns group crawler",
-          "properties": {
-            "Browser": "DNS Group Crawler"
-          }
+          "browser": "dns group crawler"
         },
         {
           "match": "TouchStone",
-          "browser": "touchstone",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "touchstone"
         }
       ]
     }

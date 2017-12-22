@@ -20,14 +20,18 @@
           "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_4_1", "iOS_A_6_0", "iOS_A"
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_A_4_1", "iOS_A_6_0", "iOS_A"
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
           ]
         },
         {

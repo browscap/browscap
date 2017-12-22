@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Bloglines Title Fetch/*",
-          "browser": "bloglines title fetch",
-          "properties": {
-            "Browser": "Bloglines Title Fetch"
-          }
+          "browser": "bloglines title fetch"
         },
         {
           "match": "Bloglines/3.1*",
@@ -35,31 +32,19 @@
         },
         {
           "match": "Bloglines/*",
-          "browser": "bloglines web",
-          "properties": {
-            "Browser": "BlogLines Web"
-          }
+          "browser": "bloglines web"
         },
         {
           "match": "BlogPulse (ISSpider-3.*)",
-          "browser": "blogpulse",
-          "properties": {
-            "Browser": "BlogPulse"
-          }
+          "browser": "blogpulse"
         },
         {
           "match": "BlogPulseLive (support@blogpulse.com)",
-          "browser": "blogpulselive",
-          "properties": {
-            "Browser": "BlogPulseLive"
-          }
+          "browser": "blogpulselive"
         },
         {
           "match": "blogsearchbot-pumpkin-2",
-          "browser": "blogsearchbot-pumpkin",
-          "properties": {
-            "isSyndicationReader": "false"
-          }
+          "browser": "blogsearchbot-pumpkin"
         },
         {
           "match": "Irish Blogs Aggregator/*1.0*",
@@ -70,24 +55,15 @@
         },
         {
           "match": "kinjabot (http://www.kinja.com; *)",
-          "browser": "kinjabot",
-          "properties": {
-            "Browser": "kinjabot"
-          }
+          "browser": "kinjabot"
         },
         {
           "match": "Net::Trackback/*",
-          "browser": "net::trackback",
-          "properties": {
-            "Browser": "Net::Trackback"
-          }
+          "browser": "net::trackback"
         },
         {
           "match": "Reblog*",
-          "browser": "reblog",
-          "properties": {
-            "Browser": "Reblog"
-          }
+          "browser": "reblog"
         },
         {
           "match": "Bloglovin/1.0*",
@@ -98,17 +74,11 @@
         },
         {
           "match": "Bloglovin/*",
-          "browser": "bloglovin bot",
-          "properties": {
-            "Browser_Maker": "bloglovin.com"
-          }
+          "browser": "bloglovin bot"
         },
         {
           "match": "wp.com feedbot/* (+https://wp.com)",
-          "browser": "wordpress.com feed bot",
-          "properties": {
-            "Browser_Maker": "Wordpress"
-          }
+          "browser": "wordpress.com feed bot"
         }
       ]
     }

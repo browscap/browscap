@@ -23,8 +23,8 @@
         },
         {
           "match": "Mozilla/* (PLAYSTATION 3*",
-          "device": "Sony PS3",
           "engine": "NetFront",
+          "device": "Sony PS3",
           "platforms": [
             "CellOS"
           ]
@@ -39,8 +39,8 @@
       "userAgent": "Playstation Vita",
       "browser": "playstation browser",
       "platform": "PS_Vita",
-      "device": "Sony PS Vita",
       "engine": "WebKit",
+      "device": "Sony PS Vita",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PlayStation Vita"
@@ -80,18 +80,12 @@
         {
           "match": "Mozilla/* (PSP (PlayStation Portable)*)",
           "browser": "sony psp",
-          "device": "Sony PSP",
-          "properties": {
-            "Browser": "Sony PSP"
-          }
+          "device": "Sony PSP"
         },
         {
           "match": "Sony PS2 (Linux)",
           "browser": "sony ps2",
           "device": "Sony PS2",
-          "properties": {
-            "Browser": "Sony PS2"
-          },
           "platforms": [
             "Linux"
           ]

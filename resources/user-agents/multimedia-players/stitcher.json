@@ -164,9 +164,9 @@
     {
       "userAgent": "Stitcher for Android",
       "browser": "stitcher",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Stitcher"

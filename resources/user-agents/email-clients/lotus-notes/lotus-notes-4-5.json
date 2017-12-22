@@ -8,8 +8,8 @@
     {
       "userAgent": "Lotus Notes #MAJORVER#.#MINORVER#",
       "browser": "lotus notes",
-      "device": "Windows Desktop",
       "platform": "NT",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes #MAJORVER#.#MINORVER#",

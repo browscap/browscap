@@ -14,45 +14,27 @@
       "children": [
         {
           "match": "A1 Website Download/1.* (*) miggibot",
-          "browser": "a1 website download",
-          "properties": {
-            "Browser": "A1 Website Download"
-          }
+          "browser": "a1 website download"
         },
         {
           "match": "AutoMate5",
-          "browser": "automate5",
-          "properties": {
-            "Browser": "AutoMate5"
-          }
+          "browser": "automate5"
         },
         {
           "match": "Beamer*",
-          "browser": "beamer",
-          "properties": {
-            "Browser": "Beamer"
-          }
+          "browser": "beamer"
         },
         {
           "match": "BitBeamer/*",
-          "browser": "bitbeamer",
-          "properties": {
-            "Browser": "BitBeamer"
-          }
+          "browser": "bitbeamer"
         },
         {
           "match": "DA *",
-          "browser": "download accelerator",
-          "properties": {
-            "Browser": "Download Accelerator"
-          }
+          "browser": "download accelerator"
         },
         {
           "match": "DAP *",
-          "browser": "download accelerator plus",
-          "properties": {
-            "Browser": "Download Accelerator Plus"
-          }
+          "browser": "download accelerator plus"
         },
         {
           "match": "masscan/1.0*",
@@ -63,353 +45,203 @@
         },
         {
           "match": "masscan/*",
-          "browser": "download accelerator",
-          "properties": {
-            "Browser": "Download Accelerator"
-          }
+          "browser": "download accelerator"
         },
         {
           "match": "Download Demon*",
-          "browser": "download demon",
-          "properties": {
-            "Browser": "Download Demon"
-          }
+          "browser": "download demon"
         },
         {
           "match": "Download Express*",
-          "browser": "download express",
-          "properties": {
-            "Browser": "Download Express"
-          }
+          "browser": "download express"
         },
         {
           "match": "Download Master*",
-          "browser": "download master",
-          "properties": {
-            "Browser": "Download Master"
-          }
+          "browser": "download master"
         },
         {
           "match": "Download Ninja*",
-          "browser": "download ninja",
-          "properties": {
-            "Browser": "Download Ninja"
-          }
+          "browser": "download ninja"
         },
         {
           "match": "Download Wonder*",
-          "browser": "download wonder",
-          "properties": {
-            "Browser": "Download Wonder"
-          }
+          "browser": "download wonder"
         },
         {
           "match": "DownloadSession*",
-          "browser": "downloadsession",
-          "properties": {
-            "Browser": "DownloadSession"
-          }
+          "browser": "downloadsession"
         },
         {
           "match": "EasyDL/*",
-          "browser": "easydl",
-          "properties": {
-            "Browser": "EasyDL"
-          }
+          "browser": "easydl"
         },
         {
           "match": "FDM 1.x",
-          "browser": "free download manager",
-          "properties": {
-            "Browser": "Free Download Manager"
-          }
+          "browser": "free download manager"
         },
         {
           "match": "FlashGet",
-          "browser": "flashget",
-          "properties": {
-            "Browser": "FlashGet"
-          }
+          "browser": "flashget"
         },
         {
           "match": "FreshDownload/*",
-          "browser": "freshdownload",
-          "properties": {
-            "Browser": "FreshDownload"
-          }
+          "browser": "freshdownload"
         },
         {
           "match": "GetRight/*",
-          "browser": "getright",
-          "properties": {
-            "Browser": "GetRight"
-          }
+          "browser": "getright"
         },
         {
           "match": "GetRightPro/*",
-          "browser": "getrightpro",
-          "properties": {
-            "Browser": "GetRightPro"
-          }
+          "browser": "getrightpro"
         },
         {
           "match": "GetSmart/*",
-          "browser": "getsmart",
-          "properties": {
-            "Browser": "GetSmart"
-          }
+          "browser": "getsmart"
         },
         {
           "match": "Go!Zilla*",
-          "browser": "gozilla",
-          "properties": {
-            "Browser": "GoZilla"
-          }
+          "browser": "gozilla"
         },
         {
           "match": "Gozilla/*",
-          "browser": "gozilla",
-          "properties": {
-            "Browser": "Gozilla"
-          }
+          "browser": "gozilla"
         },
         {
           "match": "Internet Ninja*",
-          "browser": "internet ninja",
-          "properties": {
-            "Browser": "Internet Ninja"
-          }
+          "browser": "internet ninja"
         },
         {
           "match": "Kontiki Client*",
-          "browser": "kontiki client",
-          "properties": {
-            "Browser": "Kontiki Client"
-          }
+          "browser": "kontiki client"
         },
         {
           "match": "LightningDownload/*",
-          "browser": "lightningdownload",
-          "properties": {
-            "Browser": "LightningDownload"
-          }
+          "browser": "lightningdownload"
         },
         {
           "match": "LMQueueBot/*",
-          "browser": "lmqueuebot",
-          "properties": {
-            "Browser": "LMQueueBot"
-          }
+          "browser": "lmqueuebot"
         },
         {
           "match": "MetaProducts Download Express/*",
-          "browser": "download express",
-          "properties": {
-            "Browser": "Download Express"
-          }
+          "browser": "download express"
         },
         {
           "match": "Mozilla/4.0 (compatible; Getleft*)",
-          "browser": "getleft",
-          "properties": {
-            "Browser": "Getleft"
-          }
+          "browser": "getleft"
         },
         {
           "match": "Myzilla",
-          "browser": "myzilla",
-          "properties": {
-            "Browser": "Myzilla"
-          }
+          "browser": "myzilla"
         },
         {
           "match": "Net Vampire/*",
-          "browser": "net vampire",
-          "properties": {
-            "Browser": "Net Vampire"
-          }
+          "browser": "net vampire"
         },
         {
           "match": "Net_Vampire*",
-          "browser": "net_vampire",
-          "properties": {
-            "Browser": "Net_Vampire"
-          }
+          "browser": "net_vampire"
         },
         {
           "match": "NetAnts*",
-          "browser": "netants",
-          "properties": {
-            "Browser": "NetAnts"
-          }
+          "browser": "netants"
         },
         {
           "match": "NetPumper*",
-          "browser": "netpumper",
-          "properties": {
-            "Browser": "NetPumper"
-          }
+          "browser": "netpumper"
         },
         {
           "match": "NetSucker*",
-          "browser": "netsucker",
-          "properties": {
-            "Browser": "NetSucker"
-          }
+          "browser": "netsucker"
         },
         {
           "match": "NetZip Downloader*",
-          "browser": "netzip downloader",
-          "properties": {
-            "Browser": "NetZip Downloader"
-          }
+          "browser": "netzip downloader"
         },
         {
           "match": "NexTools WebAgent*",
-          "browser": "nextools webagent",
-          "properties": {
-            "Browser": "NexTools WebAgent"
-          }
+          "browser": "nextools webagent"
         },
         {
           "match": "Offline Downloader*",
-          "browser": "offline downloader",
-          "properties": {
-            "Browser": "Offline Downloader"
-          }
+          "browser": "offline downloader"
         },
         {
           "match": "P3P Client",
-          "browser": "p3p client",
-          "properties": {
-            "Browser": "P3P Client"
-          }
+          "browser": "p3p client"
         },
         {
           "match": "PageDown*",
-          "browser": "pagedown",
-          "properties": {
-            "Browser": "PageDown"
-          }
+          "browser": "pagedown"
         },
         {
           "match": "PicaLoader*",
-          "browser": "picaloader",
-          "properties": {
-            "Browser": "PicaLoader"
-          }
+          "browser": "picaloader"
         },
         {
           "match": "Prozilla*",
-          "browser": "prozilla",
-          "properties": {
-            "Browser": "Prozilla"
-          }
+          "browser": "prozilla"
         },
         {
           "match": "RealDownload/*",
-          "browser": "realdownload",
-          "properties": {
-            "Browser": "RealDownload"
-          }
+          "browser": "realdownload"
         },
         {
           "match": "sEasyDL/*",
-          "browser": "easydl",
-          "properties": {
-            "Browser": "EasyDL"
-          }
+          "browser": "easydl"
         },
         {
           "match": "shareaza*",
-          "browser": "shareaza",
-          "properties": {
-            "Browser": "shareaza"
-          }
+          "browser": "shareaza"
         },
         {
           "match": "SmartDownload/*",
-          "browser": "smartdownload",
-          "properties": {
-            "Browser": "SmartDownload"
-          }
+          "browser": "smartdownload"
         },
         {
           "match": "SpeedDownload/*",
-          "browser": "speed download",
-          "properties": {
-            "Browser": "Speed Download"
-          }
+          "browser": "speed download"
         },
         {
           "match": "Star*Downloader/*",
-          "browser": "stardownloader",
-          "properties": {
-            "Browser": "StarDownloader"
-          }
+          "browser": "stardownloader"
         },
         {
           "match": "STEROID Download",
-          "browser": "steroid download",
-          "properties": {
-            "Browser": "STEROID Download"
-          }
+          "browser": "steroid download"
         },
         {
           "match": "SuperBot/*",
-          "browser": "superbot",
-          "properties": {
-            "Browser": "SuperBot"
-          }
+          "browser": "superbot"
         },
         {
           "match": "Vegas95/*",
-          "browser": "vegas95",
-          "properties": {
-            "Browser": "Vegas95"
-          }
+          "browser": "vegas95"
         },
         {
           "match": "WebZIP*",
-          "browser": "webzip",
-          "properties": {
-            "Browser": "WebZIP"
-          }
+          "browser": "webzip"
         },
         {
           "match": "WinTools",
-          "browser": "wintools",
-          "properties": {
-            "Browser": "WinTools"
-          }
+          "browser": "wintools"
         },
         {
           "match": "Xaldon WebSpider*",
-          "browser": "xaldon webspider",
-          "properties": {
-            "Browser": "Xaldon WebSpider"
-          }
+          "browser": "xaldon webspider"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Downloader/* MyComGameCenter/* Safari/*",
-          "browser": "mycomgamecenter downloader",
-          "properties": {
-            "Browser_Maker": "My.com"
-          }
+          "browser": "mycomgamecenter downloader"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*; QQDownload *",
-          "browser": "qqdownload",
-          "properties": {
-            "Browser_Maker": "Tencent Ltd."
-          }
+          "browser": "qqdownload"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; QQDownload *",
-          "browser": "qqdownload",
-          "properties": {
-            "Browser_Maker": "Tencent Ltd."
-          }
+          "browser": "qqdownload"
         }
       ]
     }

@@ -19,10 +19,7 @@
           }
         },
         {
-          "match": "A6-Indexer*",
-          "properties": {
-
-          }
+          "match": "A6-Indexer*"
         }
       ]
     }

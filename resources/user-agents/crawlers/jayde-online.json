@@ -21,31 +21,19 @@
         },
         {
           "match": "ExactSeek Crawler/*",
-          "browser": "exactseek crawler",
-          "properties": {
-            "Browser": "ExactSeek Crawler"
-          }
+          "browser": "exactseek crawler"
         },
         {
           "match": "exactseek-pagereaper-* (crawler@exactseek.com)",
-          "browser": "exactseek-pagereaper",
-          "properties": {
-            "Browser": "exactseek-pagereaper"
-          }
+          "browser": "exactseek-pagereaper"
         },
         {
           "match": "exactseek.com",
-          "browser": "exactseek.com",
-          "properties": {
-            "Browser": "exactseek.com"
-          }
+          "browser": "exactseek.com"
         },
         {
           "match": "Jayde Crawler*",
-          "browser": "jayde crawler",
-          "properties": {
-            "Browser": "Jayde Crawler"
-          }
+          "browser": "jayde crawler"
         }
       ]
     }

@@ -8,8 +8,8 @@
     {
       "userAgent": "SohuNews App #MAJORVER#.#MINORVER# for Android",
       "browser": "sohunews app",
-      "engine": "Blink",
       "platform": "Android",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -29,7 +29,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_6_0", "Android"
+            "Android_6_0",
+            "Android"
           ]
         }
       ]

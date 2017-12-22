@@ -20,13 +20,13 @@
         {
           "match": "The Diary/1.1* (iPad; #PLATFORM#",
           "device": "iPad",
-          "properties": {
-            "Version": "1.1"
-          },
           "platforms": [
             "iOS_C_5_1",
             "iOS_C"
-          ]
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
         },
         {
           "match": "The Diary/* (iPad; #PLATFORM#",

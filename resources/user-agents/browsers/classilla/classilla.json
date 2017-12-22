@@ -7,9 +7,9 @@
     {
       "userAgent": "Classilla",
       "browser": "classilla",
+      "platform": "MacPPC",
       "engine": "Gecko",
       "device": "Macintosh",
-      "platform": "MacPPC",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Classilla"
@@ -18,20 +18,20 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko*Firefox*Classilla*",
           "platforms": [
-            "MacPPC", "MacPPC_3"
+            "MacPPC_3", "MacPPC"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko*Classilla*",
           "platforms": [
-            "MacPPC", "MacPPC_3"
+            "MacPPC_3", "MacPPC"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Clecko*Classilla*",
           "engine": "Clecko",
           "platforms": [
-            "MacPPC", "MacPPC_3"
+            "MacPPC_3", "MacPPC"
           ]
         }
       ]

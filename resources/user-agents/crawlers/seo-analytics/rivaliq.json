@@ -7,9 +7,9 @@
     {
       "userAgent": "Rival IQ Bot",
       "browser": "rival iq bot",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rival IQ Bot"

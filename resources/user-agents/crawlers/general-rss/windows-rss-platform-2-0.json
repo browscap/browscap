@@ -19,7 +19,11 @@
         {
           "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; #PLATFORM#)",
           "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+            "Win8_1_32",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32"
           ]
         },
         {
@@ -31,7 +35,9 @@
         {
           "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (IE *; #PLATFORM#",
           "platforms": [
-            "Win7_32", "Win8_32", "Win8_1_32"
+            "Win8_1_32",
+            "Win8_32",
+            "Win7_32"
           ]
         },
         {

@@ -35,8 +35,8 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "browser": "safari",
-      "device": "general Mobile Phone",
       "platform": "SymbianOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

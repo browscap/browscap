@@ -80,10 +80,7 @@
         },
         {
           "match": "Core_Class_HttpClient_Cached",
-          "browser": "core_class_httpclient_cached",
-          "properties": {
-            "Browser": "Core_Class_HttpClient_Cached"
-          }
+          "browser": "core_class_httpclient_cached"
         }
       ]
     }

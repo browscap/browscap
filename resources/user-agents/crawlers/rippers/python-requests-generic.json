@@ -21,9 +21,7 @@
           "match": "python-requests/* CPython/#PLATFORM#",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64",
-            "Linux_64_amd",
-            "Linux"
+            "Linux_64_amd", "Linux_64", "Linux"
           ]
         },
         {

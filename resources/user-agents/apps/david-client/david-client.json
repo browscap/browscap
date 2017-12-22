@@ -8,8 +8,8 @@
       "userAgent": "David Client",
       "browser": "david client",
       "platform": "Windows",
-      "device": "Windows Desktop",
       "engine": "Trident_7",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "David Client",

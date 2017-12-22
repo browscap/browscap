@@ -18,7 +18,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Miro/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },
@@ -53,10 +54,7 @@
           "match": "Miro/*",
           "browser": "miro",
           "engine": "unknown",
-          "device": "unknown",
-          "properties": {
-            "Browser": "Miro"
-          }
+          "device": "unknown"
         }
       ]
     }

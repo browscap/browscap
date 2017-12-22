@@ -8,9 +8,9 @@
     {
       "userAgent": "Sogou Mobile #MAJORVER#.#MINORVER# for Android",
       "browser": "sogou mobile",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",
@@ -58,9 +58,9 @@
     {
       "userAgent": "Sogou Mobile #MAJORVER#.#MINORVER# for iOS",
       "browser": "sogou mobile",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",

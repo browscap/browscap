@@ -7,8 +7,8 @@
     {
       "userAgent": "Bing Local Search",
       "browser": "bing local search bot",
-      "device": "Windows Desktop",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Bing Local Search Bot"

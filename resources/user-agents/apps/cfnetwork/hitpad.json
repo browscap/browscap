@@ -19,12 +19,12 @@
       "children": [
         {
           "match": "Hitpad/1.4* CFNetwork/*",
-          "properties": {
-            "Version": "1.4"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.4"
+          }
         },
         {
           "match": "Hitpad* CFNetwork/*",

@@ -15,33 +15,39 @@
         {
           "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
           "device": "iPad",
+          "platforms": [
+            "iOS_E_8_0",
+            "iOS_E_7_1"
+          ],
           "properties": {
             "Version": "2.4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
+          }
         },
         {
           "match": "FeeddlerRSS 2.4 (#PLATFORM#)",
+          "platforms": [
+            "iOS_E_8_0",
+            "iOS_E_7_1",
+            "iOS_E"
+          ],
           "properties": {
             "Version": "2.4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
+          }
         },
         {
           "match": "FeeddlerRSS * (iPad#PLATFORM#)",
           "device": "iPad",
           "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_8_0",
+            "iOS_E_7_1"
           ]
         },
         {
           "match": "FeeddlerRSS * (#PLATFORM#)",
           "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_8_0",
+            "iOS_E_7_1",
+            "iOS_E"
           ]
         }
       ]

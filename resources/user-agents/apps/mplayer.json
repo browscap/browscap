@@ -28,10 +28,7 @@
         },
         {
           "match": "MPlayer HEAD CVS",
-          "browser": "mplayer",
-          "properties": {
-            "Browser": "MPlayer"
-          }
+          "browser": "mplayer"
         }
       ]
     }

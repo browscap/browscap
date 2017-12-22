@@ -7,9 +7,9 @@
     {
       "userAgent": "Girafabot",
       "browser": "girafabot",
-      "device": "Windows Desktop",
-      "engine": "Trident_4",
       "platform": "Windows",
+      "engine": "Trident_4",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Girafabot"
@@ -18,87 +18,87 @@
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
           "platforms": [
-            "NT4",
-            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
           "platforms": [
-            "NT4",
-            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_x64_3", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
           "engine": "Trident",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
           "engine": "Trident",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Girafabot*",
           "engine": "Trident_5",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Girafabot*",
           "engine": "Trident_5",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Girafabot*",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Girafabot*",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Girafabot*",
           "engine": "Trident",
           "platforms": [
-            "NT4", "Win2000",
-            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "Win2000",
+            "NT4"
           ]
         }
       ]

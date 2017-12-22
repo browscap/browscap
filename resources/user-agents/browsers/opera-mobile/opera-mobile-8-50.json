@@ -19,7 +19,8 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinCE", "SymbianOS", "SymbianOS_D"
+            "WinCE",
+            "SymbianOS", "SymbianOS_D"
           ]
         },
         {

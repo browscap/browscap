@@ -87,12 +87,12 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "AdTab 7 Lite": "Adspec AdTab 7 Lite",
             "Lenovo A606": "Lenovo A606",
             "Oysters T72M 3G": "Oysters T72M 3G"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
@@ -122,10 +122,10 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0"
@@ -133,20 +133,20 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "MI NOTE Pro": "Xiaomi MI NOTE Pro"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_5_0",
             "Android_4_4"
@@ -198,12 +198,12 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "ALCATEL ONE TOUCH 5035D": "Alcatel OT-5035D",
             "HTC Desire 300": "HTC Desire 300",
             "HTC Desire 600c dual sim": "HTC Desire 600c"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]

@@ -8,9 +8,9 @@
     {
       "userAgent": "Sailfish Browser #MAJORVER#.#MINORVER#",
       "browser": "sailfish browser",
+      "platform": "SailfishOS",
       "engine": "Gecko",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SailfishOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sailfish Browser #MAJORVER#.#MINORVER#",

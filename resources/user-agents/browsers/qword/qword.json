@@ -8,9 +8,9 @@
     {
       "userAgent": "Qword Browser #MAJORVER#.#MINORVER#",
       "browser": "qword browser",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qword Browser #MAJORVER#.#MINORVER#",

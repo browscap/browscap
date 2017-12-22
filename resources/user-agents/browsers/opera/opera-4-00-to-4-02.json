@@ -22,8 +22,12 @@
             "Win7_32",
             "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -40,15 +44,20 @@
             "Win7_32",
             "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         },
         {
@@ -72,16 +81,21 @@
             "Win7_32",
             "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "Windows"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "Windows",
+            "WinME"
           ]
         },
         {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         }
       ]

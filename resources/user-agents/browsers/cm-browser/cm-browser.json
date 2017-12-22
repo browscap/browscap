@@ -120,7 +120,8 @@
             "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
-            "Android_5_0", "Android_4_4"
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {

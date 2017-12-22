@@ -7,9 +7,9 @@
     {
       "userAgent": "open-webkit-sharp",
       "browser": "open-webkit-sharp",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "open-webkit-sharp"
@@ -18,10 +18,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OpenWebKitSharp*",
           "platforms": [
-            "WinXPa_32",
-            "Vista_x64", "Vista_64", "Vista_32",
+            "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32"
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_32"
           ]
         }
       ]

@@ -25,7 +25,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Prism/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_6", "OSX"
+            "OSX_10_6",
+            "OSX"
           ]
         },
         {

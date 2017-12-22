@@ -7,8 +7,8 @@
     {
       "userAgent": "SoundCloud App Generic for Android",
       "browser": "soundcloud app",
-      "engine": "WebKit",
       "platform": "Android",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

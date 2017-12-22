@@ -1,6 +1,6 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
-  "versions": ["7.0"],
+  "versions": [7],
   "sortIndex": 1720,
   "lite": false,
   "standard": false,
@@ -13,9 +13,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -241,25 +241,27 @@
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident/3.1; IEMobile?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7", "WinPhone"
+            "WinPhone7",
+            "WinPhone"
           ]
         },
         {
           "match": "Mozilla/4.0 (*compatible*;*MSIE 7.0; #PLATFORM# Trident/3.1; IEMobile?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7", "WinPhone"
+            "WinPhone7",
+            "WinPhone"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1; XBLWP7; ZuneWP7)",
           "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "WinPhone75"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

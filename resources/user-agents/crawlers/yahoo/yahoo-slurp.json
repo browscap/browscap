@@ -23,49 +23,34 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*)",
-          "browser": "yahoo! slurp china",
-          "properties": {
-            "Browser": "Yahoo! Slurp China"
-          }
+          "browser": "yahoo! slurp china"
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! DE Slurp; http://help.yahoo.com/help/us/ysearch/slurp)",
-          "browser": "yahoo! directory engine",
-          "properties": {
-            "Browser": "Yahoo! Directory Engine"
-          }
+          "browser": "yahoo! directory engine"
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*;*http://misc.yahoo.com.cn/help.html)",
-          "browser": "yahoo! slurp china",
-          "properties": {
-            "Browser": "Yahoo! Slurp China"
-          }
+          "browser": "yahoo! slurp china"
         },
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! Slurp*;*http://help.yahoo.com/help/us/ysearch/slurp*"
         },
         {
           "match": "Yahoo! Slurp/Site Explorer",
-          "browser": "yahoo! site explorer",
-          "properties": {
-            "Browser": "Yahoo! Site Explorer"
-          }
+          "browser": "yahoo! site explorer"
         },
         {
           "match": "Yahoo! Slurp China",
-          "browser": "yahoo! slurp china",
-          "properties": {
-            "Browser": "Yahoo! Slurp China"
-          }
+          "browser": "yahoo! slurp china"
         },
         {
           "match": "slurp"
         },
         {
           "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile (compatible; Yahoo! Slurp*",
-          "device": "iPhone",
           "engine": "WebKit",
+          "device": "iPhone",
           "platforms": [
             "iOS_A_7_1",
             "iOS_A"
@@ -73,8 +58,8 @@
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Mobile (compatible; Yahoo! Slurp*",
-          "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A",
             "iOS_C"

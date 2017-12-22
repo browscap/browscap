@@ -27,7 +27,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "WinME"
           ]
         },
         {
@@ -48,14 +52,19 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Flock/#MAJORVER#.#MINORVER#* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Flock/#MAJORVER#.#MINORVER#* Firefox/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_PPC", "OSX"
+            "OSX_PPC",
+            "OSX"
           ]
         },
         {
@@ -69,7 +78,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Flock/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "WinME"
           ]
         },
         {

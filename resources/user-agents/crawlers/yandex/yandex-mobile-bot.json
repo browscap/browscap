@@ -8,9 +8,9 @@
     {
       "userAgent": "YandexMobileBot #MAJORVER#.#MINORVER#",
       "browser": "yandex mobile bot",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Mobile Bot #MAJORVER#.#MINORVER#",

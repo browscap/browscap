@@ -9,8 +9,8 @@
       "userAgent": "Apple PubSub #MAJORVER#",
       "browser": "apple pubsub",
       "platform": "OSX",
-      "device": "Macintosh",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple PubSub #MAJORVER#",

@@ -7,8 +7,8 @@
     {
       "userAgent": "UR Browser Generic",
       "browser": "ur browser",
-      "device": "Windows Desktop",
       "engine": "Blink",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UR Browser Generic"
@@ -17,11 +17,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Chrome/* UR*/*",
           "platforms": [
-            "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
             "Windows"
           ]
         },
@@ -29,18 +30,20 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Chrome/* UR*/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* UR*/* Safari/*",
           "platforms": [
-            "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
             "Windows"
           ]
         },
@@ -48,7 +51,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* UR*/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         }

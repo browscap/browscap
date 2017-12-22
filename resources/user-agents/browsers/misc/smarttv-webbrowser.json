@@ -28,8 +28,8 @@
       "userAgent": "SmartTV WebBrowser Webkit",
       "browser": "smarttv webbrowser",
       "platform": "Linux",
-      "device": "Smart-TV",
       "engine": "WebKit",
+      "device": "Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
@@ -45,30 +45,30 @@
         },
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.1* Safari/*",
-          "properties": {
-            "Version": "5.1"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "5.1"
+          }
         },
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.0* Safari/*",
-          "properties": {
-            "Version": "5.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "5.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/4.0* Safari/*",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         }
       ]
     }

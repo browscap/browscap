@@ -27,7 +27,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
-            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1", "Tizen"
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1",
+            "Tizen"
           ]
         }
       ]

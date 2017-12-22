@@ -8,9 +8,9 @@
     {
       "userAgent": "Applebot #MAJORVER#.#MINORVER#",
       "browser": "applebot",
-      "device": "Macintosh",
       "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Applebot #MAJORVER#.#MINORVER#",
@@ -21,8 +21,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (*Applebot/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "iOS_A",
-            "OSX"
+            "OSX",
+            "iOS_A"
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
   "division": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
-  "versions": ["5.1", "5.0", "4.2", "4.1", 4, "3.2"],
+  "versions": ["5.1", 5, "4.2", "4.1", 4, "3.2"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
@@ -8,9 +8,9 @@
     {
       "userAgent": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
       "browser": "seznam browser",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Tablet",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Seznam Browser #MAJORVER#.#MINORVER#",

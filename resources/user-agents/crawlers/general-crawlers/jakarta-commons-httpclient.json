@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Wepbot/*(*)*Jakarta Commons-HttpClient/*",
-          "browser": "wepbot",
-          "properties": {
-            "Browser": "Wepbot"
-          }
+          "browser": "wepbot"
         },
         {
           "match": "Jakarta Commons-HttpClient/3.0*",

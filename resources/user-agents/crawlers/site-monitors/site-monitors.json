@@ -14,52 +14,31 @@
       "children": [
         {
           "match": "*EasyRider*",
-          "browser": "easyrider",
-          "properties": {
-            "Browser": "EasyRider"
-          }
+          "browser": "easyrider"
         },
         {
           "match": "*maxamine.com--robot*",
-          "browser": "maxamine.com--robot",
-          "properties": {
-            "Browser": "maxamine.com--robot"
-          }
+          "browser": "maxamine.com--robot"
         },
         {
           "match": "*WebMon ?.*",
-          "browser": "webmon",
-          "properties": {
-            "Browser": "WebMon"
-          }
+          "browser": "webmon"
         },
         {
           "match": "Kenjin Spider*",
-          "browser": "kenjin spider",
-          "properties": {
-            "Browser": "Kenjin Spider"
-          }
+          "browser": "kenjin spider"
         },
         {
           "match": "Kevin http://*",
-          "browser": "kevin",
-          "properties": {
-            "Browser": "Kevin"
-          }
+          "browser": "kevin"
         },
         {
           "match": "Mozilla/4.0 (compatible; ChangeDetection/*",
-          "browser": "changedetection",
-          "properties": {
-            "Browser": "ChangeDetection"
-          }
+          "browser": "changedetection"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *;  http://www.changedetection.com/bot.html*",
-          "browser": "changedetection",
-          "properties": {
-            "Browser": "ChangeDetection"
-          }
+          "browser": "changedetection"
         },
         {
           "match": "Mozilla/5.0 (compatible; Chirp/1.0; +http://www.binarycanary.com/chirp.cfm)",
@@ -84,94 +63,55 @@
         },
         {
           "match": "Mozilla/5.0?(compatible; UptimeRobot/*",
-          "browser": "uptimerobot",
-          "properties": {
-            "Browser": "UptimeRobot"
-          }
+          "browser": "uptimerobot"
         },
         {
           "match": "Myst Monitor Service v*",
-          "browser": "myst monitor service",
-          "properties": {
-            "Browser": "Myst Monitor Service"
-          }
+          "browser": "myst monitor service"
         },
         {
           "match": "Net Probe",
-          "browser": "net probe",
-          "properties": {
-            "Browser": "Net Probe"
-          }
+          "browser": "net probe"
         },
         {
           "match": "NetMechanic*",
-          "browser": "netmechanic",
-          "properties": {
-            "Browser": "NetMechanic"
-          }
+          "browser": "netmechanic"
         },
         {
           "match": "NetReality*",
-          "browser": "netreality",
-          "properties": {
-            "Browser": "NetReality"
-          }
+          "browser": "netreality"
         },
         {
           "match": "Site Valet Online*",
-          "browser": "site valet",
-          "properties": {
-            "Browser": "Site Valet"
-          }
+          "browser": "site valet"
         },
         {
           "match": "SITECHECKER",
-          "browser": "sitechecker",
-          "properties": {
-            "Browser": "SITECHECKER"
-          }
+          "browser": "sitechecker"
         },
         {
           "match": "sitemonitor@dnsvr.com/*",
-          "browser": "zoneedit failover monitor",
-          "properties": {
-            "Browser": "ZoneEdit Failover Monitor"
-          }
+          "browser": "zoneedit failover monitor"
         },
         {
           "match": "UpTime Checker*",
-          "browser": "uptime checker",
-          "properties": {
-            "Browser": "UpTime Checker"
-          }
+          "browser": "uptime checker"
         },
         {
           "match": "URL Control*",
-          "browser": "url control",
-          "properties": {
-            "Browser": "URL Control"
-          }
+          "browser": "url control"
         },
         {
           "match": "URL_Access/*",
-          "browser": "url_access",
-          "properties": {
-            "Browser": "URL_Access"
-          }
+          "browser": "url_access"
         },
         {
           "match": "URLCHECK",
-          "browser": "urlcheck",
-          "properties": {
-            "Browser": "URLCHECK"
-          }
+          "browser": "urlcheck"
         },
         {
           "match": "URLy Warning*",
-          "browser": "urly warning",
-          "properties": {
-            "Browser": "URLy Warning"
-          }
+          "browser": "urly warning"
         },
         {
           "match": "Webcheck *",
@@ -182,24 +122,15 @@
         },
         {
           "match": "WebPatrol/*",
-          "browser": "webpatrol",
-          "properties": {
-            "Browser": "WebPatrol"
-          }
+          "browser": "webpatrol"
         },
         {
           "match": "websitepulse checker/*",
-          "browser": "websitepulse checker",
-          "properties": {
-            "Browser": "websitepulse checker"
-          }
+          "browser": "websitepulse checker"
         },
         {
           "match": "Mozilla/5.0 (compatible; Chirp/*; +http://www.binarycanary.com/chirp.cfm)",
-          "browser": "binarycanary",
-          "properties": {
-            "Browser": "BinaryCanary"
-          }
+          "browser": "binarycanary"
         },
         {
           "match": "Mozilla/5.0 (Windows*) applewebkit* (*khtml*like*gecko*) Bromium Safari/1.0*",
@@ -210,185 +141,107 @@
         },
         {
           "match": "Mozilla/5.0 (Windows*) applewebkit* (*khtml*like*gecko*) Bromium Safari/*",
-          "browser": "vsentry",
-          "properties": {
-            "Browser_Maker": "Bromium"
-          }
+          "browser": "vsentry"
         },
         {
           "match": "Astute SRM*",
-          "browser": "astute social",
-          "properties": {
-            "Browser_Maker": "Astute Solutions"
-          }
+          "browser": "astute social"
         },
         {
           "match": "Mozilla/5.0 (compatible; PRTG Network Monitor*",
-          "browser": "prtg network monitor",
-          "properties": {
-            "Browser_Maker": "Paessler AG"
-          }
+          "browser": "prtg network monitor"
         },
         {
           "match": "NewRelicPinger/*",
-          "browser": "new relic pinger",
-          "properties": {
-            "Browser_Maker": "New Relic"
-          }
+          "browser": "new relic pinger"
         },
         {
           "match": "montastic-monitor http://www.montastic.com",
-          "browser": "montastic monitor",
-          "properties": {
-            "Browser_Maker": "Montastic"
-          }
+          "browser": "montastic monitor"
         },
         {
           "match": "Mozilla/5.0 (compatible; PingAdmin.Ru/*",
-          "browser": "pingadmin.ru monitor",
-          "properties": {
-            "Browser_Maker": "PingAdmin.ru"
-          }
+          "browser": "pingadmin.ru monitor"
         },
         {
           "match": "Mozilla/5.0 (*Linux*) applewebkit/* (*khtml*like*gecko*) Chrome/* Safari/* http://notifyninja.com*",
-          "browser": "notify ninja monitor",
-          "properties": {
-            "Browser_Maker": "Notify Ninja"
-          }
+          "browser": "notify ninja monitor"
         },
         {
           "match": "Testomatobot/* (* +http://www.testomato.com/testomatobot) minicrawler/*",
-          "browser": "testomato bot",
-          "properties": {
-            "Browser_Maker": "Testomato"
-          }
+          "browser": "testomato bot"
         },
         {
           "match": "404 Checker*",
-          "browser": "404 checker",
-          "properties": {
-            "Browser_Maker": "Drop Web Solutions"
-          }
+          "browser": "404 checker"
         },
         {
           "match": "agentslug.com - website monitoring tool",
-          "browser": "agent slug bot",
-          "properties": {
-            "Browser_Maker": "eskalacja"
-          }
+          "browser": "agent slug bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; Windows *; www.alertra.com)",
-          "browser": "alertra monitor",
-          "properties": {
-            "Browser_Maker": "Alertra"
-          }
+          "browser": "alertra monitor"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows *; www.alertra.com)",
-          "browser": "alertra monitor",
-          "properties": {
-            "Browser_Maker": "Alertra"
-          }
+          "browser": "alertra monitor"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* YottaaMonitor",
-          "browser": "yottaa monitor",
-          "properties": {
-            "Browser_Maker": "Yottaa"
-          }
+          "browser": "yottaa monitor"
         },
         {
           "match": "Mozilla/5.0 (Windows; U; Windows NT *; en-US; rv:*) Gecko/* Firefox/* YottaaMonitor",
-          "browser": "yottaa monitor",
-          "properties": {
-            "Browser_Maker": "Yottaa"
-          }
+          "browser": "yottaa monitor"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64; GTmetrix http*://gtmetrix.com/) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "browser": "gtmetrix monitor",
-          "properties": {
-            "Browser_Maker": "GTmetrix"
-          }
+          "browser": "gtmetrix monitor"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android *; * Build/*; GTmetrix http*://gtmetrix.com/) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "browser": "gtmetrix monitor",
-          "properties": {
-            "Browser_Maker": "GTmetrix"
-          }
+          "browser": "gtmetrix monitor"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux *x86_64; rv:*; GTmetrix http*://gtmetrix.com/) Gecko/20100101 Firefox/*",
-          "browser": "gtmetrix monitor",
-          "properties": {
-            "Browser_Maker": "GTmetrix"
-          }
+          "browser": "gtmetrix monitor"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (StatusCake*)",
-          "browser": "statuscake monitor",
-          "properties": {
-            "Browser_Maker": "StatusCake"
-          }
+          "browser": "statuscake monitor"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *; Neustar WPM) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "browser": "neustar web page monitor",
-          "properties": {
-            "Browser_Maker": "Neustar"
-          }
+          "browser": "neustar web page monitor"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android *; * Build/*; Neustar WPM) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/*",
-          "browser": "neustar web page monitor",
-          "properties": {
-            "Browser_Maker": "Neustar"
-          }
+          "browser": "neustar web page monitor"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *; rv:*; Neustar WPM) Gecko/20100101 Firefox/*",
-          "browser": "neustar web page monitor",
-          "properties": {
-            "Browser_Maker": "Neustar"
-          }
+          "browser": "neustar web page monitor"
         },
         {
           "match": "Mozilla/5.0 (* like Mac OS X; Neustar WPM) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/*",
-          "browser": "neustar web page monitor",
-          "properties": {
-            "Browser_Maker": "Neustar"
-          }
+          "browser": "neustar web page monitor"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64; rv:*) Gecko/20100101 Firefox/* Ghost Inspector",
-          "browser": "ghost inspector test runner",
-          "properties": {
-            "Browser_Maker": "Ghost Inspector"
-          }
+          "browser": "ghost inspector test runner"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Safari/* Ghost Inspector",
-          "browser": "ghost inspector test runner",
-          "properties": {
-            "Browser_Maker": "Ghost Inspector"
-          }
+          "browser": "ghost inspector test runner"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko*) Version/* Safari/*; Shoppimon Analyzer (http://www.shoppimon.com/)",
-          "browser": "shoppimon analyzer",
-          "properties": {
-            "Browser_Maker": "shoppimon.com"
-          }
+          "browser": "shoppimon analyzer"
         },
         {
           "match": "Mozilla/3.0 (compatible; WebMon *; Windows XP)",
-          "browser": "webmon monitor",
-          "properties": {
-            "Browser_Maker": "webmon.com"
-          }
+          "browser": "webmon monitor"
         }
       ]
     }

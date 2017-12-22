@@ -7,9 +7,9 @@
     {
       "userAgent": "PagePeeker Screenshot Maker",
       "browser": "pagepeeker screenshot maker",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PagePeeker Screenshot Maker"

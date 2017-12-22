@@ -7,9 +7,9 @@
     {
       "userAgent": "WebClip App",
       "browser": "webclip app",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebClip App",
@@ -20,7 +20,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebClip/*Safari/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }

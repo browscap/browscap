@@ -1,6 +1,6 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
-  "versions": ["5.0"],
+  "versions": [5],
   "sortIndex": 1907,
   "lite": true,
   "standard": true,
@@ -26,21 +26,18 @@
         },
         {
           "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "HTC/Sensation": "HTC Z710"
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "HTC_DesireHD_A9191": "HTC Desire HD A9191",
             "HTC_EVO3D_X515m": "HTC X515m",
@@ -54,7 +51,10 @@
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

@@ -7,9 +7,9 @@
     {
       "userAgent": "Instagram App Generic for iOS",
       "browser": "instagram app",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App Generic"
@@ -63,8 +63,8 @@
     {
       "userAgent": "Instagram App Generic for Android",
       "browser": "instagram app",
-      "engine": "Blink",
       "platform": "Android",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

@@ -21,7 +21,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*)*Arora/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "Windows"
           ]
         },
         {
@@ -42,7 +46,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Arora/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "Windows"
           ]
         },
         {

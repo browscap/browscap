@@ -7,8 +7,8 @@
     {
       "userAgent": "Windows Media Player",
       "browser": "windows media player",
-      "device": "Windows Desktop",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player"

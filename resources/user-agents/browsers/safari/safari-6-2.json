@@ -8,9 +8,9 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
       "browser": "safari",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

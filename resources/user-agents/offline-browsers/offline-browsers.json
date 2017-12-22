@@ -14,52 +14,31 @@
       "children": [
         {
           "match": "*Check&Get*",
-          "browser": "check&get",
-          "properties": {
-            "Browser": "Check&Get"
-          }
+          "browser": "check&get"
         },
         {
           "match": "*MSIECrawler*",
-          "browser": "ie offline browser",
-          "properties": {
-            "Browser": "IE Offline Browser"
-          }
+          "browser": "ie offline browser"
         },
         {
           "match": "*TweakMASTER*",
-          "browser": "tweakmaster",
-          "properties": {
-            "Browser": "TweakMASTER"
-          }
+          "browser": "tweakmaster"
         },
         {
           "match": "BackStreet Browser *",
-          "browser": "backstreet browser",
-          "properties": {
-            "Browser": "BackStreet Browser"
-          }
+          "browser": "backstreet browser"
         },
         {
           "match": "Go-Ahead-Got-It*",
-          "browser": "go ahead got-it",
-          "properties": {
-            "Browser": "Go Ahead Got-It"
-          }
+          "browser": "go ahead got-it"
         },
         {
           "match": "iGetter/*",
-          "browser": "igetter",
-          "properties": {
-            "Browser": "iGetter"
-          }
+          "browser": "igetter"
         },
         {
           "match": "Teleport*",
-          "browser": "teleport",
-          "properties": {
-            "Browser": "Teleport"
-          }
+          "browser": "teleport"
         }
       ]
     }

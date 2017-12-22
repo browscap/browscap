@@ -35,10 +35,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Scrubby/*",
-          "browser": "scrubby",
-          "properties": {
-            "Browser_Maker": "ScrubTheWeb"
-          }
+          "browser": "scrubby"
         },
         {
           "match": "Scrubby/2.2*",

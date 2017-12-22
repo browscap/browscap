@@ -19,12 +19,12 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) qutebrowser/0.2* Safari/*",
-          "properties": {
-            "Version": "0.2"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "0.2"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) qutebrowser/* Safari/*",

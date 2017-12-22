@@ -19,12 +19,12 @@
         {
           "match": "Microsoft Office OneNote 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office OneNote 2013",

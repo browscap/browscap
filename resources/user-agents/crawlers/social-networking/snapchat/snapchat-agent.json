@@ -8,8 +8,8 @@
     {
       "userAgent": "Snapchat Agent #MAJORVER#.#MINORVER#",
       "browser": "snapchat agent",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",

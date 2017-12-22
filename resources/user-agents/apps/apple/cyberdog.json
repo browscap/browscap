@@ -17,21 +17,21 @@
       "children": [
         {
           "match": "Cyberdog/2.0 (Macintosh; PPC)*",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "MacPPC"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Cyberdog/2.0 (Macintosh; 68k)*",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Mac68K"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         }
       ]
     }

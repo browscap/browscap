@@ -60,58 +60,58 @@
         {
           "match": "Opera/* (Nintendo DSi* Opera/*; *; *)",
           "engine": "Presto_2_0",
+          "device": "Nintendo DSi",
           "platforms": [
             "NintendoDSi_OS"
-          ],
-          "device": "Nintendo DSi"
+          ]
         },
         {
           "match": "Opera/9.50 (Nintendo DSi* Opera/*)",
           "engine": "Presto_2_0",
+          "device": "Nintendo DSi",
           "platforms": [
             "NintendoDSi_OS"
-          ],
-          "device": "Nintendo DSi"
+          ]
         },
         {
           "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) *NintendoBrowser/*",
           "engine": "WebKit",
+          "device": "Nintendo Switch",
           "platforms": [
             "NintendoSwitch_OS"
-          ],
-          "device": "Nintendo Switch"
+          ]
         },
         {
           "match": "Mozilla/5.0 (Nintendo 3DS*) Version/*",
           "engine": "WebKit",
+          "device": "Nintendo 3DS",
           "platforms": [
             "Nintendo3DS_OS"
-          ],
-          "device": "Nintendo 3DS"
+          ]
         },
         {
           "match": "Mozilla/5.0 (New Nintendo 3DS *) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
           "engine": "WebKit",
+          "device": "New Nintendo 3DS",
           "platforms": [
             "Nintendo3DS_OS"
-          ],
-          "device": "New Nintendo 3DS"
+          ]
         },
         {
           "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
           "engine": "WebKit",
+          "device": "Nintendo WiiU",
           "platforms": [
             "NintendoWiiU_OS"
-          ],
-          "device": "Nintendo WiiU"
+          ]
         },
         {
           "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *",
           "engine": "WebKit",
+          "device": "Nintendo WiiU",
           "platforms": [
             "NintendoWiiU_OS"
-          ],
-          "device": "Nintendo WiiU"
+          ]
         }
       ]
     }

@@ -14,31 +14,19 @@
       "children": [
         {
           "match": "Mozilla/2.0 (compatible; Ask Jeeves/Teoma*",
-          "browser": "teoma",
-          "properties": {
-            "Browser": "Teoma"
-          }
+          "browser": "teoma"
         },
         {
           "match": "Mozilla/2.0 (compatible; Ask Jeeves*",
-          "browser": "ask jeeves",
-          "properties": {
-            "Browser": "Ask Jeeves"
-          }
+          "browser": "ask jeeves"
         },
         {
           "match": "*Mozilla/2.0 (compatible; Ask Jeeves/Teoma*",
-          "browser": "teoma",
-          "properties": {
-            "Browser": "Teoma"
-          }
+          "browser": "teoma"
         },
         {
           "match": "*Mozilla/2.0 (compatible; Ask Jeeves*",
-          "browser": "ask jeeves",
-          "properties": {
-            "Browser": "Ask Jeeves"
-          }
+          "browser": "ask jeeves"
         }
       ]
     }

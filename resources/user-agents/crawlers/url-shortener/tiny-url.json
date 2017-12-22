@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Rome Client (http://tinyurl.com/64t5n) Ver: 0.*",
-          "browser": "tinyurl",
-          "properties": {
-            "Browser": "TinyURL"
-          }
+          "browser": "tinyurl"
         }
       ]
     }

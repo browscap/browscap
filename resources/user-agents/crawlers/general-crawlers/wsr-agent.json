@@ -1,0 +1,27 @@
+{
+  "division": "WSR-Agent",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WSR-Agent",
+      "browser": "wsr-agent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WSR-Agent"
+      },
+      "children": [
+        {
+          "match": "wsr-agent/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "wsr-agent/*"
+        }
+      ]
+    }
+  ]
+}

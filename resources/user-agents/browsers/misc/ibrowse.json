@@ -48,12 +48,12 @@
         },
         {
           "match": "IBrowse/2.2 (Windows 3.1)",
-          "properties": {
-            "Version": "2.2"
-          },
           "platforms": [
             "Win3.1"
-          ]
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
         },
         {
           "match": "IBrowse/2.3 (AmigaOS *)",
@@ -63,30 +63,30 @@
         },
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.1 (AmigaOS 3.1)",
-          "properties": {
-            "Version": "2.1"
-          },
           "platforms": [
             "Win98"
-          ]
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
         },
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.2 (AmigaOS 3.1)",
-          "properties": {
-            "Version": "2.2"
-          },
           "platforms": [
             "Win98"
-          ]
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
         },
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.3 (AmigaOS 3.1)",
-          "properties": {
-            "Version": "2.3"
-          },
           "platforms": [
             "Win98"
-          ]
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
         },
         {
           "match": "IBrowse/2.4 (AmigaOS *)",
@@ -103,12 +103,12 @@
         {
           "match": "iBrowse/2.60 CFNetwork/*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2.6"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "2.6"
+          }
         }
       ]
     }

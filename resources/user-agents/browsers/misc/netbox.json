@@ -7,8 +7,8 @@
     {
       "userAgent": "Netbox",
       "browser": "netbox",
-      "device": "Sony Netbox",
       "platform": "Linux",
+      "device": "Sony Netbox",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netbox"

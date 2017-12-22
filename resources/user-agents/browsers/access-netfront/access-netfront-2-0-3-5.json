@@ -40,7 +40,8 @@
           "match": "NetFront/#MAJORVER#.#MINORVER#*(#PLATFORM#",
           "device": "general Mobile Device",
           "platforms": [
-            "Brew_3_1", "Brew"
+            "Brew_3_1",
+            "Brew"
           ]
         },
         {

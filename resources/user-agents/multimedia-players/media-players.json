@@ -14,49 +14,34 @@
       "children": [
         {
           "match": "Microsoft NetShow(TM) Player with RealVideo(R)",
-          "browser": "microsoft netshow",
-          "properties": {
-            "Browser": "Microsoft NetShow"
-          }
+          "browser": "microsoft netshow"
         },
         {
           "match": "RMA/*",
-          "browser": "rma",
-          "properties": {
-            "Browser": "RMA"
-          }
+          "browser": "rma"
         },
         {
           "match": "vobsub",
-          "browser": "vobsub",
-          "properties": {
-            "Browser": "vobsub"
-          }
+          "browser": "vobsub"
         },
         {
           "match": "WinampMPEG/*",
-          "browser": "winamp",
-          "properties": {
-            "Browser": "WinAmp"
-          }
+          "browser": "winamp"
         },
         {
           "match": "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4*",
           "browser": "beyondpod",
-          "properties": {
-            "Version": "4.0"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (Linux; U; en-us; BeyondPod*",
           "browser": "beyondpod",
-          "properties": {
-            "Browser_Maker": "BeyondPod Team"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
@@ -64,38 +49,28 @@
         },
         {
           "match": "Pocket Casts*",
-          "browser": "pocket casts",
-          "properties": {
-            "Browser_Maker": "Shifty Jelly"
-          }
+          "browser": "pocket casts"
         },
         {
           "match": "Shifty Jelly Pocket Casts*",
-          "browser": "pocket casts",
-          "properties": {
-            "Browser_Maker": "Shifty Jelly"
-          }
+          "browser": "pocket casts"
         },
         {
           "match": "Player/LG Player 1.0 for #PLATFORM# (stagefright alternative*Pocket Casts*",
           "browser": "pocket casts",
           "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Maker": "Shifty Jelly"
-          },
           "platforms": [
-            "Android_H_4_4", "Android_H"
+            "Android_H_4_4",
+            "Android_H"
           ]
         },
         {
           "match": "Player/LG Player * for #PLATFORM# (stagefright alternative*Pocket Casts*",
           "browser": "pocket casts",
           "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Maker": "Shifty Jelly"
-          },
           "platforms": [
-            "Android_H_4_4", "Android_H"
+            "Android_H_4_4",
+            "Android_H"
           ]
         },
         {
@@ -107,10 +82,7 @@
         },
         {
           "match": "PocketTunes/*",
-          "browser": "pockettunes",
-          "properties": {
-            "Browser_Maker": "NormSoft Inc."
-          }
+          "browser": "pockettunes"
         },
         {
           "match": "Overcast/2.0*",
@@ -128,18 +100,15 @@
         },
         {
           "match": "Overcast/*",
-          "browser": "overcast",
-          "properties": {
-            "Browser_Maker": "Overcast Radio, LLC"
-          }
+          "browser": "overcast"
         },
         {
           "match": "ExoPlayerDemo/4.11* (Linux;Android*",
           "browser": "exoplayerdemo",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ],
-          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Version": "4.11"
           }
@@ -147,21 +116,18 @@
         {
           "match": "ExoPlayerDemo/* (Linux;Android*",
           "browser": "exoplayerdemo",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
-          ],
-          "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Maker": "Mark Miller"
-          }
+          ]
         },
         {
           "match": "Radio/1.0* (Linux;Android*",
           "browser": "radio",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ],
-          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Version": "1.0"
           }
@@ -169,21 +135,18 @@
         {
           "match": "Radio/* (Linux;Android*",
           "browser": "radio",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
-          ],
-          "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Maker": "Mark Miller"
-          }
+          ]
         },
         {
           "match": "AlexaMediaPlayer/5.3* (Linux;Android*",
           "browser": "alexa mediaplayer",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ],
-          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Version": "5.3"
           }
@@ -191,13 +154,10 @@
         {
           "match": "AlexaMediaPlayer/* (Linux;Android*",
           "browser": "alexa mediaplayer",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
-          ],
-          "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Browser_Maker": "Mark Miller"
-          }
+          ]
         },
         {
           "match": "Podkicker Pro/2.2*",
@@ -208,10 +168,7 @@
         },
         {
           "match": "Podkicker Pro/*",
-          "browser": "podkicker pro",
-          "properties": {
-            "Browser": "Podkicker Pro"
-          }
+          "browser": "podkicker pro"
         },
         {
           "match": "Podkicker Classic/1.2*",
@@ -222,10 +179,7 @@
         },
         {
           "match": "Podkicker Classic/*",
-          "browser": "podkicker classic",
-          "properties": {
-            "Browser": "Podkicker Classic"
-          }
+          "browser": "podkicker classic"
         },
         {
           "match": "Podkicker/2.2*",
@@ -236,17 +190,11 @@
         },
         {
           "match": "Podkicker/*",
-          "browser": "podkicker",
-          "properties": {
-            "Browser": "Podkicker"
-          }
+          "browser": "podkicker"
         },
         {
           "match": "HTC Streaming Player*",
           "browser": "streaming player",
-          "properties": {
-            "Browser_Maker": "HTC"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
@@ -254,10 +202,7 @@
         },
         {
           "match": "bPod*",
-          "browser": "bpod",
-          "properties": {
-            "Browser": "bPod"
-          }
+          "browser": "bpod"
         },
         {
           "match": "foobar2000/1.2*",
@@ -275,10 +220,7 @@
         },
         {
           "match": "foobar2000/*",
-          "browser": "foobar2000",
-          "properties": {
-            "Browser": "foobar2000"
-          }
+          "browser": "foobar2000"
         },
         {
           "match": "gPodder/3.7*",
@@ -289,10 +231,7 @@
         },
         {
           "match": "gPodder/*",
-          "browser": "gpodder",
-          "properties": {
-            "Browser": "gPodder"
-          }
+          "browser": "gpodder"
         },
         {
           "match": "jPodder v 1.1*",
@@ -303,10 +242,7 @@
         },
         {
           "match": "jPodder*",
-          "browser": "jpodder",
-          "properties": {
-            "Browser": "jPodder"
-          }
+          "browser": "jpodder"
         },
         {
           "match": "iPodder/2.1*",
@@ -317,17 +253,11 @@
         },
         {
           "match": "iPodder/*",
-          "browser": "ipodder",
-          "properties": {
-            "Browser": "iPodder"
-          }
+          "browser": "ipodder"
         },
         {
           "match": "BashPodder*",
-          "browser": "bashpodder",
-          "properties": {
-            "Browser": "BashPodder"
-          }
+          "browser": "bashpodder"
         },
         {
           "match": "massyn.net philpodder/1.6*",
@@ -338,10 +268,7 @@
         },
         {
           "match": "massyn.net philpodder/*",
-          "browser": "philpodder",
-          "properties": {
-            "Browser": "philpodder"
-          }
+          "browser": "philpodder"
         },
         {
           "match": "Juice/2.2*",
@@ -352,21 +279,18 @@
         },
         {
           "match": "Juice/*",
-          "browser": "juice",
-          "properties": {
-            "Browser": "Juice"
-          }
+          "browser": "juice"
         },
         {
           "match": "MediaGo/3.0* (#PLATFORM#)*",
           "browser": "mediago",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "MediaGo/3.0*",
@@ -377,10 +301,7 @@
         },
         {
           "match": "MediaGo*",
-          "browser": "mediago",
-          "properties": {
-            "Browser": "MediaGo"
-          }
+          "browser": "mediago"
         },
         {
           "match": "MediaMonkey 4.1*",
@@ -391,17 +312,11 @@
         },
         {
           "match": "MediaMonkey*",
-          "browser": "mediamonkey",
-          "properties": {
-            "Browser": "MediaMonkey"
-          }
+          "browser": "mediamonkey"
         },
         {
           "match": "VOX Music Player*",
-          "browser": "vox music player",
-          "properties": {
-            "Browser": "VOX Music Player"
-          }
+          "browser": "vox music player"
         },
         {
           "match": "Doppler 2.9*",
@@ -412,10 +327,7 @@
         },
         {
           "match": "Doppler*",
-          "browser": "doppler",
-          "properties": {
-            "Browser": "Doppler"
-          }
+          "browser": "doppler"
         },
         {
           "match": "GoldenPod/0.8*",
@@ -426,17 +338,11 @@
         },
         {
           "match": "GoldenPod/*",
-          "browser": "goldenpod",
-          "properties": {
-            "Browser": "GoldenPod"
-          }
+          "browser": "goldenpod"
         },
         {
           "match": "Replay AV*",
-          "browser": "replay",
-          "properties": {
-            "Browser": "Replay"
-          }
+          "browser": "replay"
         },
         {
           "match": "Podcasts/2.2*",
@@ -454,10 +360,7 @@
         },
         {
           "match": "Podcasts/*",
-          "browser": "podcasts",
-          "properties": {
-            "Browser": "Podcasts"
-          }
+          "browser": "podcasts"
         },
         {
           "match": "Peapod/1.0*",
@@ -468,10 +371,7 @@
         },
         {
           "match": "Peapod/*",
-          "browser": "peapod",
-          "properties": {
-            "Browser": "Peapod"
-          }
+          "browser": "peapod"
         },
         {
           "match": "podracer v1.4*",
@@ -482,10 +382,7 @@
         },
         {
           "match": "podracer*",
-          "browser": "podracer",
-          "properties": {
-            "Browser": "podracer"
-          }
+          "browser": "podracer"
         },
         {
           "match": "Kinoma5*",
@@ -496,10 +393,7 @@
         },
         {
           "match": "Kinoma*",
-          "browser": "kinoma",
-          "properties": {
-            "Browser": "Kinoma"
-          }
+          "browser": "kinoma"
         },
         {
           "match": "QuickNews/1.25*",
@@ -510,10 +404,7 @@
         },
         {
           "match": "QuickNews/*",
-          "browser": "quicknews",
-          "properties": {
-            "Browser": "QuickNews"
-          }
+          "browser": "quicknews"
         },
         {
           "match": "DoggCatcher/1.2*",
@@ -524,24 +415,15 @@
         },
         {
           "match": "DoggCatcher/*",
-          "browser": "doggcatcher",
-          "properties": {
-            "Browser": "DoggCatcher"
-          }
+          "browser": "doggcatcher"
         },
         {
           "match": "Mozilla/5.0 (Linux; U; Windows NT*) DoggCatcher*",
-          "browser": "doggcatcher",
-          "properties": {
-            "Browser": "DoggCatcher"
-          }
+          "browser": "doggcatcher"
         },
         {
           "match": "Pandora/*",
-          "browser": "pandora",
-          "properties": {
-            "Browser": "Pandora"
-          }
+          "browser": "pandora"
         }
       ]
     }

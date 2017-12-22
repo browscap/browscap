@@ -13,8 +13,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "JavaApplets": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -35,11 +34,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
+            "Win8_1_64", "Win8_1_32",
             "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32"
           ]
         },
         {
@@ -55,7 +54,7 @@
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_64", "FreeBSD_64_2", "FreeBSD",
-            "OpenBSD_64_3", "OpenBSD_64_2", "OpenBSD_64", "OpenBSD",
+            "OpenBSD_64", "OpenBSD_64_2", "OpenBSD_64_3", "OpenBSD",
             "NetBSD"
           ]
         }

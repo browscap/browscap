@@ -20,18 +20,20 @@
         {
           "match": "MacAppStore/2.0 (#PLATFORM#) applewebkit*",
           "device": "Macintosh",
+          "platforms": [
+            "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
+            "OSX_B"
+          ],
           "properties": {
             "Version": "2.0"
-          },
-          "platforms": [
-            "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"
-          ]
+          }
         },
         {
           "match": "MacAppStore/* (#PLATFORM#) applewebkit*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"
+            "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
+            "OSX_B"
           ]
         }
       ]

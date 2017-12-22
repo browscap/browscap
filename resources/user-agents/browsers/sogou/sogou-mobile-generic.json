@@ -7,9 +7,9 @@
     {
       "userAgent": "Sogou Mobile Generic for Android",
       "browser": "sogou mobile",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile Generic",
@@ -37,9 +37,9 @@
     {
       "userAgent": "Sogou Mobile Generic for iOS",
       "browser": "sogou mobile",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile Generic",

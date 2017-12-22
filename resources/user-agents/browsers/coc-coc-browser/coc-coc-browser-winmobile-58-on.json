@@ -29,7 +29,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/#MAJORVER#.* Chrome/* Safari/* Edge/*",
           "platforms": [
-            "WinPhone10", "WinPhone8.1",
+            "WinPhone10",
+            "WinPhone8.1",
             "WinPhone"
           ]
         }

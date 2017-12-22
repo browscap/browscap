@@ -27,12 +27,12 @@
         {
           "match": "curl/7.19#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "7.19"
-          },
           "platforms": [
             "Linux_64_B", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "7.19"
+          }
         },
         {
           "match": "curl/7.19",
@@ -43,12 +43,12 @@
         {
           "match": "curl/7.15#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "7.15"
-          },
           "platforms": [
             "Linux_64_B", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "7.15"
+          }
         },
         {
           "match": "curl/7.15",
@@ -61,31 +61,19 @@
         },
         {
           "match": "*WinHttpRequest*",
-          "browser": "winhttp",
-          "properties": {
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "WinHTTP*",
-          "browser": "winhttp",
-          "properties": {
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "WinHttp*",
-          "browser": "winhttp",
-          "properties": {
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "TrendWinHttp*",
-          "browser": "trendwinhttp",
-          "properties": {
-            "Browser": "TrendWinHttp"
-          }
+          "browser": "trendwinhttp"
         }
       ]
     }

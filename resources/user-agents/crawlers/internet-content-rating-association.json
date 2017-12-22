@@ -14,17 +14,11 @@
       "children": [
         {
           "match": "ICRA_label_generator/1.?",
-          "browser": "icra_label_generator",
-          "properties": {
-            "Browser": "ICRA_label_generator"
-          }
+          "browser": "icra_label_generator"
         },
         {
           "match": "ICRA_Semantic_spider/0.?",
-          "browser": "icra_semantic_spider",
-          "properties": {
-            "Browser": "ICRA_Semantic_spider"
-          }
+          "browser": "icra_semantic_spider"
         }
       ]
     }

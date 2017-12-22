@@ -9,8 +9,8 @@
       "userAgent": "Galeon #MAJORVER#.#MINORVER#",
       "browser": "galeon",
       "platform": "Linux",
-      "device": "Linux Desktop",
       "engine": "Gecko",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Galeon #MAJORVER#.#MINORVER#",

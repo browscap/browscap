@@ -14,52 +14,31 @@
       "children": [
         {
           "match": "Feed::Find/*",
-          "browser": "feed find",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "feed find"
         },
         {
           "match": "Hatena Antenna/*",
-          "browser": "hatena antenna",
-          "properties": {
-            "Browser": "Hatena Antenna"
-          }
+          "browser": "hatena antenna"
         },
         {
           "match": "Hatena Bookmark/*",
-          "browser": "hatena bookmark",
-          "properties": {
-            "Browser": "Hatena Bookmark"
-          }
+          "browser": "hatena bookmark"
         },
         {
           "match": "Hatena RSS/*",
-          "browser": "hatena rss",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "hatena rss"
         },
         {
           "match": "Hatena::Crawler/*",
-          "browser": "hatena crawler",
-          "properties": {
-            "Browser": "Hatena Crawler"
-          }
+          "browser": "hatena crawler"
         },
         {
           "match": "HatenaScreenshot*",
-          "browser": "hatenascreenshot",
-          "properties": {
-            "Browser": "HatenaScreenshot"
-          }
+          "browser": "hatenascreenshot"
         },
         {
           "match": "URI::Fetch/*",
-          "browser": "uri::fetch",
-          "properties": {
-            "Browser": "URI::Fetch"
-          }
+          "browser": "uri::fetch"
         },
         {
           "match": "DoCoMo/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway/1.2; +http://mgw.hatena.ne.jp/help)",

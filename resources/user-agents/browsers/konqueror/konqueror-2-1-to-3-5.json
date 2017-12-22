@@ -28,7 +28,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "platforms": [
-            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         },
         {
@@ -42,7 +45,8 @@
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "CygWin"
+            "CygWin",
+            "Windows"
           ]
         },
         {
@@ -58,7 +62,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
-            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         },
         {
@@ -72,7 +79,8 @@
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "CygWin"
+            "CygWin",
+            "Windows"
           ]
         },
         {
@@ -88,7 +96,10 @@
         {
           "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
-            "FreeBSD", "OpenBSD", "NetBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         },
         {

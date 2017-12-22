@@ -20,7 +20,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iWeb/*",
           "platforms": [
-            "OSX_10_10", "OSX"
+            "OSX_10_10",
+            "OSX"
           ]
         }
       ]

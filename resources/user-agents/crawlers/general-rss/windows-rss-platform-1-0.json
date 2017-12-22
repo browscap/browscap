@@ -19,7 +19,8 @@
         {
           "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; #PLATFORM#",
           "platforms": [
-            "WinXPa_32", "Vista_32"
+            "Vista_32",
+            "WinXPa_32"
           ]
         },
         {

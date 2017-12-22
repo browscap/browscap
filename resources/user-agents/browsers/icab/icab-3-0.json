@@ -8,9 +8,9 @@
     {
       "userAgent": "iCab #MAJORVER#.#MINORVER#",
       "browser": "icab",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iCab #MAJORVER#.#MINORVER#",
@@ -20,19 +20,28 @@
         {
           "match": "iCab/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX", "OSX_PPC"
+            "OSX_PPC",
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) iCab #MAJORVER#*",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX", "OSX_PPC"
+            "OSX_PPC",
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {
           "match": "Mozilla/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX", "OSX_PPC"
+            "OSX_PPC",
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {

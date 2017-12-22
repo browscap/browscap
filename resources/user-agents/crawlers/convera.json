@@ -21,17 +21,11 @@
         },
         {
           "match": "ConveraMultiMediaCrawler/*",
-          "browser": "converamultimediacrawler",
-          "properties": {
-            "Browser": "ConveraMultiMediaCrawler"
-          }
+          "browser": "converamultimediacrawler"
         },
         {
           "match": "CrawlConvera*",
-          "browser": "crawlconvera",
-          "properties": {
-            "Browser": "CrawlConvera"
-          }
+          "browser": "crawlconvera"
         },
         {
           "match": "ConveraCrawler/0.4*",
@@ -71,10 +65,7 @@
         },
         {
           "match": "ConveraCrawler/*",
-          "browser": "converacrawler",
-          "properties": {
-            "Browser": "ConveraCrawler"
-          }
+          "browser": "converacrawler"
         }
       ]
     }

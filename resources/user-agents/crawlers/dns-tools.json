@@ -14,24 +14,15 @@
       "children": [
         {
           "match": "Domain Dossier utility*",
-          "browser": "domain dossier",
-          "properties": {
-            "Browser": "Domain Dossier"
-          }
+          "browser": "domain dossier"
         },
         {
           "match": "Mozilla/5.0 (compatible; DNS-Digger/*)",
-          "browser": "dns-digger",
-          "properties": {
-            "Browser": "DNS-Digger"
-          }
+          "browser": "dns-digger"
         },
         {
           "match": "OpenDNS Domain Crawler noc@opendns.com",
-          "browser": "opendns domain crawler",
-          "properties": {
-            "Browser": "OpenDNS Domain Crawler"
-          }
+          "browser": "opendns domain crawler"
         }
       ]
     }

@@ -573,15 +573,15 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "KFTT": "Amazon KFTT"
           },
           "platforms": [
             "Android_4_0"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",

@@ -13,15 +13,16 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
-            "OSX_B_10_12", "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9",
+            "OSX_B_10_12",
+            "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9",
             "OSX_B"
           ]
         },
@@ -29,7 +30,8 @@
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "Windows_64"
+            "Windows_64",
+            "Windows"
           ]
         },
         {

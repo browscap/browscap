@@ -8,8 +8,8 @@
     {
       "userAgent": "Univention Corporate Server #MAJORVER#.#MINORVER#",
       "browser": "univention corporate server",
-      "device": "Linux Desktop",
       "platform": "Linux",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Univention Corporate Server #MAJORVER#.#MINORVER#",

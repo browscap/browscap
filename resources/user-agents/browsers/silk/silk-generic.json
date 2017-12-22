@@ -27,12 +27,12 @@
         {
           "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/* Safari*",

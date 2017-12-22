@@ -7,9 +7,9 @@
     {
       "userAgent": "NewsArticle App",
       "browser": "newsarticle app",
-      "device": "general Mobile Phone (Touch)",
       "platform": "Miui_OS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NewsArticle App"
@@ -20,21 +20,24 @@
           "engine": "WebKit",
           "device": "Xiaomi Mi 4 LTE",
           "platforms": [
-            "Miui_OS_7_3", "Miui_OS"
+            "Miui_OS_7_3",
+            "Miui_OS"
           ]
         },
         {
           "match": "Dalvik/2.1* (*Linux*Android#PLATFORM#) *NewsArticle/*",
           "engine": "WebKit",
           "platforms": [
-            "Miui_OS_7_3", "Miui_OS"
+            "Miui_OS_7_3",
+            "Miui_OS"
           ]
         },
         {
           "match": "Dalvik/* (*Linux*Android#PLATFORM#) *NewsArticle/*",
           "engine": "WebKit",
           "platforms": [
-            "Miui_OS_7_3", "Miui_OS"
+            "Miui_OS_7_3",
+            "Miui_OS"
           ]
         }
       ]

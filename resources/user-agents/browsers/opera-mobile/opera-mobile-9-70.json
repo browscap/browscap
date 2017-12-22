@@ -106,7 +106,8 @@
           "match": "Opera?#MAJORVER#.#MINORVER#* (#PLATFORM# Opera Mobi*)*",
           "device": "general Mobile Phone",
           "platforms": [
-            "Brew_4_0", "WinMobile"
+            "WinMobile",
+            "Brew_4_0"
           ]
         }
       ]

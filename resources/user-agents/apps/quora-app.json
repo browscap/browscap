@@ -17,79 +17,88 @@
         {
           "match": "Quora 4.0* rv:* (iPhone#PLATFORM#",
           "device": "iPhone",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.0"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora 4.1* rv:* (iPhone#PLATFORM#",
           "device": "iPhone",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.1"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora* rv:* (iPhone#PLATFORM#",
           "device": "iPhone",
           "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
           ]
         },
         {
           "match": "Quora 4.0* rv:* (iPad#PLATFORM#",
           "device": "iPad",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.0"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora 4.1* rv:* (iPad#PLATFORM#",
           "device": "iPad",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.1"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora* rv:* (iPad#PLATFORM#",
           "device": "iPad",
           "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
           ]
         },
         {
           "match": "Quora 4.0* rv:* (#PLATFORM#",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.0"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora 4.1* rv:* (#PLATFORM#",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.1"
-          },
-          "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "Quora* rv:* (#PLATFORM#",
           "platforms": [
-            "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
           ]
         }
       ]

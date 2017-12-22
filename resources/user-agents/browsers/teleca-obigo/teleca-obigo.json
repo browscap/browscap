@@ -200,7 +200,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#",
           "platforms": [
-            "Brew_3_0", "Brew_3_1"
+            "Brew_3_1", "Brew_3_0"
           ]
         },
         {

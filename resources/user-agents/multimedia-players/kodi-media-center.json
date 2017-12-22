@@ -8,8 +8,8 @@
     {
       "userAgent": "Kodi Media Center #MAJORVER#.#MINORVER#",
       "browser": "kodi media center",
-      "device": "Windows Desktop",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kodi Media Center #MAJORVER#.#MINORVER#",

@@ -8,8 +8,8 @@
     {
       "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "browser": "openwave mobile browser",
-      "device": "general Mobile Phone",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",

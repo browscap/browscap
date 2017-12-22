@@ -7,9 +7,9 @@
     {
       "userAgent": "Microsoft Access",
       "browser": "access",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Access",
@@ -20,22 +20,22 @@
         {
           "match": "Microsoft Office/15.* (#PLATFORM#Access Web Datasheet 15.*)",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Access 15.*)",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         }
       ]
     }

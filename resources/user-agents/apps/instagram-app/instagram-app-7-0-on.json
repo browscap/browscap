@@ -8,9 +8,9 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
       "browser": "instagram app",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER# for Android",
@@ -277,9 +277,9 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Windows Phone",
       "browser": "instagram app",
+      "platform": "WinPhone8_osmeta",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone8_osmeta",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER# for Windows Phone",

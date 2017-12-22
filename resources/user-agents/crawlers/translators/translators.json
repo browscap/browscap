@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Seram Server",
-          "browser": "seram server",
-          "properties": {
-            "Browser": "Seram Server"
-          }
+          "browser": "seram server"
         },
         {
           "match": "TeragramWebcrawler/*",
@@ -28,31 +25,19 @@
         },
         {
           "match": "WebIndexer/* (Web Indexer*)",
-          "browser": "worldlingo",
-          "properties": {
-            "Browser": "WorldLingo"
-          }
+          "browser": "worldlingo"
         },
         {
           "match": "WebIndexer/* (Web Indexer; *)",
-          "browser": "worldlingo",
-          "properties": {
-            "Browser": "WorldLingo"
-          }
+          "browser": "worldlingo"
         },
         {
           "match": "WebTrans",
-          "browser": "webtrans",
-          "properties": {
-            "Browser": "WebTrans"
-          }
+          "browser": "webtrans"
         },
         {
           "match": "ATA-Translation-Service",
-          "browser": "ata-translation-service",
-          "properties": {
-            "Browser": "ATA-Translation-Service"
-          }
+          "browser": "ata-translation-service"
         }
       ]
     }

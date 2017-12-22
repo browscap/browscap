@@ -21,17 +21,11 @@
         },
         {
           "match": "BoardReader Favicon Fetcher /*",
-          "browser": "boardreader favicon fetcher",
-          "properties": {
-            "isSyndicationReader": "false"
-          }
+          "browser": "boardreader favicon fetcher"
         },
         {
           "match": "BoardReader Blog Indexer*",
-          "browser": "boardreader indexer",
-          "properties": {
-            "Browser": "BoardReader Indexer"
-          }
+          "browser": "boardreader indexer"
         }
       ]
     }

@@ -24,7 +24,8 @@
           "engine": "Tasman",
           "device": "Macintosh",
           "platforms": [
-            "MacPPC_2", "Mac68K_2"
+            "MacPPC_2",
+            "Mac68K_2"
           ]
         }
       ]

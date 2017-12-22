@@ -28,31 +28,19 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeBot/*",
-          "browser": "becomebot",
-          "properties": {
-            "Browser": "BecomeBot"
-          }
+          "browser": "becomebot"
         },
         {
           "match": "*BecomeBot/*",
-          "browser": "becomebot",
-          "properties": {
-            "Browser": "BecomeBot"
-          }
+          "browser": "becomebot"
         },
         {
           "match": "*BecomeBot*",
-          "browser": "becomebot",
-          "properties": {
-            "Browser": "BecomeBot"
-          }
+          "browser": "becomebot"
         },
         {
           "match": "MonkeyCrawl/*",
-          "browser": "monkeycrawl",
-          "properties": {
-            "Browser": "MonkeyCrawl"
-          }
+          "browser": "monkeycrawl"
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeJPBot/2.3*",
@@ -63,10 +51,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; BecomeJPBot/*",
-          "browser": "becomejpbot",
-          "properties": {
-            "Browser": "BecomeJPBot"
-          }
+          "browser": "becomejpbot"
         }
       ]
     }

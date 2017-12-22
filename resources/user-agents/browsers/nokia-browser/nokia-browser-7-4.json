@@ -14,9 +14,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -53,7 +53,6 @@
             "NokiaN97-4": "Nokia N97-4"
           }
         },
-
         {
           "match": "Mozilla/5.0 (SymbianOS/*; Series60/*) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*"
         },

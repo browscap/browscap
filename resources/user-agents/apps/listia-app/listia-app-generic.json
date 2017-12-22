@@ -101,8 +101,8 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Listia/*",
-          "device": "general Tablet",
           "engine": "Blink",
+          "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

@@ -8,9 +8,9 @@
     {
       "userAgent": "Puffin #MAJORVER#.#MINORVER# for Android",
       "browser": "puffin",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin #MAJORVER#.#MINORVER#",
@@ -75,9 +75,9 @@
     {
       "userAgent": "Puffin #MAJORVER#.#MINORVER# for iOS",
       "browser": "puffin",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin #MAJORVER#.#MINORVER#",

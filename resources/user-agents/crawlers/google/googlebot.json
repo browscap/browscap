@@ -20,24 +20,15 @@
         },
         {
           "match": "googlebot-urlconsole",
-          "browser": "googlebot-urlconsole",
-          "properties": {
-            "Browser": "googlebot-urlconsole"
-          }
+          "browser": "googlebot-urlconsole"
         },
         {
           "match": "Googlebot-Image*",
-          "browser": "google image search",
-          "properties": {
-            "Browser": "Google Image Search"
-          }
+          "browser": "google image search"
         },
         {
           "match": "Googlebot-News*",
-          "browser": "googlebot-news",
-          "properties": {
-            "Browser": "Googlebot-News"
-          }
+          "browser": "googlebot-news"
         },
         {
           "match": "Googlebot-Video/1.0*",
@@ -48,10 +39,7 @@
         },
         {
           "match": "Googlebot-Video*",
-          "browser": "googlebot-video",
-          "properties": {
-            "Browser": "Googlebot-Video"
-          }
+          "browser": "googlebot-video"
         },
         {
           "match": "Mozilla/5.0 (en-us) applewebkit* (*khtml*like*gecko* Google PP Default) Chrome/* Safari/*"

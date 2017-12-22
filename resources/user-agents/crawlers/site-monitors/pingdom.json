@@ -33,10 +33,7 @@
         },
         {
           "match": "Mozilla/5.0 (Unknown; Linux x86_64) applewebkit* (*khtml*like*gecko*) PingdomTMS/*",
-          "browser": "pingdom transaction monitoring",
-          "properties": {
-            "Browser": "Pingdom Transaction Monitoring"
-          }
+          "browser": "pingdom transaction monitoring"
         },
         {
           "match": "*Pingdom*"

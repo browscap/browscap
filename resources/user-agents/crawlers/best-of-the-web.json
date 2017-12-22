@@ -14,17 +14,11 @@
       "children": [
         {
           "match": "Mozilla/4.0 (compatible; BOTW Feed Grabber*",
-          "browser": "botw feed grabber",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "botw feed grabber"
         },
         {
           "match": "Mozilla/4.0 (compatible; BOTW Spider*",
-          "browser": "botw spider",
-          "properties": {
-            "Browser": "BOTW Spider"
-          }
+          "browser": "botw spider"
         }
       ]
     }

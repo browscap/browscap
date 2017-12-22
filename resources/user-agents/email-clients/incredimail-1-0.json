@@ -21,14 +21,16 @@
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "iOS_E_6_1", "iOS_E"
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         },
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (iPad; #PLATFORM#",
           "device": "iPad",
           "platforms": [
-            "iOS_E_6_1", "iOS_E"
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         }
       ]

@@ -14,115 +14,67 @@
       "children": [
         {
           "match": "*FDSE robot*",
-          "browser": "fdse robot",
-          "properties": {
-            "Browser": "FDSE Robot"
-          }
+          "browser": "fdse robot"
         },
         {
           "match": "Mozilla/3.0 (compatible; Fluffy the spider; http://www.searchhippo.com/; info@searchhippo.com)",
-          "browser": "searchhippo",
-          "properties": {
-            "Browser": "SearchHippo"
-          }
+          "browser": "searchhippo"
         },
         {
           "match": "*Fluffy the spider*",
-          "browser": "searchhippo",
-          "properties": {
-            "Browser": "SearchHippo"
-          }
+          "browser": "searchhippo"
         },
         {
           "match": "Abacho*",
-          "browser": "abacho",
-          "properties": {
-            "Browser": "Abacho"
-          }
+          "browser": "abacho"
         },
         {
           "match": "ah-ha.com crawler (crawler@ah-ha.com)",
-          "browser": "ah-ha",
-          "properties": {
-            "Browser": "Ah-Ha"
-          }
+          "browser": "ah-ha"
         },
         {
           "match": "AIBOT/*",
-          "browser": "21seek.com",
-          "properties": {
-            "Browser": "21Seek.Com"
-          }
+          "browser": "21seek.com"
         },
         {
           "match": "ALeadSoftbot/*",
-          "browser": "aleadsoftbot",
-          "properties": {
-            "Browser": "ALeadSoftbot"
-          }
+          "browser": "aleadsoftbot"
         },
         {
           "match": "Amfibibot/*",
-          "browser": "amfibi",
-          "properties": {
-            "Browser": "Amfibi"
-          }
+          "browser": "amfibi"
         },
         {
           "match": "AnswerBus (http://www.answerbus.com/)",
-          "browser": "answerbus",
-          "properties": {
-            "Browser": "AnswerBus"
-          }
+          "browser": "answerbus"
         },
         {
           "match": "antibot-V*",
-          "browser": "antibot",
-          "properties": {
-            "Browser": "antibot"
-          }
+          "browser": "antibot"
         },
         {
           "match": "appie*(www.walhello.com)",
-          "browser": "walhello",
-          "properties": {
-            "Browser": "Walhello"
-          }
+          "browser": "walhello"
         },
         {
           "match": "ASPSeek/*",
-          "browser": "aspseek",
-          "properties": {
-            "Browser": "ASPSeek"
-          }
+          "browser": "aspseek"
         },
         {
           "match": "Atrax Solutions atraxbot/0.*; http://www.atraxsolutions.com/atraxbot",
-          "browser": "atrax solutions",
-          "properties": {
-            "Browser": "Atrax Solutions"
-          }
+          "browser": "atrax solutions"
         },
         {
           "match": "BigCliqueBOT/*",
-          "browser": "bigclique.com/bigclic.com",
-          "properties": {
-            "Browser": "BigClique.com/BigClic.com"
-          }
+          "browser": "bigclique.com/bigclic.com"
         },
         {
           "match": "Blaiz-Bee/*",
-          "browser": "rawgrunt",
-          "properties": {
-            "Browser": "RawGrunt"
-          }
+          "browser": "rawgrunt"
         },
         {
           "match": "btbot/*",
-          "browser": "bit torrent search engine",
-          "properties": {
-            "Browser": "Bit Torrent Search Engine"
-          }
+          "browser": "bit torrent search engine"
         },
         {
           "match": "Busiversebot/v1.0*",
@@ -133,10 +85,7 @@
         },
         {
           "match": "Busiversebot/*",
-          "browser": "busiversebot",
-          "properties": {
-            "Browser": "Busiversebot"
-          }
+          "browser": "busiversebot"
         },
         {
           "match": "CatchBot/2.0*",
@@ -154,17 +103,11 @@
         },
         {
           "match": "CatchBot/*",
-          "browser": "catchbot",
-          "properties": {
-            "Browser": "CatchBot"
-          }
+          "browser": "catchbot"
         },
         {
           "match": "CipinetBot (http://www.cipinet.com/bot.html)",
-          "browser": "cipinetbot",
-          "properties": {
-            "Browser": "CipinetBot"
-          }
+          "browser": "cipinetbot"
         },
         {
           "match": "Cogentbot/1.?*",
@@ -175,10 +118,7 @@
         },
         {
           "match": "Cogentbot/*",
-          "browser": "cogentbot",
-          "properties": {
-            "Browser": "Cogentbot"
-          }
+          "browser": "cogentbot"
         },
         {
           "match": "compatible; Mozilla 4.0; MSIE 5.5; (SqwidgeBot v1.01*",
@@ -189,10 +129,7 @@
         },
         {
           "match": "compatible; Mozilla 4.0; MSIE 5.5; (SqwidgeBot*",
-          "browser": "sqwidgebot",
-          "properties": {
-            "Browser": "SqwidgeBot"
-          }
+          "browser": "sqwidgebot"
         },
         {
           "match": "cosmos/0.9*",
@@ -203,67 +140,42 @@
         },
         {
           "match": "cosmos*",
-          "browser": "xyleme",
-          "properties": {
-            "Browser": "Xyleme"
-          }
+          "browser": "xyleme"
         },
         {
           "match": "Deepindex",
-          "browser": "deepindex",
-          "properties": {
-            "Browser": "Deepindex"
-          }
+          "browser": "deepindex"
         },
         {
           "match": "DiamondBot",
-          "browser": "diamondbot",
-          "properties": {
-            "Browser": "DiamondBot"
-          }
+          "browser": "diamondbot"
         },
         {
           "match": "Dumbot*",
           "browser": "dumbot",
           "properties": {
-            "Version": "0.2",
-            "Beta": "true"
+            "Version": "0.2"
           }
         },
         {
           "match": "Eule?Robot*",
-          "browser": "eule-robot",
-          "properties": {
-            "Browser": "Eule-Robot"
-          }
+          "browser": "eule-robot"
         },
         {
           "match": "Faxobot/*",
-          "browser": "faxo",
-          "properties": {
-            "Browser": "Faxo"
-          }
+          "browser": "faxo"
         },
         {
           "match": "Filangy/*",
-          "browser": "filangy",
-          "properties": {
-            "Browser": "Filangy"
-          }
+          "browser": "filangy"
         },
         {
           "match": "flatlandbot/*",
-          "browser": "flatland",
-          "properties": {
-            "Browser": "Flatland"
-          }
+          "browser": "flatland"
         },
         {
           "match": "Fooky.com/ScorpionBot/ScoutOut;*",
-          "browser": "scorpionbot",
-          "properties": {
-            "Browser": "ScorpionBot"
-          }
+          "browser": "scorpionbot"
         },
         {
           "match": "FyberSpider/1.3*",
@@ -274,262 +186,151 @@
         },
         {
           "match": "FyberSpider*",
-          "browser": "fyberspider",
-          "properties": {
-            "Browser": "FyberSpider"
-          }
+          "browser": "fyberspider"
         },
         {
           "match": "Gaisbot/*",
-          "browser": "gaisbot",
-          "properties": {
-            "Browser": "Gaisbot"
-          }
+          "browser": "gaisbot"
         },
         {
           "match": "gazz/*(gazz@nttr.co.jp)",
-          "browser": "gazz",
-          "properties": {
-            "Browser": "gazz"
-          }
+          "browser": "gazz"
         },
         {
           "match": "geniebot*",
-          "browser": "genieknows",
-          "properties": {
-            "Browser": "GenieKnows"
-          }
+          "browser": "genieknows"
         },
         {
           "match": "GOFORITBOT (?http://www.goforit.com/about/?)",
-          "browser": "goforit",
-          "properties": {
-            "Browser": "GoForIt"
-          }
+          "browser": "goforit"
         },
         {
           "match": "GoGuidesBot/*",
-          "browser": "goguidesbot",
-          "properties": {
-            "Browser": "GoGuidesBot"
-          }
+          "browser": "goguidesbot"
         },
         {
           "match": "GroschoBot/*",
-          "browser": "groschobot",
-          "properties": {
-            "Browser": "GroschoBot"
-          }
+          "browser": "groschobot"
         },
         {
           "match": "HenryTheMiragoRobot*",
-          "browser": "mirago",
-          "properties": {
-            "Browser": "Mirago"
-          }
+          "browser": "mirago"
         },
         {
           "match": "HolmesBot (http://holmes.ge)",
-          "browser": "holmesbot",
-          "properties": {
-            "Browser": "HolmesBot"
-          }
+          "browser": "holmesbot"
         },
         {
           "match": "Hotzonu/*",
-          "browser": "hotzonu",
-          "properties": {
-            "Browser": "Hotzonu"
-          }
+          "browser": "hotzonu"
         },
         {
           "match": "HyperEstraier/*",
-          "browser": "hyperestraier",
-          "properties": {
-            "Browser": "HyperEstraier"
-          }
+          "browser": "hyperestraier"
         },
         {
           "match": "i1searchbot/*",
-          "browser": "i1searchbot",
-          "properties": {
-            "Browser": "i1searchbot"
-          }
+          "browser": "i1searchbot"
         },
         {
           "match": "IIITBOT/1.*",
-          "browser": "indian language web search engine",
-          "properties": {
-            "Browser": "Indian Language Web Search Engine"
-          }
+          "browser": "indian language web search engine"
         },
         {
           "match": "Iltrovatore-?etaccio/*",
-          "browser": "iltrovatore-setaccio",
-          "properties": {
-            "Browser": "Iltrovatore-Setaccio"
-          }
+          "browser": "iltrovatore-setaccio"
         },
         {
           "match": "InfociousBot (?http://corp.infocious.com/tech_crawler.php)",
-          "browser": "infociousbot",
-          "properties": {
-            "Browser": "InfociousBot"
-          }
+          "browser": "infociousbot"
         },
         {
           "match": "Infoseek SideWinder/*",
-          "browser": "infoseek",
-          "properties": {
-            "Browser": "Infoseek"
-          }
+          "browser": "infoseek"
         },
         {
           "match": "iSEEKbot/*",
-          "browser": "iseekbot",
-          "properties": {
-            "Browser": "iSEEKbot"
-          }
+          "browser": "iseekbot"
         },
         {
           "match": "Knight/0.? (Zook Knight; http://knight.zook.in/; knight@zook.in)",
-          "browser": "knight",
-          "properties": {
-            "Browser": "Knight"
-          }
+          "browser": "knight"
         },
         {
           "match": "Kolinka Forum Search (www.kolinka.com)",
-          "browser": "kolinka forum search",
-          "properties": {
-            "Browser": "Kolinka Forum Search"
-          }
+          "browser": "kolinka forum search"
         },
         {
           "match": "KRetrieve/",
-          "browser": "kretrieve",
-          "properties": {
-            "Browser": "KRetrieve"
-          }
+          "browser": "kretrieve"
         },
         {
           "match": "LapozzBot/*",
-          "browser": "lapozzbot",
-          "properties": {
-            "Browser": "LapozzBot"
-          }
+          "browser": "lapozzbot"
         },
         {
           "match": "Linguee Bot (http://www.linguee.com/bot; bot@linguee.com)",
-          "browser": "linguee bot",
-          "properties": {
-            "Browser": "Linguee Bot"
-          }
+          "browser": "linguee bot"
         },
         {
           "match": "Linknzbot*",
-          "browser": "linknzbot",
-          "properties": {
-            "Browser": "Linknzbot"
-          }
+          "browser": "linknzbot"
         },
         {
           "match": "LocalcomBot/*",
-          "browser": "localcombot",
-          "properties": {
-            "Browser": "LocalcomBot"
-          }
+          "browser": "localcombot"
         },
         {
           "match": "MaSagool/*",
-          "browser": "sagoo",
-          "properties": {
-            "Browser": "Sagoo"
-          }
+          "browser": "sagoo"
         },
         {
           "match": "miniRank/*",
-          "browser": "minirank",
-          "properties": {
-            "Browser": "miniRank"
-          }
+          "browser": "minirank"
         },
         {
           "match": "Mnogosearch*",
-          "browser": "mnogosearch",
-          "properties": {
-            "Browser": "MnoGoSearch"
-          }
+          "browser": "mnogosearch"
         },
         {
           "match": "Mozilla/0.9* no dos :) (Linux*)",
-          "browser": "goliat",
-          "properties": {
-            "Browser": "goliat"
-          }
+          "browser": "goliat"
         },
         {
           "match": "Mozilla/4.0 (compatible; Arachmo)",
-          "browser": "arachmo",
-          "properties": {
-            "Browser": "Arachmo"
-          }
+          "browser": "arachmo"
         },
         {
           "match": "Mozilla/4.0 (compatible; http://search.thunderstone.com/texis/websearch/about.html)",
-          "browser": "texis websearch",
-          "properties": {
-            "Browser_Maker": "Thunderstone Software LLC"
-          }
+          "browser": "texis websearch"
         },
         {
           "match": "Mozilla/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
-          "browser": "texis webscript",
-          "properties": {
-            "Browser_Maker": "Thunderstone Software LLC"
-          }
+          "browser": "texis webscript"
         },
         {
           "match": "Mozilla/4.0(?compatible; MSIE 6.0; Qihoo *)",
-          "browser": "qihoo",
-          "properties": {
-            "Browser": "Qihoo"
-          }
+          "browser": "qihoo"
         },
         {
           "match": "Mozilla/4.7 (compatible; WhizBang; http://www.whizbang.com/crawler)",
-          "browser": "inxight software",
-          "properties": {
-            "Browser": "Inxight Software"
-          }
+          "browser": "inxight software"
         },
         {
           "match": "Mozilla/5.0 (compatible; ActiveTouristBot*; http://www.activetourist.com)",
-          "browser": "activetouristbot",
-          "properties": {
-            "Browser": "ActiveTouristBot"
-          }
+          "browser": "activetouristbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; ayna-crawler*)",
-          "browser": "ayna-crawler",
-          "properties": {
-            "Browser": "ayna-crawler"
-          }
+          "browser": "ayna-crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; Butterfly/1.0; *)*",
-          "browser": "butterfly",
-          "properties": {
-            "Browser": "Butterfly"
-          }
+          "browser": "butterfly"
         },
         {
           "match": "Mozilla/5.0 (compatible; Charlotte/*)",
-          "browser": "charlotte",
-          "properties": {
-            "Browser": "Charlotte"
-          }
+          "browser": "charlotte"
         },
         {
           "match": "Mozilla/5.0 *Charlotte/*searchme.com/support/*",
@@ -540,10 +341,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; CXL-FatAssANT*)",
-          "browser": "fatassant",
-          "properties": {
-            "Browser": "FatAssANT"
-          }
+          "browser": "fatassant"
         },
         {
           "match": "Mozilla/5.0 (compatible; DBLBot/1.0; ?http://www.dontbuylists.com/)",
@@ -554,59 +352,35 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; EARTHCOM.info/*)",
-          "browser": "earthcom",
-          "properties": {
-            "Browser": "EARTHCOM"
-          }
+          "browser": "earthcom"
         },
         {
           "match": "Mozilla/5.0 (compatible; MojeekBot/*; http://www.mojeek.com/bot.html)",
-          "browser": "mojeekbot",
-          "properties": {
-            "Browser": "MojeekBot"
-          }
+          "browser": "mojeekbot"
         },
         {
           "match": "NL-Crawler*",
-          "browser": "northern light web search",
-          "properties": {
-            "Browser_Maker": "Northern Light"
-          }
+          "browser": "northern light web search"
         },
         {
           "match": "Mozilla/5.0 (compatible; NLCrawler/*",
-          "browser": "northern light web search",
-          "properties": {
-            "Browser_Maker": "Northern Light"
-          }
+          "browser": "northern light web search"
         },
         {
           "match": "Mozilla/5.0 (compatible; OsO;*",
-          "browser": "octopodus",
-          "properties": {
-            "Browser": "Octopodus"
-          }
+          "browser": "octopodus"
         },
         {
           "match": "Mozilla/5.0 (compatible; ParchBot/1.0;*)",
-          "browser": "parchbot",
-          "properties": {
-            "Browser": "ParchBot"
-          }
+          "browser": "parchbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Pogodak.*)",
-          "browser": "pogodak",
-          "properties": {
-            "Browser": "Pogodak"
-          }
+          "browser": "pogodak"
         },
         {
           "match": "Mozilla/5.0 (compatible; Quantcastbot/1.*)",
-          "browser": "quantcastbot",
-          "properties": {
-            "Browser": "Quantcastbot"
-          }
+          "browser": "quantcastbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; YoudaoBot/1.0*",
@@ -617,283 +391,163 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; YoudaoBot/*",
-          "browser": "youdaobot",
-          "properties": {
-            "Browser": "YoudaoBot"
-          }
+          "browser": "youdaobot"
         },
         {
           "match": "Mozilla/5.0 (Twiceler*)",
-          "browser": "twiceler",
-          "properties": {
-            "Browser": "Twiceler"
-          }
+          "browser": "twiceler"
         },
         {
           "match": "Mozilla/5.0 CostaCider Search*",
-          "browser": "costacider search",
-          "properties": {
-            "Browser": "CostaCider Search"
-          }
+          "browser": "costacider search"
         },
         {
           "match": "NavissoBot",
-          "browser": "navissobot",
-          "properties": {
-            "Browser": "NavissoBot"
-          }
+          "browser": "navissobot"
         },
         {
           "match": "NextGenSearchBot*(for information visit *)",
-          "browser": "zoominfo",
-          "properties": {
-            "Browser": "ZoomInfo"
-          }
+          "browser": "zoominfo"
         },
         {
           "match": "Norbert the Spider(Burf.com)",
-          "browser": "norbert the spider",
-          "properties": {
-            "Browser": "Norbert the Spider"
-          }
+          "browser": "norbert the spider"
         },
         {
           "match": "NuSearch Spider*",
-          "browser": "nusearch",
-          "properties": {
-            "Browser": "nuSearch"
-          }
+          "browser": "nusearch"
         },
         {
           "match": "ObjectsSearch/*",
-          "browser": "objectssearch",
-          "properties": {
-            "Browser": "ObjectsSearch"
-          }
+          "browser": "objectssearch"
         },
         {
           "match": "OOZBOT/0.20 ( http://www.setooz.com/oozbot.html ; agentname at setooz dot_com )",
-          "browser": "setooz",
-          "properties": {
-            "Browser": "Setooz"
-          }
+          "browser": "setooz"
         },
         {
           "match": "OpenISearch/1.*",
-          "browser": "openisearch (amazon)",
-          "properties": {
-            "Browser_Maker": "Amazon.com, Inc."
-          }
+          "browser": "openisearch (amazon)"
         },
         {
           "match": "Pagebull http://www.pagebull.com/",
-          "browser": "pagebull",
-          "properties": {
-            "Browser": "Pagebull"
-          }
+          "browser": "pagebull"
         },
         {
           "match": "PEERbot*",
-          "browser": "peerbot",
-          "properties": {
-            "Browser": "PEERbot"
-          }
+          "browser": "peerbot"
         },
         {
           "match": "Pompos/*",
-          "browser": "pompos",
-          "properties": {
-            "Browser": "Pompos"
-          }
+          "browser": "pompos"
         },
         {
           "match": "Popdexter/*",
-          "browser": "popdex",
-          "properties": {
-            "Browser": "Popdex"
-          }
+          "browser": "popdex"
         },
         {
           "match": "Qweery*",
-          "browser": "qweerybot",
-          "properties": {
-            "Browser": "QweeryBot"
-          }
+          "browser": "qweerybot"
         },
         {
           "match": "RedCell/* (*)",
-          "browser": "redcell",
-          "properties": {
-            "Browser": "RedCell"
-          }
+          "browser": "redcell"
         },
         {
           "match": "SaladSpoon/ShopSalad 1.* (Search Engine crawler for ShopSalad.com; *; crawler@shopsalad.com)",
-          "browser": "shopsalad",
-          "properties": {
-            "Browser": "ShopSalad"
-          }
+          "browser": "shopsalad"
         },
         {
           "match": "Search-10/*",
-          "browser": "search-10",
-          "properties": {
-            "Browser": "Search-10"
-          }
+          "browser": "search-10"
         },
         {
           "match": "search.ch*",
-          "browser": "swiss search engine",
-          "properties": {
-            "Browser": "Swiss Search Engine"
-          }
+          "browser": "swiss search engine"
         },
         {
           "match": "Searchmee! Spider*",
-          "browser": "searchmee!",
-          "properties": {
-            "Browser": "Searchmee!"
-          }
+          "browser": "searchmee!"
         },
         {
           "match": "Seekbot/*",
-          "browser": "seekbot",
-          "properties": {
-            "Browser": "Seekbot"
-          }
+          "browser": "seekbot"
         },
         {
           "match": "SiteSpider",
-          "browser": "sitespider",
-          "properties": {
-            "Browser": "SiteSpider"
-          }
+          "browser": "sitespider"
         },
         {
           "match": "Spinne/*",
-          "browser": "spinne",
-          "properties": {
-            "Browser": "Spinne"
-          }
+          "browser": "spinne"
         },
         {
           "match": "sproose/*",
-          "browser": "sproose",
-          "properties": {
-            "Browser": "Sproose"
-          }
+          "browser": "sproose"
         },
         {
           "match": "Sqeobot/0.*",
-          "browser": "branzel",
-          "properties": {
-            "Browser": "Branzel"
-          }
+          "browser": "branzel"
         },
         {
           "match": "SquigglebotBot/*",
-          "browser": "squigglebotbot",
-          "properties": {
-            "Browser": "SquigglebotBot"
-          }
+          "browser": "squigglebotbot"
         },
         {
           "match": "StackRambler/*",
-          "browser": "stackrambler",
-          "properties": {
-            "Browser": "StackRambler"
-          }
+          "browser": "stackrambler"
         },
         {
           "match": "SygolBot*",
-          "browser": "sygolbot",
-          "properties": {
-            "Browser": "SygolBot"
-          }
+          "browser": "sygolbot"
         },
         {
           "match": "SynoBot",
-          "browser": "synobot",
-          "properties": {
-            "Browser": "SynoBot"
-          }
+          "browser": "synobot"
         },
         {
           "match": "Szukacz/*",
-          "browser": "szukacz",
-          "properties": {
-            "Browser": "Szukacz"
-          }
+          "browser": "szukacz"
         },
         {
           "match": "Tarantula/*",
-          "browser": "tarantula",
-          "properties": {
-            "Browser": "Tarantula"
-          }
+          "browser": "tarantula"
         },
         {
           "match": "TerrawizBot/*",
-          "browser": "terrawizbot",
-          "properties": {
-            "Browser": "TerrawizBot"
-          }
+          "browser": "terrawizbot"
         },
         {
           "match": "Tkensaku/*",
-          "browser": "tkensaku",
-          "properties": {
-            "Browser": "Tkensaku"
-          }
+          "browser": "tkensaku"
         },
         {
           "match": "TMCrawler",
-          "browser": "tmcrawler",
-          "properties": {
-            "Browser": "TMCrawler"
-          }
+          "browser": "tmcrawler"
         },
         {
           "match": "TwengaBot-Discover (http://www.twenga.fr/bot-discover.html)",
-          "browser": "twengabot-discover",
-          "properties": {
-            "Browser": "TwengaBot-Discover"
-          }
+          "browser": "twengabot-discover"
         },
         {
           "match": "Twingly Recon",
-          "browser": "twingly recon",
-          "properties": {
-            "Browser": "Twingly Recon"
-          }
+          "browser": "twingly recon"
         },
         {
           "match": "updated/*",
-          "browser": "updated!",
-          "properties": {
-            "Browser": "Updated!"
-          }
+          "browser": "updated!"
         },
         {
           "match": "URL Spider Pro/*",
-          "browser": "url spider pro",
-          "properties": {
-            "Browser": "URL Spider Pro"
-          }
+          "browser": "url spider pro"
         },
         {
           "match": "URL Spider SQL*",
-          "browser": "innerprise enterprise search",
-          "properties": {
-            "Browser": "Innerprise Enterprise Search"
-          }
+          "browser": "innerprise enterprise search"
         },
         {
           "match": "VMBot/*",
-          "browser": "vmbot",
-          "properties": {
-            "Browser": "VMBot"
-          }
+          "browser": "vmbot"
         },
         {
           "match": "voyager/2.0*",
@@ -911,115 +565,67 @@
         },
         {
           "match": "voyager/*",
-          "browser": "voyager bot",
-          "properties": {
-            "Browser_Maker": "Cosmix Corporation"
-          }
+          "browser": "voyager bot"
         },
         {
           "match": "wadaino.jp-crawler*",
-          "browser": "wadaino.jp",
-          "properties": {
-            "Browser": "wadaino.jp"
-          }
+          "browser": "wadaino.jp"
         },
         {
           "match": "WebAlta Crawler/*",
-          "browser": "webalta crawler",
-          "properties": {
-            "Browser": "WebAlta Crawler"
-          }
+          "browser": "webalta crawler"
         },
         {
           "match": "WebCorp/*",
-          "browser": "webcorp",
-          "properties": {
-            "Browser": "WebCorp"
-          }
+          "browser": "webcorp"
         },
         {
           "match": "webcrawl.net",
-          "browser": "webcrawl.net",
-          "properties": {
-            "Browser": "webcrawl.net"
-          }
+          "browser": "webcrawl.net"
         },
         {
           "match": "WISEbot/*",
-          "browser": "wisebot",
-          "properties": {
-            "Browser": "WISEbot"
-          }
+          "browser": "wisebot"
         },
         {
           "match": "Wotbox/*",
-          "browser": "wotbox",
-          "properties": {
-            "Browser": "Wotbox"
-          }
+          "browser": "wotbox"
         },
         {
           "match": "www.zatka.com",
-          "browser": "zatka",
-          "properties": {
-            "Browser": "Zatka"
-          }
+          "browser": "zatka"
         },
         {
           "match": "WWWeasel Robot v*",
-          "browser": "world wide weasel",
-          "properties": {
-            "Browser": "World Wide Weasel"
-          }
+          "browser": "world wide weasel"
         },
         {
           "match": "YadowsCrawler*",
-          "browser": "yadowscrawler",
-          "properties": {
-            "Browser": "YadowsCrawler"
-          }
+          "browser": "yadowscrawler"
         },
         {
           "match": "YodaoBot/*",
-          "browser": "yodaobot",
-          "properties": {
-            "Browser": "YodaoBot"
-          }
+          "browser": "yodaobot"
         },
         {
           "match": "ZeBot_www.ze.bz*",
-          "browser": "ze.bz",
-          "properties": {
-            "Browser": "ZE.bz"
-          }
+          "browser": "ze.bz"
         },
         {
           "match": "zibber-v*",
-          "browser": "zibb",
-          "properties": {
-            "Browser": "Zibb"
-          }
+          "browser": "zibb"
         },
         {
           "match": "ZipppBot/*",
-          "browser": "zipppbot",
-          "properties": {
-            "Browser": "ZipppBot"
-          }
+          "browser": "zipppbot"
         },
         {
           "match": "Mozilla/4.0(?compatible*; MSIE 6.0; Qihoo *)",
-          "browser": "qihoo",
-          "properties": {
-            "Browser": "Qihoo"
-          }
+          "browser": "qihoo"
         },
         {
           "match": "NerdyBot",
-          "browser": "nerdybot",
-          "properties": {
-            "Browser_Maker": "NerdyData"
-          }
+          "browser": "nerdybot"
         },
         {
           "match": "Mozilla/5.0 (compatible; coccoc/1.0*",
@@ -1030,10 +636,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; coccoc/*",
-          "browser": "coccoc bot",
-          "properties": {
-            "Browser_Maker": "Coc Coc Company Limited"
-          }
+          "browser": "coccoc bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; coccocbot-web/1.0*",
@@ -1044,24 +647,15 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
-          "browser": "coccoc bot",
-          "properties": {
-            "Browser_Maker": "Coc Coc Company Limited"
-          }
+          "browser": "coccoc bot"
         },
         {
           "match": "Wada.vn*",
-          "browser": "wada.vn search bot",
-          "properties": {
-            "Browser_Maker": "WADA"
-          }
+          "browser": "wada.vn search bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Wada.vn*",
-          "browser": "wada.vn search bot",
-          "properties": {
-            "Browser_Maker": "WADA"
-          }
+          "browser": "wada.vn search bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; AcoonBot/4.11*",
@@ -1072,17 +666,11 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; AcoonBot/*",
-          "browser": "acoonbot",
-          "properties": {
-            "Browser_Maker": "Michael Schoebel"
-          }
+          "browser": "acoonbot"
         },
         {
           "match": "Acoon* (*www.acoon.de)",
-          "browser": "acoonbot",
-          "properties": {
-            "Browser_Maker": "Michael Schoebel"
-          }
+          "browser": "acoonbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MojeekBot/0.6*",
@@ -1093,10 +681,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MojeekBot/*",
-          "browser": "mojeekbot",
-          "properties": {
-            "Browser_Maker": "Mojeek Ltd."
-          }
+          "browser": "mojeekbot"
         },
         {
           "match": "Mozilla/5.1 (compatible; MonoBot/1.0*",
@@ -1107,10 +692,7 @@
         },
         {
           "match": "Mozilla/5.1 (compatible; MonoBot/*",
-          "browser": "monobot",
-          "properties": {
-            "Browser_Maker": "mono.name"
-          }
+          "browser": "monobot"
         },
         {
           "match": "Mozilla/5.1 (compatible; GLBot/1.0*",
@@ -1121,10 +703,7 @@
         },
         {
           "match": "Mozilla/5.1 (compatible; GLBot/*",
-          "browser": "glbot",
-          "properties": {
-            "Browser_Maker": "GalaxyDownloads.co"
-          }
+          "browser": "glbot"
         },
         {
           "match": "Mozilla/5.1 (compatible; DBot/7.0*",
@@ -1135,10 +714,7 @@
         },
         {
           "match": "Mozilla/5.1 (compatible; DBot/*",
-          "browser": "dbot",
-          "properties": {
-            "Browser_Maker": "getdownload.ws"
-          }
+          "browser": "dbot"
         },
         {
           "match": "Mozilla/5.1 (compatible; PWBot/1.0*",
@@ -1149,10 +725,7 @@
         },
         {
           "match": "Mozilla/5.1 (compatible; PWBot/*",
-          "browser": "pwbot",
-          "properties": {
-            "Browser_Maker": "eurofiles.in"
-          }
+          "browser": "pwbot"
         },
         {
           "match": "Mozilla/5.1 (compatible; +5Bot/1.0*",
@@ -1163,17 +736,11 @@
         },
         {
           "match": "Mozilla/5.1 (compatible; +5Bot/*",
-          "browser": "plus5bot",
-          "properties": {
-            "Browser_Maker": "plus5files.net"
-          }
+          "browser": "plus5bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; WASALive-Bot*",
-          "browser": "wasalive bot",
-          "properties": {
-            "Browser_Maker": "WASALive"
-          }
+          "browser": "wasalive bot"
         },
         {
           "match": "GigablastOpenSource/1.0*",
@@ -1184,24 +751,15 @@
         },
         {
           "match": "GigablastOpenSource/*",
-          "browser": "gigablast search engine",
-          "properties": {
-            "Browser_Maker": "gigablast.com"
-          }
+          "browser": "gigablast search engine"
         },
         {
           "match": "Mozilla/5.0 (compatible; YioopBot*",
-          "browser": "yioopbot",
-          "properties": {
-            "Browser_Maker": "Yioop!"
-          }
+          "browser": "yioopbot"
         },
         {
           "match": "iZSearch.com*",
-          "browser": "izsearch bot",
-          "properties": {
-            "Browser_Maker": "iZSearch"
-          }
+          "browser": "izsearch bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; DeuSu/0.1*",
@@ -1219,10 +777,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; DeuSu/*",
-          "browser": "werbefreie deutsche suchmaschine",
-          "properties": {
-            "Browser_Maker": "Michael Schoebel"
-          }
+          "browser": "werbefreie deutsche suchmaschine"
         },
         {
           "match": "Mozilla/5.0 (compatible; WbSrch/1.1*",
@@ -1233,10 +788,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; WbSrch/*",
-          "browser": "wbsrch web search",
-          "properties": {
-            "Browser_Maker": "Zeta Centauri"
-          }
+          "browser": "wbsrch web search"
         },
         {
           "match": "Mozilla/5.0 (compatible; Exploratodo/1.0*",
@@ -1247,10 +799,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Exploratodo/*",
-          "browser": "exploratodo bot",
-          "properties": {
-            "Browser_Maker": "Exploratodo"
-          }
+          "browser": "exploratodo bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; WebCorp/5.0*",
@@ -1261,66 +810,39 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; WebCorp/*",
-          "browser": "webcorp",
-          "properties": {
-            "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"
-          }
+          "browser": "webcorp"
         },
         {
           "match": "Mozilla/5.0 (compatible; vebidoobot/*",
-          "browser": "vebidoo bot",
-          "properties": {
-            "Browser_Maker": "Vebidoo.de"
-          }
+          "browser": "vebidoo bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Findxbot/*",
-          "browser": "findx bot",
-          "properties": {
-            "Browser_Maker": "Privacore (findx.com)"
-          }
+          "browser": "findx bot"
         },
         {
           "match": "Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)",
-          "browser": "flamingo bot",
-          "properties": {
-            "Browser_Maker": "Flamingo Search"
-          }
+          "browser": "flamingo bot"
         },
         {
           "match": "Seeker v.*",
-          "browser": "seeker",
-          "properties": {
-            "Browser_Maker": "LookSeek LLC"
-          }
+          "browser": "seeker"
         },
         {
           "match": "omgili/*",
-          "browser": "omgili bot",
-          "properties": {
-            "Browser_Maker": "Webhose.io"
-          }
+          "browser": "omgili bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Daum/*",
-          "browser": "daum bot",
-          "properties": {
-            "Browser_Maker": "Kakao Corp"
-          }
+          "browser": "daum bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; IDBot/*; +http://www.id-search.xyz/bot.html)",
-          "browser": "idbot",
-          "properties": {
-            "Browser_Maker": "id-search.xyz"
-          }
+          "browser": "idbot"
         },
         {
           "match": "Mozilla/5.0 (*Windows NT *; rv:* trendictionbot*; *) Gecko/* Firefox/*",
-          "browser": "trendiction bot",
-          "properties": {
-            "Browser_Maker": "trendiction.de"
-          }
+          "browser": "trendiction bot"
         }
       ]
     }

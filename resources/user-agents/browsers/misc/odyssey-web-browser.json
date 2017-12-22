@@ -19,12 +19,12 @@
       "children": [
         {
           "match": "Mozilla/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:1.23) applewebkit* (*khtml*like*gecko*) OWB/1.23 Safari/*",
-          "properties": {
-            "Version": "1.23"
-          },
           "platforms": [
             "Amiga"
-          ]
+          ],
+          "properties": {
+            "Version": "1.23"
+          }
         },
         {
           "match": "Mozilla/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:*) applewebkit* (*khtml*like*gecko*) OWB/* Safari/*",

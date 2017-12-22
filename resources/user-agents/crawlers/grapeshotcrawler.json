@@ -30,10 +30,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; grapeFX/*; crawler@grapeshot.co.uk",
-          "browser": "grapefx",
-          "properties": {
-            "Browser": "grapeFX"
-          }
+          "browser": "grapefx"
         }
       ]
     }

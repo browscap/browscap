@@ -8,7 +8,7 @@
     {
       "userAgent": "GomezAgent #MAJORVER#.#MINORVER#",
       "browser": "gomez site monitor",
-      "platforms": "Windows",
+      "platform": "Windows",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",

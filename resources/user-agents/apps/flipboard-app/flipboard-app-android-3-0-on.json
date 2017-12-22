@@ -96,22 +96,22 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "NokiaX2DS": "Nokia X2DS"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "Lenovo A5500-H": "Lenovo A5500-H",
             "MS3A": "MegaFon MS3A",
             "W200": "ThL W200"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_2"
           ]

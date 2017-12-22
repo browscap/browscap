@@ -14,101 +14,59 @@
       "children": [
         {
           "match": "Live (http://www.live.com/)",
-          "browser": "microsoft live",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "microsoft live"
         },
         {
           "match": "MFC Foundation Class Library*",
-          "browser": "mfc foundation class library",
-          "properties": {
-            "Browser": "MFC Foundation Class Library"
-          }
+          "browser": "mfc foundation class library"
         },
         {
           "match": "MFHttpScan",
-          "browser": "mfhttpscan",
-          "properties": {
-            "Browser": "MFHttpScan"
-          }
+          "browser": "mfhttpscan"
         },
         {
           "match": "Microsoft BITS/*",
-          "browser": "bits",
-          "properties": {
-            "Browser": "BITS"
-          }
+          "browser": "bits"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider Cache Manager",
-          "browser": "ms ipp",
-          "properties": {
-            "Browser": "MS IPP"
-          }
+          "browser": "ms ipp"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider DAV*",
-          "browser": "ms ipp dav",
-          "properties": {
-            "Browser": "MS IPP DAV"
-          }
+          "browser": "ms ipp dav"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider Protocol Discovery",
-          "browser": "ms ipppd",
-          "properties": {
-            "Browser": "MS IPPPD"
-          }
+          "browser": "ms ipppd"
         },
         {
           "match": "Microsoft Office Existence Discovery",
-          "browser": "microsoft office existence discovery",
-          "properties": {
-            "Browser": "Microsoft Office Existence Discovery"
-          }
+          "browser": "microsoft office existence discovery"
         },
         {
           "match": "Microsoft Office Protocol Discovery",
-          "browser": "ms opd",
-          "properties": {
-            "Browser": "MS OPD"
-          }
+          "browser": "ms opd"
         },
         {
           "match": "Microsoft Office/* (*Picture Manager*)",
-          "browser": "microsoft office picture manager",
-          "properties": {
-            "Browser": "Microsoft Office Picture Manager"
-          }
+          "browser": "microsoft office picture manager"
         },
         {
           "match": "Microsoft URL Control*",
-          "browser": "microsoft url control",
-          "properties": {
-            "Browser": "Microsoft URL Control"
-          }
+          "browser": "microsoft url control"
         },
         {
           "match": "Microsoft Visio MSIE",
-          "browser": "microsoft visio",
-          "properties": {
-            "Browser": "Microsoft Visio"
-          }
+          "browser": "microsoft visio"
         },
         {
           "match": "MSN Feed Manager",
-          "browser": "msn feed manager",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "msn feed manager"
         },
         {
           "match": "MSProxy/*",
-          "browser": "ms proxy",
-          "properties": {
-            "Browser": "MS Proxy"
-          }
+          "browser": "ms proxy"
         },
         {
           "match": "iisbot/1.0*",
@@ -119,10 +77,7 @@
         },
         {
           "match": "iisbot/*",
-          "browser": "iis site analysis web crawler",
-          "properties": {
-            "Browser_Maker": "www.iis.net"
-          }
+          "browser": "iis site analysis web crawler"
         },
         {
           "match": "MS Web Services Client Protocol 1.0*",
@@ -133,43 +88,40 @@
         },
         {
           "match": "MS Web Services Client Protocol *",
-          "browser": ".net framework clr",
-          "properties": {
-            "Browser": ".NET Framework CLR"
-          }
+          "browser": ".net framework clr"
         },
         {
           "match": "ZDM/4.0; Windows Mobile 8.1*",
           "browser": "backgroundtransferservice",
-          "properties": {
-            "Version": "4.0"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone8.1"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "ZDM/4.0; Windows Mobile 8.0*",
           "browser": "backgroundtransferservice",
-          "properties": {
-            "Version": "4.0"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone8"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "ZDM/4.0; Windows Mobile 7.0*",
           "browser": "backgroundtransferservice",
-          "properties": {
-            "Version": "4.0"
-          },
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         }
       ]
     }

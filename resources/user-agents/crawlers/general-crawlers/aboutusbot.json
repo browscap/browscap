@@ -24,10 +24,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/*",
-          "browser": "aboutus bot johnny5",
-          "properties": {
-            "Browser": "AboutUs Bot Johnny5"
-          }
+          "browser": "aboutus bot johnny5"
         },
         {
           "match": "AboutUsBot/* (Website Analysis*"

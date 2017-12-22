@@ -41,7 +41,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Safari/* Epiphany/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         },
         {
@@ -74,7 +75,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "SunOS",
+            "FreeBSD_386",
+            "OpenBSD_386"
           ]
         }
       ]

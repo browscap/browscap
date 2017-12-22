@@ -13,9 +13,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -31,7 +31,8 @@
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "Windows_64"
+            "Windows_64",
+            "Windows"
           ]
         },
         {

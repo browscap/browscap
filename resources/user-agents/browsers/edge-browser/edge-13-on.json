@@ -26,7 +26,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         }
       ]
@@ -34,9 +35,9 @@
     {
       "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
       "browser": "edge mobile",
+      "platform": "WinPhone10",
       "engine": "Edge_Dynamic",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
@@ -50,13 +51,13 @@
             "RM-1010": "Nokia Lumia 638 RM-1010"
           },
           "platforms": [
-            "WinPhone10", "WinPhone10_Continuum"
+            "WinPhone10_Continuum", "WinPhone10"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "platforms": [
-            "WinPhone10", "WinPhone10_Continuum"
+            "WinPhone10_Continuum", "WinPhone10"
           ]
         },
         {

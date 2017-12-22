@@ -15,7 +15,6 @@
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "JavaApplets": "false",
         "Beta": "true"
       },
       "children": [

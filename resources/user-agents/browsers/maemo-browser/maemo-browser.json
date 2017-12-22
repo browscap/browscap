@@ -8,8 +8,8 @@
       "userAgent": "MicroB",
       "browser": "microb",
       "platform": "Maemo",
-      "device": "general Mobile Phone (Touch)",
       "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MicroB"

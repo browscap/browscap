@@ -14,17 +14,11 @@
       "children": [
         {
           "match": "Mozilla/5.0 (SnapPreviewBot) Gecko* Firefox/*",
-          "browser": "snappreviewbot",
-          "properties": {
-            "Browser": "SnapPreviewBot"
-          }
+          "browser": "snappreviewbot"
         },
         {
           "match": "Snapbot/*",
-          "browser": "snapbot",
-          "properties": {
-            "Browser": "Snapbot"
-          }
+          "browser": "snapbot"
         }
       ]
     }

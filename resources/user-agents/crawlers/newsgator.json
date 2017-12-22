@@ -14,24 +14,15 @@
       "children": [
         {
           "match": "MarsEdit*",
-          "browser": "marsedit",
-          "properties": {
-            "Browser": "MarsEdit"
-          }
+          "browser": "marsedit"
         },
         {
           "match": "NewsGator FetchLinks extension/*",
-          "browser": "newsgator fetchlinks",
-          "properties": {
-            "Browser": "NewsGator FetchLinks"
-          }
+          "browser": "newsgator fetchlinks"
         },
         {
           "match": "NewsGator/*",
-          "browser": "newsgator",
-          "properties": {
-            "Browser": "NewsGator"
-          }
+          "browser": "newsgator"
         },
         {
           "match": "NewsGatorOnline/2.0*",
@@ -42,10 +33,7 @@
         },
         {
           "match": "NewsGatorOnline/*",
-          "browser": "newsgatoronline",
-          "properties": {
-            "Browser": "NewsGatorOnline"
-          }
+          "browser": "newsgatoronline"
         }
       ]
     }

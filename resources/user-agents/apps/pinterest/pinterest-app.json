@@ -8,9 +8,9 @@
     {
       "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Android",
       "browser": "pinterest app",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App #MAJORVER#.#MINORVER#",

@@ -90,9 +90,9 @@
     {
       "userAgent": "Facebook App for Android",
       "browser": "facebook app",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Facebook App for Android"
@@ -105,8 +105,7 @@
             "Pixel 2 XL": "Google Pixel 2 XL"
           },
           "platforms": [
-            "Android_8_1",
-            "Android_8_0"
+            "Android_8_1", "Android_8_0"
           ]
         },
         {
@@ -629,6 +628,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "ALCATEL A845L": "Alcatel A845L",
             "C1905": "Sony C1905",
@@ -651,35 +651,35 @@
             "SPH-L710": "Samsung SPH-L710",
             "Z797C": "ZTE Z797C"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "SGH-I337": "Samsung SGH-I337"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
             "SCH-S968C": "Samsung SCH-S968C",
             "SGH-T999": "Samsung SGH-T999"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9082L": "Samsung GT-I9082L",
             "GT-I9300": "Samsung GT-I9300",
@@ -689,13 +689,13 @@
             "ME302C": "Asus ME302C",
             "SCH-I605": "Samsung SCH-I605"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "Archos 50 Titanium": "Archos 50 Titanium",
             "ASUS Transformer Pad TF300T": "Asus TF300T",
@@ -754,13 +754,13 @@
             "Vodafone Smart 4G": "Vodafone Smart 4G",
             "Vodafone Smart Tab 4": "Vodafone Smart Tab 4"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "ALCATEL ONE TOUCH 6030X": "Alcatel OT-6030X",
             "Archos 50 Platinum": "Archos 50 Platinum",
@@ -807,13 +807,13 @@
             "SM-T211*": "Samsung SM-T211",
             "TAB 7i 3G": "Wexler TAB 7i 3G"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "cm_tenderloin": "HP Touchpad",
             "fnac 4.5": "Fnac Phablet 4.5",
@@ -834,27 +834,26 @@
             "Transformer TF101G": "Asus TF101G",
             "VS840 4G": "LG VS840 4G"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "A501": "Acer A501"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_3_2"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "SCH-R720": "Samsung SCH-R720"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_2_3"
           ]
@@ -878,10 +877,10 @@
         },
         {
           "match": "Dalvik/1.2* (#PLATFORM##DEVICE# Build/*) *FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "HTC Desire": "HTC A8181"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_2_2"
           ]
@@ -896,10 +895,10 @@
         },
         {
           "match": "*FBAN/*FBAV/*#DEVICE#*",
+          "engine": "WebKit",
           "devices": {
             "Nexus 5": "LG Nexus 5"
-          },
-          "engine": "WebKit"
+          }
         }
       ]
     },

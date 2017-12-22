@@ -44,9 +44,9 @@
     {
       "userAgent": "Instagram Agent #MAJORVER#.#MINORVER# for Android",
       "browser": "instagram app",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER# for Android",

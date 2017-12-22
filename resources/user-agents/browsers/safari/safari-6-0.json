@@ -8,9 +8,9 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
       "browser": "safari",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -36,8 +36,8 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "browser": "safari",
-      "device": "general Mobile Phone",
       "platform": "SymbianOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

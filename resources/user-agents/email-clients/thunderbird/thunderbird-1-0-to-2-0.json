@@ -29,8 +29,10 @@
           "platforms": [
             "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "NT4",
-            "Win98", "WinME"
+            "Win2000",
+            "NT4",
+            "WinME",
+            "Win98"
           ]
         },
         {

@@ -8,8 +8,8 @@
       "userAgent": "Chimera",
       "browser": "chimera",
       "platform": "OSX",
-      "device": "Macintosh",
       "engine": "Gecko",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chimera"

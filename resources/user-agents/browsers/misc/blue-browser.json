@@ -64,7 +64,7 @@
             "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
-            "Android"
+            "Android_H"
           ]
         },
         {
@@ -76,10 +76,7 @@
           },
           "platforms": [
             "Android_H_6_0"
-          ],
-          "properties": {
-            "Browser": "Surf Browser"
-          }
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
@@ -89,11 +86,8 @@
             "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
-            "Android"
-          ],
-          "properties": {
-            "Browser": "Surf Browser"
-          }
+            "Android_H"
+          ]
         }
       ]
     }

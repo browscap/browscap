@@ -38,7 +38,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_I_8_4", "iOS_I_7_0",
+            "iOS_I_8_4",
+            "iOS_I_7_0",
             "iOS_I"
           ]
         }

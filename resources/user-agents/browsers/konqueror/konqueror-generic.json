@@ -33,14 +33,19 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "CygWin"
+            "CygWin",
+            "Windows"
           ]
         },
         {
@@ -64,7 +69,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) KHTML/* (like Gecko) Konqueror/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {
@@ -82,7 +91,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/*",
           "engine": "WebKit",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {
@@ -99,7 +112,11 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {
@@ -115,7 +132,11 @@
         {
           "match": "*Konqueror/#PLATFORM#",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {

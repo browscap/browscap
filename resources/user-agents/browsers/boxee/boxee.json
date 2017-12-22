@@ -7,8 +7,8 @@
     {
       "userAgent": "Boxee",
       "browser": "boxee",
-      "device": "Boxee",
       "platform": "Linux",
+      "device": "Boxee",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Boxee"

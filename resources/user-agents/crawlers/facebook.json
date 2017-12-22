@@ -35,10 +35,7 @@
         },
         {
           "match": "facebookexternalhit/*",
-          "browser": "facebookexternalhit",
-          "properties": {
-            "Browser": "FacebookExternalHit"
-          }
+          "browser": "facebookexternalhit"
         },
         {
           "match": "Facebook share follower"
@@ -67,10 +64,7 @@
         },
         {
           "match": "Facebot/*",
-          "browser": "facebot",
-          "properties": {
-            "Browser": "Facebot"
-          }
+          "browser": "facebot"
         },
         {
           "match": "facebookscraper/1.0( http*://www.facebook.com/sharescraper_help.php)*",
@@ -81,10 +75,7 @@
         },
         {
           "match": "facebookscraper/*( http*://www.facebook.com/sharescraper_help.php)*",
-          "browser": "facebookscraper",
-          "properties": {
-            "Browser": "Facebookscraper"
-          }
+          "browser": "facebookscraper"
         }
       ]
     }

@@ -29,17 +29,11 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Cloudflare-AMP/*; +https://amp.cloudflare.com/*) applewebkit*",
-          "browser": "cloudflare amp discovery fetcher",
-          "properties": {
-            "Browser": "CloudFlare AMP Discovery Fetcher"
-          }
+          "browser": "cloudflare amp discovery fetcher"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android *) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* (compatible; Cloudflare-AMPHTML)",
-          "browser": "cloudflare amp discovery fetcher",
-          "properties": {
-            "Browser": "CloudFlare AMP Discovery Fetcher"
-          }
+          "browser": "cloudflare amp discovery fetcher"
         }
       ]
     }

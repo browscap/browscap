@@ -83,9 +83,6 @@
         {
           "match": "Mozilla/3.01 (compatible; Netgem/*; Linux 2.2)",
           "browser": "netgem set top box",
-          "properties": {
-            "Browser": "Netgem Set Top Box"
-          },
           "device": "general TV Device",
           "platforms": [
             "Linux"

@@ -57,8 +57,8 @@
     {
       "userAgent": "Twitter App for Android",
       "browser": "twitter app",
-      "engine": "Blink",
       "platform": "Android",
+      "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

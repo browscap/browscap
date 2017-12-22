@@ -16,33 +16,21 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
           "browser": "thumbshotsbot",
           "device": "Linux Desktop",
-          "properties": {
-            "Browser": "ThumbShotsBot"
-          },
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "thumbshots-de-bot*",
-          "browser": "thumbshots-de-bot",
-          "properties": {
-            "Browser_Maker": "thumbshots.de"
-          }
+          "browser": "thumbshots-de-bot"
         },
         {
           "match": "ThumbnailAgent",
-          "browser": "thumbnailagent",
-          "properties": {
-            "Browser": "ThumbnailAgent"
-          }
+          "browser": "thumbnailagent"
         },
         {
           "match": "ThumbSniper *",
-          "browser": "thumbsniper",
-          "properties": {
-            "Browser_Maker": "Thomas Schulte"
-          }
+          "browser": "thumbsniper"
         },
         {
           "match": "gosquared-thumbnailer/1.0*",
@@ -53,17 +41,11 @@
         },
         {
           "match": "gosquared-thumbnailer/*",
-          "browser": "gosquared-thumbnailer",
-          "properties": {
-            "Browser_Maker": "Go Squared Ltd."
-          }
+          "browser": "gosquared-thumbnailer"
         },
         {
           "match": "Ruby, link_thumbnailer*",
-          "browser": "link_thumbnailer",
-          "properties": {
-            "Browser_Maker": "Pierre-Louis Gottfrois"
-          }
+          "browser": "link_thumbnailer"
         },
         {
           "match": "Thumbor/3.14*",
@@ -74,87 +56,51 @@
         },
         {
           "match": "Thumbor/*",
-          "browser": "thumbor",
-          "properties": {
-            "Browser": "Thumbor"
-          }
+          "browser": "thumbor"
         },
         {
           "match": "Mozilla/5.0 (compatible; FTT2 Toplist Thumb Grabber*",
-          "browser": "ftt2 toplist thumb grabber",
-          "properties": {
-            "Browser_Maker": "Fast Traffic Trader 2"
-          }
+          "browser": "ftt2 toplist thumb grabber"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) khtml2png Safari/*",
-          "browser": "khtml2png",
-          "properties": {
-            "Browser_Maker": "Hauke Goos-Habermann"
-          }
+          "browser": "khtml2png"
         },
         {
           "match": "Easy-Thumb*",
-          "browser": "easy-thumb bot",
-          "properties": {
-            "Browser_Maker": "Easy-Thumb.net"
-          }
+          "browser": "easy-thumb bot"
         },
         {
           "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (KHTML, like Gecko) WordPress.com mShots Safari/*",
-          "browser": "wordpress.com mshots thumbnailer",
-          "properties": {
-            "Browser_Maker": "Automattic"
-          }
+          "browser": "wordpress.com mshots thumbnailer"
         },
         {
           "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/20100101 Firefox/* WordPress.com mShots",
-          "browser": "wordpress.com mshots thumbnailer",
-          "properties": {
-            "Browser_Maker": "Automattic"
-          }
+          "browser": "wordpress.com mshots thumbnailer"
         },
         {
           "match": "Mozilla/5.0 (*Macintosh*) AppleWebKit/* (*khtml*like*gecko*) Like-Version/* Safari/* webkit2png/*",
-          "browser": "webkit2png",
-          "properties": {
-            "Browser_Maker": "Paul Hammond"
-          }
+          "browser": "webkit2png"
         },
         {
           "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (*shrinktheweb.com*",
-          "browser": "shrinktheweb bot",
-          "properties": {
-            "Browser_Maker": "ShrinkTheWeb"
-          }
+          "browser": "shrinktheweb bot"
         },
         {
           "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/* HeartRails_Capture/* (+http://capture.heartrails.com/) *",
-          "browser": "heartrails capture bot",
-          "properties": {
-            "Browser_Maker": "capture.heartrails.com"
-          }
+          "browser": "heartrails capture bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) web-capture.net/* Safari/*",
-          "browser": "web-capture bot",
-          "properties": {
-            "Browser_Maker": "web-capture.net"
-          }
+          "browser": "web-capture bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) *Site-Shot/* (http://www.site-shot.com/) Safari/*",
-          "browser": "site-shot bot",
-          "properties": {
-            "Browser_Maker": "site-shot.com"
-          }
+          "browser": "site-shot bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) www.HomepageScreenshot.de - Free ScreenShotService/* Safari/*",
-          "browser": "free screenshotservice",
-          "properties": {
-            "Browser_Maker": "www.homepagescreenshot.de"
-          }
+          "browser": "free screenshotservice"
         }
       ]
     }

@@ -37,24 +37,15 @@
         },
         {
           "match": "Automattic Analytics Crawler/*; http://wordpress.com/crawler/",
-          "browser": "automattic analytics crawler",
-          "properties": {
-            "Browser": "Automattic Analytics Crawler"
-          }
+          "browser": "automattic analytics crawler"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Mobile Safari/*",
-          "browser": "google publisher wordpress plugin",
-          "properties": {
-            "Browser_Maker": "Google Inc."
-          }
+          "browser": "google publisher wordpress plugin"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Safari/*",
-          "browser": "google publisher wordpress plugin",
-          "properties": {
-            "Browser_Maker": "Google Inc."
-          }
+          "browser": "google publisher wordpress plugin"
         }
       ]
     }

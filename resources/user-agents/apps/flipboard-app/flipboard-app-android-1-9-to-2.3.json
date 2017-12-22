@@ -83,10 +83,10 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "SM-T325": "Samsung SM-T325"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]

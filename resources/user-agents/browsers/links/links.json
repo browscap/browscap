@@ -26,14 +26,21 @@
           "match": "Links (#MAJORVER#.#MINORVER#*; #PLATFORM#)",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_cygwin", "Win32"
+            "WinXPa_cygwin",
+            "Win32"
           ]
         },
         {
           "match": "Links (#MAJORVER#.#MINORVER#*; #PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "Darwin", "FreeBSD", "NetBSD", "OpenBSD", "Unix_B", "OS2", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS",
+            "OS2",
+            "Darwin",
+            "Unix_B"
           ]
         }
       ]

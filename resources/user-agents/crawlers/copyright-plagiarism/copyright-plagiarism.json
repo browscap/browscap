@@ -14,73 +14,43 @@
       "children": [
         {
           "match": "BDFetch",
-          "browser": "bdfetch",
-          "properties": {
-            "Browser": "BDFetch"
-          }
+          "browser": "bdfetch"
         },
         {
           "match": "copyright sheriff (*)",
-          "browser": "copyright sheriff",
-          "properties": {
-            "Browser": "copyright sheriff"
-          }
+          "browser": "copyright sheriff"
         },
         {
           "match": "CopyRightCheck*",
-          "browser": "copyrightcheck",
-          "properties": {
-            "Browser": "CopyRightCheck"
-          }
+          "browser": "copyrightcheck"
         },
         {
           "match": "FairAd Client*",
-          "browser": "fairad client",
-          "properties": {
-            "Browser": "FairAd Client"
-          }
+          "browser": "fairad client"
         },
         {
           "match": "iCopyright Conductor*",
-          "browser": "icopyright conductor",
-          "properties": {
-            "Browser": "iCopyright Conductor"
-          }
+          "browser": "icopyright conductor"
         },
         {
           "match": "IPiumBot laurion(dot)com",
-          "browser": "ipiumbot",
-          "properties": {
-            "Browser": "IPiumBot"
-          }
+          "browser": "ipiumbot"
         },
         {
           "match": "IWAgent/*",
-          "browser": "brand protect",
-          "properties": {
-            "Browser": "Brand Protect"
-          }
+          "browser": "brand protect"
         },
         {
           "match": "Mozilla/5.0 (compatible; DKIMRepBot/*)",
-          "browser": "dkimrepbot",
-          "properties": {
-            "Browser": "DKIMRepBot"
-          }
+          "browser": "dkimrepbot"
         },
         {
           "match": "SlySearch/*",
-          "browser": "slysearch",
-          "properties": {
-            "Browser": "SlySearch"
-          }
+          "browser": "slysearch"
         },
         {
           "match": "TutorGigBot/*",
-          "browser": "tutorgig",
-          "properties": {
-            "Browser": "TutorGig"
-          }
+          "browser": "tutorgig"
         }
       ]
     }

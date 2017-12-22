@@ -16,7 +16,8 @@
       "children": [
         {
           "match": "CamelHttpStream/1.0 Evolution/*"
-        },{
+        },
+        {
           "match": "Evolution/*"
         }
       ]

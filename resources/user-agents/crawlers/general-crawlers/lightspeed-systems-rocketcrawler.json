@@ -16,9 +16,6 @@
           "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
           "browser": "lightspeed systems crawler",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Lightspeed Systems Crawler"
-          },
           "platforms": [
             "WinXPa_32"
           ]

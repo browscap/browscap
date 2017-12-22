@@ -19,21 +19,21 @@
       "children": [
         {
           "match": "fgBrowserPrivate/3.2* CFNetwork/*",
-          "properties": {
-            "Version": "3.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
         },
         {
           "match": "fgBrowserPrivate/4.* CFNetwork/*",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "fgBrowserPrivate* CFNetwork/*",
@@ -43,21 +43,21 @@
         },
         {
           "match": "fgBrowser/3.2* CFNetwork/*",
-          "properties": {
-            "Version": "3.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
         },
         {
           "match": "fgBrowser/4.* CFNetwork/*",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "fgBrowser* CFNetwork/*",

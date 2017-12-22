@@ -17,12 +17,13 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/530.17*(*khtml*like*gecko*)*Version/*Safari/*Skyfire/2.*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ],
           "properties": {
             "Version": "2.0"
-          },
-          "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
-          ]
+          }
         }
       ]
     }

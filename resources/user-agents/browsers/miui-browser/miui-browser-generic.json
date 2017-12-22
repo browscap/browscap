@@ -7,9 +7,9 @@
     {
       "userAgent": "Miui Browser Generic",
       "browser": "miui browser",
-      "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Miui Browser Generic"

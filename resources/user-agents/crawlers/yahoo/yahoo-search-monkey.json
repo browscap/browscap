@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! SearchMonkey*)",
-          "browser": "yahoo! search monkey",
-          "properties": {
-            "Browser": "Yahoo! Search Monkey"
-          }
+          "browser": "yahoo! search monkey"
         }
       ]
     }

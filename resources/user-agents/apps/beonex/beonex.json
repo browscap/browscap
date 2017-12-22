@@ -19,12 +19,12 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Beonex/0.8*",
-          "properties": {
-            "Version": "0.8"
-          },
           "platforms": [
             "NT_2"
-          ]
+          ],
+          "properties": {
+            "Version": "0.8"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Beonex/*",

@@ -7,13 +7,12 @@
     {
       "userAgent": "Headless Chrome",
       "browser": "headless chrome",
+      "platform": "Linux",
       "engine": "Blink",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Headless Chrome",
-        "JavaApplets": "false"
+        "Comment": "Headless Chrome"
       },
       "children": [
         {

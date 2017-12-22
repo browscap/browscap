@@ -8,9 +8,9 @@
     {
       "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for Android",
       "browser": "onebrowser",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
@@ -86,9 +86,9 @@
     {
       "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for iOS",
       "browser": "onebrowser",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OneBrowser #MAJORVER#.#MINORVER#",

@@ -49,8 +49,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* iLunascape/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "iOS_C",
-            "iOS_A"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

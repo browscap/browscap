@@ -7,8 +7,8 @@
     {
       "userAgent": "Ubuntu APT-HTTP",
       "browser": "apt http transport",
-      "device": "Linux Desktop",
       "platform": "Ubuntu",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Ubuntu APT-HTTP"

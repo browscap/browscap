@@ -8,9 +8,9 @@
     {
       "userAgent": "LG Player #MAJORVER#.#MINORVER#",
       "browser": "player",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "LG Player #MAJORVER#.#MINORVER#",
@@ -19,8 +19,8 @@
       "children": [
         {
           "match": "LG-H345/* Player/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
-          "device": "LG H345",
           "engine": "Blink",
+          "device": "LG H345",
           "platforms": [
             "Android_H_5_1"
           ]
@@ -28,13 +28,19 @@
         {
           "match": "*Player/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
           "platforms": [
-            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4",
+            "Android_H"
           ]
         },
         {
           "match": "Player/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
           "platforms": [
-            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4",
+            "Android_H"
           ]
         }
       ]

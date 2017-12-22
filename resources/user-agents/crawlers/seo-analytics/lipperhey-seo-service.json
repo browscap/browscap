@@ -27,10 +27,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/*",
-          "browser": "lipperhey kaus australis",
-          "properties": {
-            "Browser": "Lipperhey Kaus Australis"
-          }
+          "browser": "lipperhey kaus australis"
         },
         {
           "match": "Mozilla/5.0 (compatible; Lipperhey*"

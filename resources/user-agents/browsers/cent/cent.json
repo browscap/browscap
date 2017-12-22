@@ -7,9 +7,9 @@
     {
       "userAgent": "Cent Browser",
       "browser": "cent browser",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cent Browser"

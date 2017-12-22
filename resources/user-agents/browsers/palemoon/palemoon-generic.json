@@ -7,8 +7,8 @@
     {
       "userAgent": "PaleMoon Generic",
       "browser": "palemoon",
-      "device": "Windows Desktop",
       "engine": "Goanna",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PaleMoon Generic",
@@ -27,12 +27,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* Firefox* PaleMoon/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32"
           ]
         },
         {
@@ -46,12 +46,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* PaleMoon/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32"
           ]
         },
         {
@@ -65,13 +65,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* Firefox/* PaleMoon/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_32", "WinXPb_32"
           ]
         },
         {
@@ -85,55 +85,55 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Goanna* PaleMoon/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_32", "WinXPb_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
-          "device": "Linux Desktop",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
-          "device": "Windows Desktop",
           "engine": "Gecko",
+          "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_32", "WinXPb_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PaleMoon/*",
-          "device": "Linux Desktop",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PaleMoon/*",
-          "device": "Windows Desktop",
           "engine": "Gecko",
+          "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPa_32", "WinXPb_32"
           ]
         }
       ]

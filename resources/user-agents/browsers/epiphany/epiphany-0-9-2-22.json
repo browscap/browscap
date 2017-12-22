@@ -1,6 +1,6 @@
 {
   "division": "Epiphany #MAJORVER#.#MINORVER#",
-  "versions": ["2.22", "2.20", "2.18", "2.16", "2.14", "1.8", "1.7", "1.4", "1.2", 1, "0.9"],
+  "versions": ["2.22", "2.18", "2.16", "2.14", "2.20", "1.8", "1.7", "1.4", "1.2", 1, "0.9"],
   "sortIndex": 1943,
   "lite": false,
   "standard": true,
@@ -13,9 +13,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Epiphany #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -36,7 +36,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS", "NetBSD"
+            "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD",
+            "SunOS",
+            "FreeBSD_386",
+            "OpenBSD_386"
           ]
         }
       ]

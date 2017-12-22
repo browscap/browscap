@@ -58,9 +58,9 @@
     {
       "userAgent": "Pinterest App Generic for Android",
       "browser": "pinterest app",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic"

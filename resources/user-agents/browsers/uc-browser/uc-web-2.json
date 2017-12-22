@@ -9,8 +9,8 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "browser": "uc browser",
       "platform": "Android",
-      "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
@@ -213,8 +213,8 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
       "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -225,7 +225,8 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7_C", "WinPhone8_B",
+            "WinPhone8_B",
+            "WinPhone7_C",
             "SymbianOS_B"
           ]
         },

@@ -43,7 +43,7 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A"
           ]
         },

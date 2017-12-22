@@ -30,12 +30,12 @@
             "Android"
           ]
         },
-         {
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
+          "engine": "Blink",
           "devices": {
             "HUAWEI MT1-U06": "Huawei MT1-U06"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_1"
           ]

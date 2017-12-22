@@ -16,22 +16,22 @@
         {
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Emacs/W3/2.*",
@@ -42,22 +42,22 @@
         {
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Emacs/W3/3.*",
@@ -68,22 +68,22 @@
         {
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "Emacs/W3/4.*",

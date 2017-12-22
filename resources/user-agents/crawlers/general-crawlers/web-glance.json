@@ -7,9 +7,9 @@
     {
       "userAgent": "Web Glance",
       "browser": "web glance",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Web Glance"
@@ -19,12 +19,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) *Webglance/0.1*",
           "engine": "WebKit",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "0.1"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "0.1"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) *Webglance/*",

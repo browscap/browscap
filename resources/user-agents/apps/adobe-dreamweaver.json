@@ -8,9 +8,9 @@
     {
       "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
       "browser": "dreamweaver",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",

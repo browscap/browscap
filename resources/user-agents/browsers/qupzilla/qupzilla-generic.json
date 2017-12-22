@@ -47,7 +47,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QupZilla/* Safari/*",
           "device": "general Desktop",
           "platforms": [
-            "Unix", "OS2", "Haiku", "FreeBSD", "Solaris"
+            "FreeBSD",
+            "OS2",
+            "Unix",
+            "Solaris",
+            "Haiku"
           ]
         }
       ]

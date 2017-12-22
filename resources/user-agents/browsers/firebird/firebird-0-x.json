@@ -27,7 +27,14 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinME", "WinXPa_32", "WinXPb_32", "Win98", "Win95", "Vista_32", "Win7_32", "NT4_B"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
           ]
         },
         {
@@ -41,7 +48,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "SunOS", "FreeBSD", "IRIX64", "NetBSD", "OpenBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "IRIX64",
+            "SunOS"
           ]
         }
       ]

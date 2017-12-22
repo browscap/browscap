@@ -21,21 +21,19 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Youtube-Links)",
-          "browser": "youtube links bot",
-          "properties": {
-            "Browser": "YouTube Links Bot"
-          }
+          "browser": "youtube links bot"
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar 7.5#PLATFORM#",
           "browser": "google toolbar",
           "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_v2",
+            "Windows"
+          ],
           "properties": {
             "Version": "7.5"
-          },
-          "platforms": [
-            "WinXPa_v2", "Windows"
-          ]
+          }
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar 7.5*",
@@ -49,57 +47,37 @@
           "match": "Mozilla/4.0 (compatible; GoogleToolbar#PLATFORM#",
           "browser": "google toolbar",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Google Toolbar"
-          },
           "platforms": [
-            "WinXPa_v2", "Windows"
+            "WinXPa_v2",
+            "Windows"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar*",
-          "browser": "google toolbar",
-          "properties": {
-            "Browser": "Google Toolbar"
-          }
+          "browser": "google toolbar"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Version/3.1 Safari/*"
         },
         {
           "match": "google (*Enterprise*)",
-          "browser": "google enterprise",
-          "properties": {
-            "Browser": "Google Enterprise"
-          }
+          "browser": "google enterprise"
         },
         {
           "match": "Google OpenSocial agent*",
-          "browser": "google opensocial",
-          "properties": {
-            "Browser": "Google OpenSocial"
-          }
+          "browser": "google opensocial"
         },
         {
           "match": "*Google Wireless Transcoder*",
-          "browser": "google wireless transcoder",
-          "properties": {
-            "Browser": "Google Wireless Transcoder"
-          }
+          "browser": "google wireless transcoder"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko; Google Wireless Transcoder) Chrome/* Safari/*",
-          "browser": "google wireless transcoder",
-          "properties": {
-            "Browser": "Google Wireless Transcoder"
-          }
+          "browser": "google wireless transcoder"
         },
         {
           "match": "Google-Site-Verification*",
-          "browser": "google-site-verification",
-          "properties": {
-            "Browser": "Google-Site-Verification"
-          }
+          "browser": "google-site-verification"
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Site-Verification/1.0*",
@@ -110,82 +88,47 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; Google-Site-Verification/*",
-          "browser": "google-site-verification",
-          "properties": {
-            "Browser": "Google-Site-Verification"
-          }
+          "browser": "google-site-verification"
         },
         {
           "match": "Google-Sitemaps*",
-          "browser": "google-sitemaps",
-          "browser": "google-sitemaps",
-          "properties": {
-            "Browser": "Google-Sitemaps"
-          }
+          "browser": "google-sitemaps"
         },
         {
           "match": "Feedfetcher-Google-iGoogleGadgets*",
-          "browser": "igooglegadgets",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "igooglegadgets"
         },
         {
           "match": "Google-Sitemaps*",
-          "browser": "google-sitemaps",
-          "browser": "google-sitemaps",
-          "properties": {
-            "Browser": "Google-Sitemaps"
-          }
+          "browser": "google-sitemaps"
         },
         {
           "match": "GoogleFriendConnect*",
-          "browser": "google friend connect",
-          "properties": {
-            "Browser": "Google Friend Connect"
-          }
+          "browser": "google friend connect"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit*(*khtml*like*gecko; Google-Adwords-DisplayAds-WebRender;)*",
-          "browser": "google adwords displayads webrender",
-          "properties": {
-            "Browser": "Google Adwords DisplayAds WebRender"
-          }
+          "browser": "google adwords displayads webrender"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko* Google Search Console) Chrome/* Safari/*",
-          "browser": "google search console",
-          "properties": {
-            "Browser": "Google Search Console"
-          }
+          "browser": "google search console"
         },
         {
           "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; Google Search Console)",
-          "browser": "google search console",
-          "properties": {
-            "Browser": "Google Search Console"
-          }
+          "browser": "google search console"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-HotelAdsVerifier/*)",
-          "browser": "google hotel ads verifier",
-          "properties": {
-            "Browser": "Google Hotel Ads Verifier"
-          }
+          "browser": "google hotel ads verifier"
         },
         {
           "match": "Mozilla/5.0 (Windows; U; Windows NT *; rv:*; Google-SearchByImage) Gecko/* Firefox/*",
-          "browser": "google searchbyimage",
-          "properties": {
-            "Browser": "Google SearchByImage"
-          }
+          "browser": "google searchbyimage"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* Chrome-Lighthouse",
-          "browser": "google lighthouse",
-          "properties": {
-            "Browser": "Google Lighthouse"
-          }
+          "browser": "google lighthouse"
         }
       ]
     }

@@ -7,9 +7,9 @@
     {
       "userAgent": "iCab Generic",
       "browser": "icab",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iCab Generic"
@@ -18,19 +18,25 @@
         {
           "match": "iCab/* (#PLATFORM#)",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX"
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) iCab *",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX"
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {
           "match": "Mozilla/* (compatible; iCab *;#PLATFORM#)",
           "platforms": [
-            "Mac68K", "MacPPC", "OSX"
+            "OSX",
+            "MacPPC",
+            "Mac68K"
           ]
         },
         {

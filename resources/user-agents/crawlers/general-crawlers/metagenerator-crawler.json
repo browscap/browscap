@@ -25,10 +25,7 @@
           }
         },
         {
-          "match": "MetaGeneratorCrawler/*",
-          "properties": {
-
-          }
+          "match": "MetaGeneratorCrawler/*"
         }
       ]
     }

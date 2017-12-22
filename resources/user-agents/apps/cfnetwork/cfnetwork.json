@@ -439,17 +439,11 @@
       "children": [
         {
           "match": "*CFNetwork*",
-          "browser": "cfnetwork",
-          "properties": {
-            "Browser": "CFNetwork"
-          }
+          "browser": "cfnetwork"
         },
         {
           "match": "CFNetwork/*",
-          "browser": "cfnetwork",
-          "properties": {
-            "Browser": "CFNetwork"
-          }
+          "browser": "cfnetwork"
         }
       ]
     }

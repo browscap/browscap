@@ -14,31 +14,19 @@
       "children": [
         {
           "match": "Lycos*",
-          "browser": "lycos",
-          "properties": {
-            "Browser": "Lycos"
-          }
+          "browser": "lycos"
         },
         {
           "match": "Lycos-Proxy",
-          "browser": "lycos-proxy",
-          "properties": {
-            "Browser": "Lycos-Proxy"
-          }
+          "browser": "lycos-proxy"
         },
         {
           "match": "Lycos-Spider_(modspider)",
-          "browser": "lycos-spider_(modspider)",
-          "properties": {
-            "Browser": "Lycos-Spider_(modspider)"
-          }
+          "browser": "lycos-spider_(modspider)"
         },
         {
           "match": "Lycos-Spider_(T-Rex)",
-          "browser": "lycos-spider_(t-rex)",
-          "properties": {
-            "Browser": "Lycos-Spider_(T-Rex)"
-          }
+          "browser": "lycos-spider_(t-rex)"
         }
       ]
     }

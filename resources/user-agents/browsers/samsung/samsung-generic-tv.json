@@ -7,8 +7,8 @@
     {
       "userAgent": "Samsung Generic TV",
       "browser": "samsung tv",
-      "device": "Smart-TV",
       "engine": "WebKit",
+      "device": "Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Generic TV",
@@ -36,8 +36,8 @@
         },
         {
           "match": "HbbTV/* (;;;;;) Maple_2011*",
-          "device": "Smart-TV",
-          "engine": "unknown"
+          "engine": "unknown",
+          "device": "Smart-TV"
         }
       ]
     }

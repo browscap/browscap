@@ -1,10 +1,6 @@
 {
   "division": "KMail2 #MAJORVER#.#MINORVER#",
-  "versions": [
-    "5.2",
-    "4.14",
-    "4.12"
-  ],
+  "versions": ["5.2", "4.14", "4.12"],
   "sortIndex": 1661,
   "lite": false,
   "standard": true,
@@ -27,8 +23,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kmail2/#MAJORVER#.#MINORVER#.* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64",
-            "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

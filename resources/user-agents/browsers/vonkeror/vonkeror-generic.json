@@ -18,7 +18,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Vonkeror/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Windows"
+            "WinXPa_32",
+            "Windows"
           ]
         },
         {

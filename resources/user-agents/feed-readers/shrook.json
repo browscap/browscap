@@ -7,9 +7,9 @@
     {
       "userAgent": "Shrook",
       "browser": "shrook",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Shrook"
@@ -18,7 +18,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Shrook/*",
           "platforms": [
-            "OSX_10_10", "OSX"
+            "OSX_10_10",
+            "OSX"
           ]
         }
       ]

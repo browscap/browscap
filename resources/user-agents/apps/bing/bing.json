@@ -17,12 +17,12 @@
       "children": [
         {
           "match": "Bing/2.2* CFNetwork/*",
-          "properties": {
-            "Version": "2.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
         },
         {
           "match": "Bing/* CFNetwork/*",

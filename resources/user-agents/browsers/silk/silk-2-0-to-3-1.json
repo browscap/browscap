@@ -38,9 +38,6 @@
         },
         {
           "match": "Mozilla/5.0 (Linux; U;*#DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "KFOT": "Amazon KFOT",
             "KFJWA": "Amazon KFJWA",
@@ -49,16 +46,19 @@
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "division": "Konqueror #MAJORVER#.#MINORVER#",
-  "versions": ["5.28", "5.23", 5, "4.14", "4.13", "4.12", "4.11", "4.10", "4.9", "4.8", "4.7", "4.6", "4.5"],
+  "versions": ["5.28", "5.23", 5, "4.14", "4.13", "4.12", "4.11", "4.9", "4.8", "4.7", "4.6", "4.5", "4.10"],
   "sortIndex": 2490,
   "lite": false,
   "standard": true,
@@ -35,7 +35,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER#*; #PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         },
         {
@@ -59,7 +62,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko) Konqueror/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         },
         {
@@ -85,7 +91,10 @@
           "engine": "WebKit",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "SunOS"
           ]
         }
       ]

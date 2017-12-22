@@ -8,8 +8,8 @@
       "userAgent": "StumbleUpon",
       "browser": "stumbleupon",
       "platform": "Windows",
-      "device": "Windows Desktop",
       "engine": "Gecko",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "StumbleUpon"

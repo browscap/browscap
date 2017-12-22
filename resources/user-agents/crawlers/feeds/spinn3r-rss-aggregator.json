@@ -17,32 +17,32 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.3"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.1"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.1"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",

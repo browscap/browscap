@@ -35,28 +35,27 @@
         },
         {
           "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "HTC_EVO3D_X515m": "HTC X515m"
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.2 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/5.2*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Version": "5.2"
-          },
           "devices": {
             "HTC_EVO3D_X515m": "HTC X515m"
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Version": "5.2",            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

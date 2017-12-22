@@ -14,38 +14,23 @@
       "children": [
         {
           "match": "BlijbolReallySimpleAggregator/2.0*",
-          "browser": "blijbolreallysimpleaggregator",
-          "properties": {
-            "Browser": "BlijbolReallySimpleAggregator"
-          }
+          "browser": "blijbolreallysimpleaggregator"
         },
         {
           "match": "CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper",
-          "browser": "cc metadata scaper",
-          "properties": {
-            "Browser": "CC Metadata Scaper"
-          }
+          "browser": "cc metadata scaper"
         },
         {
           "match": "Mozilla/5.0 (compatible) GM RSS Panel",
-          "browser": "rss panel",
-          "properties": {
-            "Browser": "RSS Panel"
-          }
+          "browser": "rss panel"
         },
         {
           "match": "Mozilla/5.0 http://www.inclue.com; graeme@inclue.com",
-          "browser": "inclue",
-          "properties": {
-            "Browser": "Inclue"
-          }
+          "browser": "inclue"
         },
         {
           "match": "Runnk online rss reader : http://www.runnk.com/ : RSS favorites : RSS ranking : RSS aggregator*",
-          "browser": "ruunk",
-          "properties": {
-            "Browser": "Ruunk"
-          }
+          "browser": "ruunk"
         },
         {
           "match": "UniversalFeedParser/4.1*",
@@ -77,29 +62,24 @@
         },
         {
           "match": "RSSOwl/*",
-          "browser": "rssowl",
-          "properties": {
-            "Browser": "RSSOwl"
-          }
+          "browser": "rssowl"
         },
         {
           "match": "HiddenMarket-*",
-          "browser": "hiddenmarket",
-          "properties": {
-            "Browser": "HiddenMarket"
-          }
+          "browser": "hiddenmarket"
         },
         {
           "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
           "browser": "digg feed fetcher",
           "engine": "WebKit",
           "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
+            "OSX"
+          ],
           "properties": {
             "Version": "1.0"
-          },
-          "platforms": [
-            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX"
-          ]
+          }
         }
       ]
     }

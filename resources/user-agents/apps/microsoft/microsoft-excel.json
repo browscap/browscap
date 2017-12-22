@@ -19,52 +19,52 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Excel/12.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2007"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2007"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Excel/14.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2010"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2010"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Excel/15.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office Excel 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Excel 15.*)",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office Excel 2013",

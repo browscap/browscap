@@ -62,7 +62,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* TV Safari/*",
           "platforms": [
             "Tizen_3_0",
-            "Tizen_2_2", "Tizen_2_3",
+            "Tizen_2_3", "Tizen_2_2",
             "Tizen"
           ]
         }

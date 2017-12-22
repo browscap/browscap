@@ -7,9 +7,9 @@
     {
       "userAgent": "Qword Browser Generic",
       "browser": "qword browser",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qword Browser Generic"

@@ -14,272 +14,158 @@
       "children": [
         {
           "match": "*grub*",
-          "browser": "grub",
-          "properties": {
-            "Browser": "grub"
-          }
+          "browser": "grub"
         },
         {
           "match": "*ickHTTP*",
-          "browser": "ip*works",
-          "properties": {
-            "Browser": "IP*Works"
-          }
+          "browser": "ip*works"
         },
         {
           "match": "Ruby",
-          "browser": "generic ruby crawler",
-          "properties": {
-            "Browser": "Generic Ruby Crawler"
-          }
+          "browser": "generic ruby crawler"
         },
         {
           "match": "*WebGrabber*",
-          "browser": "webgrabber",
-          "properties": {
-            "Browser": "WebGrabber"
-          }
+          "browser": "webgrabber"
         },
         {
           "match": "3D-FTP/*",
-          "browser": "3d-ftp",
-          "properties": {
-            "Browser": "3D-FTP"
-          }
+          "browser": "3d-ftp"
         },
         {
           "match": "3wGet/*",
-          "browser": "3wget",
-          "properties": {
-            "Browser": "3wGet"
-          }
+          "browser": "3wget"
         },
         {
           "match": "ActiveRefresh*",
-          "browser": "activerefresh",
-          "properties": {
-            "Browser": "ActiveRefresh"
-          }
+          "browser": "activerefresh"
         },
         {
           "match": "Ad Muncher*",
-          "browser": "ad muncher",
-          "properties": {
-            "Browser": "Ad Muncher"
-          }
+          "browser": "ad muncher"
         },
         {
           "match": "Artera (Version *)",
-          "browser": "artera",
-          "properties": {
-            "Browser": "Artera"
-          }
+          "browser": "artera"
         },
         {
           "match": "AutoHotkey",
-          "browser": "autohotkey",
-          "properties": {
-            "Browser": "AutoHotkey"
-          }
+          "browser": "autohotkey"
         },
         {
           "match": "b2w/*",
-          "browser": "b2w",
-          "properties": {
-            "Browser": "b2w"
-          }
+          "browser": "b2w"
         },
         {
           "match": "BasicHTTP/*",
-          "browser": "basichttp",
-          "properties": {
-            "Browser": "BasicHTTP"
-          }
+          "browser": "basichttp"
         },
         {
           "match": "BlockNote.Net",
-          "browser": "blocknote.net",
-          "properties": {
-            "Browser": "BlockNote.Net"
-          }
+          "browser": "blocknote.net"
         },
         {
           "match": "CAST",
-          "browser": "cast",
-          "properties": {
-            "Browser": "CAST"
-          }
+          "browser": "cast"
         },
         {
           "match": "CFSCHEDULE*",
-          "browser": "coldfusion task scheduler",
-          "properties": {
-            "Browser": "ColdFusion Task Scheduler"
-          }
+          "browser": "coldfusion task scheduler"
         },
         {
           "match": "CobWeb/*",
-          "browser": "cobweb",
-          "properties": {
-            "Browser": "CobWeb"
-          }
+          "browser": "cobweb"
         },
         {
           "match": "ColdFusion*",
-          "browser": "coldfusion",
-          "properties": {
-            "Browser": "ColdFusion"
-          }
+          "browser": "coldfusion"
         },
         {
           "match": "Crawl_Application",
-          "browser": "crawl_application",
-          "properties": {
-            "Browser": "Crawl_Application"
-          }
+          "browser": "crawl_application"
         },
         {
           "match": "CTerm/*",
-          "browser": "cterm",
-          "properties": {
-            "Browser": "CTerm"
-          }
+          "browser": "cterm"
         },
         {
           "match": "Custo*",
-          "browser": "custo",
-          "properties": {
-            "Browser": "Custo"
-          }
+          "browser": "custo"
         },
         {
           "match": "DataCha0s/*",
-          "browser": "datacha0s",
-          "properties": {
-            "Browser": "DataCha0s"
-          }
+          "browser": "datacha0s"
         },
         {
           "match": "DeepIndexer*",
-          "browser": "deepindexer",
-          "properties": {
-            "Browser": "DeepIndexer"
-          }
+          "browser": "deepindexer"
         },
         {
           "match": "DISCo Pump *",
-          "browser": "disco pump",
-          "properties": {
-            "Browser": "DISCo Pump"
-          }
+          "browser": "disco pump"
         },
         {
           "match": "eStyleSearch * (compatible; MSIE 6.0; Windows NT 5.0)",
           "browser": "estylesearch",
-          "properties": {
-            "Browser": "eStyleSearch"
-          },
           "platforms": [
             "Win2000"
           ]
         },
         {
           "match": "ezic.com http agent *",
-          "browser": "ezic.com",
-          "properties": {
-            "Browser": "Ezic.com"
-          }
+          "browser": "ezic.com"
         },
         {
           "match": "fetch libfetch/*",
-          "browser": "fetch libfetch",
-          "properties": {
-            "Browser": "fetch libfetch"
-          }
+          "browser": "fetch libfetch"
         },
         {
           "match": "FGet*",
-          "browser": "fget",
-          "properties": {
-            "Browser": "FGet"
-          }
+          "browser": "fget"
         },
         {
           "match": "findfiles.net/* (Robot;test_robot@gmx-topmail.de)",
-          "browser": "findfiles",
-          "properties": {
-            "Browser": "FindFiles"
-          }
+          "browser": "findfiles"
         },
         {
           "match": "Flaming AttackBot*",
-          "browser": "flaming attackbot",
-          "properties": {
-            "Browser": "Flaming AttackBot"
-          }
+          "browser": "flaming attackbot"
         },
         {
           "match": "Foobot*",
-          "browser": "foobot",
-          "properties": {
-            "Browser": "Foobot"
-          }
+          "browser": "foobot"
         },
         {
           "match": "GameSpyHTTP/*",
-          "browser": "gamespyhttp",
-          "properties": {
-            "Browser": "GameSpyHTTP"
-          }
+          "browser": "gamespyhttp"
         },
         {
           "match": "gnome-vfs/*",
-          "browser": "gnome-vfs",
-          "properties": {
-            "Browser": "gnome-vfs"
-          }
+          "browser": "gnome-vfs"
         },
         {
           "match": "Harvest/*",
-          "browser": "harvest",
-          "properties": {
-            "Browser": "Harvest"
-          }
+          "browser": "harvest"
         },
         {
           "match": "hcat/*",
-          "browser": "hcat",
-          "properties": {
-            "Browser": "hcat"
-          }
+          "browser": "hcat"
         },
         {
           "match": "HLoader",
-          "browser": "hloader",
-          "properties": {
-            "Browser": "HLoader"
-          }
+          "browser": "hloader"
         },
         {
           "match": "Holmes/*",
-          "browser": "holmes",
-          "properties": {
-            "Browser": "Holmes"
-          }
+          "browser": "holmes"
         },
         {
           "match": "http generic",
-          "browser": "http generic",
-          "properties": {
-            "Browser": "http generic"
-          }
+          "browser": "http generic"
         },
         {
           "match": "http://arachnode.net*",
-          "browser": "arachnode",
-          "properties": {
-            "Browser": "arachnode"
-          }
+          "browser": "arachnode"
         },
         {
           "match": "httpclient/1.0*",
@@ -290,174 +176,102 @@
         },
         {
           "match": "httpclient*",
-          "browser": "httpclient",
-          "properties": {
-            "Browser": "httpclient"
-          }
+          "browser": "httpclient"
         },
         {
           "match": "SynHttpClient*",
-          "browser": "synhttpclient",
-          "properties": {
-            "Browser": "SynHttpClient"
-          }
+          "browser": "synhttpclient"
         },
         {
           "match": "httperf/*",
-          "browser": "httperf",
-          "properties": {
-            "Browser": "httperf"
-          }
+          "browser": "httperf"
         },
         {
           "match": "HTTPFetch/*",
-          "browser": "httpfetch",
-          "properties": {
-            "Browser": "HTTPFetch"
-          }
+          "browser": "httpfetch"
         },
         {
           "match": "HTTPGrab",
-          "browser": "httpgrab",
-          "properties": {
-            "Browser": "HTTPGrab"
-          }
+          "browser": "httpgrab"
         },
         {
           "match": "HttpSession",
-          "browser": "httpsession",
-          "properties": {
-            "Browser": "HttpSession"
-          }
+          "browser": "httpsession"
         },
         {
           "match": "httpunit/*",
-          "browser": "httpunit",
-          "properties": {
-            "Browser": "HttpUnit"
-          }
+          "browser": "httpunit"
         },
         {
           "match": "ICE_GetFile",
-          "browser": "ice_getfile",
-          "properties": {
-            "Browser": "ICE_GetFile"
-          }
+          "browser": "ice_getfile"
         },
         {
           "match": "iexplore.exe",
-          "browser": "iexplore.exe",
-          "properties": {
-            "Browser": "iexplore.exe"
-          }
+          "browser": "iexplore.exe"
         },
         {
           "match": "Inet - Eureka App",
-          "browser": "inet - eureka app",
-          "properties": {
-            "Browser": "Inet - Eureka App"
-          }
+          "browser": "inet - eureka app"
         },
         {
           "match": "INetURL/*",
-          "browser": "ineturl",
-          "properties": {
-            "Browser": "INetURL"
-          }
+          "browser": "ineturl"
         },
         {
           "match": "InetURL:/*",
-          "browser": "ineturl",
-          "properties": {
-            "Browser": "InetURL"
-          }
+          "browser": "ineturl"
         },
         {
           "match": "Internet Exploiter/*",
-          "browser": "internet exploiter",
-          "properties": {
-            "Browser": "Internet Exploiter"
-          }
+          "browser": "internet exploiter"
         },
         {
           "match": "ZiggsBot (*compatible*;*MSIE 6.0; Windows NT 5.2*)",
           "browser": "ziggsbot",
-          "properties": {
-            "Browser": "ZiggsBot"
-          },
           "platforms": [
             "WinXPb_32"
           ]
         },
         {
           "match": "IP*Works!*/*",
-          "browser": "ip*works!",
-          "properties": {
-            "Browser": "IP*Works!"
-          }
+          "browser": "ip*works!"
         },
         {
           "match": "IrssiUrlLog/*",
-          "browser": "irssiurllog",
-          "properties": {
-            "Browser": "IrssiUrlLog"
-          }
+          "browser": "irssiurllog"
         },
         {
           "match": "JPluck/*",
-          "browser": "jpluck",
-          "properties": {
-            "Browser": "JPluck"
-          }
+          "browser": "jpluck"
         },
         {
           "match": "Kapere (http://www.kapere.com)",
-          "browser": "kapere",
-          "properties": {
-            "Browser": "Kapere"
-          }
+          "browser": "kapere"
         },
         {
           "match": "LeechFTP",
-          "browser": "leechftp",
-          "properties": {
-            "Browser": "LeechFTP"
-          }
+          "browser": "leechftp"
         },
         {
           "match": "LeechGet*",
-          "browser": "leechget",
-          "properties": {
-            "Browser": "LeechGet"
-          }
+          "browser": "leechget"
         },
         {
           "match": "libWeb/clsHTTP*",
-          "browser": "libweb/clshttp",
-          "properties": {
-            "Browser": "libWeb/clsHTTP"
-          }
+          "browser": "libweb/clshttp"
         },
         {
           "match": "MFC_Tear_Sample",
-          "browser": "mfc_tear_sample",
-          "properties": {
-            "Browser": "MFC_Tear_Sample"
-          }
+          "browser": "mfc_tear_sample"
         },
         {
           "match": "Moozilla",
-          "browser": "moozilla",
-          "properties": {
-            "Browser": "Moozilla"
-          }
+          "browser": "moozilla"
         },
         {
           "match": "MovableType/*",
-          "browser": "movabletype web log",
-          "properties": {
-            "Browser": "MovableType Web Log"
-          }
+          "browser": "movabletype web log"
         },
         {
           "match": "Mozilla/* (compatible; OffByOne; Windows*) Webster Pro V3.*",
@@ -469,9 +283,6 @@
         {
           "match": "Mozilla/2.0 (compatible; NEWT ActiveX; Win32)",
           "browser": "newt activex",
-          "properties": {
-            "Browser": "NEWT ActiveX"
-          },
           "platforms": [
             "Win32"
           ]
@@ -481,524 +292,302 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; BorderManager*)",
-          "browser": "novell bordermanager",
-          "properties": {
-            "Browser_Maker": "Novell"
-          }
+          "browser": "novell bordermanager"
         },
         {
           "match": "Mozilla/5.0 (compatible; IPCheck Server Monitor*)",
-          "browser": "ipcheck server monitor",
-          "properties": {
-            "Browser": "IPCheck Server Monitor"
-          }
+          "browser": "ipcheck server monitor"
         },
         {
           "match": "OCN-SOC/*",
-          "browser": "ocn-soc",
-          "properties": {
-            "Browser": "OCN-SOC"
-          }
+          "browser": "ocn-soc"
         },
         {
           "match": "Offline Explorer*",
-          "browser": "offline explorer",
-          "properties": {
-            "Browser": "Offline Explorer"
-          }
+          "browser": "offline explorer"
         },
         {
           "match": "Open Web Analytics Bot*",
-          "browser": "open web analytics bot",
-          "properties": {
-            "Browser": "Open Web Analytics Bot"
-          }
+          "browser": "open web analytics bot"
         },
         {
           "match": "Pageload*",
-          "browser": "pageload",
-          "properties": {
-            "Browser": "PageLoad"
-          }
+          "browser": "pageload"
         },
         {
           "match": "PageNest/*",
-          "browser": "pagenest",
-          "properties": {
-            "Browser": "PageNest"
-          }
+          "browser": "pagenest"
         },
         {
           "match": "pavuk/*",
-          "browser": "pavuk",
-          "properties": {
-            "Browser": "Pavuk"
-          }
+          "browser": "pavuk"
         },
         {
           "match": "PEAR HTTP_Request*",
-          "browser": "pear-php",
-          "properties": {
-            "Browser": "PEAR-PHP"
-          }
+          "browser": "pear-php"
         },
         {
           "match": "PigBlock (Windows NT 5.1; U)*",
           "browser": "pigblock",
-          "properties": {
-            "Browser": "PigBlock"
-          },
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
           "match": "Pockey*",
-          "browser": "pockey-gethtml",
-          "properties": {
-            "Browser": "Pockey-GetHTML"
-          }
+          "browser": "pockey-gethtml"
         },
         {
           "match": "POE-Component-Client-HTTP/*",
-          "browser": "poe-component-client-http",
-          "properties": {
-            "Browser": "POE-Component-Client-HTTP"
-          }
+          "browser": "poe-component-client-http"
         },
         {
           "match": "PycURL/*",
-          "browser": "pycurl",
-          "properties": {
-            "Browser": "PycURL"
-          }
+          "browser": "pycurl"
         },
         {
           "match": "RepoMonkey*",
-          "browser": "repomonkey",
-          "properties": {
-            "Browser": "RepoMonkey"
-          }
+          "browser": "repomonkey"
         },
         {
           "match": "SBL-BOT*",
-          "browser": "blackwidow",
-          "properties": {
-            "Browser": "BlackWidow"
-          }
+          "browser": "blackwidow"
         },
         {
           "match": "ScoutAbout*",
-          "browser": "scoutabout",
-          "properties": {
-            "Browser": "ScoutAbout"
-          }
+          "browser": "scoutabout"
         },
         {
           "match": "sherlock/*",
-          "browser": "sherlock",
-          "properties": {
-            "Browser": "Sherlock"
-          }
+          "browser": "sherlock"
         },
         {
           "match": "SiteParser/*",
-          "browser": "siteparser",
-          "properties": {
-            "Browser": "SiteParser"
-          }
+          "browser": "siteparser"
         },
         {
           "match": "SiteSnagger*",
-          "browser": "sitesnagger",
-          "properties": {
-            "Browser": "SiteSnagger"
-          }
+          "browser": "sitesnagger"
         },
         {
           "match": "SiteSucker/*",
-          "browser": "sitesucker",
-          "properties": {
-            "Browser": "SiteSucker"
-          }
+          "browser": "sitesucker"
         },
         {
           "match": "SiteWinder*",
-          "browser": "sitewinder",
-          "properties": {
-            "Browser": "SiteWinder"
-          }
+          "browser": "sitewinder"
         },
         {
           "match": "Snoopy*",
-          "browser": "snoopy",
-          "properties": {
-            "Browser": "Snoopy"
-          }
+          "browser": "snoopy"
         },
         {
           "match": "SOFTWING_TEAR_AGENT*",
-          "browser": "asptear",
-          "properties": {
-            "Browser": "AspTear"
-          }
+          "browser": "asptear"
         },
         {
           "match": "SuperHTTP/*",
-          "browser": "superhttp",
-          "properties": {
-            "Browser": "SuperHTTP"
-          }
+          "browser": "superhttp"
         },
         {
           "match": "Tcl http client package*",
-          "browser": "tcl http client package",
-          "properties": {
-            "Browser": "Tcl http client package"
-          }
+          "browser": "tcl http client package"
         },
         {
           "match": "Twisted PageGetter",
-          "browser": "twisted pagegetter",
-          "properties": {
-            "Browser": "Twisted PageGetter"
-          }
+          "browser": "twisted pagegetter"
         },
         {
           "match": "URL2File/*",
-          "browser": "url2file",
-          "properties": {
-            "Browser": "URL2File"
-          }
+          "browser": "url2file"
         },
         {
           "match": "UtilMind HTTPGet",
-          "browser": "utilmind httpget",
-          "properties": {
-            "Browser": "UtilMind HTTPGet"
-          }
+          "browser": "utilmind httpget"
         },
         {
           "match": "VCI WebViewer*",
-          "browser": "vci webviewer",
-          "properties": {
-            "Browser": "VCI WebViewer"
-          }
+          "browser": "vci webviewer"
         },
         {
           "match": "Web Downloader*",
-          "browser": "web downloader",
-          "properties": {
-            "Browser": "Web Downloader"
-          }
+          "browser": "web downloader"
         },
         {
           "match": "Web Downloader/*",
-          "browser": "web downloader",
-          "properties": {
-            "Browser": "Web Downloader"
-          }
+          "browser": "web downloader"
         },
         {
           "match": "Web Magnet*",
-          "browser": "web magnet",
-          "properties": {
-            "Browser": "Web Magnet"
-          }
+          "browser": "web magnet"
         },
         {
           "match": "WebAuto/*",
-          "browser": "webauto",
-          "properties": {
-            "Browser": "WebAuto"
-          }
+          "browser": "webauto"
         },
         {
           "match": "webbandit/*",
-          "browser": "webbandit",
-          "properties": {
-            "Browser": "webbandit"
-          }
+          "browser": "webbandit"
         },
         {
           "match": "WebCopier*",
-          "browser": "webcopier",
-          "properties": {
-            "Browser": "WebCopier"
-          }
+          "browser": "webcopier"
         },
         {
           "match": "WebDownloader*",
-          "browser": "webdownloader",
-          "properties": {
-            "Browser": "WebDownloader"
-          }
+          "browser": "webdownloader"
         },
         {
           "match": "WebFetch",
-          "browser": "webfetch",
-          "properties": {
-            "Browser": "WebFetch"
-          }
+          "browser": "webfetch"
         },
         {
           "match": "webfetch/*",
-          "browser": "webfetch",
-          "properties": {
-            "Browser": "WebFetch"
-          }
+          "browser": "webfetch"
         },
         {
           "match": "WebGatherer*",
-          "browser": "webgatherer",
-          "properties": {
-            "Browser": "WebGatherer"
-          }
+          "browser": "webgatherer"
         },
         {
           "match": "WebGet",
-          "browser": "webget",
-          "properties": {
-            "Browser": "WebGet"
-          }
+          "browser": "webget"
         },
         {
           "match": "WebReaper*",
-          "browser": "webreaper",
-          "properties": {
-            "Browser": "WebReaper"
-          }
+          "browser": "webreaper"
         },
         {
           "match": "WebRipper",
-          "browser": "webripper",
-          "properties": {
-            "Browser": "WebRipper"
-          }
+          "browser": "webripper"
         },
         {
           "match": "WebSauger*",
-          "browser": "websauger",
-          "properties": {
-            "Browser": "WebSauger"
-          }
+          "browser": "websauger"
         },
         {
           "match": "Website Downloader*",
-          "browser": "website downloader",
-          "properties": {
-            "Browser": "Website Downloader"
-          }
+          "browser": "website downloader"
         },
         {
           "match": "Website eXtractor*",
-          "browser": "website extractor",
-          "properties": {
-            "Browser": "Website eXtractor"
-          }
+          "browser": "website extractor"
         },
         {
           "match": "Website Quester",
-          "browser": "website quester",
-          "properties": {
-            "Browser": "Website Quester"
-          }
+          "browser": "website quester"
         },
         {
           "match": "WebsiteExtractor*",
-          "browser": "website extractor",
-          "properties": {
-            "Browser": "Website eXtractor"
-          }
+          "browser": "website extractor"
         },
         {
           "match": "WebSnatcher*",
-          "browser": "websnatcher",
-          "properties": {
-            "Browser": "WebSnatcher"
-          }
+          "browser": "websnatcher"
         },
         {
           "match": "Webster Pro*",
-          "browser": "webster pro",
-          "properties": {
-            "Browser": "Webster Pro"
-          }
+          "browser": "webster pro"
         },
         {
           "match": "WebStripper*",
-          "browser": "webstripper",
-          "properties": {
-            "Browser": "WebStripper"
-          }
+          "browser": "webstripper"
         },
         {
           "match": "WebWhacker*",
-          "browser": "webwhacker",
-          "properties": {
-            "Browser": "WebWhacker"
-          }
+          "browser": "webwhacker"
         },
         {
           "match": "WinScripter iNet Tools",
-          "browser": "winscripter inet tools",
-          "properties": {
-            "Browser": "WinScripter iNet Tools"
-          }
+          "browser": "winscripter inet tools"
         },
         {
           "match": "WWW-Mechanize/*",
-          "browser": "www-mechanize",
-          "properties": {
-            "Browser": "WWW-Mechanize"
-          }
+          "browser": "www-mechanize"
         },
         {
           "match": "Mechanize/*",
-          "browser": "mechanize",
-          "properties": {
-            "Browser": "Mechanize"
-          }
+          "browser": "mechanize"
         },
         {
           "match": "A1 Keyword Research*",
-          "browser": "a1 keyword research",
-          "properties": {
-            "Browser": "A1 Keyword Research"
-          }
+          "browser": "a1 keyword research"
         },
         {
           "match": "A1 Website Analyzer*",
-          "browser": "a1 website analyzer",
-          "properties": {
-            "Browser": "A1 Website Analyzer"
-          }
+          "browser": "a1 website analyzer"
         },
         {
           "match": "A1 Website Download*",
-          "browser": "a1 website download",
-          "properties": {
-            "Browser": "A1 Website Download"
-          }
+          "browser": "a1 website download"
         },
         {
           "match": "AA bot*",
-          "browser": "aa bot",
-          "properties": {
-            "Browser": "AA bot"
-          }
+          "browser": "aa bot"
         },
         {
           "match": "AACrawler*",
-          "browser": "aacrawler",
-          "properties": {
-            "Browser": "AACrawler"
-          }
+          "browser": "aacrawler"
         },
         {
           "match": "Access Browser*",
-          "browser": "access browser",
-          "properties": {
-            "Browser": "Access Browser"
-          }
+          "browser": "access browser"
         },
         {
           "match": "ACCESS robot*",
-          "browser": "access robot",
-          "properties": {
-            "Browser": "ACCESS robot"
-          }
+          "browser": "access robot"
         },
         {
           "match": "Acme.Spider*",
-          "browser": "acme.spider",
-          "properties": {
-            "Browser": "Acme.Spider"
-          }
+          "browser": "acme.spider"
         },
         {
           "match": "AcroForms*",
-          "browser": "acroforms bot",
-          "properties": {
-            "Browser": "AcroForms Bot"
-          }
+          "browser": "acroforms bot"
         },
         {
           "match": "Adaxas Spider*",
-          "browser": "adaxas spider",
-          "properties": {
-            "Browser": "Adaxas Spider"
-          }
+          "browser": "adaxas spider"
         },
         {
           "match": "Advanced URL Catalog*",
-          "browser": "advanced url catalog",
-          "properties": {
-            "Browser": "Advanced URL Catalog"
-          }
+          "browser": "advanced url catalog"
         },
         {
           "match": "Advista Crawler*",
-          "browser": "advista crawler",
-          "properties": {
-            "Browser": "Advista Crawler"
-          }
+          "browser": "advista crawler"
         },
         {
           "match": "aipbot*",
-          "browser": "aipbot",
-          "properties": {
-            "Browser": "aipbot"
-          }
+          "browser": "aipbot"
         },
         {
           "match": "AISearchBot*",
-          "browser": "aisearchbot",
-          "properties": {
-            "Browser": "AISearchBot"
-          }
+          "browser": "aisearchbot"
         },
         {
           "match": "BookMacster/*",
-          "browser": "bookmacster",
-          "properties": {
-            "Browser": "BookMacster"
-          }
+          "browser": "bookmacster"
         },
         {
           "match": "BookmarkSync/*",
-          "browser": "bookmarksync",
-          "properties": {
-            "Browser": "BookmarkSync"
-          }
+          "browser": "bookmarksync"
         },
         {
           "match": "Bot.ara.com.tr/*",
-          "browser": "bot.ara.com.tr",
-          "properties": {
-            "Browser": "Bot.ara.com.tr"
-          }
+          "browser": "bot.ara.com.tr"
         },
         {
           "match": "BrowserCrasherChecker *",
-          "browser": "browsercrasherchecker",
-          "properties": {
-            "Browser": "BrowserCrasherChecker"
-          }
+          "browser": "browsercrasherchecker"
         },
         {
           "match": "Chordie.com: *",
-          "browser": "chordie.com",
-          "properties": {
-            "Browser": "Chordie.com"
-          }
+          "browser": "chordie.com"
         },
         {
           "match": "crawler4j*",
-          "browser": "crawler4j",
-          "properties": {
-            "Browser": "crawler4j"
-          }
+          "browser": "crawler4j"
         },
         {
           "match": "Crawllybot/0.1*",
@@ -1009,59 +598,35 @@
         },
         {
           "match": "Crawllybot*",
-          "browser": "crawllybot",
-          "properties": {
-            "Browser": "Crawllybot"
-          }
+          "browser": "crawllybot"
         },
         {
           "match": "Crawl*",
-          "browser": "crawlboy",
-          "properties": {
-            "Browser": "Crawlboy"
-          }
+          "browser": "crawlboy"
         },
         {
           "match": "Dropcatcher.de Domain Bot +http://www.dropcatcher.de/bot.html",
-          "browser": "dropcatcher.de domain bot",
-          "properties": {
-            "Browser": "Dropcatcher.de Domain Bot"
-          }
+          "browser": "dropcatcher.de domain bot"
         },
         {
           "match": "ESigil Request *",
-          "browser": "esigil request",
-          "properties": {
-            "Browser": "ESigil Request"
-          }
+          "browser": "esigil request"
         },
         {
           "match": "eStyleSearch *",
-          "browser": "estylesearch",
-          "properties": {
-            "Browser": "eStyleSearch"
-          }
+          "browser": "estylesearch"
         },
         {
           "match": "HTTP Fetcher/*",
-          "browser": "http fetcher",
-          "properties": {
-            "Browser": "HTTP Fetcher"
-          }
+          "browser": "http fetcher"
         },
         {
           "match": "http_get",
-          "browser": "http_get",
-          "properties": {
-            "Browser": "http_get"
-          }
+          "browser": "http_get"
         },
         {
           "match": "HTTPing *",
-          "browser": "httping",
-          "properties": {
-            "Browser": "HTTPing"
-          }
+          "browser": "httping"
         },
         {
           "match": "Echoping/6.0*",
@@ -1072,31 +637,19 @@
         },
         {
           "match": "Echoping*",
-          "browser": "echoping",
-          "properties": {
-            "Browser_Maker": "Stephane Bortzmeyer"
-          }
+          "browser": "echoping"
         },
         {
           "match": "Mozilla/2.0 (compatible; NEWT ActiveX; *)",
-          "browser": "newt activex",
-          "properties": {
-            "Browser": "NEWT ActiveX"
-          }
+          "browser": "newt activex"
         },
         {
           "match": "Mozilla/* (compatible; OffByOne; *",
-          "browser": "offbyone",
-          "properties": {
-            "Browser": "OffByOne"
-          }
+          "browser": "offbyone"
         },
         {
           "match": "PigBlock*",
-          "browser": "pigblock",
-          "properties": {
-            "Browser": "PigBlock"
-          }
+          "browser": "pigblock"
         },
         {
           "match": "Internet (*)"
@@ -1130,45 +683,27 @@
         },
         {
           "match": "Shockwave Flash",
-          "browser": "shockwave flash",
-          "properties": {
-            "Browser": "Shockwave Flash"
-          }
+          "browser": "shockwave flash"
         },
         {
           "match": "SiteTruth.com*",
-          "browser": "sitetruth",
-          "properties": {
-            "Browser": "SiteTruth"
-          }
+          "browser": "sitetruth"
         },
         {
           "match": "SVN/*",
-          "browser": "svn",
-          "properties": {
-            "Browser": "SVN"
-          }
+          "browser": "svn"
         },
         {
           "match": "TLSProber/*",
-          "browser": "tlsprober",
-          "properties": {
-            "Browser": "TLSProber"
-          }
+          "browser": "tlsprober"
         },
         {
           "match": "Windows-Live-Social-Object-Extractor-Engine*",
-          "browser": "windows-live-social-object-extractor-engine",
-          "properties": {
-            "Browser": "Windows-Live-Social-Object-Extractor-Engine"
-          }
+          "browser": "windows-live-social-object-extractor-engine"
         },
         {
           "match": "WinSysClean*",
-          "browser": "winsysclean",
-          "properties": {
-            "Browser": "WinSysClean"
-          }
+          "browser": "winsysclean"
         },
         {
           "match": "Dolphin http client/10.*",
@@ -1179,38 +714,23 @@
         },
         {
           "match": "Dolphin http client/*",
-          "browser": "dolphin smalltalk http client",
-          "properties": {
-            "Browser_Maker": "Steve Waring"
-          }
+          "browser": "dolphin smalltalk http client"
         },
         {
           "match": "Python*",
-          "browser": "python",
-          "properties": {
-            "Browser": "Python"
-          }
+          "browser": "python"
         },
         {
           "match": "Smartsite HTTPClient*",
-          "browser": "smartsite httpclient",
-          "properties": {
-            "Browser": "Smartsite HTTPClient"
-          }
+          "browser": "smartsite httpclient"
         },
         {
           "match": "RPT-HTTPClient/*",
-          "browser": "rpt-httpclient",
-          "properties": {
-            "Browser": "RPT-HTTPClient"
-          }
+          "browser": "rpt-httpclient"
         },
         {
           "match": "EventMachine HttpClient*",
-          "browser": "eventmachine httpclient",
-          "properties": {
-            "Browser_Maker": "Ilya Grigorik"
-          }
+          "browser": "eventmachine httpclient"
         },
         {
           "match": "node-superagent/1.4*",
@@ -1221,10 +741,7 @@
         },
         {
           "match": "node-superagent/*",
-          "browser": "superagent",
-          "properties": {
-            "Browser_Maker": "visionmedia"
-          }
+          "browser": "superagent"
         },
         {
           "match": "Goose/1.0*",
@@ -1235,10 +752,7 @@
         },
         {
           "match": "Goose/*",
-          "browser": "goose-extractor",
-          "properties": {
-            "Browser_Maker": "Xavier Grangier"
-          }
+          "browser": "goose-extractor"
         },
         {
           "match": "AHC/1.0*",
@@ -1249,10 +763,7 @@
         },
         {
           "match": "AHC/*",
-          "browser": "asynchronous http client",
-          "properties": {
-            "Browser_Maker": "Jeanfrancois Arcand"
-          }
+          "browser": "asynchronous http client"
         },
         {
           "match": "newspaper/0.0*",
@@ -1263,17 +774,11 @@
         },
         {
           "match": "newspaper/*",
-          "browser": "newspaper",
-          "properties": {
-            "Browser_Maker": "Lucas Ou-Yang"
-          }
+          "browser": "newspaper"
         },
         {
           "match": "EasyBib AutoCite*",
-          "browser": "easybib autocite",
-          "properties": {
-            "Browser_Maker": "Imagine Easy Solutions, LLC"
-          }
+          "browser": "easybib autocite"
         },
         {
           "match": "Dispatch/0.11*",
@@ -1284,10 +789,7 @@
         },
         {
           "match": "Dispatch/*",
-          "browser": "dispatch",
-          "properties": {
-            "Browser": "Dispatch"
-          }
+          "browser": "dispatch"
         },
         {
           "match": "http-kit/2.0*",
@@ -1298,10 +800,7 @@
         },
         {
           "match": "http-kit/*",
-          "browser": "http kit",
-          "properties": {
-            "Browser_Maker": "Feng Shen"
-          }
+          "browser": "http kit"
         },
         {
           "match": "node-fetch/1.0*",
@@ -1312,10 +811,7 @@
         },
         {
           "match": "node-fetch/*",
-          "browser": "node-fetch",
-          "properties": {
-            "Browser_Maker": "David Frank"
-          }
+          "browser": "node-fetch"
         },
         {
           "match": "Faraday v0.9*",
@@ -1326,24 +822,15 @@
         },
         {
           "match": "Faraday*",
-          "browser": "faraday",
-          "properties": {
-            "Browser_Maker": "Mislav Marohnic"
-          }
+          "browser": "faraday"
         },
         {
           "match": "Ruby/Curb*",
-          "browser": "curb",
-          "properties": {
-            "Browser_Maker": "Ross Bamford"
-          }
+          "browser": "curb"
         },
         {
           "match": "Embed PHP Library*",
-          "browser": "embed php library",
-          "properties": {
-            "Browser_Maker": "Oscar Otero"
-          }
+          "browser": "embed php library"
         },
         {
           "match": "OpmlViewer network fetcher version 1.0*",
@@ -1354,10 +841,7 @@
         },
         {
           "match": "OpmlViewer network fetcher*",
-          "browser": "opmlviewer network fetcher",
-          "properties": {
-            "Browser": "OpmlViewer network fetcher"
-          }
+          "browser": "opmlviewer network fetcher"
         },
         {
           "match": "raynette_httprequest/1.0*",
@@ -1368,10 +852,7 @@
         },
         {
           "match": "raynette_httprequest/*",
-          "browser": "http request",
-          "properties": {
-            "Browser_Maker": "Raynette"
-          }
+          "browser": "http request"
         },
         {
           "match": "Mozilla/5.0 (compatible; ProspectB2B/2.0*",
@@ -1382,31 +863,19 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; ProspectB2B/*",
-          "browser": "prospectb2b bot",
-          "properties": {
-            "Browser": "ProspectB2B Bot"
-          }
+          "browser": "prospectb2b bot"
         },
         {
           "match": "CakePHP*",
-          "browser": "cakephp",
-          "properties": {
-            "Browser": "CakePHP"
-          }
+          "browser": "cakephp"
         },
         {
           "match": "gpEasy RemoteGet*",
-          "browser": "remoteget",
-          "properties": {
-            "Browser_Maker": "gpEasy"
-          }
+          "browser": "remoteget"
         },
         {
           "match": "asynchttp*",
-          "browser": "asynchttp",
-          "properties": {
-            "Browser": "asynchttp"
-          }
+          "browser": "asynchttp"
         },
         {
           "match": "Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/v0.12*",
@@ -1417,10 +886,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/*",
-          "browser": "pcore::http::ua",
-          "properties": {
-            "Browser": "Pcore::HTTP::UA"
-          }
+          "browser": "pcore::http::ua"
         },
         {
           "match": "WebClient/1.0*",
@@ -1431,10 +897,7 @@
         },
         {
           "match": "WebClient/*",
-          "browser": "webclient",
-          "properties": {
-            "Browser": "WebClient"
-          }
+          "browser": "webclient"
         },
         {
           "match": "greasemonkey &#8211; google images relinker (v 2.0*",
@@ -1445,10 +908,7 @@
         },
         {
           "match": "greasemonkey &#8211; google images relinker*",
-          "browser": "google images relinker",
-          "properties": {
-            "Browser": "google images relinker"
-          }
+          "browser": "google images relinker"
         },
         {
           "match": "SoftMaker Fetch/1.0*",
@@ -1459,59 +919,35 @@
         },
         {
           "match": "SoftMaker Fetch/*",
-          "browser": "softmaker fetch",
-          "properties": {
-            "Browser": "SoftMaker Fetch"
-          }
+          "browser": "softmaker fetch"
         },
         {
           "match": "livedoor HttpClient*",
-          "browser": "livedoor httpclient",
-          "properties": {
-            "Browser": "livedoor HttpClient"
-          }
+          "browser": "livedoor httpclient"
         },
         {
           "match": "scrapy-redis*",
-          "browser": "scrapy-redis",
-          "properties": {
-            "Browser_Maker": "Rolando Espinoza"
-          }
+          "browser": "scrapy-redis"
         },
         {
           "match": "Mozilla/5.0 (compatible; U; AnyEvent-HTTP/*",
-          "browser": "anyevent http client",
-          "properties": {
-            "Browser_Maker": "Marc Lehmann"
-          }
+          "browser": "anyevent http client"
         },
         {
           "match": "Client/* (org.mozilla.ios.Firefox; build:*; iOS *) Alamofire/*",
-          "browser": "alamofire http client",
-          "properties": {
-            "Browser_Maker": "Christian Noon"
-          }
+          "browser": "alamofire http client"
         },
         {
           "match": "Mozilla/5.0 (compatible; SimpleScraper)",
-          "browser": "simplescraper",
-          "properties": {
-            "Browser": "SimpleScraper"
-          }
+          "browser": "simplescraper"
         },
         {
           "match": "fasthttp*",
-          "browser": "go fasthttp",
-          "properties": {
-            "Browser_Maker": "Aliaksandr Valialkin"
-          }
+          "browser": "go fasthttp"
         },
         {
           "match": "Mozilla/5.0 (compatible; Snacktory; +*)",
-          "browser": "snacktory",
-          "properties": {
-            "Browser_Maker": "Peter Karich"
-          }
+          "browser": "snacktory"
         }
       ]
     }

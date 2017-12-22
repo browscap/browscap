@@ -8,9 +8,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
       "platform": "Android",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -454,7 +454,7 @@
             "HTC_Desire_310": "HTC Desire 310",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A7600-H": "Lenovo A7600-H",
-            "Lenovo?A316i":  "Lenovo A316i",
+            "Lenovo?A316i": "Lenovo A316i",
             "Lenovo_A3000-H": "Lenovo A3000-H",
             "Lenovo_A516": "Lenovo A516",
             "Micromax_A94": "Micromax A94",
@@ -517,15 +517,15 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android",
             "Android_E_7_0",
             "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
-            "Android_E",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android"
+            "Android_E"
           ]
         },
         {
@@ -629,8 +629,8 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Nokia)",
       "engine": "U2",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -651,7 +651,8 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7_C", "WinPhone8_B",
+            "WinPhone8_B",
+            "WinPhone7_C",
             "SymbianOS_B"
           ]
         },
@@ -873,8 +874,8 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "browser": "uc browser",
-      "device": "Windows Desktop",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -884,7 +885,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#; Desktop) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_64", "Win8_1_32",
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",

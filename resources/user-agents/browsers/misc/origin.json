@@ -18,12 +18,12 @@
       "children": [
         {
           "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) applewebkit* (*khtml*like*gecko*) Origin/9.3* Safari/*",
-          "properties": {
-            "Version": "9.3"
-          },
           "platforms": [
             "Win7_64"
-          ]
+          ],
+          "properties": {
+            "Version": "9.3"
+          }
         },
         {
           "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) applewebkit* (*khtml*like*gecko*) Origin/* Safari/*",

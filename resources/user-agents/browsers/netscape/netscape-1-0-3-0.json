@@ -27,21 +27,31 @@
           "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win16", "Win95", "Win98", "NT_2", "WinXPa_32", "Windows"
+            "WinXPa_32",
+            "Windows",
+            "NT_2",
+            "Win98",
+            "Win95",
+            "Win16"
           ]
         },
         {
           "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
-            "MacPPC_3", "Mac68K"
+            "MacPPC_3",
+            "Mac68K"
           ]
         },
         {
           "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "IRIX64_2", "OpenVMS", "OS2", "SunOS", "AIX"
+            "IRIX64_2",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "OpenVMS"
           ]
         },
         {

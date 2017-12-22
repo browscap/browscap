@@ -7,8 +7,8 @@
     {
       "userAgent": "akregator Generic",
       "browser": "akregator",
-      "engine": "KHTML_Dynamic",
       "platform": "Linux",
+      "engine": "KHTML_Dynamic",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",

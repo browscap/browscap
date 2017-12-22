@@ -16,47 +16,51 @@
       "children": [
         {
           "match": "wp-iphone/4.4 (#PLATFORM#, iPad) Mobile*",
-          "properties": {
-            "Version": "4.4"
-          },
           "device": "iPad",
           "platforms": [
-            "iOS_K_8_0", "iOS_K"
-          ]
+            "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.4"
+          }
         },
         {
           "match": "wp-iphone/* (#PLATFORM#, iPad) Mobile*",
           "device": "iPad",
           "platforms": [
-            "iOS_K_8_0", "iOS_K"
+            "iOS_K_8_0",
+            "iOS_K"
           ]
         },
         {
           "match": "wp-iphone/4.4 (#PLATFORM#) Mobile*",
           "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_K_8_0",
+            "iOS_K"
+          ],
           "properties": {
             "Version": "4.4"
-          },
-          "platforms": [
-            "iOS_K_8_0", "iOS_K"
-          ]
+          }
         },
         {
           "match": "wp-iphone/* (#PLATFORM#) Mobile*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_K_8_0", "iOS_K"
+            "iOS_K_8_0",
+            "iOS_K"
           ]
         },
         {
           "match": "wp-android/3.0* (#PLATFORM#GT-N7100/*",
           "device": "Samsung GT-N7100",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Android_H_4_4"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "wp-android/* (#PLATFORM#GT-N7100/*",
@@ -68,18 +72,20 @@
         {
           "match": "wp-android/3.0* (#PLATFORM#",
           "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ],
           "properties": {
             "Version": "3.0"
-          },
-          "platforms": [
-            "Android_H_4_4", "Android_H"
-          ]
+          }
         },
         {
           "match": "wp-android/* (#PLATFORM#",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_H_4_4", "Android_H"
+            "Android_H_4_4",
+            "Android_H"
           ]
         }
       ]

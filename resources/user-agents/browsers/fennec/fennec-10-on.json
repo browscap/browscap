@@ -9,8 +9,8 @@
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "browser": "fennec",
       "platform": "Android",
-      "device": "general Mobile Phone (Touch)",
       "engine": "Gecko_Major_Dynamic",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -35,7 +35,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*Fennec/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
-            "AndroidMobile", "AndroidLinux"
+            "AndroidMobile", "Android_F"
           ]
         },
         {

@@ -8,9 +8,9 @@
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER# for Android",
       "browser": "edge",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge #MAJORVER#.#MINORVER#",

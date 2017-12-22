@@ -8,25 +8,24 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "browser": "chrome",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "JavaApplets": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_32",
-            "Win7_32",
+            "Win8_1_32",
             "Win8_32",
-            "Win8_1_32"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32"
           ]
         },
         {

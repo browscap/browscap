@@ -20,19 +20,27 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* K-Meleon?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win95", "Win98", "WinME", "NT4_B", "Win2000",
-            "WinXPa_32", "WinXPb_32",
+            "Win7_32",
             "Vista_32",
-            "Win7_32"
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* K-Meleon?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win95", "Win98", "WinME", "NT4_B", "Win2000",
-            "WinXPa_32", "WinXPb_32",
+            "Win7_32",
             "Vista_32",
-            "Win7_32"
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
           ]
         },
         {
@@ -45,7 +53,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_64_amd", "Linux"
+            "Linux_64_amd", "Linux_64", "Linux"
           ]
         },
         {

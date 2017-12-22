@@ -15,9 +15,6 @@
         {
           "match": "YahooSeeker/CafeKelsa* (compatible; Konqueror/*; FreeBSD*(*khtml*like*gecko*)",
           "browser": "yahooseeker/cafekelsa",
-          "properties": {
-            "Browser": "YahooSeeker/CafeKelsa"
-          },
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"
@@ -25,10 +22,7 @@
         },
         {
           "match": "YahooSeeker/CafeKelsa*",
-          "browser": "yahooseeker/cafekelsa",
-          "properties": {
-            "Browser": "YahooSeeker/CafeKelsa"
-          }
+          "browser": "yahooseeker/cafekelsa"
         },
         {
           "match": "YahooSeeker*"

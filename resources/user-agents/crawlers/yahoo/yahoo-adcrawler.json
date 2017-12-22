@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Yahoo!-AdCrawler;*http://help.yahoo.com/yahoo_adcrawler)",
-          "browser": "yahoo!-adcrawler",
-          "properties": {
-            "Browser": "Yahoo!-AdCrawler"
-          }
+          "browser": "yahoo!-adcrawler"
         }
       ]
     }

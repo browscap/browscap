@@ -21,10 +21,7 @@
         },
         {
           "match": "Accoona-AI-Agent/*",
-          "browser": "accoona-ai-agent",
-          "properties": {
-            "Browser": "Accoona-AI-Agent"
-          }
+          "browser": "accoona-ai-agent"
         },
         {
           "match": "accoona*"

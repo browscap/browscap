@@ -21,90 +21,54 @@
         },
         {
           "match": "Mozilla/5.0 (compatible;*Baiduspider/*",
-          "browser": "baiduspider",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "Baiduspider-image*",
-          "browser": "baidu image search",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         },
         {
           "match": "*Baiduspider-ads*",
-          "browser": "baidu business search",
-          "properties": {
-            "Browser": "Baidu Business Search"
-          }
+          "browser": "baidu business search"
         },
         {
           "match": "*Baiduspider-cpro*",
-          "browser": "baidu union",
-          "properties": {
-            "Browser": "Baidu Union"
-          }
+          "browser": "baidu union"
         },
         {
           "match": "*Baiduspider-favo*",
-          "browser": "baidu bookmark",
-          "properties": {
-            "Browser": "Baidu bookmark"
-          }
+          "browser": "baidu bookmark"
         },
         {
           "match": "*Baiduspider-image*",
-          "browser": "baidu image search",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         },
         {
           "match": "*Baiduspider-news*",
-          "browser": "baidu news search",
-          "properties": {
-            "Browser": "Baidu News search"
-          }
+          "browser": "baidu news search"
         },
         {
           "match": "*Baiduspider-video*",
-          "browser": "baidu video search",
-          "properties": {
-            "Browser": "Baidu Video search"
-          }
+          "browser": "baidu video search"
         },
         {
           "match": "Baiduspider*",
-          "browser": "baiduspider",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "*Baiduspider*",
-          "browser": "baiduspider",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "baidu bot*"
         },
         {
           "match": "AC-BaiduBot/*",
-          "browser": "ac-baidubot",
-          "properties": {
-            "Browser": "AC-BaiduBot"
-          }
+          "browser": "ac-baidubot"
         },
         {
           "match": "BaiduImageSpider*",
-          "browser": "baidu image search",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         }
       ]
     }

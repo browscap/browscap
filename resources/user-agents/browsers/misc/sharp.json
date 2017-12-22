@@ -8,8 +8,8 @@
       "userAgent": "Sharp",
       "browser": "sharp",
       "platform": "SymbianOS",
-      "device": "general Mobile Phone",
       "engine": "Gecko",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sharp",

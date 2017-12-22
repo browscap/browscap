@@ -8,8 +8,8 @@
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
       "browser": "opera",
-      "device": "Windows Desktop",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
@@ -21,8 +21,12 @@
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -30,8 +34,12 @@
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -39,9 +47,13 @@
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "Windows"
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "Windows",
+            "WinME"
           ]
         }
       ]

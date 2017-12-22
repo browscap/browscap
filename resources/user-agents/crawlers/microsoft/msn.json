@@ -24,17 +24,11 @@
         },
         {
           "match": "Vancouver*",
-          "browser": "vancouver",
-          "properties": {
-            "isSyndicationReader": "true"
-          }
+          "browser": "vancouver"
         },
         {
           "match": "librabot/1.0 (*)",
-          "browser": "librabot",
-          "properties": {
-            "Browser": "librabot"
-          }
+          "browser": "librabot"
         },
         {
           "match": "llssbot/1.0",
@@ -45,10 +39,7 @@
         },
         {
           "match": "Microsoft Bing Mobile SocialStreams Bot",
-          "browser": "microsoft bing mobile socialstreams bot",
-          "properties": {
-            "Browser": "Microsoft Bing Mobile SocialStreams Bot"
-          }
+          "browser": "microsoft bing mobile socialstreams bot"
         },
         {
           "match": "Mozilla/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko*",
@@ -94,76 +85,46 @@
         },
         {
           "match": "msnbot-products",
-          "browser": "msnbot-products",
-          "properties": {
-            "Browser": "msnbot-products"
-          }
+          "browser": "msnbot-products"
         },
         {
           "match": "msnbot-webmaster/1.0 (*http://search.msn.com/msnbot.htm)",
-          "browser": "msnbot-webmaster tools",
-          "properties": {
-            "Browser": "msnbot-webmaster tools"
-          }
+          "browser": "msnbot-webmaster tools"
         },
         {
           "match": "MSR-ISRCCrawler",
-          "browser": "msr-isrccrawler",
-          "properties": {
-            "Browser": "MSR-ISRCCrawler"
-          }
+          "browser": "msr-isrccrawler"
         },
         {
           "match": "MSRBOT*",
-          "browser": "msrbot",
-          "properties": {
-            "Browser": "MSRBOT"
-          }
+          "browser": "msrbot"
         },
         {
           "match": "renlifangbot/1.0 (?http://search.msn.com/msnbot.htm)",
-          "browser": "renlifangbot",
-          "properties": {
-            "Browser": "renlifangbot"
-          }
+          "browser": "renlifangbot"
         },
         {
           "match": "Windows-Live-Social-Object-Extractor-Engine/1.0",
-          "browser": "windows-live-social-object-extractor-eng",
-          "properties": {
-            "Browser": "Windows-Live-Social-Object-Extractor-Eng"
-          }
+          "browser": "windows-live-social-object-extractor-eng"
         },
         {
           "match": "T-Mobile Dash Mozilla/4.0 (*MSNBOT-MOBILE/1.1*",
-          "browser": "msnbot-mobile",
-          "properties": {
-            "Browser": "msnbot-mobile"
-          }
+          "browser": "msnbot-mobile"
         },
         {
           "match": "msnbot-UDiscovery/*"
         },
         {
           "match": "MSNBot-News/*",
-          "browser": "msnbot-news",
-          "properties": {
-            "Browser": "MSNBot-News"
-          }
+          "browser": "msnbot-news"
         },
         {
           "match": "MSNBot-NewsBlogs/*",
-          "browser": "msnbot-newsblogs",
-          "properties": {
-            "Browser": "msnbot-NewsBlogs"
-          }
+          "browser": "msnbot-newsblogs"
         },
         {
           "match": "msnbot-webmaster/*",
-          "browser": "msnbot-webmaster tools",
-          "properties": {
-            "Browser": "msnbot-webmaster tools"
-          }
+          "browser": "msnbot-webmaster tools"
         }
       ]
     }

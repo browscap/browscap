@@ -21,45 +21,27 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; imrbot/*",
-          "browser": "mignify bot",
-          "properties": {
-            "Browser_Maker": "Internet Memory Research"
-          }
+          "browser": "mignify bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; LucidWorks*",
-          "browser": "lucidworks bot",
-          "properties": {
-            "Browser_Maker": "Lucidworks"
-          }
+          "browser": "lucidworks bot"
         },
         {
           "match": "Mozilla/5.0 CommonCrawler Node*",
-          "browser": "commoncrawler node",
-          "properties": {
-            "Browser": "CommonCrawler Node"
-          }
+          "browser": "commoncrawler node"
         },
         {
           "match": "Mozilla/5.0 (compatible; Dataprovider/*",
-          "browser": "dataprovider bot",
-          "properties": {
-            "Browser_Maker": "Dataprovider.com"
-          }
+          "browser": "dataprovider bot"
         },
         {
           "match": "SkyGrid/*",
-          "browser": "skygrid bot",
-          "properties": {
-            "Browser_Maker": "SkyGrid"
-          }
+          "browser": "skygrid bot"
         },
         {
           "match": "Clickagy Intelligence Bot*",
-          "browser": "clickagy intelligence bot",
-          "properties": {
-            "Browser_Maker": "Clickagy"
-          }
+          "browser": "clickagy intelligence bot"
         }
       ]
     }

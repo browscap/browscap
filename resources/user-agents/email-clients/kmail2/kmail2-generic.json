@@ -21,8 +21,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kmail2* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64",
-            "Linux"
+            "Linux_64", "Linux"
           ]
         }
       ]

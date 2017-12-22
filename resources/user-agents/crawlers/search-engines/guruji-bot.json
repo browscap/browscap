@@ -21,10 +21,7 @@
         },
         {
           "match": "GurujiBot/*",
-          "browser": "gurujibot",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         },
         {
           "match": "Mozilla/5.0 GurujiBot/1.0*",
@@ -35,10 +32,7 @@
         },
         {
           "match": "Mozilla/5.0 GurujiBot/*",
-          "browser": "gurujibot",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         },
         {
           "match": "Mozilla/5.0 (compatible; GurujiBot/1.0*",
@@ -49,10 +43,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; GurujiBot/*",
-          "browser": "gurujibot",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         }
       ]
     }

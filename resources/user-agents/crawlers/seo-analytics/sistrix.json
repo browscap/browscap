@@ -17,10 +17,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; 007ac9 Crawler*",
-          "browser": "007ac9 crawler",
-          "properties": {
-            "Browser": "007AC9 Crawler"
-          }
+          "browser": "007ac9 crawler"
         },
         {
           "match": "Sistrix*"

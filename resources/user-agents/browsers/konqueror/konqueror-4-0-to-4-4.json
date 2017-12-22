@@ -21,7 +21,11 @@
         {
           "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER#*; #PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "platforms": [
-            "FreeBSD", "NetBSD", "OpenBSD", "SunOS", "DragonFlyBSD"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
           ]
         },
         {

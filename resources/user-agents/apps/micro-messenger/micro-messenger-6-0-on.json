@@ -18,10 +18,10 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "devices": {
             "GT-N7100": "Samsung GT-N7100"
           },
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]

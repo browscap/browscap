@@ -8,9 +8,9 @@
     {
       "userAgent": "Miui Browser #MAJORVER#.#MINORVER# for Dalvik",
       "browser": "miui browser",
-      "device": "general Mobile Phone (Touch)",
       "platform": "Miui_OS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Miui Browser #MAJORVER#.#MINORVER# for Dalvik",

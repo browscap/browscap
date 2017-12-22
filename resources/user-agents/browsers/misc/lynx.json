@@ -7,8 +7,8 @@
     {
       "userAgent": "Lynx",
       "browser": "lynx",
-      "device": "general Desktop",
       "platform": "Linux",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lynx"

@@ -21,10 +21,7 @@
         },
         {
           "match": "XING-contenttabreceiver/*",
-          "browser": "xing contenttabreceiver",
-          "properties": {
-            "Browser": "XING Contenttabreceiver"
-          }
+          "browser": "xing contenttabreceiver"
         }
       ]
     }

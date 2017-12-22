@@ -20,16 +20,20 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "CentOS", "Linux_64", "Linux"
+            "CentOS",
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Win2000"
           ]
         },
         {
@@ -45,8 +49,8 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "browser": "safari",
-      "device": "general Mobile Phone",
       "platform": "SymbianOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

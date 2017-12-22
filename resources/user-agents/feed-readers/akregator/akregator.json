@@ -1,6 +1,6 @@
 {
   "division": "akregator #MAJORVER#.#MINORVER#",
-  "versions": ["4.14", "4.13", "4.12", "4.11", "4.10", "4.9", "4.8", "4.7", "4.6", "4.5"],
+  "versions": ["4.14", "4.13", "4.12", "4.11", "4.9", "4.8", "4.7", "4.6", "4.5", "4.10"],
   "sortIndex": 381,
   "lite": false,
   "standard": true,
@@ -8,8 +8,8 @@
     {
       "userAgent": "akregator #MAJORVER#.#MINORVER#",
       "browser": "akregator",
-      "engine": "KHTML_Dynamic",
       "platform": "Linux",
+      "engine": "KHTML_Dynamic",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",

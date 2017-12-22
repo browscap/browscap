@@ -7,9 +7,9 @@
     {
       "userAgent": "QtWebEngine Generic",
       "browser": "qtwebengine",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QtWebEngine Generic"

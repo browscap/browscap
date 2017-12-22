@@ -40,7 +40,7 @@
         {
           "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
-            "Ubuntu_32"
+            "Ubuntu"
           ]
         },
         {
@@ -52,7 +52,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu",
             "Linux_64", "Linux"
           ]
         }

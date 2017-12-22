@@ -56,9 +56,9 @@
     {
       "userAgent": "Facebook Messenger App for Android",
       "browser": "facebook messenger",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Facebook Messenger App for Android"
@@ -469,51 +469,51 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "SM-N900A": "Samsung SM-N900A",
             "SM-S975L": "Samsung SM-S975L"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "SGH-I337": "Samsung SGH-I337"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "SCH-S968C": "Samsung SCH-S968C"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9300": "Samsung GT-I9300"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
           "devices": {
             "LT26i": "SonyEricsson LT26i"
           },
-          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]

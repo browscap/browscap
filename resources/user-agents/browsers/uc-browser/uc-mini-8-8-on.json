@@ -8,9 +8,9 @@
     {
       "userAgent": "UC Browser Mini #MAJORVER#.#MINORVER#",
       "browser": "uc browser mini",
-      "device": "general Mobile Phone (Touch)",
       "platform": "Android",
       "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Mini #MAJORVER#.#MINORVER#",

@@ -19,21 +19,21 @@
       "children": [
         {
           "match": "Flipboard/1.5* CFNetwork/*",
-          "properties": {
-            "Version": "1.5"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.5"
+          }
         },
         {
           "match": "Flipboard/1.8* CFNetwork/*",
-          "properties": {
-            "Version": "1.8"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.8"
+          }
         },
         {
           "match": "Flipboard* CFNetwork/*",

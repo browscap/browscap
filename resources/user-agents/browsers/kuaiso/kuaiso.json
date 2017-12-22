@@ -29,9 +29,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* 7Star/* Safari/*",
           "browser": "7 star",
-          "properties": {
-            "Comment": "7 Star"
-          },
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -40,7 +37,10 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPa_32",
             "Windows"
-          ]
+          ],
+          "properties": {
+            "Comment": "7 Star"
+          }
         }
       ]
     }

@@ -17,7 +17,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* K-Ninja/*",
           "platforms": [
-            "WinXPa_32", "Win98_3", "Windows"
+            "WinXPa_32",
+            "Windows",
+            "Win98_3"
           ]
         }
       ]

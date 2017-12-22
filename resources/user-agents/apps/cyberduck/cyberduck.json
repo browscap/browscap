@@ -7,8 +7,8 @@
     {
       "userAgent": "Cyberduck",
       "browser": "cyberduck",
-      "device": "Windows Desktop",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cyberduck"
@@ -16,17 +16,19 @@
       "children": [
         {
           "match": "Cyberduck/4.6* (#PLATFORM#) *",
+          "platforms": [
+            "WinXPa_v2",
+            "Windows"
+          ],
           "properties": {
             "Version": "4.6"
-          },
-          "platforms": [
-            "WinXPa_v2", "Windows"
-          ]
+          }
         },
         {
           "match": "Cyberduck/* (#PLATFORM#) *",
           "platforms": [
-            "WinXPa_v2", "Windows"
+            "WinXPa_v2",
+            "Windows"
           ]
         }
       ]

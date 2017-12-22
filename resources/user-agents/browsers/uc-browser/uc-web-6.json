@@ -8,8 +8,8 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "browser": "uc browser",
-      "device": "Windows Desktop",
       "engine": "Blink",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",

@@ -12,17 +12,17 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nintendo Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) *NintendoBrowser/#MAJORVER#.#MINORVER#.*",
+          "device": "Nintendo Switch",
           "platforms": [
             "NintendoSwitch_OS"
-          ],
-          "device": "Nintendo Switch"
+          ]
         }
       ]
     }

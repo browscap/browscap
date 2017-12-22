@@ -21,31 +21,19 @@
         },
         {
           "match": "JobRoboter/*",
-          "browser": "jobroboter",
-          "properties": {
-            "Browser": "JobRoboter"
-          }
+          "browser": "jobroboter"
         },
         {
           "match": "Mozilla/5.0 (compatible; MetaJobBot*",
-          "browser": "metajobbot",
-          "properties": {
-            "Browser_Maker": "Dr. Manfred Schauer"
-          }
+          "browser": "metajobbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; JobdiggerSpider*",
-          "browser": "jobdiggerspider",
-          "properties": {
-            "Browser_Maker": "www.jobdigger.nl"
-          }
+          "browser": "jobdiggerspider"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#compatible; Jobboerse*) Gecko* Firefox/*",
           "browser": "jobboerse bot",
-          "properties": {
-            "Browser_Maker": "Jobboerse.com"
-          },
           "platforms": [
             "Linux"
           ]

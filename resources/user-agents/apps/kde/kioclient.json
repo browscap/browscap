@@ -8,9 +8,9 @@
     {
       "userAgent": "kioclient #MAJORVER#.#MINORVER#",
       "browser": "kioclient",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "kioclient #MAJORVER#.#MINORVER#",
@@ -23,7 +23,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kioclient/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "CentOS",
+            "Linux_64", "Linux"
           ]
         }
       ]

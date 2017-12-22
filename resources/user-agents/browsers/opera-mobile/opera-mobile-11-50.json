@@ -8,9 +8,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "browser": "opera mobile",
+      "platform": "Android",
       "engine": "Presto_2_9",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -20,7 +20,6 @@
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "AndroidLinux",
             "Android_F_5_0",
             "Android_F_4_4", "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
@@ -54,9 +53,9 @@
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "SymbianOS_C",
+            "Maemo_ARM",
             "WinMobile",
-            "Maemo_ARM"
+            "SymbianOS_C"
           ]
         }
       ]

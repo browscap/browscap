@@ -31,7 +31,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Kinza/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11",
+            "OSX_10_12",
+            "OSX_10_11",
             "OSX"
           ]
         }

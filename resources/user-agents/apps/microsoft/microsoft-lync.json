@@ -7,9 +7,9 @@
     {
       "userAgent": "Microsoft Lync",
       "browser": "lync",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Lync",
@@ -20,12 +20,12 @@
         {
           "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Lync 15.*)",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         }
       ]
     }

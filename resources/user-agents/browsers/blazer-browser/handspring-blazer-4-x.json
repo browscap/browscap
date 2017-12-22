@@ -9,8 +9,8 @@
       "userAgent": "Blazer #MAJORVER#.#MINORVER#",
       "browser": "blazer",
       "platform": "PalmOS",
-      "device": "general Mobile Device",
       "engine": "NetFront",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Blazer",

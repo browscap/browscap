@@ -7,8 +7,8 @@
     {
       "userAgent": "Debian APT-HTTP",
       "browser": "apt http transport",
-      "device": "Linux Desktop",
       "platform": "Debian",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Debian APT-HTTP"

@@ -1,6 +1,6 @@
 {
   "division": "ELinks #MAJORVER#.#MINORVER#",
-  "versions": ["0.13", "0.12", "0.11", "0.10", "0.9"],
+  "versions": ["0.13", "0.12", "0.11", "0.9", "0.10"],
   "sortIndex": 2300,
   "lite": false,
   "standard": true,
@@ -33,8 +33,20 @@
           "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
-            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS",
+            "Unix_B"
           ]
         },
         {
@@ -55,8 +67,20 @@
           "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
-            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS",
+            "Unix_B"
           ]
         },
         {

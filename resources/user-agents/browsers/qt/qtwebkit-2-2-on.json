@@ -20,14 +20,16 @@
           "match": "Mozilla/5.0 (#PLATFORM#HbbTV*Dreambox*) applewebkit* QtWebkit/#MAJORVER#.#MINORVER#*",
           "device": "Dream Property Dreambox",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#HbbTV*) applewebkit* QtWebkit/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "Linux_64", "Linux"
           ]
         }
       ]

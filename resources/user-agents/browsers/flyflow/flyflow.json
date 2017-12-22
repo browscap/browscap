@@ -9,8 +9,8 @@
       "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
       "browser": "flyflow",
       "platform": "Android",
-      "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "FlyFlow #MAJORVER#.#MINORVER#",

@@ -27,8 +27,17 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape6/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win95", "Win98", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
-            "WinXPb_32", "WinXPb_v2", "Vista_32", "Win7_32"
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000",
+            "NT4",
+            "WinXPb_v2", "WinXPa_v3",
+            "Win2000_6",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
           ]
         },
         {
@@ -42,7 +51,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape6/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "SunOS", "Tru64_Unix_B"
+            "SunOS",
+            "Tru64_Unix_B"
           ]
         }
       ]

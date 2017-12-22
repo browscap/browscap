@@ -8,9 +8,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "browser": "opera mobile",
+      "platform": "Android",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -20,25 +20,23 @@
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "AndroidLinux",
-            "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
-            "Android_F",
             "Android_H_2_2",
-            "Android_H"
+            "Android_H",
+            "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
+            "Android_F"
           ]
         },
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Tablet*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
-            "AndroidLinux",
             "Android_F"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Opera Mobi/*) Gecko/* Firefox/* Opera #MAJORVER#.#MINORVER#*",
           "platforms": [
-            "AndroidLinux"
+            "Android_F"
           ]
         },
         {
@@ -100,24 +98,25 @@
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "SymbianOS_C",
-            "WinMobile",
             "Maemo_ARM",
-            "Linux"
+            "Linux",
+            "WinMobile",
+            "SymbianOS_C"
           ]
         },
         {
           "match": "Opera/9.80*(#PLATFORM#Opera Tablet*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
-            "SymbianOS_C",
-            "WinMobile"
+            "WinMobile",
+            "SymbianOS_C"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Opera Mobi/*) Gecko/* Firefox/* Opera #MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Maemo_ARM", "SymbianOS_C"
+            "Maemo_ARM",
+            "SymbianOS_C"
           ]
         },
         {

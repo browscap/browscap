@@ -8,8 +8,8 @@
       "userAgent": "Galeon Generic",
       "browser": "galeon",
       "platform": "Linux",
-      "device": "Linux Desktop",
       "engine": "Gecko",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Galeon Generic"

@@ -20,39 +20,54 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win98", "WinME", "Win2000",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Vista_32", "Win7_32", "NT3.51", "Win8_32"
+            "Win2000",
+            "NT3.51",
+            "WinME",
+            "Win98"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32_on_x64", "Linux_64", "Linux", "Fedora"
+            "Fedora",
+            "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win98", "WinME", "Win2000",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
             "WinXPa_32", "WinXPb_32",
-            "Vista_32", "Win7_32", "NT3.51", "Win8_32"
+            "Win2000",
+            "NT3.51",
+            "WinME",
+            "Win98"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX", "OSX_PPC"
+            "OSX_PPC",
+            "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS", "BeOS", "OS2"
+            "FreeBSD",
+            "BeOS",
+            "SunOS",
+            "OS2"
           ]
         },
         {

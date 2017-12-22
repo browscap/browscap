@@ -8,9 +8,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "browser": "uc browser",
+      "platform": "Android",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -249,7 +249,8 @@
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7_C", "WinPhone8_B",
+            "WinPhone8_B",
+            "WinPhone7_C",
             "SymbianOS_B"
           ]
         },

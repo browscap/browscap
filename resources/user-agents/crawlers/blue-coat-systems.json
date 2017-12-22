@@ -14,45 +14,27 @@
       "children": [
         {
           "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Bluecoat DRTR)",
-          "browser": "bluecoat",
-          "properties": {
-            "Browser": "Bluecoat"
-          }
+          "browser": "bluecoat"
         },
         {
           "match": "BlueCoat ProxySG",
-          "browser": "bluecoat proxysg",
-          "properties": {
-            "Browser": "BlueCoat ProxySG"
-          }
+          "browser": "bluecoat proxysg"
         },
         {
           "match": "CerberianDrtrs/*",
-          "browser": "cerberian",
-          "properties": {
-            "Browser": "Cerberian"
-          }
+          "browser": "cerberian"
         },
         {
           "match": "Inne: Mozilla/4.0 (compatible; Cerberian Drtrs*)",
-          "browser": "cerberian",
-          "properties": {
-            "Browser": "Cerberian"
-          }
+          "browser": "cerberian"
         },
         {
           "match": "Mozilla/4.0 (compatible; Cerberian Drtrs*)",
-          "browser": "cerberian",
-          "properties": {
-            "Browser": "Cerberian"
-          }
+          "browser": "cerberian"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 6.0; Bluecoat DRTR)",
-          "browser": "bluecoat",
-          "properties": {
-            "Browser": "Bluecoat"
-          }
+          "browser": "bluecoat"
         }
       ]
     }

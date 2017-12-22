@@ -8,8 +8,8 @@
     {
       "userAgent": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
       "browser": "yahoo mail mobile",
-      "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",

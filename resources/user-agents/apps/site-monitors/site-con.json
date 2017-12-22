@@ -17,21 +17,21 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.10*",
-          "properties": {
-            "Version": "8.10"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "8.10"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.8*",
-          "properties": {
-            "Version": "8.8"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "8.8"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/*",

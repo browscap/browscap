@@ -8,9 +8,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
       "platform": "WinPhone",
       "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -59,7 +59,8 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "platforms": [
             "WinPhone10_B",
-            "WinPhone8.1_B", "WinPhone8_B"
+            "WinPhone8.1_B",
+            "WinPhone8_B"
           ]
         },
         {

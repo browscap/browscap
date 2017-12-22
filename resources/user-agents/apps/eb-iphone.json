@@ -20,33 +20,37 @@
         {
           "match": "eb-iphone/3.8* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
+          "platforms": [
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0"
+          ],
           "properties": {
             "Version": "3.8"
-          },
-          "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
-          ]
+          }
         },
         {
           "match": "eb-iphone/3.8* (#PLATFORM#) Mobile",
+          "platforms": [
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0"
+          ],
           "properties": {
             "Version": "3.8"
-          },
-          "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
-          ]
+          }
         },
         {
           "match": "eb-iphone/* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0"
           ]
         },
         {
           "match": "eb-iphone/* (#PLATFORM#) Mobile",
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0"
           ]
         }
       ]

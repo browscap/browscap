@@ -17,7 +17,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* KMLite/*",
           "platforms": [
-            "WinXPa_32", "Win2000", "Windows"
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
           ]
         }
       ]

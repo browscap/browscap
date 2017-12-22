@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "httpclient (http://www.phpclasses.org/httpclient $Revision:*",
-          "browser": "httpclient",
-          "properties": {
-            "Browser_Maker": "www.phpclasses.org"
-          }
+          "browser": "httpclient"
         },
         {
           "match": "PECL::HTTP/1.6*",
@@ -35,22 +32,13 @@
         },
         {
           "match": "PECL::HTTP/*",
-          "browser": "pecl http",
-          "properties": {
-            "Browser_Maker": "unknown"
-          }
+          "browser": "pecl http"
         },
         {
-          "match": "?Ogg.class.php*",
-          "properties": {
-            "Browser_Maker": "unknown"
-          }
+          "match": "?Ogg.class.php*"
         },
         {
-          "match": "Ogg.class.php*",
-          "properties": {
-            "Browser_Maker": "unknown"
-          }
+          "match": "Ogg.class.php*"
         },
         {
           "match": "xmlrpc-epi-php/* (PHP)"
@@ -87,24 +75,15 @@
         },
         {
           "match": "XML-RPC for PHP *",
-          "browser": "xml-rpc for php",
-          "properties": {
-            "Browser": "XML-RPC for PHP"
-          }
+          "browser": "xml-rpc for php"
         },
         {
           "match": "Zend_XmlRpc_Client",
-          "browser": "zend_xmlrpc_client",
-          "properties": {
-            "Browser_Maker": "Zend Technologies Ltd."
-          }
+          "browser": "zend_xmlrpc_client"
         },
         {
           "match": "Zend_Http_Client",
-          "browser": "zend_http_client",
-          "properties": {
-            "Browser_Maker": "Zend Technologies Ltd."
-          }
+          "browser": "zend_http_client"
         },
         {
           "match": "PHP/5.2*",
@@ -148,10 +127,7 @@
         },
         {
           "match": "GuzzleHttp/*",
-          "browser": "guzzle http client",
-          "properties": {
-            "Browser_Maker": "Michael Dowling"
-          }
+          "browser": "guzzle http client"
         },
         {
           "match": "Guzzle/4.2*",
@@ -162,17 +138,11 @@
         },
         {
           "match": "Guzzle/*",
-          "browser": "guzzle http client",
-          "properties": {
-            "Browser_Maker": "Michael Dowling"
-          }
+          "browser": "guzzle http client"
         },
         {
           "match": "Taproot*",
-          "browser": "taproot bot",
-          "properties": {
-            "Browser_Maker": "Barnaby Walters"
-          }
+          "browser": "taproot bot"
         }
       ]
     }

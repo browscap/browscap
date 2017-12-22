@@ -14,17 +14,11 @@
       "children": [
         {
           "match": "DataFountains/DMOZ Downloader*",
-          "browser": "datafountains/dmoz downloader",
-          "properties": {
-            "Browser": "DataFountains/DMOZ Downloader"
-          }
+          "browser": "datafountains/dmoz downloader"
         },
         {
           "match": "DataFountains/DMOZ Feature Vector Corpus Creator*",
-          "browser": "datafountains/dmoz feature vector corpus",
-          "properties": {
-            "Browser": "DataFountains/DMOZ Feature Vector Corpus"
-          }
+          "browser": "datafountains/dmoz feature vector corpus"
         }
       ]
     }

@@ -19,12 +19,12 @@
       "children": [
         {
           "match": "ImageMobile/1.2* CFNetwork/*",
-          "properties": {
-            "Version": "1.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
         },
         {
           "match": "ImageMobile/* CFNetwork/*",

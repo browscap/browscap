@@ -19,7 +19,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minimo/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinCE", "Maemo_ARM"
+            "Maemo_ARM",
+            "WinCE"
           ]
         },
         {

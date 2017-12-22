@@ -14,10 +14,7 @@
       "children": [
         {
           "match": "GigabotSiteSearch/*",
-          "browser": "gigabotsitesearch",
-          "properties": {
-            "Browser": "GigabotSiteSearch"
-          }
+          "browser": "gigabotsitesearch"
         },
         {
           "match": "Gigabot*"
