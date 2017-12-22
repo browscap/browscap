@@ -54,7 +54,8 @@
             "Android"
           ],
           "properties": {
-            "Version": "5.2",            "Browser_Modus": "Desktop Mode"
+            "Version": "5.2",
+            "Browser_Modus": "Desktop Mode"
           }
         }
       ]

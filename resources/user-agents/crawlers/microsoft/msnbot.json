@@ -64,8 +64,8 @@
         {
           "match": "msnbot-Products/1.0*",
           "properties": {
-            "Version": "1.0",
-            "Comment": "msn Products bot"
+            "Comment": "msn Products bot",
+            "Version": "1.0"
           }
         },
         {
