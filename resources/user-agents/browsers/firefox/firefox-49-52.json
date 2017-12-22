@@ -20,7 +20,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu",
             "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
@@ -59,7 +59,7 @@
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu",
             "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
