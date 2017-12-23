@@ -270,9 +270,8 @@ class Expander
                 $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine                    = $this->collection->getEngine($uaDataChild['engine']);
-                    $engineProperties          = $engine->getProperties();
-                    $this->patternId['engine'] = $uaDataChild['engine'];
+                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties = $engine->getProperties();
                 } else {
                     $engineProperties = [];
                 }
@@ -327,9 +326,8 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine                    = $this->collection->getEngine($uaDataChild['engine']);
-                $engineProperties          = $engine->getProperties();
-                $this->patternId['engine'] = $uaDataChild['engine'];
+                $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties = $engine->getProperties();
             } else {
                 $engineProperties = [];
             }
