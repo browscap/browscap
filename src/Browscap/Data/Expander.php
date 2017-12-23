@@ -270,8 +270,9 @@ class Expander
                 $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
-                    $engineProperties = $engine->getProperties();
+                    $engine                    = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties          = $engine->getProperties();
+                    $this->patternId['engine'] = $uaDataChild['engine'];
                 } else {
                     $engineProperties = [];
                 }
@@ -326,8 +327,9 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine           = $this->collection->getEngine($uaDataChild['engine']);
-                $engineProperties = $engine->getProperties();
+                $engine                    = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties          = $engine->getProperties();
+                $this->patternId['engine'] = $uaDataChild['engine'];
             } else {
                 $engineProperties = [];
             }
@@ -385,13 +387,12 @@ class Expander
     private function getPatternId() : string
     {
         return sprintf(
-            '%s::u%d::c%d::d%s::p%s::b%s',
+            '%s::u%d::c%d::d%s::p%s',
             $this->patternId['division'],
             $this->patternId['useragent'],
             $this->patternId['child'],
             $this->patternId['device'],
-            $this->patternId['platform'],
-            $this->patternId['browser']
+            $this->patternId['platform']
         );
     }
 
