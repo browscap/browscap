@@ -20,6 +20,9 @@ class EngineFactoryTest extends TestCase
         $this->object = new EngineFactory();
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuildWithMissingInheritAndProperties() : void
     {
         $this->expectException(UnexpectedValueException::class);
@@ -32,6 +35,9 @@ class EngineFactoryTest extends TestCase
         $this->object->build($engineData, $json, $engineName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuildWithMissingParent() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -44,6 +50,9 @@ class EngineFactoryTest extends TestCase
         $this->object->build($engineData, $json, $engineName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuildWithRepeatingProperties() : void
     {
         $this->expectException(UnexpectedValueException::class);
@@ -60,6 +69,9 @@ class EngineFactoryTest extends TestCase
         $this->object->build($engineData, $json, $engineName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuild() : void
     {
         $engineData = ['properties' => ['abc' => 'xyz'], 'inherits' => 'abc'];

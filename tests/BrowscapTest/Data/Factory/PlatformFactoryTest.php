@@ -22,6 +22,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * tests that the missing "lite" property is leading to an error
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildMissingLiteProperty() : void
     {
@@ -37,6 +39,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * tests that the missing "standard" property is leading to an error
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildMissingStandardProperty() : void
     {
@@ -52,6 +56,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * tests that the missing "match" property is leading to an error
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildWithoutMatchProperty() : void
     {
@@ -73,6 +79,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * tests that the missing "inherits" property and missing "properties" property is leading to an error
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildWithMissingInheritAndProperties() : void
     {
@@ -88,6 +96,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * tests that a missing parent platform is leading to an error
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildMissingParentPlatform() : void
     {
@@ -101,6 +111,9 @@ class PlatformFactoryTest extends TestCase
         $this->object->build($platformData, $json, $platformName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuildWithRepeatingProperties() : void
     {
         $this->expectException(UnexpectedValueException::class);
@@ -120,6 +133,9 @@ class PlatformFactoryTest extends TestCase
         $this->object->build($platformData, $json, $platformName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCreationOfPlatform() : void
     {
         $platformData = ['properties' => ['abc' => 'zyx'], 'match' => 'test*', 'lite' => true, 'standard' => true, 'inherits' => 'abc'];

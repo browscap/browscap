@@ -65,6 +65,9 @@ final class BuildGenerator implements GeneratorInterface
      *
      * @param string $buildVersion
      * @param bool   $createZipFile
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function run(string $buildVersion, bool $createZipFile = true) : void
     {

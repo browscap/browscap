@@ -13,9 +13,10 @@ class BrowserFactory
      * @param array  $browserData
      * @param string $browserName
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
-     * @return \Browscap\Data\Browser
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
      * @throws \Assert\AssertionFailedException
+     *
+     * @return \Browscap\Data\Browser
      */
     public function build(array $browserData, $browserName)
     {

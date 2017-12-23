@@ -21,6 +21,7 @@ final class BuildHelper
      * @param bool                  $collectPatternIds
      *
      * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public static function run(
         string $buildVersion,

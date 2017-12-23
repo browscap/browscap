@@ -84,6 +84,8 @@ class PhpFormatterTest extends TestCase
      * @param string $propertyName
      * @param string $inputValue
      * @param string $expectedValue
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
@@ -93,6 +95,8 @@ class PhpFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithException() : void
     {
@@ -102,6 +106,8 @@ class PhpFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithUnknownValue() : void
     {
@@ -111,6 +117,8 @@ class PhpFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithSpecialChars() : void
     {
@@ -120,6 +128,8 @@ class PhpFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithoutSpecialChars() : void
     {

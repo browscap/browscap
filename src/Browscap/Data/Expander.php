@@ -48,8 +48,9 @@ class Expander
      * @param string   $divisionName
      *
      * @throws \UnexpectedValueException
-     * @return array
      * @throws \OutOfBoundsException
+     *
+     * @return array
      */
     public function expand(Division $division, string $divisionName) : array
     {
@@ -82,9 +83,10 @@ class Expander
      * @param Division $division
      * @param string   $divisionName
      *
-     * @return array
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
+     * @return array
      */
     private function parseDivision(Division $division, string $divisionName) : array
     {
@@ -121,9 +123,10 @@ class Expander
      * @param int       $sortIndex
      * @param string    $divisionName
      *
-     * @return array
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
+     * @return array
      */
     private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
@@ -167,8 +170,8 @@ class Expander
 
         if (null !== $uaData->getBrowser()) {
             $this->patternId['browser'] = $uaData->getBrowser();
-            $browser           = $this->collection->getBrowser($uaData->getBrowser());
-            $browserProperties = $browser->getProperties();
+            $browser                    = $this->collection->getBrowser($uaData->getBrowser());
+            $browserProperties          = $browser->getProperties();
 
             if (!$browser->isStandard()) {
                 $standard = false;
@@ -178,7 +181,7 @@ class Expander
                 $lite = false;
             }
         } else {
-            $browserProperties = [];
+            $browserProperties          = [];
             $this->patternId['browser'] = '';
         }
 
@@ -241,9 +244,10 @@ class Expander
      * @param bool   $lite
      * @param bool   $standard
      *
-     * @return array
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
+     * @return array
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
@@ -266,8 +270,8 @@ class Expander
                 $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
-                    $engineProperties = $engine->getProperties();
+                    $engine                    = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties          = $engine->getProperties();
                     $this->patternId['engine'] = $uaDataChild['engine'];
                 } else {
                     $engineProperties = [];
@@ -323,8 +327,8 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine           = $this->collection->getEngine($uaDataChild['engine']);
-                $engineProperties = $engine->getProperties();
+                $engine                    = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties          = $engine->getProperties();
                 $this->patternId['engine'] = $uaDataChild['engine'];
             } else {
                 $engineProperties = [];

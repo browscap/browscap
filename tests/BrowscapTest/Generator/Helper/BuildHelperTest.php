@@ -26,6 +26,9 @@ class BuildHelperTest extends TestCase
 
     /**
      * tests running a build
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function testRun() : void
     {
@@ -148,6 +151,9 @@ class BuildHelperTest extends TestCase
 
     /**
      * tests running a build
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function testRunDuplicateDivision() : void
     {
@@ -270,6 +276,9 @@ class BuildHelperTest extends TestCase
 
     /**
      * tests running a build with pattern id collection enabled
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function testRunWithPatternIdCollectionEnabled() : void
     {

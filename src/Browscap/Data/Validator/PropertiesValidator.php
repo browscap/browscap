@@ -13,6 +13,7 @@ final class PropertiesValidator implements ValidatorInterface
      * @param string $key
      *
      * @throws \LogicException
+     * @throws \Assert\AssertionFailedException
      */
     public function validate(array $properties, string $key) : void
     {

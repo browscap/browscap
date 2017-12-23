@@ -43,6 +43,9 @@ class BuildCommand extends Command
      * @param InputInterface  $input
      * @param OutputInterface $output
      *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
+     *
      * @return int|null null or 0 if everything went fine, or an error code
      */
     protected function execute(InputInterface $input, OutputInterface $output) : ?int

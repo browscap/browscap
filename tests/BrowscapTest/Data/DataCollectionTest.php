@@ -26,21 +26,6 @@ class DataCollectionTest extends TestCase
         $this->object = new DataCollection($logger);
     }
 
-    private function getPlatformsJsonFixture()
-    {
-        return __DIR__ . '/../../fixtures/platforms/platforms.json';
-    }
-
-    private function getEngineJsonFixture()
-    {
-        return __DIR__ . '/../../fixtures/engines/engines.json';
-    }
-
-    private function getDevicesJsonFixture()
-    {
-        return __DIR__ . '/../../fixtures/devices/devices.json';
-    }
-
     /**
      * tests getting the generation date
      */

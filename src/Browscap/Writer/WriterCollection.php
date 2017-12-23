@@ -147,10 +147,10 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param (int|string|bool)[] $section
-     * @param DataCollection      $collection
-     * @param array[]             $sections
-     * @param string              $sectionName
+     * @param array          $section
+     * @param DataCollection $collection
+     * @param array[]        $sections
+     * @param string         $sectionName
      *
      * @throws \InvalidArgumentException
      */

@@ -23,6 +23,8 @@ class DataCollectionFactoryTest extends TestCase
 
     /**
      * tests throwing an exception while creating a data collaction when a dir is invalid
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
@@ -47,6 +49,8 @@ class DataCollectionFactoryTest extends TestCase
 
     /**
      * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testCreateDataCollection() : void
     {
