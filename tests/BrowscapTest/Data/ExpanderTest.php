@@ -460,7 +460,7 @@ class ExpanderTest extends TestCase
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*']);
-        self::assertSame('tests/test.json::u0::c0::d::p', $result['abc*']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::d::p::b', $result['abc*']['PatternId']);
     }
 
     /**
@@ -575,7 +575,7 @@ class ExpanderTest extends TestCase
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*']);
-        self::assertSame('tests/test.json::u0::c0::d::pPlatform_1', $result['abc*']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::d::pPlatform_1::b', $result['abc*']['PatternId']);
     }
 
     /**
@@ -707,10 +707,10 @@ class ExpanderTest extends TestCase
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*abc']);
-        self::assertSame('tests/test.json::u0::c0::dabc::pPlatform_1', $result['abc*abc']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::dabc::pPlatform_1::b', $result['abc*abc']['PatternId']);
 
         self::assertArrayHasKey('PatternId', $result['abc*def']);
-        self::assertSame('tests/test.json::u0::c0::ddef::pPlatform_1', $result['abc*def']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::ddef::pPlatform_1::b', $result['abc*def']['PatternId']);
     }
 
     /**
@@ -821,9 +821,9 @@ class ExpanderTest extends TestCase
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*abc']);
-        self::assertSame('tests/test.json::u0::c0::dabc::p', $result['abc*abc']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::dabc::p::b', $result['abc*abc']['PatternId']);
 
         self::assertArrayHasKey('PatternId', $result['abc*def']);
-        self::assertSame('tests/test.json::u0::c0::ddef::p', $result['abc*def']['PatternId']);
+        self::assertSame('tests/test.json::u0::c0::ddef::p::b', $result['abc*def']['PatternId']);
     }
 }

@@ -509,7 +509,7 @@ class PropertyHolderTest extends TestCase
             ['JavaApplets', false],
             ['ActiveXControls', false],
             ['isMobileDevice', true],
-            ['isSyndicationReader', false],
+            ['isSyndicationReader', true],
             ['isFake', false],
             ['isAnonymized', false],
             ['isModified', false],
