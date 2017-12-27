@@ -925,17 +925,6 @@
           "browser": "icarus6j"
         },
         {
-          "match": "wsr-agent/1.0*",
-          "browser": "wsr-agent",
-          "properties": {
-            "Version": "1.0"
-          }
-        },
-        {
-          "match": "wsr-agent/*",
-          "browser": "wsr-agent"
-        },
-        {
           "match": "Mozilla crawl/5.0*",
           "browser": "mozilla crawler",
           "properties": {
@@ -956,10 +945,6 @@
         {
           "match": "RamblerMail/*",
           "browser": "ramblermail bot"
-        },
-        {
-          "match": "wsr-agent/*",
-          "browser": "wsr-agent"
         },
         {
           "match": "Mozilla/5.0 (URLfilterDB-crawler/1.1)*",

@@ -1,0 +1,3326 @@
+{
+    "115 browser": {
+        "properties": {
+            "Browser": "115 Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "115.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "1stbrowser": {
+        "properties": {
+            "Browser": "1stBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sien",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "2345 browser": {
+        "properties": {
+            "Browser": "2345 Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "2345 chrome": {
+        "properties": {
+            "Browser": "2345 Chrome",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "2345.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "2345 explorer": {
+        "properties": {
+            "Browser": "2345 Explorer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "2345.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "360 secure browser": {
+        "properties": {
+            "Browser": "360 Secure Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Qihoo 360 Technology Co. Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "360 speed browser": {
+        "properties": {
+            "Browser": "360 Speed Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Qihoo 360 Technology Co. Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "37abc": {
+        "properties": {
+            "Browser": "37abc",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Guangzhou Network",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "7 star": {
+        "properties": {
+            "Browser": "7 Star",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Kuaiso Beijing ICP",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "abrowse": {
+        "properties": {
+            "Browser": "ABrowse",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Syllable Project",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "acoo browser": {
+        "properties": {
+            "Browser": "Acoo Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "www.acoobrowser.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "alienforce": {
+        "properties": {
+            "Browser": "Alienforce",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "kbclub",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "aloha browser": {
+        "properties": {
+            "Browser": "Aloha Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Aloha Mobile Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "amigo": {
+        "properties": {
+            "Browser": "Amigo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mail.Ru Group",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "android": {
+        "properties": {
+            "Browser": "Android",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "android webview": {
+        "properties": {
+            "Browser": "Android WebView",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "aol desktop": {
+        "properties": {
+            "Browser": "AOL Desktop",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "AOL",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "aol shield": {
+        "properties": {
+            "Browser": "AOL Shield",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "AOL",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "apusbrowser": {
+        "properties": {
+            "Browser": "APUSBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "APUS-Group",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "arora": {
+        "properties": {
+            "Browser": "Arora",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "atomic browser": {
+        "properties": {
+            "Browser": "Atomic Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Richard Trautvetter",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "avant": {
+        "properties": {
+            "Browser": "Avant",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Avant Force",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "avast safezone": {
+        "properties": {
+            "Browser": "Avast SafeZone",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "AVAST Software s.r.o.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "avira scout": {
+        "properties": {
+            "Browser": "Avira Scout",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Avira Operations GmbH & Co. KG.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "baidu browser": {
+        "properties": {
+            "Browser": "Baidu Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Baidu",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "baidu browser hd": {
+        "properties": {
+            "Browser": "Baidu Browser HD",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Baidu",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "baidu browser mini": {
+        "properties": {
+            "Browser": "Baidu Browser Mini",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Baidu",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "battle.net overlay": {
+        "properties": {
+            "Browser": "Battle.net Overlay",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Blizzard Entertainment Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "beamrise": {
+        "properties": {
+            "Browser": "Beamrise",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Beamrise Team",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blackberry": {
+        "properties": {
+            "Browser": "BlackBerry",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Research In Motion Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blackberry playbook tablet": {
+        "properties": {
+            "Browser": "Blackberry Playbook Tablet",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Research In Motion Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blackhawk": {
+        "properties": {
+            "Browser": "Blackhawk",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "NetGate Technologies",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blazer": {
+        "properties": {
+            "Browser": "Blazer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Handspring",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blue browser": {
+        "properties": {
+            "Browser": "Blue Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "galaxys45312@gmail.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bowser": {
+        "properties": {
+            "Browser": "Bowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Ericsson Research",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "brave": {
+        "properties": {
+            "Browser": "Brave",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Brave Software Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "browzar": {
+        "properties": {
+            "Browser": "Browzar",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "browzar.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bumblebee": {
+        "properties": {
+            "Browser": "bumblebee",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "camino": {
+        "properties": {
+            "Browser": "Camino",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cent browser": {
+        "properties": {
+            "Browser": "Cent Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Cent Studio",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "charon": {
+        "properties": {
+            "Browser": "Charon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Vita Nuova Holdings Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "chedot": {
+        "properties": {
+            "Browser": "Chedot",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Chedot.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cheshire": {
+        "properties": {
+            "Browser": "Cheshire",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "America Online, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "chimera": {
+        "properties": {
+            "Browser": "Chimera",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "chrome": {
+        "properties": {
+            "Browser": "Chrome",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false",
+            "JavaApplets": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "chromeplus": {
+        "properties": {
+            "Browser": "ChromePlus",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Maple Studio",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "chromium": {
+        "properties": {
+            "Browser": "Chromium",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "classilla": {
+        "properties": {
+            "Browser": "Classilla",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Cameron Kaiser",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": false
+    },
+    "cm browser": {
+        "properties": {
+            "Browser": "CM Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Cheetah Mobile",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cmuv dvbviewer": {
+        "properties": {
+            "Browser": "CMUV DVBViewer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "CM&V Hackbart",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "coc coc browser": {
+        "properties": {
+            "Browser": "Coc Coc Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Coc Coc Company Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cometbird": {
+        "properties": {
+            "Browser": "CometBird",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "conkeror": {
+        "properties": {
+            "Browser": "Conkeror",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "coolnovo": {
+        "properties": {
+            "Browser": "CoolNovo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Maple Studio",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "crazy browser": {
+        "properties": {
+            "Browser": "Crazy Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "CrazyBrowser.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ctl": {
+        "properties": {
+            "Browser": "CTL",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cunaguaro": {
+        "properties": {
+            "Browser": "Cunaguaro",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cyberfox": {
+        "properties": {
+            "Browser": "Cyberfox",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "8pecxstudios",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dbtel": {
+        "properties": {
+            "Browser": "DBTEL",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "deepnet explorer": {
+        "properties": {
+            "Browser": "Deepnet Explorer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Deepnet Security",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "diglo": {
+        "properties": {
+            "Browser": "Diglo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Diglo Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "diigo browser": {
+        "properties": {
+            "Browser": "Diigo Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Diigo, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dillo": {
+        "properties": {
+            "Browser": "Dillo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "the Dillo Project",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "docomo": {
+        "properties": {
+            "Browser": "DoCoMo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dolfin": {
+        "properties": {
+            "Browser": "Dolfin",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "MopoTab Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dorado wap browser": {
+        "properties": {
+            "Browser": "Dorado WAP Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "doris": {
+        "properties": {
+            "Browser": "Doris",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dragon": {
+        "properties": {
+            "Browser": "Dragon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Comodo Group Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "edge": {
+        "properties": {
+            "Browser": "Edge",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "edge mobile": {
+        "properties": {
+            "Browser": "Edge Mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "element browser": {
+        "properties": {
+            "Browser": "Element Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Element Software",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "elinks": {
+        "properties": {
+            "Browser": "ELinks",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "epic": {
+        "properties": {
+            "Browser": "Epic",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Hidden Reflex",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "epiphany": {
+        "properties": {
+            "Browser": "Epiphany",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "The GNOME Project",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "esatcom": {
+        "properties": {
+            "Browser": "ESATCOM",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "espial tv browser": {
+        "properties": {
+            "Browser": "Espial TV Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Espial Group",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "eudoraweb": {
+        "properties": {
+            "Browser": "EudoraWeb",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ezos": {
+        "properties": {
+            "Browser": "EZOS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fennec": {
+        "properties": {
+            "Browser": "Fennec",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "firebird": {
+        "properties": {
+            "Browser": "Firebird",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "firefox": {
+        "properties": {
+            "Browser": "Firefox",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "firefox focus": {
+        "properties": {
+            "Browser": "Firefox Focus",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "firefox for ios": {
+        "properties": {
+            "Browser": "Firefox for iOS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "flock": {
+        "properties": {
+            "Browser": "Flock",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fluid": {
+        "properties": {
+            "Browser": "Fluid",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fly": {
+        "properties": {
+            "Browser": "FLY",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "flyflow": {
+        "properties": {
+            "Browser": "FlyFlow",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Baidu",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "foxconn": {
+        "properties": {
+            "Browser": "Foxconn",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "freebox browser": {
+        "properties": {
+            "Browser": "Freebox Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "FREE SAS",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "galeon": {
+        "properties": {
+            "Browser": "Galeon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "geo": {
+        "properties": {
+            "Browser": "GEO",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google desktop": {
+        "properties": {
+            "Browser": "Google Desktop",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "gsmart": {
+        "properties": {
+            "Browser": "GSmart",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": false
+    },
+    "gspda": {
+        "properties": {
+            "Browser": "GSPDA",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "haier": {
+        "properties": {
+            "Browser": "Haier",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "headless chrome": {
+        "properties": {
+            "Browser": "Headless Chrome",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false",
+            "JavaApplets": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "hs": {
+        "properties": {
+            "Browser": "HS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "huawei": {
+        "properties": {
+            "Browser": "Huawei",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hyundai": {
+        "properties": {
+            "Browser": "Hyundai",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "i-mobile": {
+        "properties": {
+            "Browser": "i-mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "i-mode browser": {
+        "properties": {
+            "Browser": "i-mode Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iac": {
+        "properties": {
+            "Browser": "IAC",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iball": {
+        "properties": {
+            "Browser": "iBall",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ibrowse": {
+        "properties": {
+            "Browser": "IBrowse",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Stefan Burstroem",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ibrowser": {
+        "properties": {
+            "Browser": "iBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "icab": {
+        "properties": {
+            "Browser": "iCab",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Alexander Clauss",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "icab mobile": {
+        "properties": {
+            "Browser": "iCab Mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Alexander Clauss",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iceape": {
+        "properties": {
+            "Browser": "Iceape",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "icecat": {
+        "properties": {
+            "Browser": "IceCat",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "icedove": {
+        "properties": {
+            "Browser": "Icedove",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Software in the Public Interest, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "icedragon": {
+        "properties": {
+            "Browser": "IceDragon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Comodo Group Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iceowl": {
+        "properties": {
+            "Browser": "Iceowl",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Software in the Public Interest, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iceweasel": {
+        "properties": {
+            "Browser": "Iceweasel",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Software in the Public Interest, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ie": {
+        "properties": {
+            "Browser": "IE",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "iemobile": {
+        "properties": {
+            "Browser": "IEMobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "ilunascape": {
+        "properties": {
+            "Browser": "iLunascape",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Lunascape Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "inno": {
+        "properties": {
+            "Browser": "INNO",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iridium browser": {
+        "properties": {
+            "Browser": "Iridium Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Iridium Browser Team",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iron": {
+        "properties": {
+            "Browser": "Iron",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "SRWare",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iron mobile": {
+        "properties": {
+            "Browser": "Iron Mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "SRWare",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ixi": {
+        "properties": {
+            "Browser": "IXI",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "jasmine": {
+        "properties": {
+            "Browser": "Jasmine",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Pivotal Labs",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "jbrowser": {
+        "properties": {
+            "Browser": "jBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "jig browser web": {
+        "properties": {
+            "Browser": "jig browser web",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "W3C",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "juzi browser": {
+        "properties": {
+            "Browser": "JUZI Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "ZaoJianZhen",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "k-meleon": {
+        "properties": {
+            "Browser": "K-Meleon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "kmeleonbrowser.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "k-ninja": {
+        "properties": {
+            "Browser": "K-Ninja",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Headbanging Sasquatches",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kazehakase": {
+        "properties": {
+            "Browser": "Kazehakase",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kejian": {
+        "properties": {
+            "Browser": "kejian",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kindle": {
+        "properties": {
+            "Browser": "Kindle",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Amazon.com, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kindle fire": {
+        "properties": {
+            "Browser": "Kindle Fire",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Amazon.com, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kinza": {
+        "properties": {
+            "Browser": "Kinza",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "kinza.jp",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kkman": {
+        "properties": {
+            "Browser": "KKMAN",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "KKBOX Taiwan Co., Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "klondike": {
+        "properties": {
+            "Browser": "Klondike",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kmlite": {
+        "properties": {
+            "Browser": "KMLite",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Ashrising Phoenixes",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "konka": {
+        "properties": {
+            "Browser": "KONKA",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "konqueror": {
+        "properties": {
+            "Browser": "Konqueror",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kuaiso": {
+        "properties": {
+            "Browser": "Kuaiso",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Kuaiso Beijing ICP",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lenovo": {
+        "properties": {
+            "Browser": "Lenovo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lg": {
+        "properties": {
+            "Browser": "LG",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lg browser": {
+        "properties": {
+            "Browser": "LG Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "LG",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "liebao": {
+        "properties": {
+            "Browser": "liebao",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Kingsoft",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "light": {
+        "properties": {
+            "Browser": "Light",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "cstking",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lightning": {
+        "properties": {
+            "Browser": "Lightning",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "John Holdsworth",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "links": {
+        "properties": {
+            "Browser": "Links",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mikulas Patocka",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lolifox": {
+        "properties": {
+            "Browser": "lolifox",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "luakit": {
+        "properties": {
+            "Browser": "luakit",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mason Larobina",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lunascape": {
+        "properties": {
+            "Browser": "Lunascape",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Lunascape Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lynx": {
+        "properties": {
+            "Browser": "Lynx",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Thomas Dickey",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "maui wap browser": {
+        "properties": {
+            "Browser": "MAUI Wap Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "maxon": {
+        "properties": {
+            "Browser": "Maxon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "maxthon": {
+        "properties": {
+            "Browser": "Maxthon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Maxthon International Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "maxthon nitro": {
+        "properties": {
+            "Browser": "Maxthon Nitro",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Maxthon International Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mercator": {
+        "properties": {
+            "Browser": "Mercator",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mercury": {
+        "properties": {
+            "Browser": "Mercury",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "iLegendSoft, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "microb": {
+        "properties": {
+            "Browser": "MicroB",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Nokia",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "midori": {
+        "properties": {
+            "Browser": "Midori",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Christian Dywan",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "minimo": {
+        "properties": {
+            "Browser": "Minimo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mitsu browser": {
+        "properties": {
+            "Browser": "Mitsu Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "miui browser": {
+        "properties": {
+            "Browser": "Miui Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Xiaomi Tech",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobicip": {
+        "properties": {
+            "Browser": "Mobicip",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mobicip.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobile safari uiwebview": {
+        "properties": {
+            "Browser": "Mobile Safari UIWebView",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "mobileexplorer": {
+        "properties": {
+            "Browser": "MobileExplorer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobileiron": {
+        "properties": {
+            "Browser": "MobileIron",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "MobileIron",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "model s browser": {
+        "properties": {
+            "Browser": "Model S Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Tesla Motors",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "motorola internet browser": {
+        "properties": {
+            "Browser": "Motorola Internet Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Motorola",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mozilla": {
+        "properties": {
+            "Browser": "Mozilla",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "multizilla": {
+        "properties": {
+            "Browser": "MultiZilla",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "HJ van Rantwijk",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "my internet browser": {
+        "properties": {
+            "Browser": "My Internet Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "navigator": {
+        "properties": {
+            "Browser": "Navigator",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Netscape",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nec": {
+        "properties": {
+            "Browser": "NEC",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netfront": {
+        "properties": {
+            "Browser": "NetFront",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Access",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netfront nx": {
+        "properties": {
+            "Browser": "NetFront NX",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Access",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netfrontlifebrowser": {
+        "properties": {
+            "Browser": "NetFrontLifeBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Access",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netscape": {
+        "properties": {
+            "Browser": "Netscape",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Netscape",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "neuron": {
+        "properties": {
+            "Browser": "Neuron",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nichrome": {
+        "properties": {
+            "Browser": "Nichrome",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "rambler.ru",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nintendo browser": {
+        "properties": {
+            "Browser": "Nintendo Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Nintendo",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "noadsbrowser": {
+        "properties": {
+            "Browser": "noadsbrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nokia browser": {
+        "properties": {
+            "Browser": "Nokia Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Nokia",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nokia proxy browser": {
+        "properties": {
+            "Browser": "Nokia Proxy Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Nokia",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ntent": {
+        "properties": {
+            "Browser": "Ntent",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "NTENT",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "obigo q": {
+        "properties": {
+            "Browser": "Obigo Q",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Obigo",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "oculus browser": {
+        "properties": {
+            "Browser": "Oculus Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Oculus",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "odyssey web browser": {
+        "properties": {
+            "Browser": "Odyssey Web Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Fabien Coeurjoly",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "omniweb": {
+        "properties": {
+            "Browser": "OmniWeb",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Omni Development Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "onebrowser": {
+        "properties": {
+            "Browser": "OneBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "open-webkit-sharp": {
+        "properties": {
+            "Browser": "open-webkit-sharp",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "openwave mobile browser": {
+        "properties": {
+            "Browser": "Openwave Mobile Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Myriad Group",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "opera": {
+        "properties": {
+            "Browser": "Opera",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "opera mini": {
+        "properties": {
+            "Browser": "Opera Mini",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "opera mobile": {
+        "properties": {
+            "Browser": "Opera Mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "opera neon": {
+        "properties": {
+            "Browser": "Opera Neon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "orca": {
+        "properties": {
+            "Browser": "Orca",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Anderson Che",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "oregano": {
+        "properties": {
+            "Browser": "Oregano",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Oregan Networks Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "origin": {
+        "properties": {
+            "Browser": "Origin",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "otter": {
+        "properties": {
+            "Browser": "Otter",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "otter-browser.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "overwolf browser": {
+        "properties": {
+            "Browser": "Overwolf Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Overwolf",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "palemoon": {
+        "properties": {
+            "Browser": "PaleMoon",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Moonchild Productions",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "palm source": {
+        "properties": {
+            "Browser": "Palm Source",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "panasonic": {
+        "properties": {
+            "Browser": "Panasonic",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "panasonic tv browser": {
+        "properties": {
+            "Browser": "Panasonic TV Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Panasonic",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pantech": {
+        "properties": {
+            "Browser": "Pantech",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "phantom browser": {
+        "properties": {
+            "Browser": "Phantom Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "LG",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "phantomjs": {
+        "properties": {
+            "Browser": "PhantomJS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "phantomjs.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "phoenix": {
+        "properties": {
+            "Browser": "Phoenix",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pirate browser": {
+        "properties": {
+            "Browser": "Pirate Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Pirate Bay",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "playstation": {
+        "properties": {
+            "Browser": "Playstation",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sony",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "playstation browser": {
+        "properties": {
+            "Browser": "Playstation Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sony",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "polarity": {
+        "properties": {
+            "Browser": "Polarity",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Stanley Lim",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "prism": {
+        "properties": {
+            "Browser": "Prism",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "puffin": {
+        "properties": {
+            "Browser": "Puffin",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "CloudMosa Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qiyu browser": {
+        "properties": {
+            "Browser": "Qiyu Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "RuanMei.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qqbrowser": {
+        "properties": {
+            "Browser": "QQbrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Tencent Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qqbrowser mini": {
+        "properties": {
+            "Browser": "QQbrowser Mini",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Tencent Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qt": {
+        "properties": {
+            "Browser": "Qt",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qtwebengine": {
+        "properties": {
+            "Browser": "QtWebEngine",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qtwebkit": {
+        "properties": {
+            "Browser": "QtWebkit",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "quicklook": {
+        "properties": {
+            "Browser": "QuickLook",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qupzilla": {
+        "properties": {
+            "Browser": "QupZilla",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "David Rosca and Community",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qutebrowser": {
+        "properties": {
+            "Browser": "qutebrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Florian Bruhin",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "qword browser": {
+        "properties": {
+            "Browser": "Qword Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Qword Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rekonq": {
+        "properties": {
+            "Browser": "rekonq",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "roccat": {
+        "properties": {
+            "Browser": "Roccat",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "RuneCats",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rockmelt": {
+        "properties": {
+            "Browser": "RockMelt",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Yahoo! Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "safari": {
+        "properties": {
+            "Browser": "Safari",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "sagem": {
+        "properties": {
+            "Browser": "Sagem",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sailfish browser": {
+        "properties": {
+            "Browser": "Sailfish Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Jolla Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "saina": {
+        "properties": {
+            "Browser": "Saina",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Information Technology Organization of Iran",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "salam browser": {
+        "properties": {
+            "Browser": "Salam Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "SBRO Online Security Solutions",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung": {
+        "properties": {
+            "Browser": "Samsung",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung browser": {
+        "properties": {
+            "Browser": "Samsung Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung crossapp": {
+        "properties": {
+            "Browser": "Samsung CrossApp",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung mobile browser": {
+        "properties": {
+            "Browser": "Samsung Mobile Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung tv": {
+        "properties": {
+            "Browser": "Samsung TV",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "samsung webview": {
+        "properties": {
+            "Browser": "Samsung WebView",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "seamonkey": {
+        "properties": {
+            "Browser": "SeaMonkey",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "semc": {
+        "properties": {
+            "Browser": "SEMC",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "SonyEricsson",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "seznam browser": {
+        "properties": {
+            "Browser": "Seznam Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Seznam.cz, a.s.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sharp": {
+        "properties": {
+            "Browser": "Sharp",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sharp Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "shiira": {
+        "properties": {
+            "Browser": "Shiira",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Makoto Kinoshita",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "silk": {
+        "properties": {
+            "Browser": "Silk",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Amazon.com, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "skyfire": {
+        "properties": {
+            "Browser": "Skyfire",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sleipnir": {
+        "properties": {
+            "Browser": "Sleipnir",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Fenrir Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "slimboat": {
+        "properties": {
+            "Browser": "SlimBoat",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "FlashPeak Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "slimbrowser": {
+        "properties": {
+            "Browser": "SlimBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "slimerjs": {
+        "properties": {
+            "Browser": "SlimerJS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Laurent Jouanneau",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "slimjet browser": {
+        "properties": {
+            "Browser": "SlimJet Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "FlashPeak Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "smarttv webbrowser": {
+        "properties": {
+            "Browser": "SmartTV WebBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Samsung",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "smartviera": {
+        "properties": {
+            "Browser": "SmartViera",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Panasonic",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sogou explorer": {
+        "properties": {
+            "Browser": "Sogou Explorer",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sogou Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sogou mobile": {
+        "properties": {
+            "Browser": "Sogou Mobile",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sogou Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sony": {
+        "properties": {
+            "Browser": "Sony",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sony ps2": {
+        "properties": {
+            "Browser": "Sony PS2",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sony",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sony psp": {
+        "properties": {
+            "Browser": "Sony PSP",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sony",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sputnik browser": {
+        "properties": {
+            "Browser": "Sputnik Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Rostelecom",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sraf": {
+        "properties": {
+            "Browser": "Sraf",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "SERAPHIC Information Technology (Shanghai) Co., Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "stainless": {
+        "properties": {
+            "Browser": "Stainless",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Mesa Dynamics",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "start browser": {
+        "properties": {
+            "Browser": "Start Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Searchturbo Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sundance": {
+        "properties": {
+            "Browser": "Sundance",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Digola",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sunrise": {
+        "properties": {
+            "Browser": "Sunrise",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Atsushi Jike",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "superbird": {
+        "properties": {
+            "Browser": "SuperBird",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "superbird-browser.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "surf browser": {
+        "properties": {
+            "Browser": "Surf Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "galaxys45312@gmail.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "swing": {
+        "properties": {
+            "Browser": "Swing",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Zoom Internet Co., Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "symphony browser": {
+        "properties": {
+            "Browser": "Symphony Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tazweb": {
+        "properties": {
+            "Browser": "TazWeb",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Tassaris",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "teleca-obigo": {
+        "properties": {
+            "Browser": "Teleca-Obigo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Obigo",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tenfourfox": {
+        "properties": {
+            "Browser": "TenFourFox",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Cameron Kaiser",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tenta browser": {
+        "properties": {
+            "Browser": "Tenta Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Tenta LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tevion": {
+        "properties": {
+            "Browser": "Tevion",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "theworld": {
+        "properties": {
+            "Browser": "TheWorld",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "TheWorld.cn",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tinybrowser": {
+        "properties": {
+            "Browser": "TinyBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tizen browser": {
+        "properties": {
+            "Browser": "Tizen Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Linux Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tungsten browser": {
+        "properties": {
+            "Browser": "Tungsten Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "MSR&Joker",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "uc browser": {
+        "properties": {
+            "Browser": "UC Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "UCWeb Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "uc browser mini": {
+        "properties": {
+            "Browser": "UC Browser Mini",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "UCWeb Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ur browser": {
+        "properties": {
+            "Browser": "UR Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "AdaptiveBee SASU",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vitelcom": {
+        "properties": {
+            "Browser": "Vitelcom",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vivaldi": {
+        "properties": {
+            "Browser": "Vivaldi",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Vivaldi Technologies",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vmware browser": {
+        "properties": {
+            "Browser": "VmWare Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "AirWatch LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vodafone": {
+        "properties": {
+            "Browser": "Vodafone",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vonkeror": {
+        "properties": {
+            "Browser": "Vonkeror",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "zzo38",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "voyager": {
+        "properties": {
+            "Browser": "Voyager",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "VaporWare",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "w3m": {
+        "properties": {
+            "Browser": "w3m",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sakamoto Hironori",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wahoo browser": {
+        "properties": {
+            "Browser": "Wahoo Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Kow Media sprl.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wap browser": {
+        "properties": {
+            "Browser": "WAP Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "waterfox": {
+        "properties": {
+            "Browser": "Waterfox",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "www.waterfoxproject.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "webkit/webos": {
+        "properties": {
+            "Browser": "WebKit/webOS",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "HP",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "webpirate browser": {
+        "properties": {
+            "Browser": "WebPirate Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Antonio Davide",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "weibo": {
+        "properties": {
+            "Browser": "Weibo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Sina Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wetab browser": {
+        "properties": {
+            "Browser": "WeTab Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "whale browser": {
+        "properties": {
+            "Browser": "Whale Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "NHN Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "whitehat aviator": {
+        "properties": {
+            "Browser": "WhiteHat Aviator",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "WhiteHat Security",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "winwap": {
+        "properties": {
+            "Browser": "WinWAP",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wkbrowser": {
+        "properties": {
+            "Browser": "WKBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Keanu Lee",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wyzo": {
+        "properties": {
+            "Browser": "Wyzo",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Radical Software Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yandex browser": {
+        "properties": {
+            "Browser": "Yandex Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Yandex LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yolo browser": {
+        "properties": {
+            "Browser": "YOLO Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "YOLO Family",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "youwave android on pc": {
+        "properties": {
+            "Browser": "YouWave Android on PC",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "youwave.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "zetakey browser": {
+        "properties": {
+            "Browser": "Zetakey Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Zetakey Solutions Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "zte": {
+        "properties": {
+            "Browser": "ZTE",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "zvu": {
+        "properties": {
+            "Browser": "Zvu",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "zvu.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    }
+}

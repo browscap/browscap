@@ -1,0 +1,68 @@
+{
+    "akregator": {
+        "properties": {
+            "Browser": "akregator",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "apple pubsub": {
+        "properties": {
+            "Browser": "Apple PubSub",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feeddler rss reader": {
+        "properties": {
+            "Browser": "Feeddler RSS Reader",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "Che-Bin Liu",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "quite rss": {
+        "properties": {
+            "Browser": "Quite RSS",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "Shilyaev Egor",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "shrook": {
+        "properties": {
+            "Browser": "Shrook",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "Utsire Software",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vienna": {
+        "properties": {
+            "Browser": "Vienna",
+            "Browser_Type": "Feed Reader",
+            "Browser_Maker": "Steve Palmer",
+            "isSyndicationReader": "true",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    }
+}

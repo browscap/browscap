@@ -91,16 +91,8 @@
           "browser": "google-site-verification"
         },
         {
-          "match": "Google-Sitemaps*",
-          "browser": "google-sitemaps"
-        },
-        {
           "match": "Feedfetcher-Google-iGoogleGadgets*",
           "browser": "igooglegadgets"
-        },
-        {
-          "match": "Google-Sitemaps*",
-          "browser": "google-sitemaps"
         },
         {
           "match": "GoogleFriendConnect*",

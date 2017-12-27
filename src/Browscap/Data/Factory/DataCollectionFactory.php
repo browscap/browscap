@@ -73,9 +73,6 @@ class DataCollectionFactory
         $this->logger->debug('add engine file');
         $this->addEnginesFile($resourceFolder . '/engines.json');
 
-        $this->logger->debug('add browser file');
-        $this->addBrowserFile($resourceFolder . '/browsers.json');
-
         $this->logger->debug('add file for default properties');
         $this->setDefaultProperties($resourceFolder . '/core/default-properties.json');
 
@@ -92,6 +89,18 @@ class DataCollectionFactory
 
             $this->logger->debug('add device file ' . $file->getPathname());
             $this->addDevicesFile($file->getPathname());
+        }
+
+        $browserDirectory = $resourceFolder . '/browsers';
+
+        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($browserDirectory)) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
+                continue;
+            }
+
+            $this->logger->debug('add browser file ' . $file->getPathname());
+            $this->addBrowserFile($file->getPathname());
         }
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';

@@ -1,0 +1,288 @@
+{
+    "airmail": {
+        "properties": {
+            "Browser": "Airmail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Bloop S.R.L.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "apple mail": {
+        "properties": {
+            "Browser": "Apple Mail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "barca mail client": {
+        "properties": {
+            "Browser": "Barca Mail Client",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Poco Systems Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "eudora": {
+        "properties": {
+            "Browser": "Eudora",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Qualcomm",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "eudora ose": {
+        "properties": {
+            "Browser": "Eudora OSE",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "evolution": {
+        "properties": {
+            "Browser": "Evolution",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "The GNOME Project",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fossamail": {
+        "properties": {
+            "Browser": "FossaMail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Moonchild Productions",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "framabird": {
+        "properties": {
+            "Browser": "Framabird",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Framasoft",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google mail": {
+        "properties": {
+            "Browser": "Google Mail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "incredimail": {
+        "properties": {
+            "Browser": "Incredimail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kmail2": {
+        "properties": {
+            "Browser": "KMail2",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kontact": {
+        "properties": {
+            "Browser": "Kontact",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lotus notes": {
+        "properties": {
+            "Browser": "Lotus Notes",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "IBM",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mail free": {
+        "properties": {
+            "Browser": "Mail Free",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "FREE SAS",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mail master": {
+        "properties": {
+            "Browser": "Mail Master",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "NetEase (Hangzhou) Network Co., Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mailbar": {
+        "properties": {
+            "Browser": "MailBar",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "MailBar Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobmail": {
+        "properties": {
+            "Browser": "Mobmail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Kerverus IT Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "outlook": {
+        "properties": {
+            "Browser": "Outlook",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pocomail": {
+        "properties": {
+            "Browser": "PocoMail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "poco systems inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "postbox": {
+        "properties": {
+            "Browser": "Postbox",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Postbox, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sparrow": {
+        "properties": {
+            "Browser": "Sparrow",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Sparrow SARL",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "the bat!": {
+        "properties": {
+            "Browser": "The Bat!",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Ritlabs SRL.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "thunderbird": {
+        "properties": {
+            "Browser": "Thunderbird",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Mozilla Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "windows live mail": {
+        "properties": {
+            "Browser": "Windows Live Mail",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yahoo mail mobile": {
+        "properties": {
+            "Browser": "Yahoo Mail Mobile",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Yahoo! Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "zimbra desktop": {
+        "properties": {
+            "Browser": "Zimbra Desktop",
+            "Browser_Type": "Email Client",
+            "Browser_Maker": "Synacor, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    }
+}
