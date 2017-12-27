@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace UserAgentsTest;
+namespace UserAgentsTest\V3;
 
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
 
-class Standard3Test extends TestCase
+class StandardTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
@@ -53,14 +53,15 @@ class Standard3Test extends TestCase
     /**
      * @throws \BrowscapPHP\Exception
      * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
-        $resourceFolder = __DIR__ . '/../../resources/';
-        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-standard3-' . $buildNumber . '/build/';
-        $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-standard3-' . $buildNumber . '/cache/';
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-standard3-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-standard3-' . $buildNumber . '/cache/';
 
         // create folders if it does not exist
         if (!file_exists($buildFolder)) {
@@ -120,9 +121,9 @@ class Standard3Test extends TestCase
     public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-standard3.json');
+            $coverageProcessor->write(__DIR__ . '/../../../coverage-standard3.json');
         }
     }
 

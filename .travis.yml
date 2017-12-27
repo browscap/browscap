@@ -76,7 +76,7 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/FullTest.php
 
     - stage: integration tests
       php: 7.1
@@ -86,7 +86,7 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/StandardTest.php
 
     - stage: integration tests
       php: 7.1
@@ -96,14 +96,14 @@ jobs:
       install:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/Lite4Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V4/LiteTest.php
 
     - stage: integration tests
       php: 7.1
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Full3Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/FullTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full3.json -F full
 
     - stage: integration tests
@@ -111,7 +111,7 @@ jobs:
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Standard3Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/StandardTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard3.json -F standard
 
     - stage: integration tests
@@ -119,5 +119,5 @@ jobs:
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
-      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/Lite3Test.php
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V3/LiteTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite3.json -F lite

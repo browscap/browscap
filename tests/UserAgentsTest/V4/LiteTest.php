@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace UserAgentsTest;
+namespace UserAgentsTest\V4;
 
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
@@ -14,21 +14,17 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
-use WurflCache\Adapter\File;
+use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 
-class Lite3Test extends TestCase
+class LiteTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
      */
     private static $browscap;
-
-    /**
-     * @var \BrowscapPHP\BrowscapUpdater
-     */
-    private static $browscapUpdater;
 
     /**
      * @var \Browscap\Data\PropertyHolder
@@ -53,14 +49,15 @@ class Lite3Test extends TestCase
     /**
      * @throws \BrowscapPHP\Exception
      * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
-        $resourceFolder = __DIR__ . '/../../resources/';
-        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-lite3-' . $buildNumber . '/build/';
-        $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-lite3-' . $buildNumber . '/cache/';
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite4-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite4-' . $buildNumber . '/cache/';
 
         // create folders if it does not exist
         if (!file_exists($buildFolder)) {
@@ -95,22 +92,17 @@ class Lite3Test extends TestCase
         $buildGenerator->setCollectPatternIds(true);
         $buildGenerator->run($version, false);
 
-        $cache = new File([File::DIR => $cacheFolder]);
-        $cache->flush();
+        $memoryCache = new ArrayCache();
+        $cache       = new SimpleCacheAdapter($memoryCache);
+        $cache->clear();
 
         $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap();
-        self::$browscap
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->setFormatter($resultFormatter);
+        self::$browscap = new Browscap($cache, $logger);
+        self::$browscap->setFormatter($resultFormatter);
 
-        self::$browscapUpdater = new BrowscapUpdater();
-        self::$browscapUpdater
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->convertFile($buildFolder . '/lite_php_browscap.ini');
+        $updater = new BrowscapUpdater($cache, $logger);
+        $updater->convertFile($buildFolder . '/lite_php_browscap.ini');
     }
 
     /**
@@ -120,9 +112,9 @@ class Lite3Test extends TestCase
     public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-lite3.json');
+            $coverageProcessor->write(__DIR__ . '/../../../coverage-lite4.json');
         }
     }
 

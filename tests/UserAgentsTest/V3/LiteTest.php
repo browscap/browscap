@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace UserAgentsTest;
+namespace UserAgentsTest\V3;
 
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\FullFilter;
+use Browscap\Filter\LiteFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\IteratorHelper;
@@ -14,17 +14,21 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
-use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
-use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
+use WurflCache\Adapter\File;
 
-class Full4Test extends TestCase
+class LiteTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
      */
     private static $browscap;
+
+    /**
+     * @var \BrowscapPHP\BrowscapUpdater
+     */
+    private static $browscapUpdater;
 
     /**
      * @var \Browscap\Data\PropertyHolder
@@ -49,14 +53,15 @@ class Full4Test extends TestCase
     /**
      * @throws \BrowscapPHP\Exception
      * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
-        $resourceFolder = __DIR__ . '/../../resources/';
-        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-full4-' . $buildNumber . '/build/';
-        $cacheFolder    = __DIR__ . '/../../build/browscap-ua-test-full4-' . $buildNumber . '/cache/';
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite3-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite3-' . $buildNumber . '/cache/';
 
         // create folders if it does not exist
         if (!file_exists($buildFolder)) {
@@ -71,8 +76,8 @@ class Full4Test extends TestCase
         $logger               = new NullLogger();
         $writerCollection     = new WriterCollection();
         self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new FullFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
+        self::$filter         = new LiteFilter(self::$propertyHolder);
+        self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
         $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
@@ -91,17 +96,22 @@ class Full4Test extends TestCase
         $buildGenerator->setCollectPatternIds(true);
         $buildGenerator->run($version, false);
 
-        $memoryCache = new ArrayCache();
-        $cache       = new SimpleCacheAdapter($memoryCache);
-        $cache->clear();
+        $cache = new File([File::DIR => $cacheFolder]);
+        $cache->flush();
 
         $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap($cache, $logger);
-        self::$browscap->setFormatter($resultFormatter);
+        self::$browscap = new Browscap();
+        self::$browscap
+            ->setCache($cache)
+            ->setLogger($logger)
+            ->setFormatter($resultFormatter);
 
-        $updater = new BrowscapUpdater($cache, $logger);
-        $updater->convertFile($buildFolder . '/full_php_browscap.ini');
+        self::$browscapUpdater = new BrowscapUpdater();
+        self::$browscapUpdater
+            ->setCache($cache)
+            ->setLogger($logger)
+            ->convertFile($buildFolder . '/lite_php_browscap.ini');
     }
 
     /**
@@ -111,9 +121,9 @@ class Full4Test extends TestCase
     public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-full4.json');
+            $coverageProcessor->write(__DIR__ . '/../../../coverage-lite3.json');
         }
     }
 
@@ -124,7 +134,7 @@ class Full4Test extends TestCase
      */
     public function userAgentDataProvider() : array
     {
-        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'lite');
 
         if (!empty($errors)) {
             throw new \RuntimeException(
