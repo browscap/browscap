@@ -45,6 +45,9 @@
     "friendsofphp/php-cs-fixer": "^2.9",
     "phpstan/phpstan": "^0.9"
   },
+  "suggest": {
+    "ext-zip": "to create a zip file containing all other generated files"
+  },
   "autoload": {
     "psr-4": {
       "Browscap\\": "src/Browscap/"
