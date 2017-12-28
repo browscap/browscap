@@ -35,6 +35,10 @@ jobs:
       - image: circleci/php:7.1
     steps:
       - checkout
+      # install zip extension
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo docker-php-ext-install zip
+
       - restore_cache:
           keys:
             - composer-v1-{{ checksum "composer.json" }}
