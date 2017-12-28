@@ -1,6 +1,6 @@
 # Browser Capabilities Project
 
-[![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap)
+[![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap) [![codecov](https://codecov.io/gh/browscap/browscap/branch/master/graph/badge.svg)](https://codecov.io/gh/browscap/browscap)
 
 This tool is used to build and maintain browscap files.
 
