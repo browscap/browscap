@@ -48,7 +48,7 @@ jobs:
         - travis_retry composer self-update
       script: vendor/bin/phpunit -c phpunit.xml.dist --colors --columns 117 --verbose --coverage-text --coverage-clover=coverage.clover
       after_success:
-        - bash <(curl -s https://codecov.io/bash) -f coverage.clover -F phpunit
+        - bash <(curl -s https://codecov.io/bash) -f coverage.clover
 
     - stage: composer validate
       php: 7.1
