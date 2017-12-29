@@ -37,10 +37,29 @@
           "platforms": [
             "OSX"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
+        "Browser": "Adobe AIR",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Adobe Systems Incorporated",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidGeneric"
           ]
