@@ -4282,6 +4282,12 @@
         "Platform_Version": "8.0"
       }
     },
+    "Android_I": {
+      "match": "*Linux*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
     "Android_I_4_0": {
       "match": "*Linux* 4.0*",
       "lite": false,
