@@ -867,21 +867,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-961-Q (standard)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.0.7) Gecko/20060917 K-Ninja/2.0.4',
-        'properties' => [
-            'Comment' => 'K-Ninja Generic',
-            'Browser' => 'K-Ninja',
-            'Browser_Maker' => 'Headbanging Sasquatches',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-961-R' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.5) Gecko/20060706 K-Ninja/2.0',
         'properties' => [

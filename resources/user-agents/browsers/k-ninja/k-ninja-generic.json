@@ -9,6 +9,7 @@
       "browser": "k-ninja",
       "engine": "Gecko_1_8",
       "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "K-Ninja Generic"
@@ -19,7 +20,8 @@
           "platforms": [
             "WinXPa_32",
             "Windows",
-            "Win98_3"
+            "Win98_3",
+            "Win98_2", "Win98"
           ]
         }
       ]

@@ -4,7 +4,7 @@ return [
     'issue-340' => [
         'ua' => 'Mozilla/5.0 (Android; U; -GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
         'properties' => [
-            'Comment' => 'Adobe AIR 13.0',
+            'Comment' => 'Adobe AIR 13.0 for Android',
             'Browser' => 'Adobe AIR',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

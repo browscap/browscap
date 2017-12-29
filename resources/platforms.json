@@ -2286,6 +2286,12 @@
       }
     },
     "Win98_2": {
+      "match": "*Windows 98*",
+      "inherits": "Win98",
+      "lite": false,
+      "standard": false
+    },
+    "Win98_3": {
       "match": "*Windows*98*",
       "inherits": "Win98",
       "lite": false,
