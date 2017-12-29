@@ -103,9 +103,27 @@ workflows:
   version: 2
   tests:
     jobs:
-      - validate
-      - phpunit
-      - php-cs-fixer
-      - phpstan
-      - integration-tests-v3
-      - integration-tests-v4
+      - validate:
+          filters:
+            branches:
+              only: issue-1433-5
+      - phpunit::
+          filters:
+            branches:
+              only: issue-1433-5
+      - php-cs-fixer:
+          filters:
+            branches:
+              only: issue-1433-5
+      - phpstan:
+          filters:
+            branches:
+              only: issue-1433-5
+      - integration-tests-v3:
+          filters:
+            branches:
+              only: issue-1433-5
+      - integration-tests-v4:
+          filters:
+            branches:
+              only: issue-1433-5
