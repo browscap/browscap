@@ -55,7 +55,7 @@ class CustomFilterTest extends TestCase
      *
      * @return array
      */
-    public function outputPropertiesDataProvider()
+    public function outputPropertiesDataProvider() : array
     {
         return [
             ['Comment', false],

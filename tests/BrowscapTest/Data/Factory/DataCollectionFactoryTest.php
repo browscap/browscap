@@ -6,7 +6,7 @@ use Browscap\Data\DataCollection;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
-use RunTimeException;
+use RuntimeException;
 
 class DataCollectionFactoryTest extends TestCase
 {
@@ -26,7 +26,7 @@ class DataCollectionFactoryTest extends TestCase
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $this->expectException(RunTimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('File "./platforms.json" does not exist.');
 
         $collection = $this->getMockBuilder(DataCollection::class)

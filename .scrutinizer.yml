@@ -1,7 +1,0 @@
-inherit: true
-
-tools:
-    external_code_coverage:
-        enabled: true
-        timeout: 1800 # 30 minutes
-        runs: 1

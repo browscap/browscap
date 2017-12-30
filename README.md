@@ -1,6 +1,6 @@
 # Browser Capabilities Project
 
-[![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap) [![Code Coverage](https://scrutinizer-ci.com/g/browscap/browscap/badges/coverage.png?s=82d775d431d7e22060cf06be0115aa2da2aa6546)](https://scrutinizer-ci.com/g/browscap/browscap/) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/browscap/browscap/badges/quality-score.png?s=2df900495a8b7951066cec5b5ded3a69279240d9)](https://scrutinizer-ci.com/g/browscap/browscap/)
+[![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap) [![codecov](https://codecov.io/gh/browscap/browscap/branch/master/graph/badge.svg)](https://codecov.io/gh/browscap/browscap)
 
 This tool is used to build and maintain browscap files.
 
@@ -58,6 +58,7 @@ bin/browscap build [version]
 - `output` (optional) the directory where the files should be created
 - `resources` (optional) the directory where the sources for the build are located
 - `coverage` (optional) if this option is set, during the build information is added which can be used to generate a coverage report
+- `no-zip` (optional) if this option is set, no zip file is generated during the build
 
 For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
 

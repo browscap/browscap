@@ -1,6 +1,7 @@
 parameters:
   excludes_analyse:
     - */tests/*/data/*
+    - */V4/*Test.php
   ignoreErrors:
     - '~Parameter #2 \$sort_order of function array_multisort is passed by reference, so it expects variables only.~'
     - '~Parameter #3 \$sort_flags of function array_multisort is passed by reference, so it expects variables only.~'

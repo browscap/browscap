@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace UserAgentsTest;
+namespace UserAgentsTest\V4;
 
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
-use Browscap\Filter\StandardFilter;
+use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\IteratorHelper;
@@ -14,21 +14,17 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
-use WurflCache\Adapter\File;
+use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 
-class StandardTest extends TestCase
+class FullTest extends TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap
      */
     private static $browscap;
-
-    /**
-     * @var \BrowscapPHP\BrowscapUpdater
-     */
-    private static $browscapUpdater;
 
     /**
      * @var \Browscap\Data\PropertyHolder
@@ -52,17 +48,18 @@ class StandardTest extends TestCase
 
     /**
      * @throws \BrowscapPHP\Exception
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public static function setUpBeforeClass() : void
     {
         // First, generate the INI files
         $buildNumber    = time();
-        $resourceFolder = __DIR__ . '/../../resources/';
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-full4-' . $buildNumber . '/build/';
+        $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-full4-' . $buildNumber . '/cache/';
 
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/build/';
-        $cacheFolder = __DIR__ . '/../../build/browscap-ua-test-standard-' . $buildNumber . '/cache/';
-
-        // create build folder if it does not exist
+        // create folders if it does not exist
         if (!file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
         }
@@ -70,15 +67,13 @@ class StandardTest extends TestCase
             mkdir($cacheFolder, 0777, true);
         }
 
-        $logger = new NullLogger();
-
         $version = (string) $buildNumber;
 
-        $writerCollection = new WriterCollection();
-
+        $logger               = new NullLogger();
+        $writerCollection     = new WriterCollection();
         self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new StandardFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/php_browscap.ini', $logger);
+        self::$filter         = new FullFilter(self::$propertyHolder);
+        self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
         $formatter            = new PhpFormatter(self::$propertyHolder);
         self::$writer->setFormatter($formatter);
         self::$writer->setFilter(self::$filter);
@@ -97,22 +92,17 @@ class StandardTest extends TestCase
         $buildGenerator->setCollectPatternIds(true);
         $buildGenerator->run($version, false);
 
-        $cache = new File([File::DIR => $cacheFolder]);
-        $cache->flush();
+        $memoryCache = new ArrayCache();
+        $cache       = new SimpleCacheAdapter($memoryCache);
+        $cache->clear();
 
         $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap();
-        self::$browscap
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->setFormatter($resultFormatter);
+        self::$browscap = new Browscap($cache, $logger);
+        self::$browscap->setFormatter($resultFormatter);
 
-        self::$browscapUpdater = new BrowscapUpdater();
-        self::$browscapUpdater
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->convertFile($buildFolder . '/php_browscap.ini');
+        $updater = new BrowscapUpdater($cache, $logger);
+        $updater->convertFile($buildFolder . '/full_php_browscap.ini');
     }
 
     /**
@@ -122,9 +112,9 @@ class StandardTest extends TestCase
     public static function tearDownAfterClass() : void
     {
         if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
             $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../coverage-standard.json');
+            $coverageProcessor->write(__DIR__ . '/../../../coverage-full4.json');
         }
     }
 
@@ -135,7 +125,7 @@ class StandardTest extends TestCase
      */
     public function userAgentDataProvider() : array
     {
-        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'standard');
+        [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
 
         if (!empty($errors)) {
             throw new \RuntimeException(
