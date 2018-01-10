@@ -285,7 +285,6 @@ class PropertyHolder
             'isMobileDevice' => 1,
             'isTablet' => 1,
             'Crawler' => 1,
-            'isSyndicationReader' => 1,
             'AolVersion' => 1,
             'MajorVer' => 1,
             'MinorVer' => 1,
