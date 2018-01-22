@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Google Keyword Tool",
+      "browser": "google keyword tool",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google Keyword Tool",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Google Keyword Tool"
+        "Comment": "Google Keyword Tool"
       },
       "children": [
         {

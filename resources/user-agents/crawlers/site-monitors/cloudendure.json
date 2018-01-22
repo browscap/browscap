@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "CloudEndure Scanner",
+      "browser": "cloudendure scanner",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CloudEndure Scanner",
-        "Browser": "CloudEndure Scanner",
-        "Browser_Maker": "CloudEndure Ltd.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "CloudEndure Scanner"
       },
       "children": [
         {

@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Huawei #MAJORVER#.#MINORVER#",
+      "browser": "huawei",
       "platform": "Brew",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Huawei #MAJORVER#.#MINORVER#",
-        "Browser": "Huawei",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

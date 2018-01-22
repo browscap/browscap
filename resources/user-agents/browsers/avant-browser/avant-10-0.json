@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avant/IE 10.0",
+      "browser": "avant",
       "engine": "Trident_6",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant/IE 10.0",
-        "Browser": "Avant",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force"
+        "Comment": "Avant/IE 10.0"
       },
       "children": [
         {
@@ -30,7 +28,8 @@
         {
           "match": "Mozilla/5.0 (*MSIE 10.0; #PLATFORM#Trident/6.0*Avant Browser*",
           "platforms": [
-            "Vista_32", "WinXPa_32"
+            "Vista_32",
+            "WinXPa_32"
           ]
         },
         {

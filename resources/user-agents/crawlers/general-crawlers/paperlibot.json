@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Paper.li Bot",
+      "browser": "paper.li bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Paper.li Bot",
-        "Browser": "Paper.li Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Paper.li",
-        "Crawler": "true"
+        "Comment": "Paper.li Bot"
       },
       "children": [
         {

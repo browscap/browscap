@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Nutch",
+      "browser": "nutch",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nutch",
-        "Browser": "Nutch",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Nutch"
       },
       "children": [
         {
@@ -19,37 +17,26 @@
         },
         {
           "match": "CazoodleBot/*",
-          "properties": {
-            "Browser": "CazoodleBot"
-          }
+          "browser": "cazoodlebot"
         },
         {
           "match": "LOOQ/0.1*",
-          "properties": {
-            "Browser": "LOOQ"
-          }
+          "browser": "looq"
         },
         {
           "match": "Nutch/0.? (OpenX Spider)"
         },
         {
           "match": "linguatools-bot/Nutch*",
-          "properties": {
-            "Browser": "linguatoolsbot",
-            "Browser_Maker": "www.linguatools.de"
-          }
+          "browser": "linguatoolsbot"
         },
         {
           "match": "MaxPointCrawler/Nutch*",
-          "properties": {
-            "Browser": "MaxPointCrawler"
-          }
+          "browser": "maxpointcrawler"
         },
         {
           "match": "MR Crawler/Nutch*",
-          "properties": {
-            "Browser": "MR Crawler"
-          }
+          "browser": "mr crawler"
         },
         {
           "match": "My Nutch Spider/Nutch*"
@@ -77,12 +64,12 @@
         },
         {
           "match": "Mozilla/5.0 (*Android*Mobile*) Gecko* Firefox/* commoncrawl.org/research//Nutch-1.7*",
-          "properties": {
-            "Version": "1.7"
-          },
           "platforms": [
             "AndroidMobile"
-          ]
+          ],
+          "properties": {
+            "Version": "1.7"
+          }
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) commoncrawl.org/research//Nutch-1.7*",
@@ -92,29 +79,23 @@
         },
         {
           "match": "Nutch/* (OpenX Spider)",
-          "properties": {
-            "Browser": "OpenX Spider"
-          }
+          "browser": "openx spider"
         },
         {
           "match": "The Crawler/Nutch*",
-          "properties": {
-            "Browser": "The Crawler"
-          }
+          "browser": "the crawler"
         },
         {
           "match": "Domnutch-Bot/Nutch-1.0*",
+          "browser": "domnutch bot",
           "properties": {
-            "Browser": "Domnutch Bot",
-            "Browser_Maker": "nutch.de",
             "Version": "1.0"
           }
         },
         {
           "match": "DiscoverEd/Nutch-1.7 (OER search crawler*",
+          "browser": "discovered",
           "properties": {
-            "Browser": "DiscoverEd",
-            "Browser_Maker": "Creative Commons",
             "Version": "1.7"
           }
         }

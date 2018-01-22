@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Windows-Update-Agent",
+      "browser": "windows-update-agent",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Windows-Update-Agent",
-        "Browser": "Windows-Update-Agent",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "false"
+        "Comment": "Windows-Update-Agent"
       },
       "children": [
         {

@@ -6,56 +6,52 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Office",
+      "browser": "office",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Office",
-        "Browser": "Office",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Microsoft Office SyncProc 2013 (15.*) #PLATFORM#",
+          "browser": "office syncproc",
           "device": "Windows Desktop",
-          "properties": {
-            "Comment": "Microsoft Office SyncProc",
-            "Browser": "Office SyncProc",
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Comment": "Microsoft Office SyncProc",
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office Upload Center 2013 (15.*) #PLATFORM#",
+          "browser": "office upload center",
           "device": "Windows Desktop",
-          "properties": {
-            "Comment": "Microsoft Office Upload Center",
-            "Browser": "Office Upload Center",
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Comment": "Microsoft Office Upload Center",
+            "Version": "2013"
+          }
         },
         {
           "match": "non-browser; Microsoft Office/15.* (#PLATFORM# 15.*)",
+          "browser": "office",
           "device": "Windows Desktop",
-          "properties": {
-            "Comment": "Microsoft Office",
-            "Browser": "Office",
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Comment": "Microsoft Office",
+            "Version": "2013"
+          }
         }
       ]
     }

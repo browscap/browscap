@@ -6,35 +6,32 @@
   "userAgents": [
     {
       "userAgent": "SiteCon",
+      "browser": "sitecon",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SiteCon",
-        "Browser": "SiteCon",
-        "Browser_Maker": "NCC Group.",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "SiteCon"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.10*",
-          "properties": {
-            "Version": "8.10"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "8.10"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/8.8*",
-          "properties": {
-            "Version": "8.8"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "8.8"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SiteCon/*",

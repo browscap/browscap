@@ -6,14 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SimplePie",
+      "browser": "simplepie",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Feeds Syndicators",
-        "Browser": "SimplePie",
-        "Browser_Maker": "Ryan Parman, Geoffrey Sneddon, Ryan McCue and contributors",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Feeds Syndicators"
       },
       "children": [
         {

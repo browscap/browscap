@@ -2264,21 +2264,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-687-AV (standard)' => [
-        'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/4.5.33868/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-687-AW' => [
         'ua' => 'NokiaC2-03/2.0 (07.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaC2-03) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [

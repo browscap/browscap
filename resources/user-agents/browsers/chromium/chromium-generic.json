@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Chromium Generic",
+      "browser": "chromium",
       "platform": "Linux",
       "engine": "Blink",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chromium Generic",
-        "Browser": "Chromium",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Google Inc"
+        "Comment": "Chromium Generic"
       },
       "children": [
         {
@@ -40,7 +38,7 @@
         {
           "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/*Chrome/*Safari/*",
           "platforms": [
-            "Ubuntu_32"
+            "Ubuntu"
           ]
         },
         {
@@ -67,7 +65,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/*Chrome/*Safari/*",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu",
             "Linux_64", "Linux"
           ]
         }

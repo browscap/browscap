@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Nagios",
+      "browser": "nagios",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nagios",
-        "Browser": "Nagios",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Nagios Enterprises, LLC.",
-        "Crawler": "true"
+        "Comment": "Nagios"
       },
       "children": [
         {

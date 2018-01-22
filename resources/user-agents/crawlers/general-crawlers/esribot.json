@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Esribot",
+      "browser": "esribot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "www.esrihu.hu",
-        "Crawler": "true",
-        "Browser": "Esribot"
+        "Comment": "General Crawlers"
       },
       "children": [
         {

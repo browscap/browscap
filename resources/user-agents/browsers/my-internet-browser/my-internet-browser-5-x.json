@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "My Internet Browser #MAJORVER#.#MINORVER#",
+      "browser": "my internet browser",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "My Internet Browser #MAJORVER#.#MINORVER#",
-        "Browser": "My Internet Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "unknown",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -87,21 +87,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1179-B (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; KDDI-TS3B) Opera 8.60 [ja]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1179-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Motorola A1000;735b) Opera 7.50 [en]./A1000./1.0 UP.Link/6.3.1.15.0',
         'properties' => [
@@ -260,20 +245,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1179-E (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows Mobile; xx) Opera 10.00',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
 ];

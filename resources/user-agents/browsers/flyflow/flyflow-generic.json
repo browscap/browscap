@@ -6,28 +6,30 @@
   "userAgents": [
     {
       "userAgent": "FlyFlow Generic",
+      "browser": "flyflow",
       "platform": "Android",
-      "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FlyFlow Generic",
-        "Browser": "FlyFlow",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu"
+        "Comment": "FlyFlow Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/* Version/*Safari/* T5/*",
           "engine": "T5",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/* Version/*Safari/*",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
           ]
         }
       ]

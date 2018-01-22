@@ -6,37 +6,34 @@
   "userAgents": [
     {
       "userAgent": "Extras4iMovie",
+      "browser": "extras4imovie",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Extras4iMovie",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "Extras4iMovie"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Extras4iMovie/9.07* CFNetwork/*",
-          "properties": {
-            "Version": "9.07"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "9.07"
+          }
         },
         {
           "match": "Extras4iMovie/9.* CFNetwork/*",
-          "properties": {
-            "Version": "9.0"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "9.0"
+          }
         },
         {
           "match": "Extras4iMovie* CFNetwork/*",

@@ -6,961 +6,645 @@
   "userAgents": [
     {
       "userAgent": "General Crawlers",
+      "browser": "general crawlers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "General Crawlers"
       },
       "children": [
         {
           "match": "*altervista.org*",
-          "properties": {
-            "Browser": "altervista.org"
-          }
+          "browser": "altervista.org"
         },
         {
           "match": "*SqwidgeBot*",
-          "properties": {
-            "Browser": "SqwidgeBot"
-          }
+          "browser": "sqwidgebot"
         },
         {
           "match": "A .NET Web Crawler",
-          "properties": {
-            "Browser": "A .NET Web Crawler"
-          }
+          "browser": "a .net web crawler"
         },
         {
           "match": "BilgiBot/*",
-          "properties": {
-            "Browser": "BilgiBot"
-          }
+          "browser": "bilgibot"
         },
         {
           "match": "bot/* (bot; *bot@bot.bot)",
-          "properties": {
-            "Browser": "bot"
-          }
+          "browser": "bot"
         },
         {
           "match": "cisco-IOS",
-          "properties": {
-            "Browser": "cisco-IOS"
-          }
+          "browser": "cisco-ios"
         },
         {
           "match": "Covario-IDS/*",
-          "properties": {
-            "Browser": "Covario-IDS"
-          }
+          "browser": "covario-ids"
         },
         {
           "match": "CyberPatrol*",
-          "properties": {
-            "Browser": "CyberPatrol"
-          }
+          "browser": "cyberpatrol"
         },
         {
           "match": "cz32ts",
-          "properties": {
-            "Browser": "cz32ts"
-          }
+          "browser": "cz32ts"
         },
         {
           "match": "ddetailsbot (http://www.displaydetails.com)",
-          "properties": {
-            "Browser": "ddetailsbot"
-          }
+          "browser": "ddetailsbot"
         },
         {
           "match": "DomainsDB.net MetaCrawler*",
-          "properties": {
-            "Browser": "DomainsDB"
-          }
+          "browser": "domainsdb"
         },
         {
           "match": "DomainWatcher Bot*",
-          "properties": {
-            "Browser": "DomainWatcher Bot"
-          }
+          "browser": "domainwatcher bot"
         },
         {
           "match": "Drupal (*)",
-          "properties": {
-            "Browser": "Drupal"
-          }
+          "browser": "drupal"
         },
         {
           "match": "Dumbot (version *)*",
-          "properties": {
-            "Browser": "Dumbfind"
-          }
+          "browser": "dumbfind"
         },
         {
           "match": "EuripBot/*",
-          "properties": {
-            "Browser": "Europe Internet Portal"
-          }
+          "browser": "europe internet portal"
         },
         {
           "match": "eventax/*",
-          "properties": {
-            "Browser": "eventax"
-          }
+          "browser": "eventax"
         },
         {
           "match": "FANGCrawl/*",
-          "properties": {
-            "Browser": "Safe-t.net Web Filtering Service"
-          }
+          "browser": "safe-t.net web filtering service"
         },
         {
           "match": "favorstarbot/*",
-          "properties": {
-            "Browser": "favorstarbot"
-          }
+          "browser": "favorstarbot"
         },
         {
           "match": "FollowSite.com (*)",
-          "properties": {
-            "Browser": "FollowSite"
-          }
+          "browser": "followsite"
         },
         {
           "match": "Gaisbot*",
-          "properties": {
-            "Browser": "Gaisbot"
-          }
+          "browser": "gaisbot"
         },
         {
           "match": "gosospider Mozilla/5.0 (compatible; GosoSpider*)",
-          "properties": {
-            "Browser": "GosoSpider"
-          }
+          "browser": "gosospider"
         },
         {
           "match": "Healthbot/Health_and_Longevity_Project_(HealthHaven.com) ",
-          "properties": {
-            "Browser": "Healthbot"
-          }
+          "browser": "healthbot"
         },
         {
           "match": "hitcrawler_0.*",
-          "properties": {
-            "Browser": "hitcrawler"
-          }
+          "browser": "hitcrawler"
         },
         {
           "match": "http://hilfe.acont.de/bot.html ACONTBOT",
-          "properties": {
-            "Browser": "ACONTBOT"
-          }
+          "browser": "acontbot"
         },
         {
           "match": "http://www.yellowpages.com*",
-          "properties": {
-            "Browser": "YellowPages",
-            "Browser_Maker": "YP LLC."
-          }
+          "browser": "yellowpages"
         },
         {
           "match": "yp-crawl@attinteractive.com",
-          "properties": {
-            "Browser": "YellowPages",
-            "Browser_Maker": "YP LLC."
-          }
+          "browser": "yellowpages"
         },
         {
           "match": "HuaweiSymantecSpider/*",
-          "properties": {
-            "Browser": "HuaweiSymantecSpider"
-          }
+          "browser": "huaweisymantecspider"
         },
         {
           "match": "JetBrains*",
-          "properties": {
-            "Browser": "Omea Pro"
-          }
+          "browser": "omea pro"
         },
         {
           "match": "JS-Kit URL Resolver, http://js-kit.com/",
-          "properties": {
-            "Browser": "JS-Kit/Echo"
-          }
+          "browser": "js-kit/echo"
         },
         {
           "match": "KakleBot - www.kakle.com/0.1",
-          "properties": {
-            "Browser": "KakleBot"
-          }
+          "browser": "kaklebot"
         },
         {
           "match": "KBeeBot/0.*",
-          "properties": {
-            "Browser": "KBeeBot"
-          }
+          "browser": "kbeebot"
         },
         {
           "match": "Keyword Density/*",
-          "properties": {
-            "Browser": "Keyword Density"
-          }
+          "browser": "keyword density"
         },
         {
           "match": "Lincoln State Web Browser",
-          "properties": {
-            "Browser": "Lincoln State Web Browser"
-          }
+          "browser": "lincoln state web browser"
         },
         {
           "match": "Links4US-Crawler,*",
-          "properties": {
-            "Browser": "Links4US-Crawler"
-          }
+          "browser": "links4us-crawler"
         },
         {
           "match": "Lorkyll *.* -- lorkyll@444.net",
-          "properties": {
-            "Browser": "Lorkyll"
-          }
+          "browser": "lorkyll"
         },
         {
           "match": "Lsearch/sondeur",
-          "properties": {
-            "Browser": "Lsearch/sondeur"
-          }
+          "browser": "lsearch/sondeur"
         },
         {
           "match": "MapoftheInternet.com?(?http://MapoftheInternet.com)",
-          "properties": {
-            "Browser": "MapoftheInternet"
-          }
+          "browser": "mapoftheinternet"
         },
         {
           "match": "metatagsdir/*",
-          "properties": {
-            "Browser": "metatagsdir"
-          }
+          "browser": "metatagsdir"
         },
         {
           "match": "Microsoft Windows Network Diagnostics",
-          "properties": {
-            "Browser": "Microsoft Windows Network Diagnostics"
-          }
+          "browser": "microsoft windows network diagnostics"
         },
         {
           "match": "Miva (AlgoFeedback@miva.com)",
-          "properties": {
-            "Browser": "Miva"
-          }
+          "browser": "miva"
         },
         {
           "match": "moget/*",
-          "properties": {
-            "Browser": "Goo"
-          }
+          "browser": "goo"
         },
         {
           "match": "Mozilla/* (compatible; WebCapture*)",
-          "properties": {
-            "Browser": "WebCapture"
-          }
+          "browser": "webcapture"
         },
         {
           "match": "Mozilla/5.0*(*redditbot/*http://www.reddit.com/feedback*)",
-          "properties": {
-            "Browser": "Reddit"
-          }
+          "browser": "reddit"
         },
         {
           "match": "Mozilla/4.0 (compatible; DepSpid/*)",
-          "properties": {
-            "Browser": "DepSpid"
-          }
+          "browser": "depspid"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 4.01; Vonna.com b o t)",
-          "properties": {
-            "Browser": "Vonna.com"
-          }
+          "browser": "vonna.com"
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 4.01; Vonna.com b o t)",
-          "properties": {
-            "Browser": "Vonna.com"
-          }
+          "browser": "vonna.com"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 4.01; Windows95)",
-          "properties": {
-            "Browser": "Generic Crawler"
-          }
+          "browser": "generic crawler"
         },
         {
           "match": "Mozilla/4.0 (compatible; MyFamilyBot/*)",
-          "properties": {
-            "Browser": "MyFamilyBot"
-          }
+          "browser": "myfamilybot"
         },
         {
           "match": "Mozilla/4.0 (compatible; N-Stealth)",
-          "properties": {
-            "Browser": "N-Stealth"
-          }
+          "browser": "n-stealth"
         },
         {
           "match": "Mozilla/4.0 (compatible; Scumbot/*; Linux/*)",
-          "properties": {
-            "Browser": "Scumbot"
-          }
+          "browser": "scumbot"
         },
         {
           "match": "Mozilla/4.0 (compatible; Spider; Linux)",
-          "properties": {
-            "Browser": "Generic Crawler"
-          }
+          "browser": "generic crawler"
         },
         {
           "match": "Mozilla/4.0 (compatible; Win32)",
+          "browser": "unknown crawler",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Unknown Crawler"
-          },
           "platforms": [
             "Win32"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; AdHitz; http://adhitz.com/)",
-          "properties": {
-            "Browser": "AdHitz"
-          }
+          "browser": "adhitz"
         },
         {
           "match": "Mozilla/5.0 (compatible; aiHitBot*/*)",
-          "properties": {
-            "Browser": "aiHitBot"
-          }
+          "browser": "aihitbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; aiHitBot*/*; +http://www.aihit.com/)",
-          "properties": {
-            "Browser": "aiHitBot"
-          }
+          "browser": "aihitbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; BuzzRankingBot/*)",
-          "properties": {
-            "Browser": "BuzzRankingBot"
-          }
+          "browser": "buzzrankingbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; ClixSense; http://www.clixsense.com/)",
-          "properties": {
-            "Browser": "ClixSense"
-          }
+          "browser": "clixsense"
         },
         {
           "match": "mozilla/5.0 (compatible; genevabot +http://www.healthdash.com)",
-          "properties": {
-            "Browser": "genevabot",
-            "Browser_Maker": "healthdash.com"
-          }
+          "browser": "genevabot"
         },
         {
           "match": "Mozilla/5.0 (compatible; JadynAveBot; *http://www.jadynave.com/robot*",
-          "properties": {
-            "Browser": "JadynAveBot"
-          }
+          "browser": "jadynavebot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Kyluka crawl; http://www.kyluka.com/crawl.html; crawl@kyluka.com)",
-          "properties": {
-            "Browser": "Kyluka"
-          }
+          "browser": "kyluka"
         },
         {
           "match": "Mozilla/5.0 (compatible; LegalAnalysisAgent/1.*; http://www.legalx.net)",
-          "properties": {
-            "Browser": "LegalAnalysisAgent"
-          }
+          "browser": "legalanalysisagent"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 7.0 ?http://www.europarchive.org)",
-          "properties": {
-            "Browser": "Europe Web Archive"
-          }
+          "browser": "europe web archive"
         },
         {
           "match": "Mozilla/5.0 (compatible*; MSIE 7.0 ?http://www.europarchive.org)",
-          "properties": {
-            "Browser": "Europe Web Archive"
-          }
+          "browser": "europe web archive"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 7.0; MSIE 6.0; ScanAlert; +http://www.scanalert.com/bot.jsp) Firefox/*",
-          "properties": {
-            "Browser": "McAffee Scan Alert"
-          }
+          "browser": "mcaffee scan alert"
         },
         {
           "match": "Mozilla/5.0 (compatible*; MSIE 7.0; MSIE 6.0; ScanAlert; +http://www.scanalert.com/bot.jsp) Firefox/*",
-          "properties": {
-            "Browser": "McAffee Scan Alert"
-          }
+          "browser": "mcaffee scan alert"
         },
         {
           "match": "Mozilla/5.0 (compatible; Nigma.ru/*; crawler@nigma.ru)",
-          "properties": {
-            "Browser": "Nigma.ru"
-          }
+          "browser": "nigma.ru"
         },
         {
           "match": "Mozilla/5.0 (compatible; Plukkie/1.?; http://www.botje.com/plukkie.htm)",
-          "properties": {
-            "Browser": "Plukkie"
-          }
+          "browser": "plukkie"
         },
         {
           "match": "Mozilla/5.0 (compatible; SuchbaerBot/0.*; +http://bot.suchbaer.de/info.html)",
-          "properties": {
-            "Browser": "SuchbaerBot"
-          }
+          "browser": "suchbaerbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Twingly Recon; http://www.twingly.com/)",
-          "properties": {
-            "Browser": "Twingly Recon"
-          }
+          "browser": "twingly recon"
         },
         {
           "match": "Mozilla/5.0 (compatible; unwrapbot/2.*; +http://www.unwrap.jp*)",
-          "properties": {
-            "Browser": "UnWrap"
-          }
+          "browser": "unwrap"
         },
         {
           "match": "Mozilla/5.0 (compatible; Vermut*)",
-          "properties": {
-            "Browser": "Vermut"
-          }
+          "browser": "vermut"
         },
         {
           "match": "Mozilla/5.0 (compatible; Viralheat Bot/*) ",
-          "properties": {
-            "Browser": "Viralheat"
-          }
+          "browser": "viralheat"
         },
         {
           "match": "Mozilla/5.0 (compatible; Webbot/*)",
-          "properties": {
-            "Browser": "Webbot.ru"
-          }
+          "browser": "webbot.ru"
         },
         {
           "match": "n4p_bot*",
-          "properties": {
-            "Browser": "n4p_bot"
-          }
+          "browser": "n4p_bot"
         },
         {
           "match": "nabot*",
-          "properties": {
-            "Browser": "Nabot"
-          }
+          "browser": "nabot"
         },
         {
           "match": "NetCarta_WebMapper/*",
-          "properties": {
-            "Browser": "NetCarta_WebMapper"
-          }
+          "browser": "netcarta_webmapper"
         },
         {
           "match": "Netchart Adv Crawler*",
-          "properties": {
-            "Browser": "Netchart Adv Crawler"
-          }
+          "browser": "netchart adv crawler"
         },
         {
           "match": "NetID.com Bot*",
-          "properties": {
-            "Browser": "NetID.com Bot"
-          }
+          "browser": "netid.com bot"
         },
         {
           "match": "neTVision AG andreas.heidoetting@thomson-webcast.net",
-          "properties": {
-            "Browser": "neTVision"
-          }
+          "browser": "netvision"
         },
         {
           "match": "NextopiaBOT*",
-          "properties": {
-            "Browser": "NextopiaBOT"
-          }
+          "browser": "nextopiabot"
         },
         {
           "match": "nicebot",
-          "properties": {
-            "Browser": "nicebot"
-          }
+          "browser": "nicebot"
         },
         {
           "match": "niXXieBot?Foster*",
-          "properties": {
-            "Browser": "niXXiebot-Foster"
-          }
+          "browser": "nixxiebot-foster"
         },
         {
           "match": "Nozilla/P.N (Just for IDS woring)",
-          "properties": {
-            "Browser": "Nozilla/P.N"
-          }
+          "browser": "nozilla/p.n"
         },
         {
           "match": "Nudelsalat/*",
-          "properties": {
-            "Browser": "Nudelsalat"
-          }
+          "browser": "nudelsalat"
         },
         {
           "match": "NV32ts",
-          "properties": {
-            "Browser": "NV32ts"
-          }
+          "browser": "nv32ts"
         },
         {
           "match": "Ocelli/*",
-          "properties": {
-            "Browser": "Ocelli"
-          }
+          "browser": "ocelli"
         },
         {
           "match": "OpenTaggerBot (http://www.opentagger.com/opentaggerbot.htm)",
-          "properties": {
-            "Browser": "OpenTaggerBot"
-          }
+          "browser": "opentaggerbot"
         },
         {
           "match": "Oracle Enterprise Search",
-          "properties": {
-            "Browser": "Oracle Enterprise Search"
-          }
+          "browser": "oracle enterprise search"
         },
         {
           "match": "Oracle Ultra Search",
-          "properties": {
-            "Browser": "Oracle Ultra Search"
-          }
+          "browser": "oracle ultra search"
         },
         {
           "match": "Pajaczek/*",
-          "properties": {
-            "Browser": "Pajaczek"
-          }
+          "browser": "pajaczek"
         },
         {
           "match": "panscient.com",
-          "properties": {
-            "Browser": "panscient.com"
-          }
+          "browser": "panscient.com"
         },
         {
           "match": "Patwebbot (http://www.herz-power.de/technik.html)",
-          "properties": {
-            "Browser": "Patwebbot"
-          }
+          "browser": "patwebbot"
         },
         {
           "match": "PDFBot (crawler@pdfind.com)",
-          "properties": {
-            "Browser": "PDFBot"
-          }
+          "browser": "pdfbot"
         },
         {
           "match": "PhpDig/*",
-          "properties": {
-            "Browser": "PhpDig"
-          }
+          "browser": "phpdig"
         },
         {
           "match": "PlantyNet_WebRobot*",
-          "properties": {
-            "Browser": "PlantyNet"
-          }
+          "browser": "plantynet"
         },
         {
           "match": "PluckItCrawler/*",
-          "device": "general Mobile Device",
-          "properties": {
-            "Browser": "PluckItCrawler"
-          }
+          "browser": "pluckitcrawler",
+          "device": "general Mobile Device"
         },
         {
           "match": "PMAFind",
-          "properties": {
-            "Browser": "PMAFind"
-          }
+          "browser": "pmafind"
         },
         {
           "match": "Poodle_predictor_1.0",
-          "properties": {
-            "Browser": "Poodle Predictor"
-          }
+          "browser": "poodle predictor"
         },
         {
           "match": "QuickFinder Crawler",
-          "properties": {
-            "Browser": "QuickFinder"
-          }
+          "browser": "quickfinder"
         },
         {
           "match": "Radiation Retriever*",
-          "properties": {
-            "Browser": "Radiation Retriever"
-          }
+          "browser": "radiation retriever"
         },
         {
           "match": "RedCarpet/*",
-          "properties": {
-            "Browser": "RedCarpet"
-          }
+          "browser": "redcarpet"
         },
         {
           "match": "RixBot (http://babelserver.org/rix)",
-          "properties": {
-            "Browser": "RixBot"
-          }
+          "browser": "rixbot"
         },
         {
           "match": "roboobot/1.* (roboo; http://wap.roboo.com; winter.pi@roboo.com)",
-          "properties": {
-            "Browser": "roboo"
-          }
+          "browser": "roboo"
         },
         {
           "match": "SBIder/*",
-          "properties": {
-            "Browser": "SiteSell"
-          }
+          "browser": "sitesell"
         },
         {
           "match": "ScollSpider/2.*",
-          "properties": {
-            "Browser": "ScollSpider"
-          }
+          "browser": "scollspider"
         },
         {
           "match": "Search Fst",
-          "properties": {
-            "Browser": "Search Fst"
-          }
+          "browser": "search fst"
         },
         {
           "match": "searchbot admin@google.com",
-          "properties": {
-            "Browser": "searchbot"
-          }
+          "browser": "searchbot"
         },
         {
           "match": "Seeker.lookseek.com",
-          "properties": {
-            "Browser": "LookSeek"
-          }
+          "browser": "lookseek"
         },
         {
           "match": "semanticdiscovery/*",
-          "properties": {
-            "Browser": "Semantic Discovery"
-          }
+          "browser": "semantic discovery"
         },
         {
           "match": "sitecheck.internetseer.com*",
-          "properties": {
-            "Browser": "Internetseer"
-          }
+          "browser": "internetseer"
         },
         {
           "match": "SMBot/*",
-          "properties": {
-            "Browser": "SMBot"
-          }
+          "browser": "smbot"
         },
         {
           "match": "sohu*",
-          "properties": {
-            "Browser": "sohu-search"
-          }
+          "browser": "sohu-search"
         },
         {
           "match": "SpankBot*",
-          "properties": {
-            "Browser": "SpankBot"
-          }
+          "browser": "spankbot"
         },
         {
           "match": "spider (tspyyp@tom.com)",
-          "properties": {
-            "Browser": "spider from tspyyp@tom.com"
-          }
+          "browser": "spider from tspyyp@tom.com"
         },
         {
           "match": "Sunrise/0.*",
-          "properties": {
-            "Browser": "Sunrise"
-          }
+          "browser": "sunrise"
         },
         {
           "match": "Superpages URL Verification Engine",
-          "properties": {
-            "Browser": "Superpages"
-          }
+          "browser": "superpages"
         },
         {
           "match": "Surf Knight",
-          "properties": {
-            "Browser": "Surf Knight"
-          }
+          "browser": "surf knight"
         },
         {
           "match": "SyncMgr",
-          "properties": {
-            "Browser": "SyncMgr"
-          }
+          "browser": "syncmgr"
         },
         {
           "match": "Talkro Web-Shot/*",
-          "properties": {
-            "Browser": "Talkro Web-Shot"
-          }
+          "browser": "talkro web-shot"
         },
         {
           "match": "Tasap-image-robot/0.* (http://www.tasap.com)",
-          "properties": {
-            "Browser": "Tasap-image-robot"
-          }
+          "browser": "tasap-image-robot"
         },
         {
           "match": "Tecomi Bot (http://www.tecomi.com/bot.htm)",
-          "properties": {
-            "Browser": "Tecomi"
-          }
+          "browser": "tecomi"
         },
         {
           "match": "TencentTraveler*",
-          "properties": {
-            "Browser": "TencentTraveler"
-          }
+          "browser": "tencenttraveler"
         },
         {
           "match": "TheInformant*",
-          "properties": {
-            "Browser": "TheInformant"
-          }
+          "browser": "theinformant"
         },
         {
           "match": "Toata dragostea*",
-          "properties": {
-            "Browser": "Toata dragostea"
-          }
+          "browser": "toata dragostea"
         },
         {
           "match": "Tutorial Crawler*",
-          "properties": {
-            "Browser": "Tutorial Crawler"
-          }
+          "browser": "tutorial crawler"
         },
         {
           "match": "Twitterbot/*",
-          "properties": {
-            "Browser": "Twitterbot"
-          }
+          "browser": "twitterbot"
         },
         {
           "match": "Twitterbot/0.*",
-          "properties": {
-            "Browser": "Twitterbot"
-          }
+          "browser": "twitterbot"
         },
         {
           "match": "UbiCrawler/*",
-          "properties": {
-            "Browser": "UbiCrawler"
-          }
+          "browser": "ubicrawler"
         },
         {
           "match": "UCmore",
-          "properties": {
-            "Browser": "UCmore"
-          }
+          "browser": "ucmore"
         },
         {
           "match": "USER_AGENT",
-          "properties": {
-            "Browser": "Generic Crawler"
-          }
+          "browser": "generic crawler"
         },
         {
           "match": "VadixBot",
-          "properties": {
-            "Browser": "VadixBot"
-          }
+          "browser": "vadixbot"
         },
         {
           "match": "VengaBot/*",
-          "properties": {
-            "Browser": "VengaBot"
-          }
+          "browser": "vengabot"
         },
         {
           "match": "Visicom Toolbar",
-          "properties": {
-            "Browser": "Visicom Toolbar"
-          }
+          "browser": "visicom toolbar"
         },
         {
           "match": "Visited by http://tools.geek-tools.org",
-          "properties": {
-            "Browser": "geek-tools.org"
-          }
+          "browser": "geek-tools.org"
         },
         {
           "match": "Webclipping.com",
-          "properties": {
-            "Browser": "Webclipping.com"
-          }
+          "browser": "webclipping.com"
         },
         {
           "match": "webcollage*",
-          "properties": {
-            "Browser": "WebCollage"
-          }
+          "browser": "webcollage"
         },
         {
           "match": "WebFilter Robot*",
-          "properties": {
-            "Browser": "WebFilter Robot"
-          }
+          "browser": "webfilter robot"
         },
         {
           "match": "WeBoX/*",
-          "properties": {
-            "Browser": "WeBoX"
-          }
+          "browser": "webox"
         },
         {
           "match": "WebTrends/*",
-          "properties": {
-            "Browser": "WebTrends"
-          }
+          "browser": "webtrends"
         },
         {
           "match": "West Wind Internet Protocols*",
-          "properties": {
-            "Browser": "Versatel"
-          }
+          "browser": "versatel"
         },
         {
           "match": "WhizBang",
-          "properties": {
-            "Browser": "WhizBang"
-          }
+          "browser": "whizbang"
         },
         {
           "match": "Willow Internet Crawler by Twotrees V*",
-          "properties": {
-            "Browser": "Willow Internet Crawler"
-          }
+          "browser": "willow internet crawler"
         },
         {
           "match": "WIRE/* (Linux*Bot,Robot,Spider,Crawler)",
-          "properties": {
-            "Browser": "WIRE"
-          }
+          "browser": "wire"
         },
         {
           "match": "www.fi crawler, contact crawler@www.fi",
-          "properties": {
-            "Browser": "www.fi crawler"
-          }
+          "browser": "www.fi crawler"
         },
         {
           "match": "Xerka WebBot v1.*",
-          "properties": {
-            "Browser": "Xerka"
-          }
+          "browser": "xerka"
         },
         {
           "match": "XSpider*",
-          "properties": {
-            "Browser": "XSpider"
-          }
+          "browser": "xspider"
         },
         {
           "match": "YooW!/* (?http://www.yoow.eu)",
-          "properties": {
-            "Browser": "YooW!"
-          }
+          "browser": "yoow!"
         },
         {
           "match": "QuerySeekerSpider ( http://queryseeker.com/bot.html )",
-          "properties": {
-            "Browser": "QuerySeekerSpider"
-          }
+          "browser": "queryseekerspider"
         },
         {
           "match": "Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)*",
-          "properties": {
-            "Browser": "proximic",
-            "Browser_Maker": "Proximic, Inc."
-          }
+          "browser": "proximic"
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE *; Windows NT *; Trident/?.0; Alcohol Search*",
+          "browser": "alcohol search",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Alcohol Search"
-          },
           "platforms": [
             "NT"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE *; AugustBot/*",
-          "properties": {
-            "Browser": "AugustBot"
-          }
+          "browser": "augustbot"
         },
         {
           "match": "awesomebot*",
-          "properties": {
-            "Browser": "Awesomebot"
-          }
+          "browser": "awesomebot"
         },
         {
           "match": "Cooby Bot*",
-          "properties": {
-            "Browser": "CoobyBot"
-          }
+          "browser": "coobybot"
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot *",
+          "browser": "crystalsemanticsbot",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "CrystalSemanticsBot"
-          },
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE *; Windows NT *; FeedFinder-2.0; http://bloggz.se/crawler)*",
+          "browser": "feedfinder",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "FeedFinder"
-          },
           "platforms": [
             "NT"
           ]
@@ -980,1891 +664,1283 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 4.01; Windows95)",
+          "browser": "generic crawler",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Generic Crawler"
-          },
           "platforms": [
             "Win95_2"
           ]
         },
         {
           "match": "GSLFbot*",
-          "properties": {
-            "Browser": "GSLFbot"
-          }
+          "browser": "gslfbot"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; *Mac OS X *) applewebkit* (*khtml*like*gecko*) Version/*Safari/* Powered by Spider-Pig*",
-          "properties": {
-            "Browser": "Spider-Pig",
-            "Browser_Maker": "www.tinfoilsecurity.com"
-          }
+          "browser": "spider-pig"
         },
         {
           "match": "Mozilla/5.0 (*Mac OS X*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* Powered by Spider-Pig*",
-          "properties": {
-            "Browser": "Spider-Pig",
-            "Browser_Maker": "www.tinfoilsecurity.com"
-          }
+          "browser": "spider-pig"
         },
         {
           "match": "netEstate NE Crawler*",
-          "properties": {
-            "Browser": "netEstate NE Crawler",
-            "Browser_Maker": "netEstate GmbH"
-          }
+          "browser": "netestate ne crawler"
         },
         {
           "match": "securepoint cf",
-          "properties": {
-            "Browser": "Securepoint Content Filter",
-            "Browser_Maker": "Securepoint GmbH"
-          }
+          "browser": "securepoint content filter"
         },
         {
           "match": "www.integromedb.org/Crawler*",
-          "properties": {
-            "Browser": "IntegromeDB Crawler",
-            "Browser_Maker": "BiologicalNetworks"
-          }
+          "browser": "integromedb crawler"
         },
         {
           "match": "CheckSite Verification Agent*",
-          "properties": {
-            "Browser": "CheckSite Verification Agent",
-            "Browser_Maker": "checksite.us"
-          }
+          "browser": "checksite verification agent"
         },
         {
           "match": "Mozilla/5.0 (compatible; Squzer/*",
-          "properties": {
-            "Browser": "Squzer",
-            "Browser_Maker": "Declum"
-          }
+          "browser": "squzer"
         },
         {
           "match": "InternetSeer.com",
-          "properties": {
-            "Browser": "InternetSeer.com",
-            "Browser_Maker": "InternetSeer.com"
-          }
+          "browser": "internetseer.com"
         },
         {
           "match": "ADmantX Platform Semantic Analyzer*",
-          "properties": {
-            "Browser": "ADmantX Platform Semantic Analyzer",
-            "Browser_Maker": "ADmantX Inc"
-          }
+          "browser": "admantx platform semantic analyzer"
         },
         {
           "match": "WeSEE:Ads/*",
-          "properties": {
-            "Browser": "WeSEE:Ads",
-            "Browser_Maker": "WeSEE Ltd"
-          }
+          "browser": "wesee:ads"
         },
         {
           "match": "Mozilla/5.0 (compatible; Apercite*",
-          "properties": {
-            "Browser": "Apercite",
-            "Browser_Maker": "Apercite"
-          }
+          "browser": "apercite"
         },
         {
           "match": "Mozilla/5.0 (compatible; PiplBot*",
-          "properties": {
-            "Browser": "PiplBot",
-            "Browser_Maker": "Pipl"
-          }
+          "browser": "piplbot"
         },
         {
           "match": "Mozilla/4.0 (compatible; Blog Search*",
-          "properties": {
-            "Browser": "Blog Search"
-          }
+          "browser": "blog search"
         },
         {
           "match": "YisouSpider",
-          "properties": {
-            "Browser": "YisouSpider",
-            "Browser_Maker": "Yisou.com"
-          }
+          "browser": "yisouspider"
         },
         {
           "match": "hivaBot*",
-          "properties": {
-            "Browser": "hivaBot"
-          }
+          "browser": "hivabot"
         },
         {
           "match": "PagesInventory*",
-          "properties": {
-            "Browser": "PagesInventory Bot",
-            "Browser_Maker": "PagesInventory.com"
-          }
+          "browser": "pagesinventory bot"
         },
         {
           "match": "Mozilla/4.0 (CMS Crawler*",
-          "properties": {
-            "Browser": "CMS Crawler",
-            "Browser_Maker": "Viderem AB"
-          }
+          "browser": "cms crawler"
         },
         {
           "match": "MetaHeadersBot*",
-          "properties": {
-            "Browser": "MetaHeadersBot",
-            "Browser_Maker": "Metaheaders.com"
-          }
+          "browser": "metaheadersbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Twingly Recon*",
-          "properties": {
-            "Browser": "Twingly Recon",
-            "Browser_Maker": "Twingly AB"
-          }
+          "browser": "twingly recon"
         },
         {
           "match": "revolt",
+          "browser": "bot revolt",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Bot Revolt",
-            "Browser_Maker": "Bot Revolt"
-          },
           "platforms": [
             "Windows"
           ]
         },
         {
           "match": "BacklinkCrawler*",
-          "properties": {
-            "Browser": "BacklinkCrawler",
-            "Browser_Maker": "backlinktest.com"
-          }
+          "browser": "backlinkcrawler"
         },
         {
           "match": "LinkStats Bot",
-          "properties": {
-            "Browser": "LinkStats Bot"
-          }
+          "browser": "linkstats bot"
         },
         {
           "match": "stq_bot *",
-          "properties": {
-            "Browser": "Searchteq Bot",
-            "Browser_Maker": "SEARCHTEQ GmbH"
-          }
+          "browser": "searchteq bot"
         },
         {
           "match": "SNK Screenshot Bot/0.20*",
-          "properties": {
-            "Browser": "Save n Keep Screenshot Bot",
-            "Browser_Maker": "savenkeep.com"
-          }
+          "browser": "save n keep screenshot bot"
         },
         {
           "match": "SNK Screenshot Bot/*",
-          "properties": {
-            "Browser": "Save n Keep Screenshot Bot",
-            "Browser_Maker": "savenkeep.com"
-          }
+          "browser": "save n keep screenshot bot"
         },
         {
           "match": "Phantom.js bot*",
-          "properties": {
-            "Browser": "Phantom.js bot"
-          }
+          "browser": "phantom.js bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Optimizer)*",
-          "properties": {
-            "Browser": "Optimizer Bot"
-          }
+          "browser": "optimizer bot"
         },
         {
           "match": "Bot.AraTurka.com/*",
-          "properties": {
-            "Browser": "Bot.AraTurka.com"
-          }
+          "browser": "bot.araturka.com"
         },
         {
           "match": "*java*"
         },
         {
           "match": "HRCrawler/2.0*",
+          "browser": "hrcrawler",
           "properties": {
-            "Browser": "HRCrawler",
             "Version": "2.0"
           }
         },
         {
           "match": "HRCrawler/*",
-          "properties": {
-            "Browser": "HRCrawler"
-          }
+          "browser": "hrcrawler"
         },
         {
           "match": "isc header collector handlers*",
-          "properties": {
-            "Browser": "isc header collector handlers"
-          }
+          "browser": "isc header collector handlers"
         },
         {
           "match": "Forum Poster V3*",
+          "browser": "forum poster",
           "properties": {
-            "Browser": "Forum Poster",
-            "Browser_Maker": "forumposter.us",
             "Version": "3.0"
           }
         },
         {
           "match": "Forum Poster*",
-          "properties": {
-            "Browser": "Forum Poster",
-            "Browser_Maker": "forumposter.us"
-          }
+          "browser": "forum poster"
         },
         {
           "match": "Mozilla/5.0 (compatible; WebMasterAid/1.0*",
+          "browser": "webmasteraid",
           "properties": {
-            "Browser": "WebMasterAid",
-            "Browser_Maker": "wmaid.com",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; WebMasterAid/*",
-          "properties": {
-            "Browser": "WebMasterAid",
-            "Browser_Maker": "wmaid.com"
-          }
+          "browser": "webmasteraid"
         },
         {
           "match": "Mozilla/5.0 (compatible; Muenster University of Applied Sciences; *itsscan*",
-          "properties": {
-            "Browser": "itsscan",
-            "Browser_Maker": "Muenster University of Applied Sciences"
-          }
+          "browser": "itsscan"
         },
         {
           "match": "MetaURI API/2.0*",
+          "browser": "metauri bot",
           "properties": {
-            "Browser": "MetaURI Bot",
-            "Browser_Maker": "metauri.com",
             "Version": "2.0"
           }
         },
         {
           "match": "MetaURI API*",
-          "properties": {
-            "Browser": "MetaURI Bot",
-            "Browser_Maker": "metauri.com"
-          }
+          "browser": "metauri bot"
         },
         {
           "match": "IPv4Scan*",
-          "properties": {
-            "Browser": "IPv4Scan",
-            "Browser_Maker": "ipv4scan.com"
-          }
+          "browser": "ipv4scan"
         },
         {
           "match": "Zookabot/2.4*",
+          "browser": "zookabot",
           "properties": {
-            "Browser": "Zookabot",
-            "Browser_Maker": "zookabot.com",
             "Version": "2.4"
           }
         },
         {
           "match": "Zookabot/*",
-          "properties": {
-            "Browser": "Zookabot",
-            "Browser_Maker": "zookabot.com"
-          }
+          "browser": "zookabot"
         },
         {
           "match": "Mozilla/5.0 (compatible; discoverybot/2.0*",
+          "browser": "discovery bot",
           "properties": {
-            "Browser": "Discovery Bot",
-            "Browser_Maker": "discoveryengine.com",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; discoverybot/*",
-          "properties": {
-            "Browser": "Discovery Bot",
-            "Browser_Maker": "discoveryengine.com"
-          }
+          "browser": "discovery bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; AskPeterBot*",
-          "properties": {
-            "Browser": "AskPeterBot",
-            "Browser_Maker": "www.askpeter.info"
-          }
+          "browser": "askpeterbot"
         },
         {
           "match": "RED/1*",
+          "browser": "redbot",
           "properties": {
-            "Browser": "redbot",
-            "Browser_Maker": "redbot.org",
             "Version": "1.0"
           }
         },
         {
           "match": "RED/*",
-          "properties": {
-            "Browser": "redbot",
-            "Browser_Maker": "redbot.org"
-          }
+          "browser": "redbot"
         },
         {
           "match": "BUbiNG*",
-          "properties": {
-            "Browser": "BUbiNG Bot",
-            "Browser_Maker": "http://law.di.unimi.it"
-          }
+          "browser": "bubing bot"
         },
         {
           "match": "Mozilla/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient 3.1*",
+          "browser": "semantic-visions.com crawler",
           "properties": {
-            "Browser": "semantic-visions.com crawler",
-            "Browser_Maker": "semantic-visions.com",
             "Version": "3.1"
           }
         },
         {
           "match": "Mozilla/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient*",
-          "properties": {
-            "Browser": "semantic-visions.com crawler",
-            "Browser_Maker": "semantic-visions.com"
-          }
+          "browser": "semantic-visions.com crawler"
         },
         {
           "match": "JoobleBot*",
-          "properties": {
-            "Browser": "JoobleBot",
-            "Browser_Maker": "jooble.com"
-          }
+          "browser": "jooblebot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MixrankBot*",
-          "properties": {
-            "Browser": "MixrankBot",
-            "Browser_Maker": "Online Media Group, Inc."
-          }
+          "browser": "mixrankbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; memoryBot/1.20*",
+          "browser": "memorybot",
           "properties": {
-            "Browser": "memoryBot",
-            "Browser_Maker": "Internet Memory Foundation",
             "Version": "1.20"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; memoryBot/*",
-          "properties": {
-            "Browser": "memoryBot",
-            "Browser_Maker": "Internet Memory Foundation"
-          }
+          "browser": "memorybot"
         },
         {
           "match": "Icarus6j*",
-          "properties": {
-            "Browser": "Icarus6j",
-            "Browser_Maker": "icarus6.com"
-          }
-        },
-        {
-          "match": "wsr-agent/1.0*",
-          "properties": {
-            "Browser": "wsr-agent",
-            "Version": "1.0"
-          }
-        },
-        {
-          "match": "wsr-agent/*",
-          "properties": {
-            "Browser": "wsr-agent"
-          }
+          "browser": "icarus6j"
         },
         {
           "match": "Mozilla crawl/5.0*",
+          "browser": "mozilla crawler",
           "properties": {
-            "Browser": "Mozilla Crawler",
-            "Browser_Maker": "fairshare.cc",
             "Version": "5.0"
           }
         },
         {
           "match": "Mozilla crawl/*",
-          "properties": {
-            "Browser": "Mozilla Crawler",
-            "Browser_Maker": "fairshare.cc"
-          }
+          "browser": "mozilla crawler"
         },
         {
           "match": "RamblerMail/6.0*",
+          "browser": "ramblermail bot",
           "properties": {
-            "Browser": "RamblerMail Bot",
             "Version": "6.0"
           }
         },
         {
           "match": "RamblerMail/*",
-          "properties": {
-            "Browser": "RamblerMail Bot"
-          }
-        },
-        {
-          "match": "wsr-agent/*",
-          "properties": {
-            "Browser": "wsr-agent"
-          }
+          "browser": "ramblermail bot"
         },
         {
           "match": "Mozilla/5.0 (URLfilterDB-crawler/1.1)*",
+          "browser": "urlfilterdb crawler",
           "properties": {
-            "Browser": "URLfilterDB Crawler",
             "Version": "1.1"
           }
         },
         {
           "match": "Mozilla/5.0 (URLfilterDB-crawler/*",
-          "properties": {
-            "Browser": "URLfilterDB Crawler"
-          }
+          "browser": "urlfilterdb crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; OpenHoseBot/2.1*",
+          "browser": "openhosebot",
           "properties": {
-            "Browser": "OpenHoseBot",
-            "Browser_Maker": "www.openhose.org",
             "Version": "2.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; OpenHoseBot/*",
-          "properties": {
-            "Browser": "OpenHoseBot",
-            "Browser_Maker": "www.openhose.org"
-          }
+          "browser": "openhosebot"
         },
         {
           "match": "Mozilla/5.0 (compatible; DomainSigmaCrawler/0.1*",
+          "browser": "domainsigmacrawler",
           "properties": {
-            "Browser": "DomainSigmaCrawler",
-            "Browser_Maker": "DomainSigma",
             "Version": "0.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; DomainSigmaCrawler/*",
-          "properties": {
-            "Browser": "DomainSigmaCrawler",
-            "Browser_Maker": "DomainSigma"
-          }
+          "browser": "domainsigmacrawler"
         },
         {
           "match": "BigBozz/BigBozz-2.2*",
+          "browser": "bigbozz - financial search",
           "properties": {
-            "Browser": "BigBozz - Financial Search",
             "Version": "2.2"
           }
         },
         {
           "match": "BigBozz/BigBozz*",
-          "properties": {
-            "Browser": "BigBozz - Financial Search"
-          }
+          "browser": "bigbozz - financial search"
         },
         {
           "match": "ECCP/1.0*",
+          "browser": "eccp",
           "properties": {
-            "Browser": "ECCP",
             "Version": "1.0"
           }
         },
         {
           "match": "ECCP/*",
-          "properties": {
-            "Browser": "ECCP"
-          }
+          "browser": "eccp"
         },
         {
           "match": "WebIndex*",
-          "properties": {
-            "Browser": "WebIndex"
-          }
+          "browser": "webindex"
         },
         {
           "match": "ArchiveTeam ArchiveBot/*",
-          "properties": {
-            "Browser": "ArchiveBot",
-            "Browser_Maker": "ArchiveTeam"
-          }
+          "browser": "archivebot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Crawler/3.0*",
+          "browser": "crawler",
           "properties": {
-            "Browser": "Crawler",
-            "Browser_Maker": "Linkfluence SAS",
             "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Crawler/0.9*",
+          "browser": "crawler",
           "properties": {
-            "Browser": "Crawler",
-            "Browser_Maker": "Linkfluence SAS",
             "Version": "0.9"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Crawler/*",
-          "properties": {
-            "Browser": "Crawler",
-            "Browser_Maker": "Linkfluence SAS"
-          }
+          "browser": "crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; YaK/*",
-          "properties": {
-            "Browser": "Linkfluence Yak Bot",
-            "Browser_Maker": "Linkfluence SAS"
-          }
+          "browser": "linkfluence yak bot"
         },
         {
           "match": "Amazon CloudFront*",
-          "properties": {
-            "Browser": "Amazon CloudFront",
-            "Browser_Maker": "Amazon.com, Inc."
-          }
+          "browser": "amazon cloudfront"
         },
         {
           "match": "Arachnida Web Crawler*",
-          "properties": {
-            "Browser": "Arachnida Web Crawler"
-          }
+          "browser": "arachnida web crawler"
         },
         {
           "match": "bandscraper*",
-          "properties": {
-            "Browser": "bandscraper"
-          }
+          "browser": "bandscraper"
         },
         {
           "match": "bot*",
-          "properties": {
-            "Browser": "bot"
-          }
+          "browser": "bot"
         },
         {
           "match": "cars-app-browser*",
-          "properties": {
-            "Browser": "cars-app-browser"
-          }
+          "browser": "cars-app-browser"
         },
         {
           "match": "HggH PhantomJS Screenshoter*",
-          "properties": {
-            "Browser": "HggH Screenshot System with PhantomJS",
-            "Browser_Maker": "Jonas Genannt (HggH)"
-          }
+          "browser": "hggh screenshot system with phantomjs"
         },
         {
           "match": "IC OpenGraph Crawler*",
-          "properties": {
-            "Browser": "IBM Connections",
-            "Browser_Maker": "IBM"
-          }
+          "browser": "ibm connections"
         },
         {
           "match": "ICC-Crawler/2.0*",
+          "browser": "icc-crawler",
           "properties": {
-            "Browser": "ICC-Crawler",
-            "Browser_Maker": "National Institute of Information and Communications Technology, Japan",
             "Version": "2.0"
           }
         },
         {
           "match": "ICC-Crawler/*",
-          "properties": {
-            "Browser": "ICC-Crawler",
-            "Browser_Maker": "National Institute of Information and Communications Technology, Japan"
-          }
+          "browser": "icc-crawler"
         },
         {
           "match": "InAGist URL Resolver*",
-          "properties": {
-            "Browser": "InAGist URL Resolver",
-            "Browser_Maker": "iyotta software private limited, india"
-          }
+          "browser": "inagist url resolver"
         },
         {
           "match": "Jeode/1.*",
+          "browser": "jeode",
           "properties": {
-            "Browser": "Jeode",
             "Version": "1.0"
           }
         },
         {
           "match": "Jeode/*",
-          "properties": {
-            "Browser": "Jeode"
-          }
+          "browser": "jeode"
         },
         {
           "match": "kraken/0.6*",
+          "browser": "krakenjs",
           "properties": {
-            "Browser": "krakenjs",
-            "Browser_Maker": "Paypal",
             "Version": "0.6"
           }
         },
         {
           "match": "kraken/*",
-          "properties": {
-            "Browser": "krakenjs",
-            "Browser_Maker": "Paypal"
-          }
+          "browser": "krakenjs"
         },
         {
           "match": "PayPal IPN*",
-          "properties": {
-            "Browser": "Instant Payment Notification",
-            "Browser_Maker": "Paypal"
-          }
+          "browser": "instant payment notification"
         },
         {
           "match": "Locubot*",
-          "properties": {
-            "Browser": "Locubot"
-          }
+          "browser": "locubot"
         },
         {
           "match": "MailChimp.com*",
-          "properties": {
-            "Browser": "MailChimp.com",
-            "Browser_Maker": "The Rocket Science Group"
-          }
+          "browser": "mailchimp.com"
         },
         {
           "match": "MixBot*",
-          "properties": {
-            "Browser": "MixBot"
-          }
+          "browser": "mixbot"
         },
         {
           "match": "Mozilla/4.0 (compatible; focuseekbot*",
-          "properties": {
-            "Browser": "focuseekbot"
-          }
+          "browser": "focuseekbot"
         },
         {
           "match": "Mozilla,BuSecurityProject*",
-          "properties": {
-            "Browser": "BuSecurityProject"
-          }
+          "browser": "busecurityproject"
         },
         {
           "match": "Mozilla/5.0 (compatible; kgbody/2.0*",
+          "browser": "kgbody",
           "properties": {
-            "Browser": "kgbody",
-            "Browser_Maker": "NTT Resonant Inc.",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; kgbody/*",
-          "properties": {
-            "Browser": "kgbody",
-            "Browser_Maker": "NTT Resonant Inc."
-          }
+          "browser": "kgbody"
         },
         {
           "match": "Mozilla/5.0 (compatible; kulturarw3*",
-          "properties": {
-            "Browser": "kulturarw3",
-            "Browser_Maker": "National Library of Sweden"
-          }
+          "browser": "kulturarw3"
         },
         {
           "match": "Mozilla/5.0 (compatible; MerchantCentricBot/1.0*",
+          "browser": "merchantcentricbot",
           "properties": {
-            "Browser": "MerchantCentricBot",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; MerchantCentricBot/*",
-          "properties": {
-            "Browser": "MerchantCentricBot"
-          }
+          "browser": "merchantcentricbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE ?.0*; *windows*; MarketwireBot*",
-          "properties": {
-            "Browser": "MarketwireBot",
-            "Browser_Maker": "Marketwire L.P."
-          }
+          "browser": "marketwirebot"
         },
         {
           "match": "Mozilla/5.0 (compatible*; MarketwireBot*",
-          "properties": {
-            "Browser": "MarketwireBot",
-            "Browser_Maker": "Marketwire L.P."
-          }
+          "browser": "marketwirebot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Nett.io bot/1.0*",
+          "browser": "nett.io bot",
           "properties": {
-            "Browser": "Nett.io bot",
-            "Browser_Maker": "nett.io",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Nett.io bot/*",
-          "properties": {
-            "Browser": "Nett.io bot",
-            "Browser_Maker": "nett.io"
-          }
+          "browser": "nett.io bot"
         },
         {
           "match": "Mozilla/5.0 (compatible;acapbot/0.1*",
+          "browser": "acapbot",
           "properties": {
-            "Browser": "acapbot",
             "Version": "0.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible;acapbot/*",
-          "properties": {
-            "Browser": "acapbot"
-          }
+          "browser": "acapbot"
         },
         {
           "match": "PageFreezer*",
-          "properties": {
-            "Browser": "PageFreezer",
-            "Browser_Maker": "PageFreezer Software Inc."
-          }
+          "browser": "pagefreezer"
         },
         {
           "match": "ShowyouBot*",
-          "properties": {
-            "Browser": "ShowyouBot",
-            "Browser_Maker": "Remixation, Inc"
-          }
+          "browser": "showyoubot"
         },
         {
           "match": "ltx71 *",
-          "properties": {
-            "Browser": "ltx71 Bot",
-            "Browser_Maker": "ltx71.com"
-          }
+          "browser": "ltx71 bot"
         },
         {
           "match": "CookieReports.com/0.1*",
+          "browser": "cookie reports bot",
           "properties": {
-            "Browser": "Cookie Reports Bot",
-            "Browser_Maker": "Cookie Reports Limited",
             "Version": "0.1"
           }
         },
         {
           "match": "CookieReports.com/*",
-          "properties": {
-            "Browser": "Cookie Reports Bot",
-            "Browser_Maker": "Cookie Reports Limited"
-          }
+          "browser": "cookie reports bot"
         },
         {
           "match": "Iframely/0.7*",
+          "browser": "iframely bot",
           "properties": {
-            "Browser": "Iframely Bot",
-            "Browser_Maker": "Itteco",
             "Version": "0.7"
           }
         },
         {
           "match": "Iframely/*",
-          "properties": {
-            "Browser": "Iframely Bot",
-            "Browser_Maker": "Itteco"
-          }
+          "browser": "iframely bot"
         },
         {
           "match": "MetaInspector/3.0*",
+          "browser": "metainspector",
           "properties": {
-            "Browser": "MetaInspector",
-            "Browser_Maker": "Jaime Iniesta",
             "Version": "3.0"
           }
         },
         {
           "match": "MetaInspector/*",
-          "properties": {
-            "Browser": "MetaInspector",
-            "Browser_Maker": "Jaime Iniesta"
-          }
+          "browser": "metainspector"
         },
         {
           "match": "Mozilla/5.0 (compatible; CrawlRobot*",
-          "properties": {
-            "Browser": "CrawlRobot"
-          }
+          "browser": "crawlrobot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Owler/0.4*",
+          "browser": "owler bot",
           "properties": {
-            "Browser": "Owler Bot",
-            "Browser_Maker": "Owler, Inc.",
             "Version": "0.4"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Owler/*",
-          "properties": {
-            "Browser": "Owler Bot",
-            "Browser_Maker": "Owler, Inc."
-          }
+          "browser": "owler bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; pub-crawler*",
-          "properties": {
-            "Browser": "pub-crawler"
-          }
+          "browser": "pub-crawler"
         },
         {
           "match": "Mozilla/5.0+(compatible; RevIP.info site analyzer v4.00*",
+          "browser": "reverse ip lookup",
           "properties": {
-            "Browser": "Reverse IP Lookup",
-            "Browser_Maker": "binarymonkey.com",
             "Version": "4.0"
           }
         },
         {
           "match": "Mozilla/5.0+(compatible; RevIP.info site analyzer*",
-          "properties": {
-            "Browser": "Reverse IP Lookup",
-            "Browser_Maker": "binarymonkey.com"
-          }
+          "browser": "reverse ip lookup"
         },
         {
           "match": "SMRF URL Expander*",
-          "properties": {
-            "Browser": "SMRF URL Expander"
-          }
+          "browser": "smrf url expander"
         },
         {
           "match": "Superarama.com - BOT/v.0.1*",
+          "browser": "superarama.com - bot",
           "properties": {
-            "Browser": "Superarama.com - BOT",
             "Version": "0.1"
           }
         },
         {
           "match": "Superarama.com - BOT/*",
-          "properties": {
-            "Browser": "Superarama.com - BOT"
-          }
+          "browser": "superarama.com - bot"
         },
         {
           "match": "WNMbot/0.4*",
+          "browser": "wnmbot",
           "properties": {
-            "Browser": "WNMbot",
             "Version": "0.4"
           }
         },
         {
           "match": "WNMbot/*",
-          "properties": {
-            "Browser": "WNMbot"
-          }
+          "browser": "wnmbot"
         },
         {
           "match": "Website Explorer/0.9*",
+          "browser": "website explorer",
           "properties": {
-            "Browser": "Website Explorer",
-            "Browser_Maker": "umechando.com",
             "Version": "0.9"
           }
         },
         {
           "match": "Website Explorer/*",
-          "properties": {
-            "Browser": "Website Explorer",
-            "Browser_Maker": "umechando.com"
-          }
+          "browser": "website explorer"
         },
         {
           "match": "city-map screenshot service*",
-          "properties": {
-            "Browser": "city-map screenshot service",
-            "Browser_Maker": "city-map Internetmarketing AG"
-          }
+          "browser": "city-map screenshot service"
         },
         {
           "match": "optivo(R) NetHelper*",
-          "properties": {
-            "Browser": "optivo NetHelper",
-            "Browser_Maker": "optivo GmbH"
-          }
+          "browser": "optivo nethelper"
         },
         {
           "match": "pr-cy.ru Screenshot Bot*",
-          "properties": {
-            "Browser": "Screenshot Bot",
-            "Browser_Maker": "pr-cy.ru"
-          }
+          "browser": "screenshot bot"
         },
         {
           "match": "Mozilla/* (*Genieo*/1.0*webfilter*",
+          "browser": "genieo web filter",
           "properties": {
-            "Browser": "Genieo Web Filter",
-            "Browser_Maker": "Genieo",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/* (*Genieo*/*webfilter*",
-          "properties": {
-            "Browser": "Genieo Web Filter",
-            "Browser_Maker": "Genieo"
-          }
+          "browser": "genieo web filter"
         },
         {
           "match": "Mozilla/5.0 (compatible; BegunAdvertising/3.0*",
+          "browser": "begun advertising bot",
           "properties": {
-            "Browser": "Begun Advertising Bot",
-            "Browser_Maker": "begun.ru",
             "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; BegunAdvertising/*",
-          "properties": {
-            "Browser": "Begun Advertising Bot",
-            "Browser_Maker": "begun.ru"
-          }
+          "browser": "begun advertising bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MegaIndex.ru/2.0*",
+          "browser": "megaindex bot",
           "properties": {
-            "Browser": "MegaIndex Bot",
-            "Browser_Maker": "MegaIndex.ru",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; MegaIndex.ru/*",
-          "properties": {
-            "Browser": "MegaIndex Bot",
-            "Browser_Maker": "MegaIndex.ru"
-          }
+          "browser": "megaindex bot"
         },
         {
           "match": "Mozilla/4.0 (compatible; DAWINCI ANTIPLAG SPIDER*",
-          "properties": {
-            "Browser": "DAWINCI ANTIPLAG SPIDER"
-          }
+          "browser": "dawinci antiplag spider"
         },
         {
           "match": "AccServer?HOGANMIDSCHOOL?/5.0*",
+          "browser": "accserver",
           "properties": {
-            "Browser": "AccServer",
             "Version": "5.0"
           }
         },
         {
           "match": "AccServer?HOGANMIDSCHOOL?/*",
-          "properties": {
-            "Browser": "AccServer"
-          }
+          "browser": "accserver"
         },
         {
           "match": "SafeSearch microdata crawler*",
-          "properties": {
-            "Browser": "SafeSearch microdata crawler",
-            "Browser_Maker": "Avira Operations GmbH & Co. KG."
-          }
+          "browser": "safesearch microdata crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; AdvBot/2.0*",
+          "browser": "advbot",
           "properties": {
-            "Browser": "AdvBot",
-            "Browser_Maker": "advbot.net",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; AdvBot/*",
-          "properties": {
-            "Browser": "AdvBot",
-            "Browser_Maker": "advbot.net"
-          }
+          "browser": "advbot"
         },
         {
           "match": "Mozilla/4.0 compatible ZyBorg/1.0*",
+          "browser": "wisenut search engine crawler",
           "properties": {
-            "Browser": "WiseNut search engine crawler",
-            "Browser_Maker": "LookSmart",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/4.0 compatible ZyBorg/*",
-          "properties": {
-            "Browser": "WiseNut search engine crawler",
-            "Browser_Maker": "LookSmart"
-          }
+          "browser": "wisenut search engine crawler"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Butterfly/1.0*",
+          "browser": "butterfly robot",
           "properties": {
-            "Browser": "Butterfly Robot",
-            "Browser_Maker": "Topsy Labs",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Butterfly/*",
-          "properties": {
-            "Browser": "Butterfly Robot",
-            "Browser_Maker": "Topsy Labs"
-          }
+          "browser": "butterfly robot"
         },
         {
           "match": "Mozilla/5.0 (compatible; worldwebheritage.org/1.0*",
+          "browser": "worldwebheritage.org bot",
           "properties": {
-            "Browser": "worldwebheritage.org Bot",
-            "Browser_Maker": "GoDaddy, LLC",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; worldwebheritage.org/*",
-          "properties": {
-            "Browser": "worldwebheritage.org Bot",
-            "Browser_Maker": "GoDaddy, LLC"
-          }
+          "browser": "worldwebheritage.org bot"
         },
         {
           "match": "uipbot/1.0*",
+          "browser": "uipbot",
           "properties": {
-            "Browser": "Uipbot",
             "Version": "1.0"
           }
         },
         {
           "match": "uipbot/*",
-          "properties": {
-            "Browser": "Uipbot"
-          }
+          "browser": "uipbot"
         },
         {
           "match": "mbot v.1.16*",
+          "browser": "mbot",
           "properties": {
-            "Browser": "mbot",
             "Version": "1.16"
           }
         },
         {
           "match": "mbot*",
-          "properties": {
-            "Browser": "mbot"
-          }
+          "browser": "mbot"
         },
         {
           "match": "NetLyzer FastProbe*",
-          "properties": {
-            "Browser": "NetLyzer FastProbe"
-          }
+          "browser": "netlyzer fastprobe"
         },
         {
           "match": "Mozilla/5.0 (compatible; TestCrawler*",
-          "properties": {
-            "Browser": "TestCrawler"
-          }
+          "browser": "testcrawler"
         },
         {
           "match": "*robots*",
-          "properties": {
-            "Browser": "TestCrawler"
-          }
+          "browser": "testcrawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; Digincore*",
-          "properties": {
-            "Browser": "Digincore Bot"
-          }
+          "browser": "digincore bot"
         },
         {
           "match": "NoteTextView*",
-          "properties": {
-            "Browser": "NoteTextView"
-          }
+          "browser": "notetextview"
         },
         {
           "match": "ShortLinkTranslate*",
-          "properties": {
-            "Browser": "ShortLinkTranslate"
-          }
+          "browser": "shortlinktranslate"
         },
         {
           "match": "Grammarly/1.0*",
+          "browser": "grammarly",
           "properties": {
-            "Browser": "Grammarly",
-            "Browser_Maker": "Grammarly Inc.",
             "Version": "1.0"
           }
         },
         {
           "match": "Grammarly/*",
-          "properties": {
-            "Browser": "Grammarly",
-            "Browser_Maker": "Grammarly Inc."
-          }
+          "browser": "grammarly"
         },
         {
           "match": "gettor/0.5*",
+          "browser": "gettor",
           "properties": {
-            "Browser": "gettor",
             "Version": "0.5"
           }
         },
         {
           "match": "gettor/*",
-          "properties": {
-            "Browser": "gettor"
-          }
+          "browser": "gettor"
         },
         {
           "match": "infoX-WISG*",
-          "properties": {
-            "Browser": "infoX-WISG"
-          }
+          "browser": "infox-wisg"
         },
         {
           "match": "Melvil/1.0*",
+          "browser": "melvil bot",
           "properties": {
-            "Browser": "Melvil Bot",
             "Version": "1.0"
           }
         },
         {
           "match": "Melvil/*",
-          "properties": {
-            "Browser": "Melvil Bot"
-          }
+          "browser": "melvil bot"
         },
         {
           "match": "Melvil Favicon/1.0*",
+          "browser": "melvil favicon bot",
           "properties": {
-            "Browser": "Melvil Favicon Bot",
             "Version": "1.0"
           }
         },
         {
           "match": "Melvil Favicon/*",
-          "properties": {
-            "Browser": "Melvil Favicon Bot"
-          }
+          "browser": "melvil favicon bot"
         },
         {
           "match": "Quora Link Preview/1.0*",
+          "browser": "quora link preview bot",
           "properties": {
-            "Browser": "Quora Link Preview Bot",
-            "Browser_Maker": "Quora, Inc.",
             "Version": "1.0"
           }
         },
         {
           "match": "Quora Link Preview/*",
-          "properties": {
-            "Browser": "Quora Link Preview Bot",
-            "Browser_Maker": "Quora, Inc."
-          }
+          "browser": "quora link preview bot"
         },
         {
           "match": "ROR Sitemap Generator*",
-          "properties": {
-            "Browser": "ROR Sitemap Generator",
-            "Browser_Maker": "Rorweb.com"
-          }
+          "browser": "ror sitemap generator"
         },
         {
           "match": "XmlSitemapGenerator*",
-          "properties": {
-            "Browser": "XmlSitemapGenerator"
-          }
+          "browser": "xmlsitemapgenerator"
         },
         {
           "match": "Stratagems Kumo*",
-          "properties": {
-            "Browser": "Stratagems Kumo"
-          }
+          "browser": "stratagems kumo"
         },
         {
           "match": "Mozilla/4.0 (compatible; Virtuoso*",
-          "properties": {
-            "Browser": "Virtuoso",
-            "Browser_Maker": "OpenLink Software"
-          }
+          "browser": "virtuoso"
         },
         {
           "match": "SPIP-3.0*",
+          "browser": "spip",
           "properties": {
-            "Browser": "SPIP",
-            "Browser_Maker": "SPIP Community",
             "Version": "3.0"
           }
         },
         {
           "match": "SPIP-*",
-          "properties": {
-            "Browser": "SPIP",
-            "Browser_Maker": "SPIP Community"
-          }
+          "browser": "spip"
         },
         {
           "match": "webnumbrFetcher/1.0*",
+          "browser": "webnumbr fetcher",
           "properties": {
-            "Browser": "webnumbr Fetcher",
             "Version": "1.0"
           }
         },
         {
           "match": "webnumbrFetcher/*",
-          "properties": {
-            "Browser": "webnumbr Fetcher"
-          }
+          "browser": "webnumbr fetcher"
         },
         {
           "match": "ARC Reader*",
-          "properties": {
-            "Browser": "ARC Reader"
-          }
+          "browser": "arc reader"
         },
         {
           "match": "Vinti/0.1*",
+          "browser": "vinti",
           "properties": {
-            "Browser": "Vinti",
             "Version": "0.1"
           }
         },
         {
           "match": "Vinti/*",
-          "properties": {
-            "Browser": "Vinti"
-          }
+          "browser": "vinti"
         },
         {
           "match": "EBSCO EJS Content Server*",
-          "properties": {
-            "Browser": "EBSCO EJS Content Server"
-          }
+          "browser": "ebsco ejs content server"
         },
         {
           "match": "HTTP Service*",
-          "properties": {
-            "Browser": "HTTP Service"
-          }
+          "browser": "http service"
         },
         {
           "match": "Mozilla/4.0 (compatible; Globel*",
-          "properties": {
-            "Browser": "Globel Bot"
-          }
+          "browser": "globel bot"
         },
         {
           "match": "BlueDragon*",
-          "properties": {
-            "Browser": "BlueDragon"
-          }
+          "browser": "bluedragon"
         },
         {
           "match": "Stewdio Windmaker 2.2*",
+          "browser": "windmaker bot",
           "properties": {
-            "Browser": "Windmaker Bot",
-            "Browser_Maker": "Stewart Smith",
             "Version": "2.2"
           }
         },
         {
           "match": "Stewdio Windmaker*",
-          "properties": {
-            "Browser": "Windmaker Bot",
-            "Browser_Maker": "Stewart Smith"
-          }
+          "browser": "windmaker bot"
         },
         {
           "match": "aboutthedomain*",
-          "properties": {
-            "Browser": "AboutTheDomain Bot",
-            "Browser_Maker": "AboutTheDomain.com"
-          }
+          "browser": "aboutthedomain bot"
         },
         {
           "match": "A1 Sitemap Generator*",
-          "properties": {
-            "Browser": "A1 Sitemap Generator"
-          }
+          "browser": "a1 sitemap generator"
         },
         {
           "match": "Mozilla/5.0 (compatible; Sitemap Generator/1.3*",
+          "browser": "sitemap generator",
           "properties": {
-            "Browser": "Sitemap Generator",
-            "Browser_Maker": "check-domains.com",
             "Version": "1.3"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Sitemap Generator/*",
-          "properties": {
-            "Browser": "Sitemap Generator",
-            "Browser_Maker": "check-domains.com"
-          }
+          "browser": "sitemap generator"
         },
         {
           "match": "HubPages V0.2*",
+          "browser": "hubpages bot",
           "properties": {
-            "Browser": "HubPages Bot",
-            "Browser_Maker": "HubPages Inc.",
             "Version": "0.2"
           }
         },
         {
           "match": "HubPages*",
-          "properties": {
-            "Browser": "HubPages Bot",
-            "Browser_Maker": "HubPages Inc."
-          }
+          "browser": "hubpages bot"
         },
         {
           "match": "Casterly*",
-          "properties": {
-            "Browser": "Casterly"
-          }
+          "browser": "casterly"
         },
         {
           "match": "UserAgent/*",
-          "properties": {
-            "Browser": "UserAgent Bot"
-          }
+          "browser": "useragent bot"
         },
         {
           "match": "wonderbot/JS 1.0*",
+          "browser": "wonderbot",
           "properties": {
-            "Browser": "wonderbot",
             "Version": "1.0"
           }
         },
         {
           "match": "wonderbot*",
-          "properties": {
-            "Browser": "wonderbot"
-          }
+          "browser": "wonderbot"
         },
         {
           "match": "DMCA.com Page Protection Crawling Service*",
-          "properties": {
-            "Browser": "DMCA Page Protection Crawling Service",
-            "Browser_Maker": "Digital Millennium Copyright Act Services Ltd."
-          }
+          "browser": "dmca page protection crawling service"
         },
         {
           "match": "Mozilla/5.0 (compatible; Gluten Free Crawler/1.0*",
+          "browser": "gluten free crawler",
           "properties": {
-            "Browser": "Gluten Free Crawler",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Gluten Free Crawler/*",
-          "properties": {
-            "Browser": "Gluten Free Crawler"
-          }
+          "browser": "gluten free crawler"
         },
         {
           "match": "abot/0.1*",
+          "browser": "abot",
           "properties": {
-            "Browser": "abot",
             "Version": "0.1"
           }
         },
         {
           "match": "abot/*",
-          "properties": {
-            "Browser": "abot"
-          }
+          "browser": "abot"
         },
         {
           "match": "AdnormCrawler*",
-          "properties": {
-            "Browser": "AdnormCrawler",
-            "Browser_Maker": "Adnorm, LLC."
-          }
+          "browser": "adnormcrawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; FatBot 2.0*",
+          "browser": "fatbot",
           "properties": {
-            "Browser": "FatBot",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; FatBot*",
-          "properties": {
-            "Browser": "FatBot"
-          }
+          "browser": "fatbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; InfuzApp/1.0*",
+          "browser": "infuzappbot",
           "properties": {
-            "Browser": "InfuzAppBot",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; InfuzApp/*",
-          "properties": {
-            "Browser": "InfuzAppBot"
-          }
+          "browser": "infuzappbot"
         },
         {
           "match": "wume_crawler/1.1*",
+          "browser": "wume crawler",
           "properties": {
-            "Browser": "wume crawler",
             "Version": "1.1"
           }
         },
         {
           "match": "wume_crawler/*",
-          "properties": {
-            "Browser": "wume crawler"
-          }
+          "browser": "wume crawler"
         },
         {
           "match": "Mozilla/4.0, VM-Crawler/*",
-          "properties": {
-            "Browser": "VM-Crawler"
-          }
+          "browser": "vm-crawler"
         },
         {
           "match": "OpenLink Virtuoso RDF crawler*",
-          "properties": {
-            "Browser": "RDF Crawler"
-          }
+          "browser": "rdf crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; SRCCN!Spider/1.1*",
+          "browser": "srccn!spider",
           "properties": {
-            "Browser": "SRCCN!Spider",
             "Version": "1.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SRCCN!Spider/*",
-          "properties": {
-            "Browser": "SRCCN!Spider"
-          }
+          "browser": "srccn!spider"
         },
         {
           "match": "ZoomInfo::Beehive Crawler*",
-          "properties": {
-            "Browser": "Beehive Crawler"
-          }
+          "browser": "beehive crawler"
         },
         {
           "match": "WinWebBot/1.0*",
+          "browser": "winwebbot",
           "properties": {
-            "Browser": "WinWebBot",
-            "Browser_Maker": "Balaena Ltd",
             "Version": "1.0"
           }
         },
         {
           "match": "WinWebBot/*",
-          "properties": {
-            "Browser": "WinWebBot",
-            "Browser_Maker": "Balaena Ltd"
-          }
+          "browser": "winwebbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; TeeRaidBot*",
-          "properties": {
-            "Browser": "TeeRaidBot",
-            "Browser_Maker": "TeeGrasp Ltd"
-          }
+          "browser": "teeraidbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; ToutiaoSpider/*",
-          "properties": {
-            "Browser": "ToutiaoSpider",
-            "Browser_Maker": "Toutiao"
-          }
+          "browser": "toutiaospider"
         },
         {
           "match": "Domain Re-Animator Bot*",
-          "properties": {
-            "Browser": "Domain Re-Animator Bot",
-            "Browser_Maker": "Domain Re-Animator, LLC"
-          }
+          "browser": "domain re-animator bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; AdlesseBot/*",
-          "properties": {
-            "Browser": "Adlesse Bot",
-            "Browser_Maker": "Adlesse"
-          }
+          "browser": "adlesse bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; AndersPinkBot/*",
-          "properties": {
-            "Browser": "Anders Pink Bot",
-            "Browser_Maker": "Anders Pink"
-          }
+          "browser": "anders pink bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Greplerbot/*",
-          "properties": {
-            "Browser": "Grepler Bot",
-            "Browser_Maker": "Grepler.com"
-          }
+          "browser": "grepler bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; YesupBot/*",
-          "properties": {
-            "Browser": "Yesup Bot",
-            "Browser_Maker": "Yesup"
-          }
+          "browser": "yesup bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; LinkisBot/*",
-          "properties": {
-            "Browser": "Linkis Bot",
-            "Browser_Maker": "Linkis.com"
-          }
+          "browser": "linkis bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; houzzbot*",
-          "properties": {
-            "Browser": "Houzz Bot",
-            "Browser_Maker": "Houzz Inc"
-          }
+          "browser": "houzz bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Faveeo/*",
-          "properties": {
-            "Browser": "Faveeo Bot",
-            "Browser_Maker": "Faveeo SA"
-          }
+          "browser": "faveeo bot"
         },
         {
           "match": "Bumble Bee/* (WikiApiary; *",
-          "properties": {
-            "Browser": "Bumble Bee Bot",
-            "Browser_Maker": "WikiApiary"
-          }
+          "browser": "bumble bee bot"
         },
         {
           "match": "PocketParser/*",
-          "properties": {
-            "Browser": "PocketParser Bot",
-            "Browser_Maker": "Read It Later, Inc"
-          }
+          "browser": "pocketparser bot"
         },
         {
           "match": "Ruby, Twurly v*",
-          "properties": {
-            "Browser": "Twurly Bot",
-            "Browser_Maker": "Darren Greaves"
-          }
+          "browser": "twurly bot"
         },
         {
           "match": "SafeDNSBot*",
-          "properties": {
-            "Browser": "SafeDNS Bot",
-            "Browser_Maker": "SafeDNS Inc"
-          }
+          "browser": "safedns bot"
         },
         {
           "match": "Web-sniffer/*",
-          "properties": {
-            "Browser": "Web Sniffer Bot"
-          }
+          "browser": "web sniffer bot"
         },
         {
           "match": "IAS crawler*",
-          "properties": {
-            "Browser": "IAS Crawler",
-            "Browser_Maker": "Integral Ad Science, Inc"
-          }
+          "browser": "ias crawler"
         },
         {
           "match": "YOTPO*",
-          "properties": {
-            "Browser": "Yotpo Bot",
-            "Browser_Maker": "Yotpo"
-          }
+          "browser": "yotpo bot"
         },
         {
           "match": "GermCrawler",
-          "properties": {
-            "Browser": "Germ Crawler"
-          }
+          "browser": "germ crawler"
         },
         {
           "match": "Fyrebot/*",
-          "properties": {
-            "Browser": "Fyre Bot",
-            "Browser_Maker": "Arild (https://github.com/ArildF)"
-          }
+          "browser": "fyre bot"
         },
         {
           "match": "istellabot/*",
-          "properties": {
-            "Browser": "Istella Bot",
-            "Browser_Maker": "Tiscali"
-          }
+          "browser": "istella bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Sysomos/*",
-          "properties": {
-            "Browser": "Sysomos Bot",
-            "Browser_Maker": "Sysomos"
-          }
+          "browser": "sysomos bot"
         },
         {
           "match": "SocialRankIOBot*",
-          "properties": {
-            "Browser": "Socialrank.io Bot",
-            "Browser_Maker": "Socialrank.io"
-          }
+          "browser": "socialrank.io bot"
         },
         {
           "match": "datagnionbot*",
-          "properties": {
-            "Browser": "Datagnion Bot",
-            "Browser_Maker": "Datagnion GmbH"
-          }
+          "browser": "datagnion bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; WebHistoryBot/*",
-          "properties": {
-            "Browser": "WebHistoryBot"
-          }
+          "browser": "webhistorybot"
         },
         {
           "match": "Mozilla/5.0 (*Windows*) AppleWebKit/* (*khtml*like*gecko* compatible; MailDBBot/*; +https://maildb.io/bot) Safari/*",
-          "properties": {
-            "Browser": "MailDB Bot",
-            "Browser_Maker": "MailDB"
-          }
+          "browser": "maildb bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; MuckRack/*; +http://muckrack.com)",
-          "properties": {
-            "Browser": "MuckRack Bot",
-            "Browser_Maker": "Muckrack.com"
-          }
+          "browser": "muckrack bot"
         },
         {
           "match": "Mozilla Metadata Service *",
-          "properties": {
-            "Browser": "Mozilla Metadata Service",
-            "Browser_Maker": "Mozilla Foundation"
-          }
+          "browser": "mozilla metadata service"
         },
         {
           "match": "Mozilla/5.0 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)",
-          "properties": {
-            "Browser": "Wappalyzer",
-            "Browser_Maker": "Elbert Alias"
-          }
+          "browser": "wappalyzer"
         },
         {
           "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* XaxisSemanticsClassifier/*",
-          "properties": {
-            "Browser": "Xaxis Semantics Classifier",
-            "Browser_Maker": "Xaxis"
-          }
+          "browser": "xaxis semantics classifier"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* moatbot",
-          "properties": {
-            "Browser": "Moat Bot",
-            "Browser_Maker": "Moat, Inc."
-          }
+          "browser": "moat bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; Discordbot/*https://discordapp.com)",
-          "properties": {
-            "Browser": "Discord Bot",
-            "Browser_Maker": "Discord"
-          }
+          "browser": "discord bot"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)",
-          "properties": {
-            "Browser": "Retrevo Page Analyzer",
-            "Browser_Maker": "Retrevo Inc."
-          }
+          "browser": "retrevo page analyzer"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) CrawlerProcess (http://www.PowerMapper.com)*",
-          "properties": {
-            "Browser": "Powermapper Bot",
-            "Browser_Maker": "PowerMapper.com"
-          }
+          "browser": "powermapper bot"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*) CrawlerProcess (http://www.PowerMapper.com)*",
-          "properties": {
-            "Browser": "Powermapper Bot",
-            "Browser_Maker": "PowerMapper.com"
-          }
+          "browser": "powermapper bot"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; DomainDB-*; http://domaindb.com/crawler/)",
-          "properties": {
-            "Browser": "DomainDB Crawler",
-            "Browser_Maker": "domaindb.com"
-          }
+          "browser": "domaindb crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Clarsentia)",
-          "properties": {
-            "Browser": "Clarsentia Bot",
-            "Browser_Maker": "Clarsentia"
-          }
+          "browser": "clarsentia bot"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* DareBoost",
-          "properties": {
-            "Browser": "DareBoost Bot",
-            "Browser_Maker": "DareBoost"
-          }
+          "browser": "dareboost bot"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* DareBoost",
-          "properties": {
-            "Browser": "DareBoost Bot",
-            "Browser_Maker": "DareBoost"
-          }
+          "browser": "dareboost bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* DareBoost",
-          "properties": {
-            "Browser": "DareBoost Bot",
-            "Browser_Maker": "DareBoost"
-          }
+          "browser": "dareboost bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64; rv:*) Gecko/20100101 Firefox/* DareBoost",
-          "properties": {
-            "Browser": "DareBoost Bot",
-            "Browser_Maker": "DareBoost"
-          }
+          "browser": "dareboost bot"
         },
         {
           "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* DareBoost",
-          "properties": {
-            "Browser": "DareBoost Bot",
-            "Browser_Maker": "DareBoost"
-          }
+          "browser": "dareboost bot"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* http://spyonweb.com spyonweb@gmail.com",
-          "properties": {
-            "Browser": "SpyOnWeb Bot",
-            "Browser_Maker": "spyonweb.com"
-          }
+          "browser": "spyonweb bot"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit/* (*khtml*like*gecko*) YLT Chrome/* Safari/*",
-          "properties": {
-            "Browser": "YellowLabTools Bot",
-            "Browser_Maker": "yellowlab.tools"
-          }
+          "browser": "yellowlabtools bot"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *; compatible; BDCbot/*; +http://*.bigdatacorp.com.br/faq.aspx) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "properties": {
-            "Browser": "BigDataCorp Bot",
-            "Browser_Maker": "bigweb.bigdatacorp.com.br"
-          }
+          "browser": "bigdatacorp bot"
         },
         {
           "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; aylienbot/*; +http://www.aylien.com/bot.html)",
-          "properties": {
-            "Browser": "AylienBot",
-            "Browser_Maker": "aylien.com"
-          }
+          "browser": "aylienbot"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *; rv:*) Gecko/20100101 Firefox/* Evidon (lab@evidon.com)",
-          "properties": {
-            "Browser": "Evidon Bot",
-            "Browser_Maker": "evidon.com"
-          }
+          "browser": "evidon bot"
         },
         {
           "match": "Mozilla/5.0 (Windows; U; Windows NT *; en-US; rv:*) Gecko/* Firefox/* (BrowserSpyBot/*) (http://browserspy.dk/)",
-          "properties": {
-            "Browser": "BrowserSpyBot",
-            "Browser_Maker": "browserspy.dk"
-          }
+          "browser": "browserspybot"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *; rv:*) Gecko/20100101 Firefox/* glindahl-cocrawler/*",
-          "properties": {
-            "Browser": "cocrawler",
-            "Browser_Maker": "Greg Lindahl"
-          }
+          "browser": "cocrawler"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko*) Version/* Instapaper/* (+http://www.instapaper.com/)",
-          "properties": {
-            "Browser": "Instapaper Bot",
-            "Browser_Maker": "instapaper.com"
-          }
+          "browser": "instapaper bot"
         },
         {
           "match": "Mozilla/5.0 (* like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* mixed-content-scan",
-          "properties": {
-            "Browser": "mixed-content-scan",
-            "Browser_Maker": "Bramus!"
-          }
+          "browser": "mixed-content-scan"
         },
         {
           "match": "Mozilla/4.0 (compatible; IDwhois/*; Linux; en-US; +http://idwhois.info/about)",
-          "properties": {
-            "Browser": "IDwhois Bot",
-            "Browser_Maker": "idwhois.info"
-          }
+          "browser": "idwhois bot"
         },
         {
           "match": "lua-resty-http/0.10 *",
+          "browser": "lua http client cosocket driver",
           "properties": {
-            "Browser": "Lua HTTP client cosocket driver",
-            "Browser_Maker": "James Hurst",
             "Version": "0.10"
           }
         },
         {
           "match": "lua-resty-http/*",
-          "properties": {
-            "Browser": "Lua HTTP client cosocket driver",
-            "Browser_Maker": "James Hurst"
-          }
+          "browser": "lua http client cosocket driver"
         }
       ]
     }

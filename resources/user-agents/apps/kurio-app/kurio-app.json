@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Kurio App",
+      "browser": "kurio app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "CIDE Interactive",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Kurio App",
-        "Browser": "Kurio App"
+        "Comment": "Kurio App"
       },
       "children": [
         {

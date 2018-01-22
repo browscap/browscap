@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Twitter App for iOS",
+      "browser": "twitter app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Twitter App",
-        "Browser": "Twitter App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Twitter"
+        "Comment": "Twitter App"
       },
       "children": [
         {
@@ -58,15 +56,13 @@
     },
     {
       "userAgent": "Twitter App for Android",
-      "engine": "Blink",
+      "browser": "twitter app",
       "platform": "Android",
+      "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Twitter App",
-        "Browser": "Twitter App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Twitter"
+        "Comment": "Twitter App"
       },
       "children": [
         {

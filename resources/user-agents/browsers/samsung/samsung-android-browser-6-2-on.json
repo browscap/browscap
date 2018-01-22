@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Samsung Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Samsung",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -32,15 +30,15 @@
           ]
         },
         {
-        "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-        "devices": {
-          "SM-J320F*": "Samsung SM-J320F"
-        },
-        "platforms": [
-          "Android_7_1", "Android_7_0",
-          "Android_6_0",
-          "Android_5_1"
-        ]
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-J320F*": "Samsung SM-J320F"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",

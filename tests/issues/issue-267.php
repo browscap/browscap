@@ -4404,6 +4404,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-267-DB (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-267-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0',
         'properties' => [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Jig Browser",
+      "browser": "jig browser web",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Jig Browser",
-        "Browser": "jig browser web",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "W3C",
-        "Crawler": "false"
+        "Comment": "Jig Browser"
       },
       "children": [
         {

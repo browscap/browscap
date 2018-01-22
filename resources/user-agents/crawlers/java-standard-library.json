@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Java Standard Library",
+      "browser": "java standard library",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Java Standard Library",
-        "Browser": "Java Standard Library",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Oracle",
-        "Crawler": "true"
+        "Comment": "Java Standard Library"
       },
       "children": [
         {

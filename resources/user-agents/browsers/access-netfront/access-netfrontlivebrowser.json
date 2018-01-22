@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
+      "browser": "netfrontlifebrowser",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "NetFrontLifeBrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Access",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

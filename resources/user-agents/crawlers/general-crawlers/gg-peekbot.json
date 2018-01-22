@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GG PeekBot",
+      "browser": "gg peekbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GG PeekBot",
-        "Browser": "GG PeekBot",
-        "Browser_Maker": "gadu-gadu.pl",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "GG PeekBot"
       },
       "children": [
         {

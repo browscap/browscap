@@ -3942,6 +3942,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-563-BY (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; az-az; SAMSUNG SM-T331 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-563-BZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; B15Q Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36',
         'properties' => [
@@ -4143,6 +4156,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-563-CC (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; en-gb; Vodafone Smart Tab 3G Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-563-CD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; FLY IQ4410 Quad Phoenix Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -6679,6 +6705,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-563-ED (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; Lenovo S920_ROW Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-563-EE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; PMSmart450 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',

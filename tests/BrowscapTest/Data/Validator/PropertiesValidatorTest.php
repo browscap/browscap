@@ -18,6 +18,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object = new PropertiesValidator();
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckPropertyWithoutVersion() : void
     {
         $this->expectException(LogicException::class);
@@ -27,6 +30,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckPropertyWithoutParent() : void
     {
         $this->expectException(LogicException::class);
@@ -39,6 +45,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckPropertyWithoutDeviceType() : void
     {
         $this->expectException(LogicException::class);
@@ -52,6 +61,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckPropertyWithoutIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -66,6 +78,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckPropertyWithoutIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -81,6 +96,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckTabletMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -97,6 +115,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckTabletMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -113,6 +134,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckMobileMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -129,6 +153,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckMobileMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -145,6 +172,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckDesktopMismatchIsTablet() : void
     {
         $this->expectException(LogicException::class);
@@ -161,6 +191,9 @@ class PropertiesValidatorTest extends TestCase
         $this->object->validate($properties, 'test');
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCheckDesktopMismatchIsMobileDevice() : void
     {
         $this->expectException(LogicException::class);
@@ -179,6 +212,8 @@ class PropertiesValidatorTest extends TestCase
 
     /**
      * tests if no error is raised if all went well
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testCheckPropertyOkDesktop() : void
     {
@@ -197,6 +232,8 @@ class PropertiesValidatorTest extends TestCase
 
     /**
      * tests if no error is raised if all went well
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testCheckPropertyOkTablet() : void
     {
@@ -215,6 +252,8 @@ class PropertiesValidatorTest extends TestCase
 
     /**
      * tests if no error is raised if all went well
+     *
+     * @throws \Assert\AssertionFailedException
      */
     public function testCheckPropertyOkMobile() : void
     {

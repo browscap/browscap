@@ -6,47 +6,43 @@
   "userAgents": [
     {
       "userAgent": "Spinn3r RSS Aggregator",
+      "browser": "spinn3r rss aggregator",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Spinn3r RSS Aggregator",
-        "Browser": "Spinn3r RSS Aggregator",
-        "Browser_Maker": "Tailrank Inc",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Spinn3r RSS Aggregator"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.3"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.1"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.1"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",

@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "WhatsApp Bot Generic",
+      "browser": "whatsapp bot",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WhatsApp Bot Generic",
-        "Browser": "WhatsApp Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Facebook",
-        "Crawler": "true"
+        "Comment": "WhatsApp Bot Generic"
       },
       "children": [
         {

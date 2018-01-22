@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Picsearch Bot",
+      "browser": "picsearch bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Picsearch Bot",
-        "Browser": "Picsearch Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Picsearch Services AB",
-        "Crawler": "true"
+        "Comment": "Picsearch Bot"
       },
       "children": [
         {

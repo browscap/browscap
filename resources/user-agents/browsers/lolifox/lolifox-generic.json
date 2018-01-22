@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "lolifox Generic",
+      "browser": "lolifox",
       "engine": "Gecko_1_8_1",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "lolifox Generic",
-        "Browser": "lolifox",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Browser"
+        "Comment": "lolifox Generic"
       },
       "children": [
         {

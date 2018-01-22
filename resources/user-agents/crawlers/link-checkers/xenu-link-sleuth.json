@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Xenus Link Sleuth",
+      "browser": "xenus link sleuth",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Xenus Link Sleuth",
-        "Browser": "Xenus Link Sleuth",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Xenus Link Sleuth"
       },
       "children": [
         {

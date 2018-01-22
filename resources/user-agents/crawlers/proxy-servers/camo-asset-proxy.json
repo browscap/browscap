@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Camo Asset Proxy",
+      "browser": "camo asset proxy",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Camo Asset Proxy",
-        "Browser": "Camo Asset Proxy",
-        "Browser_Maker": "Corey Donohoe",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Camo Asset Proxy"
       },
       "children": [
         {

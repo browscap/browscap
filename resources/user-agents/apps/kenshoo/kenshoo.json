@@ -6,38 +6,34 @@
   "userAgents": [
     {
       "userAgent": "Kenshoo",
-      "device": "Windows Desktop",
+      "browser": "kenshoo",
       "platform": "Windows",
       "engine": "Blink",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Kenshoo, Ltd.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Kenshoo",
-        "Browser": "Kenshoo"
+        "Comment": "Kenshoo"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/* Kenshoo/*",
           "platforms": [
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32"
           ]
         }
       ]
     },
     {
       "userAgent": "Kenshoo for Darwin",
+      "browser": "kenshoo",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Kenshoo, Ltd.",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Kenshoo for Darwin",
-        "Browser": "Kenshoo"
+        "Comment": "Kenshoo for Darwin"
       },
       "children": [
         {

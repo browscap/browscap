@@ -203,21 +203,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1408-D (standard)' => [
-        'ua' => 'SAMSUNG-GT-S3501C/1.0 Release/09.10.2009 Browser/NetFront3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0',
-        'properties' => [
-            'Comment' => 'Access NetFront Generic',
-            'Browser' => 'NetFront',
-            'Browser_Maker' => 'Access',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1408-E' => [
         'ua' => 'SAMSUNG-GT-S3770Y/S3770YXXLC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
@@ -4107,21 +4092,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1408-CN (standard)' => [
-        'ua' => 'SonyEricssonK550i//R6BC Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Access NetFront 3.3',
-            'Browser' => 'NetFront',
-            'Browser_Maker' => 'Access',
-            'Version' => '3.3',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1408-CO' => [
         'ua' => 'SonyEricssonK600c/R2G Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         'properties' => [
@@ -4250,21 +4220,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1408-CQ (standard)' => [
-        'ua' => 'SonyEricssonW910i/R1FA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonW910i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
-        'properties' => [
-            'Comment' => 'General Crawlers',
-            'Browser' => 'General Crawlers',
-            'Browser_Maker' => 'unknown',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'unknown',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1408-CR' => [
         'ua' => 'SonyEricssonw580i/R4EA Java/SEMC-Java/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 sonyericssonw580i',

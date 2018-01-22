@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Phoenix Generic",
+      "browser": "phoenix",
       "engine": "Gecko_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Phoenix Generic",
-        "Browser": "Phoenix",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Phoenix Generic"
       },
       "children": [
         {
@@ -27,7 +25,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Phoenix/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win98", "Win2000", "WinXPa_32", "NT4_B"
+            "WinXPa_32",
+            "Win2000",
+            "NT4_B",
+            "Win98"
           ]
         },
         {

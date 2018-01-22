@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
+      "browser": "firefox",
       "platform": "FirefoxOS_2_5",
       "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Beta": "true"
       },
@@ -41,10 +39,10 @@
         },
         {
           "match": "Mozilla/5.0 (Tablet; *rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
           "properties": {
             "isModified": "true"
-          },
-          "device": "general Tablet"
+          }
         }
       ]
     }

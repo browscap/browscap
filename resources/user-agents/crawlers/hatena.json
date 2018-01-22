@@ -6,70 +6,52 @@
   "userAgents": [
     {
       "userAgent": "Hatena",
+      "browser": "hatena",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Hatena",
-        "Browser": "Hatena",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Hatena"
       },
       "children": [
         {
           "match": "Feed::Find/*",
-          "properties": {
-            "Browser": "Feed Find",
-            "isSyndicationReader": "true"
-          }
+          "browser": "feed find"
         },
         {
           "match": "Hatena Antenna/*",
-          "properties": {
-            "Browser": "Hatena Antenna"
-          }
+          "browser": "hatena antenna"
         },
         {
           "match": "Hatena Bookmark/*",
-          "properties": {
-            "Browser": "Hatena Bookmark"
-          }
+          "browser": "hatena bookmark"
         },
         {
           "match": "Hatena RSS/*",
-          "properties": {
-            "Browser": "Hatena RSS",
-            "isSyndicationReader": "true"
-          }
+          "browser": "hatena rss"
         },
         {
           "match": "Hatena::Crawler/*",
-          "properties": {
-            "Browser": "Hatena Crawler"
-          }
+          "browser": "hatena crawler"
         },
         {
           "match": "HatenaScreenshot*",
-          "properties": {
-            "Browser": "HatenaScreenshot"
-          }
+          "browser": "hatenascreenshot"
         },
         {
           "match": "URI::Fetch/*",
-          "properties": {
-            "Browser": "URI::Fetch"
-          }
+          "browser": "uri::fetch"
         },
         {
           "match": "DoCoMo/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway/1.2; +http://mgw.hatena.ne.jp/help)",
+          "browser": "hatena-mobile-gateway",
           "device": "general Mobile Device",
           "properties": {
-            "Browser": "Hatena-Mobile-Gateway",
             "Version": "1.2"
           }
         },
         {
           "match": "Hatena::Bookmark/2.00*",
+          "browser": "hatena::bookmark",
           "properties": {
-            "Browser": "Hatena::Bookmark",
             "Version": "2.0"
           }
         }

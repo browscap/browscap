@@ -44,6 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-681-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-681-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22',
         'properties' => [
@@ -187,6 +200,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-681-D (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 2.0',
+            'Browser' => 'Android WebView',
+            'Version' => '2.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-681-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Mobile Safari/537.36',

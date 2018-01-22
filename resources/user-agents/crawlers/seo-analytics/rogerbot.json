@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "rogerbot",
+      "browser": "rogerbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Rogerbot",
-        "Browser": "Rogerbot",
-        "Browser_Maker": "SEOmoz",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Rogerbot"
       },
       "children": [
         {

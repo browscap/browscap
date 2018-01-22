@@ -6,52 +6,44 @@
   "userAgents": [
     {
       "userAgent": "GurujiBot",
+      "browser": "gurujibot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GurujiBot",
-        "Browser": "GurujiBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "GurujiBot"
       },
       "children": [
         {
           "match": "GurujiBot/1.0*",
+          "browser": "gurujibot",
           "properties": {
-            "Browser": "GurujiBot",
             "Version": "1.0"
           }
         },
         {
           "match": "GurujiBot/*",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         },
         {
           "match": "Mozilla/5.0 GurujiBot/1.0*",
+          "browser": "gurujibot",
           "properties": {
-            "Browser": "GurujiBot",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 GurujiBot/*",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         },
         {
           "match": "Mozilla/5.0 (compatible; GurujiBot/1.0*",
+          "browser": "gurujibot",
           "properties": {
-            "Browser": "GurujiBot",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; GurujiBot/*",
-          "properties": {
-            "Browser": "GurujiBot"
-          }
+          "browser": "gurujibot"
         }
       ]
     }

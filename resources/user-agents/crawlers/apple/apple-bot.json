@@ -7,16 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Applebot #MAJORVER#.#MINORVER#",
-      "device": "Macintosh",
+      "browser": "applebot",
       "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Applebot #MAJORVER#.#MINORVER#",
-        "Browser": "Applebot",
-        "Browser_Maker": "Apple Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -24,8 +21,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (*Applebot/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "iOS_A",
-            "OSX"
+            "OSX",
+            "iOS_A"
           ]
         }
       ]

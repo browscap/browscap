@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Box App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "baidu box app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
-        "Browser": "Baidu Box App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

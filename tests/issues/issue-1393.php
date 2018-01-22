@@ -1284,21 +1284,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-Z (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AA' => [
         'ua' => 'HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)',
         'properties' => [
@@ -1557,21 +1542,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AF (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Vodafone/1.0/HTC_Touch_Pro/%ROM_VERSION%',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AG' => [
         'ua' => 'HTC_TyTN_II Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)',
         'properties' => [
@@ -1701,21 +1671,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AI (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Mozart)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AJ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Pro T7576)',
         'properties' => [
@@ -1758,21 +1713,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-AJ (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Pro T7576)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-AK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; Windows Phone 8S By HTC)',
@@ -1817,21 +1757,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AK (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; Windows Phone 8S By HTC)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AL' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-E900)',
         'properties' => [
@@ -1874,21 +1799,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-AL (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; LG-E900)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-AM' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 1520)',
@@ -1933,21 +1843,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AM (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 1520)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 720)',
         'properties' => [
@@ -1990,21 +1885,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-AN (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 720)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-AO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 820)',
@@ -2049,21 +1929,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AO (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 820)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 920)',
         'properties' => [
@@ -2106,21 +1971,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-AP (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 920)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 925)',
@@ -2165,21 +2015,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AQ (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 925)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 930)',
         'properties' => [
@@ -2223,21 +2058,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-AR (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 930)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-AS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; OMNIA7)',
         'properties' => [
@@ -2280,21 +2100,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-AS (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; OMNIA7)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-AT' => [
         'ua' => 'HTC_P3650 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)',
@@ -2640,21 +2445,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BA (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_Elf/1.11.164.2',
         'properties' => [
@@ -2698,21 +2488,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BB (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_Elf/1.11.164.2',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_VPACompactIV/4.14.162.2',
         'properties' => [
@@ -2755,21 +2530,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-BC (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_VPACompactIV/4.14.162.2',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-BD' => [
         'ua' => 'HTC_TyTN Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)',
@@ -2857,21 +2617,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BE (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BF' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5 HTC_HD2/1.0)',
         'properties' => [
@@ -2914,21 +2659,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-BF (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5 HTC_HD2/1.0)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'WinXP',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-BG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)',
@@ -2973,21 +2703,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BG (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'WinXP',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.0)',
         'properties' => [
@@ -3031,21 +2746,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BH (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.0)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BI' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows CE)',
         'properties' => [
@@ -3088,21 +2788,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-BI (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows CE)',
-        'properties' => [
-            'Comment' => 'IE 5.5',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.5',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-BJ' => [
         'ua' => 'htc900/ (compatible; MSIE 4.01; Windows CE; Smartphone; 240x320)',
@@ -3405,21 +3090,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BP (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; O2 Xda 2s;PPC;240x320; PPC; 240x320)',
-        'properties' => [
-            'Comment' => 'IE 4.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '4.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda neo; 240x320)',
         'properties' => [
@@ -3462,21 +3132,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-BQ (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Xda neo; 240x320)',
-        'properties' => [
-            'Comment' => 'IE 4.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '4.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1393-BR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)',
@@ -3521,21 +3176,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1393-BR (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE)',
-        'properties' => [
-            'Comment' => 'IE 4.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '4.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1393-BS' => [
         'ua' => 'Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)',
         'properties' => [
@@ -3578,20 +3218,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1393-BS (standard)' => [
-        'ua' => 'Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)',
-        'properties' => [
-            'Comment' => 'Netscape 2.0',
-            'Browser' => 'Netscape',
-            'Browser_Maker' => 'Netscape',
-            'Version' => '2.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
 ];

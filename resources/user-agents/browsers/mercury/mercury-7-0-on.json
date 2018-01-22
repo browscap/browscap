@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Mercury #MAJORVER#.#MINORVER#",
+      "browser": "mercury",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mercury #MAJORVER#.#MINORVER#",
-        "Browser": "Mercury",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "iLegendSoft, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

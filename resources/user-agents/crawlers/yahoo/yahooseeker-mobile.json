@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "YahooSeeker-Mobile",
+      "browser": "yahooseeker-mobile",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YahooSeeker-Mobile",
-        "Browser": "YahooSeeker-Mobile",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "YahooSeeker-Mobile"
       },
       "children": [
         {

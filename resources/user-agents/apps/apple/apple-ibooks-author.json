@@ -6,25 +6,22 @@
   "userAgents": [
     {
       "userAgent": "iBooks Author",
+      "browser": "ibooks author",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iBooks Author",
-        "Browser": "iBooks Author",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iBooks Author/*",
           "platforms": [
-            "OSX_10_10", "OSX"
+            "OSX_10_10",
+            "OSX"
           ]
         }
       ]

@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "TazWeb",
+      "browser": "tazweb",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TazWeb",
-        "Browser": "TazWeb",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tassaris"
+        "Comment": "TazWeb"
       },
       "children": [
         {

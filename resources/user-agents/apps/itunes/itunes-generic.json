@@ -6,30 +6,24 @@
   "userAgents": [
     {
       "userAgent": "iTunes Generic",
+      "browser": "itunes",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes Generic",
-        "Browser": "iTunes",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "iTunes/* (#PLATFORM#)*",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
-            "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
-            "OSX_10_4", "OSX_10_3", "OSX_10_2", "OSX_10_1",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4", "OSX_10_3", "OSX_10_2", "OSX_10_1",
             "OSX",
-            "OSX_B_10_12", "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9",
-            "OSX_B_10_8", "OSX_B_10_7", "OSX_B_10_6", "OSX_B_10_5",
-            "OSX_B_10_4", "OSX_B_10_3", "OSX_B_10_2", "OSX_B_10_1",
+            "OSX_B_10_12",
+            "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8", "OSX_B_10_7", "OSX_B_10_6", "OSX_B_10_5", "OSX_B_10_4", "OSX_B_10_3", "OSX_B_10_2", "OSX_B_10_1",
             "OSX_B"
           ]
         },
@@ -37,7 +31,8 @@
           "match": "iTunes/* (#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "Windows_64"
+            "Windows_64",
+            "Windows"
           ]
         },
         {

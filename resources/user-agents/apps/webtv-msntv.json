@@ -6,13 +6,12 @@
   "userAgents": [
     {
       "userAgent": "WebTV",
+      "browser": "webtv/msntv",
       "platform": "Windows",
       "device": "WebTV",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebTV/MSNTV",
-        "Browser": "WebTV/MSNTV",
-        "Browser_Type": "Application"
+        "Comment": "WebTV/MSNTV"
       },
       "children": [
         {
@@ -83,9 +82,7 @@
         },
         {
           "match": "Mozilla/3.01 (compatible; Netgem/*; Linux 2.2)",
-          "properties": {
-            "Browser": "Netgem Set Top Box"
-          },
+          "browser": "netgem set top box",
           "device": "general TV Device",
           "platforms": [
             "Linux"

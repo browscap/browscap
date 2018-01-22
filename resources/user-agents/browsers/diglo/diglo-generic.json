@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Diglo Generic",
+      "browser": "diglo",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Diglo Generic",
-        "Browser": "Diglo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Diglo Inc"
+        "Comment": "Diglo Generic"
       },
       "children": [
         {

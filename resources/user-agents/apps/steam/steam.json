@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Steam Overlay",
+      "browser": "steam overlay",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Steam Overlay",
-        "Browser": "Steam Overlay",
-        "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application"
+        "Comment": "Steam Overlay"
       },
       "children": [
         {
@@ -27,12 +25,14 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam GameOverlay*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_32",
-            "Win7_32",
-            "Win8_32",
+            "Win10_32_B",
+            "Win10_32",
             "Win8_1_32",
-            "Win10_32", "Win10_32_B",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
@@ -40,7 +40,8 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam GameOverlay*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_C_10_12", "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
+            "OSX_C_10_12",
+            "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
             "OSX_C"
           ]
         }
@@ -48,14 +49,12 @@
     },
     {
       "userAgent": "Steam Client",
+      "browser": "steam",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Steam Client",
-        "Browser": "Steam",
-        "Browser_Maker": "Valve Corporation",
-        "Browser_Type": "Application"
+        "Comment": "Steam Client"
       },
       "children": [
         {
@@ -69,12 +68,14 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve *Client*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_32",
-            "Win7_32",
-            "Win8_32",
+            "Win10_32_B",
+            "Win10_32",
             "Win8_1_32",
-            "Win10_32", "Win10_32_B",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
@@ -82,15 +83,14 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve *Client*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_C_10_12", "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
+            "OSX_C_10_12",
+            "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
             "OSX_C"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "properties": {
-            "Browser": "Steam Big Picture"
-          },
+          "browser": "steam big picture",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
@@ -98,28 +98,27 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "properties": {
-            "Browser": "Steam Big Picture"
-          },
+          "browser": "steam big picture",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Vista_32",
-            "Win7_32",
-            "Win8_32",
+            "Win10_32_B",
+            "Win10_32",
             "Win8_1_32",
-            "Win10_32", "Win10_32_B",
+            "Win8_32",
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam Tenfoot*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
-          "properties": {
-            "Browser": "Steam Big Picture"
-          },
+          "browser": "steam big picture",
           "device": "Macintosh",
           "platforms": [
-            "OSX_C_10_12", "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
+            "OSX_C_10_12",
+            "OSX_C_10_11", "OSX_C_10_10", "OSX_C_10_9", "OSX_C_10_8", "OSX_C_10_7", "OSX_C_10_6", "OSX_C_10_5",
             "OSX_C"
           ]
         }

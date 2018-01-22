@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "iPick",
+      "browser": "ipick",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iPick",
-        "Browser": "iPick",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "iPick/1.7* CFNetwork/*",
-          "properties": {
-            "Version": "1.7"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.7"
+          }
         },
         {
           "match": "iPick* CFNetwork/*",

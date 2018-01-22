@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "browser": "thunderbird",
       "engine": "Gecko_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
-        "Browser": "Thunderbird",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Email Client",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -30,9 +28,12 @@
           "device": "Windows Desktop",
           "platforms": [
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "NT4",
-            "Win98", "WinME"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4",
+            "WinME",
+            "Win98"
           ]
         },
         {

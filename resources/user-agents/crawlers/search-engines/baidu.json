@@ -6,96 +6,69 @@
   "userAgents": [
     {
       "userAgent": "Baidu",
+      "browser": "baidu",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu",
-        "Browser": "Baidu",
-        "Browser_Maker": "Baidu",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Baidu"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible;*Baiduspider/2.0*",
+          "browser": "baiduspider",
           "properties": {
-            "Browser": "Baiduspider",
             "Version": "2.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible;*Baiduspider/*",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "Baiduspider-image*",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         },
         {
           "match": "*Baiduspider-ads*",
-          "properties": {
-            "Browser": "Baidu Business Search"
-          }
+          "browser": "baidu business search"
         },
         {
           "match": "*Baiduspider-cpro*",
-          "properties": {
-            "Browser": "Baidu Union"
-          }
+          "browser": "baidu union"
         },
         {
           "match": "*Baiduspider-favo*",
-          "properties": {
-            "Browser": "Baidu bookmark"
-          }
+          "browser": "baidu bookmark"
         },
         {
           "match": "*Baiduspider-image*",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         },
         {
           "match": "*Baiduspider-news*",
-          "properties": {
-            "Browser": "Baidu News search"
-          }
+          "browser": "baidu news search"
         },
         {
           "match": "*Baiduspider-video*",
-          "properties": {
-            "Browser": "Baidu Video search"
-          }
+          "browser": "baidu video search"
         },
         {
           "match": "Baiduspider*",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "*Baiduspider*",
-          "properties": {
-            "Browser": "Baiduspider"
-          }
+          "browser": "baiduspider"
         },
         {
           "match": "baidu bot*"
         },
         {
           "match": "AC-BaiduBot/*",
-          "properties": {
-            "Browser": "AC-BaiduBot"
-          }
+          "browser": "ac-baidubot"
         },
         {
           "match": "BaiduImageSpider*",
-          "properties": {
-            "Browser": "Baidu Image Search"
-          }
+          "browser": "baidu image search"
         }
       ]
     }

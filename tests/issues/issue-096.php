@@ -519,6 +519,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-096-BU (lite)' => [
+        'ua' => 'Firefox/25.0 (de); anonymized by Abelssoft 1704153795',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-096-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; GT-I5700 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1',
         'properties' => [
@@ -561,6 +574,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-096-BT (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; GT-I5700 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1',
+        'properties' => [
+            'Comment' => 'Android Browser Generic',
+            'Browser' => 'Android',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-096-BS' => [
         'ua' => 'iBrowser/3.1/Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-I5510 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -1007,6 +1033,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-096-BJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (masking-agent; rv:15.0) Gecko/20100101 Firefox/15.0.1',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'unknown',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-096-BI' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU iPhone OS 5_1_1 like Mac OS X; en_US) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/en_US;FBSF/2.0]',
         'properties' => [
@@ -1251,6 +1290,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-096-BE (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:) Gecko/20100101 Firefox/ anonymized by Abelssoft 1433017337',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-096-BD' => [
         'ua' => 'AT-AS40SE Linux/3.0.13 Android/4.0.4 Release/04.10.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
@@ -1942,21 +1994,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-096-AP (standard)' => [
-        'ua' => 'Opera/9.80 (Bada; Opera Mini/6.5/34.1016; U; tr) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-096-AO' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/6.5/34.1016; U; en) Presto/2.8.119 Version/11.10',
         'properties' => [
@@ -2359,6 +2396,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-096-AG (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win8.1',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-096-AF' => [
         'ua' => 'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
         'properties' => [
@@ -2546,6 +2596,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-096-AC (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-096-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
@@ -2631,6 +2694,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-096-AA (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-096-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; ALCATEL ONE TOUCH 4030D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',

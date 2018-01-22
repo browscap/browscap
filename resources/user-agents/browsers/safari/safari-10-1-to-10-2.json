@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -23,7 +21,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },
@@ -31,7 +30,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         }

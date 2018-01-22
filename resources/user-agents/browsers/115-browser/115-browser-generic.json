@@ -6,21 +6,20 @@
   "userAgents": [
     {
       "userAgent": "115 Browser Generic",
+      "browser": "115 browser",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "115 Browser Generic",
-        "Browser": "115 Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "115.com"
+        "Comment": "115 Browser Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* 115Browser/*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -31,7 +30,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* 115Browser/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10",
             "OSX"
           ]
         }

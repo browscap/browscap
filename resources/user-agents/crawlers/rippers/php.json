@@ -6,59 +6,39 @@
   "userAgents": [
     {
       "userAgent": "PHP",
+      "browser": "php",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PHP",
-        "Browser": "PHP",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser_Maker": "the PHP Group"
+        "Comment": "PHP"
       },
       "children": [
         {
           "match": "httpclient (http://www.phpclasses.org/httpclient $Revision:*",
-          "properties": {
-            "Browser": "httpclient",
-            "Browser_Maker": "www.phpclasses.org"
-          }
+          "browser": "httpclient"
         },
         {
           "match": "PECL::HTTP/1.6*",
+          "browser": "pecl http",
           "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler",
             "Version": "1.6"
           }
         },
         {
           "match": "PECL::HTTP/1.7*",
+          "browser": "pecl http",
           "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler",
             "Version": "1.7"
           }
         },
         {
           "match": "PECL::HTTP/*",
-          "properties": {
-            "Browser": "PECL HTTP",
-            "Browser_Maker": "unknown",
-            "Browser_Type": "Bot/Crawler"
-          }
+          "browser": "pecl http"
         },
         {
-          "match": "?Ogg.class.php*",
-          "properties": {
-            "Browser_Maker": "unknown"
-          }
+          "match": "?Ogg.class.php*"
         },
         {
-          "match": "Ogg.class.php*",
-          "properties": {
-            "Browser_Maker": "unknown"
-          }
+          "match": "Ogg.class.php*"
         },
         {
           "match": "xmlrpc-epi-php/* (PHP)"
@@ -95,23 +75,15 @@
         },
         {
           "match": "XML-RPC for PHP *",
-          "properties": {
-            "Browser": "XML-RPC for PHP"
-          }
+          "browser": "xml-rpc for php"
         },
         {
           "match": "Zend_XmlRpc_Client",
-          "properties": {
-            "Browser": "Zend_XmlRpc_Client",
-            "Browser_Maker": "Zend Technologies Ltd."
-          }
+          "browser": "zend_xmlrpc_client"
         },
         {
           "match": "Zend_Http_Client",
-          "properties": {
-            "Browser": "Zend_Http_Client",
-            "Browser_Maker": "Zend Technologies Ltd."
-          }
+          "browser": "zend_http_client"
         },
         {
           "match": "PHP/5.2*",
@@ -148,40 +120,29 @@
         },
         {
           "match": "GuzzleHttp/6.1*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling",
             "Version": "6.1"
           }
         },
         {
           "match": "GuzzleHttp/*",
-          "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling"
-          }
+          "browser": "guzzle http client"
         },
         {
           "match": "Guzzle/4.2*",
+          "browser": "guzzle http client",
           "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling",
             "Version": "4.2"
           }
         },
         {
           "match": "Guzzle/*",
-          "properties": {
-            "Browser": "Guzzle Http Client",
-            "Browser_Maker": "Michael Dowling"
-          }
+          "browser": "guzzle http client"
         },
         {
           "match": "Taproot*",
-          "properties": {
-            "Browser": "Taproot Bot",
-            "Browser_Maker": "Barnaby Walters"
-          }
+          "browser": "taproot bot"
         }
       ]
     }

@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "TinyURL",
+      "browser": "tinyurl",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TinyURL",
-        "Browser": "TinyURL",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "TinyURL"
       },
       "children": [
         {
           "match": "Rome Client (http://tinyurl.com/64t5n) Ver: 0.*",
-          "properties": {
-            "Browser": "TinyURL"
-          }
+          "browser": "tinyurl"
         }
       ]
     }

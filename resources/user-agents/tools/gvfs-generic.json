@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "gvfs Generic",
+      "browser": "gvfs",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "gvfs Generic",
-        "Browser": "gvfs",
-        "Browser_Type": "Tool",
-        "Browser_Maker": "The GNOME Project",
-        "Crawler": "true"
+        "Comment": "gvfs Generic"
       },
       "children": [
         {

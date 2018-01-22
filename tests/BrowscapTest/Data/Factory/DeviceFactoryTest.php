@@ -19,6 +19,9 @@ class DeviceFactoryTest extends TestCase
         $this->object = new DeviceFactory();
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testBuildWithoutStandardProperty() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -30,6 +33,9 @@ class DeviceFactoryTest extends TestCase
         $this->object->build($deviceData, $deviceName);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCreationOfDevice() : void
     {
         $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true];

@@ -6,359 +6,242 @@
   "userAgents": [
     {
       "userAgent": "Download Managers",
+      "browser": "download managers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Download Managers",
-        "Browser": "Download Managers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Download Managers"
       },
       "children": [
         {
           "match": "A1 Website Download/1.* (*) miggibot",
-          "properties": {
-            "Browser": "A1 Website Download"
-          }
+          "browser": "a1 website download"
         },
         {
           "match": "AutoMate5",
-          "properties": {
-            "Browser": "AutoMate5"
-          }
+          "browser": "automate5"
         },
         {
           "match": "Beamer*",
-          "properties": {
-            "Browser": "Beamer"
-          }
+          "browser": "beamer"
         },
         {
           "match": "BitBeamer/*",
-          "properties": {
-            "Browser": "BitBeamer"
-          }
+          "browser": "bitbeamer"
         },
         {
           "match": "DA *",
-          "properties": {
-            "Browser": "Download Accelerator"
-          }
+          "browser": "download accelerator"
         },
         {
           "match": "DAP *",
-          "properties": {
-            "Browser": "Download Accelerator Plus"
-          }
+          "browser": "download accelerator plus"
         },
         {
           "match": "masscan/1.0*",
+          "browser": "download accelerator",
           "properties": {
-            "Browser": "Download Accelerator",
             "Version": "1.0"
           }
         },
         {
           "match": "masscan/*",
-          "properties": {
-            "Browser": "Download Accelerator"
-          }
+          "browser": "download accelerator"
         },
         {
           "match": "Download Demon*",
-          "properties": {
-            "Browser": "Download Demon"
-          }
+          "browser": "download demon"
         },
         {
           "match": "Download Express*",
-          "properties": {
-            "Browser": "Download Express"
-          }
+          "browser": "download express"
         },
         {
           "match": "Download Master*",
-          "properties": {
-            "Browser": "Download Master"
-          }
+          "browser": "download master"
         },
         {
           "match": "Download Ninja*",
-          "properties": {
-            "Browser": "Download Ninja"
-          }
+          "browser": "download ninja"
         },
         {
           "match": "Download Wonder*",
-          "properties": {
-            "Browser": "Download Wonder"
-          }
+          "browser": "download wonder"
         },
         {
           "match": "DownloadSession*",
-          "properties": {
-            "Browser": "DownloadSession"
-          }
+          "browser": "downloadsession"
         },
         {
           "match": "EasyDL/*",
-          "properties": {
-            "Browser": "EasyDL"
-          }
+          "browser": "easydl"
         },
         {
           "match": "FDM 1.x",
-          "properties": {
-            "Browser": "Free Download Manager"
-          }
+          "browser": "free download manager"
         },
         {
           "match": "FlashGet",
-          "properties": {
-            "Browser": "FlashGet"
-          }
+          "browser": "flashget"
         },
         {
           "match": "FreshDownload/*",
-          "properties": {
-            "Browser": "FreshDownload"
-          }
+          "browser": "freshdownload"
         },
         {
           "match": "GetRight/*",
-          "properties": {
-            "Browser": "GetRight"
-          }
+          "browser": "getright"
         },
         {
           "match": "GetRightPro/*",
-          "properties": {
-            "Browser": "GetRightPro"
-          }
+          "browser": "getrightpro"
         },
         {
           "match": "GetSmart/*",
-          "properties": {
-            "Browser": "GetSmart"
-          }
+          "browser": "getsmart"
         },
         {
           "match": "Go!Zilla*",
-          "properties": {
-            "Browser": "GoZilla"
-          }
+          "browser": "gozilla"
         },
         {
           "match": "Gozilla/*",
-          "properties": {
-            "Browser": "Gozilla"
-          }
+          "browser": "gozilla"
         },
         {
           "match": "Internet Ninja*",
-          "properties": {
-            "Browser": "Internet Ninja"
-          }
+          "browser": "internet ninja"
         },
         {
           "match": "Kontiki Client*",
-          "properties": {
-            "Browser": "Kontiki Client"
-          }
+          "browser": "kontiki client"
         },
         {
           "match": "LightningDownload/*",
-          "properties": {
-            "Browser": "LightningDownload"
-          }
+          "browser": "lightningdownload"
         },
         {
           "match": "LMQueueBot/*",
-          "properties": {
-            "Browser": "LMQueueBot"
-          }
+          "browser": "lmqueuebot"
         },
         {
           "match": "MetaProducts Download Express/*",
-          "properties": {
-            "Browser": "Download Express"
-          }
+          "browser": "download express"
         },
         {
           "match": "Mozilla/4.0 (compatible; Getleft*)",
-          "properties": {
-            "Browser": "Getleft"
-          }
+          "browser": "getleft"
         },
         {
           "match": "Myzilla",
-          "properties": {
-            "Browser": "Myzilla"
-          }
+          "browser": "myzilla"
         },
         {
           "match": "Net Vampire/*",
-          "properties": {
-            "Browser": "Net Vampire"
-          }
+          "browser": "net vampire"
         },
         {
           "match": "Net_Vampire*",
-          "properties": {
-            "Browser": "Net_Vampire"
-          }
+          "browser": "net_vampire"
         },
         {
           "match": "NetAnts*",
-          "properties": {
-            "Browser": "NetAnts"
-          }
+          "browser": "netants"
         },
         {
           "match": "NetPumper*",
-          "properties": {
-            "Browser": "NetPumper"
-          }
+          "browser": "netpumper"
         },
         {
           "match": "NetSucker*",
-          "properties": {
-            "Browser": "NetSucker"
-          }
+          "browser": "netsucker"
         },
         {
           "match": "NetZip Downloader*",
-          "properties": {
-            "Browser": "NetZip Downloader"
-          }
+          "browser": "netzip downloader"
         },
         {
           "match": "NexTools WebAgent*",
-          "properties": {
-            "Browser": "NexTools WebAgent"
-          }
+          "browser": "nextools webagent"
         },
         {
           "match": "Offline Downloader*",
-          "properties": {
-            "Browser": "Offline Downloader"
-          }
+          "browser": "offline downloader"
         },
         {
           "match": "P3P Client",
-          "properties": {
-            "Browser": "P3P Client"
-          }
+          "browser": "p3p client"
         },
         {
           "match": "PageDown*",
-          "properties": {
-            "Browser": "PageDown"
-          }
+          "browser": "pagedown"
         },
         {
           "match": "PicaLoader*",
-          "properties": {
-            "Browser": "PicaLoader"
-          }
+          "browser": "picaloader"
         },
         {
           "match": "Prozilla*",
-          "properties": {
-            "Browser": "Prozilla"
-          }
+          "browser": "prozilla"
         },
         {
           "match": "RealDownload/*",
-          "properties": {
-            "Browser": "RealDownload"
-          }
+          "browser": "realdownload"
         },
         {
           "match": "sEasyDL/*",
-          "properties": {
-            "Browser": "EasyDL"
-          }
+          "browser": "easydl"
         },
         {
           "match": "shareaza*",
-          "properties": {
-            "Browser": "shareaza"
-          }
+          "browser": "shareaza"
         },
         {
           "match": "SmartDownload/*",
-          "properties": {
-            "Browser": "SmartDownload"
-          }
+          "browser": "smartdownload"
         },
         {
           "match": "SpeedDownload/*",
-          "properties": {
-            "Browser": "Speed Download"
-          }
+          "browser": "speed download"
         },
         {
           "match": "Star*Downloader/*",
-          "properties": {
-            "Browser": "StarDownloader"
-          }
+          "browser": "stardownloader"
         },
         {
           "match": "STEROID Download",
-          "properties": {
-            "Browser": "STEROID Download"
-          }
+          "browser": "steroid download"
         },
         {
           "match": "SuperBot/*",
-          "properties": {
-            "Browser": "SuperBot"
-          }
+          "browser": "superbot"
         },
         {
           "match": "Vegas95/*",
-          "properties": {
-            "Browser": "Vegas95"
-          }
+          "browser": "vegas95"
         },
         {
           "match": "WebZIP*",
-          "properties": {
-            "Browser": "WebZIP"
-          }
+          "browser": "webzip"
         },
         {
           "match": "WinTools",
-          "properties": {
-            "Browser": "WinTools"
-          }
+          "browser": "wintools"
         },
         {
           "match": "Xaldon WebSpider*",
-          "properties": {
-            "Browser": "Xaldon WebSpider"
-          }
+          "browser": "xaldon webspider"
         },
         {
           "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Downloader/* MyComGameCenter/* Safari/*",
-          "properties": {
-            "Browser": "MyComGameCenter Downloader",
-            "Browser_Maker": "My.com"
-          }
+          "browser": "mycomgamecenter downloader"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*; QQDownload *",
-          "properties": {
-            "Browser": "QQDownload",
-            "Browser_Maker": "Tencent Ltd."
-          }
+          "browser": "qqdownload"
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; QQDownload *",
-          "properties": {
-            "Browser": "QQDownload",
-            "Browser_Maker": "Tencent Ltd."
-          }
+          "browser": "qqdownload"
         }
       ]
     }

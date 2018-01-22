@@ -216,21 +216,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-492-H (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)',
-        'properties' => [
-            'Comment' => 'IE 9.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '9.0',
-            'Platform' => 'Win7',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-492-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; VT10416-1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         'properties' => [
@@ -934,6 +919,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-492-Z (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; de; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-492-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)',
         'properties' => [
@@ -1422,6 +1420,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-492-AL (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; VT10416-2 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-492-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; PMP7100D3G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         'properties' => [
@@ -1809,6 +1820,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-492-AU (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2;de-de; Lenovo B8000-F/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-492-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG SM-T530 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
         'properties' => [
@@ -1851,6 +1875,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-AV (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG SM-T530 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-AW' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) CasperJS/1.1.0-beta3+PhantomJS/1.9.7 Safari/534.34',
@@ -2066,6 +2103,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-BA (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG SM-P605 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-BB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ALCATEL ONE TOUCH 5020D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
@@ -2483,6 +2533,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-BJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Vodafone Smart Tab III 10 Build/S6000_A422_000_027_130814_VF) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-BK' => [
         'ua' => 'ichiro/3.0 (http://help.goo.ne.jp/door/crawler.html)',
@@ -3088,6 +3151,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-492-BW (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-492-BX' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; MALNJS)',
         'properties' => [
@@ -3130,6 +3206,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-BX (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; MALNJS)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win8',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-811 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -3648,6 +3737,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-CI (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; ARMBJS)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win8',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-S6312 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -4409,6 +4511,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-492-CY (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG SM-T520 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-492-CZ' => [
         'ua' => 'Mozilla/5.0 (compatible; Seznam screenshot-generator 2.0; +http://fulltext.sblog.cz/screenshot/)',

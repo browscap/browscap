@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Webmaster Tips Bot",
+      "browser": "webmaster tips bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Webmaster Tips Bot",
-        "Browser": "Webmaster Tips Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "wmtips.com",
-        "Crawler": "true"
+        "Comment": "Webmaster Tips Bot"
       },
       "children": [
         {

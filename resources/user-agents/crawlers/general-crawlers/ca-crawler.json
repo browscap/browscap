@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ca-crawler",
+      "browser": "ca-crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ca-crawler",
-        "Browser": "ca-crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ca-crawler"
       },
       "children": [
         {

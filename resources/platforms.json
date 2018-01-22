@@ -5,6 +5,15 @@
       "lite": true,
       "standard": true,
       "properties": {
+        "Platform": "unknown",
+        "Platform_Description": "unknown",
+        "Platform_Maker": "unknown",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "0",
+        "Platform_Bits": "0"
       }
     },
     "ChromeOS": {
@@ -22,12 +31,6 @@
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
-    },
-    "ChromeOS_i686": {
-      "match": "*CrOS*i686*",
-      "lite": false,
-      "standard": false,
-      "inherits": "ChromeOS"
     },
     "ChromeOS_x64": {
       "match": "*CrOS x86_64*",
@@ -293,6 +296,8 @@
       "standard": true,
       "inherits": "OSX",
       "properties": {
+        "Platform": "macOS",
+        "Platform_Description": "macOS",
         "Platform_Version": "10.12"
       }
     },
@@ -1930,12 +1935,6 @@
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
-    },
-    "Ubuntu_32": {
-      "match": "*Ubuntu; Linux i686*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Ubuntu"
     },
     "Ubuntu_08_04": {
       "match": "*Ubuntu/8.04*",
@@ -4496,12 +4495,6 @@
     },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
-      "lite": true,
-      "standard": true,
-      "inherits": "Android"
-    },
-    "AndroidLinux": {
-      "match": "*Android; Linux*",
       "lite": true,
       "standard": true,
       "inherits": "Android"

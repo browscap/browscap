@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
+      "browser": "opera mini",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mini",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "stagefright #MAJORVER#.#MINORVER#",
+      "browser": "stagefright",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "stagefright #MAJORVER#.#MINORVER#",
-        "Browser": "stagefright",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

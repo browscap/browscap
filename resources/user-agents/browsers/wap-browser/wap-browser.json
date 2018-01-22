@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "WAP Browser",
+      "browser": "wap browser",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WAP Browser",
-        "Browser": "WAP Browser",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

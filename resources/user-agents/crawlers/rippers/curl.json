@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "cURL",
+      "browser": "curl",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "cURL",
-        "Browser": "cURL",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "cURL"
       },
       "children": [
         {
@@ -29,12 +27,12 @@
         {
           "match": "curl/7.19#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "7.19"
-          },
           "platforms": [
             "Linux_64_B", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "7.19"
+          }
         },
         {
           "match": "curl/7.19",
@@ -45,12 +43,12 @@
         {
           "match": "curl/7.15#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "7.15"
-          },
           "platforms": [
             "Linux_64_B", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "7.15"
+          }
         },
         {
           "match": "curl/7.15",
@@ -63,30 +61,19 @@
         },
         {
           "match": "*WinHttpRequest*",
-          "properties": {
-            "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "WinHTTP*",
-          "properties": {
-            "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "WinHttp*",
-          "properties": {
-            "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation"
-          }
+          "browser": "winhttp"
         },
         {
           "match": "TrendWinHttp*",
-          "properties": {
-            "Browser": "TrendWinHttp"
-          }
+          "browser": "trendwinhttp"
         }
       ]
     }

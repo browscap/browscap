@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "NetSeer Crawler",
+      "browser": "netseer crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NetSeer Crawler",
-        "Browser": "NetSeer Crawler",
-        "Browser_Maker": "NetSeer, Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "NetSeer Crawler"
       },
       "children": [
         {

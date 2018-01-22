@@ -44,4 +44,17 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1226 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0',
+        'properties' => [
+            'Comment' => 'Firefox 51.0',
+            'Browser' => 'Firefox',
+            'Version' => '51.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];

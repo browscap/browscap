@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Sindice Fetcher",
+      "browser": "sindice fetcher",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sindice Fetcher",
-        "Browser": "Sindice Fetcher",
-        "Browser_Maker": "Sindice",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Sindice Fetcher"
       },
       "children": [
         {

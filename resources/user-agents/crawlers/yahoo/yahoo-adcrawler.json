@@ -6,20 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Yahoo AdCrawler",
+      "browser": "yahoo!-adcrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo!-AdCrawler",
-        "Browser": "Yahoo!-AdCrawler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo!-AdCrawler"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Yahoo!-AdCrawler;*http://help.yahoo.com/yahoo_adcrawler)",
-          "properties": {
-            "Browser": "Yahoo!-AdCrawler"
-          }
+          "browser": "yahoo!-adcrawler"
         }
       ]
     }

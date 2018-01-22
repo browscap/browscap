@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
+      "browser": "omniweb",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OmniWeb #MAJORVER#.#MINORVER#",
-        "Browser": "OmniWeb",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Omni Development Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

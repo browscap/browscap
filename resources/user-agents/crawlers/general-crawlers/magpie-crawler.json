@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "magpie-crawler",
+      "browser": "magpie-crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "magpie-crawler",
-        "Browser": "magpie-crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "magpie-crawler"
       },
       "children": [
         {

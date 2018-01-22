@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Genderanalyzer",
+      "browser": "genderanalyzer",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Genderanalyzer",
-        "Browser": "Genderanalyzer",
-        "Browser_Maker": "genderanalyzer.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
         "Beta": "true"
       },
       "children": [

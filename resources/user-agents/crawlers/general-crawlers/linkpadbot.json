@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "LinkpadBot",
+      "browser": "linkpadbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LinkpadBot",
-        "Browser": "LinkpadBot",
-        "Browser_Maker": "LinkPad",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "LinkpadBot"
       },
       "children": [
         {

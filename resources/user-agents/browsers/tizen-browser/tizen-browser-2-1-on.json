@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Tizen Browser #MAJORVER#.#MINORVER#",
+      "browser": "tizen browser",
       "platform": "Tizen",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Tizen Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Tizen Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Linux Foundation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -29,7 +27,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
-            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1", "Tizen"
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1",
+            "Tizen"
           ]
         }
       ]

@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Sports Talk 1050",
+      "browser": "sports talk 1050",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sports Talk 1050",
-        "Browser": "Sports Talk 1050",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Sports Talk 1050"
       },
       "children": [
         {

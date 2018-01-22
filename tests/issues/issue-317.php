@@ -1637,6 +1637,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-317-AK (lite)' => [
+        'ua' => 'Mozilla/5.0 (DirectFB; Linux; ko-KR) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+',
+        'properties' => [
+            'Comment' => 'Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-317-AL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534+ (KHTML, like Gecko)',
         'properties' => [

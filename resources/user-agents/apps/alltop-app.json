@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Alltop App #MAJORVER#.#MINORVER#",
+      "browser": "alltop app",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Alltop App #MAJORVER#.#MINORVER#",
-        "Browser": "Alltop App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Alltop",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

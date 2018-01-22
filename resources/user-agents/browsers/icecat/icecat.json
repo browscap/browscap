@@ -7,18 +7,15 @@
   "userAgents": [
     {
       "userAgent": "IceCat #MAJORVER#.#MINORVER#",
+      "browser": "icecat",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceCat #MAJORVER#.#MINORVER#",
-        "Browser": "IceCat",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -46,9 +43,14 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* IceCat/#MAJORVER#.#MINORVER#* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000_64", "Win2000", "WinXPa_32",
-            "WinXPa_64", "WinXPb_64", "WinXPb_32", "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Win2000_64", "Win2000",
+            "NT4"
           ]
         }
       ]

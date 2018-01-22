@@ -6,161 +6,122 @@
   "userAgents": [
     {
       "userAgent": "Microsoft",
+      "browser": "microsoft",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft",
-        "Browser": "Microsoft",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "true"
+        "Comment": "Microsoft"
       },
       "children": [
         {
           "match": "Live (http://www.live.com/)",
-          "properties": {
-            "Browser": "Microsoft Live",
-            "isSyndicationReader": "true"
-          }
+          "browser": "microsoft live"
         },
         {
           "match": "MFC Foundation Class Library*",
-          "properties": {
-            "Browser": "MFC Foundation Class Library"
-          }
+          "browser": "mfc foundation class library"
         },
         {
           "match": "MFHttpScan",
-          "properties": {
-            "Browser": "MFHttpScan"
-          }
+          "browser": "mfhttpscan"
         },
         {
           "match": "Microsoft BITS/*",
-          "properties": {
-            "Browser": "BITS"
-          }
+          "browser": "bits"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider Cache Manager",
-          "properties": {
-            "Browser": "MS IPP"
-          }
+          "browser": "ms ipp"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider DAV*",
-          "properties": {
-            "Browser": "MS IPP DAV"
-          }
+          "browser": "ms ipp dav"
         },
         {
           "match": "Microsoft Data Access Internet Publishing Provider Protocol Discovery",
-          "properties": {
-            "Browser": "MS IPPPD"
-          }
+          "browser": "ms ipppd"
         },
         {
           "match": "Microsoft Office Existence Discovery",
-          "properties": {
-            "Browser": "Microsoft Office Existence Discovery"
-          }
+          "browser": "microsoft office existence discovery"
         },
         {
           "match": "Microsoft Office Protocol Discovery",
-          "properties": {
-            "Browser": "MS OPD"
-          }
+          "browser": "ms opd"
         },
         {
           "match": "Microsoft Office/* (*Picture Manager*)",
-          "properties": {
-            "Browser": "Microsoft Office Picture Manager"
-          }
+          "browser": "microsoft office picture manager"
         },
         {
           "match": "Microsoft URL Control*",
-          "properties": {
-            "Browser": "Microsoft URL Control"
-          }
+          "browser": "microsoft url control"
         },
         {
           "match": "Microsoft Visio MSIE",
-          "properties": {
-            "Browser": "Microsoft Visio"
-          }
+          "browser": "microsoft visio"
         },
         {
           "match": "MSN Feed Manager",
-          "properties": {
-            "Browser": "MSN Feed Manager",
-            "isSyndicationReader": "true"
-          }
+          "browser": "msn feed manager"
         },
         {
           "match": "MSProxy/*",
-          "properties": {
-            "Browser": "MS Proxy"
-          }
+          "browser": "ms proxy"
         },
         {
           "match": "iisbot/1.0*",
+          "browser": "iis site analysis web crawler",
           "properties": {
-            "Browser": "IIS Site Analysis Web Crawler",
-            "Browser_Maker": "www.iis.net",
             "Version": "1.0"
           }
         },
         {
           "match": "iisbot/*",
-          "properties": {
-            "Browser": "IIS Site Analysis Web Crawler",
-            "Browser_Maker": "www.iis.net"
-          }
+          "browser": "iis site analysis web crawler"
         },
         {
           "match": "MS Web Services Client Protocol 1.0*",
+          "browser": ".net framework clr",
           "properties": {
-            "Browser": ".NET Framework CLR",
             "Version": "1.0"
           }
         },
         {
           "match": "MS Web Services Client Protocol *",
-          "properties": {
-            "Browser": ".NET Framework CLR"
-          }
+          "browser": ".net framework clr"
         },
         {
           "match": "ZDM/4.0; Windows Mobile 8.1*",
-          "properties": {
-            "Browser": "BackgroundTransferService",
-            "Version": "4.0"
-          },
+          "browser": "backgroundtransferservice",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone8.1"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "ZDM/4.0; Windows Mobile 8.0*",
-          "properties": {
-            "Browser": "BackgroundTransferService",
-            "Version": "4.0"
-          },
+          "browser": "backgroundtransferservice",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone8"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "ZDM/4.0; Windows Mobile 7.0*",
-          "properties": {
-            "Browser": "BackgroundTransferService",
-            "Version": "4.0"
-          },
+          "browser": "backgroundtransferservice",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         }
       ]
     }

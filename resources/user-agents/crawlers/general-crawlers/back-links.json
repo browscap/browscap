@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BCKLINKS",
+      "browser": "bcklinks",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BCKLINKS",
-        "Browser": "BCKLINKS",
-        "Browser_Maker": "Monitor Backlinks Ltd.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BCKLINKS"
       },
       "children": [
         {
@@ -26,9 +23,7 @@
         },
         {
           "match": "MonitorBacklinksWP*",
-          "properties": {
-            "Browser": "Incoming Links - WordPress Plugin"
-          }
+          "browser": "incoming links - wordpress plugin"
         }
       ]
     }

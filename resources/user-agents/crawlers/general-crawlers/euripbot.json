@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "EuripBot",
+      "browser": "europe internet portal",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Europe Internet Portal",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Europe Internet Portal",
-        "Browser_Maker": "www.eurip.com"
+        "Comment": "Europe Internet Portal"
       },
       "children": [
         {

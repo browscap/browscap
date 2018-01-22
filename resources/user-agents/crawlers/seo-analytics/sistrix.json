@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Sistrix Crawler",
+      "browser": "sistrix crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sistrix Crawler",
-        "Browser": "Sistrix Crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "SISTRIX GmbH",
-        "Crawler": "true"
+        "Comment": "Sistrix Crawler"
       },
       "children": [
         {
@@ -20,9 +17,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; 007ac9 Crawler*",
-          "properties": {
-            "Browser": "007AC9 Crawler"
-          }
+          "browser": "007ac9 crawler"
         },
         {
           "match": "Sistrix*"

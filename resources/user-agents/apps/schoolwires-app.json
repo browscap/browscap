@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Schoolwires App",
+      "browser": "schoolwires app",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Schoolwires App",
-        "Browser": "Schoolwires App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Schoolwires, Inc."
+        "Comment": "Schoolwires App"
       },
       "children": [
         {

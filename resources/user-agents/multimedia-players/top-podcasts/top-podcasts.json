@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "TopPodcasts #MAJORVER#.#MINORVER#",
+      "browser": "toppodcasts",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "TopPodcasts #MAJORVER#.#MINORVER#",
-        "Browser": "TopPodcasts",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

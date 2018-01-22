@@ -7,26 +7,22 @@
   "userAgents": [
     {
       "userAgent": "Nintendo Browser #MAJORVER#.#MINORVER#",
+      "browser": "nintendo browser",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nintendo Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Nintendo Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Nintendo",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/#MAJORVER#.#MINORVER#.*",
+          "device": "Nintendo WiiU",
           "platforms": [
             "NintendoWiiU_OS"
-          ],
-          "device": "Nintendo WiiU"
+          ]
         }
       ]
     }

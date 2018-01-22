@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "PodCruncher Generic",
+      "browser": "podcruncher",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PodCruncher Generic",
-        "Browser": "PodCruncher",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "PodCruncher Generic"
       },
       "children": [
         {

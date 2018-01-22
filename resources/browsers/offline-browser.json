@@ -1,0 +1,112 @@
+{
+    "backstreet browser": {
+        "properties": {
+            "Browser": "BackStreet Browser",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "check&get": {
+        "properties": {
+            "Browser": "Check&Get",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "go ahead got-it": {
+        "properties": {
+            "Browser": "Go Ahead Got-It",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "httrack": {
+        "properties": {
+            "Browser": "HTTrack",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "Xavier Roche",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ie offline browser": {
+        "properties": {
+            "Browser": "IE Offline Browser",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "igetter": {
+        "properties": {
+            "Browser": "iGetter",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "offline browsers": {
+        "properties": {
+            "Browser": "Offline Browsers",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "teleport": {
+        "properties": {
+            "Browser": "Teleport",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tweakmaster": {
+        "properties": {
+            "Browser": "TweakMASTER",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wget": {
+        "properties": {
+            "Browser": "wget",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "Free Software Foundation, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    }
+}

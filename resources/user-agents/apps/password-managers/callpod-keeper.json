@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Keeper #MAJORVER#.#MINORVER#",
+      "browser": "keeper",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Keeper #MAJORVER#.#MINORVER#",
-        "Browser": "Keeper",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Callpod Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

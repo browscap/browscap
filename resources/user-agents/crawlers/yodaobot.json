@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "YodaoBot",
+      "browser": "yodaobot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YodaoBot",
-        "Browser": "YodaoBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "YodaoBot"
       },
       "children": [
         {
@@ -22,8 +20,8 @@
         },
         {
           "match": "Mozilla/5.0 (compatible;YodaoBot-Image/1.*)",
+          "browser": "yodaobot-image",
           "properties": {
-            "Browser": "YodaoBot-Image",
             "Version": "1.0"
           }
         },
@@ -41,22 +39,15 @@
         },
         {
           "match": "Best Whois (http://www.bestwhois.net/)",
-          "properties": {
-            "Browser": "Best Whois"
-          }
+          "browser": "best whois"
         },
         {
           "match": "DNSGroup/*",
-          "properties": {
-            "Browser": "DNS Group Crawler"
-          }
+          "browser": "dns group crawler"
         },
         {
           "match": "TouchStone",
-          "properties": {
-            "Browser": "TouchStone",
-            "isSyndicationReader": "true"
-          }
+          "browser": "touchstone"
         }
       ]
     }

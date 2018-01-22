@@ -934,6 +934,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-539-AE (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; zh-cn) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1',
+        'properties' => [
+            'Comment' => 'Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-539-AF' => [
         'ua' => 'Mozilla/5.0 (SH05C;FOMA;like Gecko)',
         'properties' => [

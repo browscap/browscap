@@ -692,7 +692,7 @@ return [
     'issue-497-Q' => [
         'ua' => 'wsr-agent/1.0',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'WSR-Agent',
             'Browser' => 'wsr-agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

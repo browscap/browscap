@@ -6,685 +6,504 @@
   "userAgents": [
     {
       "userAgent": "Feeds Syndicators",
+      "browser": "feeds syndicators",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Feeds Syndicators",
-        "Browser": "Feeds Syndicators",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Feeds Syndicators"
       },
       "children": [
         {
           "match": "*LinkLint*",
-          "properties": {
-            "Browser": "LinkLint"
-          }
+          "browser": "linklint"
         },
         {
           "match": "*NetVisualize*",
-          "properties": {
-            "Browser": "NetVisualize"
-          }
+          "browser": "netvisualize"
         },
         {
           "match": "AideRSS/1.0 (aiderss.com)*",
+          "browser": "aiderss",
           "properties": {
-            "Browser": "AideRSS",
             "Version": "1.0"
           }
         },
         {
           "match": "AideRSS 2.* (postrank.com)*",
+          "browser": "aiderss",
           "properties": {
-            "Browser": "AideRSS",
             "Version": "2.0"
           }
         },
         {
           "match": "AideRSS/2.0 (aiderss.com)*",
+          "browser": "aiderss",
           "properties": {
-            "Browser": "AideRSS",
             "Version": "2.0"
           }
         },
         {
           "match": "AppleSyndication/*",
+          "browser": "safari rss",
           "device": "Macintosh",
-          "properties": {
-            "Browser": "Safari RSS"
-          },
           "platforms": [
             "OSX"
           ]
         },
         {
           "match": "Cocoal.icio.us/* (*)*",
-          "properties": {
-            "Browser": "Cocoal.icio.us"
-          }
+          "browser": "cocoal.icio.us"
         },
         {
           "match": "Feed43 Proxy/* (*)",
-          "properties": {
-            "Browser": "Feed For Free"
-          }
+          "browser": "feed for free"
         },
         {
           "match": "FeedBurner/*",
-          "properties": {
-            "Browser": "FeedBurner"
-          }
+          "browser": "feedburner"
         },
         {
           "match": "FeedDemon/* (*)",
-          "properties": {
-            "Browser": "FeedDemon"
-          },
+          "browser": "feeddemon",
           "platforms": [
             "Windows"
           ]
         },
         {
           "match": "FeedDigest/* (*)",
-          "properties": {
-            "Browser": "FeedDigest"
-          }
+          "browser": "feeddigest"
         },
         {
           "match": "FeedGhost/1.*",
+          "browser": "feedghost",
           "properties": {
-            "Browser": "FeedGhost",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedOnFeeds/0.1.*",
+          "browser": "feedonfeeds",
           "properties": {
-            "Browser": "FeedOnFeeds",
             "Version": "0.1"
           }
         },
         {
           "match": "Feedreader * (Powered by Newsbrain)",
-          "properties": {
-            "Browser": "Newsbrain"
-          }
+          "browser": "newsbrain"
         },
         {
           "match": "Feedshow/* (*)",
-          "properties": {
-            "Browser": "Feedshow"
-          }
+          "browser": "feedshow"
         },
         {
           "match": "Feedster Crawler/?.0; Feedster, Inc.",
-          "properties": {
-            "Browser": "Feedster"
-          }
+          "browser": "feedster"
         },
         {
           "match": "GreatNews/1.0*",
+          "browser": "greatnews",
           "properties": {
-            "Browser": "GreatNews",
             "Version": "1.0"
           }
         },
         {
           "match": "GreatNews/*",
-          "properties": {
-            "Browser": "GreatNews"
-          }
+          "browser": "greatnews"
         },
         {
           "match": "Gregarius/0.5*",
+          "browser": "gregarius",
           "properties": {
-            "Browser": "Gregarius",
             "Version": "0.5"
           }
         },
         {
           "match": "Gregarius/*",
-          "properties": {
-            "Browser": "Gregarius"
-          }
+          "browser": "gregarius"
         },
         {
           "match": "intraVnews/*",
-          "properties": {
-            "Browser": "intraVnews"
-          }
+          "browser": "intravnews"
         },
         {
           "match": "JetBrains Omea Reader*",
-          "properties": {
-            "Browser": "Omea Reader"
-          }
+          "browser": "omea reader"
         },
         {
           "match": "Liferea/0.*",
-          "properties": {
-            "Browser": "Liferea"
-          }
+          "browser": "liferea"
         },
         {
           "match": "Liferea/1.*",
+          "browser": "liferea",
           "properties": {
-            "Browser": "Liferea",
             "Version": "1.0"
           }
         },
         {
           "match": "Liferea/*",
-          "properties": {
-            "Browser": "Liferea"
-          }
+          "browser": "liferea"
         },
         {
           "match": "livedoor FeedFetcher/0.01*",
+          "browser": "livedoor feedfetcher",
           "properties": {
-            "Browser": "livedoor FeedFetcher",
             "Version": "0.01"
           }
         },
         {
           "match": "livedoor FeedFetcher/*",
-          "properties": {
-            "Browser": "livedoor FeedFetcher"
-          }
+          "browser": "livedoor feedfetcher"
         },
         {
           "match": "MagpieRSS/0.72*",
+          "browser": "magpierss",
           "properties": {
-            "Browser": "MagpieRSS",
             "Version": "0.72"
           }
         },
         {
           "match": "MagpieRSS/0.7*",
+          "browser": "magpierss",
           "properties": {
-            "Browser": "MagpieRSS",
             "Version": "0.7"
           }
         },
         {
           "match": "MagpieRSS/*",
-          "properties": {
-            "Browser": "MagpieRSS"
-          }
+          "browser": "magpierss"
         },
         {
           "match": "Mobitype * (compatible; Mozilla/*; MSIE *.*; Windows *)",
-          "properties": {
-            "Browser": "Mobitype"
-          },
+          "browser": "mobitype",
           "platforms": [
             "Windows"
           ]
         },
         {
           "match": "Mozilla/5.0 (*; Rojo *; http://www.rojo.com/corporate/help/agg; *)*",
-          "properties": {
-            "Browser": "Rojo"
-          }
+          "browser": "rojo"
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 6.0; Podtech Network; crawler_admin@podtech.net)",
-          "properties": {
-            "Browser": "Podtech Network"
-          }
+          "browser": "podtech network"
         },
         {
           "match": "Mozilla/5.0 (compatible; Newz Crawler *; http://www.newzcrawler.com/?)",
-          "properties": {
-            "Browser": "Newz Crawler"
-          }
+          "browser": "newz crawler"
         },
         {
           "match": "Mozilla/5.0 (compatible; RSSMicro.com RSS/Atom Feed Robot)",
-          "properties": {
-            "Browser": "RSSMicro"
-          }
+          "browser": "rssmicro"
         },
         {
           "match": "Mozilla/5.0 (compatible;*newstin.com;*)",
-          "properties": {
-            "Browser": "NewsTin"
-          }
+          "browser": "newstin"
         },
         {
           "match": "Mozilla/5.0 (RSS Reader Panel)",
-          "properties": {
-            "Browser": "RSS Reader Panel"
-          }
+          "browser": "rss reader panel"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko*",
-          "device": "Linux Desktop",
+          "browser": "jakarta feedparser",
           "engine": "Gecko",
-          "properties": {
-            "Browser": "Jakarta FeedParser",
-            "Browser_Maker": "The Apache Software Foundation"
-          },
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko*",
+          "browser": "newsmonster",
           "engine": "Gecko",
           "device": "Linux Desktop",
-          "properties": {
-            "Browser": "NewsMonster",
-            "Browser_Maker": "Kevin Burton"
-          },
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko*",
-          "device": "Linux Desktop",
+          "browser": "rojo",
           "engine": "Gecko",
-          "properties": {
-            "Browser": "Rojo",
-            "Browser_Maker": "Rojo Networks"
-          },
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (*aggregator:TailRank; http://tailrank.com/robot)*",
-          "properties": {
-            "Browser": "TailRank",
-            "Browser_Maker": "Tailrank Inc"
-          }
+          "browser": "tailrank"
         },
         {
           "match": "Mozilla/5.0 NewsFox/*",
-          "properties": {
-            "Browser": "NewsFox"
-          }
+          "browser": "newsfox"
         },
         {
           "match": "Netvibes (*)",
-          "properties": {
-            "Browser": "Netvibes",
-            "Browser_Maker": "Dassault Systemes"
-          }
+          "browser": "netvibes"
         },
         {
           "match": "NewsAlloy/* (*)",
-          "properties": {
-            "Browser": "NewsAlloy"
-          }
+          "browser": "newsalloy"
         },
         {
           "match": "Omnipelagos*",
-          "properties": {
-            "Browser": "Omnipelagos"
-          }
+          "browser": "omnipelagos"
         },
         {
           "match": "Particls",
-          "properties": {
-            "Browser": "Particls"
-          }
+          "browser": "particls"
         },
         {
           "match": "Protopage/* (*)",
-          "properties": {
-            "Browser": "Protopage"
-          }
+          "browser": "protopage"
         },
         {
           "match": "PubSub-RSS-Reader/* (*)",
-          "properties": {
-            "Browser": "PubSub-RSS-Reader"
-          }
+          "browser": "pubsub-rss-reader"
         },
         {
           "match": "RSS Menu/*",
-          "properties": {
-            "Browser": "RSS Menu"
-          }
+          "browser": "rss menu"
         },
         {
           "match": "RssBandit/*",
-          "properties": {
-            "Browser": "RssBandit"
-          }
+          "browser": "rssbandit"
         },
         {
           "match": "RssBar/1.2*",
+          "browser": "rssbar",
           "properties": {
-            "Browser": "RssBar",
             "Version": "1.2"
           }
         },
         {
           "match": "SharpReader/*",
-          "properties": {
-            "Browser": "SharpReader"
-          }
+          "browser": "sharpreader"
         },
         {
           "match": "Strategic Board Bot (?http://www.strategicboard.com)",
-          "properties": {
-            "Browser": "Strategic Board Bot"
-          }
+          "browser": "strategic board bot"
         },
         {
           "match": "TargetYourNews.com bot",
-          "properties": {
-            "Browser": "TargetYourNews"
-          }
+          "browser": "targetyournews"
         },
         {
           "match": "Technoratibot/*",
-          "properties": {
-            "Browser": "Technoratibot"
-          }
+          "browser": "technoratibot"
         },
         {
           "match": "Tumblr/* RSS syndication ( http://www.tumblr.com/) (support@tumblr.com)",
-          "properties": {
-            "Browser": "Tumblr RSS syndication"
-          }
+          "browser": "tumblr rss syndication"
         },
         {
           "match": "Wizz RSS News Reader",
-          "properties": {
-            "Browser": "Wizz"
-          }
+          "browser": "wizz"
         },
         {
           "match": "Mozilla/* (*Genieo*/1.0*",
+          "browser": "genieo rss reader",
           "properties": {
-            "Browser": "Genieo RSS Reader",
-            "Browser_Maker": "Genieo",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/* (*Genieo*/*",
-          "properties": {
-            "Browser": "Genieo RSS Reader",
-            "Browser_Maker": "Genieo"
-          }
+          "browser": "genieo rss reader"
         },
         {
           "match": "FeedBlitz/1.*",
+          "browser": "feedblitz",
           "properties": {
-            "Browser": "FeedBlitz",
-            "Browser_Maker": "FeedBlitz.com",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedBlitz/*",
-          "properties": {
-            "Browser": "FeedBlitz",
-            "Browser_Maker": "FeedBlitz.com"
-          }
+          "browser": "feedblitz"
         },
         {
           "match": "FeedForAll rss2html.php v2",
+          "browser": "rss2html",
           "properties": {
-            "Browser": "RSS2HTML",
-            "Browser_Maker": "NotePage, Inc.",
             "Version": "2.0"
           }
         },
         {
           "match": "FeedForAll rss2html.php*",
-          "properties": {
-            "Browser": "RSS2HTML",
-            "Browser_Maker": "NotePage, Inc."
-          }
+          "browser": "rss2html"
         },
         {
           "match": "FeedlyApp/1.0*",
+          "browser": "feedly app",
           "properties": {
-            "Browser": "feedly App",
-            "Browser_Maker": "feedly.com",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedlyApp/*",
-          "properties": {
-            "Browser": "feedly App",
-            "Browser_Maker": "feedly.com"
-          }
+          "browser": "feedly app"
         },
         {
           "match": "Feedly/1.0*",
+          "browser": "feedly feed fetcher",
           "properties": {
-            "Browser": "feedly Feed Fetcher",
-            "Browser_Maker": "feedly.com",
             "Version": "1.0"
           }
         },
         {
           "match": "Feedly/*",
-          "properties": {
-            "Browser": "feedly Feed Fetcher",
-            "Browser_Maker": "feedly.com"
-          }
+          "browser": "feedly feed fetcher"
         },
         {
           "match": "FeedlyBot/1.0*",
+          "browser": "feedlybot",
           "properties": {
-            "Browser": "FeedlyBot",
-            "Browser_Maker": "feedly.com",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedlyBot/*",
-          "properties": {
-            "Browser": "FeedlyBot",
-            "Browser_Maker": "feedly.com"
-          }
+          "browser": "feedlybot"
         },
         {
           "match": "Mozilla/5.0 (compatible; theoldreader.com*",
-          "properties": {
-            "Browser": "The Old Reader",
-            "Browser_Maker": "The Old Reader"
-          }
+          "browser": "the old reader"
         },
         {
           "match": "NewsBlur Favicon Fetcher*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*",
+          "browser": "newsblur favicon fetcher",
           "device": "Macintosh",
-          "properties": {
-            "Browser": "NewsBlur Favicon Fetcher",
-            "Browser_Maker": "www.newsblur.com"
-          },
           "platforms": [
-            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7"
           ]
         },
         {
           "match": "NewsBlur Feed Fetcher*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*",
+          "browser": "newsblur feed fetcher",
           "device": "Macintosh",
-          "properties": {
-            "Browser": "NewsBlur Feed Fetcher",
-            "Browser_Maker": "www.newsblur.com"
-          },
           "platforms": [
-            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7"
           ]
         },
         {
           "match": "NewsBlur Page Fetcher*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*",
+          "browser": "newsblur favicon fetcher",
           "device": "Macintosh",
-          "properties": {
-            "Browser": "NewsBlur Favicon Fetcher",
-            "Browser_Maker": "www.newsblur.com"
-          },
           "platforms": [
-            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7"
           ]
         },
         {
           "match": "Superfeedr bot/2.0*",
+          "browser": "superfeedr bot",
           "properties": {
-            "Browser": "Superfeedr Bot",
-            "Browser_Maker": "Superfeedr",
             "Version": "2.0"
           }
         },
         {
           "match": "Superfeedr bot/*",
-          "properties": {
-            "Browser": "Superfeedr Bot",
-            "Browser_Maker": "Superfeedr"
-          }
+          "browser": "superfeedr bot"
         },
         {
           "match": "Blogshares Spiders (Renewed V1.65*",
+          "browser": "blogshares spiders",
           "properties": {
-            "Browser": "Blogshares Spiders",
             "Version": "1.65"
           }
         },
         {
           "match": "Blogshares Spiders*",
-          "properties": {
-            "Browser": "Blogshares Spiders"
-          }
+          "browser": "blogshares spiders"
         },
         {
           "match": "R6_FeedFetcher*",
-          "properties": {
-            "Browser": "R6 FeedFetcher",
-            "Browser_Maker": "Salesforce.com, Inc."
-          }
+          "browser": "r6 feedfetcher"
         },
         {
           "match": "newsme/1.0*",
+          "browser": "newsme",
           "properties": {
-            "Browser": "newsme",
-            "Browser_Maker": "News.me Inc",
             "Version": "1.0"
           }
         },
         {
           "match": "newsme/*",
-          "properties": {
-            "Browser": "newsme",
-            "Browser_Maker": "News.me Inc"
-          }
+          "browser": "newsme"
         },
         {
           "match": "sfFeedReader/0.9*",
+          "browser": "symfony rss reader",
           "properties": {
-            "Browser": "Symfony RSS Reader",
             "Version": "0.9"
           }
         },
         {
           "match": "sfFeedReader/*",
-          "properties": {
-            "Browser": "Symfony RSS Reader"
-          }
+          "browser": "symfony rss reader"
         },
         {
           "match": "Feed Wrangler/1.0*",
+          "browser": "feed wrangler",
           "properties": {
-            "Browser": "Feed Wrangler",
             "Version": "1.0"
           }
         },
         {
           "match": "Feed Wrangler/*",
-          "properties": {
-            "Browser": "Feed Wrangler"
-          }
+          "browser": "feed wrangler"
         },
         {
           "match": "Feedfetcher-feedraider*",
-          "properties": {
-            "Browser": "feedraider"
-          }
+          "browser": "feedraider"
         },
         {
           "match": "Custom-Feed Reader*",
-          "properties": {
-            "Browser": "Custom-Feed Reader"
-          }
+          "browser": "custom-feed reader"
         },
         {
           "match": "CITA RSS Aggregator/2.7*",
+          "browser": "cita rss aggregator",
           "properties": {
-            "Browser": "CITA RSS Aggregator",
             "Version": "2.7"
           }
         },
         {
           "match": "CITA RSS Aggregator/*",
-          "properties": {
-            "Browser": "CITA RSS Aggregator"
-          }
+          "browser": "cita rss aggregator"
         },
         {
           "match": "FeedBucket/*",
-          "properties": {
-            "Browser": "FeedBucket",
-            "Browser_Maker": "feedbucket.com"
-          }
+          "browser": "feedbucket"
         },
         {
           "match": "everyfeed-spider/* (http://www.everyfeed.com)",
-          "properties": {
-            "Browser": "Everyfeed Spider",
-            "Browser_Maker": "everyfeed.com"
-          }
+          "browser": "everyfeed spider"
         },
         {
           "match": "feedjira http://feedjira.com",
-          "properties": {
-            "Browser": "Feedjira",
-            "Browser_Maker": "Feedjira"
-          }
+          "browser": "feedjira"
         },
         {
           "match": "TrapitAgent/0.1 (feed processor; +http://trapit.com/about)",
-          "properties": {
-            "Browser": "TrapitAgent Feed Processor",
-            "Browser_Maker": "Trapit"
-          }
+          "browser": "trapitagent feed processor"
         },
         {
           "match": "Nuzzel",
-          "properties": {
-            "Browser": "Nuzzel Bot",
-            "Browser_Maker": "Nuzzle Inc"
-          }
+          "browser": "nuzzel bot"
         },
         {
           "match": "newsbeuter/*",
-          "properties": {
-            "Browser": "Newsbeuter RSS Aggregator",
-            "Browser_Maker": "newsbeuter.org"
-          }
+          "browser": "newsbeuter rss aggregator"
         },
         {
           "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Specificfeeds- http://www.specificfeeds.com",
-          "properties": {
-            "Browser": "SpecificFeeds Aggregator",
-            "Browser_Maker": "specificfeeds.com"
-          }
+          "browser": "specificfeeds aggregator"
         },
         {
           "match": "Mozilla/5.0 (X11; U; Linux*; en-US; rv:*) Gecko/* Firefox/* Specificfeeds- http://www.specificfeeds.com",
-          "properties": {
-            "Browser": "SpecificFeeds Aggregator",
-            "Browser_Maker": "specificfeeds.com"
-          }
+          "browser": "specificfeeds aggregator"
         }
       ]
     }

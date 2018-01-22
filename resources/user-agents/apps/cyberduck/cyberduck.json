@@ -6,30 +6,29 @@
   "userAgents": [
     {
       "userAgent": "Cyberduck",
-      "device": "Windows Desktop",
+      "browser": "cyberduck",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Cyberduck",
-        "Browser": "Cyberduck",
-        "Browser_Maker": "iterate GmbH",
-        "Browser_Type": "Application",
-        "Crawler": "false"
+        "Comment": "Cyberduck"
       },
       "children": [
         {
           "match": "Cyberduck/4.6* (#PLATFORM#) *",
+          "platforms": [
+            "WinXPa_v2",
+            "Windows"
+          ],
           "properties": {
             "Version": "4.6"
-          },
-          "platforms": [
-            "WinXPa_v2", "Windows"
-          ]
+          }
         },
         {
           "match": "Cyberduck/* (#PLATFORM#) *",
           "platforms": [
-            "WinXPa_v2", "Windows"
+            "WinXPa_v2",
+            "Windows"
           ]
         }
       ]

@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "NaverBot Mobile",
+      "browser": "naverbot mobile",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NaverBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "NHN Corporation",
-        "Crawler": "true",
-        "Browser": "NaverBot Mobile"
+        "Comment": "NaverBot"
       },
       "children": [
         {

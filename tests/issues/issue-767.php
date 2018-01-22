@@ -678,21 +678,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-767-N (standard)' => [
-        'ua' => 'Dalvik/1.2.0 (Linux; U; Android 2.2.2; HTC Desire Build/FRG83G) [FBAN/Orca-Android;FBAV/2.6.1-release;FBLC/de_DE;FBBV/288543;FBCR/o2 - de;FBMF/HTC;FBBD/htc_wwe;FBDV/HTC Desire;FBSV/2.2.2]',
-        'properties' => [
-            'Comment' => 'Dalvik 1.2',
-            'Browser' => 'Dalvik',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '1.2',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-767-O' => [
         'ua' => '[FBAN/FB4A;FBAV/3.6;FBBV/330148;FBDM/{density=0.75,width=240,height=320};FBLC/de_DE;FBCR/o2 - de;FBPN/com.facebook.katana;FBDV/GT-S5570;FBSV/2.2.1;FBCA/armeabi:unknown;]',
         'properties' => [

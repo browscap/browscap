@@ -302,6 +302,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1419-G (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; en-ph; SAMSUNG SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1419-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T705 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36',
         'properties' => [

@@ -1,34 +1,43 @@
 {
   "division": "Framabird #MAJORVER#.#MINORVER#",
-  "versions": ["38.5","38.2","31.6","31.2","24.6","24.1","17.0","15.0","14.0","13.0"
-  ],
+  "versions": ["38.5", "38.2", "31.6", "31.2", "24.6", "24.1", 17, 15, 14, 13],
   "sortIndex": 3086,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Framabird #MAJORVER#.#MINORVER#",
-      "device": "Windows Desktop",
+      "browser": "framabird",
       "engine": "Gecko",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Framabird #MAJORVER#.#MINORVER#",
-        "Browser": "Framabird",
-        "Browser_Maker": "Framasoft",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Email Client"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Framabird/#MAJORVER#.#MINORVER#.*",
           "platforms": [
-            "Vista_32", "Vista_x64", "Vista_64", "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32", "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Windows"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Framabird/#MAJORVER#.#MINORVER#.*",
           "platforms": [
-            "Vista_32", "Vista_x64", "Vista_64", "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32", "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Windows"
           ]
         }
       ]

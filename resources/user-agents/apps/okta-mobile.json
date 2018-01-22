@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Okta Mobile #MAJORVER#.#MINORVER# for iOS",
+      "browser": "okta mobile app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Okta Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Okta Mobile App",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Okta, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

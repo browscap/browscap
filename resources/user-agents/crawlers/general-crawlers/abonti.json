@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Abonti WebSearch",
+      "browser": "abonti websearch",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Abonti WebSearch",
-        "Browser": "Abonti WebSearch",
-        "Browser_Maker": "abonti.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Abonti WebSearch"
       },
       "children": [
         {

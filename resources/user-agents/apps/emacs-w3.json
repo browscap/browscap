@@ -6,33 +6,32 @@
   "userAgents": [
     {
       "userAgent": "Emacs/W3",
+      "browser": "emacs/w3",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Emacs/W3",
-        "Browser": "Emacs/W3",
-        "Browser_Type": "Application"
+        "Comment": "Emacs/W3"
       },
       "children": [
         {
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Emacs/W3/2.*",
@@ -43,22 +42,22 @@
         {
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "3.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
         },
         {
           "match": "Emacs/W3/3.*",
@@ -69,22 +68,22 @@
         {
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "general Desktop",
-          "properties": {
-            "Version": "4.0"
-          },
           "platforms": [
             "Unix"
-          ]
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
         },
         {
           "match": "Emacs/W3/4.*",

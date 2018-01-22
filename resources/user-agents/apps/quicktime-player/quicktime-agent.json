@@ -6,12 +6,11 @@
   "userAgents": [
     {
       "userAgent": "QuickTime Agent",
+      "browser": "quicktime agent",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QuickTime Agent",
-        "Browser": "QuickTime Agent",
-        "Browser_Type": "Application"
+        "Comment": "QuickTime Agent"
       },
       "children": [
         {

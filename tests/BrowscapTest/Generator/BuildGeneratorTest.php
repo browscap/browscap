@@ -56,6 +56,9 @@ class BuildGeneratorTest extends TestCase
 
     /**
      * tests running a build
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuild() : void
     {
@@ -144,7 +147,7 @@ class BuildGeneratorTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-            ->getMock();
+                ->getMock();
 
         $writerCollection
             ->expects(self::once())
@@ -179,6 +182,9 @@ class BuildGeneratorTest extends TestCase
 
     /**
      * tests running a build without generating a zip file
+     *
+     * @throws \Exception
+     * @throws \Assert\AssertionFailedException
      */
     public function testBuildWithoutZip() : void
     {
@@ -267,7 +273,7 @@ class BuildGeneratorTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-            ->getMock();
+                ->getMock();
 
         $writerCollection
             ->expects(self::once())

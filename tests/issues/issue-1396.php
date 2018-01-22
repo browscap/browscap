@@ -87,21 +87,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1396-B (standard)' => [
-        'ua' => 'Opera/9.80 (Windows Mobile; WCE; Opera Mobi/49; U; en) Presto/2.4.18 Version/10.00',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1396-C' => [
         'ua' => 'Opera/9.80 (S60; SymbOS; Opera Mobi/499; U; ru) Presto/2.4.18 Version/10.00',
         'properties' => [
@@ -2166,21 +2151,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1396-AX (standard)' => [
-        'ua' => 'Opera/9.5 (Microsoft Windows; PPC; 240x320; HTC_Touch_3G_T3232; OpVer %ORANGE_OP_VERSION%; Opera Mobi/15445; U; fr)',
-        'properties' => [
-            'Comment' => 'Opera 9.5',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '9.5',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1396-AY' => [
         'ua' => 'Opera/9.5 (Microsoft Windows; PPC; 640x480; HTC_X7510/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mobi/1114; U; de)',
         'properties' => [
@@ -2223,21 +2193,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1396-AY (standard)' => [
-        'ua' => 'Opera/9.5 (Microsoft Windows; PPC; 640x480; HTC_X7510/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mobi/1114; U; de)',
-        'properties' => [
-            'Comment' => 'Opera 9.5',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '9.5',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1396-AZ' => [
         'ua' => 'Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1938; U; xx)',
@@ -2282,21 +2237,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1396-AZ (standard)' => [
-        'ua' => 'Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1938; U; xx)',
-        'properties' => [
-            'Comment' => 'Opera 9.5',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '9.5',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1396-BA' => [
         'ua' => 'Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U; ja) S21HT',
         'properties' => [
@@ -2339,21 +2279,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1396-BA (standard)' => [
-        'ua' => 'Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U; ja) S21HT',
-        'properties' => [
-            'Comment' => 'Opera 9.5',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '9.5',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1396-BB' => [
         'ua' => 'Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; en) Presto/2.2.1',
@@ -2398,21 +2323,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1396-BB (standard)' => [
-        'ua' => 'Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; en) Presto/2.2.1',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1396-BC' => [
         'ua' => 'Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; xx) Presto/2.2.1',
         'properties' => [
@@ -2455,21 +2365,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1396-BC (standard)' => [
-        'ua' => 'Opera/9.7 (Windows Mobile; PPC; Opera Mobi/35166; U; xx) Presto/2.2.1',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1396-BD' => [
         'ua' => 'Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1',
@@ -2514,21 +2409,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1396-BD (standard)' => [
-        'ua' => 'Opera/9.7 (Windows Mobile; SHARP/WS007SH; PPC; 480x640; Opera Mobi/35166; U; xx) Presto/2.2.1',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1396-BE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]',
         'properties' => [
@@ -2571,20 +2451,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1396-BE (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; SHARP/WS020SH; PPC; 480x800) Opera Mobi; Opera 9.5 [ja]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
 ];

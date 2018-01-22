@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Google Web Snippet",
+      "browser": "google web snippet",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Comment": "Google Web Snippet",
-        "Browser": "Google Web Snippet"
+        "Comment": "Google Web Snippet"
       },
       "children": [
         {
@@ -27,7 +24,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Google (+https://developers.google.com/+/web/snippet/)*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -39,14 +37,15 @@
             "Vista_64", "Vista_32",
             "WinXPb_64", "WinXPb_32",
             "WinXPa_64", "WinXPa_32",
-            "Win2000", "NT4"
+            "Win2000",
+            "NT4"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Google (+https://developers.google.com/+/web/snippet/)*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }

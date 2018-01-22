@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Eudora",
+      "browser": "eudora",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Eudora",
-        "Browser": "Eudora",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Qualcomm",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -28,19 +24,15 @@
     },
     {
       "userAgent": "Eudora OSE",
+      "browser": "eudora ose",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Eudora Open Source Edition",
-        "Browser": "Eudora OSE",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Mozilla Foundation",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

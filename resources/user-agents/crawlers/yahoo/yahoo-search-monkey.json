@@ -6,20 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Search Monkey",
+      "browser": "yahoo! search monkey",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo! Search Monkey",
-        "Browser": "Yahoo! Search Monkey",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo! Search Monkey"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Yahoo! SearchMonkey*)",
-          "properties": {
-            "Browser": "Yahoo! Search Monkey"
-          }
+          "browser": "yahoo! search monkey"
         }
       ]
     }

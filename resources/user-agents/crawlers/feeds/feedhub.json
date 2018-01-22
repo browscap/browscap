@@ -6,33 +6,30 @@
   "userAgents": [
     {
       "userAgent": "FeedHub",
+      "browser": "feedhub",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "FeedHub",
-        "Browser": "FeedHub",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "FeedHub"
       },
       "children": [
         {
           "match": "FeedHub FeedDiscovery/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub feeddiscovery",
           "properties": {
-            "Browser": "FeedHub FeedDiscovery",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedHub FeedFetcher/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub feedfetcher",
           "properties": {
-            "Browser": "FeedHub FeedFetcher",
             "Version": "1.0"
           }
         },
         {
           "match": "FeedHub MetaDataFetcher/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub metadatafetcher",
           "properties": {
-            "Browser": "FeedHub MetaDataFetcher",
             "Version": "1.0"
           }
         }

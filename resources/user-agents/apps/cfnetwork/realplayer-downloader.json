@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "RealPlayer Downloader",
+      "browser": "realplayer downloader",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RealPlayer Downloader",
-        "Browser": "RealPlayer Downloader",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

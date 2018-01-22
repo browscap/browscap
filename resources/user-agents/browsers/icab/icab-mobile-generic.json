@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "iCab Mobile Generic",
+      "browser": "icab mobile",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "iCab Mobile Generic",
-        "Browser": "iCab Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Alexander Clauss"
+        "Comment": "iCab Mobile Generic"
       },
       "children": [
         {

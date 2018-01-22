@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Google Web Preview",
+      "browser": "google web preview",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser": "Google Web Preview",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Google"
       },
       "children": [
         {
@@ -28,8 +25,9 @@
           "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "iPad",
           "platforms": [
-            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
-            "iOS_C_8_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C"
           ]
         },
@@ -37,8 +35,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
-            "iOS_C_8_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C"
           ]
         },
@@ -46,7 +45,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko? Google Web Preview*)*Version/*Safari/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_3", "Android"
+            "Android_2_3",
+            "Android"
           ]
         },
         {

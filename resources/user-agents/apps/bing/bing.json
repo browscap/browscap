@@ -6,26 +6,23 @@
   "userAgents": [
     {
       "userAgent": "Bing",
+      "browser": "bing",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "Bing",
-        "Browser": "Bing",
-        "Crawler": "false"
+        "Comment": "Bing"
       },
       "children": [
         {
           "match": "Bing/2.2* CFNetwork/*",
-          "properties": {
-            "Version": "2.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
         },
         {
           "match": "Bing/* CFNetwork/*",

@@ -6,55 +6,39 @@
   "userAgents": [
     {
       "userAgent": "Offline Browsers",
+      "browser": "offline browsers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Offline Browsers",
-        "Browser": "Offline Browsers",
-        "Browser_Type": "Offline Browser",
-        "Crawler": "true"
+        "Comment": "Offline Browsers"
       },
       "children": [
         {
           "match": "*Check&Get*",
-          "properties": {
-            "Browser": "Check&Get"
-          }
+          "browser": "check&get"
         },
         {
           "match": "*MSIECrawler*",
-          "properties": {
-            "Browser": "IE Offline Browser"
-          }
+          "browser": "ie offline browser"
         },
         {
           "match": "*TweakMASTER*",
-          "properties": {
-            "Browser": "TweakMASTER"
-          }
+          "browser": "tweakmaster"
         },
         {
           "match": "BackStreet Browser *",
-          "properties": {
-            "Browser": "BackStreet Browser"
-          }
+          "browser": "backstreet browser"
         },
         {
           "match": "Go-Ahead-Got-It*",
-          "properties": {
-            "Browser": "Go Ahead Got-It"
-          }
+          "browser": "go ahead got-it"
         },
         {
           "match": "iGetter/*",
-          "properties": {
-            "Browser": "iGetter"
-          }
+          "browser": "igetter"
         },
         {
           "match": "Teleport*",
-          "properties": {
-            "Browser": "Teleport"
-          }
+          "browser": "teleport"
         }
       ]
     }

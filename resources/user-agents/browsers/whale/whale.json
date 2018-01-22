@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Whale Browser",
+      "browser": "whale browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Whale Browser",
-        "Browser": "Whale Browser",
-        "Browser_Maker": "NHN Corporation",
-        "Browser_Type": "Browser"
+        "Comment": "Whale Browser"
       },
       "children": [
         {
@@ -30,7 +28,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Whale/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         }

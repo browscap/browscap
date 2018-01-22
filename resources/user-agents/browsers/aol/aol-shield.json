@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AOL Shield",
+      "browser": "aol shield",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AOL Shield",
-        "Browser": "AOL Shield",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "AOL"
+        "Comment": "AOL Shield"
       },
       "children": [
         {

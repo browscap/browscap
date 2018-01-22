@@ -6,20 +6,15 @@
   "userAgents": [
     {
       "userAgent": "YahooSeeker",
+      "browser": "yahooseeker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YahooSeeker",
-        "Browser": "YahooSeeker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "YahooSeeker"
       },
       "children": [
         {
           "match": "YahooSeeker/CafeKelsa* (compatible; Konqueror/*; FreeBSD*(*khtml*like*gecko*)",
-          "properties": {
-            "Browser": "YahooSeeker/CafeKelsa"
-          },
+          "browser": "yahooseeker/cafekelsa",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"
@@ -27,9 +22,7 @@
         },
         {
           "match": "YahooSeeker/CafeKelsa*",
-          "properties": {
-            "Browser": "YahooSeeker/CafeKelsa"
-          }
+          "browser": "yahooseeker/cafekelsa"
         },
         {
           "match": "YahooSeeker*"

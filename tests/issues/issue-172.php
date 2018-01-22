@@ -44,4 +44,17 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-172 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; ARM; Trident/7.0; Touch; rv:11.0) like Gecko',
+        'properties' => [
+            'Comment' => 'IE 11.0',
+            'Browser' => 'IE',
+            'Version' => '11.0',
+            'Platform' => 'Win8.1',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];

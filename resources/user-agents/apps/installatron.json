@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Installatron",
+      "browser": "installatron",
       "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Installatron",
-        "Browser": "Installatron",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Installatron LLC.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

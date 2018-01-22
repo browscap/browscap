@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "sp auditbot",
+      "browser": "seoprofiler auditbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "sp auditbot",
-        "Browser": "SEOprofiler AuditBot",
-        "Browser_Maker": "Axandra GmbH",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "sp auditbot"
       },
       "children": [
         {

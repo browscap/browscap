@@ -1,21 +1,19 @@
 {
   "division": "UC Browser HD #MAJORVER#.#MINORVER#",
-  "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
+  "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", 2],
   "sortIndex": 936,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser HD #MAJORVER#.#MINORVER#",
+      "browser": "uc browser hd",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser HD #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser HD",
-        "Browser_Type": "Application",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

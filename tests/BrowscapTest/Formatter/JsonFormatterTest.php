@@ -98,6 +98,8 @@ class JsonFormatterTest extends TestCase
      * @param string $propertyName
      * @param string $inputValue
      * @param string $expectedValue
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
@@ -107,6 +109,8 @@ class JsonFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithException() : void
     {
@@ -116,6 +120,8 @@ class JsonFormatterTest extends TestCase
 
     /**
      * tests formatting a property value
+     *
+     * @throws \Exception
      */
     public function testFormatPropertyValueWithUnknownValue() : void
     {

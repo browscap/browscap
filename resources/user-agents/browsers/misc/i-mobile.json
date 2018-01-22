@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "i-mobile",
+      "browser": "i-mobile",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "i-mobile",
-        "Browser": "i-mobile",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

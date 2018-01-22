@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox for FirefoxOS Generic",
+      "browser": "firefox",
       "platform": "FirefoxOS",
       "engine": "Gecko",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox for FirefoxOS Generic",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox for FirefoxOS Generic"
       },
       "children": [
         {

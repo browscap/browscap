@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Prince",
+      "browser": "prince",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Prince",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Browser": "Prince",
-        "Browser_Type": "Application",
-        "Browser_Maker": "YesLogic Pty. Ltd.",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

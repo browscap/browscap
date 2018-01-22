@@ -6,21 +6,21 @@
   "userAgents": [
     {
       "userAgent": "Safari Generic",
+      "browser": "safari",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "CentOS",
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -40,7 +40,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -48,7 +49,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Safari*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -63,7 +65,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }
@@ -71,15 +74,13 @@
     },
     {
       "userAgent": "Safari Generic for Darwin",
+      "browser": "safari",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari Generic"
       },
       "children": [
         {
@@ -214,7 +215,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
           "device": "general Desktop",
           "platforms": [
-            "NetBSD_64_2", "NetBSD", "SunOS"
+            "NetBSD_64_2", "NetBSD",
+            "SunOS"
           ]
         },
         {
@@ -242,14 +244,12 @@
     },
     {
       "userAgent": "Safari Generic Older",
+      "browser": "safari",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Safari",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Safari"
       },
       "children": [
         {
@@ -258,8 +258,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "2.0",
-            "Comment": "Safari 2.0"
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
           }
         },
         {
@@ -268,8 +268,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "2.0",
-            "Comment": "Safari 2.0"
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
           }
         },
         {
@@ -278,8 +278,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "2.0",
-            "Comment": "Safari 2.0"
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
           }
         },
         {
@@ -288,8 +288,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.3",
-            "Comment": "Safari 1.3"
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
           }
         },
         {
@@ -298,8 +298,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.3",
-            "Comment": "Safari 1.3"
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
           }
         },
         {
@@ -308,8 +308,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.3",
-            "Comment": "Safari 1.3"
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
           }
         },
         {
@@ -318,8 +318,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.3",
-            "Comment": "Safari 1.3"
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
           }
         },
         {
@@ -328,8 +328,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.2",
-            "Comment": "Safari 1.2"
+            "Comment": "Safari 1.2",
+            "Version": "1.2"
           }
         },
         {
@@ -338,8 +338,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.1",
-            "Comment": "Safari 1.1"
+            "Comment": "Safari 1.1",
+            "Version": "1.1"
           }
         },
         {
@@ -348,8 +348,8 @@
             "OSX"
           ],
           "properties": {
-            "Version": "1.0",
-            "Comment": "Safari 1.0"
+            "Comment": "Safari 1.0",
+            "Version": "1.0"
           }
         }
       ]

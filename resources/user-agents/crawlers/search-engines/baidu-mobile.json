@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Baidu Mobile",
+      "browser": "baidu mobile search",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Baidu",
-        "Browser": "Baidu Mobile Search",
-        "Browser_Maker": "Baidu",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Baidu"
       },
       "children": [
         {
@@ -26,7 +23,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari/* (compatible; +http://www.baidu.com/search/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_3", "Android"
+            "Android_2_3",
+            "Android"
           ]
         }
       ]

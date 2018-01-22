@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Zune",
+      "browser": "zune",
       "device": "Microsoft ZuneHD",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Zune",
-        "Browser": "Zune",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Microsoft Corporation"
+        "Comment": "Microsoft Zune"
       },
       "children": [
         {

@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "CKHttpGenerator",
+      "browser": "ckhttpgenerator",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CKHttpGenerator",
-        "Browser": "CKHttpGenerator",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "CKHttpGenerator"
       },
       "children": [
         {

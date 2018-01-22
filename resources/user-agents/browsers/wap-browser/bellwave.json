@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Bellwave",
+      "browser": "bellwave",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Bellwave",
-        "Browser": "Bellwave"
+        "Comment": "Bellwave"
       },
       "children": [
         {

@@ -6,16 +6,12 @@
   "userAgents": [
     {
       "userAgent": "UnisterBot",
+      "browser": "unisterbot",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UnisterBot",
-        "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Browser": "UnisterBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {
@@ -31,16 +27,12 @@
     },
     {
       "userAgent": "UnisterTesting",
+      "browser": "unistertesting",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "website test",
-        "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Browser": "UnisterTesting",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {
@@ -60,16 +52,12 @@
     },
     {
       "userAgent": "UnisterPortale",
+      "browser": "unisterportale",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "website calls webservice",
-        "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Browser": "UnisterPortale",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {
@@ -92,9 +80,7 @@
         },
         {
           "match": "Core_Class_HttpClient_Cached",
-          "properties": {
-            "Browser": "Core_Class_HttpClient_Cached"
-          }
+          "browser": "core_class_httpclient_cached"
         }
       ]
     }

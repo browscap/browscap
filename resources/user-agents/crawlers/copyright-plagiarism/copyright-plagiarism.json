@@ -6,73 +6,51 @@
   "userAgents": [
     {
       "userAgent": "Copyright/Plagiarism",
+      "browser": "copyright/plagiarism",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Copyright/Plagiarism",
-        "Browser": "Copyright/Plagiarism",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Copyright/Plagiarism"
       },
       "children": [
         {
           "match": "BDFetch",
-          "properties": {
-            "Browser": "BDFetch"
-          }
+          "browser": "bdfetch"
         },
         {
           "match": "copyright sheriff (*)",
-          "properties": {
-            "Browser": "copyright sheriff"
-          }
+          "browser": "copyright sheriff"
         },
         {
           "match": "CopyRightCheck*",
-          "properties": {
-            "Browser": "CopyRightCheck"
-          }
+          "browser": "copyrightcheck"
         },
         {
           "match": "FairAd Client*",
-          "properties": {
-            "Browser": "FairAd Client"
-          }
+          "browser": "fairad client"
         },
         {
           "match": "iCopyright Conductor*",
-          "properties": {
-            "Browser": "iCopyright Conductor"
-          }
+          "browser": "icopyright conductor"
         },
         {
           "match": "IPiumBot laurion(dot)com",
-          "properties": {
-            "Browser": "IPiumBot"
-          }
+          "browser": "ipiumbot"
         },
         {
           "match": "IWAgent/*",
-          "properties": {
-            "Browser": "Brand Protect"
-          }
+          "browser": "brand protect"
         },
         {
           "match": "Mozilla/5.0 (compatible; DKIMRepBot/*)",
-          "properties": {
-            "Browser": "DKIMRepBot"
-          }
+          "browser": "dkimrepbot"
         },
         {
           "match": "SlySearch/*",
-          "properties": {
-            "Browser": "SlySearch"
-          }
+          "browser": "slysearch"
         },
         {
           "match": "TutorGigBot/*",
-          "properties": {
-            "Browser": "TutorGig"
-          }
+          "browser": "tutorgig"
         }
       ]
     }

@@ -6,27 +6,24 @@
   "userAgents": [
     {
       "userAgent": "Origin",
+      "browser": "origin",
       "engine": "WebKit",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Origin",
-        "Browser": "Origin",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) applewebkit* (*khtml*like*gecko*) Origin/9.3* Safari/*",
-          "properties": {
-            "Version": "9.3"
-          },
           "platforms": [
             "Win7_64"
-          ]
+          ],
+          "properties": {
+            "Version": "9.3"
+          }
         },
         {
           "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) applewebkit* (*khtml*like*gecko*) Origin/* Safari/*",

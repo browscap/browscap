@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Custom Generic",
+      "browser": "custom",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Custom Generic",
-        "Browser": "Custom",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Custom Generic"
       },
       "children": [
         {

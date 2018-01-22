@@ -18,6 +18,11 @@ class UseragentFactoryTest extends TestCase
         $this->object = new UserAgentFactory();
     }
 
+    /**
+     * @throws \LogicException
+     * @throws \PHPUnit\Framework\Exception
+     * @throws \RuntimeException
+     */
     public function testBuildOkCore() : void
     {
         $userAgentsData = [
@@ -34,9 +39,7 @@ class UseragentFactoryTest extends TestCase
             ],
         ];
 
-        $allDivisions = [];
-
-        $uas = $this->object->build($userAgentsData, [], true);
+        $uas = $this->object->build($userAgentsData, true);
 
         self::assertInternalType('array', $uas);
 
@@ -45,6 +48,11 @@ class UseragentFactoryTest extends TestCase
         }
     }
 
+    /**
+     * @throws \LogicException
+     * @throws \PHPUnit\Framework\Exception
+     * @throws \RuntimeException
+     */
     public function testBuildOkNotCore() : void
     {
         $userAgentsData = [
@@ -61,9 +69,7 @@ class UseragentFactoryTest extends TestCase
             ],
         ];
 
-        $allDivisions = [];
-
-        $uas = $this->object->build($userAgentsData, [], false);
+        $uas = $this->object->build($userAgentsData, false);
 
         self::assertInternalType('array', $uas);
 

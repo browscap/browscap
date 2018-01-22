@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "browser": "opera",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Browser": "Opera",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -23,9 +21,14 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -41,16 +44,22 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         },
         {
@@ -73,17 +82,23 @@
           "platforms": [
             "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "Windows"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "Windows",
+            "WinME"
           ]
         },
         {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         }
       ]

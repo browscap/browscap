@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Oculus Browser Generic",
+      "browser": "oculus browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Oculus Browser Generic",
-        "Browser": "Oculus Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Oculus"
+        "Comment": "Oculus Browser Generic"
       },
       "children": [
         {

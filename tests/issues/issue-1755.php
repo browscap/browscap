@@ -87,6 +87,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1755-B (standard)' => [
+        'ua' => 'NokiaE71/UC Browser8.0.4.121/28/444/UCWEB',
+        'properties' => [
+            'Comment' => 'UC Browser 8.0',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '8.0',
+            'Platform' => 'Series40',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1755-C' => [
         'ua' => 'NOKIAN95 8GB/UC Browser8.0.3.107/28/444/UCWEB',
         'properties' => [
@@ -129,6 +144,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1755-C (standard)' => [
+        'ua' => 'NOKIAN95 8GB/UC Browser8.0.3.107/28/444/UCWEB',
+        'properties' => [
+            'Comment' => 'UC Browser 8.0',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '8.0',
+            'Platform' => 'Series40',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1755-D' => [
         'ua' => 'Tumblr/141 CFNetwork/672.1.14 Darwin/14.0.0',

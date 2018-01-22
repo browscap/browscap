@@ -84,7 +84,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1735-C' => [
@@ -127,7 +127,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1735-D' => [
@@ -301,5 +301,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ]
+    ],
 ];

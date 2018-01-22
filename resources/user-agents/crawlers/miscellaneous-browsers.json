@@ -6,185 +6,138 @@
   "userAgents": [
     {
       "userAgent": "Miscellaneous Browsers",
+      "browser": "miscellaneous browsers",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Miscellaneous Browsers",
-        "Browser": "Miscellaneous Browsers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Miscellaneous Browsers"
       },
       "children": [
         {
           "match": "*Amiga*",
-          "properties": {
-            "Browser": "Amiga"
-          },
+          "browser": "amiga",
           "platforms": [
             "Amiga"
           ]
         },
         {
           "match": "12345*",
-          "properties": {
-            "Browser": "12345"
-          }
+          "browser": "12345"
         },
         {
           "match": "1st ZipCommander (Net) - http://www.zipcommander.com/",
-          "properties": {
-            "Browser": "1st ZipCommander"
-          }
+          "browser": "1st zipcommander"
         },
         {
           "match": "Ace Explorer",
-          "properties": {
-            "Browser": "Ace Explorer"
-          }
+          "browser": "ace explorer"
         },
         {
           "match": "Enigma Browser*",
-          "properties": {
-            "Browser": "Enigma Browser"
-          }
+          "browser": "enigma browser"
         },
         {
           "match": "EVE-minibrowser/*",
-          "properties": {
-            "Browser": "EVE-minibrowser",
-            "Crawler": "false"
-          }
+          "browser": "eve-minibrowser"
         },
         {
           "match": "Godzilla/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
-          "properties": {
-            "Browser": "Godzilla"
-          }
+          "browser": "godzilla"
         },
         {
           "match": "GreenBrowser",
-          "properties": {
-            "Browser": "GreenBrowser"
-          }
+          "browser": "greenbrowser"
         },
         {
           "match": "Kopiczek/* (WyderOS*; *)",
-          "properties": {
-            "Browser": "Kopiczek"
-          },
+          "browser": "kopiczek",
           "platforms": [
             "WyderOS"
           ]
         },
         {
           "match": "Mozilla/* (*) - BrowseX (*)",
-          "properties": {
-            "Browser": "BrowseX"
-          }
+          "browser": "browsex"
         },
         {
           "match": "Mozilla/* (Win32;*Escape?*; ?)",
-          "properties": {
-            "Browser": "Escape"
-          },
+          "browser": "escape",
           "platforms": [
             "Win32"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; ibisBrowser)",
-          "properties": {
-            "Browser": "ibisBrowser"
-          }
+          "browser": "ibisbrowser"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; ?; PPC Mac OS X;*) applewebkit* (*) HistoryHound/*",
-          "properties": {
-            "Browser": "HistoryHound"
-          }
+          "browser": "historyhound"
         },
         {
           "match": "NetRecorder*",
-          "properties": {
-            "Browser": "NetRecorder"
-          }
+          "browser": "netrecorder"
         },
         {
           "match": "NetSurf*",
-          "properties": {
-            "Browser": "NetSurf"
-          }
+          "browser": "netsurf"
         },
         {
           "match": "ogeb browser , Version 1.1.0",
+          "browser": "ogeb browser",
           "properties": {
-            "Browser": "ogeb browser",
             "Version": "1.1"
           }
         },
         {
           "match": "SCEJ PSP BROWSER 0102pspNavigator",
-          "properties": {
-            "Browser": "Wipeout Pure"
-          }
+          "browser": "wipeout pure"
         },
         {
           "match": "WWW_Browser/*",
-          "properties": {
-            "Browser": "WWW Browser",
-            "Version": "1.69"
-          },
+          "browser": "www browser",
           "platforms": [
             "Win16"
-          ]
-        },
-        {
-          "match": "*CaptiveNetworkSupport*wispr*",
+          ],
           "properties": {
-            "Browser": "WISPr"
+            "Version": "1.69"
           }
         },
         {
+          "match": "*CaptiveNetworkSupport*wispr*",
+          "browser": "wispr"
+        },
+        {
           "match": "WEB.DE MailCheck/2.4*",
+          "browser": "web.de mailcheck",
           "properties": {
-            "Browser": "WEB.DE MailCheck",
-            "Browser_Maker": "1 & 1",
             "Version": "2.4"
           }
         },
         {
           "match": "WEB.DE MailCheck/*",
-          "properties": {
-            "Browser": "WEB.DE MailCheck",
-            "Browser_Maker": "1 & 1"
-          }
+          "browser": "web.de mailcheck"
         },
         {
           "match": "GMX MailCheck/2.3*",
+          "browser": "gmx mailcheck",
           "properties": {
-            "Browser": "GMX MailCheck",
-            "Browser_Maker": "1 & 1",
             "Version": "2.3"
           }
         },
         {
           "match": "GMX MailCheck/2.4*",
+          "browser": "gmx mailcheck",
           "properties": {
-            "Browser": "GMX MailCheck",
-            "Browser_Maker": "1 & 1",
             "Version": "2.4"
           }
         },
         {
           "match": "GMX MailCheck/*",
-          "properties": {
-            "Browser": "GMX MailCheck"
-          }
+          "browser": "gmx mailcheck"
         },
         {
           "match": "T-Online Browser",
-          "properties": {
-            "Browser": "T-Online Browser"
-          }
+          "browser": "t-online browser"
         }
       ]
     }

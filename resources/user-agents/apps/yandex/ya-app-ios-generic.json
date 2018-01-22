@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "YaApp Generic for iOS",
+      "browser": "yaapp",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YaApp Generic",
-        "Browser": "YaApp",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC"
+        "Beta": "false"
       },
       "children": [
         {

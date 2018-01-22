@@ -6,30 +6,27 @@
   "userAgents": [
     {
       "userAgent": "The Diary",
+      "browser": "the diary",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "The Diary",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "The Diary"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "The Diary/1.1* (iPad; #PLATFORM#",
           "device": "iPad",
-          "properties": {
-            "Version": "1.1"
-          },
           "platforms": [
             "iOS_C_5_1",
             "iOS_C"
-          ]
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
         },
         {
           "match": "The Diary/* (iPad; #PLATFORM#",

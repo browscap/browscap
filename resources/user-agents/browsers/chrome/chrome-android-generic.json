@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Chrome Generic for Android",
+      "browser": "chrome",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chrome Generic",
-        "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
-        "JavaApplets": "false"
+        "Comment": "Chrome Generic"
       },
       "children": [
         {
@@ -76,9 +73,6 @@
         },
         {
           "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "DINO762": "Dino 762 A9",
             "ELEMENT10 1": "Sencor Element 10.1",
@@ -91,16 +85,19 @@
           },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "* Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

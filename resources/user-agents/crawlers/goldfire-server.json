@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Goldfire Server",
+      "browser": "goldfire server",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Goldfire Server",
-        "Browser": "Goldfire Server",
-        "Browser_Maker": "Invention Machine Corporation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Goldfire Server"
       },
       "children": [
         {

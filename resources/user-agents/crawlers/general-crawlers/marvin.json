@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Marvin",
+      "browser": "medhunt",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MedHunt",
-        "Browser": "MedHunt",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "MedHunt"
       },
       "children": [
         {

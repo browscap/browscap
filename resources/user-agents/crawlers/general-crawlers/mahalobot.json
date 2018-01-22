@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Mahalobot",
+      "browser": "mahalobot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mahalobot",
-        "Browser": "Mahalobot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Mahalobot"
       },
       "children": [
         {

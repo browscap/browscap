@@ -7,27 +7,25 @@
   "userAgents": [
     {
       "userAgent": "kioclient #MAJORVER#.#MINORVER#",
+      "browser": "kioclient",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "kioclient #MAJORVER#.#MINORVER#",
-        "Browser": "kioclient",
-        "Browser_Type": "Application",
-        "Browser_Maker": "KDE e.V.",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) kioclient/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "CentOS",
+            "Linux_64", "Linux"
           ]
         }
       ]

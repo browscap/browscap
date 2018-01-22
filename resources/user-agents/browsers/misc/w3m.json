@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "w3m",
+      "browser": "w3m",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "w3m",
-        "Browser": "w3m",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sakamoto Hironori"
+        "Comment": "w3m"
       },
       "children": [
         {

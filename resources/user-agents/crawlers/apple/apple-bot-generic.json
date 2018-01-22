@@ -6,23 +6,20 @@
   "userAgents": [
     {
       "userAgent": "Applebot Generic",
-      "device": "Macintosh",
+      "browser": "applebot",
       "platform": "OSX",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Applebot Generic",
-        "Browser": "Applebot",
-        "Browser_Maker": "Apple Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Applebot Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (*Applebot/*",
           "device": "Macintosh",
           "platforms": [
-            "iOS_A",
-            "OSX"
+            "OSX",
+            "iOS_A"
           ]
         }
       ]

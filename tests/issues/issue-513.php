@@ -2123,6 +2123,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-513-AX (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.0450',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-513-AY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; FunWebProducts; GTB6.3; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.0.0; .NET CLR 3.0.30729; InfoPath.2; MS-RTC LM 8; .NE',
         'properties' => [
@@ -5207,6 +5220,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-513-DT (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.4; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2181.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win10',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-513-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0',

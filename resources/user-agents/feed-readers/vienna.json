@@ -7,24 +7,21 @@
   "userAgents": [
     {
       "userAgent": "Vienna #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "browser": "vienna",
       "platform": "OSX",
+      "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vienna #MAJORVER#.#MINORVER#",
-        "Browser": "Vienna",
-        "Browser_Maker": "Steve Palmer",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "isSyndicationReader": "true",
-        "Browser_Type": "Feed Reader",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Vienna/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }

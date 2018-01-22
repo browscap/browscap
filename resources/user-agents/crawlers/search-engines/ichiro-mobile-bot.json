@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Ichiro Mobile Bot",
+      "browser": "ichiro mobile bot",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ichiro Mobile Bot",
-        "Browser": "Ichiro Mobile Bot",
-        "Browser_Maker": "Ichiro",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Ichiro Mobile Bot"
       },
       "children": [
         {

@@ -6,25 +6,23 @@
   "userAgents": [
     {
       "userAgent": "Pirate Browser",
-      "device": "Windows Desktop",
+      "browser": "pirate browser",
       "engine": "Gecko_23",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Pirate Browser",
-        "Browser": "Pirate Browser",
-        "Browser_Maker": "Pirate Bay",
-        "Browser_Type": "Browser"
+        "Comment": "Pirate Browser"
       },
       "children": [
         {
           "match": "PB0.6b Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0",
+          "platforms": [
+            "Win7_64"
+          ],
           "properties": {
             "Version": "0.6",
             "Beta": "true"
-          },
-          "platforms": [
-            "Win7_64"
-          ]
+          }
         }
       ]
     }

@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
+      "browser": "firefox",
       "engine": "Gecko_1_9_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -29,31 +27,38 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000",
-            "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
-            "Vista_x64_2", "Vista_32",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
             "Win7_x64_2", "Win7_32",
-            "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_PPC_10_4", "OSX_PPC",
-            "MacPPC",
-            "OSX"
+            "OSX_PPC_10_4",
+            "OSX_PPC", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX",
+            "MacPPC"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "FreeBSD_386",
-            "HPUX", "IRIX64",
+            "FreeBSD",
             "OpenBSD_64_2", "OpenBSD",
-            "SunOS", "OS2", "NetBSD", "DragonFlyBSD"
+            "NetBSD",
+            "DragonFlyBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS",
+            "OS2",
+            "FreeBSD_386"
           ]
         },
         {
@@ -67,11 +72,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Shiretoko/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000",
-            "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
-            "Vista_x64_2", "Vista_32",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
             "Win7_x64_2", "Win7_32",
-            "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
           ]
         },
         {

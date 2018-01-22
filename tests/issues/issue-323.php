@@ -231,6 +231,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-323-E (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2041.4 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-323-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Iron/31.0.1700.0 Chrome/31.0.1700.0 Safari/537.36',
         'properties' => [
@@ -359,21 +372,6 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-323-H (standard)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; da-dk) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16',
-        'properties' => [
-            'Comment' => 'Safari 5.0',
-            'Browser' => 'Safari',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '5.0',
-            'Platform' => 'MacOSX',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-323-I' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.143.1-Gen4_11004910) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true',

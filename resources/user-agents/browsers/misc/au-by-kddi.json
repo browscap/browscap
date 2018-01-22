@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AU by KDDI",
+      "browser": "au",
       "platform": "Brew",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AU by KDDI",
-        "Browser": "AU",
         "Version": "4.1"
       },
       "children": [

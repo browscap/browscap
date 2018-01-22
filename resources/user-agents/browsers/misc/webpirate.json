@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "WebPirate Browser",
+      "browser": "webpirate browser",
       "platform": "SailfishOS",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebPirate Browser",
-        "Browser": "WebPirate Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Antonio Davide",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -32,4 +28,3 @@
     }
   ]
 }
-

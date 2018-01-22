@@ -6,18 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Univention Corporate Server Generic",
-      "device": "Linux Desktop",
+      "browser": "univention corporate server",
       "platform": "Linux",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Univention Corporate Server Generic",
-        "Browser": "Univention Corporate Server",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Univention GmbH",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {

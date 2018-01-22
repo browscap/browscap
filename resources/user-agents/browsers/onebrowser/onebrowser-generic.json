@@ -6,13 +6,12 @@
   "userAgents": [
     {
       "userAgent": "OneBrowser Generic",
+      "browser": "onebrowser",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OneBrowser Generic",
-        "Browser": "OneBrowser",
-        "Browser_Type": "Browser"
+        "Comment": "OneBrowser Generic"
       },
       "children": [
         {
@@ -40,14 +39,13 @@
     },
     {
       "userAgent": "OneBrowser Generic for Android",
+      "browser": "onebrowser",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OneBrowser Generic",
-        "Browser": "OneBrowser",
-        "Browser_Type": "Browser"
+        "Comment": "OneBrowser Generic"
       },
       "children": [
         {
@@ -78,14 +76,13 @@
     },
     {
       "userAgent": "OneBrowser Generic for iOS",
+      "browser": "onebrowser",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OneBrowser Generic",
-        "Browser": "OneBrowser",
-        "Browser_Type": "Browser"
+        "Comment": "OneBrowser Generic"
       },
       "children": [
         {

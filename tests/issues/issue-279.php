@@ -1381,21 +1381,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-279-AJ (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (iPad;U;CPU OS 5_1_1 like Mac OS X; zh-cn)AppleWebKit/534.46.0(KHTML, like Gecko)CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3',
-        'properties' => [
-            'Comment' => 'Mobile Safari Generic',
-            'Browser' => 'Safari',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Tablet',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-279-AK' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)',
         'properties' => [

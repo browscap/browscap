@@ -170,7 +170,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1733-E' => [

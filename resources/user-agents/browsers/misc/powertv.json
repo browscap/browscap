@@ -6,11 +6,11 @@
   "userAgents": [
     {
       "userAgent": "PowerTV",
+      "browser": "powertv",
       "device": "PowerTV",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PowerTV",
-        "Browser": "PowerTV"
+        "Comment": "PowerTV"
       },
       "children": [
         {

@@ -216,6 +216,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1533-E (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Focus/2.0.1 Mobile/14A346',
+        'properties' => [
+            'Comment' => 'Firefox Focus 2.0',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '2.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1533-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Focus/2.0.1 Mobile/14B100',
         'properties' => [
@@ -258,6 +273,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1533-F (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Focus/2.0.1 Mobile/14B100',
+        'properties' => [
+            'Comment' => 'Firefox Focus 2.0',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '2.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1533-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0.1 Mobile/14C92',
@@ -302,6 +332,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1533-G (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0.1 Mobile/14C92',
+        'properties' => [
+            'Comment' => 'Firefox Focus 2.0',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '2.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1533-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.1 Mobile/14E304',
         'properties' => [
@@ -344,6 +389,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1533-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.1 Mobile/14E304',
+        'properties' => [
+            'Comment' => 'Firefox Focus 3.1',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '3.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1533-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Mobile Safari/537.36',

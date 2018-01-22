@@ -883,7 +883,7 @@ return [
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Fenrir Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '4.1',
             'Platform' => 'MacOSX',

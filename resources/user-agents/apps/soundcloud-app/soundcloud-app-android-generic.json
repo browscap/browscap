@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "SoundCloud App Generic for Android",
-      "engine": "WebKit",
+      "browser": "soundcloud app",
       "platform": "Android",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SoundCloud App Generic for Android",
-        "Browser": "SoundCloud App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "SoundCloud Limited",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

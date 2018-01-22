@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BlekkoBot",
+      "browser": "blekkobot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlekkoBot",
-        "Browser": "BlekkoBot",
-        "Browser_Maker": "Blekko Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BlekkoBot"
       },
       "children": [
         {

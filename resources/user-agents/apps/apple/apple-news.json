@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Apple News #MAJORVER#.#MINORVER# for iOS",
+      "browser": "apple news",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple News #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Apple News",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {

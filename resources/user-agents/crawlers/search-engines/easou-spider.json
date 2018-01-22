@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "EasouSpider",
+      "browser": "easouspider",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "EasouSpider",
-        "Browser": "EasouSpider",
-        "Browser_Maker": "easou.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "EasouSpider"
       },
       "children": [
         {
@@ -26,14 +23,16 @@
           "match": "Mozilla/5.0 (iPhone; #PLATFORM#; EasouSpider*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_3_0", "iOS_A"
+            "iOS_A_3_0",
+            "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#; EasouSpider*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_A_3_0", "iOS_A"
+            "iOS_A_3_0",
+            "iOS_A"
           ]
         }
       ]

@@ -14,7 +14,8 @@ final class EngineFactory
      * @param array  $dataAllEngines The Engine data for all engines
      * @param string $engineName     The name for the current engine
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
      *
      * @return Engine
      */

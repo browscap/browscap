@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Polaris",
+      "browser": "polaris",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polaris",
-        "Browser": "Polaris",
-        "Browser_Maker": "Infraware Inc",
-        "Browser_Type": "Application"
+        "Comment": "Polaris"
       },
       "children": [
         {
@@ -53,39 +51,39 @@
         },
         {
           "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* Samsung SCH-U820",
-          "properties": {
-            "Version": "6.2"
-          },
           "device": "Samsung SCH-U820",
           "platforms": [
             "Brew_3_1"
-          ]
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
         },
         {
           "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* LGE VX8575",
-          "properties": {
-            "Version": "6.2"
-          },
           "device": "LG VX8575",
           "platforms": [
             "Brew_3_1"
-          ]
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
         },
         {
           "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/*",
-          "properties": {
-            "Version": "6.2"
-          },
           "platforms": [
             "Brew_3_1"
-          ]
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
         },
         {
           "match": "UTSTARCOM-GTX75/* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
+          "device": "UTStarcom GTX75",
           "properties": {
             "Version": "6.0"
-          },
-          "device": "UTStarcom GTX75"
+          }
         },
         {
           "match": "* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
@@ -95,12 +93,12 @@
         },
         {
           "match": "POLARIS/6.1 (BREW 3.1*)*",
-          "properties": {
-            "Version": "6.1"
-          },
           "platforms": [
             "Brew_3_1"
-          ]
+          ],
+          "properties": {
+            "Version": "6.1"
+          }
         }
       ]
     }

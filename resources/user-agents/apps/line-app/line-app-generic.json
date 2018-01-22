@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Line App for iOS",
+      "browser": "line app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Line Corporation",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Line App",
-        "Browser": "Line App"
+        "Comment": "Line App"
       },
       "children": [
         {
@@ -57,16 +54,13 @@
     },
     {
       "userAgent": "Line App for Android",
+      "browser": "line app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Line Corporation",
-        "Browser_Type": "Application",
-        "Crawler": "false",
-        "Comment": "Line App",
-        "Browser": "Line App"
+        "Comment": "Line App"
       },
       "children": [
         {

@@ -5763,21 +5763,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1499-ED (standard)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.4 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2250.1 Iron/45.0.2250.1 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '45.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1499-EE' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2450.0 Iron/46.0.2450.0 Safari/537.36',
         'properties' => [

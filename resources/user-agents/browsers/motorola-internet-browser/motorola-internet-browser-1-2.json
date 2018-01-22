@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+      "browser": "motorola internet browser",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Motorola Internet Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Motorola",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

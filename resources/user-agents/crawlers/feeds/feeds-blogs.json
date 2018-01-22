@@ -6,106 +6,79 @@
   "userAgents": [
     {
       "userAgent": "Feeds Blogs",
+      "browser": "feeds blogs",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Feeds Blogs",
-        "Browser": "Feeds Blogs",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Comment": "Feeds Blogs"
       },
       "children": [
         {
           "match": "Bloglines Title Fetch/*",
-          "properties": {
-            "Browser": "Bloglines Title Fetch"
-          }
+          "browser": "bloglines title fetch"
         },
         {
           "match": "Bloglines/3.1*",
+          "browser": "bloglines web",
           "properties": {
-            "Browser": "BlogLines Web",
             "Version": "3.1"
           }
         },
         {
           "match": "Bloglines/3.0*",
+          "browser": "bloglines web",
           "properties": {
-            "Browser": "BlogLines Web",
             "Version": "3.0"
           }
         },
         {
           "match": "Bloglines/*",
-          "properties": {
-            "Browser": "BlogLines Web"
-          }
+          "browser": "bloglines web"
         },
         {
           "match": "BlogPulse (ISSpider-3.*)",
-          "properties": {
-            "Browser": "BlogPulse"
-          }
+          "browser": "blogpulse"
         },
         {
           "match": "BlogPulseLive (support@blogpulse.com)",
-          "properties": {
-            "Browser": "BlogPulseLive"
-          }
+          "browser": "blogpulselive"
         },
         {
           "match": "blogsearchbot-pumpkin-2",
-          "properties": {
-            "Browser": "blogsearchbot-pumpkin",
-            "isSyndicationReader": "false"
-          }
+          "browser": "blogsearchbot-pumpkin"
         },
         {
           "match": "Irish Blogs Aggregator/*1.0*",
+          "browser": "irish blogs aggregator",
           "properties": {
-            "Browser": "Irish Blogs Aggregator",
             "Version": "1.0"
           }
         },
         {
           "match": "kinjabot (http://www.kinja.com; *)",
-          "properties": {
-            "Browser": "kinjabot"
-          }
+          "browser": "kinjabot"
         },
         {
           "match": "Net::Trackback/*",
-          "properties": {
-            "Browser": "Net::Trackback"
-          }
+          "browser": "net::trackback"
         },
         {
           "match": "Reblog*",
-          "properties": {
-            "Browser": "Reblog"
-          }
+          "browser": "reblog"
         },
         {
           "match": "Bloglovin/1.0*",
+          "browser": "bloglovin bot",
           "properties": {
-            "Browser": "Bloglovin Bot",
-            "Browser_Maker": "bloglovin.com",
             "Version": "1.0"
           }
         },
         {
           "match": "Bloglovin/*",
-          "properties": {
-            "Browser": "Bloglovin Bot",
-            "Browser_Maker": "bloglovin.com"
-          }
+          "browser": "bloglovin bot"
         },
         {
           "match": "wp.com feedbot/* (+https://wp.com)",
-          "properties": {
-            "Browser": "Wordpress.com Feed Bot",
-            "Browser_Maker": "Wordpress"
-          }
+          "browser": "wordpress.com feed bot"
         }
       ]
     }

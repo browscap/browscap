@@ -6,27 +6,31 @@
   "userAgents": [
     {
       "userAgent": "LG Player Generic",
+      "browser": "player",
+      "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LG Player Generic",
-        "Browser": "Player",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "LG"
+        "Comment": "LG Player Generic"
       },
       "children": [
         {
           "match": "*Player/LG Player* for #PLATFORM# (stagefright alternative*",
           "platforms": [
-            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4",
+            "Android_H"
           ]
         },
         {
           "match": "Player/LG Player* for #PLATFORM# (stagefright alternative*",
           "platforms": [
-            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4",
+            "Android_H"
           ]
         }
       ]

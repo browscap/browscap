@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Doris",
+      "browser": "doris",
       "platform": "SymbianOS",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Doris",
-        "Browser": "Doris",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

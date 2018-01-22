@@ -1,21 +1,19 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["7.0"],
+  "versions": [7],
   "sortIndex": 1961,
   "lite": true,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

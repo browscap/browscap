@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "iSearch",
+      "browser": "isearch",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iSearch",
-        "Browser": "iSearch",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "iSearch/1.2* CFNetwork/*",
-          "properties": {
-            "Version": "1.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
         },
         {
           "match": "iSearch/* CFNetwork/*",

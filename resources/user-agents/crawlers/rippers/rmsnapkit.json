@@ -6,32 +6,29 @@
   "userAgents": [
     {
       "userAgent": "RMSnapKit",
+      "browser": "rmsnapkit",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "RMSnapKit",
-        "Browser": "RMSnapKit",
-        "Browser_Maker": "realmacsoftware",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "RMSnapKit"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) RMSnapKit/1.0*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ],
           "properties": {
             "Version": "1.0"
-          },
-          "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
-          ]
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) RMSnapKit/*",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         }

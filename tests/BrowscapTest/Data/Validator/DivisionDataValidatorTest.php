@@ -3,7 +3,6 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Validator;
 
 use Assert\InvalidArgumentException;
-use Browscap\Data\Division;
 use Browscap\Data\Validator\DivisionDataValidator;
 use LogicException;
 use PHPUnit\Framework\TestCase;
@@ -20,6 +19,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object = new DivisionDataValidator();
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDivisionPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -31,6 +33,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDivisionPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -45,6 +50,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testSortIndexPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -59,6 +67,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testSortIndexPropertyIsNotInteger() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -74,6 +85,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testSortIndexPropertyIsZero() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -89,6 +103,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testLitePropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -104,6 +121,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testLitePropertyIsNotBoolean() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -120,6 +140,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testStandardPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -136,6 +159,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testStandardPropertyIsNotBoolean() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -153,6 +179,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentsPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -170,6 +199,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentsPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -188,6 +220,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -207,6 +242,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -226,6 +264,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertyHasInvalidCharacters() : void
     {
         $this->expectException(LogicException::class);
@@ -245,6 +286,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertisDefinedTwice() : void
     {
         $this->expectException(LogicException::class);
@@ -264,6 +308,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertyHasVersionPlaceholdersButNoVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -284,6 +331,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testUserAgentPropertyHasNoVersionPlaceholdersButMultipleVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -304,6 +354,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -324,6 +377,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyIsNotArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -349,6 +405,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testParentPropertyIsMissingInProperties() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -374,6 +433,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testWrongParentProperty() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -399,6 +461,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCommentPropertyIsMissingInProperties() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -424,6 +489,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCommentPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -449,6 +517,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testVersionPropertyIsMissingInProperties() : void
     {
         $this->expectException(LogicException::class);
@@ -474,6 +545,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testOkForCore() : void
     {
         $divisionData = [
@@ -497,6 +571,9 @@ class DivisionDataValidatorTest extends TestCase
         self::assertTrue(true);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testVersionPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -522,6 +599,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testVersionPropertyHasPlaceholdersButNoVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -547,6 +627,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testVersionPropertyHasNoPlaceholdersButMultipleVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -572,6 +655,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testChildrenPropertyIsMissingInProperties() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -597,6 +683,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testChildrenPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -623,6 +712,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testChildrenPropertyHasDirectMatch() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -649,6 +741,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDeviceAndDevicesPropertiesAreAvailable() : void
     {
         $this->expectException(LogicException::class);
@@ -680,6 +775,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDevicesPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -710,6 +808,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDevicePropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -740,6 +841,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testMatchPropertyIsNotAvailable() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -770,6 +874,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testMatchPropertyIsNotString() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -801,6 +908,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testMatchPropertyIncludesInvalidCharacters() : void
     {
         $this->expectException(LogicException::class);
@@ -832,6 +942,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testMatchPropertyIncludesPlatformPlaceholder() : void
     {
         $this->expectException(LogicException::class);
@@ -863,6 +976,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPlatformsPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -895,6 +1011,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testMultiplePlatformsWithoutPlatformPlaceholder() : void
     {
         $this->expectException(LogicException::class);
@@ -927,6 +1046,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testVersionPlaceholderIsAvailableButNoVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -958,6 +1080,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testNoVersionPlaceholderIsAvailableButMultipleVersions() : void
     {
         $this->expectException(LogicException::class);
@@ -989,6 +1114,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testNoVersionPlaceholderIsAvailableButMultipleVersionsAndNoDynamicPlatform() : void
     {
         $this->expectException(LogicException::class);
@@ -1021,6 +1149,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testNoVersionPlaceholderIsAvailableButMultipleVersionsButWithDynamicPlatform() : void
     {
         $divisionData = [
@@ -1051,6 +1182,9 @@ class DivisionDataValidatorTest extends TestCase
         self::assertTrue(true);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testDevicePlaceholderIsAvailableButNoDevices() : void
     {
         $this->expectException(LogicException::class);
@@ -1082,6 +1216,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testNoDevicePlaceholderIsAvailableButMultipleDevices() : void
     {
         $this->expectException(LogicException::class);
@@ -1113,6 +1250,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testOkWithoutProperties() : void
     {
         $divisionData = [
@@ -1142,6 +1282,9 @@ class DivisionDataValidatorTest extends TestCase
         self::assertTrue(true);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyIsNotAnArray() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -1174,6 +1317,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyHasParent() : void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -1206,6 +1352,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyHasVersionSameAsParent() : void
     {
         $this->expectException(LogicException::class);
@@ -1238,6 +1387,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyHasDeviceProperties() : void
     {
         $this->expectException(LogicException::class);
@@ -1270,6 +1422,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyHasEngineProperties() : void
     {
         $this->expectException(LogicException::class);
@@ -1302,6 +1457,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testPropertiesPropertyHasPlatformProperties() : void
     {
         $this->expectException(LogicException::class);
@@ -1334,6 +1492,9 @@ class DivisionDataValidatorTest extends TestCase
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
     }
 
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testOk() : void
     {
         $divisionData = [

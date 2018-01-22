@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Scrapy",
+      "browser": "scrapy",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Scrapy",
-        "Browser": "Scrapy",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "scrapy.org",
-        "Crawler": "true"
+        "Comment": "Scrapy"
       },
       "children": [
         {

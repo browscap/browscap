@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Free-Podcasts #MAJORVER#.#MINORVER#",
+      "browser": "free-podcasts",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Free-Podcasts #MAJORVER#.#MINORVER#",
-        "Browser": "Free-Podcasts",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

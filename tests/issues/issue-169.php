@@ -44,4 +44,17 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-169 (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J3 Safari/6533.18.5',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];

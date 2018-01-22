@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Asus",
+      "browser": "asus",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Asus",
-        "Browser": "Asus"
+        "Comment": "Asus"
       },
       "children": [
         {

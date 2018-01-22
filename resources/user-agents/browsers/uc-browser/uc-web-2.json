@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "uc browser",
       "platform": "Android",
-      "device": "general Mobile Phone (Touch)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -170,15 +168,13 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "uc browser",
       "platform": "iOS",
       "engine": "U3",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -216,14 +212,12 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
-      "device": "general Mobile Phone (Touch)",
+      "browser": "uc browser",
       "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -231,7 +225,8 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7_C", "WinPhone8_B",
+            "WinPhone8_B",
+            "WinPhone7_C",
             "SymbianOS_B"
           ]
         },

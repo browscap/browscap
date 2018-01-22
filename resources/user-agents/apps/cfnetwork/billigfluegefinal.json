@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "billigFluegeFinal",
+      "browser": "billigfluegefinal app",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "billigFluegeFinal App",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "billigFluegeFinal App"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "billigFluegeFinal/1.6* CFNetwork/*",
-          "properties": {
-            "Version": "1.6"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.6"
+          }
         },
         {
           "match": "billigFluegeFinal* CFNetwork/*",

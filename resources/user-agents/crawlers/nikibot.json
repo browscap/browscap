@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "NikiBot",
+      "browser": "nikibot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NikiBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser": "NikiBot",
-        "Crawler": "true"
+        "Comment": "NikiBot"
       },
       "children": [
         {

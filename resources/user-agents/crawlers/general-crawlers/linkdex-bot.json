@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Linkdex Bot",
+      "browser": "linkdex bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Linkdex Bot",
-        "Browser": "Linkdex Bot",
-        "Browser_Maker": "Linkdex Limited",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Linkdex Bot"
       },
       "children": [
         {
@@ -33,12 +30,12 @@
         {
           "match": "Mozilla/5.0 (iPhone; *CPU iPhone OS 4_1*) applewebkit* (*khtml*like*gecko*) Version/4.0.5 Mobile/* Safari/* (compatible; linkdexbot-mobile/2.1*",
           "device": "iPhone",
-          "properties": {
-            "Version": "2.1"
-          },
           "platforms": [
             "iOS_A_4_1"
-          ]
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
         }
       ]
     }

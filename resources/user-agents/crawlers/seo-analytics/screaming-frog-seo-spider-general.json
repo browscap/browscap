@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Screaming Frog SEO Spider General",
+      "browser": "screaming frog seo spider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Screaming Frog SEO Spider General",
-        "Browser": "Screaming Frog SEO Spider",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Screaming Frog SEO Spider General"
       },
       "children": [
         {

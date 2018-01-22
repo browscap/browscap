@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "reddit pic scraper",
+      "browser": "reddit pic scraper",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "reddit pic scraper",
-        "Browser": "reddit pic scraper",
-        "Browser_Maker": "Reddit Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "reddit pic scraper"
       },
       "children": [
         {

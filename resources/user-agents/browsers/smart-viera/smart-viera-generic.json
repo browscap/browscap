@@ -6,13 +6,11 @@
   "userAgents": [
     {
       "userAgent": "SmartViera Generic",
+      "browser": "smartviera",
       "device": "Viera",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SmartViera Generic",
-        "Browser": "SmartViera",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Panasonic"
+        "Comment": "SmartViera Generic"
       },
       "children": [
         {

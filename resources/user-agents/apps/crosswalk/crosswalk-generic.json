@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Crosswalk App Generic",
+      "browser": "crosswalk app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Crosswalk App Generic",
-        "Browser": "Crosswalk App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Intel Corporation"
+        "Comment": "Crosswalk App Generic"
       },
       "children": [
         {

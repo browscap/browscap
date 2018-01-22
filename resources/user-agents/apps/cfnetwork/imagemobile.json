@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "ImageMobile",
+      "browser": "imagemobile",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "ImageMobile",
         "Comment": "ImageMobile",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "ImageMobile/1.2* CFNetwork/*",
-          "properties": {
-            "Version": "1.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
         },
         {
           "match": "ImageMobile/* CFNetwork/*",

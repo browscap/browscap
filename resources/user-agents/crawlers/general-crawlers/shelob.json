@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "shelob",
+      "browser": "shelob",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "shelob",
-        "Browser": "shelob",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "shelob"
       },
       "children": [
         {

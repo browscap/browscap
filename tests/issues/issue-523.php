@@ -547,6 +547,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-523-L (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-523-M' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; rv:1.9a3pre) Gecko/20070330',
         'properties' => [

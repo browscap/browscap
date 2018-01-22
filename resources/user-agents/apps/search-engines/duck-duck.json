@@ -6,48 +6,37 @@
   "userAgents": [
     {
       "userAgent": "DuckDuckBot",
+      "browser": "duckduckbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DuckDuckBot",
-        "Browser": "DuckDuckBot",
-        "Browser_Maker": "DuckDuckGo",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "DuckDuckBot"
       },
       "children": [
         {
           "match": "DuckDuckBot/*; (?http://duckduckgo.com/duckduckbot.html)",
-          "properties": {
-            "Browser": "DuckDuckBot"
-          }
+          "browser": "duckduckbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0*",
+          "browser": "duckduck favicons bot",
           "properties": {
-            "Browser": "DuckDuck Favicons Bot",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/*",
-          "properties": {
-            "Browser": "DuckDuck Favicons Bot"
-          }
+          "browser": "duckduck favicons bot"
         },
         {
           "match": "DDG-Android-3.0*",
+          "browser": "duckduck app",
           "properties": {
-            "Browser": "DuckDuck App",
-            "Browser_Type": "Application",
             "Version": "3.0"
           }
         },
         {
           "match": "DDG-Android-*",
-          "properties": {
-            "Browser": "DuckDuck App",
-            "Browser_Type": "Application"
-          }
+          "browser": "duckduck app"
         }
       ]
     }

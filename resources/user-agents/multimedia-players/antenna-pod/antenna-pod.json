@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "AntennaPod #MAJORVER#.#MINORVER#",
+      "browser": "antennapod",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AntennaPod #MAJORVER#.#MINORVER#",
-        "Browser": "AntennaPod",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

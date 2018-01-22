@@ -6,103 +6,72 @@
   "userAgents": [
     {
       "userAgent": "W3C",
+      "browser": "w3c",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "W3C",
-        "Browser": "W3C",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "W3C",
-        "Crawler": "true"
+        "Comment": "W3C"
       },
       "children": [
         {
           "match": "*W3C-checklink/*",
-          "properties": {
-            "Browser": "W3C-checklink"
-          }
+          "browser": "w3c-checklink"
         },
         {
           "match": "Jigsaw/*",
-          "properties": {
-            "Browser": "Jigsaw CSS Validator"
-          }
+          "browser": "jigsaw css validator"
         },
         {
           "match": "Jigsaw/* W3C_CSS_Validator*/*",
-          "properties": {
-            "Browser": "Jigsaw_W3C_CSS_Validator"
-          }
+          "browser": "jigsaw_w3c_css_validator"
         },
         {
           "match": "P3P Validator",
-          "properties": {
-            "Browser": "P3P Validator"
-          }
+          "browser": "p3p validator"
         },
         {
           "match": "Unicorn/1.*",
-          "properties": {
-            "Browser": "W3C Unicorn"
-          }
+          "browser": "w3c unicorn"
         },
         {
           "match": "W3C-mobileOK/*",
+          "browser": "w3c-mobileok",
           "properties": {
-            "Browser": "W3C-mobileOK",
             "Alpha": "false",
-            "Beta": "false",
-            "isSyndicationReader": "false",
-            "Crawler": "true"
+            "Beta": "false"
           }
         },
         {
           "match": "W3C-mobileOK/DDC-*",
-          "properties": {
-            "Browser": "W3C-mobileOK/DDC"
-          },
+          "browser": "w3c-mobileok/ddc",
           "device": "general Mobile Device"
         },
         {
           "match": "W3C-WebCon/*",
-          "properties": {
-            "Browser": "W3C-WebCon"
-          }
+          "browser": "w3c-webcon"
         },
         {
           "match": "W3C_Validator/*",
-          "properties": {
-            "Browser": "W3C_Validator"
-          }
+          "browser": "w3c_validator"
         },
         {
           "match": "W3CLineMode/*",
-          "properties": {
-            "Browser": "W3CLineMode"
-          }
+          "browser": "w3clinemode"
         },
         {
           "match": "W3CRobot/*",
-          "properties": {
-            "Browser": "W3CRobot"
-          }
+          "browser": "w3crobot"
         },
         {
           "match": "Validator.nu/LV*",
-          "properties": {
-            "Browser": "Validator.nu/LV"
-          }
+          "browser": "validator.nu/lv"
         },
         {
           "match": "W3C_I18n-Checker/*",
-          "properties": {
-            "Browser": "W3C I18n Checker"
-          }
+          "browser": "w3c i18n checker"
         },
         {
           "match": "W3C_Unicorn/*",
-          "properties": {
-            "Browser": "W3C Unicorn"
-          }
+          "browser": "w3c unicorn"
         }
       ]
     }

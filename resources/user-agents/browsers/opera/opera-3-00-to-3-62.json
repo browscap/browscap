@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "browser": "opera",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Browser": "Opera",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -21,37 +19,57 @@
           "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4", "NT4_1_B"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4", "NT4_1_B",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4", "NT4_1_B"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4", "NT4_1_B",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/?.*(*Opera?#MAJORVER#.#PLATFORM#) #MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4", "NT4_1_B"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4", "NT4_1_B",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4", "NT4_1_B",
-            "Windows"
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000_2", "Win2000",
+            "NT4", "NT4_1_B",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "Windows",
+            "WinME"
           ]
         },
         {

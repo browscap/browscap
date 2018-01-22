@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "YaApp #MAJORVER#.#MINORVER# for iOS",
+      "browser": "yaapp",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YaApp #MAJORVER#.#MINORVER#",
-        "Browser": "YaApp",
-        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "Yandex LLC"
+        "Beta": "false"
       },
       "children": [
         {

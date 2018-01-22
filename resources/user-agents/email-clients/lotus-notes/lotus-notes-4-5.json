@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Lotus Notes #MAJORVER#.#MINORVER#",
-      "device": "Windows Desktop",
+      "browser": "lotus notes",
       "platform": "NT",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes #MAJORVER#.#MINORVER#",
-        "Browser": "Lotus Notes",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "IBM",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

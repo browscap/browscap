@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "A6-Indexer",
+      "browser": "a6-indexer",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "A6-Indexer",
-        "Browser": "A6-Indexer",
-        "Browser_Maker": "A6 Corp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "A6-Indexer"
       },
       "children": [
         {
@@ -22,10 +19,7 @@
           }
         },
         {
-          "match": "A6-Indexer*",
-          "properties": {
-
-          }
+          "match": "A6-Indexer*"
         }
       ]
     }

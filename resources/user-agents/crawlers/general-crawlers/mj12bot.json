@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "MJ12bot",
+      "browser": "mj12bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MJ12bot",
-        "Browser": "MJ12bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Majestic-12 Ltd",
-        "Crawler": "true"
+        "Comment": "MJ12bot"
       },
       "children": [
         {

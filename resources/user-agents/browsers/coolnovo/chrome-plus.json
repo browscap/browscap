@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "ChromePlus #MAJORVER#.#MINORVER#",
+      "browser": "chromeplus",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ChromePlus #MAJORVER#.#MINORVER#",
-        "Browser": "ChromePlus",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Maple Studio",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Steeler",
+      "browser": "steeler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Steeler",
-        "Browser": "Steeler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Kitsuregawa Laboratory, The University of Tokyo",
-        "Crawler": "true"
+        "Comment": "Steeler"
       },
       "children": [
         {

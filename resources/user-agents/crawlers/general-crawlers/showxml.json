@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ShowXML",
+      "browser": "showxml",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ShowXML",
-        "Browser": "ShowXML",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ShowXML"
       },
       "children": [
         {

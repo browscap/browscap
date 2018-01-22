@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Google HTTP Client Library for Java",
+      "browser": "google http client library for java",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google HTTP Client Library for Java",
-        "Browser": "Google HTTP Client Library for Java",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Google Inc",
-        "Crawler": "true"
+        "Comment": "Google HTTP Client Library for Java"
       },
       "children": [
         {

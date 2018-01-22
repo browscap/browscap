@@ -6,25 +6,19 @@
   "userAgents": [
     {
       "userAgent": "iVia Project",
+      "browser": "ivia project",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "iVia Project",
-        "Browser": "iVia Project",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "iVia Project"
       },
       "children": [
         {
           "match": "DataFountains/DMOZ Downloader*",
-          "properties": {
-            "Browser": "DataFountains/DMOZ Downloader"
-          }
+          "browser": "datafountains/dmoz downloader"
         },
         {
           "match": "DataFountains/DMOZ Feature Vector Corpus Creator*",
-          "properties": {
-            "Browser": "DataFountains/DMOZ Feature Vector Corpus"
-          }
+          "browser": "datafountains/dmoz feature vector corpus"
         }
       ]
     }

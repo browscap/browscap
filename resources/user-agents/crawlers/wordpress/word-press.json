@@ -6,26 +6,23 @@
   "userAgents": [
     {
       "userAgent": "WordPress",
+      "browser": "wordpress",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WordPress",
-        "Browser": "WordPress",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "wordpress.org",
-        "Crawler": "true"
+        "Comment": "WordPress"
       },
       "children": [
         {
           "match": "WordPress-B-/2.*",
+          "browser": "wordpress-b",
           "properties": {
-            "Browser": "WordPress-B",
             "Version": "2.0"
           }
         },
         {
           "match": "WordPress-Do-P-/2.*",
+          "browser": "wordpress-do-p",
           "properties": {
-            "Browser": "WordPress-Do-P",
             "Version": "2.0"
           }
         },
@@ -40,23 +37,15 @@
         },
         {
           "match": "Automattic Analytics Crawler/*; http://wordpress.com/crawler/",
-          "properties": {
-            "Browser": "Automattic Analytics Crawler"
-          }
+          "browser": "automattic analytics crawler"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Mobile Safari/*",
-          "properties": {
-            "Browser": "Google Publisher Wordpress Plugin",
-            "Browser_Maker": "Google Inc."
-          }
+          "browser": "google publisher wordpress plugin"
         },
         {
           "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko* Google-Publisher-Plugin) Chrome/* Safari/*",
-          "properties": {
-            "Browser": "Google Publisher Wordpress Plugin",
-            "Browser_Maker": "Google Inc."
-          }
+          "browser": "google publisher wordpress plugin"
         }
       ]
     }

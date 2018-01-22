@@ -2,19 +2,17 @@
   "division": "Opera Neon #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 1043,
-  "lite": true,
+  "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Neon #MAJORVER#.#MINORVER#",
+      "browser": "opera neon",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Neon #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Neon",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -22,7 +20,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*MMS/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
         {

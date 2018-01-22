@@ -6,101 +6,69 @@
   "userAgents": [
     {
       "userAgent": "HTML Validators",
+      "browser": "html validators",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Validation Checkers",
-        "Browser": "HTML Validators",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Validation Checkers"
       },
       "children": [
         {
           "match": "(HTML Validator http://www.searchengineworld.com/validator/)",
-          "properties": {
-            "Browser": "Search Engine World HTML Validator"
-          }
+          "browser": "search engine world html validator"
         },
         {
           "match": "FeedValidator/*",
-          "properties": {
-            "Browser": "FeedValidator"
-          }
+          "browser": "feedvalidator"
         },
         {
           "match": "Search Engine World Robots.txt Validator*",
-          "properties": {
-            "Browser": "Search Engine World Robots.txt Validator"
-          }
+          "browser": "search engine world robots.txt validator"
         },
         {
           "match": "Weblide/*",
-          "properties": {
-            "Browser": "Weblide",
-            "Beta": "true"
-          }
+          "browser": "weblide"
         },
         {
           "match": "WebmasterWorld StickyMail Server Header Checker*",
-          "properties": {
-            "Browser": "WebmasterWorld Server Header Checker"
-          }
+          "browser": "webmasterworld server header checker"
         },
         {
           "match": "WWWC/*",
-          "properties": {
-            "Browser": "WWWC"
-          }
+          "browser": "wwwc"
         },
         {
           "match": "WDG_Validator/1.6*",
+          "browser": "wdg html validator",
           "properties": {
-            "Browser": "WDG HTML Validator",
-            "Browser_Maker": "Web Design Group",
             "Version": "1.6"
           }
         },
         {
           "match": "WDG_Validator/*",
-          "properties": {
-            "Browser": "WDG HTML Validator",
-            "Browser_Maker": "Web Design Group"
-          }
+          "browser": "wdg html validator"
         },
         {
           "match": "Mozilla/5.0 (compatible; Qualidator.com Bot 1.0*",
+          "browser": "qualidator.com bot",
           "properties": {
-            "Browser": "Qualidator.com Bot",
-            "Browser_Maker": "Qualidator.com",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Qualidator.com Bot*",
-          "properties": {
-            "Browser": "Qualidator.com Bot",
-            "Browser_Maker": "Qualidator.com"
-          }
+          "browser": "qualidator.com bot"
         },
         {
           "match": "CSE HTML Validator Online*",
-          "properties": {
-            "Browser": "CSE HTML Validator",
-            "Browser_Maker": "AI Internet Solutions LLC"
-          }
+          "browser": "cse html validator"
         },
         {
           "match": "Mozilla/5.0 (compatible; Let's Encrypt validation server*",
-          "properties": {
-            "Browser": "Let's Encrypt Validator",
-            "Browser_Maker": "Let's Encrypt"
-          }
+          "browser": "let's encrypt validator"
         },
         {
           "match": "Mozilla/5.0 (compatible; DomainSONOCrawler/*",
-          "properties": {
-            "Browser": "DomainSONO Crawler",
-            "Browser_Maker": "DomainSONO"
-          }
+          "browser": "domainsono crawler"
         }
       ]
     }

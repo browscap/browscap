@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "fastbot crawler",
+      "browser": "fastbot crawler",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "fastbot crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "fastbot crawler",
-        "Browser_Maker": "Pagedesign GmbH",
         "Beta": "true"
       },
       "children": [

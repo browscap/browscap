@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ImplisenseBot",
+      "browser": "implisensebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ImplisenseBot",
-        "Browser": "ImplisenseBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ImplisenseBot"
       },
       "children": [
         {

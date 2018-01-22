@@ -388,6 +388,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-I (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 Safari Line/7.16.0',
+        'properties' => [
+            'Comment' => 'Line App',
+            'Browser' => 'Line App',
+            'Browser_Maker' => 'Line Corporation',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/11.0 YaBrowser/16.9.0.3310.10 Mobile/15A432 Safari/601.1',
         'properties' => [
@@ -430,6 +445,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/11.0 YaBrowser/16.9.0.3310.10 Mobile/15A432 Safari/601.1',
+        'properties' => [
+            'Comment' => 'Yandex Browser 16.9',
+            'Browser' => 'Yandex Browser',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '16.9',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/11.0 YaBrowser/17.10.2.210.10 Mobile/15A432 Safari/602.1',
@@ -474,6 +504,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-K (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/11.0 YaBrowser/17.10.2.210.10 Mobile/15A432 Safari/602.1',
+        'properties' => [
+            'Comment' => 'Yandex Browser 17.10',
+            'Browser' => 'Yandex Browser',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '17.10',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Version/11.0 Safari/8536.25 Mobicip/-1072266048',
         'properties' => [
@@ -516,6 +561,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-L (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Version/11.0 Safari/8536.25 Mobicip/-1072266048',
+        'properties' => [
+            'Comment' => 'Mobicip Safe Browser',
+            'Browser' => 'Mobicip',
+            'Browser_Maker' => 'Mobicip.com',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/15B93 Twitter for iPhone',
@@ -560,6 +620,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-M (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/15B93 Twitter for iPhone',
+        'properties' => [
+            'Comment' => 'Twitter App',
+            'Browser' => 'Twitter App',
+            'Browser_Maker' => 'Twitter',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.1 (KHTML, like Gecko) Mobile/15B5066f Instagram 10.33.0 (iPad5,3; iOS 11_1; en_US; en-US; scale=2.00; gamut=normal; 640x960)',
         'properties' => [
@@ -602,6 +677,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-N (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.1 (KHTML, like Gecko) Mobile/15B5066f Instagram 10.33.0 (iPad5,3; iOS 11_1; en_US; en-US; scale=2.00; gamut=normal; 640x960)',
+        'properties' => [
+            'Comment' => 'Instagram App 10.0 for iOS',
+            'Browser' => 'Instagram App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '10.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-O' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B93 Listia/2.56',
@@ -646,6 +736,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-O (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B93 Listia/2.56',
+        'properties' => [
+            'Comment' => 'Listia App',
+            'Browser' => 'Listia App',
+            'Browser_Maker' => 'Listia Inc.',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-P' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B93 NAVER(inapp; search; 580; 8.2.2; 6)',
         'properties' => [
@@ -688,6 +793,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-P (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B93 NAVER(inapp; search; 580; 8.2.2; 6)',
+        'properties' => [
+            'Comment' => 'Naver 8.2 for iOS',
+            'Browser' => 'Naver',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '8.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-Q' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B93 UCBrowser/10.9.1.998 Mobile',
@@ -732,6 +852,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-Q (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B93 UCBrowser/10.9.1.998 Mobile',
+        'properties' => [
+            'Comment' => 'UC Browser 10.9',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '10.9',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/11.0 YaBrowser/17.10.2.210.10 Mobile/15B150 Safari/602.1',
         'properties' => [
@@ -774,6 +909,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-R (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/11.0 YaBrowser/17.10.2.210.10 Mobile/15B150 Safari/602.1',
+        'properties' => [
+            'Comment' => 'Yandex Browser 17.10',
+            'Browser' => 'Yandex Browser',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '17.10',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-S' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Camera360/8.9.3',
@@ -818,6 +968,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-S (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Camera360/8.9.3',
+        'properties' => [
+            'Comment' => 'Camera 360',
+            'Browser' => 'Camera 360',
+            'Browser_Maker' => 'PinGuo Inc.',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-T' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 7.3.0 (iPhone10,4; iPhone OS 11_1_1; en_US; en)',
         'properties' => [
@@ -860,6 +1025,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-T (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 7.3.0 (iPhone10,4; iPhone OS 11_1_1; en_US; en)',
+        'properties' => [
+            'Comment' => 'Instagram App 7.0 for iOS',
+            'Browser' => 'Instagram App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '7.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-U' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 MailMaster/6.0.6.1127',
@@ -904,6 +1084,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-U (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 MailMaster/6.0.6.1127',
+        'properties' => [
+            'Comment' => 'Mail Master',
+            'Browser' => 'Mail Master',
+            'Browser_Maker' => 'NetEase (Hangzhou) Network Co., Ltd.',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-V' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 MobileIron/2.1.0 Version/11.1.1 Safari/604.3.5',
         'properties' => [
@@ -946,6 +1141,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-V (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 MobileIron/2.1.0 Version/11.1.1 Safari/604.3.5',
+        'properties' => [
+            'Comment' => 'MobileIron 2.1',
+            'Browser' => 'MobileIron',
+            'Browser_Maker' => 'MobileIron',
+            'Version' => '2.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-W' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Safari Line/7.13.1',
@@ -990,6 +1200,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-W (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Safari Line/7.13.1',
+        'properties' => [
+            'Comment' => 'Line App',
+            'Browser' => 'Line App',
+            'Browser_Maker' => 'Line Corporation',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-X' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Version/11.0 Safari/604.3.5 (AirWatch Browser v6.5.2)',
         'properties' => [
@@ -1032,6 +1257,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-X (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Version/11.0 Safari/604.3.5 (AirWatch Browser v6.5.2)',
+        'properties' => [
+            'Comment' => 'VmWare Browser',
+            'Browser' => 'VmWare Browser',
+            'Browser_Maker' => 'AirWatch LLC',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-Y' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/11.1.1 Mobile/15B150 Safari/537.36 Puffin/5.2.2IP',
@@ -1076,6 +1316,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-Y (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/11.1.1 Mobile/15B150 Safari/537.36 Puffin/5.2.2IP',
+        'properties' => [
+            'Comment' => 'Puffin 5.2',
+            'Browser' => 'Puffin',
+            'Browser_Maker' => 'CloudMosa Inc.',
+            'Version' => '5.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-Z' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) FxiOS/1.5b17.11.07.17 Mobile/15B202 Safari/604.3.5 _id/000001',
         'properties' => [
@@ -1118,6 +1373,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-Z (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) FxiOS/1.5b17.11.07.17 Mobile/15B202 Safari/604.3.5 _id/000001',
+        'properties' => [
+            'Comment' => 'Firefox 1.5 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '1.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-AA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B202 Version/11.1 Safari/8536.25 Mobicip/-1070163328',
@@ -1162,6 +1432,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-AA (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B202 Version/11.1 Safari/8536.25 Mobicip/-1070163328',
+        'properties' => [
+            'Comment' => 'Mobicip Safe Browser',
+            'Browser' => 'Mobicip',
+            'Browser_Maker' => 'Mobicip.com',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-AB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/3.51',
         'properties' => [
@@ -1204,6 +1489,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-AB (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/3.51',
+        'properties' => [
+            'Comment' => 'YaApp 3.51',
+            'Browser' => 'YaApp',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '3.51',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-AC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/15B202 Safari/7534.48.3 UCBrowser/10.9.1.998',
@@ -1248,6 +1548,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-AC (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/15B202 Safari/7534.48.3 UCBrowser/10.9.1.998',
+        'properties' => [
+            'Comment' => 'UC Browser 10.9',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '10.9',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-AD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) FxiOS/10.2b7796 Mobile/15C5110b Safari/604.4.7',
         'properties' => [
@@ -1291,6 +1606,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1750-AD (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) FxiOS/10.2b7796 Mobile/15C5110b Safari/604.4.7',
+        'properties' => [
+            'Comment' => 'Firefox 10.2 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '10.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1750-AE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU OS 11_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.0.3 (like Version/11.1.2 Mobile/15B202 Safari/600.1.4)',
         'properties' => [
@@ -1333,6 +1663,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1750-AE (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU OS 11_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.0.3 (like Version/11.1.2 Mobile/15B202 Safari/600.1.4)',
+        'properties' => [
+            'Comment' => '1Password 7.0',
+            'Browser' => '1Password',
+            'Browser_Maker' => 'AgileBits, Inc.',
+            'Version' => '7.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1750-AF' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B93',

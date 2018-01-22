@@ -1,0 +1,21 @@
+{
+  "division": "Google Sitemaps",
+  "sortIndex": 1070,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Sitemaps",
+      "browser": "google-sitemaps",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Sitemaps"
+      },
+      "children": [
+        {
+          "match": "Google-Sitemaps*"
+        }
+      ]
+    }
+  ]
+}

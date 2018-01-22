@@ -1,20 +1,18 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["8.01", "8.00", "8.0"],
+  "versions": ["8.01", "8.00", 8],
   "sortIndex": 1044,
   "lite": false,
   "standard": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "browser": "opera mobile",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -22,7 +20,8 @@
           "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinCE", "SymbianOS", "SymbianOS_D"
+            "WinCE",
+            "SymbianOS", "SymbianOS_D"
           ]
         },
         {

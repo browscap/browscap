@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+      "browser": "whatsapp bot",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp Bot #MAJORVER#.#MINORVER#",
-        "Browser": "WhatsApp Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Facebook",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Wire App #MAJORVER#.#MINORVER#",
+      "browser": "wire app",
+      "platform": "OSX",
       "engine": "Blink",
       "device": "Macintosh",
-      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Wire App #MAJORVER#.#MINORVER#",
-        "Browser": "Wire App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Wire Swiss GmbH",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -23,7 +21,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Wire/#MAJORVER#.#MINORVER#* Chrome/* Electron/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_11", "OSX_10_10", "OSX"
+            "OSX_10_11", "OSX_10_10",
+            "OSX"
           ]
         }
       ]

@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "BlitzBot",
+      "browser": "blitzbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlitzBot",
-        "Browser": "BlitzBot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BlitzBot"
       },
       "children": [
         {

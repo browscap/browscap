@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "masidani_bot",
+      "browser": "masidani_bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "masidani_bot",
-        "Browser": "masidani_bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "masidani_bot"
       },
       "children": [
         {

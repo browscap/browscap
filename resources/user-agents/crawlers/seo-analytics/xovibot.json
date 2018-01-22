@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "XoviBot",
+      "browser": "xovibot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "XoviBot",
-        "Browser": "XoviBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Xovi GmbH",
-        "Crawler": "true"
+        "Comment": "XoviBot"
       },
       "children": [
         {

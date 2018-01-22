@@ -6,21 +6,20 @@
   "userAgents": [
     {
       "userAgent": "Vonkeror Generic",
+      "browser": "vonkeror",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Vonkeror Generic",
-        "Browser": "Vonkeror",
-        "Browser_Maker": "zzo38",
-        "Browser_Type": "Browser"
+        "Comment": "Vonkeror Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Vonkeror/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Windows"
+            "WinXPa_32",
+            "Windows"
           ]
         },
         {

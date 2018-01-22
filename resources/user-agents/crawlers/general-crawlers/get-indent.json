@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "GetintentCrawler",
+      "browser": "getintent crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "GetintentCrawler",
-        "Browser": "Getintent Crawler",
-        "Browser_Maker": "getintent.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "GetintentCrawler"
       },
       "children": [
         {

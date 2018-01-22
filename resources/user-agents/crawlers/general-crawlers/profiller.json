@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "profiller",
+      "browser": "profiller",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "profiller",
-        "Browser": "profiller",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "profiller"
       },
       "children": [
         {
@@ -21,7 +19,9 @@
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "CentOS", "Linux_64", "Linux"
+            "ChromeOS",
+            "CentOS",
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -42,7 +42,7 @@
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }

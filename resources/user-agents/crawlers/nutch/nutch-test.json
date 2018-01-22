@@ -6,26 +6,19 @@
   "userAgents": [
     {
       "userAgent": "Nutch test crawler",
+      "browser": "nutch test crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nutch test crawler",
-        "Browser": "Nutch test crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Nutch test crawler"
       },
       "children": [
         {
           "match": "Nutch test crawler/Nutch*",
-          "properties": {
-            "Browser": "Nutch test crawler"
-          }
+          "browser": "nutch test crawler"
         },
         {
           "match": "Mozilla/5.0 (*Windows NT 6.1*WOW64*) Gecko* Firefox/4.0*/Nutch*",
-          "properties": {
-            "Division": "Nutch",
-            "Browser": "Nutch test crawler"
-          },
+          "browser": "nutch test crawler",
           "platforms": [
             "Win7_64"
           ]

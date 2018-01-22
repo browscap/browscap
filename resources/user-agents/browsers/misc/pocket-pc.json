@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Pocket PC",
+      "browser": "pocket pc",
       "platform": "WinCE",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Pocket PC",
-        "Browser": "Pocket PC"
+        "Comment": "Pocket PC"
       },
       "children": [
         {

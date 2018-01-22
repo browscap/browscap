@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Jupdate",
+      "browser": "jupdate",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Jupdate",
-        "Browser": "Jupdate",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "DM Solutions e.K.",
-        "Crawler": "true"
+        "Comment": "Jupdate"
       },
       "children": [
         {

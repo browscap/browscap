@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "KNBR 680",
+      "browser": "knbr 680",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "KNBR 680",
-        "Browser": "KNBR 680",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "KNBR 680"
       },
       "children": [
         {

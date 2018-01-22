@@ -395,7 +395,7 @@ return [
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Fenrir Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '4.1',
             'Platform' => 'Win8',
@@ -934,6 +934,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1664-U (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+        'properties' => [
+            'Comment' => 'Safari 11.0',
+            'Browser' => 'Safari',
+            'Version' => '11.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1664-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
         'properties' => [
@@ -976,6 +989,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1664-V (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+        'properties' => [
+            'Comment' => 'Safari 11.0',
+            'Browser' => 'Safari',
+            'Version' => '11.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1664-W' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko)',
@@ -1120,6 +1146,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1664-Y (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; bg; rv:1.9b2) Gecko/20040802 Firefox/0.9.2',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1664-Z' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/535.7 (KHTML, like Gecko) RockMelt/0.16.91.483 Chrome/16.0.912.77 Safari/535.7',
@@ -1567,6 +1606,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1664-AH (lite)' => [
+        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1664-AI' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Arora/0.11.0 Safari/538.1',

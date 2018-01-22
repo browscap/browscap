@@ -302,21 +302,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1271-G (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; Xbox)',
-        'properties' => [
-            'Comment' => 'IE 7.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '7.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1271-H' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Xbox; Xbox One)',
         'properties' => [

@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "RebelMouse",
+      "browser": "rebelmouse",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RebelMouse",
-        "Browser": "RebelMouse",
-        "Browser_Type": "Application",
-        "Browser_Maker": "RebelMouse",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

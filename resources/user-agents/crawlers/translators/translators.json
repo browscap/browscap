@@ -6,50 +6,38 @@
   "userAgents": [
     {
       "userAgent": "Translators",
+      "browser": "translators",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Translators",
-        "Browser": "Translators",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Translators"
       },
       "children": [
         {
           "match": "Seram Server",
-          "properties": {
-            "Browser": "Seram Server"
-          }
+          "browser": "seram server"
         },
         {
           "match": "TeragramWebcrawler/*",
+          "browser": "teragramwebcrawler",
           "properties": {
-            "Browser": "TeragramWebcrawler",
             "Version": "1.0"
           }
         },
         {
           "match": "WebIndexer/* (Web Indexer*)",
-          "properties": {
-            "Browser": "WorldLingo"
-          }
+          "browser": "worldlingo"
         },
         {
           "match": "WebIndexer/* (Web Indexer; *)",
-          "properties": {
-            "Browser": "WorldLingo"
-          }
+          "browser": "worldlingo"
         },
         {
           "match": "WebTrans",
-          "properties": {
-            "Browser": "WebTrans"
-          }
+          "browser": "webtrans"
         },
         {
           "match": "ATA-Translation-Service",
-          "properties": {
-            "Browser": "ATA-Translation-Service"
-          }
+          "browser": "ata-translation-service"
         }
       ]
     }

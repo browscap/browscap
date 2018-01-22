@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Firefox Focus Generic for Android",
+      "browser": "firefox focus",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Focus Generic",
-        "Browser": "Firefox Focus",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Focus Generic"
       },
       "children": [
         {
@@ -42,15 +40,13 @@
     },
     {
       "userAgent": "Firefox Focus Generic for iOS",
+      "browser": "firefox focus",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox Focus Generic",
-        "Browser": "Firefox Focus",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser"
+        "Comment": "Firefox Focus Generic"
       },
       "children": [
         {

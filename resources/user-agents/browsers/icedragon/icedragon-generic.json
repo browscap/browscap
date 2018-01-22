@@ -6,41 +6,37 @@
   "userAgents": [
     {
       "userAgent": "IceDragon Generic",
+      "browser": "icedragon",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceDragon Generic",
-        "Browser": "IceDragon",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Comodo Group Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* IceDragon/*",
           "platforms": [
-            "WinXPa_32",
+            "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
             "Vista_32",
-            "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64",
-            "Win8_1_32", "Win8_1_64",
-            "Win10_32_B", "Win10_64_B"
+            "WinXPa_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* IceDragon/* Firefox/*",
           "platforms": [
-            "WinXPa_32",
+            "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
             "Vista_32",
-            "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64",
-            "Win8_1_32", "Win8_1_64",
-            "Win10_32_B", "Win10_64_B"
+            "WinXPa_32"
           ]
         }
       ]

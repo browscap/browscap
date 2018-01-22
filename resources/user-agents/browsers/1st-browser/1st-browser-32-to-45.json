@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "1stBrowser #MAJORVER#.#MINORVER#",
+      "browser": "1stbrowser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "1stBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "1stBrowser",
-        "Browser_Maker": "Sien",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -27,7 +25,8 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Windows"
           ]
         },
@@ -35,7 +34,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* 1stBrowser/#MAJORVER#.* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         }

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Exabot-Images",
+      "browser": "exabot-images",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Exabot-Images",
-        "Browser": "Exabot-Images",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Dassault Systemes",
-        "Crawler": "true"
+        "Comment": "Exabot-Images"
       },
       "children": [
         {

@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Iceowl Generic",
+      "browser": "iceowl",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceowl Generic",
-        "Browser": "Iceowl",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Software in the Public Interest, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Entireweb",
+      "browser": "entireweb",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Entireweb",
-        "Browser": "Entireweb",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Entireweb Sweden AB",
-        "Crawler": "true"
+        "Comment": "Entireweb"
       },
       "children": [
         {

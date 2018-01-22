@@ -59,6 +59,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-142-K (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-142-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+',
         'properties' => [
@@ -175,6 +188,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-142-I (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-142-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3',
         'properties' => [
@@ -231,6 +257,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-142-H (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-142-G' => [

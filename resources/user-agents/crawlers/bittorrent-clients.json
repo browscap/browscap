@@ -6,103 +6,71 @@
   "userAgents": [
     {
       "userAgent": "BitTorrent Client",
+      "browser": "bittorrent client",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BitTorrent Client",
-        "Browser": "BitTorrent Client",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "BitTorrent Client"
       },
       "children": [
         {
           "match": "Azureus*",
-          "properties": {
-            "Browser": "Azureus"
-          }
+          "browser": "azureus"
         },
         {
           "match": "BitComet/*",
-          "properties": {
-            "Browser": "BitComet"
-          }
+          "browser": "bitcomet"
         },
         {
           "match": "BitTornado/*",
-          "properties": {
-            "Browser": "BitTornado"
-          }
+          "browser": "bittornado"
         },
         {
           "match": "BitTorrent/*",
-          "properties": {
-            "Browser": "BitTorrent"
-          }
+          "browser": "bittorrent"
         },
         {
           "match": "BitTorrentMac/*",
-          "properties": {
-            "Browser": "BitTorrentMac"
-          }
+          "browser": "bittorrentmac"
         },
         {
           "match": "BTSP/*",
-          "properties": {
-            "Browser": "BTSP"
-          }
+          "browser": "btsp"
         },
         {
           "match": "Deluge*",
-          "properties": {
-            "Browser": "Deluge"
-          }
+          "browser": "deluge"
         },
         {
           "match": "FDM*",
-          "properties": {
-            "Browser": "FDM"
-          }
+          "browser": "fdm"
         },
         {
           "match": "KTorrent/*",
-          "properties": {
-            "Browser": "KTorrent"
-          }
+          "browser": "ktorrent"
         },
         {
           "match": "libtorrent/*",
-          "properties": {
-            "Browser": "libtorrent"
-          }
+          "browser": "libtorrent"
         },
         {
           "match": "MediaGet*",
-          "properties": {
-            "Browser": "MediaGet"
-          }
+          "browser": "mediaget"
         },
         {
           "match": "rtorrent/*",
-          "properties": {
-            "Browser": "rtorrent"
-          }
+          "browser": "rtorrent"
         },
         {
           "match": "Transmission/*",
-          "properties": {
-            "Browser": "Transmission"
-          }
+          "browser": "transmission"
         },
         {
           "match": "uTorrent/*",
-          "properties": {
-            "Browser": "uTorrent"
-          }
+          "browser": "utorrent"
         },
         {
           "match": "uTorrentMac/*",
-          "properties": {
-            "Browser": "uTorrentMac"
-          }
+          "browser": "utorrentmac"
         }
       ]
     }

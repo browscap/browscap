@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Ezooms",
+      "browser": "ezooms",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ezooms",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Ezooms",
-        "Browser_Maker": "SEOmoz, Inc."
+        "Comment": "Ezooms"
       },
       "children": [
         {

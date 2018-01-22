@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "TinyBrowser #MAJORVER#.#MINORVER#",
+      "browser": "tinybrowser",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "TinyBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "TinyBrowser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "unknown",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

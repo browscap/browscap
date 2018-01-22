@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Atomic Browser #MAJORVER#.#MINORVER#",
+      "browser": "atomic browser",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Atomic Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Atomic Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Richard Trautvetter",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

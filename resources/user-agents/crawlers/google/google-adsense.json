@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "AdSense Bot",
+      "browser": "adsense bot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser": "AdSense Bot",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Google"
       },
       "children": [
         {
@@ -24,35 +21,39 @@
         },
         {
           "match": "Adsense-Snapshot-Google*",
+          "browser": "adsense snapshot bot",
           "engine": "unknown",
-          "device": "unknown",
-          "properties": {
-            "Browser": "AdSense Snapshot Bot"
-          }
+          "device": "unknown"
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* (compatible; Mediapartners-Google/2.1*",
           "device": "iPhone",
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1",
+            "iOS_A"
+          ],
           "properties": {
             "Version": "2.1"
-          },
-          "platforms": [
-            "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_1",
-            "iOS_A_8_0",
-            "iOS_A"
-          ]
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* (compatible; Mediapartners-Google/2.1*",
           "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1",
+            "iOS_A"
+          ],
           "properties": {
             "Version": "2.1"
-          },
-          "platforms": [
-            "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_1",
-            "iOS_A_8_0",
-            "iOS_A"
-          ]
+          }
         }
       ]
     }

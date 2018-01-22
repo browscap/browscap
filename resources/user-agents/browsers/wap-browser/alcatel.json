@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Alcatel",
+      "browser": "alcatel",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Alcatel",
-        "Browser": "Alcatel"
+        "Comment": "Alcatel"
       },
       "children": [
         {

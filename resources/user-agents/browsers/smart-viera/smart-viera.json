@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "SmartViera #MAJORVER#.#MINORVER#",
+      "browser": "smartviera",
       "platform": "FreeBSD",
       "engine": "WebKit",
       "device": "Viera",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartViera #MAJORVER#.#MINORVER#",
-        "Browser": "SmartViera",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Panasonic",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

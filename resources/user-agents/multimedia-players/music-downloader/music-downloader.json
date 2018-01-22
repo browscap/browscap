@@ -7,14 +7,13 @@
   "userAgents": [
     {
       "userAgent": "MusicDownloader #MAJORVER#.#MINORVER#",
+      "browser": "musicdownloader",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MusicDownloader #MAJORVER#.#MINORVER#",
-        "Browser": "MusicDownloader",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

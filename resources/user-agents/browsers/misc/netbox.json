@@ -6,12 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Netbox",
-      "device": "Sony Netbox",
+      "browser": "netbox",
       "platform": "Linux",
+      "device": "Sony Netbox",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Netbox",
-        "Browser": "Netbox"
+        "Comment": "Netbox"
       },
       "children": [
         {

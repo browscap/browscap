@@ -6,25 +6,19 @@
   "userAgents": [
     {
       "userAgent": "Snap",
+      "browser": "snap",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Snap",
-        "Browser": "Snap",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Snap"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (SnapPreviewBot) Gecko* Firefox/*",
-          "properties": {
-            "Browser": "SnapPreviewBot"
-          }
+          "browser": "snappreviewbot"
         },
         {
           "match": "Snapbot/*",
-          "properties": {
-            "Browser": "Snapbot"
-          }
+          "browser": "snapbot"
         }
       ]
     }

@@ -6,32 +6,26 @@
   "userAgents": [
     {
       "userAgent": "Convera",
+      "browser": "convera",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Convera",
-        "Browser": "Convera",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Convera"
       },
       "children": [
         {
           "match": "ConveraMultiMediaCrawler/0.1*",
+          "browser": "converamultimediacrawler",
           "properties": {
-            "Browser": "ConveraMultiMediaCrawler",
             "Version": "0.1"
           }
         },
         {
           "match": "ConveraMultiMediaCrawler/*",
-          "properties": {
-            "Browser": "ConveraMultiMediaCrawler"
-          }
+          "browser": "converamultimediacrawler"
         },
         {
           "match": "CrawlConvera*",
-          "properties": {
-            "Browser": "CrawlConvera"
-          }
+          "browser": "crawlconvera"
         },
         {
           "match": "ConveraCrawler/0.4*",
@@ -71,9 +65,7 @@
         },
         {
           "match": "ConveraCrawler/*",
-          "properties": {
-            "Browser": "ConveraCrawler"
-          }
+          "browser": "converacrawler"
         }
       ]
     }

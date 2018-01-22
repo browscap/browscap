@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Dalvik Generic",
+      "browser": "dalvik",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Dalvik Generic",
-        "Browser": "Dalvik",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Google Inc"
+        "Comment": "Dalvik Generic"
       },
       "children": [
         {

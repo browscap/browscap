@@ -302,6 +302,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1528-G (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ru-ru; SAMSUNG SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1528-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T231 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36',
         'properties' => [

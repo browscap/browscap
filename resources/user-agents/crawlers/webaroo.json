@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Webaroo",
+      "browser": "webaroo",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Webaroo",
-        "Browser": "Webaroo",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Webaroo"
       },
       "children": [
         {

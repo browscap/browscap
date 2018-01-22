@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "ContextAd Bot",
+      "browser": "contextad bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ContextAd Bot",
-        "Browser": "ContextAd Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "ContextAd Bot"
       },
       "children": [
         {

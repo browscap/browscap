@@ -48,6 +48,7 @@ class Expander
      * @param string   $divisionName
      *
      * @throws \UnexpectedValueException
+     * @throws \OutOfBoundsException
      *
      * @return array
      */
@@ -80,6 +81,9 @@ class Expander
      *
      * @param Division $division
      * @param string   $divisionName
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      *
      * @return array
      */
@@ -117,6 +121,9 @@ class Expander
      * @param bool      $standard
      * @param int       $sortIndex
      * @param string    $divisionName
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      *
      * @return array
      */
@@ -160,6 +167,21 @@ class Expander
             $deviceProperties = [];
         }
 
+        if (null !== $uaData->getBrowser()) {
+            $browser           = $this->collection->getBrowser($uaData->getBrowser());
+            $browserProperties = $browser->getProperties();
+
+            if (!$browser->isStandard()) {
+                $standard = false;
+            }
+
+            if (!$browser->isLite()) {
+                $lite = false;
+            }
+        } else {
+            $browserProperties = [];
+        }
+
         $ua = $uaData->getUserAgent();
 
         $output = [
@@ -173,6 +195,7 @@ class Expander
                 $platformProperties,
                 $engineProperties,
                 $deviceProperties,
+                $browserProperties,
                 $uaProperties
             ),
         ];
@@ -180,6 +203,7 @@ class Expander
         $i = 0;
         foreach ($uaData->getChildren() as $child) {
             $this->patternId['child'] = $i;
+
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
@@ -188,6 +212,7 @@ class Expander
                     $subChild['match']         = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
                     $subChild['device']        = $deviceName;
                     unset($subChild['devices']);
+
                     $output = array_merge(
                         $output,
                         $this->parseChildren($ua, $subChild, $lite, $standard)
@@ -195,11 +220,13 @@ class Expander
                 }
             } else {
                 $this->patternId['device'] = '';
-                $output                    = array_merge(
+
+                $output = array_merge(
                     $output,
                     $this->parseChildren($ua, $child, $lite, $standard)
                 );
             }
+
             ++$i;
         }
 
@@ -213,6 +240,9 @@ class Expander
      * @param array  $uaDataChild
      * @param bool   $lite
      * @param bool   $standard
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      *
      * @return array
      */
@@ -254,10 +284,26 @@ class Expander
                     $deviceProperties = [];
                 }
 
+                if (array_key_exists('browser', $uaDataChild)) {
+                    $browser           = $this->collection->getBrowser($uaDataChild['browser']);
+                    $browserProperties = $browser->getProperties();
+
+                    if (!$browser->isStandard()) {
+                        $properties['standard'] = false;
+                    }
+
+                    if (!$browser->isLite()) {
+                        $properties['lite'] = false;
+                    }
+                } else {
+                    $browserProperties = [];
+                }
+
                 $properties = array_merge(
                     $properties,
                     $engineProperties,
                     $deviceProperties,
+                    $browserProperties,
                     $platformProperties->getProperties()
                 );
 
@@ -294,7 +340,22 @@ class Expander
                 $deviceProperties = [];
             }
 
-            $properties = array_merge($properties, $engineProperties, $deviceProperties);
+            if (array_key_exists('browser', $uaDataChild)) {
+                $browser           = $this->collection->getBrowser($uaDataChild['browser']);
+                $browserProperties = $browser->getProperties();
+
+                if (!$browser->isStandard()) {
+                    $properties['standard'] = false;
+                }
+
+                if (!$browser->isLite()) {
+                    $properties['lite'] = false;
+                }
+            } else {
+                $browserProperties = [];
+            }
+
+            $properties = array_merge($properties, $engineProperties, $deviceProperties, $browserProperties);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])

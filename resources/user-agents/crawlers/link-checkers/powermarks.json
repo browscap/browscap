@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Powermarks",
+      "browser": "powermarks",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Link Checkers",
-        "Browser": "Powermarks",
-        "Browser_Maker": "Kaylon Technologies",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Link Checkers"
       },
       "children": [
         {

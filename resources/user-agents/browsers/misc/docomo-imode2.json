@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "DoCoMo imode#MAJORVER#",
+      "browser": "i-mode browser",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "DoCoMo imode#MAJORVER#",
-        "Browser_Type": "Browser",
-        "Crawler": "false",
-        "Browser": "i-mode Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

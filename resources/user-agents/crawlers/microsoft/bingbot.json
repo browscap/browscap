@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "BingBot",
+      "browser": "bingbot",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
-        "Browser": "BingBot",
-        "Crawler": "true"
+        "Comment": "MSN"
       },
       "children": [
         {
@@ -32,37 +29,37 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0* IEMobile/*) like Gecko (compatible; bingbot/2.0*",
-          "device": "general Mobile Device",
           "engine": "Trident_7",
-          "properties": {
-            "Version": "2.0"
-          },
+          "device": "general Mobile Device",
           "platforms": [
             "WinPhone8.1",
             "WinPhone"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/2.0*",
           "device": "iPhone",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "iOS_A_7_0",
             "iOS_A"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/2.0*",
           "device": "general Mobile Device (Apple)",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "iOS_A_7_0",
             "iOS_A"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/*",
@@ -82,11 +79,9 @@
         },
         {
           "match": "BingAdsAdInsight",
+          "browser": "bing ads adinsight bot",
           "engine": "unknown",
-          "device": "unknown",
-          "properties": {
-            "Browser": "Bing Ads AdInsight Bot"
-          }
+          "device": "unknown"
         }
       ]
     }

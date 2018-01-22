@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "VanillaSurf",
+      "browser": "vanillasurf",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "VanillaSurf",
-        "Browser": "VanillaSurf",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "VanillaSurf/2.1 CFNetwork/*",
-          "properties": {
-            "Version": "2.1"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
         },
         {
           "match": "VanillaSurf* CFNetwork/*",

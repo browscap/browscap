@@ -7,15 +7,12 @@
   "userAgents": [
     {
       "userAgent": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
+      "browser": "msnbot-media",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "msnbot-media",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
-        "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "Beta": "true"
       },
@@ -28,14 +25,16 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A_7_0",
+            "iOS_A_6_0",
             "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* MsnBot-Media /#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A_7_0",
+            "iOS_A_6_0",
             "iOS_A"
           ]
         }

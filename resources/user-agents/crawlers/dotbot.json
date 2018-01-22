@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "DotBot",
+      "browser": "dotbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DotBot",
-        "Browser": "DotBot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "SEOmoz, Inc.",
-        "Crawler": "true"
+        "Comment": "DotBot"
       },
       "children": [
         {

@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Mitsu",
+      "browser": "mitsu browser",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mitsu Browser",
-        "Browser": "Mitsu Browser",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

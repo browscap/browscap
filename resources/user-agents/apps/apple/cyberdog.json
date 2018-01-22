@@ -6,36 +6,32 @@
   "userAgents": [
     {
       "userAgent": "Cyberdog",
+      "browser": "cyberdog",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cyberdog",
-        "Browser": "Cyberdog",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Cyberdog/2.0 (Macintosh; PPC)*",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "MacPPC"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Cyberdog/2.0 (Macintosh; 68k)*",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Mac68K"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         }
       ]
     }

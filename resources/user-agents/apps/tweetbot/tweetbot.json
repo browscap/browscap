@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Tweetbot",
+      "browser": "tweetbot",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
@@ -13,12 +14,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Tweetbot is a full-featured Twitter app",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Browser": "Tweetbot",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Tapbots, LLC",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

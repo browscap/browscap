@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "browser": "android",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Android",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Google Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -39,7 +37,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_4_4",
+            "Android"
           ]
         },
         {

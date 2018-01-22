@@ -6,25 +6,23 @@
   "userAgents": [
     {
       "userAgent": "Reeder Generic",
+      "browser": "reeder",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Reeder Generic",
-        "Browser": "Reeder",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari(ReederForMac)",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "instagram app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Instagram App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

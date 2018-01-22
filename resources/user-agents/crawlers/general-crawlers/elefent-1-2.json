@@ -7,14 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Elefent #MAJORVER#.#MINORVER#",
+      "browser": "elefent",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Elefent #MAJORVER#.#MINORVER#",
-        "Browser": "Elefent",
-        "Browser_Maker": "elefent.eu",
-        "Browser_Type": "Bot/Crawler",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -6,32 +6,29 @@
   "userAgents": [
     {
       "userAgent": "MPlayer",
+      "browser": "mplayer",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MPlayer",
-        "Browser": "MPlayer",
-        "Browser_Type": "Application"
+        "Comment": "MPlayer"
       },
       "children": [
         {
           "match": "MPlayer 0.9*",
+          "browser": "mplayer",
           "properties": {
-            "Browser": "MPlayer",
             "Version": "0.9"
           }
         },
         {
           "match": "MPlayer 1.*",
+          "browser": "mplayer",
           "properties": {
-            "Browser": "MPlayer",
             "Version": "1.0"
           }
         },
         {
           "match": "MPlayer HEAD CVS",
-          "properties": {
-            "Browser": "MPlayer"
-          }
+          "browser": "mplayer"
         }
       ]
     }

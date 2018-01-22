@@ -5362,6 +5362,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-CX (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/34.0.1847.18 Mobile/14B100 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-CY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/34.0.1847.18 Mobile/14C92 Safari/9537.53',
         'properties' => [
@@ -5418,6 +5431,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-CY (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/34.0.1847.18 Mobile/14C92 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-CZ' => [
@@ -5478,6 +5504,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-CZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/35.0.1916.38 Mobile/14C92 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/14C92 Safari/601.1.46',
         'properties' => [
@@ -5534,6 +5573,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DA (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/14C92 Safari/601.1.46',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DB' => [
@@ -5710,6 +5762,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DD (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/14D27 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/50.0.2661.95 Mobile/14E277 Safari/601.1.46',
         'properties' => [
@@ -5826,6 +5891,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DF (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/14E304 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/47.0.2526.70 Mobile/14E304 Safari/601.1.46',
         'properties' => [
@@ -5882,6 +5960,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DG (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/47.0.2526.70 Mobile/14E304 Safari/601.1.46',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DH' => [
@@ -5942,6 +6033,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DH (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 511 like Mac OS X) AppleWebKit/534.46 (KHTML like Gecko) CriOS/26.0.1410.53 Mobile/9B206 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/29.0.1547.11 Mobile/9B179 Safari/7534.48.3',
         'properties' => [
@@ -5998,6 +6102,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DI (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/29.0.1547.11 Mobile/9B179 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DJ' => [
@@ -6058,6 +6175,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 601 like Mac OS X) AppleWebKit/536.26 (KHTML like Gecko) CriOS/36.0.1985.57 Mobile/10A525 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/35.0.1916.38 Mobile/10A400 Safari/8536.25',
         'properties' => [
@@ -6114,6 +6244,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DK (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/35.0.1916.38 Mobile/10A400 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DL' => [
@@ -6174,6 +6317,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DL (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/34.0.1847.18 Mobile/10A525 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/10A551 Safari/8536.25',
         'properties' => [
@@ -6230,6 +6386,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DM (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/10A551 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DN' => [
@@ -6290,6 +6459,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DN (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/29.0.1547.11 Mobile/10B143 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/10B142 Safari/8536.25',
         'properties' => [
@@ -6346,6 +6528,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DO (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/10B142 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DP' => [
@@ -6406,6 +6601,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DP (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/10B329 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7.0.1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/35.0.1916.38 Mobile/11B554a Safari/9537.53',
         'properties' => [
@@ -6462,6 +6670,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DQ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7.0.1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/35.0.1916.38 Mobile/11B554a Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DR' => [
@@ -6522,6 +6743,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DR (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/40.0.2214.61 Mobile/11A466 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DS' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/11A501 Safari/8536.25',
         'properties' => [
@@ -6578,6 +6812,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DS (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/11A501 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DT' => [
@@ -6638,6 +6885,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DT (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/11A501 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/27.0.1453.10 Mobile/11D169 Safari/8536.25',
         'properties' => [
@@ -6694,6 +6954,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DU (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/27.0.1453.10 Mobile/11D169 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DV' => [
@@ -6754,6 +7027,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DV (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11D167 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DW' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/37.0.2062.52 Mobile/11D169 Safari/9537.53',
         'properties' => [
@@ -6810,6 +7096,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DW (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/37.0.2062.52 Mobile/11D169 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DX' => [
@@ -6870,6 +7169,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DX (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/43.0.2357.56 Mobile/11D167 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-DY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/11D167 Safari/9537.53',
         'properties' => [
@@ -6926,6 +7238,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-DY (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/11D167 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-DZ' => [
@@ -6986,6 +7311,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-DZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/11D257 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/11D257 Safari/7534.48.3',
         'properties' => [
@@ -7042,6 +7380,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EA (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/21.0.1180.82 Mobile/11D257 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EB' => [
@@ -7102,6 +7453,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EB (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 811 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) CriOS/39.0.2171.45 Mobile/12B435 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 812 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) CriOS/40.0.2214.69 Mobile/12B440 Safari/600.1.4',
         'properties' => [
@@ -7158,6 +7522,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EC (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 812 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) CriOS/40.0.2214.69 Mobile/12B440 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-ED' => [
@@ -7218,6 +7595,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-ED (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 813 like Mac OS X) AppleWebKit/537.51.2 (KHTML like Gecko) CriOS/37.0.2062.52 Mobile/12B466 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 813 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) CriOS/43.0.2357.51 Mobile/12B466 Safari/600.1.4',
         'properties' => [
@@ -7274,6 +7664,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EE (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 813 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) CriOS/43.0.2357.51 Mobile/12B466 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EF' => [
@@ -7334,6 +7737,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EF (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/33.0.1750.15 Mobile/12A365 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12A366 Safari/600.1.4',
         'properties' => [
@@ -7390,6 +7806,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EG (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12A366 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EH' => [
@@ -7450,6 +7879,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EH (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12A366 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12A402 Safari/600.1.4',
         'properties' => [
@@ -7506,6 +7948,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EI (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12A402 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EJ' => [
@@ -7566,6 +8021,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/12B411 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/46.0.2490.73 Mobile/12B411 Safari/600.1.4',
         'properties' => [
@@ -7622,6 +8090,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EK (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/46.0.2490.73 Mobile/12B411 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EL' => [
@@ -7682,6 +8163,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EL (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/12B436 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12D508 Safari/600.1.4',
         'properties' => [
@@ -7738,6 +8232,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EM (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12D508 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EN' => [
@@ -7798,6 +8305,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EN (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/12F70 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12F70 Safari/600.1.4',
         'properties' => [
@@ -7854,6 +8374,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EO (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12F70 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EP' => [
@@ -7914,6 +8447,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EP (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/33.0.1750.14 Mobile/12H143 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/37.0.2062.60 Mobile/12H143 Safari/9537.53',
         'properties' => [
@@ -7970,6 +8516,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EQ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/37.0.2062.60 Mobile/12H143 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-ER' => [
@@ -8030,6 +8589,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-ER (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/42.0.2311.47 Mobile/12H4098c Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-ES' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/12H143 Safari/600.1.4',
         'properties' => [
@@ -8086,6 +8658,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-ES (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/12H143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-ET' => [
@@ -8146,6 +8731,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-ET (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/13A4254v Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4',
         'properties' => [
@@ -8202,6 +8800,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EU (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-EV' => [
@@ -8378,6 +8989,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EX (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/13A452 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EY' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/13B143 Safari/600.1.4',
         'properties' => [
@@ -8436,6 +9060,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-EY (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/13B143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-EZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/13B143 Safari/600.1.4',
         'properties' => [
@@ -8492,6 +9129,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-EZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/13B143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-FA' => [
@@ -8668,6 +9318,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-FC (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/41.0.2272.58 Mobile/13C75 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13C75 Safari/600.1.4',
         'properties' => [
@@ -8724,6 +9387,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-FD (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13C75 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-FE' => [
@@ -8900,6 +9576,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-FG (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/40.0.2214.73 Mobile/13E237 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13E233 Safari/600.1.4',
         'properties' => [
@@ -8956,6 +9645,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-FH (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13E233 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-FI' => [
@@ -9132,6 +9834,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-FK (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/13F69 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/13F69 Safari/600.1.4',
         'properties' => [
@@ -9188,6 +9903,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-FL (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/13F69 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-FM' => [
@@ -9248,6 +9976,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-FM (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; da-dk) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FN' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48',
         'properties' => [
@@ -9304,6 +10045,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-FN (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 6_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-FO' => [
@@ -9723,6 +10477,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-FW (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/46.0.2490.73 Mobile/11D257 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FX' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.70 Mobile/12A405 Safari/600.1.4',
         'properties' => [
@@ -9766,6 +10533,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-FX (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.70 Mobile/12A405 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-FY' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/12H143 Safari/600.1.4',
         'properties' => [
@@ -9808,6 +10588,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-FY (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/12H143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-FZ' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/54.0.2840.91 Mobile/13B143 Safari/601.1.46',
@@ -9980,6 +10773,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-GC (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/13G36 Safari/601.1.46',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-GD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 NAVER(inapp; search; 520; 7.2.1)',
@@ -11169,21 +11975,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1417-GX (standard)' => [
-        'ua' => 'Opera/9.80 (iPhone; Opera Mini/10.0.0/37.6334; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1417-GY' => [
         'ua' => 'Opera/9.80 (iPhone; Opera Mini/5.0.0176/764; U; en) Presto/2.4.15',
         'properties' => [
@@ -11226,21 +12017,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1417-GY (standard)' => [
-        'ua' => 'Opera/9.80 (iPhone; Opera Mini/5.0.0176/764; U; en) Presto/2.4.15',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1417-GZ' => [
         'ua' => 'Opera/9.80 (iPhone; Opera Mini/6.0.1/60.313; U; pl) Presto/2.12.423 Version/12.16',
@@ -11285,21 +12061,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1417-GZ (standard)' => [
-        'ua' => 'Opera/9.80 (iPhone; Opera Mini/6.0.1/60.313; U; pl) Presto/2.12.423 Version/12.16',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1417-HA' => [
         'ua' => 'Opera/9.80 (iPhone; Opera Mini/7.0.2/37.6116; U; en) Presto/2.12.423 Version/12.16',
         'properties' => [
@@ -11342,21 +12103,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1417-HA (standard)' => [
-        'ua' => 'Opera/9.80 (iPhone; Opera Mini/7.0.2/37.6116; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1417-HB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 [Pinterest/iOS]',
@@ -16508,6 +17254,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-KU (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/537.4',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-KV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B145 Safari/536.26',
         'properties' => [
@@ -16856,6 +17615,19 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-1417-LH (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-LI' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16',
         'properties' => [
@@ -16912,6 +17684,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-LI (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-LJ' => [
@@ -17516,6 +18301,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-LX (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 3 1 2 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-LY' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 3_0 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16',
         'properties' => [
@@ -17559,6 +18357,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-LY (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 3_0 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-LZ' => [
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77a Safari/525.20',
         'properties' => [
@@ -17601,6 +18412,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-LZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77a Safari/525.20',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-MA' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; ja-jp) AppleWebKit/528.4.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.20',
@@ -17658,6 +18482,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-1417-MA (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; ja-jp) AppleWebKit/528.4.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.20',
+        'properties' => [
+            'Comment' => 'Mobile Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1417-MC' => [
@@ -19059,6 +19896,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-ND (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/12F69 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12F69 Safari/600.1.4',
         'properties' => [
@@ -19101,6 +19951,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NE (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12F69 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-NF' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/54.0.2840.91 Mobile/13B143 Safari/601.1.46',
@@ -19446,6 +20309,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-NM (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12H143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NN' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4',
         'properties' => [
@@ -19488,6 +20364,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NN (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-NO' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.45 Mobile/12H143 Safari/600.1.4',
@@ -19532,6 +20421,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-NO (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.45 Mobile/12H143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NP' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/40.0.2214.69 Mobile/12D508 Safari/600.1.4',
         'properties' => [
@@ -19575,6 +20477,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-NP (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/40.0.2214.69 Mobile/12D508 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NQ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12H143 Safari/600.1.4',
         'properties' => [
@@ -19617,6 +20532,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NQ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12H143 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-NR' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/51.0.2704.104 Mobile/13A344 Safari/601.1.46',
@@ -19747,6 +20675,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-NT (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12B410 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NU' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.45 Mobile/12B410 Safari/600.1.4',
         'properties' => [
@@ -19789,6 +20730,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NU (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.45 Mobile/12B410 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-NV' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/13G36 Safari/600.1.4',
@@ -19833,6 +20787,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-NV (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/13G36 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-NW' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/12D508 Safari/600.1.4',
         'properties' => [
@@ -19875,6 +20842,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NW (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/12D508 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-NX' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/58.0.3029.83 Mobile/13A452 Safari/601.1.46',
@@ -20004,6 +20984,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-NZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/47.0.2526.107 Mobile/12B410 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-OA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/58.0.3029.83 Mobile/14A456 Safari/602.1',
@@ -20349,6 +21342,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-OI (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12A402 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-OJ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.65 Mobile/13A4254v Safari/600.1.4',
         'properties' => [
@@ -20391,6 +21397,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-OJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.65 Mobile/13A4254v Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-OK' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/38.0.2125.59 Mobile/12A405 Safari/600.1.4',
@@ -20435,6 +21454,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1417-OK (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/38.0.2125.59 Mobile/12A405 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1417-OL' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/38.0.2125.59 Mobile/12A405 Safari/600.1.4',
         'properties' => [
@@ -20477,6 +21509,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1417-OL (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/38.0.2125.59 Mobile/12A405 Safari/600.1.4',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1417-OM' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/49.0.2623.109 Mobile/14A5346a Safari/601.1.46',

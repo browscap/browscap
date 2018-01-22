@@ -6,333 +6,224 @@
   "userAgents": [
     {
       "userAgent": "SEO & Analytics",
+      "browser": "seo & analytics",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SEO & Analytics",
-        "Browser": "SEO & Analytics",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SEO & Analytics"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; SEODat/0.* http://crawler.seodat.com)",
-          "properties": {
-            "Browser": "SEODat"
-          }
+          "browser": "seodat"
         },
         {
           "match": "Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)",
-          "properties": {
-            "Browser": "SearchmetricsBot",
-            "Browser_Maker": "Searchmetrics GmbH"
-          }
+          "browser": "searchmetricsbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; SEOkicks-Robot*",
-          "properties": {
-            "Browser": "SEOkicks Robot",
-            "Browser_Maker": "Torsten Rueckert Internetdienstleistungen"
-          }
+          "browser": "seokicks robot"
         },
         {
           "match": "WebTarantula.com Crawler*",
-          "properties": {
-            "Browser": "WebTarantula",
-            "Browser_Maker": "webtarantula.com"
-          }
+          "browser": "webtarantula"
         },
         {
           "match": "Mozilla/5.0 (compatible; SiteExplorer/1.0b;*",
+          "browser": "siteexplorer",
           "properties": {
-            "Browser": "SiteExplorer",
-            "Browser_Maker": "siteexplorer.info",
             "Version": "1.0b",
             "Beta": "true"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SiteExplorer/*",
-          "properties": {
-            "Browser": "SiteExplorer",
-            "Browser_Maker": "siteexplorer.info"
-          }
+          "browser": "siteexplorer"
         },
         {
           "match": "Mozilla/5.0 (compatible; Prlog/1.0*",
+          "browser": "prlog",
           "properties": {
-            "Browser": "Prlog",
-            "Browser_Maker": "prlog.ru",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Prlog/*",
-          "properties": {
-            "Browser": "Prlog",
-            "Browser_Maker": "prlog.ru"
-          }
+          "browser": "prlog"
         },
         {
           "match": "Browsershots",
-          "properties": {
-            "Browser": "Browsershots",
-            "Browser_Maker": "browsershots.org"
-          }
+          "browser": "browsershots"
         },
         {
           "match": "ssearch_bot (sSearch Crawler*",
-          "properties": {
-            "Browser": "sSearch Crawler",
-            "Browser_Maker": "semantissimo.de"
-          }
+          "browser": "ssearch crawler"
         },
         {
           "match": "FreeWebMonitoring SiteChecker/0.1*",
+          "browser": "freewebmonitoring sitechecker",
           "properties": {
-            "Browser": "FreeWebMonitoring SiteChecker",
-            "Browser_Maker": "www.freewebmonitoring.com",
             "Version": "0.1"
           }
         },
         {
           "match": "FreeWebMonitoring SiteChecker/*",
-          "properties": {
-            "Browser": "FreeWebMonitoring SiteChecker",
-            "Browser_Maker": "www.freewebmonitoring.com"
-          }
+          "browser": "freewebmonitoring sitechecker"
         },
         {
           "match": "GIDBot/2.0*",
+          "browser": "gidbot",
           "properties": {
-            "Browser": "GIDBot",
-            "Browser_Maker": "J de Silva",
             "Version": "2.0"
           }
         },
         {
           "match": "GIDBot/*",
-          "properties": {
-            "Browser": "GIDBot",
-            "Browser_Maker": "J de Silva"
-          }
+          "browser": "gidbot"
         },
         {
           "match": "Mozilla/4.0 (vBSEO;*",
-          "properties": {
-            "Browser": "vBulletin SEO Bot",
-            "Browser_Maker": "www.vbseo.com"
-          }
+          "browser": "vbulletin seo bot"
         },
         {
           "match": "vBulletin via PHP*",
-          "properties": {
-            "Browser": "vBulletin Bot",
-            "Browser_Maker": "www.vbseo.com"
-          }
+          "browser": "vbulletin bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; SemanticBot/1.1*",
+          "browser": "semanticbot",
           "properties": {
-            "Browser": "SemanticBot",
             "Version": "1.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; SemanticBot/*",
-          "properties": {
-            "Browser": "SemanticBot"
-          }
+          "browser": "semanticbot"
         },
         {
           "match": "bot-pge.chlooe.com/1.0*",
+          "browser": "chlooe bot",
           "properties": {
-            "Browser": "chlooe Bot",
-            "Browser_Maker": "AsiaWS network",
             "Version": "1.0"
           }
         },
         {
           "match": "bot-pge.chlooe.com/*",
-          "properties": {
-            "Browser": "chlooe Bot",
-            "Browser_Maker": "AsiaWS network"
-          }
+          "browser": "chlooe bot"
         },
         {
           "match": "wscheck.com/1.0*",
+          "browser": "wscheck bot",
           "properties": {
-            "Browser": "WSCheck Bot",
-            "Browser_Maker": "AsiaWS network",
             "Version": "1.0"
           }
         },
         {
           "match": "wscheck.com/*",
-          "properties": {
-            "Browser": "WSCheck Bot",
-            "Browser_Maker": "AsiaWS network"
-          }
+          "browser": "wscheck bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; AjaxSnapBot*",
-          "properties": {
-            "Browser": "AjaxSnapBot",
-            "Browser_Maker": "Tockify Ltd"
-          }
+          "browser": "ajaxsnapbot"
         },
         {
           "match": "Mozilla/5.0 (compatible; HyperCrawl/0.2*",
+          "browser": "hypercrawl",
           "properties": {
-            "Browser": "HyperCrawl",
-            "Browser_Maker": "SEOGraph",
             "Version": "0.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; HyperCrawl/*",
-          "properties": {
-            "Browser": "HyperCrawl",
-            "Browser_Maker": "SEOGraph"
-          }
+          "browser": "hypercrawl"
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* - James BOT - WebCrawler*",
-          "properties": {
-            "Browser": "JamesBOT",
-            "Browser_Maker": "GESKIMO SRL"
-          },
+          "browser": "jamesbot",
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
           "match": "SEOstats 2.1*",
+          "browser": "seostats",
           "properties": {
-            "Browser": "SEOstats",
-            "Browser_Maker": "Stephan Schmitz",
             "Version": "2.1"
           }
         },
         {
           "match": "SEOstats*",
-          "properties": {
-            "Browser": "SEOstats",
-            "Browser_Maker": "Stephan Schmitz"
-          }
+          "browser": "seostats"
         },
         {
           "match": "Athena Site Analyzer*",
-          "properties": {
-            "Browser": "Athena Site Analyzer",
-            "Browser_Maker": "bestsiteanalyzer.com"
-          }
+          "browser": "athena site analyzer"
         },
         {
           "match": "AuditMyPC Webmaster Tool*",
-          "properties": {
-            "Browser": "AuditMyPC Webmaster Tool",
-            "Browser_Maker": "AuditMyPC.com"
-          }
+          "browser": "auditmypc webmaster tool"
         },
         {
           "match": "SPDYCheck SPDY Protocol Tester*",
-          "properties": {
-            "Browser": "SPDYCheck SPDY Protocol Tester",
-            "Browser_Maker": "Rigor Inc."
-          }
+          "browser": "spdycheck spdy protocol tester"
         },
         {
           "match": "WeSEE",
-          "properties": {
-            "Browser": "WeSEE Bot",
-            "Browser_Maker": "WeSEE"
-          }
+          "browser": "wesee bot"
         },
         {
           "match": "WeSEE_Bot*",
-          "properties": {
-            "Browser": "WeSEE Bot",
-            "Browser_Maker": "WeSEE"
-          }
+          "browser": "wesee bot"
         },
         {
           "match": "Page Analyzer v4.0*",
+          "browser": "page analyzer",
           "properties": {
-            "Browser": "Page Analyzer",
-            "Browser_Maker": "ranks.nl",
             "Version": "4.0"
           }
         },
         {
           "match": "Page Analyzer*",
-          "properties": {
-            "Browser": "Page Analyzer",
-            "Browser_Maker": "ranks.nl"
-          }
+          "browser": "page analyzer"
         },
         {
           "match": "Mozilla/5.0 (compatible; http://alyze.info*",
-          "properties": {
-            "Browser": "alyze Bot",
-            "Browser_Maker": "Alexandre Tourette"
-          }
+          "browser": "alyze bot"
         },
         {
           "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/1.0*",
+          "browser": "leikibot",
           "properties": {
-            "Browser": "Leikibot",
-            "Browser_Maker": "Leiki Ltd",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/*",
-          "properties": {
-            "Browser": "Leikibot",
-            "Browser_Maker": "Leiki Ltd"
-          }
+          "browser": "leikibot"
         },
         {
           "match": "Mozilla/5.0 (compatible; seoscanners.net/*",
-          "properties": {
-            "Browser": "SEO Scanners Bot",
-            "Browser_Maker": "SEO Scanners"
-          }
+          "browser": "seo scanners bot"
         },
         {
           "match": "SeobilityBot (SEO-Check; *)",
-          "properties": {
-            "Browser": "Seobility Bot",
-            "Browser_Maker": "Seobility GmbH"
-          }
+          "browser": "seobility bot"
         },
         {
           "match": "cuwhois/*",
-          "properties": {
-            "Browser": "cuWhois Bot",
-            "Browser_Maker": "cuWhois.com"
-          }
+          "browser": "cuwhois bot"
         },
         {
           "match": "ganarvisitas/*",
-          "properties": {
-            "Browser": "Ganar Visitas Bot",
-            "Browser_Maker": "GanarVisitas.com"
-          }
+          "browser": "ganar visitas bot"
         },
         {
           "match": "NetTrack Anonymous Web Statistics*",
-          "properties": {
-            "Browser": "NetTrack Scanner",
-            "Browser_Maker": "NetTrack"
-          }
+          "browser": "nettrack scanner"
         },
         {
           "match": "TA SEO Crawler v* URLData.pm (smcquaker@tripadvisor.com)",
-          "properties": {
-            "Browser": "TripAdvisor SEO Crawler",
-            "Browser_Maker": "TripAdvisor"
-          }
+          "browser": "tripadvisor seo crawler"
         }
       ]
     }

@@ -259,21 +259,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1590-F (standard)' => [
-        'ua' => 'BlackBerry8330/4.5.0.186 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/126 UP.Browser/5.0.3.3',
-        'properties' => [
-            'Comment' => 'BlackBerry 5.0',
-            'Browser' => 'BlackBerry',
-            'Browser_Maker' => 'Research In Motion Limited',
-            'Version' => '5.0',
-            'Platform' => 'RIM OS',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1590-G' => [
         'ua' => 'SIE-ME45/05 UP.Browser/5.0.1.1.102 (GUI)',
         'properties' => [

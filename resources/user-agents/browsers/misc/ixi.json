@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "IXI",
+      "browser": "ixi",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IXI",
-        "Browser": "IXI",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

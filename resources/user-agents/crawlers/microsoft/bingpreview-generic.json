@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "BingPreview Generic",
+      "browser": "bingpreview",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true"
+        "Comment": "BingPreview Generic"
       },
       "children": [
         {
@@ -34,20 +31,22 @@
           "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident/6.0*)*BingPreview/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#Trident/7.0*rv:11.0; BingPreview/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32"
           ]
         },
         {
@@ -58,15 +57,12 @@
     },
     {
       "userAgent": "BingPreview for Windows Phone Generic",
+      "browser": "bingpreview",
       "engine": "Trident",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
         "Comment": "BingPreview for Windows Phone Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true",
         "Beta": "true"
       },
       "children": [
@@ -89,15 +85,12 @@
     },
     {
       "userAgent": "BingPreview for iOS Generic",
+      "browser": "bingpreview",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview for iOS Generic",
-        "Browser": "BingPreview",
-        "Crawler": "true"
+        "Comment": "BingPreview for iOS Generic"
       },
       "children": [
         {
@@ -108,14 +101,16 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A_7_0",
+            "iOS_A_6_0",
             "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*KHTML? like Gecko*)*Version/*Safari/* BingPreview/*",
           "platforms": [
-            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A_7_0",
+            "iOS_A_6_0",
             "iOS_A"
           ]
         }

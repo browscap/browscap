@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Zetakey Browser #MAJORVER#.#MINORVER#",
+      "browser": "zetakey browser",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Zetakey Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Zetakey Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Zetakey Solutions Limited",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

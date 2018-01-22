@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser Generic",
+      "browser": "nokia proxy browser",
       "platform": "Series40",
       "engine": "Gecko",
       "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Proxy Browser Generic",
-        "Browser": "Nokia Proxy Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Nokia"
+        "Comment": "Nokia Proxy Browser Generic"
       },
       "children": [
         {

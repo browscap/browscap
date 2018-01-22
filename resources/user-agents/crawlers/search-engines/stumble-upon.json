@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "StumbleUpon",
+      "browser": "stumbleupon",
       "platform": "Windows",
-      "device": "Windows Desktop",
       "engine": "Gecko",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "StumbleUpon",
-        "Browser": "StumbleUpon",
-        "Browser_Maker": "StumbleUpon, Inc.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "StumbleUpon"
       },
       "children": [
         {

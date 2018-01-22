@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
+      "browser": "nokia browser",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Nokia Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Nokia",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -45,7 +41,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
-            "MeeGo", "SailfishOS"
+            "SailfishOS",
+            "MeeGo"
           ]
         }
       ]

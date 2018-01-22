@@ -13,7 +13,8 @@ final class DeviceFactory
      * @param array  $deviceData The Device data for the current object
      * @param string $deviceName The name for the current device
      *
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws \Assert\AssertionFailedException
      *
      * @return Device
      */

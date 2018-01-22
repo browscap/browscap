@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
+      "browser": "screaming frog seo spider",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
-        "Browser": "Screaming Frog SEO Spider",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

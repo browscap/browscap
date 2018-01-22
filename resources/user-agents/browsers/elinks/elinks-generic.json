@@ -6,12 +6,11 @@
   "userAgents": [
     {
       "userAgent": "ELinks Generic",
+      "browser": "elinks",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "ELinks Generic",
-        "Browser": "ELinks",
-        "Browser_Type": "Browser"
+        "Comment": "ELinks Generic"
       },
       "children": [
         {

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Sailfish Browser #MAJORVER#.#MINORVER#",
+      "browser": "sailfish browser",
+      "platform": "SailfishOS",
       "engine": "Gecko",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SailfishOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sailfish Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Sailfish Browser",
-        "Browser_Maker": "Jolla Ltd.",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

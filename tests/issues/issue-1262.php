@@ -44,21 +44,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1262-A (standard)' => [
-        'ua' => 'WhatsApp/2.6.4 iPhone_OS/4.3.3 Device/iPhone_4',
-        'properties' => [
-            'Comment' => 'WhatsApp Bot Generic',
-            'Browser' => 'WhatsApp Bot',
-            'Browser_Maker' => 'Facebook',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'unknown',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1262-B' => [
         'ua' => 'WhatsApp/2.6.4 iPhone_OS/5.0.1 Device/iPhone_4',
         'properties' => [
@@ -101,20 +86,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1262-B (standard)' => [
-        'ua' => 'WhatsApp/2.6.4 iPhone_OS/5.0.1 Device/iPhone_4',
-        'properties' => [
-            'Comment' => 'WhatsApp Bot Generic',
-            'Browser' => 'WhatsApp Bot',
-            'Browser_Maker' => 'Facebook',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'unknown',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
 ];

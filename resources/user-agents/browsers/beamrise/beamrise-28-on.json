@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Beamrise #MAJORVER#.#MINORVER#",
+      "browser": "beamrise",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Beamrise #MAJORVER#.#MINORVER#",
-        "Browser": "Beamrise",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Beamrise Team",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

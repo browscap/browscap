@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Crawly",
+      "browser": "crawly",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Crawly",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Crawly"
+        "Comment": "Crawly"
       },
       "children": [
         {

@@ -6,26 +6,23 @@
   "userAgents": [
     {
       "userAgent": "PagePeeker",
+      "browser": "pagepeeker",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PagePeeker",
-        "Browser": "PagePeeker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "pagepeeker SRL",
-        "Crawler": "true"
+        "Comment": "PagePeeker"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Safari/* PagePeeker/2.1*",
-          "properties": {
-            "Version": "2.1"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Safari/* PagePeeker/*",

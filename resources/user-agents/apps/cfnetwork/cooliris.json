@@ -6,55 +6,52 @@
   "userAgents": [
     {
       "userAgent": "Cooliris",
+      "browser": "cooliris",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cooliris",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "Cooliris"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Cooliris?1.2 CFNetwork/*",
-          "properties": {
-            "Version": "1.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
         },
         {
           "match": "Cooliris?1.3 CFNetwork/*",
-          "properties": {
-            "Version": "1.3"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.3"
+          }
         },
         {
           "match": "Cooliris?1.4 CFNetwork/*",
-          "properties": {
-            "Version": "1.4"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.4"
+          }
         },
         {
           "match": "Cooliris?1.5 CFNetwork/*",
-          "properties": {
-            "Version": "1.5"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.5"
+          }
         },
         {
           "match": "Cooliris* CFNetwork/*",

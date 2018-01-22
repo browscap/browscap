@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Teleca-Obigo",
+      "browser": "teleca-obigo",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo",
-        "Browser": "Teleca-Obigo",
-        "Browser_Maker": "Obigo",
-        "Browser_Type": "Browser"
+        "Comment": "Teleca-Obigo"
       },
       "children": [
         {
@@ -202,7 +200,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#",
           "platforms": [
-            "Brew_3_0", "Brew_3_1"
+            "Brew_3_1", "Brew_3_0"
           ]
         },
         {

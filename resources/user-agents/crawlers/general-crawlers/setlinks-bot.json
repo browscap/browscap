@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SetLinks.ru Crawler",
+      "browser": "setlinks.ru crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SetLinks.ru Crawler",
-        "Browser": "SetLinks.ru Crawler",
-        "Browser_Maker": "SetLinks.ru",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SetLinks.ru Crawler"
       },
       "children": [
         {

@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Realplayer",
+      "browser": "realplayer",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "RealPlayer",
-        "Browser_Type": "Multimedia Player",
-        "Browser": "RealPlayer",
-        "Browser_Maker": "Real Networks"
+        "Comment": "RealPlayer"
       },
       "children": [
         {

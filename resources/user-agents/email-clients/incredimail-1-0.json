@@ -7,31 +7,30 @@
   "userAgents": [
     {
       "userAgent": "Incredimail #MAJORVER#.#MINORVER#",
+      "browser": "incredimail",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Incredimail #MAJORVER#.#MINORVER#",
-        "Browser": "Incredimail",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Email Client",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "iOS_E_6_1", "iOS_E"
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         },
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (iPad; #PLATFORM#",
           "device": "iPad",
           "platforms": [
-            "iOS_E_6_1", "iOS_E"
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         }
       ]

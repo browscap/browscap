@@ -6,25 +6,24 @@
   "userAgents": [
     {
       "userAgent": "Salam Browser",
+      "browser": "salam browser",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Salam Browser",
-        "Browser": "Salam Browser",
-        "Browser_Maker": "SBRO Online Security Solutions",
-        "Browser_Type": "Browser"
+        "Comment": "Salam Browser"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* (SBRO; Salam Browser) Safari/*",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Windows"
           ]
         }

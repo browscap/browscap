@@ -1,20 +1,18 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", "6.0"],
+  "versions": ["6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6],
   "sortIndex": 1933,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mini",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -55,16 +53,16 @@
         },
         {
           "match": "Opera/*(*iPad*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "iPad",
           "engine": "WebKit",
+          "device": "iPad",
           "platforms": [
             "iOS"
           ]
         },
         {
           "match": "Opera/*(*iPhone*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
           "engine": "WebKit",
+          "device": "iPhone",
           "platforms": [
             "iOS"
           ]

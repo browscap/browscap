@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "libwww",
+      "browser": "libwww",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "libwww",
-        "Browser": "libwww",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "libwww"
       },
       "children": [
         {

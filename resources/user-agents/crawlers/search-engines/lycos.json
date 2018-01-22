@@ -6,37 +6,27 @@
   "userAgents": [
     {
       "userAgent": "Lycos",
+      "browser": "lycos",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lycos",
-        "Browser": "Lycos",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Lycos"
       },
       "children": [
         {
           "match": "Lycos*",
-          "properties": {
-            "Browser": "Lycos"
-          }
+          "browser": "lycos"
         },
         {
           "match": "Lycos-Proxy",
-          "properties": {
-            "Browser": "Lycos-Proxy"
-          }
+          "browser": "lycos-proxy"
         },
         {
           "match": "Lycos-Spider_(modspider)",
-          "properties": {
-            "Browser": "Lycos-Spider_(modspider)"
-          }
+          "browser": "lycos-spider_(modspider)"
         },
         {
           "match": "Lycos-Spider_(T-Rex)",
-          "properties": {
-            "Browser": "Lycos-Spider_(T-Rex)"
-          }
+          "browser": "lycos-spider_(t-rex)"
         }
       ]
     }

@@ -5,7 +5,6 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DivisionFactory;
 use Browscap\Data\Factory\UserAgentFactory;
-use Browscap\Data\Validator\DivisionDataValidator;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 
@@ -30,8 +29,6 @@ class DivisionFactoryTest extends TestCase
             ->method('build')
             ->will(self::returnValue([]));
 
-        $divisionData = $this->createMock(DivisionDataValidator::class);
-
         $this->object = new DivisionFactory($logger, $useragentFactory);
     }
 
@@ -44,7 +41,7 @@ class DivisionFactoryTest extends TestCase
             'standard' => true,
             'userAgents' => [[], []],
         ];
-        $filename     = 'test.xyz';
+        $filename = 'test.xyz';
 
         self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
@@ -59,7 +56,7 @@ class DivisionFactoryTest extends TestCase
             'userAgents' => [[]],
             'versions' => ['1.0'],
         ];
-        $filename     = 'test.xyz';
+        $filename = 'test.xyz';
 
         self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }

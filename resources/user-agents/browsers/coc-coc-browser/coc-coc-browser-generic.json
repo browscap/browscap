@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Coc Coc Browser Generic",
+      "browser": "coc coc browser",
       "platform": "Windows",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Coc Coc Browser Generic",
-        "Browser": "Coc Coc Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Coc Coc Company Limited"
+        "Comment": "Coc Coc Browser Generic"
       },
       "children": [
         {
@@ -35,7 +33,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -64,7 +63,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* CoRom/* Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
@@ -124,7 +124,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Chrome/* Safari/* Edge/*",
           "platforms": [
-            "WinPhone10", "WinPhone8.1",
+            "WinPhone10",
+            "WinPhone8.1",
             "WinPhone"
           ]
         }

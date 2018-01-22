@@ -6,44 +6,34 @@
   "userAgents": [
     {
       "userAgent": "Jayde Online",
+      "browser": "jayde online",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Jayde Online",
-        "Browser": "Jayde Online",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Jayde Online"
       },
       "children": [
         {
           "match": "ExactSeek Crawler/0.1*",
+          "browser": "exactseek crawler",
           "properties": {
-            "Browser": "ExactSeek Crawler",
             "Version": "0.1"
           }
         },
         {
           "match": "ExactSeek Crawler/*",
-          "properties": {
-            "Browser": "ExactSeek Crawler"
-          }
+          "browser": "exactseek crawler"
         },
         {
           "match": "exactseek-pagereaper-* (crawler@exactseek.com)",
-          "properties": {
-            "Browser": "exactseek-pagereaper"
-          }
+          "browser": "exactseek-pagereaper"
         },
         {
           "match": "exactseek.com",
-          "properties": {
-            "Browser": "exactseek.com"
-          }
+          "browser": "exactseek.com"
         },
         {
           "match": "Jayde Crawler*",
-          "properties": {
-            "Browser": "Jayde Crawler"
-          }
+          "browser": "jayde crawler"
         }
       ]
     }

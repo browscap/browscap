@@ -6,31 +6,23 @@
   "userAgents": [
     {
       "userAgent": "DNS Tools",
+      "browser": "dns tools",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DNS Tools",
-        "Browser": "DNS Tools",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "DNS Tools"
       },
       "children": [
         {
           "match": "Domain Dossier utility*",
-          "properties": {
-            "Browser": "Domain Dossier"
-          }
+          "browser": "domain dossier"
         },
         {
           "match": "Mozilla/5.0 (compatible; DNS-Digger/*)",
-          "properties": {
-            "Browser": "DNS-Digger"
-          }
+          "browser": "dns-digger"
         },
         {
           "match": "OpenDNS Domain Crawler noc@opendns.com",
-          "properties": {
-            "Browser": "OpenDNS Domain Crawler"
-          }
+          "browser": "opendns domain crawler"
         }
       ]
     }

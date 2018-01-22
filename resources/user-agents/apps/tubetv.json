@@ -6,25 +6,21 @@
   "userAgents": [
     {
       "userAgent": "TubeTV",
+      "browser": "tubetv",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "TubeTV",
-        "Browser": "TubeTV",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Chimoosoft",
         "Alpha": "false",
-        "Beta": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) TubeTV*",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         }

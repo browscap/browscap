@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Browser Mini #MAJORVER#.#MINORVER#",
+      "browser": "baidu browser mini",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu Browser Mini #MAJORVER#.#MINORVER#",
-        "Browser": "Baidu Browser Mini",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

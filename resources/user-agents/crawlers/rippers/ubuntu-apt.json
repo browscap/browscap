@@ -6,15 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Ubuntu APT-HTTP",
-      "device": "Linux Desktop",
+      "browser": "apt http transport",
       "platform": "Ubuntu",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Ubuntu APT-HTTP",
-        "Browser": "Apt HTTP Transport",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Software in the Public Interest, Inc.",
-        "Crawler": "true"
+        "Comment": "Ubuntu APT-HTTP"
       },
       "children": [
         {

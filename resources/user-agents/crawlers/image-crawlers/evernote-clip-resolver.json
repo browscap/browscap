@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Evernote Clip Resolver",
+      "browser": "evernote clip resolver",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Evernote Clip Resolver",
-        "Browser": "Evernote Clip Resolver",
-        "Browser_Maker": "Evernote Corporation",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Evernote Clip Resolver"
       },
       "children": [
         {

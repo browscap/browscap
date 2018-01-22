@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "cURL PHP",
+      "browser": "curl php",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "cURL PHP",
-        "Browser_Type": "Bot/Crawler",
-        "Browser": "cURL PHP",
-        "Browser_Maker": "team Haxx",
-        "Crawler": "true"
+        "Comment": "cURL PHP"
       },
       "children": [
         {

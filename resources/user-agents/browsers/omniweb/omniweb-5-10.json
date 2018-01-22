@@ -7,22 +7,20 @@
   "userAgents": [
     {
       "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
+      "browser": "omniweb",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OmniWeb #MAJORVER#.#MINORVER#",
-        "Browser": "OmniWeb",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Omni Development Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko,*safari*) *Version/#MAJORVER#.#MINORVER#* *OmniWeb/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },

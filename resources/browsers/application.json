@@ -1,0 +1,1806 @@
+{
+    "1password": {
+        "properties": {
+            "Browser": "1Password",
+            "Browser_Type": "Application",
+            "Browser_Maker": "AgileBits, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "1passwordthumbs": {
+        "properties": {
+            "Browser": "1PasswordThumbs",
+            "Browser_Type": "Application",
+            "Browser_Maker": "AgileBits, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "access": {
+        "properties": {
+            "Browser": "Access",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "adobe air": {
+        "properties": {
+            "Browser": "Adobe AIR",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Adobe Systems Incorporated",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "aliapp": {
+        "properties": {
+            "Browser": "AliApp",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Alibaba",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "alltop app": {
+        "properties": {
+            "Browser": "Alltop App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Alltop",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "amaya": {
+        "properties": {
+            "Browser": "Amaya",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "android download manager": {
+        "properties": {
+            "Browser": "Android Download Manager",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ant galio": {
+        "properties": {
+            "Browser": "ANT Galio",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Espial Group",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "aol app": {
+        "properties": {
+            "Browser": "AOL App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "AOL",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "apple appstore app": {
+        "properties": {
+            "Browser": "Apple AppStore App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "apple news": {
+        "properties": {
+            "Browser": "Apple News",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "applecoremedia": {
+        "properties": {
+            "Browser": "AppleCoreMedia",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "automator": {
+        "properties": {
+            "Browser": "Automator",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "b-line": {
+        "properties": {
+            "Browser": "B-Line",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Riser Apps LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "baidu box app": {
+        "properties": {
+            "Browser": "Baidu Box App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Baidu",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bb2c": {
+        "properties": {
+            "Browser": "BB2C",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "beonex communicator": {
+        "properties": {
+            "Browser": "Beonex Communicator",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Beonex Business Services",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bigslickgofish": {
+        "properties": {
+            "Browser": "BigSlickGoFish",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "billigfluegefinal app": {
+        "properties": {
+            "Browser": "billigFluegeFinal App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bing": {
+        "properties": {
+            "Browser": "Bing",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bing ipad": {
+        "properties": {
+            "Browser": "Bing iPad",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "camera 360": {
+        "properties": {
+            "Browser": "Camera 360",
+            "Browser_Type": "Application",
+            "Browser_Maker": "PinGuo Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cfnetwork": {
+        "properties": {
+            "Browser": "CFNetwork",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "clipish": {
+        "properties": {
+            "Browser": "Clipish",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "coast": {
+        "properties": {
+            "Browser": "Coast",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Opera Software ASA",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": true,
+        "standard": true
+    },
+    "coda": {
+        "properties": {
+            "Browser": "Coda",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Panic Software",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cooliris": {
+        "properties": {
+            "Browser": "Cooliris",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "coursera mobile app": {
+        "properties": {
+            "Browser": "Coursera Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Coursera Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "coverscout": {
+        "properties": {
+            "Browser": "CoverScout",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "crosswalk app": {
+        "properties": {
+            "Browser": "Crosswalk App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Intel Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "crowsnest mobile app": {
+        "properties": {
+            "Browser": "Crowsnest Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Gocro, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cyberdog": {
+        "properties": {
+            "Browser": "Cyberdog",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cyberduck": {
+        "properties": {
+            "Browser": "Cyberduck",
+            "Browser_Type": "Application",
+            "Browser_Maker": "iterate GmbH",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cybeye": {
+        "properties": {
+            "Browser": "CybEye",
+            "Browser_Type": "Application",
+            "Browser_Maker": "CybEye.com",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dalvik": {
+        "properties": {
+            "Browser": "Dalvik",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "darwin browser": {
+        "properties": {
+            "Browser": "Darwin Browser",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "daum": {
+        "properties": {
+            "Browser": "Daum",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Daum Kakao Corp",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "david client": {
+        "properties": {
+            "Browser": "David Client",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Tobit Software AG",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "douban app": {
+        "properties": {
+            "Browser": "douban App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "dreamweaver": {
+        "properties": {
+            "Browser": "Dreamweaver",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Adobe Systems Incorporated",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "duckduck app": {
+        "properties": {
+            "Browser": "DuckDuck App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "DuckDuckGo",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "eb iphone/ipad app": {
+        "properties": {
+            "Browser": "EB iPhone/IPad App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "electron": {
+        "properties": {
+            "Browser": "Electron",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Github",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "elluminate live": {
+        "properties": {
+            "Browser": "Elluminate Live",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Blackboard Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "emacs/w3": {
+        "properties": {
+            "Browser": "Emacs/W3",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "evernote app": {
+        "properties": {
+            "Browser": "Evernote App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Evernote Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "excel": {
+        "properties": {
+            "Browser": "Excel",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "extras4imovie": {
+        "properties": {
+            "Browser": "Extras4iMovie",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "facebook app": {
+        "properties": {
+            "Browser": "Facebook App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "facebook groups": {
+        "properties": {
+            "Browser": "Facebook Groups",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "facebook messenger": {
+        "properties": {
+            "Browser": "Facebook Messenger",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "facebook pages admin": {
+        "properties": {
+            "Browser": "Facebook Pages Admin",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fastbrowser": {
+        "properties": {
+            "Browser": "FastBrowser",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fgbrowser": {
+        "properties": {
+            "Browser": "fgBrowser",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "flipboard app": {
+        "properties": {
+            "Browser": "Flipboard App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Flipboard, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "flixster app": {
+        "properties": {
+            "Browser": "Flixster App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Flixster, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "frontpage": {
+        "properties": {
+            "Browser": "FrontPage",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "goodreader": {
+        "properties": {
+            "Browser": "GoodReader",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google app": {
+        "properties": {
+            "Browser": "Google App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google earth": {
+        "properties": {
+            "Browser": "Google Earth",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google+ app": {
+        "properties": {
+            "Browser": "Google+ App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Google Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hitpad": {
+        "properties": {
+            "Browser": "Hitpad",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hot hd wallpapers": {
+        "properties": {
+            "Browser": "Hot HD Wallpapers",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hot wallpapers": {
+        "properties": {
+            "Browser": "Hot Wallpapers",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ibooks author": {
+        "properties": {
+            "Browser": "iBooks Author",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "imagemobile": {
+        "properties": {
+            "Browser": "ImageMobile",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "instagram app": {
+        "properties": {
+            "Browser": "Instagram App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "installatron": {
+        "properties": {
+            "Browser": "Installatron",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Installatron LLC.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ios dataaccessd": {
+        "properties": {
+            "Browser": "iOS dataaccessd",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ipick": {
+        "properties": {
+            "Browser": "iPick",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "isearch": {
+        "properties": {
+            "Browser": "iSearch",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "isilox": {
+        "properties": {
+            "Browser": "iSiloX",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "itunes": {
+        "properties": {
+            "Browser": "iTunes",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "iweb": {
+        "properties": {
+            "Browser": "iWeb",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kamelio app": {
+        "properties": {
+            "Browser": "Kamelio App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Kamelio",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "keeper": {
+        "properties": {
+            "Browser": "Keeper",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Callpod Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kenshoo": {
+        "properties": {
+            "Browser": "Kenshoo",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Kenshoo, Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kioclient": {
+        "properties": {
+            "Browser": "kioclient",
+            "Browser_Type": "Application",
+            "Browser_Maker": "KDE e.V.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kurio app": {
+        "properties": {
+            "Browser": "Kurio App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "CIDE Interactive",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lftp": {
+        "properties": {
+            "Browser": "lftp",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "libreoffice": {
+        "properties": {
+            "Browser": "LibreOffice",
+            "Browser_Type": "Application",
+            "Browser_Maker": "The Document Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "line app": {
+        "properties": {
+            "Browser": "Line App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Line Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "listia app": {
+        "properties": {
+            "Browser": "Listia App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Listia Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "lync": {
+        "properties": {
+            "Browser": "Lync",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "m3gate": {
+        "properties": {
+            "Browser": "M3Gate",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "macappstore": {
+        "properties": {
+            "Browser": "MacAppStore",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "matome": {
+        "properties": {
+            "Browser": "Matome",
+            "Browser_Type": "Application",
+            "Browser_Maker": "NHN Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobilerss": {
+        "properties": {
+            "Browser": "MobileRSS",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mplayer": {
+        "properties": {
+            "Browser": "MPlayer",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mynews": {
+        "properties": {
+            "Browser": "MyNews",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "naver": {
+        "properties": {
+            "Browser": "Naver",
+            "Browser_Type": "Application",
+            "Browser_Maker": "NHN Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netgem set top box": {
+        "properties": {
+            "Browser": "Netgem Set Top Box",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netvibes app": {
+        "properties": {
+            "Browser": "NetVibes App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "NetVibes Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsarticle app": {
+        "properties": {
+            "Browser": "NewsArticle App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsfire": {
+        "properties": {
+            "Browser": "NewsFire",
+            "Browser_Type": "Application",
+            "Browser_Maker": "David Watanabe",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "office": {
+        "properties": {
+            "Browser": "Office",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "office syncproc": {
+        "properties": {
+            "Browser": "Office SyncProc",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "office upload center": {
+        "properties": {
+            "Browser": "Office Upload Center",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "offline pages": {
+        "properties": {
+            "Browser": "Offline Pages",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "okta mobile app": {
+        "properties": {
+            "Browser": "Okta Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Okta, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "onenote": {
+        "properties": {
+            "Browser": "OneNote",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "openbsd ftp": {
+        "properties": {
+            "Browser": "OpenBSD ftp",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "openoffice": {
+        "properties": {
+            "Browser": "OpenOffice",
+            "Browser_Type": "Application",
+            "Browser_Maker": "The Apache Software Foundation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "perfect browser": {
+        "properties": {
+            "Browser": "PERFECT Browser",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "phantomas": {
+        "properties": {
+            "Browser": "phantomas",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Maciej Brencz",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pic collage": {
+        "properties": {
+            "Browser": "Pic Collage",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pinterest app": {
+        "properties": {
+            "Browser": "Pinterest App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Ericsson Research",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "polaris": {
+        "properties": {
+            "Browser": "Polaris",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Infraware Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "powerpoint": {
+        "properties": {
+            "Browser": "PowerPoint",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "prince": {
+        "properties": {
+            "Browser": "Prince",
+            "Browser_Type": "Application",
+            "Browser_Maker": "YesLogic Pty. Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "prismatic app": {
+        "properties": {
+            "Browser": "Prismatic App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Prismatic",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "quicktime agent": {
+        "properties": {
+            "Browser": "QuickTime Agent",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "quora app": {
+        "properties": {
+            "Browser": "Quora App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Quora, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "raptr": {
+        "properties": {
+            "Browser": "Raptr",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Raptr",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "readability": {
+        "properties": {
+            "Browser": "Readability",
+            "Browser_Type": "Application",
+            "Browser_Maker": "SFX Entertainment, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "realplayer downloader": {
+        "properties": {
+            "Browser": "RealPlayer Downloader",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rebelmouse": {
+        "properties": {
+            "Browser": "RebelMouse",
+            "Browser_Type": "Application",
+            "Browser_Maker": "RebelMouse",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "reddit app": {
+        "properties": {
+            "Browser": "Reddit App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Reddit Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "redflagdeals mobile app": {
+        "properties": {
+            "Browser": "RedFlagDeals Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yellow Pages Digital & Media Solutions Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "reeder": {
+        "properties": {
+            "Browser": "Reeder",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "roblox studio": {
+        "properties": {
+            "Browser": "Roblox Studio",
+            "Browser_Type": "Application",
+            "Browser_Maker": "ROBLOX Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rocky chatwork mobile": {
+        "properties": {
+            "Browser": "Rocky ChatWork Mobile",
+            "Browser_Type": "Application",
+            "Browser_Maker": "ChatWork",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "salesforce app": {
+        "properties": {
+            "Browser": "SalesForce App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Salesforce.com, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sandvox": {
+        "properties": {
+            "Browser": "Sandvox",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Karelia Software",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "schoolwires app": {
+        "properties": {
+            "Browser": "Schoolwires App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Schoolwires, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "second life commerce client": {
+        "properties": {
+            "Browser": "Second Life Commerce Client",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Linden Labs",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "secondlife": {
+        "properties": {
+            "Browser": "SecondLife",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Linden Labs",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sitecon": {
+        "properties": {
+            "Browser": "SiteCon",
+            "Browser_Type": "Application",
+            "Browser_Maker": "NCC Group.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "snowtape": {
+        "properties": {
+            "Browser": "Snowtape",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sohunews app": {
+        "properties": {
+            "Browser": "SohuNews App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Sohu.com Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "songbird app": {
+        "properties": {
+            "Browser": "Songbird App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "POTI Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "soundcloud app": {
+        "properties": {
+            "Browser": "SoundCloud App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "SoundCloud Limited",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "spector": {
+        "properties": {
+            "Browser": "Spector",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "steam": {
+        "properties": {
+            "Browser": "Steam",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Valve Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "steam big picture": {
+        "properties": {
+            "Browser": "Steam Big Picture",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Valve Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "steam overlay": {
+        "properties": {
+            "Browser": "Steam Overlay",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Valve Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "terra": {
+        "properties": {
+            "Browser": "Terra",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "the diary": {
+        "properties": {
+            "Browser": "The Diary",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tubetv": {
+        "properties": {
+            "Browser": "TubeTV",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Chimoosoft",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "twc sportsnet": {
+        "properties": {
+            "Browser": "TWC SportsNet",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Time Warner Cable",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tweetbot": {
+        "properties": {
+            "Browser": "Tweetbot",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Tapbots, LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "twitter app": {
+        "properties": {
+            "Browser": "Twitter App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Twitter",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "uc browser hd": {
+        "properties": {
+            "Browser": "UC Browser HD",
+            "Browser_Type": "Application",
+            "Browser_Maker": "UCWeb Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vanillasurf": {
+        "properties": {
+            "Browser": "VanillaSurf",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "visio": {
+        "properties": {
+            "Browser": "Visio",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "webclip app": {
+        "properties": {
+            "Browser": "WebClip App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "webthumb": {
+        "properties": {
+            "Browser": "WebThumb",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Boutell.Com, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "webtv/msntv": {
+        "properties": {
+            "Browser": "WebTV/MSNTV",
+            "Browser_Type": "Application",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wechat app": {
+        "properties": {
+            "Browser": "WeChat App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Tencent Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "whatsapp": {
+        "properties": {
+            "Browser": "WhatsApp",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Facebook",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "windows powershell": {
+        "properties": {
+            "Browser": "Windows PowerShell",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "windows-update-agent": {
+        "properties": {
+            "Browser": "Windows-Update-Agent",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wire app": {
+        "properties": {
+            "Browser": "Wire App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Wire Swiss GmbH",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wkhtmltoimage": {
+        "properties": {
+            "Browser": "wkhtmltoimage",
+            "Browser_Type": "Application",
+            "Browser_Maker": "wkhtmltopdf.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wkhtmltopdf": {
+        "properties": {
+            "Browser": "wkhtmltopdf",
+            "Browser_Type": "Application",
+            "Browser_Maker": "wkhtmltopdf.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "word": {
+        "properties": {
+            "Browser": "Word",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wordpress app": {
+        "properties": {
+            "Browser": "WordPress App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "wordpress.org",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yaapp": {
+        "properties": {
+            "Browser": "YaApp",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yandex LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yahoo messenger": {
+        "properties": {
+            "Browser": "Yahoo Messenger",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yahoo! Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yahoo mobile app": {
+        "properties": {
+            "Browser": "Yahoo Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yahoo! Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yahoo! app": {
+        "properties": {
+            "Browser": "Yahoo! App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yahoo! Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yandex search": {
+        "properties": {
+            "Browser": "Yandex Search",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Yandex LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yellowpages mobile app": {
+        "properties": {
+            "Browser": "YellowPages Mobile App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "YP LLC.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    }
+}

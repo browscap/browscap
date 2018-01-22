@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "browser": "opera mobile",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -108,7 +106,8 @@
           "match": "Opera?#MAJORVER#.#MINORVER#* (#PLATFORM# Opera Mobi*)*",
           "device": "general Mobile Phone",
           "platforms": [
-            "Brew_4_0", "WinMobile"
+            "WinMobile",
+            "Brew_4_0"
           ]
         }
       ]

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Wayback Archive Bot",
+      "browser": "wayback archive bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Wayback Archive Bot",
-        "Browser": "Wayback Archive Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "archive.org",
-        "Crawler": "true"
+        "Comment": "Wayback Archive Bot"
       },
       "children": [
         {

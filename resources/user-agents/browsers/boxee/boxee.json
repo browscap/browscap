@@ -6,13 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Boxee",
-      "device": "Boxee",
+      "browser": "boxee",
       "platform": "Linux",
+      "device": "Boxee",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Boxee",
-        "Browser": "Boxee",
-        "Browser_Maker": "Boxee, Inc."
+        "Comment": "Boxee"
       },
       "children": [
         {

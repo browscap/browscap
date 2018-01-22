@@ -7,14 +7,11 @@
   "userAgents": [
     {
       "userAgent": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+      "browser": "tiny tiny rss",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
-        "Browser": "Tiny Tiny RSS",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

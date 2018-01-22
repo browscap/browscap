@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Dillo #MAJORVER#.#MINORVER#",
+      "browser": "dillo",
       "platform": "Linux",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dillo #MAJORVER#.#MINORVER#",
-        "Browser": "Dillo",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "the Dillo Project",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,206 +6,146 @@
   "userAgents": [
     {
       "userAgent": "Research Projects",
+      "browser": "research projects",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Research Projects",
-        "Browser": "Research Projects",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Research Projects"
       },
       "children": [
         {
           "match": "AcadiaUniversityWebCensusClient",
-          "properties": {
-            "Browser": "AcadiaUniversityWebCensusClient"
-          }
+          "browser": "acadiauniversitywebcensusclient"
         },
         {
           "match": "Amico Alpha * (*) Gecko* AmicoAlpha/*",
-          "properties": {
-            "Browser": "Amico Alpha"
-          }
+          "browser": "amico alpha"
         },
         {
           "match": "annotate_google; http://ponderer.org/*",
-          "properties": {
-            "Browser": "Annotate Google"
-          }
+          "browser": "annotate google"
         },
         {
           "match": "CMS crawler (?http://buytaert.net/crawler/)"
         },
         {
           "match": "e-SocietyRobot(http://www.yama.info.waseda.ac.jp/~yamana/es/)",
-          "properties": {
-            "Browser": "e-SocietyRobot"
-          }
+          "browser": "e-societyrobot"
         },
         {
           "match": "Forschungsportal/*",
-          "properties": {
-            "Browser": "Forschungsportal"
-          }
+          "browser": "forschungsportal"
         },
         {
           "match": "Gulper Web *",
-          "properties": {
-            "Browser": "Gulper Web Bot"
-          }
+          "browser": "gulper web bot"
         },
         {
           "match": "HooWWWer/*",
-          "properties": {
-            "Browser": "HooWWWer"
-          }
+          "browser": "hoowwwer"
         },
         {
           "match": "inetbot/* (?http://www.inetbot.com/bot.html)",
-          "properties": {
-            "Browser": "inetbot"
-          }
+          "browser": "inetbot"
         },
         {
           "match": "JUST-CRAWLER(*)",
-          "properties": {
-            "Browser": "JUST-CRAWLER"
-          }
+          "browser": "just-crawler"
         },
         {
           "match": "Lachesis",
-          "properties": {
-            "Browser": "Lachesis"
-          }
+          "browser": "lachesis"
         },
         {
           "match": "Mozilla/5.0 (compatible; nextthing.org/*)",
+          "browser": "nextthing.org",
           "properties": {
-            "Browser": "nextthing.org",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Theophrastus/*)",
-          "properties": {
-            "Browser": "Theophrastus"
-          }
+          "browser": "theophrastus"
         },
         {
           "match": "Mozilla/5.0 (compatible; Webscan v0.*; +http://otc.dyndns.org/webscan/)",
-          "properties": {
-            "Browser": "Webscan"
-          }
+          "browser": "webscan"
         },
         {
           "match": "MQbot*",
-          "properties": {
-            "Browser": "MQbot"
-          }
+          "browser": "mqbot"
         },
         {
           "match": "OutfoxBot/*",
-          "properties": {
-            "Browser": "OutfoxBot"
-          }
+          "browser": "outfoxbot"
         },
         {
           "match": "polybot?*",
-          "properties": {
-            "Browser": "Polybot"
-          }
+          "browser": "polybot"
         },
         {
           "match": "Shim?Crawler*",
-          "properties": {
-            "Browser": "Shim Crawler"
-          }
+          "browser": "shim crawler"
         },
         {
           "match": "Taiga web spider",
-          "properties": {
-            "Browser": "Taiga"
-          }
+          "browser": "taiga"
         },
         {
           "match": "Theme Spider*",
-          "properties": {
-            "Browser": "Theme Spider"
-          }
+          "browser": "theme spider"
         },
         {
           "match": "UofTDB_experiment* (leehyun@cs.toronto.edu)",
-          "properties": {
-            "Browser": "UofTDB Experiment"
-          }
+          "browser": "uoftdb experiment"
         },
         {
           "match": "USyd-NLP-Spider*",
-          "properties": {
-            "Browser": "USyd-NLP-Spider"
-          }
+          "browser": "usyd-nlp-spider"
         },
         {
           "match": "woriobot*",
-          "properties": {
-            "Browser": "woriobot",
-            "Browser_Maker": "Flipboard, Inc."
-          }
+          "browser": "woriobot"
         },
         {
           "match": "Mozilla/5.0 (compatible; woriobot*",
-          "properties": {
-            "Browser": "woriobot",
-            "Browser_Maker": "Flipboard, Inc."
-          }
+          "browser": "woriobot"
         },
         {
           "match": "Mozilla/5.0 (compatible; zitebot*",
-          "properties": {
-            "Browser": "zitebot",
-            "Browser_Maker": "Flipboard, Inc."
-          }
+          "browser": "zitebot"
         },
         {
           "match": "wwwster/* (Beta, mailto:gue@cis.uni-muenchen.de)",
+          "browser": "wwwster",
           "properties": {
-            "Browser": "wwwster",
             "Beta": "true"
           }
         },
         {
           "match": "Zao-Crawler",
-          "properties": {
-            "Browser": "Zao-Crawler"
-          }
+          "browser": "zao-crawler"
         },
         {
           "match": "Zao/*",
-          "properties": {
-            "Browser": "Zao"
-          }
+          "browser": "zao"
         },
         {
           "match": "Amico Alpha * (*Gecko* AmicoAlpha/*"
         },
         {
           "match": "Cloud mapping experiment. Contact research@pdrlabs.net",
-          "properties": {
-            "Browser": "pdrlabs Bot",
-            "Browser_Maker": "pdrlabs.net"
-          }
+          "browser": "pdrlabs bot"
         },
         {
           "match": "Finderlein Research Crawler 1.0*",
+          "browser": "finderlein research crawler",
           "properties": {
-            "Browser": "Finderlein Research Crawler",
             "Version": "1.0"
           }
         },
         {
           "match": "Finderlein Research Crawler*",
-          "properties": {
-            "Browser": "Finderlein Research Crawler"
-          }
+          "browser": "finderlein research crawler"
         }
       ]
     }

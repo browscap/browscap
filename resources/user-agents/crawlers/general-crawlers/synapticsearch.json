@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SynapticSearch",
+      "browser": "synapticsearch",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SynapticSearch",
-        "Browser": "SynapticSearch",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SynapticSearch"
       },
       "children": [
         {

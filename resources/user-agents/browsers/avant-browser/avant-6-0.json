@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Avant/IE 6.0",
+      "browser": "avant",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant/IE 6.0",
-        "Browser": "Avant",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force"
+        "Comment": "Avant/IE 6.0"
       },
       "children": [
         {
@@ -24,9 +22,11 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "Win2000_64", "Win2000_3", "Win2000",
-            "Win95_2", "Win98_2", "WinME",
-            "NT"
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -37,9 +37,11 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "Win2000_64", "Win2000_3", "Win2000",
-            "Win95_2", "Win98_2", "WinME",
-            "NT"
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {

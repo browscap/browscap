@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Facebook Pages App for iOS",
+      "browser": "facebook pages admin",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Facebook Pages App for iOS",
-        "Browser": "Facebook Pages Admin",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook"
+        "Comment": "Facebook Pages App for iOS"
       },
       "children": [
         {
@@ -40,13 +38,13 @@
             "iPad": "iPad"
           },
           "platforms": [
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_2",
             "iOS_C"
           ]
         },

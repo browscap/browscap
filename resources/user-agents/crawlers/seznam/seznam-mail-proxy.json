@@ -6,16 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Seznam Email Proxy",
+      "browser": "seznam email proxy",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Seznam Email Proxy",
-        "Browser": "Seznam Email Proxy",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Seznam.cz, a.s.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "true"
+        "Beta": "false"
       },
       "children": [
         {

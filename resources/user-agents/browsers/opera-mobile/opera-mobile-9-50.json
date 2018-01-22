@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "browser": "opera mobile",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -137,12 +135,12 @@
         {
           "match": "Opera?#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi/*",
           "device": "general Mobile Phone",
-          "properties": {
-            "Beta": "true"
-          },
           "platforms": [
             "WinMobile"
-          ]
+          ],
+          "properties": {
+            "Beta": "true"
+          }
         },
         {
           "match": "PPC; 240x320; #DEVICE#; OpVer* Opera/#MAJORVER#.#MINORVER#* (Microsoft Windows 6.5; U;*)",

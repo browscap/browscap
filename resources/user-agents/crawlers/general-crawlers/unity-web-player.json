@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Unity Web Player",
+      "browser": "unity web player",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Unity Web Player",
-        "Browser": "Unity Web Player",
-        "Browser_Maker": "Unity Technologies",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Unity Web Player"
       },
       "children": [
         {

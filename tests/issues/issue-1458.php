@@ -44,6 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1458-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30',
+        'properties' => [
+            'Comment' => 'Safari 10.1',
+            'Browser' => 'Safari',
+            'Version' => '10.1',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1458-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46',
         'properties' => [
@@ -130,6 +143,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1458-C (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome 59.0',
+            'Browser' => 'Chrome',
+            'Version' => '59.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1458-D' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:48.0) Gecko/20100101 Firefox/48.0',
         'properties' => [
@@ -172,6 +198,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1458-D (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:48.0) Gecko/20100101 Firefox/48.0',
+        'properties' => [
+            'Comment' => 'Firefox 48.0',
+            'Browser' => 'Firefox',
+            'Version' => '48.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1458-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:51.0) Gecko/20100101 Firefox/51.0',
@@ -216,6 +255,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1458-E (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:51.0) Gecko/20100101 Firefox/51.0',
+        'properties' => [
+            'Comment' => 'Firefox 51.0',
+            'Browser' => 'Firefox',
+            'Version' => '51.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1458-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:53.0) Gecko/20100101 Firefox/53.0',
         'properties' => [
@@ -258,6 +310,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1458-F (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:53.0) Gecko/20100101 Firefox/53.0',
+        'properties' => [
+            'Comment' => 'Firefox 53.0',
+            'Browser' => 'Firefox',
+            'Version' => '53.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1458-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/15A5278f Safari/601.1.46',
@@ -748,6 +813,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1458-P (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Focus/3.4 Mobile/15A5341f',
+        'properties' => [
+            'Comment' => 'Firefox Focus 3.4',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '3.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1458-Q' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/15A5304j Safari/604.1.25',

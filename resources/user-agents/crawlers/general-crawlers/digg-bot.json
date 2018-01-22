@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Digg Bot",
+      "browser": "digg bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Digg Bot",
-        "Browser": "Digg Bot",
-        "Browser_Maker": "News.me Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Digg Bot"
       },
       "children": [
         {

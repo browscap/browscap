@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Another Web Mining Tool",
+      "browser": "another web mining tool",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Another Web Mining Tool",
-        "Browser": "Another Web Mining Tool",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Another Web Mining Tool"
       },
       "children": [
         {

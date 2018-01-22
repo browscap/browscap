@@ -7,20 +7,16 @@
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
       "platform": "WinPhone",
       "engine": "Trident_5",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile #MAJORVER#.#MINORVER#",
-        "Browser": "IEMobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -32,12 +28,12 @@
         },
         {
           "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "WinPhone75"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*)",
@@ -77,7 +73,9 @@
         {
           "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinPhone78", "WinPhone75", "WinPhone"
+            "WinPhone78",
+            "WinPhone75",
+            "WinPhone"
           ]
         }
       ]

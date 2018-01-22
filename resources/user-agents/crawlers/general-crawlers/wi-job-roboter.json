@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "WI Job Roboter",
+      "browser": "wi job roboter",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WI Job Roboter",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Web Integration IT Service GmbH",
-        "Crawler": "true",
-        "Browser": "WI Job Roboter"
+        "Comment": "WI Job Roboter"
       },
       "children": [
         {

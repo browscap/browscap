@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Comodo SSL Checker",
+      "browser": "comodo ssl checker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Comodo SSL Checker",
-        "Browser": "Comodo SSL Checker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Comodo Group Inc",
-        "Crawler": "true"
+        "Comment": "Comodo SSL Checker"
       },
       "children": [
         {

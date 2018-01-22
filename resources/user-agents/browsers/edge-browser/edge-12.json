@@ -7,36 +7,33 @@
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
+      "browser": "edge",
       "engine": "Edge_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge #MAJORVER#.#MINORVER#",
-        "Browser": "Edge",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         }
       ]
     },
     {
       "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
+      "browser": "edge mobile",
+      "platform": "WinPhone10",
       "engine": "Edge_Dynamic",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Edge Mobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -48,13 +45,13 @@
             "Lumia 930": "Nokia Lumia 930"
           },
           "platforms": [
-            "WinPhone10", "WinPhone10_Continuum"
+            "WinPhone10_Continuum", "WinPhone10"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
           "platforms": [
-            "WinPhone10", "WinPhone10_Continuum"
+            "WinPhone10_Continuum", "WinPhone10"
           ]
         }
       ]

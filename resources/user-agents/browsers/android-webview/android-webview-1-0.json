@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Android WebView #MAJORVER#.#MINORVER#",
+      "browser": "android webview",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android WebView #MAJORVER#.#MINORVER#",
-        "Browser": "Android WebView",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Google Inc",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -575,15 +573,15 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "devices": {
             "KFTT": "Amazon KFTT"
           },
           "platforms": [
             "Android_4_0"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",

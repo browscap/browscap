@@ -345,6 +345,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-295-I (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; U;WOW64; de;rv:11.0) Gecko Firefox/11.0',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-295-K' => [
         'ua' => 'Mozilla/4.0 (compatible; Opera/3.0; Windows 4.10) 3.51 [en]',
         'properties' => [

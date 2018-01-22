@@ -7,25 +7,22 @@
   "userAgents": [
     {
       "userAgent": "iTunes #MAJORVER#.#MINORVER#",
+      "browser": "itunes",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes #MAJORVER#.#MINORVER#",
-        "Browser": "iTunes",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
-            "OSX_B_10_12", "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
+            "OSX_B_10_12",
+            "OSX_B_10_11", "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
             "OSX_B"
           ]
         },
@@ -33,7 +30,8 @@
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows", "Windows_64"
+            "Windows_64",
+            "Windows"
           ]
         },
         {

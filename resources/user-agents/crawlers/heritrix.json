@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Heritrix",
+      "browser": "heritrix",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Heritrix",
-        "Browser": "Heritrix",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Heritrix"
       },
       "children": [
         {
@@ -34,36 +32,26 @@
         },
         {
           "match": "bl.uk_lddc_bot/3.3*",
+          "browser": "bl.uk_lddc_bot",
           "properties": {
-            "Browser": "bl.uk_lddc_bot",
-            "Browser_Maker": "The British Legal Deposit Libraries",
             "Version": "3.3"
           }
         },
         {
           "match": "bl.uk_lddc_bot/*",
-          "properties": {
-            "Browser": "bl.uk_lddc_bot",
-            "Browser_Maker": "The British Legal Deposit Libraries"
-          }
+          "browser": "bl.uk_lddc_bot"
         },
         {
           "match": "Mozilla/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
+          "browser": "bl.uk_lddc_bot",
           "device": "Linux Desktop",
-          "properties": {
-            "Browser": "bl.uk_lddc_bot",
-            "Browser_Maker": "The British Legal Deposit Libraries"
-          },
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; bnf.fr_bot;*",
-          "properties": {
-            "Browser": "bnf.fr Bot",
-            "Browser_Maker": "Bibliotheque nationale de France"
-          }
+          "browser": "bnf.fr bot"
         }
       ]
     }

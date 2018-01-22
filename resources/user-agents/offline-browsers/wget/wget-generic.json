@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "wget",
+      "browser": "wget",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "wget",
-        "Browser_Type": "Offline Browser",
-        "Browser_Maker": "Free Software Foundation, Inc.",
-        "Crawler": "false",
-        "Browser": "wget"
+        "Comment": "wget"
       },
       "children": [
         {

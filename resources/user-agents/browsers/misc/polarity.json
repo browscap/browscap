@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Polarity Browser for Android",
+      "browser": "polarity",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polarity",
-        "Browser": "Polarity",
-        "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser"
+        "Comment": "Polarity"
       },
       "children": [
         {
@@ -40,43 +38,45 @@
     },
     {
       "userAgent": "Polarity Browser",
+      "browser": "polarity",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Polarity",
-        "Browser": "Polarity",
-        "Browser_Maker": "Stanley Lim",
-        "Browser_Type": "Browser"
+        "Comment": "Polarity"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/??* Polarity/*",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Windows"
           ]
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM# Trident/* Polarity/*)*",
-          "properties": {
-            "Browser_Modus": "Trident Tab"
-          },
           "engine": "Trident",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Windows"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Trident Tab"
+          }
         }
       ]
     }

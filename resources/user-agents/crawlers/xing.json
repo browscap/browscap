@@ -6,26 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Xing",
+      "browser": "xing",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Xing",
-        "Browser_Type": "Bot/Crawler",
-        "Browser": "Xing",
-        "Crawler": "true"
+        "Comment": "Xing"
       },
       "children": [
         {
           "match": "XING-contenttabreceiver/2.0",
+          "browser": "xing contenttabreceiver",
           "properties": {
-            "Browser": "XING Contenttabreceiver",
             "Version": "2.0"
           }
         },
         {
           "match": "XING-contenttabreceiver/*",
-          "properties": {
-            "Browser": "XING Contenttabreceiver"
-          }
+          "browser": "xing contenttabreceiver"
         }
       ]
     }

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Livelap Crawler",
+      "browser": "livelap crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Livelap Crawler",
-        "Browser": "Livelap Crawler",
-        "Browser_Maker": "Paypal",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Livelap Crawler"
       },
       "children": [
         {

@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "LG Browser Generic",
-      "device": "general TV Device",
+      "browser": "lg browser",
       "engine": "WebKit",
+      "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LG Browser Generic",
-        "Browser": "LG Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "LG"
+        "Comment": "LG Browser Generic"
       },
       "children": [
         {

@@ -87,21 +87,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-904-B (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile 2008.0 (mobilesearch.support@orange-ftgroup.com)',
-        'properties' => [
-            'Comment' => 'IE 4.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '4.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-904-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.01; GomezAgent 2.0; Windows NT)',
         'properties' => [
@@ -144,21 +129,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-904-C (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.01; GomezAgent 2.0; Windows NT)',
-        'properties' => [
-            'Comment' => 'IE 5.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-904-D' => [
         'ua' => 'Crawllybot/0.1/0.1 (Crawllybot/0.1; http://www.crawlly.com; crawler@crawlly.com)',

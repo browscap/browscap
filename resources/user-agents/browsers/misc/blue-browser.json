@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Blue Browser",
+      "browser": "blue browser",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Blue Browser/Surf Browser/Cloud Browser (com.gl9.cloudBrowser)",
-        "Browser": "Blue Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "galaxys45312@gmail.com",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -68,34 +64,30 @@
             "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
-            "Android"
+            "Android_H"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
+          "browser": "surf browser",
           "devices": {
             "LGE LGLS676": "LG LS676",
             "samsung SM-J327P": "Samsung SM-J327P"
           },
           "platforms": [
             "Android_H_6_0"
-          ],
-          "properties": {
-            "Browser": "Surf Browser"
-          }
+          ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
+          "browser": "surf browser",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
-            "Android"
-          ],
-          "properties": {
-            "Browser": "Surf Browser"
-          }
+            "Android_H"
+          ]
         }
       ]
     }

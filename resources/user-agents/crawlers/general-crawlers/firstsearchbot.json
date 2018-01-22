@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "FirstSearchBot",
+      "browser": "firstsearchbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "FirstSearchBot"
+        "Comment": "General Crawlers"
       },
       "children": [
         {

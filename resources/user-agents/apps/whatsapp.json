@@ -6,37 +6,33 @@
   "userAgents": [
     {
       "userAgent": "WhatsApp",
+      "browser": "whatsapp",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp",
-        "Browser": "WhatsApp",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "WhatsApp/2.6* #PLATFORM# Device/iPhone*",
-          "platform": "iOS",
           "device": "iPhone",
+          "platforms": [
+            "iOS_H_5_0",
+            "iOS_H"
+          ],
           "properties": {
             "Version": "2.6"
-          },
-          "platforms": [
-            "iOS_H_5_0", "iOS_H"
-          ]
+          }
         },
         {
           "match": "WhatsApp/* #PLATFORM# Device/iPhone*",
-          "platform": "iOS",
           "device": "iPhone",
           "platforms": [
-            "iOS_H_5_0", "iOS_H"
+            "iOS_H_5_0",
+            "iOS_H"
           ]
         },
         {

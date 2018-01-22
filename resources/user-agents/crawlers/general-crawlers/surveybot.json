@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SurveyBot",
+      "browser": "surveybot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SurveyBot",
-        "Browser": "SurveyBot",
-        "Browser_Maker": "DomainTools",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "SurveyBot"
       },
       "children": [
         {
@@ -28,12 +25,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (*) SurveyBot/2.3*",
           "engine": "Gecko",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2.3"
-          },
           "platforms": [
             "WinXPa_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (*) SurveyBot/*",

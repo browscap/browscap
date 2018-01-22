@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Mail.Ru Bot",
+      "browser": "mail.ru bot",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mail.Ru Bot",
-        "Browser": "Mail.Ru Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Mail.Ru Group",
-        "Crawler": "true"
+        "Comment": "Mail.Ru Bot"
       },
       "children": [
         {
@@ -33,32 +30,32 @@
         {
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/2.0*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Fast/2.0*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Img/2.0*",
           "device": "Linux Desktop",
-          "properties": {
-            "Version": "2.0"
-          },
           "platforms": [
             "Linux_64", "Linux"
-          ]
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
         },
         {
           "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/*",

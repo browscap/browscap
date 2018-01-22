@@ -216,6 +216,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-E (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A5000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; en-us; SM-A500FU Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
         'properties' => [
@@ -689,6 +704,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-P (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500FU Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36',
         'properties' => [
@@ -774,6 +804,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-R (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500L Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500M Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36',
@@ -1076,6 +1121,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-Y (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-Z' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500G Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
         'properties' => [
@@ -1118,6 +1178,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-Z (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500G Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500H Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36',
@@ -1333,6 +1408,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-AE (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500W Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500Y Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36',
@@ -1592,6 +1682,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-AK (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-AL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500K Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36',
         'properties' => [
@@ -1720,6 +1825,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-AN (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500S Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36',
@@ -1893,6 +2013,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-AR (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A5000 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
         'properties' => [
@@ -1935,6 +2070,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-AS (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
@@ -1979,6 +2129,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-AT (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
         'properties' => [
@@ -2021,6 +2186,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-AU (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
@@ -2065,6 +2245,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-AV (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.534 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; en-us; SM-A500H Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
         'properties' => [
@@ -2108,6 +2303,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1688-AW (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; en-us; SM-A500H Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1688-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500M Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
         'properties' => [
@@ -2150,6 +2360,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1688-AX (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500M Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1688-AY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',

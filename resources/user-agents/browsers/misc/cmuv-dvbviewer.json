@@ -6,17 +6,13 @@
   "userAgents": [
     {
       "userAgent": "CMUV DVBViewer",
+      "browser": "cmuv dvbviewer",
       "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CMUV DVBViewer",
-        "Browser": "CMUV DVBViewer",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "CM&V Hackbart",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

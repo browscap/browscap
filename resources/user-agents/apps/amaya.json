@@ -6,12 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Amaya",
+      "browser": "amaya",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Amaya",
-        "Browser": "Amaya",
-        "Browser_Type": "Application"
+        "Comment": "Amaya"
       },
       "children": [
         {

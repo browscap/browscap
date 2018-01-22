@@ -6,36 +6,34 @@
   "userAgents": [
     {
       "userAgent": "MacAppStore",
+      "browser": "macappstore",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MacAppStore",
-        "Browser": "MacAppStore",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "MacAppStore/2.0 (#PLATFORM#) applewebkit*",
           "device": "Macintosh",
+          "platforms": [
+            "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
+            "OSX_B"
+          ],
           "properties": {
             "Version": "2.0"
-          },
-          "platforms": [
-            "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"
-          ]
+          }
         },
         {
           "match": "MacAppStore/* (#PLATFORM#) applewebkit*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"
+            "OSX_B_10_10", "OSX_B_10_9", "OSX_B_10_8",
+            "OSX_B"
           ]
         }
       ]

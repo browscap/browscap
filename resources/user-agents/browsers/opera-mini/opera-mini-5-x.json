@@ -1,20 +1,18 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["5.3", "5.2", "5.1", "5.0"],
+  "versions": ["5.3", "5.2", "5.1", 5],
   "sortIndex": 1934,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mini",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -41,49 +39,49 @@
         },
         {
           "match": "Opera/*(#DEVICE#*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
           },
-          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
         },
         {
           "match": "Opera/9.80 (J2ME/iPhone;Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
           "engine": "WebKit",
+          "device": "iPhone",
           "platforms": [
             "iOS"
           ]
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Windows NT*Version/*",
-          "properties": {
-            "isModified": "true"
-          },
           "platforms": [
             "JAVA"
-          ]
+          ],
+          "properties": {
+            "isModified": "true"
+          }
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Mac OS X*Version/*",
-          "properties": {
-            "isModified": "true"
-          },
           "platforms": [
             "JAVA"
-          ]
+          ],
+          "properties": {
+            "isModified": "true"
+          }
         },
         {
           "match": "Opera/9.80 (*Windows NT*; Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Version/*",
-          "properties": {
-            "isModified": "true"
-          },
           "platforms": [
             "JAVA"
-          ]
+          ],
+          "properties": {
+            "isModified": "true"
+          }
         },
         {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*#DEVICE#*",

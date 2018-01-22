@@ -1764,21 +1764,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1597-AQ (standard)' => [
-        'ua' => 'DoCoMo/2.0 P901i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://help.goo.ne.jp/door/crawler.html)',
-        'properties' => [
-            'Comment' => 'DoCoMo',
-            'Browser' => 'DoCoMo',
-            'Browser_Maker' => 'unknown',
-            'Version' => '2.0',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1597-AR' => [
         'ua' => 'Dolphin http client/11.2.8(385) (Android)',
         'properties' => [
@@ -2130,7 +2115,7 @@ return [
             'Browser' => 'Europe Internet Portal',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.eurip.com',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'unknown',
@@ -5993,21 +5978,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1597-EK (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-GB) adbeat.com/policy AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5',
-        'properties' => [
-            'Comment' => 'Mobile Safari 5.0',
-            'Browser' => 'Safari',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '5.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1597-EL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Google Search Console)',
         'properties' => [
@@ -7269,21 +7239,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1597-FN (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0; FeedFinder-2.0; http://bloggz.se/crawler)',
-        'properties' => [
-            'Comment' => 'IE 5.01',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.01',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1597-FO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; mowser; http://www.mowser.com)',
@@ -10044,7 +9999,7 @@ return [
             'Browser' => 'MojeekBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Mojeek Ltd.',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'unknown',

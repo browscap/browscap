@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1695-A (standard)' => [
+        'ua' => 'Dalvik/1.2.0 (Linux; U; Android 2.2; GT-P1000 Build/FROYO)',
+        'properties' => [
+            'Comment' => 'Dalvik 1.2',
+            'Browser' => 'Dalvik',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '1.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1695-B' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.2.2; SM-T315 Build/JDQ39)',
         'properties' => [
@@ -172,6 +187,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1695-D (standard)' => [
+        'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.1.2; B1-A71 Build/JZO54K)',
+        'properties' => [
+            'Comment' => 'Dalvik 1.6',
+            'Browser' => 'Dalvik',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '1.6',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1695-E' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; A3-A20 Build/KOT49H)',
@@ -516,6 +546,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1695-L (standard)' => [
+        'ua' => 'Dalvik/1.2.0 (Linux; U; Android 2.2.2; GT-P1010 Build/FROYO)',
+        'properties' => [
+            'Comment' => 'Dalvik 1.2',
+            'Browser' => 'Dalvik',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '1.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1695-M' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-T230 Build/KOT49H)',

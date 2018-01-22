@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "browser": "thunderbird",
       "engine": "Gecko_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
-        "Browser": "Thunderbird",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Email Client",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -31,7 +29,8 @@
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Win2000"
           ]
         },
@@ -58,7 +57,8 @@
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Win2000"
           ]
         },
@@ -84,7 +84,8 @@
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
             "Win2000"
           ]
         },

@@ -446,6 +446,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-711-J (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2;ru-ru; Lenovo B8000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-711-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100050034',
         'properties' => [
@@ -589,6 +602,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-711-M (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B6000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-711-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo B6000-HV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
@@ -776,6 +802,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-711-R (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2;ru-ru; Lenovo B6000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-711-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36',

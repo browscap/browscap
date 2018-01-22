@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Mediatoolkit Bot",
+      "browser": "mediatoolkit bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mediatoolkit Bot",
-        "Browser": "Mediatoolkit Bot",
-        "Browser_Maker": "Mediatoolkit",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Mediatoolkit Bot"
       },
       "children": [
         {

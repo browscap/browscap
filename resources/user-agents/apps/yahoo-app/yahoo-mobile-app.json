@@ -7,35 +7,41 @@
   "userAgents": [
     {
       "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",
+      "browser": "yahoo mobile app",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mobile App #MAJORVER#.#MINORVER#",
-        "Browser": "Yahoo Mobile App",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "YahooMobile/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
-            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+            "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         },
         {
           "match": "YahooMobile/1.0 *(Apple; iPod#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "device": "iPod Touch",
           "platforms": [
-            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+            "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         },
         {
           "match": "YahooMobile/1.0 *(#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+            "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1",
+            "iOS_E"
           ]
         }
       ]

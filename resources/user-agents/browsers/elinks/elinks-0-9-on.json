@@ -7,12 +7,11 @@
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",
+      "browser": "elinks",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ELinks #MAJORVER#.#MINORVER#",
-        "Browser": "ELinks",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -34,8 +33,20 @@
           "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
-            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS",
+            "Unix_B"
           ]
         },
         {
@@ -56,8 +67,20 @@
           "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
-            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS",
+            "Unix_B"
           ]
         },
         {

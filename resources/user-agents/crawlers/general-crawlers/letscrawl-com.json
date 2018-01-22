@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "LetsCrawl.com",
+      "browser": "letscrawl.com",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "LetsCrawl.com",
-        "Browser": "LetsCrawl.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "LetsCrawl.com"
       },
       "children": [
         {

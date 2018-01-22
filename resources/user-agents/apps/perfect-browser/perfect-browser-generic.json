@@ -6,18 +6,15 @@
   "userAgents": [
     {
       "userAgent": "PERFECT Browser Generic",
+      "browser": "perfect browser",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PERFECT Browser Generic",
-        "Browser": "PERFECT Browser",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

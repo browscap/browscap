@@ -6,48 +6,44 @@
   "userAgents": [
     {
       "userAgent": "YellowPages Mobile App",
+      "browser": "yellowpages mobile app",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "YellowPages Mobile App",
-        "Browser": "YellowPages Mobile App",
-        "Browser_Maker": "YP LLC.",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android 4.4.2;dev=hlteatt;devm=SAMSUNG-SM-N900A;*",
           "device": "Samsung SM-N900A",
-          "properties": {
-            "Version": "4.3"
-          },
           "platforms": [
             "Android_4_4"
-          ]
+          ],
+          "properties": {
+            "Version": "4.3"
+          }
         },
         {
           "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android 4.4*",
-          "properties": {
-            "Version": "4.3"
-          },
           "platforms": [
             "Android_4_4"
-          ]
+          ],
+          "properties": {
+            "Version": "4.3"
+          }
         },
         {
           "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android*",
-          "properties": {
-            "Version": "4.3"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Version": "4.3"
+          }
         }
       ]
     }

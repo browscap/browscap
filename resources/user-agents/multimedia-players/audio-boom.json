@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "AudioBoom",
+      "browser": "audioboom",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AudioBoom",
-        "Browser": "AudioBoom",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "AudioBoom"
       },
       "children": [
         {

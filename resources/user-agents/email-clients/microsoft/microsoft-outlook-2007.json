@@ -6,22 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2007",
+      "browser": "outlook",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2007",
-        "Browser_Type": "Email Client",
-        "Browser": "Outlook",
-        "Browser_Maker": "Microsoft Corporation",
-        "Version": "2007",
-        "isSyndicationReader": "false"
+        "Version": "2007"
       },
       "children": [
         {
           "match": "Microsoft Office/12.0 (#PLATFORM#; Microsoft Office Outlook 12.*)",
           "platforms": [
-            "WinXPa_32", "WinXPb_x64", "WinXPb_32", "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32"
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_x64", "WinXPb_32",
+            "WinXPa_32"
           ]
         }
       ]

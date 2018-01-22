@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "PagePeeker Screenshot Maker",
+      "browser": "pagepeeker screenshot maker",
+      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
-      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "PagePeeker Screenshot Maker",
-        "Browser": "PagePeeker Screenshot Maker",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "pagepeeker SRL",
-        "Crawler": "true"
+        "Comment": "PagePeeker Screenshot Maker"
       },
       "children": [
         {

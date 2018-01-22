@@ -1457,7 +1457,7 @@ return [
             'Browser' => 'httpclient',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.phpclasses.org',
             'Browser_Modus' => 'unknown',
             'Version' => '1.0',
             'Platform' => 'unknown',
@@ -2740,6 +2740,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-436-BN (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-436-BO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         'properties' => [
@@ -2783,6 +2796,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-436-BO (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-436-BP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         'properties' => [
@@ -2825,6 +2851,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-436-BP (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-436-BQ' => [
         'ua' => 'SAMSUNG-GT-S5230/S5230RFJK1 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
@@ -3286,21 +3325,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-436-BZ (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-436-CA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en) Opera 8.01',
         'properties' => [
@@ -3617,21 +3641,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-436-CG (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-436-CH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/ /22.0',
         'properties' => [
@@ -3774,6 +3783,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-436-CJ (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows 95; de; rv:1.9.2.6) Gecko/20100625 Firefox/27.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 68827872',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-436-CK' => [
@@ -4511,6 +4533,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-436-CY (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'WinVista',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-436-CZ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1; WOW64; U; de) Presto/2.10.289 Version/12.02',
         'properties' => [
@@ -4653,6 +4688,19 @@ return [
         ],
         'lite' => false,
         'standard' => true,
+        'full' => false,
+    ],
+    'issue-436-DC (lite)' => [
+        'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20110516 Ubuntu/10.04 (lucid) Firefox/3.6.13',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-436-DD' => [

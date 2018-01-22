@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Orangebot",
+      "browser": "orangebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Orangebot",
-        "Browser": "Orangebot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Orange S.A.",
-        "Crawler": "true"
+        "Comment": "Orangebot"
       },
       "children": [
         {
@@ -26,9 +23,7 @@
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile*",
-          "properties": {
-            "Browser": "Orangebot Mobile"
-          },
+          "browser": "orangebot mobile",
           "device": "SPV M700",
           "platforms": [
             "WinCE"

@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Android",
+      "browser": "pinterest app",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
-        "Browser": "Pinterest App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -64,15 +62,13 @@
     },
     {
       "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Darwin",
+      "browser": "pinterest app",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
-        "Browser": "Pinterest App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

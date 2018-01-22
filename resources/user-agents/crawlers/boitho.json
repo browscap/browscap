@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Boitho",
+      "browser": "boitho",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Boitho",
-        "Browser": "Boitho",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Boitho"
       },
       "children": [
         {

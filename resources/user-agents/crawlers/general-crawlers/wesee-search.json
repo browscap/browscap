@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "WeSEE:Search",
+      "browser": "wesee:search",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WeSEE:Search",
-        "Browser": "WeSEE:Search",
-        "Browser_Maker": "WeSEE Ltd",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "WeSEE:Search"
       },
       "children": [
         {

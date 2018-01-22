@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "DomainScan Server Monitoring",
+      "browser": "domainscan server monitoring",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DomainScan Server Monitoring",
-        "Browser": "DomainScan Server Monitoring",
-        "Browser_Maker": "GH Software",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "DomainScan Server Monitoring"
       },
       "children": [
         {

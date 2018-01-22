@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "NetzCheckBot",
+      "browser": "netzcheckbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NetzCheckBot",
-        "Browser": "NetzCheckBot",
-        "Browser_Maker": "netzcheck.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "NetzCheckBot"
       },
       "children": [
         {

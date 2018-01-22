@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "browser": "silk",
       "platform": "Android",
       "engine": "Blink",
       "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Browser": "Silk",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Amazon.com, Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -113,12 +111,12 @@
         {
           "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
           "engine": "Blink",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

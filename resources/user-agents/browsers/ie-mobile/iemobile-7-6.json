@@ -7,19 +7,15 @@
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile #MAJORVER#.#MINORVER#",
-        "Browser": "IEMobile",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -221,14 +217,16 @@
           "match": "Mozilla/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident/3.1; IEMobile?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7", "WinPhone"
+            "WinPhone7",
+            "WinPhone"
           ]
         },
         {
           "match": "Mozilla/4.0 (*compatible*;*MSIE 7.0; #PLATFORM# Trident/3.1; IEMobile?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7", "WinPhone"
+            "WinPhone7",
+            "WinPhone"
           ]
         }
       ]

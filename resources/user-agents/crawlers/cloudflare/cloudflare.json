@@ -6,41 +6,34 @@
   "userAgents": [
     {
       "userAgent": "CloudFlare Bots",
+      "browser": "cloudflare",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CloudFlare Bots",
-        "Browser": "CloudFlare",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "CloudFlare, Inc.",
-        "Crawler": "true"
+        "Comment": "CloudFlare Bots"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0*",
+          "browser": "cloudflare alwaysonline",
           "properties": {
-            "Browser": "CloudFlare AlwaysOnline",
             "Comment": "Online Scanners",
             "Version": "1.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/*",
+          "browser": "cloudflare alwaysonline",
           "properties": {
-            "Browser": "CloudFlare AlwaysOnline",
             "Comment": "Online Scanners"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Cloudflare-AMP/*; +https://amp.cloudflare.com/*) applewebkit*",
-          "properties": {
-            "Browser": "CloudFlare AMP Discovery Fetcher"
-          }
+          "browser": "cloudflare amp discovery fetcher"
         },
         {
           "match": "Mozilla/5.0 (Linux; Android *) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* (compatible; Cloudflare-AMPHTML)",
-          "properties": {
-            "Browser": "CloudFlare AMP Discovery Fetcher"
-          }
+          "browser": "cloudflare amp discovery fetcher"
         }
       ]
     }

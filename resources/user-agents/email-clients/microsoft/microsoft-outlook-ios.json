@@ -1,23 +1,20 @@
 {
   "division": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["1.0"],
+  "versions": [1],
   "sortIndex": 1648,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+      "browser": "outlook",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Outlook",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "isSyndicationReader": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -6,25 +6,22 @@
   "userAgents": [
     {
       "userAgent": "Sparrow",
+      "browser": "sparrow",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sparrow",
-        "Browser": "Sparrow",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Sparrow SARL",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Sparrow/*",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         }

@@ -7,14 +7,11 @@
   "userAgents": [
     {
       "userAgent": "WordPress #MAJORVER#.#MINORVER#",
+      "browser": "wordpress",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WordPress #MAJORVER#.#MINORVER#",
-        "Browser": "WordPress",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "wordpress.org",
-        "Crawler": "true"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

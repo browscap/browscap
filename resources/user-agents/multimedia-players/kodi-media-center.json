@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Kodi Media Center #MAJORVER#.#MINORVER#",
-      "device": "Windows Desktop",
+      "browser": "kodi media center",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kodi Media Center #MAJORVER#.#MINORVER#",
-        "Browser": "Kodi Media Center",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "XBMC Foundation",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

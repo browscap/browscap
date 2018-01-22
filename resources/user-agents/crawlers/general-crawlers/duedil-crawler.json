@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "DueDil Crawler",
+      "browser": "duedil crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DueDil Crawler",
-        "Browser": "DueDil Crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "DueDil Ltd",
-        "Crawler": "true"
+        "Comment": "DueDil Crawler"
       },
       "children": [
         {

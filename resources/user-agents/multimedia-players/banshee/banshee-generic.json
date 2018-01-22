@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Banshee Generic",
+      "browser": "banshee media player",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Banshee Generic",
-        "Browser": "Banshee Media Player",
-        "Browser_Maker": "Novell",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Banshee Generic"
       },
       "children": [
         {

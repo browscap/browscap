@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Coc Coc Browser #MAJORVER#.#MINORVER# for Windows Phone",
+      "browser": "coc coc browser",
       "platform": "WinPhone",
       "engine": "WebKit",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Coc Coc Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Coc Coc Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Coc Coc Company Limited",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -31,7 +29,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/#MAJORVER#.* Chrome/* Safari/* Edge/*",
           "platforms": [
-            "WinPhone10", "WinPhone8.1",
+            "WinPhone10",
+            "WinPhone8.1",
             "WinPhone"
           ]
         }

@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Shiira Generic",
+      "browser": "shiira",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Shiira",
-        "Browser": "Shiira",
-        "Browser_Maker": "Makoto Kinoshita",
-        "Browser_Type": "Browser"
+        "Comment": "Shiira"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Uptimebot",
+      "browser": "uptimebot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Uptimebot",
-        "Browser": "Uptimebot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Uptime.com",
-        "Crawler": "true"
+        "Comment": "Uptimebot"
       },
       "children": [
         {

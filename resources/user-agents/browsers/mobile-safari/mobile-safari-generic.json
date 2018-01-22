@@ -6,15 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Mobile Safari Generic",
+      "browser": "safari",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mobile Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc"
+        "Comment": "Mobile Safari Generic"
       },
       "children": [
         {
@@ -30,7 +28,7 @@
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
             "iOS_A_3_1", "iOS_A_3_0",
             "iOS_A_2_1", "iOS_A_2_0",
             "iOS_A",
@@ -74,7 +72,7 @@
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A_5_1", "iOS_A_5_0",
-            "iOS_A_4_3", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
             "iOS_A_3_1", "iOS_A_3_0",
             "iOS_A_2_1", "iOS_A_2_0",
             "iOS_A"

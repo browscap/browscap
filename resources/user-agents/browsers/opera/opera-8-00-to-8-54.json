@@ -7,14 +7,12 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "browser": "opera",
       "engine": "Presto_1_0",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Browser": "Opera",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -26,9 +24,14 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_v2", "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "WinXPb_32",
+            "WinXPa_32", "WinXPa_v2",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
@@ -74,24 +77,32 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_v2", "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+            "WinXPb_32",
+            "WinXPa_32", "WinXPa_v2",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "WinME"
           ]
         },
         {
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
-            "OSX", "OSX_PPC", "OSX_PPC_3", "MacPPC_2", "MacPPC_3"
+            "OSX_PPC_3",
+            "OSX_PPC", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX",
+            "MacPPC_3", "MacPPC_2"
           ]
         },
         {
           "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         },
         {
@@ -123,18 +134,25 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_v2", "WinXPa_32", "WinXPb_32",
-            "Win2000", "Win2000_2",
-            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "Windows"
+            "WinXPb_32",
+            "WinXPa_32", "WinXPa_v2",
+            "Win2000_2", "Win2000",
+            "NT4",
+            "WinME_2",
+            "Win98_2",
+            "Win95_2",
+            "Windows",
+            "WinME"
           ]
         },
         {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
-            "OSX", "OSX_PPC", "OSX_PPC_3", "MacPPC_2", "MacPPC_3"
+            "OSX_PPC_3",
+            "OSX_PPC", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX",
+            "MacPPC_3", "MacPPC_2"
           ]
         },
         {
@@ -148,7 +166,8 @@
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD",
+            "SunOS"
           ]
         }
       ]

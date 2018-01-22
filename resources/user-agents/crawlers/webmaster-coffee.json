@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "WebmasterCoffee",
+      "browser": "webmastercoffee",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebmasterCoffee",
-        "Browser": "WebmasterCoffee",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "WebmasterCoffee"
       },
       "children": [
         {

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "SophosAgent",
+      "browser": "sophosagent",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SophosAgent",
-        "Browser": "SophosAgent",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Sophos Ltd.",
-        "Crawler": "true"
+        "Comment": "SophosAgent"
       },
       "children": [
         {

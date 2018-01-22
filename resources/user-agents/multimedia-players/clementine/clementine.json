@@ -7,12 +7,10 @@
   "userAgents": [
     {
       "userAgent": "Clementine #MAJORVER#.#MINORVER#",
+      "browser": "clementine",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Clementine #MAJORVER#.#MINORVER#",
-        "Browser": "Clementine",
-        "Browser_Maker": "unknown",
-        "Browser_Type": "Multimedia Player",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

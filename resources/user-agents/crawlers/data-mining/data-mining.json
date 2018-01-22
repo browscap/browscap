@@ -6,62 +6,42 @@
   "userAgents": [
     {
       "userAgent": "Data Mining",
+      "browser": "data mining",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Data Mining",
-        "Browser": "Data Mining",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Data Mining"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; imrbot/1.10*",
+          "browser": "mignify bot",
           "properties": {
-            "Browser": "Mignify Bot",
-            "Browser_Maker": "Internet Memory Research",
             "Version": "1.10"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; imrbot/*",
-          "properties": {
-            "Browser": "Mignify Bot",
-            "Browser_Maker": "Internet Memory Research"
-          }
+          "browser": "mignify bot"
         },
         {
           "match": "Mozilla/5.0 (compatible; LucidWorks*",
-          "properties": {
-            "Browser": "Lucidworks Bot",
-            "Browser_Maker": "Lucidworks"
-          }
+          "browser": "lucidworks bot"
         },
         {
           "match": "Mozilla/5.0 CommonCrawler Node*",
-          "properties": {
-            "Browser": "CommonCrawler Node"
-          }
+          "browser": "commoncrawler node"
         },
         {
           "match": "Mozilla/5.0 (compatible; Dataprovider/*",
-          "properties": {
-            "Browser": "Dataprovider Bot",
-            "Browser_Maker": "Dataprovider.com"
-          }
+          "browser": "dataprovider bot"
         },
         {
           "match": "SkyGrid/*",
-          "properties": {
-            "Browser": "SkyGrid Bot",
-            "Browser_Maker": "SkyGrid"
-          }
+          "browser": "skygrid bot"
         },
         {
           "match": "Clickagy Intelligence Bot*",
-          "properties": {
-            "Browser": "Clickagy Intelligence Bot",
-            "Browser_Maker": "Clickagy"
-          }
+          "browser": "clickagy intelligence bot"
         }
       ]
     }

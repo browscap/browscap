@@ -6,20 +6,20 @@
   "userAgents": [
     {
       "userAgent": "KMLite Generic",
+      "browser": "kmlite",
       "engine": "Gecko_1_8_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "KMLite Generic",
-        "Browser": "KMLite",
-        "Browser_Maker": "Ashrising Phoenixes",
-        "Browser_Type": "Browser"
+        "Comment": "KMLite Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* KMLite/*",
           "platforms": [
-            "WinXPa_32", "Win2000", "Windows"
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
           ]
         }
       ]

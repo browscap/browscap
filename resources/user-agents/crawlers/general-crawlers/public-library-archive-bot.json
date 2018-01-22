@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "publiclibraryarchive Bot",
+      "browser": "publiclibraryarchive bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "publiclibraryarchive Bot",
-        "Browser": "publiclibraryarchive Bot",
-        "Browser_Maker": "publiclibraryarchive.org",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "publiclibraryarchive Bot"
       },
       "children": [
         {

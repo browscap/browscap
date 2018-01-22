@@ -6,59 +6,48 @@
   "userAgents": [
     {
       "userAgent": "Scrubby",
+      "browser": "scrubby",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Scrubby",
-        "Browser": "Scrubby",
-        "Browser_Maker": "ScrubTheWeb",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Scrubby"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; Scrubby/3.2*",
+          "browser": "scrubby",
           "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
             "Version": "3.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Scrubby/2.2*",
+          "browser": "scrubby",
           "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
             "Version": "2.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Scrubby/2.1*",
+          "browser": "scrubby",
           "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
             "Version": "2.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Scrubby/*",
-          "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb"
-          }
+          "browser": "scrubby"
         },
         {
           "match": "Scrubby/2.2*",
+          "browser": "scrubby",
           "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
             "Version": "2.2"
           }
         },
         {
           "match": "Scrubby/2.1*",
+          "browser": "scrubby",
           "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
             "Version": "2.1"
           }
         },

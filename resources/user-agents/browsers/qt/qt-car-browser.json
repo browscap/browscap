@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Qt Car Browser",
+      "browser": "model s browser",
       "engine": "WebKit",
       "device": "Tesla Motors Model S",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Model S Browser",
-        "Browser": "Model S Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Tesla Motors"
+        "Comment": "Model S Browser"
       },
       "children": [
         {

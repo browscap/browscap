@@ -6,25 +6,24 @@
   "userAgents": [
     {
       "userAgent": "Windows PowerShell",
+      "browser": "windows powershell",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Windows PowerShell",
-        "Browser": "Windows PowerShell",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "false"
+        "Comment": "Windows PowerShell"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) WindowsPowerShell/*",
           "platforms": [
-            "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_32"
           ]
         }
       ]

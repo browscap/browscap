@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Pixray-Seeker",
+      "browser": "pixray-seeker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Pixray-Seeker",
-        "Browser": "Pixray-Seeker",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Pixray-Seeker"
       },
       "children": [
         {

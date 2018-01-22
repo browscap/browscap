@@ -345,21 +345,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-H (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 5.12 [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-I' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 5.12  [en]',
         'properties' => [
@@ -402,21 +387,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-I (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 5.12  [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-J' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.02 [en]',
@@ -461,21 +431,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-J (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.02 [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-K' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]',
         'properties' => [
@@ -519,21 +474,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-K (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-L' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 5.02  [en]',
         'properties' => [
@@ -576,21 +516,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-L (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 5.02  [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-M' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 5.1) Opera 5.02 [en]',
@@ -764,21 +689,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-P (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows XP) Opera 6.0  [de]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-Q' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux 2.4.18-bf2.4 i686) Opera 7.11  [en]',
         'properties' => [
@@ -865,21 +775,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-R (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-S' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 95) Opera 7.03  [de]',
         'properties' => [
@@ -922,21 +817,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-S (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 95) Opera 7.03  [de]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-T' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.2; Trident/5.0) Opera 7.01 [en]',
@@ -1067,21 +947,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-V (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows XP) Opera 7.0  [en]',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-W' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 10.00',
         'properties' => [
@@ -1124,21 +989,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-W (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 10.00',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-X' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; en) Opera 8.0',
@@ -1183,21 +1033,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-X (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; en) Opera 8.0',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-Y' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; en) Opera 8.02',
         'properties' => [
@@ -1240,21 +1075,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-Y (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; en) Opera 8.02',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-Z' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 6.0  [en]',
@@ -1900,21 +1720,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-AN (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.0; Trident/4.0; en) Opera 11.00',
-        'properties' => [
-            'Comment' => 'IE 8.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-AO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; en) Opera 11.00',
@@ -4625,6 +4430,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1434-CY (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',
+        'properties' => [
+            'Comment' => 'Opera 38.0',
+            'Browser' => 'Opera',
+            'Version' => '38.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1434-CZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
         'properties' => [
@@ -4668,6 +4486,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1434-CZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36 OPR/42.0.2372.0',
+        'properties' => [
+            'Comment' => 'Opera 42.0',
+            'Browser' => 'Opera',
+            'Version' => '42.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1434-DA' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.0.2130.65',
         'properties' => [
@@ -4710,6 +4541,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1434-DA (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.0.2130.65',
+        'properties' => [
+            'Comment' => 'Opera 36.0',
+            'Browser' => 'Opera',
+            'Version' => '36.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1434-DB' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
@@ -4796,6 +4640,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1434-DC (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60',
+        'properties' => [
+            'Comment' => 'Opera 29.0',
+            'Browser' => 'Opera',
+            'Version' => '29.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1434-DD' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 OPR/34.0.2036.50',
@@ -18557,21 +18414,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-OV (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.12  [en]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-OW' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.12  [de]',
         'properties' => [
@@ -18614,21 +18456,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-OW (standard)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.12  [de]',
-        'properties' => [
-            'Comment' => 'IE 5.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '5.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-OX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.5',
@@ -18673,21 +18500,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-OX (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC Mac OS X; en) Opera 8.5',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-OY' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; de) Opera 8.02',
         'properties' => [
@@ -18730,21 +18542,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-OY (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; de) Opera 8.02',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-OZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; pl) Opera 8.02',
@@ -18789,21 +18586,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-OZ (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME; pl) Opera 8.02',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-PA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; de) Opera 8.00',
         'properties' => [
@@ -18846,21 +18628,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-PA (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; de) Opera 8.00',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-PB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.0',
@@ -23396,21 +23163,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-SZ (standard)' => [
-        'ua' => 'Opera/9.7 (Windows Mobile; IEMobile 6.12; Opera Mobi/35166; U; en)',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-TA' => [
         'ua' => 'Opera/9.80 (Android 1.6; Linux; Opera Mobi/ADR-1207201819; U; es-ES) Presto/2.10.254 Version/12.00',
         'properties' => [
@@ -27427,21 +27179,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-WN (standard)' => [
-        'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/5.0.18633/34.1499; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-WO' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/6.0.24209/31.1350; U; en) Presto/2.8.119 Version/11.10',
         'properties' => [
@@ -27484,21 +27221,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-WO (standard)' => [
-        'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/6.0.24209/31.1350; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-WP' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/7.0.28871/32.855; U; id) Presto/2.8.119 Version/11.10',
@@ -27543,21 +27265,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-1434-WP (standard)' => [
-        'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/7.0.28871/32.855; U; id) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-1434-WQ' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35157/34.1499; U; en) Presto/2.8.119 Version/11.10',
         'properties' => [
@@ -27600,21 +27307,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-WQ (standard)' => [
-        'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/8.0.35157/34.1499; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-WR' => [
         'ua' => 'Opera/9.80 (BREW; Opera Mini/4.2.99/30.3697; U; id) Presto/2.8.119 Version/11.10',
@@ -28217,21 +27909,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1434-XE (standard)' => [
-        'ua' => 'Opera/9.80 (Windows Mobile; Opera Mini/5.1.21561/30.3697; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '0.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1434-XF' => [
         'ua' => 'Opera/9.80 (Windows Phone; Opera Mini/9.0.0/37.6584; U; en) Presto/2.12.423 Version/12.16',

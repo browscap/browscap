@@ -6,37 +6,34 @@
   "userAgents": [
     {
       "userAgent": "Terra",
+      "browser": "terra",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Terra",
-        "Browser": "Terra",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Terra/1.1* CFNetwork/*",
-          "properties": {
-            "Version": "1.1"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
         },
         {
           "match": "Terra/1.2* CFNetwork/*",
-          "properties": {
-            "Version": "1.2"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
         },
         {
           "match": "Terra/* CFNetwork/*",

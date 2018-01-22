@@ -5337,6 +5337,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-865-DW (lite)' => [
+        'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) Gecko Firefox/3.0.8',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-865-DX' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://z-url.us)',
         'properties' => [
@@ -10354,6 +10367,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-865-II (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-865-IJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/06.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',

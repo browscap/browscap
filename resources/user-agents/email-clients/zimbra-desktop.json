@@ -6,19 +6,15 @@
   "userAgents": [
     {
       "userAgent": "Zimbra Desktop",
+      "browser": "zimbra desktop",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Zimbra Desktop",
-        "Browser": "Zimbra Desktop",
-        "Browser_Type": "Email Client",
-        "Browser_Maker": "Synacor, Inc.",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
@@ -29,7 +25,8 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_32",
-            "WinXPa_32", "WinXPb_32",
+            "WinXPb_32",
+            "WinXPa_32",
             "Windows"
           ]
         },
@@ -37,7 +34,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Prism *zdesktop/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
             "OSX"
           ]
         },

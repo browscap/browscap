@@ -6,14 +6,12 @@
   "userAgents": [
     {
       "userAgent": "Lynx",
-      "device": "general Desktop",
+      "browser": "lynx",
       "platform": "Linux",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lynx",
-        "Browser": "Lynx",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Thomas Dickey"
+        "Comment": "Lynx"
       },
       "children": [
         {

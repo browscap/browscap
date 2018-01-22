@@ -7,19 +7,15 @@
   "userAgents": [
     {
       "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
+      "browser": "epiphany",
       "engine": "Gecko",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Epiphany #MAJORVER#.#MINORVER#",
-        "Browser": "Epiphany",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "The GNOME Project",
+        "Version": "#MAJORVER#.#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Beta": "false"
       },
       "children": [
         {
@@ -40,7 +36,12 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS", "NetBSD"
+            "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD",
+            "SunOS",
+            "FreeBSD_386",
+            "OpenBSD_386"
           ]
         }
       ]

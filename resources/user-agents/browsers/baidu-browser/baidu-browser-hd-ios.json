@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Baidu Browser HD #MAJORVER#.#MINORVER# for iOS",
+      "browser": "baidu browser hd",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu Browser HD #MAJORVER#.#MINORVER#",
-        "Browser": "Baidu Browser HD",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Baidu",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -40,7 +38,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_I_8_4", "iOS_I_7_0",
+            "iOS_I_8_4",
+            "iOS_I_7_0",
             "iOS_I"
           ]
         }

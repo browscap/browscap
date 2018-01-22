@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Yahoo Link Preview",
+      "browser": "yahoo link preview",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo Link Preview",
-        "Browser": "Yahoo Link Preview",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo! Inc.",
-        "Crawler": "true"
+        "Comment": "Yahoo Link Preview"
       },
       "children": [
         {

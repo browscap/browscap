@@ -6,28 +6,25 @@
   "userAgents": [
     {
       "userAgent": "Clipish",
+      "browser": "clipish",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Clipish",
-        "Browser_Type": "Application",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "Clipish"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Clipish/9.26* CFNetwork/*",
-          "properties": {
-            "Version": "9.26"
-          },
           "platforms": [
             "Darwin"
-          ]
+          ],
+          "properties": {
+            "Version": "9.26"
+          }
         },
         {
           "match": "Clipish/* CFNetwork/*",

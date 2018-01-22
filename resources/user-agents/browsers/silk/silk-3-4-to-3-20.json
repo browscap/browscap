@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "browser": "silk",
       "platform": "Android",
       "engine": "WebKit",
       "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Browser": "Silk",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Amazon.com, Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -42,21 +40,21 @@
             "KFTHWI": "Amazon KFTHWI",
             "KFTT": "Amazon KFTT"
           },
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         },
         {
           "match": "Mozilla/5.0 (Linux; U; * Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
           "platforms": [
             "Android"
-          ]
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

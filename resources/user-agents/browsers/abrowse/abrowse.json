@@ -7,15 +7,13 @@
   "userAgents": [
     {
       "userAgent": "ABrowse #MAJORVER#.#MINORVER#",
+      "browser": "abrowse",
       "platform": "Syllable",
       "engine": "WebKit",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ABrowse #MAJORVER#.#MINORVER#",
-        "Browser": "ABrowse",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Syllable Project",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

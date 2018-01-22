@@ -1,21 +1,19 @@
 {
   "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-  "versions": ["5.5", "5.0", "4.0", "3.9", "3.8", "3.7", "3.2", "3.1", "3.0", "2.3", "2.2", "2.0", "1.8", "1.5", "1.4", "1.0", "0.8"],
+  "versions": ["5.5", 5, 4, "3.9", "3.8", "3.7", "3.2", "3.1", 3, "2.3", "2.2", 2, "1.8", "1.5", "1.4", 1, "0.8"],
   "sortIndex": 1792,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+      "browser": "nokia proxy browser",
       "platform": "Series40",
       "engine": "Gecko",
       "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Nokia Proxy Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Nokia",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

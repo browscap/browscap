@@ -7,13 +7,11 @@
   "userAgents": [
     {
       "userAgent": "ANT Galio #MAJORVER#.#MINORVER#",
+      "browser": "ant galio",
       "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ANT Galio #MAJORVER#.#MINORVER#",
-        "Browser": "ANT Galio",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Espial Group",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "TweetedTimes Bot",
+      "browser": "tweetedtimes bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TweetedTimes Bot",
-        "Browser": "TweetedTimes Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Semantic Dimension",
-        "Crawler": "true"
+        "Comment": "TweetedTimes Bot"
       },
       "children": [
         {

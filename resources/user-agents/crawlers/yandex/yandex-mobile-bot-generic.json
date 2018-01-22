@@ -6,30 +6,30 @@
   "userAgents": [
     {
       "userAgent": "YandexMobileBot Generic",
+      "browser": "yandex mobile bot",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yandex Mobile Bot Generic",
-        "Browser": "Yandex Mobile Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex LLC",
-        "Crawler": "true"
+        "Comment": "Yandex Mobile Bot Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/*",
           "device": "iPhone",
           "platforms": [
-            "iOS_C_8_1", "iOS_C_6_0", "iOS_C_4_1",
+            "iOS_C_8_1",
+            "iOS_C_6_0",
+            "iOS_C_4_1",
             "iOS_C"
           ]
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/*",
           "platforms": [
-            "iOS_C_8_1", "iOS_C_6_0",
+            "iOS_C_8_1",
+            "iOS_C_6_0",
             "iOS_C"
           ]
         }

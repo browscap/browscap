@@ -6,16 +6,13 @@
   "userAgents": [
     {
       "userAgent": "Snapchat Agent Generic",
-      "engine": "WebKit",
+      "browser": "snapchat agent",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Snapchat Agent Generic",
-        "Browser": "Snapchat Agent",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Snap Inc.",
-        "Crawler": "true"
+        "Comment": "Snapchat Agent Generic"
       },
       "children": [
         {

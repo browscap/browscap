@@ -6,35 +6,33 @@
   "userAgents": [
     {
       "userAgent": "Camino Generic",
+      "browser": "camino",
       "platform": "OSX",
-      "device": "Macintosh",
       "engine": "Gecko",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Camino Generic",
-        "Browser": "Camino",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Mozilla Foundation"
+        "Comment": "Camino Generic"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Camino/* (like Firefox/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Firefox/* Camino/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Camino/*",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         },

@@ -6,17 +6,14 @@
   "userAgents": [
     {
       "userAgent": "jBrowser",
+      "browser": "jbrowser",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "jBrowser",
-        "Browser": "jBrowser",
-        "Browser_Type": "Browser",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {

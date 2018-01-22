@@ -6,69 +6,65 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Word",
+      "browser": "word",
       "engine": "Trident",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Word",
-        "Browser": "Word",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Beta": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Word/12.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2007"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2007"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Word/14.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2010"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2010"
+          }
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Word/15.*",
           "device": "Macintosh",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "OSX"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Word 15.*)",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office Word 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
-          "properties": {
-            "Version": "2013"
-          },
           "platforms": [
             "Win8_32"
-          ]
+          ],
+          "properties": {
+            "Version": "2013"
+          }
         },
         {
           "match": "Microsoft Office Word 2013",

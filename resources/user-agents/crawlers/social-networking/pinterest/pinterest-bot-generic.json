@@ -6,14 +6,11 @@
   "userAgents": [
     {
       "userAgent": "Pinterest Bot Generic",
+      "browser": "pinterest bot",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Pinterest Bot Generic",
-        "Browser": "Pinterest Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Ericsson Research",
-        "Crawler": "true"
+        "Comment": "Pinterest Bot Generic"
       },
       "children": [
         {

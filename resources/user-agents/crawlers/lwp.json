@@ -6,12 +6,10 @@
   "userAgents": [
     {
       "userAgent": "lwp",
+      "browser": "lwp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "lwp",
-        "Browser": "lwp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "lwp"
       },
       "children": [
         {

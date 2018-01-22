@@ -3601,6 +3601,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-635-BZ (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ru-ru; SAMSUNG SM-P601 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/C21EDA',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-635-CA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; CAL21 Build/A1000471) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
@@ -7338,6 +7351,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-635-FD (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Plane 10.3 3G PS1043MG Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SRCHAPP CHANNEL_normal_install UUID_002b68c30777f69137a83633b3554023',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-635-FE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Neon-N1 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Mobile Safari/537.36',
@@ -11812,6 +11838,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-635-IV (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; LenovoA3300-GV Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OkApp',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-635-IW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-; Rio Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 AMIGOAPP CHANNEL_normal_install UUID_65e8448018859009debff613b22b8caf',
         'properties' => [
@@ -13507,6 +13546,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-635-KG (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ar-eg; Lenovo S5000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-635-KH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; KM-UQM11A Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.61 Safari/537.36 OPR/29.0.1809.90839',
@@ -19648,6 +19700,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-635-PK (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; ru-ru; SAMSUNG SM-P601 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/C7032F',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-635-PL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; IP1020-8GB Build/20130403) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 YaBrowser/14.5.1847.18211.00 Safari/537.36',
@@ -26439,6 +26504,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-635-VB (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; cs-cz; ALCATEL ONE TOUCH P310X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.2',
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-635-VC' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; Lenovo_A376) U2/1.0.0 UCBrowser/9.2.0.419 Mobile',
         'properties' => [
@@ -28642,6 +28720,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-635-WV (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; P200S Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-635-WW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.2.1; ru; Lenovo_A3000-H) U2/1.0.0 UCBrowser/9.9.0.543 U2/1.0.0 Mobile',
         'properties' => [
@@ -29922,6 +30013,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-635-XW (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-; TX97 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 AMIGOAPP CHANNEL_normal_install UUID_f1a5fd94a24176374a76b19c212eb0ec',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-635-XX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; tr-tr; PolyPad 1010IPS Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -38135,6 +38239,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-635-AEK (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; pt-pt; SAMSUNG SM-T531 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 1.5',
+            'Browser' => 'Android WebView',
+            'Version' => '1.5',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-635-AEL' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 2.3.4; ru; MT11i) U2/1.0.0 UCBrowser/9.4.1.482 U2/1.0.0 Mobile',
         'properties' => [
@@ -38710,6 +38827,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-635-AEW (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; i-mobile i-Tab Fun (7008) / (7009) Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-635-AEX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Coolpad 8675 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.3.0.552 U3/0.8.0 Mobile Safari/534.30',

@@ -6,58 +6,55 @@
   "userAgents": [
     {
       "userAgent": "Miro Generic",
+      "browser": "miro",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Miro",
-        "Browser": "Miro",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "Participatory Culture Foundation"
+        "Comment": "Miro"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Miro/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]
         },
         {
           "match": "Miro/6.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "6.0"
           }
         },
         {
           "match": "Miro/5.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "5.0"
           }
         },
         {
           "match": "Miro/3.0*",
+          "browser": "miro",
           "engine": "unknown",
           "device": "unknown",
           "properties": {
-            "Browser": "Miro",
             "Version": "3.0"
           }
         },
         {
           "match": "Miro/*",
+          "browser": "miro",
           "engine": "unknown",
-          "device": "unknown",
-          "properties": {
-            "Browser": "Miro"
-          }
+          "device": "unknown"
         }
       ]
     }

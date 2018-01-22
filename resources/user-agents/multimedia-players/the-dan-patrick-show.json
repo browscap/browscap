@@ -6,14 +6,13 @@
   "userAgents": [
     {
       "userAgent": "The Dan Patrick Show",
+      "browser": "the dan patrick show",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "The Dan Patrick Show",
-        "Browser": "The Dan Patrick Show",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "The Dan Patrick Show"
       },
       "children": [
         {

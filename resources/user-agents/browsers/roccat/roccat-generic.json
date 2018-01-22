@@ -6,20 +6,19 @@
   "userAgents": [
     {
       "userAgent": "Roccat Generic",
+      "browser": "roccat",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Roccat",
-        "Browser": "Roccat",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "RuneCats"
+        "Comment": "Roccat"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Roccat/*",
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         }

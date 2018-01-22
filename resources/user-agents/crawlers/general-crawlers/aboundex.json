@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "Aboundexbot",
+      "browser": "aboundexbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Aboundexbot",
-        "Browser": "Aboundexbot",
-        "Browser_Maker": "Aboundex.com",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Comment": "Aboundexbot"
       },
       "children": [
         {

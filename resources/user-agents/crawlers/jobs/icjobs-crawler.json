@@ -6,13 +6,10 @@
   "userAgents": [
     {
       "userAgent": "iCjobs Crawler",
+      "browser": "icjobs crawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "iCjobs Crawler",
-        "Browser": "iCjobs Crawler",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser_Maker": "www.icjobs.de"
+        "Comment": "iCjobs Crawler"
       },
       "children": [
         {
