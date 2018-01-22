@@ -8,7 +8,7 @@ use Browscap\Data\Browser;
 class BrowserFactory
 {
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * validates the $browserData array and creates Browser objects from it
      *
      * @param array  $browserData
      * @param string $browserName

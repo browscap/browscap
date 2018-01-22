@@ -428,7 +428,7 @@ class DivisionDataValidator implements ValidatorInterface
     }
 
     /**
-     * checks if device properties are set inside a properties array
+     * checks if browser properties are set inside a properties array
      *
      * @param array  $properties
      * @param string $message

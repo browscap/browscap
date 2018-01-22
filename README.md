@@ -13,6 +13,12 @@ $ curl -s https://getcomposer.org/installer | php
 $ php composer.phar install
 ```
 
+## What's changed in version 6028
+
+### BC breaks listed
+
+ * Interface changed for class \Browscap\Data\Factory\UserAgentFactory
+
 ## What's changed in version 6027
 
 ### BC breaks listed

@@ -72,7 +72,6 @@ class Expander
             'useragent' => '',
             'platform' => '',
             'device' => '',
-            'browser' => '',
             'child' => '',
         ];
     }
@@ -169,9 +168,8 @@ class Expander
         }
 
         if (null !== $uaData->getBrowser()) {
-            $this->patternId['browser'] = $uaData->getBrowser();
-            $browser                    = $this->collection->getBrowser($uaData->getBrowser());
-            $browserProperties          = $browser->getProperties();
+            $browser           = $this->collection->getBrowser($uaData->getBrowser());
+            $browserProperties = $browser->getProperties();
 
             if (!$browser->isStandard()) {
                 $standard = false;
@@ -181,8 +179,7 @@ class Expander
                 $lite = false;
             }
         } else {
-            $browserProperties          = [];
-            $this->patternId['browser'] = '';
+            $browserProperties = [];
         }
 
         $ua = $uaData->getUserAgent();
@@ -224,7 +221,7 @@ class Expander
             } else {
                 $this->patternId['device'] = '';
 
-                $output                    = array_merge(
+                $output = array_merge(
                     $output,
                     $this->parseChildren($ua, $child, $lite, $standard)
                 );
@@ -270,9 +267,8 @@ class Expander
                 $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
-                    $engine                    = $this->collection->getEngine($uaDataChild['engine']);
-                    $engineProperties          = $engine->getProperties();
-                    $this->patternId['engine'] = $uaDataChild['engine'];
+                    $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                    $engineProperties = $engine->getProperties();
                 } else {
                     $engineProperties = [];
                 }
@@ -327,9 +323,8 @@ class Expander
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
-                $engine                    = $this->collection->getEngine($uaDataChild['engine']);
-                $engineProperties          = $engine->getProperties();
-                $this->patternId['engine'] = $uaDataChild['engine'];
+                $engine           = $this->collection->getEngine($uaDataChild['engine']);
+                $engineProperties = $engine->getProperties();
             } else {
                 $engineProperties = [];
             }

@@ -41,7 +41,7 @@ class DivisionFactoryTest extends TestCase
             'standard' => true,
             'userAgents' => [[], []],
         ];
-        $filename     = 'test.xyz';
+        $filename = 'test.xyz';
 
         self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
@@ -56,7 +56,7 @@ class DivisionFactoryTest extends TestCase
             'userAgents' => [[]],
             'versions' => ['1.0'],
         ];
-        $filename     = 'test.xyz';
+        $filename = 'test.xyz';
 
         self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
