@@ -1,6 +1,6 @@
 {
   "division": "Waterfox #MAJORVER#.#MINORVER#",
-  "versions": ["55.2", "55.1", 55, 54, 53, 52, 51],
+  "versions": [56, "55.2", "55.1", 55, 54, 53, 52, 51],
   "sortIndex": 3142,
   "lite": false,
   "standard": true,
