@@ -1,56 +1,65 @@
 {
-  "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["6.11", "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.1"],
-  "sortIndex": 487,
-  "lite": false,
-  "standard": true,
-  "userAgents": [
-    {
-      "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-      "platform": "iOS",
-      "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Bing Search App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Crawler": "false"
-      },
-      "children": [
+    "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+    "versions": [
+        "6.11",
+        "6.9",
+        "6.8",
+        "6.7",
+        "6.6",
+        "6.5",
+        "6.4",
+        "6.3",
+        "6.1"
+    ],
+    "sortIndex": 487,
+    "lite": false,
+    "standard": true,
+    "userAgents": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "iOS_A"
-          ]
+            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+            "browser": "bing search app",
+            "platform": "iOS",
+            "engine": "WebKit",
+            "device": "general Mobile Device (Apple)",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+                "Version": "#MAJORVER#.#MINORVER#"
+            },
+            "children": [
+                {
+                    "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "iPhone": "iPhone"
+                    },
+                    "platforms": [
+                        "iOS_A_10_3",
+                        "iOS_A_10_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "platforms": [
+                        "iOS_A"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "iPhone": "iPhone"
+                    },
+                    "platforms": [
+                        "iOS_A_10_3",
+                        "iOS_A_10_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "platforms": [
+                        "iOS_A"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

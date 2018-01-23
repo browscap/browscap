@@ -7,17 +7,14 @@
     "userAgents": [
         {
             "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+            "browser": "bing search app",
             "engine": "Blink",
             "device": "general Mobile Phone (Touch)",
             "platform": "Android",
             "properties": {
                 "Parent": "DefaultProperties",
                 "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-                "Browser": "Bing Search App",
-                "Browser_Type": "Application",
-                "Browser_Maker": "Microsoft Corporation",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "Crawler": "false"
+                "Version": "#MAJORVER#.#MINORVER#"
             },
             "children": [
                 {
