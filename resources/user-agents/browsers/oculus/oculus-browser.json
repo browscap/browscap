@@ -1,6 +1,6 @@
 {
   "division": "Oculus Browser #MAJORVER#.#MINORVER#",
-  "versions": [4, "3.8", "3.7", "3.6", "3.1"],
+  "versions": ["4.1", 4, "3.8", "3.7", "3.6", "3.1"],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
