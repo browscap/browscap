@@ -363,6 +363,19 @@
             "isTablet": "false"
         }
     },
+    "Sony E2303": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E2303",
+            "Device_Name": "Xperia M4 Aqua",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Sony E4G": {
         "standard": false,
         "properties": {

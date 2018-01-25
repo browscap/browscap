@@ -77,6 +77,19 @@
             "isTablet": "true"
         }
     },
+    "Medion P1050X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P1050X",
+            "Device_Name": "Life P1050X",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Medion LifeTab P4012": {
         "standard": true,
         "properties": {
@@ -103,6 +116,19 @@
             "isTablet": "true"
         }
     },
+    "Medion LifeTab P831X.2": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "LifeTab P831X.2",
+            "Device_Name": "LifeTab P831X.2",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Medion LifeTab P9514": {
         "standard": true,
         "properties": {
@@ -122,6 +148,32 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "LifeTab P9516",
             "Device_Name": "LifeTab P9516",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo LifeTab P970X": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "LifeTab P970X",
+            "Device_Name": "LifeTab P970X",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Medion P1040X": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P1040X",
+            "Device_Name": "P1040X",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
             "Device_Pointing_Method": "touchscreen",

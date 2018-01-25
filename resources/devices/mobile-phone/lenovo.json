@@ -428,6 +428,19 @@
             "isTablet": "false"
         }
     },
+    "Lenovo A616": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A616",
+            "Device_Name": "A616",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo A656": {
         "standard": false,
         "properties": {
@@ -727,12 +740,38 @@
             "isTablet": "false"
         }
     },
+    "Lenovo B5060": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "B5060",
+            "Device_Name": "B5060",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo ET980": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ET980",
             "Device_Name": "ET980",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Lenovo K33a48": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K33a48",
+            "Device_Name": "K6",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Pointing_Method": "touchscreen",

@@ -792,6 +792,19 @@
             "isTablet": "false"
         }
     },
+    "LG D620": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D620",
+            "Device_Name": "G2 mini",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG D682TR": {
         "standard": false,
         "properties": {
@@ -993,6 +1006,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "E430",
             "Device_Name": "Optimus L3 II",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG E435f": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E435f",
+            "Device_Name": "Optimus L3 II Dual",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",
@@ -2118,6 +2144,19 @@
             "isTablet": "false"
         }
     },
+    "LG H818": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "H818",
+            "Device_Name": "G4",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG H820": {
         "standard": false,
         "properties": {
@@ -2137,6 +2176,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "H830",
             "Device_Name": "G5 (T-Mobile)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG H870": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "H870",
+            "Device_Name": "G6",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",
@@ -2222,12 +2274,38 @@
             "isTablet": "false"
         }
     },
+    "LG K100": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K100",
+            "Device_Name": "K3",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG K120": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "K120",
             "Device_Name": "Spree (Cricket)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG K130": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "K130",
+            "Device_Name": "K4",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",
@@ -4373,6 +4451,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "VS880PP",
             "Device_Name": "G Vista (Verizon)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG VS910": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "VS910",
+            "Device_Name": "Revolution (Verizon)",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",

@@ -241,6 +241,17 @@
         "lite": false,
         "standard": true
     },
+    "bing search app": {
+        "properties": {
+            "Browser": "Bing Search App",
+            "Browser_Type": "Application",
+            "Browser_Maker": "Microsoft Corporation",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
     "camera 360": {
         "properties": {
             "Browser": "Camera 360",

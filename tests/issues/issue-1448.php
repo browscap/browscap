@@ -42159,7 +42159,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Galaxy S5 Mini',
+            'Device_Name' => 'Galaxy S5 Mini (Europe)',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

@@ -1,4 +1,17 @@
 {
+    "Kyocera C5215": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Edge",
+            "Device_Code_Name": "C5215",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Kyocera C6730": {
         "standard": false,
         "properties": {

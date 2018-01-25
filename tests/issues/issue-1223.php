@@ -2094,7 +2094,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Galaxy Grand Prime VE',
+            'Device_Name' => 'Galaxy Grand Prime Value Edition',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

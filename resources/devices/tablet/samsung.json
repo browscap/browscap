@@ -844,6 +844,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung SM-T335": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T335",
+            "Device_Name": "Galaxy Tab 3 8.0 LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SM-T337A": {
         "standard": true,
         "properties": {
@@ -1052,6 +1065,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung SM-T560": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T560",
+            "Device_Name": "Galaxy Tab E 9.6 Wi-Fi",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SM-T561": {
         "standard": true,
         "properties": {
@@ -1071,6 +1097,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T580",
             "Device_Name": "Galaxy Tab A 10.1 Wi-Fi",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T585": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T585",
+            "Device_Name": "Galaxy Tab A (2016, 10.1, Wi-Fi)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

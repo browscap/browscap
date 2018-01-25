@@ -940,7 +940,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9001",
-            "Device_Name": "GT-I9001",
+            "Device_Name": "Galaxy S Plus",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6036,7 +6036,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-A510F",
-            "Device_Name": "Galaxy A5 (2016)",
+            "Device_Name": "Galaxy A5 LTE (2016, Europe)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6582,7 +6582,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G531F",
-            "Device_Name": "Galaxy Grand Prime VE",
+            "Device_Name": "Galaxy Grand Prime Value Edition",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6777,7 +6777,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G800F",
-            "Device_Name": "Galaxy S5 Mini",
+            "Device_Name": "Galaxy S5 Mini (Europe)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7090,6 +7090,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G901F",
             "Device_Name": "Galaxy S5 Plus",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G903F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G903F",
+            "Device_Name": "Galaxy S5 Neo",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7596,20 +7609,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G935F",
-            "Device_Name": "Galaxy S7 Edge",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Samsung SM-J510FN": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SM-J510FN",
-            "Device_Name": "Galaxy J5 (2016)",
+            "Device_Name": "Galaxy S7 Edge (Global)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7916,6 +7916,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-J320F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J320F",
+            "Device_Name": "Galaxy J3 4G (2016)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-J320G": {
         "standard": false,
         "properties": {
@@ -7981,19 +7994,6 @@
             "isTablet": "false"
         }
     },
-    "Samsung SM-J320F": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SM-J320F",
-            "Device_Name": "Galaxy J3 (Duos)",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Samsung SM-J327P": {
         "standard": false,
         "properties": {
@@ -8026,6 +8026,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-J500M",
             "Device_Name": "Galaxy J5 (LATAM)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-J510FN": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J510FN",
+            "Device_Name": "Galaxy J5 4G Duos (2016, Europe)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

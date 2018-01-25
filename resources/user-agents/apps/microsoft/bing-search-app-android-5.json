@@ -1,0 +1,170 @@
+{
+    "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+    "versions": ["5.5", "5.4", "5.3", "5.2", "5.1", 5],
+    "sortIndex": 483,
+    "lite": false,
+    "standard": true,
+    "userAgents": [
+        {
+            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+            "browser": "bing search app",
+            "engine": "Blink",
+            "device": "general Mobile Phone (Touch)",
+            "platform": "Android",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+                "Version": "#MAJORVER#.#MINORVER#"
+            },
+            "children": [
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "SM-G930F": "Samsung SM-G930F"
+                    },
+                    "platforms": [
+                        "Android_6_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "C6603": "Sony C6603",
+                        "D5803": "Sony D5803"
+                    },
+                    "platforms": [
+                        "Android_5_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "D6503": "Sony D6503",
+                        "GT-I9505": "Samsung GT-I9505",
+                        "SM-G900F": "Samsung SM-G900F",
+                        "HTC One_M8*": "HTC M8"
+                    },
+                    "platforms": [
+                        "Android_5_0",
+                        "Android_4_4"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "A0001": "OnePlus A0001",
+                        "HTC One": "HTC M7",
+                        "HUAWEI GRA-L09": "Huawei GRA-L09",
+                        "SM-T535": "Samsung SM-T535",
+                        "XT1068": "Motorola XT1068"
+                    },
+                    "platforms": [
+                        "Android_5_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "devices": {
+                        "A1-830": "Acer A1-830",
+                        "D5503": "Sony D5503",
+                        "GT-I9195": "Samsung GT-I9195",
+                        "GT-I9515": "Samsung GT-I9515",
+                        "GT-P5210*": "Samsung GT-P5210",
+                        "K00Z": "Asus ME175CG",
+                        "LG-D620": "LG D620",
+                        "SCH-I545": "Samsung SCH-I545",
+                        "SM-N9005": "Samsung SM-N9005",
+                        "SM-T235": "Samsung SM-T235",
+                        "SM-T525": "Samsung SM-T525",
+                        "VS980 4G": "LG VS980"
+                    },
+                    "platforms": [
+                        "Android_4_4"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "platforms": [
+                        "Android_6_0",
+                        "Android_5_1", "Android_5_0",
+                        "Android_4_4",
+                        "Android"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-I9300*": "Samsung GT-I9300"
+                    },
+                    "platforms": [
+                        "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-P5100": "Samsung GT-P5100",
+                        "JK809": "Blackview JK809",
+                        "GT-I8200N": "Samsung GT-I8200N",
+                        "tolino tab 7": "Tolino Tab 7"
+                    },
+                    "platforms": [
+                        "Android_4_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "A700": "Acer A700",
+                        "C5215": "Kyocera C5215",
+                        "GT-I9100": "Samsung GT-I9100",
+                        "GT-N7000": "Samsung GT-N7000",
+                        "GT-P3110": "Samsung GT-P3110",
+                        "HTC Desire 500": "HTC Desire 500",
+                        "HUAWEI G510-*": "Huawei G510",
+                        "Z796C": "ZTE Z796C"
+                    },
+                    "platforms": [
+                        "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "GT-S7562": "Samsung GT-S7562",
+                        "ST23i": "Sony ST23i",
+                        "Sony Tablet S": "Sony Tablet S"
+                    },
+                    "platforms": [
+                        "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "devices": {
+                        "C771": "Casio C771",
+                        "GT-I9001": "Samsung GT-I9001",
+                        "GT-S7500*": "Samsung GT-S7500"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+                    "engine": "WebKit",
+                    "platforms": [
+                        "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+                        "Android_2_3",
+                        "Android"
+                    ]
+                }
+            ]
+        }
+    ]
+}

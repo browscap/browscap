@@ -1,4 +1,17 @@
 {
+    "Huawei BTV-DL09": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "BTV-DL09",
+            "Device_Name": "MediaPad M3 8.4",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Huawei IDEOS S7": {
         "standard": true,
         "properties": {
@@ -96,6 +109,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "MediaPad M1 8.0",
             "Device_Name": "MediaPad M1 8.0",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Huawei M2-A01W": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "M2-A01W",
+            "Device_Name": "MediaPad M2 10.0",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
