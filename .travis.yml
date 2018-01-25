@@ -35,6 +35,21 @@ jobs:
   fast_finish: true
   allow_failures:
     - php: nightly
+    - env:
+        - parser="native"
+        - TEST_SET="full"
+    - env:
+        - parser="native"
+        - TEST_SET="standard"
+    - env:
+        - parser="native"
+        - TEST_SET="lite"
+    - env:
+        - parser="browscap-php 2.x"
+        - TEST_SET="full"
+    - env:
+        - parser="browscap-php 2.x (unsorted)"
+        - TEST_SET="full"
   include:
     - php: nightly
       env: COMPOSER_FLAGS="--ignore-platform-reqs"
@@ -76,6 +91,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/FullTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full4.json -F full,v4
 
     - stage: integration tests
       php: 7.1
@@ -86,6 +102,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/StandardTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard4.json -F standard,v4
 
     - stage: integration tests
       php: 7.1
@@ -96,6 +113,7 @@ jobs:
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
         - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V4/LiteTest.php
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite4.json -F lite,v4
 
     - stage: integration tests
       php: 7.1
@@ -103,7 +121,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/FullTest.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full3.json -F full
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full3.json -F full,v3
 
     - stage: integration tests
       php: 7.1
@@ -111,7 +129,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/StandardTest.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard3.json -F standard
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard3.json -F standard,v3
 
     - stage: integration tests
       php: 7.1
@@ -119,4 +137,59 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V3/LiteTest.php
-      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite3.json -F lite
+      after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite3.json -F lite,v3
+
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="native"
+        - TEST_SET="full"
+      before_script: php -n bin/browscap build --no-zip --coverage test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/full_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/FullTest.php
+      after_success:
+        - bash <(curl -s https://codecov.io/bash) -f coverage-full-native.json -F full,native
+
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="native"
+        - TEST_SET="standard"
+      before_script: php -n bin/browscap build --no-zip --coverage test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/StandardTest.php
+      after_success:
+        - bash <(curl -s https://codecov.io/bash) -f coverage-standard-native.json -F standard,native
+
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="native"
+        - TEST_SET="lite"
+      before_script: php -n bin/browscap build --no-zip --coverage test
+      script: php -n -d browscap=$TRAVIS_BUILD_DIR/build/lite_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/LiteTest.php
+      after_success:
+        - bash <(curl -s https://codecov.io/bash) -f coverage-lite-native.json -F lite,native
+
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="browscap-php 2.x"
+        - TEST_SET="full"
+      install:
+        - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:^2.1
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V2/FullTest.php
+      after_success:
+        - bash <(curl -s https://codecov.io/bash) -f coverage-full2.json -F full,v2
+
+    - stage: integration tests
+      php: 7.1
+      env:
+        - parser="browscap-php 2.x (unsorted)"
+        - TEST_SET="full"
+      install:
+        - travis_retry composer remove --dev browscap/browscap-php
+        - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest mimmi20/browscap-php-unsorted:dev-master
+      script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V2/FullUnsortedTest.php
+#      after_success:
+#        - bash <(curl -s https://codecov.io/bash) -f coverage-full2.json -F full,v2

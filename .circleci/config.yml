@@ -14,6 +14,7 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
+      - run: stty cols 130
       - run: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 117 --verbose
   php-cs-fixer:
     docker:
@@ -64,6 +65,7 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
+      - run: stty cols 130
       - run: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/
 
   integration-tests-v4:
@@ -80,8 +82,67 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
+      - run: stty cols 130
       - run: composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:dev-master
       - run: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/
+
+  integration-tests-v2:
+    docker:
+      - image: circleci/php:7.1
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - composer-v1-{{ checksum "composer.json" }}
+            - composer-v1-
+      - run: composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-suggest -vv
+      - save_cache:
+          key: composer-v1-{{ checksum "composer.json" }}
+          paths:
+            - vendor
+      - run: stty cols 130
+      - run: composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:^2.1
+      - run: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V2/FullTest.php
+
+  integration-tests-v2-unsorted:
+    docker:
+      - image: circleci/php:7.1
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - composer-v1-{{ checksum "composer.json" }}
+            - composer-v1-
+      - run: composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-suggest -vv
+      - save_cache:
+          key: composer-v1-{{ checksum "composer.json" }}
+          paths:
+            - vendor
+      - run: stty cols 130
+      - run: composer remove --dev browscap/browscap-php
+      - run: composer require --update-with-dependencies --prefer-dist --no-suggest mimmi20/browscap-php-unsorted:dev-master
+      - run: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V2/FullUnsortedTest.php
+
+  integration-tests-native:
+    docker:
+      - image: circleci/php:7.1
+    working_directory: /home/circleci/project
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - composer-v1-{{ checksum "composer.json" }}
+            - composer-v1-
+      - run: composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-suggest -vv
+      - save_cache:
+          key: composer-v1-{{ checksum "composer.json" }}
+          paths:
+            - vendor
+      - run: stty cols 130
+      - run: php -n bin/browscap build --no-zip --coverage test
+      - run: php -n -d browscap=$CIRCLE_WORKING_DIRECTORY/build/full_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/FullTest.php
+      - run: php -n -d browscap=$CIRCLE_WORKING_DIRECTORY/build/php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/StandardTest.php
+      - run: php -n -d browscap=$CIRCLE_WORKING_DIRECTORY/build/lite_php_browscap.ini vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/Native/LiteTest.php
 
   validate:
     docker:
@@ -106,24 +167,54 @@ workflows:
       - validate:
           filters:
             branches:
-              only: issue-1433-5
-      - phpunit::
+              only:
+                - issue-1433-5
+                - detection-mismatches
+      - phpunit:
           filters:
             branches:
-              only: issue-1433-5
+              only:
+                - issue-1433-5
+                - detection-mismatches
       - php-cs-fixer:
           filters:
             branches:
-              only: issue-1433-5
+              only:
+                - issue-1433-5
+                - detection-mismatches
       - phpstan:
           filters:
             branches:
-              only: issue-1433-5
+              only:
+                - issue-1433-5
+                - detection-mismatches
       - integration-tests-v3:
           filters:
             branches:
-              only: issue-1433-5
+              only:
+                - issue-1433-5
+                - detection-mismatches
       - integration-tests-v4:
           filters:
             branches:
-              only: issue-1433-5
+              only:
+                - issue-1433-5
+                - detection-mismatches
+      - integration-tests-v2:
+          filters:
+            branches:
+              only:
+                - issue-1433-5
+                - detection-mismatches
+      - integration-tests-native:
+          filters:
+            branches:
+              only:
+                - issue-1433-5
+                - detection-mismatches
+      - integration-tests-v2-unsorted:
+          filters:
+            branches:
+              only:
+                - issue-1433-5
+                - detection-mismatches
