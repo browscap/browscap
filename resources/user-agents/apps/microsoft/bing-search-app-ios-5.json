@@ -29,9 +29,7 @@
                         "iPhone": "iPhone"
                     },
                     "platforms": [
-                        "iOS_A_8_4",
-                        "iOS_A_8_3",
-                        "iOS_A_8_2",
+                        "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2",
                         "iOS_A_7_0"
                     ]
                 },

@@ -21,11 +21,8 @@
                         "iPhone": "iPhone"
                     },
                     "platforms": [
-                        "iOS_A_10_3",
-                        "iOS_A_10_2",
-                        "iOS_A_8_4",
-                        "iOS_A_8_3",
-                        "iOS_A_8_2",
+                        "iOS_A_10_3", "iOS_A_10_2",
+                        "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2",
                         "iOS_A_7_0",
                         "iOS_A"
                     ]
@@ -36,8 +33,7 @@
                         "iPhone": "iPhone"
                     },
                     "platforms": [
-                        "iOS_A_10_3",
-                        "iOS_A_10_2",
+                        "iOS_A_10_3", "iOS_A_10_2",
                         "iOS_A"
                     ]
                 }

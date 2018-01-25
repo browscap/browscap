@@ -8,7 +8,7 @@
         {
             "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
             "browser": "bing search app",
-            "engine": "Blink",
+            "engine": "WebKit",
             "device": "general Mobile Phone (Touch)",
             "platform": "Android",
             "properties": {
@@ -19,7 +19,6 @@
             "children": [
                 {
                     "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "engine": "WebKit",
                     "devices": {
                         "ADR6350": "HTC ADR6350"
                     },
@@ -29,7 +28,6 @@
                 },
                 {
                     "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "engine": "WebKit",
                     "devices": {
                         "VS910 4G": "LG VS910"
                     },
@@ -39,7 +37,6 @@
                 },
                 {
                     "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "engine": "WebKit",
                     "platforms": [
                         "Android_2_3",
                         "Android"

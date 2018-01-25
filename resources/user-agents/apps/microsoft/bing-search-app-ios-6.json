@@ -33,8 +33,7 @@
                         "iPhone": "iPhone"
                     },
                     "platforms": [
-                        "iOS_A_10_3",
-                        "iOS_A_10_2"
+                        "iOS_A_10_3", "iOS_A_10_2"
                     ]
                 },
                 {
@@ -49,8 +48,7 @@
                         "iPhone": "iPhone"
                     },
                     "platforms": [
-                        "iOS_A_10_3",
-                        "iOS_A_10_2"
+                        "iOS_A_10_3", "iOS_A_10_2"
                     ]
                 },
                 {
