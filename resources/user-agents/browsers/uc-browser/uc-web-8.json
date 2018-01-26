@@ -589,9 +589,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

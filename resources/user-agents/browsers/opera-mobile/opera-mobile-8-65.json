@@ -49,9 +49,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for WinMobile",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -105,9 +102,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for WinCE",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -140,9 +134,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for Java",
-        "Browser": "Opera Mobile",
-        "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

@@ -305,7 +305,7 @@ return [
     'issue-1773-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15C114 UCBrowser/11.1.0.1045 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -348,7 +348,7 @@ return [
     'issue-1773-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5370a UCBrowser/11.1.0.1045 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -391,7 +391,7 @@ return [
     'issue-1773-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B202 UCBrowser/11.2.1.1052 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -434,7 +434,7 @@ return [
     'issue-1773-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X; vi) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/14G60 UCBrowser/11.2.1.1052 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

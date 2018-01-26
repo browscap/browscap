@@ -12,9 +12,7 @@
       "platform": "iOS_H",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WhatsApp",
-        "Alpha": "false",
-        "Beta": "false"
+        "Comment": "WhatsApp"
       },
       "children": [
         {
@@ -43,14 +41,7 @@
       "browser": "whatsapp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WhatsApp",
-        "Browser": "WhatsApp",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Comment": "WhatsApp"
       },
       "children": [
         {

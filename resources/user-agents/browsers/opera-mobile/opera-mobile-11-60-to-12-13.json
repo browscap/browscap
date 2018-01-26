@@ -27,8 +27,7 @@
             "Android_F_4_4", "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1", "Android_F_2_0",
             "Android_F_1_6",
-            "Android_F",
-            "AndroidLinux"
+            "Android_F"
           ]
         },
         {
@@ -42,8 +41,7 @@
             "Android_F_3_2", "Android_F_3_1", "Android_F_3_0",
             "Android_F_2_3", "Android_F_2_2", "Android_F_2_1", "Android_F_2_0",
             "Android_F_1_6",
-            "Android_F",
-            "AndroidLinux"
+            "Android_F"
           ]
         }
       ]

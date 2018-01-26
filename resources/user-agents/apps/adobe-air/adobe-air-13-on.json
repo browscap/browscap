@@ -13,9 +13,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe AIR #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -49,9 +47,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe AIR #MAJORVER#.#MINORVER# for iOS",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
@@ -64,20 +60,14 @@
     },
     {
       "userAgent": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
+      "browser": "adobe air",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
-        "Browser": "Adobe AIR",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Adobe Systems Incorporated",
-        "Alpha": "false",
-        "Beta": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

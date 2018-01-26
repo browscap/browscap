@@ -12,10 +12,7 @@
       "platform": "iOS_C",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Player FM",
-        "Browser": "Player FM",
-        "Browser_Maker": "Nuvomondo Ltd",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Player FM"
       },
       "children": [
         {
@@ -82,10 +79,7 @@
       "browser": "player fm",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Player FM",
-        "Browser": "Player FM",
-        "Browser_Maker": "Nuvomondo Ltd",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "Player FM"
       },
       "children": [
         {

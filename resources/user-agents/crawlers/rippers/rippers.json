@@ -943,10 +943,7 @@
         },
         {
           "match": "fasthttp* mozilla/5.0 (x11; linux x86_64) applewebkit* (*khtml*like*gecko*) chrome/*",
-          "properties": {
-            "Browser": "Go fasthttp",
-            "Browser_Maker": "Aliaksandr Valialkin"
-          }
+          "browser": "go fasthttp"
         },
         {
           "match": "fasthttp*",

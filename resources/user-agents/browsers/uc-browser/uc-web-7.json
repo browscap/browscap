@@ -104,15 +104,13 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "uc browser",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "UC Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
