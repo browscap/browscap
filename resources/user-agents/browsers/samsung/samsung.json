@@ -53,6 +53,31 @@
       ]
     },
     {
+      "userAgent": "Samsung Generic for Android",
+      "browser": "samsung",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic for Android"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/*",
+          "devices": {
+            "Samsung SM-N9005": "Samsung SM-N9005"
+          }
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "SAMSUNG-GT-I9100": "Samsung GT-I9100",
+            "Samsung SM-N9005": "Samsung SM-N9005"
+          }
+        }
+      ]
+    },
+    {
       "userAgent": "Samsung Generic for Java",
       "browser": "samsung",
       "platform": "JAVA",
@@ -100,8 +125,7 @@
             "SAMSUNG-SGH-X640C": "Samsung SGH-X640C",
             "SAMSUNG-SGH-X648": "Samsung SGH-X648",
             "SAMSUNG-SGH-X658": "Samsung SGH-X658",
-            "SAMSUNG-SGH-X670": "Samsung SGH-X670",
-            "Samsung SM-N9005": "Samsung SM-N9005"
+            "SAMSUNG-SGH-X670": "Samsung SGH-X670"
           }
         },
         {
@@ -123,7 +147,6 @@
             "SAMSUNG-GT-C3262": "Samsung GT-C3262",
             "SAMSUNG-GT-C3322": "Samsung GT-C3322",
             "SAMSUNG-GT-E2550": "Samsung GT-E2550",
-            "SAMSUNG-GT-I9100": "Samsung GT-I9100",
             "SAMSUNG-GT-S3501C": "Samsung GT-S3501C",
             "SAMSUNG-GT-S3770Y": "Samsung GT-S3770Y",
             "SAMSUNG-GT-S5560": "Samsung GT-S5560",
@@ -158,8 +181,7 @@
             "SAMSUNG-SGH-X640C": "Samsung SGH-X640C",
             "SAMSUNG-SGH-X648": "Samsung SGH-X648",
             "SAMSUNG-SGH-X658": "Samsung SGH-X658",
-            "SAMSUNG-SGH-X670": "Samsung SGH-X670",
-            "Samsung SM-N9005": "Samsung SM-N9005"
+            "SAMSUNG-SGH-X670": "Samsung SGH-X670"
           }
         },
         {
