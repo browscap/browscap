@@ -1524,7 +1524,7 @@ return [
     'issue-513-AK' => [
         'ua' => 'JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;480*800;)UCWEB7.8.0.95/139/355',
         'properties' => [
-            'Comment' => 'UC Browser 7.8',
+            'Comment' => 'UC Browser 7.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3171,7 +3171,7 @@ return [
     'issue-513-BW' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; GT-P3100) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3214,7 +3214,7 @@ return [
     'issue-513-BW (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; GT-P3100) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.4',
@@ -6544,7 +6544,7 @@ return [
     'issue-513-EZ' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; SAMSUNG-SGH-T669) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6587,7 +6587,7 @@ return [
     'issue-513-EZ (standard)' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; SAMSUNG-SGH-T669) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',

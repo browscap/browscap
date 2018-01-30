@@ -47,7 +47,7 @@ return [
     'issue-1219-001' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5800d-1/21.0.025; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -692,7 +692,7 @@ return [
     'issue-1219-016' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LG KS10/v10A; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -735,7 +735,7 @@ return [
     'issue-1219-017' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LGKT615/v10A; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -778,7 +778,7 @@ return [
     'issue-1219-018' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 LG-KT770/v08V; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -879,7 +879,7 @@ return [
     'issue-1219-020' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2 U Series60/3.1 NokiaN76-1/20.0.041 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -922,7 +922,7 @@ return [
     'issue-1219-021' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN78-2/1.00 Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -965,7 +965,7 @@ return [
     'issue-1219-022' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-1/10.034; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1008,7 +1008,7 @@ return [
     'issue-1219-022 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-1/10.034; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1023,7 +1023,7 @@ return [
     'issue-1219-023' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-3/10.018; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1066,7 +1066,7 @@ return [
     'issue-1219-023 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-3/10.018; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1081,7 +1081,7 @@ return [
     'issue-1219-024' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; Series60/3.0 NokiaN80-1/3.0; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1124,7 +1124,7 @@ return [
     'issue-1219-025' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN81-1/10.0.026 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1167,7 +1167,7 @@ return [
     'issue-1219-026' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN81-3/10.0.032 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/4',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1210,7 +1210,7 @@ return [
     'issue-1219-027' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN85-1/10.034; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1253,7 +1253,7 @@ return [
     'issue-1219-028' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB-3/1.2.011 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1296,7 +1296,7 @@ return [
     'issue-1219-028 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB-3/1.2.011 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1311,7 +1311,7 @@ return [
     'issue-1219-029' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/10.2.003; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1354,7 +1354,7 @@ return [
     'issue-1219-029 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/10.2.003; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1369,7 +1369,7 @@ return [
     'issue-1219-030' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-3/1.00; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1412,7 +1412,7 @@ return [
     'issue-1219-030 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-3/1.00; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1427,7 +1427,7 @@ return [
     'issue-1219-031' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5233-2G/10.0.055; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 Schemas used: uaprof, MMS, streaming',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1470,7 +1470,7 @@ return [
     'issue-1219-031 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5233-2G/10.0.055; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 Schemas used: uaprof, MMS, streaming',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1485,7 +1485,7 @@ return [
     'issue-1219-032' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3 U Series60/3.2 Nokia5320d-1/1.00 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1528,7 +1528,7 @@ return [
     'issue-1219-032 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3 U Series60/3.2 Nokia5320d-1/1.00 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1543,7 +1543,7 @@ return [
     'issue-1219-033' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320d-1b/04.13; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1586,7 +1586,7 @@ return [
     'issue-1219-033 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320d-1b/04.13; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1601,7 +1601,7 @@ return [
     'issue-1219-034' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320di XpressMusic/06.103; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1644,7 +1644,7 @@ return [
     'issue-1219-034 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320di XpressMusic/06.103; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -1659,7 +1659,7 @@ return [
     'issue-1219-035' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6120/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1702,7 +1702,7 @@ return [
     'issue-1219-036' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia6210Navigator/03.03.1; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1745,7 +1745,7 @@ return [
     'issue-1219-037' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3 U Series60/3.2 Nokia6650d-1c/03.09 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1788,7 +1788,7 @@ return [
     'issue-1219-038' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE-90-1/07.02.4.1; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1831,7 +1831,7 @@ return [
     'issue-1219-039' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; U; [de]; NokiaE50-1/06.41.3.0 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413,gzip(gfe),gzip(gfe)',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1874,7 +1874,7 @@ return [
     'issue-1219-040' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE51-2/151.34.20; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1917,7 +1917,7 @@ return [
     'issue-1219-041' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; Series60/3.0 NokiaE61i-1/3.0; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1960,7 +1960,7 @@ return [
     'issue-1219-042' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE63-1/200.21.012; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2003,7 +2003,7 @@ return [
     'issue-1219-043' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE63-2/100.21.110; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2046,7 +2046,7 @@ return [
     'issue-1219-044' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE63-3/410.21.010; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2089,7 +2089,7 @@ return [
     'issue-1219-045' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE66-1/102.07.81; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2132,7 +2132,7 @@ return [
     'issue-1219-046' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE66-3/102.07.81; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2175,7 +2175,7 @@ return [
     'issue-1219-047' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE71-1/200.21.118; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2218,7 +2218,7 @@ return [
     'issue-1219-047 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE71-1/200.21.118; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -2233,7 +2233,7 @@ return [
     'issue-1219-048' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2 U Series60/3.1 NokiaE90-1/210.34.75 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2276,7 +2276,7 @@ return [
     'issue-1219-049' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NOKIAN81 8GB/1.0; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2377,7 +2377,7 @@ return [
     'issue-1219-051' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3 U Series60/3.2 Samsung/I8510/XXHH6 Profile/MIDP -2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2420,7 +2420,7 @@ return [
     'issue-1219-052' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510L/UBHL3 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2463,7 +2463,7 @@ return [
     'issue-1219-053' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510M/UBHL2 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2506,7 +2506,7 @@ return [
     'issue-1219-054' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2 U Series60/3.1 Samsung/SGH-G810/XEHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2549,7 +2549,7 @@ return [
     'issue-1219-055' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i450V/BUGJ6 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2592,7 +2592,7 @@ return [
     'issue-1219-056' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i455/UMHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, Like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2635,7 +2635,7 @@ return [
     'issue-1219-057' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2 U Series60/3.1 Samsung/SGH-i458B/ Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2678,7 +2678,7 @@ return [
     'issue-1219-058' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i520V/BUGD9 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2721,7 +2721,7 @@ return [
     'issue-1219-059' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung-SGH-i550/AOGL2 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2764,7 +2764,7 @@ return [
     'issue-1219-060' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i550V/BUGJ5 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2807,7 +2807,7 @@ return [
     'issue-1219-061' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung-SGH-i560/BGHA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2850,7 +2850,7 @@ return [
     'issue-1219-062' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i560V/BUGH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2893,7 +2893,7 @@ return [
     'issue-1219-063' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 1.0/SamsungSGHi560/I560DFHC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2936,7 +2936,7 @@ return [
     'issue-1219-064' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 1.0/SamsungSGHi568/I568ZTHA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2979,7 +2979,7 @@ return [
     'issue-1219-065' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 SAMSUNG-GT-I8510C/1.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3022,7 +3022,7 @@ return [
     'issue-1219-066' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-G810/XEHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3065,7 +3065,7 @@ return [
     'issue-1219-067' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i450/XEGK5 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3108,7 +3108,7 @@ return [
     'issue-1219-068' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i520/XEGH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3151,7 +3151,7 @@ return [
     'issue-1219-069' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i550/XEGK3; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3237,7 +3237,7 @@ return [
     'issue-1219-071' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Vodafone/1.0/SamsungSGHi560/I560AEHB1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3280,7 +3280,7 @@ return [
     'issue-1219-072' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/12.0.013; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3323,7 +3323,7 @@ return [
     'issue-1219-072 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/12.0.013; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3338,7 +3338,7 @@ return [
     'issue-1219-073' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; U; [tr]; NokiaN73-1/3.0638.0.0.1 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3381,7 +3381,7 @@ return [
     'issue-1219-074' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE51-1/100.34.20; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3424,7 +3424,7 @@ return [
     'issue-1219-075' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE63-1/100.21.110; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3467,7 +3467,7 @@ return [
     'issue-1219-076' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE71-1/100.07.76; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3510,7 +3510,7 @@ return [
     'issue-1219-076 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE71-1/100.07.76; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3525,7 +3525,7 @@ return [
     'issue-1219-077' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaE90-1/200.34.73 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3568,7 +3568,7 @@ return [
     'issue-1219-078' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN76-1/31.0.014 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3611,7 +3611,7 @@ return [
     'issue-1219-079' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN81-1/11.0.045 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3654,7 +3654,7 @@ return [
     'issue-1219-080' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN82/11.0.117; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3697,7 +3697,7 @@ return [
     'issue-1219-081' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95-3/10.2.006; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3740,7 +3740,7 @@ return [
     'issue-1219-081 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95-3/10.2.006; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3755,7 +3755,7 @@ return [
     'issue-1219-082' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95_8GB/15.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3798,7 +3798,7 @@ return [
     'issue-1219-082 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95_8GB/15.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3813,7 +3813,7 @@ return [
     'issue-1219-083' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia5250/10.0.021; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3856,7 +3856,7 @@ return [
     'issue-1219-084' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6124c/4.34; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3899,7 +3899,7 @@ return [
     'issue-1219-085' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320d-1/03.26; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3942,7 +3942,7 @@ return [
     'issue-1219-085 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5320d-1/03.26; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -3957,7 +3957,7 @@ return [
     'issue-1219-086' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5730s-1/100.48.122; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4000,7 +4000,7 @@ return [
     'issue-1219-087' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia6220c-1/03.23; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4043,7 +4043,7 @@ return [
     'issue-1219-088' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia6790s-1c/03.38; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4086,7 +4086,7 @@ return [
     'issue-1219-089' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaE75-1/100.48.78 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4129,7 +4129,7 @@ return [
     'issue-1219-090' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN78-1/10.136; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4172,7 +4172,7 @@ return [
     'issue-1219-091' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-1/11.049; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4215,7 +4215,7 @@ return [
     'issue-1219-091 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN79-1/11.049; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4230,7 +4230,7 @@ return [
     'issue-1219-092' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN85-1/10.045; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4273,7 +4273,7 @@ return [
     'issue-1219-093' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-1/1.20; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4316,7 +4316,7 @@ return [
     'issue-1219-093 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-1/1.20; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4331,7 +4331,7 @@ return [
     'issue-1219-094' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-3/3.00; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4374,7 +4374,7 @@ return [
     'issue-1219-094 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 NokiaN96-3/3.00; Profile/MIDP-2.1 Configuration/CLDC-1.1;) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4389,7 +4389,7 @@ return [
     'issue-1219-095' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-5/30.2.004; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4432,7 +4432,7 @@ return [
     'issue-1219-096' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5230-1b/10.2.071; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4475,7 +4475,7 @@ return [
     'issue-1219-096 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5230-1b/10.2.071; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4490,7 +4490,7 @@ return [
     'issue-1219-097' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5235/12.6.092; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4533,7 +4533,7 @@ return [
     'issue-1219-097 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5235/12.6.092; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4548,7 +4548,7 @@ return [
     'issue-1219-098' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5530c-2/10.0.050; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4591,7 +4591,7 @@ return [
     'issue-1219-099' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaX6-00/10.0.069; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4634,7 +4634,7 @@ return [
     'issue-1219-099 (standard)' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaX6-00/10.0.069; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
@@ -4649,7 +4649,7 @@ return [
     'issue-1219-100' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; U; xx) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4692,7 +4692,7 @@ return [
     'issue-1219-101' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510/XXHG5; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4735,7 +4735,7 @@ return [
     'issue-1219-102' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 Samsung/SGH-i550/XXHH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4778,7 +4778,7 @@ return [
     'issue-1219-103' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 LGKT615/v10C; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4950,7 +4950,7 @@ return [
     'issue-1219-107' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE66-1/500.21.009; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Symbian',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5425,7 +5425,7 @@ return [
     'issue-1219-116' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5.1.16-RT-20120531.214856; xx; K-Touch E619 Build/AliyunOs-2012) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.1.447 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5468,7 +5468,7 @@ return [
     'issue-1219-116 (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5.1.16-RT-20120531.214856; xx; K-Touch E619 Build/AliyunOs-2012) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.1.447 U3/0.8.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'UC Browser 9.8',
+            'Comment' => 'UC Browser 9.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.8',
@@ -9297,7 +9297,7 @@ return [
     'issue-1219-208' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-us; Lenovo A6000 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9340,7 +9340,7 @@ return [
     'issue-1219-209' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0; en-us; Lenovo A7000-a Build/LRX21M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9383,7 +9383,7 @@ return [
     'issue-1219-210' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-us; Lenovo A2010-a Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/9.9.2.467 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 9.9',
+            'Comment' => 'UC Browser 9.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9469,7 +9469,7 @@ return [
     'issue-1219-212' => [
         'ua' => 'nokia6120c/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9512,7 +9512,7 @@ return [
     'issue-1219-212 (standard)' => [
         'ua' => 'nokia6120c/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.0',

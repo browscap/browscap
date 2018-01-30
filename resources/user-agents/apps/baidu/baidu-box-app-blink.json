@@ -42,7 +42,8 @@
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4"
+            "Android_4_4",
+            "Android"
           ]
         },
         {
@@ -53,7 +54,8 @@
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4"
+            "Android_4_4",
+            "Android"
           ]
         }
       ]

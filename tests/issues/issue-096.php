@@ -418,21 +418,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-096-BW (standard)' => [
-        'ua' => 'SAMSUNG-SGH-T528g/T528UDKE4[TF355314045027030009640018153425713] Dolfin/1.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.5',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.5',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-096-BV' => [
         'ua' => 'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
@@ -806,7 +791,7 @@ return [
     'issue-096-BN' => [
         'ua' => 'JUC (Linux; U; 2.2.1; zh-cn; GT-S5570; 240*320) UCWEB7.9.0.94/139/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.9',
+            'Comment' => 'UC Browser 7.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1350,7 +1335,7 @@ return [
     'issue-096-BC' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; AX5_Duo) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1436,7 +1421,7 @@ return [
     'issue-096-BA' => [
         'ua' => 'UCWEB/2.0 (iOS; U; iPh OS 7_0_4; zh-CN; iPh5,2) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1479,7 +1464,7 @@ return [
     'issue-096-BA (standard)' => [
         'ua' => 'UCWEB/2.0 (iOS; U; iPh OS 7_0_4; zh-CN; iPh5,2) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.0',
+            'Comment' => 'UC Browser 9.0 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.0',
@@ -1494,7 +1479,7 @@ return [
     'issue-096-AZ' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 7.10; en-US; SAMSUNG; GT-I8350) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.2',
+            'Comment' => 'UC Browser 3.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1552,7 +1537,7 @@ return [
     'issue-096-AY' => [
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V5; en-US; SonyEricssonU1) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.9',
+            'Comment' => 'UC Browser 8.9 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1638,7 +1623,7 @@ return [
     'issue-096-AW' => [
         'ua' => 'JUC (Linux; U; 2.3.6; zh-cn; Aqua_Star; 320*480) UCWEB7.9.0.94/139/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.9',
+            'Comment' => 'UC Browser 7.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1681,7 +1666,7 @@ return [
     'issue-096-AV' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.2.1; en-US; GT-S5570) U2/1.0.0 UCBrowser/8.2.0.242 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.2',
+            'Comment' => 'UC Browser 8.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1724,7 +1709,7 @@ return [
     'issue-096-AU' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.6; en-US; GT-S5360) U2/1.0.0 UCBrowser/9.2.3.324 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1767,7 +1752,7 @@ return [
     'issue-096-AT' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1810,7 +1795,7 @@ return [
     'issue-096-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2040,7 +2025,7 @@ return [
     'issue-096-AN' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.1.1; en-US; AURUS III) U2/1.0.0 UCBrowser/9.3.0.321 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2141,7 +2126,7 @@ return [
     'issue-096-AL' => [
         'ua' => 'JUC(Linux;U;Android2.3.5;Zh_cn;Micromax A35;480*800;)UCWEB7.8.0.95/139/444',
         'properties' => [
-            'Comment' => 'UC Browser 7.8',
+            'Comment' => 'UC Browser 7.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2227,7 +2212,7 @@ return [
     'issue-096-AJ' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.5; en-US; Micromax A27) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2270,7 +2255,7 @@ return [
     'issue-096-AI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.2.349 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2452,21 +2437,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-096-AF (standard)' => [
-        'ua' => 'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
-            'Comment' => 'Dolfin 1.5',
-            'Browser' => 'Dolfin',
-            'Browser_Maker' => 'MopoTab Inc',
-            'Version' => '1.5',
-            'Platform' => 'JAVA',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-096-AE' => [
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 4.0.4; en-gb; GT-S7562 Build/IMM76I) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
         'properties' => [
@@ -2612,7 +2582,7 @@ return [
     'issue-096-AB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2812,7 +2782,7 @@ return [
     'issue-096-W' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.8',
+            'Comment' => 'UC Browser 8.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

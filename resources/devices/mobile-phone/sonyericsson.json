@@ -155,6 +155,32 @@
             "isTablet": "false"
         }
     },
+    "SonyEricsson G700": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G700",
+            "Device_Name": "G700",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "SonyEricsson G900": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G900",
+            "Device_Name": "G900",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "SonyEricsson J10i2": {
         "standard": false,
         "properties": {
@@ -694,6 +720,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MT27i",
             "Device_Name": "Xperia Sola",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "SonyEricsson P1i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P1i",
+            "Device_Name": "P1i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
             "Device_Pointing_Method": "touchscreen",

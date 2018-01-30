@@ -219,7 +219,7 @@ return [
     'issue-851-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Mi-440 Build/KOT49H) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -305,7 +305,7 @@ return [
     'issue-851-L' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad 8297-T01 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -434,7 +434,7 @@ return [
     'issue-851-P' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-CN; Coolpad 8730L Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -477,7 +477,7 @@ return [
     'issue-851-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; Coolpad 8089 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

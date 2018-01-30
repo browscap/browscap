@@ -401,7 +401,7 @@
       }
     },
     "OSX_PPC_10_4": {
-      "match": "*PPC Mac OS X 10.4*",
+      "match": "*PPC Mac OS X 10?4*",
       "lite": false,
       "standard": false,
       "inherits": "OSX_PPC",
@@ -410,7 +410,7 @@
       }
     },
     "OSX_PPC_10_5": {
-      "match": "*PPC Mac OS X 10.5*",
+      "match": "*PPC Mac OS X 10?5*",
       "lite": false,
       "standard": false,
       "inherits": "OSX_PPC",
@@ -1827,6 +1827,17 @@
       "standard": false,
       "inherits": "Linux"
     },
+    "Mobilinux": {
+      "match": "*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Platform": "Mobilinux",
+        "Platform_Maker": "MontaVista",
+        "Platform_Description": "An Embedded-Linux-Distribution for Phones"
+      }
+    },
     "Chromecast_OS_ARM": {
       "match": "*Linux* arm*",
       "lite": false,
@@ -2241,12 +2252,6 @@
       "standard": false,
       "inherits": "Windows"
     },
-    "Win32_B": {
-      "match": "*Windows; U*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Windows"
-    },
     "Win95": {
       "match": "*Win95*",
       "lite": false,
@@ -2335,7 +2340,7 @@
         "Platform_Description": "Windows NT"
       }
     },
-    "NT4_64": {
+    "NT_64": {
       "match": "*Windows NT; *WOW64*",
       "lite": false,
       "standard": false,
@@ -2348,21 +2353,7 @@
         "Win64": "true"
       }
     },
-    "NT40_64": {
-      "match": "*Windows NT 4.0; *WOW64*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Windows",
-      "properties": {
-        "Platform": "WinNT",
-        "Platform_Bits": "64",
-        "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT",
-        "Win32": "false",
-        "Win64": "true"
-      }
-    },
-    "NT4_x64": {
+    "NT_x64": {
       "match": "*Windows NT; Win64? x64*",
       "lite": false,
       "standard": false,
@@ -2430,6 +2421,20 @@
         "Platform_Description": "Windows NT"
       }
     },
+    "NT40_64": {
+      "match": "*Windows NT 4.0; *WOW64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Bits": "64",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "NT4_B": {
       "match": "*WinNT4.0*",
       "lite": false,
@@ -2474,17 +2479,6 @@
         "Platform_Description": "Windows 2000"
       }
     },
-    "Win2000_3": {
-      "match": "*Windows NT 5.01*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Windows",
-      "properties": {
-        "Platform": "Win2000",
-        "Platform_Version": "5.01",
-        "Platform_Description": "Windows 2000"
-      }
-    },
     "Win2000_2": {
       "match": "*Windows 2000*",
       "lite": false,
@@ -2493,6 +2487,17 @@
       "properties": {
         "Platform": "Win2000",
         "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    "Win2000_3": {
+      "match": "*Windows NT 5.01*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.01",
         "Platform_Description": "Windows 2000"
       }
     },
@@ -2751,6 +2756,20 @@
         "Win64": "true"
       }
     },
+    "Vista_64_Trident": {
+      "match": "*Windows NT 6.0*Trident/?.0*WOW64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinVista",
+        "Platform_Bits": "64",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Vista_x64": {
       "match": "*Windows NT 6.0;*Win64? x64*",
       "lite": false,
@@ -2817,8 +2836,37 @@
         "Win64": "true"
       }
     },
+    "Win7_64_Trident": {
+      "match": "*Windows NT 6.1*Trident/?.0*WOW64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Bits": "64",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Win7_x64": {
       "match": "*Windows NT 6.1*Win64? x64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform": "Win7",
+        "Platform_Bits": "64",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Win7_x64_Trident": {
+      "match": "*Windows NT 6.1*Trident/?.0*Win64? x64*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
@@ -4283,6 +4331,12 @@
         "Platform_Version": "8.0"
       }
     },
+    "Android_I": {
+      "match": "*Linux*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
     "Android_I_4_0": {
       "match": "*Linux* 4.0*",
       "lite": false,
@@ -4745,12 +4799,6 @@
         "Platform_Bits": "32"
       }
     },
-    "FreeBSD_386": {
-      "match": "*FreeBSD*i386*",
-      "lite": false,
-      "standard": false,
-      "inherits": "FreeBSD"
-    },
     "FreeBSD_64": {
       "match": "*FreeBSD x86_64*",
       "lite": false,
@@ -4786,12 +4834,6 @@
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
-    },
-    "OpenBSD_386": {
-      "match": "*OpenBSD*i386*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OpenBSD"
     },
     "OpenBSD_64": {
       "match": "*OpenBSD x86_64*",
@@ -5237,12 +5279,6 @@
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
-    },
-    "Unix_B": {
-      "match": "*Unix*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Unix"
     },
     "Bada": {
       "match": "*Bada*",

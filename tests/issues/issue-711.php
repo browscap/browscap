@@ -47,7 +47,7 @@ return [
     'issue-711-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
         'properties' => [
-            'Comment' => 'UC Browser 3.0',
+            'Comment' => 'UC Browser 3.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -363,7 +363,7 @@ return [
     'issue-711-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo B8000-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.5',
+            'Comment' => 'UC Browser 10.5 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

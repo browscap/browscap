@@ -46,7 +46,7 @@
             "Solaris",
             "Darwin",
             "RISC_OS",
-            "Unix_B"
+            "Unix"
           ]
         },
         {
@@ -80,7 +80,7 @@
             "Solaris",
             "Darwin",
             "RISC_OS",
-            "Unix_B"
+            "Unix"
           ]
         },
         {

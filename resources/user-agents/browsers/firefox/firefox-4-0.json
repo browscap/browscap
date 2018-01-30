@@ -40,7 +40,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_PPC_10_5", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX_PPC_10_5",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
           ]
         },
@@ -53,8 +54,7 @@
             "HPUX",
             "IRIX64",
             "SunOS",
-            "OS2",
-            "FreeBSD_386"
+            "OS2"
           ]
         },
         {

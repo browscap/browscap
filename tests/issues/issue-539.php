@@ -2457,7 +2457,7 @@ return [
     'issue-539-BW' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Mozilla) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2500,7 +2500,7 @@ return [
     'issue-539-BX' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; ALCATEL_one_touch_818) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2543,7 +2543,7 @@ return [
     'issue-539-BY' => [
         'ua' => 'UCWEB/2.0 (Java; U; MIDP-2.0; ru; SonyEricssonK790i) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2586,7 +2586,7 @@ return [
     'issue-539-BZ' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; C2305) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2629,7 +2629,7 @@ return [
     'issue-539-BZ (standard)' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; zh-CN; C2305) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.4',
@@ -2644,7 +2644,7 @@ return [
     'issue-539-CA' => [
         'ua' => 'UCWEB/2.0(Java; U; MIDP-2.0; fr-fr; generic) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.7',
+            'Comment' => 'UC Browser 8.7 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

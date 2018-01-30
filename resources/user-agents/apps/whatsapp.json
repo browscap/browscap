@@ -5,15 +5,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "WhatsApp",
+      "userAgent": "WhatsApp for iOS",
       "browser": "whatsapp",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS_H",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WhatsApp",
-        "Alpha": "false",
-        "Beta": "false"
+        "Comment": "WhatsApp"
       },
       "children": [
         {
@@ -34,11 +33,19 @@
             "iOS_H_5_0",
             "iOS_H"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "WhatsApp",
+      "browser": "whatsapp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp"
+      },
+      "children": [
         {
-          "match": "WhatsApp*",
-          "engine": "unknown",
-          "device": "unknown"
+          "match": "WhatsApp*"
         }
       ]
     }

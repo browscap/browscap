@@ -1024,61 +1024,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    // There was no 8.65 release of Opera. The last 8.x version was 8.54
-    // http://arc.opera.com/pub/opera/win/
-    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_8
-    'issue-000-invalid-versions-BJ' => [
-        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Version' => '0.0',
-            'Platform' => 'WinXP',
-        ],
-        'lite' => false,
-        'standard' => false,
-        'full' => true,
-    ],
-    // Same as above
-    'issue-000-invalid-versions-BK' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Version' => '0.0',
-            'Platform' => 'WinXP',
-        ],
-        'lite' => false,
-        'standard' => false,
-        'full' => true,
-    ],
-    // Same as above
-    'issue-000-invalid-versions-BL' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [en]',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Browser_Type' => 'Browser',
-            'Version' => '0.0',
-            'Platform' => 'WinXP',
-        ],
-        'lite' => false,
-        'standard' => false,
-        'full' => true,
-    ],
-    // There was also no 8.60 release
-    'issue-000-invalid-versions-BM' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.60 [en]',
-        'properties' => [
-            'Comment' => 'Opera Generic',
-            'Browser' => 'Opera',
-            'Version' => '0.0',
-            'Platform' => 'WinXP',
-        ],
-        'lite' => false,
-        'standard' => false,
-        'full' => true,
-    ],
     // There was no 7.60 version of Opera released, the last version in the 7.x series was 7.54
     // http://arc.opera.com/pub/opera/linux/
     // http://arc.opera.com/pub/opera/win/
@@ -2045,7 +1990,7 @@ return [
     'issue-000-invalid-versions-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; en-US; GT-I9300 Build/MocorDroid2.2.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.2',
+            'Comment' => 'UC Browser 10.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

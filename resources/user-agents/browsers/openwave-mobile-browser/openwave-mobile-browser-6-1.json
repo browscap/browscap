@@ -17,24 +17,20 @@
       },
       "children": [
         {
-          "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "LGE-LX5350": "LG LX5350",
-            "Panasonic-G60": "Panasonic G60",
-            "SAMSUNG-SGH-E700-OLYMPIC2004": "Samsung SGH-E700",
-            "SEC-SGHS300": "Samsung SGH-S300",
-            "SEC-SGHV200": "Samsung SGH-V200"
-          }
-        },
-        {
           "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "LGE-LX5350": "LG LX5350",
             "MOT-T720": "Motorola T720",
             "NEC-525": "NEC 525",
             "NEC-530": "NEC 530",
             "NEC-N8": "NEC N8",
             "Nokia1100": "Nokia 1100",
             "Nokia7650": "Nokia 7650",
+            "Panasonic-G60": "Panasonic G60",
+            "SAMSUNG-SGH-E700": "Samsung SGH-E700",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
+            "SEC-SGHS300": "Samsung SGH-S300",
+            "SEC-SGHV200": "Samsung SGH-V200",
             "SHARP-TQ-GX10i": "Sharp GX10I",
             "SIE-A31": "Siemens A31",
             "SIE-A31a": "Siemens A31A",
@@ -79,48 +75,12 @@
           "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Motorola-E365": "Motorola E365",
-            "SIE-CX65": "Siemens CX65"
+            "SAMSUNG-SGH-E700*": "Samsung SGH-E700",
+            "SEC-SGHV200-X100*": "Samsung SGH-V200",
+            "SIE-CX65": "Siemens CX65",
+            "SIE-M55-XP*": "Siemens M55-XP",
+            "SIE-M55*": "Siemens M55"
           }
-        },
-        {
-          "match": "#DEVICE#/BSI* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-E700": "Samsung SGH-E700"
-          }
-        },
-        {
-          "match": "#DEVICE#/BSI2.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-E700": "Samsung SGH-E700"
-          }
-        },
-        {
-          "match": "#DEVICE#/K3 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-X600": "Samsung SGH-X600"
-          }
-        },
-        {
-          "match": "#DEVICE#/PEARL UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SEC-SGHV200-X100": "Samsung SGH-V200"
-          }
-        },
-        {
-          "match": "#DEVICE#/91 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SIE-M55-XP": "Siemens M55-XP"
-          }
-        },
-        {
-          "match": "#DEVICE#/1* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SIE-M55": "Siemens M55"
-          }
-        },
-        {
-          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Nokia)"
         },
         {
           "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",

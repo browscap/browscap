@@ -1784,7 +1784,7 @@ return [
     'issue-1458-AJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5327g UCBrowser/10.9.1.998 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1827,7 +1827,7 @@ return [
     'issue-1458-AJ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5327g UCBrowser/10.9.1.998 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.9',
@@ -1842,7 +1842,7 @@ return [
     'issue-1458-AK' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5362a UCBrowser/10.9.1.998 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

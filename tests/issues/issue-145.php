@@ -4,7 +4,7 @@ return [
     'issue-145' => [
         'ua' => 'Nokia7230/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-145 (standard)' => [
         'ua' => 'Nokia7230/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',

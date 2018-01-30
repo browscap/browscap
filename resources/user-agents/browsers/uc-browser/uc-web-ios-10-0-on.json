@@ -13,7 +13,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

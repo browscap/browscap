@@ -8657,7 +8657,7 @@ return [
     'issue-1688-GO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-A500F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8700,7 +8700,7 @@ return [
     'issue-1688-GP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500H Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8743,7 +8743,7 @@ return [
     'issue-1688-GQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500F Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8786,7 +8786,7 @@ return [
     'issue-1688-GR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500H Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8829,7 +8829,7 @@ return [
     'issue-1688-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500F Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.796 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8872,7 +8872,7 @@ return [
     'issue-1688-GT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500G Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.5.809 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8915,7 +8915,7 @@ return [
     'issue-1688-GU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500H Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8958,7 +8958,7 @@ return [
     'issue-1688-GV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500F Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.796 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9001,7 +9001,7 @@ return [
     'issue-1688-GW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500G Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.5.809 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9044,7 +9044,7 @@ return [
     'issue-1688-GX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500H Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.796 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9087,7 +9087,7 @@ return [
     'issue-1688-GY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500YZ Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9130,7 +9130,7 @@ return [
     'issue-1688-GZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500F Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.5.809 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9173,7 +9173,7 @@ return [
     'issue-1688-HA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500FU Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9216,7 +9216,7 @@ return [
     'issue-1688-HB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500G Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9259,7 +9259,7 @@ return [
     'issue-1688-HC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; SM-A5000 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.0.558 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.4',
+            'Comment' => 'UC Browser 10.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9302,7 +9302,7 @@ return [
     'issue-1688-HD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500FU Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.0.731 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.9',
+            'Comment' => 'UC Browser 10.9 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9345,7 +9345,7 @@ return [
     'issue-1688-HE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A5000 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.8.855 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9388,7 +9388,7 @@ return [
     'issue-1688-HF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500F Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.8.855 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9431,7 +9431,7 @@ return [
     'issue-1688-HG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500G Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9474,7 +9474,7 @@ return [
     'issue-1688-HH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500H Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9517,7 +9517,7 @@ return [
     'issue-1688-HI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A5000 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.8.855 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9560,7 +9560,7 @@ return [
     'issue-1688-HJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500F Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9603,7 +9603,7 @@ return [
     'issue-1688-HK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500G Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.0.828 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9646,7 +9646,7 @@ return [
     'issue-1688-HL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500H Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.0.828 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9689,7 +9689,7 @@ return [
     'issue-1688-HM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500F Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.0.828 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9732,7 +9732,7 @@ return [
     'issue-1688-HN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500G Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.0.828 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9775,7 +9775,7 @@ return [
     'issue-1688-HO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500H Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9818,7 +9818,7 @@ return [
     'issue-1688-HP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500FU Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9861,7 +9861,7 @@ return [
     'issue-1688-HQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500S Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9904,7 +9904,7 @@ return [
     'issue-1688-HR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500FU Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9947,7 +9947,7 @@ return [
     'issue-1688-HS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; SM-A500FU Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9990,7 +9990,7 @@ return [
     'issue-1688-HT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; pt-BR; SM-A500M Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10033,7 +10033,7 @@ return [
     'issue-1688-HU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; SM-A500G Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.2.8.885 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10076,7 +10076,7 @@ return [
     'issue-1688-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; pt-BR; SM-A500M Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10119,7 +10119,7 @@ return [
     'issue-1688-HW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; SM-A500F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.2.995 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10162,7 +10162,7 @@ return [
     'issue-1688-HX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; SM-A5009 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.1.939 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10205,7 +10205,7 @@ return [
     'issue-1688-HY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500F Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.5.1005 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10248,7 +10248,7 @@ return [
     'issue-1688-HZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500FU Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.6.1017 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10291,7 +10291,7 @@ return [
     'issue-1688-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500G Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.5.1005 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10334,7 +10334,7 @@ return [
     'issue-1688-IB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.8.1012 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10377,7 +10377,7 @@ return [
     'issue-1688-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; SM-A500L Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.5.1005 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

@@ -13,7 +13,7 @@
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -224,13 +224,52 @@
       ]
     },
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "browser": "uc browser",
-      "engine": "WebKit",
-      "device": "general Mobile Phone (Nokia)",
+      "platform": "iOS",
+      "engine": "U2",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "devices": {
+            "iPh*": "iPhone"
+          },
+          "platforms": [
+            "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "SymbianOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -245,7 +284,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -271,37 +310,6 @@
           ]
         },
         {
-          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "devices": {
-            "BlackBerry": "Blackberry Blackberry",
-            "BlackBerry*8520/": "Blackberry 8520",
-            "BlackBerry*8530/": "Blackberry 8530",
-            "BlackBerry*9320/": "Blackberry 9320",
-            "BlackBerry*9700/": "Blackberry 9700"
-          },
-          "platforms": [
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED/*",
-          "devices": {
-            "samsung-gt-s5263": "Samsung GT-S5263"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (Java;*#DEVICE#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
           "devices": {
             "nokiae63-2": "Nokia E63",
@@ -309,30 +317,6 @@
           },
           "platforms": [
             "SymbianOS"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Java;*) UCBrowser#MAJORVER#.#MINORVER#.*UCWEB*Mobile*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Java;*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
-          "devices": {
-            "nokiae71-1": "Nokia E71-1",
-            "Nokia8600 Luna": "Nokia 8600"
-          },
-          "platforms": [
-            "Series40"
           ]
         },
         {
@@ -379,39 +363,100 @@
           ]
         },
         {
-          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
-          "devices": {
-            "samsung-gt-s3370": "Samsung GT-S3370",
-            "samsung-gt-s5620": "Samsung GT-S5620"
-          }
-        },
-        {
-          "match": "#DEVICE#/* UCBrowser#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Nokia201": "Nokia 201"
-          },
-          "platforms": [
-            "Asha"
-          ]
-        },
-        {
-          "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Nokia210": "Nokia 210"
-          },
-          "platforms": [
-            "Asha"
-          ]
-        },
-        {
-          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "nokia6120c": "Nokia 6120c"
           },
           "platforms": [
             "SymbianOS"
           ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2"
         },
+        {
+          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
+          "devices": {
+            "samsung-gt-s5263": "Samsung GT-S5263"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*) UCBrowser#MAJORVER#.#MINORVER#.*UCWEB*Mobile*"
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*UCWEB*Mobile*"
+        },
+        {
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "samsung-gt-s3370": "Samsung GT-S3370",
+            "samsung-gt-s5620": "Samsung GT-S5620"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for RimOS",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "Blackberry Blackberry",
+      "platform": "RIMOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for RimOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "devices": {
+            "7130": "Blackberry 7130",
+            "8520": "Blackberry 8520",
+            "8530": "Blackberry 8530",
+            "9320": "Blackberry 9320",
+            "9700": "Blackberry 9700"
+          },
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
+            "RIMOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "platform": "Series40",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
@@ -423,7 +468,16 @@
         },
         {
           "match": "Nokia*/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Nokia)",
+          "platforms": [
+            "Series40"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*#DEVICE#) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*",
+          "devices": {
+            "nokiae71-1": "Nokia E71-1",
+            "Nokia8600 Luna": "Nokia 8600"
+          },
           "platforms": [
             "Series40"
           ]
@@ -440,7 +494,6 @@
         },
         {
           "match": "Nokia*/* UCBrowser#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
           ]
@@ -470,19 +523,69 @@
           "platforms": [
             "Series40"
           ]
-        },
-        {
-          "match": "*/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
-          "device": "general Mobile Phone (Touch)"
         }
       ]
     },
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Asha",
       "browser": "uc browser",
-      "platform": "iOS",
-      "engine": "U2",
-      "device": "general Mobile Device (Apple)",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "platform": "Asha",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Asha",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* UCBrowser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia201": "Nokia 201"
+          },
+          "platforms": [
+            "Asha"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia210": "Nokia 210"
+          },
+          "platforms": [
+            "Asha"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8_B",
+            "WinPhone7_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -490,14 +593,8 @@
       },
       "children": [
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "platforms": [
-            "iOS_D_8_0",
-            "iOS_D_7_1", "iOS_D_7_0",
-            "iOS_D_6_1", "iOS_D_6_0",
-            "iOS_D_5_1", "iOS_D_5_0",
-            "iOS_D"
-          ]
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
         }
       ]
     }

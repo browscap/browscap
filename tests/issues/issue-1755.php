@@ -47,7 +47,7 @@ return [
     'issue-1755-B' => [
         'ua' => 'NokiaE71/UC Browser8.0.4.121/28/444/UCWEB',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-1755-B (standard)' => [
         'ua' => 'NokiaE71/UC Browser8.0.4.121/28/444/UCWEB',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.0',
@@ -105,7 +105,7 @@ return [
     'issue-1755-C' => [
         'ua' => 'NOKIAN95 8GB/UC Browser8.0.3.107/28/444/UCWEB',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -148,7 +148,7 @@ return [
     'issue-1755-C (standard)' => [
         'ua' => 'NOKIAN95 8GB/UC Browser8.0.3.107/28/444/UCWEB',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '8.0',

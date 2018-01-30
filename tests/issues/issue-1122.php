@@ -4,7 +4,7 @@ return [
     'issue-1122-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; PacificVS Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1122-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; ru) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11D257 UCBrowser/10.8.2.852 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-1122-B (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X; ru) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11D257 UCBrowser/10.8.2.852 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.8',

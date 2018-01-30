@@ -434,7 +434,7 @@ return [
     'issue-1731-K' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.1; en-US; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.6.1017 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

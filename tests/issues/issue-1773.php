@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1773-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MobileIron/2.2.0 Version/10.3.3 Safari/603.3.8',
+        'properties' => [
+            'Comment' => 'MobileIron 2.2',
+            'Browser' => 'MobileIron',
+            'Browser_Maker' => 'MobileIron',
+            'Version' => '2.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1773-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Focus/4.0.1 Mobile/15C202',
         'properties' => [
@@ -86,6 +101,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1773-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Focus/4.0.1 Mobile/15C202',
+        'properties' => [
+            'Comment' => 'Firefox Focus 4.0',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '4.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1773-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G935F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.3 Chrome/56.0.2924.87 Mobile Safari/537.36',
@@ -259,6 +289,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1773-F (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C202 NAVER(inapp; search; 580; 8.4.3; SE)',
+        'properties' => [
+            'Comment' => 'Naver 8.4 for iOS',
+            'Browser' => 'Naver',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '8.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1773-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) FxiOS/10.4b8288 Mobile/15C153 Safari/604.4.7',
         'properties' => [
@@ -305,7 +350,7 @@ return [
     'issue-1773-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15C114 UCBrowser/11.1.0.1045 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -345,10 +390,25 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1773-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15C114 UCBrowser/11.1.0.1045 Mobile',
+        'properties' => [
+            'Comment' => 'UC Browser 11.1 for iOS',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '11.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1773-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5370a UCBrowser/11.1.0.1045 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.1',
+            'Comment' => 'UC Browser 11.1 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -388,10 +448,25 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1773-I (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15A5370a UCBrowser/11.1.0.1045 Mobile',
+        'properties' => [
+            'Comment' => 'UC Browser 11.1 for iOS',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '11.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1773-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B202 UCBrowser/11.2.1.1052 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -431,10 +506,25 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1773-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15B202 UCBrowser/11.2.1.1052 Mobile',
+        'properties' => [
+            'Comment' => 'UC Browser 11.2 for iOS',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '11.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1773-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X; vi) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/14G60 UCBrowser/11.2.1.1052 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -473,6 +563,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1773-K (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X; vi) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/14G60 UCBrowser/11.2.1.1052 Mobile',
+        'properties' => [
+            'Comment' => 'UC Browser 11.2 for iOS',
+            'Browser' => 'UC Browser',
+            'Browser_Maker' => 'UCWeb Inc.',
+            'Version' => '11.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1773-L' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 YaBrowser/17.11.1.743.11 Mobile/15A432 Safari/604.1',

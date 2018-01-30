@@ -39,9 +39,7 @@
             "FreeBSD",
             "OpenBSD_64_2", "OpenBSD",
             "NetBSD",
-            "SunOS",
-            "FreeBSD_386",
-            "OpenBSD_386"
+            "SunOS"
           ]
         }
       ]

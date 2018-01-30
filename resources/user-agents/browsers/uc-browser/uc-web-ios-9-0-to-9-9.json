@@ -13,7 +13,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -39,8 +39,11 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
+          "devices": {
+            "iPh*": "iPhone"
+          },
           "platforms": [
             "iOS_D_8_3", "iOS_D_8_2", "iOS_D_8_1", "iOS_D_8_0",
             "iOS_D_7_1", "iOS_D_7_0",
@@ -61,13 +64,10 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
-          "devices": {
-            "iPh*": "iPhone"
-          },
           "platforms": [
-            "iOS_D_8_0",
+            "iOS_D_8_3", "iOS_D_8_2", "iOS_D_8_1", "iOS_D_8_0",
             "iOS_D_7_1", "iOS_D_7_0",
             "iOS_D_6_1", "iOS_D_6_0",
             "iOS_D_5_1", "iOS_D_5_0",

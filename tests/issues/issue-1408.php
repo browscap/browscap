@@ -4,7 +4,7 @@ return [
     'issue-1408-A' => [
         'ua' => 'SAMSUNG-B5722/B5722XXJA1, SAMSUNG-GT-B5722/B5722XXJA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1408-A (standard)' => [
         'ua' => 'SAMSUNG-B5722/B5722XXJA1, SAMSUNG-GT-B5722/B5722XXJA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Maker' => 'Samsung',
             'Version' => '0.0',
@@ -62,7 +62,7 @@ return [
     'issue-1408-B' => [
         'ua' => 'samsung-b5722/UC Browser7.2.2.51/70/400, SAMSUNG-GT-B5722/B5722XXJI1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.2',
+            'Comment' => 'UC Browser 7.2 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -105,7 +105,7 @@ return [
     'issue-1408-C' => [
         'ua' => 'samsung-gt-e2152/UC Browser7.2.2.51/70/400, SAMSUNG-GT-E2152/E2152XXJH3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.2',
+            'Comment' => 'UC Browser 7.2 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -148,7 +148,7 @@ return [
     'issue-1408-C (standard)' => [
         'ua' => 'samsung-gt-e2152/UC Browser7.2.2.51/70/400, SAMSUNG-GT-E2152/E2152XXJH3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 7.2',
+            'Comment' => 'UC Browser 7.2 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '7.2',
@@ -203,10 +203,25 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1408-D (standard)' => [
+        'ua' => 'SAMSUNG-GT-S3501C/1.0 Release/09.10.2009 Browser/NetFront3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0',
+        'properties' => [
+            'Comment' => 'NetFront NX 3.4',
+            'Browser' => 'NetFront NX',
+            'Browser_Maker' => 'Access',
+            'Version' => '3.4',
+            'Platform' => 'JAVA',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1408-E' => [
         'ua' => 'SAMSUNG-GT-S3770Y/S3770YXXLC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -249,7 +264,7 @@ return [
     'issue-1408-E (standard)' => [
         'ua' => 'SAMSUNG-GT-S3770Y/S3770YXXLC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Maker' => 'Samsung',
             'Version' => '0.0',
@@ -264,7 +279,7 @@ return [
     'issue-1408-F' => [
         'ua' => 'SAMSUNG-GT-C3322/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -307,7 +322,7 @@ return [
     'issue-1408-G' => [
         'ua' => 'SAMSUNG-SGH-G600/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2156,7 +2171,7 @@ return [
     'issue-1408-AX' => [
         'ua' => 'SAMSUNG-GT-C3262/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2199,7 +2214,7 @@ return [
     'issue-1408-AX (standard)' => [
         'ua' => 'SAMSUNG-GT-C3262/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Maker' => 'Samsung',
             'Version' => '0.0',
@@ -4181,7 +4196,7 @@ return [
     'issue-1408-CQ' => [
         'ua' => 'SonyEricssonW910i/R1FA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 UCWEB/2.0 (Java; U; MIDP-2.0; xx; SonyEricssonW910i) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Symbian',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

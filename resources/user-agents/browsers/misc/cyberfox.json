@@ -20,7 +20,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Cyberfox/*",
           "platforms": [
-            "Win10_x64_B", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",

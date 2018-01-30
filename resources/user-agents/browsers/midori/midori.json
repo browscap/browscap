@@ -59,7 +59,7 @@
           "match": "Midori/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win32_B"
+            "Windows"
           ]
         },
         {

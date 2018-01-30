@@ -4,7 +4,7 @@ return [
     'issue-1313-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; m2 Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.8.945 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1313-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; TZ43 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.5.932 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-1313-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-US; Prime S Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -133,7 +133,7 @@ return [
     'issue-1313-D' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0; en-US; LG-H422 Build/MRA58K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.2.0.915 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.2',
+            'Comment' => 'UC Browser 11.2 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

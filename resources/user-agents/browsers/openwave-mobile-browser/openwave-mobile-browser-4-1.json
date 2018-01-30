@@ -17,20 +17,16 @@
       },
       "children": [
         {
-          "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Alcatel-BF3": "Alcatel BF3",
             "LG-C810": "LG C810",
-            "LGE-TM520": "LG TM520"
-          }
-        },
-        {
-          "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
             "LGE-AD5235": "LG AD5235",
             "LGE-CU8080": "LG CU8080",
+            "LGE-TM520": "LG TM520",
             "MOT-1.2.2": "Motorola 122",
             "MOT-76": "Motorola 76",
+            "MOT-A-0A": "Motorola A-0A",
             "MOT-A-1F": "Motorola A-1F",
             "MOT-A-2B": "Motorola A-2B",
             "MOT-A-88": "Motorola A-88",
@@ -45,28 +41,19 @@
             "NOKIA-RH-17": "Nokia RH-17",
             "NOKIA-RH-44": "Nokia RH-44",
             "Nokia2112": "Nokia 2112",
+            "SAMSUNG-SGH-A300": "Samsung SGH-A300",
+            "SAMSUNG-SGH-N620": "Samsung SGH-N620",
             "SAMSUNG-SGH-T100": "Samsung SGH-T100",
             "SEC-SGHQ200": "Samsung SGH-Q200",
             "ZTE-C880": "ZTE C880"
           }
         },
         {
-          "match": "#DEVICE#/* UP/* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-A300": "Samsung SGH-A300",
-            "SAMSUNG-SGH-N620": "Samsung SGH-N620"
-          }
-        },
-        {
-          "match": "#DEVICE#/00.0? UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "MOT-A-0A": "Motorola A-0A"
-          }
-        },
-        {
           "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "LGE-AX3200": "LG AX3200",
             "LGE-AX5450": "LG AX5450",
+            "LGE-LG3200": "LG 3200",
             "LGE-VX6000": "LG VX6000",
             "MOT-1.2.0*": "Motorola 120",
             "MOT-PAN4_*": "Motorola PAN4",
@@ -80,18 +67,6 @@
             "SEC-schx609": "Samsung SCH-X609",
             "SEC-schx659": "Samsung SCH-X659",
             "SEC-spha500": "Samsung SPH-A500"
-          }
-        },
-        {
-          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#.26*",
-          "devices": {
-            "LGE-AX3200": "LG AX3200"
-          }
-        },
-        {
-          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#.27*",
-          "devices": {
-            "LGE-LG3200": "LG 3200"
           }
         },
         {

@@ -1036,7 +1036,7 @@ return [
     'issue-1757-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Redmi Note 4 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',
         'properties' => [
-            'Comment' => 'UC Browser 3.4',
+            'Comment' => 'UC Browser 3.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1681,7 +1681,7 @@ return [
     'issue-1757-AN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; Redmi Note 4 Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.820 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1724,7 +1724,7 @@ return [
     'issue-1757-AO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; Redmi Note 4 Build/MMB29M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.0.828 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1767,7 +1767,7 @@ return [
     'issue-1757-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en-US; Redmi Note 4 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.2.995 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1896,7 +1896,7 @@ return [
     'issue-1757-AS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.0; en-US; NEM-L51 Build/HONORNEM-L51) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.4.2.995 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1939,7 +1939,7 @@ return [
     'issue-1757-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.0; en-US; Redmi Note 4 Build/NRD90M) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.8.855 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.0',
+            'Comment' => 'UC Browser 11.0 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1982,7 +1982,7 @@ return [
     'issue-1757-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.0; en-US; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.5.1005 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2025,7 +2025,7 @@ return [
     'issue-1757-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.1.2; en-US; Redmi Note 4 Build/NJH47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.4.2.995 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2068,7 +2068,7 @@ return [
     'issue-1757-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.1.2; en-US; Redmi Note 4 Build/NJH47F) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.6.1017 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

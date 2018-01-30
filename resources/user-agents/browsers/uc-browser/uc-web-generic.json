@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
           "device": "general Tablet",
           "platforms": [
             "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
@@ -185,32 +185,81 @@
           "match": "Opera (#PLATFORM#) UCWEB*",
           "engine": "WebKit",
           "platforms": [
-            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0",
+            "Android_I"
           ]
         }
       ]
     },
     {
-      "userAgent": "UC Browser Generic",
+      "userAgent": "UC Browser Generic for WinPhone",
       "browser": "uc browser",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser Generic"
+        "Comment": "UC Browser Generic for WinPhone"
       },
       "children": [
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
           "platforms": [
-            "WinPhone8.1_B",
-            "WinPhone8_B",
-            "WinPhone7_C",
-            "SymbianOS_B",
-            "RIMOS",
-            "any"
+            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone7_C"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for Symbian",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "SymbianOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic for Symbian"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
+          "platforms": [
+            "SymbianOS_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for RimOS",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "general Mobile Phone (Blackberry)",
+      "platform": "RIMOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic for RimOS"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for Java",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "general Mobile Phone",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic for Java"
+      },
+      "children": [
         {
           "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/*",
           "platforms": [
@@ -231,18 +280,22 @@
           "platforms": [
             "JAVA"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for Series40",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "general Mobile Phone (Nokia)",
+      "platform": "Series40",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic for Series40"
+      },
+      "children": [
         {
-          "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/* U2/* Mobile*",
-          "device": "general Mobile Phone (Nokia)",
-          "platforms": [
-            "Series40"
-          ]
-        },
-        {
-          "match": "Nokia*/* Profile/MIDP-2* (*) applewebkit* (*khtml*like*gecko*) UCBrowser/*",
-          "engine": "WebKit",
-          "device": "general Mobile Phone (Nokia)",
+          "match": "Nokia*/* UCBrowser/*",
           "platforms": [
             "Series40"
           ]
@@ -299,7 +352,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
           "engine": "U2",
           "platforms": [
             "iOS_D_8_0",
@@ -346,6 +399,24 @@
             "Win2000",
             "NT4",
             "Windows"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic",
+      "browser": "uc browser",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
+          "platforms": [
+            "any"
           ]
         }
       ]

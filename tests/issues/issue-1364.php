@@ -4,7 +4,7 @@ return [
     'issue-1364-A' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1067_1005) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1364-B' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1090_1001) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-1364-C' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1141_1000) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 4.2',
+            'Comment' => 'UC Browser 4.2 for WinPhone',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

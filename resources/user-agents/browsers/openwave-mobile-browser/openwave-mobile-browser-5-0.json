@@ -17,23 +17,23 @@
       },
       "children": [
         {
-          "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Alcatel-BF5": "Alcatel BF5",
             "Alcatel-BG3": "Alcatel BG3",
             "Alcatel-BG3-color": "Alcatel BG3",
-            "Nokia3650": "Nokia 3650",
-            "SAMSUNG-SGH-A800": "Samsung SGH-A800",
-            "SEC-SGHC100": "Samsung SGH-C100",
-            "SEC-SGHC100G": "Samsung SGH-C100G",
-            "SEC-SGHX430": "Samsung SGH-X430"
-          }
-        },
-        {
-          "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
             "MOT-ED": "Motorola ED",
             "MOT-FE": "Motorola FE",
+            "Motorola-T33": "Motorola T33",
+            "Nokia3650": "Nokia 3650",
+            "SAMSUNG-SGH-A800": "Samsung SGH-A800",
+            "SAMSUNG-SGH-S500": "Samsung SGH-S500",
+            "SAMSUNG-SGH-S508": "Samsung SGH-S508",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
+            "SCH-X859": "Samsung SCH-X859",
+            "SEC-SGHC100": "Samsung SGH-C100",
+            "SEC-SGHC100G": "Samsung SGH-C100G",
+            "SEC-SGHX430": "Samsung SGH-X430",
             "SIE-M55": "Siemens M55",
             "SIE-ME45": "Siemens ME45",
             "SIE-S55": "Siemens S55",
@@ -42,70 +42,20 @@
           }
         },
         {
-          "match": "#DEVICE#/* KM.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "MOT-EF": "Motorola EF"
-          }
-        },
-        {
-          "match": "#DEVICE#/1.5.1a UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Motorola-T33": "Motorola T33"
-          }
-        },
-        {
-          "match": "#DEVICE#/SHARK UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-S500": "Samsung SGH-S500"
-          }
-        },
-        {
-          "match": "#DEVICE#/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-S508": "Samsung SGH-S508"
-          }
-        },
-        {
-          "match": "#DEVICE#/K3 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SAMSUNG-SGH-X600": "Samsung SGH-X600"
-          }
-        },
-        {
-          "match": "#DEVICE#/4.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SCH-X859": "Samsung SCH-X859"
-          }
-        },
-        {
-          "match": "#DEVICE#/1? UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SIE-M55": "Siemens M55",
-            "SIE-S55": "Siemens S55"
-          }
-        },
-        {
-          "match": "#DEVICE#/4.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "BlackBerry7280": "Blackberry 7280",
-            "BlackBerry7520": "Blackberry 7520"
-          },
-          "platforms": [
-            "RIMOS_4_0"
-          ]
-        },
-        {
           "match": "#DEVICE#/4.* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "BlackBerry7280": "Blackberry 7280",
+            "BlackBerry7520": "Blackberry 7520",
             "BlackBerry8130": "Blackberry 8130",
-            "BlackBerry8330": "Blackberry 8330"
+            "BlackBerry8330": "Blackberry 8330",
+            "BlackBerry8700": "Blackberry 8700"
           },
           "platforms": [
             "RIMOS_4_0"
           ]
         },
         {
-          "match": "#DEVICE#/4.5* VendorID/126 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/4.5* UP.Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "BlackBerry8330": "Blackberry 8330"
           },
@@ -114,20 +64,17 @@
           ]
         },
         {
-          "match": "#DEVICE#/4.* VendorID/1 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "BlackBerry8700": "Blackberry 8700"
-          },
-          "platforms": [
-            "RIMOS_4_0"
-          ]
-        },
-        {
           "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Nokia)"
         },
         {
           "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "#DEVICE#/* KM.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-EF": "Motorola EF"
+          }
         }
       ]
     }

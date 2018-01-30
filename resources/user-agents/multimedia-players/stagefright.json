@@ -18,8 +18,10 @@
       },
       "children": [
         {
-          "match": "Samsung SM-N9005 stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
-          "device": "Samsung SM-N9005",
+          "match": "#DEVICE# stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "devices": {
+            "Samsung SM-N9005": "Samsung SM-N9005"
+          },
           "platforms": [
             "Android_4_4"
           ]

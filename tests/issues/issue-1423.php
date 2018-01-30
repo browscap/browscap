@@ -733,7 +733,7 @@ return [
             'Version' => '4.8',
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.5',
-            'Platform_Description' => 'Mac OS X',
+            'Platform_Description' => 'Mac OS X for Power PC',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'Alpha' => false,
@@ -1801,7 +1801,7 @@ return [
     'issue-01423-AM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14D27 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1844,7 +1844,7 @@ return [
     'issue-01423-AM (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14D27 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.8',
@@ -1859,7 +1859,7 @@ return [
     'issue-01423-AN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14E277 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1902,7 +1902,7 @@ return [
     'issue-01423-AN (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/14E277 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.8',
@@ -1917,7 +1917,7 @@ return [
     'issue-01423-AO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/13G36 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1960,7 +1960,7 @@ return [
     'issue-01423-AO (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X; en-US) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/23.0.1271.100 Mobile/13G36 Safari/7534.48.3 UCBrowser/10.8.8.920',
         'properties' => [
-            'Comment' => 'UC Browser 10.8',
+            'Comment' => 'UC Browser 10.8 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '10.8',
@@ -6950,7 +6950,7 @@ return [
     'issue-01423-FA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.0',
+            'Comment' => 'Nokia Browser 1.0 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6993,7 +6993,7 @@ return [
     'issue-01423-FA (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.0',
+            'Comment' => 'Nokia Browser 1.0 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '1.0',
@@ -7008,7 +7008,7 @@ return [
     'issue-01423-FB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.2',
+            'Comment' => 'Nokia Browser 1.2 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7051,7 +7051,7 @@ return [
     'issue-01423-FB (standard)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12',
         'properties' => [
-            'Comment' => 'Nokia Browser 1.2',
+            'Comment' => 'Nokia Browser 1.2 for Android',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '1.2',
@@ -14862,7 +14862,7 @@ return [
     'issue-01423-LN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36 UCBrowser/11.4.5.937',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

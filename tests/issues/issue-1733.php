@@ -262,7 +262,7 @@ return [
     'issue-1733-G' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.0; en-US; SM-G935F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.6.1017 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 11.4',
+            'Comment' => 'UC Browser 11.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

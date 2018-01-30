@@ -10,6 +10,7 @@
       "browser": "google earth",
       "engine": "WebKit",
       "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google Earth #MAJORVER#.#MINORVER#",

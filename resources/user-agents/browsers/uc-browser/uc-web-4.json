@@ -6,14 +6,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
       "platform": "WinPhone",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone10_B",
             "WinPhone8.1_B",
@@ -123,7 +123,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

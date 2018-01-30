@@ -4,7 +4,7 @@ return [
     'issue-mobiles-G' => [
         'ua' => 'S8500 UCWEB6.0/UC Browser7.7.0.81',
         'properties' => [
-            'Comment' => 'UC Browser 7.7',
+            'Comment' => 'UC Browser 7.7 for Bada',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,11 +47,11 @@ return [
     'issue-mobiles-G (standard)' => [
         'ua' => 'S8500 UCWEB6.0/UC Browser7.7.0.81',
         'properties' => [
-            'Comment' => 'UC Browser 7.7',
+            'Comment' => 'UC Browser 7.7 for Java',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '7.7',
-            'Platform' => 'unknown',
+            'Platform' => 'JAVA',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
         ],

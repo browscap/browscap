@@ -4,7 +4,7 @@ return [
     'issue-873-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; XT1021 Build/LPC23.13-34.8) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.7.5.658 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.7',
+            'Comment' => 'UC Browser 10.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

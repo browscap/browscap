@@ -305,7 +305,7 @@ return [
     'issue-1048-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; HTC One M9 Build/MRA58K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.8.822 U3/0.8.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'UC Browser 10.10',
+            'Comment' => 'UC Browser 10.10 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

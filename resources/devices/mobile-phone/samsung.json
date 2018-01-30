@@ -43,7 +43,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "C3050",
-            "Device_Name": "C3050",
+            "Device_Name": "Stratus",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "unknown",
@@ -56,7 +56,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "C3053",
-            "Device_Name": "C3053",
+            "Device_Name": "Stratus",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "unknown",
@@ -905,6 +905,19 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-I8910": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8910",
+            "Device_Name": "Omnia HD",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

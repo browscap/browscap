@@ -176,7 +176,7 @@ return [
     'issue-470-E' => [
         'ua' => 'Nokia2320c-2b/2.0(ATT.11.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Series40',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -219,7 +219,7 @@ return [
     'issue-470-E (standard)' => [
         'ua' => 'Nokia2320c-2b/2.0(ATT.11.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
         'properties' => [
-            'Comment' => 'Nokia Browser',
+            'Comment' => 'Nokia Browser for Java',
             'Browser' => 'Nokia Browser',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',

@@ -4,7 +4,7 @@ return [
     'issue-381-A' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; L3) U2/1.0.0 UCBrowser/9.3.0.440 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.3',
+            'Comment' => 'UC Browser 9.3 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

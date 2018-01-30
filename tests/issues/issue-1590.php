@@ -2449,7 +2449,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BF' => [
@@ -2492,7 +2492,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BG' => [
@@ -2535,7 +2535,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BH' => [
@@ -2578,7 +2578,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BI' => [
@@ -2621,7 +2621,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BJ' => [
@@ -2664,7 +2664,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BK' => [
@@ -2707,7 +2707,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BL' => [
@@ -2750,7 +2750,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BM' => [
@@ -2793,7 +2793,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BN' => [
@@ -2836,7 +2836,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BO' => [
@@ -2879,7 +2879,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BP' => [
@@ -2922,7 +2922,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BQ' => [
@@ -2965,7 +2965,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BR' => [
@@ -3008,7 +3008,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BS' => [
@@ -3051,7 +3051,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1590-BT' => [
@@ -3169,7 +3169,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '0',
-            'Device_Name' => 'C3050',
+            'Device_Name' => 'Stratus',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',

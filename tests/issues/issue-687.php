@@ -421,7 +421,7 @@ return [
     'issue-687-L' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 4.2.0.201; en-us; 8530/4.2.0.201) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.1',
+            'Comment' => 'UC Browser 8.1 for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -464,7 +464,7 @@ return [
     'issue-687-L (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 4.2.0.201; en-us; 8530/4.2.0.201) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -479,7 +479,7 @@ return [
     'issue-687-M' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -522,7 +522,7 @@ return [
     'issue-687-M (standard)' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -580,7 +580,7 @@ return [
     'issue-687-O' => [
         'ua' => 'Nokia305/2.0 (05.92) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -623,7 +623,7 @@ return [
     'issue-687-O (standard)' => [
         'ua' => 'Nokia305/2.0 (05.92) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -638,7 +638,7 @@ return [
     'issue-687-P' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 9.49.0.31; en-us; 9320/9.49.0.31) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile - 23',
         'properties' => [
-            'Comment' => 'UC Browser 8.1',
+            'Comment' => 'UC Browser 8.1 for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -681,7 +681,7 @@ return [
     'issue-687-P (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 9.49.0.31; en-us; 9320/9.49.0.31) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile - 23',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -941,7 +941,7 @@ return [
     'issue-687-V' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.7',
+            'Comment' => 'UC Browser 9.7 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -984,7 +984,7 @@ return [
     'issue-687-W' => [
         'ua' => 'Nokia210/2.0 (06.09) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1027,7 +1027,7 @@ return [
     'issue-687-W (standard)' => [
         'ua' => 'Nokia210/2.0 (06.09) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.4',
@@ -1042,7 +1042,7 @@ return [
     'issue-687-X' => [
         'ua' => 'NokiaX2-02/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1085,7 +1085,7 @@ return [
     'issue-687-Y' => [
         'ua' => 'Nokia308/2.0 (08.13) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1128,7 +1128,7 @@ return [
     'issue-687-Y (standard)' => [
         'ua' => 'Nokia308/2.0 (08.13) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1143,7 +1143,7 @@ return [
     'issue-687-Z' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1186,7 +1186,7 @@ return [
     'issue-687-Z (standard)' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1244,7 +1244,7 @@ return [
     'issue-687-AB' => [
         'ua' => 'NokiaX2-01/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1287,7 +1287,7 @@ return [
     'issue-687-AC' => [
         'ua' => 'NokiaX2-02/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1373,7 +1373,7 @@ return [
     'issue-687-AE' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/10.1.5.583 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 10.1',
+            'Comment' => 'UC Browser 10.1 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1416,7 +1416,7 @@ return [
     'issue-687-AF' => [
         'ua' => 'NokiaX2-01/5.0 (08.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1502,7 +1502,7 @@ return [
     'issue-687-AH' => [
         'ua' => 'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1545,7 +1545,7 @@ return [
     'issue-687-AH (standard)' => [
         'ua' => 'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1560,7 +1560,7 @@ return [
     'issue-687-AI' => [
         'ua' => 'Nokia311/5.0 (07.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1603,7 +1603,7 @@ return [
     'issue-687-AI (standard)' => [
         'ua' => 'Nokia311/5.0 (07.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1618,7 +1618,7 @@ return [
     'issue-687-AJ' => [
         'ua' => 'Nokia200/2.0 (11.64) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1661,7 +1661,7 @@ return [
     'issue-687-AJ (standard)' => [
         'ua' => 'Nokia200/2.0 (11.64) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.4',
@@ -1676,7 +1676,7 @@ return [
     'issue-687-AK' => [
         'ua' => 'NokiaX2-01/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1719,7 +1719,7 @@ return [
     'issue-687-AL' => [
         'ua' => 'Nokia308/2.0 (05.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1762,7 +1762,7 @@ return [
     'issue-687-AL (standard)' => [
         'ua' => 'Nokia308/2.0 (05.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1820,7 +1820,7 @@ return [
     'issue-687-AN' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 5.2.0.104; en-us; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.1',
+            'Comment' => 'UC Browser 8.1 for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1863,7 +1863,7 @@ return [
     'issue-687-AN (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 5.2.0.104; en-us; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -1878,7 +1878,7 @@ return [
     'issue-687-AO' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1921,7 +1921,7 @@ return [
     'issue-687-AO (standard)' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -1936,7 +1936,7 @@ return [
     'issue-687-AP' => [
         'ua' => 'NokiaX2-02/2.0 (11.57) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1979,7 +1979,7 @@ return [
     'issue-687-AQ' => [
         'ua' => 'Nokia200/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2022,7 +2022,7 @@ return [
     'issue-687-AQ (standard)' => [
         'ua' => 'Nokia200/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -2037,7 +2037,7 @@ return [
     'issue-687-AR' => [
         'ua' => 'Nokia206/2.0 (04.52) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia206) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2123,7 +2123,7 @@ return [
     'issue-687-AT' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 6.6.0.236; en-us; 9700/6.6.0.236) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 8.1',
+            'Comment' => 'UC Browser 8.1 for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2166,7 +2166,7 @@ return [
     'issue-687-AT (standard)' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 6.6.0.236; en-us; 9700/6.6.0.236) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for RimOS',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '0.0',
@@ -2267,7 +2267,7 @@ return [
     'issue-687-AW' => [
         'ua' => 'NokiaC2-03/2.0 (07.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaC2-03) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2310,7 +2310,7 @@ return [
     'issue-687-AX' => [
         'ua' => 'Nokia110/2.0 (03.47) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia110) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2353,7 +2353,7 @@ return [
     'issue-687-AY' => [
         'ua' => 'NokiaX2-01/5.0 (08.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2396,7 +2396,7 @@ return [
     'issue-687-AZ' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2439,7 +2439,7 @@ return [
     'issue-687-AZ (standard)' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -2512,7 +2512,7 @@ return [
     'issue-687-BB' => [
         'ua' => 'NokiaX3-02/5.0 (07.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX3-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2555,7 +2555,7 @@ return [
     'issue-687-BB (standard)' => [
         'ua' => 'NokiaX3-02/5.0 (07.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX3-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',
@@ -2570,7 +2570,7 @@ return [
     'issue-687-BC' => [
         'ua' => 'Nokia205/2.0 (03.19) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia205) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Asha',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2613,7 +2613,7 @@ return [
     'issue-687-BC (standard)' => [
         'ua' => 'Nokia205/2.0 (03.19) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia205) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.5',
+            'Comment' => 'UC Browser 9.5 for Series40',
             'Browser' => 'UC Browser',
             'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.5',

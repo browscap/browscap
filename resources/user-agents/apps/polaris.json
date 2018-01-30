@@ -50,18 +50,11 @@
           }
         },
         {
-          "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* Samsung SCH-U820",
-          "device": "Samsung SCH-U820",
-          "platforms": [
-            "Brew_3_1"
-          ],
-          "properties": {
-            "Version": "6.2"
-          }
-        },
-        {
-          "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* LGE VX8575",
-          "device": "LG VX8575",
+          "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* #DEVICE#",
+          "devices": {
+            "LGE VX8575": "LG VX8575",
+            "Samsung SCH-U820": "Samsung SCH-U820"
+          },
           "platforms": [
             "Brew_3_1"
           ],
@@ -79,25 +72,27 @@
           }
         },
         {
-          "match": "UTSTARCOM-GTX75/* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
-          "device": "UTStarcom GTX75",
-          "properties": {
-            "Version": "6.0"
-          }
-        },
-        {
-          "match": "* POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0",
-          "properties": {
-            "Version": "6.0"
-          }
-        },
-        {
           "match": "POLARIS/6.1 (BREW 3.1*)*",
           "platforms": [
             "Brew_3_1"
           ],
           "properties": {
-            "Version": "6.1"
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "#DEVICE#/* POLARIS/6.00 *",
+          "properties": {
+            "Version": "6.0"
+          },
+          "devices": {
+            "UTSTARCOM-GTX75": "UTStarcom GTX75"
+          }
+        },
+        {
+          "match": "* POLARIS/6.00 *",
+          "properties": {
+            "Version": "6.0"
           }
         }
       ]

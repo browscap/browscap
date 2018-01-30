@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
@@ -44,13 +44,25 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?*.?*; #PLATFORM#trident/?.0*)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64_Trident", "Vista_64", "Vista_32",
             "WinXPb_32",
             "WinXPa_32"
           ]

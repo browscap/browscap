@@ -363,7 +363,7 @@ return [
     'issue-317-I' => [
         'ua' => 'SAMSUNG-GT-C3322/C3322DDLK2 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
         'properties' => [
-            'Comment' => 'Samsung Generic',
+            'Comment' => 'Samsung Generic for Java',
             'Browser' => 'Samsung',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -406,7 +406,7 @@ return [
     'issue-317-J' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.2.0.336',
         'properties' => [
-            'Comment' => 'UC Browser 9.2',
+            'Comment' => 'UC Browser 9.2 for Desktop',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -492,18 +492,18 @@ return [
     'issue-317-L' => [
         'ua' => 'samsung-gt-s5620/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '0',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'UCWeb Inc.',
             'Browser_Modus' => 'unknown',
             'Version' => '8.0',
-            'Platform' => 'unknown',
+            'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
-            'Platform_Bits' => '0',
-            'Platform_Maker' => 'unknown',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Oracle',
             'Alpha' => false,
             'Beta' => false,
             'Frames' => true,
@@ -529,7 +529,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-317-M' => [
@@ -851,18 +851,18 @@ return [
     'issue-317-T' => [
         'ua' => 'samsung-gt-s3370/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
         'properties' => [
-            'Comment' => 'UC Browser 8.0',
+            'Comment' => 'UC Browser 8.0 for Java',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '0',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'UCWeb Inc.',
             'Browser_Modus' => 'unknown',
             'Version' => '8.0',
-            'Platform' => 'unknown',
+            'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
-            'Platform_Bits' => '0',
-            'Platform_Maker' => 'unknown',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Oracle',
             'Alpha' => false,
             'Beta' => false,
             'Frames' => true,
@@ -888,7 +888,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-317-U' => [
@@ -1382,7 +1382,7 @@ return [
     'issue-317-AF' => [
         'ua' => 'UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; en-us; GT-S5670 Build/GINGERBREAD) U2/1.0.0 UCBrowser/9.4.1.362 Mobile',
         'properties' => [
-            'Comment' => 'UC Browser 9.4',
+            'Comment' => 'UC Browser 9.4 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

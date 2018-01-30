@@ -34,7 +34,7 @@
             "WinXPb_x64_2", "WinXPb_32",
             "WinXPa_32",
             "Win2000",
-            "Win98_2",
+            "Win98_2", "Win98_3",
             "NT4_B",
             "WinME",
             "Win98",
@@ -47,7 +47,8 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_PPC_10_5", "OSX_PPC_10_4",
-            "OSX_PPC", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX_PPC",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX",
             "MacPPC"
           ]
@@ -65,8 +66,7 @@
             "BeOS",
             "SunOS",
             "OS2",
-            "Darwin",
-            "FreeBSD_386"
+            "Darwin"
           ]
         },
         {

@@ -44,21 +44,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-077-G (standard)' => [
-        'ua' => 'SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
-            'Comment' => 'Googlebot',
-            'Browser' => 'Google Bot Mobile',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '2.1',
-            'Platform' => 'unknown',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-077-F' => [
         'ua' => 'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
         'properties' => [

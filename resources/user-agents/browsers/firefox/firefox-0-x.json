@@ -61,8 +61,7 @@
             "IRIX64",
             "BeOS",
             "SunOS",
-            "OS2",
-            "FreeBSD_386"
+            "OS2"
           ]
         },
         {

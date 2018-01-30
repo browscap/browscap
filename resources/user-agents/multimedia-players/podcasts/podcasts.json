@@ -1,0 +1,38 @@
+{
+  "division": "Podcasts #MAJORVER#.#MINORVER#",
+  "versions": ["2.2", "1.4"],
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Podcasts #MAJORVER#.#MINORVER#",
+      "browser": "podcasts",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Podcasts #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Podcasts/#MAJORVER#.#MINORVER#* CFNetwork/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Podcasts/#MAJORVER#.#MINORVER#* CFNetwork/758.5*",
+          "platforms": [
+            "iOS_A_9_3"
+          ]
+        },
+        {
+          "match": "Podcasts/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
