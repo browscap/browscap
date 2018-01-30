@@ -4,7 +4,7 @@ return [
     'issue-685-A' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0.2; en-US; AO5510) U2/1.0.0 UCBrowser',
         'properties' => [
-            'Comment' => 'UC Browser Generic',
+            'Comment' => 'UC Browser Generic for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
