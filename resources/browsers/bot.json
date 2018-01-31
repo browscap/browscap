@@ -15806,6 +15806,17 @@
         "lite": false,
         "standard": true
     },
+    "taboola bot": {
+        "properties": {
+            "Browser": "Taboola Bot",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "taboola.com",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
     "taginspector bot": {
         "properties": {
             "Browser": "TagInspector Bot",
@@ -16680,6 +16691,17 @@
             "Browser": "Uipbot",
             "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "uipcrawler": {
+        "properties": {
+            "Browser": "Uipcrawler",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "semasio.com",
             "isSyndicationReader": "false",
             "Crawler": "true"
         },

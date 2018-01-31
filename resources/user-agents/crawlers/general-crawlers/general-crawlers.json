@@ -1404,6 +1404,17 @@
           "browser": "uipbot"
         },
         {
+          "match": "uipcrawler/1.0*",
+          "browser": "uipcrawler",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "uipcrawler/*",
+          "browser": "uipcrawler"
+        },
+        {
           "match": "mbot v.1.16*",
           "browser": "mbot",
           "properties": {
@@ -1937,6 +1948,10 @@
         {
           "match": "lua-resty-http/*",
           "browser": "lua http client cosocket driver"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Taboolabot/*http://www.taboola.com*",
+          "browser": "taboola bot"
         }
       ]
     }
