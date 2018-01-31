@@ -142,6 +142,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (*Macintosh*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ],
+          "engine": "WebKit",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [

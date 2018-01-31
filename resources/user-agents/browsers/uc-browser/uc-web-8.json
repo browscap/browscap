@@ -499,16 +499,6 @@
           ]
         },
         {
-          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "NokiaE71": "Nokia E71",
-            "NokiaN95*": "Nokia N95"
-          },
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
           "match": "#DEVICE#/*UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia6208c": "Nokia 6208c"
@@ -522,6 +512,30 @@
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+      "browser": "uc browser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "platform": "SymbianOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaE71": "Nokia E71",
+            "NokiaN95*": "Nokia N95"
+          },
+          "platforms": [
+            "SymbianOS"
           ]
         }
       ]

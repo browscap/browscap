@@ -376,6 +376,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (*Windows *) applewebkit* (*khtml*like*gecko*) Chrome/??.* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
@@ -391,29 +401,6 @@
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1",
             "Android_E"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
-      "browser": "uc browser",
-      "engine": "WebKit",
-      "device": "Windows Desktop",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
-        "Version": "#MAJORVER#.#MINORVER#"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Win8_1_64", "Win8_1_32",
-            "Win8_64", "Win8_32",
-            "Win7_64", "Win7_32",
-            "Vista_64", "Vista_32",
-            "WinXPb_32"
           ]
         }
       ]
