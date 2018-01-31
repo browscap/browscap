@@ -53,6 +53,9 @@
           "platforms": [
             "FreeBSD"
           ]
+        },
+        {
+          "match": "HubSpot Links Crawler * http://www.hubspot.com/*"
         }
       ]
     }

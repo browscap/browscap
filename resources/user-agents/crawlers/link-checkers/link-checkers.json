@@ -482,6 +482,10 @@
         {
           "match": "Mozilla/5.0 (ClickMagick Link Monitor v*)",
           "browser": "clickmagick link monitor"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) applewebkit/* (*khtml*like*gecko*) (CMLINKCHECK) Chrome/* Safari/*",
+          "browser": "clickmagick link monitor"
         }
       ]
     }
