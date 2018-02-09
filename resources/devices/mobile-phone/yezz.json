@@ -1,0 +1,15 @@
+{
+    "Yezz Andy 5EI3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Andy 5EI3",
+            "Device_Name": "Andy 5EI3",
+            "Device_Maker": "Yezz",
+            "Device_Brand_Name": "Yezz",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

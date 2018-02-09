@@ -1657,6 +1657,15 @@
           ]
         },
         {
+          "match": "#PLATFORM##DEVICE# Release* Browser?applewebkit*",
+          "devices": {
+            "andy_5EI3": "Yezz Andy 5EI3"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "#PLATFORM# Release* Browser?applewebkit*",
           "platforms": [
             "Android_5_0",
