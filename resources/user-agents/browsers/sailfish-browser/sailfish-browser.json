@@ -18,6 +18,13 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#Tablet*) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "Jolla Tablet",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (*Jolla#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
           "device": "Jolla Phone",
           "platforms": [
@@ -26,6 +33,13 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#Tablet*) applewebkit* (*khtml*like*gecko*) Mobile Safari/*",
+          "device": "Jolla Tablet",
           "platforms": [
             "SailfishOS"
           ]
