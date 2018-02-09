@@ -1,0 +1,23 @@
+{
+  "division": "Thunderbird for MSSante",
+  "sortIndex": 3084,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Thunderbird for MSSante",
+      "browser": "thunderbird",
+      "engine": "Gecko",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thunderbird for MSSante"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (rv:*) Thunderbird/MSSante-*"
+        }
+      ]
+    }
+  ]
+}
