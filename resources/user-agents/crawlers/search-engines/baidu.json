@@ -13,6 +13,20 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Baiduspider-render/2.0*",
+          "browser": "baiduspider",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_9_1"
+          ],
+          "engine": "WebKit",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible;*Baiduspider/2.0*",
           "browser": "baiduspider",
           "properties": {
