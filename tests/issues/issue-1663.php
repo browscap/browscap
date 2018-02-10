@@ -10,7 +10,7 @@ return [
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mozilla Foundation',
             'Browser_Modus' => 'unknown',
-            'Version' => 'unknown',
+            'Version' => '0.0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
