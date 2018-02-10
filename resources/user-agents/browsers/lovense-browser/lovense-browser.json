@@ -1,0 +1,53 @@
+{
+  "division": "Lovense Browser",
+  "sortIndex": 946,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lovense Browser for Windows",
+      "browser": "lovense-browser",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lovense Browser",
+        "Alpha": "false",
+        "Beta": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Lovense/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Lovense Browser for Mac",
+      "browser": "lovense-browser",
+      "platform": "OSX",
+      "engine": "Blink",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lovense Browser",
+        "Alpha": "false",
+        "Beta": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Lovense/*",
+          "platforms": [
+            "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

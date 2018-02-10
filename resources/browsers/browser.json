@@ -1607,6 +1607,17 @@
         "lite": false,
         "standard": true
     },
+    "lovense-browser": {
+        "properties": {
+            "Browser": "Lovense Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "Hytto Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
     "luakit": {
         "properties": {
             "Browser": "luakit",
