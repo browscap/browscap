@@ -1,0 +1,29 @@
+{
+  "division": "TeslaBrowser",
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TeslaBrowser",
+      "browser": "tesla-browser",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TeslaBrowser",
+        "Alpha": "false",
+        "Beta": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* TeslaBrowser/*Safari/*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

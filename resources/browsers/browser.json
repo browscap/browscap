@@ -2960,6 +2960,17 @@
         "lite": false,
         "standard": true
     },
+    "tesla-browser": {
+        "properties": {
+            "Browser": "TeslaBrowser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "RostPay Ltd",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
     "tevion": {
         "properties": {
             "Browser": "Tevion",
