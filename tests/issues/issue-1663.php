@@ -29,7 +29,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '2',
             'Device_Name' => 'general Desktop',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
