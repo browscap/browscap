@@ -12,7 +12,7 @@ return [
             'Browser_Modus' => 'unknown',
             'Version' => '4.0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
