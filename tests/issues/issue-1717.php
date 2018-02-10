@@ -9,7 +9,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'RostPay Ltd',
-            'Browser_Modus' => 'Desktop Mode',
+            'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'Win8.1',
             'Platform_Version' => '6.3',
