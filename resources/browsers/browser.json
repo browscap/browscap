@@ -2368,7 +2368,7 @@
     },
     "qqbrowser": {
         "properties": {
-            "Browser": "QQbrowser",
+            "Browser": "QQBrowser",
             "Browser_Type": "Browser",
             "Browser_Maker": "Tencent Ltd.",
             "isSyndicationReader": "false",
@@ -2379,7 +2379,7 @@
     },
     "qqbrowser mini": {
         "properties": {
-            "Browser": "QQbrowser Mini",
+            "Browser": "QQBrowser Mini",
             "Browser_Type": "Browser",
             "Browser_Maker": "Tencent Ltd.",
             "isSyndicationReader": "false",

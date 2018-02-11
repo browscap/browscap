@@ -47,8 +47,8 @@ return [
     'issue-071-B' => [
         'ua' => 'MQQBrowser/3.0/Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; GT-I9100 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'QQbrowser 3.0',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 3.0',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',

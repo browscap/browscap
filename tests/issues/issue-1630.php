@@ -4398,8 +4398,8 @@ return [
     'issue-1630-CU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SGH-I337 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043505 Safari/537.36',
         'properties' => [
-            'Comment' => 'QQbrowser 6.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 6.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',

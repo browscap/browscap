@@ -6,14 +6,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "QQbrowser #MAJORVER#.#MINORVER# for Mac",
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# for Mac",
       "browser": "qqbrowser",
       "platform": "OSX",
       "engine": "Blink",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser #MAJORVER#.#MINORVER#",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

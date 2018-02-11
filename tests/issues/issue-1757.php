@@ -907,8 +907,8 @@ return [
     'issue-1757-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Redmi Note 4 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043108 Safari/537.36 V1_AND_SQ_6.6.9_482_YYB_D QQ/6.6.9.3060 NetType/WIFI WebP/0.3.0 Pixel/1080',
         'properties' => [
-            'Comment' => 'QQbrowser 6.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 6.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
