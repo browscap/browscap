@@ -615,6 +615,17 @@
         "lite": false,
         "standard": true
     },
+    "adscanner": {
+        "properties": {
+            "Browser": "adscanner Bot",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "adscanner.tv",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
     "adsense bot": {
         "properties": {
             "Browser": "AdSense Bot",
