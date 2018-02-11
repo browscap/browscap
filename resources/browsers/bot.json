@@ -10361,6 +10361,17 @@
         "lite": false,
         "standard": true
     },
+    "monitor-backlinks crawler": {
+        "properties": {
+            "Browser": "Monitor Backlinks Crawler",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Monitor Backlinks Ltd.",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
     "mono browser capabilities updater": {
         "properties": {
             "Browser": "Mono Browser Capabilities Updater",
