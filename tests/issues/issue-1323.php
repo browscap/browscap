@@ -2465,7 +2465,7 @@ return [
     'issue-1323-AZ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) AppleNews/750 Version/2.2',
         'properties' => [
-            'Comment' => 'Apple News 2.2 for iOS',
+            'Comment' => 'Apple News 10.2 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2508,7 +2508,7 @@ return [
     'issue-1323-BA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) AppleNews/608.0.1 Version/2.0.1',
         'properties' => [
-            'Comment' => 'Apple News 2.0 for iOS',
+            'Comment' => 'Apple News 10.0 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2551,7 +2551,7 @@ return [
     'issue-1323-BA (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) AppleNews/608.0.1 Version/2.0.1',
         'properties' => [
-            'Comment' => 'Apple News 2.0 for iOS',
+            'Comment' => 'Apple News 10.0 for iOS',
             'Browser' => 'Apple News',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '10.0',
@@ -2566,7 +2566,7 @@ return [
     'issue-1323-BB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) AppleNews/608.5 Version/2.1',
         'properties' => [
-            'Comment' => 'Apple News 2.1 for iOS',
+            'Comment' => 'Apple News 10.1 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2609,7 +2609,7 @@ return [
     'issue-1323-BB (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) AppleNews/608.5 Version/2.1',
         'properties' => [
-            'Comment' => 'Apple News 2.1 for iOS',
+            'Comment' => 'Apple News 10.1 for iOS',
             'Browser' => 'Apple News',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '10.1',
@@ -2624,7 +2624,7 @@ return [
     'issue-1323-BC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) AppleNews/750 Version/2.2',
         'properties' => [
-            'Comment' => 'Apple News 2.2 for iOS',
+            'Comment' => 'Apple News 10.2 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2667,7 +2667,7 @@ return [
     'issue-1323-BC (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) AppleNews/750 Version/2.2',
         'properties' => [
-            'Comment' => 'Apple News 2.2 for iOS',
+            'Comment' => 'Apple News 10.2 for iOS',
             'Browser' => 'Apple News',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '10.2',
@@ -2682,7 +2682,7 @@ return [
     'issue-1323-BD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) AppleNews/996 Version/2.3',
         'properties' => [
-            'Comment' => 'Apple News 2.3 for iOS',
+            'Comment' => 'Apple News 10.3 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2725,7 +2725,7 @@ return [
     'issue-1323-BD (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) AppleNews/996 Version/2.3',
         'properties' => [
-            'Comment' => 'Apple News 2.3 for iOS',
+            'Comment' => 'Apple News 10.3 for iOS',
             'Browser' => 'Apple News',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '10.3',
@@ -2740,7 +2740,7 @@ return [
     'issue-1323-BE' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) AppleNews/750 Version/2.2',
         'properties' => [
-            'Comment' => 'Apple News 2.2 for iOS',
+            'Comment' => 'Apple News 10.2 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

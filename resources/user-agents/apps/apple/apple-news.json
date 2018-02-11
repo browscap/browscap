@@ -37,6 +37,13 @@
           "platforms": [
             "iOS_C_dynamic"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AppleNews/* Version/*",
+          "platforms": [
+            "iOS_A_dynamic",
+            "iOS_C_dynamic"
+          ]
         }
       ]
     }

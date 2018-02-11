@@ -21655,7 +21655,7 @@ return [
     'issue-1417-OP' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) AppleNews/608.0.1 Version/2.0.1',
         'properties' => [
-            'Comment' => 'Apple News 2.0 for iOS',
+            'Comment' => 'Apple News 10.0 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -21698,7 +21698,7 @@ return [
     'issue-1417-OQ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) AppleNews/608.5 Version/2.1',
         'properties' => [
-            'Comment' => 'Apple News 2.1 for iOS',
+            'Comment' => 'Apple News 10.1 for iOS',
             'Browser' => 'Apple News',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
