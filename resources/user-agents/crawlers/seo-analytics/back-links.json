@@ -24,6 +24,10 @@
         {
           "match": "MonitorBacklinksWP*",
           "browser": "incoming links - wordpress plugin"
+        },
+        {
+          "match": "MBCrawler*",
+          "browser": "monitor-backlinks crawler"
         }
       ]
     }
