@@ -1952,6 +1952,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Taboolabot/*http://www.taboola.com*",
           "browser": "taboola bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; adscanner/*",
+          "browser": "adscanner"
         }
       ]
     }
