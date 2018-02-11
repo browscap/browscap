@@ -2806,6 +2806,17 @@
         "lite": false,
         "standard": true
     },
+    "sparrow browser": {
+        "properties": {
+            "Browser": "Sparrow",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "ViaSat Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
     "sputnik browser": {
         "properties": {
             "Browser": "Sputnik Browser",
