@@ -1,0 +1,43 @@
+{
+  "division": "Sparrow Browser",
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sparrow Browser",
+      "browser": "sparrow browser",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sparrow",
+        "Alpha": "false",
+        "Beta": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Safari/* Sparrow/*",
+          "platforms": [
+            "Win7_64", "Win7_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Safari/* Sparrow/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Chrome/* Sparrow/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
