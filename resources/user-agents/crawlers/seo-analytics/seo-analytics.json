@@ -138,13 +138,6 @@
           "browser": "hypercrawl"
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* - James BOT - WebCrawler*",
-          "browser": "jamesbot",
-          "platforms": [
-            "WinXPa_32"
-          ]
-        },
-        {
           "match": "SEOstats 2.1*",
           "browser": "seostats",
           "properties": {

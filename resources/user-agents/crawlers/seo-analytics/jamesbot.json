@@ -1,0 +1,32 @@
+{
+  "division": "JamesBOT",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "JamesBOT",
+      "browser": "jamesbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "JamesBOT"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* - James BOT - WebCrawler*",
+          "platforms": [
+            "Win10_64_B", "Win10_32_B",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/* (#PLATFORM#) Gecko* Firefox/* - James BOT - WebCrawler*",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
