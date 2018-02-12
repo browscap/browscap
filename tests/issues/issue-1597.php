@@ -18425,13 +18425,13 @@ return [
     'issue-1597-PR' => [
         'ua' => 'WhatsApp/2.12.15/i',
         'properties' => [
-            'Comment' => 'WhatsApp Bot Generic',
+            'Comment' => 'WhatsApp Bot 2.12',
             'Browser' => 'WhatsApp Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '2.12',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',

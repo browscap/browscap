@@ -1,6 +1,6 @@
 {
   "division": "WhatsApp Bot #MAJORVER#.#MINORVER#",
-  "versions": ["2.17"],
+  "versions": ["2.18", "2.17", "2.12"],
   "sortIndex": 1995,
   "lite": false,
   "standard": true,
