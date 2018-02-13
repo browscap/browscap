@@ -8,7 +8,7 @@
       "userAgent": "Relax Melodies",
       "browser": "relax melodies app",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "general Mobile Phone (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Relax Melodies"

@@ -46,7 +46,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Twitter*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A",
             "iOS_C"
