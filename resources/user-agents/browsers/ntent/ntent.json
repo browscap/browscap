@@ -53,6 +53,7 @@
           "engine": "WebKit",
           "devices": {
             "EPIC F50G": "FiGO F50G",
+            "SM-J320M": "Samsung SM-J320M",
             "U613": "Unnecto U613"
           },
           "platforms": [
