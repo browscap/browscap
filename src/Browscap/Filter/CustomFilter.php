@@ -17,6 +17,11 @@ class CustomFilter implements FilterInterface
     private $fields = [];
 
     /**
+     * @var string
+     */
+    private $outputType = FilterInterface::TYPE_FULL;
+
+    /**
      * @var \Browscap\Data\PropertyHolder
      */
     private $propertyHolder;
@@ -24,10 +29,12 @@ class CustomFilter implements FilterInterface
     /**
      * @param PropertyHolder $propertyHolder
      * @param array          $fields
+     * @param string         $outputType
      */
-    public function __construct(PropertyHolder $propertyHolder, array $fields)
+    public function __construct(PropertyHolder $propertyHolder, array $fields, $outputType = FilterInterface::TYPE_FULL)
     {
         $this->fields         = $fields;
+        $this->outputType     = $outputType;
         $this->propertyHolder = $propertyHolder;
     }
 
@@ -50,7 +57,17 @@ class CustomFilter implements FilterInterface
      */
     public function isOutput(Division $division) : bool
     {
-        return true;
+        switch ($this->outputType) {
+            case FilterInterface::TYPE_STANDARD:
+                return $division->isStandard();
+
+            case FilterInterface::TYPE_LITE:
+                return $division->isLite();
+
+            case FilterInterface::TYPE_FULL:
+            default:
+                return true;
+        }
     }
 
     /**
@@ -62,7 +79,17 @@ class CustomFilter implements FilterInterface
      */
     public function isOutputSection(array $section) : bool
     {
-        return true;
+        switch ($this->outputType) {
+            case FilterInterface::TYPE_STANDARD:
+                return !isset($section['standard']) || $section['standard'];
+
+            case FilterInterface::TYPE_LITE:
+                return isset($section['lite']) && $section['lite'];
+
+            case FilterInterface::TYPE_FULL:
+            default:
+                return true;
+        }
     }
 
     /**

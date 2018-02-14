@@ -4,6 +4,7 @@ namespace Browscap\Writer\Factory;
 
 use Browscap\Data\PropertyHolder;
 use Browscap\Filter\CustomFilter;
+use Browscap\Filter\FilterInterface;
 use Browscap\Formatter;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer;
@@ -21,6 +22,7 @@ class CustomWriterFactory
      * @param string|null     $file
      * @param array           $fields
      * @param string          $format
+     * @param string          $outputType
      *
      * @return WriterCollection
      */
@@ -29,7 +31,8 @@ class CustomWriterFactory
         string $buildFolder,
         ?string $file = null,
         array $fields = [],
-        string $format = FormatterInterface::TYPE_PHP
+        string $format = FormatterInterface::TYPE_PHP,
+        string $outputType = FilterInterface::TYPE_FULL
     ) : WriterCollection {
         $writerCollection = new WriterCollection();
         $propertyHolder   = new PropertyHolder();
@@ -60,7 +63,7 @@ class CustomWriterFactory
             }
         }
 
-        $filter = new CustomFilter($propertyHolder, $fields);
+        $filter = new CustomFilter($propertyHolder, $fields, $outputType);
 
         switch ($format) {
             case FormatterInterface::TYPE_ASP:
