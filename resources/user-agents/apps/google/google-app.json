@@ -215,7 +215,9 @@
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A5500-H": "Lenovo A5500-H",
-            "Lenovo A680_ROW": "Lenovo A680"
+            "Lenovo A680_ROW": "Lenovo A680",
+            "Micromax A210": "Micromax A210",
+            "Micromax A74": "Micromax A74"
           },
           "platforms": [
             "Android_4_2"

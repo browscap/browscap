@@ -173,6 +173,7 @@
           "devices": {
             "A8-50LC": "Lenovo A8-50LC",
             "Bmobile_AX810": "Bmobile AX810",
+            "Micromax E481": "Micromax E481",
             "MZ-MX5": "Meizu MX5",
             "SM-J320M": "Samsung SM-J320M",
             "SM-T817A": "Samsung SM-T817A",
@@ -224,6 +225,7 @@
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D856": "LG D856",
             "LG-V700": "LG V700",
+            "Micromax A99": "Micromax A99",
             "Redmi Note 3": "Xiaomi Redmi Note 3",
             "Rivo RHYTHM RX75": "Rivo RHYTHM RX75"
           },
@@ -342,6 +344,11 @@
             "LIFETAB_S785X": "Lenovo Lifetab S785X",
             "M74CG": "Supra M74CG",
             "Micromax A065": "Micromax A065",
+            "Micromax A091": "Micromax A091",
+            "Micromax A093": "Micromax A093",
+            "Micromax A120": "Micromax A120",
+            "Micromax A300": "Micromax A300",
+            "Micromax AQ4501": "Micromax AQ4501",
             "MTC SMART Run": "MTC SMART Run",
             "Oysters T72H 3G": "Oysters T72H 3G",
             "Oysters T72M 3G": "Oysters T72M 3G",
@@ -419,6 +426,8 @@
             "GT-P5220*": "Samsung GT-P5220",
             "HUAWEI P6-U06": "Huawei P6-U06",
             "LG-D802*": "LG D802",
+            "Micromax A102": "Micromax A102",
+            "Micromax A350": "Micromax A350",
             "SM-T310": "Samsung SM-T310",
             "SM-T315*": "Samsung SM-T315",
             "SM-T320": "Samsung SM-T320"

@@ -25,6 +25,19 @@
             "isTablet": "true"
         }
     },
+    "Micromax P280": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P280",
+            "Device_Name": "Funbook",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Micromax P480": {
         "standard": true,
         "properties": {

@@ -68,6 +68,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "Micromax Q392": "Micromax Q392",
             "XT1021": "Motorola XT1021"
           },
           "platforms": [
@@ -86,6 +87,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "Micromax A99": "Micromax A99",
             "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
@@ -138,6 +140,10 @@
             "M1_Plus": "Explay M1 Plus",
             "MB40II1": "DNS MB40II1",
             "MI 2S": "Xiaomi MI 2S",
+            "Micromax A091": "Micromax A091",
+            "Micromax A093": "Micromax A093",
+            "Micromax A300": "Micromax A300",
+            "Micromax AQ4501": "Micromax AQ4501",
             "P4": "PiPO P4",
             "Philips W3509": "Philips W3509",
             "SM-G530H": "Samsung SM-G530H",
@@ -150,6 +156,17 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
+            "Micromax A102": "Micromax A102",
+            "Micromax A120": "Micromax A120",
+            "Micromax A350": "Micromax A350"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -203,7 +220,14 @@
             "M5302": "iRU M5302",
             "M601": "AOC M601",
             "M7T": "PiPO M7T",
-            "Micromax A120": "Micromax A120",
+            "Micromax A068": "Micromax A068",
+            "Micromax A110Q": "Micromax A110Q",
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i",
+            "Micromax A117": "Micromax A117",
+            "Micromax A200": "Micromax A200",
+            "Micromax A58": "Micromax A58",
+            "Micromax A74": "Micromax A74",
             "N003": "NEO N003",
             "Novo7Fire": "Ainol Novo 7 Fire",
             "NT-3507M": "iconBIT NT-3507M",
@@ -237,6 +261,9 @@
             "IQ4411": "Fly IQ4411",
             "Kiano Elegance by Zanetti": "Kiano Elegance",
             "LG-P713": "LG P713",
+            "Micromax A92": "Micromax A92",
+            "Micromax A110*": "Micromax A110",
+            "Micromax A115": "Micromax A115",
             "MID-717R": "VastKing MID-717R",
             "NT-3502M": "iconBIT NT-3502M",
             "P4501": "Medion P4501",
@@ -281,6 +308,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "Android TV": "general TV Device",
+            "Micromax A24": "Micromax A24",
+            "Micromax A26": "Micromax A26",
+            "Micromax A62": "Micromax A62",
             "PAP4020DUO": "Prestigio PAP4020DUO",
             "SO-02D": "Sony SO-02D",
             "X10": "SonyEricsson X10"
@@ -421,6 +451,7 @@
           "devices": {
             "H1+": "Hummer H1+",
             "HTC_Desire_816": "HTC Desire 816",
+            "Micromax_AQ4501": "Micromax AQ4501",
             "PICOpad_S1*": "Axioo PicoPad S1",
             "S200": "Cubot S200",
             "SUPRA_M121G": "Supra M121G"

@@ -167,7 +167,8 @@
             "Lenovo A606": "Lenovo A606",
             "Lenovo S660": "Lenovo S660",
             "LG-D325": "LG D325",
-            "LG-D690": "LG D690"
+            "LG-D690": "LG D690",
+            "Micromax A093": "Micromax A093"
           },
           "platforms": [
             "Android_4_4"
@@ -187,7 +188,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "Lenovo A328": "Lenovo A328"
+            "Lenovo A328": "Lenovo A328",
+            "Micromax A102": "Micromax A102",
+            "Micromax A120": "Micromax A120"
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2"
@@ -227,6 +230,7 @@
             "Keneksi-Libra_Dual": "Keneksi Libra",
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A880": "Lenovo A880",
+            "Micromax A068": "Micromax A068",
             "Micromax A120": "Micromax A120",
             "ZTE LEO Q2": "ZTE V769M"
           },
@@ -328,7 +332,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "ASUS Transformer Pad TF700T": "Asus TF700T"
+            "ASUS Transformer Pad TF700T": "Asus TF700T",
+            "Micromax A110Q": "Micromax A110Q",
+            "Micromax A58": "Micromax A58"
           },
           "platforms": [
             "Android_4_2"
@@ -386,6 +392,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
+            "Micromax A27": "Micromax A27",
             "GT-S6802": "Samsung GT-S6802"
           },
           "platforms": [
@@ -425,10 +432,22 @@
           "devices": {
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
+            "Micromax_A093": "Micromax A093",
+            "Micromax_AQ4501": "Micromax AQ4501",
             "PMP7070C3G": "Prestigio PMP7070C3G"
           },
           "platforms": [
             "Android_E_4_4"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Micromax_A102": "Micromax A102",
+            "Micromax_A120": "Micromax A120"
+          },
+          "platforms": [
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2"
           ]
         },
         {
@@ -468,6 +487,8 @@
             "Lenovo_A3000-H": "Lenovo A3000-H",
             "Lenovo_A516": "Lenovo A516",
             "Micromax_A94": "Micromax A94",
+            "Micromax_A110Q": "Micromax A110Q",
+            "Micromax_A58": "Micromax A58",
             "SM-T311": "Samsung SM-T311",
             "T118": "Twinovo T118",
             "T8700": "Ninetology T8700",
@@ -483,7 +504,8 @@
           "devices": {
             "HS-U98": "Hisense HS-U98",
             "Lenovo_A706_ROW": "Lenovo A706",
-            "Lenovo_P770": "Lenovo P770"
+            "Lenovo_P770": "Lenovo P770",
+            "Micromax_A110": "Micromax A110"
           },
           "platforms": [
             "Android_E_4_1"
@@ -509,6 +531,10 @@
             "GT-I9100P": "Samsung GT-I9100P",
             "Lenovo_A318t": "Lenovo A318t",
             "MB300": "Motorola MB300",
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A36": "Micromax A36",
+            "Micromax_A62": "Micromax A62",
             "PantechP9060": "Pantech P9060"
           },
           "platforms": [
@@ -594,6 +620,9 @@
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "ATLAS_W": "ZTE Atlas W",
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A62": "Micromax A62",
             "USCCADR6230US": "HTC Wildfire S ADR6230"
           },
           "platforms": [

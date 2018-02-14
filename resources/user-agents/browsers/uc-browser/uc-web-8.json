@@ -51,6 +51,17 @@
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
+            "Micromax_A116": "Micromax A116",
+            "Micromax_A116i": "Micromax A116i",
+            "Micromax_A74": "Micromax A74"
+          },
+          "platforms": [
+            "Android_E_4_2", "Android_E_4_1"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
             "A47": "Micromax A47",
             "GT-I9082": "Samsung GT-I9082",
             "S5A4": "Lexand S5A4"
@@ -77,6 +88,18 @@
           },
           "platforms": [
             "Android_E_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A36": "Micromax A36",
+            "Micromax_A62": "Micromax A62"
+          },
+          "platforms": [
+            "Android_E_2_3"
           ]
         },
         {
