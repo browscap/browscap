@@ -168,7 +168,9 @@
             "Lenovo S660": "Lenovo S660",
             "LG-D325": "LG D325",
             "LG-D690": "LG D690",
-            "Micromax A093": "Micromax A093"
+            "Micromax A093": "Micromax A093",
+            "Micromax A106": "Micromax A106",
+            "Micromax_A106": "Micromax A106"
           },
           "platforms": [
             "Android_4_4"
@@ -232,6 +234,7 @@
             "Lenovo A880": "Lenovo A880",
             "Micromax A068": "Micromax A068",
             "Micromax A120": "Micromax A120",
+            "Micromax A94": "Micromax A94",
             "ZTE LEO Q2": "ZTE V769M"
           },
           "platforms": [
@@ -248,6 +251,7 @@
             "DIGMA iDsD8 3G": "Digma iDsD8 3G",
             "GT-S7390": "Samsung GT-S7390",
             "GT-S7392": "Samsung GT-S7392",
+            "Micromax P410": "Micromax P410",
             "s4502": "DNS S4502",
             "WEXLER-TAB-7T": "Wexler TAB-7T"
           },
@@ -360,7 +364,9 @@
             "Lenovo A316i": "Lenovo A316i",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
-            "Lenovo A859": "Lenovo A859"
+            "Lenovo A859": "Lenovo A859",
+            "Micromax A46": "Micromax A46",
+            "Micromax A77": "Micromax A77"
           },
           "platforms": [
             "Android_4_2"
@@ -382,6 +388,7 @@
           "devices": {
             "HTC One S": "HTC PJ401",
             "Lenovo A390t": "Lenovo A390t",
+            "Micromax A68": "Micromax A68",
             "TM-5204": "TeXet TM-5204"
           },
           "platforms": [
@@ -393,10 +400,21 @@
           "engine": "U3",
           "devices": {
             "Micromax A27": "Micromax A27",
+            "Micromax A34": "Micromax A34",
             "GT-S6802": "Samsung GT-S6802"
           },
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "Micromax A85": "Micromax A85"
+          },
+          "platforms": [
+            "Android_2_2"
           ]
         },
         {
@@ -433,6 +451,7 @@
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
             "Micromax_A093": "Micromax A093",
+            "Micromax_A106": "Micromax A106",
             "Micromax_AQ4501": "Micromax AQ4501",
             "PMP7070C3G": "Prestigio PMP7070C3G"
           },
@@ -486,9 +505,11 @@
             "Lenovo?A316i": "Lenovo A316i",
             "Lenovo_A3000-H": "Lenovo A3000-H",
             "Lenovo_A516": "Lenovo A516",
+            "Micromax_A46": "Micromax A46",
             "Micromax_A94": "Micromax A94",
             "Micromax_A110Q": "Micromax A110Q",
             "Micromax_A58": "Micromax A58",
+            "Micromax_A76": "Micromax A76",
             "SM-T311": "Samsung SM-T311",
             "T118": "Twinovo T118",
             "T8700": "Ninetology T8700",
@@ -505,6 +526,7 @@
             "HS-U98": "Hisense HS-U98",
             "Lenovo_A706_ROW": "Lenovo A706",
             "Lenovo_P770": "Lenovo P770",
+            "Micromax_A59": "Micromax A59",
             "Micromax_A110": "Micromax A110"
           },
           "platforms": [
@@ -518,6 +540,7 @@
             "iDxD8_3G": "Digma iDxD8 3G",
             "Lenovo_A390t": "Lenovo A390t",
             "LG-P765": "LG P765",
+            "Micromax_A67": "Micromax A67",
             "WEXLER.BOOK_T7008": "Wexler Book T7008"
           },
           "platforms": [
@@ -533,8 +556,14 @@
             "MB300": "Motorola MB300",
             "Micromax_A26": "Micromax A26",
             "Micromax_A27": "Micromax A27",
+            "Micromax_A34": "Micromax A34",
+            "Micromax_A35": "Micromax A35",
             "Micromax_A36": "Micromax A36",
+            "Micromax A57": "Micromax A57",
             "Micromax_A62": "Micromax A62",
+            "Micromax_A65": "Micromax A65",
+            "Micromax_A72": "Micromax A72",
+            "Micromax_A87": "Micromax A87",
             "PantechP9060": "Pantech P9060"
           },
           "platforms": [
@@ -574,7 +603,8 @@
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "Oysters_T72HRi_3G": "Oysters T72HRi 3G"
+            "Oysters_T72HRi_3G": "Oysters T72HRi 3G",
+            "Micromax_A106": "Micromax A106"
           },
           "platforms": [
             "Android_4_4"
@@ -584,6 +614,7 @@
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Adi_5S": "Artel Adi5S",
+            "Micromax_A46": "Micromax A46",
             "thl_4400": "ThL 4400",
             "Videocon_A15": "Videocon A15"
           },
@@ -607,6 +638,8 @@
           "devices": {
             "Lenovo_A376": "Lenovo A376",
             "LG-E612": "LG E612",
+            "Micromax_A67": "Micromax A67",
+            "Micromax_A91": "Micromax A91",
             "PMP7280C3G": "Prestigio PMP7280C3G",
             "SHV-E210K": "Samsung SHV-E210K",
             "T8700": "Ninetology T8700",
@@ -622,6 +655,7 @@
             "ATLAS_W": "ZTE Atlas W",
             "Micromax_A26": "Micromax A26",
             "Micromax_A27": "Micromax A27",
+            "Micromax_A35": "Micromax A35",
             "Micromax_A62": "Micromax A62",
             "USCCADR6230US": "HTC Wildfire S ADR6230"
           },

@@ -88,6 +88,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "Micromax A99": "Micromax A99",
+            "Micromax A106": "Micromax A106",
             "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
@@ -227,7 +228,12 @@
             "Micromax A117": "Micromax A117",
             "Micromax A200": "Micromax A200",
             "Micromax A58": "Micromax A58",
+            "Micromax A63": "Micromax A63",
             "Micromax A74": "Micromax A74",
+            "Micromax A46": "Micromax A46",
+            "Micromax A76": "Micromax A76",
+            "Micromax A77": "Micromax A77",
+            "Micromax A94": "Micromax A94",
             "N003": "NEO N003",
             "Novo7Fire": "Ainol Novo 7 Fire",
             "NT-3507M": "iconBIT NT-3507M",
@@ -261,6 +267,8 @@
             "IQ4411": "Fly IQ4411",
             "Kiano Elegance by Zanetti": "Kiano Elegance",
             "LG-P713": "LG P713",
+            "Micromax A59": "Micromax A59",
+            "Micromax A88": "Micromax A88",
             "Micromax A92": "Micromax A92",
             "Micromax A110*": "Micromax A110",
             "Micromax A115": "Micromax A115",
@@ -285,6 +293,7 @@
             "LG-P705": "LG P705",
             "LT26w": "Sony LT26w",
             "MD027G": "M-way MD027G",
+            "Micromax A67": "Micromax A67",
             "NetTAB THOR-LE": "iconBIT THOR-LE",
             "Oysters T37": "Oysters T37",
             "QS0716D": "3Q QS0716D",
@@ -311,6 +320,8 @@
             "Micromax A24": "Micromax A24",
             "Micromax A26": "Micromax A26",
             "Micromax A62": "Micromax A62",
+            "Micromax A65": "Micromax A65",
+            "Micromax A72": "Micromax A72",
             "PAP4020DUO": "Prestigio PAP4020DUO",
             "SO-02D": "Sony SO-02D",
             "X10": "SonyEricsson X10"

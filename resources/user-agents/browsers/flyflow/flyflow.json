@@ -1,6 +1,6 @@
 {
   "division": "FlyFlow #MAJORVER#.#MINORVER#",
-  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", 2, "1.4", 1],
+  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", 2, "1.4", "1.3", 1],
   "sortIndex": 1710,
   "lite": false,
   "standard": true,
@@ -45,6 +45,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "devices": {
+            "AX512": "Bmobile AX512"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
             "GT-I9100G": "Samsung GT-I9100G"
           },
           "platforms": [
@@ -55,17 +64,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "devices": {
+            "Micromax A84": "Micromax A84"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
             "HUAWEI T8600": "Huawei T8600"
           },
           "platforms": [
             "Android_2_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#AX512 Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
-          "device": "Bmobile AX512",
-          "platforms": [
-            "Android_4_2"
           ]
         },
         {

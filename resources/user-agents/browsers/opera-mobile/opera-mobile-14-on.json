@@ -548,7 +548,11 @@
             "Liquid MT": "Acer Liquid Metal",
             "Micromax A26": "Micromax A26",
             "Micromax A30": "Micromax A30",
-            "Micromax A62": "Micromax A62"
+            "Micromax A35": "Micromax A35",
+            "Micromax A57": "Micromax A57",
+            "Micromax A62": "Micromax A62",
+            "Micromax A65": "Micromax A65",
+            "Micromax A72": "Micromax A72"
           },
           "platforms": [
             "Android_2_3"
