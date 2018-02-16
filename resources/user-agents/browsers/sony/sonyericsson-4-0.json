@@ -20,6 +20,18 @@
       "children": [
         {
           "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "platform": "JAVA",
+          "devices": {
+            "Micromax X103i": "Micromax X103i",
+            "Micromax X267": "Micromax X267",
+            "Micromax X272": "Micromax X272",
+            "Micromax X321": "Micromax X321",
+            "Micromax X351": "Micromax X351",
+            "Micromax X1i Ultra": "Micromax X1i Ultra"
+          }
+        },
+        {
+          "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "CELKON.C64": "Celkon C64",
             "SonyEricssonF500i": "SonyEricsson F500i",

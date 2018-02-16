@@ -168,7 +168,10 @@
             "Lenovo S660": "Lenovo S660",
             "LG-D325": "LG D325",
             "LG-D690": "LG D690",
+            "Micromax A065": "Micromax A065",
+            "Micromax A069": "Micromax A069",
             "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
             "Micromax A106": "Micromax A106",
             "Micromax_A106": "Micromax A106"
           },
@@ -234,7 +237,9 @@
             "Lenovo A880": "Lenovo A880",
             "Micromax A068": "Micromax A068",
             "Micromax A120": "Micromax A120",
+            "Micromax A177": "Micromax A177",
             "Micromax A94": "Micromax A94",
+            "Micromax A77": "Micromax A77",
             "ZTE LEO Q2": "ZTE V769M"
           },
           "platforms": [
@@ -293,6 +298,7 @@
           "devices": {
             "GT-S6802": "Samsung GT-S6802",
             "Lenovo A238t": "Lenovo A238t",
+            "Micromax A28": "Micromax A28",
             "PMP7074B3GRU": "Prestigio PMP7074B3GRU",
             "ST25i": "SonyEricsson ST25i"
           },
@@ -450,8 +456,13 @@
           "devices": {
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
+            "Micromax_A065": "Micromax A065",
+            "Micromax_A069": "Micromax A069",
+            "Micromax_A082": "Micromax A082",
             "Micromax_A093": "Micromax A093",
+            "Micromax_A104": "Micromax A104",
             "Micromax_A106": "Micromax A106",
+            "Micromax_A109": "Micromax A109",
             "Micromax_AQ4501": "Micromax AQ4501",
             "PMP7070C3G": "Prestigio PMP7070C3G"
           },
@@ -487,7 +498,9 @@
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
             "GT-9000": "Star GT9000",
-            "Lenovo_K910L": "Lenovo K910L"
+            "Lenovo_K910L": "Lenovo K910L",
+            "Micromax_A092": "Micromax A092",
+            "Micromax_A121": "Micromax A121"
           },
           "platforms": [
             "Android_E_4_3"
@@ -505,11 +518,13 @@
             "Lenovo?A316i": "Lenovo A316i",
             "Lenovo_A3000-H": "Lenovo A3000-H",
             "Lenovo_A516": "Lenovo A516",
+            "Micromax_A37": "Micromax A37",
             "Micromax_A46": "Micromax A46",
             "Micromax_A94": "Micromax A94",
             "Micromax_A110Q": "Micromax A110Q",
             "Micromax_A58": "Micromax A58",
             "Micromax_A76": "Micromax A76",
+            "Micromax_A177": "Micromax A177",
             "SM-T311": "Samsung SM-T311",
             "T118": "Twinovo T118",
             "T8700": "Ninetology T8700",
@@ -554,8 +569,10 @@
             "GT-I9100P": "Samsung GT-I9100P",
             "Lenovo_A318t": "Lenovo A318t",
             "MB300": "Motorola MB300",
+            "Micromax_A24": "Micromax A24",
             "Micromax_A26": "Micromax A26",
             "Micromax_A27": "Micromax A27",
+            "Micromax_A28": "Micromax A28",
             "Micromax_A34": "Micromax A34",
             "Micromax_A35": "Micromax A35",
             "Micromax_A36": "Micromax A36",
@@ -906,7 +923,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Nokia)",
+      "device": "general Mobile Phone",
       "engine": "U2",
       "platform": "JAVA",
       "properties": {
@@ -919,6 +936,7 @@
           "match": "UCWEB/*(Java; *#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "devices": {
             "ALCATEL_one_touch_818": "Alcatel OT-818",
+            "MicromaxQ5": "Micromax Q5",
             "SAMSUNG-SGH-T669": "Samsung SGH-T669",
             "SonyEricssonK790i": "SonyEricsson K790i"
           },
@@ -928,7 +946,6 @@
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

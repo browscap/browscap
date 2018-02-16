@@ -226,6 +226,7 @@
             "LG-D856": "LG D856",
             "LG-V700": "LG V700",
             "Micromax A99": "Micromax A99",
+            "Micromax AQ5001": "Micromax AQ5001",
             "Redmi Note 3": "Xiaomi Redmi Note 3",
             "Rivo RHYTHM RX75": "Rivo RHYTHM RX75"
           },
@@ -237,6 +238,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "K00E": "Asus K00E",
+            "Micromax A99": "Micromax A99",
             "SM-G900F*": "Samsung SM-G900F"
           },
           "platforms": [
@@ -344,12 +346,22 @@
             "LIFETAB_S785X": "Lenovo Lifetab S785X",
             "M74CG": "Supra M74CG",
             "Micromax A065": "Micromax A065",
+            "Micromax A066": "Micromax A066",
+            "Micromax A067": "Micromax A067",
+            "Micromax A069": "Micromax A069",
             "Micromax A091": "Micromax A091",
             "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
             "Micromax A106": "Micromax A106",
+            "Micromax A109": "Micromax A109",
             "Micromax A120": "Micromax A120",
+            "Micromax A190": "Micromax A190",
+            "Micromax A290": "Micromax A290",
             "Micromax A300": "Micromax A300",
+            "Micromax A310": "Micromax A310",
+            "Micromax A311": "Micromax A311",
             "Micromax AQ4501": "Micromax AQ4501",
+            "Micromax AQ5000": "Micromax AQ5000",
             "MTC SMART Run": "MTC SMART Run",
             "Oysters T72H 3G": "Oysters T72H 3G",
             "Oysters T72M 3G": "Oysters T72M 3G",

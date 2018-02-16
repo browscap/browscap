@@ -141,10 +141,22 @@
             "M1_Plus": "Explay M1 Plus",
             "MB40II1": "DNS MB40II1",
             "MI 2S": "Xiaomi MI 2S",
+            "Micromax A065": "Micromax A065",
+            "Micromax A066": "Micromax A066",
+            "Micromax A067": "Micromax A067",
+            "Micromax A069": "Micromax A069",
+            "Micromax A082": "Micromax A082",
             "Micromax A091": "Micromax A091",
             "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
+            "Micromax A109": "Micromax A109",
+            "Micromax A190": "Micromax A190",
+            "Micromax A290": "Micromax A290",
             "Micromax A300": "Micromax A300",
+            "Micromax A310": "Micromax A310",
+            "Micromax A311": "Micromax A311",
             "Micromax AQ4501": "Micromax AQ4501",
+            "Micromax AQ5000": "Micromax AQ5000",
             "P4": "PiPO P4",
             "Philips W3509": "Philips W3509",
             "SM-G530H": "Samsung SM-G530H",
@@ -192,7 +204,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "Boost IIse": "Highscreen Boost II SE",
-            "Coolpad 8730L": "Coolpad 8730L"
+            "Coolpad 8730L": "Coolpad 8730L",
+            "Micromax A092": "Micromax A092",
+            "Micromax A121": "Micromax A121"
           },
           "platforms": [
             "Android_4_3"
@@ -223,16 +237,18 @@
             "M7T": "PiPO M7T",
             "Micromax A068": "Micromax A068",
             "Micromax A110Q": "Micromax A110Q",
-            "Micromax A116": "Micromax A116",
-            "Micromax A116i": "Micromax A116i",
             "Micromax A117": "Micromax A117",
+            "Micromax A177": "Micromax A177",
             "Micromax A200": "Micromax A200",
+            "Micromax A37": "Micromax A37",
+            "Micromax A37B": "Micromax A37B",
             "Micromax A58": "Micromax A58",
             "Micromax A63": "Micromax A63",
             "Micromax A74": "Micromax A74",
             "Micromax A46": "Micromax A46",
             "Micromax A76": "Micromax A76",
             "Micromax A77": "Micromax A77",
+            "Micromax A93": "Micromax A93",
             "Micromax A94": "Micromax A94",
             "N003": "NEO N003",
             "Novo7Fire": "Ainol Novo 7 Fire",
@@ -254,6 +270,16 @@
           },
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1"
           ]
         },
         {
