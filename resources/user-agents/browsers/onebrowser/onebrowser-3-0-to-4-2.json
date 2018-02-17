@@ -18,40 +18,12 @@
       },
       "children": [
         {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#GT-S5302 *) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
-          "device": "Samsung GT-S5302",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#Micromax A27*) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "Micromax A27",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "Micromax A27",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#GT-S7562*) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "Samsung GT-S7562",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#GT-S7562 *) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "Samsung GT-S7562",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "devices": {
+            "GT-S5302": "Samsung GT-S5302",
+            "GT-S7562": "Samsung GT-S7562",
+            "Micromax A27": "Micromax A27"
+          },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3"
@@ -71,6 +43,26 @@
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "devices": {
+            "GT-S7562": "Samsung GT-S7562",
+            "Micromax A27": "Micromax A27"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "devices": {
+            "Micromax A110": "Micromax A110"
+          },
+          "platforms": [
+            "Android_4_0"
           ]
         },
         {

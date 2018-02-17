@@ -1,4 +1,17 @@
 {
+    "Micromax A064": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A064",
+            "Device_Name": "Bolt A064",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A065": {
         "standard": false,
         "properties": {
@@ -64,12 +77,38 @@
             "isTablet": "false"
         }
     },
+    "Micromax A075": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A075",
+            "Device_Name": "Bolt A075",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A082": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A082",
             "Device_Name": "Bolt A082",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax A089": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A089",
+            "Device_Name": "Bolt A089",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",
@@ -168,6 +207,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax A105": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A105",
+            "Device_Name": "Canvas Entice",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A106": {
         "standard": true,
         "properties": {
@@ -187,6 +239,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A107",
             "Device_Name": "Canvas Fire 4",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax A108": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A108",
+            "Device_Name": "Canvas L",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",
@@ -550,7 +615,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A40",
-            "Device_Name": "A40",
+            "Device_Name": "Bolt A40",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",
@@ -753,6 +818,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax A66": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A66",
+            "Device_Name": "Bolt A66",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A67": {
         "standard": false,
         "properties": {
@@ -779,12 +857,38 @@
             "isTablet": "false"
         }
     },
+    "Micromax A69": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A69",
+            "Device_Name": "Bolt A69",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A70": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A70",
             "Device_Name": "A70",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax A71": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A71",
+            "Device_Name": "Bolt A71",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",
@@ -1039,6 +1143,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax A96": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A96",
+            "Device_Name": "Canvas Power",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A99": {
         "standard": false,
         "properties": {
@@ -1130,6 +1247,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax A315": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A315",
+            "Device_Name": "Canvas 4 Plus",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A350": {
         "standard": false,
         "properties": {
@@ -1156,6 +1286,32 @@
             "isTablet": "false"
         }
     },
+    "Micromax AD3520": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "AD3520",
+            "Device_Name": "Bolt AD3520",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax AD4500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "AD4500",
+            "Device_Name": "Bolt AD4500",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax AQ5000": {
         "standard": false,
         "properties": {
@@ -1175,6 +1331,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AQ5001",
             "Device_Name": "Canvas Juice 2",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax D321": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D321",
+            "Device_Name": "Bolt D321",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",
@@ -1247,6 +1416,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax Q371": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Q371",
+            "Device_Name": "Canvas Pep",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax Q385": {
         "standard": false,
         "properties": {
@@ -1299,12 +1481,51 @@
             "isTablet": "false"
         }
     },
+    "Micromax X324": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X324",
+            "Device_Name": "X324",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X329": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X329",
+            "Device_Name": "X329",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax X351": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "X351",
             "Device_Name": "Bolt X351",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X352": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X352",
+            "Device_Name": "X352",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "stylus",
@@ -1351,6 +1572,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax X101i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X101i",
+            "Device_Name": "X101i",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax X103i": {
         "standard": false,
         "properties": {
@@ -1370,6 +1604,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "X295",
             "Device_Name": "X295",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X263": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X263",
+            "Device_Name": "X263",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "stylus",
@@ -1438,6 +1685,266 @@
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "trackball",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X292i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X292i",
+            "Device_Name": "X292i",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X292": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X292",
+            "Device_Name": "X292",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X279": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X279",
+            "Device_Name": "X279",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X336": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X336",
+            "Device_Name": "X336",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X367": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X367",
+            "Device_Name": "X367",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X282": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X282",
+            "Device_Name": "X282",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X288": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X288",
+            "Device_Name": "X288",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X070": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X070",
+            "Device_Name": "X070",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X081": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X081",
+            "Device_Name": "X081",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X084": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X084",
+            "Device_Name": "X084",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X085": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X085",
+            "Device_Name": "X085",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X088": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X088",
+            "Device_Name": "X088",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X097": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X097",
+            "Device_Name": "X097",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X098": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X098",
+            "Device_Name": "X098",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X247": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X247",
+            "Device_Name": "X247",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X456": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X456",
+            "Device_Name": "X456",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X457": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X457",
+            "Device_Name": "X457",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X458": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X458",
+            "Device_Name": "X458",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X353": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X353",
+            "Device_Name": "X353",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Micromax X501": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X501",
+            "Device_Name": "X501",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -501,6 +501,7 @@
             "MEDIA PAD": "Huawei Media Pad",
             "MediaPad M1 8.0": "Huawei MediaPad M1 8.0",
             "Micromax A068": "Micromax A068",
+            "Micromax A089": "Micromax A089",
             "Micromax A110Q": "Micromax A110Q",
             "Micromax A114": "Micromax A114",
             "Micromax A114R": "Micromax A114R",
@@ -517,11 +518,13 @@
             "Micromax A47": "Micromax A47",
             "Micromax A58": "Micromax A58",
             "Micromax A63": "Micromax A63",
+            "Micromax A69": "Micromax A69",
             "Micromax A74": "Micromax A74",
             "Micromax A76": "Micromax A76",
             "Micromax A77": "Micromax A77",
             "Micromax A93": "Micromax A93",
             "Micromax A94": "Micromax A94",
+            "Micromax A96": "Micromax A96",
             "Micromax P280": "Micromax P280",
             "Micromax P650": "Micromax P650",
             "MOMO20S": "Ployer Momo20s",
@@ -660,6 +663,8 @@
             "MEDION X4701": "Medion X4701",
             "Micromax A59": "Micromax A59",
             "Micromax A61": "Micromax A61",
+            "Micromax A66": "Micromax A66",
+            "Micromax A71": "Micromax A71",
             "Micromax A88": "Micromax A88",
             "Micromax_A90s": "Micromax A90S",
             "Micromax A92": "Micromax A92",
@@ -847,6 +852,7 @@
             "Micromax A89": "Micromax A89",
             "Micromax A90": "Micromax A90",
             "Micromax A91": "Micromax A91",
+            "Micromax A075": "Micromax A075",
             "Micromax P275": "Micromax P275",
             "NEXT": "Nextbook Next",
             "ODYS-EVO": "Odys Evo",
@@ -1767,6 +1773,15 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.*Safari/*",
+          "devices": {
+            "Micromax A28": "Micromax A28"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {

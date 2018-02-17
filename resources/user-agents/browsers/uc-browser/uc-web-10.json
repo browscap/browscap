@@ -78,7 +78,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
-            "GT-N7000": "Samsung GT-N7000"
+            "GT-N7000": "Samsung GT-N7000",
+            "Micromax A107": "Micromax A107"
           },
           "platforms": [
             "Android_5_0"
@@ -141,6 +142,7 @@
             "M1_Plus": "Explay M1 Plus",
             "MB40II1": "DNS MB40II1",
             "MI 2S": "Xiaomi MI 2S",
+            "Micromax A064": "Micromax A064",
             "Micromax A065": "Micromax A065",
             "Micromax A066": "Micromax A066",
             "Micromax A067": "Micromax A067",
@@ -149,14 +151,18 @@
             "Micromax A091": "Micromax A091",
             "Micromax A093": "Micromax A093",
             "Micromax A104": "Micromax A104",
+            "Micromax A105": "Micromax A105",
+            "Micromax A108": "Micromax A108",
             "Micromax A109": "Micromax A109",
             "Micromax A190": "Micromax A190",
             "Micromax A290": "Micromax A290",
             "Micromax A300": "Micromax A300",
             "Micromax A310": "Micromax A310",
             "Micromax A311": "Micromax A311",
+            "Micromax D321": "Micromax D321",
             "Micromax AQ4501": "Micromax AQ4501",
             "Micromax AQ5000": "Micromax AQ5000",
+            "Micromax AD3520": "Micromax AD3520",
             "P4": "PiPO P4",
             "Philips W3509": "Philips W3509",
             "SM-G530H": "Samsung SM-G530H",
@@ -236,6 +242,7 @@
             "M601": "AOC M601",
             "M7T": "PiPO M7T",
             "Micromax A068": "Micromax A068",
+            "Micromax A089": "Micromax A089",
             "Micromax A110Q": "Micromax A110Q",
             "Micromax A117": "Micromax A117",
             "Micromax A177": "Micromax A177",
@@ -244,12 +251,14 @@
             "Micromax A37B": "Micromax A37B",
             "Micromax A58": "Micromax A58",
             "Micromax A63": "Micromax A63",
+            "Micromax A69": "Micromax A69",
             "Micromax A74": "Micromax A74",
             "Micromax A46": "Micromax A46",
             "Micromax A76": "Micromax A76",
             "Micromax A77": "Micromax A77",
             "Micromax A93": "Micromax A93",
             "Micromax A94": "Micromax A94",
+            "Micromax A96": "Micromax A96",
             "N003": "NEO N003",
             "Novo7Fire": "Ainol Novo 7 Fire",
             "NT-3507M": "iconBIT NT-3507M",
@@ -296,7 +305,6 @@
             "Micromax A59": "Micromax A59",
             "Micromax A88": "Micromax A88",
             "Micromax A92": "Micromax A92",
-            "Micromax A110*": "Micromax A110",
             "Micromax A115": "Micromax A115",
             "MID-717R": "VastKing MID-717R",
             "NT-3502M": "iconBIT NT-3502M",
@@ -313,6 +321,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "Micromax A110*": "Micromax A110"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
             "Alpha GTR": "Highscreen Alpha GTR",
             "Coolpad 8089": "Coolpad 8089",
             "HW-W718": "Haier W718",
@@ -320,6 +337,7 @@
             "LT26w": "Sony LT26w",
             "MD027G": "M-way MD027G",
             "Micromax A67": "Micromax A67",
+            "Micromax A075": "Micromax A075",
             "NetTAB THOR-LE": "iconBIT THOR-LE",
             "Oysters T37": "Oysters T37",
             "QS0716D": "3Q QS0716D",
@@ -502,7 +520,8 @@
           "engine": "U2",
           "devices": {
             "H30-U10": "Huawei H30-U10",
-            "M785": "AOSON M785"
+            "M785": "AOSON M785",
+            "Micromax A96": "Micromax A96"
           },
           "platforms": [
             "Android_E_4_2"

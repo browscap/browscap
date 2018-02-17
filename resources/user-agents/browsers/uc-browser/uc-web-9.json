@@ -23,6 +23,7 @@
           "devices": {
             "GT-S5830": "Samsung GT-S5830",
             "LG-D415": "LG D415",
+            "Micromax_A106": "Micromax A106",
             "Mi-440": "Spice Mi-440"
           },
           "platforms": [
@@ -456,6 +457,7 @@
           "devices": {
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
+            "Micromax_A064": "Micromax A064",
             "Micromax_A065": "Micromax A065",
             "Micromax_A069": "Micromax A069",
             "Micromax_A082": "Micromax A082",
@@ -525,6 +527,7 @@
             "Micromax_A58": "Micromax A58",
             "Micromax_A76": "Micromax A76",
             "Micromax_A177": "Micromax A177",
+            "Micromax_A089": "Micromax A089",
             "SM-T311": "Samsung SM-T311",
             "T118": "Twinovo T118",
             "T8700": "Ninetology T8700",
@@ -556,6 +559,7 @@
             "Lenovo_A390t": "Lenovo A390t",
             "LG-P765": "LG P765",
             "Micromax_A67": "Micromax A67",
+            "Micromax_A075": "Micromax A075",
             "WEXLER.BOOK_T7008": "Wexler Book T7008"
           },
           "platforms": [
@@ -576,7 +580,8 @@
             "Micromax_A34": "Micromax A34",
             "Micromax_A35": "Micromax A35",
             "Micromax_A36": "Micromax A36",
-            "Micromax A57": "Micromax A57",
+            "Micromax_A40": "Micromax A40",
+            "Micromax_A57": "Micromax A57",
             "Micromax_A62": "Micromax A62",
             "Micromax_A65": "Micromax A65",
             "Micromax_A72": "Micromax A72",

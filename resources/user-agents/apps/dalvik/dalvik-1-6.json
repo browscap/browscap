@@ -174,12 +174,20 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "Micromax A110Q": "Micromax A110Q"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
             "B1-A71": "Acer B1-A71",
             "GT-I9082": "Samsung GT-I9082",
             "LT26i": "SonyEricsson LT26i",
             "LT28h": "SonyEricsson LT28h",
             "LT30p": "Sony LT30p",
-            "Micromax A110Q": "Micromax A110Q",
             "Micromax A116": "Micromax A116",
             "Micromax A116i": "Micromax A116i"
           },
@@ -192,6 +200,7 @@
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
             "HTC Desire C": "HTC Desire C",
+            "Micromax A110*": "Micromax A110",
             "Transformer Prime TF201": "Asus TF201"
           },
           "platforms": [
@@ -202,8 +211,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "Cynus T2": "Mobistel Cynus T2",
-            "HTC One VX": "HTC One VX",
-            "Micromax A110*": "Micromax A110"
+            "HTC One VX": "HTC One VX"
           },
           "platforms": [
             "Android_4_0"
