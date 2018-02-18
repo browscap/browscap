@@ -1,4 +1,17 @@
 {
+    "general Mobile Phone (Apple)": {
+        "standard": true,
+        "properties": {
+            "Device_Name": "general Mobile Phone",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "general Mobile Phone",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "iPhone": {
         "standard": false,
         "properties": {
