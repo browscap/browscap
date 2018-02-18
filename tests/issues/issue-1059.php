@@ -1726,13 +1726,13 @@ return [
     'issue-1059-57' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; 49UH668V-ZA; WEBOS3.0 03.00.87; W3_M16;)',
         'properties' => [
-            'Comment' => 'Chrome 38.0',
-            'Browser' => 'Chrome',
+            'Comment' => 'QtWebEngine 5.2 for TV',
+            'Browser' => 'QtWebEngine',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
+            'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
-            'Version' => '38.0',
+            'Version' => '5.2',
             'Platform' => 'webOS',
             'Platform_Version' => '3.0',
             'Platform_Description' => 'LG webOS',
@@ -1765,19 +1765,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1059-57 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 (+DRM; LGE; 49UH668V-ZA; WEBOS3.0 03.00.87; W3_M16;)',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Linux',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-1059-58' => [
         'ua' => 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 43LF630V-ZA; 04.05.01; 1; DTV_W15M); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 43LF630V-ZA, wireless)',

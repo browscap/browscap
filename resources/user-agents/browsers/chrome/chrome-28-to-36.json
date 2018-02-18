@@ -97,20 +97,6 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/#MAJORVER#.#MINORVER#* Safari/*LGE; 49UH668V*",
-          "device": "LG 49UH668V",
-          "platforms": [
-            "webOS_30"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "general TV Device",
-          "platforms": [
-            "webOS_30"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* CrKey/*",
           "device": "Google Chromecast",
           "platforms": [

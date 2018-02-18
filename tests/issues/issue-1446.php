@@ -436,7 +436,7 @@ return [
     'issue-1446-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36',
         'properties' => [
-            'Comment' => 'QtWebEngine 5.6',
+            'Comment' => 'QtWebEngine 5.6 for Desktop',
             'Browser' => 'QtWebEngine',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -479,7 +479,7 @@ return [
     'issue-1446-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36',
         'properties' => [
-            'Comment' => 'QtWebEngine 5.6',
+            'Comment' => 'QtWebEngine 5.6 for Desktop',
             'Browser' => 'QtWebEngine',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -522,7 +522,7 @@ return [
     'issue-1446-L' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.7.0 Chrome/49.0.2623.111 Safari/537.36',
         'properties' => [
-            'Comment' => 'QtWebEngine 5.7',
+            'Comment' => 'QtWebEngine 5.7 for Desktop',
             'Browser' => 'QtWebEngine',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -565,7 +565,7 @@ return [
     'issue-1446-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36',
         'properties' => [
-            'Comment' => 'QtWebEngine 5.6',
+            'Comment' => 'QtWebEngine 5.6 for Desktop',
             'Browser' => 'QtWebEngine',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
