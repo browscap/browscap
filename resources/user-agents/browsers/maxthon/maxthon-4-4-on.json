@@ -341,6 +341,13 @@
             "WinXPa_64", "WinXPa_32",
             "Windows"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
         }
       ]
     },
