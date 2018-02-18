@@ -31,7 +31,8 @@
         {
           "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
           "devices": {
-            "Aqua_Star": "Intex Aqua Star"
+            "Aqua_Star": "Intex Aqua Star",
+            "Micromax A50": "Micromax A50"
           },
           "platforms": [
             "Android_D_2_3"
@@ -63,6 +64,15 @@
           },
           "platforms": [
             "Android_C_2_3", "Android_C_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Micromax A50": "Micromax A50"
+          },
+          "platforms": [
+            "Android_G_2_3"
           ]
         },
         {

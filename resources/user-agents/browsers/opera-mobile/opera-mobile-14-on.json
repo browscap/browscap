@@ -236,6 +236,7 @@
             "LG-D285": "LG D285",
             "LG-D802": "LG D802",
             "LG-V500": "LG V500",
+            "Micromax A096": "Micromax A096",
             "Nexus 10": "Samsung Nexus 10",
             "Numy_Note_9": "Ainol Numy Note 9",
             "P8": "Huawei P8",
@@ -404,7 +405,6 @@
             "ME301T": "Asus ME301T",
             "ME302C": "Asus ME302C",
             "ME302KL": "Asus ME302KL",
-            "Micromax A116": "Micromax A116",
             "myTAB Mini 3G": "myTAB Mini 3G",
             "N3+": "Star N3+",
             "NX402": "ZTE NX402",
@@ -435,7 +435,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
-            "M3": "HTM M3"
+            "M3": "HTM M3",
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i"
           },
           "platforms": [
             "Android_4_2", "Android_4_1"
@@ -543,7 +545,14 @@
           "devices": {
             "GT-I9100G": "Samsung GT-I9100G",
             "HTC Ruby": "HTC Ruby",
-            "Liquid MT": "Acer Liquid Metal"
+            "Liquid MT": "Acer Liquid Metal",
+            "Micromax A26": "Micromax A26",
+            "Micromax A30": "Micromax A30",
+            "Micromax A35": "Micromax A35",
+            "Micromax A57": "Micromax A57",
+            "Micromax A62": "Micromax A62",
+            "Micromax A65": "Micromax A65",
+            "Micromax A72": "Micromax A72"
           },
           "platforms": [
             "Android_2_3"

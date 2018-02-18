@@ -1860,6 +1860,17 @@
         "lite": false,
         "standard": true
     },
+    "mstar browser": {
+        "properties": {
+            "Browser": "MStar Browser",
+            "Browser_Type": "Browser",
+            "Browser_Maker": "MStar Semiconductor, Inc.",
+            "isSyndicationReader": "false",
+            "Crawler": "false"
+        },
+        "lite": false,
+        "standard": true
+    },
     "my internet browser": {
         "properties": {
             "Browser": "My Internet Browser",

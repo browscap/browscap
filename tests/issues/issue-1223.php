@@ -1105,7 +1105,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Canvas Nitro',
+            'Device_Name' => 'Canvas Nitro 4G',
             'Device_Maker' => 'Micromax',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

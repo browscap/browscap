@@ -121,6 +121,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "Micromax E313": "Micromax E313"
+          },
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
@@ -138,6 +148,7 @@
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-F240L": "LG F240L",
             "LG-LS970": "LG LS970",
+            "Micromax A107": "Micromax A107",
             "N9500": "Star N9500",
             "PMT3177_3G": "Prestigio PMT3177_3G",
             "SM-G920K": "Samsung SM-G920K",
@@ -155,6 +166,7 @@
             "K00E": "Asus K00E",
             "Lenovo TAB 2 A7-30*": "Lenovo Tab 2 A7-30",
             "LG-D855": "LG D855",
+            "Micromax A99": "Micromax A99",
             "SM-T800": "Samsung SM-T800"
           },
           "platforms": [
@@ -276,6 +288,24 @@
             "M1_Plus": "Explay M1 Plus",
             "MB526": "Motorola MB526",
             "MI 3W": "Xiaomi MI 3W",
+            "Micromax A064": "Micromax A064",
+            "Micromax A065": "Micromax A065",
+            "Micromax A069": "Micromax A069",
+            "Micromax A082": "Micromax A082",
+            "Micromax A091": "Micromax A091",
+            "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
+            "Micromax A106": "Micromax A106",
+            "Micromax A108": "Micromax A108",
+            "Micromax A109": "Micromax A109",
+            "Micromax A190": "Micromax A190",
+            "Micromax A290": "Micromax A290",
+            "Micromax A300": "Micromax A300",
+            "Micromax A310": "Micromax A310",
+            "Micromax A311": "Micromax A311",
+            "Micromax AQ4501": "Micromax AQ4501",
+            "Micromax AQ5000": "Micromax AQ5000",
+            "Micromax Q379": "Micromax Q379",
             "ONDA V989": "ONDA V989",
             "OT-995": "Alcatel OT-995",
             "Oysters T84HRi 3G": "Oysters T84HRi",
@@ -386,6 +416,9 @@
             "Lenovo S5000-H": "Lenovo S5000-H",
             "LG-D802*": "LG D802",
             "LG-V500": "LG V500",
+            "Micromax A102": "Micromax A102",
+            "Micromax A120": "Micromax A120",
+            "Micromax A350": "Micromax A350",
             "Neon-N1": "Axgio Neon N1",
             "S4505": "DNS S4505",
             "SM-T235": "Samsung SM-T235",
@@ -471,6 +504,8 @@
             "K01A": "Asus K01A",
             "Lenovo A355e": "Lenovo A355e",
             "Lenovo K900*": "Lenovo K900",
+            "Micromax A092": "Micromax A092",
+            "Micromax A121": "Micromax A121",
             "NokiaX2DS": "Nokia X2DS",
             "PMT3277_3G": "Prestigio PMT3277_3G",
             "PMT3287_3G": "Prestigio PMT3287_3G",
@@ -647,6 +682,18 @@
             "M1003G": "iRU M1003G",
             "ME173X": "Asus ME173X",
             "ME302KL": "Asus ME302KL",
+            "Micromax A068": "Micromax A068",
+            "Micromax A110Q": "Micromax A110Q",
+            "Micromax A117": "Micromax A117",
+            "Micromax A177": "Micromax A177",
+            "Micromax A200": "Micromax A200",
+            "Micromax A210": "Micromax A210",
+            "Micromax A74": "Micromax A74",
+            "Micromax A63": "Micromax A63",
+            "Micromax A69": "Micromax A69",
+            "Micromax A76": "Micromax A76",
+            "Micromax A96": "Micromax A96",
+            "Micromax P650": "Micromax P650",
             "MID802": "Manta MID802",
             "Minno8": "Minno Minno8",
             "MT0739D": "3Q MT0739D",
@@ -716,6 +763,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "C6602": "SonyEricsson C6602",
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i",
             "PMP7280C3G": "Prestigio PMP7280C3G",
             "PMP7280C3G_QUAD": "Prestigio PMP7280C3G_QUAD"
           },
@@ -855,6 +904,7 @@
             "Lenovo A390": "Lenovo A390",
             "Lenovo A390_ROW": "Lenovo A390",
             "Lenovo A390t": "Lenovo A390t",
+            "Lenovo Micromax A800": "Lenovo A800",
             "LIFETAB_P9514": "Medion LifeTab P9514",
             "LIFETAB_S9512": "Medion LifeTab S9512",
             "LT15i": "SonyEricsson LT15i",

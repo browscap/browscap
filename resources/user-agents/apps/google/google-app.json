@@ -140,6 +140,7 @@
             "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A7600-H": "Lenovo A7600-H",
+            "Micromax A106": "Micromax A106",
             "SM-T230NU": "Samsung SM-T230NU",
             "SM-T310": "Samsung SM-T310",
             "SM-T530": "Samsung SM-T530"
@@ -215,7 +216,9 @@
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A5500-H": "Lenovo A5500-H",
-            "Lenovo A680_ROW": "Lenovo A680"
+            "Lenovo A680_ROW": "Lenovo A680",
+            "Micromax A210": "Micromax A210",
+            "Micromax A74": "Micromax A74"
           },
           "platforms": [
             "Android_4_2"

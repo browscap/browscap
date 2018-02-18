@@ -308,6 +308,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
+            "Micromax Q354": "Micromax Q354"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
             "Redmi Note 3": "Xiaomi Redmi Note 3"
           },
           "platforms": [

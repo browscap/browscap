@@ -51,6 +51,17 @@
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
+            "Micromax_A116": "Micromax A116",
+            "Micromax_A116i": "Micromax A116i",
+            "Micromax_A74": "Micromax A74"
+          },
+          "platforms": [
+            "Android_E_4_2", "Android_E_4_1"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
             "A47": "Micromax A47",
             "GT-I9082": "Samsung GT-I9082",
             "S5A4": "Lexand S5A4"
@@ -77,6 +88,19 @@
           },
           "platforms": [
             "Android_E_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A35": "Micromax A35",
+            "Micromax_A36": "Micromax A36",
+            "Micromax_A62": "Micromax A62"
+          },
+          "platforms": [
+            "Android_E_2_3"
           ]
         },
         {
@@ -117,6 +141,7 @@
           "devices": {
             "ASUS_T00J": "Asus T00J",
             "Infinityll": "Explay Infinity ll",
+            "Micromax_A27": "Micromax A27",
             "GT-S7262": "Samsung GT-S7262"
           },
           "platforms": [
@@ -212,12 +237,22 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Micromax_A60": "Micromax A60"
+          },
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2",
+            "Android_2_3", "Android_2_2", "Android_2_1",
             "Android"
           ]
         }

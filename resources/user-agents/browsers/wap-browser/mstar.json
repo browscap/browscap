@@ -1,0 +1,31 @@
+{
+  "division": "MStar Browser",
+  "sortIndex": 6900,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MStar Browser",
+      "browser": "mstar browser",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MStar Browser",
+        "Alpha": "false",
+        "Beta": "false"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/MstarBrowser*/MIDP2.0*",
+          "devices": {
+            "MicromaxX279": "Micromax X279",
+            "MicromaxX292i": "Micromax X292i",
+            "MicromaxX292": "Micromax X292",
+            "MicromaxX324": "Micromax X324"
+          }
+        }
+      ]
+    }
+  ]
+}

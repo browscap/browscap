@@ -23,6 +23,7 @@
           "devices": {
             "GT-S5830": "Samsung GT-S5830",
             "LG-D415": "LG D415",
+            "Micromax_A106": "Micromax A106",
             "Mi-440": "Spice Mi-440"
           },
           "platforms": [
@@ -167,7 +168,13 @@
             "Lenovo A606": "Lenovo A606",
             "Lenovo S660": "Lenovo S660",
             "LG-D325": "LG D325",
-            "LG-D690": "LG D690"
+            "LG-D690": "LG D690",
+            "Micromax A065": "Micromax A065",
+            "Micromax A069": "Micromax A069",
+            "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
+            "Micromax A106": "Micromax A106",
+            "Micromax_A106": "Micromax A106"
           },
           "platforms": [
             "Android_4_4"
@@ -187,7 +194,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "Lenovo A328": "Lenovo A328"
+            "Lenovo A328": "Lenovo A328",
+            "Micromax A102": "Micromax A102",
+            "Micromax A120": "Micromax A120"
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2"
@@ -227,7 +236,11 @@
             "Keneksi-Libra_Dual": "Keneksi Libra",
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A880": "Lenovo A880",
+            "Micromax A068": "Micromax A068",
             "Micromax A120": "Micromax A120",
+            "Micromax A177": "Micromax A177",
+            "Micromax A94": "Micromax A94",
+            "Micromax A77": "Micromax A77",
             "ZTE LEO Q2": "ZTE V769M"
           },
           "platforms": [
@@ -244,6 +257,7 @@
             "DIGMA iDsD8 3G": "Digma iDsD8 3G",
             "GT-S7390": "Samsung GT-S7390",
             "GT-S7392": "Samsung GT-S7392",
+            "Micromax P410": "Micromax P410",
             "s4502": "DNS S4502",
             "WEXLER-TAB-7T": "Wexler TAB-7T"
           },
@@ -285,6 +299,7 @@
           "devices": {
             "GT-S6802": "Samsung GT-S6802",
             "Lenovo A238t": "Lenovo A238t",
+            "Micromax A28": "Micromax A28",
             "PMP7074B3GRU": "Prestigio PMP7074B3GRU",
             "ST25i": "SonyEricsson ST25i"
           },
@@ -328,7 +343,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "ASUS Transformer Pad TF700T": "Asus TF700T"
+            "ASUS Transformer Pad TF700T": "Asus TF700T",
+            "Micromax A110Q": "Micromax A110Q",
+            "Micromax A58": "Micromax A58"
           },
           "platforms": [
             "Android_4_2"
@@ -354,7 +371,9 @@
             "Lenovo A316i": "Lenovo A316i",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
-            "Lenovo A859": "Lenovo A859"
+            "Lenovo A859": "Lenovo A859",
+            "Micromax A46": "Micromax A46",
+            "Micromax A77": "Micromax A77"
           },
           "platforms": [
             "Android_4_2"
@@ -376,6 +395,7 @@
           "devices": {
             "HTC One S": "HTC PJ401",
             "Lenovo A390t": "Lenovo A390t",
+            "Micromax A68": "Micromax A68",
             "TM-5204": "TeXet TM-5204"
           },
           "platforms": [
@@ -386,10 +406,22 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
+            "Micromax A27": "Micromax A27",
+            "Micromax A34": "Micromax A34",
             "GT-S6802": "Samsung GT-S6802"
           },
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "Micromax A85": "Micromax A85"
+          },
+          "platforms": [
+            "Android_2_2"
           ]
         },
         {
@@ -425,10 +457,29 @@
           "devices": {
             "HM_1SW": "Xiaomi HM 1SW",
             "LG-D724": "LG D724",
+            "Micromax_A064": "Micromax A064",
+            "Micromax_A065": "Micromax A065",
+            "Micromax_A069": "Micromax A069",
+            "Micromax_A082": "Micromax A082",
+            "Micromax_A093": "Micromax A093",
+            "Micromax_A104": "Micromax A104",
+            "Micromax_A106": "Micromax A106",
+            "Micromax_A109": "Micromax A109",
+            "Micromax_AQ4501": "Micromax AQ4501",
             "PMP7070C3G": "Prestigio PMP7070C3G"
           },
           "platforms": [
             "Android_E_4_4"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Micromax_A102": "Micromax A102",
+            "Micromax_A120": "Micromax A120"
+          },
+          "platforms": [
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2"
           ]
         },
         {
@@ -449,7 +500,9 @@
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
             "GT-9000": "Star GT9000",
-            "Lenovo_K910L": "Lenovo K910L"
+            "Lenovo_K910L": "Lenovo K910L",
+            "Micromax_A092": "Micromax A092",
+            "Micromax_A121": "Micromax A121"
           },
           "platforms": [
             "Android_E_4_3"
@@ -467,7 +520,14 @@
             "Lenovo?A316i": "Lenovo A316i",
             "Lenovo_A3000-H": "Lenovo A3000-H",
             "Lenovo_A516": "Lenovo A516",
+            "Micromax_A37": "Micromax A37",
+            "Micromax_A46": "Micromax A46",
             "Micromax_A94": "Micromax A94",
+            "Micromax_A110Q": "Micromax A110Q",
+            "Micromax_A58": "Micromax A58",
+            "Micromax_A76": "Micromax A76",
+            "Micromax_A177": "Micromax A177",
+            "Micromax_A089": "Micromax A089",
             "SM-T311": "Samsung SM-T311",
             "T118": "Twinovo T118",
             "T8700": "Ninetology T8700",
@@ -483,7 +543,9 @@
           "devices": {
             "HS-U98": "Hisense HS-U98",
             "Lenovo_A706_ROW": "Lenovo A706",
-            "Lenovo_P770": "Lenovo P770"
+            "Lenovo_P770": "Lenovo P770",
+            "Micromax_A59": "Micromax A59",
+            "Micromax_A110": "Micromax A110"
           },
           "platforms": [
             "Android_E_4_1"
@@ -496,6 +558,8 @@
             "iDxD8_3G": "Digma iDxD8 3G",
             "Lenovo_A390t": "Lenovo A390t",
             "LG-P765": "LG P765",
+            "Micromax_A67": "Micromax A67",
+            "Micromax_A075": "Micromax A075",
             "WEXLER.BOOK_T7008": "Wexler Book T7008"
           },
           "platforms": [
@@ -509,6 +573,19 @@
             "GT-I9100P": "Samsung GT-I9100P",
             "Lenovo_A318t": "Lenovo A318t",
             "MB300": "Motorola MB300",
+            "Micromax_A24": "Micromax A24",
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A28": "Micromax A28",
+            "Micromax_A34": "Micromax A34",
+            "Micromax_A35": "Micromax A35",
+            "Micromax_A36": "Micromax A36",
+            "Micromax_A40": "Micromax A40",
+            "Micromax_A57": "Micromax A57",
+            "Micromax_A62": "Micromax A62",
+            "Micromax_A65": "Micromax A65",
+            "Micromax_A72": "Micromax A72",
+            "Micromax_A87": "Micromax A87",
             "PantechP9060": "Pantech P9060"
           },
           "platforms": [
@@ -548,7 +625,8 @@
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "Oysters_T72HRi_3G": "Oysters T72HRi 3G"
+            "Oysters_T72HRi_3G": "Oysters T72HRi 3G",
+            "Micromax_A106": "Micromax A106"
           },
           "platforms": [
             "Android_4_4"
@@ -558,6 +636,7 @@
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Adi_5S": "Artel Adi5S",
+            "Micromax_A46": "Micromax A46",
             "thl_4400": "ThL 4400",
             "Videocon_A15": "Videocon A15"
           },
@@ -581,6 +660,8 @@
           "devices": {
             "Lenovo_A376": "Lenovo A376",
             "LG-E612": "LG E612",
+            "Micromax_A67": "Micromax A67",
+            "Micromax_A91": "Micromax A91",
             "PMP7280C3G": "Prestigio PMP7280C3G",
             "SHV-E210K": "Samsung SHV-E210K",
             "T8700": "Ninetology T8700",
@@ -594,6 +675,10 @@
           "match": "UCWEB/*(Linux; U; Opera Mini/*; #DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "ATLAS_W": "ZTE Atlas W",
+            "Micromax_A26": "Micromax A26",
+            "Micromax_A27": "Micromax A27",
+            "Micromax_A35": "Micromax A35",
+            "Micromax_A62": "Micromax A62",
             "USCCADR6230US": "HTC Wildfire S ADR6230"
           },
           "platforms": [
@@ -843,7 +928,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Nokia)",
+      "device": "general Mobile Phone",
       "engine": "U2",
       "platform": "JAVA",
       "properties": {
@@ -856,6 +941,7 @@
           "match": "UCWEB/*(Java; *#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "devices": {
             "ALCATEL_one_touch_818": "Alcatel OT-818",
+            "MicromaxQ5": "Micromax Q5",
             "SAMSUNG-SGH-T669": "Samsung SGH-T669",
             "SonyEricssonK790i": "SonyEricsson K790i"
           },
@@ -865,7 +951,6 @@
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

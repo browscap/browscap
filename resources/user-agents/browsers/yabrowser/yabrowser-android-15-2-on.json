@@ -65,6 +65,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "HTC Desire 626s": "HTC 0PM92",
+            "Micromax Q4101": "Micromax Q4101",
             "P01T_1": "Asus P01T_1",
             "PMT3118_3G": "Prestigio PMT3118_3G",
             "TZ857": "Irbis TZ857"

@@ -25,12 +25,168 @@
             "isTablet": "true"
         }
     },
+    "Micromax P250": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P250",
+            "Device_Name": "Funbook Alfa",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P275": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P275",
+            "Device_Name": "Funbook Infinity",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P280": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P280",
+            "Device_Name": "Funbook",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P350": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P350",
+            "Device_Name": "Funbook Talk P350",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P360": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P360",
+            "Device_Name": "Funbook Talk P360",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P362": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P362",
+            "Device_Name": "Funbook Talk P362",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P410": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P410",
+            "Device_Name": "Funbook Talk P410",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P410i": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P410i",
+            "Device_Name": "Funbook Talk P410i",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Micromax P480": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "P480",
             "Device_Name": "Canvas Tab P480",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P500": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P500",
+            "Device_Name": "Funbook Pro",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P560": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P560",
+            "Device_Name": "Funbook 3G P560",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P600": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P600",
+            "Device_Name": "Funbook 3G P600",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax P650": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P650",
+            "Device_Name": "Canvas Tab P650",
             "Device_Maker": "Micromax",
             "Device_Brand_Name": "Micromax",
             "Device_Pointing_Method": "touchscreen",

@@ -17,6 +17,28 @@
       },
       "children": [
         {
+          "match": "#DEVICE#/*MAUI-Browser*",
+          "devices": {
+            "Micromax X088": "Micromax X088",
+            "Micromax X279i": "Micromax X279i",
+            "Micromax X282": "Micromax X282",
+            "Micromax X288": "Micromax X288",
+            "Micromax X295": "Micromax X295",
+            "Micromax X325": "Micromax X325",
+            "Micromax X328": "Micromax X328",
+            "Micromax X335C": "Micromax X335C",
+            "Micromax X335": "Micromax X335",
+            "Micromax X336": "Micromax X336",
+            "Micromax X337": "Micromax X337",
+            "Micromax X353": "Micromax X353",
+            "Micromax X446": "Micromax X446",
+            "Micromax X456": "Micromax X456",
+            "Micromax X458": "Micromax X458",
+            "MicromaxQ50": "Micromax Q50",
+            "MicromaxX263": "Micromax X263"
+          }
+        },
+        {
           "match": "#DEVICE#?MAUI* Browser*",
           "devices": {
             "CELKON.C329.X18": "Celkon C329",
@@ -29,16 +51,13 @@
           }
         },
         {
-          "match": "MAUI WAP Browser MAUI WAP Browser"
+          "match": "*?MAUI*Browser*"
         },
         {
-          "match": "MAUI WAP Browser*"
+          "match": "MAUI?WAP?Browser*"
         },
         {
           "match": "Maui Browser"
-        },
-        {
-          "match": "MAUI_WAP_Browser"
         },
         {
           "match": "MAUI?WAP?Browser Novarra-Vision/8.0"

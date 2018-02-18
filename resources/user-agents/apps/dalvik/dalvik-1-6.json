@@ -109,6 +109,12 @@
             "HTC One mini 2": "HTC One Mini 2",
             "LG-D605": "LG D605",
             "LIFETAB_S831X": "Lenovo Lifetab S831X",
+            "Micromax A069": "Micromax A069",
+            "Micromax A102": "Micromax A102",
+            "Micromax A104": "Micromax A104",
+            "Micromax A106": "Micromax A106",
+            "Micromax A310": "Micromax A310",
+            "Micromax AQ4501": "Micromax AQ4501",
             "PMT3037_3G": "Prestigio PMT3037_3G",
             "SM-G355HN": "Samsung SM-G355HN",
             "SM-G800H": "Samsung SM-G800H",
@@ -152,6 +158,8 @@
             "GT-I8200N": "Samsung GT-I8200N",
             "GT-I9105P": "Samsung GT-I9105P",
             "GT-S7580": "Samsung GT-S7580",
+            "Micromax A76": "Micromax A76",
+            "Micromax A177": "Micromax A177",
             "PMP5785C3G_QUAD": "Prestigio PMP5785C3G_QUAD",
             "SM-G386F": "Samsung SM-G386F",
             "SM-T110": "Samsung SM-T110",
@@ -166,11 +174,22 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "Micromax A110Q": "Micromax A110Q"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
             "B1-A71": "Acer B1-A71",
             "GT-I9082": "Samsung GT-I9082",
             "LT26i": "SonyEricsson LT26i",
             "LT28h": "SonyEricsson LT28h",
-            "LT30p": "Sony LT30p"
+            "LT30p": "Sony LT30p",
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i"
           },
           "platforms": [
             "Android_4_1"
@@ -181,6 +200,7 @@
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
             "HTC Desire C": "HTC Desire C",
+            "Micromax A110*": "Micromax A110",
             "Transformer Prime TF201": "Asus TF201"
           },
           "platforms": [

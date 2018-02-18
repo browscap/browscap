@@ -416,6 +416,7 @@
             "LGLS675": "LG LS675",
             "LGMS330": "LG MS330",
             "LGMS345": "LG MS345",
+            "Micromax Q385": "Micromax Q385",
             "N9132": "ZTE Prestige",
             "SM-G360T": "Samsung SM-G360T",
             "SM-G360T1": "Samsung SM-G360T1",
@@ -460,6 +461,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "E6782": "Kyocera E6782",
+            "Micromax AQ4501": "Micromax AQ4501",
             "QTAQZ3": "Quanta QTAQZ3",
             "SM-G360V": "Samsung SM-G360V",
             "SM-T337V": "Samsung SM-T337V",
@@ -508,6 +510,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "Micromax A99": "Micromax A99",
             "SCH-I545": "Samsung SCH-I545",
             "SCH-R970": "Samsung SCH-R970",
             "SGH-I337": "Samsung SGH-I337",
@@ -560,6 +563,21 @@
             "LGL41C": "LG L41C",
             "LGLS740": "LG LS740",
             "LGLS885": "LG LS885",
+            "Micromax A065": "Micromax A065",
+            "Micromax A069": "Micromax A069",
+            "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
+            "Micromax A106": "Micromax A106",
+            "Micromax A108": "Micromax A108",
+            "Micromax A109": "Micromax A109",
+            "Micromax A120": "Micromax A120",
+            "Micromax A190": "Micromax A190",
+            "Micromax A290": "Micromax A290",
+            "Micromax A300": "Micromax A300",
+            "Micromax A310": "Micromax A310",
+            "Micromax A311": "Micromax A311",
+            "Micromax A315": "Micromax A315",
+            "Micromax AQ5000": "Micromax AQ5000",
             "N9130": "ZTE N9130",
             "N9515": "ZTE N9515",
             "PSP3450DUO": "Prestigio PSP3450DUO",
@@ -605,6 +623,16 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
+            "Micromax A102": "Micromax A102",
+            "Micromax A350": "Micromax A350"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/*?FB*/*;FBAV/*",
           "platforms": [
             "Android_8_0",
@@ -644,6 +672,8 @@
             "HTC One max": "HTC 0P3P7",
             "HTC One": "HTC M7",
             "HUAWEI Y530-U00": "Huawei Y530-U00",
+            "Micromax A092": "Micromax A092",
+            "Micromax A121": "Micromax A121",
             "Prime Mini SE": "Highscreen Prime Mini SE",
             "SM-N900": "Samsung SM-N900",
             "SM-N900A": "Samsung SM-N900A",
@@ -744,6 +774,22 @@
             "M6": "PiPO M6",
             "ME173X": "Asus ME173X",
             "MediaPad M1 8.0": "Huawei MediaPad M1 8.0",
+            "Micromax A110Q": "Micromax A110Q",
+            "Micromax A114": "Micromax A114",
+            "Micromax A117": "Micromax A117",
+            "Micromax A177": "Micromax A177",
+            "Micromax A200": "Micromax A200",
+            "Micromax A210": "Micromax A210",
+            "Micromax A240": "Micromax A240",
+            "Micromax A250": "Micromax A250",
+            "Micromax A47": "Micromax A47",
+            "Micromax A63": "Micromax A63",
+            "Micromax A74": "Micromax A74",
+            "Micromax A76": "Micromax A76",
+            "Micromax A77": "Micromax A77",
+            "Micromax A93": "Micromax A93",
+            "Micromax A94": "Micromax A94",
+            "Micromax A96": "Micromax A96",
             "PMP5297C_QUAD": "Prestigio PMP5297C_QUAD",
             "QMV7A": "Quanta QMV7A",
             "SD4930UR": "Amazon SD4930UR",
@@ -801,6 +847,7 @@
             "LT26w": "Sony LT26w",
             "me172v": "Asus ME172V",
             "MediaPad 10 LINK": "Huawei MediaPad 10",
+            "Micromax A110": "Micromax A110",
             "SCH-I200": "Samsung SCH-I200",
             "SCH-I535": "Samsung SCH-I535",
             "SGH-I317": "Samsung SGH-I317",
@@ -810,6 +857,17 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
+          "devices": {
+            "Micromax A116": "Micromax A116",
+            "Micromax A116i": "Micromax A116i"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1"
           ]
         },
         {

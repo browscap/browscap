@@ -20,6 +20,33 @@
       "children": [
         {
           "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "platform": "JAVA",
+          "devices": {
+            "Micromax X070": "Micromax X070",
+            "Micromax X084": "Micromax X084",
+            "Micromax X085": "Micromax X085",
+            "Micromax X081": "Micromax X081",
+            "Micromax X088": "Micromax X088",
+            "Micromax X097": "Micromax X097",
+            "Micromax X098": "Micromax X098",
+            "Micromax X101i": "Micromax X101i",
+            "Micromax X103i": "Micromax X103i",
+            "Micromax X247": "Micromax X247",
+            "Micromax X267": "Micromax X267",
+            "Micromax X272": "Micromax X272",
+            "Micromax X321": "Micromax X321",
+            "Micromax X329": "Micromax X329",
+            "Micromax X351": "Micromax X351",
+            "Micromax X352": "Micromax X352",
+            "Micromax X367": "Micromax X367",
+            "Micromax X455i": "Micromax X455i",
+            "Micromax X457": "Micromax X457",
+            "Micromax X501": "Micromax X501",
+            "Micromax X1i Ultra": "Micromax X1i Ultra"
+          }
+        },
+        {
+          "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "CELKON.C64": "Celkon C64",
             "SonyEricssonF500i": "SonyEricsson F500i",

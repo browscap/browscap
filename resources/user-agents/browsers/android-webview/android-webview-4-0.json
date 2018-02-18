@@ -101,6 +101,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "Micromax Q409": "Micromax Q409",
             "PS8106PG": "Digma PS8106PG",
             "Redmi 3S": "Xiaomi Redmi 3S"
           },
@@ -173,6 +174,10 @@
           "devices": {
             "A8-50LC": "Lenovo A8-50LC",
             "Bmobile_AX810": "Bmobile AX810",
+            "Micromax E352": "Micromax E352",
+            "Micromax E481": "Micromax E481",
+            "Micromax Q332": "Micromax Q332",
+            "Micromax Q383": "Micromax Q383",
             "MZ-MX5": "Meizu MX5",
             "SM-J320M": "Samsung SM-J320M",
             "SM-T817A": "Samsung SM-T817A",
@@ -224,6 +229,10 @@
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D856": "LG D856",
             "LG-V700": "LG V700",
+            "Micromax A99": "Micromax A99",
+            "Micromax A107": "Micromax A107",
+            "Micromax AQ5001": "Micromax AQ5001",
+            "Micromax Q391": "Micromax Q391",
             "Redmi Note 3": "Xiaomi Redmi Note 3",
             "Rivo RHYTHM RX75": "Rivo RHYTHM RX75"
           },
@@ -235,6 +244,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "K00E": "Asus K00E",
+            "Micromax A99": "Micromax A99",
+            "Micromax A106": "Micromax A106",
             "SM-G900F*": "Samsung SM-G900F"
           },
           "platforms": [
@@ -341,7 +352,30 @@
             "LIFETAB_S1033X": "Lenovo LifeTab S1033X",
             "LIFETAB_S785X": "Lenovo Lifetab S785X",
             "M74CG": "Supra M74CG",
+            "Micromax A064": "Micromax A064",
             "Micromax A065": "Micromax A065",
+            "Micromax A066": "Micromax A066",
+            "Micromax A067": "Micromax A067",
+            "Micromax A069": "Micromax A069",
+            "Micromax A091": "Micromax A091",
+            "Micromax A093": "Micromax A093",
+            "Micromax A104": "Micromax A104",
+            "Micromax A105": "Micromax A105",
+            "Micromax A108": "Micromax A108",
+            "Micromax A109": "Micromax A109",
+            "Micromax A120": "Micromax A120",
+            "Micromax A190": "Micromax A190",
+            "Micromax A290": "Micromax A290",
+            "Micromax A300": "Micromax A300",
+            "Micromax A310": "Micromax A310",
+            "Micromax A311": "Micromax A311",
+            "Micromax A315": "Micromax A315",
+            "Micromax AQ4501": "Micromax AQ4501",
+            "Micromax AQ5000": "Micromax AQ5000",
+            "Micromax AD3520": "Micromax AD3520",
+            "Micromax AD4500": "Micromax AD4500",
+            "Micromax D321": "Micromax D321",
+            "Micromax Q371": "Micromax Q371",
             "MTC SMART Run": "MTC SMART Run",
             "Oysters T72H 3G": "Oysters T72H 3G",
             "Oysters T72M 3G": "Oysters T72M 3G",
@@ -419,6 +453,8 @@
             "GT-P5220*": "Samsung GT-P5220",
             "HUAWEI P6-U06": "Huawei P6-U06",
             "LG-D802*": "LG D802",
+            "Micromax A102": "Micromax A102",
+            "Micromax A350": "Micromax A350",
             "SM-T310": "Samsung SM-T310",
             "SM-T315*": "Samsung SM-T315",
             "SM-T320": "Samsung SM-T320"
@@ -1105,6 +1141,7 @@
         {
           "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "Micromax A064": "Micromax A064",
             "Micromax A065": "Micromax A065",
             "Micromax A102": "Micromax A102"
           },
