@@ -69,6 +69,15 @@
         {
           "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Micromax A50": "Micromax A50"
+          },
+          "platforms": [
+            "Android_G_2_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
             "Desire HD": "HTC Desire HD",
             "XT702": "Motorola XT702"
           },

@@ -48706,7 +48706,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Bolt',
+            'Device_Name' => 'Bolt A28',
             'Device_Maker' => 'Micromax',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

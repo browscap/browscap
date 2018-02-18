@@ -121,6 +121,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "Micromax E313": "Micromax E313"
+          },
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
@@ -138,6 +148,7 @@
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-F240L": "LG F240L",
             "LG-LS970": "LG LS970",
+            "Micromax A107": "Micromax A107",
             "N9500": "Star N9500",
             "PMT3177_3G": "Prestigio PMT3177_3G",
             "SM-G920K": "Samsung SM-G920K",
@@ -294,6 +305,7 @@
             "Micromax A311": "Micromax A311",
             "Micromax AQ4501": "Micromax AQ4501",
             "Micromax AQ5000": "Micromax AQ5000",
+            "Micromax Q379": "Micromax Q379",
             "ONDA V989": "ONDA V989",
             "OT-995": "Alcatel OT-995",
             "Oysters T84HRi 3G": "Oysters T84HRi",

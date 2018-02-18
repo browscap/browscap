@@ -68,7 +68,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "Micromax E481": "Micromax E481",
             "Micromax Q392": "Micromax Q392",
+            "Micromax Q413": "Micromax Q413",
             "XT1021": "Motorola XT1021"
           },
           "platforms": [
@@ -79,7 +81,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "GT-N7000": "Samsung GT-N7000",
-            "Micromax A107": "Micromax A107"
+            "Micromax A107": "Micromax A107",
+            "Micromax E455": "Micromax E455"
           },
           "platforms": [
             "Android_5_0"
@@ -160,6 +163,7 @@
             "Micromax A310": "Micromax A310",
             "Micromax A311": "Micromax A311",
             "Micromax D321": "Micromax D321",
+            "Micromax E313": "Micromax E313",
             "Micromax AQ4501": "Micromax AQ4501",
             "Micromax AQ5000": "Micromax AQ5000",
             "Micromax AD3520": "Micromax AD3520",
@@ -494,7 +498,19 @@
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "devices": {
-            "Micromax_A106": "Micromax A106"
+            "Micromax_AQ4501": "Micromax AQ4501"
+          },
+          "platforms": [
+            "Android_E_6_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "devices": {
+            "Micromax_A106": "Micromax A106",
+            "Micromax_Q372": "Micromax Q372",
+            "Micromax_Q380": "Micromax Q380"
           },
           "platforms": [
             "Android_E_5_0"
@@ -521,7 +537,7 @@
           "devices": {
             "H30-U10": "Huawei H30-U10",
             "M785": "AOSON M785",
-            "Micromax A96": "Micromax A96"
+            "Micromax_A96": "Micromax A96"
           },
           "platforms": [
             "Android_E_4_2"
