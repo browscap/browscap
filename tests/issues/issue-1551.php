@@ -3650,13 +3650,13 @@ return [
     'issue-1551-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.105 Safari/537.36 Vivaldi/1.0.162.4',
         'properties' => [
-            'Comment' => 'Vivaldi 1.0',
+            'Comment' => 'Vivaldi',
             'Browser' => 'Vivaldi',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Vivaldi Technologies',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.0',
+            'Version' => '0.0',
             'Platform' => 'WinVista',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Windows Vista',

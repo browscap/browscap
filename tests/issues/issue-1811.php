@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'issue-547' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.83.38 Safari/537.36',
+    'issue-1811-A' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.170 Safari/537.36 Vivaldi/1.95.1077.50',
         'properties' => [
             'Comment' => 'Vivaldi',
             'Browser' => 'Vivaldi',
@@ -11,11 +11,11 @@ return [
             'Browser_Maker' => 'Vivaldi Technologies',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'Platform_Version' => '10.10',
-            'Platform_Description' => 'Mac OS X',
-            'Platform_Bits' => '32',
-            'Platform_Maker' => 'Apple Inc',
+            'Platform' => 'Win7',
+            'Platform_Version' => '6.1',
+            'Platform_Description' => 'Windows 7',
+            'Platform_Bits' => '64',
+            'Platform_Maker' => 'Microsoft Corporation',
             'Alpha' => false,
             'Beta' => false,
             'Frames' => true,
@@ -30,12 +30,12 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Macintosh',
-            'Device_Maker' => 'Apple Inc',
+            'Device_Name' => 'Windows Desktop',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
-            'Device_Code_Name' => 'Macintosh',
-            'Device_Brand_Name' => 'Apple',
+            'Device_Code_Name' => 'Windows Desktop',
+            'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
