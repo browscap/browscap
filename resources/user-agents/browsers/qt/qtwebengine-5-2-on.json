@@ -1,0 +1,69 @@
+{
+  "division": "QtWebEngine #MAJORVER#.#MINORVER#",
+  "versions": ["5.9", "5.8", "5.7", "5.6", "5.3", "5.2"],
+  "sortIndex": 1178,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QtWebEngine #MAJORVER#.#MINORVER# for Desktop",
+      "browser": "qtwebengine",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QtWebEngine #MAJORVER#.#MINORVER# for Desktop",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "QtWebEngine #MAJORVER#.#MINORVER# for TV",
+      "browser": "qtwebengine",
+      "platform": "webOS_30",
+      "engine": "Blink",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QtWebEngine #MAJORVER#.#MINORVER# for TV",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*#DEVICE#*",
+          "devices": {
+            "LGE; 49UH668V": "LG 49UH668V"
+          },
+          "platforms": [
+            "webOS_30"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "platforms": [
+            "webOS_30"
+          ]
+        }
+      ]
+    }
+  ]
+}
