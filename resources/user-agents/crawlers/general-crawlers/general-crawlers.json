@@ -1956,6 +1956,14 @@
         {
           "match": "Mozilla/5.0 (compatible; adscanner/*",
           "browser": "adscanner"
+        },
+        {
+          "match": "Jersey/* (HttpUrlConnection*",
+          "browser": "jersey-httpurlconnection"
+        },
+        {
+          "match": "Toweya.com bot*",
+          "browser": "toweya.com bot"
         }
       ]
     }

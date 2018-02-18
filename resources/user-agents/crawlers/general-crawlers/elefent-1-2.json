@@ -16,6 +16,9 @@
       "children": [
         {
           "match": "elefent/Elefent #MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "elefent/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
