@@ -20205,5 +20205,49 @@
         },
         "lite": false,
         "standard": true
+    },
+    "jersey-httpurlconnection": {
+        "properties": {
+            "Browser": "Jersey HttpUrlConnection",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "unknown",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "zabbix": {
+        "properties": {
+            "Browser": "Zabbix",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Zabbix SIA",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sentibot": {
+        "properties": {
+            "Browser": "SentiBot",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "SentiOne LLC",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "toweya.com bot": {
+        "properties": {
+            "Browser": "Toweya.com Bot",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Toweya Corporation BV",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
     }
 }

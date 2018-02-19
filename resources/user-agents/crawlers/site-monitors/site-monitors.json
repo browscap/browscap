@@ -242,6 +242,10 @@
         {
           "match": "Mozilla/3.0 (compatible; WebMon *; Windows XP)",
           "browser": "webmon monitor"
+        },
+        {
+          "match": "Zabbix*",
+          "browser": "zabbix"
         }
       ]
     }

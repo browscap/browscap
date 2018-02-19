@@ -250,6 +250,10 @@
         {
           "match": "Mozilla/5.0 ( compatible ; Veooz/*",
           "browser": "veooz bot"
+        },
+        {
+          "match": "SentiBot*",
+          "browser": "sentibot"
         }
       ]
     }
