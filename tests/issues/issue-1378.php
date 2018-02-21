@@ -520,13 +520,13 @@ return [
     'issue-1378-N' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) angular-template/1.2.8 Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36',
         'properties' => [
-            'Comment' => 'Electron Generic',
+            'Comment' => 'Electron 1.4',
             'Browser' => 'Electron',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Github',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '1.4',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'Windows 10',
