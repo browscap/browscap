@@ -1,21 +1,23 @@
 {
-  "division": "Electron Generic",
-  "sortIndex": 2222,
+  "division": "Electron #MAJORVER#.#MINORVER#",
+  "versions": ["1.8", "1.7", "1.6", "1.4", "1.3", "1.2"],
+  "sortIndex": 2220,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Electron Generic",
+      "userAgent": "Electron #MAJORVER#.#MINORVER#",
       "browser": "electron",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Electron Generic"
+        "Comment": "Electron #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12",
@@ -24,7 +26,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12",
@@ -33,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -45,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -57,14 +59,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) * Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Electron/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
