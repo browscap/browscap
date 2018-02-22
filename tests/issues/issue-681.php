@@ -159,13 +159,13 @@ return [
         'full' => true,
     ],
     'issue-681-D' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 2.0',
-            'Browser' => 'Android WebView',
+            'Comment' => 'Samsung Browser 2.0',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
+            'Browser_Maker' => 'Samsung',
             'Browser_Modus' => 'unknown',
             'Version' => '2.0',
             'Platform' => 'Android',
@@ -200,19 +200,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-681-D (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
-        'properties' => [
-            'Comment' => 'Android WebView 2.0',
-            'Browser' => 'Android WebView',
-            'Version' => '2.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-681-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Mobile Safari/537.36',

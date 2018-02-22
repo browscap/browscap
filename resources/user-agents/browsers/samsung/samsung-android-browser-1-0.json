@@ -1,0 +1,93 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Safari*",
+          "devices": {
+            "GT-I9300*": "Samsung GT-I9300",
+            "GT-I9500": "Samsung GT-I9500"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Safari*",
+          "devices": {
+            "Galaxy Nexus": "Samsung Galaxy Nexus",
+            "GT-I9100*": "Samsung GT-I9100",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9195*": "Samsung GT-I9195",
+            "GT-I9200": "Samsung GT-I9200",
+            "GT-I9205": "Samsung GT-I9205",
+            "GT-I9295*": "Samsung GT-I9295",
+            "GT-I9505*": "Samsung GT-I9505",
+            "GT-I9505X*": "Samsung GT-I9505X",
+            "GT-I9506*": "Samsung GT-I9506",
+            "GT-S7275R": "Samsung GT-S7275R",
+            "SCH-I545": "Samsung SCH-I545",
+            "SGH-I257M": "Samsung SGH-I257M",
+            "SGH-I337": "Samsung SGH-I337",
+            "SGH-I337M": "Samsung SGH-I337M",
+            "SGH-I527M*": "Samsung SGH-I527M",
+            "SGH-M919": "Samsung SGH-M919",
+            "SM-S890L": "Samsung SM-S890L",
+            "SPH-L720": "Samsung SPH-L720"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Safari*",
+          "devices": {
+            "GT-N7100*": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Mobile Safari*",
+          "devices": {
+            "Nexus S": "Samsung NexusS"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Mobile Safari*",
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Chrome/18.0.* Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

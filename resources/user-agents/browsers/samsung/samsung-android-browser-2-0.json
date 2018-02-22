@@ -1,0 +1,102 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G388F": "Samsung SM-G388F",
+            "SM-J100F": "Samsung SM-J100F",
+            "SM-J100H": "Samsung SM-J100H",
+            "SM-J100Y": "Samsung SM-J100Y",
+            "SM-J100ML": "Samsung SM-J100ML"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*TV*Safari*",
+          "device": "general TV Device",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/34.0.* Safari*",
+          "devices": {
+            "GT-I9195I": "Samsung GT-I9195I",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500K*": "Samsung SM-A500K",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500Y": "Samsung SM-A500Y",
+            "SM-N910F*": "Samsung SM-N910F",
+            "SM-N910G": "Samsung SM-N910G",
+            "SM-N910T": "Samsung SM-N910T",
+            "SM-N910V*": "Samsung SM-N910V",
+            "SM-N910W8": "Samsung SM-N910W8",
+            "SM-N915G": "Samsung SM-N915G"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/34.0.* Mobile Safari*",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/34.0.* Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

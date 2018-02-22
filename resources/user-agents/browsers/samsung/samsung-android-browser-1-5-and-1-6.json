@@ -1,0 +1,338 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": ["1.6", "1.5"],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "SM-G925S": "Samsung SM-G925S"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "403SC": "Samsung 403SC",
+            "GT-I8160": "Samsung GT-I8160",
+            "GT-I9001": "Samsung GT-I9001",
+            "GT-I9060I": "Samsung GT-I9060I",
+            "GT-I9301I": "Samsung GT-I9301I",
+            "GT-I9500": "Samsung GT-I9500",
+            "GT-I9508": "Samsung GT-I9508",
+            "GT-I9515*": "Samsung GT-I9515",
+            "GT-N5100": "Samsung GT-N5100",
+            "Nexus 10": "Samsung Nexus 10",
+            "SC-02F": "Samsung SC-02F",
+            "SC-04E": "Samsung SC-04E",
+            "SC-04F": "Samsung SC-04F",
+            "SCH-R970X": "Samsung SCH-R970X",
+            "SCL22": "Samsung SCL22",
+            "SCL23": "Samsung SCL23",
+            "SGH-I257M": "Samsung SGH-I257M",
+            "SGH-I337M*": "Samsung SGH-I337M",
+            "SGH-I527M*": "Samsung SGH-I527M",
+            "SGH-M919": "Samsung SGH-M919",
+            "SHV-E330L": "Samsung SHV-E330L",
+            "SM-A300FU": "Samsung SM-A300FU",
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500YZ": "Samsung SM-A500YZ",
+            "SM-C115": "Samsung SM-C115",
+            "SM-E700F": "Samsung SM-E700F",
+            "SM-G355M": "Samsung SM-G355M",
+            "SM-G386W*": "Samsung SM-G386W",
+            "SM-G7102": "Samsung SM-G7102",
+            "SM-G800A": "Samsung SM-G800A",
+            "SM-G800F*": "Samsung SM-G800F",
+            "SM-G850F*": "Samsung SM-G850F",
+            "SM-G850M": "Samsung SM-G850M",
+            "SM-G870A": "Samsung SM-G870A",
+            "SM-G900A*": "Samsung SM-G900A",
+            "SM-G900F*": "Samsung SM-G900F",
+            "SM-G900H": "Samsung SM-G900H",
+            "SM-G900T*": "Samsung SM-G900T",
+            "SM-G900W8": "Samsung SM-G900W8",
+            "SM-G901F*": "Samsung SM-G901F",
+            "SM-N900T": "Samsung SM-N900T",
+            "SM-N900W8": "Samsung SM-N900W8",
+            "SM-P601": "Samsung SM-P601",
+            "SM-P900": "Samsung SM-P900",
+            "SM-P905": "Samsung SM-P905",
+            "SM-S902L": "Samsung SM-S902L",
+            "SM-T230": "Samsung SM-T230",
+            "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T231": "Samsung SM-T231",
+            "SM-T311": "Samsung SM-T311",
+            "SM-T331": "Samsung SM-T331",
+            "SM-T520": "Samsung SM-T520",
+            "SM-T525": "Samsung SM-T525",
+            "SM-T530": "Samsung SM-T530",
+            "SM-T530NU": "Samsung SM-T530NU",
+            "SM-T531": "Samsung SM-T531",
+            "SM-T535": "Samsung SM-T535",
+            "SM-T705*": "Samsung SM-T705",
+            "SM-T800": "Samsung SM-T800",
+            "SM-T805": "Samsung SM-T805",
+            "SM-T805W": "Samsung SM-T805W",
+            "SM-T900": "Samsung SM-T900",
+            "SPH-L900": "Samsung SPH-L900"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-I9506*": "Samsung GT-I9506",
+            "SCH-I545": "Samsung SCH-I545",
+            "SM-N7505": "Samsung SM-N7505",
+            "SM-N9005*": "Samsung SM-N9005",
+            "SM-N900V": "Samsung SM-N900V",
+            "SM-P600": "Samsung SM-P600",
+            "SM-P605*": "Samsung SM-P605",
+            "SM-T320": "Samsung SM-T320",
+            "SPH-L720": "Samsung SPH-L720"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-I9295*": "Samsung GT-I9295",
+            "GT-I9300*": "Samsung GT-I9300",
+            "GT-N8020*": "Samsung GT-N8020",
+            "SGH-I337": "Samsung SGH-I337",
+            "SCH-I605": "Samsung SCH-I605"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-N7100*": "Samsung GT-N7100",
+            "GT-N7105*": "Samsung GT-N7105",
+            "GT-N8000": "Samsung GT-N8000"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-I9195*": "Samsung GT-I9195",
+            "GT-I9505*": "Samsung GT-I9505"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "SC-02F": "Samsung SC-02F",
+            "SCH-R970X": "Samsung SCH-R970X",
+            "SCL22": "Samsung SCL22",
+            "SGH-I337M": "Samsung SGH-I337M",
+            "SGH-M919": "Samsung SGH-M919",
+            "SM-G7105": "Samsung SM-G7105",
+            "SM-G710L": "Samsung SM-G710L",
+            "SM-N900T": "Samsung SM-N900T",
+            "SM-S975L": "Samsung SM-S975L"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "Galaxy Nexus": "Samsung Galaxy Nexus",
+            "SHV-E300K*": "Samsung SHV-E300K"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-I9003": "Samsung GT-I9003",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-I9105P*": "Samsung GT-I9105P",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9205": "Samsung GT-I9205",
+            "GT-I9305*": "Samsung GT-I9305",
+            "GT-I9305T": "Samsung GT-I9305T",
+            "GT-I9500": "Samsung GT-I9500"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-I9152": "Samsung GT-I9152",
+            "GT-I9502": "Samsung GT-I9502",
+            "GT-N5120": "Samsung GT-N5120",
+            "GT-N7102": "Samsung GT-N7102",
+            "GT-S7270": "Samsung GT-S7270",
+            "SCH-I545": "Samsung SCH-I545",
+            "SCH-R970": "Samsung SCH-R970",
+            "SCH-R970C": "Samsung SCH-R970C",
+            "SGH-T399": "Samsung SGH-T399",
+            "SM-C105": "Samsung SM-C105",
+            "SM-T111": "Samsung SM-T111",
+            "SM-T217S": "Samsung SM-T217S",
+            "SM-T310": "Samsung SM-T310"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-N5110": "Samsung GT-N5110",
+            "GT-N8013": "Samsung GT-N8013",
+            "GT-P5100": "Samsung GT-P5100",
+            "GT-S5282": "Samsung GT-S5282",
+            "GT-S5310L": "Samsung GT-S5310L",
+            "GT-S5312*": "Samsung GT-S5312",
+            "GT-S6310": "Samsung GT-S6310",
+            "GT-S6310N": "Samsung GT-S6310N",
+            "GT-S6312": "Samsung GT-S6312",
+            "GT-S6810": "Samsung GT-S6810",
+            "GT-S6810M": "Samsung GT-S6810M",
+            "GT-S6810P": "Samsung GT-S6810P",
+            "GT-S7262": "Samsung GT-S7262",
+            "SCH-I200PP": "Samsung SCH-I200PP",
+            "SCH-R530C": "Samsung SCH-R530C",
+            "SCH-R530M": "Samsung SCH-R530M",
+            "SCH-S968C": "Samsung SCH-S968C",
+            "SGH-T699": "Samsung SGH-T699",
+            "SGH-T889": "Samsung SGH-T889",
+            "SGH-T889V": "Samsung SGH-T889V",
+            "SGH-T999": "Samsung SGH-T999",
+            "SGH-T999V": "Samsung SGH-T999V",
+            "SHV-E210L": "Samsung SHV-E210L",
+            "SHV-E250K": "Samsung SHV-E250K",
+            "SHW-M250S": "Samsung SHW-M250S",
+            "SM-T210": "Samsung SM-T210",
+            "SM-T210R": "Samsung SM-T210R",
+            "SM-T211": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "devices": {
+            "GT-P7510": "Samsung GT-P7510"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Mobile Safari*",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/28.0.* Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari*",
+          "engine": "WebKit",
+          "devices": {
+            "SM-G9008V": "Samsung SM-G9008V"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9158P": "Samsung GT-I9158P",
+            "GT-I9308I": "Samsung GT-I9308I",
+            "GT-I9508V": "Samsung GT-I9508V",
+            "SM-G3588V": "Samsung SM-G3588V",
+            "SM-G7108": "Samsung SM-G7108",
+            "SM-G7108V": "Samsung SM-G7108V",
+            "SM-N7508V": "Samsung SM-N7508V",
+            "SM-N9008V": "Samsung SM-N9008V"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Mobile Safari*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Safari*",
+          "engine": "WebKit",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
