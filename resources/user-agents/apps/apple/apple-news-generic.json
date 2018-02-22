@@ -9,7 +9,7 @@
       "browser": "apple news",
       "platform": "iOS",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "general Mobile Phone (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple News Generic for iOS",
