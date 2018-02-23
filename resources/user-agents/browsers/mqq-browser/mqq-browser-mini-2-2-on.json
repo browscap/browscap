@@ -1,18 +1,18 @@
 {
-  "division": "QQbrowser Mini #MAJORVER#.#MINORVER#",
+  "division": "QQBrowser Mini #MAJORVER#.#MINORVER#",
   "versions": ["3.1", "2.8", "2.7", "2.6", "2.4", "2.2"],
   "sortIndex": 1005,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "QQbrowser Mini #MAJORVER#.#MINORVER#",
+      "userAgent": "QQBrowser Mini #MAJORVER#.#MINORVER#",
       "browser": "qqbrowser mini",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser Mini #MAJORVER#.#MINORVER#",
+        "Comment": "QQBrowser Mini #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

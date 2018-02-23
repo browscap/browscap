@@ -6,13 +6,13 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "QQbrowser #MAJORVER#.#MINORVER# HD for iOS",
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# HD for iOS",
       "browser": "qqbrowser",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser #MAJORVER#.#MINORVER# for iOS",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

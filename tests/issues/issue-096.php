@@ -662,8 +662,8 @@ return [
     'issue-096-BQ' => [
         'ua' => 'MQQBrowser/3.2/Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         'properties' => [
-            'Comment' => 'QQbrowser 3.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 3.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',

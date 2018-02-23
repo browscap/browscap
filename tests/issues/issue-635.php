@@ -4638,8 +4638,8 @@ return [
     'issue-635-CY' => [
         'ua' => 'MQQBrowser/5.2/Mozilla/5.0 (Linux; Android 4.4.4; MI 4LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'QQbrowser 5.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 5.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',

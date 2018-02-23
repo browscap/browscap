@@ -6,13 +6,13 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "QQbrowser #MAJORVER#.#MINORVER# for Android",
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# for Android",
       "browser": "qqbrowser",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QQbrowser #MAJORVER#.#MINORVER#",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [

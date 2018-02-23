@@ -305,8 +305,8 @@ return [
     'issue-539-J' => [
         'ua' => 'MQQBrowser/2.7 Mozilla/5.0 (Linux; U; Android A5000; in-id; A5000 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         'properties' => [
-            'Comment' => 'QQbrowser 2.7',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 2.7',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -348,8 +348,8 @@ return [
     'issue-539-K' => [
         'ua' => 'MQQBrowser/36 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'QQbrowser for iOS',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser for iOS',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -391,8 +391,8 @@ return [
     'issue-539-K (standard)' => [
         'ua' => 'MQQBrowser/36 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'QQbrowser for iOS',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser for iOS',
+            'Browser' => 'QQBrowser',
             'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '0.0',
             'Platform' => 'iOS',
@@ -406,8 +406,8 @@ return [
     'issue-539-L' => [
         'ua' => 'MQQBrowser/Mini2.4 (SAMSUNG-GT-E2252)',
         'properties' => [
-            'Comment' => 'QQbrowser Mini 2.4',
-            'Browser' => 'QQbrowser Mini',
+            'Comment' => 'QQBrowser Mini 2.4',
+            'Browser' => 'QQBrowser Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -449,8 +449,8 @@ return [
     'issue-539-L (standard)' => [
         'ua' => 'MQQBrowser/Mini2.4 (SAMSUNG-GT-E2252)',
         'properties' => [
-            'Comment' => 'QQbrowser Mini 2.4',
-            'Browser' => 'QQbrowser Mini',
+            'Comment' => 'QQBrowser Mini 2.4',
+            'Browser' => 'QQBrowser Mini',
             'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '2.4',
             'Platform' => 'JAVA',

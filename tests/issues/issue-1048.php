@@ -47,8 +47,8 @@ return [
     'issue-1048-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.2 TBS/036558 Safari/537.36 V1_AND_SQ_6.5.3_398_YYB_D QQ/6.5.3.2855 NetType/WIFI WebP/0.3.0 Pixel/1080',
         'properties' => [
-            'Comment' => 'QQbrowser 6.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 6.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -90,8 +90,8 @@ return [
     'issue-1048-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Redmi 3 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.2 TBS/036558 Safari/537.36 V1_AND_SQ_6.5.0_390_YYB_D QQ/6.5.0.2835 NetType/3G WebP/0.3.0 Pixel/720',
         'properties' => [
-            'Comment' => 'QQbrowser 6.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 6.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -219,8 +219,8 @@ return [
     'issue-1048-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; ONEPLUS A3000 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.2 TBS/036558 Safari/537.36 V1_AND_SQ_6.5.3_398_YYB_D QQ/6.5.3.2855 NetType/WIFI WebP/0.3.0 Pixel/1080',
         'properties' => [
-            'Comment' => 'QQbrowser 6.2',
-            'Browser' => 'QQbrowser',
+            'Comment' => 'QQBrowser 6.2',
+            'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
