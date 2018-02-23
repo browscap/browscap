@@ -1,4 +1,17 @@
 {
+    "Samsung 403SC": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "403SC",
+            "Device_Name": "Galaxy Tab 4 7.0 LTE (Japan)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung GT-N5100": {
         "standard": true,
         "properties": {
@@ -18,6 +31,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-N5110",
             "Device_Name": "Galaxy Note 8.0",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung GT-N5120": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "GT-N5120",
+            "Device_Name": "Galaxy Note 8.0 4G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -1188,6 +1214,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T805",
             "Device_Name": "Galaxy Tab S 10.5 LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T805W": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T805W",
+            "Device_Name": "Galaxy Tab S 10.5 LTE (Canada)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": [6, "5.4", "5.2", 5, "4.2", 4, "3.5", "3.4", "3.3", "3.2", 3, "2.1", 2],
+  "versions": [6, "5.4", "5.2", 5, "4.2", 4, "3.5", "3.4", "3.3", "3.2", 3],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -76,7 +76,6 @@
             "SM-G532F": "Samsung SM-G532F",
             "SM-G532G": "Samsung SM-G532G",
             "SM-G532M": "Samsung SM-G532M",
-            "SM-G900T": "Samsung SM-G900T",
             "SM-G930F": "Samsung SM-G930F",
             "SM-G935F": "Samsung SM-G935F",
             "SM-J120A": "Samsung SM-J120A",
@@ -95,6 +94,16 @@
           },
           "platforms": [
             "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G900T": "Samsung SM-G900T"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1"
           ]
         },
         {
@@ -135,7 +144,6 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "SM-G360T1": "Samsung SM-G360T1",
-            "SM-G900T": "Samsung SM-G900T",
             "SM-G920F*": "Samsung SM-G920F",
             "SM-G920I": "Samsung SM-G920I",
             "SM-G920P": "Samsung SM-G920P",
@@ -156,7 +164,6 @@
             "SM-J200GU": "Samsung SM-J200GU",
             "SM-J320M": "Samsung SM-J320M",
             "SM-J320P": "Samsung SM-J320P",
-            "SM-N915P": "Samsung SM-N915P",
             "SM-N9208": "Samsung SM-N9208",
             "SM-N920A": "Samsung SM-N920A",
             "SM-N920I": "Samsung SM-N920I",
@@ -187,7 +194,6 @@
             "SM-A300FU": "Samsung SM-A300FU",
             "SM-A700F": "Samsung SM-A700F",
             "SM-A9000": "Samsung SM-A9000",
-            "SM-G850F": "Samsung SM-G850F",
             "SM-G900F": "Samsung SM-G900F",
             "SM-P550": "Samsung SM-P550",
             "SM-T350": "Samsung SM-T350",
@@ -212,19 +218,6 @@
           },
           "platforms": [
             "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": {
-            "SM-G388F": "Samsung SM-G388F",
-            "SM-J100F": "Samsung SM-J100F",
-            "SM-J100H": "Samsung SM-J100H",
-            "SM-J100ML": "Samsung SM-J100ML",
-            "SM-J100Y": "Samsung SM-J100Y"
-          },
-          "platforms": [
             "Android_4_4"
           ]
         },

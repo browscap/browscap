@@ -724,7 +724,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'GT-S7262',
+            'Device_Name' => 'Galaxy Star Pro',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3902,11 +3902,11 @@ return [
     'issue-563-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; az-az; SAMSUNG SM-T331 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 1.5',
-            'Browser' => 'Android WebView',
+            'Comment' => 'Samsung Browser 1.5',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
+            'Browser_Maker' => 'Samsung',
             'Browser_Modus' => 'unknown',
             'Version' => '1.5',
             'Platform' => 'Android',
@@ -3941,19 +3941,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-563-BY (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; az-az; SAMSUNG SM-T331 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Android WebView 1.5',
-            'Browser' => 'Android WebView',
-            'Version' => '1.5',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
     'issue-563-BZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; B15Q Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36',
