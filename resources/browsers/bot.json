@@ -1088,6 +1088,17 @@
         "lite": false,
         "standard": true
     },
+    "applenewsbot": {
+        "properties": {
+            "Browser": "AppleNewsBot",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Apple Inc",
+            "isSyndicationReader": "false",
+            "Crawler": "true"
+        },
+        "lite": false,
+        "standard": true
+    },
     "apt http transport": {
         "properties": {
             "Browser": "Apt HTTP Transport",

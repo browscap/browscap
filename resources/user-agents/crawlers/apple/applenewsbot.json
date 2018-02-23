@@ -1,0 +1,21 @@
+{
+  "division": "AppleNewsBot",
+  "sortIndex": 970,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AppleNewsBot",
+      "browser": "applenewsbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AppleNewsBot"
+      },
+      "children": [
+        {
+          "match": "AppleNewsBot*"
+        }
+      ]
+    }
+  ]
+}
