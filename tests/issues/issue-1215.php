@@ -4,13 +4,13 @@ return [
     'issue-1215' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 Vivaldi/1.2.490.43',
         'properties' => [
-            'Comment' => 'Vivaldi 1.2',
+            'Comment' => 'Vivaldi',
             'Browser' => 'Vivaldi',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Vivaldi Technologies',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.2',
+            'Version' => '0.0',
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.11',
             'Platform_Description' => 'Mac OS X',
