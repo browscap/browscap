@@ -1,15 +1,13 @@
 {
     "Smarty Maxi 10L": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Maxi 10L",
             "Device_Code_Name": "Maxi 10L",
             "Device_Maker": "Smarty",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Smarty",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Smarty"
+        },
+        "standard": true
     }
 }

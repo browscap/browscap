@@ -1,93 +1,79 @@
 {
     "PiPO M6": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "M6",
             "Device_Code_Name": "M6",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO M7T": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "M7T 3G",
             "Device_Code_Name": "M7T",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO M8 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Max M8 3G",
             "Device_Code_Name": "M8 3G",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO P4": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "P4",
             "Device_Code_Name": "P4",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO P9 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "P9 3G",
             "Device_Code_Name": "P9 3G",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO PA10.1M": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "PA10.1M",
             "Device_Code_Name": "PA10.1M",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     },
     "PiPO i75": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "i75",
             "Device_Code_Name": "i75",
             "Device_Maker": "PiPO Technology",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PiPO",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "PiPO"
+        },
+        "standard": true
     }
 }

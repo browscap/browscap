@@ -12,8 +12,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ZTE",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

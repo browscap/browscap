@@ -1,743 +1,629 @@
 {
     "Alcatel 4037T": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "4037T",
             "Device_Name": "One Touch Evolve II Black",
+            "Device_Code_Name": "4037T",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 4060A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "4060A",
             "Device_Name": "Ideal",
+            "Device_Code_Name": "4060A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5010D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5010D",
             "Device_Name": "One Touch Pixi 4 5.0 3G",
+            "Device_Code_Name": "5010D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5017B": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5017B",
             "Device_Name": "One Touch Elevate",
+            "Device_Code_Name": "5017B",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5054N": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5054N",
             "Device_Name": "One Touch Fierce XL",
+            "Device_Code_Name": "5054N",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5054W": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5054W",
             "Device_Name": "One Touch Fierce XL (T-Mobile)",
+            "Device_Code_Name": "5054W",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5056N": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5056N",
             "Device_Name": "Fierce 4 (T-Mobile)",
+            "Device_Code_Name": "5056N",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 5080X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5080X",
             "Device_Name": "Shine Lite",
+            "Device_Code_Name": "5080X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 6045O": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "6045O",
             "Device_Name": "One Touch Idol 3",
+            "Device_Code_Name": "6045O",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Alcatel A621BL": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A621BL",
-            "Device_Name": "One Touch Pixi Glory",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 7046T": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "7046T",
             "Device_Name": "One Touch Conquest",
+            "Device_Code_Name": "7046T",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel 975N": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "975N",
             "Device_Name": "Smart III",
+            "Device_Code_Name": "975N",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Vodafone",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Vodafone"
+        },
+        "standard": false
     },
     "Alcatel A571VL": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A571VL",
             "Device_Name": "One Touch PIXI Avion 4G",
+            "Device_Code_Name": "A571VL",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
+    },
+    "Alcatel A621BL": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "One Touch Pixi Glory",
+            "Device_Code_Name": "A621BL",
+            "Device_Maker": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel A845L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A845L",
             "Device_Name": "One Touch Pop Star LTE",
+            "Device_Code_Name": "A845L",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel BF3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "BF3",
             "Device_Name": "BF3",
+            "Device_Code_Name": "BF3",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel BF5": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "BF5",
             "Device_Name": "BF5",
+            "Device_Code_Name": "BF5",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel BG3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "BG3",
             "Device_Name": "BG3",
+            "Device_Code_Name": "BG3",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel BH4": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "BH4",
             "Device_Name": "BH4",
+            "Device_Code_Name": "BH4",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OH1C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OH1C",
             "Device_Name": "OH1C",
+            "Device_Code_Name": "OH1C",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OH2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OH2",
             "Device_Name": "OH2",
+            "Device_Code_Name": "OH2",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-216": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-216",
             "Device_Name": "OT-216",
+            "Device_Code_Name": "OT-216",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-3075A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-3075A",
             "Device_Name": "One Touch Tribe",
+            "Device_Code_Name": "OT-3075A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-4012A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-4012A",
             "Device_Name": "One Touch Fire",
+            "Device_Code_Name": "OT-4012A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-4012X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-4012X",
             "Device_Name": "One Touch Fire",
+            "Device_Code_Name": "OT-4012X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-4019A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-4019A",
             "Device_Name": "One Touch Fire C",
+            "Device_Code_Name": "OT-4019A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-4030D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-4030D",
             "Device_Name": "S-POP",
+            "Device_Code_Name": "OT-4030D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-5020D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-5020D",
             "Device_Name": "One Touch MPop",
+            "Device_Code_Name": "OT-5020D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-5035D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-5035D",
             "Device_Name": "One Touch XPop",
+            "Device_Code_Name": "OT-5035D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-5042D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-5042D",
             "Device_Name": "One Touch Pop 2",
+            "Device_Code_Name": "OT-5042D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6010D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6010D",
             "Device_Name": "One Touch Star 6010D",
+            "Device_Code_Name": "OT-6010D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6010X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6010X",
             "Device_Name": "One Touch Star",
+            "Device_Code_Name": "OT-6010X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6015X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6015X",
             "Device_Name": "One Touch Fire E",
+            "Device_Code_Name": "OT-6015X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6030D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6030D",
             "Device_Name": "One Touch 6030D",
+            "Device_Code_Name": "OT-6030D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6030X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6030X",
             "Device_Name": "One Touch Idol",
+            "Device_Code_Name": "OT-6030X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6033X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6033X",
             "Device_Name": "One Touch Idol Ultra",
+            "Device_Code_Name": "OT-6033X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6035R": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6035R",
             "Device_Name": "One Touch Idol S",
+            "Device_Code_Name": "OT-6035R",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6036Y": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6036Y",
             "Device_Name": "One Touch Idol 2 Mini S",
+            "Device_Code_Name": "OT-6036Y",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6040D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6040D",
             "Device_Name": "One Touch Idol X",
+            "Device_Code_Name": "OT-6040D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-6050A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-6050A",
             "Device_Name": "One Touch Idol 2 S",
+            "Device_Code_Name": "OT-6050A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-7025D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-7025D",
             "Device_Name": "OT-7025D",
+            "Device_Code_Name": "OT-7025D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-7041D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-7041D",
             "Device_Name": "One Touch Pop C7 Dual",
+            "Device_Code_Name": "OT-7041D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-7041X": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-7041X",
             "Device_Name": "One Touch Pop C7",
+            "Device_Code_Name": "OT-7041X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-7047D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-7047D",
             "Device_Name": "One Touch Pop C9",
+            "Device_Code_Name": "OT-7047D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-818": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-818",
             "Device_Name": "One Touch 818",
+            "Device_Code_Name": "OT-818",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-871A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-871A",
             "Device_Name": "One Touch 871A",
+            "Device_Code_Name": "OT-871A",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-890D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-890D",
             "Device_Name": "One Touch 890D",
+            "Device_Code_Name": "OT-890D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-903D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-903D",
             "Device_Name": "One Touch 903D",
+            "Device_Code_Name": "OT-903D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-918D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-918D",
             "Device_Name": "One Touch 918D",
+            "Device_Code_Name": "OT-918D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-990": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-990",
             "Device_Name": "One Touch 990",
+            "Device_Code_Name": "OT-990",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-991": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-991",
             "Device_Name": "One Touch 991",
+            "Device_Code_Name": "OT-991",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-991D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-991D",
             "Device_Name": "One Touch 991 Play",
+            "Device_Code_Name": "OT-991D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-991T": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-991T",
             "Device_Name": "One Touch 991T Play",
+            "Device_Code_Name": "OT-991T",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-992D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-992D",
             "Device_Name": "One Touch 992 Play",
+            "Device_Code_Name": "OT-992D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-995": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-995",
             "Device_Name": "One Touch 995",
+            "Device_Code_Name": "OT-995",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-997D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-997D",
             "Device_Name": "One Touch 997D",
+            "Device_Code_Name": "OT-997D",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-C550": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-C550",
             "Device_Name": "OT-C550",
+            "Device_Code_Name": "OT-C550",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     },
     "Alcatel OT-Fierce": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "OT-Fierce",
             "Device_Name": "One Touch Fierce",
+            "Device_Code_Name": "OT-Fierce",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": false
     }
 }

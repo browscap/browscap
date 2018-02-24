@@ -1,15 +1,13 @@
 {
     "Leagoo Shark 1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Shark 1",
             "Device_Name": "Shark 1",
+            "Device_Code_Name": "Shark 1",
             "Device_Maker": "Leagoo",
-            "Device_Brand_Name": "Leagoo",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Leagoo"
+        },
+        "standard": false
     }
 }

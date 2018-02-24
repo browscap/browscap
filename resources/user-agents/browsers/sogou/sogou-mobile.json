@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -65,8 +65,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

@@ -1,28 +1,24 @@
 {
     "SHAAN Majestic 2.4D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Majestic 2.4D",
             "Device_Code_Name": "Majestic 2.4D",
             "Device_Maker": "SHAAN",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "iBall",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "iBall"
+        },
+        "standard": false
     },
     "iBall Andi 4F ARC3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Andi 4F ARC3",
             "Device_Code_Name": "Andi 4F ARC3",
             "Device_Maker": "iBall",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iBall",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "iBall"
+        },
+        "standard": false
     }
 }

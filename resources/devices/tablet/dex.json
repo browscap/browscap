@@ -1,41 +1,35 @@
 {
     "DEX iP1020-8GB": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iP1020-8GB",
             "Device_Code_Name": "iP1020-8GB",
             "Device_Maker": "DEX",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DEX",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DEX"
+        },
+        "standard": true
     },
     "DEX iP890": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iP890 3G",
             "Device_Code_Name": "iP890",
             "Device_Maker": "DEX",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DEX",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DEX"
+        },
+        "standard": true
     },
     "DEX iP977": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iP977",
             "Device_Code_Name": "iP977",
             "Device_Maker": "DEX",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DEX",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DEX"
+        },
+        "standard": true
     }
 }

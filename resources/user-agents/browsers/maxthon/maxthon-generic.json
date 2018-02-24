@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -67,8 +67,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -112,8 +112,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -200,8 +200,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

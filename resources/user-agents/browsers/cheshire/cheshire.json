@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cheshire",
-        "Alpha": "true",
-        "Beta": "false"
+        "Alpha": true,
+        "Beta": false
       },
       "children": [
         {

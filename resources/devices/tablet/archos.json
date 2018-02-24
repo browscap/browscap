@@ -1,171 +1,145 @@
 {
     "Archos 101 G10": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "101 G10",
             "Device_Name": "101 G10",
+            "Device_Code_Name": "101 G10",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 101 G9": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "101 G9",
             "Device_Name": "101 G9",
+            "Device_Code_Name": "101 G9",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 101 Neon": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "101 Neon",
             "Device_Name": "101 Neon",
+            "Device_Code_Name": "101 Neon",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 5": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "5",
             "Device_Name": "5",
+            "Device_Code_Name": "5",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 50 Platinum": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "50 Platinum",
             "Device_Name": "50 Platinum",
+            "Device_Code_Name": "50 Platinum",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 50 Titanium": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "50 Titanium",
             "Device_Name": "50 Titanium",
+            "Device_Code_Name": "50 Titanium",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 79 Xenon": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "79 Xenon",
             "Device_Name": "79 Xenon",
+            "Device_Code_Name": "79 Xenon",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 80 G9": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "80 G9",
             "Device_Name": "80 G9",
+            "Device_Code_Name": "80 G9",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 80 Xenon": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "80 Xenon",
             "Device_Name": "80 Xenon",
+            "Device_Code_Name": "80 Xenon",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 97 carbon": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "97 carbon",
             "Device_Name": "97 carbon",
+            "Device_Code_Name": "97 carbon",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos 97c Platinum": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "97c Platinum",
             "Device_Name": "97c Platinum",
+            "Device_Code_Name": "97c Platinum",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos A101IT": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A101IT",
             "Device_Name": "101 Internet Tablet",
+            "Device_Code_Name": "A101IT",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     },
     "Archos Family Pad 2": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Family Pad 2",
             "Device_Name": "Family Pad 2",
+            "Device_Code_Name": "Family Pad 2",
             "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Archos"
+        },
+        "standard": true
     }
 }

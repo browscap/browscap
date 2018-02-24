@@ -1,54 +1,46 @@
 {
     "Overmax Quattor 10+": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Quattor 10+",
             "Device_Code_Name": "Quattor 10+",
             "Device_Maker": "Overmax",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Overmax"
+        },
+        "standard": true
     },
     "Overmax Solution 10 Ii 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Solution 10 Ii 3G",
             "Device_Code_Name": "Solution 10 Ii 3G",
             "Device_Maker": "Overmax",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Overmax"
+        },
+        "standard": true
     },
     "Overmax Solution 7 III": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Solution 7 III",
             "Device_Code_Name": "Solution 7 III",
             "Device_Maker": "Overmax",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Overmax"
+        },
+        "standard": true
     },
     "Overmax SteelCore": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "SteelCore",
             "Device_Code_Name": "SteelCore",
             "Device_Maker": "Overmax",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Overmax"
+        },
+        "standard": true
     }
 }

@@ -12,8 +12,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -33,8 +33,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

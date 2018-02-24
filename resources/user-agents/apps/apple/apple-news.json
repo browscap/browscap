@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Apple News #MAJORVER#.#MINORVER# for iOS",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

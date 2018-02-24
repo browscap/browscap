@@ -1,15 +1,13 @@
 {
     "Captiva PAD 10.1 Quad FHD 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "PAD 10.1 Quad FHD 3G",
             "Device_Code_Name": "PAD 10.1 Quad FHD 3G",
             "Device_Maker": "Captiva",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Captiva",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Captiva"
+        },
+        "standard": true
     }
 }

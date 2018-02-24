@@ -1,158 +1,134 @@
 {
     "Lava Arc One": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Arc One",
             "Device_Code_Name": "Arc One",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris 505c": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris 505c",
             "Device_Code_Name": "Iris 505c",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris 600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris 600",
             "Device_Code_Name": "Iris 600",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris Atom 2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris Atom 2",
             "Device_Code_Name": "Iris Atom 2",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris X1 Atom S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris X1 Atom S",
             "Device_Code_Name": "Iris X1 Atom S",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris X1 Beats": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris X1 Beats",
             "Device_Code_Name": "Iris X1 Beats",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Iris X8s": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Iris X8s",
             "Device_Code_Name": "Iris X8s",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava KKT20": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "KKT20",
             "Device_Code_Name": "KKT20",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava KKT22S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "KKT22S",
             "Device_Code_Name": "KKT22S",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava KKT40": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Power",
             "Device_Code_Name": "KKT40",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Pixel V2+": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Pixel V2+",
             "Device_Code_Name": "Pixel V2+",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     },
     "Lava Spark284": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Spark 284",
             "Device_Code_Name": "Spark 284",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Lava",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lava"
+        },
+        "standard": false
     }
 }

@@ -28,6 +28,7 @@ class PropertyHolder
             'Browser' => 1,
             'Browser_Maker' => 1,
             'Browser_Modus' => 1,
+            'Browser_Type' => 1,
             'Platform' => 1,
             'Platform_Name' => 1,
             'Platform_Description' => 1,
@@ -36,6 +37,7 @@ class PropertyHolder
             'Device_Code_Name' => 1,
             'Device_Maker' => 1,
             'Device_Brand_Name' => 1,
+            'Device_Type' => 1,
             'RenderingEngine_Name' => 1,
             'RenderingEngine_Description' => 1,
             'RenderingEngine_Maker' => 1,
@@ -49,8 +51,6 @@ class PropertyHolder
         }
 
         $arrayProperties = [
-            'Browser_Type' => 1,
-            'Device_Type' => 1,
             'Device_Pointing_Method' => 1,
             'Browser_Bits' => 1,
             'Platform_Bits' => 1,
@@ -308,37 +308,6 @@ class PropertyHolder
     public function checkValueInArray(string $property, string $value) : string
     {
         switch ($property) {
-            case 'Browser_Type':
-                $allowedValues = [
-                    'Useragent Anonymizer',
-                    'Browser',
-                    'Offline Browser',
-                    'Multimedia Player',
-                    'Library',
-                    'Feed Reader',
-                    'Email Client',
-                    'Bot/Crawler',
-                    'Application',
-                    'Tool',
-                    'unknown',
-                ];
-
-                break;
-            case 'Device_Type':
-                $allowedValues = [
-                    'Console',
-                    'TV Device',
-                    'Tablet',
-                    'Mobile Phone',
-                    'Mobile Device',
-                    'Desktop',
-                    'Ebook Reader',
-                    'Car Entertainment System',
-                    'Digital Camera',
-                    'unknown',
-                ];
-
-                break;
             case 'Device_Pointing_Method':
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = [
@@ -349,7 +318,7 @@ class PropertyHolder
             case 'Browser_Bits':
             case 'Platform_Bits':
                 $allowedValues = [
-                    '0', '8', '16', '32', '64',
+                    0, 8, 16, 32, 64,
                 ];
 
                 break;

@@ -1,41 +1,35 @@
 {
     "Karbonn K52": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "K52",
             "Device_Code_Name": "K52",
             "Device_Maker": "Karbonn",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Karbonn",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Karbonn"
+        },
+        "standard": false
     },
     "Karbonn S20": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Titanium S20",
             "Device_Code_Name": "S20",
             "Device_Maker": "Karbonn",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Karbonn",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Karbonn"
+        },
+        "standard": false
     },
     "Karbonn S4": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Titanium S4",
             "Device_Code_Name": "S4",
             "Device_Maker": "Karbonn",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Karbonn",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Karbonn"
+        },
+        "standard": false
     }
 }

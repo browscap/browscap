@@ -34,7 +34,7 @@
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {
@@ -173,7 +173,7 @@
             "Win8_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -205,7 +205,7 @@
             "Windows"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {
@@ -219,7 +219,7 @@
             "Windows"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         }
       ]

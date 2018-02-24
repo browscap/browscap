@@ -1,210 +1,178 @@
 {
     "Digma HT7070MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "HIT 3G",
             "Device_Code_Name": "HT7070MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma PS1005MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Plane 10.5 3G",
             "Device_Code_Name": "PS1005MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma PS1043MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Plane 10.3 3G",
             "Device_Code_Name": "PS1043MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma PS7005MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Plane S7.0 3G",
             "Device_Code_Name": "PS7005MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma PS7022MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Plane 7501M 7.0 3G",
             "Device_Code_Name": "PS7022MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma PS8106PG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Plane 8713T 8.0 3G",
             "Device_Code_Name": "PS8106PG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma TS7055MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Optima 7202 3G",
             "Device_Code_Name": "TS7055MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma TT7007MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Optima 7.07 3G",
             "Device_Code_Name": "TT7007MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma TT7022MG-O72": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TT7022MG-O72 3G UMTS",
             "Device_Code_Name": "TT7022MG-O72",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma TT7071MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Optima E7.1 3G",
             "Device_Code_Name": "TT7071MG",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDjD7": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDjD7",
             "Device_Code_Name": "iDjD7",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDnD7": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDnD7",
             "Device_Code_Name": "iDnD7",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDsD10 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDsD10 3G",
             "Device_Code_Name": "iDsD10 3G",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDsD7 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDsD7 3G",
             "Device_Code_Name": "iDsD7 3G",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDsD8 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDsD8 3G",
             "Device_Code_Name": "iDsD8 3G",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     },
     "Digma iDxD7 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "iDxD7 3G",
             "Device_Code_Name": "iDxD7 3G",
             "Device_Maker": "Digma",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Digma"
+        },
+        "standard": true
     }
 }

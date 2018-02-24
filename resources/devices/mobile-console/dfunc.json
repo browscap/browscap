@@ -1,28 +1,24 @@
 {
     "DFunc Func Titan-01A": {
-        "standard": true,
+        "type": "mobile-console",
         "properties": {
-            "Device_Type": "Console",
             "Device_Name": "Func Titan-01A",
             "Device_Code_Name": "Func Titan-01A",
             "Device_Maker": "DFunc",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DFunc",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "DFunc"
+        },
+        "standard": true
     },
     "DFunc Func Titan-02": {
-        "standard": true,
+        "type": "mobile-console",
         "properties": {
-            "Device_Type": "Console",
             "Device_Name": "Func Titan-02",
             "Device_Code_Name": "Func Titan-02",
             "Device_Maker": "DFunc",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DFunc",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "DFunc"
+        },
+        "standard": true
     }
 }

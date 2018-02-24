@@ -26,6 +26,9 @@ final class DeviceFactory
         Assertion::keyExists($deviceData, 'properties', 'required attibute "properties" is missing for device "' . $deviceName . '"');
         Assertion::isArray($deviceData['properties'], 'the value for "properties" key has to be an array for device "' . $deviceName . '"');
 
-        return new Device($deviceData['properties'], $deviceData['standard']);
+        Assertion::keyExists($deviceData, 'type', 'the value for "type" key is missing for device "' . $deviceName . '"');
+        Assertion::string($deviceData['type']);
+
+        return new Device($deviceData['properties'], $deviceData['type'], $deviceData['standard']);
     }
 }

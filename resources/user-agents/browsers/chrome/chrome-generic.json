@@ -127,7 +127,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -145,7 +145,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {

@@ -1,119 +1,101 @@
 {
     "GOCLEVER A1021": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TERRA 101",
             "Device_Code_Name": "A1021",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER A93.2": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "A93.2",
             "Device_Code_Name": "A93.2",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER Aries 101": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Aries 101",
             "Device_Code_Name": "Aries 101",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER Aries 785": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Aries 785",
             "Device_Code_Name": "Aries 785",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER INSIGNIA 785 PRO": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "INSIGNIA 785 PRO",
             "Device_Code_Name": "INSIGNIA 785 PRO",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER ORION7o": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ORION 7o",
             "Device_Code_Name": "ORION7o",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER T76": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB T76 GPS",
             "Device_Code_Name": "T76",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER TQ700": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "QUANTUM 700",
             "Device_Code_Name": "TQ700",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     },
     "GOCLEVER Terra 7oW": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Terra 7oW",
             "Device_Code_Name": "Terra 7oW",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": true
     }
 }

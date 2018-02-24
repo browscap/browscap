@@ -1,41 +1,35 @@
 {
     "Linux Desktop": {
-        "standard": true,
+        "type": "desktop",
         "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop",
+            "Device_Code_Name": "Linux Desktop",
             "Device_Maker": "unknown",
-            "Device_Brand_Name": "unknown",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": true
     },
     "Windows Desktop": {
-        "standard": true,
+        "type": "desktop",
         "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
             "Device_Name": "Windows Desktop",
+            "Device_Code_Name": "Windows Desktop",
             "Device_Maker": "unknown",
-            "Device_Brand_Name": "unknown",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": true
     },
     "general Desktop": {
-        "standard": true,
+        "type": "desktop",
         "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "general Desktop",
             "Device_Name": "general Desktop",
+            "Device_Code_Name": "general Desktop",
             "Device_Maker": "unknown",
-            "Device_Brand_Name": "unknown",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": true
     }
 }

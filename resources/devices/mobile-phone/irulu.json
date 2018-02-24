@@ -1,15 +1,13 @@
 {
     "iRulu U1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Universe 1",
             "Device_Code_Name": "U1",
             "Device_Maker": "iRulu",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iRulu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "iRulu"
+        },
+        "standard": false
     }
 }

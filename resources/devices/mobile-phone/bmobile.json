@@ -1,41 +1,35 @@
 {
     "Bmobile AX512": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "AX512",
             "Device_Code_Name": "AX512",
             "Device_Maker": "Bmobile",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bmobile",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Bmobile"
+        },
+        "standard": false
     },
     "Bmobile AX540": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "AX540",
             "Device_Code_Name": "AX540",
             "Device_Maker": "Bmobile",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bmobile",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Bmobile"
+        },
+        "standard": false
     },
     "Bmobile AX810": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "AX810",
             "Device_Code_Name": "AX810",
             "Device_Maker": "Bmobile",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bmobile",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Bmobile"
+        },
+        "standard": false
     }
 }

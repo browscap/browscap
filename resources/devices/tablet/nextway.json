@@ -1,15 +1,13 @@
 {
     "Nextway F10X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "F10X",
             "Device_Code_Name": "F10X",
             "Device_Maker": "Nextway",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Nextway",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Nextway"
+        },
+        "standard": true
     }
 }

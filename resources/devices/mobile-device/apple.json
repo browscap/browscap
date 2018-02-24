@@ -1,28 +1,24 @@
 {
     "general Mobile Device (Apple)": {
-        "standard": true,
+        "type": "mobile-device",
         "properties": {
             "Device_Name": "general Mobile Device",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "general Mobile Device",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple"
+        },
+        "standard": true
     },
     "iPod Touch": {
-        "standard": true,
+        "type": "mobile-device",
         "properties": {
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple"
+        },
+        "standard": true
     }
 }

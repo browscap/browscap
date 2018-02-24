@@ -1,54 +1,46 @@
 {
     "OnePlus A0001": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "One",
             "Device_Code_Name": "A0001",
             "Device_Maker": "OnePlus",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OnePlus"
+        },
+        "standard": false
     },
     "OnePlus A3000": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "3",
             "Device_Code_Name": "A3000",
             "Device_Maker": "OnePlus",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OnePlus"
+        },
+        "standard": false
     },
     "OnePlus A3010": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "3T",
             "Device_Code_Name": "A3010",
             "Device_Maker": "OnePlus",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OnePlus"
+        },
+        "standard": false
     },
     "OnePlus E1003": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "X",
             "Device_Code_Name": "E1003",
             "Device_Maker": "OnePlus",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OnePlus"
+        },
+        "standard": false
     }
 }

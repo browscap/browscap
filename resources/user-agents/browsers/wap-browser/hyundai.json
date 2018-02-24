@@ -11,8 +11,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Hyundai",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

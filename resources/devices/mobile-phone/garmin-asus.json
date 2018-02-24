@@ -1,28 +1,24 @@
 {
     "Garmin-Asus A10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A10",
             "Device_Name": "Nuvifone A10",
+            "Device_Code_Name": "A10",
             "Device_Maker": "Garmin-Asus",
-            "Device_Brand_Name": "Garmin-Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Garmin-Asus"
+        },
+        "standard": false
     },
     "Garmin-Asus A50": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A50",
             "Device_Name": "Nuvifone A50",
+            "Device_Code_Name": "A50",
             "Device_Maker": "Garmin-Asus",
-            "Device_Brand_Name": "Garmin-Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Garmin-Asus"
+        },
+        "standard": false
     }
 }

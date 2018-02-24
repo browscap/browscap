@@ -1,41 +1,35 @@
 {
     "ViewSonic N1010": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "N1010",
             "Device_Name": "N1010",
+            "Device_Code_Name": "N1010",
             "Device_Maker": "ViewSonic",
-            "Device_Brand_Name": "ViewSonic",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "ViewSonic"
+        },
+        "standard": true
     },
     "ViewSonic ViewPad7": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ViewPad7",
             "Device_Name": "ViewPad7",
+            "Device_Code_Name": "ViewPad7",
             "Device_Maker": "ViewSonic",
-            "Device_Brand_Name": "ViewSonic",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "ViewSonic"
+        },
+        "standard": true
     },
     "ViewSonic ViewPad7e": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ViewPad7e",
             "Device_Name": "ViewPad7e",
+            "Device_Code_Name": "ViewPad7e",
             "Device_Maker": "ViewSonic",
-            "Device_Brand_Name": "ViewSonic",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "ViewSonic"
+        },
+        "standard": true
     }
 }

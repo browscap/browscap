@@ -135,8 +135,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iLunascape Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

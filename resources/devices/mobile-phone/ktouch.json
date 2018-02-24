@@ -1,54 +1,46 @@
 {
     "K-Touch E619": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "E619",
             "Device_Code_Name": "E619",
             "Device_Maker": "K-Touch",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "K-Touch",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "K-Touch"
+        },
+        "standard": false
     },
     "K-Touch T81": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T81",
             "Device_Code_Name": "T81",
             "Device_Maker": "K-Touch",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "K-Touch",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "K-Touch"
+        },
+        "standard": false
     },
     "K-Touch T96": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T96",
             "Device_Code_Name": "T96",
             "Device_Maker": "K-Touch",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "K-Touch",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "K-Touch"
+        },
+        "standard": false
     },
     "K-Touch Tianyu A930": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Tianyu A930",
             "Device_Code_Name": "Tianyu A930",
             "Device_Maker": "K-Touch",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "K-Touch",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "K-Touch"
+        },
+        "standard": false
     }
 }

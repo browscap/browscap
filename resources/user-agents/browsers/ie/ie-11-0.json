@@ -445,7 +445,7 @@
             "Win8_1_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {

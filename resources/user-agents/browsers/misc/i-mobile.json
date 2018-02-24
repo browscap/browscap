@@ -12,8 +12,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "i-mobile",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

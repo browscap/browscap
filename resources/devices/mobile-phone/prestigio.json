@@ -1,158 +1,134 @@
 {
     "Prestigio PAP3350DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP3350DUO",
             "Device_Name": "MultiPhone 3350 Duo",
+            "Device_Code_Name": "PAP3350DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP4020DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP4020DUO",
             "Device_Name": "MultiPhone 4020 Duo",
+            "Device_Code_Name": "PAP4020DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP4044DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP4044DUO",
             "Device_Name": "MultiPhone 4044 Duo",
+            "Device_Code_Name": "PAP4044DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP4500DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP4500DUO",
             "Device_Name": "MultiPhone 4500 Duo",
+            "Device_Code_Name": "PAP4500DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP5000DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP5000DUO",
             "Device_Name": "MultiPhone 5000 Duo",
+            "Device_Code_Name": "PAP5000DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP5000TDUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP5000TDUO",
             "Device_Name": "Multipad 2 Ultra Duo 8.0 3G",
+            "Device_Code_Name": "PAP5000TDUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP5044DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP5044DUO",
             "Device_Name": "MultiPhone 5044 Duo",
+            "Device_Code_Name": "PAP5044DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP5450": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP5450",
             "Device_Name": "MultiPhone 5450 Duo",
+            "Device_Code_Name": "PAP5450",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP5503": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP5503",
             "Device_Name": "MultiPhone PAP5503 DUO",
+            "Device_Code_Name": "PAP5503",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PAP7600DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAP7600DUO",
             "Device_Name": "Multiphone 7600 Duo",
+            "Device_Code_Name": "PAP7600DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PSP3450DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PSP3450DUO",
             "Device_Name": "MultiPhone PSP 3450 DUO",
+            "Device_Code_Name": "PSP3450DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     },
     "Prestigio PSP5504DUO": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PSP5504DUO",
             "Device_Name": "MultiPhone 5504 DUO",
+            "Device_Code_Name": "PSP5504DUO",
             "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Prestigio"
+        },
+        "standard": false
     }
 }

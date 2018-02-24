@@ -46,7 +46,7 @@
         {
           "match": "Mozilla/5.0 (*Max OS X*) *Gecko* Camino/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         }
       ]

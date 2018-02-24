@@ -15,7 +15,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

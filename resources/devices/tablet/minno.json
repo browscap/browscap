@@ -1,15 +1,13 @@
 {
     "Minno Minno8": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Minno8",
             "Device_Code_Name": "Minno8",
             "Device_Maker": "Minno LLC",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Minno",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Minno"
+        },
+        "standard": true
     }
 }

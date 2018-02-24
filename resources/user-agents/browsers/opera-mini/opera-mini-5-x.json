@@ -62,7 +62,7 @@
             "JAVA"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {
@@ -71,7 +71,7 @@
             "JAVA"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {
@@ -80,7 +80,7 @@
             "JAVA"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {

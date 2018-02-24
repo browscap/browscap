@@ -13,8 +13,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Office 2007",
         "Version": "2007",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

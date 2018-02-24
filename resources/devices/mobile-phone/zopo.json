@@ -1,67 +1,57 @@
 {
     "ZOPO ZP800H": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ZP800H",
             "Device_Name": "Libero HD",
+            "Device_Code_Name": "ZP800H",
             "Device_Maker": "ZOPO",
-            "Device_Brand_Name": "ZOPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZOPO"
+        },
+        "standard": false
     },
     "ZOPO ZP900": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ZP900",
             "Device_Name": "Leader",
+            "Device_Code_Name": "ZP900",
             "Device_Maker": "ZOPO",
-            "Device_Brand_Name": "ZOPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZOPO"
+        },
+        "standard": false
     },
     "ZOPO ZP910": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ZP910",
             "Device_Name": "ZP900H",
+            "Device_Code_Name": "ZP910",
             "Device_Maker": "ZOPO",
-            "Device_Brand_Name": "ZOPO",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZOPO"
+        },
+        "standard": false
     },
     "ZOPO ZP950+": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ZP950+",
             "Device_Name": "ZP950+",
+            "Device_Code_Name": "ZP950+",
             "Device_Maker": "ZOPO",
-            "Device_Brand_Name": "ZOPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZOPO"
+        },
+        "standard": false
     },
     "ZOPO ZP980": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ZP980",
             "Device_Name": "ZP980",
+            "Device_Code_Name": "ZP980",
             "Device_Maker": "ZOPO",
-            "Device_Brand_Name": "ZOPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZOPO"
+        },
+        "standard": false
     }
 }

@@ -10,8 +10,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "HubSpot Grader",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

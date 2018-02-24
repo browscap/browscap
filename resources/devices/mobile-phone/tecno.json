@@ -1,41 +1,35 @@
 {
     "Tecno H6": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "H6",
             "Device_Code_Name": "H6",
             "Device_Maker": "Tecno",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Tecno"
+        },
+        "standard": false
     },
     "Tecno M3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "M3",
             "Device_Code_Name": "M3",
             "Device_Maker": "Tecno",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Tecno"
+        },
+        "standard": false
     },
     "Tecno P5": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "P5",
             "Device_Code_Name": "P5",
             "Device_Maker": "Tecno",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Tecno"
+        },
+        "standard": false
     }
 }

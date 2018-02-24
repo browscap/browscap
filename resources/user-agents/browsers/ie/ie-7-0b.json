@@ -14,8 +14,8 @@
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "true"
+        "Alpha": false,
+        "Beta": true
       },
       "children": [
         {

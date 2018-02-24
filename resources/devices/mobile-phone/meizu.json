@@ -1,54 +1,46 @@
 {
     "Meizu M040": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "MX2",
             "Device_Code_Name": "M040",
             "Device_Maker": "Meizu Technology Co., Ltd.",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Meizu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Meizu"
+        },
+        "standard": false
     },
     "Meizu M3S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "M3s",
             "Device_Code_Name": "M3s",
             "Device_Maker": "Meizu Technology Co., Ltd.",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Meizu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Meizu"
+        },
+        "standard": false
     },
     "Meizu M9": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "M9",
             "Device_Code_Name": "M9",
             "Device_Maker": "Meizu Technology Co., Ltd.",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Meizu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Meizu"
+        },
+        "standard": false
     },
     "Meizu MX5": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "MX5",
             "Device_Code_Name": "MX5",
             "Device_Maker": "Meizu Technology Co., Ltd.",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Meizu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Meizu"
+        },
+        "standard": false
     }
 }

@@ -1,28 +1,24 @@
 {
     "Gionee F103 Pro": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "F103 Pro",
             "Device_Code_Name": "F103 Pro",
             "Device_Maker": "Gionee",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Gionee",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Gionee"
+        },
+        "standard": false
     },
     "Gionee Marathon M3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Marathon M3",
             "Device_Code_Name": "M3",
             "Device_Maker": "Gionee",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Gionee",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Gionee"
+        },
+        "standard": false
     }
 }

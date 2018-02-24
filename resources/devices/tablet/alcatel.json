@@ -1,54 +1,46 @@
 {
     "Alcatel 9005X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "9005X",
             "Device_Name": "Pixi 3 (8) 3G",
+            "Device_Code_Name": "9005X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": true
     },
     "Alcatel OT-TAB7HD": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "OT-TAB7HD",
             "Device_Name": "One Touch Tab 7HD",
+            "Device_Code_Name": "OT-TAB7HD",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": true
     },
     "Alcatel P310X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P310X",
             "Device_Name": "One Touch Pop7 8GB WiFi 3G",
+            "Device_Code_Name": "P310X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": true
     },
     "Alcatel P320X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P320X",
             "Device_Name": "One Touch POP 8 3G",
+            "Device_Code_Name": "P320X",
             "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Alcatel"
+        },
+        "standard": true
     }
 }

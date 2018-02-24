@@ -1,15 +1,13 @@
 {
     "Telsda T9666-1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T9666-1",
             "Device_Code_Name": "T9666-1",
             "Device_Maker": "Telsda",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Telsda",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Telsda"
+        },
+        "standard": false
     }
 }

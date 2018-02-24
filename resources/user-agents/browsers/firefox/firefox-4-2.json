@@ -14,7 +14,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "true"
+        "Alpha": true
       },
       "children": [
         {
@@ -66,7 +66,7 @@
             "WinXPa_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         }
       ]

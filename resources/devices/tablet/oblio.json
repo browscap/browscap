@@ -1,15 +1,13 @@
 {
     "oblio mint": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "mint",
             "Device_Code_Name": "mint",
             "Device_Maker": "oblio",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "oblio",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "oblio"
+        },
+        "standard": true
     }
 }

@@ -1,106 +1,90 @@
 {
     "Explay Art 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Art 3G",
             "Device_Code_Name": "Art 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay CinemaTV 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "CinemaTV 3G",
             "Device_Code_Name": "CinemaTV 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay D7.2 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "D7.2 3G",
             "Device_Code_Name": "D7.2 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay Informer 921": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Informer 921",
             "Device_Code_Name": "Informer 921",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay M1 Plus": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "M1 Plus",
             "Device_Code_Name": "M1 Plus",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay Surfer 7.34 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Surfer 7.34 3G",
             "Device_Code_Name": "Surfer 7.34 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay Surfer 8.31 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Surfer 8.31 3G",
             "Device_Code_Name": "Surfer 8.31 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     },
     "Explay sQuad 7.82 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "sQuad 7.82 3G",
             "Device_Code_Name": "sQuad 7.82 3G",
             "Device_Maker": "Explay",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Explay"
+        },
+        "standard": true
     }
 }

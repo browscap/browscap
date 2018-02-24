@@ -6,16 +6,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown",
         "RenderingEngine_Maker": "unknown",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
-        "CssVersion": "0"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": false,
+        "IFrames": false,
+        "Tables": false,
+        "Cookies": false,
+        "JavaScript": false,
+        "CssVersion": 0
       }
     },
     "WebKit": {
@@ -24,16 +24,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Gecko": {
@@ -42,16 +42,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 2
       }
     },
     "Gecko_1": {
@@ -88,84 +88,84 @@
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "1.9.2",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_1_9_3": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "1.9.3",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_2": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "2.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_2_2": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "2.2",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_20": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "20.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_22": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "22.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_23": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "23.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_25": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "25.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_26": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "26.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_27": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "27.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_Major_Dynamic": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "#MAJORVER#.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Gecko_Dynamic": {
       "inherits": "Gecko",
       "properties": {
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Trident": {
@@ -174,16 +174,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
         "RenderingEngine_Maker": "Microsoft Corporation",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
-        "BackgroundSounds": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2",
-        "Tables": "true"
+        "VBScript": true,
+        "JavaApplets": true,
+        "ActiveXControls": true,
+        "BackgroundSounds": true,
+        "Frames": true,
+        "IFrames": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 2,
+        "Tables": true
       }
     },
     "Trident_3_1": {
@@ -208,21 +208,21 @@
       "inherits": "Trident",
       "properties": {
         "RenderingEngine_Version": "6.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Trident_7": {
       "inherits": "Trident",
       "properties": {
         "RenderingEngine_Version": "7.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Trident_8": {
       "inherits": "Trident",
       "properties": {
         "RenderingEngine_Version": "8.0",
-        "CssVersion": "3"
+        "CssVersion": 3
       }
     },
     "Edge": {
@@ -231,16 +231,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For the Edge Browser since version 12.0",
         "RenderingEngine_Maker": "Microsoft Corporation",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Edge_12": {
@@ -267,16 +267,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
         "RenderingEngine_Maker": "Opera Software ASA",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Presto_1_0": {
@@ -333,16 +333,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Access NetFront.",
         "RenderingEngine_Maker": "Access",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 2
       }
     },
     "T5": {
@@ -351,16 +351,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Baidu",
         "RenderingEngine_Maker": "Baidu",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "T7": {
@@ -369,16 +369,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a Blink Fork by Baidu",
         "RenderingEngine_Maker": "Baidu",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Tasman": {
@@ -387,10 +387,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac.",
         "RenderingEngine_Maker": "Apple Inc",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false
       }
     },
     "KHTML": {
@@ -399,16 +399,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Konqueror.",
         "RenderingEngine_Maker": "KDE e.V.",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 2
       }
     },
     "KHTML_Dynamic": {
@@ -423,16 +423,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
         "RenderingEngine_Maker": "UCWeb Inc.",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "U3": {
@@ -441,16 +441,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
         "RenderingEngine_Maker": "UCWeb Inc.",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Blink": {
@@ -459,16 +459,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Google",
         "RenderingEngine_Maker": "Google Inc",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": false,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Goanna": {
@@ -477,16 +477,16 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a Gecko Fork by Moonchild Productions",
         "RenderingEngine_Maker": "Moonchild Productions",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false,
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       }
     },
     "Goanna_2": {
@@ -507,10 +507,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a Gecko Fork for Classilla",
         "RenderingEngine_Maker": "unknown",
-        "VBScript": "false",
-        "JavaApplets": "true",
-        "ActiveXControls": "false",
-        "BackgroundSounds": "false"
+        "VBScript": false,
+        "JavaApplets": true,
+        "ActiveXControls": false,
+        "BackgroundSounds": false
       }
     }
   }

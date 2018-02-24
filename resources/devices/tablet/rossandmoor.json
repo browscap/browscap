@@ -1,15 +1,13 @@
 {
     "Ross&Moor RM-997": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "RM-997",
             "Device_Code_Name": "RM-997",
             "Device_Maker": "Ross&Moor",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Ross&Moor",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Ross&Moor"
+        },
+        "standard": true
     }
 }

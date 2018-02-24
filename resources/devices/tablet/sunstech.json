@@ -1,41 +1,35 @@
 {
     "Sunstech TAB785DUAL": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB785DUAL",
             "Device_Code_Name": "TAB785DUAL",
             "Device_Maker": "Sunstech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sunstech",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Sunstech"
+        },
+        "standard": true
     },
     "Sunstech TAB917QC 16GB": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB917QC 16GB",
             "Device_Code_Name": "TAB917QC 16GB",
             "Device_Maker": "Sunstech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sunstech",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Sunstech"
+        },
+        "standard": true
     },
     "Sunstech TAB917QC 8GB": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB917QC 8GB",
             "Device_Code_Name": "TAB917QC 8GB",
             "Device_Maker": "Sunstech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sunstech",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Sunstech"
+        },
+        "standard": true
     }
 }

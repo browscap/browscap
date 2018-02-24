@@ -1,41 +1,35 @@
 {
     "Impression ImPAD 0413": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ImPAD 0413",
             "Device_Code_Name": "ImPAD 0413",
             "Device_Maker": "Impression",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Impression",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Impression"
+        },
+        "standard": true
     },
     "Impression ImPAD 6213M V2": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ImPAD 6213M V2",
             "Device_Code_Name": "ImPAD 6213M V2",
             "Device_Maker": "Impression",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Impression",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Impression"
+        },
+        "standard": true
     },
     "Impression ImPAD 9708": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ImPAD 9708",
             "Device_Code_Name": "ImPAD 9708",
             "Device_Maker": "Impression",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Impression",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Impression"
+        },
+        "standard": true
     }
 }

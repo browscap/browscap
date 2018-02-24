@@ -1,54 +1,46 @@
 {
     "CatSound Galactica X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Galactica X",
             "Device_Name": "Galactica X",
+            "Device_Code_Name": "Galactica X",
             "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "CatSound",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "CatSound"
+        },
+        "standard": true
     },
     "CatSound Nova": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nova",
             "Device_Name": "Nova",
+            "Device_Code_Name": "Nova",
             "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "CatSound",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "CatSound"
+        },
+        "standard": true
     },
     "CatSound Tablet": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Tablet",
             "Device_Name": "Tablet",
+            "Device_Code_Name": "Tablet",
             "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "CatSound",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "CatSound"
+        },
+        "standard": true
     },
     "CatSound Tablet PC 4": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Tablet PC 4",
             "Device_Name": "Tablet PC 4",
+            "Device_Code_Name": "Tablet PC 4",
             "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "CatSound",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "CatSound"
+        },
+        "standard": true
     }
 }

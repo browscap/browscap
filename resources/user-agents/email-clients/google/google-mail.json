@@ -10,8 +10,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google Mail",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

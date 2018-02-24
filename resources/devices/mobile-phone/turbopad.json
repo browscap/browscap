@@ -1,28 +1,24 @@
 {
     "TurboPad 500": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "500",
             "Device_Code_Name": "500",
             "Device_Maker": "TurboPad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TurboPad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "TurboPad"
+        },
+        "standard": false
     },
     "TurboPad Turbo X6": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Turbo X6",
             "Device_Code_Name": "Turbo X6",
             "Device_Maker": "TurboPad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TurboPad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "TurboPad"
+        },
+        "standard": false
     }
 }

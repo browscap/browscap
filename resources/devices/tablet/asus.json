@@ -1,379 +1,321 @@
 {
     "Asus A68": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A68",
             "Device_Name": "PadFone 2",
+            "Device_Code_Name": "A68",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K00C": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K00C",
             "Device_Name": "Transformer Pad TF701T",
+            "Device_Code_Name": "K00C",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K00E": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K00E",
             "Device_Name": "Fonepad HD 7",
+            "Device_Code_Name": "K00E",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K012": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K012",
             "Device_Name": "K012",
+            "Device_Code_Name": "K012",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K013": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K013",
             "Device_Name": "MeMO Pad 7",
+            "Device_Code_Name": "K013",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K016": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K016",
             "Device_Name": "Fonepad 8",
+            "Device_Code_Name": "K016",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K017": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K017",
             "Device_Name": "MeMO Pad 7",
+            "Device_Code_Name": "K017",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K018": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K018",
             "Device_Name": "Transformer Pad TF103CG",
+            "Device_Code_Name": "K018",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K01A": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K01A",
             "Device_Name": "MeMO Pad 7",
+            "Device_Code_Name": "K01A",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus K01E": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K01E",
             "Device_Name": "MeMO Pad 10",
+            "Device_Code_Name": "K01E",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME172V": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME172V",
             "Device_Name": "MeMO Pad ME172V",
+            "Device_Code_Name": "ME172V",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME173X": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME173X",
             "Device_Name": "Memo Pad HD7",
+            "Device_Code_Name": "ME173X",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME175CG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME175CG",
             "Device_Name": "Fonepad 7 K00Z",
+            "Device_Code_Name": "ME175CG",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME176C": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME176C",
             "Device_Name": "MeMO Pad 7",
+            "Device_Code_Name": "ME176C",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME301T": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME301T",
             "Device_Name": "MeMO Pad Smart 10",
+            "Device_Code_Name": "ME301T",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME302C": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME302C",
             "Device_Name": "MeMO Pad FHD 10",
+            "Device_Code_Name": "ME302C",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME302KL": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME302KL",
             "Device_Name": "MeMO Pad FHD 10",
+            "Device_Code_Name": "ME302KL",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus ME371MG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME371MG",
             "Device_Name": "Fonepad ME371MG",
+            "Device_Code_Name": "ME371MG",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus Nexus 7": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nexus 7",
             "Device_Name": "Nexus 7",
+            "Device_Code_Name": "Nexus 7",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "Asus PadFone": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PadFone",
-            "Device_Name": "PadFone",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": true
     },
     "Asus P01T_1": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P01T_1",
             "Device_Name": "ZenPad 10",
+            "Device_Code_Name": "P01T_1",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
+    },
+    "Asus PadFone": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "PadFone",
+            "Device_Code_Name": "PadFone",
+            "Device_Maker": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus SL101": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SL101",
             "Device_Name": "Eee Pad SL101 Slider",
+            "Device_Code_Name": "SL101",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": true
     },
     "Asus TF101": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF101",
             "Device_Name": "Eee Pad Transformer TF101",
+            "Device_Code_Name": "TF101",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF101G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF101G",
             "Device_Name": "Eee Pad Transformer TF101G",
+            "Device_Code_Name": "TF101G",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF201": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Eee Pad TF201",
             "Device_Name": "Transformer Prime",
+            "Device_Code_Name": "Eee Pad TF201",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF300T": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF300T",
             "Device_Name": "Transformer Pad TF300T",
+            "Device_Code_Name": "TF300T",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF300TG": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF300TG",
             "Device_Name": "Transformer Pad TF300T",
+            "Device_Code_Name": "TF300TG",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF300TL": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF300TL",
             "Device_Name": "Transformer Pad TF300TL",
+            "Device_Code_Name": "TF300TL",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     },
     "Asus TF700T": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF700T",
             "Device_Name": "Transformer Pad TF700T",
+            "Device_Code_Name": "TF700T",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Asus"
+        },
+        "standard": true
     }
 }

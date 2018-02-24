@@ -1,41 +1,35 @@
 {
     "Itel IT1407": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "IT1407",
             "Device_Code_Name": "IT1407",
             "Device_Maker": "Itel",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Itel",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Itel"
+        },
+        "standard": false
     },
     "Itel IT1500": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "1500 iNote Grand",
             "Device_Code_Name": "IT1500",
             "Device_Maker": "Itel",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Itel",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Itel"
+        },
+        "standard": false
     },
     "Itel IT1502": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "1502 iNote",
             "Device_Code_Name": "IT1502",
             "Device_Maker": "Itel",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Itel",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Itel"
+        },
+        "standard": false
     }
 }

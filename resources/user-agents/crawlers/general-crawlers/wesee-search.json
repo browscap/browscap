@@ -16,7 +16,7 @@
           "match": "WeSEE:Search/0.1 (Alpha*",
           "properties": {
             "Version": "0.1",
-            "Alpha": "true"
+            "Alpha": true
           }
         },
         {

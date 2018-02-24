@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Anonymizied",
-        "isAnonymized": "true"
+        "isAnonymized": true
       },
       "children": [
         {

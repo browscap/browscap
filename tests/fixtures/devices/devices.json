@@ -8,8 +8,8 @@
       "Device_Pointing_Method": "unknown",
       "Device_Code_Name": "unknown",
       "Device_Brand_Name": "unknown",
-      "isMobileDevice": "false",
-      "isTablet": "false"
+      "isMobileDevice": false,
+      "isTablet": false
     }
   }
 }

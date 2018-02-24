@@ -14,8 +14,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Univention Corporate Server #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

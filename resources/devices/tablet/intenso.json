@@ -1,15 +1,13 @@
 {
     "Intenso INM8002KP": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "INM8002KP",
             "Device_Name": "TAB 824",
+            "Device_Code_Name": "INM8002KP",
             "Device_Maker": "Intenso",
-            "Device_Brand_Name": "Intenso",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Intenso"
+        },
+        "standard": true
     }
 }

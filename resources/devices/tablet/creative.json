@@ -1,15 +1,13 @@
 {
     "Creative ZIIO7": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ZiiO 7",
             "Device_Code_Name": "ZiiO7",
             "Device_Maker": "Creative",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Creative",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Creative"
+        },
+        "standard": true
     }
 }

@@ -1,15 +1,13 @@
 {
     "Advent P10AN01": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Vega",
             "Device_Code_Name": "P10AN01",
             "Device_Maker": "Advent",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Advent",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Advent"
+        },
+        "standard": true
     }
 }

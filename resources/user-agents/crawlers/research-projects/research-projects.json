@@ -118,7 +118,7 @@
           "match": "wwwster/* (Beta, mailto:gue@cis.uni-muenchen.de)",
           "browser": "wwwster",
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {

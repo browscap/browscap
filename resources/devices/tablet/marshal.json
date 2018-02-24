@@ -1,15 +1,13 @@
 {
     "Marshal ME-701": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "ME-701",
             "Device_Code_Name": "ME-701",
             "Device_Maker": "Marshal",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Marshal",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Marshal"
+        },
+        "standard": true
     }
 }

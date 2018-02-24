@@ -1,15 +1,13 @@
 {
     "Bephone UN020": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "UN020",
             "Device_Code_Name": "UN020",
             "Device_Maker": "Bephone",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bephone",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Bephone"
+        },
+        "standard": false
     }
 }

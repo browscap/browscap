@@ -1,15 +1,13 @@
 {
     "ZTE BASE Tab": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "BASE Tab",
             "Device_Name": "BASE Tab",
+            "Device_Code_Name": "BASE Tab",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": true
     }
 }

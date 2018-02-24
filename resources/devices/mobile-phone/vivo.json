@@ -1,54 +1,46 @@
 {
     "vivo X3L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "X3L",
             "Device_Code_Name": "X3L",
             "Device_Maker": "vivo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "vivo"
+        },
+        "standard": false
     },
     "vivo Y22": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Y22",
             "Device_Code_Name": "Y22",
             "Device_Maker": "vivo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "vivo"
+        },
+        "standard": false
     },
     "vivo Y31L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Y31L",
             "Device_Code_Name": "Y31L",
             "Device_Maker": "vivo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "vivo"
+        },
+        "standard": false
     },
     "vivo Y55L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Y55L",
             "Device_Code_Name": "1603",
             "Device_Maker": "vivo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "vivo"
+        },
+        "standard": false
     }
 }

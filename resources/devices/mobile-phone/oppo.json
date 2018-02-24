@@ -1,132 +1,112 @@
 {
     "OPPO 1107": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "1107",
             "Device_Name": "1107 4G",
+            "Device_Code_Name": "1107",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO A1601": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A1601",
             "Device_Name": "F1s",
+            "Device_Code_Name": "A1601",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "OPPO R7s": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R7s",
-            "Device_Name": "R7s",
-            "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO R7": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R7",
             "Device_Name": "R7",
+            "Device_Code_Name": "R7",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
+    },
+    "OPPO R7s": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "R7s",
+            "Device_Code_Name": "R7s",
+            "Device_Maker": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO R813T": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R813T",
             "Device_Name": "R813T",
+            "Device_Code_Name": "R813T",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO R815": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R815",
             "Device_Name": "R815",
+            "Device_Code_Name": "R815",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO R831": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R831",
             "Device_Name": "Neo R831",
+            "Device_Code_Name": "R831",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO U705T": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U705T",
             "Device_Name": "Ulike 2",
+            "Device_Code_Name": "U705T",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO X9007": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "X9007",
             "Device_Name": "Find 7a",
+            "Device_Code_Name": "X9007",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     },
     "OPPO X909": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "X909",
             "Device_Name": "Find 5",
+            "Device_Code_Name": "X909",
             "Device_Maker": "OPPO",
-            "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "OPPO"
+        },
+        "standard": false
     }
 }

@@ -1,15 +1,13 @@
 {
     "Sharp Aquos TV": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Aquos TV",
             "Device_Name": "Aquos TV",
+            "Device_Code_Name": "Aquos TV",
             "Device_Maker": "Sharp Corporation",
-            "Device_Brand_Name": "Sharp",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sharp"
+        },
+        "standard": true
     }
 }

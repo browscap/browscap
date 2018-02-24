@@ -1,158 +1,134 @@
 {
     "Acer E140": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E140",
             "Device_Name": "E140",
+            "Device_Code_Name": "E140",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer E310": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E310",
             "Device_Name": "Liquid Mini",
+            "Device_Code_Name": "E310",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer E320": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E320",
             "Device_Name": "Liquid Express",
+            "Device_Code_Name": "E320",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer E350": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E350",
             "Device_Name": "Liquid Gallant",
+            "Device_Code_Name": "E350",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer E380": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E380",
             "Device_Name": "Liquid E3",
+            "Device_Code_Name": "E380",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer Liquid": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Liquid",
             "Device_Name": "Liquid",
+            "Device_Code_Name": "Liquid",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer Liquid Metal": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Liquid Metal",
             "Device_Name": "Liquid Metal",
+            "Device_Code_Name": "Liquid Metal",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer S200": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S200",
             "Device_Name": "S200",
+            "Device_Code_Name": "S200",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer S500": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S500",
             "Device_Name": "CloudMobile S500",
+            "Device_Code_Name": "S500",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer Stream": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Stream",
             "Device_Name": "Stream",
+            "Device_Code_Name": "Stream",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer V370": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V370",
             "Device_Name": "Liquid E2 Duo",
+            "Device_Code_Name": "V370",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     },
     "Acer Z150": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z150",
             "Device_Name": "Liquid Z5 Duo",
+            "Device_Code_Name": "Z150",
             "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Acer"
+        },
+        "standard": false
     }
 }

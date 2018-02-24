@@ -1,145 +1,123 @@
 {
     "Oysters T37": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T37",
             "Device_Code_Name": "T37",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T72A 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T72A 3G",
             "Device_Code_Name": "T72A 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "Oysters T72H 3G": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Name": "T72H 3G",
-            "Device_Code_Name": "T72H 3G",
-            "Device_Maker": "Oysters",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "Oysters T72HM 3G": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Name": "T72HM 3G",
-            "Device_Code_Name": "T72HM 3G",
-            "Device_Maker": "Oysters",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T72ER 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T72ER 3G",
             "Device_Code_Name": "T72ER 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
+    },
+    "Oysters T72H 3G": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "T72H 3G",
+            "Device_Code_Name": "T72H 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
+    },
+    "Oysters T72HM 3G": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "T72HM 3G",
+            "Device_Code_Name": "T72HM 3G",
+            "Device_Maker": "Oysters",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T72HRi 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T72HRi 3G",
             "Device_Code_Name": "T72HRi 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T72M 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T72M 3G",
             "Device_Code_Name": "T72M 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T72N 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T72N 3G",
             "Device_Code_Name": "T72N 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T7B 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T7B 3G",
             "Device_Code_Name": "T7B 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T80 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T80 3G",
             "Device_Code_Name": "T80 3G",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     },
     "Oysters T84HRi": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "T84HRi (Wi-Fi, 3G)",
             "Device_Code_Name": "T84HRi",
             "Device_Maker": "Oysters",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Oysters"
+        },
+        "standard": true
     }
 }

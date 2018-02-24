@@ -36,8 +36,8 @@
           "match": "W3C-mobileOK/*",
           "browser": "w3c-mobileok",
           "properties": {
-            "Alpha": "false",
-            "Beta": "false"
+            "Alpha": false,
+            "Beta": false
           }
         },
         {

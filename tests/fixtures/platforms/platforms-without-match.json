@@ -4,7 +4,7 @@
       "properties": {
         "Platform": "Platform1",
         "Platform_Description": "The first test platform",
-        "Win32": "false"
+        "Win32": false
       }
     }
   }

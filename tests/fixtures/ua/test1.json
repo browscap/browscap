@@ -24,7 +24,7 @@
       "userAgent": "UA2",
       "properties": {
         "Parent": "DefaultProperties",
-        "lite": "false",
+        "lite": false,
         "Comment": "UA2",
         "Browser": "UA2",
         "Version": "1.0",
@@ -60,7 +60,7 @@
       "userAgent": "UA4",
       "properties": {
         "Parent": "DefaultProperties",
-        "lite": "false",
+        "lite": false,
         "Comment": "UA4",
         "Browser": "UA4",
         "Version": "1.0",

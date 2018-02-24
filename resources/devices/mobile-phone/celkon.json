@@ -1,41 +1,35 @@
 {
     "Celkon A400": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "A400",
             "Device_Code_Name": "A400",
             "Device_Maker": "Celkon",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Celkon",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Celkon"
+        },
+        "standard": false
     },
     "Celkon C329": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "C329",
             "Device_Code_Name": "C329",
             "Device_Maker": "Celkon",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Celkon",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Celkon"
+        },
+        "standard": false
     },
     "Celkon C64": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "C64",
             "Device_Code_Name": "C64",
             "Device_Maker": "Celkon",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Celkon",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Celkon"
+        },
+        "standard": false
     }
 }

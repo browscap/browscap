@@ -1,28 +1,24 @@
 {
     "Asus Nexus Player": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Nexus Player",
             "Device_Name": "Nexus Player",
+            "Device_Code_Name": "Nexus Player",
             "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": true
     },
     "Google Chromecast": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Chromecast",
             "Device_Name": "Chromecast",
+            "Device_Code_Name": "Chromecast",
             "Device_Maker": "Google Inc",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": true
     }
 }

@@ -1,15 +1,13 @@
 {
     "NEO N003": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N003",
             "Device_Code_Name": "N003",
             "Device_Maker": "NEO",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NEO",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEO"
+        },
+        "standard": false
     }
 }

@@ -33,7 +33,7 @@
           "browser": "siteexplorer",
           "properties": {
             "Version": "1.0b",
-            "Beta": "true"
+            "Beta": true
           }
         },
         {

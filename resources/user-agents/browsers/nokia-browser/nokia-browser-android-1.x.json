@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

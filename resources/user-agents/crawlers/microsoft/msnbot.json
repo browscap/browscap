@@ -22,7 +22,7 @@
           "match": "msnbot/2.0b*",
           "properties": {
             "Version": "2.0",
-            "Beta": "true"
+            "Beta": true
           }
         },
         {

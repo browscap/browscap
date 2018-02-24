@@ -1,756 +1,640 @@
 {
     "ZTE Atlas W": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Atlas W",
             "Device_Name": "Atlas W",
+            "Device_Code_Name": "Atlas W",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE BA910": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "BA910",
             "Device_Name": "Blade",
+            "Device_Code_Name": "BA910",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Beeline Pro": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Beeline Pro",
             "Device_Name": "Beeline Pro",
+            "Device_Code_Name": "Beeline Pro",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Beeline Smart2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Beeline Smart 2",
             "Device_Name": "Beeline Smart 2",
+            "Device_Code_Name": "Beeline Smart 2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Blade": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blade",
             "Device_Name": "Blade",
+            "Device_Code_Name": "Blade",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Blade A430": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A430",
             "Device_Name": "Blade A430",
+            "Device_Code_Name": "A430",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Blade L2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blade L2",
             "Device_Name": "Blade L2",
+            "Device_Code_Name": "Blade L2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Blade L5": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blade L5",
             "Device_Name": "Blade L5",
+            "Device_Code_Name": "Blade L5",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE C6100": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C6100",
             "Device_Name": "C6100",
+            "Device_Code_Name": "C6100",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE C78": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C78",
             "Device_Name": "C78",
+            "Device_Code_Name": "C78",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE C880": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C880",
             "Device_Name": "C880",
+            "Device_Code_Name": "C880",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE G-X760": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G-X760",
             "Device_Name": "G-X760",
+            "Device_Code_Name": "G-X760",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Grand Era": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Grand Era",
             "Device_Name": "Grand Era",
+            "Device_Code_Name": "Grand Era",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Grand X2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Grand X2",
             "Device_Name": "Grand X2",
+            "Device_Code_Name": "Grand X2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Lutea 2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Lutea 2",
             "Device_Name": "Lutea 2",
+            "Device_Code_Name": "Lutea 2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "BASE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "BASE"
+        },
+        "standard": false
     },
     "ZTE Lutea 3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Lutea 3",
             "Device_Name": "Lutea 3",
+            "Device_Code_Name": "Lutea 3",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "BASE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "BASE"
+        },
+        "standard": false
     },
     "ZTE N861": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N861",
             "Device_Name": "Warp Sequent",
+            "Device_Code_Name": "N861",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N909": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N909",
             "Device_Name": "Grand",
+            "Device_Code_Name": "N909",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N9130": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9130",
             "Device_Name": "Speed",
+            "Device_Code_Name": "N9130",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N918St": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N918St",
             "Device_Name": "V5S",
+            "Device_Code_Name": "N918St",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N9510": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9510",
             "Device_Name": "Warp 4G LTE",
+            "Device_Code_Name": "N9510",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N9515": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9515",
             "Device_Name": "Warp Sync",
+            "Device_Code_Name": "N9515",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE N9519": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9519",
             "Device_Name": "Warp 7",
+            "Device_Code_Name": "N9519",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE NX402": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NX402",
             "Device_Name": "Nubia Z5 mini",
+            "Device_Code_Name": "NX402",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE NX501": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NX501",
             "Device_Name": "Nubia Z5",
+            "Device_Code_Name": "NX501",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Open": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Open",
             "Device_Name": "Open",
+            "Device_Code_Name": "Open",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Open 2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Open 2",
             "Device_Name": "Open 2",
+            "Device_Code_Name": "Open 2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Open C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Open C",
             "Device_Name": "Open C",
+            "Device_Code_Name": "Open C",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Orange": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Orange",
             "Device_Name": "Orange",
+            "Device_Code_Name": "Orange",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Prestige": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9132",
             "Device_Name": "Prestige",
+            "Device_Code_Name": "N9132",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Racer": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Racer",
             "Device_Name": "Racer",
+            "Device_Code_Name": "Racer",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Skate": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Skate",
             "Device_Name": "Skate",
+            "Device_Code_Name": "Skate",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE U930HD": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U930HD",
             "Device_Name": "U930HD",
+            "Device_Code_Name": "U930HD",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V768": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V768",
             "Device_Name": "Concord",
+            "Device_Code_Name": "V768",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V769M": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V769M",
             "Device_Name": "Leo Q2",
+            "Device_Code_Name": "V769M",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V779M": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V779M",
             "Device_Name": "V779M",
+            "Device_Code_Name": "V779M",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V788D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V788D",
             "Device_Name": "Kis Plus",
+            "Device_Code_Name": "V788D",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V795": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V795",
             "Device_Name": "V795",
+            "Device_Code_Name": "V795",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V808": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V808",
             "Device_Name": "V808",
+            "Device_Code_Name": "V808",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V829": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V829",
             "Device_Name": "Blade G Pro",
+            "Device_Code_Name": "V829",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V967S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V967S",
             "Device_Name": "Grand X2",
+            "Device_Code_Name": "V967S",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V970": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V970",
             "Device_Name": "Grand X",
+            "Device_Code_Name": "V970",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V975": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V975",
             "Device_Name": "Geek",
+            "Device_Code_Name": "V975",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE V987": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "V987",
             "Device_Name": "Grand X Quad",
+            "Device_Code_Name": "V987",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z716BL": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z716BL",
             "Device_Name": "Citrine LTE",
+            "Device_Code_Name": "Z716BL",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z793C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z793C",
             "Device_Name": "Atrium (Straight Talk)",
+            "Device_Code_Name": "Z793C",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z796C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z796C",
             "Device_Name": "Majesty",
+            "Device_Code_Name": "Z796C",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z797C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z797C",
             "Device_Name": "Quartz",
+            "Device_Code_Name": "Z797C",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z812": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z812",
             "Device_Name": "Maven",
+            "Device_Code_Name": "Z812",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z813": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z813",
             "Device_Name": "Overture 2",
+            "Device_Code_Name": "Z813",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z818L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z818L",
             "Device_Name": "Allstar",
+            "Device_Code_Name": "Z818L",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z820": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z820",
             "Device_Name": "Obsidian",
+            "Device_Code_Name": "Z820",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z828": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z828",
             "Device_Name": "Avid Plus",
+            "Device_Code_Name": "Z828",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z936L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z936L",
             "Device_Name": "Lever (Straight Talk)",
+            "Device_Code_Name": "Z936L",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z958": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z958",
             "Device_Name": "ZMax 2",
+            "Device_Code_Name": "Z958",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z959": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z959",
             "Device_Name": "Grand X3",
+            "Device_Code_Name": "Z959",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z970": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z970",
             "Device_Name": "ZMax",
+            "Device_Code_Name": "Z970",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     },
     "ZTE Z981": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Z981",
             "Device_Name": "Zmax Pro",
+            "Device_Code_Name": "Z981",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ZTE"
+        },
+        "standard": false
     }
 }

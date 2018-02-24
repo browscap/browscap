@@ -1,41 +1,35 @@
 {
     "HTC Nexus 9": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nexus 9",
             "Device_Name": "HTC Nexus 9",
+            "Device_Code_Name": "Nexus 9",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": true
     },
     "HTC P510e": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P510e",
             "Device_Name": "Flyer",
+            "Device_Code_Name": "P510e",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "HTC"
+        },
+        "standard": true
     },
     "HTC P512": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P512",
             "Device_Name": "Flyer",
+            "Device_Code_Name": "P512",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "HTC"
+        },
+        "standard": true
     }
 }

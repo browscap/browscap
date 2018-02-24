@@ -14,8 +14,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

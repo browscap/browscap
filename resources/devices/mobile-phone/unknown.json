@@ -1,41 +1,35 @@
 {
     "general Mobile Phone": {
-        "standard": true,
+        "type": "mobile-phone",
         "properties": {
             "Device_Name": "general Mobile Phone",
-            "Device_Maker": "unknown",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "unknown",
             "Device_Code_Name": "general Mobile Phone",
-            "Device_Brand_Name": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Maker": "unknown",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": true
     },
     "general Mobile Phone (Touch)": {
-        "standard": true,
+        "type": "mobile-phone",
         "properties": {
             "Device_Name": "general Mobile Phone",
-            "Device_Maker": "unknown",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "general Mobile Phone",
-            "Device_Brand_Name": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Maker": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": true
     },
     "unknown Galaxy S3 Clone": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
             "Device_Name": "Galaxy S3 Clone",
-            "Device_Maker": "unknown",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "Z15A",
-            "Device_Brand_Name": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Maker": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "unknown"
+        },
+        "standard": false
     }
 }

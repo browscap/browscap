@@ -23,7 +23,7 @@
             "Linux_64", "Linux"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {
@@ -45,7 +45,7 @@
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {
@@ -57,7 +57,7 @@
             "NetBSD"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         }
       ]

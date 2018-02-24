@@ -1,15 +1,13 @@
 {
     "Feiteng H7100": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "H7100",
             "Device_Code_Name": "H7100",
             "Device_Maker": "Feiteng",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Feiteng",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Feiteng"
+        },
+        "standard": false
     }
 }

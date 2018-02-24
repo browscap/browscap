@@ -8,7 +8,12 @@ namespace Browscap\Data;
 class Device
 {
     /**
-     * @var string[]
+     * @var string
+     */
+    private $type;
+
+    /**
+     * @var array
      */
     private $properties = [];
 
@@ -18,17 +23,27 @@ class Device
     private $standard = false;
 
     /**
-     * @param string[] $properties
-     * @param bool     $standard
+     * @param array  $properties
+     * @param string $type
+     * @param bool   $standard
      */
-    public function __construct(array $properties, bool $standard)
+    public function __construct(array $properties, string $type, bool $standard)
     {
+        $this->type       = $type;
         $this->properties = $properties;
         $this->standard   = $standard;
     }
 
     /**
-     * @return string[]
+     * @return string
+     */
+    public function getType() : string
+    {
+        return $this->type;
+    }
+
+    /**
+     * @return array
      */
     public function getProperties() : array
     {

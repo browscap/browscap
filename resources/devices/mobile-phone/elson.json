@@ -1,15 +1,13 @@
 {
     "Mobistel Cynus T2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Cynus T2",
             "Device_Name": "Cynus T2",
+            "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Elson",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Elson"
+        },
+        "standard": false
     }
 }

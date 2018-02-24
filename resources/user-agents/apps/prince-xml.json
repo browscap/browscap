@@ -11,8 +11,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Prince",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

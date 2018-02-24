@@ -10,8 +10,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Seznam Email Proxy",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

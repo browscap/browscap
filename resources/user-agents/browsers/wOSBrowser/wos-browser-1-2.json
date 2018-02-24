@@ -33,7 +33,7 @@
             "webOS"
           ],
           "properties": {
-            "CssVersion": "2"
+            "CssVersion": 2
           }
         },
         {
@@ -45,7 +45,7 @@
             "webOS"
           ],
           "properties": {
-            "CssVersion": "2"
+            "CssVersion": 2
           }
         },
         {

@@ -30,6 +30,9 @@ class BrowserFactory
         Assertion::keyExists($browserData, 'lite', 'the value for "lite" key is missing for browser "' . $browserName . '"');
         Assertion::boolean($browserData['lite']);
 
-        return new Browser($browserData['properties'], $browserData['lite'], $browserData['standard']);
+        Assertion::keyExists($browserData, 'type', 'the value for "type" key is missing for browser "' . $browserName . '"');
+        Assertion::string($browserData['type']);
+
+        return new Browser($browserData['properties'], $browserData['type'], $browserData['lite'], $browserData['standard']);
     }
 }

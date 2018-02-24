@@ -1,15 +1,13 @@
 {
     "Lafone S58": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S58",
             "Device_Name": "SIII",
+            "Device_Code_Name": "S58",
             "Device_Maker": "Lafone",
-            "Device_Brand_Name": "Lafone",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Lafone"
+        },
+        "standard": false
     }
 }

@@ -1,28 +1,24 @@
 {
     "Orange Gova": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Gova",
             "Device_Code_Name": "Gova",
             "Device_Maker": "Orange S.A.",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Orange",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Orange"
+        },
+        "standard": false
     },
     "Orange Klif": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Klif",
             "Device_Code_Name": "Klif",
             "Device_Maker": "Alcatel",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Orange",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Orange"
+        },
+        "standard": false
     }
 }

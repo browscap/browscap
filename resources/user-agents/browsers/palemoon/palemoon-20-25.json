@@ -14,8 +14,8 @@
         "Parent": "DefaultProperties",
         "Comment": "PaleMoon #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -49,7 +49,7 @@
             "OSX"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {

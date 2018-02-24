@@ -1,28 +1,24 @@
 {
     "GOCLEVER Quantum 4": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Quantum 4",
             "Device_Code_Name": "Quantum 4",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": false
     },
     "GOCLEVER Quantum 700m": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Quantum 700m",
             "Device_Code_Name": "Quantum 700m",
             "Device_Maker": "GOCLEVER",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GOCLEVER",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "GOCLEVER"
+        },
+        "standard": false
     }
 }

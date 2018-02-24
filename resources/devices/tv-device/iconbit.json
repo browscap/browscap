@@ -1,15 +1,13 @@
 {
     "iconBIT TOUCAN Stick 3D mk2": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
             "Device_Name": "TOUCAN Stick 3D mk2",
             "Device_Code_Name": "TOUCAN Stick 3D mk2",
             "Device_Maker": "iconBIT",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "iconBIT",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "iconBIT"
+        },
+        "standard": true
     }
 }

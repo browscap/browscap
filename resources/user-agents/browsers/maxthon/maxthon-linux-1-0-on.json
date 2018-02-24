@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER# for Linux",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

@@ -15,12 +15,12 @@
         "Browser": "Test Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
       },
       "children": [
         {

@@ -1,15 +1,13 @@
 {
     "iPro Sense Golly": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Sense Golly",
             "Device_Code_Name": "Sense Golly",
             "Device_Maker": "iPro",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iPro",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "iPro"
+        },
+        "standard": false
     }
 }

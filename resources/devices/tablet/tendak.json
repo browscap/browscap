@@ -1,15 +1,13 @@
 {
     "Tendak DFP7002": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "DFP7002",
             "Device_Code_Name": "DFP7002",
             "Device_Maker": "Tendak",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tendak",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Tendak"
+        },
+        "standard": true
     }
 }

@@ -1,15 +1,13 @@
 {
     "Anka SX5": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "SX5",
             "Device_Code_Name": "SX5",
             "Device_Maker": "Anka",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Anka",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Anka"
+        },
+        "standard": false
     }
 }

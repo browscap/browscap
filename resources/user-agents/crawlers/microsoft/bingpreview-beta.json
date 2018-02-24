@@ -15,7 +15,7 @@
         "Parent": "DefaultProperties",
         "Comment": "BingPreview #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {
@@ -71,7 +71,7 @@
         "Parent": "DefaultProperties",
         "Comment": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {
@@ -100,7 +100,7 @@
         "Parent": "DefaultProperties",
         "Comment": "BingPreview for iOS #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

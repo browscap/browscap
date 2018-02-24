@@ -1,28 +1,24 @@
 {
-    "Alps worldphone 4": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "worldphone 4",
-            "Device_Code_Name": "worldphone 4",
-            "Device_Maker": "Alps",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alps",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Alps Xenoon": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Xenoon",
             "Device_Code_Name": "Xenoon",
             "Device_Maker": "Alps",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alps",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Alps"
+        },
+        "standard": false
+    },
+    "Alps worldphone 4": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "worldphone 4",
+            "Device_Code_Name": "worldphone 4",
+            "Device_Maker": "Alps",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Alps"
+        },
+        "standard": false
     }
 }

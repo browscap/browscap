@@ -1,1133 +1,959 @@
 {
     "Huawei ALE-21": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ALE-21",
             "Device_Name": "P8 Lite",
+            "Device_Code_Name": "ALE-21",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei ALE-L21": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ALE-L21",
             "Device_Name": "P8 Lite (2016)",
+            "Device_Code_Name": "ALE-L21",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei ATH-AL00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ATH-AL00",
             "Device_Name": "Honor 7i",
+            "Device_Code_Name": "ATH-AL00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei CAN-L11": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CAN-L11",
             "Device_Name": "Nova",
+            "Device_Code_Name": "CAN-L11",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei CHC-U03": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CHC-U03",
             "Device_Name": "G Play mini",
+            "Device_Code_Name": "CHC-U03",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei CHE-UL00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CHE-UL00",
             "Device_Name": "Honor 4X",
+            "Device_Code_Name": "CHE-UL00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei CUN-L21": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CUN-L21",
             "Device_Name": "Y5 II",
+            "Device_Code_Name": "CUN-L21",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei D2-0082": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "D2-0082",
             "Device_Name": "Ascend D2",
+            "Device_Code_Name": "D2-0082",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei EVA-AL10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "EVA-AL10",
             "Device_Name": "P9",
+            "Device_Code_Name": "EVA-AL10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei EVA-L09": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "EVA-L09",
             "Device_Name": "P9",
+            "Device_Code_Name": "EVA-L09",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G510": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G510",
             "Device_Name": "Ascend G510",
+            "Device_Code_Name": "G510",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G525-U00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G525-U00",
             "Device_Name": "Ascend G525-U00",
+            "Device_Code_Name": "G525-U00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G527-U081": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G527-U081",
             "Device_Name": "Ascend G527",
+            "Device_Code_Name": "G527-U081",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G6-L22": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G6-L22",
             "Device_Name": "Ascend G6",
+            "Device_Code_Name": "G6-L22",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G606-T00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G606-T00",
             "Device_Name": "Ascend G606",
+            "Device_Code_Name": "G606-T00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G610-T00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G610-T00",
             "Device_Name": "Ascend G610",
+            "Device_Code_Name": "G610-T00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G630-U00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G630-U00",
             "Device_Name": "Ascend G630",
+            "Device_Code_Name": "G630-U00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G6600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G6600",
             "Device_Name": "G6600",
+            "Device_Code_Name": "G6600",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G700-U10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G700-U10",
             "Device_Name": "Ascend G700",
+            "Device_Code_Name": "G700-U10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G7300": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G7300",
             "Device_Name": "G7300",
+            "Device_Code_Name": "G7300",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G750-T00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G750-T00",
             "Device_Name": "Honor 3X",
+            "Device_Code_Name": "G750-T00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei G750-U10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G750-U10",
             "Device_Name": "Honor 3X",
+            "Device_Code_Name": "G750-U10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei GRA-L09": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GRA-L09",
             "Device_Name": "P8",
+            "Device_Code_Name": "GRA-L09",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei H30-U10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "H30-U10",
             "Device_Name": "Honor 3C",
+            "Device_Code_Name": "H30-U10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei HN3-U01": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HN3-U01",
             "Device_Name": "Honor 3",
+            "Device_Code_Name": "HN3-U01",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei KII-L22": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "KII-L22",
             "Device_Name": "GR5",
+            "Device_Code_Name": "KII-L22",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei KIW-L21": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "KIW-L21",
             "Device_Name": "Honor 5x",
+            "Device_Code_Name": "KIW-L21",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei KIW-UL00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "KIW-UL00",
             "Device_Name": "Honor 5x TD-LTE",
+            "Device_Code_Name": "KIW-UL00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei M735": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M735",
             "Device_Name": "M735",
+            "Device_Code_Name": "M735",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei M860": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M860",
             "Device_Name": "Ascend (Metro PCS)",
+            "Device_Code_Name": "M860",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei MHA-AL00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MHA-AL00",
             "Device_Name": "Mate 9",
+            "Device_Code_Name": "MHA-AL00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei MT1-U06": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MT1-U06",
             "Device_Name": "Ascend Mate",
+            "Device_Code_Name": "MT1-U06",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei MT2-L01": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MT2-L01",
             "Device_Name": "Ascend Mate2",
+            "Device_Code_Name": "MT2-L01",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei MT7-TL10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MT7-TL10",
             "Device_Name": "Mate 7",
+            "Device_Code_Name": "MT7-TL10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei NEM-L51": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NEM-L51",
             "Device_Name": "Honor 5C",
+            "Device_Code_Name": "NEM-L51",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Huawei Nexus 6P": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Nexus 6P",
-            "Device_Name": "Nexus 6P",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei NXT-AL10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NXT-AL10",
             "Device_Name": "Mate 8",
+            "Device_Code_Name": "NXT-AL10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
+    },
+    "Huawei Nexus 6P": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "Nexus 6P",
+            "Device_Code_Name": "Nexus 6P",
+            "Device_Maker": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Google"
+        },
+        "standard": false
     },
     "Huawei P6 S-U06": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P6 S-U06",
             "Device_Name": "Ascend P6 S",
+            "Device_Code_Name": "P6 S-U06",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei P6-U06": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P6-U06",
             "Device_Name": "Ascend P6",
+            "Device_Code_Name": "P6-U06",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei P7 Mini": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P7 Mini",
             "Device_Name": "Ascend P7 Mini",
+            "Device_Code_Name": "P7 Mini",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei P7-L09": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P7-L09",
             "Device_Name": "Ascend P7",
+            "Device_Code_Name": "P7-L09",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei P7-L10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P7-L10",
             "Device_Name": "Ascend P7",
+            "Device_Code_Name": "P7-L10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei P8": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P8",
             "Device_Name": "P8",
+            "Device_Code_Name": "P8",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei PRA-LX1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PRA-LX1",
             "Device_Name": "P8 Lite (2017)",
+            "Device_Code_Name": "PRA-LX1",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei S41HW": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S41HW",
             "Device_Name": "Pocket WiFi S II for emobile",
+            "Device_Code_Name": "S41HW",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Huawei TAG-L21": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "TAG-L21",
-            "Device_Name": "GR3 Dual SIM",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei T8600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "T8600",
             "Device_Name": "T8600",
+            "Device_Code_Name": "T8600",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
+    },
+    "Huawei TAG-L21": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "GR3 Dual SIM",
+            "Device_Code_Name": "TAG-L21",
+            "Device_Maker": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8100": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8100",
             "Device_Name": "U8100",
+            "Device_Code_Name": "U8100",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8110 RBM3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8110",
             "Device_Name": "RBM3",
+            "Device_Code_Name": "U8110",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Red Bull Mobile",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Red Bull Mobile"
+        },
+        "standard": false
     },
     "Huawei U8150": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8150",
             "Device_Name": "Ideos",
+            "Device_Code_Name": "U8150",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8180": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8180",
             "Device_Name": "Ideos X1",
+            "Device_Code_Name": "U8180",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8220": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8220",
             "Device_Name": "U8220",
+            "Device_Code_Name": "U8220",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8230": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8230",
             "Device_Name": "U8230",
+            "Device_Code_Name": "U8230",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8230 RBM2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8230",
             "Device_Name": "RBM2",
+            "Device_Code_Name": "U8230",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Red Bull Mobile",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Red Bull Mobile"
+        },
+        "standard": false
     },
     "Huawei U8500": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8500",
             "Device_Name": "Ideos X2",
+            "Device_Code_Name": "U8500",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8510": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8510",
             "Device_Name": "Ideos X3",
+            "Device_Code_Name": "U8510",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8600",
             "Device_Name": "T-Mobile Move Balance",
+            "Device_Code_Name": "U8600",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8650": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8650",
             "Device_Name": "Sonic",
+            "Device_Code_Name": "U8650",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8655": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8655",
             "Device_Name": "Ascend Y200",
+            "Device_Code_Name": "U8655",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8666E": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8666E",
             "Device_Name": "Ascend Y201 Pro",
+            "Device_Code_Name": "U8666E",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8815": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8815",
             "Device_Name": "Ascend G300",
+            "Device_Code_Name": "U8815",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8825": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8825",
             "Device_Name": "Ascend G330",
+            "Device_Code_Name": "U8825",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8850": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8850",
             "Device_Name": "Vision",
+            "Device_Code_Name": "U8850",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8860": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8860",
             "Device_Name": "Honor",
+            "Device_Code_Name": "U8860",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8950-1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8950-1",
             "Device_Name": "Honor Pro",
+            "Device_Code_Name": "U8950-1",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8950D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8950D",
             "Device_Name": "Ascend G600",
+            "Device_Code_Name": "U8950D",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U8950N": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U8950N",
             "Device_Name": "Ascend G600",
+            "Device_Code_Name": "U8950N",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U9200": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U9200",
             "Device_Name": "Ascend P1",
+            "Device_Code_Name": "U9200",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei U9508": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U9508",
             "Device_Name": "Honor 2",
+            "Device_Code_Name": "U9508",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei VIE-L09": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "VIE-L09",
             "Device_Name": "P9 Plus",
+            "Device_Code_Name": "VIE-L09",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei VNS-L31": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "VNS-L31",
             "Device_Name": "P9 Lite",
+            "Device_Code_Name": "VNS-L31",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei W1-U00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "W1-U00",
             "Device_Name": "Ascend W1",
+            "Device_Code_Name": "W1-U00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y221-U12": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y221-U12",
             "Device_Name": "Ascend Y221-U12",
+            "Device_Code_Name": "Y221-U12",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y300": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y300",
             "Device_Name": "Ascend Y 300",
+            "Device_Code_Name": "Y300",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y320-U10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y320-U10",
             "Device_Name": "Ascend Y320",
+            "Device_Code_Name": "Y320-U10",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y320-U30": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y320-U30",
             "Device_Name": "Ascend Y320",
+            "Device_Code_Name": "Y320-U30",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y330-U01": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y330-U01",
             "Device_Name": "Ascend Y330",
+            "Device_Code_Name": "Y330-U01",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y330-U11": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y330-U11",
             "Device_Name": "Ascend Y330",
+            "Device_Code_Name": "Y330-U11",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y336-U02": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y336-U02",
             "Device_Name": "Y336-U02",
+            "Device_Code_Name": "Y336-U02",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y511": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y511",
             "Device_Name": "Ascend Y511",
+            "Device_Code_Name": "Y511",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y511-U30": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y511-U30",
             "Device_Name": "Ascend Y511",
+            "Device_Code_Name": "Y511-U30",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y530-U00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y530-U00",
             "Device_Name": "Ascend Y530",
+            "Device_Code_Name": "Y530-U00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y530-U051": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y530-U051",
             "Device_Name": "Ascend Y530 (Unlocked)",
+            "Device_Code_Name": "Y530-U051",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y538": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y538",
             "Device_Name": "Union",
+            "Device_Code_Name": "Y538",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y600-U00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y600-U00",
             "Device_Name": "Ascend Y600",
+            "Device_Code_Name": "Y600-U00",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y600-U20": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y600-U20",
             "Device_Name": "Ascend Y600",
+            "Device_Code_Name": "Y600-U20",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     },
     "Huawei Y635-L21": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Y635-L21",
             "Device_Name": "Ascend Y635",
+            "Device_Code_Name": "Y635-L21",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Huawei"
+        },
+        "standard": false
     }
 }

@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Series40",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -195,8 +195,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Symbian",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -378,8 +378,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Series30",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -404,8 +404,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Java",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
