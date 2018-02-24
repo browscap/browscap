@@ -1,13 +1,13 @@
 {
-    "Fujitsu M532": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "STYLISTIC M532",
-            "Device_Code_Name": "M532",
-            "Device_Maker": "Fujitsu",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fujitsu"
-        },
-        "standard": true
-    }
+  "Fujitsu M532": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "STYLISTIC M532",
+      "Device_Code_Name": "M532",
+      "Device_Maker": "Fujitsu",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fujitsu"
+    },
+    "standard": true
+  }
 }

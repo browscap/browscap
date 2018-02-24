@@ -1,112 +1,112 @@
 {
-    "OPPO 1107": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "1107 4G",
-            "Device_Code_Name": "1107",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+  "OPPO 1107": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "1107 4G",
+      "Device_Code_Name": "1107",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO A1601": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "F1s",
-            "Device_Code_Name": "A1601",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO A1601": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F1s",
+      "Device_Code_Name": "A1601",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO R7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R7",
-            "Device_Code_Name": "R7",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO R7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R7",
+      "Device_Code_Name": "R7",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO R7s": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R7s",
-            "Device_Code_Name": "R7s",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO R7s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R7s",
+      "Device_Code_Name": "R7s",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO R813T": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R813T",
-            "Device_Code_Name": "R813T",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO R813T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R813T",
+      "Device_Code_Name": "R813T",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO R815": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R815",
-            "Device_Code_Name": "R815",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO R815": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R815",
+      "Device_Code_Name": "R815",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO R831": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Neo R831",
-            "Device_Code_Name": "R831",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO R831": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Neo R831",
+      "Device_Code_Name": "R831",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO U705T": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Ulike 2",
-            "Device_Code_Name": "U705T",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO U705T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Ulike 2",
+      "Device_Code_Name": "U705T",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO X9007": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Find 7a",
-            "Device_Code_Name": "X9007",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OPPO X9007": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Find 7a",
+      "Device_Code_Name": "X9007",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
     },
-    "OPPO X909": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Find 5",
-            "Device_Code_Name": "X909",
-            "Device_Maker": "OPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OPPO"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "OPPO X909": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Find 5",
+      "Device_Code_Name": "X909",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  }
 }

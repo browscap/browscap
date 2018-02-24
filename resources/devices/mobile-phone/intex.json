@@ -1,90 +1,90 @@
 {
-    "Intex Aqua Q3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Q3",
-            "Device_Code_Name": "Aqua Q3",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+  "Intex Aqua Q3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Q3",
+      "Device_Code_Name": "Aqua Q3",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua Sense 5.0": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Sense 5.0",
-            "Device_Code_Name": "Aqua Sense 5.0",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua Sense 5.0": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Sense 5.0",
+      "Device_Code_Name": "Aqua Sense 5.0",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua Star": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Star",
-            "Device_Code_Name": "Aqua Star",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua Star": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Star",
+      "Device_Code_Name": "Aqua Star",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua Star 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Star 2",
-            "Device_Code_Name": "Aqua Star 2",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua Star 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Star 2",
+      "Device_Code_Name": "Aqua Star 2",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua Star 2 HD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Star 2 HD",
-            "Device_Code_Name": "Aqua Star 2 HD",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua Star 2 HD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Star 2 HD",
+      "Device_Code_Name": "Aqua Star 2 HD",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua Trend": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua Trend",
-            "Device_Code_Name": "Aqua Trend",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua Trend": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Trend",
+      "Device_Code_Name": "Aqua Trend",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex Aqua_Life V": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aqua_Life V",
-            "Device_Code_Name": "Aqua_Life V",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Intex Aqua_Life V": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua_Life V",
+      "Device_Code_Name": "Aqua_Life V",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
     },
-    "Intex WOW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "WOW",
-            "Device_Code_Name": "WOW",
-            "Device_Maker": "Intex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intex"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Intex WOW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "WOW",
+      "Device_Code_Name": "WOW",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
+    },
+    "standard": false
+  }
 }

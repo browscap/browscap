@@ -1,13 +1,13 @@
 {
-    "general TV Device": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "TV",
-            "Device_Code_Name": "TV",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
-    }
+  "general TV Device": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV",
+      "Device_Code_Name": "TV",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  }
 }

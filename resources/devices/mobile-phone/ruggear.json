@@ -1,13 +1,13 @@
 {
-    "RugGear RG500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RG500",
-            "Device_Code_Name": "RG500",
-            "Device_Maker": "RugGear",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "RugGear"
-        },
-        "standard": false
-    }
+  "RugGear RG500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RG500",
+      "Device_Code_Name": "RG500",
+      "Device_Maker": "RugGear",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "RugGear"
+    },
+    "standard": false
+  }
 }

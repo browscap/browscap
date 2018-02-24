@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "division": {
+      "type": "string"
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          { "type": "string" },
+          { "type": "integer" }
+        ]
+      }
+    },
+    "sortIndex": {"type": "integer"},
+    "lite": {
+      "type": "boolean"
+    },
+    "standard": {
+      "type": "boolean"
+    },
+    "userAgents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "userAgent": {"type": "string"},
+          "browser": {"type": "string"},
+          "platform": {"type": "string"},
+          "engine": {"type": "string"},
+          "device": {"type": "string"},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "Parent": {"type": "string"},
+              "Comment": {"type": "string"},
+              "Version": {"type": "string"},
+              "Browser_Modus": {"type": "string"},
+              "Alpha": {"type": "boolean"},
+              "Beta": {"type": "boolean"},
+              "isFake": {"type": "boolean"},
+              "isAnonymized": {"type": "boolean"},
+              "isModified": {"type": "boolean"}
+            },
+            "required": [
+              "Parent",
+              "Comment"
+            ]
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        },
+        "required": [
+          "userAgent"
+        ]
+      }
+    },
+    "required": [
+      "division",
+      "sortIndex",
+      "lite",
+      "standard",
+      "userAgents"
+    ]
+  }
+}

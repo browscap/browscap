@@ -1,24 +1,24 @@
 {
-    "UTStarcom GTX75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Quickfire",
-            "Device_Code_Name": "GTX75",
-            "Device_Maker": "UTStarcom",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AT&T"
-        },
-        "standard": false
+  "UTStarcom GTX75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Quickfire",
+      "Device_Code_Name": "GTX75",
+      "Device_Maker": "UTStarcom",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "AT&T"
     },
-    "ZTE Z221": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z221",
-            "Device_Code_Name": "Z221",
-            "Device_Maker": "ZTE",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AT&T"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "ZTE Z221": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z221",
+      "Device_Code_Name": "Z221",
+      "Device_Maker": "ZTE",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "AT&T"
+    },
+    "standard": false
+  }
 }

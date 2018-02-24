@@ -1,13 +1,13 @@
 {
-    "Wolgang AT-AS40SE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AT-AS40SE",
-            "Device_Code_Name": "AT-AS40SE",
-            "Device_Maker": "Wolgang",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wolgang"
-        },
-        "standard": false
-    }
+  "Wolgang AT-AS40SE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AT-AS40SE",
+      "Device_Code_Name": "AT-AS40SE",
+      "Device_Maker": "Wolgang",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wolgang"
+    },
+    "standard": false
+  }
 }

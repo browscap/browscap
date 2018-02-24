@@ -1,13 +1,13 @@
 {
-    "Radxa Rock": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "Rock",
-            "Device_Code_Name": "Rock",
-            "Device_Maker": "Radxa",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Radxa"
-        },
-        "standard": true
-    }
+  "Radxa Rock": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "Rock",
+      "Device_Code_Name": "Rock",
+      "Device_Maker": "Radxa",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Radxa"
+    },
+    "standard": true
+  }
 }

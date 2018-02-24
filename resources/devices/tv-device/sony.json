@@ -1,79 +1,79 @@
 {
-    "GoogleTV": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Google TV",
-            "Device_Code_Name": "Google TV",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+  "GoogleTV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Google TV",
+      "Device_Code_Name": "Google TV",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony NSZ-GS7/GX70": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "NSZ-GS7/GX70",
-            "Device_Code_Name": "NSZ-GS7/GX70",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony NSZ-GS7/GX70": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "NSZ-GS7/GX70",
+      "Device_Code_Name": "NSZ-GS7/GX70",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony Netbox": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Netbox",
-            "Device_Code_Name": "Netbox",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony Netbox": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Netbox",
+      "Device_Code_Name": "Netbox",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony PS2": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Playstation 2",
-            "Device_Code_Name": "PS2",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony PS2": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 2",
+      "Device_Code_Name": "PS2",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony PS3": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Playstation 3",
-            "Device_Code_Name": "PS3",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony PS3": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 3",
+      "Device_Code_Name": "PS3",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony PS4": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Playstation 4",
-            "Device_Code_Name": "PS4",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony PS4": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 4",
+      "Device_Code_Name": "PS4",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony Playstation": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Playstation",
-            "Device_Code_Name": "PS1",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Sony Playstation": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation",
+      "Device_Code_Name": "PS1",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  }
 }

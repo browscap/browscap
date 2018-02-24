@@ -1,13 +1,13 @@
 {
-    "Yota YD201": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Yota Phone 2",
-            "Device_Code_Name": "YD201",
-            "Device_Maker": "Yota Devices",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Yota"
-        },
-        "standard": false
-    }
+  "Yota YD201": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Yota Phone 2",
+      "Device_Code_Name": "YD201",
+      "Device_Maker": "Yota Devices",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Yota"
+    },
+    "standard": false
+  }
 }

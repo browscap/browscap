@@ -1,13 +1,13 @@
 {
-    "CIOtCUD L930": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L930",
-            "Device_Code_Name": "L930",
-            "Device_Maker": "CIOtCUD",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "CIOtCUD"
-        },
-        "standard": false
-    }
+  "CIOtCUD L930": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L930",
+      "Device_Code_Name": "L930",
+      "Device_Maker": "CIOtCUD",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "CIOtCUD"
+    },
+    "standard": false
+  }
 }

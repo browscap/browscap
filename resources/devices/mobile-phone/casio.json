@@ -1,13 +1,13 @@
 {
-    "Casio C771": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GzOne Commando",
-            "Device_Code_Name": "C771",
-            "Device_Maker": "Casio",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Casio"
-        },
-        "standard": false
-    }
+  "Casio C771": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GzOne Commando",
+      "Device_Code_Name": "C771",
+      "Device_Maker": "Casio",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Casio"
+    },
+    "standard": false
+  }
 }

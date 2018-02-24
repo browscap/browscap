@@ -1,178 +1,178 @@
 {
-    "Digma HT7070MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "HIT 3G",
-            "Device_Code_Name": "HT7070MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+  "Digma HT7070MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "HIT 3G",
+      "Device_Code_Name": "HT7070MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma PS1005MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Plane 10.5 3G",
-            "Device_Code_Name": "PS1005MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma PS1005MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Plane 10.5 3G",
+      "Device_Code_Name": "PS1005MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma PS1043MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Plane 10.3 3G",
-            "Device_Code_Name": "PS1043MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma PS1043MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Plane 10.3 3G",
+      "Device_Code_Name": "PS1043MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma PS7005MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Plane S7.0 3G",
-            "Device_Code_Name": "PS7005MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma PS7005MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Plane S7.0 3G",
+      "Device_Code_Name": "PS7005MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma PS7022MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Plane 7501M 7.0 3G",
-            "Device_Code_Name": "PS7022MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma PS7022MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Plane 7501M 7.0 3G",
+      "Device_Code_Name": "PS7022MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma PS8106PG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Plane 8713T 8.0 3G",
-            "Device_Code_Name": "PS8106PG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma PS8106PG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Plane 8713T 8.0 3G",
+      "Device_Code_Name": "PS8106PG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma TS7055MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Optima 7202 3G",
-            "Device_Code_Name": "TS7055MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma TS7055MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Optima 7202 3G",
+      "Device_Code_Name": "TS7055MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma TT7007MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Optima 7.07 3G",
-            "Device_Code_Name": "TT7007MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma TT7007MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Optima 7.07 3G",
+      "Device_Code_Name": "TT7007MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma TT7022MG-O72": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TT7022MG-O72 3G UMTS",
-            "Device_Code_Name": "TT7022MG-O72",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma TT7022MG-O72": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TT7022MG-O72 3G UMTS",
+      "Device_Code_Name": "TT7022MG-O72",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma TT7071MG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Optima E7.1 3G",
-            "Device_Code_Name": "TT7071MG",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma TT7071MG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Optima E7.1 3G",
+      "Device_Code_Name": "TT7071MG",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDjD7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDjD7",
-            "Device_Code_Name": "iDjD7",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma iDjD7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDjD7",
+      "Device_Code_Name": "iDjD7",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDnD7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDnD7",
-            "Device_Code_Name": "iDnD7",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma iDnD7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDnD7",
+      "Device_Code_Name": "iDnD7",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDsD10 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDsD10 3G",
-            "Device_Code_Name": "iDsD10 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma iDsD10 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDsD10 3G",
+      "Device_Code_Name": "iDsD10 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDsD7 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDsD7 3G",
-            "Device_Code_Name": "iDsD7 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma iDsD7 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDsD7 3G",
+      "Device_Code_Name": "iDsD7 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDsD8 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDsD8 3G",
-            "Device_Code_Name": "iDsD8 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Digma iDsD8 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDsD8 3G",
+      "Device_Code_Name": "iDsD8 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDxD7 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iDxD7 3G",
-            "Device_Code_Name": "iDxD7 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Digma iDxD7 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iDxD7 3G",
+      "Device_Code_Name": "iDxD7 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
+    },
+    "standard": true
+  }
 }

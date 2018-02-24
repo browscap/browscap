@@ -1,24 +1,24 @@
 {
-    "Fly Flylife Connect 7 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Flylife Connect 7 3G",
-            "Device_Code_Name": "Flylife Connect 7 3G",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": true
+  "Fly Flylife Connect 7 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Flylife Connect 7 3G",
+      "Device_Code_Name": "Flylife Connect 7 3G",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly Flylife Connect 7.85 3G Slim": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Flylife Connect 7.85 3G Slim",
-            "Device_Code_Name": "Flylife Connect 7.85 3G Slim",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Fly Flylife Connect 7.85 3G Slim": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Flylife Connect 7.85 3G Slim",
+      "Device_Code_Name": "Flylife Connect 7.85 3G Slim",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
+    },
+    "standard": true
+  }
 }

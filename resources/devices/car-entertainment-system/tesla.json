@@ -1,13 +1,13 @@
 {
-    "Tesla Motors Model S": {
-        "type": "car-entertainment-system",
-        "properties": {
-            "Device_Name": "Model S",
-            "Device_Code_Name": "Model S",
-            "Device_Maker": "Tesla Motors",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Tesla"
-        },
-        "standard": true
-    }
+  "Tesla Motors Model S": {
+    "type": "car-entertainment-system",
+    "properties": {
+      "Device_Name": "Model S",
+      "Device_Code_Name": "Model S",
+      "Device_Maker": "Tesla Motors",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Tesla"
+    },
+    "standard": true
+  }
 }

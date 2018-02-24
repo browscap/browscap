@@ -1,13 +1,13 @@
 {
-    "Bravis NP 844": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "NP 844",
-            "Device_Code_Name": "NP 844",
-            "Device_Maker": "Bravis",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bravis"
-        },
-        "standard": true
-    }
+  "Bravis NP 844": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NP 844",
+      "Device_Code_Name": "NP 844",
+      "Device_Maker": "Bravis",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Bravis"
+    },
+    "standard": true
+  }
 }

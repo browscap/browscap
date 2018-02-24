@@ -1,13 +1,13 @@
 {
-    "Lava E-Tab IVORY": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "E-Tab IVORY",
-            "Device_Code_Name": "E-Tab IVORY",
-            "Device_Maker": "Lava",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lava"
-        },
-        "standard": true
-    }
+  "Lava E-Tab IVORY": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "E-Tab IVORY",
+      "Device_Code_Name": "E-Tab IVORY",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": true
+  }
 }

@@ -1,57 +1,57 @@
 {
-    "Samsung YP-G1": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "Galaxy Player 4.0",
-            "Device_Code_Name": "YP-G1",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+  "Samsung YP-G1": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "Galaxy Player 4.0",
+      "Device_Code_Name": "YP-G1",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
     },
-    "Samsung YP-G70": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "Galaxy Player 5",
-            "Device_Code_Name": "YP-G70",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Samsung YP-G70": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "Galaxy Player 5",
+      "Device_Code_Name": "YP-G70",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
     },
-    "Samsung YP-GI1": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "YP-GI1",
-            "Device_Code_Name": "YP-GI1",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Samsung YP-GI1": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "YP-GI1",
+      "Device_Code_Name": "YP-GI1",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
     },
-    "Samsung YP-GS1": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "Galaxy Player 3.6",
-            "Device_Code_Name": "YP-GS1",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Samsung YP-GS1": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "Galaxy Player 3.6",
+      "Device_Code_Name": "YP-GS1",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
     },
-    "general Mobile Device (Samsung)": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "general Mobile Device",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "general Mobile Device (Samsung)": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "general Mobile Device",
+      "Device_Code_Name": "general Mobile Device",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  }
 }

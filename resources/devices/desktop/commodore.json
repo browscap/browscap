@@ -1,13 +1,13 @@
 {
-    "Amiga": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "Amiga",
-            "Device_Code_Name": "Amiga",
-            "Device_Maker": "Commodore International",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Commodore"
-        },
-        "standard": true
-    }
+  "Amiga": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "Amiga",
+      "Device_Code_Name": "Amiga",
+      "Device_Maker": "Commodore International",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Commodore"
+    },
+    "standard": true
+  }
 }

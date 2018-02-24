@@ -1,79 +1,79 @@
 {
-    "LG V410": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 7.0 4G LTE",
-            "Device_Code_Name": "V410",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+  "LG V410": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 7.0 4G LTE",
+      "Device_Code_Name": "V410",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG V490": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 8.0 4G LTE",
-            "Device_Code_Name": "V490",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+    "standard": true
+  },
+  "LG V490": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 8.0 4G LTE",
+      "Device_Code_Name": "V490",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG V495": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 8.0 4G LTE (AT&T)",
-            "Device_Code_Name": "V495",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+    "standard": true
+  },
+  "LG V495": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 8.0 4G LTE (AT&T)",
+      "Device_Code_Name": "V495",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG V500": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 8.3",
-            "Device_Code_Name": "V500",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+    "standard": true
+  },
+  "LG V500": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 8.3",
+      "Device_Code_Name": "V500",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG V700": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 10.1",
-            "Device_Code_Name": "V700",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+    "standard": true
+  },
+  "LG V700": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 10.1",
+      "Device_Code_Name": "V700",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG V900": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Optimus Pad",
-            "Device_Code_Name": "V900",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
+    "standard": true
+  },
+  "LG V900": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Optimus Pad",
+      "Device_Code_Name": "V900",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
     },
-    "LG VK810": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G Pad 8.3 LTE",
-            "Device_Code_Name": "VK810",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "LG VK810": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 8.3 LTE",
+      "Device_Code_Name": "VK810",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": true
+  }
 }

@@ -1,1949 +1,1949 @@
 {
-    "HTC 0P3P7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One Max",
-            "Device_Code_Name": "0P3P7",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 0P4E2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 601",
-            "Device_Code_Name": "0P4E2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 0PJA2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M9",
-            "Device_Code_Name": "0PJA2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 0PM92": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 626s",
-            "Device_Code_Name": "0PM92",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 2125": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "2125",
-            "Device_Code_Name": "2125",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 2PQ93": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One A9",
-            "Device_Code_Name": "2PQ93",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 2PS64": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "10",
-            "Device_Code_Name": "2PS64",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 2PYB2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Bolt",
-            "Device_Code_Name": "2PYB2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 3100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "3100",
-            "Device_Code_Name": "3100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 6535LVW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M9 LTE-A",
-            "Device_Code_Name": "6535LVW",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 6545LVW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "10 (Verizon)",
-            "Device_Code_Name": "6545LVW",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 7088": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 7088",
-            "Device_Code_Name": "7088",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 801E": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M7 LTE",
-            "Device_Code_Name": "801E",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 801S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M7",
-            "Device_Code_Name": "801S",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 802T": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One 802T",
-            "Device_Code_Name": "802T",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 802d": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M7 Dual SIM",
-            "Device_Code_Name": "802d",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 809D": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One Max CDMA+GSM",
-            "Device_Code_Name": "809D",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 8100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8100",
-            "Device_Code_Name": "8100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 831C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M8 Harmon/Kardon Edition",
-            "Device_Code_Name": "831C",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 8500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8500",
-            "Device_Code_Name": "8500",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 8900": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8900",
-            "Device_Code_Name": "8900",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 8S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8S",
-            "Device_Code_Name": "8S",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 8X": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Windows Phone 8X",
-            "Device_Code_Name": "Windows Phone 8X",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 900": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "900",
-            "Device_Code_Name": "900",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC 919d": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Butterfly S CDMA",
-            "Device_Code_Name": "919d",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A310e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Explorer",
-            "Device_Code_Name": "A310e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A3335": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A3335",
-            "Device_Code_Name": "A3335",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A510": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Wildfire S",
-            "Device_Code_Name": "A510",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A510e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Wildfire S",
-            "Device_Code_Name": "A510e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A6277": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hero (Sprint)",
-            "Device_Code_Name": "A6277",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A6366": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aria",
-            "Device_Code_Name": "A6366",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A6380": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Gratia",
-            "Device_Code_Name": "A6380",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A7272": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire Z",
-            "Device_Code_Name": "A7272",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A810e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ChaCha",
-            "Device_Code_Name": "A810e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC A8181": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire",
-            "Device_Code_Name": "A8181",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC ADR6200": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Eris",
-            "Device_Code_Name": "ADR6200",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC ADR6300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Incredible",
-            "Device_Code_Name": "ADR6300",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC ADR6350": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Incredible 2",
-            "Device_Code_Name": "ADR6350",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Amaze 4G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Amaze 4G",
-            "Device_Code_Name": "Amaze 4G",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Aria A6380": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aria A6380",
-            "Device_Code_Name": "Aria A6380",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Butterfly": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Butterfly",
-            "Device_Code_Name": "Butterfly",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Butterfly S 901s": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Butterfly S 901s",
-            "Device_Code_Name": "Butterfly S 901s",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC C2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One S C2",
-            "Device_Code_Name": "C2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D100LVW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 526",
-            "Device_Code_Name": "D100LVW",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D100LVWPP": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 526 Prepaid",
-            "Device_Code_Name": "D100LVWPP",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D160LVWPP": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 530 Prepaid",
-            "Device_Code_Name": "D160LVWPP",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D816t": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D816t",
-            "Device_Code_Name": "D816t",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D820mu": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D820mu",
-            "Device_Code_Name": "D820mu",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC D820us": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D820us",
-            "Device_Code_Name": "D820us",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 300",
-            "Device_Code_Name": "Desire 300",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 310": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 310",
-            "Device_Code_Name": "Desire 310",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 400": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 400",
-            "Device_Code_Name": "Desire 400",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 500",
-            "Device_Code_Name": "Desire 500",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 510": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 510",
-            "Device_Code_Name": "0PCV1",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 516": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 516",
-            "Device_Code_Name": "D516d",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 600",
-            "Device_Code_Name": "Desire 600",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 600c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 600c",
-            "Device_Code_Name": "Desire 600c",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 606w": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 606w",
-            "Device_Code_Name": "Desire 606w",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 610": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 610",
-            "Device_Code_Name": "Desire 610",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 700": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 700",
-            "Device_Code_Name": "Desire 700",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 728 Dual": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 728 Dual",
-            "Device_Code_Name": "Desire 728 Dual",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 816": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 816",
-            "Device_Code_Name": "Desire 816",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire 820": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire 820",
-            "Device_Code_Name": "Desire 820",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire C",
-            "Device_Code_Name": "1000C",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire Eye": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire Eye",
-            "Device_Code_Name": "Desire Eye",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire HD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire HD",
-            "Device_Code_Name": "Desire HD",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire HD A9191": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire HD",
-            "Device_Code_Name": "A9191",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire S",
-            "Device_Code_Name": "Desire S",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Desire SV": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire SV",
-            "Device_Code_Name": "Desire SV",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Diamond": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Diamond",
-            "Device_Code_Name": "Diamond",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Diamond2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Diamond2",
-            "Device_Code_Name": "Diamond2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Dream": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Dream",
-            "Device_Code_Name": "Dream",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC E8": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One E8",
-            "Device_Code_Name": "E8",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC E9PW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One E9+",
-            "Device_Code_Name": "E9pw",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Endeavoru": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One X",
-            "Device_Code_Name": "Endeavoru",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Eris": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Eris",
-            "Device_Code_Name": "Eris",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Evo 3D GSM": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Evo 3D GSM",
-            "Device_Code_Name": "Evo 3D GSM",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC HTC": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HTC",
-            "Device_Code_Name": "HTC",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC HTC6435LVW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid DNA",
-            "Device_Code_Name": "HTC6435LVW",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Hero": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hero",
-            "Device_Code_Name": "Hero",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Legend": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Legend",
-            "Device_Code_Name": "Legend",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC M7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M7",
-            "Device_Code_Name": "M7",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC M7 (HTC6500LVW)": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M7 (Verizon)",
-            "Device_Code_Name": "M7 (HTC6500LVW)",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC M8": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One M8",
-            "Device_Code_Name": "M8",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC M8St": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One E8",
-            "Device_Code_Name": "M8St",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC MTeoR": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MTeoR",
-            "Device_Code_Name": "MTeoR",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Magic": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Magic",
-            "Device_Code_Name": "Magic",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Maple S520": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Maple S520",
-            "Device_Code_Name": "Maple S520",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Nexus One": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HTC Nexus One",
-            "Device_Code_Name": "Nexus One",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Google"
-        },
-        "standard": false
-    },
-    "HTC One ME": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One ME",
-            "Device_Code_Name": "One ME",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One Mini": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One Mini",
-            "Device_Code_Name": "One Mini",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One Mini 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One Mini 2",
-            "Device_Code_Name": "One Mini 2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One SV": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One SV",
-            "Device_Code_Name": "One SV",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One V": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One V",
-            "Device_Code_Name": "One V",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One VX": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One VX",
-            "Device_Code_Name": "One VX",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC One XL": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One XL",
-            "Device_Code_Name": "PJ83100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3300",
-            "Device_Code_Name": "P3300",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3350": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3350",
-            "Device_Code_Name": "P3350",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3400": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3400",
-            "Device_Code_Name": "P3400",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3450": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch",
-            "Device_Code_Name": "P3450",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3470": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3470",
-            "Device_Code_Name": "P3470",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Trinity",
-            "Device_Code_Name": "P3600",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3650": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Cruise",
-            "Device_Code_Name": "P3650",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3700": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Diamond",
-            "Device_Code_Name": "P3700",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P3701": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3701",
-            "Device_Code_Name": "P3701",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P4350": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P4350",
-            "Device_Code_Name": "P4350",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P4500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TyTN",
-            "Device_Code_Name": "P4500",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P4550": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TyTN II",
-            "Device_Code_Name": "P4550",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P4600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P4600",
-            "Device_Code_Name": "P4600",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P6300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P6300",
-            "Device_Code_Name": "P6300",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC P6500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P6500",
-            "Device_Code_Name": "P6500",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC PC36100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EVO 4G",
-            "Device_Code_Name": "PC36100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC PJ401": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One S",
-            "Device_Code_Name": "PJ401",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC PJ83100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One X",
-            "Device_Code_Name": "PJ83100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC PM63100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One X+",
-            "Device_Code_Name": "PM63100",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Radar": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Radar",
-            "Device_Code_Name": "Radar",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Radar 4G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Radar 4G",
-            "Device_Code_Name": "Radar 4G",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Radar C110e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Radar C110e",
-            "Device_Code_Name": "Radar C110e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Ruby": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Ruby",
-            "Device_Code_Name": "Ruby",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Runnymede": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Runnymede",
-            "Device_Code_Name": "Runnymede",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S510B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Rhyme",
-            "Device_Code_Name": "S510B",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S510e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire S",
-            "Device_Code_Name": "S510e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S620": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S620",
-            "Device_Code_Name": "S620",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S710": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S710",
-            "Device_Code_Name": "S710",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S710E": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Incredible S",
-            "Device_Code_Name": "S710E",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S730": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S730",
-            "Device_Code_Name": "S730",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC S740": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S740",
-            "Device_Code_Name": "S740",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC ST6356": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ST6356",
-            "Device_Code_Name": "ST6356",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC ST7377": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ST7377",
-            "Device_Code_Name": "ST7377",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Sensation 4G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation 4G",
-            "Device_Code_Name": "Sensation 4G",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Sensation XE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation XE with Beats",
-            "Device_Code_Name": "Sensation XE",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Smart F3188": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Smart F3188",
-            "Device_Code_Name": "Smart F3188",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Snap S521": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Snap S521",
-            "Device_Code_Name": "Snap S521",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Snap S523": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Snap S523",
-            "Device_Code_Name": "Snap S523",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T3232": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch 3G",
-            "Device_Code_Name": "T3232",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T328E": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire X",
-            "Device_Code_Name": "T328E",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T328w": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire V",
-            "Device_Code_Name": "T328w",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T329D": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Desire XC",
-            "Device_Code_Name": "T329D",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T3333": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch2",
-            "Device_Code_Name": "T3333",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T3335": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch2",
-            "Device_Code_Name": "T3335",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T5555": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HD mini",
-            "Device_Code_Name": "T5555",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T7272": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Pro",
-            "Device_Code_Name": "T7272",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T7576": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "7 pro",
-            "Device_Code_Name": "T7576",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T8282": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch HD",
-            "Device_Code_Name": "T8282",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T8585": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HD2",
-            "Device_Code_Name": "T8585",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T8686": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "7 Trophy/Spark",
-            "Device_Code_Name": "T8686",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T8698": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "7 Mozart",
-            "Device_Code_Name": "T8698",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T9193": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HD2",
-            "Device_Code_Name": "T9193",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T9199": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T9199",
-            "Device_Code_Name": "T9199",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC T9292": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HD7",
-            "Device_Code_Name": "T9292",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Tattoo": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Tattoo",
-            "Device_Code_Name": "Tattoo",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Cruise T4242": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Cruise T4242",
-            "Device_Code_Name": "Touch Cruise T4242",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Diamond Pro": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Diamond Pro",
-            "Device_Code_Name": "Touch Diamond Pro",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Diamond2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Diamond2",
-            "Device_Code_Name": "Touch Diamond2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Diamond2 T5353": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Diamond2 T5353",
-            "Device_Code_Name": "Touch Diamond2 T5353",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Pro2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Pro2",
-            "Device_Code_Name": "Touch Pro2",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Pro2 T7272": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Pro2 T7272",
-            "Device_Code_Name": "Touch Pro2 T7272",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Touch Pro2 T7373": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Touch Pro2 T7373",
-            "Device_Code_Name": "Touch Pro2 T7373",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC TouchDual": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TouchDual",
-            "Device_Code_Name": "TouchDual",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC VPA Compact IV": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Herald/Wing/Atlas",
-            "Device_Code_Name": "VPA Compact IV",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
-    },
-    "HTC Velocity 4G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Velocity 4G",
-            "Device_Code_Name": "Velocity 4G",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Vision": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Vision",
-            "Device_Code_Name": "Vision",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Wildfire": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Wildfire",
-            "Device_Code_Name": "Wildfire",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Wildfire A3333": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Wildfire",
-            "Device_Code_Name": "A3333",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Wildfire S ADR6230": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Wildfire S (CDMA)",
-            "Device_Code_Name": "ADR6230",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X310e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Titan",
-            "Device_Code_Name": "X310e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X315e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation XL with Beats Audio",
-            "Device_Code_Name": "X315e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X515": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EVO 3D",
-            "Device_Code_Name": "X515",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X515m": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EVO 3D",
-            "Device_Code_Name": "X515m",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X7500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Advantage",
-            "Device_Code_Name": "X7500",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC X7510": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Advantage",
-            "Device_Code_Name": "X7510",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Xperia": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia",
-            "Device_Code_Name": "Xperia",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Z710": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation",
-            "Device_Code_Name": "Z710",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Z710e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation",
-            "Device_Code_Name": "Z710e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC Z715e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sensation XE Beats Z715e",
-            "Device_Code_Name": "Z715e",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HTC"
-        },
-        "standard": false
-    },
-    "HTC v1510": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "VPA Compact GPS",
-            "Device_Code_Name": "v1510",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
-    },
-    "HTC v3600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "v3600",
-            "Device_Code_Name": "v3600",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
-    }
+  "HTC 0P3P7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Max",
+      "Device_Code_Name": "0P3P7",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 0P4E2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 601",
+      "Device_Code_Name": "0P4E2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 0PJA2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M9",
+      "Device_Code_Name": "0PJA2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 0PM92": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 626s",
+      "Device_Code_Name": "0PM92",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 2125": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "2125",
+      "Device_Code_Name": "2125",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 2PQ93": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One A9",
+      "Device_Code_Name": "2PQ93",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 2PS64": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "10",
+      "Device_Code_Name": "2PS64",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 2PYB2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Bolt",
+      "Device_Code_Name": "2PYB2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 3100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "3100",
+      "Device_Code_Name": "3100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 6535LVW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M9 LTE-A",
+      "Device_Code_Name": "6535LVW",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 6545LVW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "10 (Verizon)",
+      "Device_Code_Name": "6545LVW",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 7088": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 7088",
+      "Device_Code_Name": "7088",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 801E": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M7 LTE",
+      "Device_Code_Name": "801E",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 801S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M7",
+      "Device_Code_Name": "801S",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 802T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One 802T",
+      "Device_Code_Name": "802T",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 802d": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M7 Dual SIM",
+      "Device_Code_Name": "802d",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 809D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Max CDMA+GSM",
+      "Device_Code_Name": "809D",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 8100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8100",
+      "Device_Code_Name": "8100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 831C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M8 Harmon/Kardon Edition",
+      "Device_Code_Name": "831C",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 8500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8500",
+      "Device_Code_Name": "8500",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 8900": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8900",
+      "Device_Code_Name": "8900",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 8S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8S",
+      "Device_Code_Name": "8S",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 8X": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Windows Phone 8X",
+      "Device_Code_Name": "Windows Phone 8X",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 900": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "900",
+      "Device_Code_Name": "900",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC 919d": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Butterfly S CDMA",
+      "Device_Code_Name": "919d",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A310e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Explorer",
+      "Device_Code_Name": "A310e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A3335": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A3335",
+      "Device_Code_Name": "A3335",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A510": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Wildfire S",
+      "Device_Code_Name": "A510",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A510e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Wildfire S",
+      "Device_Code_Name": "A510e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A6277": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hero (Sprint)",
+      "Device_Code_Name": "A6277",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A6366": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aria",
+      "Device_Code_Name": "A6366",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A6380": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Gratia",
+      "Device_Code_Name": "A6380",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A7272": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire Z",
+      "Device_Code_Name": "A7272",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A810e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ChaCha",
+      "Device_Code_Name": "A810e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC A8181": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire",
+      "Device_Code_Name": "A8181",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC ADR6200": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Eris",
+      "Device_Code_Name": "ADR6200",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC ADR6300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Incredible",
+      "Device_Code_Name": "ADR6300",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC ADR6350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Incredible 2",
+      "Device_Code_Name": "ADR6350",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Amaze 4G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Amaze 4G",
+      "Device_Code_Name": "Amaze 4G",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Aria A6380": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aria A6380",
+      "Device_Code_Name": "Aria A6380",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Butterfly": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Butterfly",
+      "Device_Code_Name": "Butterfly",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Butterfly S 901s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Butterfly S 901s",
+      "Device_Code_Name": "Butterfly S 901s",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC C2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One S C2",
+      "Device_Code_Name": "C2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D100LVW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 526",
+      "Device_Code_Name": "D100LVW",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D100LVWPP": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 526 Prepaid",
+      "Device_Code_Name": "D100LVWPP",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D160LVWPP": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 530 Prepaid",
+      "Device_Code_Name": "D160LVWPP",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D816t": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D816t",
+      "Device_Code_Name": "D816t",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D820mu": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D820mu",
+      "Device_Code_Name": "D820mu",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC D820us": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D820us",
+      "Device_Code_Name": "D820us",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 300",
+      "Device_Code_Name": "Desire 300",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 310": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 310",
+      "Device_Code_Name": "Desire 310",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 400",
+      "Device_Code_Name": "Desire 400",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 500",
+      "Device_Code_Name": "Desire 500",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 510": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 510",
+      "Device_Code_Name": "0PCV1",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 516": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 516",
+      "Device_Code_Name": "D516d",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 600",
+      "Device_Code_Name": "Desire 600",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 600c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 600c",
+      "Device_Code_Name": "Desire 600c",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 606w": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 606w",
+      "Device_Code_Name": "Desire 606w",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 610": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 610",
+      "Device_Code_Name": "Desire 610",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 700": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 700",
+      "Device_Code_Name": "Desire 700",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 728 Dual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 728 Dual",
+      "Device_Code_Name": "Desire 728 Dual",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 816": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 816",
+      "Device_Code_Name": "Desire 816",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 820": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 820",
+      "Device_Code_Name": "Desire 820",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire C",
+      "Device_Code_Name": "1000C",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire Eye": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire Eye",
+      "Device_Code_Name": "Desire Eye",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire HD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire HD",
+      "Device_Code_Name": "Desire HD",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire HD A9191": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire HD",
+      "Device_Code_Name": "A9191",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire S",
+      "Device_Code_Name": "Desire S",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire SV": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire SV",
+      "Device_Code_Name": "Desire SV",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Diamond": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Diamond",
+      "Device_Code_Name": "Diamond",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Diamond2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Diamond2",
+      "Device_Code_Name": "Diamond2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Dream": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Dream",
+      "Device_Code_Name": "Dream",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC E8": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One E8",
+      "Device_Code_Name": "E8",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC E9PW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One E9+",
+      "Device_Code_Name": "E9pw",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Endeavoru": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One X",
+      "Device_Code_Name": "Endeavoru",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Eris": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eris",
+      "Device_Code_Name": "Eris",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Evo 3D GSM": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Evo 3D GSM",
+      "Device_Code_Name": "Evo 3D GSM",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC HTC": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HTC",
+      "Device_Code_Name": "HTC",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC HTC6435LVW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid DNA",
+      "Device_Code_Name": "HTC6435LVW",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Hero": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hero",
+      "Device_Code_Name": "Hero",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Legend": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Legend",
+      "Device_Code_Name": "Legend",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC M7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M7",
+      "Device_Code_Name": "M7",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC M7 (HTC6500LVW)": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M7 (Verizon)",
+      "Device_Code_Name": "M7 (HTC6500LVW)",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC M8": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One M8",
+      "Device_Code_Name": "M8",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC M8St": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One E8",
+      "Device_Code_Name": "M8St",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC MTeoR": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MTeoR",
+      "Device_Code_Name": "MTeoR",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Magic": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Magic",
+      "Device_Code_Name": "Magic",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Maple S520": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Maple S520",
+      "Device_Code_Name": "Maple S520",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Nexus One": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HTC Nexus One",
+      "Device_Code_Name": "Nexus One",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
+  "HTC One ME": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One ME",
+      "Device_Code_Name": "One ME",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One Mini": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Mini",
+      "Device_Code_Name": "One Mini",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One Mini 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Mini 2",
+      "Device_Code_Name": "One Mini 2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One SV": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One SV",
+      "Device_Code_Name": "One SV",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One V": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One V",
+      "Device_Code_Name": "One V",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One VX": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One VX",
+      "Device_Code_Name": "One VX",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC One XL": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One XL",
+      "Device_Code_Name": "PJ83100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3300",
+      "Device_Code_Name": "P3300",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3350",
+      "Device_Code_Name": "P3350",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3400",
+      "Device_Code_Name": "P3400",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3450": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch",
+      "Device_Code_Name": "P3450",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3470": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3470",
+      "Device_Code_Name": "P3470",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Trinity",
+      "Device_Code_Name": "P3600",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3650": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Cruise",
+      "Device_Code_Name": "P3650",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3700": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Diamond",
+      "Device_Code_Name": "P3700",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P3701": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3701",
+      "Device_Code_Name": "P3701",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P4350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P4350",
+      "Device_Code_Name": "P4350",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P4500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TyTN",
+      "Device_Code_Name": "P4500",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P4550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TyTN II",
+      "Device_Code_Name": "P4550",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P4600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P4600",
+      "Device_Code_Name": "P4600",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P6300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P6300",
+      "Device_Code_Name": "P6300",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC P6500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P6500",
+      "Device_Code_Name": "P6500",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC PC36100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EVO 4G",
+      "Device_Code_Name": "PC36100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC PJ401": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One S",
+      "Device_Code_Name": "PJ401",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC PJ83100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One X",
+      "Device_Code_Name": "PJ83100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC PM63100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One X+",
+      "Device_Code_Name": "PM63100",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Radar": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Radar",
+      "Device_Code_Name": "Radar",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Radar 4G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Radar 4G",
+      "Device_Code_Name": "Radar 4G",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Radar C110e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Radar C110e",
+      "Device_Code_Name": "Radar C110e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Ruby": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Ruby",
+      "Device_Code_Name": "Ruby",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Runnymede": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Runnymede",
+      "Device_Code_Name": "Runnymede",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S510B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Rhyme",
+      "Device_Code_Name": "S510B",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S510e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire S",
+      "Device_Code_Name": "S510e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S620": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S620",
+      "Device_Code_Name": "S620",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S710": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S710",
+      "Device_Code_Name": "S710",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S710E": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Incredible S",
+      "Device_Code_Name": "S710E",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S730": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S730",
+      "Device_Code_Name": "S730",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC S740": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S740",
+      "Device_Code_Name": "S740",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC ST6356": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ST6356",
+      "Device_Code_Name": "ST6356",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC ST7377": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ST7377",
+      "Device_Code_Name": "ST7377",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Sensation 4G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation 4G",
+      "Device_Code_Name": "Sensation 4G",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Sensation XE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation XE with Beats",
+      "Device_Code_Name": "Sensation XE",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Smart F3188": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart F3188",
+      "Device_Code_Name": "Smart F3188",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Snap S521": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Snap S521",
+      "Device_Code_Name": "Snap S521",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Snap S523": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Snap S523",
+      "Device_Code_Name": "Snap S523",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T3232": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch 3G",
+      "Device_Code_Name": "T3232",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T328E": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire X",
+      "Device_Code_Name": "T328E",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T328w": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire V",
+      "Device_Code_Name": "T328w",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T329D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire XC",
+      "Device_Code_Name": "T329D",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T3333": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch2",
+      "Device_Code_Name": "T3333",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T3335": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch2",
+      "Device_Code_Name": "T3335",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T5555": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HD mini",
+      "Device_Code_Name": "T5555",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T7272": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Pro",
+      "Device_Code_Name": "T7272",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T7576": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7 pro",
+      "Device_Code_Name": "T7576",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T8282": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch HD",
+      "Device_Code_Name": "T8282",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T8585": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HD2",
+      "Device_Code_Name": "T8585",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T8686": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7 Trophy/Spark",
+      "Device_Code_Name": "T8686",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T8698": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7 Mozart",
+      "Device_Code_Name": "T8698",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T9193": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HD2",
+      "Device_Code_Name": "T9193",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T9199": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T9199",
+      "Device_Code_Name": "T9199",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC T9292": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HD7",
+      "Device_Code_Name": "T9292",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Tattoo": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Tattoo",
+      "Device_Code_Name": "Tattoo",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Cruise T4242": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Cruise T4242",
+      "Device_Code_Name": "Touch Cruise T4242",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Diamond Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Diamond Pro",
+      "Device_Code_Name": "Touch Diamond Pro",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Diamond2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Diamond2",
+      "Device_Code_Name": "Touch Diamond2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Diamond2 T5353": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Diamond2 T5353",
+      "Device_Code_Name": "Touch Diamond2 T5353",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Pro2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Pro2",
+      "Device_Code_Name": "Touch Pro2",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Pro2 T7272": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Pro2 T7272",
+      "Device_Code_Name": "Touch Pro2 T7272",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Touch Pro2 T7373": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Touch Pro2 T7373",
+      "Device_Code_Name": "Touch Pro2 T7373",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC TouchDual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TouchDual",
+      "Device_Code_Name": "TouchDual",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC VPA Compact IV": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Herald/Wing/Atlas",
+      "Device_Code_Name": "VPA Compact IV",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
+  },
+  "HTC Velocity 4G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Velocity 4G",
+      "Device_Code_Name": "Velocity 4G",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Vision": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vision",
+      "Device_Code_Name": "Vision",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Wildfire": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Wildfire",
+      "Device_Code_Name": "Wildfire",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Wildfire A3333": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Wildfire",
+      "Device_Code_Name": "A3333",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Wildfire S ADR6230": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Wildfire S (CDMA)",
+      "Device_Code_Name": "ADR6230",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X310e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Titan",
+      "Device_Code_Name": "X310e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X315e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation XL with Beats Audio",
+      "Device_Code_Name": "X315e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X515": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EVO 3D",
+      "Device_Code_Name": "X515",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X515m": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EVO 3D",
+      "Device_Code_Name": "X515m",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X7500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Advantage",
+      "Device_Code_Name": "X7500",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC X7510": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Advantage",
+      "Device_Code_Name": "X7510",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Xperia": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia",
+      "Device_Code_Name": "Xperia",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Z710": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation",
+      "Device_Code_Name": "Z710",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Z710e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation",
+      "Device_Code_Name": "Z710e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Z715e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sensation XE Beats Z715e",
+      "Device_Code_Name": "Z715e",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC v1510": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VPA Compact GPS",
+      "Device_Code_Name": "v1510",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
+  },
+  "HTC v3600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "v3600",
+      "Device_Code_Name": "v3600",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Foxconn Infocus M310": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Infocus M310",
-            "Device_Code_Name": "Infocus M310",
-            "Device_Maker": "Foxconn",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Foxconn"
-        },
-        "standard": false
-    }
+  "Foxconn Infocus M310": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Infocus M310",
+      "Device_Code_Name": "Infocus M310",
+      "Device_Maker": "Foxconn",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Foxconn"
+    },
+    "standard": false
+  }
 }

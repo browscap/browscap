@@ -1,35 +1,35 @@
 {
-    "Amazon Kindle": {
-        "type": "ebook-reader",
-        "properties": {
-            "Device_Name": "Kindle",
-            "Device_Code_Name": "Kindle",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Amazon"
-        },
-        "standard": true
+  "Amazon Kindle": {
+    "type": "ebook-reader",
+    "properties": {
+      "Device_Name": "Kindle",
+      "Device_Code_Name": "Kindle",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
     },
-    "Amazon Kindle 3": {
-        "type": "ebook-reader",
-        "properties": {
-            "Device_Name": "Kindle 3",
-            "Device_Code_Name": "Kindle 3",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Amazon"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Amazon Kindle 3": {
+    "type": "ebook-reader",
+    "properties": {
+      "Device_Name": "Kindle 3",
+      "Device_Code_Name": "Kindle 3",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
     },
-    "Amazon Kindle Fire": {
-        "type": "ebook-reader",
-        "properties": {
-            "Device_Name": "Kindle Fire",
-            "Device_Code_Name": "Kindle Fire",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Amazon"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Amazon Kindle Fire": {
+    "type": "ebook-reader",
+    "properties": {
+      "Device_Name": "Kindle Fire",
+      "Device_Code_Name": "Kindle Fire",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": true
+  }
 }

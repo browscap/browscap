@@ -1,13 +1,13 @@
 {
-    "Alcor Q813IS": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Zest",
-            "Device_Code_Name": "Q813IS",
-            "Device_Maker": "Alcor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alcor"
-        },
-        "standard": true
-    }
+  "Alcor Q813IS": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Zest",
+      "Device_Code_Name": "Q813IS",
+      "Device_Maker": "Alcor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcor"
+    },
+    "standard": true
+  }
 }

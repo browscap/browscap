@@ -1,629 +1,629 @@
 {
-    "Lenovo 1838": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "ThinkPad Tablet",
-            "Device_Code_Name": "1838",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+  "Lenovo 1838": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ThinkPad Tablet",
+      "Device_Code_Name": "1838",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo 830L": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga Tablet 2 830",
-            "Device_Code_Name": "830L",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo 830L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 2 830",
+      "Device_Code_Name": "830L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A10-70F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2 Wi-Fi",
-            "Device_Code_Name": "A10-70F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A10-70F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2 Wi-Fi",
+      "Device_Code_Name": "A10-70F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A1000L-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A1000L-F",
-            "Device_Code_Name": "A1000L-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A1000L-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A1000L-F",
+      "Device_Code_Name": "A1000L-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A2107A-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A2107A-H",
-            "Device_Code_Name": "A2107A-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A2107A-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A2107A-H",
+      "Device_Code_Name": "A2107A-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo A2109A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A2109A",
-            "Device_Code_Name": "A2109A",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A2109A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A2109A",
+      "Device_Code_Name": "A2109A",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo A3000-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A3000-H",
-            "Device_Code_Name": "A3000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3000-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A3000-H",
+      "Device_Code_Name": "A3000-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3300-GV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB A7-30 Wi-Fi",
-            "Device_Code_Name": "A3300-GV",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3300-GV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB A7-30 Wi-Fi",
+      "Device_Code_Name": "A3300-GV",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3300-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB A7-30 Wi-Fi + 3G",
-            "Device_Code_Name": "A3300-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3300-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB A7-30 Wi-Fi + 3G",
+      "Device_Code_Name": "A3300-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3300-HV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB A7-30 Wi-Fi + 3G",
-            "Device_Code_Name": "A3300-HV",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3300-HV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB A7-30 Wi-Fi + 3G",
+      "Device_Code_Name": "A3300-HV",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3500-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A7-40",
-            "Device_Code_Name": "A3500-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3500-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A7-40",
+      "Device_Code_Name": "A3500-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3500-FL": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab A7-40",
-            "Device_Code_Name": "A3500-FL",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3500-FL": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab A7-40",
+      "Device_Code_Name": "A3500-FL",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3500-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
-            "Device_Code_Name": "A3500-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3500-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
+      "Device_Code_Name": "A3500-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A3500-HV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
-            "Device_Code_Name": "A3500-HV",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A3500-HV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
+      "Device_Code_Name": "A3500-HV",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A5500-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ideatab A8-50 WI-FI",
-            "Device_Code_Name": "A5500-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A5500-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ideatab A8-50 WI-FI",
+      "Device_Code_Name": "A5500-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A5500-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ideatab A8-50 WI-FI + 3G",
-            "Device_Code_Name": "A5500-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A5500-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ideatab A8-50 WI-FI + 3G",
+      "Device_Code_Name": "A5500-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A5500-HV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ideatab A8-50 WI-FI + 3G",
-            "Device_Code_Name": "A5500-HV",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A5500-HV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ideatab A8-50 WI-FI + 3G",
+      "Device_Code_Name": "A5500-HV",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A7600-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A10-70 A7600 Wi-Fi",
-            "Device_Code_Name": "A7600-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A7600-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A10-70 A7600 Wi-Fi",
+      "Device_Code_Name": "A7600-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A7600-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A10-70 A7600 Wi-Fi + 3G",
-            "Device_Code_Name": "A7600-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A7600-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A10-70 A7600 Wi-Fi + 3G",
+      "Device_Code_Name": "A7600-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo A8-50LC": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2 A8-50 LTE",
-            "Device_Code_Name": "A8-50LC",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo A8-50LC": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2 A8-50 LTE",
+      "Device_Code_Name": "A8-50LC",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B6000-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga B6000-F",
-            "Device_Code_Name": "B6000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B6000-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga B6000-F",
+      "Device_Code_Name": "B6000-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B6000-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga 8 3G",
-            "Device_Code_Name": "B6000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B6000-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga 8 3G",
+      "Device_Code_Name": "B6000-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B6000-HV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga 8 3G + WiFi",
-            "Device_Code_Name": "B6000-HV",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B6000-HV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga 8 3G + WiFi",
+      "Device_Code_Name": "B6000-HV",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B8000-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga B8000-F",
-            "Device_Code_Name": "B8000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B8000-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga B8000-F",
+      "Device_Code_Name": "B8000-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B8000-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga Tablet 10 3G",
-            "Device_Code_Name": "B8000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B8000-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 10 3G",
+      "Device_Code_Name": "B8000-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B8080-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga Tablet 10 HD+",
-            "Device_Code_Name": "B8080-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B8080-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 10 HD+",
+      "Device_Code_Name": "B8080-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo B8080-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga Tablet 10 HD+",
-            "Device_Code_Name": "B8080-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo B8080-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 10 HD+",
+      "Device_Code_Name": "B8080-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo IdeaPad A1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaPad A1 Tablet",
-            "Device_Code_Name": "IdeaPad A1",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo IdeaPad A1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaPad A1 Tablet",
+      "Device_Code_Name": "IdeaPad A1",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo IdeaPad A10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaPad A10",
-            "Device_Code_Name": "IdeaPad A10",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo IdeaPad A10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaPad A10",
+      "Device_Code_Name": "IdeaPad A10",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo IdeaPad A660": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaPad A660",
-            "Device_Code_Name": "IdeaPad A660",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo IdeaPad A660": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaPad A660",
+      "Device_Code_Name": "IdeaPad A660",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo IdealTab 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdealTab 10",
-            "Device_Code_Name": "IdealTab 10",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo IdealTab 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdealTab 10",
+      "Device_Code_Name": "IdealTab 10",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo K1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaPad K1",
-            "Device_Code_Name": "K1",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo K1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaPad K1",
+      "Device_Code_Name": "K1",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo LifeTab S1033X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab S1033X",
-            "Device_Code_Name": "LifeTab S1033X",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo LifeTab S1033X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab S1033X",
+      "Device_Code_Name": "LifeTab S1033X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo LifeTab S1034X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab S1034X",
-            "Device_Code_Name": "S1034X",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo LifeTab S1034X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab S1034X",
+      "Device_Code_Name": "S1034X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Lifetab S785X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Lifetab S785X",
-            "Device_Code_Name": "Lifetab S785X",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Lifetab S785X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Lifetab S785X",
+      "Device_Code_Name": "Lifetab S785X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Lifetab S831X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Lifetab S831X",
-            "Device_Code_Name": "Lifetab S831X",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Lifetab S831X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Lifetab S831X",
+      "Device_Code_Name": "Lifetab S831X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Pad A4": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pad A4",
-            "Device_Code_Name": "Pad A4",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Pad A4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pad A4",
+      "Device_Code_Name": "Pad A4",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S2109A-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ideatab S2109A",
-            "Device_Code_Name": "S2109A-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S2109A-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ideatab S2109A",
+      "Device_Code_Name": "S2109A-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S2110AF": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S2110AF",
-            "Device_Code_Name": "S2110AF",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S2110AF": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S2110AF",
+      "Device_Code_Name": "S2110AF",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S5000-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S5000-F",
-            "Device_Code_Name": "S5000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S5000-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S5000-F",
+      "Device_Code_Name": "S5000-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S5000-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S5000-H",
-            "Device_Code_Name": "S5000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S5000-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S5000-H",
+      "Device_Code_Name": "S5000-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S6000-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S6000-F",
-            "Device_Code_Name": "IdeaTab",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S6000-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S6000-F",
+      "Device_Code_Name": "IdeaTab",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S6000-H": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S6000-H",
-            "Device_Code_Name": "S6000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S6000-H": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S6000-H",
+      "Device_Code_Name": "S6000-H",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo S6000D": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "S6000D",
-            "Device_Code_Name": "S6000D",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S6000D": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "S6000D",
+      "Device_Code_Name": "S6000D",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S6000L-F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
-            "Device_Code_Name": "S6000L-F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S6000L-F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
+      "Device_Code_Name": "S6000L-F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S8-50F": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab S8",
-            "Device_Code_Name": "S8-50F",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S8-50F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab S8",
+      "Device_Code_Name": "S8-50F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S8-50L": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab S8",
-            "Device_Code_Name": "S8-50L",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S8-50L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab S8",
+      "Device_Code_Name": "S8-50L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S820_ROW": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "S820_ROW",
-            "Device_Code_Name": "S820_ROW",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S820_ROW": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "S820_ROW",
+      "Device_Code_Name": "S820_ROW",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo S920_ROW": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "S920_ROW",
-            "Device_Code_Name": "S920_ROW",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo S920_ROW": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "S920_ROW",
+      "Device_Code_Name": "S920_ROW",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Smart Tab 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Smart Tab 3G",
-            "Device_Code_Name": "Smart Tab 3G",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Smart Tab 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart Tab 3G",
+      "Device_Code_Name": "Smart Tab 3G",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo Smart Tab III 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Smart Tab III 10",
-            "Device_Code_Name": "Smart Tab III 10",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Smart Tab III 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart Tab III 10",
+      "Device_Code_Name": "Smart Tab III 10",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo SmartTab II 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SmartTab II 10",
-            "Device_Code_Name": "SmartTab II 10",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo SmartTab II 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SmartTab II 10",
+      "Device_Code_Name": "SmartTab II 10",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Lenovo Tab 2 A7-10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2 A7-10",
-            "Device_Code_Name": "A7-10",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Tab 2 A7-10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2 A7-10",
+      "Device_Code_Name": "A7-10",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Tab 2 A7-30": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2 A7-30",
-            "Device_Code_Name": "A7-30",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Tab 2 A7-30": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2 A7-30",
+      "Device_Code_Name": "A7-30",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo Tab 3": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 3",
-            "Device_Code_Name": "710i",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo Tab 3": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 3",
+      "Device_Code_Name": "710i",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo YT3-850M": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Yoga Tab 3 8",
-            "Device_Code_Name": "YT3-850M",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lenovo"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Lenovo YT3-850M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 8",
+      "Device_Code_Name": "YT3-850M",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
     },
-    "Lenovo v860": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Smart II 3G",
-            "Device_Code_Name": "v860",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Lenovo v860": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart II 3G",
+      "Device_Code_Name": "v860",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
+  }
 }

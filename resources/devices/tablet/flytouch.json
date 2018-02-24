@@ -1,13 +1,13 @@
 {
-    "Flytouch DISCO10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Superpad 2",
-            "Device_Code_Name": "DISCO10",
-            "Device_Maker": "Flytouch",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Flytouch"
-        },
-        "standard": true
-    }
+  "Flytouch DISCO10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Superpad 2",
+      "Device_Code_Name": "DISCO10",
+      "Device_Maker": "Flytouch",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Flytouch"
+    },
+    "standard": true
+  }
 }

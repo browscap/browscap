@@ -1,13 +1,13 @@
 {
-    "General Mobile 4G Dual": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "4G Dual",
-            "Device_Code_Name": "4G Dual",
-            "Device_Maker": "General Mobile",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "General Mobile"
-        },
-        "standard": false
-    }
+  "General Mobile 4G Dual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "4G Dual",
+      "Device_Code_Name": "4G Dual",
+      "Device_Maker": "General Mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "General Mobile"
+    },
+    "standard": false
+  }
 }

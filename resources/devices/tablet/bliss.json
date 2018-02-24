@@ -1,13 +1,13 @@
 {
-    "Bliss Pad B9712KB": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pad B9712KB",
-            "Device_Code_Name": "Pad B9712KB",
-            "Device_Maker": "Bliss",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bliss"
-        },
-        "standard": true
-    }
+  "Bliss Pad B9712KB": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pad B9712KB",
+      "Device_Code_Name": "Pad B9712KB",
+      "Device_Maker": "Bliss",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Bliss"
+    },
+    "standard": true
+  }
 }

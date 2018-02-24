@@ -1,46 +1,46 @@
 {
-    "Zeki TBD1083": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TBD1083",
-            "Device_Code_Name": "TBD1083",
-            "Device_Maker": "Zeki",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki"
-        },
-        "standard": true
+  "Zeki TBD1083": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TBD1083",
+      "Device_Code_Name": "TBD1083",
+      "Device_Maker": "Zeki",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Zeki"
     },
-    "Zeki TBDB863": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TBDB863",
-            "Device_Code_Name": "TBDB863",
-            "Device_Maker": "Zeki",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Zeki TBDB863": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TBDB863",
+      "Device_Code_Name": "TBDB863",
+      "Device_Maker": "Zeki",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Zeki"
     },
-    "Zeki TBDC1093": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TBDC1093",
-            "Device_Code_Name": "TBDC1093",
-            "Device_Maker": "Zeki",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Zeki TBDC1093": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TBDC1093",
+      "Device_Code_Name": "TBDC1093",
+      "Device_Maker": "Zeki",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Zeki"
     },
-    "Zeki TBDG773": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TBDG773",
-            "Device_Code_Name": "TBDG773",
-            "Device_Maker": "Zeki",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Zeki TBDG773": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TBDG773",
+      "Device_Code_Name": "TBDG773",
+      "Device_Maker": "Zeki",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Zeki"
+    },
+    "standard": true
+  }
 }

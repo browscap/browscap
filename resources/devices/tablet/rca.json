@@ -1,35 +1,35 @@
 {
-    "RCA RCT6203W46": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pro10",
-            "Device_Code_Name": "RCT6203W46",
-            "Device_Maker": "RCA",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "RCA"
-        },
-        "standard": false
+  "RCA RCT6203W46": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pro10",
+      "Device_Code_Name": "RCT6203W46",
+      "Device_Maker": "RCA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "RCA"
     },
-    "RCA RCT6773W22B": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Voyager II Wi-Fi",
-            "Device_Code_Name": "RCT6773W22B",
-            "Device_Maker": "RCA",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "RCA"
-        },
-        "standard": false
+    "standard": false
+  },
+  "RCA RCT6773W22B": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Voyager II Wi-Fi",
+      "Device_Code_Name": "RCT6773W22B",
+      "Device_Maker": "RCA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "RCA"
     },
-    "RCA RCT6773W42B": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Voyager Pro 7",
-            "Device_Code_Name": "RCT6773W42B",
-            "Device_Maker": "RCA",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "RCA"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "RCA RCT6773W42B": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Voyager Pro 7",
+      "Device_Code_Name": "RCT6773W42B",
+      "Device_Maker": "RCA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "RCA"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Axioo PicoPad S1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "PicoPad S1 (WiFi + 3G)",
-            "Device_Code_Name": "PicoPad S1",
-            "Device_Maker": "Axioo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Axioo"
-        },
-        "standard": true
-    }
+  "Axioo PicoPad S1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "PicoPad S1 (WiFi + 3G)",
+      "Device_Code_Name": "PicoPad S1",
+      "Device_Maker": "Axioo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Axioo"
+    },
+    "standard": true
+  }
 }

@@ -1,24 +1,24 @@
 {
-    "Condor CTAB785R16-3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "CTAB 7.85 3G",
-            "Device_Code_Name": "CTAB785R16-3G",
-            "Device_Maker": "Condor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Condor"
-        },
-        "standard": true
+  "Condor CTAB785R16-3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "CTAB 7.85 3G",
+      "Device_Code_Name": "CTAB785R16-3G",
+      "Device_Maker": "Condor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Condor"
     },
-    "Condor TRA-901G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TRA-901G",
-            "Device_Code_Name": "TRA-901G",
-            "Device_Maker": "Condor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Condor"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Condor TRA-901G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TRA-901G",
+      "Device_Code_Name": "TRA-901G",
+      "Device_Maker": "Condor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Condor"
+    },
+    "standard": true
+  }
 }

@@ -1,46 +1,46 @@
 {
-    "HP P160U": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P160U",
-            "Device_Code_Name": "P160U",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": false
+  "HP P160U": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P160U",
+      "Device_Code_Name": "P160U",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HP"
     },
-    "HP Pixi": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pixi",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": false
+    "standard": false
+  },
+  "HP Pixi": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixi",
+      "Device_Code_Name": "Pixi",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HP"
     },
-    "HP Pre": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pre",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": false
+    "standard": false
+  },
+  "HP Pre": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pre",
+      "Device_Code_Name": "Pre",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HP"
     },
-    "HP Pre3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pre3",
-            "Device_Code_Name": "Pre3",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "HP Pre3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pre3",
+      "Device_Code_Name": "Pre3",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": false
+  }
 }

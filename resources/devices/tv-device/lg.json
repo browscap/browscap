@@ -1,90 +1,90 @@
 {
-    "LG 42LA6208": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "42LA6208",
-            "Device_Code_Name": "42LA6208",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+  "LG 42LA6208": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "42LA6208",
+      "Device_Code_Name": "42LA6208",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 42LB671V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "42LB671V",
-            "Device_Code_Name": "42LB671V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 42LB671V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "42LB671V",
+      "Device_Code_Name": "42LB671V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 43LF630V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "43LF630V",
-            "Device_Code_Name": "43LF630V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 43LF630V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "43LF630V",
+      "Device_Code_Name": "43LF630V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 49LH604V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "49LH604V",
-            "Device_Code_Name": "49LH604V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 49LH604V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "49LH604V",
+      "Device_Code_Name": "49LH604V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 49UH668V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "49UH668V",
-            "Device_Code_Name": "49UH668V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 49UH668V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "49UH668V",
+      "Device_Code_Name": "49UH668V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 55UF695V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "55UF695V",
-            "Device_Code_Name": "55UF695V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 55UF695V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "55UF695V",
+      "Device_Code_Name": "55UF695V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LG 79UF860V": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "79UF860V",
-            "Device_Code_Name": "79UF860V",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
+    "standard": false
+  },
+  "LG 79UF860V": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "79UF860V",
+      "Device_Code_Name": "79UF860V",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
     },
-    "LV TI320-DU": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LG U Plus TV G",
-            "Device_Code_Name": "TI320-DU",
-            "Device_Maker": "LG",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "LG"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "LV TI320-DU": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LG U Plus TV G",
+      "Device_Code_Name": "TI320-DU",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "PowerTV": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "PowerTV",
-            "Device_Code_Name": "PowerTV",
-            "Device_Maker": "Scientific Atlanta",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Scientific Atlanta"
-        },
-        "standard": true
-    }
+  "PowerTV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "PowerTV",
+      "Device_Code_Name": "PowerTV",
+      "Device_Maker": "Scientific Atlanta",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Scientific Atlanta"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Thornton Pickard THOT61": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "THOT61",
-            "Device_Code_Name": "THOT61",
-            "Device_Maker": "Thornton Pickard",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Thornton Pickard"
-        },
-        "standard": false
-    }
+  "Thornton Pickard THOT61": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "THOT61",
+      "Device_Code_Name": "THOT61",
+      "Device_Maker": "Thornton Pickard",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Thornton Pickard"
+    },
+    "standard": false
+  }
 }

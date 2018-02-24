@@ -1,13 +1,13 @@
 {
-    "Wopad Q10S": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q10S",
-            "Device_Code_Name": "Q10S",
-            "Device_Maker": "Wopad",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wopad"
-        },
-        "standard": true
-    }
+  "Wopad Q10S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q10S",
+      "Device_Code_Name": "Q10S",
+      "Device_Maker": "Wopad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wopad"
+    },
+    "standard": true
+  }
 }

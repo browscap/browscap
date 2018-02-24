@@ -13,7 +13,7 @@
         "Win32": false,
         "Win64": false,
         "Browser_Bits": 0,
-        "AolVersion": 0
+        "Platform_Bits": 0
       }
     },
     "ChromeOS": {

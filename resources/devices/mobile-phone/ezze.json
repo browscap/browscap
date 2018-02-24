@@ -1,35 +1,35 @@
 {
-    "EZZE EZ400": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EZ400",
-            "Device_Code_Name": "EZ400",
-            "Device_Maker": "EZZE",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "EZZE"
-        },
-        "standard": false
+  "EZZE EZ400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EZ400",
+      "Device_Code_Name": "EZ400",
+      "Device_Maker": "EZZE",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "EZZE"
     },
-    "EZZE Hg7000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hg7000",
-            "Device_Code_Name": "Hg7000",
-            "Device_Maker": "EZZE",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "EZZE"
-        },
-        "standard": false
+    "standard": false
+  },
+  "EZZE Hg7000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hg7000",
+      "Device_Code_Name": "Hg7000",
+      "Device_Maker": "EZZE",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "EZZE"
     },
-    "EZZE MP100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MP100",
-            "Device_Code_Name": "MP100",
-            "Device_Maker": "EZZE",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "EZZE"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "EZZE MP100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MP100",
+      "Device_Code_Name": "MP100",
+      "Device_Maker": "EZZE",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "EZZE"
+    },
+    "standard": false
+  }
 }

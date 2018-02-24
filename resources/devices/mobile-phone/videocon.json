@@ -1,24 +1,24 @@
 {
-    "Videocon A15": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A15",
-            "Device_Code_Name": "A15",
-            "Device_Maker": "Videocon Industries Limited",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Videocon"
-        },
-        "standard": false
+  "Videocon A15": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A15",
+      "Device_Code_Name": "A15",
+      "Device_Maker": "Videocon Industries Limited",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Videocon"
     },
-    "Videocon S351": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S351",
-            "Device_Code_Name": "S351",
-            "Device_Maker": "Videocon Industries Limited",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Videocon"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Videocon S351": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S351",
+      "Device_Code_Name": "S351",
+      "Device_Maker": "Videocon Industries Limited",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Videocon"
+    },
+    "standard": false
+  }
 }

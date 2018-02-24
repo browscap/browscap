@@ -1,13 +1,13 @@
 {
-    "ViMicro Vortex": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Vortex",
-            "Device_Code_Name": "Vortex",
-            "Device_Maker": "ViMicro",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ViMicro"
-        },
-        "standard": true
-    }
+  "ViMicro Vortex": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vortex",
+      "Device_Code_Name": "Vortex",
+      "Device_Maker": "ViMicro",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ViMicro"
+    },
+    "standard": true
+  }
 }

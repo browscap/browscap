@@ -1,13 +1,13 @@
 {
-    "SENSEIT R390": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R390",
-            "Device_Code_Name": "R390",
-            "Device_Maker": "SENSEIT",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SENSEIT"
-        },
-        "standard": false
-    }
+  "SENSEIT R390": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R390",
+      "Device_Code_Name": "R390",
+      "Device_Maker": "SENSEIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SENSEIT"
+    },
+    "standard": false
+  }
 }

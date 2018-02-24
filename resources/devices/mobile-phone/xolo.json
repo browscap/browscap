@@ -1,46 +1,46 @@
 {
-    "XOLO A1000s": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A1000s",
-            "Device_Code_Name": "A1000s",
-            "Device_Maker": "XOLO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "XOLO"
-        },
-        "standard": false
+  "XOLO A1000s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A1000s",
+      "Device_Code_Name": "A1000s",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
     },
-    "XOLO A700": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A700",
-            "Device_Code_Name": "A700",
-            "Device_Maker": "XOLO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "XOLO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "XOLO A700": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A700",
+      "Device_Code_Name": "A700",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
     },
-    "XOLO One": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One",
-            "Device_Code_Name": "One",
-            "Device_Maker": "XOLO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "XOLO"
-        },
-        "standard": false
+    "standard": false
+  },
+  "XOLO One": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One",
+      "Device_Code_Name": "One",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
     },
-    "XOLO era": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "era",
-            "Device_Code_Name": "era",
-            "Device_Maker": "XOLO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "XOLO"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "XOLO era": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "era",
+      "Device_Code_Name": "era",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
+    },
+    "standard": false
+  }
 }

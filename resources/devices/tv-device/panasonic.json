@@ -1,35 +1,35 @@
 {
-    "Panasonic DIGA M6346": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "DIGA M6346",
-            "Device_Code_Name": "DIGA M6346",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": true
+  "Panasonic DIGA M6346": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "DIGA M6346",
+      "Device_Code_Name": "DIGA M6346",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
     },
-    "Panasonic DIGA M8156": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "DIGA M8156",
-            "Device_Code_Name": "DIGA M8156",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Panasonic DIGA M8156": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "DIGA M8156",
+      "Device_Code_Name": "DIGA M8156",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
     },
-    "Viera": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Viera TV",
-            "Device_Code_Name": "Viera TV",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Viera": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Viera TV",
+      "Device_Code_Name": "Viera TV",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": true
+  }
 }

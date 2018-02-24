@@ -1,13 +1,13 @@
 {
-    "Ergo Tab Crystal Lite": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab Crystal Lite",
-            "Device_Code_Name": "Tab Crystal Lite",
-            "Device_Maker": "Ergo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Ergo"
-        },
-        "standard": true
-    }
+  "Ergo Tab Crystal Lite": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab Crystal Lite",
+      "Device_Code_Name": "Tab Crystal Lite",
+      "Device_Maker": "Ergo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Ergo"
+    },
+    "standard": true
+  }
 }

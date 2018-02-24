@@ -1,46 +1,46 @@
 {
-    "TeXet TM-7055HD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "NaviPad 3G",
-            "Device_Code_Name": "TM-7055HD",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": true
+  "TeXet TM-7055HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NaviPad 3G",
+      "Device_Code_Name": "TM-7055HD",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-7058": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "X-pad STYLE 7.1 3G",
-            "Device_Code_Name": "TM-7058",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TeXet TM-7058": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X-pad STYLE 7.1 3G",
+      "Device_Code_Name": "TM-7058",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-7066": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "X-pad LITE 7.1",
-            "Device_Code_Name": "TM-7066",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TeXet TM-7066": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X-pad LITE 7.1",
+      "Device_Code_Name": "TM-7066",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-7068": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "X-pad iX 7 3G",
-            "Device_Code_Name": "TM-7068",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "TeXet TM-7068": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X-pad iX 7 3G",
+      "Device_Code_Name": "TM-7068",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
+    },
+    "standard": true
+  }
 }

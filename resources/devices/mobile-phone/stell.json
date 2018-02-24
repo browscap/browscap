@@ -1,13 +1,13 @@
 {
-    "S-TELL M260": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M260",
-            "Device_Code_Name": "M260",
-            "Device_Maker": "S-TELL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "S-TELL"
-        },
-        "standard": false
-    }
+  "S-TELL M260": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M260",
+      "Device_Code_Name": "M260",
+      "Device_Maker": "S-TELL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "S-TELL"
+    },
+    "standard": false
+  }
 }

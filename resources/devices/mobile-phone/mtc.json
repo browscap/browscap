@@ -1,35 +1,35 @@
 {
-    "MTC 978": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "978",
-            "Device_Code_Name": "978",
-            "Device_Maker": "MTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MTC"
-        },
-        "standard": false
+  "MTC 978": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "978",
+      "Device_Code_Name": "978",
+      "Device_Maker": "MTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MTC"
     },
-    "MTC 982": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "982",
-            "Device_Code_Name": "982",
-            "Device_Maker": "MTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MTC"
-        },
-        "standard": false
+    "standard": false
+  },
+  "MTC 982": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "982",
+      "Device_Code_Name": "982",
+      "Device_Maker": "MTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MTC"
     },
-    "MTC SMART Run": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SMART Run",
-            "Device_Code_Name": "SMART Run",
-            "Device_Maker": "MTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MTC"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "MTC SMART Run": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SMART Run",
+      "Device_Code_Name": "SMART Run",
+      "Device_Maker": "MTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MTC"
+    },
+    "standard": false
+  }
 }

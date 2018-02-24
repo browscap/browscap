@@ -1,453 +1,453 @@
 {
-    "Siemens A31": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A31",
-            "Device_Code_Name": "A31",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+  "Siemens A31": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A31",
+      "Device_Code_Name": "A31",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A31A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A31A",
-            "Device_Code_Name": "A31A",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A31A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A31A",
+      "Device_Code_Name": "A31A",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A60": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A60",
-            "Device_Code_Name": "A60",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A60",
+      "Device_Code_Name": "A60",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A62": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A62",
-            "Device_Code_Name": "A62",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A62": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A62",
+      "Device_Code_Name": "A62",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A65": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A65",
-            "Device_Code_Name": "A65",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A65": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A65",
+      "Device_Code_Name": "A65",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A65C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A65C",
-            "Device_Code_Name": "A65C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A65C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A65C",
+      "Device_Code_Name": "A65C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A75",
-            "Device_Code_Name": "A75",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A75",
+      "Device_Code_Name": "A75",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens A76": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A76",
-            "Device_Code_Name": "A76",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens A76": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A76",
+      "Device_Code_Name": "A76",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens AF51": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AF51",
-            "Device_Code_Name": "AF51",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens AF51": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AF51",
+      "Device_Code_Name": "AF51",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens AL21": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AL21",
-            "Device_Code_Name": "AL21",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens AL21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AL21",
+      "Device_Code_Name": "AL21",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens AX72": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AX72",
-            "Device_Code_Name": "AX72",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens AX72": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AX72",
+      "Device_Code_Name": "AX72",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens AX75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AX75",
-            "Device_Code_Name": "AX75",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens AX75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AX75",
+      "Device_Code_Name": "AX75",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens C110": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C110",
-            "Device_Code_Name": "C110",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens C110": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C110",
+      "Device_Code_Name": "C110",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens C60": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C60",
-            "Device_Code_Name": "C60",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens C60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C60",
+      "Device_Code_Name": "C60",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens C60A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C60A",
-            "Device_Code_Name": "C60A",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens C60A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C60A",
+      "Device_Code_Name": "C60A",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens C61": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C61",
-            "Device_Code_Name": "C61",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens C61": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C61",
+      "Device_Code_Name": "C61",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens C75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C75",
-            "Device_Code_Name": "C75",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens C75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C75",
+      "Device_Code_Name": "C75",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens CF62": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CF62",
-            "Device_Code_Name": "CF62",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens CF62": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CF62",
+      "Device_Code_Name": "CF62",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens CF6C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CF6C",
-            "Device_Code_Name": "CF6C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens CF6C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CF6C",
+      "Device_Code_Name": "CF6C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens CX65": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CX65",
-            "Device_Code_Name": "CX65",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens CX65": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CX65",
+      "Device_Code_Name": "CX65",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens CX75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CX75",
-            "Device_Code_Name": "CX75",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens CX75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CX75",
+      "Device_Code_Name": "CX75",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M55": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M55",
-            "Device_Code_Name": "M55",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M55": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M55",
+      "Device_Code_Name": "M55",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M55-XP": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M55-XP",
-            "Device_Code_Name": "M55-XP",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M55-XP": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M55-XP",
+      "Device_Code_Name": "M55-XP",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M55C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M55C",
-            "Device_Code_Name": "M55C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M55C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M55C",
+      "Device_Code_Name": "M55C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M55Z": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M55Z",
-            "Device_Code_Name": "M55Z",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M55Z": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M55Z",
+      "Device_Code_Name": "M55Z",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M55e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M55e",
-            "Device_Code_Name": "M55e",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M55e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M55e",
+      "Device_Code_Name": "M55e",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens M56": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M56",
-            "Device_Code_Name": "M56",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens M56": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M56",
+      "Device_Code_Name": "M56",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens MC60": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MC60",
-            "Device_Code_Name": "MC60",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens MC60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MC60",
+      "Device_Code_Name": "MC60",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens MC6C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MC6C",
-            "Device_Code_Name": "MC6C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens MC6C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MC6C",
+      "Device_Code_Name": "MC6C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens ME45": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ME45",
-            "Device_Code_Name": "ME45",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens ME45": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ME45",
+      "Device_Code_Name": "ME45",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens ME75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ME75",
-            "Device_Code_Name": "ME75",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens ME75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ME75",
+      "Device_Code_Name": "ME75",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens S55": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S55",
-            "Device_Code_Name": "S55",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens S55": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S55",
+      "Device_Code_Name": "S55",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens S56": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S56",
-            "Device_Code_Name": "S56",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens S56": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S56",
+      "Device_Code_Name": "S56",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens S57": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S57",
-            "Device_Code_Name": "S57",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens S57": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S57",
+      "Device_Code_Name": "S57",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens S57C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S57C",
-            "Device_Code_Name": "S57C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens S57C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S57C",
+      "Device_Code_Name": "S57C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens SF65": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SF65",
-            "Device_Code_Name": "SF65",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens SF65": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SF65",
+      "Device_Code_Name": "SF65",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens SL55": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SL55",
-            "Device_Code_Name": "SL55",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens SL55": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SL55",
+      "Device_Code_Name": "SL55",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens SL56": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SL56",
-            "Device_Code_Name": "SL56",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens SL56": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SL56",
+      "Device_Code_Name": "SL56",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens SL5C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SL5C",
-            "Device_Code_Name": "SL5C",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens SL5C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SL5C",
+      "Device_Code_Name": "SL5C",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens ST55": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ST55",
-            "Device_Code_Name": "ST55",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Siemens ST55": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ST55",
+      "Device_Code_Name": "ST55",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
     },
-    "Siemens ST60": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ST60",
-            "Device_Code_Name": "ST60",
-            "Device_Maker": "Siemens",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Siemens"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Siemens ST60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ST60",
+      "Device_Code_Name": "ST60",
+      "Device_Maker": "Siemens",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Siemens"
+    },
+    "standard": false
+  }
 }

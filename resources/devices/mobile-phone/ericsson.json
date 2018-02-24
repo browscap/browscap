@@ -1,68 +1,68 @@
 {
-    "Ericsson A2628s": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A2628s",
-            "Device_Code_Name": "A2628s",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
+  "Ericsson A2628s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A2628s",
+      "Device_Code_Name": "A2628s",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
     },
-    "Ericsson R520": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R520",
-            "Device_Code_Name": "R520",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Ericsson R520": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R520",
+      "Device_Code_Name": "R520",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
     },
-    "Ericsson T20": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T20",
-            "Device_Code_Name": "T20",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Ericsson T20": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T20",
+      "Device_Code_Name": "T20",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
     },
-    "Ericsson T39": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T39",
-            "Device_Code_Name": "T39",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Ericsson T39": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T39",
+      "Device_Code_Name": "T39",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
     },
-    "Ericsson T65": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T65",
-            "Device_Code_Name": "T65",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Ericsson T65": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T65",
+      "Device_Code_Name": "T65",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
     },
-    "Ericsson T68": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T68",
-            "Device_Code_Name": "T68",
-            "Device_Maker": "Ericsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ericsson"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Ericsson T68": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T68",
+      "Device_Code_Name": "T68",
+      "Device_Maker": "Ericsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ericsson"
+    },
+    "standard": false
+  }
 }

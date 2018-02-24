@@ -1,46 +1,46 @@
 {
-    "Jiayu F1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "F1",
-            "Device_Code_Name": "F1",
-            "Device_Maker": "Jiayu",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu"
-        },
-        "standard": false
+  "Jiayu F1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F1",
+      "Device_Code_Name": "F1",
+      "Device_Maker": "Jiayu",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jiayu"
     },
-    "Jiayu G2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G2",
-            "Device_Code_Name": "G2",
-            "Device_Maker": "Jiayu",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Jiayu G2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G2",
+      "Device_Code_Name": "G2",
+      "Device_Maker": "Jiayu",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jiayu"
     },
-    "Jiayu G2S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G2S",
-            "Device_Code_Name": "G2S",
-            "Device_Maker": "Jiayu",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Jiayu G2S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G2S",
+      "Device_Code_Name": "G2S",
+      "Device_Maker": "Jiayu",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jiayu"
     },
-    "Jiayu G3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G3",
-            "Device_Code_Name": "G3",
-            "Device_Maker": "Jiayu",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Jiayu G3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G3",
+      "Device_Code_Name": "G3",
+      "Device_Maker": "Jiayu",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jiayu"
+    },
+    "standard": false
+  }
 }

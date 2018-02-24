@@ -1,255 +1,255 @@
 {
-    "Xiaomi 2013022": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Red Rice",
-            "Device_Code_Name": "2013022",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+  "Xiaomi 2013022": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Red Rice",
+      "Device_Code_Name": "2013022",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM 1SC": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HM 1SC",
-            "Device_Code_Name": "HM 1SC",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM 1SC": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HM 1SC",
+      "Device_Code_Name": "HM 1SC",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM 1SW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HongMi 1S WCDMA",
-            "Device_Code_Name": "HM 1SW",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM 1SW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HongMi 1S WCDMA",
+      "Device_Code_Name": "HM 1SW",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM NOTE 1LTE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HM NOTE 1LTE",
-            "Device_Code_Name": "HM NOTE 1LTE",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM NOTE 1LTE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HM NOTE 1LTE",
+      "Device_Code_Name": "HM NOTE 1LTE",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM NOTE 1LTEEW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HM NOTE 1LTE EW",
-            "Device_Code_Name": "HM NOTE 1LTE EW",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM NOTE 1LTEEW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HM NOTE 1LTE EW",
+      "Device_Code_Name": "HM NOTE 1LTE EW",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM NOTE 1LTETD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HM NOTE 1LTE TD",
-            "Device_Code_Name": "HM NOTE 1LTE TD",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM NOTE 1LTETD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HM NOTE 1LTE TD",
+      "Device_Code_Name": "HM NOTE 1LTE TD",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM NOTE 1S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi Note",
-            "Device_Code_Name": "HM NOTE 1S",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM NOTE 1S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note",
+      "Device_Code_Name": "HM NOTE 1S",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi HM NOTE 1W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi Note",
-            "Device_Code_Name": "HM NOTE 1W",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi HM NOTE 1W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note",
+      "Device_Code_Name": "HM NOTE 1W",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 2",
-            "Device_Code_Name": "MI 2",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 2",
+      "Device_Code_Name": "MI 2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 2A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 2A",
-            "Device_Code_Name": "MI 2A",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 2A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 2A",
+      "Device_Code_Name": "MI 2A",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 2S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 2S",
-            "Device_Code_Name": "MI 2S",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 2S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 2S",
+      "Device_Code_Name": "MI 2S",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 3W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 3W",
-            "Device_Code_Name": "MI 3W",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 3W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 3W",
+      "Device_Code_Name": "MI 3W",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 4S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 4S",
-            "Device_Code_Name": "MI 4S",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 4S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 4S",
+      "Device_Code_Name": "MI 4S",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 4W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 4W",
-            "Device_Code_Name": "MI 4W",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 4W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 4W",
+      "Device_Code_Name": "MI 4W",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI 4i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI 4i",
-            "Device_Code_Name": "MI 4i",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI 4i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 4i",
+      "Device_Code_Name": "MI 4i",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi MI NOTE Pro": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MI NOTE Pro",
-            "Device_Code_Name": "MI NOTE Pro",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi MI NOTE Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI NOTE Pro",
+      "Device_Code_Name": "MI NOTE Pro",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Mi 4 LTE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Mi 4 LTE",
-            "Device_Code_Name": "Mi 4 LTE",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Mi 4 LTE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi 4 LTE",
+      "Device_Code_Name": "Mi 4 LTE",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Mi Max": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Mi Max",
-            "Device_Code_Name": "Mi Max",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Mi Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi Max",
+      "Device_Code_Name": "Mi Max",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Redmi 3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi 3",
-            "Device_Code_Name": "Redmi 3",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Redmi 3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 3",
+      "Device_Code_Name": "Redmi 3",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Redmi 3S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi 3S",
-            "Device_Code_Name": "Redmi 3S",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Redmi 3S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 3S",
+      "Device_Code_Name": "Redmi 3S",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Redmi Note 3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi Note 3",
-            "Device_Code_Name": "Redmi Note 3",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Redmi Note 3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 3",
+      "Device_Code_Name": "Redmi Note 3",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Redmi Note 4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Redmi Note 4",
-            "Device_Code_Name": "Redmi Note 4",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Xiaomi Redmi Note 4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 4",
+      "Device_Code_Name": "Redmi Note 4",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
     },
-    "Xiaomi Mi Mix 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Mi Mix 2",
-            "Device_Code_Name": "Mi Mix 2",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Xiaomi Mi Mix 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi Mix 2",
+      "Device_Code_Name": "Mi Mix 2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  }
 }

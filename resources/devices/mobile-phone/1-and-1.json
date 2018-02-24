@@ -1,13 +1,13 @@
 {
-    "1 & 1 Smartpad": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Smartpad",
-            "Device_Code_Name": "Smartpad",
-            "Device_Maker": "1 & 1",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "1 & 1"
-        },
-        "standard": false
-    }
+  "1 & 1 Smartpad": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smartpad",
+      "Device_Code_Name": "Smartpad",
+      "Device_Maker": "1 & 1",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "1 & 1"
+    },
+    "standard": false
+  }
 }

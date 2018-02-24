@@ -1,13 +1,13 @@
 {
-    "AllWinner A10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A10",
-            "Device_Code_Name": "A10",
-            "Device_Maker": "AllWinner",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "AllWinner"
-        },
-        "standard": true
-    }
+  "AllWinner A10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A10",
+      "Device_Code_Name": "A10",
+      "Device_Maker": "AllWinner",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "AllWinner"
+    },
+    "standard": true
+  }
 }

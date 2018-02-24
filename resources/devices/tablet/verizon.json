@@ -1,24 +1,24 @@
 {
-    "Quanta QMV7A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ellipsis 7",
-            "Device_Code_Name": "QMV7A",
-            "Device_Maker": "Quanta",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verizon"
-        },
-        "standard": true
+  "Quanta QMV7A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ellipsis 7",
+      "Device_Code_Name": "QMV7A",
+      "Device_Maker": "Quanta",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verizon"
     },
-    "Quanta QTAQZ3": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ellipsis 8",
-            "Device_Code_Name": "QTAQZ3",
-            "Device_Maker": "Quanta",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verizon"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Quanta QTAQZ3": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ellipsis 8",
+      "Device_Code_Name": "QTAQZ3",
+      "Device_Maker": "Quanta",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verizon"
+    },
+    "standard": true
+  }
 }

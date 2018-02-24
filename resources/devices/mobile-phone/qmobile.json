@@ -1,13 +1,13 @@
 {
-    "QMobile Z10": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Noir",
-            "Device_Code_Name": "Z10",
-            "Device_Maker": "QMobile",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "QMobile"
-        },
-        "standard": false
-    }
+  "QMobile Z10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Noir",
+      "Device_Code_Name": "Z10",
+      "Device_Maker": "QMobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "QMobile"
+    },
+    "standard": false
+  }
 }

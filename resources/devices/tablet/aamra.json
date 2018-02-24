@@ -1,13 +1,13 @@
 {
-    "Aamra Kaya": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Kaya",
-            "Device_Code_Name": "Kaya",
-            "Device_Maker": "Aamra",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Aamra"
-        },
-        "standard": true
-    }
+  "Aamra Kaya": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Kaya",
+      "Device_Code_Name": "Kaya",
+      "Device_Maker": "Aamra",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Aamra"
+    },
+    "standard": true
+  }
 }

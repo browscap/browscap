@@ -1,13 +1,13 @@
 {
-    "Dell Venue Pro": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Venue Pro",
-            "Device_Code_Name": "Venue Pro",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": false
-    }
+  "Dell Venue Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Venue Pro",
+      "Device_Code_Name": "Venue Pro",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
+    },
+    "standard": false
+  }
 }

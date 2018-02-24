@@ -1,24 +1,24 @@
 {
-    "Jolla C": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Jolla C",
-            "Device_Code_Name": "Jolla C",
-            "Device_Maker": "Jolla Ltd.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jolla"
-        },
-        "standard": false
+  "Jolla C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jolla C",
+      "Device_Code_Name": "Jolla C",
+      "Device_Maker": "Jolla Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jolla"
     },
-    "Jolla Phone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Jolla",
-            "Device_Code_Name": "Jolla",
-            "Device_Maker": "Jolla Ltd.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jolla"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Jolla Phone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jolla",
+      "Device_Code_Name": "Jolla",
+      "Device_Maker": "Jolla Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jolla"
+    },
+    "standard": false
+  }
 }

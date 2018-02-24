@@ -1,13 +1,13 @@
 {
-    "Keen High MT791": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MT791",
-            "Device_Code_Name": "MT791",
-            "Device_Maker": "Keen High",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keen High"
-        },
-        "standard": false
-    }
+  "Keen High MT791": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MT791",
+      "Device_Code_Name": "MT791",
+      "Device_Maker": "Keen High",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keen High"
+    },
+    "standard": false
+  }
 }

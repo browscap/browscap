@@ -1,156 +1,156 @@
 {
-    "KDDI CA23": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA23",
-            "Device_Code_Name": "CA23",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+  "KDDI CA23": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA23",
+      "Device_Code_Name": "CA23",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA26": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA26",
-            "Device_Code_Name": "CA26",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA26": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA26",
+      "Device_Code_Name": "CA26",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA28": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA28",
-            "Device_Code_Name": "CA28",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA28": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA28",
+      "Device_Code_Name": "CA28",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA31": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA31",
-            "Device_Code_Name": "CA31",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA31": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA31",
+      "Device_Code_Name": "CA31",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA32": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA32",
-            "Device_Code_Name": "CA32",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA32": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA32",
+      "Device_Code_Name": "CA32",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA33": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA33",
-            "Device_Code_Name": "CA33",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA33": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA33",
+      "Device_Code_Name": "CA33",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA34": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA34",
-            "Device_Code_Name": "CA34",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA34": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA34",
+      "Device_Code_Name": "CA34",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA37": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA37",
-            "Device_Code_Name": "CA37",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA37": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA37",
+      "Device_Code_Name": "CA37",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI CA39": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "CA39",
-            "Device_Code_Name": "CA39",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI CA39": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "CA39",
+      "Device_Code_Name": "CA39",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI IS03": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IS03",
-            "Device_Code_Name": "IS03",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI IS03": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IS03",
+      "Device_Code_Name": "IS03",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI KC31": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W11K",
-            "Device_Code_Name": "KC31",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI KC31": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W11K",
+      "Device_Code_Name": "KC31",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI SN3F": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SN3F",
-            "Device_Code_Name": "SN3F",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI SN3F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SN3F",
+      "Device_Code_Name": "SN3F",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI TS21": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TS21",
-            "Device_Code_Name": "TS21",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KDDI TS21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TS21",
+      "Device_Code_Name": "TS21",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
     },
-    "KDDI TS25": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TS25",
-            "Device_Code_Name": "TS25",
-            "Device_Maker": "KDDI",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "KDDI TS25": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TS25",
+      "Device_Code_Name": "TS25",
+      "Device_Maker": "KDDI",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "KDDI"
+    },
+    "standard": false
+  }
 }

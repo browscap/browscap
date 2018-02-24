@@ -1,68 +1,68 @@
 {
-    "Keneksi Crystal": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Crystal",
-            "Device_Code_Name": "Crystal",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
+  "Keneksi Crystal": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Crystal",
+      "Device_Code_Name": "Crystal",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
     },
-    "Keneksi Flora": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flora",
-            "Device_Code_Name": "Flora",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Keneksi Flora": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flora",
+      "Device_Code_Name": "Flora",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
     },
-    "Keneksi Libra": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Libra",
-            "Device_Code_Name": "Libra",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Keneksi Libra": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Libra",
+      "Device_Code_Name": "Libra",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
     },
-    "Keneksi Libra Dual": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Libra Dual",
-            "Device_Code_Name": "Libra Dual",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Keneksi Libra Dual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Libra Dual",
+      "Device_Code_Name": "Libra Dual",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
     },
-    "Keneksi Norma 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Norma 2",
-            "Device_Code_Name": "Norma 2",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Keneksi Norma 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Norma 2",
+      "Device_Code_Name": "Norma 2",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
     },
-    "Keneksi Sun": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Sun",
-            "Device_Code_Name": "Sun",
-            "Device_Maker": "Keneksi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Keneksi"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Keneksi Sun": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Sun",
+      "Device_Code_Name": "Sun",
+      "Device_Maker": "Keneksi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Keneksi"
+    },
+    "standard": false
+  }
 }

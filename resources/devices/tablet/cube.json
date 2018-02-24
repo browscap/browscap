@@ -1,90 +1,90 @@
 {
-    "Cube U20GT_WS": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U20GT_WS",
-            "Device_Code_Name": "U20GT_WS",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+  "Cube U20GT_WS": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U20GT_WS",
+      "Device_Code_Name": "U20GT_WS",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U25GT-C4W": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U25GT-C4W",
-            "Device_Code_Name": "U25GT-C4W",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U25GT-C4W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U25GT-C4W",
+      "Device_Code_Name": "U25GT-C4W",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U30GT": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U30GT",
-            "Device_Code_Name": "U30GT",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U30GT": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U30GT",
+      "Device_Code_Name": "U30GT",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U30GT2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U30GT2",
-            "Device_Code_Name": "U30GT2",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U30GT2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U30GT2",
+      "Device_Code_Name": "U30GT2",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U51GT": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Talk 7",
-            "Device_Code_Name": "U51GT",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U51GT": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Talk 7",
+      "Device_Code_Name": "U51GT",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U51GT_C4": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U51GT_C4",
-            "Device_Code_Name": "U51GT_C4",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U51GT_C4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U51GT_C4",
+      "Device_Code_Name": "U51GT_C4",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U55GT": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Talk 79 3G",
-            "Device_Code_Name": "U55GT",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Cube U55GT": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Talk 79 3G",
+      "Device_Code_Name": "U55GT",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
     },
-    "Cube U9GT2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "U9GT2",
-            "Device_Code_Name": "U9GT2",
-            "Device_Maker": "Cube",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cube"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Cube U9GT2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "U9GT2",
+      "Device_Code_Name": "U9GT2",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
+    },
+    "standard": true
+  }
 }

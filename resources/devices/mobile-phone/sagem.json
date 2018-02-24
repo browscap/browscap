@@ -1,24 +1,24 @@
 {
-    "Sagem VF526": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "VF526",
-            "Device_Code_Name": "VF526",
-            "Device_Maker": "Sagem",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sagem"
-        },
-        "standard": false
+  "Sagem VF526": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VF526",
+      "Device_Code_Name": "VF526",
+      "Device_Maker": "Sagem",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sagem"
     },
-    "Sagem VF540": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "VF540",
-            "Device_Code_Name": "VF540",
-            "Device_Maker": "Sagem",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sagem"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Sagem VF540": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VF540",
+      "Device_Code_Name": "VF540",
+      "Device_Maker": "Sagem",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sagem"
+    },
+    "standard": false
+  }
 }

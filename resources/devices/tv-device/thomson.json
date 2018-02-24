@@ -1,68 +1,68 @@
 {
-    "Thomson LF1V307": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LF1V307",
-            "Device_Code_Name": "LF1V307",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
+  "Thomson LF1V307": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V307",
+      "Device_Code_Name": "LF1V307",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
     },
-    "Thomson LF1V325": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LF1V325",
-            "Device_Code_Name": "LF1V325",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Thomson LF1V325": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V325",
+      "Device_Code_Name": "LF1V325",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
     },
-    "Thomson LF1V373": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LF1V373",
-            "Device_Code_Name": "LF1V373",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Thomson LF1V373": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V373",
+      "Device_Code_Name": "LF1V373",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
     },
-    "Thomson LF1V394": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LF1V394",
-            "Device_Code_Name": "LF1V394",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Thomson LF1V394": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V394",
+      "Device_Code_Name": "LF1V394",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
     },
-    "Thomson LF1V401": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "LF1V401",
-            "Device_Code_Name": "LF1V401",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Thomson LF1V401": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V401",
+      "Device_Code_Name": "LF1V401",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
     },
-    "Thomson THS845": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "THS845",
-            "Device_Code_Name": "THS845",
-            "Device_Maker": "Thomson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Thomson"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Thomson THS845": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "THS845",
+      "Device_Code_Name": "THS845",
+      "Device_Maker": "Thomson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Thomson"
+    },
+    "standard": true
+  }
 }

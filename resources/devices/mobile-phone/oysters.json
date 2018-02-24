@@ -1,35 +1,35 @@
 {
-    "Oysters Pacific 800": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pacific 800",
-            "Device_Code_Name": "Pacific 800",
-            "Device_Maker": "Oysters",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters"
-        },
-        "standard": false
+  "Oysters Pacific 800": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pacific 800",
+      "Device_Code_Name": "Pacific 800",
+      "Device_Maker": "Oysters",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Oysters"
     },
-    "Oysters Pacific 800i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pacific 800i",
-            "Device_Code_Name": "Pacific 800i",
-            "Device_Maker": "Oysters",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Oysters Pacific 800i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pacific 800i",
+      "Device_Code_Name": "Pacific 800i",
+      "Device_Maker": "Oysters",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Oysters"
     },
-    "Oysters Pacific VS": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pacific VS",
-            "Device_Code_Name": "Pacific VS",
-            "Device_Maker": "Oysters",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Oysters"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Oysters Pacific VS": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pacific VS",
+      "Device_Code_Name": "Pacific VS",
+      "Device_Maker": "Oysters",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Oysters"
+    },
+    "standard": false
+  }
 }

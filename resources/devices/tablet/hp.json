@@ -1,35 +1,35 @@
 {
-    "HP 8": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "8",
-            "Device_Code_Name": "8",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": true
+  "HP 8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "8",
+      "Device_Code_Name": "8",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
     },
-    "HP Slate 17": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Slate 17",
-            "Device_Code_Name": "Slate 17",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": true
+    "standard": true
+  },
+  "HP Slate 17": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Slate 17",
+      "Device_Code_Name": "Slate 17",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
     },
-    "HP Touchpad": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Touchpad",
-            "Device_Code_Name": "Touchpad",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "HP Touchpad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Touchpad",
+      "Device_Code_Name": "Touchpad",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  }
 }

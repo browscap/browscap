@@ -1,13 +1,13 @@
 {
-    "Starway Andromeda S925 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Andromeda S925 3G",
-            "Device_Code_Name": "Andromeda S925 3G",
-            "Device_Maker": "Starway",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Starway"
-        },
-        "standard": true
-    }
+  "Starway Andromeda S925 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Andromeda S925 3G",
+      "Device_Code_Name": "Andromeda S925 3G",
+      "Device_Maker": "Starway",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Starway"
+    },
+    "standard": true
+  }
 }

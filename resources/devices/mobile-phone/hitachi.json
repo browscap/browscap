@@ -1,13 +1,13 @@
 {
-    "Hitachi W32H": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HI35",
-            "Device_Code_Name": "W32H",
-            "Device_Maker": "Hitachi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KDDI"
-        },
-        "standard": false
-    }
+  "Hitachi W32H": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HI35",
+      "Device_Code_Name": "W32H",
+      "Device_Maker": "Hitachi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KDDI"
+    },
+    "standard": false
+  }
 }

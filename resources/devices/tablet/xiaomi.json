@@ -1,13 +1,13 @@
 {
-    "Xiaomi Mi Pad": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mi Pad",
-            "Device_Code_Name": "Mi Pad",
-            "Device_Maker": "Xiaomi Tech",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xiaomi"
-        },
-        "standard": true
-    }
+  "Xiaomi Mi Pad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mi Pad",
+      "Device_Code_Name": "Mi Pad",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": true
+  }
 }

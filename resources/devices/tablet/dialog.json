@@ -1,13 +1,13 @@
 {
-    "Dialog Tab 2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2",
-            "Device_Code_Name": "Tab 2",
-            "Device_Maker": "Dialog",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dialog"
-        },
-        "standard": true
-    }
+  "Dialog Tab 2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2",
+      "Device_Code_Name": "Tab 2",
+      "Device_Maker": "Dialog",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dialog"
+    },
+    "standard": true
+  }
 }

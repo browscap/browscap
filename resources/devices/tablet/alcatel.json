@@ -1,46 +1,46 @@
 {
-    "Alcatel 9005X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pixi 3 (8) 3G",
-            "Device_Code_Name": "9005X",
-            "Device_Maker": "Alcatel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alcatel"
-        },
-        "standard": true
+  "Alcatel 9005X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pixi 3 (8) 3G",
+      "Device_Code_Name": "9005X",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
     },
-    "Alcatel OT-TAB7HD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "One Touch Tab 7HD",
-            "Device_Code_Name": "OT-TAB7HD",
-            "Device_Maker": "Alcatel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alcatel"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Alcatel OT-TAB7HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "One Touch Tab 7HD",
+      "Device_Code_Name": "OT-TAB7HD",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
     },
-    "Alcatel P310X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "One Touch Pop7 8GB WiFi 3G",
-            "Device_Code_Name": "P310X",
-            "Device_Maker": "Alcatel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alcatel"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Alcatel P310X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "One Touch Pop7 8GB WiFi 3G",
+      "Device_Code_Name": "P310X",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
     },
-    "Alcatel P320X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "One Touch POP 8 3G",
-            "Device_Code_Name": "P320X",
-            "Device_Maker": "Alcatel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alcatel"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Alcatel P320X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "One Touch POP 8 3G",
+      "Device_Code_Name": "P320X",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": true
+  }
 }

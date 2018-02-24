@@ -1,35 +1,35 @@
 {
-    "Medion Life E3501": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Life E3501",
-            "Device_Code_Name": "Life E3501",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": false
+  "Medion Life E3501": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Life E3501",
+      "Device_Code_Name": "Life E3501",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion P4501": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Life P4501",
-            "Device_Code_Name": "P4501",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Medion P4501": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Life P4501",
+      "Device_Code_Name": "P4501",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion X4701": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X4701",
-            "Device_Code_Name": "X4701",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Medion X4701": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X4701",
+      "Device_Code_Name": "X4701",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
+    },
+    "standard": false
+  }
 }

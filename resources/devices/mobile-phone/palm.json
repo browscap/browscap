@@ -1,35 +1,35 @@
 {
-    "Palm 750": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "750",
-            "Device_Code_Name": "750",
-            "Device_Maker": "Palm",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Palm"
-        },
-        "standard": false
+  "Palm 750": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "750",
+      "Device_Code_Name": "750",
+      "Device_Maker": "Palm",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Palm"
     },
-    "Palm Pixi": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pixi",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "Palm",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Palm"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Palm Pixi": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixi",
+      "Device_Code_Name": "Pixi",
+      "Device_Maker": "Palm",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Palm"
     },
-    "Palm Pre": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pre",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "Palm",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Palm"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Palm Pre": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pre",
+      "Device_Code_Name": "Pre",
+      "Device_Maker": "Palm",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Palm"
+    },
+    "standard": false
+  }
 }

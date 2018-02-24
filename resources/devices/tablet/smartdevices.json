@@ -1,13 +1,13 @@
 {
-    "SmartDevices SmartQ V7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SmartQ V7",
-            "Device_Code_Name": "SmartQ V7",
-            "Device_Maker": "SmartDevices",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SmartDevices"
-        },
-        "standard": true
-    }
+  "SmartDevices SmartQ V7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SmartQ V7",
+      "Device_Code_Name": "SmartQ V7",
+      "Device_Maker": "SmartDevices",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SmartDevices"
+    },
+    "standard": true
+  }
 }

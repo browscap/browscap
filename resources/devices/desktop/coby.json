@@ -1,13 +1,13 @@
 {
-    "Coby NBPC724": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "NBPC724",
-            "Device_Code_Name": "NBPC724",
-            "Device_Maker": "Coby",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Coby"
-        },
-        "standard": true
-    }
+  "Coby NBPC724": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "NBPC724",
+      "Device_Code_Name": "NBPC724",
+      "Device_Maker": "Coby",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Coby"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Jolla Tablet": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Jolla Tablet",
-            "Device_Code_Name": "Jolla Tablet",
-            "Device_Maker": "Jolla Ltd.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jolla"
-        },
-        "standard": true
-    }
+  "Jolla Tablet": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Jolla Tablet",
+      "Device_Code_Name": "Jolla Tablet",
+      "Device_Maker": "Jolla Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jolla"
+    },
+    "standard": true
+  }
 }

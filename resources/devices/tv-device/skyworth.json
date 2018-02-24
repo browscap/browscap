@@ -1,13 +1,13 @@
 {
-    "Skyworth HC7620": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "HC7620",
-            "Device_Code_Name": "HC7620",
-            "Device_Maker": "Skyworth",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Skyworth"
-        },
-        "standard": false
-    }
+  "Skyworth HC7620": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "HC7620",
+      "Device_Code_Name": "HC7620",
+      "Device_Maker": "Skyworth",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Skyworth"
+    },
+    "standard": false
+  }
 }

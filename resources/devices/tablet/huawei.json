@@ -1,167 +1,167 @@
 {
-    "Huawei BTV-DL09": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad M3 8.4",
-            "Device_Code_Name": "BTV-DL09",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+  "Huawei BTV-DL09": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad M3 8.4",
+      "Device_Code_Name": "BTV-DL09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei IDEOS S7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "IDEOS S7",
-            "Device_Code_Name": "IDEOS S7",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei IDEOS S7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "IDEOS S7",
+      "Device_Code_Name": "IDEOS S7",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei M2-A01W": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad M2 10.0",
-            "Device_Code_Name": "M2-A01W",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei M2-A01W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad M2 10.0",
+      "Device_Code_Name": "M2-A01W",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei Media Pad": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Media Pad",
-            "Device_Code_Name": "Media Pad",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei Media Pad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Media Pad",
+      "Device_Code_Name": "Media Pad",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad 10 Link",
-            "Device_Code_Name": "MediaPad 10",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad 10 Link",
+      "Device_Code_Name": "MediaPad 10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad 10 FHD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad 10 FHD",
-            "Device_Code_Name": "MediaPad 10 FHD",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad 10 FHD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad 10 FHD",
+      "Device_Code_Name": "MediaPad 10 FHD",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad 10+": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad 10 Link+",
-            "Device_Code_Name": "MediaPad 10+",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad 10+": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad 10 Link+",
+      "Device_Code_Name": "MediaPad 10+",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad 7 Classic": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad 7 Classic",
-            "Device_Code_Name": "MediaPad 7 Classic",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad 7 Classic": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad 7 Classic",
+      "Device_Code_Name": "MediaPad 7 Classic",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad 7 Lite": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad 7 Lite",
-            "Device_Code_Name": "MediaPad 7 Lite",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad 7 Lite": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad 7 Lite",
+      "Device_Code_Name": "MediaPad 7 Lite",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad M1 8.0": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad M1 8.0",
-            "Device_Code_Name": "MediaPad M1 8.0",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad M1 8.0": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad M1 8.0",
+      "Device_Code_Name": "MediaPad M1 8.0",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei MediaPad T1 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad T1 10",
-            "Device_Code_Name": "MediaPad T1 10",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei MediaPad T1 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad T1 10",
+      "Device_Code_Name": "MediaPad T1 10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei S7-301w": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mediapad",
-            "Device_Code_Name": "S7-301w",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei S7-301w": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mediapad",
+      "Device_Code_Name": "S7-301w",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei S8-701u": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad T1 8.0",
-            "Device_Code_Name": "S8-701u",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei S8-701u": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad T1 8.0",
+      "Device_Code_Name": "S8-701u",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei T1-701u": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MediaPad T1 7.0",
-            "Device_Code_Name": "T1-701u",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Huawei T1-701u": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad T1 7.0",
+      "Device_Code_Name": "T1-701u",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
     },
-    "Huawei Vodafone 858": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Vodafone 858",
-            "Device_Code_Name": "U8160",
-            "Device_Maker": "Huawei",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Huawei"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Huawei Vodafone 858": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vodafone 858",
+      "Device_Code_Name": "U8160",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
+  }
 }

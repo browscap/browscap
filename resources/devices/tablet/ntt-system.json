@@ -1,13 +1,13 @@
 {
-    "NTT System NTT 611 10.1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "NTT 611 10.1",
-            "Device_Code_Name": "NTT 611 10.1",
-            "Device_Maker": "NTT System",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NTT System"
-        },
-        "standard": true
-    }
+  "NTT System NTT 611 10.1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NTT 611 10.1",
+      "Device_Code_Name": "NTT 611 10.1",
+      "Device_Maker": "NTT System",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "NTT System"
+    },
+    "standard": true
+  }
 }

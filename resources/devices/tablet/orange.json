@@ -1,13 +1,13 @@
 {
-    "Orange FunTab 8": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "FunTab 8",
-            "Device_Code_Name": "FunTab 8",
-            "Device_Maker": "Orange S.A.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Orange"
-        },
-        "standard": true
-    }
+  "Orange FunTab 8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "FunTab 8",
+      "Device_Code_Name": "FunTab 8",
+      "Device_Maker": "Orange S.A.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Orange"
+    },
+    "standard": true
+  }
 }

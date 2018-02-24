@@ -1,46 +1,46 @@
 {
-    "Assistant AP-106": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AP-106",
-            "Device_Code_Name": "AP-106",
-            "Device_Maker": "Assistant",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant"
-        },
-        "standard": true
+  "Assistant AP-106": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AP-106",
+      "Device_Code_Name": "AP-106",
+      "Device_Maker": "Assistant",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Assistant"
     },
-    "Assistant AP-705": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AP-705",
-            "Device_Code_Name": "AP-705",
-            "Device_Maker": "Assistant",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Assistant AP-705": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AP-705",
+      "Device_Code_Name": "AP-705",
+      "Device_Maker": "Assistant",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Assistant"
     },
-    "Assistant AP-708": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AP-708",
-            "Device_Code_Name": "AP-708",
-            "Device_Maker": "Assistant",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Assistant AP-708": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AP-708",
+      "Device_Code_Name": "AP-708",
+      "Device_Maker": "Assistant",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Assistant"
     },
-    "Assistant AP-804": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AP-804",
-            "Device_Code_Name": "AP-804",
-            "Device_Maker": "Assistant",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Assistant AP-804": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AP-804",
+      "Device_Code_Name": "AP-804",
+      "Device_Maker": "Assistant",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Assistant"
+    },
+    "standard": true
+  }
 }

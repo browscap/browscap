@@ -1,13 +1,13 @@
 {
-    "Ross&Moor RM-560": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RM-560",
-            "Device_Code_Name": "RM-560",
-            "Device_Maker": "Ross&Moor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Ross&Moor"
-        },
-        "standard": false
-    }
+  "Ross&Moor RM-560": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RM-560",
+      "Device_Code_Name": "RM-560",
+      "Device_Maker": "Ross&Moor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Ross&Moor"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "TechniSat TechniPad 10 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TechniPad 10 3G",
-            "Device_Code_Name": "TechniPad 10 3G",
-            "Device_Maker": "TechniSat",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TechniSat"
-        },
-        "standard": true
-    }
+  "TechniSat TechniPad 10 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TechniPad 10 3G",
+      "Device_Code_Name": "TechniPad 10 3G",
+      "Device_Maker": "TechniSat",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TechniSat"
+    },
+    "standard": true
+  }
 }

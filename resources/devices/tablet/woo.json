@@ -1,13 +1,13 @@
 {
-    "Woo SP6020": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Quasar",
-            "Device_Code_Name": "SP6020",
-            "Device_Maker": "Woo Electronics",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Woo"
-        },
-        "standard": true
-    }
+  "Woo SP6020": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Quasar",
+      "Device_Code_Name": "SP6020",
+      "Device_Maker": "Woo Electronics",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Woo"
+    },
+    "standard": true
+  }
 }

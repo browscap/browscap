@@ -1,90 +1,90 @@
 {
-    "Wiko Cink Peax 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cink Peax 2",
-            "Device_Code_Name": "Cink Peax 2",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+  "Wiko Cink Peax 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cink Peax 2",
+      "Device_Code_Name": "Cink Peax 2",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Darkmoon": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Darkmoon",
-            "Device_Code_Name": "Darkmoon",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko Darkmoon": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Darkmoon",
+      "Device_Code_Name": "Darkmoon",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko GOA": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GOA",
-            "Device_Code_Name": "GOA",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko GOA": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GOA",
+      "Device_Code_Name": "GOA",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Jerry": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Jerry",
-            "Device_Code_Name": "Jerry",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko Jerry": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jerry",
+      "Device_Code_Name": "Jerry",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Lenny": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lenny",
-            "Device_Code_Name": "Lenny",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko Lenny": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lenny",
+      "Device_Code_Name": "Lenny",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Lenny 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lenny 2",
-            "Device_Code_Name": "Lenny 2",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko Lenny 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lenny 2",
+      "Device_Code_Name": "Lenny 2",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Rainbow": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Rainbow",
-            "Device_Code_Name": "Rainbow",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Wiko Rainbow": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Rainbow",
+      "Device_Code_Name": "Rainbow",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
     },
-    "Wiko Robby": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Robby",
-            "Device_Code_Name": "Robby",
-            "Device_Maker": "Wiko",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wiko"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Wiko Robby": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Robby",
+      "Device_Code_Name": "Robby",
+      "Device_Maker": "Wiko",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wiko"
+    },
+    "standard": false
+  }
 }

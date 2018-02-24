@@ -1,13 +1,13 @@
 {
-    "Adspec AdTab 7 Lite": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AdTab 7 Lite",
-            "Device_Code_Name": "AdTab 7 Lite",
-            "Device_Maker": "Adspec",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Adspec"
-        },
-        "standard": true
-    }
+  "Adspec AdTab 7 Lite": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AdTab 7 Lite",
+      "Device_Code_Name": "AdTab 7 Lite",
+      "Device_Maker": "Adspec",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Adspec"
+    },
+    "standard": true
+  }
 }

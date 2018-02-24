@@ -1,13 +1,13 @@
 {
-    "Shiru Samurai 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Samurai 10",
-            "Device_Code_Name": "Samurai 10",
-            "Device_Maker": "Shiru",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Shiru"
-        },
-        "standard": true
-    }
+  "Shiru Samurai 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Samurai 10",
+      "Device_Code_Name": "Samurai 10",
+      "Device_Maker": "Shiru",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Shiru"
+    },
+    "standard": true
+  }
 }

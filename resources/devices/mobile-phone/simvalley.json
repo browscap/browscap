@@ -1,24 +1,24 @@
 {
-    "Simvalley SPX-5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SPX-5",
-            "Device_Code_Name": "SPX-5",
-            "Device_Maker": "Simvalley",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Simvalley"
-        },
-        "standard": false
+  "Simvalley SPX-5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SPX-5",
+      "Device_Code_Name": "SPX-5",
+      "Device_Maker": "Simvalley",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Simvalley"
     },
-    "Simvalley SPX-5 3G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SPX-5 3G",
-            "Device_Code_Name": "SPX-5 3G",
-            "Device_Maker": "Simvalley",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Simvalley"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Simvalley SPX-5 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SPX-5 3G",
+      "Device_Code_Name": "SPX-5 3G",
+      "Device_Maker": "Simvalley",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Simvalley"
+    },
+    "standard": false
+  }
 }

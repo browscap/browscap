@@ -1,24 +1,24 @@
 {
-    "MegaFon MS3A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Login 2",
-            "Device_Code_Name": "MS3A",
-            "Device_Maker": "MegaFon",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MegaFon"
-        },
-        "standard": false
+  "MegaFon MS3A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Login 2",
+      "Device_Code_Name": "MS3A",
+      "Device_Maker": "MegaFon",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MegaFon"
     },
-    "MegaFon SP-AI": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Login",
-            "Device_Code_Name": "SP-AI",
-            "Device_Maker": "MegaFon",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MegaFon"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "MegaFon SP-AI": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Login",
+      "Device_Code_Name": "SP-AI",
+      "Device_Maker": "MegaFon",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MegaFon"
+    },
+    "standard": false
+  }
 }
