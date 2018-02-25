@@ -39,8 +39,8 @@
             "NetBSD",
             "SunOS",
             "OS2",
-            "Darwin",
-            "Unix"
+            "Unix",
+            "Darwin"
           ]
         }
       ]

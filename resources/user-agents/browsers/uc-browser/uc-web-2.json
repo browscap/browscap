@@ -143,10 +143,10 @@
         },
         {
           "match": "Mozilla/5.0 (*Macintosh*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android"
           ],
-          "engine": "WebKit",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }
@@ -223,9 +223,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
       "platform": "WinPhone",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
@@ -245,9 +245,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
       "platform": "SymbianOS",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
@@ -266,9 +266,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
       "platform": "JAVA",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",

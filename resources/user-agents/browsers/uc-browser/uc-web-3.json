@@ -183,20 +183,20 @@
         },
         {
           "match": "Mozilla/5.0 (*Macintosh*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android"
           ],
-          "engine": "WebKit",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }
         },
         {
           "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android"
           ],
-          "engine": "WebKit",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }
@@ -319,9 +319,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
       "platform": "WinPhone",
       "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
@@ -341,7 +341,8 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone8.1_B",
+            "WinPhone8_B",
             "WinPhone7_C"
           ]
         }
@@ -350,9 +351,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
       "browser": "uc browser",
+      "platform": "SymbianOS",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
@@ -370,9 +371,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
-      "device": "general Mobile Phone (Touch)",
-      "engine": "U2",
       "platform": "JAVA",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",

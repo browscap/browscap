@@ -129,10 +129,10 @@
         },
         {
           "match": "Mozilla/5.0 (*Windows*; Desktop) applewebkit* (*khtml*like*gecko*) UCBrowser/*",
+          "engine": "WebKit",
           "platforms": [
             "Android"
           ],
-          "engine": "WebKit",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }
@@ -218,9 +218,9 @@
     {
       "userAgent": "UC Browser Generic for WinPhone",
       "browser": "uc browser",
+      "platform": "WinPhone",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for WinPhone"
@@ -229,7 +229,8 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/*",
           "platforms": [
-            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone8.1_B",
+            "WinPhone8_B",
             "WinPhone7_C"
           ]
         }
@@ -238,9 +239,9 @@
     {
       "userAgent": "UC Browser Generic for Symbian",
       "browser": "uc browser",
+      "platform": "SymbianOS",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for Symbian"
@@ -257,9 +258,9 @@
     {
       "userAgent": "UC Browser Generic for RimOS",
       "browser": "uc browser",
+      "platform": "RIMOS",
       "engine": "U2",
       "device": "general Mobile Phone (Blackberry)",
-      "platform": "RIMOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for RimOS"
@@ -276,9 +277,9 @@
     {
       "userAgent": "UC Browser Generic for Java",
       "browser": "uc browser",
+      "platform": "JAVA",
       "engine": "U2",
       "device": "general Mobile Phone",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for Java"
@@ -310,9 +311,9 @@
     {
       "userAgent": "UC Browser Generic for Series40",
       "browser": "uc browser",
+      "platform": "Series40",
       "engine": "U2",
       "device": "general Mobile Phone (Nokia)",
-      "platform": "Series40",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic for Series40"

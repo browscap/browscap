@@ -115,9 +115,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "browser": "uc browser",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
@@ -136,9 +136,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
+      "platform": "JAVA",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
@@ -186,9 +186,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
       "browser": "uc browser",
+      "platform": "SymbianOS",
       "engine": "WebKit",
       "device": "general Mobile Phone (Nokia)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
@@ -240,9 +240,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Bada",
       "browser": "uc browser",
+      "platform": "Bada",
       "engine": "WebKit",
       "device": "general Mobile Phone",
-      "platform": "Bada",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Bada",
@@ -263,9 +263,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
       "browser": "uc browser",
+      "platform": "WinCE",
       "engine": "WebKit",
       "device": "general Mobile Phone",
-      "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
@@ -287,9 +287,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Series40",
       "browser": "uc browser",
+      "platform": "Series40",
       "engine": "WebKit",
       "device": "general Mobile Phone",
-      "platform": "Series40",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Series40",

@@ -7,9 +7,9 @@
     {
       "userAgent": "Player FM for iOS",
       "browser": "player fm",
+      "platform": "iOS_C",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS_C",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Player FM"
@@ -48,9 +48,9 @@
     {
       "userAgent": "Player FM for Android",
       "browser": "player fm",
+      "platform": "Android_H",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android_H",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Player FM"

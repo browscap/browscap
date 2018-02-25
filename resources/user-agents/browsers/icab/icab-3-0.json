@@ -47,9 +47,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iCab/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
-            "OSX_10_5", "OSX_10_4", "OSX_10_3",
-            "OSX_10_2",
-            "OSX_10_1",
+            "OSX_10_5", "OSX_10_4", "OSX_10_3", "OSX_10_2", "OSX_10_1",
             "OSX"
           ]
         }
