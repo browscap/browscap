@@ -40,7 +40,8 @@
     "seld/jsonlint": "^1.6",
     "mimmi20/ua-browser-type": "^6.0.1",
     "mimmi20/ua-device-type": "^6.0.0",
-    "localheinz/json-normalizer": "^0.5.2"
+    "localheinz/json-normalizer": "^0.5.2",
+    "twig/twig": "~2.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.5 || ^7.0",

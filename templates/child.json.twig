@@ -1,0 +1,53 @@
+{% set added_empty_line = false %}
+        {
+          "match": "{{ child.match }}"{% if not child.browser and not child.engine and not child.device and not child.devices and not child.platforms and not child.properties %}{% set added_empty_line = true %}
+
+{% endif %}{% if child.browser %},
+          "browser": "{{ child.browser }}"{% endif %}{% if child.engine %},
+          "engine": "{{ child.engine }}"{% endif %}{% if child.device %},
+          "device": "{{ child.device }}"{% elseif child.devices %},
+          "devices": {
+{% for key, subdevice in child.devices %}
+            "{{ key }}": "{{ subdevice }}"{% if loop.index < loop.length %},
+{% else %}
+
+{% endif %}
+{% endfor %}
+          }{% endif %}{% if (child.browser or child.engine or child.device or child.devices) and not child.platforms and not child.properties and not added_empty_line %}{% set added_empty_line = true %}
+
+{% endif %}{% if child.platforms %},
+          "platforms": [
+{% for chunk in child.platforms %}
+            {{ chunk|join(', ') }}{% if loop.index < loop.length %},
+{% else %}
+
+{% endif %}
+{% endfor %}
+          ]{% else %}
+{% endif %}{% if child.properties %},
+          "properties": {
+{% if child.properties.Comment %}
+            "Comment": "{{ child.properties.Comment }}"{% if child.properties.Version or child.properties.Browser_Modus %},
+{% endif %}{% endif %}
+{% if child.properties.Version %}
+            "Version": "{{ child.properties.Version }}"{% if child.properties.Browser_Modus or child.properties.Alpha or child.properties.Beta %},
+{% endif %}{% endif %}
+{% if child.properties.Browser_Modus %}
+            "Browser_Modus": "{{ child.properties.Browser_Modus }}"{% if child.properties.isAnonymized %},{% endif %}{% endif %}
+{% if child.properties.isAnonymized %}
+            "isAnonymized": "{{ child.properties.isAnonymized }}"{% if child.properties.isModified %},{% endif %}{% endif %}
+{% if child.properties.isModified %}
+            "isModified": "{{ child.properties.isModified }}"{% if child.properties.Alpha %},{% endif %}{% endif %}
+{% if child.properties.Alpha %}
+            "Alpha": "{{ child.properties.Alpha }}"{% if child.properties.Beta %},
+{% endif %}{% endif %}
+{% if child.properties.Beta %}
+            "Beta": "{{ child.properties.Beta }}"{% if child.properties.CssVersion %},{% endif %}{% endif %}
+{% if child.properties.CssVersion %}
+            "CssVersion": "{{ child.properties.CssVersion }}"{% endif %}
+
+          }
+{% endif %}{% if (child.browser or child.engine or child.device or child.devices or child.platforms) and not child.properties and not added_empty_line %}{% set added_empty_line = true %}
+
+{% endif %}
+        }

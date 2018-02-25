@@ -1,0 +1,25 @@
+    {
+      "userAgent": "{{ useragent.userAgent }}"{% if useragent.browser %},
+      "browser": "{{ useragent.browser }}"{% endif %}{% if useragent.platform %},
+      "platform": "{{ useragent.platform }}"{% endif %}{% if useragent.engine %},
+      "engine": "{{ useragent.engine }}"{% endif %}{% if useragent.device %},
+      "device": "{{ useragent.device }}"{% endif %}{% if useragent.properties %},
+      "properties": {
+        "Parent": "{{ useragent.properties.Parent }}"{% if useragent.properties.Comment %},
+        "Comment": "{{ useragent.properties.Comment }}"{% endif %}{% if useragent.properties.Version %},
+        "Version": "{{ useragent.properties.Version }}"{% endif %}{% if useragent.properties.Alpha %},
+        "Alpha": "{{ useragent.properties.Alpha }}"{% endif %}{% if useragent.properties.Beta %},
+        "Beta": "{{ useragent.properties.Beta }}"{% endif %}{% if useragent.properties.isAnonymized %},
+        "isAnonymized": "{{ useragent.properties.isAnonymized }}"{% endif %}
+
+      }{% endif %}{% if useragent.children %},
+      "children": [
+{% for child in useragent.children %}
+    {{- include('child.json.twig', { 'child': child }) -}}{% if loop.index < loop.length %},
+{% else %}
+
+{% endif %}
+{% endfor %}
+      ]
+{% endif %}
+    }
