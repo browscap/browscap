@@ -44,7 +44,7 @@
 {% if child.properties.Beta is defined %}
             "Beta": {% if child.properties.Beta %}true{% else %}false{% endif %}{% if child.properties.CssVersion is defined %},{% endif %}{% endif %}
 {% if child.properties.CssVersion is defined %}
-            "CssVersion": "{{ child.properties.CssVersion }}"{% endif %}
+            "CssVersion": {{ child.properties.CssVersion }}{% endif %}
 
           }
 {% endif %}{% if (child.browser or child.engine or child.device or child.devices or child.platforms) and not child.properties and not added_empty_line %}{% set added_empty_line = true %}

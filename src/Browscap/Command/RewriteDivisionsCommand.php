@@ -199,7 +199,7 @@ class RewriteDivisionsCommand extends Command
                         continue;
                     }
 
-                    $platforms = $this->sortPlatforms($childData['platforms']);
+                    $platforms = $this->sortPlatforms(array_unique($childData['platforms']));
 
                     $currentPlatform = ['name' => '', 'major-version' => 0, 'minor-version' => 0, 'key' => ''];
                     $currentChunk = -1;
@@ -236,7 +236,7 @@ class RewriteDivisionsCommand extends Command
                             $split[1] = 0;
                         }
 
-                        if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC'])) {
+                        if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_C_dynamic'])) {
                             $currentChunk++;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
                             $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
