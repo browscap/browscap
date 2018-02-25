@@ -3,17 +3,15 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use JsonSchema\Constraints;
+use JsonSchema\SchemaStorage;
+use Localheinz\Json\Normalizer\Validator;
 use Seld\JsonLint\JsonParser;
 use Seld\JsonLint\ParsingException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Localheinz\Json\Normalizer;
-use JsonSchema\Constraints;
-use JsonSchema\Exception;
-use JsonSchema\SchemaStorage;
-use Localheinz\Json\Normalizer\Validator;
 use Symfony\Component\Finder\Finder;
 
 class ValidateCoreDivisionsCommand extends Command
@@ -48,7 +46,7 @@ class ValidateCoreDivisionsCommand extends Command
 
         $logger->info('Resource folder: ' . $input->getOption('resources'));
 
-        $schemaStorage = new SchemaStorage();
+        $schemaStorage   = new SchemaStorage();
         $schemaValidator = new Validator\SchemaValidator(
             new \JsonSchema\Validator(
                 new Constraints\Factory(
@@ -61,9 +59,11 @@ class ValidateCoreDivisionsCommand extends Command
         $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/core-divisions.json');
 
         try {
+            /* @var \stdClass $schema */
             $schema = $schemaStorage->getSchema($schemaUri);
         } catch (\Throwable $exception) {
             $logger->critical('the schema file is invalid');
+
             return 1;
         }
         $failed = false;
@@ -80,7 +80,7 @@ class ValidateCoreDivisionsCommand extends Command
         $finder->in($browserResourcePath);
 
         foreach ($finder as $file) {
-            /** @var \Symfony\Component\Finder\SplFileInfo $file */
+            /* @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());

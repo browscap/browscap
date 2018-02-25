@@ -3,11 +3,11 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use Localheinz\Json\Normalizer;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Localheinz\Json\Normalizer;
 use Symfony\Component\Finder\Finder;
 
 class RewritePlatformsCommand extends Command
@@ -59,7 +59,7 @@ class RewritePlatformsCommand extends Command
         $finder->in($input->getOption('resources'));
 
         foreach ($finder as $file) {
-            /** @var \Symfony\Component\Finder\SplFileInfo $file */
+            /* @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());
@@ -68,6 +68,7 @@ class RewritePlatformsCommand extends Command
                 $normalized = $normalizer->normalize($json);
             } catch (\Throwable $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+
                 continue;
             }
 

@@ -9,7 +9,6 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Localheinz\Json\Normalizer;
 use Symfony\Component\Finder\Finder;
 
 class RewriteDivisionsCommand extends Command
@@ -45,11 +44,11 @@ class RewriteDivisionsCommand extends Command
         $logger->info('Resource folder: ' . $input->getOption('resources'));
 
         $loader = new \Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
-        $twig = new \Twig_Environment($loader, array(
+        $twig   = new \Twig_Environment($loader, [
             'cache' => false,
             'optimizations' => 0,
             'autoescape' => false,
-        ));
+        ]);
 
         $jsonParser = new JsonParser();
 
@@ -57,6 +56,7 @@ class RewriteDivisionsCommand extends Command
             $allPlatforms = $jsonParser->parse(file_get_contents($input->getOption('resources') . '/platforms.json'), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
         } catch (ParsingException $e) {
             $logger->critical('File "' . $input->getOption('resources') . '/platforms.json" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
+
             return 1;
         }
 
@@ -78,6 +78,7 @@ class RewriteDivisionsCommand extends Command
                 $divisionData = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
             } catch (ParsingException $e) {
                 $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
+
                 continue;
             }
 
@@ -196,14 +197,15 @@ class RewriteDivisionsCommand extends Command
                             unset($childData['platforms'][$key]);
                             $childData['platforms'][] = [$key => json_encode($platformkey)];
                         }
+
                         continue;
                     }
 
                     $platforms = $this->sortPlatforms(array_unique($childData['platforms']));
 
                     $currentPlatform = ['name' => '', 'major-version' => 0, 'minor-version' => 0, 'key' => ''];
-                    $currentChunk = -1;
-                    $chunk = [];
+                    $currentChunk    = -1;
+                    $chunk           = [];
 
                     foreach ($platforms as $key => $platformkey) {
                         $platform = $allPlatforms['platforms'][$platformkey];
@@ -218,7 +220,7 @@ class RewriteDivisionsCommand extends Command
                             }
 
                             do {
-                                $parentPlatform = $allPlatforms['platforms'][$platform['inherits']];
+                                $parentPlatform     = $allPlatforms['platforms'][$platform['inherits']];
                                 $platformProperties = array_merge($parentPlatform['properties'], $platformProperties);
                                 unset($platform['inherits']);
 
@@ -237,27 +239,27 @@ class RewriteDivisionsCommand extends Command
                         }
 
                         if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_C_dynamic'])) {
-                            $currentChunk++;
+                            ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
-                            $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
-                        } elseif (false !== strpos($currentPlatform['key'], 'WinXPb') && false !== strpos($platformkey, 'WinXPa')) {
-                            $currentChunk++;
+                            $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
+                        } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPb') && false !== mb_strpos($platformkey, 'WinXPa')) {
+                            ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
-                            $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
-                        } elseif (false !== strpos($currentPlatform['key'], 'WinXPa') && false !== strpos($platformkey, 'WinXPb')) {
-                            $currentChunk++;
+                            $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
+                        } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPa') && false !== mb_strpos($platformkey, 'WinXPb')) {
+                            ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
-                            $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
+                            $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif ($platformProperties['Platform'] !== $currentPlatform['name']
-                            || $split[0] != $currentPlatform['major-version']
+                            || $split[0] !== $currentPlatform['major-version']
                         ) {
-                            $currentChunk++;
+                            ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
-                            $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
+                            $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif (is_numeric($platformProperties['Platform_Version']) && $split[1] > $currentPlatform['minor-version']) {
-                            $currentChunk++;
+                            ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
-                            $currentPlatform = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
+                            $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } else {
                             $chunk[$currentChunk][] = json_encode($platformkey);
                         }
@@ -271,6 +273,7 @@ class RewriteDivisionsCommand extends Command
                 $normalized = $twig->render('division.json.twig', ['divisionData' => $divisionData]);
             } catch (\Twig_Error_Loader | \Twig_Error_Runtime | \Twig_Error_Syntax $e) {
                 $logger->critical($e);
+
                 continue;
             }
 
