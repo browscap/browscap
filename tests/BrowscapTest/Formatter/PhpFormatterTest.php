@@ -100,7 +100,7 @@ class PhpFormatterTest extends TestCase
      */
     public function testFormatPropertyValueWithException() : void
     {
-        $actualValue = $this->object->formatPropertyValue('Browserx', 'Browser_Type');
+        $actualValue = $this->object->formatPropertyValue('Browserx', 'Device_Pointing_Method');
         self::assertSame('', $actualValue);
     }
 

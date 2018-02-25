@@ -38,7 +38,7 @@ class DeviceFactoryTest extends TestCase
      */
     public function testCreationOfDevice() : void
     {
-        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true];
+        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'type' => 'tablet'];
         $deviceName = 'Test';
 
         $device = $this->object->build($deviceData, $deviceName);

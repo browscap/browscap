@@ -84,7 +84,7 @@ class JsonFormatterTest extends TestCase
             ['isMobileDevice', 'test', '""'],
             ['isSyndicationReader', 'test', '""'],
             ['Crawler', 'test', '""'],
-            ['Browser_Type', 'test', '""'],
+            ['Browser_Type', 'Browser', '"Browser"'],
             ['Device_Type', 'Tablet', '"Tablet"'],
             ['Device_Pointing_Method', 'test', '""'],
         ];
@@ -114,7 +114,7 @@ class JsonFormatterTest extends TestCase
      */
     public function testFormatPropertyValueWithException() : void
     {
-        $actualValue = $this->object->formatPropertyValue('Browserx', 'Browser_Type');
+        $actualValue = $this->object->formatPropertyValue('Browserx', 'Device_Pointing_Method');
         self::assertSame('""', $actualValue);
     }
 

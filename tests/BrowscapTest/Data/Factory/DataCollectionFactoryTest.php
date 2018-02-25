@@ -58,20 +58,23 @@ class DataCollectionFactoryTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->setConstructorArgs([$logger])
-            ->setMethods(['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'])
+            ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
         $collection->expects(self::any())
-            ->method('addPlatformsFile')
+            ->method('addPlatform')
             ->will(self::returnSelf());
         $collection->expects(self::any())
-            ->method('addEnginesFile')
+            ->method('addEngine')
             ->will(self::returnSelf());
         $collection->expects(self::any())
-            ->method('addDevicesFile')
+            ->method('addDevice')
             ->will(self::returnSelf());
         $collection->expects(self::any())
-            ->method('addSourceFile')
+            ->method('addBrowser')
+            ->will(self::returnSelf());
+        $collection->expects(self::any())
+            ->method('addDivision')
             ->will(self::returnSelf());
 
         $property = new \ReflectionProperty($this->object, 'collection');

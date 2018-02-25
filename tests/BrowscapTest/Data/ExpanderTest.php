@@ -298,13 +298,18 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getProperties', 'getType'])
             ->getMock();
 
         $device
             ->expects(self::any())
             ->method('getProperties')
             ->will(self::returnValue([]));
+
+        $device
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue('tablet'));
 
         $collection
             ->expects(self::once())
@@ -610,8 +615,18 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getProperties', 'getType'])
             ->getMock();
+
+        $device
+            ->expects(self::any())
+            ->method('getProperties')
+            ->will(self::returnValue([]));
+
+        $device
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue('tablet'));
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -627,11 +642,6 @@ class ExpanderTest extends TestCase
             ->expects(self::any())
             ->method('getMatch')
             ->will(self::returnValue(''));
-
-        $device
-            ->expects(self::any())
-            ->method('getProperties')
-            ->will(self::returnValue([]));
 
         $collection
             ->expects(self::once())
@@ -745,13 +755,18 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getProperties', 'getType'])
             ->getMock();
 
         $device
             ->expects(self::any())
             ->method('getProperties')
             ->will(self::returnValue([]));
+
+        $device
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue('tablet'));
 
         $collection
             ->expects(self::once())

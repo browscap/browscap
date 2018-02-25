@@ -1,33 +1,27 @@
 {
     "2345 browser": {
+        "type": "browser",
         "properties": {
             "Browser": "2345 Browser",
-            "Browser_Type": "Browser",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": false,
-            "Crawler": false
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "chrome": {
+        "type": "browser",
         "properties": {
             "Browser": "Chrome",
-            "Browser_Type": "Browser",
-            "Browser_Maker": "Google Inc",
-            "isSyndicationReader": false,
-            "Crawler": false
+            "Browser_Maker": "Google Inc"
         },
         "lite": false,
         "standard": false
     },
     "chromium": {
+        "type": "browser",
         "properties": {
             "Browser": "Chromium",
-            "Browser_Type": "Browser",
-            "Browser_Maker": "Google Inc",
-            "isSyndicationReader": false,
-            "Crawler": false
+            "Browser_Maker": "Google Inc"
         },
         "lite": false,
         "standard": true

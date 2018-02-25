@@ -21,191 +21,12 @@ class PropertiesValidatorTest extends TestCase
     /**
      * @throws \Assert\AssertionFailedException
      */
-    public function testCheckPropertyWithoutVersion() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('Version property not found for key "test"');
-
-        $properties = [];
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
     public function testCheckPropertyWithoutParent() : void
     {
         $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('Parent property is missing for key "test"');
+        $this->expectExceptionMessage('property "Parent" is missing for key "test"');
 
-        $properties = [
-            'Version' => 'abc',
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckPropertyWithoutDeviceType() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('property "Device_Type" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckPropertyWithoutIsTablet() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('property "isTablet" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckPropertyWithoutIsMobileDevice() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('property "isMobileDevice" is missing for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckTabletMismatchIsTablet() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Tablet for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Tablet',
-            'isTablet' => false,
-            'isMobileDevice' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckTabletMismatchIsMobileDevice() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Tablet" is NOT marked as Mobile Device for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Tablet',
-            'isTablet' => true,
-            'isMobileDevice' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckMobileMismatchIsTablet() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Mobile Phone" is marked as Tablet for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Mobile Phone',
-            'isTablet' => true,
-            'isMobileDevice' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckMobileMismatchIsMobileDevice() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Mobile Phone" is NOT marked as Mobile Device for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Mobile Phone',
-            'isTablet' => false,
-            'isMobileDevice' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckDesktopMismatchIsTablet() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Desktop" is marked as Tablet for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => true,
-            'isMobileDevice' => true,
-        ];
-
-        $this->object->validate($properties, 'test');
-    }
-
-    /**
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckDesktopMismatchIsMobileDevice() : void
-    {
-        $this->expectException(LogicException::class);
-        $this->expectExceptionMessage('the device of type "Desktop" is marked as Mobile Device for key "test"');
-
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => false,
-            'isMobileDevice' => true,
-        ];
+        $properties = [];
 
         $this->object->validate($properties, 'test');
     }
@@ -215,54 +36,58 @@ class PropertiesValidatorTest extends TestCase
      *
      * @throws \Assert\AssertionFailedException
      */
-    public function testCheckPropertyOkDesktop() : void
+    public function testCheckPropertyOk() : void
     {
         $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Desktop',
-            'isTablet' => false,
+            'Parent' => 'default',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
+            'Browser_Bits' => 0,
+            'Browser_Maker' => 'unknown',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'unknown',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'unknown',
+            'Platform_Bits' => 0,
+            'Platform_Maker' => 'unknown',
+            'Alpha' => false,
+            'Beta' => false,
+            'Win16' => false,
+            'Win32' => false,
+            'Win64' => false,
+            'Frames' => false,
+            'IFrames' => false,
+            'Tables' => false,
+            'Cookies' => false,
+            'BackgroundSounds' => false,
+            'JavaScript' => false,
+            'VBScript' => false,
+            'JavaApplets' => false,
+            'ActiveXControls' => false,
             'isMobileDevice' => false,
-        ];
-
-        $this->object->validate($properties, 'test');
-
-        self::assertTrue(true);
-    }
-
-    /**
-     * tests if no error is raised if all went well
-     *
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckPropertyOkTablet() : void
-    {
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Tablet',
-            'isTablet' => true,
-            'isMobileDevice' => true,
-        ];
-
-        $this->object->validate($properties, 'test');
-
-        self::assertTrue(true);
-    }
-
-    /**
-     * tests if no error is raised if all went well
-     *
-     * @throws \Assert\AssertionFailedException
-     */
-    public function testCheckPropertyOkMobile() : void
-    {
-        $properties = [
-            'Version' => 'abc',
-            'Parent' => '123',
-            'Device_Type' => 'Mobile Phone',
             'isTablet' => false,
-            'isMobileDevice' => true,
+            'isSyndicationReader' => false,
+            'Crawler' => false,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => 0,
+            'AolVersion' => 0,
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'unknown',
+            'Device_Pointing_Method' => 'unknown',
+            'Device_Code_Name' => 'unknown',
+            'Device_Brand_Name' => 'unknown',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Description' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown',
+            'PatternId' => 'resources/core/default-browser.json::u0',
         ];
 
         $this->object->validate($properties, 'test');
