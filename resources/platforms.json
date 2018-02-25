@@ -2491,7 +2491,7 @@
         "Platform_Description": "Windows NT"
       }
     },
-    "NT40_64": {
+    "NT4_64": {
       "match": "*Windows NT 4.0; *WOW64*",
       "lite": false,
       "standard": false,

@@ -30,20 +30,20 @@
             "Comment": "{{ child.properties.Comment }}"{% if child.properties.Version or child.properties.Browser_Modus %},
 {% endif %}{% endif %}
 {% if child.properties.Version %}
-            "Version": "{{ child.properties.Version }}"{% if child.properties.Browser_Modus or child.properties.Alpha or child.properties.Beta %},
+            "Version": "{{ child.properties.Version }}"{% if child.properties.Browser_Modus or child.properties.Alpha is defined or child.properties.Beta is defined %},
 {% endif %}{% endif %}
-{% if child.properties.Browser_Modus %}
-            "Browser_Modus": "{{ child.properties.Browser_Modus }}"{% if child.properties.isAnonymized %},{% endif %}{% endif %}
-{% if child.properties.isAnonymized %}
-            "isAnonymized": "{{ child.properties.isAnonymized }}"{% if child.properties.isModified %},{% endif %}{% endif %}
-{% if child.properties.isModified %}
-            "isModified": "{{ child.properties.isModified }}"{% if child.properties.Alpha %},{% endif %}{% endif %}
-{% if child.properties.Alpha %}
-            "Alpha": "{{ child.properties.Alpha }}"{% if child.properties.Beta %},
+{% if child.properties.Browser_Modus is defined %}
+            "Browser_Modus": "{{ child.properties.Browser_Modus }}"{% if child.properties.isAnonymized is defined %},{% endif %}{% endif %}
+{% if child.properties.isAnonymized is defined %}
+            "isAnonymized": {% if child.properties.isAnonymized %}true{% else %}false{% endif %}{% if child.properties.isModified is defined %},{% endif %}{% endif %}
+{% if child.properties.isModified is defined %}
+            "isModified": {% if child.properties.isModified %}true{% else %}false{% endif %}{% if child.properties.Alpha is defined %},{% endif %}{% endif %}
+{% if child.properties.Alpha is defined %}
+            "Alpha": {% if child.properties.Alpha %}true{% else %}false{% endif %}{% if child.properties.Beta is defined %},
 {% endif %}{% endif %}
-{% if child.properties.Beta %}
-            "Beta": "{{ child.properties.Beta }}"{% if child.properties.CssVersion %},{% endif %}{% endif %}
-{% if child.properties.CssVersion %}
+{% if child.properties.Beta is defined %}
+            "Beta": {% if child.properties.Beta %}true{% else %}false{% endif %}{% if child.properties.CssVersion is defined %},{% endif %}{% endif %}
+{% if child.properties.CssVersion is defined %}
             "CssVersion": "{{ child.properties.CssVersion }}"{% endif %}
 
           }
