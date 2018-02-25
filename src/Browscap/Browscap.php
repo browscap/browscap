@@ -28,6 +28,11 @@ class Browscap extends Application
         $this->add(new Command\RewriteCoreDivisionsCommand());
         $this->add(new Command\ValidateCoreDivisionsCommand());
 
+        $this->add(new Command\RewriteDivisionsCommand());
         $this->add(new Command\ValidateDivisionsCommand());
+
+        $this->add(new Command\ValidateCommand());
+
+        $this->add(new Command\RewriteTestFixturesCommand());
     }
 }

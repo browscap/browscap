@@ -10,21 +10,13 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Localheinz\Json\Normalizer;
 use Symfony\Component\Finder\Finder;
 
-class RewriteDevicesCommand extends Command
+class RewriteTestFixturesCommand extends Command
 {
-    /**
-     * @var string
-     */
-    private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
-
     protected function configure() : void
     {
-        $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
-
         $this
-            ->setName('rewrite-devices')
-            ->setDescription('rewrites the resource files for the devices')
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
+            ->setName('rewrite-test-fixtures')
+            ->setDescription('rewrites the test files in the fitires folder');
     }
 
     /**
@@ -38,14 +30,9 @@ class RewriteDevicesCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/devices';
-
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
-
-        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/devices.json');
+        $resourcePath = __DIR__ . '/../../../tests/fixtures';
 
         $normalizer = new Normalizer\ChainNormalizer(
-            new Normalizer\SchemaNormalizer($schema),
             new Normalizer\JsonEncodeNormalizer(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
             new Normalizer\IndentNormalizer('  '),
             new Normalizer\FinalNewLineNormalizer()
@@ -58,10 +45,9 @@ class RewriteDevicesCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
+        $finder->in($resourcePath);
 
         foreach ($finder as $file) {
-            /** @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());

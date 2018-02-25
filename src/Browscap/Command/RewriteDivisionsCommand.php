@@ -10,7 +10,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Localheinz\Json\Normalizer;
 use Symfony\Component\Finder\Finder;
 
-class RewriteDevicesCommand extends Command
+class RewriteDivisionsCommand extends Command
 {
     /**
      * @var string
@@ -22,8 +22,8 @@ class RewriteDevicesCommand extends Command
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
         $this
-            ->setName('rewrite-devices')
-            ->setDescription('rewrites the resource files for the devices')
+            ->setName('rewrite-divisions')
+            ->setDescription('rewrites the resource files for the divisions')
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
@@ -38,11 +38,11 @@ class RewriteDevicesCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/devices';
+        $browserResourcePath = $input->getOption('resources') . '/user-agents';
 
         $logger->info('Resource folder: ' . $input->getOption('resources'));
 
-        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/devices.json');
+        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/divisions.json');
 
         $normalizer = new Normalizer\ChainNormalizer(
             new Normalizer\SchemaNormalizer($schema),
@@ -61,7 +61,6 @@ class RewriteDevicesCommand extends Command
         $finder->in($browserResourcePath);
 
         foreach ($finder as $file) {
-            /** @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());

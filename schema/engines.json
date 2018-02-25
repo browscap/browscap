@@ -4,7 +4,8 @@
   "properties": {
     "engines": {
       "type": "object",
-
+      "minItems": 1,
+      "uniqueItems": true,
       "items": {
         "type": "object",
         "properties": {

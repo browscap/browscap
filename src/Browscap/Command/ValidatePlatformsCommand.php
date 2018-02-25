@@ -81,11 +81,7 @@ class ValidatePlatformsCommand extends Command
 
         foreach ($finder as $file) {
             /** @var \Symfony\Component\Finder\SplFileInfo $file */
-            if (!$file->isFile() || $file->getExtension() !== 'json') {
-                continue;
-            }
-
-            $logger->debug('read source file ' . $file->getPathname());
+            $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());
 

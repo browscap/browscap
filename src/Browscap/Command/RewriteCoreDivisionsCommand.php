@@ -42,8 +42,6 @@ class RewriteCoreDivisionsCommand extends Command
 
         $logger->info('Resource folder: ' . $input->getOption('resources'));
 
-        $iterator = new \RecursiveDirectoryIterator($browserResourcePath);
-
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/core-divisions.json');
 
         $normalizer = new Normalizer\ChainNormalizer(
@@ -63,7 +61,7 @@ class RewriteCoreDivisionsCommand extends Command
         $finder->in($browserResourcePath);
 
         foreach ($finder as $file) {
-            $logger->debug('read source file ' . $file->getPathname());
+            $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());
 

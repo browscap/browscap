@@ -60,7 +60,7 @@ class RewritePlatformsCommand extends Command
 
         foreach ($finder as $file) {
             /** @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->debug('read source file ' . $file->getPathname());
+            $logger->info('read source file ' . $file->getPathname());
 
             $json = file_get_contents($file->getPathname());
 
