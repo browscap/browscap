@@ -59,7 +59,7 @@ class ValidateEnginesCommand extends Command
         $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/engines.json');
 
         try {
-            /* @var \stdClass $schema */
+            /** @var \stdClass $schema */
             $schema = $schemaStorage->getSchema($schemaUri);
         } catch (\Throwable $exception) {
             $logger->critical('the schema file is invalid');

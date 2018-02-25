@@ -59,7 +59,7 @@ class ValidateBrowsersCommand extends Command
         $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/browsers.json');
 
         try {
-            /* @var \stdClass $schema */
+            /** @var \stdClass $schema */
             $schema = $schemaStorage->getSchema($schemaUri);
         } catch (\Throwable $exception) {
             $logger->critical('the schema file is invalid');
