@@ -4,6 +4,7 @@ namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
 use Browscap\Data\Browser;
+use UaBrowserType\TypeLoader;
 
 class BrowserFactory
 {
@@ -32,6 +33,10 @@ class BrowserFactory
 
         Assertion::keyExists($browserData, 'type', 'the value for "type" key is missing for browser "' . $browserName . '"');
         Assertion::string($browserData['type']);
+
+        if (!(new TypeLoader())->has($browserData['type'])) {
+            throw new \InvalidArgumentException('unsupported browser type given for browser "' . $browserName . '"');
+        }
 
         return new Browser($browserData['properties'], $browserData['type'], $browserData['lite'], $browserData['standard']);
     }

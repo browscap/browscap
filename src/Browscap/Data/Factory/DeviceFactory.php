@@ -4,6 +4,7 @@ namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
 use Browscap\Data\Device;
+use UaDeviceType\TypeLoader;
 
 final class DeviceFactory
 {
@@ -28,6 +29,10 @@ final class DeviceFactory
 
         Assertion::keyExists($deviceData, 'type', 'the value for "type" key is missing for device "' . $deviceName . '"');
         Assertion::string($deviceData['type']);
+
+        if (!(new TypeLoader())->has($deviceData['type'])) {
+            throw new \InvalidArgumentException('unsupported device type given for device "' . $deviceName . '"');
+        }
 
         return new Device($deviceData['properties'], $deviceData['type'], $deviceData['standard']);
     }

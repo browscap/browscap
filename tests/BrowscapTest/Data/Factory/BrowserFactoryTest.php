@@ -5,6 +5,7 @@ namespace BrowscapTest\Data\Factory;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Browser;
 use Browscap\Data\Factory\BrowserFactory;
+use InvalidArgumentException as BaseInvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class BrowserFactoryTest extends TestCase
@@ -28,6 +29,20 @@ class BrowserFactoryTest extends TestCase
         $this->expectExceptionMessage('the value for "standard" key is missing for browser "Test"');
 
         $browserData = ['abc' => 'def'];
+        $browserName = 'Test';
+
+        $this->object->build($browserData, $browserName);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testBuildWithWrongBrowserType() : void
+    {
+        $this->expectException(BaseInvalidArgumentException::class);
+        $this->expectExceptionMessage('unsupported browser type given for browser "Test"');
+
+        $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'does not exist'];
         $browserName = 'Test';
 
         $this->object->build($browserData, $browserName);

@@ -167,7 +167,7 @@ class Expander
                 $standard = false;
             }
 
-            $deviceTypeLoader = DeviceTypeLoader::getInstance();
+            $deviceTypeLoader = new DeviceTypeLoader();
 
             try {
                 $deviceType = $deviceTypeLoader->load($device->getType());
@@ -198,7 +198,7 @@ class Expander
                 $lite = false;
             }
 
-            $browserTypeLoader = BrowserTypeLoader::getInstance();
+            $browserTypeLoader = new BrowserTypeLoader();
 
             try {
                 $browserType = $browserTypeLoader->load($browser->getType());
@@ -316,7 +316,7 @@ class Expander
                         $properties['standard'] = false;
                     }
 
-                    $deviceTypeLoader = DeviceTypeLoader::getInstance();
+                    $deviceTypeLoader = new DeviceTypeLoader();
 
                     try {
                         $deviceType = $deviceTypeLoader->load($device->getType());
@@ -347,7 +347,7 @@ class Expander
                         $properties['lite'] = false;
                     }
 
-                    $browserTypeLoader = BrowserTypeLoader::getInstance();
+                    $browserTypeLoader = new BrowserTypeLoader();
 
                     try {
                         $browserType = $browserTypeLoader->load($browser->getType());
@@ -404,7 +404,7 @@ class Expander
                     $properties['standard'] = false;
                 }
 
-                $deviceTypeLoader = DeviceTypeLoader::getInstance();
+                $deviceTypeLoader = new DeviceTypeLoader();
 
                 try {
                     $deviceType = $deviceTypeLoader->load($device->getType());
@@ -435,7 +435,7 @@ class Expander
                     $properties['lite'] = false;
                 }
 
-                $browserTypeLoader = BrowserTypeLoader::getInstance();
+                $browserTypeLoader = new BrowserTypeLoader();
 
                 try {
                     $browserType = $browserTypeLoader->load($browser->getType());
