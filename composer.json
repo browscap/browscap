@@ -37,7 +37,7 @@
     "monolog/monolog": "^1.23",
     "beberlei/assert": "^2.8",
     "seld/jsonlint": "^1.6",
-    "mimmi20/ua-browser-type": "^6.0.0",
+    "mimmi20/ua-browser-type": "^6.0.1",
     "mimmi20/ua-device-type": "^6.0.0",
     "localheinz/json-normalizer": "^0.5.2"
   },
@@ -46,6 +46,7 @@
     "browscap/browscap-php": "^3.1.0",
     "mikey179/vfsStream": "^1.6",
     "friendsofphp/php-cs-fixer": "^2.10",
+    "localheinz/composer-normalize": "^0.6.0",
     "phpstan/phpstan": "^0.9"
   },
   "suggest": {

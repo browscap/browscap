@@ -34,9 +34,13 @@ class BrowserFactory
         Assertion::keyExists($browserData, 'type', 'the value for "type" key is missing for browser "' . $browserName . '"');
         Assertion::string($browserData['type']);
 
+        // check for available values in external library
         if (!(new TypeLoader())->has($browserData['type'])) {
-            throw new \InvalidArgumentException('unsupported browser type given for browser "' . $browserName . '"');
+            throw new \UnexpectedValueException('unsupported browser type given for browser "' . $browserName . '"');
         }
+
+        // check for supported values (browscap-php) @todo remove asap
+        Assertion::inArray($browserData['type'], ['application', 'bot', 'browser', 'email-client', 'feed-reader', 'library', 'multimedia-player', 'offline-browser', 'tool', 'transcoder', 'unknown', 'useragent-anonymizer']);
 
         return new Browser($browserData['properties'], $browserData['type'], $browserData['lite'], $browserData['standard']);
     }

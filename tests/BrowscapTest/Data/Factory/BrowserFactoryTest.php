@@ -5,7 +5,6 @@ namespace BrowscapTest\Data\Factory;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Browser;
 use Browscap\Data\Factory\BrowserFactory;
-use InvalidArgumentException as BaseInvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class BrowserFactoryTest extends TestCase
@@ -39,10 +38,24 @@ class BrowserFactoryTest extends TestCase
      */
     public function testBuildWithWrongBrowserType() : void
     {
-        $this->expectException(BaseInvalidArgumentException::class);
+        $this->expectException(\UnexpectedValueException::class);
         $this->expectExceptionMessage('unsupported browser type given for browser "Test"');
 
         $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'does not exist'];
+        $browserName = 'Test';
+
+        $this->object->build($browserData, $browserName);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testBuildWithUnsupportedBrowserType() : void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Value "validator" is not an element of the valid values: application, bot, browser, email-client, feed-reader, library, multimedia-player, offline-browser, tool, transcoder, unknown, useragent-anonymizer');
+
+        $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'validator'];
         $browserName = 'Test';
 
         $this->object->build($browserData, $browserName);

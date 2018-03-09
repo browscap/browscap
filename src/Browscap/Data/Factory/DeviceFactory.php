@@ -30,9 +30,13 @@ final class DeviceFactory
         Assertion::keyExists($deviceData, 'type', 'the value for "type" key is missing for device "' . $deviceName . '"');
         Assertion::string($deviceData['type']);
 
+        // check for available values in external library
         if (!(new TypeLoader())->has($deviceData['type'])) {
-            throw new \InvalidArgumentException('unsupported device type given for device "' . $deviceName . '"');
+            throw new \UnexpectedValueException('unsupported device type given for device "' . $deviceName . '"');
         }
+
+        // check for supported values (browscap-php) @todo remove asap
+        Assertion::inArray($deviceData['type'], ['car-entertainment-system', 'console', 'desktop', 'digital-camera', 'ebook-reader', 'feature-phone', 'fone-pad', 'mobile-console', 'mobile-device', 'mobile-phone', 'smartphone', 'tablet', 'tv', 'unknown']);
 
         return new Device($deviceData['properties'], $deviceData['type'], $deviceData['standard']);
     }
