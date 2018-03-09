@@ -36,7 +36,7 @@ final class DeviceFactory
         }
 
         // check for supported values (browscap-php) @todo remove asap
-        Assertion::inArray($deviceData['type'], ['car-entertainment-system', 'console', 'desktop', 'digital-camera', 'ebook-reader', 'feature-phone', 'fone-pad', 'mobile-console', 'mobile-device', 'mobile-phone', 'smartphone', 'tablet', 'tv', 'unknown']);
+        Assertion::inArray($deviceData['type'], ['car-entertainment-system', 'console', 'desktop', 'digital-camera', 'ebook-reader', 'feature-phone', 'fone-pad', 'mobile-console', 'mobile-device', 'mobile-phone', 'smartphone', 'tablet', 'tv', 'tv-console', 'unknown']);
 
         return new Device($deviceData['properties'], $deviceData['type'], $deviceData['standard']);
     }

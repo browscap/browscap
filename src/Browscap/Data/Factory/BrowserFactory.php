@@ -40,7 +40,7 @@ class BrowserFactory
         }
 
         // check for supported values (browscap-php) @todo remove asap
-        Assertion::inArray($browserData['type'], ['application', 'bot', 'browser', 'email-client', 'feed-reader', 'library', 'multimedia-player', 'offline-browser', 'tool', 'transcoder', 'unknown', 'useragent-anonymizer']);
+        Assertion::inArray($browserData['type'], ['application', 'bot', 'bot-syndication-reader', 'bot-trancoder', 'browser', 'email-client', 'feed-reader', 'library', 'multimedia-player', 'offline-browser', 'tool', 'transcoder', 'useragent-anonymizer', 'unknown']);
 
         return new Browser($browserData['properties'], $browserData['type'], $browserData['lite'], $browserData['standard']);
     }
