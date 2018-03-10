@@ -53,7 +53,7 @@ class DeviceFactoryTest extends TestCase
     public function testBuildWithUnsupportedDeviceType() : void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessage('Value "phablet" is not an element of the valid values: car-entertainment-system, console, desktop, digital-camera, ebook-reader, feature-phone, fone-pad, mobile-console, mobile-device, mobile-phone, smartphone, tablet, tv, unknown');
+        $this->expectExceptionMessage('Value "phablet" is not an element of the valid values: car-entertainment-system, console, desktop, digital-camera, ebook-reader, feature-phone, fone-pad, mobile-console, mobile-device, mobile-phone, smartphone, tablet, tv, tv-console, unknown');
 
         $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'type' => 'phablet'];
         $deviceName = 'Test';

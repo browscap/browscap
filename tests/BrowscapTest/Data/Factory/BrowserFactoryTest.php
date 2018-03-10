@@ -53,7 +53,7 @@ class BrowserFactoryTest extends TestCase
     public function testBuildWithUnsupportedBrowserType() : void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessage('Value "validator" is not an element of the valid values: application, bot, browser, email-client, feed-reader, library, multimedia-player, offline-browser, tool, transcoder, unknown, useragent-anonymizer');
+        $this->expectExceptionMessage('Value "validator" is not an element of the valid values: application, bot, bot-syndication-reader, bot-trancoder, browser, email-client, feed-reader, library, multimedia-player, offline-browser, tool, transcoder, useragent-anonymizer, unknown');
 
         $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'validator'];
         $browserName = 'Test';
