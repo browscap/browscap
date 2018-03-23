@@ -1,106 +1,90 @@
 {
     "DoCoMo N-03E": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N-03E",
             "Device_Code_Name": "N-03E",
             "Device_Maker": "NTT DoCoMo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NTT DoCoMo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "DoCoMo P900i": {
-        "standard": true,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "P900i",
             "Device_Code_Name": "P900i",
             "Device_Maker": "NTT DoCoMo",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NTT DoCoMo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": true
     },
     "DoCoMo P901i": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "P901i",
             "Device_Code_Name": "P901i",
             "Device_Maker": "NTT DoCoMo",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NTT DoCoMo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "NEC 0912": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "NEC Casio N-02E",
             "Device_Code_Name": "0912",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NTT DoCoMo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "NEC N-06E": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Medias X",
             "Device_Code_Name": "N-06E",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NTT DoCoMo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "Sharp SH-01F": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SH-01F",
             "Device_Name": "Aquos Phone Zeta",
+            "Device_Code_Name": "SH-01F",
             "Device_Maker": "Sharp Corporation",
-            "Device_Brand_Name": "NTT DoCoMo",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "Sharp SH-05C": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SH-05C",
             "Device_Name": "SH-05C",
+            "Device_Code_Name": "SH-05C",
             "Device_Maker": "Sharp Corporation",
-            "Device_Brand_Name": "NTT DoCoMo",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     },
     "Sharp SH-10D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SH-10D",
             "Device_Name": "SH-10D",
+            "Device_Code_Name": "SH-10D",
             "Device_Maker": "Sharp Corporation",
-            "Device_Brand_Name": "NTT DoCoMo",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NTT DoCoMo"
+        },
+        "standard": false
     }
 }

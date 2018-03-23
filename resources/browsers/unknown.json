@@ -1,308 +1,252 @@
 {
     "alcatel": {
+        "type": "unknown",
         "properties": {
             "Browser": "Alcatel",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "amoi": {
+        "type": "unknown",
         "properties": {
             "Browser": "Amoi",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "argclrint": {
+        "type": "unknown",
         "properties": {
             "Browser": "ArgClrInt",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "asus": {
+        "type": "unknown",
         "properties": {
             "Browser": "Asus",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "attws": {
+        "type": "unknown",
         "properties": {
             "Browser": "ATTWS",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "au": {
+        "type": "unknown",
         "properties": {
             "Browser": "AU",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "bellwave": {
+        "type": "unknown",
         "properties": {
             "Browser": "Bellwave",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "benq": {
+        "type": "unknown",
         "properties": {
             "Browser": "BenQ",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "bird": {
+        "type": "unknown",
         "properties": {
             "Browser": "BIRD",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "bolt": {
+        "type": "unknown",
         "properties": {
             "Browser": "Bolt",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "boxee": {
+        "type": "unknown",
         "properties": {
             "Browser": "Boxee",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "Boxee, Inc.",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "Boxee, Inc."
         },
         "lite": false,
         "standard": true
     },
     "ccwap": {
+        "type": "unknown",
         "properties": {
             "Browser": "ccWAP",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas cloakbrowser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas cloakBrowser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas fantombrowser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas fantomBrowser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas fantomcrew browser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas fantomCrew Browser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas multiblocker browser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas multiBlocker browser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas shadowmaker browser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas shadowMaker Browser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "fantomas stealthbrowser": {
+        "type": "unknown",
         "properties": {
             "Browser": "fantomas stealthBrowser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "hp secure web browser": {
+        "type": "unknown",
         "properties": {
             "Browser": "HP Secure Web Browser",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "iphone simulator": {
+        "type": "unknown",
         "properties": {
             "Browser": "iPhone Simulator",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "lycoris desktop/lx": {
+        "type": "unknown",
         "properties": {
             "Browser": "Lycoris Desktop/LX",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "mosaic": {
+        "type": "unknown",
         "properties": {
             "Browser": "Mosaic",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "netbox": {
+        "type": "unknown",
         "properties": {
             "Browser": "Netbox",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "netpositive": {
+        "type": "unknown",
         "properties": {
             "Browser": "NetPositive",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "pocket pc": {
+        "type": "unknown",
         "properties": {
             "Browser": "Pocket PC",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": false
     },
     "powertv": {
+        "type": "unknown",
         "properties": {
             "Browser": "PowerTV",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true
     },
     "vms_mosaic": {
+        "type": "unknown",
         "properties": {
             "Browser": "VMS_Mosaic",
-            "Browser_Type": "unknown",
-            "Browser_Maker": "unknown",
-            "isSyndicationReader": "false",
-            "Crawler": "false"
+            "Browser_Maker": "unknown"
         },
         "lite": false,
         "standard": true

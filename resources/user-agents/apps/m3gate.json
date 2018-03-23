@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "M3Gate",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

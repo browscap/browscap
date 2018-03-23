@@ -1,54 +1,46 @@
 {
     "Google Pixel": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pixel",
             "Device_Name": "Pixel",
+            "Device_Code_Name": "Pixel",
             "Device_Maker": "Google",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": false
     },
     "Google Pixel 2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pixel 2",
             "Device_Name": "Pixel 2",
+            "Device_Code_Name": "Pixel 2",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Google Pixel XL": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pixel XL",
-            "Device_Name": "Pixel XL",
-            "Device_Maker": "Google",
-            "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": false
     },
     "Google Pixel 2 XL": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pixel 2 XL",
             "Device_Name": "Pixel 2 XL",
+            "Device_Code_Name": "Pixel 2 XL",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Google"
+        },
+        "standard": false
+    },
+    "Google Pixel XL": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "Pixel XL",
+            "Device_Code_Name": "Pixel XL",
+            "Device_Maker": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Google"
+        },
+        "standard": false
     }
 }

@@ -1,15 +1,13 @@
 {
     "HTC 9292": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "9292",
             "Device_Name": "EVO 4G",
+            "Device_Code_Name": "9292",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "Sprint",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sprint"
+        },
+        "standard": false
     }
 }

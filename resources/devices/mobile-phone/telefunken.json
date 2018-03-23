@@ -1,15 +1,13 @@
 {
     "Telefunken TF-SP4502": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "TF-SP4502",
             "Device_Code_Name": "TF-SP4502",
             "Device_Maker": "Telefunken",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Telefunken",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Telefunken"
+        },
+        "standard": false
     }
 }

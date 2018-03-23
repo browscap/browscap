@@ -1,0 +1,1136 @@
+{
+    "aiderss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "AideRSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "become": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Become",
+            "Browser_Maker": "Become, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "becomebot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BecomeBot",
+            "Browser_Maker": "Become, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "becomejpbot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BecomeJPBot",
+            "Browser_Maker": "Become, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blijbolreallysimpleaggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BlijbolReallySimpleAggregator",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bloglines title fetch": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Bloglines Title Fetch",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bloglines web": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BlogLines Web",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "bloglovin bot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Bloglovin Bot",
+            "Browser_Maker": "bloglovin.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blogpulse": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BlogPulse",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blogpulselive": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BlogPulseLive",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "blogshares spiders": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Blogshares Spiders",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "boardreader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BoardReader",
+            "Browser_Maker": "BoardReader"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "boardreader indexer": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BoardReader Indexer",
+            "Browser_Maker": "BoardReader"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "botw feed grabber": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "BOTW Feed Grabber",
+            "Browser_Maker": "botw.org"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cc metadata scaper": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "CC Metadata Scaper",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cita rss aggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "CITA RSS Aggregator",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "cocoal.icio.us": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Cocoal.icio.us",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "custom-feed reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Custom-Feed Reader",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "digg feed fetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Digg Feed Fetcher",
+            "Browser_Maker": "News.me Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "everyfeed spider": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Everyfeed Spider",
+            "Browser_Maker": "everyfeed.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feed find": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feed Find",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feed for free": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feed For Free",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feed wrangler": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feed Wrangler",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedbin": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedBin",
+            "Browser_Maker": "Ben Ubois"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedblitz": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedBlitz",
+            "Browser_Maker": "FeedBlitz.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedbucket": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedBucket",
+            "Browser_Maker": "feedbucket.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedburner": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedBurner",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feeddemon": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedDemon",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feeddigest": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedDigest",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedghost": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedGhost",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedhub": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedHub",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedhub feeddiscovery": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedHub FeedDiscovery",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedhub feedfetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedHub FeedFetcher",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedhub metadatafetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedHub MetaDataFetcher",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedjira": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feedjira",
+            "Browser_Maker": "Feedjira"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedly app": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "feedly App",
+            "Browser_Maker": "feedly.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedly feed fetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "feedly Feed Fetcher",
+            "Browser_Maker": "feedly.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedlybot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedlyBot",
+            "Browser_Maker": "feedly.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedonfeeds": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "FeedOnFeeds",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedraider": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "feedraider",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feeds blogs": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feeds Blogs",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feeds syndicators": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feeds Syndicators",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedshow": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feedshow",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "feedster": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Feedster",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "fever": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Fever",
+            "Browser_Maker": "Shaun Inman"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "general rss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "General RSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "genieo rss reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Genieo RSS Reader",
+            "Browser_Maker": "Genieo"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "google feedfetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Google Feedfetcher",
+            "Browser_Maker": "Google Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "greatnews": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "GreatNews",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "gregarius": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Gregarius",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hatena rss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Hatena RSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "hiddenmarket": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "HiddenMarket",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "igooglegadgets": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "iGoogleGadgets",
+            "Browser_Maker": "Google Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "inclue": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Inclue",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "intravnews": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "intraVnews",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "irish blogs aggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Irish Blogs Aggregator",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "jakarta feedparser": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Jakarta FeedParser",
+            "Browser_Maker": "The Apache Software Foundation"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "kinjabot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "kinjabot",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "liferea": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Liferea",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "linklint": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "LinkLint",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "livedoor feedfetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "livedoor FeedFetcher",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "magpierss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "MagpieRSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "marsedit": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "MarsEdit",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "microsoft live": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Microsoft Live",
+            "Browser_Maker": "Microsoft Corporation"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "mobitype": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Mobitype",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "monkeycrawl": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "MonkeyCrawl",
+            "Browser_Maker": "Become, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "msn feed manager": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "MSN Feed Manager",
+            "Browser_Maker": "Microsoft Corporation"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "net::trackback": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Net::Trackback",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netnewswire": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NetNewsWire",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netvibes": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Netvibes",
+            "Browser_Maker": "Dassault Systemes"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "netvisualize": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NetVisualize",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsalloy": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsAlloy",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsbeuter rss aggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Newsbeuter RSS Aggregator",
+            "Browser_Maker": "newsbeuter.org"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsblur favicon fetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsBlur Favicon Fetcher",
+            "Browser_Maker": "www.newsblur.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsblur feed fetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsBlur Feed Fetcher",
+            "Browser_Maker": "www.newsblur.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsbrain": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Newsbrain",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsfox": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsFox",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsgator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsGator",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsgator fetchlinks": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsGator FetchLinks",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsgatoronline": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsGatorOnline",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsme": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "newsme",
+            "Browser_Maker": "News.me Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newsmonster": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsMonster",
+            "Browser_Maker": "Kevin Burton"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newstin": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "NewsTin",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "newz crawler": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Newz Crawler",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "nuzzel bot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Nuzzel Bot",
+            "Browser_Maker": "Nuzzle Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "omea reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Omea Reader",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "omnipelagos": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Omnipelagos",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "particls": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Particls",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "podtech network": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Podtech Network",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "protopage": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Protopage",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "pubsub-rss-reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "PubSub-RSS-Reader",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "r6 feedfetcher": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "R6 FeedFetcher",
+            "Browser_Maker": "Salesforce.com, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "reblog": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Reblog",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rojo": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Rojo",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rss menu": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSS Menu",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rss panel": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSS Panel",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rss reader panel": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSS Reader Panel",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rss2html": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSS2HTML",
+            "Browser_Maker": "NotePage, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rssbandit": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RssBandit",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rssbar": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RssBar",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rssmicro": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSSMicro",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "rssowl": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "RSSOwl",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "ruunk": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Ruunk",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "safari rss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Safari RSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "sharpreader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "SharpReader",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "simplepie": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "SimplePie",
+            "Browser_Maker": "Ryan Parman, Geoffrey Sneddon, Ryan McCue and contributors"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "specificfeeds aggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "SpecificFeeds Aggregator",
+            "Browser_Maker": "specificfeeds.com"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "spinn3r rss aggregator": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Spinn3r RSS Aggregator",
+            "Browser_Maker": "Tailrank Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "strategic board bot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Strategic Board Bot",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "superfeedr bot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Superfeedr Bot",
+            "Browser_Maker": "Superfeedr"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "symfony rss reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Symfony RSS Reader",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tailrank": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "TailRank",
+            "Browser_Maker": "Tailrank Inc"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "targetyournews": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "TargetYourNews",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "technoratibot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Technoratibot",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "the old reader": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "The Old Reader",
+            "Browser_Maker": "The Old Reader"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tiny tiny rss": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Tiny Tiny RSS",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "touchstone": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "TouchStone",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "trapitagent feed processor": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "TrapitAgent Feed Processor",
+            "Browser_Maker": "Trapit"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "tumblr rss syndication": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Tumblr RSS syndication",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "universalfeedparser": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "UniversalFeedParser",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "vancouver": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Vancouver",
+            "Browser_Maker": "Microsoft Corporation"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "windows-rss-platform": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Windows-RSS-Platform",
+            "Browser_Maker": "Microsoft Corporation"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wizz": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Wizz",
+            "Browser_Maker": "unknown"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "wordpress.com feed bot": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "Wordpress.com Feed Bot",
+            "Browser_Maker": "Wordpress"
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yahoofeedseeker": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "YahooFeedSeeker",
+            "Browser_Maker": "Yahoo! Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
+    "yandexblog": {
+        "type": "bot-syndication-reader",
+        "properties": {
+            "Browser": "YandexBlog",
+            "Browser_Maker": "Yandex LLC"
+        },
+        "lite": false,
+        "standard": true
+    }
+}

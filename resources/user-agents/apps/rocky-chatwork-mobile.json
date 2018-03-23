@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

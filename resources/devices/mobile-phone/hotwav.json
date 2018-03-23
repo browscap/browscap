@@ -1,15 +1,13 @@
 {
     "Hotwav IP7": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "IP7",
             "Device_Name": "IP7",
+            "Device_Code_Name": "IP7",
             "Device_Maker": "Hotwav",
-            "Device_Brand_Name": "Hotwav",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Hotwav"
+        },
+        "standard": false
     }
 }

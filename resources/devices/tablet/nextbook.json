@@ -1,15 +1,13 @@
 {
     "Nextbook Next": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Next",
             "Device_Name": "Next",
+            "Device_Code_Name": "Next",
             "Device_Maker": "Nextbook",
-            "Device_Brand_Name": "Nextbook",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Nextbook"
+        },
+        "standard": true
     }
 }

@@ -12,8 +12,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

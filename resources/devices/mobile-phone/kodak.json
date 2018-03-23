@@ -1,15 +1,13 @@
 {
     "Kodak Z812": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Z812",
             "Device_Code_Name": "Z812",
             "Device_Maker": "Kodak",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kodak",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Kodak"
+        },
+        "standard": false
     }
 }

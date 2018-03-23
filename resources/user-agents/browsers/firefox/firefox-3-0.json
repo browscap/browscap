@@ -136,7 +136,7 @@
             "Win7_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {

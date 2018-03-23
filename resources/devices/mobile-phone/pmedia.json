@@ -1,15 +1,13 @@
 {
     "PMEDIA PMSmart450": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "PMSmart450",
             "Device_Code_Name": "PMSmart450",
             "Device_Maker": "PMEDIA",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PMEDIA",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "PMEDIA"
+        },
+        "standard": false
     }
 }

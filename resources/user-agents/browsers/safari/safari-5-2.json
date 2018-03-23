@@ -24,7 +24,7 @@
             "OSX"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {
@@ -34,7 +34,7 @@
             "OSX"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         }
       ]

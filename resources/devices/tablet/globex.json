@@ -1,28 +1,24 @@
 {
     "Globex GU730C": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "GU730C",
             "Device_Code_Name": "GU730C",
             "Device_Maker": "Globex",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Globex",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Globex"
+        },
+        "standard": true
     },
     "Globex GU7814": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "GU7814",
             "Device_Code_Name": "GU7814",
             "Device_Maker": "Globex",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Globex",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Globex"
+        },
+        "standard": true
     }
 }

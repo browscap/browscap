@@ -14,10 +14,12 @@ class DeviceTest extends TestCase
     {
         $properties = ['abc' => 'def'];
         $standard   = false;
+        $type       = 'tablet';
 
-        $object = new Device($properties, $standard);
+        $object = new Device($properties, $type, $standard);
 
         self::assertSame($properties, $object->getProperties());
         self::assertFalse($object->isStandard());
+        self::assertSame($type, $object->getType());
     }
 }

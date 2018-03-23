@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "qutebrowser",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

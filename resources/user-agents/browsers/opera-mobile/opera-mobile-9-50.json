@@ -85,7 +85,7 @@
             "WinMobile"
           ],
           "properties": {
-            "Beta": "true"
+            "Beta": true
           }
         },
         {

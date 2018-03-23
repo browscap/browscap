@@ -5,6 +5,11 @@ namespace Browscap\Data;
 class Browser
 {
     /**
+     * @var string
+     */
+    private $type;
+
+    /**
      * @var string[]
      */
     private $properties = [];
@@ -20,19 +25,29 @@ class Browser
     private $isStandard = false;
 
     /**
-     * @param string[] $properties
-     * @param bool     $isLite
-     * @param bool     $standard
+     * @param array  $properties
+     * @param string $type
+     * @param bool   $isLite
+     * @param bool   $standard
      */
-    public function __construct(array $properties, bool $isLite, bool $standard)
+    public function __construct(array $properties, string $type, bool $isLite, bool $standard)
     {
+        $this->type       = $type;
         $this->properties = $properties;
         $this->isLite     = $isLite;
         $this->isStandard = $standard;
     }
 
     /**
-     * @return string[]
+     * @return string
+     */
+    public function getType() : string
+    {
+        return $this->type;
+    }
+
+    /**
+     * @return array
      */
     public function getProperties() : array
     {

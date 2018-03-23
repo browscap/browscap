@@ -1,15 +1,13 @@
 {
     "Nokia N1": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "N1",
             "Device_Name": "N1",
+            "Device_Code_Name": "N1",
             "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": true
     }
 }

@@ -1,15 +1,13 @@
 {
     "Sharp 304SH": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "304SH",
             "Device_Name": "Aquos Xx",
+            "Device_Code_Name": "304SH",
             "Device_Maker": "Sharp Corporation",
-            "Device_Brand_Name": "Softbank",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Softbank"
+        },
+        "standard": false
     }
 }

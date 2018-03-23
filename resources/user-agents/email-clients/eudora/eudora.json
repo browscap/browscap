@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Eudora",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -31,8 +31,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Eudora Open Source Edition",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

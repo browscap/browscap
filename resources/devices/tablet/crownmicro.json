@@ -1,15 +1,13 @@
 {
     "CrownMicro B860": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "B860",
             "Device_Code_Name": "B860",
             "Device_Maker": "CrownMicro",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "CrownMicro",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "CrownMicro"
+        },
+        "standard": true
     }
 }

@@ -1,67 +1,57 @@
 {
     "Wexler Book T7008": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Book T7008",
             "Device_Code_Name": "Book T7008",
             "Device_Maker": "Wexler",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Wexler"
+        },
+        "standard": true
     },
     "Wexler TAB 7i 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB 7i 3G",
             "Device_Code_Name": "TAB 7i 3G",
             "Device_Maker": "Wexler",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Wexler"
+        },
+        "standard": true
     },
     "Wexler TAB-7T": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB 7T",
             "Device_Code_Name": "TAB 7T",
             "Device_Maker": "Wexler",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Wexler"
+        },
+        "standard": true
     },
     "Wexler TAB7iD": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Tab7ID",
             "Device_Code_Name": "Tab7ID",
             "Device_Maker": "Wexler",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Wexler"
+        },
+        "standard": true
     },
     "Wexler TABA742": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TAB A742",
             "Device_Code_Name": "TAB A742",
             "Device_Maker": "Wexler",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Wexler"
+        },
+        "standard": true
     }
 }

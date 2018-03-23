@@ -1,15 +1,13 @@
 {
     "KTC 800P11B": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "800P11B",
             "Device_Code_Name": "800P11B",
             "Device_Maker": "KTC",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KTC",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "KTC"
+        },
+        "standard": true
     }
 }

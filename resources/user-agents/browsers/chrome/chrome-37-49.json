@@ -77,7 +77,7 @@
             "WinXPa_64", "WinXPa_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -94,7 +94,7 @@
             "WinXPa_64", "WinXPa_32"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {

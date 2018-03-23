@@ -1,28 +1,24 @@
 {
     "Macintosh": {
-        "standard": true,
+        "type": "desktop",
         "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
             "Device_Name": "Macintosh",
+            "Device_Code_Name": "Macintosh",
             "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Apple"
+        },
+        "standard": true
     },
     "PowerMac": {
-        "standard": true,
+        "type": "desktop",
         "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "PowerMac",
             "Device_Name": "PowerMac",
+            "Device_Code_Name": "PowerMac",
             "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Apple"
+        },
+        "standard": true
     }
 }

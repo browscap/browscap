@@ -1,41 +1,35 @@
 {
     "Spice Mi-424": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Mi-424",
             "Device_Code_Name": "Mi-424",
             "Device_Maker": "Spice",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Spice",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Spice"
+        },
+        "standard": false
     },
     "Spice Mi-440": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Stellar 440",
             "Device_Code_Name": "Mi-440",
             "Device_Maker": "Spice",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Spice",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Spice"
+        },
+        "standard": false
     },
     "Spice QT-75": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "QT-75",
             "Device_Code_Name": "QT-75",
             "Device_Maker": "Spice",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Spice",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Spice"
+        },
+        "standard": false
     }
 }

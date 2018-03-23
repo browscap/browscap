@@ -15,7 +15,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {
@@ -34,14 +34,14 @@
         {
           "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {
           "match": "Mozilla/5.0 (Tablet; *rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         }
       ]

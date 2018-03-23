@@ -1,15 +1,13 @@
 {
     "Cmx Aquila 080-1008": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Aquila 080-1008",
             "Device_Code_Name": "Aquila 080-1008",
             "Device_Maker": "Cmx",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cmx",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Cmx"
+        },
+        "standard": true
     }
 }

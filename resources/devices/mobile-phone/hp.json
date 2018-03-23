@@ -1,54 +1,46 @@
 {
     "HP P160U": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P160U",
             "Device_Name": "P160U",
+            "Device_Code_Name": "P160U",
             "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "HP"
+        },
+        "standard": false
     },
     "HP Pixi": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pixi",
             "Device_Name": "Pixi",
+            "Device_Code_Name": "Pixi",
             "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "HP"
+        },
+        "standard": false
     },
     "HP Pre": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pre",
             "Device_Name": "Pre",
+            "Device_Code_Name": "Pre",
             "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "HP"
+        },
+        "standard": false
     },
     "HP Pre3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Pre3",
             "Device_Name": "Pre3",
+            "Device_Code_Name": "Pre3",
             "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "HP"
+        },
+        "standard": false
     }
 }

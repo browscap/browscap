@@ -1,28 +1,24 @@
 {
     "Boxee": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Boxee",
             "Device_Name": "Boxee",
+            "Device_Code_Name": "Boxee",
             "Device_Maker": "D-Link",
-            "Device_Brand_Name": "D-Link",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "D-Link"
+        },
+        "standard": true
     },
     "D-Link DSM 380": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "DSM 380",
             "Device_Name": "DSM 380",
+            "Device_Code_Name": "DSM 380",
             "Device_Maker": "D-Link",
-            "Device_Brand_Name": "D-Link",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "D-Link"
+        },
+        "standard": true
     }
 }

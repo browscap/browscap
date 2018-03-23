@@ -1,15 +1,13 @@
 {
     "Jinga IGO M1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "IGO M1",
             "Device_Code_Name": "IGO M1",
             "Device_Maker": "Jinga",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jinga",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Jinga"
+        },
+        "standard": false
     }
 }

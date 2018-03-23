@@ -65,8 +65,8 @@ class PropertyHolderTest extends TestCase
             ['isAnonymized', PropertyHolder::TYPE_BOOLEAN],
             ['isModified', PropertyHolder::TYPE_BOOLEAN],
             ['Crawler', PropertyHolder::TYPE_BOOLEAN],
-            ['Browser_Type', PropertyHolder::TYPE_IN_ARRAY],
-            ['Device_Type', PropertyHolder::TYPE_IN_ARRAY],
+            ['Browser_Type', PropertyHolder::TYPE_STRING],
+            ['Device_Type', PropertyHolder::TYPE_STRING],
             ['Device_Pointing_Method', PropertyHolder::TYPE_IN_ARRAY],
             ['PatternId', PropertyHolder::TYPE_STRING],
             ['PropertyName', PropertyHolder::TYPE_STRING],
@@ -434,11 +434,9 @@ class PropertyHolderTest extends TestCase
     public function checkValueInArrayProvider() : array
     {
         return [
-            ['Browser_Type', 'Browser'],
-            ['Device_Type', 'Tablet'],
             ['Device_Pointing_Method', 'touchscreen'],
-            ['Browser_Bits', '32'],
-            ['Platform_Bits', '64'],
+            ['Browser_Bits', 32],
+            ['Platform_Bits', 64],
         ];
     }
 
@@ -465,9 +463,9 @@ class PropertyHolderTest extends TestCase
     public function testCheckValueInArrayExceptionWrongValue() : void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessage('invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","Tool","unknown"]');
+        $this->expectExceptionMessage('invalid value given for Property "Device_Pointing_Method": given value "bcd", allowed: ["joystick","stylus","touchscreen","clickwheel","trackpad","trackball","mouse","unknown"]');
 
-        $this->object->checkValueInArray('Browser_Type', 'bcd');
+        $this->object->checkValueInArray('Device_Pointing_Method', 'bcd');
     }
 
     /**

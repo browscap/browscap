@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -332,8 +332,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -406,8 +406,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

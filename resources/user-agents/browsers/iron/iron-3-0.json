@@ -33,7 +33,7 @@
             "Linux_64", "Linux"
           ],
           "properties": {
-            "Alpha": "true"
+            "Alpha": true
           }
         }
       ]

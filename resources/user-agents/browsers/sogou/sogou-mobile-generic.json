@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -43,8 +43,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Mobile Generic",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

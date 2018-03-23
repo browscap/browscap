@@ -1,28 +1,24 @@
 {
     "Infinix X507": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Hot",
             "Device_Code_Name": "X507",
             "Device_Maker": "Infinix",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Infinix",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Infinix"
+        },
+        "standard": false
     },
     "Infinix X510": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Hot 2",
             "Device_Code_Name": "X510",
             "Device_Maker": "Infinix",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Infinix",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Infinix"
+        },
+        "standard": false
     }
 }

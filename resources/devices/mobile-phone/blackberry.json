@@ -1,41 +1,35 @@
 {
     "Blackberry KBD": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "KBD",
             "Device_Code_Name": "KBD",
             "Device_Maker": "BlackBerry Limited",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "BlackBerry"
+        },
+        "standard": false
     },
     "Blackberry STV100-1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Priv",
             "Device_Code_Name": "STV100-1",
             "Device_Maker": "BlackBerry Limited",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "BlackBerry"
+        },
+        "standard": false
     },
     "Blackberry Z10": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Z10",
             "Device_Code_Name": "Z10",
             "Device_Maker": "BlackBerry Limited",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "BlackBerry"
+        },
+        "standard": false
     }
 }

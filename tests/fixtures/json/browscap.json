@@ -38,8 +38,8 @@
         "isTablet": false,
         "isSyndicationReader": false,
         "Crawler": false,
-        "CssVersion": "0",
-        "AolVersion": "0"
+        "CssVersion": 0,
+        "AolVersion": 0
     },
     "UA1": {
         "Parent": "DefaultProperties",
@@ -93,7 +93,7 @@
         "isTablet": false,
         "isSyndicationReader": false,
         "Crawler": false,
-        "CssVersion": "0",
-        "AolVersion": "0"
+        "CssVersion": 0,
+        "AolVersion": 0
     }
 }

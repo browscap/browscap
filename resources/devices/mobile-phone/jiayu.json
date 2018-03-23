@@ -1,54 +1,46 @@
 {
     "Jiayu F1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "F1",
             "Device_Code_Name": "F1",
             "Device_Maker": "Jiayu",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Jiayu"
+        },
+        "standard": false
     },
     "Jiayu G2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G2",
             "Device_Code_Name": "G2",
             "Device_Maker": "Jiayu",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Jiayu"
+        },
+        "standard": false
     },
     "Jiayu G2S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G2S",
             "Device_Code_Name": "G2S",
             "Device_Maker": "Jiayu",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Jiayu"
+        },
+        "standard": false
     },
     "Jiayu G3": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G3",
             "Device_Code_Name": "G3",
             "Device_Maker": "Jiayu",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiayu",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Jiayu"
+        },
+        "standard": false
     }
 }

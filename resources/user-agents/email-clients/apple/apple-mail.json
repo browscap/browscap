@@ -13,8 +13,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail Generic for iOS",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -54,8 +54,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for Darwin",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -213,8 +213,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for OSX",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -381,8 +381,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail for Windows",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

@@ -1,93 +1,79 @@
 {
     "NEC 525": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "525",
             "Device_Code_Name": "525",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": false
     },
     "NEC 530": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "530",
             "Device_Code_Name": "530",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": false
     },
     "NEC N504i": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N504i",
             "Device_Code_Name": "N504i",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": false
     },
     "NEC N505i": {
-        "standard": true,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N505i",
             "Device_Code_Name": "N505i",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": true
     },
     "NEC N600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N600",
             "Device_Code_Name": "N600",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": false
     },
     "NEC N8": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N8",
             "Device_Code_Name": "N8",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": false
     },
     "NEC N905i": {
-        "standard": true,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "N905i",
             "Device_Code_Name": "N905i",
             "Device_Maker": "NEC",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NEC",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "NEC"
+        },
+        "standard": true
     }
 }

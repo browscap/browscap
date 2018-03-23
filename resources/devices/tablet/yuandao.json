@@ -1,15 +1,13 @@
 {
     "YUANDAO N90FHDRK": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "N90FHDRK",
             "Device_Name": "Vido N90FHD",
+            "Device_Code_Name": "N90FHDRK",
             "Device_Maker": "YUANDAO",
-            "Device_Brand_Name": "YUANDAO",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "YUANDAO"
+        },
+        "standard": true
     }
 }

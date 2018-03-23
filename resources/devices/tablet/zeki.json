@@ -1,54 +1,46 @@
 {
     "Zeki TBD1083": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TBD1083",
             "Device_Code_Name": "TBD1083",
             "Device_Maker": "Zeki",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Zeki"
+        },
+        "standard": true
     },
     "Zeki TBDB863": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TBDB863",
             "Device_Code_Name": "TBDB863",
             "Device_Maker": "Zeki",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Zeki"
+        },
+        "standard": true
     },
     "Zeki TBDC1093": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TBDC1093",
             "Device_Code_Name": "TBDC1093",
             "Device_Maker": "Zeki",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Zeki"
+        },
+        "standard": true
     },
     "Zeki TBDG773": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "TBDG773",
             "Device_Code_Name": "TBDG773",
             "Device_Maker": "Zeki",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Zeki",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Zeki"
+        },
+        "standard": true
     }
 }

@@ -14,8 +14,8 @@
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {
@@ -170,7 +170,7 @@
             "Windows"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         },
         {
@@ -184,7 +184,7 @@
             "Windows"
           ],
           "properties": {
-            "isModified": "true"
+            "isModified": true
           }
         }
       ]

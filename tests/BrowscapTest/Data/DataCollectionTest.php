@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
+use Browscap\Data\Browser;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Division;
@@ -45,12 +46,12 @@ class DataCollectionTest extends TestCase
         self::assertLessThanOrEqual($maxTime, $testTime);
     }
 
-    public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
+    public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void
     {
         $this->expectException(OutOfBoundsException::class);
-        $this->expectExceptionMessage('Rendering Engine "NotExists" does not exist in data');
+        $this->expectExceptionMessage('Platform "NotExists" does not exist in data');
 
-        $this->object->getEngine('NotExists');
+        $this->object->getPlatform('NotExists');
     }
 
     public function testGetPlatform() : void
@@ -64,7 +65,7 @@ class DataCollectionTest extends TestCase
         self::assertSame($expectedPlatform, $platform);
     }
 
-    public function testGetEngineThrowsExceptionIfPlatformDoesNotExist() : void
+    public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Rendering Engine "NotExists" does not exist in data');
@@ -100,6 +101,25 @@ class DataCollectionTest extends TestCase
         $device = $this->object->getDevice('Foobar');
 
         self::assertSame($expectedDevice, $device);
+    }
+
+    public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist() : void
+    {
+        $this->expectException(OutOfBoundsException::class);
+        $this->expectExceptionMessage('Browser "NotExists" does not exist in data');
+
+        $this->object->getBrowser('NotExists');
+    }
+
+    public function testGetBrowser() : void
+    {
+        $expectedBrowser = $this->createMock(Browser::class);
+
+        $this->object->addBrowser('Foobar', $expectedBrowser);
+
+        $browser = $this->object->getBrowser('Foobar');
+
+        self::assertSame($expectedBrowser, $browser);
     }
 
     public function testGetDivisions() : void

@@ -36,9 +36,37 @@ class DeviceFactoryTest extends TestCase
     /**
      * @throws \Assert\AssertionFailedException
      */
+    public function testBuildWithWrongDeviceType() : void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('unsupported device type given for device "Test"');
+
+        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'type' => 'does not exist'];
+        $deviceName = 'Test';
+
+        $this->object->build($deviceData, $deviceName);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testBuildWithUnsupportedDeviceType() : void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Value "phablet" is not an element of the valid values: car-entertainment-system, console, desktop, digital-camera, ebook-reader, feature-phone, fone-pad, mobile-console, mobile-device, mobile-phone, smartphone, tablet, tv, tv-console, unknown');
+
+        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'type' => 'phablet'];
+        $deviceName = 'Test';
+
+        $this->object->build($deviceData, $deviceName);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testCreationOfDevice() : void
     {
-        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true];
+        $deviceData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'type' => 'tablet'];
         $deviceName = 'Test';
 
         $device = $this->object->build($deviceData, $deviceName);

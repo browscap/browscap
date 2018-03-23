@@ -1,93 +1,79 @@
 {
     "Toshiba AC100": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AC100",
             "Device_Name": "Smartbook",
+            "Device_Code_Name": "AC100",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba AT10-A": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AT10-A",
             "Device_Name": "eXcite Pure",
+            "Device_Code_Name": "AT10-A",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba AT100": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AT100",
             "Device_Name": "AT100",
+            "Device_Code_Name": "AT100",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba AT200": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AT200",
             "Device_Name": "Excite AT200",
+            "Device_Code_Name": "AT200",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba AT300": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AT300",
             "Device_Name": "Regza AT300",
+            "Device_Code_Name": "AT300",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba AT300SE": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "AT300SE",
             "Device_Name": "Regza AT300SE",
+            "Device_Code_Name": "AT300SE",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     },
     "Toshiba Folio 100": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Folio 100",
             "Device_Name": "Folio 100",
+            "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Toshiba"
+        },
+        "standard": true
     }
 }

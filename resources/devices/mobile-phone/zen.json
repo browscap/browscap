@@ -1,41 +1,35 @@
 {
-    "Zen M9 Mini": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "M9 Mini",
-            "Device_Code_Name": "M9 Mini",
-            "Device_Maker": "Zen",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Zen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Zen M72": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "M72",
             "Device_Code_Name": "M72",
             "Device_Maker": "Zen",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Zen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Zen"
+        },
+        "standard": false
+    },
+    "Zen M9 Mini": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "M9 Mini",
+            "Device_Code_Name": "M9 Mini",
+            "Device_Maker": "Zen",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Zen"
+        },
+        "standard": false
     },
     "Zen X20": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "X20",
             "Device_Code_Name": "X20",
             "Device_Maker": "Zen",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Zen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Zen"
+        },
+        "standard": false
     }
 }

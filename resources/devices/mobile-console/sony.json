@@ -1,0 +1,24 @@
+{
+    "Sony PS Vita": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "PlayStation Vita",
+            "Device_Code_Name": "PlayStation Vita",
+            "Device_Maker": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
+    },
+    "Sony PSP": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "Playstation Portable",
+            "Device_Code_Name": "Playstation Portable",
+            "Device_Maker": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
+    }
+}

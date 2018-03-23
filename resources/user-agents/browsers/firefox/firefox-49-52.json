@@ -117,7 +117,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -129,7 +129,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -142,7 +142,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
@@ -152,14 +152,14 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {
           "match": "Mozilla/5.0 (masking-agent; rv:*) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         },
         {

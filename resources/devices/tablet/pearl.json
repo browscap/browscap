@@ -1,41 +1,35 @@
 {
     "Pearl Touchlet X7G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Touchlet X7G",
             "Device_Name": "Touchlet X7G",
+            "Device_Code_Name": "Touchlet X7G",
             "Device_Maker": "Pearl",
-            "Device_Brand_Name": "Pearl",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Pearl"
+        },
+        "standard": true
     },
     "Pearl X10.Dual": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "X10",
             "Device_Name": "Touchlet X10.Dual",
+            "Device_Code_Name": "X10",
             "Device_Maker": "Pearl",
-            "Device_Brand_Name": "Pearl",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Pearl"
+        },
+        "standard": true
     },
     "Pearl X10.Dual+": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "X10",
             "Device_Name": "Touchlet X10.Dual+",
+            "Device_Code_Name": "X10",
             "Device_Maker": "Pearl",
-            "Device_Brand_Name": "Pearl",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Pearl"
+        },
+        "standard": true
     }
 }

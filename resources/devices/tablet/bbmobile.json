@@ -1,15 +1,13 @@
 {
     "BB-Mobile Techno 9.7 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Techno 9.7 3G",
             "Device_Code_Name": "Techno 9.7 3G",
             "Device_Maker": "BB-Mobile",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BB-Mobile",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "BB-Mobile"
+        },
+        "standard": true
     }
 }

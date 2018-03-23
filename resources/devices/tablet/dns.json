@@ -1,54 +1,46 @@
 {
     "DNS AirTab ES9701": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AirTab ES9701",
             "Device_Code_Name": "AirTab ES9701",
             "Device_Maker": "DNS",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DNS"
+        },
+        "standard": true
     },
     "DNS AirTab M104G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AirTab M104G",
             "Device_Code_Name": "AirTab M104G",
             "Device_Maker": "DNS",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DNS"
+        },
+        "standard": true
     },
     "DNS AirTab P970g": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AirTab P970g",
             "Device_Code_Name": "AirTab P970g",
             "Device_Maker": "DNS",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DNS"
+        },
+        "standard": true
     },
     "DNS AirTab PF7001": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AirTab PF7001",
             "Device_Code_Name": "AirTab PF7001",
             "Device_Maker": "DNS",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "DNS"
+        },
+        "standard": true
     }
 }

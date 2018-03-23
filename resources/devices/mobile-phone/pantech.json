@@ -1,106 +1,90 @@
 {
     "Pantech C810": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "C810",
             "Device_Code_Name": "C810",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech IM-A830L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Vega Racer 2",
             "Device_Code_Name": "IM-A830L",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech IM-A850K": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Vega R3",
             "Device_Code_Name": "IM-A850K",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech IM-A870L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Vega Iron",
             "Device_Code_Name": "IM-A870L",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech IM-A900K": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Vega Secret Up",
             "Device_Code_Name": "IM-A900K",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech IM-A910L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Vega Iron 2 WiFi",
             "Device_Code_Name": "IM-A910L",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech P9020": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Pursuit P9020",
             "Device_Code_Name": "P9020",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     },
     "Pantech P9060": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Pocket P9060",
             "Device_Code_Name": "P9060",
             "Device_Maker": "Pantech",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pantech",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Pantech"
+        },
+        "standard": false
     }
 }

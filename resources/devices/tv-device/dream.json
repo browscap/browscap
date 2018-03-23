@@ -1,15 +1,13 @@
 {
     "Dream Property Dreambox": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
             "Device_Name": "Dreambox",
             "Device_Code_Name": "Dreambox",
             "Device_Maker": "Dream Property GmbH",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dream",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Dream"
+        },
+        "standard": false
     }
 }

@@ -1,15 +1,13 @@
 {
     "Aveo X8": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "X8",
             "Device_Code_Name": "X8",
             "Device_Maker": "Aveo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Aveo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Aveo"
+        },
+        "standard": false
     }
 }

@@ -9,11 +9,11 @@
         "Platform_Description": "unknown",
         "Platform_Maker": "unknown",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "0",
-        "Platform_Bits": "0"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 0,
+        "AolVersion": 0
       }
     },
     "ChromeOS": {
@@ -25,11 +25,11 @@
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "ChromeOS_x64": {
@@ -38,8 +38,8 @@
       "standard": false,
       "inherits": "ChromeOS",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "ChromeOS_ARM": {
@@ -56,12 +56,12 @@
         "Platform": "MacOSX",
         "Platform_Description": "Mac OS X",
         "Platform_Maker": "Apple Inc",
-        "Platform_Bits": "32",
+        "Platform_Bits": 32,
         "Platform_Version": "10",
-        "Browser_Bits": "32",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false"
+        "Browser_Bits": 32,
+        "Win16": false,
+        "Win32": false,
+        "Win64": false
       }
     },
     "OSX_10_1": {
@@ -309,12 +309,12 @@
         "Platform": "MacOSX",
         "Platform_Description": "Mac OS X",
         "Platform_Maker": "Apple Inc",
-        "Platform_Bits": "32",
+        "Platform_Bits": 32,
         "Platform_Version": "10",
-        "Browser_Bits": "32",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false"
+        "Browser_Bits": 32,
+        "Win16": false,
+        "Win32": false,
+        "Win64": false
       }
     },
     "OSX_C_10_5": {
@@ -479,11 +479,11 @@
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "iPod, iPhone & iPad",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "iOS_A": {
@@ -1701,11 +1701,11 @@
         "Platform": "CentOS",
         "Platform_Maker": "unknown",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Linux": {
@@ -1717,11 +1717,11 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Linux",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Linux_32_on_x64": {
@@ -1730,8 +1730,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_32_on_x64_2": {
@@ -1740,7 +1740,7 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Platform_Bits": "64"
+        "Platform_Bits": 64
       }
     },
     "Linux_64": {
@@ -1749,8 +1749,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_64_B": {
@@ -1759,8 +1759,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_x64": {
@@ -1769,8 +1769,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_64_sparc": {
@@ -1779,8 +1779,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_64_amd": {
@@ -1789,8 +1789,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_64_ARM": {
@@ -1799,8 +1799,8 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Linux_PPC": {
@@ -1847,11 +1847,11 @@
         "Platform_Maker": "Google Inc",
         "Platform_Description": "Chromecast OS is a Linux/Android based Platform for the Chromecast",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Chromecast_OS_64_ARM": {
@@ -1860,8 +1860,8 @@
       "standard": false,
       "inherits": "Chromecast_OS_ARM",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Debian": {
@@ -1873,11 +1873,11 @@
         "Platform_Description": "Debian Linux",
         "Platform_Maker": "Software in the Public Interest, Inc.",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Debian_64": {
@@ -1886,8 +1886,8 @@
       "standard": false,
       "inherits": "Debian",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Debian_32_on_x64_2": {
@@ -1896,7 +1896,7 @@
       "standard": false,
       "inherits": "Debian",
       "properties": {
-        "Platform_Bits": "64"
+        "Platform_Bits": 64
       }
     },
     "Fedora": {
@@ -1908,11 +1908,11 @@
         "Platform_Maker": "Red Hat Inc",
         "Platform_Description": "Fedora Linux",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Red_Hat": {
@@ -1924,11 +1924,11 @@
         "Platform_Maker": "Red Hat Inc",
         "Platform_Description": "Red Hat Linux",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Ubuntu": {
@@ -1940,11 +1940,11 @@
         "Platform_Maker": "Canonical Foundation",
         "Platform_Description": "Ubuntu Linux",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Ubuntu_08_04": {
@@ -2034,8 +2034,8 @@
       "standard": false,
       "inherits": "Ubuntu",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_08_04_64": {
@@ -2045,8 +2045,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "8.04",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_08_10_64": {
@@ -2056,8 +2056,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "8.10",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_10_04_64": {
@@ -2067,8 +2067,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.04",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_10_10_64": {
@@ -2078,8 +2078,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.10",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_11_04_64": {
@@ -2089,8 +2089,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "11.04",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_12_04_64": {
@@ -2100,8 +2100,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "12.04",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_14_04_64": {
@@ -2111,8 +2111,8 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "14.04",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Ubuntu_Touch": {
@@ -2148,15 +2148,15 @@
       "lite": true,
       "standard": true,
       "properties": {
-        "Browser_Bits": "32",
+        "Browser_Bits": 32,
         "Platform": "Win32",
-        "Platform_Bits": "32",
+        "Platform_Bits": 32,
         "Platform_Version": "unknown",
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Description": "Windows",
-        "Win16": "false",
-        "Win32": "true",
-        "Win64": "false"
+        "Win16": false,
+        "Win32": true,
+        "Win64": false
       }
     },
     "Windows_64": {
@@ -2164,15 +2164,15 @@
       "lite": true,
       "standard": true,
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win64",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "unknown",
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Description": "Windows",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "true"
+        "Win16": false,
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win3.1": {
@@ -2181,13 +2181,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "16",
+        "Browser_Bits": 16,
         "Platform": "Win31",
-        "Platform_Bits": "16",
+        "Platform_Bits": 16,
         "Platform_Version": "3.1",
         "Platform_Description": "Windows 3.1",
-        "Win16": "true",
-        "Win32": "false"
+        "Win16": true,
+        "Win32": false
       }
     },
     "Win3.1_B": {
@@ -2196,13 +2196,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "16",
+        "Browser_Bits": 16,
         "Platform": "Win31",
-        "Platform_Bits": "16",
+        "Platform_Bits": 16,
         "Platform_Version": "3.1",
         "Platform_Description": "Windows 3.1",
-        "Win16": "true",
-        "Win32": "false"
+        "Win16": true,
+        "Win32": false
       }
     },
     "Win3.11": {
@@ -2211,13 +2211,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "16",
+        "Browser_Bits": 16,
         "Platform": "Win31",
-        "Platform_Bits": "16",
+        "Platform_Bits": 16,
         "Platform_Version": "3.11",
         "Platform_Description": "Windows 3.11",
-        "Win16": "true",
-        "Win32": "false"
+        "Win16": true,
+        "Win32": false
       }
     },
     "Win3.11_B": {
@@ -2229,8 +2229,8 @@
         "Platform": "Win31",
         "Platform_Version": "3.11",
         "Platform_Description": "Windows 3.11",
-        "Win16": "true",
-        "Win32": "false"
+        "Win16": true,
+        "Win32": false
       }
     },
     "Win16": {
@@ -2239,11 +2239,11 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "16",
+        "Browser_Bits": 16,
         "Platform": "Win16",
-        "Platform_Bits": "16",
-        "Win16": "true",
-        "Win32": "false"
+        "Platform_Bits": 16,
+        "Win16": true,
+        "Win32": false
       }
     },
     "Win32": {
@@ -2347,10 +2347,10 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinNT",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Description": "Windows NT",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "NT_x64": {
@@ -2359,12 +2359,12 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinNT",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Description": "Windows NT",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "NT_2": {
@@ -2428,11 +2428,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinNT",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "4.0",
         "Platform_Description": "Windows NT",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "NT4_B": {
@@ -2541,11 +2541,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win2000",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win2000_x64": {
@@ -2554,13 +2554,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win2000",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPa_32": {
@@ -2581,11 +2581,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPa_x64": {
@@ -2594,13 +2594,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPa_x64_2": {
@@ -2609,13 +2609,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPa_cygwin": {
@@ -2669,11 +2669,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPb_x64": {
@@ -2682,13 +2682,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPb_x64_2": {
@@ -2697,13 +2697,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPb_x64_3": {
@@ -2713,11 +2713,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinXPb_v2": {
@@ -2749,11 +2749,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinVista",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Vista_64_Trident": {
@@ -2763,11 +2763,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinVista",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Vista_x64": {
@@ -2776,13 +2776,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinVista",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Vista_x64_2": {
@@ -2791,13 +2791,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "WinVista",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win7_32": {
@@ -2829,11 +2829,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win7",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win7_64_Trident": {
@@ -2843,11 +2843,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win7",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win7_x64": {
@@ -2856,13 +2856,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win7",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win7_x64_Trident": {
@@ -2871,13 +2871,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win7",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win7_x64_2": {
@@ -2886,13 +2886,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win7",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win8_32": {
@@ -2913,11 +2913,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win8_x64": {
@@ -2926,13 +2926,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win8",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win8_x64_2": {
@@ -2941,13 +2941,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win8",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win8_1_32": {
@@ -2968,11 +2968,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8.1",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win8_1_x64": {
@@ -2981,13 +2981,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win8.1",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win10_32": {
@@ -3008,11 +3008,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.4",
         "Platform_Description": "Windows 10",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win10_x64": {
@@ -3021,13 +3021,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win10",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "6.4",
         "Platform_Description": "Windows 10",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win10_32_B": {
@@ -3048,11 +3048,11 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "10.0",
         "Platform_Description": "Windows 10",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "Win10_x64_B": {
@@ -3061,13 +3061,13 @@
       "standard": false,
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
+        "Browser_Bits": 64,
         "Platform": "Win10",
-        "Platform_Bits": "64",
+        "Platform_Bits": 64,
         "Platform_Version": "10.0",
         "Platform_Description": "Windows 10",
-        "Win32": "false",
-        "Win64": "true"
+        "Win32": false,
+        "Win64": true
       }
     },
     "WinRT8_32": {
@@ -3079,7 +3079,7 @@
         "Platform": "WinRT8",
         "Platform_Version": "6.2",
         "Platform_Description": "Windows RT 8",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinRT8_1_32": {
@@ -3091,7 +3091,7 @@
         "Platform": "WinRT8.1",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows RT 8.1",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinCE": {
@@ -3102,7 +3102,7 @@
       "properties": {
         "Platform": "WinCE",
         "Platform_Description": "Windows CE",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinMobile": {
@@ -3113,7 +3113,7 @@
       "properties": {
         "Platform": "WinMobile",
         "Platform_Description": "Windows Mobile OS",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone": {
@@ -3124,7 +3124,7 @@
       "properties": {
         "Platform": "WinPhone",
         "Platform_Description": "Windows Phone OS",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone65": {
@@ -3136,7 +3136,7 @@
         "Platform": "WinPhone6",
         "Platform_Version": "6.5",
         "Platform_Description": "Windows Phone OS 6.5",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone7": {
@@ -3148,7 +3148,7 @@
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
         "Platform_Description": "Windows Phone OS 7",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone7_C": {
@@ -3160,7 +3160,7 @@
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
         "Platform_Description": "Windows Phone OS 7",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone75": {
@@ -3172,7 +3172,7 @@
         "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
         "Platform_Description": "Windows Phone OS 7.5",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone78": {
@@ -3184,7 +3184,7 @@
         "Platform": "WinPhone7.8",
         "Platform_Version": "7.8",
         "Platform_Description": "Windows Phone OS 7.8",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone710": {
@@ -3196,7 +3196,7 @@
         "Platform": "WinPhone7.10",
         "Platform_Version": "7.10",
         "Platform_Description": "Windows Phone OS 7.10",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone8": {
@@ -3208,7 +3208,7 @@
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
         "Platform_Description": "Windows Phone OS 8",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone8_B": {
@@ -3220,7 +3220,7 @@
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
         "Platform_Description": "Windows Phone OS 8",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone8.1": {
@@ -3232,7 +3232,7 @@
         "Platform": "WinPhone8.1",
         "Platform_Version": "8.1",
         "Platform_Description": "Windows Phone OS 8.1",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone8.1_B": {
@@ -3244,7 +3244,7 @@
         "Platform": "WinPhone8.1",
         "Platform_Version": "8.1",
         "Platform_Description": "Windows Phone OS 8.1",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone8_osmeta": {
@@ -3256,7 +3256,7 @@
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
         "Platform_Description": "Windows Phone OS 8 (osmeta)",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone10": {
@@ -3268,7 +3268,7 @@
         "Platform": "WinPhone10",
         "Platform_Version": "10.0",
         "Platform_Description": "Windows Phone OS 10.0",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone10_B": {
@@ -3280,7 +3280,7 @@
         "Platform": "WinPhone10",
         "Platform_Version": "10.0",
         "Platform_Description": "Windows Phone OS 10.0",
-        "Win32": "false"
+        "Win32": false
       }
     },
     "WinPhone10_Continuum": {
@@ -3301,11 +3301,11 @@
         "Platform_Description": "Android OS",
         "Platform_Maker": "Google Inc",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Android_1_0": {
@@ -4754,11 +4754,11 @@
         "Platform_Maker": "HP",
         "Platform_Description": "HP-UX",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "HPUX_2": {
@@ -4776,11 +4776,11 @@
         "Platform_Maker": "University of California, Berkeley",
         "Platform_Description": "BSD Four",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "FreeBSD": {
@@ -4792,11 +4792,11 @@
         "Platform_Maker": "FreeBSD Foundation",
         "Platform_Description": "FreeBSD",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "FreeBSD_64": {
@@ -4805,8 +4805,8 @@
       "standard": false,
       "inherits": "FreeBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "FreeBSD_64_2": {
@@ -4815,8 +4815,8 @@
       "standard": false,
       "inherits": "FreeBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "OpenBSD": {
@@ -4828,11 +4828,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "OpenBSD",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "OpenBSD_64": {
@@ -4841,8 +4841,8 @@
       "standard": false,
       "inherits": "OpenBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "OpenBSD_64_2": {
@@ -4851,8 +4851,8 @@
       "standard": false,
       "inherits": "OpenBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "OpenBSD_64_3": {
@@ -4861,8 +4861,8 @@
       "standard": false,
       "inherits": "OpenBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "NetBSD": {
@@ -4874,11 +4874,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "NetBSD",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "NetBSD_64_2": {
@@ -4887,8 +4887,8 @@
       "standard": false,
       "inherits": "NetBSD",
       "properties": {
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "DragonFlyBSD": {
@@ -4900,11 +4900,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "DragonFlyBSD",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "DragonFlyBSD_64": {
@@ -4916,11 +4916,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "DragonFlyBSD",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "SunOS": {
@@ -4932,11 +4932,11 @@
         "Platform_Maker": "Oracle",
         "Platform_Description": "SunOS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "IRIX64": {
@@ -4948,11 +4948,11 @@
         "Platform_Maker": "SGI",
         "Platform_Description": "IRIX64",
         "Platform_Version": "unknown",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false"
+        "Browser_Bits": 64,
+        "Platform_Bits": 64,
+        "Win16": false,
+        "Win32": false,
+        "Win64": false
       }
     },
     "IRIX64_2": {
@@ -4970,11 +4970,11 @@
         "Platform_Maker": "IBM",
         "Platform_Description": "OS/2",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "RIMOS": {
@@ -4986,11 +4986,11 @@
         "Platform_Description": "RIM OS",
         "Platform_Maker": "Research In Motion Limited",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "RIMOS_3_6": {
@@ -5191,11 +5191,11 @@
         "Platform_Maker": "Symbian Foundation",
         "Platform_Description": "Symbian OS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "SymbianOS_B": {
@@ -5225,11 +5225,11 @@
         "Platform_Maker": "Nokia",
         "Platform_Description": "Series 30",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Series40": {
@@ -5241,11 +5241,11 @@
         "Platform_Maker": "Nokia",
         "Platform_Description": "Series 40",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Asha": {
@@ -5257,11 +5257,11 @@
         "Platform_Maker": "Nokia",
         "Platform_Description": "Asha Platform",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Unix": {
@@ -5273,11 +5273,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "Unix",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Bada": {
@@ -5289,11 +5289,11 @@
         "Platform_Version": "unknown",
         "Platform_Description": "Samsung Bada",
         "Platform_Maker": "Samsung",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Bada_1_0": {
@@ -5332,11 +5332,11 @@
         "Platform_Version": "2.0",
         "Platform_Description": "Qualcomm Brew",
         "Platform_Maker": "Qualcomm",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Brew_3_0": {
@@ -5385,11 +5385,11 @@
         "Platform_Description": "HP webOS",
         "Platform_Maker": "HP",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "webOS_10": {
@@ -5499,11 +5499,11 @@
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Darwin_64": {
@@ -5514,11 +5514,11 @@
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "AIX": {
@@ -5530,11 +5530,11 @@
         "Platform_Maker": "IBM",
         "Platform_Description": "AIX",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "BeOS": {
@@ -5546,11 +5546,11 @@
         "Platform_Maker": "Access",
         "Platform_Description": "BeOS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Haiku": {
@@ -5562,11 +5562,11 @@
         "Platform_Maker": "Haiku, Inc.",
         "Platform_Description": "Haiku",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "CygWin": {
@@ -5577,11 +5577,11 @@
         "Platform": "CygWin",
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Tru64_Unix": {
@@ -5593,11 +5593,11 @@
         "Platform_Maker": "HP",
         "Platform_Description": "Tru64 UNIX",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Tru64_Unix_B": {
@@ -5609,11 +5609,11 @@
         "Platform_Maker": "HP",
         "Platform_Description": "Tru64 UNIX",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "RISC_OS": {
@@ -5625,11 +5625,11 @@
         "Platform_Maker": "unknown",
         "Platform_Description": "RISC OS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Solaris": {
@@ -5641,11 +5641,11 @@
         "Platform_Maker": "Oracle",
         "Platform_Description": "Solaris",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Maui": {
@@ -5657,11 +5657,11 @@
         "Platform_Maker": "MediaTek",
         "Platform_Description": "MAUI Runtime Environment (MRE)",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "MeeGo": {
@@ -5673,11 +5673,11 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "MeeGo",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Maemo": {
@@ -5689,11 +5689,11 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Maemo",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Maemo_ARM": {
@@ -5711,11 +5711,11 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Tizen",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Tizen_2_0": {
@@ -5781,11 +5781,11 @@
         "Platform_Maker": "HP",
         "Platform_Description": "OpenVMS",
         "Platform_Version": "unknown",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win16": false,
+        "Win32": false,
+        "Win64": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "JAVA": {
@@ -5797,9 +5797,9 @@
         "Platform_Maker": "Oracle",
         "Platform_Version": "unknown",
         "Platform_Description": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "FirefoxOS": {
@@ -5811,9 +5811,9 @@
         "Platform_Maker": "Mozilla Foundation",
         "Platform_Version": "unknown",
         "Platform_Description": "FirefoxOS",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "FirefoxOS_0_x": {
@@ -5904,7 +5904,7 @@
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "2.5",
-        "Beta": "true"
+        "Beta": true
       }
     },
     "PalmOS": {
@@ -5915,9 +5915,9 @@
         "Platform": "PalmOS",
         "Platform_Maker": "Palm",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "PalmOS_3": {
@@ -5938,9 +5938,9 @@
         "Platform_Maker": "Commodore International",
         "Platform_Version": "unknown",
         "Platform_Description": "Amiga OS",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "CellOS": {
@@ -5951,9 +5951,9 @@
         "Platform": "CellOS",
         "Platform_Maker": "Sony",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "OrbisOS": {
@@ -5964,9 +5964,9 @@
         "Platform": "OrbisOS",
         "Platform_Maker": "Sony",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "WyderOS": {
@@ -5997,9 +5997,9 @@
         "Platform": "SailfishOS",
         "Platform_Maker": "Jolla Ltd.",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Syllable": {
@@ -6010,9 +6010,9 @@
         "Platform": "Syllable",
         "Platform_Maker": "Syllable Project",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Inferno": {
@@ -6023,9 +6023,9 @@
         "Platform": "Inferno OS",
         "Platform_Maker": "Vita Nuova Holdings Ltd",
         "Platform_Version": "unknown",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Miui_OS": {
@@ -6037,9 +6037,9 @@
         "Platform_Maker": "Xiaomi Tech",
         "Platform_Version": "unknown",
         "Platform_Description": "a fork of Android OS by Xiaomi",
-        "Win32": "false",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": false,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Miui_OS_7_3": {
@@ -6069,9 +6069,9 @@
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Version": "unknown",
         "Platform_Description": "Xbox 360 System Software",
-        "Win32": "true",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Win32": true,
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Xbox_360_Mobile": {
@@ -6092,9 +6092,9 @@
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Version": "unknown",
         "Platform_Description": "Xbox One System Software",
-        "Win64": "true",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
+        "Win64": true,
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
       }
     },
     "Xbox_OS_Mobile": {
@@ -6151,8 +6151,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo DS System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "NintendoDSi_OS": {
@@ -6164,8 +6164,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo DSi System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "NintendoWii_OS": {
@@ -6177,8 +6177,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo Wii System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "NintendoWiiU_OS": {
@@ -6190,8 +6190,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo WiiU System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "Nintendo3DS_OS": {
@@ -6203,8 +6203,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo 3DS/New Nintendo 3DS System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     },
     "NintendoSwitch_OS": {
@@ -6216,8 +6216,8 @@
         "Platform_Maker": "Nintendo",
         "Platform_Version": "unknown",
         "Platform_Description": "Nintendo Switch System Software",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Bits": 32,
+        "Platform_Bits": 32
       }
     }
   }

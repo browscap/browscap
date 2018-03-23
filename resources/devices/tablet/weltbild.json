@@ -1,28 +1,24 @@
 {
     "CatSound Cat Nova 8": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Cat Nova 8",
             "Device_Name": "Tablet PC",
+            "Device_Code_Name": "Cat Nova 8",
             "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "Weltbild",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Weltbild"
+        },
+        "standard": true
     },
     "Weltbild Kinder-Tablet": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Kinder-Tablet",
             "Device_Name": "Tablet PC Junior+",
+            "Device_Code_Name": "Kinder-Tablet",
             "Device_Maker": "Weltbild",
-            "Device_Brand_Name": "Weltbild",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Weltbild"
+        },
+        "standard": true
     }
 }

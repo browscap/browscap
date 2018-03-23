@@ -1,106 +1,90 @@
 {
     "MODECOM FreeTAB 1001": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 1001",
             "Device_Code_Name": "FreeTAB 1001",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 1014 IPS X4 3G+": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 1014 IPS X4 3G+",
             "Device_Code_Name": "FreeTAB 1014 IPS X4 3G+",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 7001 HD IC": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 7001 HD IC",
             "Device_Code_Name": "FreeTAB 7001 HD IC",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 7800 IPS IC": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 7800 IPS IC",
             "Device_Code_Name": "FreeTAB 7800 IPS IC",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 8001 IPS X2 3G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 8001 IPS X2 3G",
             "Device_Code_Name": "FreeTAB 8001 IPS X2 3G",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 8001 IPS X2 3G+": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 8001 IPS X2 3G+",
             "Device_Code_Name": "FreeTAB 8001 IPS X2 3G+",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 9000 IPS IC": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 9000 IPS IC",
             "Device_Code_Name": "FreeTAB 9000 IPS IC",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     },
     "MODECOM FreeTAB 9702 HD X4": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "FreeTAB 9702 HD X4",
             "Device_Code_Name": "FreeTAB 9702 HD X4",
             "Device_Maker": "MODECOM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MODECOM",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MODECOM"
+        },
+        "standard": true
     }
 }

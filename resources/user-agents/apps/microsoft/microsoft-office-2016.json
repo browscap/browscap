@@ -13,8 +13,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Office 2016",
         "Version": "2016",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

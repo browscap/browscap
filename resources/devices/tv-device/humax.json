@@ -1,15 +1,13 @@
 {
     "Humax HD FOX+": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
             "Device_Name": "HD FOX+",
             "Device_Code_Name": "HD FOX+",
             "Device_Maker": "Humax",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Humax",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Humax"
+        },
+        "standard": false
     }
 }

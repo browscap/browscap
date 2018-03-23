@@ -34,7 +34,7 @@
             "Windows"
           ],
           "properties": {
-            "isAnonymized": "true"
+            "isAnonymized": true
           }
         }
       ]

@@ -3,7 +3,10 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Browscap\Data\Helper\TrimProperty;
+use BrowserDetector\Loader\NotFoundException;
 use Psr\Log\LoggerInterface;
+use UaBrowserType\TypeLoader as BrowserTypeLoader;
+use UaDeviceType\TypeLoader as DeviceTypeLoader;
 
 class Expander
 {
@@ -163,6 +166,22 @@ class Expander
             if (!$device->isStandard()) {
                 $standard = false;
             }
+
+            $deviceTypeLoader = new DeviceTypeLoader();
+
+            try {
+                $deviceType = $deviceTypeLoader->load($device->getType());
+
+                $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
+                $deviceProperties['isTablet']       = $deviceType->isTablet();
+                $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
+            } catch (NotFoundException $e) {
+                $this->logger->critical($e);
+
+                $deviceProperties['isMobileDevice'] = false;
+                $deviceProperties['isTablet']       = false;
+                $deviceProperties['Device_Type']    = 'unknown';
+            }
         } else {
             $deviceProperties = [];
         }
@@ -177,6 +196,22 @@ class Expander
 
             if (!$browser->isLite()) {
                 $lite = false;
+            }
+
+            $browserTypeLoader = new BrowserTypeLoader();
+
+            try {
+                $browserType = $browserTypeLoader->load($browser->getType());
+
+                $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
+                $browserProperties['Crawler']             = $browserType->isBot();
+                $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
+            } catch (NotFoundException $e) {
+                $this->logger->critical($e);
+
+                $browserProperties['isSyndicationReader'] = false;
+                $browserProperties['Crawler']             = false;
+                $browserProperties['Browser_Type']        = 'unknown';
             }
         } else {
             $browserProperties = [];
@@ -280,6 +315,22 @@ class Expander
                     if (!$device->isStandard()) {
                         $properties['standard'] = false;
                     }
+
+                    $deviceTypeLoader = new DeviceTypeLoader();
+
+                    try {
+                        $deviceType = $deviceTypeLoader->load($device->getType());
+
+                        $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
+                        $deviceProperties['isTablet']       = $deviceType->isTablet();
+                        $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
+                    } catch (NotFoundException $e) {
+                        $this->logger->critical($e);
+
+                        $deviceProperties['isMobileDevice'] = false;
+                        $deviceProperties['isTablet']       = false;
+                        $deviceProperties['Device_Type']    = 'unknown';
+                    }
                 } else {
                     $deviceProperties = [];
                 }
@@ -294,6 +345,22 @@ class Expander
 
                     if (!$browser->isLite()) {
                         $properties['lite'] = false;
+                    }
+
+                    $browserTypeLoader = new BrowserTypeLoader();
+
+                    try {
+                        $browserType = $browserTypeLoader->load($browser->getType());
+
+                        $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
+                        $browserProperties['Crawler']             = $browserType->isBot();
+                        $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
+                    } catch (NotFoundException $e) {
+                        $this->logger->critical($e);
+
+                        $browserProperties['isSyndicationReader'] = false;
+                        $browserProperties['Crawler']             = false;
+                        $browserProperties['Browser_Type']        = 'unknown';
                     }
                 } else {
                     $browserProperties = [];
@@ -336,6 +403,22 @@ class Expander
                 if (!$device->isStandard()) {
                     $properties['standard'] = false;
                 }
+
+                $deviceTypeLoader = new DeviceTypeLoader();
+
+                try {
+                    $deviceType = $deviceTypeLoader->load($device->getType());
+
+                    $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
+                    $deviceProperties['isTablet']       = $deviceType->isTablet();
+                    $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
+                } catch (NotFoundException $e) {
+                    $this->logger->critical($e);
+
+                    $deviceProperties['isMobileDevice'] = false;
+                    $deviceProperties['isTablet']       = false;
+                    $deviceProperties['Device_Type']    = 'unknown';
+                }
             } else {
                 $deviceProperties = [];
             }
@@ -350,6 +433,22 @@ class Expander
 
                 if (!$browser->isLite()) {
                     $properties['lite'] = false;
+                }
+
+                $browserTypeLoader = new BrowserTypeLoader();
+
+                try {
+                    $browserType = $browserTypeLoader->load($browser->getType());
+
+                    $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
+                    $browserProperties['Crawler']             = $browserType->isBot();
+                    $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
+                } catch (NotFoundException $e) {
+                    $this->logger->critical($e);
+
+                    $browserProperties['isSyndicationReader'] = false;
+                    $browserProperties['Crawler']             = false;
+                    $browserProperties['Browser_Type']        = 'unknown';
                 }
             } else {
                 $browserProperties = [];
@@ -461,10 +560,10 @@ class Expander
             unset($parents);
 
             foreach (array_keys($browserData) as $propertyName) {
-                if (is_bool($browserData[$propertyName])) {
-                    $properties[$propertyName] = $browserData[$propertyName];
-                } else {
-                    $properties[$propertyName] = $this->trimProperty->trimProperty((string) $browserData[$propertyName]);
+                $properties[$propertyName] = $browserData[$propertyName];
+
+                if (is_string($browserData[$propertyName])) {
+                    $properties[$propertyName] = $this->trimProperty->trimProperty($browserData[$propertyName]);
                 }
             }
 

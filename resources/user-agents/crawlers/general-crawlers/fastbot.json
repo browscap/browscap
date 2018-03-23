@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "fastbot crawler",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

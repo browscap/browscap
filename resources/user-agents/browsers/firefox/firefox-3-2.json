@@ -14,7 +14,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": "true"
+        "Alpha": true
       },
       "children": [
         {

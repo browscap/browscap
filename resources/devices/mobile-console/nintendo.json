@@ -1,0 +1,57 @@
+{
+    "New Nintendo 3DS": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "New 3DS",
+            "Device_Code_Name": "New 3DS",
+            "Device_Maker": "Nintendo",
+            "Device_Pointing_Method": "stylus",
+            "Device_Brand_Name": "Nintendo"
+        },
+        "standard": true
+    },
+    "Nintendo 3DS": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "3DS",
+            "Device_Code_Name": "3DS",
+            "Device_Maker": "Nintendo",
+            "Device_Pointing_Method": "stylus",
+            "Device_Brand_Name": "Nintendo"
+        },
+        "standard": true
+    },
+    "Nintendo DS": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "DS",
+            "Device_Code_Name": "DS",
+            "Device_Maker": "Nintendo",
+            "Device_Pointing_Method": "stylus",
+            "Device_Brand_Name": "Nintendo"
+        },
+        "standard": true
+    },
+    "Nintendo DSi": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "DSi",
+            "Device_Code_Name": "DSi",
+            "Device_Maker": "Nintendo",
+            "Device_Pointing_Method": "stylus",
+            "Device_Brand_Name": "Nintendo"
+        },
+        "standard": true
+    },
+    "Nintendo Switch": {
+        "type": "mobile-console",
+        "properties": {
+            "Device_Name": "Switch",
+            "Device_Code_Name": "Switch",
+            "Device_Maker": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Nintendo"
+        },
+        "standard": true
+    }
+}

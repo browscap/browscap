@@ -1,28 +1,24 @@
 {
     "Haipai Noble I9220": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Noble",
             "Device_Code_Name": "I9220",
             "Device_Maker": "Haipai",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Haipai",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Haipai"
+        },
+        "standard": false
     },
     "Haipai i9377": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "i9377",
             "Device_Code_Name": "i9377",
             "Device_Maker": "Haipai",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Haipai",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Haipai"
+        },
+        "standard": false
     }
 }

@@ -1,15 +1,13 @@
 {
     "MSI Primo76": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Global Primo 76",
             "Device_Code_Name": "Primo76",
             "Device_Maker": "MSI",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "MSI",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "MSI"
+        },
+        "standard": true
     }
 }

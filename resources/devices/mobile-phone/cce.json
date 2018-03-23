@@ -1,15 +1,13 @@
 {
     "CCE SK352": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Motion Plus",
             "Device_Code_Name": "SK352",
             "Device_Maker": "CCE",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "CCE",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "CCE"
+        },
+        "standard": false
     }
 }

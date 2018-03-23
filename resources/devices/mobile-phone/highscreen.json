@@ -1,106 +1,90 @@
 {
     "Highscreen Alpha GT": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Alpha GT",
             "Device_Code_Name": "Alpha GT",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Alpha GTR": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Alpha GTR",
             "Device_Code_Name": "Alpha GTR",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Boost II SE": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Boost II SE",
             "Device_Code_Name": "Boost II SE",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Explosion": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Explosion",
             "Device_Code_Name": "Explosion",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen ICE 2": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "ICE 2",
             "Device_Code_Name": "ICE 2",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Omega Prime S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Omega Prime S",
             "Device_Code_Name": "Omega Prime S",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Prime Mini SE": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Omega Prime mini SE",
             "Device_Code_Name": "Prime Mini SE",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     },
     "Highscreen Zera F": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Zera F",
             "Device_Code_Name": "Zera F",
             "Device_Maker": "Highscreen",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Highscreen"
+        },
+        "standard": false
     }
 }

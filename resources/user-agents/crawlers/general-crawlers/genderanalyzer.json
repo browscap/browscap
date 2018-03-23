@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Genderanalyzer",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

@@ -63,7 +63,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BingPreview for Windows Phone Generic",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

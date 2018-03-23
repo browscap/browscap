@@ -1,54 +1,46 @@
 {
     "Assistant AP-106": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AP-106",
             "Device_Code_Name": "AP-106",
             "Device_Maker": "Assistant",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Assistant"
+        },
+        "standard": true
     },
     "Assistant AP-705": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AP-705",
             "Device_Code_Name": "AP-705",
             "Device_Maker": "Assistant",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Assistant"
+        },
+        "standard": true
     },
     "Assistant AP-708": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AP-708",
             "Device_Code_Name": "AP-708",
             "Device_Maker": "Assistant",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Assistant"
+        },
+        "standard": true
     },
     "Assistant AP-804": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "AP-804",
             "Device_Code_Name": "AP-804",
             "Device_Maker": "Assistant",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Assistant",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Assistant"
+        },
+        "standard": true
     }
 }

@@ -1,28 +1,24 @@
 {
     "AUDIOVOX CDM-8915": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Snapper (Virgin Mobile)",
             "Device_Code_Name": "CDM-8915",
             "Device_Maker": "AUDIOVOX",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AUDIOVOX",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "AUDIOVOX"
+        },
+        "standard": false
     },
     "AUDIOVOX SMT5600": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "SMT5600",
             "Device_Code_Name": "SMT5600",
             "Device_Maker": "AUDIOVOX",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "AUDIOVOX",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "AUDIOVOX"
+        },
+        "standard": false
     }
 }

@@ -1,106 +1,90 @@
 {
     "LG 42LA6208": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "42LA6208",
             "Device_Name": "42LA6208",
+            "Device_Code_Name": "42LA6208",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 42LB671V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "42LB671V",
             "Device_Name": "42LB671V",
+            "Device_Code_Name": "42LB671V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 43LF630V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "43LF630V",
             "Device_Name": "43LF630V",
+            "Device_Code_Name": "43LF630V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 49LH604V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "49LH604V",
             "Device_Name": "49LH604V",
+            "Device_Code_Name": "49LH604V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 49UH668V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "49UH668V",
             "Device_Name": "49UH668V",
+            "Device_Code_Name": "49UH668V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 55UF695V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "55UF695V",
             "Device_Name": "55UF695V",
+            "Device_Code_Name": "55UF695V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LG 79UF860V": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "79UF860V",
             "Device_Name": "79UF860V",
+            "Device_Code_Name": "79UF860V",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     },
     "LV TI320-DU": {
-        "standard": false,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "TI320-DU",
             "Device_Name": "LG U Plus TV G",
+            "Device_Code_Name": "TI320-DU",
             "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "LG"
+        },
+        "standard": false
     }
 }

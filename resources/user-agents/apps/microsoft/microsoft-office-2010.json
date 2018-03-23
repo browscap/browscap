@@ -13,8 +13,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Office 2010",
         "Version": "2010",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

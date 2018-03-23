@@ -1,54 +1,46 @@
 {
     "BQ 7056G": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "7056G",
             "Device_Code_Name": "7056G",
             "Device_Maker": "BQ",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "BQ"
+        },
+        "standard": true
     },
     "BQ Aquaris M10": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Aquaris M10",
             "Device_Code_Name": "Aquaris M10",
             "Device_Maker": "BQ",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "BQ"
+        },
+        "standard": true
     },
     "BQ Aquaris M10 FHD": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Aquaris M10 FHD",
             "Device_Code_Name": "Aquaris M10 FHD",
             "Device_Maker": "BQ",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "BQ"
+        },
+        "standard": true
     },
     "BQ Edison": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "Edison",
             "Device_Code_Name": "Edison",
             "Device_Maker": "BQ",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "BQ"
+        },
+        "standard": true
     }
 }

@@ -28,10 +28,10 @@ class Platform
     private $isStandard = false;
 
     /**
-     * @param string   $match
-     * @param string[] $properties
-     * @param bool     $isLite
-     * @param bool     $standard
+     * @param string $match
+     * @param array  $properties
+     * @param bool   $isLite
+     * @param bool   $standard
      */
     public function __construct(string $match, array $properties, bool $isLite, bool $standard)
     {
@@ -47,7 +47,7 @@ class Platform
     }
 
     /**
-     * @return string[]
+     * @return array
      */
     public function getProperties() : array
     {

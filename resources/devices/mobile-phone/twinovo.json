@@ -1,28 +1,24 @@
 {
     "Twinovo T108": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T108",
             "Device_Code_Name": "T108",
             "Device_Maker": "Twinovo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Twinovo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Twinovo"
+        },
+        "standard": false
     },
     "Twinovo T118": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T118",
             "Device_Code_Name": "T118",
             "Device_Maker": "Twinovo",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Twinovo",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Twinovo"
+        },
+        "standard": false
     }
 }

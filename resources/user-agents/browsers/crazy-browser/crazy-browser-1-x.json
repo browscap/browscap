@@ -15,8 +15,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Crazy Browser #MAJORVER#.0",
         "Version": "#MAJORVER#.0",
-        "Alpha": "false",
-        "Beta": "false"
+        "Alpha": false,
+        "Beta": false
       },
       "children": [
         {

@@ -14,7 +14,7 @@
         "Parent": "DefaultProperties",
         "Comment": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
-        "Beta": "true"
+        "Beta": true
       },
       "children": [
         {

@@ -1,15 +1,13 @@
 {
     "Mystery MID-721": {
-        "standard": true,
+        "type": "tablet",
         "properties": {
-            "Device_Type": "Tablet",
             "Device_Name": "MID-721",
             "Device_Code_Name": "MID-721",
             "Device_Maker": "Mystery",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mystery",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
+            "Device_Brand_Name": "Mystery"
+        },
+        "standard": true
     }
 }

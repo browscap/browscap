@@ -1,106 +1,90 @@
 {
     "ThL 4400": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "4400",
             "Device_Code_Name": "4400",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL T6S": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T6S",
             "Device_Code_Name": "T6S",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL T9": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "T9 Pro",
             "Device_Code_Name": "T9",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL W1": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "W1",
             "Device_Code_Name": "W1",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL W100": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "W100",
             "Device_Code_Name": "W100",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL W200": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "W200",
             "Device_Code_Name": "W200",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL W7": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "W7",
             "Device_Code_Name": "W7",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     },
     "ThL W8": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "W8 Beyond",
             "Device_Code_Name": "W8",
             "Device_Maker": "ThL",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ThL"
+        },
+        "standard": false
     }
 }

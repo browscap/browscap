@@ -1,93 +1,79 @@
 {
     "GoogleTV": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Google TV",
             "Device_Name": "Google TV",
+            "Device_Code_Name": "Google TV",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     },
     "Sony NSZ-GS7/GX70": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "NSZ-GS7/GX70",
             "Device_Name": "NSZ-GS7/GX70",
+            "Device_Code_Name": "NSZ-GS7/GX70",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     },
     "Sony Netbox": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Netbox",
             "Device_Name": "Netbox",
+            "Device_Code_Name": "Netbox",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
-    },
-    "Sony Playstation": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "PS1",
-            "Device_Name": "Playstation",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     },
     "Sony PS2": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "PS2",
             "Device_Name": "Playstation 2",
+            "Device_Code_Name": "PS2",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     },
     "Sony PS3": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "PS3",
             "Device_Name": "Playstation 3",
+            "Device_Code_Name": "PS3",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     },
     "Sony PS4": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "PS4",
             "Device_Name": "Playstation 4",
+            "Device_Code_Name": "PS4",
             "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
+    },
+    "Sony Playstation": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Playstation",
+            "Device_Code_Name": "PS1",
+            "Device_Maker": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "Device_Brand_Name": "Sony"
+        },
+        "standard": true
     }
 }

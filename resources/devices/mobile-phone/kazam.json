@@ -1,41 +1,35 @@
 {
     "KAZAM Tornado 348": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Tornado 348",
             "Device_Code_Name": "Tornado 348",
             "Device_Maker": "KAZAM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "KAZAM"
+        },
+        "standard": false
     },
     "KAZAM Trooper 2 5.0": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Trooper 2 5.0",
             "Device_Code_Name": "Trooper 2 5.0",
             "Device_Maker": "KAZAM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "KAZAM"
+        },
+        "standard": false
     },
     "KAZAM Trooper X40": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Trooper X40",
             "Device_Code_Name": "Trooper X40",
             "Device_Maker": "KAZAM",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "KAZAM"
+        },
+        "standard": false
     }
 }

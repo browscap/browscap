@@ -1,145 +1,123 @@
 {
     "Coolpad 3320A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Rogue",
             "Device_Code_Name": "3320A",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 3622A": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Catalyst",
             "Device_Code_Name": "3622A",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 7620L-W00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "K1",
             "Device_Code_Name": "7620L-W00",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8076D": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "8076D",
             "Device_Code_Name": "8076D",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8089": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "8089",
             "Device_Code_Name": "8089",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8297-C00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Dashen F1",
             "Device_Code_Name": "8297-C00",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8297-T01": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Dashen F1",
             "Device_Code_Name": "8297-T01",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8675": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Dashen F2",
             "Device_Code_Name": "8675",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad 8730L": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "8730L",
             "Device_Code_Name": "8730L",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad CP8298_I00": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Note 3 Lite",
             "Device_Code_Name": "CP8298_I00",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     },
     "Coolpad CP8676_I02": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "Note 3",
             "Device_Code_Name": "CP8676_I02",
             "Device_Maker": "Coolpad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Coolpad",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Coolpad"
+        },
+        "standard": false
     }
 }

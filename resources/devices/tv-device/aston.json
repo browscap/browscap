@@ -1,15 +1,13 @@
 {
     "ASTON XenaHd Twin Connect": {
-        "standard": true,
+        "type": "tv",
         "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "XenaHd Twin Connect",
             "Device_Name": "XenaHd Twin Connect",
+            "Device_Code_Name": "XenaHd Twin Connect",
             "Device_Maker": "ASTON",
-            "Device_Brand_Name": "ASTON",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "false",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "ASTON"
+        },
+        "standard": true
     }
 }

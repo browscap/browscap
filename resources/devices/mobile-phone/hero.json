@@ -1,15 +1,13 @@
 {
     "Hero H2000+": {
-        "standard": false,
+        "type": "mobile-phone",
         "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Name": "H2000+",
             "Device_Code_Name": "H2000+",
             "Device_Maker": "Hero",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Hero",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
+            "Device_Brand_Name": "Hero"
+        },
+        "standard": false
     }
 }

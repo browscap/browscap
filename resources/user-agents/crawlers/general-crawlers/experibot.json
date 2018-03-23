@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Experibot",
-        "Alpha": "true"
+        "Alpha": true
       },
       "children": [
         {
