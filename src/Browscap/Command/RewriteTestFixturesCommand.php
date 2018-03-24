@@ -15,7 +15,7 @@ class RewriteTestFixturesCommand extends Command
     {
         $this
             ->setName('rewrite-test-fixtures')
-            ->setDescription('rewrites the test files in the fitires folder');
+            ->setDescription('rewrites the test files in the fixtures folder');
     }
 
     /**
