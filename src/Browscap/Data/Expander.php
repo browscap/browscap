@@ -52,17 +52,38 @@ class Expander
      *
      * @throws \UnexpectedValueException
      * @throws \OutOfBoundsException
+     * @throws \Browscap\Data\DuplicateDataException
      *
      * @return array
      */
     public function expand(Division $division, string $divisionName) : array
     {
-        $allInputDivisions = $this->parseDivision(
-            $division,
-            $divisionName
-        );
+        $defaultproperties    = $this->collection->getDefaultProperties()->getUserAgents()[0];
+        $allInputDivisions    = [$defaultproperties->getUserAgent() => $defaultproperties->getProperties()];
+        $allExpandedDivisions = [];
 
-        return $this->expandProperties($allInputDivisions);
+        foreach ($this->parseDivision($division, $divisionName) as $ua => $properties) {
+            if (array_key_exists($ua, $allInputDivisions)) {
+                throw new DuplicateDataException(
+                    sprintf(
+                        'tried to add section "%s" for division "%s" in file "%s", but this was already added before',
+                        $ua,
+                        $division->getName(),
+                        $division->getFileName()
+                    )
+                );
+            }
+
+            $allInputDivisions[$ua]    = $properties;
+            $allExpandedDivisions[$ua] = $this->expandProperties(
+                $ua,
+                $properties,
+                $defaultproperties->getProperties(),
+                $allInputDivisions
+            );
+        }
+
+        return $allExpandedDivisions;
     }
 
     /**
@@ -88,32 +109,27 @@ class Expander
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return array
+     * @return \Generator
      */
-    private function parseDivision(Division $division, string $divisionName) : array
+    private function parseDivision(Division $division, string $divisionName) : \Generator
     {
-        $output = [];
-
         $i = 0;
         foreach ($division->getUserAgents() as $uaData) {
             $this->resetPatternId();
             $this->patternId['division']  = $division->getFileName();
             $this->patternId['useragent'] = $i;
 
-            $output = array_merge(
-                $output,
-                $this->parseUserAgent(
+            foreach ($this->parseUserAgent(
                     $uaData,
                     $division->isLite(),
                     $division->isStandard(),
                     $division->getSortIndex(),
                     $divisionName
-                )
-            );
+                ) as $ua => $properties) {
+                yield $ua => $properties;
+            }
             ++$i;
         }
-
-        return $output;
     }
 
     /**
@@ -128,9 +144,9 @@ class Expander
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return array
+     * @return \Generator
      */
-    private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
+    private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : \Generator
     {
         $uaProperties = $uaData->getProperties();
 
@@ -219,21 +235,19 @@ class Expander
 
         $ua = $uaData->getUserAgent();
 
-        $output = [
-            $ua => array_merge(
-                [
-                    'lite' => $lite,
-                    'standard' => $standard,
-                    'sortIndex' => $sortIndex,
-                    'division' => $divisionName,
-                ],
-                $platformProperties,
-                $engineProperties,
-                $deviceProperties,
-                $browserProperties,
-                $uaProperties
-            ),
-        ];
+        yield $ua => array_merge(
+            [
+                'lite' => $lite,
+                'standard' => $standard,
+                'sortIndex' => $sortIndex,
+                'division' => $divisionName,
+            ],
+            $platformProperties,
+            $engineProperties,
+            $deviceProperties,
+            $browserProperties,
+            $uaProperties
+        );
 
         $i = 0;
         foreach ($uaData->getChildren() as $child) {
@@ -248,24 +262,20 @@ class Expander
                     $subChild['device']        = $deviceName;
                     unset($subChild['devices']);
 
-                    $output = array_merge(
-                        $output,
-                        $this->parseChildren($ua, $subChild, $lite, $standard)
-                    );
+                    foreach ($this->parseChildren($ua, $subChild, $lite, $standard) as $uaBase => $properties) {
+                        yield $uaBase => $properties;
+                    }
                 }
             } else {
                 $this->patternId['device'] = '';
 
-                $output = array_merge(
-                    $output,
-                    $this->parseChildren($ua, $child, $lite, $standard)
-                );
+                foreach ($this->parseChildren($ua, $child, $lite, $standard) as $uaBase => $properties) {
+                    yield $uaBase => $properties;
+                }
             }
 
             ++$i;
         }
-
-        return $output;
     }
 
     /**
@@ -279,12 +289,10 @@ class Expander
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
-     * @return array
+     * @return \Generator
      */
-    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
+    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : \Generator
     {
-        $output = [];
-
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
                 $this->patternId['platform'] = $platform;
@@ -384,7 +392,7 @@ class Expander
 
                 $properties['PatternId'] = $this->getPatternId();
 
-                $output[$uaBase] = $properties;
+                yield $uaBase => $properties;
             }
         } else {
             $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
@@ -467,10 +475,8 @@ class Expander
 
             $properties['PatternId'] = $this->getPatternId();
 
-            $output[$uaBase] = $properties;
+            yield $uaBase => $properties;
         }
-
-        return $output;
     }
 
     /**
@@ -491,105 +497,95 @@ class Expander
     }
 
     /**
-     * expands all properties for all useragents to make sure all properties are set and make it possible to skip
+     * expands all properties for one useragent to make sure all properties are set and make it possible to skip
      * incomplete properties and remove duplicate definitions
      *
-     * @param array[] $allInputDivisions
-     *
-     * @throws \UnexpectedValueException
+     * @param string $ua
+     * @param array  $properties
+     * @param array  $defaultproperties
+     * @param array  $allInputDivisions
      *
      * @return array
      */
-    private function expandProperties(array $allInputDivisions) : array
+    private function expandProperties(string $ua, array $properties, array $defaultproperties, array $allInputDivisions) : array
     {
-        $this->logger->debug('expand all properties');
-        $allDivisions = [];
+        $this->logger->debug('expand all properties for useragent "' . $ua . '"');
 
-        $ua                = $this->collection->getDefaultProperties()->getUserAgents()[0];
-        $defaultproperties = $ua->getProperties();
+        $userAgent = $ua;
+        $parents   = [$userAgent];
 
-        foreach (array_keys($allInputDivisions) as $key) {
-            $this->logger->debug('expand all properties for key "' . $key . '"');
-
-            $userAgent = $key;
-            $parents   = [$userAgent];
-
-            while (isset($allInputDivisions[$userAgent]['Parent'])) {
-                if ($allInputDivisions[$userAgent]['Parent'] === $userAgent) {
-                    break;
-                }
-
-                $parents[] = $allInputDivisions[$userAgent]['Parent'];
-                $userAgent = $allInputDivisions[$userAgent]['Parent'];
+        while (isset($allInputDivisions[$userAgent]['Parent'])) {
+            if ($allInputDivisions[$userAgent]['Parent'] === $userAgent) {
+                throw new InvalidParentException(sprintf('useragent "%s" defines itself as parent', $ua));
             }
-            unset($userAgent);
 
-            $parents     = array_reverse($parents);
-            $browserData = $defaultproperties;
-            $properties  = $allInputDivisions[$key];
+            $parents[] = $allInputDivisions[$userAgent]['Parent'];
+            $userAgent = $allInputDivisions[$userAgent]['Parent'];
+        }
+        unset($userAgent);
 
-            foreach ($parents as $parent) {
-                if (!isset($allInputDivisions[$parent])) {
-                    continue;
-                }
+        $parents     = array_reverse($parents);
+        $browserData = $defaultproperties;
 
-                if (!is_array($allInputDivisions[$parent])) {
+        foreach ($parents as $parent) {
+            if (!isset($allInputDivisions[$parent])) {
+                throw new ParentNotDefinedException(
+                    sprintf('the parent "%s" for useragent "%s" is not defined', $parent, $ua)
+                );
+            }
+
+            if (!is_array($allInputDivisions[$parent])) {
+                throw new \UnexpectedValueException(
+                    'Parent "' . $parent . '" is not an array for useragent "' . $ua . '"'
+                );
+            }
+
+            if ($ua !== $parent
+                && isset($allInputDivisions[$parent]['sortIndex'], $properties['sortIndex'])
+
+                && ($allInputDivisions[$parent]['division'] !== $properties['division'])
+            ) {
+                if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
                     throw new \UnexpectedValueException(
-                        'Parent "' . $parent . '" is not an array for key "' . $key . '"'
+                        'sorting not ready for useragent "'
+                        . $ua . '"'
                     );
                 }
-
-                if ($key !== $parent
-                    && isset($allInputDivisions[$parent]['sortIndex'], $properties['sortIndex'])
-
-                    && ($allInputDivisions[$parent]['division'] !== $properties['division'])
-                ) {
-                    if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
-                        throw new \UnexpectedValueException(
-                            'sorting not ready for key "'
-                            . $key . '"'
-                        );
-                    }
-                }
-
-                $browserData = array_merge($browserData, $allInputDivisions[$parent]);
             }
 
-            array_pop($parents);
-            $browserData['Parents'] = implode(',', $parents);
-            unset($parents);
-
-            foreach (array_keys($browserData) as $propertyName) {
-                $properties[$propertyName] = $browserData[$propertyName];
-
-                if (is_string($browserData[$propertyName])) {
-                    $properties[$propertyName] = $this->trimProperty->trimProperty($browserData[$propertyName]);
-                }
-            }
-
-            unset($browserData);
-
-            $allDivisions[$key] = $properties;
-
-            if (!isset($properties['Version'])) {
-                throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
-            }
-
-            $completeVersions = explode('.', $properties['Version'], 2);
-
-            $properties['MajorVer'] = (string) $completeVersions[0];
-
-            if (isset($completeVersions[1])) {
-                $minorVersion = (string) $completeVersions[1];
-            } else {
-                $minorVersion = '0';
-            }
-
-            $properties['MinorVer'] = $minorVersion;
-
-            $allDivisions[$key] = $properties;
+            $browserData = array_merge($browserData, $allInputDivisions[$parent]);
         }
 
-        return $allDivisions;
+        array_pop($parents);
+        $browserData['Parents'] = implode(',', $parents);
+        unset($parents);
+
+        foreach (array_keys($browserData) as $propertyName) {
+            $properties[$propertyName] = $browserData[$propertyName];
+
+            if (is_string($browserData[$propertyName])) {
+                $properties[$propertyName] = $this->trimProperty->trimProperty($browserData[$propertyName]);
+            }
+        }
+
+        unset($browserData);
+
+        if (!isset($properties['Version'])) {
+            throw new \UnexpectedValueException('Version property not found for useragent "' . $ua . '"');
+        }
+
+        $completeVersions = explode('.', $properties['Version'], 2);
+
+        $properties['MajorVer'] = (string) $completeVersions[0];
+
+        if (isset($completeVersions[1])) {
+            $minorVersion = (string) $completeVersions[1];
+        } else {
+            $minorVersion = '0';
+        }
+
+        $properties['MinorVer'] = $minorVersion;
+
+        return $properties;
     }
 }

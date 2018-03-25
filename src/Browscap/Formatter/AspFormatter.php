@@ -82,7 +82,8 @@ class AspFormatter implements FormatterInterface
 
                 break;
             default:
-                // nothing t do here
+                $valueOutput = (string) $value;
+
                 break;
         }
 

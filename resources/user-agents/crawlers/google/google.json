@@ -95,10 +95,6 @@
           "browser": "igooglegadgets"
         },
         {
-          "match": "GoogleFriendConnect*",
-          "browser": "google friend connect"
-        },
-        {
           "match": "Mozilla/5.0 (*) applewebkit*(*khtml*like*gecko; Google-Adwords-DisplayAds-WebRender;)*",
           "browser": "google adwords displayads webrender"
         },

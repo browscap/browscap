@@ -4,6 +4,7 @@ namespace BrowscapTest\Generator\Helper;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
@@ -19,6 +20,9 @@ class BuildHelperTest extends TestCase
      */
     private $logger;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         $this->logger = $this->createMock(Logger::class);
@@ -82,12 +86,12 @@ class BuildHelperTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::exactly(3))
+            ->expects(self::exactly(2))
             ->method('getUserAgent')
             ->will(self::returnValue('abc'));
 
         $useragent
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(2))
             ->method('getProperties')
             ->will(self::returnValue([
                 'Parent' => 'Defaultproperties',
@@ -141,8 +145,74 @@ class BuildHelperTest extends TestCase
                 'PatternId' => 'resources/core/default-browser.json::u0',
             ]));
 
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $defaultProperties
+            ->expects(self::exactly(2))
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $defaultProperties
+            ->expects(self::exactly(3))
+            ->method('getProperties')
+            ->will(self::returnValue(
+                [
+                     'Comment' => 'Defaultproperties',
+                     'Browser' => 'Defaultproperties',
+                     'Browser_Type' => 'unknown',
+                     'Browser_Bits' => 0,
+                     'Browser_Maker' => 'unknown',
+                     'Browser_Modus' => 'unknown',
+                     'Version' => '0.0',
+                     'MajorVer' => '0',
+                     'MinorVer' => '0',
+                     'Platform' => 'unknown',
+                     'Platform_Version' => 'unknown',
+                     'Platform_Description' => 'unknown',
+                     'Platform_Bits' => 0,
+                     'Platform_Maker' => 'unknown',
+                     'Alpha' => false,
+                     'Beta' => false,
+                     'Win16' => false,
+                     'Win32' => false,
+                     'Win64' => false,
+                     'Frames' => false,
+                     'IFrames' => false,
+                     'Tables' => false,
+                     'Cookies' => false,
+                     'BackgroundSounds' => false,
+                     'JavaScript' => false,
+                     'VBScript' => false,
+                     'JavaApplets' => false,
+                     'ActiveXControls' => false,
+                     'isMobileDevice' => false,
+                     'isTablet' => false,
+                     'isSyndicationReader' => false,
+                     'Crawler' => false,
+                     'isFake' => false,
+                     'isAnonymized' => false,
+                     'isModified' => false,
+                     'CssVersion' => 0,
+                     'AolVersion' => 0,
+                     'Device_Name' => 'unknown',
+                     'Device_Maker' => 'unknown',
+                     'Device_Type' => 'unknown',
+                     'Device_Pointing_Method' => 'unknown',
+                     'Device_Code_Name' => 'unknown',
+                     'Device_Brand_Name' => 'unknown',
+                     'RenderingEngine_Name' => 'unknown',
+                     'RenderingEngine_Version' => 'unknown',
+                     'RenderingEngine_Description' => 'unknown',
+                     'RenderingEngine_Maker' => 'unknown',
+                     'PatternId' => 'resources/core/default-browser.json::u0',
+                 ]
+            ));
+
         $division
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(2))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -156,6 +226,22 @@ class BuildHelperTest extends TestCase
             ->method('getVersions')
             ->will(self::returnValue(['2']));
 
+        $coreDivision = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $coreDivision
+            ->expects(self::exactly(2))
+            ->method('getUserAgents')
+            ->will(
+                self::returnValue(
+                    [
+                        0 => $defaultProperties,
+                    ]
+                )
+            );
+
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
@@ -168,7 +254,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
         $collection
             ->expects(self::once())
             ->method('getDefaultBrowser')
@@ -248,12 +334,12 @@ class BuildHelperTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(3))
             ->method('getUserAgent')
             ->will(self::returnValue('abc'));
 
         $useragent
-            ->expects(self::exactly(6))
+            ->expects(self::exactly(3))
             ->method('getProperties')
             ->will(self::returnValue([
                 'Parent' => 'Defaultproperties',
@@ -308,7 +394,7 @@ class BuildHelperTest extends TestCase
             ]));
 
         $division
-            ->expects(self::exactly(6))
+            ->expects(self::exactly(3))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -322,6 +408,90 @@ class BuildHelperTest extends TestCase
             ->method('getVersions')
             ->will(self::returnValue(['2']));
 
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $defaultProperties
+            ->expects(self::exactly(3))
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $defaultProperties
+            ->expects(self::exactly(5))
+            ->method('getProperties')
+            ->will(
+                self::returnValue(
+                [
+                     'Comment' => 'Defaultproperties',
+                     'Browser' => 'Defaultproperties',
+                     'Browser_Type' => 'unknown',
+                     'Browser_Bits' => 0,
+                     'Browser_Maker' => 'unknown',
+                     'Browser_Modus' => 'unknown',
+                     'Version' => '0.0',
+                     'MajorVer' => '0',
+                     'MinorVer' => '0',
+                     'Platform' => 'unknown',
+                     'Platform_Version' => 'unknown',
+                     'Platform_Description' => 'unknown',
+                     'Platform_Bits' => 0,
+                     'Platform_Maker' => 'unknown',
+                     'Alpha' => false,
+                     'Beta' => false,
+                     'Win16' => false,
+                     'Win32' => false,
+                     'Win64' => false,
+                     'Frames' => false,
+                     'IFrames' => false,
+                     'Tables' => false,
+                     'Cookies' => false,
+                     'BackgroundSounds' => false,
+                     'JavaScript' => false,
+                     'VBScript' => false,
+                     'JavaApplets' => false,
+                     'ActiveXControls' => false,
+                     'isMobileDevice' => false,
+                     'isTablet' => false,
+                     'isSyndicationReader' => false,
+                     'Crawler' => false,
+                     'isFake' => false,
+                     'isAnonymized' => false,
+                     'isModified' => false,
+                     'CssVersion' => 0,
+                     'AolVersion' => 0,
+                     'Device_Name' => 'unknown',
+                     'Device_Maker' => 'unknown',
+                     'Device_Type' => 'unknown',
+                     'Device_Pointing_Method' => 'unknown',
+                     'Device_Code_Name' => 'unknown',
+                     'Device_Brand_Name' => 'unknown',
+                     'RenderingEngine_Name' => 'unknown',
+                     'RenderingEngine_Version' => 'unknown',
+                     'RenderingEngine_Description' => 'unknown',
+                     'RenderingEngine_Maker' => 'unknown',
+                     'PatternId' => 'resources/core/default-browser.json::u0',
+                 ]
+            )
+            );
+
+        $coreDivision = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $coreDivision
+            ->expects(self::exactly(3))
+            ->method('getUserAgents')
+            ->will(
+                self::returnValue(
+                    [
+                        0 => $defaultProperties,
+                    ]
+                )
+            );
+
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
@@ -334,7 +504,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::exactly(3))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
         $collection
             ->expects(self::once())
             ->method('getDefaultBrowser')
@@ -414,12 +584,12 @@ class BuildHelperTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::exactly(3))
+            ->expects(self::exactly(2))
             ->method('getUserAgent')
             ->will(self::returnValue('abc'));
 
         $useragent
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(2))
             ->method('getProperties')
             ->will(self::returnValue([
                 'Parent' => 'Defaultproperties',
@@ -474,7 +644,7 @@ class BuildHelperTest extends TestCase
             ]));
 
         $division
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(2))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -488,6 +658,88 @@ class BuildHelperTest extends TestCase
             ->method('getVersions')
             ->will(self::returnValue(['2']));
 
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $defaultProperties
+            ->expects(self::exactly(2))
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $defaultProperties
+            ->expects(self::exactly(3))
+            ->method('getProperties')
+            ->will(self::returnValue(
+                [
+                     'Comment' => 'Defaultproperties',
+                     'Browser' => 'Defaultproperties',
+                     'Browser_Type' => 'unknown',
+                     'Browser_Bits' => 0,
+                     'Browser_Maker' => 'unknown',
+                     'Browser_Modus' => 'unknown',
+                     'Version' => '0.0',
+                     'MajorVer' => '0',
+                     'MinorVer' => '0',
+                     'Platform' => 'unknown',
+                     'Platform_Version' => 'unknown',
+                     'Platform_Description' => 'unknown',
+                     'Platform_Bits' => 0,
+                     'Platform_Maker' => 'unknown',
+                     'Alpha' => false,
+                     'Beta' => false,
+                     'Win16' => false,
+                     'Win32' => false,
+                     'Win64' => false,
+                     'Frames' => false,
+                     'IFrames' => false,
+                     'Tables' => false,
+                     'Cookies' => false,
+                     'BackgroundSounds' => false,
+                     'JavaScript' => false,
+                     'VBScript' => false,
+                     'JavaApplets' => false,
+                     'ActiveXControls' => false,
+                     'isMobileDevice' => false,
+                     'isTablet' => false,
+                     'isSyndicationReader' => false,
+                     'Crawler' => false,
+                     'isFake' => false,
+                     'isAnonymized' => false,
+                     'isModified' => false,
+                     'CssVersion' => 0,
+                     'AolVersion' => 0,
+                     'Device_Name' => 'unknown',
+                     'Device_Maker' => 'unknown',
+                     'Device_Type' => 'unknown',
+                     'Device_Pointing_Method' => 'unknown',
+                     'Device_Code_Name' => 'unknown',
+                     'Device_Brand_Name' => 'unknown',
+                     'RenderingEngine_Name' => 'unknown',
+                     'RenderingEngine_Version' => 'unknown',
+                     'RenderingEngine_Description' => 'unknown',
+                     'RenderingEngine_Maker' => 'unknown',
+                     'PatternId' => 'resources/core/default-browser.json::u0',
+                 ]
+            ));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $coreDivision
+            ->expects(self::exactly(2))
+            ->method('getUserAgents')
+            ->will(
+                self::returnValue(
+                    [
+                        0 => $defaultProperties,
+                    ]
+                )
+            );
+
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
@@ -500,7 +752,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
         $collection
             ->expects(self::once())
             ->method('getDefaultBrowser')
@@ -520,5 +772,65 @@ class BuildHelperTest extends TestCase
             ->will(self::returnValue($collection));
 
         BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator, true);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     * @throws \Exception
+     */
+    public function testDuplicateUseragents() : void
+    {
+        $writerCollection = $this->getMockBuilder(WriterCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(
+                [
+                 'fileStart',
+                 'renderHeader',
+                 'renderAllDivisionsHeader',
+                 'renderDivisionFooter',
+                 'renderSectionHeader',
+                 'renderSectionBody',
+                 'fileEnd',
+                ]
+            )
+            ->getMock();
+
+        $writerCollection->expects(self::once())
+            ->method('fileStart')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::never())
+            ->method('fileEnd')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::once())
+            ->method('renderHeader')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::once())
+            ->method('renderAllDivisionsHeader')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::any())
+            ->method('renderDivisionFooter')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::any())
+            ->method('renderSectionHeader')
+            ->will(self::returnSelf());
+        $writerCollection->expects(self::any())
+            ->method('renderSectionBody')
+            ->will(self::returnSelf());
+
+        $dataCollectionFactory = new DataCollectionFactory($this->logger);
+
+        $resourceFolder = realpath(__DIR__ . '/../../../fixtures/duplicate-useragent-entries');
+
+        $this->expectException(DuplicateDataException::class);
+        $this->expectExceptionMessage(sprintf('Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*" for division "2345 Browser #MAJORVER#.#MINORVER#" in file "%s/user-agents\test1.json", but this was already added before', $resourceFolder));
+
+        BuildHelper::run(
+            'test',
+            $resourceFolder,
+            $this->logger,
+            $writerCollection,
+            $dataCollectionFactory,
+            false
+        );
     }
 }

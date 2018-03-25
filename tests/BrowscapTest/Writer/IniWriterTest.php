@@ -29,6 +29,9 @@ class IniWriterTest extends TestCase
      */
     private $file;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -56,6 +59,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
@@ -67,6 +72,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
@@ -197,6 +204,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -255,6 +264,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilent() : void
     {
@@ -357,6 +368,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -471,6 +484,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -584,6 +599,8 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {

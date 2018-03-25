@@ -1,7 +1,7 @@
 {
   "division": "OmniWeb #MAJORVER#.#MINORVER#",
   "versions": [5],
-  "sortIndex": 2694,
+  "sortIndex": 2692,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -17,12 +17,6 @@
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *OmniWeb/v558.*",
-          "platforms": [
-            "OSX"
-          ]
-        },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *OmniWeb/v558.*",
           "platforms": [

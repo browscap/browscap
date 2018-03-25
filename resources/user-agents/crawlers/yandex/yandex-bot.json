@@ -25,12 +25,6 @@
           }
         },
         {
-          "match": ": Mozilla/5.0 (compatible; YandexBot/3.0*",
-          "properties": {
-            "Version": "3.0"
-          }
-        },
-        {
           "match": "Mozilla/5.0 (compatible; YandexBot/*"
         },
         {

@@ -54,6 +54,9 @@ class DataCollectionTest extends TestCase
         $this->object->getPlatform('NotExists');
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testGetPlatform() : void
     {
         $expectedPlatform = $this->createMock(Platform::class);
@@ -73,6 +76,9 @@ class DataCollectionTest extends TestCase
         $this->object->getEngine('NotExists');
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testGetEngine() : void
     {
         $expectedEngine = $this->createMock(Engine::class);
@@ -92,6 +98,9 @@ class DataCollectionTest extends TestCase
         $this->object->getDevice('NotExists');
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testGetDevice() : void
     {
         $expectedDevice = $this->createMock(Device::class);
@@ -111,6 +120,9 @@ class DataCollectionTest extends TestCase
         $this->object->getBrowser('NotExists');
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testGetBrowser() : void
     {
         $expectedBrowser = $this->createMock(Browser::class);
@@ -124,7 +136,16 @@ class DataCollectionTest extends TestCase
 
     public function testGetDivisions() : void
     {
-        $expectedDivision = $this->createMock(Division::class);
+        $divisionName     = 'test-division';
+        $expectedDivision = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getName'])
+            ->getMock();
+
+        $expectedDivision
+            ->expects(self::never())
+            ->method('getName')
+            ->will(self::returnValue($divisionName));
 
         $this->object->addDivision($expectedDivision);
 
@@ -134,13 +155,17 @@ class DataCollectionTest extends TestCase
         self::assertArrayHasKey(0, $divisions);
         self::assertSame($expectedDivision, $divisions[0]);
 
-        $divisions = $this->object->getDivisions();
+        $divisionsSecond = $this->object->getDivisions();
 
-        self::assertInternalType('array', $divisions);
-        self::assertArrayHasKey(0, $divisions);
-        self::assertSame($expectedDivision, $divisions[0]);
+        self::assertInternalType('array', $divisionsSecond);
+        self::assertArrayHasKey(0, $divisionsSecond);
+        self::assertSame($expectedDivision, $divisionsSecond[0]);
+        self::assertSame($divisions, $divisionsSecond);
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testSetDefaultProperties() : void
     {
         $defaultProperties = $this->createMock(Division::class);
@@ -150,6 +175,9 @@ class DataCollectionTest extends TestCase
         self::assertSame($defaultProperties, $this->object->getDefaultProperties());
     }
 
+    /**
+     * @throws \ReflectionException
+     */
     public function testSetDefaultBrowser() : void
     {
         $defaultBrowser = $this->createMock(Division::class);

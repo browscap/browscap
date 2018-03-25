@@ -15,6 +15,9 @@ class DivisionFactoryTest extends TestCase
      */
     private $object;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         $logger = $this->createMock(Logger::class);

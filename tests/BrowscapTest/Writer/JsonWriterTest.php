@@ -28,6 +28,9 @@ class JsonWriterTest extends TestCase
      */
     private $file;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -55,6 +58,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
@@ -66,6 +71,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
@@ -222,6 +229,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -278,6 +287,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilent() : void
     {
@@ -379,6 +390,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -492,6 +505,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -600,6 +615,8 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {

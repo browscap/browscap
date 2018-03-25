@@ -93,6 +93,12 @@ class DataCollection
      */
     public function addBrowser(string $browserName, Browser $browser) : void
     {
+        if (array_key_exists($browserName, $this->browsers)) {
+            throw new DuplicateDataException(
+                sprintf('it was tried to add browser "%s", but this was already added before', $browserName)
+            );
+        }
+
         $this->browsers[$browserName] = $browser;
 
         $this->divisionsHaveBeenSorted = false;
@@ -104,6 +110,12 @@ class DataCollection
      */
     public function addDevice(string $deviceName, Device $device) : void
     {
+        if (array_key_exists($deviceName, $this->devices)) {
+            throw new DuplicateDataException(
+                sprintf('it was tried to add device "%s", but this was already added before', $deviceName)
+            );
+        }
+
         $this->devices[$deviceName] = $device;
 
         $this->divisionsHaveBeenSorted = false;

@@ -27,6 +27,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionWithDefaultParams() : void
     {
@@ -38,6 +40,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionForCsvFile() : void
     {
@@ -49,6 +53,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionForAspFile() : void
     {
@@ -60,6 +66,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionForXmlFile() : void
     {
@@ -71,6 +79,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionForJsonFile() : void
     {
@@ -82,6 +92,8 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollectionForPhpFile() : void
     {

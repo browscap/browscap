@@ -17,32 +17,10 @@
       },
       "children": [
         {
-          "match": "iBrowser/#MAJORVER#.#MINORVER#/Mozilla/5.0 (#PLATFORM#GT-I5510 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-I5510",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2"
-          ]
-        },
-        {
-          "match": "iBrowser/#MAJORVER#.#MINORVER#/Mozilla/5.0 (#PLATFORM#GT-I5510 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-I5510",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2"
-          ]
-        },
-        {
-          "match": "iBrowser/#MAJORVER#.#MINORVER#/Mozilla/5.0 (#PLATFORM#GT-I5510 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-I5510",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3", "Android_2_2"
-          ]
-        },
-        {
-          "match": "iBrowser/#MAJORVER#.#MINORVER#/Mozilla/5.0 (#PLATFORM#GT-I5510 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-I5510",
+          "match": "iBrowser/#MAJORVER#.#MINORVER#/Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "devices": {
+            "GT-I5510": "Samsung GT-I5510"
+          },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2"

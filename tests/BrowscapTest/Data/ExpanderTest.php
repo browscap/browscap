@@ -31,6 +31,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests parsing an empty data collection
+     *
+     * @throws \ReflectionException
      */
     public function testParseDoesNothingOnEmptyDatacollection() : void
     {
@@ -44,30 +46,35 @@ class ExpanderTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
+        $defaultProperties
             ->expects(self::once())
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -90,6 +97,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests parsing a not empty data collection without children
+     *
+     * @throws \ReflectionException
      */
     public function testParseOnNotEmptyDatacollectionWithoutChildren() : void
     {
@@ -103,30 +112,35 @@ class ExpanderTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(2))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -175,6 +189,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests parsing an not empty data collection with children
+     *
+     * @throws \ReflectionException
      */
     public function testParseOnNotEmptyDatacollectionWithChildren() : void
     {
@@ -188,30 +204,35 @@ class ExpanderTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(3))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -266,6 +287,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests parsing a non empty data collection with children and devices
+     *
+     * @throws \ReflectionException
      */
     public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
@@ -279,25 +302,30 @@ class ExpanderTest extends TestCase
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(4))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -317,7 +345,7 @@ class ExpanderTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $collection
             ->expects(self::exactly(2))
@@ -381,6 +409,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children, no devices or platforms
+     *
+     * @throws \ReflectionException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren() : void
     {
@@ -389,30 +419,35 @@ class ExpanderTest extends TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(3))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -473,6 +508,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children and platforms, no devices
+     *
+     * @throws \ReflectionException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms() : void
     {
@@ -481,25 +518,30 @@ class ExpanderTest extends TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(3))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -519,7 +561,7 @@ class ExpanderTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $collection
             ->expects(self::any())
@@ -588,6 +630,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children and devices, no platforms
+     *
+     * @throws \ReflectionException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices() : void
     {
@@ -596,25 +640,30 @@ class ExpanderTest extends TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(4))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -649,7 +698,7 @@ class ExpanderTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $collection
             ->expects(self::exactly(2))
@@ -728,6 +777,8 @@ class ExpanderTest extends TestCase
 
     /**
      * tests pattern id generation on a not empty data collection with children, platforms and devices
+     *
+     * @throws \ReflectionException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {
@@ -736,25 +787,30 @@ class ExpanderTest extends TestCase
             ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
-        $useragent = $this->getMockBuilder(UserAgent::class)
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->setMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
-        $useragent
-            ->expects(self::once())
+        $defaultProperties
+            ->expects(self::exactly(4))
             ->method('getProperties')
             ->will(self::returnValue(['avd' => 'xyz']));
 
-        $division = $this->getMockBuilder(Division::class)
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
 
-        $division
+        $coreDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->will(self::returnValue([0 => $defaultProperties]));
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -774,7 +830,7 @@ class ExpanderTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->will(self::returnValue($coreDivision));
 
         $collection
             ->expects(self::exactly(2))
