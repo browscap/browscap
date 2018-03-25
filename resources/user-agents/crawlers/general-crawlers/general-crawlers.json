@@ -1975,6 +1975,17 @@
         {
           "match": "Barkrowler/*",
           "browser": "barkrowler"
+        },
+        {
+          "match": "Mixmax-LinkPreview 1.0*",
+          "browser": "mixmax link preview",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mixmax-LinkPreview *",
+          "browser": "mixmax link preview"
         }
       ]
     }

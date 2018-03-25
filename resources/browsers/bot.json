@@ -7865,6 +7865,15 @@
         "lite": false,
         "standard": true
     },
+    "mixmax link preview": {
+        "type": "bot",
+        "properties": {
+            "Browser": "Mixmax Link Preview",
+            "Browser_Maker": "Mixmax, Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
     "mixrankbot": {
         "type": "bot",
         "properties": {
