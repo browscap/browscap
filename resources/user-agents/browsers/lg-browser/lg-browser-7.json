@@ -8,7 +8,7 @@
     {
       "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
       "browser": "lg browser",
-      "platform": "webOS_20",
+      "platform": "webOS 2.0 (LG)",
       "engine": "WebKit",
       "device": "general TV Device",
       "properties": {
@@ -21,20 +21,20 @@
           "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 43LF630V*",
           "device": "LG 43LF630V",
           "platforms": [
-            "webOS_20"
+            "webOS 2.0 (LG)"
           ]
         },
         {
           "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 79UF860V*",
           "device": "LG 79UF860V",
           "platforms": [
-            "webOS_20"
+            "webOS 2.0 (LG)"
           ]
         },
         {
           "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "webOS_20"
+            "webOS 2.0 (LG)"
           ]
         }
       ]

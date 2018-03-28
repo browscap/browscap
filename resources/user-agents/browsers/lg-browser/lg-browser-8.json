@@ -8,7 +8,7 @@
     {
       "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
       "browser": "lg browser",
-      "platform": "webOS_30",
+      "platform": "webOS 3.0 (LG)",
       "engine": "Blink",
       "device": "general TV Device",
       "properties": {
@@ -21,13 +21,13 @@
           "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 49LH604V*",
           "device": "LG 49LH604V",
           "platforms": [
-            "webOS_30"
+            "webOS 3.0 (LG)"
           ]
         },
         {
           "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "webOS_30"
+            "webOS 3.0 (LG)"
           ]
         }
       ]
