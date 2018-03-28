@@ -1964,6 +1964,17 @@
         {
           "match": "Toweya.com bot*",
           "browser": "toweya.com bot"
+        },
+        {
+          "match": "Barkrowler/0.7 *",
+          "browser": "barkrowler",
+          "properties": {
+            "Version": "0.7"
+          }
+        },
+        {
+          "match": "Barkrowler/*",
+          "browser": "barkrowler"
         }
       ]
     }

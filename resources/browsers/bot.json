@@ -1322,6 +1322,15 @@
         "lite": false,
         "standard": true
     },
+    "barkrowler": {
+        "type": "bot",
+        "properties": {
+            "Browser": "Barkrowler",
+            "Browser_Maker": "eXenSa"
+        },
+        "lite": false,
+        "standard": true
+    },
     "basichttp": {
         "type": "bot",
         "properties": {
