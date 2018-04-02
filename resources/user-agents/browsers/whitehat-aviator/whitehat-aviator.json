@@ -31,6 +31,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WhiteHat Aviator/#MAJORVER#.* Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
+            "OSX_10_12",
             "OSX_10_6",
             "OSX"
           ]

@@ -83,6 +83,7 @@
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
+            "Android_4_4",
             "Android"
           ]
         }
@@ -105,7 +106,7 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A"
