@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) HeadlessChrome Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) HeadlessChrome* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"

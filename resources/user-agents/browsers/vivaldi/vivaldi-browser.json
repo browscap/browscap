@@ -27,7 +27,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Vivaldi/*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12",
+            "OSX_10_13", "OSX_10_12",
             "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
             "OSX"
           ]
@@ -57,7 +57,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Vivaldi/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_12",
+            "OSX_10_13", "OSX_10_12",
             "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
             "OSX"
           ]

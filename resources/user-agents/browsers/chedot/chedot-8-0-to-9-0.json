@@ -1,6 +1,6 @@
 {
   "division": "Chedot #MAJORVER#.#MINORVER#",
-  "versions": [8],
+  "versions": [9, 8],
   "sortIndex": 953,
   "lite": false,
   "standard": true,
