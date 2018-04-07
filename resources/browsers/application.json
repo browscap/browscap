@@ -1178,6 +1178,15 @@
         "lite": false,
         "standard": true
     },
+    "snapchat": {
+        "type": "application",
+        "properties": {
+            "Browser": "Snapchat",
+            "Browser_Maker": "Snap Inc."
+        },
+        "lite": false,
+        "standard": true
+    },
     "snowtape": {
         "type": "application",
         "properties": {

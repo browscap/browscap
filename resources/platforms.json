@@ -1326,6 +1326,42 @@
         "Platform_Version": "9.3"
       }
     },
+    "iOS_E_10_0": {
+      "match": "*iPhone OS?10?0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.0"
+      }
+    },
+    "iOS_E_10_1": {
+      "match": "*iPhone OS?10?1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.1"
+      }
+    },
+    "iOS_E_10_2": {
+      "match": "*iPhone OS?10?2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.2"
+      }
+    },
+    "iOS_E_10_3": {
+      "match": "*iPhone OS?10?3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.3"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "lite": true,
