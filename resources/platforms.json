@@ -2178,6 +2178,22 @@
       }
     },
     "Windows_64": {
+      "match": "*Windows*WOW64*",
+      "lite": true,
+      "standard": true,
+      "properties": {
+        "Browser_Bits": 32,
+        "Platform": "Win64",
+        "Platform_Bits": 64,
+        "Platform_Version": "unknown",
+        "Platform_Maker": "Microsoft Corporation",
+        "Platform_Description": "Windows",
+        "Win16": false,
+        "Win32": false,
+        "Win64": true
+      }
+    },
+    "Windows_x64": {
       "match": "*Windows*x64*",
       "lite": true,
       "standard": true,

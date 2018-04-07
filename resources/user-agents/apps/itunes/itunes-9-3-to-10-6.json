@@ -29,7 +29,7 @@
           "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows_64",
+            "Windows_x64",
             "Windows"
           ]
         },
