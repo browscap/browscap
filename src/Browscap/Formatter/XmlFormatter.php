@@ -80,7 +80,7 @@ class XmlFormatter implements FormatterInterface
 
                 break;
             default:
-                $valueOutput = htmlentities($value);
+                $valueOutput = htmlentities((string) $value);
 
                 break;
         }
