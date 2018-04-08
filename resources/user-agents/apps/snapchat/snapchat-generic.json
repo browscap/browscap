@@ -1,0 +1,52 @@
+{
+  "division": "Snapchat Generic",
+  "sortIndex": 1940,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Snapchat Generic",
+      "browser": "snapchat",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snapchat Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Snapchat/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Snapchat/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_E_10_3", "iOS_E_10_2", "iOS_E_10_1", "iOS_E_10_0",
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
+            "iOS_E"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Snapchat/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}
