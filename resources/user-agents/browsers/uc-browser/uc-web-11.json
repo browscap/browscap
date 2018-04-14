@@ -20,6 +20,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "devices": {
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
           "platforms": [
@@ -272,6 +281,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
           "platforms": [
@@ -400,17 +419,6 @@
           "engine": "U2",
           "platforms": [
             "Android"
-          ]
-        },
-        {
-          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "platforms": [
-            "Android_E_7_1", "Android_E_7_0",
-            "Android_E_6_0",
-            "Android_E_5_1", "Android_E_5_0",
-            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1",
-            "Android_E"
           ]
         }
       ]

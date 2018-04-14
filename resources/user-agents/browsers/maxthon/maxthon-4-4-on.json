@@ -120,6 +120,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
             "SM-G950F": "Samsung SM-G950F"
           },
           "platforms": [
@@ -165,6 +175,16 @@
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
           ]
         },
         {

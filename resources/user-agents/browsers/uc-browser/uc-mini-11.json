@@ -1,0 +1,65 @@
+{
+  "division": "UC Browser #MAJORVER#.#MINORVER#",
+  "versions": ["11.1", 11],
+  "sortIndex": 930,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser Mini #MAJORVER#.#MINORVER#",
+      "browser": "uc browser mini",
+      "platform": "Android",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/2.0 (#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "engine": "U2",
+          "platforms": [
+            "Android_E_7_1"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
+            "Android_E_7_1",
+            "Android_E"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_7_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

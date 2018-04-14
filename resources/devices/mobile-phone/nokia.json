@@ -3738,5 +3738,137 @@
             "Device_Brand_Name": "Nokia"
         },
         "standard": true
+    },
+    "Nokia TA-1000": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "6",
+            "Device_Code_Name": "TA-1000",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1003": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "6",
+            "Device_Code_Name": "TA-1003",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1004": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "8",
+            "Device_Code_Name": "TA-1004",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1012": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "8",
+            "Device_Code_Name": "TA-1012",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1020": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "3",
+            "Device_Code_Name": "TA-1020",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1021": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "6",
+            "Device_Code_Name": "TA-1021",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1024": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "5",
+            "Device_Code_Name": "TA-1024",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1032": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "3",
+            "Device_Code_Name": "TA-1032",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1033": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "6",
+            "Device_Code_Name": "TA-1033",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1035": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "2",
+            "Device_Code_Name": "TA-1035",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1052": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "8",
+            "Device_Code_Name": "TA-1052",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
+    },
+    "Nokia TA-1053": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "5",
+            "Device_Code_Name": "TA-1053",
+            "Device_Maker": "Nokia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nokia"
+        },
+        "standard": false
     }
 }

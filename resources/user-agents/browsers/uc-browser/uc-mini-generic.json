@@ -28,6 +28,25 @@
         },
         {
           "match": "UCWEB/2.0 (Linux* Opera Mini/*) U2/* UCMini/*"
+        },
+        {
+          "match": "UCWEB/2.0 (#PLATFORM#) U2/* UCBrowser/*",
+          "engine": "U2",
+          "platforms": [
+            "Android_E_7_1",
+            "Android_E"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_7_1",
+            "Android"
+          ]
         }
       ]
     }
