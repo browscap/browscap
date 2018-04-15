@@ -415,9 +415,51 @@
           }
         },
         {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "engine": "U2",
+          "platforms": [
+            "Android_E_7_1"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
+            "Android_E_7_1",
+            "Android_E"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_7_1",
             "Android"
           ]
         }
