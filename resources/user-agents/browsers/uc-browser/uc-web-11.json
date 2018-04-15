@@ -422,21 +422,18 @@
           "engine": "U2",
           "platforms": [
             "Android_E_7_1"
-          ],
-          "properties": {
-            "Browser_Modus": "SpeedMode"
-          }
+          ]
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
-            "Android_E_7_1",
+            "Android_E_7_1", "Android_E_7_0",
+            "Android_E_6_0",
+            "Android_E_5_1", "Android_E_5_0",
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1",
             "Android_E"
-          ],
-          "properties": {
-            "Browser_Modus": "SpeedMode"
-          }
+          ]
         },
         {
           "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
