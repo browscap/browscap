@@ -415,6 +415,13 @@
           }
         },
         {
+          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
             "TA-1021": "Nokia TA-1021"
@@ -433,13 +440,6 @@
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1",
             "Android_E"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "platforms": [
-            "Android"
           ]
         },
         {
