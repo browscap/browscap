@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "match": "UCWEB/*(Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
           "devices": {
             "QMobile Z10": "QMobile Z10",
             "SM-J120H": "Samsung SM-J120H"
@@ -31,7 +31,7 @@
           }
         },
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "match": "UCWEB/*(Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
           "devices": {
             "SM-G530BT": "Samsung SM-G530BT"
           },
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "match": "UCWEB/*(Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
           "devices": {
             "ONE LTE HD": "Innjoo ONE LTE HD"
           },
@@ -55,7 +55,7 @@
           }
         },
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "match": "UCWEB/*(Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
           "devices": {
             "GT-N7100": "Samsung GT-N7100"
           },
@@ -67,7 +67,7 @@
           }
         },
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM#) Mobile*",
+          "match": "UCWEB/*(Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM#) Mobile*",
           "platforms": [
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "match": "UCWEB/2.0 (Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#*"
+          "match": "UCWEB/*(Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

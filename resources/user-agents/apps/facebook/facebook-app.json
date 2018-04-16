@@ -112,11 +112,23 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "Pixel": "Google Pixel",
-            "Pixel XL": "Google Pixel XL"
+            "Pixel XL": "Google Pixel XL",
+            "TA-1012": "Nokia TA-1012",
+            "TA-1021": "Nokia TA-1021",
+            "TA-1053": "Nokia TA-1053"
           },
           "platforms": [
             "Android_8_0",
             "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
+            "TA-1032": "Nokia TA-1032"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0"
           ]
         },
         {

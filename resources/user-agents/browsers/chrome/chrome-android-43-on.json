@@ -32,7 +32,9 @@
           "devices": {
             "Pixel C": "Google Pixel C",
             "Pixel XL": "Google Pixel XL",
-            "Pixel": "Google Pixel"
+            "Pixel": "Google Pixel",
+            "TA-1004": "Nokia TA-1004",
+            "TA-1012": "Nokia TA-1012"
           },
           "platforms": [
             "Android_8_1", "Android_8_0",
@@ -61,6 +63,41 @@
             "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "TA-1021": "Nokia TA-1021",
+            "TA-1024": "Nokia TA-1024",
+            "TA-1033": "Nokia TA-1033",
+            "TA-1052": "Nokia TA-1052",
+            "TA-1053": "Nokia TA-1053"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "TA-1000": "Nokia TA-1000",
+            "TA-1003": "Nokia TA-1003",
+            "TA-1035": "Nokia TA-1035"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "TA-1020": "Nokia TA-1020",
+            "TA-1032": "Nokia TA-1032"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0"
           ]
         },
         {
