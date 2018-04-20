@@ -34,7 +34,10 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_E_10_3", "iOS_E_10_2", "iOS_E_10_1", "iOS_E_10_0",
+            "iOS_E_10_0",
+            "iOS_E_10_1",
+            "iOS_E_10_2",
+            "iOS_E_10_3",
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E"
           ]
@@ -42,8 +45,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Snapchat/*",
           "platforms": [
-            "iOS_A",
-            "iOS_E"
+            "iOS_A", "iOS_E"
           ]
         }
       ]

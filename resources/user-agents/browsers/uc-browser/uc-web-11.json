@@ -423,10 +423,10 @@
         },
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "devices": {
             "TA-1021": "Nokia TA-1021"
           },
-          "engine": "U2",
           "platforms": [
             "Android_E_7_1"
           ]
