@@ -1,0 +1,13 @@
+{
+    "Waltter Neo 10.1": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "Neo 10.1",
+            "Device_Code_Name": "Neo 10.1",
+            "Device_Maker": "Waltter",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Waltter"
+        },
+        "standard": true
+    }
+}

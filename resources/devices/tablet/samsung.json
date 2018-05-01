@@ -1120,5 +1120,104 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": true
+  },
+  "Samsung SM-T819": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 Plus",
+      "Device_Code_Name": "SM-T819",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T819Y": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 Plus",
+      "Device_Code_Name": "SM-T819Y",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T800X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S 10.5",
+      "Device_Code_Name": "SM-T800X",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T825": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S3 9.7 LTE",
+      "Device_Code_Name": "SM-T825",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T813": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 9.7 Wi-Fi",
+      "Device_Code_Name": "SM-T813",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T365": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab Active 8.0 LTE",
+      "Device_Code_Name": "SM-T365",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T113": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab E Lite 7.0",
+      "Device_Code_Name": "SM-T113",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T715": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 8.0 LTE",
+      "Device_Code_Name": "SM-T715",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T719": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 8.0 LTE",
+      "Device_Code_Name": "SM-T719",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
   }
 }

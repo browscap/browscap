@@ -251,5 +251,49 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer B3-A30": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "B3-A30",
+      "Device_Code_Name": "B3-A30",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A20": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A20",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A20B": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A20B",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A32": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A32",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

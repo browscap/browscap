@@ -97,5 +97,16 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": true
+  },
+  "Sony SGP771": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z4 LTE",
+      "Device_Code_Name": "SGP771",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
   }
 }

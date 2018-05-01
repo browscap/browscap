@@ -1,0 +1,13 @@
+{
+    "BOMIX MXQpro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "MXQpro",
+            "Device_Code_Name": "MXQpro",
+            "Device_Maker": "BOMIX",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BOMIX"
+        },
+        "standard": true
+    }
+}

@@ -625,5 +625,159 @@
       "Device_Brand_Name": "Vodafone"
     },
     "standard": true
+  },
+  "Lenovo TB2-X30L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TB2-X30L",
+      "Device_Code_Name": "TB2-X30L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB2-X30F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TB2-X30F",
+      "Device_Code_Name": "TB2-X30F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB3-710F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB3 7",
+      "Device_Code_Name": "TB3-710F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-X50L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 10",
+      "Device_Code_Name": "YT3-X50L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-X304L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 10 HD",
+      "Device_Code_Name": "TB-X304L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-X103F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 10",
+      "Device_Code_Name": "TB-X103F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo A10-70L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2",
+      "Device_Code_Name": "A10-70L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-X704L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 10 Plus",
+      "Device_Code_Name": "TB-X704L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-X90L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 Pro 10.1 LTE",
+      "Device_Code_Name": "YT3-X90L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-X50F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 10",
+      "Device_Code_Name": "YT3-X50F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB3-X70L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab3 10 Business LTE",
+      "Device_Code_Name": "TB3-X70L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo Yoga Tablet 2 1050F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 2 1050F",
+      "Device_Code_Name": "Yoga Tablet 2 1050F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-X304F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 10",
+      "Device_Code_Name": "TB-X304F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT-X703L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 Plus 10",
+      "Device_Code_Name": "YT-X703L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
   }
 }

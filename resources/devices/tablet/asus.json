@@ -317,5 +317,27 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": true
+  },
+  "Asus P00L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 10 Z301ML",
+      "Device_Code_Name": "P00L",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P00C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 10 Z300M",
+      "Device_Code_Name": "P00C",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
   }
 }

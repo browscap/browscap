@@ -42,5 +42,16 @@
       "Device_Brand_Name": "vivo"
     },
     "standard": false
+  },
+  "vivo V5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V5",
+      "Device_Code_Name": "V5",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
+    },
+    "standard": false
   }
 }
