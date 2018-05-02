@@ -263,6 +263,17 @@
     },
     "standard": true
   },
+  "Huawei FDR-A01W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad T2 10.0 Pro",
+      "Device_Code_Name": "FDR-A01W",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
+  },
   "Huawei BAH-W09": {
     "type": "tablet",
     "properties": {

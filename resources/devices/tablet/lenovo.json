@@ -790,5 +790,49 @@
       "Device_Brand_Name": "Lenovo"
     },
     "standard": true
+  },
+  "Lenovo YB1-X90L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Book",
+      "Device_Code_Name": "YB1-X90L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo Yoga Tablet 2 1050L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 2 1050L",
+      "Device_Code_Name": "Yoga Tablet 2 1050L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo Yoga Tablet 2 Pro 1380F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 2 Pro 1380F",
+      "Device_Code_Name": "Yoga Tablet 2 Pro 1380F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-X704F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 10 Plus",
+      "Device_Code_Name": "TB-X704F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
   }
 }

@@ -43,6 +43,7 @@
             "TA-1021": "Nokia TA-1021",
             "TB-X304F": "Lenovo TB-X304F",
             "TB-X304L": "Lenovo TB-X304L",
+            "TB-X704F": "Lenovo TB-X704F",
             "TB-X704L": "Lenovo TB-X704L"
           },
           "platforms": [
@@ -89,6 +90,7 @@
             "H96 Pro+": "Alfawise H96 Pro+",
             "H96 Pro": "Alfawise H96 Pro",
             "T95Kpro": "Sunvell T95Kpro",
+            "YB1-X90L": "Lenovo YB1-X90L",
             "YT-X703L": "Lenovo YT-X703L"
           },
           "platforms": [
@@ -128,6 +130,7 @@
             "BAH-L09": "Huawei BAH-L09",
             "BAH-W09": "Huawei BAH-W09",
             "P00L": "Asus P00L",
+            "P028": "Asus P028",
             "SM-T710": "Samsung SM-T710",
             "SM-T810": "Samsung SM-T810",
             "SM-T813": "Samsung SM-T813",
@@ -168,6 +171,8 @@
             "B3-A30": "Acer B3-A30",
             "B3-A32": "Acer B3-A32",
             "SGP512": "Sony SGP512",
+            "SGP611": "Sony SGP611",
+            "SGP621": "Sony SGP621",
             "TB-X103F": "Lenovo TB-X103F",
             "TB3-X70L": "Lenovo TB3-X70L",
             "V5": "vivo V5"
@@ -233,11 +238,14 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "9010X": "Alcatel 9010X",
             "B3-A20": "Acer B3-A20",
             "B3-A20B": "Acer B3-A20B",
             "FDR-A01L": "Huawei FDR-A01L",
+            "FDR-A01w": "Huawei FDR-A01W",
             "HUAWEI M2-A01W": "Huawei M2-A01W",
             "M2-A01L": "Huawei M2-A01L",
+            "NEO-U1": "Minix NEO U1",
             "Nexus 10": "Samsung Nexus 10",
             "SGP321": "Sony SGP321",
             "SM-P605*": "Samsung SM-P605",
@@ -252,7 +260,8 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
-            "A8-50L": "Lenovo A8-50L"
+            "A8-50L": "Lenovo A8-50L",
+            "SGP311": "Sony SGP311"
           },
           "platforms": [
             "Android_5_1",
@@ -263,12 +272,16 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "Lenovo TAB S8-50L": "Lenovo S8-50L",
+            "P01Z": "Asus P01Z",
+            "P023": "Asus P023",
             "SM-P905": "Samsung SM-P905",
             "SM-T530NU": "Samsung SM-T530NU",
             "SM-T535": "Samsung SM-T535",
             "Tab2A7-10*": "Lenovo Tab 2 A7-10",
             "TB3-710F": "Lenovo TB3-710F",
-            "YOGA Tablet 2-1050F": "Lenovo Yoga Tablet 2 1050F"
+            "YOGA Tablet 2-1050F": "Lenovo Yoga Tablet 2 1050F",
+            "YOGA Tablet 2-1050L": "Lenovo Yoga Tablet 2 1050L",
+            "YOGA Tablet 2 Pro-1380F": "Lenovo Yoga Tablet 2 Pro 1380F"
           },
           "platforms": [
             "Android_5_0"

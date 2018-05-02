@@ -339,5 +339,49 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": true
+  },
+  "Asus P023": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 10 Z300C",
+      "Device_Code_Name": "P023",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P01Z": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad C 7.0 Z170C",
+      "Device_Code_Name": "P01Z",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P028": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 10 Z301M",
+      "Device_Code_Name": "P028",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K014": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Transformer Pad TF303CL",
+      "Device_Code_Name": "K014",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
   }
 }

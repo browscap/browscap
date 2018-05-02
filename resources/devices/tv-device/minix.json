@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Minix"
     },
     "standard": false
+  },
+  "Minix NEO U1": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "NEO U1",
+      "Device_Code_Name": "NEO U1",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": false
   }
 }
