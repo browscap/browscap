@@ -22,13 +22,15 @@
           "devices": {
             "A10-70L": "Lenovo A10-70L",
             "GT-I9505": "Samsung GT-I9505",
+            "GT-N5110": "Samsung GT-N5110",
             "GT-N8000": "Samsung GT-N8000",
             "GT-N8020*": "Samsung GT-N8020",
             "GT-P5200": "Samsung GT-P5200",
-            "GT-P5220*": "Samsung GT-P5220",
             "Lenovo TAB 2 A10-70F": "Lenovo A10-70F",
             "MediaPad T1 8.0 Pro": "Huawei MediaPad T1 8.0 Pro",
             "Nexus 10": "Samsung Nexus 10",
+            "SGP511": "Sony SGP511",
+            "SGP512": "Sony SGP512",
             "SGP521": "Sony SGP521",
             "SM-G900F": "Samsung SM-G900F",
             "SM-N9005": "Samsung SM-N9005",
@@ -36,11 +38,17 @@
             "SM-T210": "Samsung SM-T210",
             "SM-T211*": "Samsung SM-T211",
             "SM-T310": "Samsung SM-T310",
+            "SM-T320": "Samsung SM-T320",
+            "SM-T325": "Samsung SM-T325",
             "SM-T335": "Samsung SM-T335",
             "SM-T365": "Samsung SM-T365",
+            "SM-T520": "Samsung SM-T520",
             "SM-T525": "Samsung SM-T525",
+            "SM-T530": "Samsung SM-T530",
             "SM-T535": "Samsung SM-T535",
             "SM-T560": "Samsung SM-T560",
+            "SM-T561*": "Samsung SM-T561",
+            "SM-T700": "Samsung SM-T700",
             "SM-T800X": "Samsung SM-T800X",
             "T1-A21L": "Huawei T1-A21L",
             "T1-A21w": "Huawei T1-A21w",
@@ -55,6 +63,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
           "devices": {
+            "B8080-F": "Lenovo B8080-F",
             "Nexus 7": "Asus Nexus 7",
             "SM-P605*": "Samsung SM-P605"
           },
@@ -66,6 +75,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
           "devices": {
+            "GT-P5220*": "Samsung GT-P5220",
             "Lenovo A3500-FL": "Lenovo A3500-FL",
             "Lenovo A7600-F": "Lenovo A7600-F",
             "Lenovo A7600-H": "Lenovo A7600-H",

@@ -128,6 +128,7 @@
             "BAH-L09": "Huawei BAH-L09",
             "BAH-W09": "Huawei BAH-W09",
             "P00L": "Asus P00L",
+            "SM-T710": "Samsung SM-T710",
             "SM-T810": "Samsung SM-T810",
             "SM-T813": "Samsung SM-T813",
             "SM-T819Y": "Samsung SM-T819Y",
@@ -166,6 +167,7 @@
           "devices": {
             "B3-A30": "Acer B3-A30",
             "B3-A32": "Acer B3-A32",
+            "SGP512": "Sony SGP512",
             "TB-X103F": "Lenovo TB-X103F",
             "TB3-X70L": "Lenovo TB3-X70L",
             "V5": "vivo V5"
@@ -193,6 +195,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "SGP511": "Sony SGP511",
             "SGP521": "Sony SGP521"
           },
           "platforms": [
@@ -218,6 +221,7 @@
             "ALE-L21": "Huawei ALE-L21",
             "Lenovo TAB 2 A10-70F": "Lenovo A10-70F",
             "P01T_1": "Asus P01T_1",
+            "SM-T700": "Samsung SM-T700",
             "SM-T705*": "Samsung SM-T705",
             "SM-T800": "Samsung SM-T800"
           },
@@ -243,6 +247,16 @@
           },
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "A8-50L": "Lenovo A8-50L"
+          },
+          "platforms": [
+            "Android_5_1",
+            "Android_5_0"
           ]
         },
         {

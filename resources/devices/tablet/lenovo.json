@@ -219,6 +219,17 @@
     },
     "standard": true
   },
+  "Lenovo A8-50L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2 A8-50 LTE",
+      "Device_Code_Name": "A8-50L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
   "Lenovo B6000-F": {
     "type": "tablet",
     "properties": {
