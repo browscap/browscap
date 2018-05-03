@@ -107,7 +107,6 @@
             "D6603": "Sony D6603",
             "Lenovo A328": "Lenovo A328",
             "Lenovo A536": "Lenovo A536",
-            "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo B6000-H": "Lenovo B6000-H",
             "LG-D325": "LG D325",
@@ -167,7 +166,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "PadFone 2": "Asus A68",
             "SM-T211*": "Samsung SM-T211"
           },
           "platforms": [
@@ -637,7 +635,6 @@
             "E-TAB IVORY": "Lava E-Tab IVORY",
             "FUNC TITAN-01A": "DFunc Func Titan-01A",
             "GT-I8262": "Samsung GT-I8262",
-            "GT-I9100": "Samsung GT-I9100",
             "GT-S5280": "Samsung GT-S5280",
             "GT-S5310": "Samsung GT-S5310",
             "GT-S6310": "Samsung GT-S6310",

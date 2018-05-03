@@ -81,15 +81,6 @@
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }
-        },
-        {
-          "match": "Mozilla/4.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
-          "platforms": [
-            "WinMobile"
-          ]
         }
       ]
     },

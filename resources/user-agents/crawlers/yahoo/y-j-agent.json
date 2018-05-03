@@ -127,15 +127,6 @@
           "match": "Y!J-BRX/DLCK*"
         },
         {
-          "match": "Y!J-BRQ/DLCK*"
-        },
-        {
-          "match": "Y!J-PSC*"
-        },
-        {
-          "match": "Y!J-DSC*"
-        },
-        {
           "match": "Y!J-PUF*"
         }
       ]

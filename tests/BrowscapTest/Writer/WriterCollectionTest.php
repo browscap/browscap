@@ -42,6 +42,8 @@ class WriterCollectionTest extends TestCase
 
     /**
      * tests setting and getting a writer
+     *
+     * @throws \ReflectionException
      */
     public function testAddWriterAndSetSilent() : void
     {
@@ -161,6 +163,8 @@ class WriterCollectionTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \ReflectionException
      */
     public function testRenderVersion() : void
     {
@@ -223,6 +227,8 @@ class WriterCollectionTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
@@ -279,6 +285,8 @@ class WriterCollectionTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBody() : void
     {

@@ -42,6 +42,8 @@ class FullFilterTest extends TestCase
 
     /**
      * tests detecting if a divion should be in the output
+     *
+     * @throws \ReflectionException
      */
     public function testIsOutput() : void
     {

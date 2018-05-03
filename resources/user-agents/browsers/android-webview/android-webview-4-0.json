@@ -239,7 +239,6 @@
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D856": "LG D856",
             "LG-V700": "LG V700",
-            "Micromax A99": "Micromax A99",
             "Micromax A107": "Micromax A107",
             "Micromax AQ5001": "Micromax AQ5001",
             "Micromax Q391": "Micromax Q391",
@@ -581,7 +580,6 @@
             "GT-I9305*": "Samsung GT-I9305",
             "GT-I9305T*": "Samsung GT-I9305T",
             "GT-I9500": "Samsung GT-I9500",
-            "GT-I9505G": "Samsung GT-I9505G",
             "GT-I9505X*": "Samsung GT-I9505X",
             "GT-N7000*": "Samsung GT-N7000",
             "GT-N7108": "Samsung GT-N7108",
@@ -590,7 +588,6 @@
             "GT-P3100": "Samsung GT-P3100",
             "GT-P3113": "Samsung GT-P3113",
             "GT-P5110": "Samsung GT-P5110",
-            "GT-P5200": "Samsung GT-P5200",
             "GT-P7310": "Samsung GT-P7310",
             "GT-P7500": "Samsung GT-P7500",
             "GT-S5830*": "Samsung GT-S5830",
@@ -670,7 +667,6 @@
             "FP1": "Fairphone FP1",
             "GT-I9060": "Samsung GT-I9060",
             "GT-I9082": "Samsung GT-I9082",
-            "GT-P5220*": "Samsung GT-P5220",
             "GT-S7275R": "Samsung GT-S7275R",
             "GT-S7580": "Samsung GT-S7580",
             "HUAWEI G700-U10": "Huawei G700-U10",
@@ -851,7 +847,6 @@
             "GT-P7511": "Samsung GT-P7511",
             "GT-S5660": "Samsung GT-S5660",
             "GT-S7560": "Samsung GT-S7560",
-            "GT-S7562": "Samsung GT-S7562",
             "HTC EVO 3D X515m": "HTC X515m",
             "HTC Incredible S": "HTC S710E",
             "HTC One V*": "HTC One V",
@@ -891,7 +886,6 @@
             "PMP5080CPRO": "Prestigio PMP5080CPRO",
             "PMP5580C": "Prestigio PMP5580C",
             "PMP7100D3G": "Prestigio PMP7100D3G",
-            "SCH-I535*": "Samsung SCH-I535",
             "Sensation_Z710e": "HTC Z710e",
             "SensationXE_Beats_Z715e": "HTC Z715e",
             "SensationXL_Beats_X315e": "HTC X315e",
@@ -1046,15 +1040,6 @@
           },
           "platforms": [
             "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#* Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": {
-            "HTC_One_X": "HTC PJ83100"
-          },
-          "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {

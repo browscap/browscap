@@ -42,15 +42,15 @@ final class IniParserTest extends TestCase
         $parser = new IniParser('');
 
         // Test the default value
-        self::assertAttributeEquals(false, 'shouldSort', $parser);
+        self::assertAttributeSame(false, 'shouldSort', $parser);
 
         // Test setting it to true
         $parser->setShouldSort(true);
-        self::assertAttributeEquals(true, 'shouldSort', $parser);
+        self::assertAttributeSame(true, 'shouldSort', $parser);
 
         // Test setting it back to false
         $parser->setShouldSort(false);
-        self::assertAttributeEquals(false, 'shouldSort', $parser);
+        self::assertAttributeSame(false, 'shouldSort', $parser);
     }
 
     /**
@@ -91,12 +91,13 @@ final class IniParserTest extends TestCase
 
     /**
      * @dataProvider sortArrayDataProvider
-     *
-     * @group parser
-     * @group sourcetest
+     * @group        parser
+     * @group        sourcetest
      *
      * @param string[] $unsorted
      * @param string[] $sorted
+     *
+     * @throws \ReflectionException
      */
     public function testSortArrayAndChildArrays(array $unsorted, array $sorted) : void
     {
@@ -244,16 +245,16 @@ HERE;
         $parser->setShouldSort(true);
 
         $expected = [
-            'section1' => ['property11' => 'value11', 'property12' => 'value12', 'Division' => 'division1'],
-            'section2' => ['property21' => 'value21', 'property22' => 'value22', 'Division' => 'division1'],
-            'section3' => ['property31' => 'value31', 'property32' => 'value32', 'property33' => '', 'Division' => 'division2'],
+            'section1' => ['Division' => 'division1', 'property11' => 'value11', 'property12' => 'value12'],
+            'section2' => ['Division' => 'division1', 'property21' => 'value21', 'property22' => 'value22'],
+            'section3' => ['Division' => 'division2', 'property31' => 'value31', 'property32' => 'value32', 'property33' => ''],
         ];
 
         $data = $parser->parse();
 
         self::assertSame($data, $parser->getParsed());
 
-        self::assertEquals($expected, $data);
+        self::assertSame($expected, $data);
     }
 
     /**

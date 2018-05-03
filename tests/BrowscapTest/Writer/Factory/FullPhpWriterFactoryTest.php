@@ -26,6 +26,8 @@ class FullPhpWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws \ReflectionException
      */
     public function testCreateCollection() : void
     {

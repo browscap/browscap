@@ -1,0 +1,11 @@
+{
+    "chrome": {
+        "type": "browser",
+        "properties": {
+            "Browser": "Chrome",
+            "Browser_Maker": "Google Inc"
+        },
+        "lite": false,
+        "standard": false
+    }
+}

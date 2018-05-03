@@ -1,7 +1,7 @@
 {
   "division": "OmniWeb #MAJORVER#.#MINORVER#",
   "versions": ["5.9"],
-  "sortIndex": 2700,
+  "sortIndex": 2686,
   "lite": false,
   "standard": true,
   "userAgents": [

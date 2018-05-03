@@ -19,12 +19,12 @@ class TrimPropertyTest extends TestCase
 
     public function testTrue() : void
     {
-        self::assertSame(true, $this->object->trimProperty('true'));
+        self::assertTrue($this->object->trimProperty('true'));
     }
 
     public function testFalse() : void
     {
-        self::assertSame(false, $this->object->trimProperty('false'));
+        self::assertFalse($this->object->trimProperty('false'));
     }
 
     public function testDefault() : void

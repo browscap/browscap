@@ -1,6 +1,6 @@
 {
   "division": "OmniWeb Generic",
-  "sortIndex": 2692,
+  "sortIndex": 2694,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -15,12 +15,6 @@
         "Comment": "OmniWeb Generic"
       },
       "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *OmniWeb/*",
-          "platforms": [
-            "OSX"
-          ]
-        },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *OmniWeb/*",
           "platforms": [

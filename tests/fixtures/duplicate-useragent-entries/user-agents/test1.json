@@ -1,0 +1,38 @@
+{
+  "division": "2345 Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.5"],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "2345 Browser #MAJORVER#.#MINORVER#",
+      "browser": "2345 browser",
+      "platform": "Platform1",
+      "engine": "Foo",
+      "device": "unknown",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "2345 Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Frames": true,
+        "IFrames": true,
+        "Tables": true,
+        "Cookies": true,
+        "JavaScript": true,
+        "CssVersion": 3
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Coolpad 8675* Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

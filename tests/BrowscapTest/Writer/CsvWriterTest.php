@@ -27,6 +27,9 @@ class CsvWriterTest extends TestCase
      */
     private $file;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -54,6 +57,8 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
@@ -65,6 +70,8 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
@@ -391,6 +398,8 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {

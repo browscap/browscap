@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
@@ -15,6 +16,9 @@ class DataCollectionFactoryTest extends TestCase
      */
     private $object;
 
+    /**
+     * @throws \ReflectionException
+     */
     public function setUp() : void
     {
         $logger       = $this->createMock(Logger::class);
@@ -25,6 +29,7 @@ class DataCollectionFactoryTest extends TestCase
      * tests throwing an exception while creating a data collaction when a dir is invalid
      *
      * @throws \Assert\AssertionFailedException
+     * @throws \ReflectionException
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
@@ -51,6 +56,7 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws \Assert\AssertionFailedException
+     * @throws \ReflectionException
      */
     public function testCreateDataCollection() : void
     {
@@ -85,5 +91,35 @@ class DataCollectionFactoryTest extends TestCase
 
         self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsForDuplicateDeviceEntries() : void
+    {
+        $this->expectException(DuplicateDataException::class);
+        $this->expectExceptionMessage('it was tried to add device "unknown", but this was already added before');
+
+        $this->object->createDataCollection(
+            __DIR__ . '/../../../fixtures/duplicate-device-entries'
+        );
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsForDuplicateBrowserEntries() : void
+    {
+        $this->expectException(DuplicateDataException::class);
+        $this->expectExceptionMessage('it was tried to add browser "chrome", but this was already added before');
+
+        $this->object->createDataCollection(
+            __DIR__ . '/../../../fixtures/duplicate-browser-entries'
+        );
     }
 }

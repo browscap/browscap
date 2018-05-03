@@ -120,17 +120,6 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "devices": {
-            "GT-I9100": "Samsung GT-I9100"
-          },
-          "platforms": [
-            "Android_4_0",
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "devices": {
             "Lenovo A529": "Lenovo A529"
           },
           "platforms": [

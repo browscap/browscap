@@ -61,7 +61,7 @@ final class BuildHelper
 
         $logger->info('finished output of header and version');
 
-        $output = [];
+        $allSections = [];
 
         $logger->info('started output of divisions');
 
@@ -119,7 +119,7 @@ final class BuildHelper
                 $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
-                    if (array_key_exists($sectionName, $output)) {
+                    if (array_key_exists($sectionName, $allSections)) {
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
                         );
@@ -139,7 +139,7 @@ final class BuildHelper
                     $writerCollection->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName);
                     $writerCollection->renderSectionFooter($sectionName);
 
-                    $output[$sectionName] = 1;
+                    $allSections[$sectionName] = 1;
                 }
 
                 $writerCollection->renderDivisionFooter();

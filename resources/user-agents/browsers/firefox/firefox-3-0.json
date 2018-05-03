@@ -154,20 +154,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPb_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_x64", "Linux_64", "Linux"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox #MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [

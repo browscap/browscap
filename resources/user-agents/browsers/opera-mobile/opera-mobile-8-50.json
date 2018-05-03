@@ -32,13 +32,6 @@
           ]
         },
         {
-          "match": "MOT-ROKR * Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR* Opera #MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "Maemo"
-          ]
-        },
-        {
           "match": "motorazrV8/* Mozilla/4.0 (*compatible*;*MSIE 6.0 Linux; Motorola V8*) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
