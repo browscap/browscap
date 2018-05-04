@@ -8,7 +8,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Philips"
     },
-    "standard": false
+    "standard": true
   },
   "Philips MT5580": {
     "type": "tv",
@@ -19,6 +19,6 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Philips"
     },
-    "standard": false
+    "standard": true
   }
 }

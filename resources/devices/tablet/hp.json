@@ -31,5 +31,16 @@
       "Device_Brand_Name": "HP"
     },
     "standard": true
+  },
+  "HP Slate 21": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Slate 21",
+      "Device_Code_Name": "Slate 21",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
   }
 }

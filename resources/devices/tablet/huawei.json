@@ -295,5 +295,16 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": true
+  },
+  "Huawei M2-801W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad M2 8.0 Wi-Fi",
+      "Device_Code_Name": "M2-801W",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
   }
 }

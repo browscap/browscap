@@ -1219,5 +1219,60 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": true
+  },
+  "Samsung SM-T713": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S2 8.0 Wi-Fi",
+      "Device_Code_Name": "SM-T713",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T677": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy View LTE",
+      "Device_Code_Name": "SM-T677",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T905": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SM-T905",
+      "Device_Code_Name": "SM-T905",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T533": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SM-T533",
+      "Device_Code_Name": "SM-T533",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T670": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SM-T670",
+      "Device_Code_Name": "SM-T670",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
   }
 }

@@ -834,5 +834,93 @@
       "Device_Brand_Name": "Lenovo"
     },
     "standard": true
+  },
+  "Lenovo YB1-X90F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Book",
+      "Device_Code_Name": "YB1-X90F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo Yoga Tablet 2 Pro 1380L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 2 Pro 1380L",
+      "Device_Code_Name": "Yoga Tablet 2 Pro 1380L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YB-Q501F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga A12",
+      "Device_Code_Name": "YB-Q501F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB3-X70F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 3 10 Wi-Fi",
+      "Device_Code_Name": "TB3-X70F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-X90F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3 Pro 10.1 WiFi",
+      "Device_Code_Name": "YT3-X90F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-850F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "YT3-850F",
+      "Device_Code_Name": "YT3-850F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT-X703F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "YT-X703F",
+      "Device_Code_Name": "YT-X703F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB3-730X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TB3-730X",
+      "Device_Code_Name": "TB3-730X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
   }
 }

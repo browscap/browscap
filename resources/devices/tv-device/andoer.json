@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Andoer"
     },
     "standard": true
+  },
+  "Andoer MXIII-G": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MXIII-G",
+      "Device_Code_Name": "MXIII-G",
+      "Device_Maker": "Andoer",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Andoer"
+    },
+    "standard": true
   }
 }

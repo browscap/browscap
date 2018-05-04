@@ -295,5 +295,49 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer A1-840": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab 8",
+      "Device_Code_Name": "A1-840",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A40": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A40",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-850": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "B1-850",
+      "Device_Code_Name": "B1-850",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-770": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "B1-770",
+      "Device_Code_Name": "B1-770",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

@@ -383,5 +383,82 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": true
+  },
+  "Asus P00I": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad Z10 ZT500KL",
+      "Device_Code_Name": "P00I",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P024": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 8.0 Z380KL",
+      "Device_Code_Name": "P024",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K015": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MeMO Pad 8 ME581CL",
+      "Device_Code_Name": "K015",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P01Y": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad C 7.0",
+      "Device_Code_Name": "P01Y",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P027": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 3S 10 Z500M",
+      "Device_Code_Name": "P027",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K00R": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "K00R",
+      "Device_Code_Name": "K00R",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K010": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "K010",
+      "Device_Code_Name": "K010",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
   }
 }

@@ -8,7 +8,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 42LB671V": {
     "type": "tv",
@@ -19,7 +19,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 43LF630V": {
     "type": "tv",
@@ -30,7 +30,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 49LH604V": {
     "type": "tv",
@@ -41,7 +41,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 49UH668V": {
     "type": "tv",
@@ -52,7 +52,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 55UF695V": {
     "type": "tv",
@@ -63,7 +63,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LG 79UF860V": {
     "type": "tv",
@@ -74,7 +74,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   },
   "LV TI320-DU": {
     "type": "tv",
@@ -85,6 +85,6 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"
     },
-    "standard": false
+    "standard": true
   }
 }
