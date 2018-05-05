@@ -1,0 +1,13 @@
+{
+    "Etbotu MiniM8S II": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "MiniM8S II",
+            "Device_Code_Name": "MiniM8S II",
+            "Device_Maker": "Etbotu",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Etbotu"
+        },
+        "standard": true
+    }
+}

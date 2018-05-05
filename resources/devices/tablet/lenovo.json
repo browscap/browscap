@@ -882,7 +882,7 @@
   "Lenovo YT3-X90F": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "Yoga Tab 3 Pro 10.1 WiFi",
+      "Device_Name": "Yoga Tab 3 Pro 10.1 Wi-Fi",
       "Device_Code_Name": "YT3-X90F",
       "Device_Maker": "Lenovo",
       "Device_Pointing_Method": "touchscreen",
@@ -893,7 +893,7 @@
   "Lenovo YT3-850F": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "YT3-850F",
+      "Device_Name": "Yoga Tab 3 8 Wi-Fi",
       "Device_Code_Name": "YT3-850F",
       "Device_Maker": "Lenovo",
       "Device_Pointing_Method": "touchscreen",
@@ -904,7 +904,7 @@
   "Lenovo YT-X703F": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "YT-X703F",
+      "Device_Name": "Tab 3 Plus 10.1",
       "Device_Code_Name": "YT-X703F",
       "Device_Maker": "Lenovo",
       "Device_Pointing_Method": "touchscreen",
@@ -915,8 +915,52 @@
   "Lenovo TB3-730X": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "TB3-730X",
+      "Device_Name": "Tab 3 7 LTE",
       "Device_Code_Name": "TB3-730X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-8704X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 8 Plus",
+      "Device_Code_Name": "TB-8704X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB3-850M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 3 8 LTE",
+      "Device_Code_Name": "TB3-850M",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo YT3-X50M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tab 3",
+      "Device_Code_Name": "YT3-X50M",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-8704F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 8 Plus",
+      "Device_Code_Name": "TB-8704F",
       "Device_Maker": "Lenovo",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Lenovo"

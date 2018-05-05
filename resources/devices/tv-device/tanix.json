@@ -1,0 +1,13 @@
+{
+    "TANIX TX2": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "TX2",
+            "Device_Code_Name": "TX2",
+            "Device_Maker": "TANIX",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "TANIX"
+        },
+        "standard": true
+    }
+}

@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Teclast"
     },
     "standard": true
+  },
+  "Teclast A8H9": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P98 4G",
+      "Device_Code_Name": "A8H9",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
   }
 }

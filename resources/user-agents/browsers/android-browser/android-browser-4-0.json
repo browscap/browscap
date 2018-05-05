@@ -104,6 +104,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "9005X": "Alcatel 9005X",
             "D6603": "Sony D6603",
             "Lenovo A328": "Lenovo A328",
             "Lenovo A536": "Lenovo A536",

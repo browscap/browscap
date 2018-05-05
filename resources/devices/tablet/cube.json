@@ -97,5 +97,16 @@
       "Device_Brand_Name": "Cube"
     },
     "standard": true
+  },
+  "Cube T8 Plus 4G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "T8 Plus 4G",
+      "Device_Code_Name": "T8 Plus 4G",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
+    },
+    "standard": true
   }
 }

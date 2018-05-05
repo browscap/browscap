@@ -442,7 +442,7 @@
   "Asus K00R": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "K00R",
+      "Device_Name": "MeMO Pad 7 ME572CL",
       "Device_Code_Name": "K00R",
       "Device_Maker": "Asus",
       "Device_Pointing_Method": "touchscreen",
@@ -453,8 +453,52 @@
   "Asus K010": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "K010",
+      "Device_Name": "Transformer Pad TF103C",
       "Device_Code_Name": "K010",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P01MA": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad S 8.0 Z580CA",
+      "Device_Code_Name": "P01MA",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus P01W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad 7.0 Z370C",
+      "Device_Code_Name": "P01W",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K007": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MeMO Pad 7 ME572C",
+      "Device_Code_Name": "K007",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K011": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MeMO Pad 8 ME181C",
+      "Device_Code_Name": "K011",
       "Device_Maker": "Asus",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Asus"

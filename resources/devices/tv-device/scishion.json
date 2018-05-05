@@ -1,0 +1,13 @@
+{
+    "SCISHION V88": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "V88",
+            "Device_Code_Name": "V88",
+            "Device_Maker": "SCISHION",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "SCISHION"
+        },
+        "standard": true
+    }
+}

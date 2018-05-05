@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Denver"
     },
     "standard": true
+  },
+  "Denver TAQ-10242": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAQ-10242",
+      "Device_Code_Name": "TAQ-10242",
+      "Device_Maker": "DENVER ELECTRONICS A/S",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Denver"
+    },
+    "standard": true
   }
 }

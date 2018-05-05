@@ -53,5 +53,16 @@
       "Device_Brand_Name": "Alcatel"
     },
     "standard": true
+  },
+  "Alcatel D820X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "One Touch Hero 8",
+      "Device_Code_Name": "D820X",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": true
   }
 }

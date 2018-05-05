@@ -321,7 +321,7 @@
   "Acer B1-850": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "B1-850",
+      "Device_Name": "Iconia One 8",
       "Device_Code_Name": "B1-850",
       "Device_Maker": "Acer",
       "Device_Pointing_Method": "touchscreen",
@@ -332,8 +332,41 @@
   "Acer B1-770": {
     "type": "tablet",
     "properties": {
-      "Device_Name": "B1-770",
+      "Device_Name": "Iconia One 7",
       "Device_Code_Name": "B1-770",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer A3-A50": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab 10",
+      "Device_Code_Name": "A3-A50",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-720": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia B1",
+      "Device_Code_Name": "B1-720",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A10",
       "Device_Maker": "Acer",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Acer"

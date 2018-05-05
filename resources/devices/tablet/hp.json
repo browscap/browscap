@@ -42,5 +42,16 @@
       "Device_Brand_Name": "HP"
     },
     "standard": true
+  },
+  "HP Pro Slate 8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pro Slate 8",
+      "Device_Code_Name": "Pro Slate 8",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
   }
 }
