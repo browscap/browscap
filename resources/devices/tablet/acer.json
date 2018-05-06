@@ -372,5 +372,16 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer B1-750": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 7",
+      "Device_Code_Name": "B1-750",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

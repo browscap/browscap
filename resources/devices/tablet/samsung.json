@@ -1296,5 +1296,27 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": true
+  },
+  "Samsung SM-T360": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab Active 8.0 Wi-Fi",
+      "Device_Code_Name": "SM-T360",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-P355": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab A 8.0 LTE",
+      "Device_Code_Name": "SM-P355",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
   }
 }

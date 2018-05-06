@@ -504,5 +504,27 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": true
+  },
+  "Asus K00F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MeMO Pad 10 ME102A",
+      "Device_Code_Name": "K00F",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
+  },
+  "Asus K00Y": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Fonepad 7 ME372CL",
+      "Device_Code_Name": "K00Y",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
   }
 }

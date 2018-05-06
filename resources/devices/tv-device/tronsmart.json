@@ -1,0 +1,24 @@
+{
+    "Tronsmart MK903V": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "MK903V",
+            "Device_Code_Name": "MK903V",
+            "Device_Maker": "Tronsmart",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Tronsmart"
+        },
+        "standard": true
+    },
+    "Tronsmart MK908": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "MK908",
+            "Device_Code_Name": "MK908",
+            "Device_Maker": "Tronsmart",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Tronsmart"
+        },
+        "standard": true
+    }
+}

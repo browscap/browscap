@@ -1,12 +1,23 @@
 {
-    "TANIX TX2": {
+    "Tanix TX2": {
         "type": "tv",
         "properties": {
             "Device_Name": "TX2",
             "Device_Code_Name": "TX2",
-            "Device_Maker": "TANIX",
+            "Device_Maker": "Tanix",
             "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "TANIX"
+            "Device_Brand_Name": "Tanix"
+        },
+        "standard": true
+    },
+    "Tanix TX3 Mini": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "TX3 Mini",
+            "Device_Code_Name": "TX3 Mini",
+            "Device_Maker": "Tanix",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Tanix"
         },
         "standard": true
     }

@@ -9,5 +9,27 @@
       "Device_Brand_Name": "Amlogic"
     },
     "standard": true
+  },
+  "Amlogic ABOX II": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "ABOX II",
+      "Device_Code_Name": "ABOX II",
+      "Device_Maker": "Amlogic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Amlogic"
+    },
+    "standard": true
+  },
+  "Amlogic ABOX III": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "ABOX III",
+      "Device_Code_Name": "ABOX III",
+      "Device_Maker": "Amlogic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Amlogic"
+    },
+    "standard": true
   }
 }

@@ -306,5 +306,16 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": true
+  },
+  "Huawei KOB-L09": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MediaPad T3 8.0 LTE",
+      "Device_Code_Name": "KOB-L09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
   }
 }

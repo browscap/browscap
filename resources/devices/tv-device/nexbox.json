@@ -1,0 +1,13 @@
+{
+    "Nexbox A95X": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "A95X",
+            "Device_Code_Name": "A95X",
+            "Device_Maker": "Nexbox",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Nexbox"
+        },
+        "standard": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "CARBAYTA S109": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "S109",
+            "Device_Code_Name": "S109",
+            "Device_Maker": "CARBAYTA",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "CARBAYTA"
+        },
+        "standard": true
+    }
+}

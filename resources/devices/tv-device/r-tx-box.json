@@ -1,0 +1,13 @@
+{
+    "R-TV BOX S10": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "S10",
+            "Device_Code_Name": "S10",
+            "Device_Maker": "R-TV BOX",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "R-TV BOX"
+        },
+        "standard": true
+    }
+}

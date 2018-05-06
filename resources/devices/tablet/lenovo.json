@@ -966,5 +966,38 @@
       "Device_Brand_Name": "Lenovo"
     },
     "standard": true
+  },
+  "Lenovo YT3-850L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Yoga Tablet 3 8.0 LTE",
+      "Device_Code_Name": "YT3-850L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-8504X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 8 LTE",
+      "Device_Code_Name": "TB-8504X",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
+  },
+  "Lenovo TB-8504F": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 4 8",
+      "Device_Code_Name": "TB-8504F",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": true
   }
 }

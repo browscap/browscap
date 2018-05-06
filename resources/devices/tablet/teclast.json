@@ -20,5 +20,38 @@
       "Device_Brand_Name": "Teclast"
     },
     "standard": true
+  },
+  "Teclast E3C5": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Master T10",
+      "Device_Code_Name": "E3C5",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
+  },
+  "Teclast M5C5": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X98 Air III",
+      "Device_Code_Name": "M5C5",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
+  },
+  "Teclast HG5N": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X98 Air II",
+      "Device_Code_Name": "HG5N",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
   }
 }

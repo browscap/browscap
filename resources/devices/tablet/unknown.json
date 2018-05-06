@@ -9,5 +9,16 @@
       "Device_Brand_Name": "unknown"
     },
     "standard": true
+  },
+  "unknown Kin7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Kin7",
+      "Device_Code_Name": "Kin7",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
   }
 }

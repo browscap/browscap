@@ -1,0 +1,24 @@
+{
+    "Mecool M8S Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "M8S Pro",
+            "Device_Code_Name": "M8S Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    },
+    "Mecool M8S Pro L": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "M8S Pro L",
+            "Device_Code_Name": "M8S Pro L",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    }
+}

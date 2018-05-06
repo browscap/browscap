@@ -1,0 +1,13 @@
+{
+    "Gigabyte T1005": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "T1005",
+            "Device_Code_Name": "T1005",
+            "Device_Maker": "Gigabyte Technology",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Gigabyte"
+        },
+        "standard": true
+    }
+}
