@@ -955,5 +955,16 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": false
+  },
+  "Huawei P10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P10",
+      "Device_Code_Name": "P10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
   }
 }

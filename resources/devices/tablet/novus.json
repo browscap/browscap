@@ -9,5 +9,16 @@
             "Device_Brand_Name": "Novus"
         },
         "standard": true
+    },
+    "Novus 7.85": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "7.85",
+            "Device_Code_Name": "7.85",
+            "Device_Maker": "Novus",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Novus"
+        },
+        "standard": true
     }
 }

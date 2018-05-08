@@ -53,5 +53,16 @@
       "Device_Brand_Name": "Teclast"
     },
     "standard": true
+  },
+  "Teclast M1E4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TPad 98",
+      "Device_Code_Name": "M1E4",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
   }
 }

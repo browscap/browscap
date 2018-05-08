@@ -20,5 +20,16 @@
             "Device_Brand_Name": "Tanix"
         },
         "standard": true
+    },
+    "Tanix TX3 Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "TX3 Pro",
+            "Device_Code_Name": "TX3 Pro",
+            "Device_Maker": "Tanix",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Tanix"
+        },
+        "standard": true
     }
 }

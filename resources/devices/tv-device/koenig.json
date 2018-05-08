@@ -1,0 +1,13 @@
+{
+    "Koenig 4KASB": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "DVB-TS2",
+            "Device_Code_Name": "4KASB",
+            "Device_Maker": "Koenig",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Koenig"
+        },
+        "standard": true
+    }
+}

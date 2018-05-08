@@ -526,5 +526,16 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": true
+  },
+  "Asus P01M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ZenPad S 8.0 Z580C",
+      "Device_Code_Name": "P01M",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": true
   }
 }

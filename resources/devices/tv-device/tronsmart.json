@@ -20,5 +20,16 @@
             "Device_Brand_Name": "Tronsmart"
         },
         "standard": true
+    },
+    "Tronsmart MXIII Plus": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "MXIII Plus",
+            "Device_Code_Name": "MXIII Plus",
+            "Device_Maker": "Tronsmart",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Tronsmart"
+        },
+        "standard": true
     }
 }

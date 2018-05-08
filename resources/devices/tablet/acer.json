@@ -383,5 +383,16 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer GT-810": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Predator 8",
+      "Device_Code_Name": "GT-810",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

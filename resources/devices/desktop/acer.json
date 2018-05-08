@@ -31,5 +31,16 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer CB5-132T": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "Chromebook R11",
+      "Device_Code_Name": "CB5-132T",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

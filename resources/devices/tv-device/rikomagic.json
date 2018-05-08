@@ -1,0 +1,13 @@
+{
+    "Rikomagic RKM MK68": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "RKM MK68",
+            "Device_Code_Name": "RKM MK68",
+            "Device_Maker": "Rikomagic",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Rikomagic"
+        },
+        "standard": true
+    }
+}

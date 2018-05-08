@@ -3789,6 +3789,15 @@
         "Platform_Version": "#MAJORVER#.#MINORVER#"
       }
     },
+    "Miui_OS_8_2": {
+      "match": "*MIUI/V8.2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Miui_OS",
+      "properties": {
+        "Platform_Version": "8.2"
+      }
+    },
     "Miui_OS_7_3": {
       "match": "*MIUI/V7.3*",
       "lite": false,
