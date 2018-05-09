@@ -23,13 +23,13 @@
             "MI PAD 3": "Xiaomi Mi Pad 3"
           },
           "platforms": [
-            "Miui_OS_Dynamic"
+            "Miui_OS_Dynamic_B"
           ]
         },
         {
           "match": "Dalvik/2.1* (*Linux*Android* #PLATFORM#)",
           "platforms": [
-            "Miui_OS_Dynamic"
+            "Miui_OS_Dynamic_B"
           ]
         }
       ]
