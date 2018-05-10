@@ -1,0 +1,13 @@
+{
+    "Magicsee C300PRO": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "C300PRO",
+            "Device_Code_Name": "C300PRO",
+            "Device_Maker": "Magicsee",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Magicsee"
+        },
+        "standard": true
+    }
+}
