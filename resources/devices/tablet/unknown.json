@@ -20,5 +20,71 @@
       "Device_Brand_Name": "unknown"
     },
     "standard": true
+  },
+  "unknown Forge": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Forge",
+      "Device_Code_Name": "Forge",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown SN6B4AA_EU078": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SN6B4AA_EU078",
+      "Device_Code_Name": "SN6B4AA_EU078",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown YBOX-01": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "YBOX-01",
+      "Device_Code_Name": "YBOX-01",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown P002": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P002",
+      "Device_Code_Name": "P002",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown M962": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M962",
+      "Device_Code_Name": "M962",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown SN6B6AF_EU003": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SN6B6AF_EU003",
+      "Device_Code_Name": "SN6B6AF_EU003",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
   }
 }

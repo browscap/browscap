@@ -18,15 +18,6 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
-          "devices": {
-            "Nexus Player": "Asus Nexus Player"
-          },
-          "platforms": [
-            "Android_6_0"
-          ]
-        },
-        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "Pixel C": "Google Pixel C"
@@ -49,20 +40,36 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "Nexus Player": "Asus Nexus Player"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
             "A95X-R1": "Alfawise A95X R1",
             "Acer Chromebook R11 (CB5-132T / C738T)": "Acer CB5-132T",
             "Acer Chromebook R13 (CB5-312T)": "Acer CB5-312T",
             "C300PRO": "Magicsee C300PRO",
             "Chromebook 14 (CB3-431)": "Acer CB3-431",
             "GT-P5210*": "Samsung GT-P5210",
+            "H96 max": "unknown H96 max",
+            "Leelbox": "Leelbox Leelbox",
             "Lenovo N23 Yoga/Flex 11 Chromebook": "Lenovo N23 Yoga/Flex 11 Chromebook",
             "M8S PRO": "Mecool M8S Pro",
             "M8S PRO L": "Mecool M8S Pro L",
+            "MiniA5X_Plus*": "Docooler A5X Plus",
+            "MX9Pro*": "VIGICA MX9 Pro",
+            "Nexus q201": "Amlogic Nexus q201",
             "P10": "Huawei P10",
             "p281": "BOMIX MXQ Pro P281",
             "QM161E": "Philips QM161E",
             "R-TV BOX MINI+": "R-TV Box Mini+",
             "R-TV BOX S10": "R-TV Box S10",
+            "R-TVBOXMINI00": "R-TV Box Mini 00",
             "SGP712": "Sony SGP712",
             "SM-P355": "Samsung SM-P355",
             "SM-P550": "Samsung SM-P550",
@@ -81,7 +88,9 @@
             "TX3 Pro": "Tanix TX3 Pro",
             "Vorke Z1": "Vorke Z1",
             "X96mini": "ShySky X96 mini",
-            "YUNDOO-Y8": "Yundoo Y8"
+            "YUNDOO-Y8": "Yundoo Y8",
+            "Z28": "Docooler Z28",
+            "ZIDOO_X7": "Zidoo X7"
           },
           "platforms": [
             "Android_7_1"
@@ -146,7 +155,8 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "Nexus 9*": "HTC Nexus 9",
-            "MXQpro": "BOMIX MXQpro"
+            "MXQpro": "BOMIX MXQpro",
+            "QM163E": "Philips QM163E"
           },
           "platforms": [
             "Android_7_1",
@@ -157,7 +167,6 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
-            "QM163E": "Philips QM163E",
             "SM-T550": "Samsung SM-T550",
             "SM-T555": "Samsung SM-T555"
           },
@@ -184,7 +193,9 @@
             "P00L": "Asus P00L",
             "P027": "Asus P027",
             "P028": "Asus P028",
+            "Play 2": "WeTek Play 2",
             "S109": "CARBAYTA S109",
+            "SHIELD Android TV": "Nvidia Shield TV",
             "SHIELD Tablet K1": "Nvidia Shield K1",
             "SM-T710": "Samsung SM-T710",
             "SM-T713": "Samsung SM-T713",
@@ -268,22 +279,30 @@
             "B3-A30": "Acer B3-A30",
             "B3-A32": "Acer B3-A32",
             "BB2 PRO": "Mecool BB2 Pro",
+            "DNA Android TV": "DNA TV-hubi",
             "Galaxy Tab 2": "Samsung GT-P3100",
             "Galaxy Tab 2 3G": "Samsung GT-P3110",
             "ifive mini 4S": "FNF Ifive Mini 4S",
             "K109": "Xgody K109",
+            "KIII PRO": "Mecool KIII Pro",
             "KM8PRO": "Edal KM8 Pro",
+            "M962": "unknown M962",
             "MINIM8S II": "Etbotu MiniM8S II",
             "MINI MXIII-II": "Beelink Mini MXIII II",
+            "Modeo": "unknown Modeo",
             "MX9_6.0": "VIGICA MX9",
+            "MXRPRO*": "MXR Pro",
             "NEO-U9-H": "Minix NEO U9-H",
             "NEXBOX-A95X": "Nexbox A95X",
+            "P002": "unknown P002",
             "P01M": "Asus P01M",
             "R-BOX Pro 3G": "R-Box Pro 3G",
+            "S70CDS": "Canal Digital S70CDS",
             "S92": "Alfawise S92",
             "SGP512": "Sony SGP512",
             "SGP611": "Sony SGP611",
             "SGP621": "Sony SGP621",
+            "SN6B6AF_EU003": "unknown SN6B6AF_EU003",
             "T1005": "Gigabyte T1005",
             "TAQ-10242": "Denver TAQ-10242",
             "TB-X103F": "Lenovo TB-X103F",
@@ -295,6 +314,8 @@
             "V5": "vivo V5",
             "V10L": "JIZHAO JZ-V10L",
             "x96": "ShySky X96",
+            "YBOX-01": "unknown YBOX-01",
+            "YBOX_01": "unknown YBOX-01",
             "YB-Q501F": "Lenovo YB-Q501F",
             "YT3-850L": "Lenovo YT3-850L",
             "YT3-X50M": "Lenovo YT3-X50M"
@@ -364,6 +385,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "9010X": "Alcatel 9010X",
+            "AFTB": "Amazon AFTB",
             "B1-850": "Acer B1-850",
             "B3-A10": "Acer B3-A10",
             "B3-A20": "Acer B3-A20",
@@ -372,6 +394,7 @@
             "E7T": "Gionee E7T",
             "FDR-A01L": "Huawei FDR-A01L",
             "FDR-A01w": "Huawei FDR-A01W",
+            "Forge": "unknown Forge",
             "GT-810": "Acer GT-810",
             "HP Pro Slate 8": "HP Pro Slate 8",
             "HUAWEI M2-A01W": "Huawei M2-A01W",
@@ -391,11 +414,15 @@
             "NEO-X8H-PLUS": "Minix Neo X8H Plus",
             "Nexus 10": "Samsung Nexus 10",
             "PO10339TAQ-10213G": "Denver TAQ-10213G",
+            "QM152E": "Philips QM152E",
+            "QM153E": "Philips QM153E",
             "QM164E": "Philips QM164E",
+            "QV151E": "Philips QV151E",
             "RKM MK68": "Rikomagic RKM MK68",
             "shieldtablet": "Nvidia Shield",
             "SGP312": "Sony SGP312",
             "SGP321": "Sony SGP321",
+            "SmartTV": "Samsung Smart-TV",
             "SM-P600": "Samsung SM-P600",
             "SM-P605*": "Samsung SM-P605",
             "SM-T235": "Samsung SM-T235",
@@ -412,7 +439,9 @@
             "T1-A21L": "Huawei T1-A21L",
             "T8-PLUS": "Cube T8 Plus 4G",
             "TCL Xess P17AA": "TCL P17AA",
+            "X111": "XIDO X111",
             "XGIMI TV": "GIMI XGIMI TV",
+            "Xtreamer Wonder": "Xtreamer Wonder",
             "ZIDOO_X6 Pro": "Zidoo X6 Pro"
           },
           "platforms": [

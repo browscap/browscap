@@ -1,0 +1,13 @@
+{
+    "Nvidia Shield TV": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Shield TV",
+            "Device_Code_Name": "Shield TV",
+            "Device_Maker": "Nvidia",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Nvidia"
+        },
+        "standard": true
+    }
+}

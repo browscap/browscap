@@ -87,6 +87,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/10.6b8836 Mobile/15E5167f Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Firefox 10.6 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '10.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0 IceDragon/57.0.4',
         'properties' => [
@@ -301,6 +316,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-G (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f Instagram 33.0.0.11.96 (iPhone9,3; iOS 11_3; en_US; en-US; scale=2.00; gamut=wide; 750x1334)',
+        'properties' => [
+            'Comment' => 'Instagram App 33.0 for iOS',
+            'Browser' => 'Instagram App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '33.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL Build/OPM1.171019.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Instagram 33.0.0.11.92 Android (27/8.1.0; 560dpi; 1440x2712; Google/google; Pixel 2 XL; taimen; taimen; en_US; 93117670)',
@@ -571,7 +601,7 @@ return [
             'Browser_Modus' => 'unknown',
             'Version' => '3.0',
             'Platform' => 'Tizen',
-            'Platform_Version' => 'unknown',
+            'Platform_Version' => '3.0',
             'Platform_Description' => 'Tizen',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Linux Foundation',
@@ -775,6 +805,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-R (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/3.70',
+        'properties' => [
+            'Comment' => 'YaApp 3.70',
+            'Browser' => 'YaApp',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '3.70',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 YaBrowser/17.11.1.1060 Yowser/2.5 Safari/537.36',
         'properties' => [
@@ -947,6 +992,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-V (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15C202 UCBrowser/11.8.8.1060 Mobile  AliApp(TUnionSDK/0.1.20.2)',
+        'properties' => [
+            'Comment' => 'AliApp',
+            'Browser' => 'AliApp',
+            'Browser_Maker' => 'Alibaba',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-W' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 AolApp/3.3.4.3',
         'properties' => [
@@ -989,6 +1049,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-W (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 AolApp/3.3.4.3',
+        'properties' => [
+            'Comment' => 'AOL App',
+            'Browser' => 'AOL App',
+            'Browser_Maker' => 'AOL',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-X' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C153 AolApp/3.3.4.3',
@@ -1119,6 +1194,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-Z (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/65.0.3325.152 Mobile/15E5216a Safari/604.1',
+        'properties' => [
+            'Comment' => 'Chrome 65.0',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '65.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/65.0.3325.152 Mobile/15E216 Safari/604.1',
         'properties' => [
@@ -1204,6 +1294,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AB (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Coast/5.04.110603 Mobile/15B150 Safari/7534.48.3',
+        'properties' => [
+            'Comment' => 'Coast 5.04',
+            'Browser' => 'Coast',
+            'Browser_Maker' => 'Opera Software ASA',
+            'Version' => '5.04',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AC' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/66.4.108 Chrome/60.4.3112.108 Safari/537.36',
@@ -1334,6 +1439,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-AE (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 EdgiOS/41.9.0.0 Mobile/15E5178f Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Edge 41.0',
+            'Browser' => 'Edge',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '41.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f [FBAN/FBIOS;FBAV/159.0.0.48.97;FBBV/91994325;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
         'properties' => [
@@ -1376,6 +1496,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AF (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f [FBAN/FBIOS;FBAV/159.0.0.48.97;FBBV/91994325;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
+        'properties' => [
+            'Comment' => 'Facebook App for iOS',
+            'Browser' => 'Facebook App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AG' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5216a [FBAN/FBIOS;FBAV/164.0.0.56.96;FBBV/98434650;FBDV/iPad6,4;FBMD/iPad;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/T-Mobile;FBID/tablet;FBLC/en_US;FBOP/5;FBRV/0]',
@@ -1463,6 +1598,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-AH (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5216a [FBAN/MessengerForiOS;FBAV/159.0.0.56.96;FBBV/99681318;FBDV/iPhone10,3;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/3;FBCR/Verizon;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
+        'properties' => [
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/46.0.189829128 Mobile/15E216 Safari/604.1',
         'properties' => [
@@ -1505,6 +1655,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AI (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/46.0.189829128 Mobile/15E216 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Google App for iOS',
+            'Browser' => 'Google App',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AJ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/42.0.183854831 Mobile/15E5178f Safari/604.1',
@@ -1592,6 +1757,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-AK (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Safari Line/8.3.1',
+        'properties' => [
+            'Comment' => 'Line App',
+            'Browser' => 'Line App',
+            'Browser_Maker' => 'Line Corporation',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5189f Listia/2.57',
         'properties' => [
@@ -1634,6 +1814,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AL (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5189f Listia/2.57',
+        'properties' => [
+            'Comment' => 'Listia App',
+            'Browser' => 'Listia App',
+            'Browser_Maker' => 'Listia Inc.',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 MailMaster/6.3.1.1177',
@@ -1678,6 +1873,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-AM (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 MailMaster/6.3.1.1177',
+        'properties' => [
+            'Comment' => 'Mail Master',
+            'Browser' => 'Mail Master',
+            'Browser_Maker' => 'NetEase (Hangzhou) Network Co., Ltd.',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f',
         'properties' => [
@@ -1720,6 +1930,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AN (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AO' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5216a',
@@ -1807,6 +2032,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1844-AP (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) OPiOS/16.0.8.121059 Mobile/15D100 Safari/9537.53',
+        'properties' => [
+            'Comment' => 'Opera Mini 16.0',
+            'Browser' => 'Opera Mini',
+            'Browser_Maker' => 'Opera Software ASA',
+            'Version' => '16.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1844-AQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 [Pinterest/iOS]',
         'properties' => [
@@ -1849,6 +2089,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AQ (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 [Pinterest/iOS]',
+        'properties' => [
+            'Comment' => 'Pinterest App Generic',
+            'Browser' => 'Pinterest App',
+            'Browser_Maker' => 'Ericsson Research',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AR' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 [Pinterest/iOS]',
@@ -1935,6 +2190,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AS (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/11.2.6 Mobile/15D100 Safari/537.36 Puffin/5.2.2IP',
+        'properties' => [
+            'Comment' => 'Puffin 5.2',
+            'Browser' => 'Puffin',
+            'Browser_Maker' => 'CloudMosa Inc.',
+            'Version' => '5.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AT' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko)  Version/11.2.5 Mobile/15D60 Safari/537.36 Puffin/5.2.2IT',
@@ -2064,6 +2334,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1844-AV (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 11.0',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '11.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1844-AW' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',

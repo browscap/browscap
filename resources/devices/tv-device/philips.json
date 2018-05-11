@@ -75,5 +75,38 @@
       "Device_Brand_Name": "Philips"
     },
     "standard": true
+  },
+  "Philips QM153E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM153E",
+      "Device_Code_Name": "QM153E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM152E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM152E",
+      "Device_Code_Name": "QM152E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QV151E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QV151E",
+      "Device_Code_Name": "QV151E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
   }
 }

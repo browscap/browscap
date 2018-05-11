@@ -16,8 +16,8 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV;#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
-          "device": "Smart-TV",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
+          "device": "Samsung Smart-TV",
           "platforms": [
             "Tizen_3_0",
             "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
@@ -42,27 +42,6 @@
           "platforms": [
             "Tizen_3_0",
             "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
-            "Tizen"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Samsung WebView Generic for TV",
-      "browser": "samsung webview",
-      "platform": "Tizen",
-      "engine": "WebKit",
-      "device": "general TV Device",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Samsung WebView Generic for TV"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* TV Safari/*",
-          "platforms": [
-            "Tizen_3_0",
-            "Tizen_2_3", "Tizen_2_2",
             "Tizen"
           ]
         }

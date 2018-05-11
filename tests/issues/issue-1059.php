@@ -1208,7 +1208,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Galaxy Tab 2 7.0',
+            'Device_Name' => 'Galaxy Tab 2 7.0 3G',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

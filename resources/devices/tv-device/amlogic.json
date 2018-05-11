@@ -31,5 +31,16 @@
       "Device_Brand_Name": "Amlogic"
     },
     "standard": true
+  },
+  "Amlogic Nexus q201": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Nexus q201",
+      "Device_Code_Name": "Nexus q201",
+      "Device_Maker": "Amlogic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Amlogic"
+    },
+    "standard": true
   }
 }

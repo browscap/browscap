@@ -31,5 +31,16 @@
             "Device_Brand_Name": "Mecool"
         },
         "standard": true
+    },
+    "Mecool KIII Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "KIII Pro",
+            "Device_Code_Name": "KIII Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
     }
 }

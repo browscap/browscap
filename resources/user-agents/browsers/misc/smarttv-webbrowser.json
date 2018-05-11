@@ -8,7 +8,7 @@
       "userAgent": "SmartTV WebBrowser",
       "browser": "smarttv webbrowser",
       "platform": "Maemo",
-      "device": "Smart-TV",
+      "device": "Samsung Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
@@ -29,7 +29,7 @@
       "browser": "smarttv webbrowser",
       "platform": "Linux",
       "engine": "WebKit",
-      "device": "Smart-TV",
+      "device": "Samsung Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
@@ -38,13 +38,13 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.1* Safari/*",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.1* Safari/*",
           "platforms": [
             "Linux_64", "Linux"
           ],
@@ -53,7 +53,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.0* Safari/*",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.0* Safari/*",
           "platforms": [
             "Linux_64", "Linux"
           ],
@@ -62,7 +62,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/4.0* Safari/*",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/4.0* Safari/*",
           "platforms": [
             "Linux_64", "Linux"
           ],

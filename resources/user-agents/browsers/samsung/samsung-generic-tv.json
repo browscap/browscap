@@ -8,7 +8,7 @@
       "userAgent": "Samsung Generic TV",
       "browser": "samsung tv",
       "engine": "WebKit",
-      "device": "Smart-TV",
+      "device": "Samsung Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Generic TV",
@@ -19,11 +19,11 @@
         {
           "match": "HbbTV/* (*;Samsung;#DEVICE#;*) WebKit*",
           "devices": {
-            "SmartTV2012": "Smart-TV",
-            "SmartTV2013": "Smart-TV",
-            "SmartTV2014": "Smart-TV",
-            "SmartTV2015": "Smart-TV",
-            "SmartTV2016": "Smart-TV"
+            "SmartTV2012": "Samsung Smart-TV",
+            "SmartTV2013": "Samsung Smart-TV",
+            "SmartTV2014": "Samsung Smart-TV",
+            "SmartTV2015": "Samsung Smart-TV",
+            "SmartTV2016": "Samsung Smart-TV"
           }
         },
         {
@@ -37,7 +37,7 @@
         {
           "match": "HbbTV/* (;;;;;) Maple_2011*",
           "engine": "unknown",
-          "device": "Smart-TV"
+          "device": "Samsung Smart-TV"
         }
       ]
     }

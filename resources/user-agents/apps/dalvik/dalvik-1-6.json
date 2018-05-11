@@ -29,8 +29,10 @@
             "B1-711": "Acer B1-711",
             "B1-750": "Acer B1-750",
             "B1-810": "Acer B1-810",
+            "C800 series": "Toumei C800",
             "CW-Hi8-super": "Chuwi CW-HI8-Super",
             "D820X": "Alcatel D820X",
+            "EasyPlay": "gosh! easyPlay",
             "GT-I9505": "Samsung GT-I9505",
             "GT-N5100": "Samsung GT-N5100",
             "GT-N5110": "Samsung GT-N5110",
@@ -104,12 +106,12 @@
             "SM-T700": "Samsung SM-T700",
             "SM-T800X": "Samsung SM-T800X",
             "SM-T805": "Samsung SM-T805",
+            "SN6B4AA_EU078": "unknown SN6B4AA_EU078",
             "T1 7.0": "Huawei T1-701u",
             "T1-701u": "Huawei T1-701u",
             "T1-A21L": "Huawei T1-A21L",
             "T1-A21w": "Huawei T1-A21w",
             "Tab2A7-10*": "Lenovo Tab 2 A7-10",
-            "TF-TF6200HD_Smart": "Topfield TF6200HD Smart",
             "U65GT": "Cube U65GT",
             "Woxter QX105": "Woxter QX105",
             "X98 Air II(HG5N)": "Teclast HG5N",
@@ -182,6 +184,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
           "devices": {
+            "2RockeR+": "Bluebiit 2RockeR+",
             "ASUS Transformer Pad TF300T": "Asus TF300T",
             "ASUS Transformer Pad TF300TG": "Asus TF300TG",
             "b1-720": "Acer B1-720",
@@ -207,7 +210,8 @@
             "NOVUS_G8": "Novus G8",
             "Numy 3G AX10t": "Ainol Numy 3G",
             "POV_TAB-PR945": "Point of View Pov Tab PR945",
-            "PX2": "Freelander PX2"
+            "PX2": "Freelander PX2",
+            "TF-TF6200HD_Smart": "Topfield TF6200HD Smart"
           },
           "platforms": [
             "Android_4_2"
