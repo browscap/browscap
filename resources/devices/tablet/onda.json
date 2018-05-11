@@ -20,5 +20,27 @@
       "Device_Brand_Name": "ONDA"
     },
     "standard": true
+  },
+  "ONDA A9 Core4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A9 Core4",
+      "Device_Code_Name": "A9 Core4",
+      "Device_Maker": "ONDA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ONDA"
+    },
+    "standard": true
+  },
+  "ONDA V10 4G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "V10 4G",
+      "Device_Code_Name": "V10 4G",
+      "Device_Maker": "ONDA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ONDA"
+    },
+    "standard": true
   }
 }

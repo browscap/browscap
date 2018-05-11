@@ -20,5 +20,60 @@
       "Device_Brand_Name": "Philips"
     },
     "standard": true
+  },
+  "Philips TPM171E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TPM171E",
+      "Device_Code_Name": "TPM171E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM161E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM161E",
+      "Device_Code_Name": "QM161E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM151E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM151E",
+      "Device_Code_Name": "QM151E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM164E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM164E",
+      "Device_Code_Name": "QM164E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM163E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM163E",
+      "Device_Code_Name": "QM163E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
   }
 }

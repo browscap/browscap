@@ -1,0 +1,13 @@
+{
+    "Yundoo Y8": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Y8",
+            "Device_Code_Name": "Y8",
+            "Device_Maker": "Yundoo",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Yundoo"
+        },
+        "standard": true
+    }
+}

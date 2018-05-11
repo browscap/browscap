@@ -1,0 +1,13 @@
+{
+    "Zidoo X6 Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "X6 Pro",
+            "Device_Code_Name": "X6 Pro",
+            "Device_Maker": "Zidoo",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Zidoo"
+        },
+        "standard": true
+    }
+}

@@ -20,5 +20,16 @@
             "Device_Brand_Name": "Mecool"
         },
         "standard": true
+    },
+    "Mecool BB2 Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "BB2 Pro",
+            "Device_Code_Name": "BB2 Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
     }
 }

@@ -20,5 +20,16 @@
       "Device_Brand_Name": "Doogee"
     },
     "standard": false
+  },
+  "Doogee HT7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HomTom HT7",
+      "Device_Code_Name": "HT7",
+      "Device_Maker": "Doogee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Doogee"
+    },
+    "standard": false
   }
 }

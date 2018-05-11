@@ -1,0 +1,13 @@
+{
+    "GIMI XGIMI TV": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "XGIMI TV",
+            "Device_Code_Name": "XGIMI TV",
+            "Device_Maker": "GIMI",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "GIMI"
+        },
+        "standard": true
+    }
+}

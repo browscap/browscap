@@ -1,0 +1,13 @@
+{
+    "TCL Percee TV": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Percee TV",
+            "Device_Code_Name": "Percee TV",
+            "Device_Maker": "TCL",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "TCL"
+        },
+        "standard": true
+    }
+}

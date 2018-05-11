@@ -28,6 +28,7 @@
             "ARCHOS 101 Magnus": "Archos 101 Magnus",
             "B1-711": "Acer B1-711",
             "B1-750": "Acer B1-750",
+            "B1-810": "Acer B1-810",
             "CW-Hi8-super": "Chuwi CW-HI8-Super",
             "D820X": "Alcatel D820X",
             "GT-I9505": "Samsung GT-I9505",
@@ -40,6 +41,7 @@
             "gxt_dongle_3188": "Andoer CX919",
             "HP Slate 10 HD": "HP Slate 10 HD",
             "HP SlateBook 14 PC": "HP SlateBook 14",
+            "HT7": "Doogee HT7",
             "K00C": "Asus K00C",
             "K00Y": "Asus K00Y",
             "K010": "Asus K010",
@@ -59,6 +61,7 @@
             "Lenovo TAB 2 A10-70F": "Lenovo A10-70F",
             "LG-V480": "LG V480",
             "LG-V700": "LG V700",
+            "L-IXIR TAB 701 3G": "Logicom L-IXIR TAB 701 3G",
             "M8 KitKat": "HTC M8",
             "MediaPad T1 8.0 Pro": "Huawei MediaPad T1 8.0 Pro",
             "MK903V": "Tronsmart MK903V",
@@ -69,6 +72,9 @@
             "NEO-X8H-PLUS": "Minix Neo X8H Plus",
             "Nexus 10": "Samsung Nexus 10",
             "P1_3G": "PiPO P1 3G",
+            "P706": "GDIPPO P706",
+            "PO#9259 TAQ-10123": "Denver TAQ-10123",
+            "POV_TAB-P1026(V3.0)-2": "Point of View TAB-P1026 V3.0",
             "SGP511": "Sony SGP511",
             "SGP512": "Sony SGP512",
             "SGP521": "Sony SGP521",
@@ -105,6 +111,7 @@
             "Tab2A7-10*": "Lenovo Tab 2 A7-10",
             "TF-TF6200HD_Smart": "Topfield TF6200HD Smart",
             "U65GT": "Cube U65GT",
+            "Woxter QX105": "Woxter QX105",
             "X98 Air II(HG5N)": "Teclast HG5N",
             "XII": "UMi X2",
             "YOGA Tablet 2-1050F": "Lenovo Yoga Tablet 2 1050F",
@@ -155,7 +162,8 @@
             "HP SlateBook 10 x2 PC": "HP SlateBook 10 x2",
             "K00Z": "Asus ME175CG",
             "ME302C": "Asus ME302C",
-            "MediaPad 7 Youth 2": "Huawei MediaPad 7 Youth 2"
+            "MediaPad 7 Youth 2": "Huawei MediaPad 7 Youth 2",
+            "ONDA A9 Core4": "ONDA A9 Core4"
           },
           "platforms": [
             "Android_4_3"
@@ -177,6 +185,7 @@
             "ASUS Transformer Pad TF300T": "Asus TF300T",
             "ASUS Transformer Pad TF300TG": "Asus TF300TG",
             "b1-720": "Acer B1-720",
+            "CX-919": "Tronsmart CX-919",
             "Gigaset QV1030": "Gigaset QV1030",
             "Gigaset QV830": "Gigaset QV830",
             "GT-P5100": "Samsung GT-P5100",
@@ -197,6 +206,7 @@
             "NOVUS 7.85": "Novus 7.85",
             "NOVUS_G8": "Novus G8",
             "Numy 3G AX10t": "Ainol Numy 3G",
+            "POV_TAB-PR945": "Point of View Pov Tab PR945",
             "PX2": "Freelander PX2"
           },
           "platforms": [
