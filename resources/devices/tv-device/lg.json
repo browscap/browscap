@@ -76,11 +76,22 @@
     },
     "standard": true
   },
-  "LV TI320-DU": {
+  "LG TI320-DU": {
     "type": "tv",
     "properties": {
-      "Device_Name": "LG U Plus TV G",
+      "Device_Name": "U Plus TV G",
       "Device_Code_Name": "TI320-DU",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": true
+  },
+  "LG TV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV",
+      "Device_Code_Name": "TV",
       "Device_Maker": "LG",
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "LG"

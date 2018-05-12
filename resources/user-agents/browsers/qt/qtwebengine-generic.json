@@ -46,7 +46,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/* Safari/*",
           "platforms": [
             "webOS 3.0 (LG)"
           ]

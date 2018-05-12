@@ -5659,7 +5659,7 @@
       }
     },
     "webOS 3.0 (LG)": {
-      "match": "*webOS/3.*",
+      "match": "*web0S/*",
       "lite": false,
       "standard": true,
       "inherits": "webOS (LG)",
@@ -5668,7 +5668,7 @@
       }
     },
     "webOS 2.0 (LG)": {
-      "match": "*webOS/2.0*",
+      "match": "*web0S/*",
       "lite": false,
       "standard": true,
       "inherits": "webOS (LG)",

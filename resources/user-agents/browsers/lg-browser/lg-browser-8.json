@@ -18,14 +18,16 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 49LH604V*",
-          "device": "LG 49LH604V",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "LGE; 49LH604V": "LG 49LH604V"
+          },
           "platforms": [
             "webOS 3.0 (LG)"
           ]
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "webOS 3.0 (LG)"
           ]

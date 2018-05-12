@@ -18,21 +18,17 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 43LF630V*",
-          "device": "LG 43LF630V",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "LGE; 43LF630V": "LG 43LF630V",
+            "LGE; 79UF860V": "LG 79UF860V"
+          },
           "platforms": [
             "webOS 2.0 (LG)"
           ]
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*LGE; 79UF860V*",
-          "device": "LG 79UF860V",
-          "platforms": [
-            "webOS 2.0 (LG)"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "webOS 2.0 (LG)"
           ]

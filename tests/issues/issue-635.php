@@ -36512,7 +36512,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'LG U Plus TV G',
+            'Device_Name' => 'U Plus TV G',
             'Device_Maker' => 'LG',
             'Device_Type' => 'TV Device',
             'Device_Pointing_Method' => 'unknown',

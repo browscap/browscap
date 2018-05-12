@@ -116,6 +116,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for TV",
       "browser": "chrome",
+      "platform": "webOS 3.0 (LG)",
       "engine": "Blink",
       "device": "general TV Device",
       "properties": {
@@ -126,9 +127,9 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Linux Desktop",
+          "device": "LG TV",
           "platforms": [
-            "webOS (LG)"
+            "webOS 3.0 (LG)"
           ]
         }
       ]
