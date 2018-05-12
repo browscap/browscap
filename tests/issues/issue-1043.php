@@ -41,22 +41,20 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
-    'issue-1043-A (standard + lite)' => [
+    'issue-1043-A (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; he-il; NEO-X5-116A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
-            'Browser_Maker' => 'Google Inc',
             'Version' => '4.0',
             'Platform' => 'Android',
             'Device_Type' => 'Tablet',
-            'Device_Pointing_Method' => 'touchscreen',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => false,
     ],
     'issue-1043-B' => [
