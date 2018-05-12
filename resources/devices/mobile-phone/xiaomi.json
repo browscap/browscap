@@ -240,5 +240,16 @@
             "Device_Brand_Name": "Xiaomi"
         },
         "standard": false
+    },
+    "Xiaomi Mi Mix 2": {
+        "type": "mobile-phone",
+        "properties": {
+            "Device_Name": "Mi Mix 2",
+            "Device_Code_Name": "Mi Mix 2",
+            "Device_Maker": "Xiaomi Tech",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Xiaomi"
+        },
+        "standard": false
     }
 }
