@@ -2885,4 +2885,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    // there is no version 40.1 of Firefox
+    'issue-000-invalid-versions-GA' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1',
+        'properties' => [
+            'Comment' => 'Firefox Generic',
+            'Browser' => 'Firefox',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'Platform_Version' => '6.1',
+            'Platform_Description' => 'Windows 7',
+            'RenderingEngine_Name' => 'Gecko',
+            'RenderingEngine_Version' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
 ];

@@ -212,32 +212,6 @@
           }
         }
       ]
-    },
-    {
-      "userAgent": "Firefox Generic for Maemo",
-      "browser": "firefox",
-      "platform": "Maemo",
-      "engine": "Gecko",
-      "device": "general Mobile Phone",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* MB860*",
-          "device": "Motorola MB860",
-          "platforms": [
-            "Maemo_ARM"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
-          "platforms": [
-            "Maemo_ARM"
-          ]
-        }
-      ]
     }
   ]
 }
