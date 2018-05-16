@@ -1,6 +1,8 @@
 {
   "division": "2345 Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.5"],
+  "versions": [
+    "7.5"
+  ],
   "sortIndex": 955,
   "lite": false,
   "standard": true,

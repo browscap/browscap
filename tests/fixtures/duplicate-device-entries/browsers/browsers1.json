@@ -1,29 +1,29 @@
 {
-    "2345 browser": {
-        "type": "browser",
-        "properties": {
-            "Browser": "2345 Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+  "2345 browser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "2345 Browser",
+      "Browser_Maker": "unknown"
     },
-    "chrome": {
-        "type": "browser",
-        "properties": {
-            "Browser": "Chrome",
-            "Browser_Maker": "Google Inc"
-        },
-        "lite": false,
-        "standard": false
+    "lite": false,
+    "standard": true
+  },
+  "chrome": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Chrome",
+      "Browser_Maker": "Google Inc"
     },
-    "chromium": {
-        "type": "browser",
-        "properties": {
-            "Browser": "Chromium",
-            "Browser_Maker": "Google Inc"
-        },
-        "lite": false,
-        "standard": true
-    }
+    "lite": false,
+    "standard": false
+  },
+  "chromium": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Chromium",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  }
 }

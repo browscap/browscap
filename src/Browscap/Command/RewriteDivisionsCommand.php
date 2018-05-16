@@ -296,7 +296,7 @@ class RewriteDivisionsCommand extends Command
         $platformVersions = [];
 
         foreach ($platforms as $key => $platform) {
-            $x = array_intersect($allplatforms, [$platform]);
+            $x = array_intersect($allPlatforms, [$platform]);
 
             $platformVersions[$key] = key($x);
         }
