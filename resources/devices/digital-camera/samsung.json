@@ -1,13 +1,13 @@
 {
-    "Samsung SM-C101": {
-        "type": "digital-camera",
-        "properties": {
-            "Device_Name": "Galaxy S4 Zoom",
-            "Device_Code_Name": "SM-C101",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
-    }
+  "Samsung SM-C101": {
+    "type": "digital-camera",
+    "properties": {
+      "Device_Name": "Galaxy S4 Zoom",
+      "Device_Code_Name": "SM-C101",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  }
 }

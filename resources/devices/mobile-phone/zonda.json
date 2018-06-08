@@ -1,13 +1,13 @@
 {
-    "ZONDA ZMNG1900": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ZMNG1900",
-            "Device_Code_Name": "ZMNG1900",
-            "Device_Maker": "ZONDA",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "ZONDA"
-        },
-        "standard": false
-    }
+  "ZONDA ZMNG1900": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZMNG1900",
+      "Device_Code_Name": "ZMNG1900",
+      "Device_Maker": "ZONDA",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "ZONDA"
+    },
+    "standard": false
+  }
 }

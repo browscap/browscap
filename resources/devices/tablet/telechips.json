@@ -1,13 +1,13 @@
 {
-    "Telechips TCC890": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Wince 6.0",
-            "Device_Code_Name": "TCC890",
-            "Device_Maker": "Telechips",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Telechips"
-        },
-        "standard": true
-    }
+  "Telechips TCC890": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Wince 6.0",
+      "Device_Code_Name": "TCC890",
+      "Device_Maker": "Telechips",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Telechips"
+    },
+    "standard": true
+  }
 }

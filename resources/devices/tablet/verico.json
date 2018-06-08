@@ -1,46 +1,46 @@
 {
-    "Verico M1BGV": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "UNI Pad UQ785 7.8",
-            "Device_Code_Name": "M1BGV",
-            "Device_Maker": "Verico",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verico"
-        },
-        "standard": true
+  "Verico M1BGV": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "UNI Pad UQ785 7.8",
+      "Device_Code_Name": "M1BGV",
+      "Device_Maker": "Verico",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verico"
     },
-    "Verico RP-UDM01A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Uni Pad",
-            "Device_Code_Name": "RP-UDM01A",
-            "Device_Maker": "Verico",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verico"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Verico RP-UDM01A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Uni Pad",
+      "Device_Code_Name": "RP-UDM01A",
+      "Device_Maker": "Verico",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verico"
     },
-    "Verico RP-UDM02A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Uni Pad",
-            "Device_Code_Name": "RP-UDM02A",
-            "Device_Maker": "Verico",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verico"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Verico RP-UDM02A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Uni Pad",
+      "Device_Code_Name": "RP-UDM02A",
+      "Device_Maker": "Verico",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verico"
     },
-    "Verico UQM11A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "UNI Pad 10.1",
-            "Device_Code_Name": "UQM11A",
-            "Device_Maker": "Verico",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Verico"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Verico UQM11A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "UNI Pad 10.1",
+      "Device_Code_Name": "UQM11A",
+      "Device_Maker": "Verico",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Verico"
+    },
+    "standard": true
+  }
 }

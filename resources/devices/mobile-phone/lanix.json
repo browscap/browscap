@@ -1,13 +1,13 @@
 {
-    "Lanix S500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Ilium S500",
-            "Device_Code_Name": "S500",
-            "Device_Maker": "Lanix",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lanix"
-        },
-        "standard": false
-    }
+  "Lanix S500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Ilium S500",
+      "Device_Code_Name": "S500",
+      "Device_Maker": "Lanix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lanix"
+    },
+    "standard": false
+  }
 }

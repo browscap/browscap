@@ -1,13 +1,13 @@
 {
-    "DNS MB40II1": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "MB40II1",
-            "Device_Code_Name": "MB40II1",
-            "Device_Maker": "DNS",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "DNS"
-        },
-        "standard": true
-    }
+  "DNS MB40II1": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "MB40II1",
+      "Device_Code_Name": "MB40II1",
+      "Device_Maker": "DNS",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "DNS"
+    },
+    "standard": true
+  }
 }

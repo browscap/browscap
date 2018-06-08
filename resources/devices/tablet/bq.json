@@ -1,46 +1,46 @@
 {
-    "BQ 7056G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "7056G",
-            "Device_Code_Name": "7056G",
-            "Device_Maker": "BQ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ"
-        },
-        "standard": true
+  "BQ 7056G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "7056G",
+      "Device_Code_Name": "7056G",
+      "Device_Maker": "BQ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BQ"
     },
-    "BQ Aquaris M10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Aquaris M10",
-            "Device_Code_Name": "Aquaris M10",
-            "Device_Maker": "BQ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ"
-        },
-        "standard": true
+    "standard": true
+  },
+  "BQ Aquaris M10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Aquaris M10",
+      "Device_Code_Name": "Aquaris M10",
+      "Device_Maker": "BQ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BQ"
     },
-    "BQ Aquaris M10 FHD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Aquaris M10 FHD",
-            "Device_Code_Name": "Aquaris M10 FHD",
-            "Device_Maker": "BQ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ"
-        },
-        "standard": true
+    "standard": true
+  },
+  "BQ Aquaris M10 FHD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Aquaris M10 FHD",
+      "Device_Code_Name": "Aquaris M10 FHD",
+      "Device_Maker": "BQ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BQ"
     },
-    "BQ Edison": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Edison",
-            "Device_Code_Name": "Edison",
-            "Device_Maker": "BQ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BQ"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "BQ Edison": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Edison",
+      "Device_Code_Name": "Edison",
+      "Device_Maker": "BQ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BQ"
+    },
+    "standard": true
+  }
 }

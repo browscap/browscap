@@ -1,46 +1,46 @@
 {
-    "OnePlus A0001": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "One",
-            "Device_Code_Name": "A0001",
-            "Device_Maker": "OnePlus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus"
-        },
-        "standard": false
+  "OnePlus A0001": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One",
+      "Device_Code_Name": "A0001",
+      "Device_Maker": "OnePlus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OnePlus"
     },
-    "OnePlus A3000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "3",
-            "Device_Code_Name": "A3000",
-            "Device_Maker": "OnePlus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OnePlus A3000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "3",
+      "Device_Code_Name": "A3000",
+      "Device_Maker": "OnePlus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OnePlus"
     },
-    "OnePlus A3010": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "3T",
-            "Device_Code_Name": "A3010",
-            "Device_Maker": "OnePlus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "OnePlus A3010": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "3T",
+      "Device_Code_Name": "A3010",
+      "Device_Maker": "OnePlus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OnePlus"
     },
-    "OnePlus E1003": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X",
-            "Device_Code_Name": "E1003",
-            "Device_Maker": "OnePlus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "OnePlus"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "OnePlus E1003": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X",
+      "Device_Code_Name": "E1003",
+      "Device_Maker": "OnePlus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OnePlus"
+    },
+    "standard": false
+  }
 }

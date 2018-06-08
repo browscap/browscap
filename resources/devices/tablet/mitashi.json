@@ -1,13 +1,13 @@
 {
-    "Mitashi AP-105": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Play Duo King",
-            "Device_Code_Name": "AP-105",
-            "Device_Maker": "Mitashi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mitashi"
-        },
-        "standard": true
-    }
+  "Mitashi AP-105": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Play Duo King",
+      "Device_Code_Name": "AP-105",
+      "Device_Maker": "Mitashi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mitashi"
+    },
+    "standard": true
+  }
 }

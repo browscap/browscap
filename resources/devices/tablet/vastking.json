@@ -1,24 +1,24 @@
 {
-    "VastKing M717R-HD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "M717R-HD",
-            "Device_Code_Name": "M717R-HD",
-            "Device_Maker": "VastKing",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "VastKing"
-        },
-        "standard": true
+  "VastKing M717R-HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M717R-HD",
+      "Device_Code_Name": "M717R-HD",
+      "Device_Maker": "VastKing",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "VastKing"
     },
-    "VastKing MID-717R": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MID-717R",
-            "Device_Code_Name": "MID-717R",
-            "Device_Maker": "VastKing",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "VastKing"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "VastKing MID-717R": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MID-717R",
+      "Device_Code_Name": "MID-717R",
+      "Device_Maker": "VastKing",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "VastKing"
+    },
+    "standard": true
+  }
 }

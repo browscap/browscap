@@ -1,24 +1,24 @@
 {
-    "general Mobile Phone (Apple)": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "general Mobile Phone",
-            "Device_Code_Name": "general Mobile Phone",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple"
-        },
-        "standard": true
+  "general Mobile Phone (Apple)": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "general Mobile Phone",
+      "Device_Code_Name": "general Mobile Phone",
+      "Device_Maker": "Apple Inc",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Apple"
     },
-    "iPhone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "iPhone",
-            "Device_Code_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple"
-        },
-        "standard": false
-    }
+    "standard": true
+  },
+  "iPhone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "iPhone",
+      "Device_Code_Name": "iPhone",
+      "Device_Maker": "Apple Inc",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Apple"
+    },
+    "standard": false
+  }
 }

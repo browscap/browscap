@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string"
+      },
+      "properties": {
+        "type": "object",
+        "properties": {
+          "Device_Name": {
+            "type": "string"
+          },
+          "Device_Code_Name": {
+            "type": "string"
+          },
+          "Device_Maker": {
+            "type": "string"
+          },
+          "Device_Pointing_Method": {
+            "type": "string"
+          },
+          "Device_Brand_Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Device_Name",
+          "Device_Code_Name",
+          "Device_Maker",
+          "Device_Pointing_Method",
+          "Device_Brand_Name"
+        ]
+      },
+      "standard": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "type",
+      "properties",
+      "standard"
+    ]
+  }
+}

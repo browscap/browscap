@@ -1,13 +1,13 @@
 {
-    "Unnecto U613": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Quattro S",
-            "Device_Code_Name": "U613",
-            "Device_Maker": "Unnecto",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Unnecto"
-        },
-        "standard": false
-    }
+  "Unnecto U613": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Quattro S",
+      "Device_Code_Name": "U613",
+      "Device_Maker": "Unnecto",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Unnecto"
+    },
+    "standard": false
+  }
 }

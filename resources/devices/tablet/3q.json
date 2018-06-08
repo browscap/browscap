@@ -1,57 +1,57 @@
 {
-    "3Q AC0732C": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q-lite",
-            "Device_Code_Name": "AC0732C",
-            "Device_Maker": "3Q",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "3Q"
-        },
-        "standard": true
+  "3Q AC0732C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q-lite",
+      "Device_Code_Name": "AC0732C",
+      "Device_Maker": "3Q",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "3Q"
     },
-    "3Q LC0720C": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q-pad",
-            "Device_Code_Name": "LC0720C",
-            "Device_Maker": "3Q",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "3Q"
-        },
-        "standard": true
+    "standard": true
+  },
+  "3Q LC0720C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q-pad",
+      "Device_Code_Name": "LC0720C",
+      "Device_Maker": "3Q",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "3Q"
     },
-    "3Q MT0739D": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q-pad",
-            "Device_Code_Name": "MT0739D",
-            "Device_Maker": "3Q",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "3Q"
-        },
-        "standard": true
+    "standard": true
+  },
+  "3Q MT0739D": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q-pad",
+      "Device_Code_Name": "MT0739D",
+      "Device_Maker": "3Q",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "3Q"
     },
-    "3Q QS0716D": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q-pad",
-            "Device_Code_Name": "QS0716D",
-            "Device_Maker": "3Q",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "3Q"
-        },
-        "standard": true
+    "standard": true
+  },
+  "3Q QS0716D": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q-pad",
+      "Device_Code_Name": "QS0716D",
+      "Device_Maker": "3Q",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "3Q"
     },
-    "3Q RC9724C": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Q-pad",
-            "Device_Code_Name": "RC9724C",
-            "Device_Maker": "3Q",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "3Q"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "3Q RC9724C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Q-pad",
+      "Device_Code_Name": "RC9724C",
+      "Device_Maker": "3Q",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "3Q"
+    },
+    "standard": true
+  }
 }

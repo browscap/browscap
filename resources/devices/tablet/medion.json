@@ -1,178 +1,178 @@
 {
-    "Lenovo LifeTab P970X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P970X",
-            "Device_Code_Name": "LifeTab P970X",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+  "Lenovo LifeTab P970X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P970X",
+      "Device_Code_Name": "LifeTab P970X",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion E10310": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E10310",
-            "Device_Code_Name": "E10310",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion E10310": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E10310",
+      "Device_Code_Name": "E10310",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion E10320": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E10320",
-            "Device_Code_Name": "E10320",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion E10320": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E10320",
+      "Device_Code_Name": "E10320",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab E10312": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E10312",
-            "Device_Code_Name": "LifeTab E10312",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab E10312": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E10312",
+      "Device_Code_Name": "LifeTab E10312",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab E10316": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E10316",
-            "Device_Code_Name": "LifeTab E10316",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab E10316": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E10316",
+      "Device_Code_Name": "LifeTab E10316",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab E7312": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E7312",
-            "Device_Code_Name": "MD 98488",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab E7312": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E7312",
+      "Device_Code_Name": "MD 98488",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab E7316": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab E7316",
-            "Device_Code_Name": "MD 98282",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab E7316": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab E7316",
+      "Device_Code_Name": "MD 98282",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab P4012": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P4012",
-            "Device_Code_Name": "LifeTab P4012",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab P4012": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P4012",
+      "Device_Code_Name": "LifeTab P4012",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab P4310": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P4310",
-            "Device_Code_Name": "LifeTab P4310",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab P4310": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P4310",
+      "Device_Code_Name": "LifeTab P4310",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab P831X.2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P831X.2",
-            "Device_Code_Name": "LifeTab P831X.2",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab P831X.2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P831X.2",
+      "Device_Code_Name": "LifeTab P831X.2",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab P9514": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P9514",
-            "Device_Code_Name": "LifeTab P9514",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab P9514": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P9514",
+      "Device_Code_Name": "LifeTab P9514",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab P9516": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab P9516",
-            "Device_Code_Name": "LifeTab P9516",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab P9516": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab P9516",
+      "Device_Code_Name": "LifeTab P9516",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab S9512": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab S9512",
-            "Device_Code_Name": "LifeTab S9512",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab S9512": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab S9512",
+      "Device_Code_Name": "LifeTab S9512",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion LifeTab S9714": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "LifeTab S9714",
-            "Device_Code_Name": "LifeTab S9714",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion LifeTab S9714": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "LifeTab S9714",
+      "Device_Code_Name": "LifeTab S9714",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion P1040X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "P1040X",
-            "Device_Code_Name": "P1040X",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Medion P1040X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P1040X",
+      "Device_Code_Name": "P1040X",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
     },
-    "Medion P1050X": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Life P1050X",
-            "Device_Code_Name": "P1050X",
-            "Device_Maker": "Medion",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Medion"
-        },
-        "standard": false
-    }
+    "standard": true
+  },
+  "Medion P1050X": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Life P1050X",
+      "Device_Code_Name": "P1050X",
+      "Device_Maker": "Medion",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Medion"
+    },
+    "standard": false
+  }
 }

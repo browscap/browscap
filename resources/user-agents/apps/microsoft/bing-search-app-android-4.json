@@ -1,51 +1,51 @@
 {
-    "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-    "versions": ["4.3", "4.2"],
-    "sortIndex": 484,
-    "lite": false,
-    "standard": true,
-    "userAgents": [
+  "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["4.3", "4.2"],
+  "sortIndex": 484,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+      "browser": "bing search app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
-            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-            "browser": "bing search app",
-            "engine": "Blink",
-            "device": "general Mobile Phone (Touch)",
-            "platform": "Android",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-                "Version": "#MAJORVER#.#MINORVER#"
-            },
-            "children": [
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "devices": {
-                        "VK810 4G": "LG VK810"
-                    },
-                    "platforms": [
-                        "Android_5_0"
-                    ]
-                },
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "engine": "WebKit",
-                    "devices": {
-                        "HTC D310w": "HTC Desire 310"
-                    },
-                    "platforms": [
-                        "Android_4_2"
-                    ]
-                },
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "engine": "WebKit",
-                    "platforms": [
-                        "Android_5_0",
-                        "Android_4_2",
-                        "Android"
-                    ]
-                }
-            ]
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "VK810 4G": "LG VK810"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "HTC D310w": "HTC Desire 310"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_2",
+            "Android"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -20,7 +20,6 @@
       "children": [
         {
           "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
-          "platform": "JAVA",
           "devices": {
             "Micromax X070": "Micromax X070",
             "Micromax X084": "Micromax X084",
@@ -43,7 +42,10 @@
             "Micromax X457": "Micromax X457",
             "Micromax X501": "Micromax X501",
             "Micromax X1i Ultra": "Micromax X1i Ultra"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",

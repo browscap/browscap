@@ -26,7 +26,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
           "platforms": [
-            "Platform_1", "Platform_2"
+            "Platform_1",
+            "Platform_2"
           ]
         }
       ]

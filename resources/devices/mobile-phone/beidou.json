@@ -1,13 +1,13 @@
 {
-    "Beidou LA-M1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Chili Pepper LA-M1",
-            "Device_Code_Name": "LA-M1",
-            "Device_Maker": "Beidou",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Beidou"
-        },
-        "standard": false
-    }
+  "Beidou LA-M1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Chili Pepper LA-M1",
+      "Device_Code_Name": "LA-M1",
+      "Device_Maker": "Beidou",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Beidou"
+    },
+    "standard": false
+  }
 }

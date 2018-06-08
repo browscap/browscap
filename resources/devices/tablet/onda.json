@@ -1,24 +1,24 @@
 {
-    "ONDA MID": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "VI10 Elite",
-            "Device_Code_Name": "MID",
-            "Device_Maker": "ONDA",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ONDA"
-        },
-        "standard": true
+  "ONDA MID": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "VI10 Elite",
+      "Device_Code_Name": "MID",
+      "Device_Maker": "ONDA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ONDA"
     },
-    "ONDA V989": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "V989",
-            "Device_Code_Name": "V989",
-            "Device_Maker": "ONDA",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ONDA"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "ONDA V989": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "V989",
+      "Device_Code_Name": "V989",
+      "Device_Maker": "ONDA",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ONDA"
+    },
+    "standard": true
+  }
 }

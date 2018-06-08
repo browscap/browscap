@@ -1,13 +1,13 @@
 {
-    "Vernee Apollo Lite": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Apollo Lite",
-            "Device_Code_Name": "Apollo Lite",
-            "Device_Maker": "Vernee",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vernee"
-        },
-        "standard": false
-    }
+  "Vernee Apollo Lite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Apollo Lite",
+      "Device_Code_Name": "Apollo Lite",
+      "Device_Maker": "Vernee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vernee"
+    },
+    "standard": false
+  }
 }

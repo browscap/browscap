@@ -1,236 +1,236 @@
 {
-    "airmail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Airmail",
-            "Browser_Maker": "Bloop S.R.L."
-        },
-        "lite": false,
-        "standard": true
+  "airmail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Airmail",
+      "Browser_Maker": "Bloop S.R.L."
     },
-    "apple mail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Apple Mail",
-            "Browser_Maker": "Apple Inc"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "apple mail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Apple Mail",
+      "Browser_Maker": "Apple Inc"
     },
-    "barca mail client": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Barca Mail Client",
-            "Browser_Maker": "Poco Systems Inc."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "barca mail client": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Barca Mail Client",
+      "Browser_Maker": "Poco Systems Inc."
     },
-    "eudora": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Eudora",
-            "Browser_Maker": "Qualcomm"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "eudora": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Eudora",
+      "Browser_Maker": "Qualcomm"
     },
-    "eudora ose": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Eudora OSE",
-            "Browser_Maker": "Mozilla Foundation"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "eudora ose": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Eudora OSE",
+      "Browser_Maker": "Mozilla Foundation"
     },
-    "evolution": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Evolution",
-            "Browser_Maker": "The GNOME Project"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "evolution": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Evolution",
+      "Browser_Maker": "The GNOME Project"
     },
-    "fossamail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "FossaMail",
-            "Browser_Maker": "Moonchild Productions"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fossamail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "FossaMail",
+      "Browser_Maker": "Moonchild Productions"
     },
-    "framabird": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Framabird",
-            "Browser_Maker": "Framasoft"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "framabird": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Framabird",
+      "Browser_Maker": "Framasoft"
     },
-    "google mail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Google Mail",
-            "Browser_Maker": "Google Inc"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "google mail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Google Mail",
+      "Browser_Maker": "Google Inc"
     },
-    "incredimail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Incredimail",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "incredimail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Incredimail",
+      "Browser_Maker": "unknown"
     },
-    "kmail2": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "KMail2",
-            "Browser_Maker": "KDE e.V."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "kmail2": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "KMail2",
+      "Browser_Maker": "KDE e.V."
     },
-    "kontact": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Kontact",
-            "Browser_Maker": "KDE e.V."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "kontact": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Kontact",
+      "Browser_Maker": "KDE e.V."
     },
-    "lotus notes": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Lotus Notes",
-            "Browser_Maker": "IBM"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "lotus notes": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Lotus Notes",
+      "Browser_Maker": "IBM"
     },
-    "mail free": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Mail Free",
-            "Browser_Maker": "FREE SAS"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "mail free": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Mail Free",
+      "Browser_Maker": "FREE SAS"
     },
-    "mail master": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Mail Master",
-            "Browser_Maker": "NetEase (Hangzhou) Network Co., Ltd."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "mail master": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Mail Master",
+      "Browser_Maker": "NetEase (Hangzhou) Network Co., Ltd."
     },
-    "mailbar": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "MailBar",
-            "Browser_Maker": "MailBar Inc."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "mailbar": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "MailBar",
+      "Browser_Maker": "MailBar Inc."
     },
-    "mobmail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Mobmail",
-            "Browser_Maker": "Kerverus IT Ltd"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "mobmail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Mobmail",
+      "Browser_Maker": "Kerverus IT Ltd"
     },
-    "outlook": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Outlook",
-            "Browser_Maker": "Microsoft Corporation"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "outlook": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Outlook",
+      "Browser_Maker": "Microsoft Corporation"
     },
-    "pocomail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "PocoMail",
-            "Browser_Maker": "poco systems inc"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "pocomail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "PocoMail",
+      "Browser_Maker": "poco systems inc"
     },
-    "postbox": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Postbox",
-            "Browser_Maker": "Postbox, Inc."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "postbox": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Postbox",
+      "Browser_Maker": "Postbox, Inc."
     },
-    "sparrow": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Sparrow",
-            "Browser_Maker": "Sparrow SARL"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "sparrow": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Sparrow",
+      "Browser_Maker": "Sparrow SARL"
     },
-    "the bat!": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "The Bat!",
-            "Browser_Maker": "Ritlabs SRL."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "the bat!": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "The Bat!",
+      "Browser_Maker": "Ritlabs SRL."
     },
-    "thunderbird": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Thunderbird",
-            "Browser_Maker": "Mozilla Foundation"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "thunderbird": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Thunderbird",
+      "Browser_Maker": "Mozilla Foundation"
     },
-    "windows live mail": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Windows Live Mail",
-            "Browser_Maker": "Microsoft Corporation"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "windows live mail": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Windows Live Mail",
+      "Browser_Maker": "Microsoft Corporation"
     },
-    "yahoo mail mobile": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Yahoo Mail Mobile",
-            "Browser_Maker": "Yahoo! Inc."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "yahoo mail mobile": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Yahoo Mail Mobile",
+      "Browser_Maker": "Yahoo! Inc."
     },
-    "zimbra desktop": {
-        "type": "email-client",
-        "properties": {
-            "Browser": "Zimbra Desktop",
-            "Browser_Maker": "Synacor, Inc."
-        },
-        "lite": false,
-        "standard": true
-    }
+    "lite": false,
+    "standard": true
+  },
+  "zimbra desktop": {
+    "type": "email-client",
+    "properties": {
+      "Browser": "Zimbra Desktop",
+      "Browser_Maker": "Synacor, Inc."
+    },
+    "lite": false,
+    "standard": true
+  }
 }

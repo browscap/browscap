@@ -1,13 +1,13 @@
 {
-    "PolyPad 1010IPS": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "1010IPS",
-            "Device_Code_Name": "1010IPS",
-            "Device_Maker": "PolyPad",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "PolyPad"
-        },
-        "standard": true
-    }
+  "PolyPad 1010IPS": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "1010IPS",
+      "Device_Code_Name": "1010IPS",
+      "Device_Maker": "PolyPad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "PolyPad"
+    },
+    "standard": true
+  }
 }

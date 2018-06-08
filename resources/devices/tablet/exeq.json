@@ -1,24 +1,24 @@
 {
-    "Exeq P-720": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "P-720",
-            "Device_Code_Name": "P-720",
-            "Device_Maker": "Exeq",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Exeq"
-        },
-        "standard": true
+  "Exeq P-720": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P-720",
+      "Device_Code_Name": "P-720",
+      "Device_Maker": "Exeq",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Exeq"
     },
-    "Exeq P-746": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "P-746",
-            "Device_Code_Name": "P-746",
-            "Device_Maker": "Exeq",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Exeq"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Exeq P-746": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P-746",
+      "Device_Code_Name": "P-746",
+      "Device_Maker": "Exeq",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Exeq"
+    },
+    "standard": true
+  }
 }

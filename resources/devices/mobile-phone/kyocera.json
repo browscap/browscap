@@ -1,123 +1,123 @@
 {
-    "Kyocera C5215": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Edge",
-            "Device_Code_Name": "C5215",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+  "Kyocera C5215": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Edge",
+      "Device_Code_Name": "C5215",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6730": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Icon",
-            "Device_Code_Name": "C6730",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6730": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Icon",
+      "Device_Code_Name": "C6730",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6740N": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Wave",
-            "Device_Code_Name": "C6740N",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6740N": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Wave",
+      "Device_Code_Name": "C6740N",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6742": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro View",
-            "Device_Code_Name": "C6742",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6742": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro View",
+      "Device_Code_Name": "C6742",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6742A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Shore",
-            "Device_Code_Name": "C6742A",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6742A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Shore",
+      "Device_Code_Name": "C6742A",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6743": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Reach",
-            "Device_Code_Name": "C6743",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6743": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Reach",
+      "Device_Code_Name": "C6743",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera C6745": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Hydro Air",
-            "Device_Code_Name": "C6745",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera C6745": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hydro Air",
+      "Device_Code_Name": "C6745",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera DM015K": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Disney Mobile",
-            "Device_Code_Name": "DM015K",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera DM015K": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Disney Mobile",
+      "Device_Code_Name": "DM015K",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera E6560": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DuraForce (AT&T)",
-            "Device_Code_Name": "E6560",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera E6560": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DuraForce (AT&T)",
+      "Device_Code_Name": "E6560",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera E6762": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DuraForce (US Cellular)",
-            "Device_Code_Name": "E6762",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Kyocera E6762": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DuraForce (US Cellular)",
+      "Device_Code_Name": "E6762",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
     },
-    "Kyocera E6782": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Brigadier",
-            "Device_Code_Name": "E6782",
-            "Device_Maker": "Kyocera",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kyocera"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Kyocera E6782": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Brigadier",
+      "Device_Code_Name": "E6782",
+      "Device_Maker": "Kyocera",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kyocera"
+    },
+    "standard": false
+  }
 }

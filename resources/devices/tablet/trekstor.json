@@ -1,68 +1,68 @@
 {
-    "TrekStor ST10216": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SurfTab ventos 10.1 v2",
-            "Device_Code_Name": "ST10216",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
+  "TrekStor ST10216": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SurfTab ventos 10.1 v2",
+      "Device_Code_Name": "ST10216",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
     },
-    "TrekStor ST10216-2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "ST10216-2",
-            "Device_Code_Name": "ST10216-2",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TrekStor ST10216-2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ST10216-2",
+      "Device_Code_Name": "ST10216-2",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
     },
-    "TrekStor ST701041": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SurfTab Breeze 7.0",
-            "Device_Code_Name": "ST701041",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TrekStor ST701041": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SurfTab Breeze 7.0",
+      "Device_Code_Name": "ST701041",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
     },
-    "TrekStor SurfTab Breeze 10.1 Quad": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SurfTab Breeze 10.1 Quad",
-            "Device_Code_Name": "SurfTab Breeze 10.1 Quad",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TrekStor SurfTab Breeze 10.1 Quad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SurfTab Breeze 10.1 Quad",
+      "Device_Code_Name": "SurfTab Breeze 10.1 Quad",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
     },
-    "TrekStor VT10416-1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Peoples Tablet",
-            "Device_Code_Name": "VT10416-1",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
+    "standard": true
+  },
+  "TrekStor VT10416-1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Peoples Tablet",
+      "Device_Code_Name": "VT10416-1",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
     },
-    "TrekStor VT10416-2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "VT10416-2",
-            "Device_Code_Name": "VT10416-2",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TrekStor"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "TrekStor VT10416-2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "VT10416-2",
+      "Device_Code_Name": "VT10416-2",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TrekStor"
+    },
+    "standard": true
+  }
 }

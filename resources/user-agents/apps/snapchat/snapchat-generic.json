@@ -42,8 +42,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Snapchat/*",
           "platforms": [
-            "iOS_A",
-            "iOS_E"
+            "iOS_A", "iOS_E"
           ]
         }
       ]

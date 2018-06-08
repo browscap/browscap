@@ -1,13 +1,13 @@
 {
-    "Dino 762 A9": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "762 A9 TABLET",
-            "Device_Code_Name": "762 A9",
-            "Device_Maker": "Dino",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dino"
-        },
-        "standard": true
-    }
+  "Dino 762 A9": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "762 A9 TABLET",
+      "Device_Code_Name": "762 A9",
+      "Device_Maker": "Dino",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dino"
+    },
+    "standard": true
+  }
 }

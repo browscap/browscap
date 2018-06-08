@@ -1,13 +1,13 @@
 {
-    "Malata I50": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "I50",
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Malata"
-        },
-        "standard": false
-    }
+  "Malata I50": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "I50",
+      "Device_Code_Name": "I50",
+      "Device_Maker": "Malata",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Malata"
+    },
+    "standard": false
+  }
 }

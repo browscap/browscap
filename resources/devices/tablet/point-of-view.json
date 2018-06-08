@@ -1,46 +1,46 @@
 {
-    "Point of View Mobii 7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mobii 7",
-            "Device_Code_Name": "Mobii 7",
-            "Device_Maker": "Point of View",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Point of View"
-        },
-        "standard": true
+  "Point of View Mobii 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mobii 7",
+      "Device_Code_Name": "Mobii 7",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
     },
-    "Point of View P701": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mobii",
-            "Device_Code_Name": "P701",
-            "Device_Maker": "Point of View",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Point of View"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Point of View P701": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mobii",
+      "Device_Code_Name": "P701",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
     },
-    "Point of View PI1045": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mobii 1045",
-            "Device_Code_Name": "PI1045",
-            "Device_Maker": "Point of View",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Point of View"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Point of View PI1045": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mobii 1045",
+      "Device_Code_Name": "PI1045",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
     },
-    "Point of View Protab 3 XXL": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Protab 3 XXL",
-            "Device_Code_Name": "Protab 3 XXL",
-            "Device_Maker": "Point of View",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Point of View"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Point of View Protab 3 XXL": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Protab 3 XXL",
+      "Device_Code_Name": "Protab 3 XXL",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
+    },
+    "standard": true
+  }
 }

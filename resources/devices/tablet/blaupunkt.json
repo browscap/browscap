@@ -1,13 +1,13 @@
 {
-    "Blaupunkt Endeavour 1010": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Endeavour 1010",
-            "Device_Code_Name": "Endeavour 1010",
-            "Device_Maker": "Blaupunkt",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Blaupunkt"
-        },
-        "standard": true
-    }
+  "Blaupunkt Endeavour 1010": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Endeavour 1010",
+      "Device_Code_Name": "Endeavour 1010",
+      "Device_Maker": "Blaupunkt",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Blaupunkt"
+    },
+    "standard": true
+  }
 }

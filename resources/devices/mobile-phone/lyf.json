@@ -1,35 +1,35 @@
 {
-    "Lyf LS-4005": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flame 6",
-            "Device_Code_Name": "LS-4005",
-            "Device_Maker": "Lyf",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lyf"
-        },
-        "standard": false
+  "Lyf LS-4005": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flame 6",
+      "Device_Code_Name": "LS-4005",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lyf"
     },
-    "Lyf LS-4503": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flame 1",
-            "Device_Code_Name": "LS-4503",
-            "Device_Maker": "Reliance",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lyf"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Lyf LS-4503": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flame 1",
+      "Device_Code_Name": "LS-4503",
+      "Device_Maker": "Reliance",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lyf"
     },
-    "Lyf LS-4505": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flame 8",
-            "Device_Code_Name": "LS-4505",
-            "Device_Maker": "Lyf",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lyf"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Lyf LS-4505": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flame 8",
+      "Device_Code_Name": "LS-4505",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lyf"
+    },
+    "standard": false
+  }
 }

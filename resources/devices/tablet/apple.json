@@ -1,13 +1,13 @@
 {
-    "iPad": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iPad",
-            "Device_Code_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple"
-        },
-        "standard": true
-    }
+  "iPad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iPad",
+      "Device_Code_Name": "iPad",
+      "Device_Maker": "Apple Inc",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Apple"
+    },
+    "standard": true
+  }
 }

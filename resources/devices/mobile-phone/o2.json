@@ -1,112 +1,112 @@
 {
-    "O2 Xda 2mini": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xda 2 mini",
-            "Device_Code_Name": "Xda 2 mini",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+  "O2 Xda 2mini": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xda 2 mini",
+      "Device_Code_Name": "Xda 2 mini",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "O2 Xda 2s": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xda 2s",
-            "Device_Code_Name": "Xda 2s",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "O2 Xda 2s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xda 2s",
+      "Device_Code_Name": "Xda 2s",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "O2"
     },
-    "O2 Xda II": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xda II",
-            "Device_Code_Name": "Xda II",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "O2 Xda II": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xda II",
+      "Device_Code_Name": "Xda II",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "O2 Xda neo": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xda neo",
-            "Device_Code_Name": "Xda neo",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "O2 Xda neo": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xda neo",
+      "Device_Code_Name": "Xda neo",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "O2"
     },
-    "O2 Xphone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xphone",
-            "Device_Code_Name": "Xphone",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "O2 Xphone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xphone",
+      "Device_Code_Name": "Xphone",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "O2 Xphone II": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xphone II",
-            "Device_Code_Name": "Xphone II",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "O2 Xphone II": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xphone II",
+      "Device_Code_Name": "Xphone II",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "XDA Orbit": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XDA Orbit",
-            "Device_Code_Name": "XDA Orbit",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "XDA Orbit": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XDA Orbit",
+      "Device_Code_Name": "XDA Orbit",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "XDA Orbit2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XDA Orbit2",
-            "Device_Code_Name": "XDA Orbit2",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "XDA Orbit2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XDA Orbit2",
+      "Device_Code_Name": "XDA Orbit2",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "XDA Star": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XDA Star",
-            "Device_Code_Name": "XDA Star",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
+    "standard": false
+  },
+  "XDA Star": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XDA Star",
+      "Device_Code_Name": "XDA Star",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
     },
-    "XDA Stellar": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XDA Stellar",
-            "Device_Code_Name": "XDA Stellar",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "O2"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "XDA Stellar": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XDA Stellar",
+      "Device_Code_Name": "XDA Stellar",
+      "Device_Maker": "O2",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "O2"
+    },
+    "standard": false
+  }
 }

@@ -1,101 +1,101 @@
 {
-    "Sony SGP312": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet Z",
-            "Device_Code_Name": "SGP312",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+  "Sony SGP312": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet Z",
+      "Device_Code_Name": "SGP312",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGP321": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet Z LTE",
-            "Device_Code_Name": "SGP321",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGP321": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet Z LTE",
+      "Device_Code_Name": "SGP321",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGP511": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet Z2 WiFi",
-            "Device_Code_Name": "SGP511",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGP511": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet Z2 WiFi",
+      "Device_Code_Name": "SGP511",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGP512": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet Z WiFi",
-            "Device_Code_Name": "SGP512",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGP512": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet Z WiFi",
+      "Device_Code_Name": "SGP512",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGP521": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet Z2 LTE",
-            "Device_Code_Name": "SGP521",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGP521": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet Z2 LTE",
+      "Device_Code_Name": "SGP521",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGPT12": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet S",
-            "Device_Code_Name": "SGPT12",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGPT12": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet S",
+      "Device_Code_Name": "SGPT12",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony SGPT13": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Xperia Tablet S",
-            "Device_Code_Name": "SGPT13",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony SGPT13": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Tablet S",
+      "Device_Code_Name": "SGPT13",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony Tablet P": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tablet P",
-            "Device_Code_Name": "SGPT211",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Sony Tablet P": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tablet P",
+      "Device_Code_Name": "SGPT211",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
     },
-    "Sony Tablet S": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tablet S",
-            "Device_Code_Name": "Tablet S",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Sony Tablet S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tablet S",
+      "Device_Code_Name": "Tablet S",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  }
 }

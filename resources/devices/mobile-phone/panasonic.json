@@ -1,46 +1,46 @@
 {
-    "Panasonic Eluga Arc 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Eluga Arc 2",
-            "Device_Code_Name": "Arc 2",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": false
+  "Panasonic Eluga Arc 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga Arc 2",
+      "Device_Code_Name": "Arc 2",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
     },
-    "Panasonic G60": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G60",
-            "Device_Code_Name": "G60",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Panasonic G60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G60",
+      "Device_Code_Name": "G60",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
     },
-    "Panasonic VS3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "VS3",
-            "Device_Code_Name": "VS3",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Panasonic VS3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VS3",
+      "Device_Code_Name": "VS3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
     },
-    "Panasonic dL1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Eluga",
-            "Device_Code_Name": "dL1",
-            "Device_Maker": "Panasonic",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Panasonic"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Panasonic dL1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga",
+      "Device_Code_Name": "dL1",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  }
 }

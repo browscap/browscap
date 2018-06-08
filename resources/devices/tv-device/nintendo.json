@@ -1,24 +1,24 @@
 {
-    "Nintendo Wii": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Wii",
-            "Device_Code_Name": "Wii",
-            "Device_Maker": "Nintendo",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Nintendo"
-        },
-        "standard": true
+  "Nintendo Wii": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Wii",
+      "Device_Code_Name": "Wii",
+      "Device_Maker": "Nintendo",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Nintendo"
     },
-    "Nintendo WiiU": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "WiiU",
-            "Device_Code_Name": "WiiU",
-            "Device_Maker": "Nintendo",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Nintendo"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Nintendo WiiU": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "WiiU",
+      "Device_Code_Name": "WiiU",
+      "Device_Maker": "Nintendo",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Nintendo"
+    },
+    "standard": true
+  }
 }

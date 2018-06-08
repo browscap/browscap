@@ -1,13 +1,13 @@
 {
-    "Beeline Smart 3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Smart 3",
-            "Device_Code_Name": "Smart 3",
-            "Device_Maker": "Beeline",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Beeline"
-        },
-        "standard": false
-    }
+  "Beeline Smart 3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart 3",
+      "Device_Code_Name": "Smart 3",
+      "Device_Maker": "Beeline",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Beeline"
+    },
+    "standard": false
+  }
 }

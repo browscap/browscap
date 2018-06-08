@@ -7,9 +7,9 @@
     {
       "userAgent": "K-Ninja Generic",
       "browser": "k-ninja",
+      "platform": "Windows",
       "engine": "Gecko_1_8",
       "device": "Windows Desktop",
-      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "K-Ninja Generic"
@@ -19,9 +19,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* K-Ninja/*",
           "platforms": [
             "WinXPa_32",
+            "Win98_2", "Win98_3",
             "Windows",
-            "Win98_3",
-            "Win98_2", "Win98"
+            "Win98"
           ]
         }
       ]

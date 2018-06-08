@@ -1,13 +1,13 @@
 {
-    "Godacom C100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C100",
-            "Device_Code_Name": "C100",
-            "Device_Maker": "Godacom",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Godacom"
-        },
-        "standard": false
-    }
+  "Godacom C100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C100",
+      "Device_Code_Name": "C100",
+      "Device_Maker": "Godacom",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Godacom"
+    },
+    "standard": false
+  }
 }

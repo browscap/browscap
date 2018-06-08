@@ -1,24 +1,24 @@
 {
-    "iNew V3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3",
-            "Device_Code_Name": "V3",
-            "Device_Maker": "iNew",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iNew"
-        },
-        "standard": false
+  "iNew V3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3",
+      "Device_Code_Name": "V3",
+      "Device_Maker": "iNew",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iNew"
     },
-    "iNew i4000S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "i4000S",
-            "Device_Code_Name": "i4000S",
-            "Device_Maker": "iNew",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iNew"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "iNew i4000S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "i4000S",
+      "Device_Code_Name": "i4000S",
+      "Device_Maker": "iNew",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iNew"
+    },
+    "standard": false
+  }
 }

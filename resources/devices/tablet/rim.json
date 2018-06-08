@@ -1,13 +1,13 @@
 {
-    "Blackberry PlayBook": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "PlayBook",
-            "Device_Code_Name": "PlayBook",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "RIM"
-        },
-        "standard": true
-    }
+  "Blackberry PlayBook": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "PlayBook",
+      "Device_Code_Name": "PlayBook",
+      "Device_Maker": "Research In Motion Limited",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "RIM"
+    },
+    "standard": true
+  }
 }

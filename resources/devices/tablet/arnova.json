@@ -1,35 +1,35 @@
 {
-    "Arnova 101G4": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "101 G4",
-            "Device_Code_Name": "101 G4",
-            "Device_Maker": "Arnova",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Arnova"
-        },
-        "standard": true
+  "Arnova 101G4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "101 G4",
+      "Device_Code_Name": "101 G4",
+      "Device_Maker": "Arnova",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Arnova"
     },
-    "Arnova 9G2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "9 G2",
-            "Device_Code_Name": "9 G2",
-            "Device_Maker": "Arnova",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Arnova"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Arnova 9G2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "9 G2",
+      "Device_Code_Name": "9 G2",
+      "Device_Maker": "Arnova",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Arnova"
     },
-    "Arnova AN10BG3": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "10b G3",
-            "Device_Code_Name": "AN10BG3",
-            "Device_Maker": "Arnova",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Arnova"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Arnova AN10BG3": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "10b G3",
+      "Device_Code_Name": "AN10BG3",
+      "Device_Maker": "Arnova",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Arnova"
+    },
+    "standard": true
+  }
 }

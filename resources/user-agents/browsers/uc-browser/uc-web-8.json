@@ -299,9 +299,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
       "browser": "uc browser",
+      "platform": "SymbianOS",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
@@ -419,9 +419,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
       "browser": "uc browser",
+      "platform": "JAVA",
       "engine": "WebKit",
       "device": "general Mobile Phone",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
@@ -456,9 +456,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for RimOS",
       "browser": "uc browser",
+      "platform": "RIMOS",
       "engine": "U2",
       "device": "Blackberry Blackberry",
-      "platform": "RIMOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for RimOS",
@@ -491,9 +491,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Series40",
       "browser": "uc browser",
+      "platform": "Series40",
       "engine": "WebKit",
       "device": "general Mobile Phone (Nokia)",
-      "platform": "Series40",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Series40",
@@ -562,9 +562,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Asha",
       "browser": "uc browser",
+      "platform": "Asha",
       "engine": "WebKit",
       "device": "general Mobile Phone (Nokia)",
-      "platform": "Asha",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Asha",
@@ -594,9 +594,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
+      "platform": "WinPhone",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",

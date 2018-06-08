@@ -1,35 +1,35 @@
 {
-    "Samsung Series J (2015)": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Series J (2015)",
-            "Device_Code_Name": "Series J (2015)",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+  "Samsung Series J (2015)": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Series J (2015)",
+      "Device_Code_Name": "Series J (2015)",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Samsung"
     },
-    "Samsung Series J (2016)": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Series J (2016)",
-            "Device_Code_Name": "Series J (2016)",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Samsung Series J (2016)": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Series J (2016)",
+      "Device_Code_Name": "Series J (2016)",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Samsung"
     },
-    "Smart-TV": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Smart TV",
-            "Device_Code_Name": "Smart TV",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Samsung"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Smart-TV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Smart TV",
+      "Device_Code_Name": "Smart TV",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  }
 }

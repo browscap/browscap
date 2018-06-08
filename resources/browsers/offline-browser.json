@@ -1,92 +1,92 @@
 {
-    "backstreet browser": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "BackStreet Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+  "backstreet browser": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "BackStreet Browser",
+      "Browser_Maker": "unknown"
     },
-    "check&get": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "Check&Get",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "check&get": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "Check&Get",
+      "Browser_Maker": "unknown"
     },
-    "go ahead got-it": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "Go Ahead Got-It",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "go ahead got-it": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "Go Ahead Got-It",
+      "Browser_Maker": "unknown"
     },
-    "httrack": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "HTTrack",
-            "Browser_Maker": "Xavier Roche"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "httrack": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "HTTrack",
+      "Browser_Maker": "Xavier Roche"
     },
-    "ie offline browser": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "IE Offline Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "ie offline browser": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "IE Offline Browser",
+      "Browser_Maker": "unknown"
     },
-    "igetter": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "iGetter",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "igetter": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "iGetter",
+      "Browser_Maker": "unknown"
     },
-    "offline browsers": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "Offline Browsers",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "offline browsers": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "Offline Browsers",
+      "Browser_Maker": "unknown"
     },
-    "teleport": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "Teleport",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "teleport": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "Teleport",
+      "Browser_Maker": "unknown"
     },
-    "tweakmaster": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "TweakMASTER",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "tweakmaster": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "TweakMASTER",
+      "Browser_Maker": "unknown"
     },
-    "wget": {
-        "type": "offline-browser",
-        "properties": {
-            "Browser": "wget",
-            "Browser_Maker": "Free Software Foundation, Inc."
-        },
-        "lite": false,
-        "standard": true
-    }
+    "lite": false,
+    "standard": true
+  },
+  "wget": {
+    "type": "offline-browser",
+    "properties": {
+      "Browser": "wget",
+      "Browser_Maker": "Free Software Foundation, Inc."
+    },
+    "lite": false,
+    "standard": true
+  }
 }

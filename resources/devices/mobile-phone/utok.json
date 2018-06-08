@@ -1,13 +1,13 @@
 {
-    "Utok 350D": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "350D",
-            "Device_Code_Name": "350D",
-            "Device_Maker": "Utok",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Utok"
-        },
-        "standard": false
-    }
+  "Utok 350D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "350D",
+      "Device_Code_Name": "350D",
+      "Device_Maker": "Utok",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Utok"
+    },
+    "standard": false
+  }
 }

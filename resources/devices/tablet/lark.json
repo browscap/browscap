@@ -1,13 +1,13 @@
 {
-    "Lark Evolution X2 7 3G-GPS": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Evolution X2 7 3G-GPS",
-            "Device_Code_Name": "Evolution X2 7 3G-GPS",
-            "Device_Maker": "Lark",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lark"
-        },
-        "standard": true
-    }
+  "Lark Evolution X2 7 3G-GPS": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Evolution X2 7 3G-GPS",
+      "Device_Code_Name": "Evolution X2 7 3G-GPS",
+      "Device_Maker": "Lark",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lark"
+    },
+    "standard": true
+  }
 }

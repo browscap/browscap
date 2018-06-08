@@ -1,13 +1,13 @@
 {
-    "Pentagram Tab 7.6": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 7.6",
-            "Device_Code_Name": "Tab 7.6",
-            "Device_Maker": "Pentagram",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pentagram"
-        },
-        "standard": true
-    }
+  "Pentagram Tab 7.6": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 7.6",
+      "Device_Code_Name": "Tab 7.6",
+      "Device_Maker": "Pentagram",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Pentagram"
+    },
+    "standard": true
+  }
 }

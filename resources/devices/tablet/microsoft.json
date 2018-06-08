@@ -1,13 +1,13 @@
 {
-    "Microsoft Surface": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Surface",
-            "Device_Code_Name": "Surface",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": true
-    }
+  "Microsoft Surface": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Surface",
+      "Device_Code_Name": "Surface",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
+    },
+    "standard": true
+  }
 }

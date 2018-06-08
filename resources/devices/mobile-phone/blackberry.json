@@ -1,35 +1,35 @@
 {
-    "Blackberry KBD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "KBD",
-            "Device_Code_Name": "KBD",
-            "Device_Maker": "BlackBerry Limited",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry"
-        },
-        "standard": false
+  "Blackberry KBD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "KBD",
+      "Device_Code_Name": "KBD",
+      "Device_Maker": "BlackBerry Limited",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BlackBerry"
     },
-    "Blackberry STV100-1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Priv",
-            "Device_Code_Name": "STV100-1",
-            "Device_Maker": "BlackBerry Limited",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Blackberry STV100-1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Priv",
+      "Device_Code_Name": "STV100-1",
+      "Device_Maker": "BlackBerry Limited",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BlackBerry"
     },
-    "Blackberry Z10": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z10",
-            "Device_Code_Name": "Z10",
-            "Device_Maker": "BlackBerry Limited",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BlackBerry"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Blackberry Z10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z10",
+      "Device_Code_Name": "Z10",
+      "Device_Maker": "BlackBerry Limited",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BlackBerry"
+    },
+    "standard": false
+  }
 }

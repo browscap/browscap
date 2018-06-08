@@ -1,13 +1,13 @@
 {
-    "United MT6515M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Utime S23",
-            "Device_Code_Name": "MT6515M",
-            "Device_Maker": "United Time Technology Co., Ltd.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "United"
-        },
-        "standard": false
-    }
+  "United MT6515M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Utime S23",
+      "Device_Code_Name": "MT6515M",
+      "Device_Maker": "United Time Technology Co., Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "United"
+    },
+    "standard": false
+  }
 }

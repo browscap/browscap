@@ -1,24 +1,24 @@
 {
-    "M-way MD-948G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MD-948G",
-            "Device_Code_Name": "MD-948G",
-            "Device_Maker": "M-way",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "M-way"
-        },
-        "standard": true
+  "M-way MD-948G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MD-948G",
+      "Device_Code_Name": "MD-948G",
+      "Device_Maker": "M-way",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "M-way"
     },
-    "M-way MD027G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MD027G",
-            "Device_Code_Name": "MD027G",
-            "Device_Maker": "M-way",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "M-way"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "M-way MD027G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MD027G",
+      "Device_Code_Name": "MD027G",
+      "Device_Maker": "M-way",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "M-way"
+    },
+    "standard": true
+  }
 }

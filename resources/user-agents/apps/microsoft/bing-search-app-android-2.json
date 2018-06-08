@@ -1,48 +1,48 @@
 {
-    "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-    "versions": ["2.1", 2],
-    "sortIndex": 485,
-    "lite": false,
-    "standard": true,
-    "userAgents": [
+  "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["2.1", 2],
+  "sortIndex": 485,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+      "browser": "bing search app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
-            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-            "browser": "bing search app",
-            "engine": "WebKit",
-            "device": "general Mobile Phone (Touch)",
-            "platform": "Android",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-                "Version": "#MAJORVER#.#MINORVER#"
-            },
-            "children": [
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "devices": {
-                        "ADR6350": "HTC ADR6350"
-                    },
-                    "platforms": [
-                        "Android_2_3"
-                    ]
-                },
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "devices": {
-                        "VS910 4G": "LG VS910"
-                    },
-                    "platforms": [
-                        "Android_2_3"
-                    ]
-                },
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "Android_2_3",
-                        "Android"
-                    ]
-                }
-            ]
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "ADR6350": "HTC ADR6350"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "VS910 4G": "LG VS910"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_2_3",
+            "Android"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

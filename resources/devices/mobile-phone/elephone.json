@@ -1,13 +1,13 @@
 {
-    "Elephone P3000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P3000",
-            "Device_Code_Name": "P3000",
-            "Device_Maker": "Elephone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Elephone"
-        },
-        "standard": false
-    }
+  "Elephone P3000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P3000",
+      "Device_Code_Name": "P3000",
+      "Device_Maker": "Elephone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Elephone"
+    },
+    "standard": false
+  }
 }

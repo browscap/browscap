@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+
+  "definitions": {
+    "properties": {
+      "type": "object",
+      "properties": {
+        "Comment": {
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        },
+        "Browser_Modus": {
+          "type": "string"
+        },
+        "Alpha": {
+          "type": "boolean"
+        },
+        "Beta": {
+          "type": "boolean"
+        },
+        "isFake": {
+          "type": "boolean"
+        },
+        "isAnonymized": {
+          "type": "boolean"
+        },
+        "isModified": {
+          "type": "boolean"
+        }
+      }
+    },
+    "child": {
+      "allOf": [
+        {
+          "type": "object",
+          "properties": {
+            "match": {
+              "type": "string"
+            },
+            "browser": {
+              "type": "string"
+            }
+          },
+          "required": ["match"]
+        },
+        {
+          "anyOf": [
+            {
+              "properties": {
+                "devices": {
+                  "type": "object"
+                }
+              }
+            },
+            {
+              "properties": {
+                "device": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "platforms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "engine": {
+              "type": "string"
+            },
+            "properties": {
+              "$ref": "#/definitions/properties"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "type": "object",
+  "properties": {
+    "division": {
+      "type": "string"
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "sortIndex": {
+      "type": "integer"
+    },
+    "lite": {
+      "type": "boolean"
+    },
+    "standard": {
+      "type": "boolean"
+    },
+    "userAgents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "userAgent": {
+            "type": "string"
+          },
+          "browser": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "engine": {
+            "type": "string"
+          },
+          "device": {
+            "type": "string"
+          },
+          "properties": {
+            "allOf": [
+              {"properties": {
+                "Parent": {
+                  "type": { "enum": [ "DefaultProperties" ] }
+                }
+              }
+              },
+              {"$ref": "#/definitions/properties"},
+              {"required": [
+                "Parent","Comment"
+              ]}
+            ]
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/child"
+            }
+          }
+        },
+        "required": [
+          "userAgent"
+        ]
+      }
+    },
+    "required": [
+      "division",
+      "sortIndex",
+      "lite",
+      "standard",
+      "userAgents"
+    ]
+  }
+}

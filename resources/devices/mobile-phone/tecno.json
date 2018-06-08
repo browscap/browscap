@@ -1,35 +1,35 @@
 {
-    "Tecno H6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "H6",
-            "Device_Code_Name": "H6",
-            "Device_Maker": "Tecno",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno"
-        },
-        "standard": false
+  "Tecno H6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "H6",
+      "Device_Code_Name": "H6",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
     },
-    "Tecno M3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M3",
-            "Device_Code_Name": "M3",
-            "Device_Maker": "Tecno",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Tecno M3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M3",
+      "Device_Code_Name": "M3",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
     },
-    "Tecno P5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P5",
-            "Device_Code_Name": "P5",
-            "Device_Maker": "Tecno",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tecno"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Tecno P5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P5",
+      "Device_Code_Name": "P5",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  }
 }

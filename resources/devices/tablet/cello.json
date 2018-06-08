@@ -1,13 +1,13 @@
 {
-    "Cello T1144": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "T1144",
-            "Device_Code_Name": "T1144",
-            "Device_Maker": "Cello",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cello"
-        },
-        "standard": true
-    }
+  "Cello T1144": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "T1144",
+      "Device_Code_Name": "T1144",
+      "Device_Maker": "Cello",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cello"
+    },
+    "standard": true
+  }
 }

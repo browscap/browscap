@@ -1,13 +1,13 @@
 {
-    "China L925 l1020": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L925 l1020",
-            "Device_Code_Name": "L925 l1020",
-            "Device_Maker": "China Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "China Phone"
-        },
-        "standard": false
-    }
+  "China L925 l1020": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L925 l1020",
+      "Device_Code_Name": "L925 l1020",
+      "Device_Maker": "China Phone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "China Phone"
+    },
+    "standard": false
+  }
 }

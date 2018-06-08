@@ -1,13 +1,13 @@
 {
-    "Teclast D4C5": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "P80h",
-            "Device_Code_Name": "D4C5",
-            "Device_Maker": "Teclast",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Teclast"
-        },
-        "standard": true
-    }
+  "Teclast D4C5": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P80h",
+      "Device_Code_Name": "D4C5",
+      "Device_Maker": "Teclast",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Teclast"
+    },
+    "standard": true
+  }
 }

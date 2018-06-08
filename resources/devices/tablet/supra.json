@@ -1,35 +1,35 @@
 {
-    "Supra M121G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "M121G",
-            "Device_Code_Name": "M121G",
-            "Device_Maker": "Supra",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Supra"
-        },
-        "standard": true
+  "Supra M121G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M121G",
+      "Device_Code_Name": "M121G",
+      "Device_Maker": "Supra",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Supra"
     },
-    "Supra M723G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "M723G",
-            "Device_Code_Name": "M723G",
-            "Device_Maker": "Supra",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Supra"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Supra M723G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M723G",
+      "Device_Code_Name": "M723G",
+      "Device_Maker": "Supra",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Supra"
     },
-    "Supra M74CG": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "M74CG",
-            "Device_Code_Name": "M74CG",
-            "Device_Maker": "Supra",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Supra"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Supra M74CG": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M74CG",
+      "Device_Code_Name": "M74CG",
+      "Device_Maker": "Supra",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Supra"
+    },
+    "standard": true
+  }
 }

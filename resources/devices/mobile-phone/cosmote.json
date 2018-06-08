@@ -1,13 +1,13 @@
 {
-    "Cosmote Xplore": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xplore",
-            "Device_Code_Name": "Xplore",
-            "Device_Maker": "Cosmote",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cosmote"
-        },
-        "standard": false
-    }
+  "Cosmote Xplore": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xplore",
+      "Device_Code_Name": "Xplore",
+      "Device_Maker": "Cosmote",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cosmote"
+    },
+    "standard": false
+  }
 }

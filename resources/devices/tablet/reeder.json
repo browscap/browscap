@@ -1,13 +1,13 @@
 {
-    "Reeder A8R": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A8R",
-            "Device_Code_Name": "A8R",
-            "Device_Maker": "Reeder",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Reeder"
-        },
-        "standard": true
-    }
+  "Reeder A8R": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A8R",
+      "Device_Code_Name": "A8R",
+      "Device_Maker": "Reeder",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Reeder"
+    },
+    "standard": true
+  }
 }

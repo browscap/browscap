@@ -1,24 +1,24 @@
 {
-    "Tolino Tab 7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 7",
-            "Device_Code_Name": "Tab 7",
-            "Device_Maker": "TrekStor",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tolino"
-        },
-        "standard": true
+  "Tolino Tab 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 7",
+      "Device_Code_Name": "Tab 7",
+      "Device_Maker": "TrekStor",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tolino"
     },
-    "Tolino Tab 8.9": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 8.9",
-            "Device_Code_Name": "Tab 8.9",
-            "Device_Maker": "Tolino",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tolino"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Tolino Tab 8.9": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 8.9",
+      "Device_Code_Name": "Tab 8.9",
+      "Device_Maker": "Tolino",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tolino"
+    },
+    "standard": true
+  }
 }

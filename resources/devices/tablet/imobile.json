@@ -1,13 +1,13 @@
 {
-    "i-mobile i-Tab Fun": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "i-Tab Fun",
-            "Device_Code_Name": "i-Tab Fun",
-            "Device_Maker": "i-mobile",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "i-mobile"
-        },
-        "standard": true
-    }
+  "i-mobile i-Tab Fun": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "i-Tab Fun",
+      "Device_Code_Name": "i-Tab Fun",
+      "Device_Maker": "i-mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "i-mobile"
+    },
+    "standard": true
+  }
 }

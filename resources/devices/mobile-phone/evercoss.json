@@ -1,13 +1,13 @@
 {
-    "Evercoss A66A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Elevate Y",
-            "Device_Code_Name": "A66A",
-            "Device_Maker": "Evercoss",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Evercoss"
-        },
-        "standard": false
-    }
+  "Evercoss A66A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Elevate Y",
+      "Device_Code_Name": "A66A",
+      "Device_Maker": "Evercoss",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Evercoss"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "ViewSonic V350": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V350",
-            "Device_Code_Name": "V350",
-            "Device_Maker": "ViewSonic",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ViewSonic"
-        },
-        "standard": false
-    }
+  "ViewSonic V350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V350",
+      "Device_Code_Name": "V350",
+      "Device_Maker": "ViewSonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ViewSonic"
+    },
+    "standard": false
+  }
 }

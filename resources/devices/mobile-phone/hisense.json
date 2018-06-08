@@ -1,35 +1,35 @@
 {
-    "Hisense AD688G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C2S",
-            "Device_Code_Name": "AD688G",
-            "Device_Maker": "Hisense",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Smartfren Andromax"
-        },
-        "standard": false
+  "Hisense AD688G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C2S",
+      "Device_Code_Name": "AD688G",
+      "Device_Maker": "Hisense",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Smartfren Andromax"
     },
-    "Hisense HS-E912": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HS-E912",
-            "Device_Code_Name": "HS-E912",
-            "Device_Maker": "Hisense",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Hisense"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Hisense HS-E912": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HS-E912",
+      "Device_Code_Name": "HS-E912",
+      "Device_Maker": "Hisense",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Hisense"
     },
-    "Hisense HS-U98": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "HS-U98",
-            "Device_Code_Name": "HS-U98",
-            "Device_Maker": "Hisense",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Hisense"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Hisense HS-U98": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HS-U98",
+      "Device_Code_Name": "HS-U98",
+      "Device_Maker": "Hisense",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Hisense"
+    },
+    "standard": false
+  }
 }

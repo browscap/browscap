@@ -58,7 +58,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -71,7 +72,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 8.0 Compatibility Mode",
@@ -84,7 +86,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -97,7 +100,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -110,7 +114,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 10.0 Compatibility Mode",
@@ -124,7 +129,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -138,7 +144,8 @@
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 10.0 Compatibility Mode",
@@ -177,7 +184,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -192,7 +200,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -207,7 +216,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 8.0 Compatibility Mode",
@@ -222,7 +232,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 8.0 Compatibility Mode",
@@ -237,7 +248,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -252,7 +264,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -267,7 +280,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 10.0 Compatibility Mode",
@@ -321,7 +335,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -335,7 +350,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 7.0 Compatibility Mode",
@@ -349,7 +365,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 8.0 Compatibility Mode",
@@ -363,7 +380,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -377,7 +395,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 9.0 Compatibility Mode",
@@ -391,7 +410,8 @@
             "Win10_x64", "Win10_64", "Win10_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 11.0 in IE 10.0 Compatibility Mode",

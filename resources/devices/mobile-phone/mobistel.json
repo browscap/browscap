@@ -1,79 +1,79 @@
 {
-    "Mobistel Cynus E1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus E1",
-            "Device_Code_Name": "Cynus E1",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+  "Mobistel Cynus E1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus E1",
+      "Device_Code_Name": "Cynus E1",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel Cynus F3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus F3",
-            "Device_Code_Name": "Cynus F3",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Mobistel Cynus F3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus F3",
+      "Device_Code_Name": "Cynus F3",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel Cynus F5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus F5",
-            "Device_Code_Name": "Cynus F5",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Mobistel Cynus F5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus F5",
+      "Device_Code_Name": "Cynus F5",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel Cynus F9": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus F9",
-            "Device_Code_Name": "Cynus F9",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Mobistel Cynus F9": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus F9",
+      "Device_Code_Name": "Cynus F9",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel Cynus T1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus T1",
-            "Device_Code_Name": "Cynus T1",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Mobistel Cynus T1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus T1",
+      "Device_Code_Name": "Cynus T1",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel Cynus T5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus T5",
-            "Device_Code_Name": "Cynus T5",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Mobistel Cynus T5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus T5",
+      "Device_Code_Name": "Cynus T5",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
     },
-    "Mobistel MT-7521S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cynus F4",
-            "Device_Code_Name": "MT-7521S",
-            "Device_Maker": "Mobistel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Mobistel"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Mobistel MT-7521S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cynus F4",
+      "Device_Code_Name": "MT-7521S",
+      "Device_Maker": "Mobistel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobistel"
+    },
+    "standard": false
+  }
 }

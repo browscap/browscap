@@ -1,35 +1,35 @@
 {
-    "Microsoft Xbox 360": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Xbox 360",
-            "Device_Code_Name": "Xbox 360",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": true
+  "Microsoft Xbox 360": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Xbox 360",
+      "Device_Code_Name": "Xbox 360",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft Xbox One": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Xbox One",
-            "Device_Code_Name": "Xbox One",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Microsoft Xbox One": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Xbox One",
+      "Device_Code_Name": "Xbox One",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Microsoft"
     },
-    "WebTV": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "WebTV",
-            "Device_Code_Name": "WebTV",
-            "Device_Maker": "Microsoft",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "WebTV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "WebTV",
+      "Device_Code_Name": "WebTV",
+      "Device_Maker": "Microsoft",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Microsoft"
+    },
+    "standard": true
+  }
 }

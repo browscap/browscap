@@ -41,7 +41,8 @@
         {
           "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "platforms": [
-            "iOS_A_dynamic", "iOS_C_dynamic"
+            "iOS_A_dynamic",
+            "iOS_C_dynamic"
           ]
         }
       ]

@@ -1,13 +1,13 @@
 {
-    "WeTab": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "WeTab",
-            "Device_Code_Name": "WeTab",
-            "Device_Maker": "WeTab GmbH",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "WeTab"
-        },
-        "standard": true
-    }
+  "WeTab": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "WeTab",
+      "Device_Code_Name": "WeTab",
+      "Device_Maker": "WeTab GmbH",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "WeTab"
+    },
+    "standard": true
+  }
 }

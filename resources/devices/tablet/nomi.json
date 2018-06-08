@@ -1,24 +1,24 @@
 {
-    "Nomi A10100": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A10100",
-            "Device_Code_Name": "A10100",
-            "Device_Maker": "Nomi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Nomi"
-        },
-        "standard": true
+  "Nomi A10100": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A10100",
+      "Device_Code_Name": "A10100",
+      "Device_Maker": "Nomi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Nomi"
     },
-    "Nomi C07000": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "C07000",
-            "Device_Code_Name": "C07000",
-            "Device_Maker": "Nomi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Nomi"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Nomi C07000": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "C07000",
+      "Device_Code_Name": "C07000",
+      "Device_Maker": "Nomi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Nomi"
+    },
+    "standard": true
+  }
 }

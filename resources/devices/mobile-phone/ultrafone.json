@@ -1,13 +1,13 @@
 {
-    "ultrafone 303": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "303",
-            "Device_Code_Name": "303",
-            "Device_Maker": "ultrafone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ultrafone"
-        },
-        "standard": false
-    }
+  "ultrafone 303": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "303",
+      "Device_Code_Name": "303",
+      "Device_Maker": "ultrafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ultrafone"
+    },
+    "standard": false
+  }
 }

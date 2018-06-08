@@ -25,7 +25,8 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 8.0 in IE 7.0 Compatibility Mode",
@@ -72,7 +73,8 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 8.0 in IE 7.0 Compatibility Mode",
@@ -86,7 +88,8 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
-            "Windows", "Windows_64", "Windows_x64"
+            "Windows_x64", "Windows_64",
+            "Windows"
           ],
           "properties": {
             "Comment": "IE 8.0 in IE 7.0 Compatibility Mode",

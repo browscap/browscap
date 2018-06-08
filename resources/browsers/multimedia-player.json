@@ -1,677 +1,677 @@
 {
-    "77 wabc": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "77 WABC",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "alexa mediaplayer": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Alexa MediaPlayer",
-            "Browser_Maker": "Mark Miller"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "amarok": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Amarok",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "antennapod": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "AntennaPod",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "audioboom": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "AudioBoom",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "banshee media player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Banshee Media Player",
-            "Browser_Maker": "Novell"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "bashpodder": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "BashPodder",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "beyondpod": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "BeyondPod",
-            "Browser_Maker": "BeyondPod Team"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "bpod": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "bPod",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "clementine": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Clementine",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "custom": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Custom",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "doggcatcher": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "DoggCatcher",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "doppler": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Doppler",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "downcast": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Downcast",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "elmedia player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Elmedia Player",
-            "Browser_Maker": "Eltima Software"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "espn downloadmanager": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "ESPN DownloadManager",
-            "Browser_Maker": "ESPN Internet Ventures."
-        },
-        "lite": false,
-        "standard": true
-    },
-    "espn radio": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "ESPN Radio",
-            "Browser_Maker": "ESPN Internet Ventures."
-        },
-        "lite": false,
-        "standard": true
-    },
-    "exoplayerdemo": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "ExoPlayerDemo",
-            "Browser_Maker": "Mark Miller"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "fancymusic": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "FancyMusic",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "foobar2000": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "foobar2000",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "free-podcasts": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Free-Podcasts",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "goldenpod": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "GoldenPod",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "gpodder": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "gPodder",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "ipodder": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "iPodder",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "jpodder": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "jPodder",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "juice": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Juice",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "kinoma": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Kinoma",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "knbr 680": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "KNBR 680",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "kodi media center": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Kodi Media Center",
-            "Browser_Maker": "XBMC Foundation"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "mark levin show": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Mark Levin Show",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "media players": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Media Players",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "mediago": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "MediaGo",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "mediamonkey": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "MediaMonkey",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "microsoft netshow": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Microsoft NetShow",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "miro": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Miro",
-            "Browser_Maker": "Participatory Culture Foundation"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "musicdownloader": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "MusicDownloader",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "overcast": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Overcast",
-            "Browser_Maker": "Overcast Radio, LLC"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "pandora": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Pandora",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "peapod": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Peapod",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "philpodder": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "philpodder",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Player",
-            "Browser_Maker": "LG"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "player fm": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Player FM",
-            "Browser_Maker": "Nuvomondo Ltd"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "pocket casts": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Pocket Casts",
-            "Browser_Maker": "Shifty Jelly"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "pockettunes": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "PocketTunes",
-            "Browser_Maker": "NormSoft Inc."
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podcastaddict": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "PodcastAddict",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podcastone": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "PodcastOne",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podcasts": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Podcasts",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podcruncher": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "PodCruncher",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podkicker": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Podkicker",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podkicker classic": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Podkicker Classic",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podkicker pro": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Podkicker Pro",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podracer": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "podracer",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "podwrangler": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "PodWrangler",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "quicknews": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "QuickNews",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "quicktime": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "QuickTime",
-            "Browser_Maker": "Apple Inc"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "radio": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Radio",
-            "Browser_Maker": "Mark Miller"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "realplayer": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "RealPlayer",
-            "Browser_Maker": "Real Networks"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "replay": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Replay",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "rma": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "RMA",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "roku dvp": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Roku DVP",
-            "Browser_Maker": "Roku, Inc."
-        },
-        "lite": false,
-        "standard": true
-    },
-    "rssradio": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "RSSRadio",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "skykid": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Skykid",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "sports talk 1050": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Sports Talk 1050",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "spotify": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Spotify",
-            "Browser_Maker": "Spotify AB"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "stagefright": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "stagefright",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "stitcher": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Stitcher",
-            "Browser_Maker": "Deezer"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "streaming player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Streaming Player",
-            "Browser_Maker": "HTC"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "the dan patrick show": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "The Dan Patrick Show",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "toppodcasts": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "TopPodcasts",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "vlc media player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "vobsub": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "vobsub",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "vox music player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "VOX Music Player",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "winamp": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "WinAmp",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "windows media player": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Windows Media Player",
-            "Browser_Maker": "Microsoft Corporation"
-        },
-        "lite": false,
-        "standard": true
-    },
-    "zune": {
-        "type": "multimedia-player",
-        "properties": {
-            "Browser": "Zune",
-            "Browser_Maker": "Microsoft Corporation"
-        },
-        "lite": false,
-        "standard": true
-    }
+  "77 wabc": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "77 WABC",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "alexa mediaplayer": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Alexa MediaPlayer",
+      "Browser_Maker": "Mark Miller"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "amarok": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Amarok",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "antennapod": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "AntennaPod",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "audioboom": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "AudioBoom",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "banshee media player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Banshee Media Player",
+      "Browser_Maker": "Novell"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bashpodder": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "BashPodder",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "beyondpod": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "BeyondPod",
+      "Browser_Maker": "BeyondPod Team"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bpod": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "bPod",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "clementine": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Clementine",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "custom": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Custom",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "doggcatcher": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "DoggCatcher",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "doppler": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Doppler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "downcast": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Downcast",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "elmedia player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Elmedia Player",
+      "Browser_Maker": "Eltima Software"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "espn downloadmanager": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "ESPN DownloadManager",
+      "Browser_Maker": "ESPN Internet Ventures."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "espn radio": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "ESPN Radio",
+      "Browser_Maker": "ESPN Internet Ventures."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "exoplayerdemo": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "ExoPlayerDemo",
+      "Browser_Maker": "Mark Miller"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "fancymusic": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "FancyMusic",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "foobar2000": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "foobar2000",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "free-podcasts": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Free-Podcasts",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "goldenpod": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "GoldenPod",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "gpodder": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "gPodder",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ipodder": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "iPodder",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "jpodder": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "jPodder",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "juice": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Juice",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "kinoma": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Kinoma",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "knbr 680": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "KNBR 680",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "kodi media center": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Kodi Media Center",
+      "Browser_Maker": "XBMC Foundation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "mark levin show": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Mark Levin Show",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "media players": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Media Players",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "mediago": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "MediaGo",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "mediamonkey": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "MediaMonkey",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "microsoft netshow": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Microsoft NetShow",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "miro": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Miro",
+      "Browser_Maker": "Participatory Culture Foundation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "musicdownloader": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "MusicDownloader",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "overcast": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Overcast",
+      "Browser_Maker": "Overcast Radio, LLC"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pandora": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Pandora",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "peapod": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Peapod",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "philpodder": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "philpodder",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Player",
+      "Browser_Maker": "LG"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "player fm": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Player FM",
+      "Browser_Maker": "Nuvomondo Ltd"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pocket casts": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Pocket Casts",
+      "Browser_Maker": "Shifty Jelly"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pockettunes": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "PocketTunes",
+      "Browser_Maker": "NormSoft Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podcastaddict": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "PodcastAddict",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podcastone": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "PodcastOne",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podcasts": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Podcasts",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podcruncher": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "PodCruncher",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podkicker": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Podkicker",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podkicker classic": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Podkicker Classic",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podkicker pro": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Podkicker Pro",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podracer": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "podracer",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "podwrangler": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "PodWrangler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "quicknews": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "QuickNews",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "quicktime": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "QuickTime",
+      "Browser_Maker": "Apple Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "radio": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Radio",
+      "Browser_Maker": "Mark Miller"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "realplayer": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "RealPlayer",
+      "Browser_Maker": "Real Networks"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "replay": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Replay",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "rma": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "RMA",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "roku dvp": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Roku DVP",
+      "Browser_Maker": "Roku, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "rssradio": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "RSSRadio",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "skykid": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Skykid",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "sports talk 1050": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Sports Talk 1050",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "spotify": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Spotify",
+      "Browser_Maker": "Spotify AB"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "stagefright": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "stagefright",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "stitcher": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Stitcher",
+      "Browser_Maker": "Deezer"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "streaming player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Streaming Player",
+      "Browser_Maker": "HTC"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "the dan patrick show": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "The Dan Patrick Show",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "toppodcasts": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "TopPodcasts",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "vlc media player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "VLC Media Player",
+      "Browser_Maker": "VideoLAN non-profit organization"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "vobsub": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "vobsub",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "vox music player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "VOX Music Player",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "winamp": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "WinAmp",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "windows media player": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Windows Media Player",
+      "Browser_Maker": "Microsoft Corporation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "zune": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Zune",
+      "Browser_Maker": "Microsoft Corporation"
+    },
+    "lite": false,
+    "standard": true
+  }
 }

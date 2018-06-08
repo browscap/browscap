@@ -1,255 +1,255 @@
 {
-    "Fly IQ430": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Evoke",
-            "Device_Code_Name": "IQ430",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+  "Fly IQ430": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Evoke",
+      "Device_Code_Name": "IQ430",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ434": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Era Nano 5",
-            "Device_Code_Name": "IQ434",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ434": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Era Nano 5",
+      "Device_Code_Name": "IQ434",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ436i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Era Nano 9",
-            "Device_Code_Name": "IQ436i",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ436i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Era Nano 9",
+      "Device_Code_Name": "IQ436i",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ440": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Energie",
-            "Device_Code_Name": "IQ440",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ440": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Energie",
+      "Device_Code_Name": "IQ440",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4403": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4403",
-            "Device_Code_Name": "IQ4403",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4403": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4403",
+      "Device_Code_Name": "IQ4403",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4404": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4404",
-            "Device_Code_Name": "IQ4404",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4404": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4404",
+      "Device_Code_Name": "IQ4404",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4406": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ERA Nano 6",
-            "Device_Code_Name": "IQ4406",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4406": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ERA Nano 6",
+      "Device_Code_Name": "IQ4406",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4409 Quad": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ERA Life 4",
-            "Device_Code_Name": "IQ4409 Quad",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4409 Quad": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ERA Life 4",
+      "Device_Code_Name": "IQ4409 Quad",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4410": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4410 Quad Phoenix",
-            "Device_Code_Name": "IQ4410 Quad Phoenix",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4410": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4410 Quad Phoenix",
+      "Device_Code_Name": "IQ4410 Quad Phoenix",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4410i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4410i Quad Phoenix 2",
-            "Device_Code_Name": "IQ4410i",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4410i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4410i Quad Phoenix 2",
+      "Device_Code_Name": "IQ4410i",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4411": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4411 Quad Energie2",
-            "Device_Code_Name": "IQ4411 Quad Energie2",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4411": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4411 Quad Energie2",
+      "Device_Code_Name": "IQ4411 Quad Energie2",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4414": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EVO Tech 3 Quad",
-            "Device_Code_Name": "IQ4414",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4414": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EVO Tech 3 Quad",
+      "Device_Code_Name": "IQ4414",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4415": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IQ4415 Quad ERA Style 3",
-            "Device_Code_Name": "IQ4415",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4415": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IQ4415 Quad ERA Style 3",
+      "Device_Code_Name": "IQ4415",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ442": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Miracle",
-            "Device_Code_Name": "IQ442",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ442": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Miracle",
+      "Device_Code_Name": "IQ442",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ444": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Diamond 2 Quattro",
-            "Device_Code_Name": "IQ444",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ444": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Diamond 2 Quattro",
+      "Device_Code_Name": "IQ444",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ448": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Chic",
-            "Device_Code_Name": "IQ448",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ448": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Chic",
+      "Device_Code_Name": "IQ448",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ449": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pronto",
-            "Device_Code_Name": "IQ449",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ449": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pronto",
+      "Device_Code_Name": "IQ449",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4490": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ERA Nano 4",
-            "Device_Code_Name": "IQ4490",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4490": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ERA Nano 4",
+      "Device_Code_Name": "IQ4490",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ450": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Quattro Horizon 2",
-            "Device_Code_Name": "IQ450",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ450": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Quattro Horizon 2",
+      "Device_Code_Name": "IQ450",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ4504": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Quad EVO Energy 5",
-            "Device_Code_Name": "IQ4504",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ4504": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Quad EVO Energy 5",
+      "Device_Code_Name": "IQ4504",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ452": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EGO",
-            "Device_Code_Name": "IQ452",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ452": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EGO",
+      "Device_Code_Name": "IQ452",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ453": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Luminor",
-            "Device_Code_Name": "IQ453",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Fly IQ453": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Luminor",
+      "Device_Code_Name": "IQ453",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
     },
-    "Fly IQ456": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ERA Life 2",
-            "Device_Code_Name": "IQ456",
-            "Device_Maker": "Fly",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fly"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Fly IQ456": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ERA Life 2",
+      "Device_Code_Name": "IQ456",
+      "Device_Maker": "Fly",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fly"
+    },
+    "standard": false
+  }
 }

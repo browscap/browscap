@@ -1,13 +1,13 @@
 {
-    "Pegatron Chagall": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Chagall",
-            "Device_Code_Name": "Chagall",
-            "Device_Maker": "Pegatron",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Pegatron"
-        },
-        "standard": false
-    }
+  "Pegatron Chagall": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Chagall",
+      "Device_Code_Name": "Chagall",
+      "Device_Maker": "Pegatron",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Pegatron"
+    },
+    "standard": false
+  }
 }

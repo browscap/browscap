@@ -1,13 +1,13 @@
 {
-    "Blackview JK809": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "JK809",
-            "Device_Code_Name": "JK809",
-            "Device_Maker": "Blackview",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Blackview"
-        },
-        "standard": false
-    }
+  "Blackview JK809": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "JK809",
+      "Device_Code_Name": "JK809",
+      "Device_Maker": "Blackview",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Blackview"
+    },
+    "standard": false
+  }
 }

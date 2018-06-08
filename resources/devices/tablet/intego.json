@@ -1,13 +1,13 @@
 {
-    "Intego PX-0905": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "PX-0905",
-            "Device_Code_Name": "PX-0905",
-            "Device_Maker": "Intego",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Intego"
-        },
-        "standard": true
-    }
+  "Intego PX-0905": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "PX-0905",
+      "Device_Code_Name": "PX-0905",
+      "Device_Maker": "Intego",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intego"
+    },
+    "standard": true
+  }
 }

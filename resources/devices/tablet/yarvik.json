@@ -1,13 +1,13 @@
 {
-    "Yarvik TAB10-400": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Noble 10c",
-            "Device_Code_Name": "TAB10-400",
-            "Device_Maker": "Yarvik",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Yarvik"
-        },
-        "standard": true
-    }
+  "Yarvik TAB10-400": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Noble 10c",
+      "Device_Code_Name": "TAB10-400",
+      "Device_Maker": "Yarvik",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Yarvik"
+    },
+    "standard": true
+  }
 }

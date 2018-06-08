@@ -8,9 +8,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "browser": "opera mobile",
+      "platform": "WinMobile",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
-      "platform": "WinMobile",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",

@@ -1,24 +1,24 @@
 {
-    "Philips HTB5570D": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "HTB5570D",
-            "Device_Code_Name": "HTB5570D",
-            "Device_Maker": "Philips",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Philips"
-        },
-        "standard": false
+  "Philips HTB5570D": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "HTB5570D",
+      "Device_Code_Name": "HTB5570D",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
     },
-    "Philips MT5580": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "TV Device",
-            "Device_Code_Name": "TV Device",
-            "Device_Maker": "Philips",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Philips"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Philips MT5580": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV Device",
+      "Device_Code_Name": "TV Device",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": false
+  }
 }
