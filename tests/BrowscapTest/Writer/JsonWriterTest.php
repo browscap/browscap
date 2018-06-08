@@ -34,7 +34,7 @@ class JsonWriterTest extends TestCase
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.json';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.json';
 
         $logger = $this->createMock(Logger::class);
 

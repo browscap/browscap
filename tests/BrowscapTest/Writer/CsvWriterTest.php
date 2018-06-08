@@ -33,7 +33,7 @@ class CsvWriterTest extends TestCase
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.csv';
 
         $logger = $this->createMock(Logger::class);
 

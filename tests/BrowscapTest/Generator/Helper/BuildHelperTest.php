@@ -47,7 +47,7 @@ class BuildHelperTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-                ->getMock();
+            ->getMock();
 
         $writerCollection->expects(self::once())
             ->method('fileStart')
@@ -545,7 +545,7 @@ class BuildHelperTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-                ->getMock();
+            ->getMock();
 
         $writerCollection->expects(self::once())
             ->method('fileStart')

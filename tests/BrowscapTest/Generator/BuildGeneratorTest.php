@@ -276,7 +276,7 @@ class BuildGeneratorTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-                ->getMock();
+            ->getMock();
 
         $writerCollection
             ->expects(self::once())
@@ -524,7 +524,7 @@ class BuildGeneratorTest extends TestCase
                     'renderSectionBody',
                     'fileEnd',
                 ])
-                ->getMock();
+            ->getMock();
 
         $writerCollection
             ->expects(self::once())
