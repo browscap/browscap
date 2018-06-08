@@ -37,7 +37,7 @@
     "monolog/monolog": "^1.23",
     "beberlei/assert": "^2.8",
     "seld/jsonlint": "^1.6",
-    "mimmi20/ua-browser-type": "^6.0.1",
+    "mimmi20/ua-browser-type": "^6.0.2",
     "mimmi20/ua-device-type": "^6.0.0",
     "localheinz/json-normalizer": "^0.5.2"
   },

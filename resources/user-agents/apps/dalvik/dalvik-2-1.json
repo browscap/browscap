@@ -68,6 +68,15 @@
           ]
         },
         {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SM-J105F": "Samsung SM-J105F"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_8_1", "Android_8_0",
