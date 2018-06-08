@@ -35,7 +35,7 @@ class IniWriterTest extends TestCase
     public function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.ini';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.ini';
 
         $logger = $this->createMock(Logger::class);
 

@@ -35,7 +35,7 @@ class WriterCollectionTest extends TestCase
     public function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.csv';
 
         $this->object = new WriterCollection();
     }
