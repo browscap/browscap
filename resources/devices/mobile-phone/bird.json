@@ -1,57 +1,57 @@
 {
-    "BIRD D220": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D220",
-            "Device_Code_Name": "D220",
-            "Device_Maker": "BIRD",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BIRD"
-        },
-        "standard": false
+  "BIRD D220": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D220",
+      "Device_Code_Name": "D220",
+      "Device_Maker": "BIRD",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BIRD"
     },
-    "BIRD D660": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D660",
-            "Device_Code_Name": "D660",
-            "Device_Maker": "BIRD",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BIRD"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BIRD D660": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D660",
+      "Device_Code_Name": "D660",
+      "Device_Maker": "BIRD",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BIRD"
     },
-    "BIRD D670": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D670",
-            "Device_Code_Name": "D670",
-            "Device_Maker": "BIRD",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BIRD"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BIRD D670": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D670",
+      "Device_Code_Name": "D670",
+      "Device_Maker": "BIRD",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BIRD"
     },
-    "BIRD D716": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D716",
-            "Device_Code_Name": "D716",
-            "Device_Maker": "BIRD",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BIRD"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BIRD D716": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D716",
+      "Device_Code_Name": "D716",
+      "Device_Maker": "BIRD",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BIRD"
     },
-    "BIRD S580": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S580",
-            "Device_Code_Name": "S580",
-            "Device_Maker": "BIRD",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BIRD"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "BIRD S580": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S580",
+      "Device_Code_Name": "S580",
+      "Device_Maker": "BIRD",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BIRD"
+    },
+    "standard": false
+  }
 }

@@ -41,12 +41,12 @@
             "BeOS",
             "SunOS",
             "OS2",
+            "Unix",
             "AIX",
             "Tru64_Unix",
             "Solaris",
             "Darwin",
-            "RISC_OS",
-            "Unix"
+            "RISC_OS"
           ]
         },
         {
@@ -75,12 +75,12 @@
             "BeOS",
             "SunOS",
             "OS2",
+            "Unix",
             "AIX",
             "Tru64_Unix",
             "Solaris",
             "Darwin",
-            "RISC_OS",
-            "Unix"
+            "RISC_OS"
           ]
         },
         {

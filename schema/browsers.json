@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string"
+      },
+      "properties": {
+        "type": "object",
+        "properties": {
+          "Browser": {
+            "type": "string"
+          },
+          "Browser_Maker": {
+            "type": "string"
+          },
+          "JavaApplets": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "Browser",
+          "Browser_Maker"
+        ]
+      },
+      "lite": {
+        "type": "boolean"
+      },
+      "standard": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "type",
+      "properties",
+      "lite",
+      "standard"
+    ]
+  }
+}

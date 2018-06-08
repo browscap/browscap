@@ -1,11 +1,11 @@
 {
-    "gvfs": {
-        "type": "tool",
-        "properties": {
-            "Browser": "gvfs",
-            "Browser_Maker": "The GNOME Project"
-        },
-        "lite": false,
-        "standard": true
-    }
+  "gvfs": {
+    "type": "tool",
+    "properties": {
+      "Browser": "gvfs",
+      "Browser_Maker": "The GNOME Project"
+    },
+    "lite": false,
+    "standard": true
+  }
 }

@@ -1,2400 +1,2400 @@
 {
-    "Motorola 120": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "120",
-            "Device_Code_Name": "120",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola 122": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "122",
-            "Device_Code_Name": "122",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola 280": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "280",
-            "Device_Code_Name": "280",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola 76": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "76",
-            "Device_Code_Name": "76",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A-0A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A-0A",
-            "Device_Code_Name": "A-0A",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A-1F": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A-1F",
-            "Device_Code_Name": "A-1F",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A-2B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A-2B",
-            "Device_Code_Name": "A-2B",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A-88": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A-88",
-            "Device_Code_Name": "A-88",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A1000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A1000",
-            "Device_Code_Name": "A1000",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A1200": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A1200",
-            "Device_Code_Name": "A1200",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A3100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A3100",
-            "Device_Code_Name": "A3100",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A630": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A630",
-            "Device_Code_Name": "A630",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A668": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A668",
-            "Device_Code_Name": "A668",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A728": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A728",
-            "Device_Code_Name": "A728",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A732": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A732",
-            "Device_Code_Name": "A732",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A760": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A760",
-            "Device_Code_Name": "A760",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A760i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A760i",
-            "Device_Code_Name": "A760i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A768": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A768",
-            "Device_Code_Name": "A768",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A768i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A768i",
-            "Device_Code_Name": "A768i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A780": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A780",
-            "Device_Code_Name": "A780",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A820": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A820",
-            "Device_Code_Name": "A820",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A835": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A835",
-            "Device_Code_Name": "A835",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A845": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A845",
-            "Device_Code_Name": "A845",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola A953": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Milestone 2",
-            "Device_Code_Name": "A953",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola AF": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AF",
-            "Device_Code_Name": "AF",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C168": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C168",
-            "Device_Code_Name": "C168",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C168i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C168i",
-            "Device_Code_Name": "C168i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C350": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C350",
-            "Device_Code_Name": "C350",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C350M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C350M",
-            "Device_Code_Name": "C350M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C350V": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C350V",
-            "Device_Code_Name": "C350V",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C380": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C380",
-            "Device_Code_Name": "C380",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C381": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C381",
-            "Device_Code_Name": "C381",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C381p": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C381p",
-            "Device_Code_Name": "C381p",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C385": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C385",
-            "Device_Code_Name": "C385",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C390": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C390",
-            "Device_Code_Name": "C390",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C4",
-            "Device_Code_Name": "C4",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C450": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C450",
-            "Device_Code_Name": "C450",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C550": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C550",
-            "Device_Code_Name": "C550",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C650": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C650",
-            "Device_Code_Name": "C650",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C975": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C975",
-            "Device_Code_Name": "C975",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola C980": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C980",
-            "Device_Code_Name": "C980",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Canary": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Canary",
-            "Device_Code_Name": "Canary",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola D5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D5",
-            "Device_Code_Name": "D5",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Droid": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid",
-            "Device_Code_Name": "Droid",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Droid X2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid X2",
-            "Device_Code_Name": "Droid X2",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola DroidX": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DroidX",
-            "Device_Code_Name": "DroidX",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E1 iTunes": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E1 iTunes",
-            "Device_Code_Name": "E1 iTunes",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E1000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E1000",
-            "Device_Code_Name": "E1000",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E1000M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E1000M",
-            "Device_Code_Name": "E1000M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E1070": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E1070",
-            "Device_Code_Name": "E1070",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E365": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E365",
-            "Device_Code_Name": "E365",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E375": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E375",
-            "Device_Code_Name": "E375",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E380": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E380",
-            "Device_Code_Name": "E380",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E398": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E398",
-            "Device_Code_Name": "E398",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E398B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E398B",
-            "Device_Code_Name": "E398B",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E550": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E550",
-            "Device_Code_Name": "E550",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E680": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E680",
-            "Device_Code_Name": "E680",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E680i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E680i",
-            "Device_Code_Name": "E680i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E690": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E690",
-            "Device_Code_Name": "E690",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E770": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E770",
-            "Device_Code_Name": "E770",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E770v": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E770v",
-            "Device_Code_Name": "E770v",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E790": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E790",
-            "Device_Code_Name": "E790",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E8": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E8",
-            "Device_Code_Name": "E8",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola E825": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E825",
-            "Device_Code_Name": "E825",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola ED": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ED",
-            "Device_Code_Name": "ED",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola EF": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EF",
-            "Device_Code_Name": "EF",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola EX112": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "EX112",
-            "Device_Code_Name": "EX112",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola F5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "F5",
-            "Device_Code_Name": "F5",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola F6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "F6",
-            "Device_Code_Name": "F6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola FE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "FE",
-            "Device_Code_Name": "FE",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola G3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G3",
-            "Device_Code_Name": "G3",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola G4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G4",
-            "Device_Code_Name": "G4",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola K1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "IdeaPad K1",
-            "Device_Code_Name": "K1",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola K1v": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K1v",
-            "Device_Code_Name": "K1v",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola KLGO": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "KLGO",
-            "Device_Code_Name": "KLGO",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola KLGO iTunes": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "KLGO iTunes",
-            "Device_Code_Name": "KLGO iTunes",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L2",
-            "Device_Code_Name": "L2",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L6",
-            "Device_Code_Name": "L6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L6i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L6i",
-            "Device_Code_Name": "L6i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L7",
-            "Device_Code_Name": "L7",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L7i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L7i",
-            "Device_Code_Name": "L7i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola L7v": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "L7v",
-            "Device_Code_Name": "L7v",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola M1000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M1000",
-            "Device_Code_Name": "M1000",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB200": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Cliq/Dext",
-            "Device_Code_Name": "MB200",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Backflip",
-            "Device_Code_Name": "MB300",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB508": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flipside",
-            "Device_Code_Name": "MB508",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB511": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Flipout",
-            "Device_Code_Name": "MB511",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB525": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DEFY",
-            "Device_Code_Name": "MB525",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB526": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MB526",
-            "Device_Code_Name": "MB526",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB612": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XPRT (CDMA)",
-            "Device_Code_Name": "MB612",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB632": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pro+",
-            "Device_Code_Name": "MB632",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB855": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Photon 4G",
-            "Device_Code_Name": "MB855",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MB860": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Atrix",
-            "Device_Code_Name": "MB860",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MCCB": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MCCB",
-            "Device_Code_Name": "MCCB",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MPx": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MPx",
-            "Device_Code_Name": "MPx",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MPx220": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MPx220",
-            "Device_Code_Name": "MPx220",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MPx230": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MPx230",
-            "Device_Code_Name": "MPx230",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Milestone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Milestone",
-            "Device_Code_Name": "Milestone",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola MotoroiX": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MotoroiX",
-            "Device_Code_Name": "MotoroiX",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Nexus 6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Nexus 6",
-            "Device_Code_Name": "Nexus 6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Google"
-        },
-        "standard": false
-    },
-    "Motorola PAN4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "PAN4",
-            "Device_Code_Name": "PAN4",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola PEBL U6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "PEBL U6",
-            "Device_Code_Name": "PEBL U6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Q9c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Q9c",
-            "Device_Code_Name": "Q9c",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola RAZRV3x": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZRV3x",
-            "Device_Code_Name": "RAZRV3x",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola RAZRV3xv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZRV3xv",
-            "Device_Code_Name": "RAZRV3xv",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola RAZRV3xxR": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZRV3xxR",
-            "Device_Code_Name": "RAZRV3xxR",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola RAZRV9x": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZRV9x",
-            "Device_Code_Name": "RAZRV9x",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola ROKR E1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ROKR E1",
-            "Device_Code_Name": "ROKR E1",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola ROKR E6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ROKR E6",
-            "Device_Code_Name": "ROKR E6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Razr": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Razr",
-            "Device_Code_Name": "Razr",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola SAP4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SAP4",
-            "Device_Code_Name": "SAP4",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola SAP4A": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SAP4A",
-            "Device_Code_Name": "SAP4A",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola T33": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T33",
-            "Device_Code_Name": "T33",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola T720": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T720",
-            "Device_Code_Name": "T720",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola T720M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T720M",
-            "Device_Code_Name": "T720M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola TA02": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TA02",
-            "Device_Code_Name": "TA02",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola U15": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U15",
-            "Device_Code_Name": "U15",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Unx": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Unx",
-            "Device_Code_Name": "Unx",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V1050": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V1050",
-            "Device_Code_Name": "V1050",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V150": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V150",
-            "Device_Code_Name": "V150",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V180": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V180",
-            "Device_Code_Name": "V180",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V180ENS": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V180ENS",
-            "Device_Code_Name": "V180ENS",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V185": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V185",
-            "Device_Code_Name": "V185",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V186": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V186",
-            "Device_Code_Name": "V186",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V188": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V188",
-            "Device_Code_Name": "V188",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V190": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V190",
-            "Device_Code_Name": "V190",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V191": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V191",
-            "Device_Code_Name": "V191",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V220": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V220",
-            "Device_Code_Name": "V220",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V220ENS": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V220ENS",
-            "Device_Code_Name": "V220ENS",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V235": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V235",
-            "Device_Code_Name": "V235",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V270": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V270",
-            "Device_Code_Name": "V270",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V280": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V280",
-            "Device_Code_Name": "V280",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3",
-            "Device_Code_Name": "V3",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V300",
-            "Device_Code_Name": "V300",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V303": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V303",
-            "Device_Code_Name": "V303",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V360": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V360",
-            "Device_Code_Name": "V360",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V360v": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V360v",
-            "Device_Code_Name": "V360v",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V361": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V361",
-            "Device_Code_Name": "V361",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V365": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V365",
-            "Device_Code_Name": "V365",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3e": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3e",
-            "Device_Code_Name": "V3e",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3i",
-            "Device_Code_Name": "V3i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3ire": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3ire",
-            "Device_Code_Name": "V3ire",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3r": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3r",
-            "Device_Code_Name": "V3r",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V3re": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V3re",
-            "Device_Code_Name": "V3re",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V400": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V400",
-            "Device_Code_Name": "V400",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V500",
-            "Device_Code_Name": "V500",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V505": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V505",
-            "Device_Code_Name": "V505",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V525M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V525M",
-            "Device_Code_Name": "V525M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V535": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V535",
-            "Device_Code_Name": "V535",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V545": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V545",
-            "Device_Code_Name": "V545",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V547": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V547",
-            "Device_Code_Name": "V547",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V550": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V550",
-            "Device_Code_Name": "V550",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V551": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V551",
-            "Device_Code_Name": "V551",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V551J": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V551J",
-            "Device_Code_Name": "V551J",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V555": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V555",
-            "Device_Code_Name": "V555",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V557": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V557",
-            "Device_Code_Name": "V557",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V557p": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V557p",
-            "Device_Code_Name": "V557p",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V6": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V6",
-            "Device_Code_Name": "V6",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V600",
-            "Device_Code_Name": "V600",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V600i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V600i",
-            "Device_Code_Name": "V600i",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V60M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V60M",
-            "Device_Code_Name": "V60M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V620": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V620",
-            "Device_Code_Name": "V620",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V635": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V635",
-            "Device_Code_Name": "V635",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V66M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V66M",
-            "Device_Code_Name": "V66M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V690": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V690",
-            "Device_Code_Name": "V690",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V730": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V730",
-            "Device_Code_Name": "V730",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V8": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V8",
-            "Device_Code_Name": "V8",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V80": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V80",
-            "Device_Code_Name": "V80",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V860": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V860",
-            "Device_Code_Name": "V860",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V868": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V868",
-            "Device_Code_Name": "V868",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V878": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V878",
-            "Device_Code_Name": "V878",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V975": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V975",
-            "Device_Code_Name": "V975",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V980": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V980",
-            "Device_Code_Name": "V980",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola V980M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V980M",
-            "Device_Code_Name": "V980M",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola VE538": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "VE538",
-            "Device_Code_Name": "VE538",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola W220": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W220",
-            "Device_Code_Name": "W220",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola W490": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W490",
-            "Device_Code_Name": "W490",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola WX445": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Citrus",
-            "Device_Code_Name": "WX445",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1019": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto E",
-            "Device_Code_Name": "XT1019",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1021": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto E",
-            "Device_Code_Name": "XT1021",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1030": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Mini",
-            "Device_Code_Name": "XT1030",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1032": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G",
-            "Device_Code_Name": "XT1032",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1033": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G",
-            "Device_Code_Name": "XT1033",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1045": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G LTE",
-            "Device_Code_Name": "XT1045",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1052": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X",
-            "Device_Code_Name": "XT1052",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1058": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X",
-            "Device_Code_Name": "XT1058",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1064": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G 2nd Gen",
-            "Device_Code_Name": "XT1064",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1068": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto G 2nd Gen",
-            "Device_Code_Name": "XT1068",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1080": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Ultra",
-            "Device_Code_Name": "XT1080",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1094": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X 2nd Gen",
-            "Device_Code_Name": "XT1094",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1096": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X 2nd Gen (Verizon)",
-            "Device_Code_Name": "XT1096",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1097": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X 2nd Gen (AT&T)",
-            "Device_Code_Name": "XT1097",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1254": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DROID Turbo XLTE",
-            "Device_Code_Name": "XT1254",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1524": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto E2 (4G LTE)",
-            "Device_Code_Name": "XT1524",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1565": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Maxx 2 LTE",
-            "Device_Code_Name": "XT1565",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1575": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto X Pure Edition",
-            "Device_Code_Name": "XT1575",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1585": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Turbo 2",
-            "Device_Code_Name": "XT1585",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1635-01": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto Z Play Droid",
-            "Device_Code_Name": "XT1635-01",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1635-02": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto Z Play Dual",
-            "Device_Code_Name": "XT1635-02",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT1650": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Moto Z",
-            "Device_Code_Name": "XT1650",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT320": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Defy Mini",
-            "Device_Code_Name": "XT320",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT535": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Defy",
-            "Device_Code_Name": "XT535",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT610": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Pro",
-            "Device_Code_Name": "XT610",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT615": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Motoluxe",
-            "Device_Code_Name": "XT615",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT701": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XT701",
-            "Device_Code_Name": "XT701",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT702": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "XT702",
-            "Device_Code_Name": "XT702",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT720": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Milestone XT720",
-            "Device_Code_Name": "XT720",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT875": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Bionic 4G LTE",
-            "Device_Code_Name": "XT875",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT890": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZR i",
-            "Device_Code_Name": "XT890",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT907": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "DROID RAZR M 4G LTE",
-            "Device_Code_Name": "XT907",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT910": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "RAZR XT910 Spider",
-            "Device_Code_Name": "XT910",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT912B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Razr 4G",
-            "Device_Code_Name": "XT912B",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT923": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Razr HD",
-            "Device_Code_Name": "XT923",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT925": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Razr HD LTE",
-            "Device_Code_Name": "XT925",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola XT926": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Droid Razr HD (Verizon)",
-            "Device_Code_Name": "XT926",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola Z3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z3",
-            "Device_Code_Name": "Z3",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola ZN5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ZN5",
-            "Device_Code_Name": "ZN5",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    },
-    "Motorola ic902": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ic902",
-            "Device_Code_Name": "ic902",
-            "Device_Maker": "Motorola",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Motorola"
-        },
-        "standard": false
-    }
+  "Motorola 120": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "120",
+      "Device_Code_Name": "120",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola 122": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "122",
+      "Device_Code_Name": "122",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola 280": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "280",
+      "Device_Code_Name": "280",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola 76": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "76",
+      "Device_Code_Name": "76",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A-0A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A-0A",
+      "Device_Code_Name": "A-0A",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A-1F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A-1F",
+      "Device_Code_Name": "A-1F",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A-2B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A-2B",
+      "Device_Code_Name": "A-2B",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A-88": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A-88",
+      "Device_Code_Name": "A-88",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A1000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A1000",
+      "Device_Code_Name": "A1000",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A1200": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A1200",
+      "Device_Code_Name": "A1200",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A3100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A3100",
+      "Device_Code_Name": "A3100",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A630": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A630",
+      "Device_Code_Name": "A630",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A668": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A668",
+      "Device_Code_Name": "A668",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A728": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A728",
+      "Device_Code_Name": "A728",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A732": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A732",
+      "Device_Code_Name": "A732",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A760": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A760",
+      "Device_Code_Name": "A760",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A760i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A760i",
+      "Device_Code_Name": "A760i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A768": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A768",
+      "Device_Code_Name": "A768",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A768i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A768i",
+      "Device_Code_Name": "A768i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A780": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A780",
+      "Device_Code_Name": "A780",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A820": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A820",
+      "Device_Code_Name": "A820",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A835": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A835",
+      "Device_Code_Name": "A835",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A845": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A845",
+      "Device_Code_Name": "A845",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola A953": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Milestone 2",
+      "Device_Code_Name": "A953",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola AF": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AF",
+      "Device_Code_Name": "AF",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C168": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C168",
+      "Device_Code_Name": "C168",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C168i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C168i",
+      "Device_Code_Name": "C168i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C350",
+      "Device_Code_Name": "C350",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C350M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C350M",
+      "Device_Code_Name": "C350M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C350V": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C350V",
+      "Device_Code_Name": "C350V",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C380": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C380",
+      "Device_Code_Name": "C380",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C381": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C381",
+      "Device_Code_Name": "C381",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C381p": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C381p",
+      "Device_Code_Name": "C381p",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C385": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C385",
+      "Device_Code_Name": "C385",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C390": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C390",
+      "Device_Code_Name": "C390",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C4",
+      "Device_Code_Name": "C4",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C450": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C450",
+      "Device_Code_Name": "C450",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C550",
+      "Device_Code_Name": "C550",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C650": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C650",
+      "Device_Code_Name": "C650",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C975": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C975",
+      "Device_Code_Name": "C975",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola C980": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C980",
+      "Device_Code_Name": "C980",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Canary": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Canary",
+      "Device_Code_Name": "Canary",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola D5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D5",
+      "Device_Code_Name": "D5",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Droid": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid",
+      "Device_Code_Name": "Droid",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Droid X2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid X2",
+      "Device_Code_Name": "Droid X2",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola DroidX": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DroidX",
+      "Device_Code_Name": "DroidX",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E1 iTunes": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E1 iTunes",
+      "Device_Code_Name": "E1 iTunes",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E1000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E1000",
+      "Device_Code_Name": "E1000",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E1000M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E1000M",
+      "Device_Code_Name": "E1000M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E1070": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E1070",
+      "Device_Code_Name": "E1070",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E365": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E365",
+      "Device_Code_Name": "E365",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E375": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E375",
+      "Device_Code_Name": "E375",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E380": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E380",
+      "Device_Code_Name": "E380",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E398": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E398",
+      "Device_Code_Name": "E398",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E398B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E398B",
+      "Device_Code_Name": "E398B",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E550",
+      "Device_Code_Name": "E550",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E680": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E680",
+      "Device_Code_Name": "E680",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E680i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E680i",
+      "Device_Code_Name": "E680i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E690": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E690",
+      "Device_Code_Name": "E690",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E770": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E770",
+      "Device_Code_Name": "E770",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E770v": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E770v",
+      "Device_Code_Name": "E770v",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E790": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E790",
+      "Device_Code_Name": "E790",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E8": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E8",
+      "Device_Code_Name": "E8",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola E825": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E825",
+      "Device_Code_Name": "E825",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola ED": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ED",
+      "Device_Code_Name": "ED",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola EF": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EF",
+      "Device_Code_Name": "EF",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola EX112": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "EX112",
+      "Device_Code_Name": "EX112",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola F5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F5",
+      "Device_Code_Name": "F5",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola F6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F6",
+      "Device_Code_Name": "F6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola FE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "FE",
+      "Device_Code_Name": "FE",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola G3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G3",
+      "Device_Code_Name": "G3",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola G4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G4",
+      "Device_Code_Name": "G4",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola K1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IdeaPad K1",
+      "Device_Code_Name": "K1",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola K1v": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K1v",
+      "Device_Code_Name": "K1v",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola KLGO": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "KLGO",
+      "Device_Code_Name": "KLGO",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola KLGO iTunes": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "KLGO iTunes",
+      "Device_Code_Name": "KLGO iTunes",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L2",
+      "Device_Code_Name": "L2",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L6",
+      "Device_Code_Name": "L6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L6i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L6i",
+      "Device_Code_Name": "L6i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L7",
+      "Device_Code_Name": "L7",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L7i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L7i",
+      "Device_Code_Name": "L7i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola L7v": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "L7v",
+      "Device_Code_Name": "L7v",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola M1000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M1000",
+      "Device_Code_Name": "M1000",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB200": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cliq/Dext",
+      "Device_Code_Name": "MB200",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Backflip",
+      "Device_Code_Name": "MB300",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB508": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flipside",
+      "Device_Code_Name": "MB508",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB511": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flipout",
+      "Device_Code_Name": "MB511",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB525": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DEFY",
+      "Device_Code_Name": "MB525",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB526": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MB526",
+      "Device_Code_Name": "MB526",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB612": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XPRT (CDMA)",
+      "Device_Code_Name": "MB612",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB632": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pro+",
+      "Device_Code_Name": "MB632",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB855": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Photon 4G",
+      "Device_Code_Name": "MB855",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MB860": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Atrix",
+      "Device_Code_Name": "MB860",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MCCB": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MCCB",
+      "Device_Code_Name": "MCCB",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MPx": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MPx",
+      "Device_Code_Name": "MPx",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MPx220": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MPx220",
+      "Device_Code_Name": "MPx220",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MPx230": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MPx230",
+      "Device_Code_Name": "MPx230",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Milestone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Milestone",
+      "Device_Code_Name": "Milestone",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola MotoroiX": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MotoroiX",
+      "Device_Code_Name": "MotoroiX",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Nexus 6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Nexus 6",
+      "Device_Code_Name": "Nexus 6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
+  "Motorola PAN4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "PAN4",
+      "Device_Code_Name": "PAN4",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola PEBL U6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "PEBL U6",
+      "Device_Code_Name": "PEBL U6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Q9c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Q9c",
+      "Device_Code_Name": "Q9c",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola RAZRV3x": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZRV3x",
+      "Device_Code_Name": "RAZRV3x",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola RAZRV3xv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZRV3xv",
+      "Device_Code_Name": "RAZRV3xv",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola RAZRV3xxR": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZRV3xxR",
+      "Device_Code_Name": "RAZRV3xxR",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola RAZRV9x": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZRV9x",
+      "Device_Code_Name": "RAZRV9x",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola ROKR E1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ROKR E1",
+      "Device_Code_Name": "ROKR E1",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola ROKR E6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ROKR E6",
+      "Device_Code_Name": "ROKR E6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Razr": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Razr",
+      "Device_Code_Name": "Razr",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola SAP4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SAP4",
+      "Device_Code_Name": "SAP4",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola SAP4A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SAP4A",
+      "Device_Code_Name": "SAP4A",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola T33": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T33",
+      "Device_Code_Name": "T33",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola T720": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T720",
+      "Device_Code_Name": "T720",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola T720M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T720M",
+      "Device_Code_Name": "T720M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola TA02": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TA02",
+      "Device_Code_Name": "TA02",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola U15": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U15",
+      "Device_Code_Name": "U15",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Unx": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Unx",
+      "Device_Code_Name": "Unx",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V1050": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V1050",
+      "Device_Code_Name": "V1050",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V150": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V150",
+      "Device_Code_Name": "V150",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V180": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V180",
+      "Device_Code_Name": "V180",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V180ENS": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V180ENS",
+      "Device_Code_Name": "V180ENS",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V185": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V185",
+      "Device_Code_Name": "V185",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V186": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V186",
+      "Device_Code_Name": "V186",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V188": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V188",
+      "Device_Code_Name": "V188",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V190": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V190",
+      "Device_Code_Name": "V190",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V191": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V191",
+      "Device_Code_Name": "V191",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V220": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V220",
+      "Device_Code_Name": "V220",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V220ENS": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V220ENS",
+      "Device_Code_Name": "V220ENS",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V235": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V235",
+      "Device_Code_Name": "V235",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V270": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V270",
+      "Device_Code_Name": "V270",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V280": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V280",
+      "Device_Code_Name": "V280",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3",
+      "Device_Code_Name": "V3",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V300",
+      "Device_Code_Name": "V300",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V303": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V303",
+      "Device_Code_Name": "V303",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V360": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V360",
+      "Device_Code_Name": "V360",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V360v": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V360v",
+      "Device_Code_Name": "V360v",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V361": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V361",
+      "Device_Code_Name": "V361",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V365": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V365",
+      "Device_Code_Name": "V365",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3e": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3e",
+      "Device_Code_Name": "V3e",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3i",
+      "Device_Code_Name": "V3i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3ire": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3ire",
+      "Device_Code_Name": "V3ire",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3r": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3r",
+      "Device_Code_Name": "V3r",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V3re": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V3re",
+      "Device_Code_Name": "V3re",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V400",
+      "Device_Code_Name": "V400",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V500",
+      "Device_Code_Name": "V500",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V505": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V505",
+      "Device_Code_Name": "V505",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V525M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V525M",
+      "Device_Code_Name": "V525M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V535": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V535",
+      "Device_Code_Name": "V535",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V545": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V545",
+      "Device_Code_Name": "V545",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V547": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V547",
+      "Device_Code_Name": "V547",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V550",
+      "Device_Code_Name": "V550",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V551": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V551",
+      "Device_Code_Name": "V551",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V551J": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V551J",
+      "Device_Code_Name": "V551J",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V555": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V555",
+      "Device_Code_Name": "V555",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V557": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V557",
+      "Device_Code_Name": "V557",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V557p": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V557p",
+      "Device_Code_Name": "V557p",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V6",
+      "Device_Code_Name": "V6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V600",
+      "Device_Code_Name": "V600",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V600i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V600i",
+      "Device_Code_Name": "V600i",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V60M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V60M",
+      "Device_Code_Name": "V60M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V620": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V620",
+      "Device_Code_Name": "V620",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V635": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V635",
+      "Device_Code_Name": "V635",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V66M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V66M",
+      "Device_Code_Name": "V66M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V690": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V690",
+      "Device_Code_Name": "V690",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V730": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V730",
+      "Device_Code_Name": "V730",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V8": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V8",
+      "Device_Code_Name": "V8",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V80": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V80",
+      "Device_Code_Name": "V80",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V860": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V860",
+      "Device_Code_Name": "V860",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V868": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V868",
+      "Device_Code_Name": "V868",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V878": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V878",
+      "Device_Code_Name": "V878",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V975": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V975",
+      "Device_Code_Name": "V975",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V980": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V980",
+      "Device_Code_Name": "V980",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola V980M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V980M",
+      "Device_Code_Name": "V980M",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola VE538": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VE538",
+      "Device_Code_Name": "VE538",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola W220": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W220",
+      "Device_Code_Name": "W220",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola W490": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W490",
+      "Device_Code_Name": "W490",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola WX445": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Citrus",
+      "Device_Code_Name": "WX445",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1019": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E",
+      "Device_Code_Name": "XT1019",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1021": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E",
+      "Device_Code_Name": "XT1021",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1030": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Mini",
+      "Device_Code_Name": "XT1030",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1032": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G",
+      "Device_Code_Name": "XT1032",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1033": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G",
+      "Device_Code_Name": "XT1033",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1045": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G LTE",
+      "Device_Code_Name": "XT1045",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1052": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X",
+      "Device_Code_Name": "XT1052",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1058": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X",
+      "Device_Code_Name": "XT1058",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1064": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G 2nd Gen",
+      "Device_Code_Name": "XT1064",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1068": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G 2nd Gen",
+      "Device_Code_Name": "XT1068",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1080": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Ultra",
+      "Device_Code_Name": "XT1080",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1094": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X 2nd Gen",
+      "Device_Code_Name": "XT1094",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1096": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X 2nd Gen (Verizon)",
+      "Device_Code_Name": "XT1096",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1097": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X 2nd Gen (AT&T)",
+      "Device_Code_Name": "XT1097",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1254": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DROID Turbo XLTE",
+      "Device_Code_Name": "XT1254",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1524": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E2 (4G LTE)",
+      "Device_Code_Name": "XT1524",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1565": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Maxx 2 LTE",
+      "Device_Code_Name": "XT1565",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1575": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto X Pure Edition",
+      "Device_Code_Name": "XT1575",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1585": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Turbo 2",
+      "Device_Code_Name": "XT1585",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1635-01": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto Z Play Droid",
+      "Device_Code_Name": "XT1635-01",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1635-02": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto Z Play Dual",
+      "Device_Code_Name": "XT1635-02",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1650": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto Z",
+      "Device_Code_Name": "XT1650",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT320": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Defy Mini",
+      "Device_Code_Name": "XT320",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT535": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Defy",
+      "Device_Code_Name": "XT535",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT610": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Pro",
+      "Device_Code_Name": "XT610",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT615": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Motoluxe",
+      "Device_Code_Name": "XT615",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT701": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XT701",
+      "Device_Code_Name": "XT701",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT702": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XT702",
+      "Device_Code_Name": "XT702",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT720": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Milestone XT720",
+      "Device_Code_Name": "XT720",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT875": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Bionic 4G LTE",
+      "Device_Code_Name": "XT875",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT890": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZR i",
+      "Device_Code_Name": "XT890",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT907": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "DROID RAZR M 4G LTE",
+      "Device_Code_Name": "XT907",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT910": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RAZR XT910 Spider",
+      "Device_Code_Name": "XT910",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT912B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Razr 4G",
+      "Device_Code_Name": "XT912B",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT923": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Razr HD",
+      "Device_Code_Name": "XT923",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT925": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Razr HD LTE",
+      "Device_Code_Name": "XT925",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT926": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Droid Razr HD (Verizon)",
+      "Device_Code_Name": "XT926",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Z3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z3",
+      "Device_Code_Name": "Z3",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola ZN5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZN5",
+      "Device_Code_Name": "ZN5",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola ic902": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ic902",
+      "Device_Code_Name": "ic902",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  }
 }

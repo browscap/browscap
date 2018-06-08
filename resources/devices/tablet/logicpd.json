@@ -1,13 +1,13 @@
 {
-    "LogicPD Zoom2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Zoom2",
-            "Device_Code_Name": "Zoom2",
-            "Device_Maker": "LogicPD",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "LogicPD"
-        },
-        "standard": true
-    }
+  "LogicPD Zoom2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Zoom2",
+      "Device_Code_Name": "Zoom2",
+      "Device_Maker": "LogicPD",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LogicPD"
+    },
+    "standard": true
+  }
 }

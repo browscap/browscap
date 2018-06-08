@@ -603,9 +603,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
       "browser": "uc browser",
+      "platform": "WinPhone",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "WinPhone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
@@ -624,9 +624,9 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
       "browser": "uc browser",
+      "platform": "SymbianOS",
       "engine": "U2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",

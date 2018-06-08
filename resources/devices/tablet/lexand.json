@@ -1,24 +1,24 @@
 {
-    "Lexand A1002": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A1002",
-            "Device_Code_Name": "A1002",
-            "Device_Maker": "Lexand",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lexand"
-        },
-        "standard": true
+  "Lexand A1002": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A1002",
+      "Device_Code_Name": "A1002",
+      "Device_Maker": "Lexand",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lexand"
     },
-    "Lexand A811": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A811",
-            "Device_Code_Name": "A811",
-            "Device_Maker": "Lexand",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lexand"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Lexand A811": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A811",
+      "Device_Code_Name": "A811",
+      "Device_Maker": "Lexand",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lexand"
+    },
+    "standard": true
+  }
 }

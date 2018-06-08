@@ -1,35 +1,35 @@
 {
-    "sprd B51+": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "B51+",
-            "Device_Code_Name": "B51+",
-            "Device_Maker": "sprd",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "sprd"
-        },
-        "standard": false
+  "sprd B51+": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "B51+",
+      "Device_Code_Name": "B51+",
+      "Device_Maker": "sprd",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "sprd"
     },
-    "sprd GT-A7100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GT-A7100",
-            "Device_Code_Name": "GT-A7100",
-            "Device_Maker": "sprd",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "sprd"
-        },
-        "standard": false
+    "standard": false
+  },
+  "sprd GT-A7100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GT-A7100",
+      "Device_Code_Name": "GT-A7100",
+      "Device_Maker": "sprd",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "sprd"
     },
-    "sprd SPHS On HSDroid": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "SPHS On HSDroid",
-            "Device_Code_Name": "SPHS On HSDroid",
-            "Device_Maker": "sprd",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "sprd"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "sprd SPHS On HSDroid": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "SPHS On HSDroid",
+      "Device_Code_Name": "SPHS On HSDroid",
+      "Device_Maker": "sprd",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "sprd"
+    },
+    "standard": false
+  }
 }

@@ -30,18 +30,19 @@
   ],
   "require": {
     "php": "^7.1",
-    "beberlei/assert": "^2.8",
+    "beberlei/assert": "^2.9",
     "localheinz/json-normalizer": "^0.5.2",
     "mimmi20/ua-browser-type": "^6.0.2",
     "mimmi20/ua-device-type": "^6.0.0",
     "monolog/monolog": "^1.23",
     "seld/jsonlint": "^1.6",
     "symfony/console": "^3.3 || ^4.0",
+    "symfony/finder": "^3.3 || ^4.0",
     "twig/twig": "^2.4"
   },
   "require-dev": {
     "browscap/browscap-php": "^3.1.0",
-    "friendsofphp/php-cs-fixer": "^2.10",
+    "friendsofphp/php-cs-fixer": "^2.11",
     "localheinz/composer-normalize": "^0.6.0",
     "mikey179/vfsStream": "^1.6",
     "phpstan/phpstan": "^0.9",

@@ -1,13 +1,13 @@
 {
-    "Beeline Tab": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab",
-            "Device_Code_Name": "Tab",
-            "Device_Maker": "Beeline",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Beeline"
-        },
-        "standard": true
-    }
+  "Beeline Tab": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab",
+      "Device_Code_Name": "Tab",
+      "Device_Maker": "Beeline",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Beeline"
+    },
+    "standard": true
+  }
 }

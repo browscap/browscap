@@ -1,167 +1,167 @@
 {
-    "Microsoft Lumia 435": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 435",
-            "Device_Code_Name": "Lumia 435",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+  "Microsoft Lumia 435": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 435",
+      "Device_Code_Name": "Lumia 435",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft Lumia 435 Dual SIM": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 435 Dual SIM",
-            "Device_Code_Name": "Lumia 435 Dual SIM",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft Lumia 435 Dual SIM": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 435 Dual SIM",
+      "Device_Code_Name": "Lumia 435 Dual SIM",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft Lumia 650": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 650",
-            "Device_Code_Name": "Lumia 650",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft Lumia 650": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 650",
+      "Device_Code_Name": "Lumia 650",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft Lumia 950 XL Dual SIM": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 950 XL Dual SIM",
-            "Device_Code_Name": "Lumia 950 XL Dual SIM",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft Lumia 950 XL Dual SIM": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 950 XL Dual SIM",
+      "Device_Code_Name": "Lumia 950 XL Dual SIM",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1031": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 532",
-            "Device_Code_Name": "RM-1031",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1031": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 532",
+      "Device_Code_Name": "RM-1031",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1067": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 640 XL",
-            "Device_Code_Name": "RM-1067",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1067": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 640 XL",
+      "Device_Code_Name": "RM-1067",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1067 Dual SIM": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 640 XL Dual SIM",
-            "Device_Code_Name": "RM-1067 Dual SIM",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1067 Dual SIM": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 640 XL Dual SIM",
+      "Device_Code_Name": "RM-1067 Dual SIM",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1074": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 640 XL",
-            "Device_Code_Name": "RM-1074",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1074": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 640 XL",
+      "Device_Code_Name": "RM-1074",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1075": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 640 Dual SIM LTE",
-            "Device_Code_Name": "RM-1075",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1075": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 640 Dual SIM LTE",
+      "Device_Code_Name": "RM-1075",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1089": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 535",
-            "Device_Code_Name": "RM-1089",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1089": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 535",
+      "Device_Code_Name": "RM-1089",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1090": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 535 Dual SIM",
-            "Device_Code_Name": "RM-1090",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1090": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 535 Dual SIM",
+      "Device_Code_Name": "RM-1090",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1104": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 950 LTE",
-            "Device_Code_Name": "RM-1104",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1104": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 950 LTE",
+      "Device_Code_Name": "RM-1104",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1113": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 640 LTE",
-            "Device_Code_Name": "RM-1113",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1113": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 640 LTE",
+      "Device_Code_Name": "RM-1113",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1118": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 950 Dual SIM LTE",
-            "Device_Code_Name": "RM-1118",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Microsoft RM-1118": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 950 Dual SIM LTE",
+      "Device_Code_Name": "RM-1118",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
     },
-    "Microsoft RM-1141": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lumia 540 Dual SIM",
-            "Device_Code_Name": "RM-1141",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Microsoft RM-1141": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 540 Dual SIM",
+      "Device_Code_Name": "RM-1141",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
+    },
+    "standard": false
+  }
 }

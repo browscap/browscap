@@ -12,5 +12,27 @@ class Browscap extends Application
 
         $this->add(new Command\BuildCommand());
         $this->add(new Command\CheckDuplicateTestsCommand());
+
+        $this->add(new Command\RewriteBrowsersCommand());
+        $this->add(new Command\ValidateBrowsersCommand());
+
+        $this->add(new Command\RewriteDevicesCommand());
+        $this->add(new Command\ValidateDevicesCommand());
+
+        $this->add(new Command\RewriteEnginesCommand());
+        $this->add(new Command\ValidateEnginesCommand());
+
+        $this->add(new Command\RewritePlatformsCommand());
+        $this->add(new Command\ValidatePlatformsCommand());
+
+        $this->add(new Command\RewriteCoreDivisionsCommand());
+        $this->add(new Command\ValidateCoreDivisionsCommand());
+
+        $this->add(new Command\RewriteDivisionsCommand());
+        $this->add(new Command\ValidateDivisionsCommand());
+
+        $this->add(new Command\ValidateCommand());
+
+        $this->add(new Command\RewriteTestFixturesCommand());
     }
 }

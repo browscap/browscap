@@ -1,57 +1,57 @@
 {
-    "Star GT9000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "H5W",
-            "Device_Code_Name": "GT9000",
-            "Device_Maker": "Star",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Star"
-        },
-        "standard": false
+  "Star GT9000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "H5W",
+      "Device_Code_Name": "GT9000",
+      "Device_Maker": "Star",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Star"
     },
-    "Star N3+": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Note 3 Super Slim",
-            "Device_Code_Name": "N3+",
-            "Device_Maker": "Star",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Star"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Star N3+": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 3 Super Slim",
+      "Device_Code_Name": "N3+",
+      "Device_Maker": "Star",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Star"
     },
-    "Star N8000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Note 3",
-            "Device_Code_Name": "N8000",
-            "Device_Maker": "Star",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Star"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Star N8000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 3",
+      "Device_Code_Name": "N8000",
+      "Device_Maker": "Star",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Star"
     },
-    "Star N9500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "N9500",
-            "Device_Code_Name": "N9500",
-            "Device_Maker": "Star",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Star"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Star N9500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "N9500",
+      "Device_Code_Name": "N9500",
+      "Device_Maker": "Star",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Star"
     },
-    "Star PLAY Style": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "PLAY Style",
-            "Device_Code_Name": "PLAY Style",
-            "Device_Maker": "Star",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Star"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Star PLAY Style": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "PLAY Style",
+      "Device_Code_Name": "PLAY Style",
+      "Device_Maker": "Star",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Star"
+    },
+    "standard": false
+  }
 }

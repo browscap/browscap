@@ -1,79 +1,79 @@
 {
-    "TeXet TM-3204R": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TM-3204R",
-            "Device_Code_Name": "TM-3204R",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+  "TeXet TM-3204R": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TM-3204R",
+      "Device_Code_Name": "TM-3204R",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-4077": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X-point",
-            "Device_Code_Name": "TM-4077",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+    "standard": false
+  },
+  "TeXet TM-4077": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X-point",
+      "Device_Code_Name": "TM-4077",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-4377": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TM-4377",
-            "Device_Code_Name": "TM-4377",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+    "standard": false
+  },
+  "TeXet TM-4377": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TM-4377",
+      "Device_Code_Name": "TM-4377",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-4672": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X-navi",
-            "Device_Code_Name": "TM-4672",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+    "standard": false
+  },
+  "TeXet TM-4672": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X-navi",
+      "Device_Code_Name": "TM-4672",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-4872": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X-Medium Plus",
-            "Device_Code_Name": "TM-4872",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+    "standard": false
+  },
+  "TeXet TM-4872": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X-Medium Plus",
+      "Device_Code_Name": "TM-4872",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-5204": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TM-5204",
-            "Device_Code_Name": "TM-5204",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
+    "standard": false
+  },
+  "TeXet TM-5204": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TM-5204",
+      "Device_Code_Name": "TM-5204",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
     },
-    "TeXet TM-5377": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "TM-5377",
-            "Device_Code_Name": "TM-5377",
-            "Device_Maker": "TeXet",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TeXet"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "TeXet TM-5377": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "TM-5377",
+      "Device_Code_Name": "TM-5377",
+      "Device_Maker": "TeXet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TeXet"
+    },
+    "standard": false
+  }
 }

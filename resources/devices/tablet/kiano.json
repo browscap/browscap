@@ -1,35 +1,35 @@
 {
-    "Kiano Elegance": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Elegance",
-            "Device_Code_Name": "Elegance",
-            "Device_Maker": "Kiano",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kiano"
-        },
-        "standard": true
+  "Kiano Elegance": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Elegance",
+      "Device_Code_Name": "Elegance",
+      "Device_Maker": "Kiano",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kiano"
     },
-    "Kiano Elegance 8 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Elegance 8 3G",
-            "Device_Code_Name": "Elegance 8 3G",
-            "Device_Maker": "Kiano",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kiano"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Kiano Elegance 8 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Elegance 8 3G",
+      "Device_Code_Name": "Elegance 8 3G",
+      "Device_Maker": "Kiano",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kiano"
     },
-    "Kiano Intelect 7 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Intelect 7 3G",
-            "Device_Code_Name": "Intelect 7 3G",
-            "Device_Maker": "Kiano",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kiano"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Kiano Intelect 7 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Intelect 7 3G",
+      "Device_Code_Name": "Intelect 7 3G",
+      "Device_Maker": "Kiano",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kiano"
+    },
+    "standard": true
+  }
 }

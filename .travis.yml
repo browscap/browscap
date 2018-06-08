@@ -13,8 +13,7 @@ cache:
 
 stages:
   - composer validate
-  - check for duplicate integration tests
-  - check coding style
+  - validate sources and tests
   - static code analysis
   - test
   - test with coverage
@@ -55,7 +54,7 @@ jobs:
       install: skip
       script: composer validate --strict
 
-    - stage: check coding style
+    - stage: static code analysis
       php: 7.1
       script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
 
@@ -63,9 +62,13 @@ jobs:
       php: 7.1
       script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
 
-    - stage: check for duplicate integration tests
+    - stage: validate sources and tests
       php: 7.1
       script: bin/browscap -v check-duplicate-tests
+
+    - stage: validate sources and tests
+      php: 7.1
+      script: bin/browscap -v validate
 
     - stage: integration tests
       php: 7.1

@@ -1,13 +1,13 @@
 {
-    "Zenithink P7901A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Epad P7901A",
-            "Device_Code_Name": "P7901A",
-            "Device_Maker": "Zenithink",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Epad"
-        },
-        "standard": true
-    }
+  "Zenithink P7901A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Epad P7901A",
+      "Device_Code_Name": "P7901A",
+      "Device_Maker": "Zenithink",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Epad"
+    },
+    "standard": true
+  }
 }

@@ -1,255 +1,255 @@
 {
-    "Acer A1-810": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia A1-810",
-            "Device_Code_Name": "A1-810",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+  "Acer A1-810": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia A1-810",
+      "Device_Code_Name": "A1-810",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A1-811": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia A",
-            "Device_Code_Name": "A1-811",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A1-811": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia A",
+      "Device_Code_Name": "A1-811",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A1-830": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia A1-830",
-            "Device_Code_Name": "A1-830",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A1-830": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia A1-830",
+      "Device_Code_Name": "A1-830",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A100": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Vangogh",
-            "Device_Code_Name": "A100",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A100": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vangogh",
+      "Device_Code_Name": "A100",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A101": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Vangogh",
-            "Device_Code_Name": "A101",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A101": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vangogh",
+      "Device_Code_Name": "A101",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A200": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Picasso_E",
-            "Device_Code_Name": "A200",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A200": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Picasso_E",
+      "Device_Code_Name": "A200",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A210": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A210",
-            "Device_Code_Name": "A210",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A210": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A210",
+      "Device_Code_Name": "A210",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A211": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A211",
-            "Device_Code_Name": "A211",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A211": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A211",
+      "Device_Code_Name": "A211",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A3-A10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia Tab A3",
-            "Device_Code_Name": "A3-A10",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A3-A10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab A3",
+      "Device_Code_Name": "A3-A10",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A3-A11": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia A3",
-            "Device_Code_Name": "A3-A11",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A3-A11": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia A3",
+      "Device_Code_Name": "A3-A11",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A3-A20": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia Tab A3-A20",
-            "Device_Code_Name": "A3-A20",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A3-A20": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab A3-A20",
+      "Device_Code_Name": "A3-A20",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A3-A40": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia Tab 10",
-            "Device_Code_Name": "A3-A40",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A3-A40": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab 10",
+      "Device_Code_Name": "A3-A40",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A500": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Picasso",
-            "Device_Code_Name": "A500",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A500": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Picasso",
+      "Device_Code_Name": "A500",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A501": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Picasso",
-            "Device_Code_Name": "A501",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A501": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Picasso",
+      "Device_Code_Name": "A501",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A510": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A510",
-            "Device_Code_Name": "A510",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A510": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A510",
+      "Device_Code_Name": "A510",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A511": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "A511",
-            "Device_Code_Name": "A511",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A511": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "A511",
+      "Device_Code_Name": "A511",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A700": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia Tab A700",
-            "Device_Code_Name": "A700",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A700": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab A700",
+      "Device_Code_Name": "A700",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer A701": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia Tab A701",
-            "Device_Code_Name": "A701",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer A701": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab A701",
+      "Device_Code_Name": "A701",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer B1-710": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia B1-710",
-            "Device_Code_Name": "B1-710",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer B1-710": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia B1-710",
+      "Device_Code_Name": "B1-710",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer B1-711": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia B1-711",
-            "Device_Code_Name": "B1-711",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer B1-711": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia B1-711",
+      "Device_Code_Name": "B1-711",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer B1-730HD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia One 7",
-            "Device_Code_Name": "B1-730HD",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer B1-730HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 7",
+      "Device_Code_Name": "B1-730HD",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer B1-A71": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Iconia B1-A71",
-            "Device_Code_Name": "B1-A71",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Acer B1-A71": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia B1-A71",
+      "Device_Code_Name": "B1-A71",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
     },
-    "Acer G100W": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "G100W",
-            "Device_Code_Name": "G100W",
-            "Device_Maker": "Acer",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Acer"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Acer G100W": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G100W",
+      "Device_Code_Name": "G100W",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  }
 }

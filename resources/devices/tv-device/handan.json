@@ -1,13 +1,13 @@
 {
-    "HANDAN ST7108HBB": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "TV Device",
-            "Device_Code_Name": "TV Device",
-            "Device_Maker": "HANDAN",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "HANDAN"
-        },
-        "standard": false
-    }
+  "HANDAN ST7108HBB": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV Device",
+      "Device_Code_Name": "TV Device",
+      "Device_Maker": "HANDAN",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "HANDAN"
+    },
+    "standard": false
+  }
 }

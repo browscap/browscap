@@ -1,24 +1,24 @@
 {
-    "Explay Infinity ll": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Infinity ll",
-            "Device_Code_Name": "Infinity ll",
-            "Device_Maker": "Explay",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay"
-        },
-        "standard": false
+  "Explay Infinity ll": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Infinity ll",
+      "Device_Code_Name": "Infinity ll",
+      "Device_Maker": "Explay",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Explay"
     },
-    "Explay X-tremer": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X-tremer",
-            "Device_Code_Name": "X-tremer",
-            "Device_Maker": "Explay",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Explay"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Explay X-tremer": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X-tremer",
+      "Device_Code_Name": "X-tremer",
+      "Device_Maker": "Explay",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Explay"
+    },
+    "standard": false
+  }
 }

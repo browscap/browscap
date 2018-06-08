@@ -1,13 +1,13 @@
 {
-    "Jlinksz K960": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "K960",
-            "Device_Code_Name": "K960",
-            "Device_Maker": "Jlinksz",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jlinksz"
-        },
-        "standard": true
-    }
+  "Jlinksz K960": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "K960",
+      "Device_Code_Name": "K960",
+      "Device_Maker": "Jlinksz",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jlinksz"
+    },
+    "standard": true
+  }
 }

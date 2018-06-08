@@ -1,57 +1,57 @@
 {
-    "Sharp 10B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Lynx",
-            "Device_Code_Name": "SH-10B",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sharp"
-        },
-        "standard": false
+  "Sharp 10B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lynx",
+      "Device_Code_Name": "SH-10B",
+      "Device_Maker": "Sharp Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sharp"
     },
-    "Sharp GX10I": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GX10I",
-            "Device_Code_Name": "TQ-GX10I",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sharp"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Sharp GX10I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GX10I",
+      "Device_Code_Name": "TQ-GX10I",
+      "Device_Maker": "Sharp Corporation",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sharp"
     },
-    "Sharp SH80F": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Aquos SH80F",
-            "Device_Code_Name": "SH80F",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sharp"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Sharp SH80F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aquos SH80F",
+      "Device_Code_Name": "SH80F",
+      "Device_Maker": "Sharp Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sharp"
     },
-    "Sharp WS007SH": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "WS007SH",
-            "Device_Code_Name": "WS007SH",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Willcom"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Sharp WS007SH": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "WS007SH",
+      "Device_Code_Name": "WS007SH",
+      "Device_Maker": "Sharp Corporation",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Willcom"
     },
-    "Sharp WS020SH": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "WS020SH",
-            "Device_Code_Name": "WS020SH",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sharp"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Sharp WS020SH": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "WS020SH",
+      "Device_Code_Name": "WS020SH",
+      "Device_Maker": "Sharp Corporation",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sharp"
+    },
+    "standard": false
+  }
 }

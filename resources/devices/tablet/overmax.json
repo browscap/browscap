@@ -1,46 +1,46 @@
 {
-    "Overmax Quattor 10+": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Quattor 10+",
-            "Device_Code_Name": "Quattor 10+",
-            "Device_Maker": "Overmax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax"
-        },
-        "standard": true
+  "Overmax Quattor 10+": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Quattor 10+",
+      "Device_Code_Name": "Quattor 10+",
+      "Device_Maker": "Overmax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Overmax"
     },
-    "Overmax Solution 10 Ii 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Solution 10 Ii 3G",
-            "Device_Code_Name": "Solution 10 Ii 3G",
-            "Device_Maker": "Overmax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Overmax Solution 10 Ii 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Solution 10 Ii 3G",
+      "Device_Code_Name": "Solution 10 Ii 3G",
+      "Device_Maker": "Overmax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Overmax"
     },
-    "Overmax Solution 7 III": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Solution 7 III",
-            "Device_Code_Name": "Solution 7 III",
-            "Device_Maker": "Overmax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Overmax Solution 7 III": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Solution 7 III",
+      "Device_Code_Name": "Solution 7 III",
+      "Device_Maker": "Overmax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Overmax"
     },
-    "Overmax SteelCore": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "SteelCore",
-            "Device_Code_Name": "SteelCore",
-            "Device_Maker": "Overmax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Overmax"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Overmax SteelCore": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SteelCore",
+      "Device_Code_Name": "SteelCore",
+      "Device_Maker": "Overmax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Overmax"
+    },
+    "standard": true
+  }
 }

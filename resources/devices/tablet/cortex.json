@@ -1,13 +1,13 @@
 {
-    "Cortex A8": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "APad",
-            "Device_Code_Name": "A8",
-            "Device_Maker": "Cortex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cortex"
-        },
-        "standard": true
-    }
+  "Cortex A8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "APad",
+      "Device_Code_Name": "A8",
+      "Device_Maker": "Cortex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cortex"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Lalsoft INM803HC": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "INM803HC",
-            "Device_Code_Name": "INM803HC",
-            "Device_Maker": "Lalsoft",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lalsoft"
-        },
-        "standard": true
-    }
+  "Lalsoft INM803HC": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "INM803HC",
+      "Device_Code_Name": "INM803HC",
+      "Device_Maker": "Lalsoft",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lalsoft"
+    },
+    "standard": true
+  }
 }

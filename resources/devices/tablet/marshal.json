@@ -1,13 +1,13 @@
 {
-    "Marshal ME-701": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "ME-701",
-            "Device_Code_Name": "ME-701",
-            "Device_Maker": "Marshal",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Marshal"
-        },
-        "standard": true
-    }
+  "Marshal ME-701": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "ME-701",
+      "Device_Code_Name": "ME-701",
+      "Device_Maker": "Marshal",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Marshal"
+    },
+    "standard": true
+  }
 }

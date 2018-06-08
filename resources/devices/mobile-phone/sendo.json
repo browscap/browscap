@@ -1,24 +1,24 @@
 {
-    "Sendo M550": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M550",
-            "Device_Code_Name": "M550",
-            "Device_Maker": "Sendo",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sendo"
-        },
-        "standard": false
+  "Sendo M550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M550",
+      "Device_Code_Name": "M550",
+      "Device_Maker": "Sendo",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sendo"
     },
-    "Sendo S600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S600",
-            "Device_Code_Name": "S600",
-            "Device_Maker": "Sendo",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Sendo"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Sendo S600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S600",
+      "Device_Code_Name": "S600",
+      "Device_Maker": "Sendo",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sendo"
+    },
+    "standard": false
+  }
 }

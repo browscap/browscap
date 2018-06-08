@@ -1,57 +1,57 @@
 {
-    "Digma PS604M": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Linx 6.0",
-            "Device_Code_Name": "PS604M",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": false
+  "Digma PS604M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Linx 6.0",
+      "Device_Code_Name": "PS604M",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma TT7026MW": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Optima 7.6",
-            "Device_Code_Name": "TT7026MW",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Digma TT7026MW": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Optima 7.6",
+      "Device_Code_Name": "TT7026MW",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDrQ10 3G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "iDrQ10 3G",
-            "Device_Code_Name": "iDrQ10 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Digma iDrQ10 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "iDrQ10 3G",
+      "Device_Code_Name": "iDrQ10 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDxD4 3G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "iDxD4 3G",
-            "Device_Code_Name": "iDxD4 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Digma iDxD4 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "iDxD4 3G",
+      "Device_Code_Name": "iDxD4 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
     },
-    "Digma iDxD8 3G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "iDxD8 3G",
-            "Device_Code_Name": "iDxD8 3G",
-            "Device_Maker": "Digma",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Digma"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Digma iDxD8 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "iDxD8 3G",
+      "Device_Code_Name": "iDxD8 3G",
+      "Device_Maker": "Digma",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Digma"
+    },
+    "standard": false
+  }
 }

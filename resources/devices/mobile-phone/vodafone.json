@@ -1,57 +1,57 @@
 {
-    "Lenovo K910L": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Vibe Z LTE",
-            "Device_Code_Name": "K910L",
-            "Device_Maker": "Lenovo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
+  "Lenovo K910L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vibe Z LTE",
+      "Device_Code_Name": "K910L",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Vodafone 785": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Smart 4 mini",
-            "Device_Code_Name": "785",
-            "Device_Maker": "Vodafone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Vodafone 785": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart 4 mini",
+      "Device_Code_Name": "785",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Vodafone 845": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "845",
-            "Device_Code_Name": "845",
-            "Device_Maker": "Vodafone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Vodafone 845": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "845",
+      "Device_Code_Name": "845",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Vodafone Smart 4G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Smart 4G",
-            "Device_Code_Name": "Smart 4G",
-            "Device_Maker": "Vodafone",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Vodafone Smart 4G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart 4G",
+      "Device_Code_Name": "Smart 4G",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
     },
-    "Vodafone V802SH": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V802SH",
-            "Device_Code_Name": "V802SH",
-            "Device_Maker": "Vodafone",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Vodafone"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Vodafone V802SH": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V802SH",
+      "Device_Code_Name": "V802SH",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
+  }
 }

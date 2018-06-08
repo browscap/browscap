@@ -1,57 +1,57 @@
 {
-    "Haier AD681H": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "AD681H",
-            "Device_Code_Name": "AD681H",
-            "Device_Maker": "Haier",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Smartfren Andromax"
-        },
-        "standard": false
+  "Haier AD681H": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "AD681H",
+      "Device_Code_Name": "AD681H",
+      "Device_Maker": "Haier",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Smartfren Andromax"
     },
-    "Haier M1000": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M1000",
-            "Device_Code_Name": "M1000",
-            "Device_Maker": "Haier",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Haier"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Haier M1000": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M1000",
+      "Device_Code_Name": "M1000",
+      "Device_Maker": "Haier",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Haier"
     },
-    "Haier M1211": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M1211",
-            "Device_Code_Name": "M1211",
-            "Device_Maker": "Haier",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Haier"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Haier M1211": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M1211",
+      "Device_Code_Name": "M1211",
+      "Device_Maker": "Haier",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Haier"
     },
-    "Haier M1610": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "M1610",
-            "Device_Code_Name": "M1610",
-            "Device_Maker": "Haier",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Haier"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Haier M1610": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M1610",
+      "Device_Code_Name": "M1610",
+      "Device_Maker": "Haier",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Haier"
     },
-    "Haier W718": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W718",
-            "Device_Code_Name": "W718",
-            "Device_Maker": "Haier",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Haier"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Haier W718": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W718",
+      "Device_Code_Name": "W718",
+      "Device_Maker": "Haier",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Haier"
+    },
+    "standard": false
+  }
 }

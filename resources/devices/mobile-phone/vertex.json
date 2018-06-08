@@ -1,13 +1,13 @@
 {
-    "Vertex Impress L": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Impress L",
-            "Device_Code_Name": "Impress L",
-            "Device_Maker": "Vertex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vertex"
-        },
-        "standard": false
-    }
+  "Vertex Impress L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Impress L",
+      "Device_Code_Name": "Impress L",
+      "Device_Maker": "Vertex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vertex"
+    },
+    "standard": false
+  }
 }

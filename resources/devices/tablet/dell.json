@@ -1,68 +1,68 @@
 {
-    "Dell Streak": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Streak",
-            "Device_Code_Name": "Streak",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
+  "Dell Streak": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Streak",
+      "Device_Code_Name": "Streak",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
     },
-    "Dell Streak 7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Streak 7",
-            "Device_Code_Name": "Streak 7",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Dell Streak 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Streak 7",
+      "Device_Code_Name": "Streak 7",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
     },
-    "Dell Venue 7 3730": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Venue 7 3730",
-            "Device_Code_Name": "Venue 7 3730",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Dell Venue 7 3730": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Venue 7 3730",
+      "Device_Code_Name": "Venue 7 3730",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
     },
-    "Dell Venue 7 HSPA+": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Venue 7 HSPA+",
-            "Device_Code_Name": "Venue 7 HSPA+",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Dell Venue 7 HSPA+": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Venue 7 HSPA+",
+      "Device_Code_Name": "Venue 7 HSPA+",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
     },
-    "Dell Venue 8 3830": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Venue 8 3830",
-            "Device_Code_Name": "Venue 8 3830",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Dell Venue 8 3830": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Venue 8 3830",
+      "Device_Code_Name": "Venue 8 3830",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
     },
-    "Dell Venue 8 HSPA+": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Venue 8 HSPA+",
-            "Device_Code_Name": "Venue 8 HSPA+",
-            "Device_Maker": "Dell",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Dell"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Dell Venue 8 HSPA+": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Venue 8 HSPA+",
+      "Device_Code_Name": "Venue 8 HSPA+",
+      "Device_Maker": "Dell",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Dell"
+    },
+    "standard": true
+  }
 }

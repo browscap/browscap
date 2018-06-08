@@ -1,13 +1,13 @@
 {
-    "Ninetology T8700": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Outlook Pure",
-            "Device_Code_Name": "T8700",
-            "Device_Maker": "Ninetology",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Ninetology"
-        },
-        "standard": true
-    }
+  "Ninetology T8700": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Outlook Pure",
+      "Device_Code_Name": "T8700",
+      "Device_Maker": "Ninetology",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Ninetology"
+    },
+    "standard": true
+  }
 }

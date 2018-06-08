@@ -1,90 +1,90 @@
 {
-    "Highscreen Alpha GT": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Alpha GT",
-            "Device_Code_Name": "Alpha GT",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+  "Highscreen Alpha GT": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Alpha GT",
+      "Device_Code_Name": "Alpha GT",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Alpha GTR": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Alpha GTR",
-            "Device_Code_Name": "Alpha GTR",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen Alpha GTR": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Alpha GTR",
+      "Device_Code_Name": "Alpha GTR",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Boost II SE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Boost II SE",
-            "Device_Code_Name": "Boost II SE",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen Boost II SE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Boost II SE",
+      "Device_Code_Name": "Boost II SE",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Explosion": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Explosion",
-            "Device_Code_Name": "Explosion",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen Explosion": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Explosion",
+      "Device_Code_Name": "Explosion",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen ICE 2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ICE 2",
-            "Device_Code_Name": "ICE 2",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen ICE 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ICE 2",
+      "Device_Code_Name": "ICE 2",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Omega Prime S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Omega Prime S",
-            "Device_Code_Name": "Omega Prime S",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen Omega Prime S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Omega Prime S",
+      "Device_Code_Name": "Omega Prime S",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Prime Mini SE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Omega Prime mini SE",
-            "Device_Code_Name": "Prime Mini SE",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Highscreen Prime Mini SE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Omega Prime mini SE",
+      "Device_Code_Name": "Prime Mini SE",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
     },
-    "Highscreen Zera F": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Zera F",
-            "Device_Code_Name": "Zera F",
-            "Device_Maker": "Highscreen",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Highscreen"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Highscreen Zera F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zera F",
+      "Device_Code_Name": "Zera F",
+      "Device_Maker": "Highscreen",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Highscreen"
+    },
+    "standard": false
+  }
 }

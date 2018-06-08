@@ -1,13 +1,13 @@
 {
-    "Hisense F5281": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Sero 8 Pro",
-            "Device_Code_Name": "F5281",
-            "Device_Maker": "Hisense",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Hisense"
-        },
-        "standard": true
-    }
+  "Hisense F5281": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Sero 8 Pro",
+      "Device_Code_Name": "F5281",
+      "Device_Maker": "Hisense",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Hisense"
+    },
+    "standard": true
+  }
 }

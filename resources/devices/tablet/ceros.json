@@ -1,13 +1,13 @@
 {
-    "Ceros CT9716-B": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Revolution",
-            "Device_Code_Name": "CT9716-B",
-            "Device_Maker": "Ceros",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Ceros"
-        },
-        "standard": true
-    }
+  "Ceros CT9716-B": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Revolution",
+      "Device_Code_Name": "CT9716-B",
+      "Device_Maker": "Ceros",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Ceros"
+    },
+    "standard": true
+  }
 }

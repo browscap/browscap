@@ -1,45 +1,39 @@
 {
-    "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-    "versions": [
-        "5.5",
-        "5.4",
-        "5.3",
-        "5.2",
-        5
-    ],
-    "sortIndex": 488,
-    "lite": false,
-    "standard": true,
-    "userAgents": [
+  "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+  "versions": ["5.5", "5.4", "5.3", "5.2", 5],
+  "sortIndex": 488,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "bing search app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
-            "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-            "browser": "bing search app",
-            "platform": "iOS",
-            "engine": "WebKit",
-            "device": "general Mobile Device (Apple)",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-                "Version": "#MAJORVER#.#MINORVER#"
-            },
-            "children": [
-                {
-                    "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "devices": {
-                        "iPhone": "iPhone"
-                    },
-                    "platforms": [
-                        "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2",
-                        "iOS_A_7_0"
-                    ]
-                },
-                {
-                    "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "iOS_A"
-                    ]
-                }
-            ]
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2",
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

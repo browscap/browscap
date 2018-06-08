@@ -1,13 +1,13 @@
 {
-    "DEXP Ursus 9EV 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ursus 9EV 3G",
-            "Device_Code_Name": "Ursus 9EV 3G",
-            "Device_Maker": "DEXP",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DEXP"
-        },
-        "standard": true
-    }
+  "DEXP Ursus 9EV 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ursus 9EV 3G",
+      "Device_Code_Name": "Ursus 9EV 3G",
+      "Device_Maker": "DEXP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "DEXP"
+    },
+    "standard": true
+  }
 }

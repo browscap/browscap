@@ -1,24 +1,24 @@
 {
-    "Symphony B46i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "B46i",
-            "Device_Code_Name": "B46i",
-            "Device_Maker": "Symphony",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Symphony"
-        },
-        "standard": false
+  "Symphony B46i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "B46i",
+      "Device_Code_Name": "B46i",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Symphony"
     },
-    "Symphony W82": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xplorer",
-            "Device_Code_Name": "W82",
-            "Device_Maker": "Symphony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Symphony"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Symphony W82": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xplorer",
+      "Device_Code_Name": "W82",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Symphony"
+    },
+    "standard": false
+  }
 }

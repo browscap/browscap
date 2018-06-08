@@ -1,13 +1,13 @@
 {
-    "TWZ A49": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A49",
-            "Device_Code_Name": "A49",
-            "Device_Maker": "TWZ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "TWZ"
-        },
-        "standard": false
-    }
+  "TWZ A49": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A49",
+      "Device_Code_Name": "A49",
+      "Device_Maker": "TWZ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "TWZ"
+    },
+    "standard": false
+  }
 }

@@ -1,24 +1,24 @@
 {
-    "Google Pixel C": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pixel C",
-            "Device_Code_Name": "Pixel C",
-            "Device_Maker": "Google Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Google"
-        },
-        "standard": true
+  "Google Pixel C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pixel C",
+      "Device_Code_Name": "Pixel C",
+      "Device_Maker": "Google Inc",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
     },
-    "Samsung Nexus 10": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Nexus 10",
-            "Device_Code_Name": "Nexus 10",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Google"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Samsung Nexus 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Nexus 10",
+      "Device_Code_Name": "Nexus 10",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": true
+  }
 }

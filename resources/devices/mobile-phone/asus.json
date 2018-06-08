@@ -1,79 +1,79 @@
 {
-    "Asus 1210": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "1210",
-            "Device_Code_Name": "1210",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+  "Asus 1210": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "1210",
+      "Device_Code_Name": "1210",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus T00I": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ZenFone 4",
-            "Device_Code_Name": "T00I",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Asus T00I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 4",
+      "Device_Code_Name": "T00I",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus T00J": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "ZenFone 5",
-            "Device_Code_Name": "T00J",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Asus T00J": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 5",
+      "Device_Code_Name": "T00J",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus T00N": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T00N",
-            "Device_Code_Name": "T00N",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Asus T00N": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T00N",
+      "Device_Code_Name": "T00N",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus Z007": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Zenfone C",
-            "Device_Code_Name": "Z007",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Asus Z007": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zenfone C",
+      "Device_Code_Name": "Z007",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus Z00AD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Zenfone 2",
-            "Device_Code_Name": "Z00AD",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Asus Z00AD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zenfone 2",
+      "Device_Code_Name": "Z00AD",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
     },
-    "Asus Z012DE": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Zenfone 3",
-            "Device_Code_Name": "Z012DE",
-            "Device_Maker": "Asus",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Asus"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Asus Z012DE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zenfone 3",
+      "Device_Code_Name": "Z012DE",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  }
 }

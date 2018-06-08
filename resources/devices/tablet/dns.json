@@ -1,46 +1,46 @@
 {
-    "DNS AirTab ES9701": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AirTab ES9701",
-            "Device_Code_Name": "AirTab ES9701",
-            "Device_Maker": "DNS",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS"
-        },
-        "standard": true
+  "DNS AirTab ES9701": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AirTab ES9701",
+      "Device_Code_Name": "AirTab ES9701",
+      "Device_Maker": "DNS",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "DNS"
     },
-    "DNS AirTab M104G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AirTab M104G",
-            "Device_Code_Name": "AirTab M104G",
-            "Device_Maker": "DNS",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS"
-        },
-        "standard": true
+    "standard": true
+  },
+  "DNS AirTab M104G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AirTab M104G",
+      "Device_Code_Name": "AirTab M104G",
+      "Device_Maker": "DNS",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "DNS"
     },
-    "DNS AirTab P970g": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AirTab P970g",
-            "Device_Code_Name": "AirTab P970g",
-            "Device_Maker": "DNS",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS"
-        },
-        "standard": true
+    "standard": true
+  },
+  "DNS AirTab P970g": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AirTab P970g",
+      "Device_Code_Name": "AirTab P970g",
+      "Device_Maker": "DNS",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "DNS"
     },
-    "DNS AirTab PF7001": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "AirTab PF7001",
-            "Device_Code_Name": "AirTab PF7001",
-            "Device_Maker": "DNS",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "DNS"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "DNS AirTab PF7001": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "AirTab PF7001",
+      "Device_Code_Name": "AirTab PF7001",
+      "Device_Maker": "DNS",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "DNS"
+    },
+    "standard": true
+  }
 }

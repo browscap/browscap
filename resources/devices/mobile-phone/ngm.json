@@ -1,24 +1,24 @@
 {
-    "NGM Dynamic Racing GP": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Dynamic Racing GP",
-            "Device_Code_Name": "Dynamic Racing GP",
-            "Device_Maker": "NGM",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "NGM"
-        },
-        "standard": false
+  "NGM Dynamic Racing GP": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Dynamic Racing GP",
+      "Device_Code_Name": "Dynamic Racing GP",
+      "Device_Maker": "NGM",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "NGM"
     },
-    "NGM WeMove Miracle": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "WeMove Miracle",
-            "Device_Code_Name": "WeMove Miracle",
-            "Device_Maker": "NGM",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "NGM"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "NGM WeMove Miracle": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "WeMove Miracle",
+      "Device_Code_Name": "WeMove Miracle",
+      "Device_Maker": "NGM",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "NGM"
+    },
+    "standard": false
+  }
 }

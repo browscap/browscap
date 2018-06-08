@@ -1,13 +1,13 @@
 {
-    "Accent Touareg8 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Touareg8 3G",
-            "Device_Code_Name": "Touareg8 3G",
-            "Device_Maker": "Accent",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Accent"
-        },
-        "standard": true
-    }
+  "Accent Touareg8 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Touareg8 3G",
+      "Device_Code_Name": "Touareg8 3G",
+      "Device_Maker": "Accent",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Accent"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "general Tablet": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "general Tablet",
-            "Device_Code_Name": "general Tablet",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
-    }
+  "general Tablet": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "general Tablet",
+      "Device_Code_Name": "general Tablet",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  }
 }

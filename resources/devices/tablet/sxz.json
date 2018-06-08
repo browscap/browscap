@@ -1,13 +1,13 @@
 {
-    "SXZ PDX0-01": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "PDX0-01",
-            "Device_Code_Name": "PDX0-01",
-            "Device_Maker": "SXZ",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SXZ"
-        },
-        "standard": true
-    }
+  "SXZ PDX0-01": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "PDX0-01",
+      "Device_Code_Name": "PDX0-01",
+      "Device_Maker": "SXZ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SXZ"
+    },
+    "standard": true
+  }
 }

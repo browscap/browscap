@@ -1,211 +1,211 @@
 {
-    "Dopod 565": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "565",
-            "Device_Code_Name": "565",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+  "Dopod 565": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "565",
+      "Device_Code_Name": "565",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 566": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "566",
-            "Device_Code_Name": "566",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 566": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "566",
+      "Device_Code_Name": "566",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 575": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "575",
-            "Device_Code_Name": "575",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 575": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "575",
+      "Device_Code_Name": "575",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 577W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "577W",
-            "Device_Code_Name": "577W",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 577W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "577W",
+      "Device_Code_Name": "577W",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 586": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "586",
-            "Device_Code_Name": "586",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 586": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "586",
+      "Device_Code_Name": "586",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 595": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "595",
-            "Device_Code_Name": "595",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 595": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "595",
+      "Device_Code_Name": "595",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 710": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "710",
-            "Device_Code_Name": "710",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 710": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "710",
+      "Device_Code_Name": "710",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 818": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "818",
-            "Device_Code_Name": "818",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 818": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "818",
+      "Device_Code_Name": "818",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 818 Pro": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "818 Pro",
-            "Device_Code_Name": "818 Pro",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 818 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "818 Pro",
+      "Device_Code_Name": "818 Pro",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 830": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "830",
-            "Device_Code_Name": "830",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 830": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "830",
+      "Device_Code_Name": "830",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 838": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "838",
-            "Device_Code_Name": "838",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 838": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "838",
+      "Device_Code_Name": "838",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 838 Pro": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "838 Pro",
-            "Device_Code_Name": "838 Pro",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 838 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "838 Pro",
+      "Device_Code_Name": "838 Pro",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod 900": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "900",
-            "Device_Code_Name": "900",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod 900": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "900",
+      "Device_Code_Name": "900",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod C700": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C700",
-            "Device_Code_Name": "C700",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod C700": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C700",
+      "Device_Code_Name": "C700",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod C720W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C720W",
-            "Device_Code_Name": "C720W",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod C720W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C720W",
+      "Device_Code_Name": "C720W",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod D810": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D810",
-            "Device_Code_Name": "D810",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod D810": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D810",
+      "Device_Code_Name": "D810",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod P800W": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P800W",
-            "Device_Code_Name": "P800W",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod P800W": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P800W",
+      "Device_Code_Name": "P800W",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod S300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S300",
-            "Device_Code_Name": "S300",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Dopod S300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S300",
+      "Device_Code_Name": "S300",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
     },
-    "Dopod S301": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S301",
-            "Device_Code_Name": "S301",
-            "Device_Maker": "Dopod",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Dopod"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Dopod S301": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S301",
+      "Device_Code_Name": "S301",
+      "Device_Maker": "Dopod",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Dopod"
+    },
+    "standard": false
+  }
 }

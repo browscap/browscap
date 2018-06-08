@@ -1,13 +1,13 @@
 {
-    "Artel Adi5S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Adi5S",
-            "Device_Code_Name": "Adi5S",
-            "Device_Maker": "Artel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Artel"
-        },
-        "standard": false
-    }
+  "Artel Adi5S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Adi5S",
+      "Device_Code_Name": "Adi5S",
+      "Device_Maker": "Artel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Artel"
+    },
+    "standard": false
+  }
 }

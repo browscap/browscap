@@ -1,145 +1,145 @@
 {
-    "Micromax P250": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Alfa",
-            "Device_Code_Name": "P250",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+  "Micromax P250": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Alfa",
+      "Device_Code_Name": "P250",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P275": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Infinity",
-            "Device_Code_Name": "P275",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P275": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Infinity",
+      "Device_Code_Name": "P275",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P280": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook",
-            "Device_Code_Name": "P280",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P280": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook",
+      "Device_Code_Name": "P280",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P350": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Talk P350",
-            "Device_Code_Name": "P350",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P350": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Talk P350",
+      "Device_Code_Name": "P350",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P360": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Talk P360",
-            "Device_Code_Name": "P360",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P360": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Talk P360",
+      "Device_Code_Name": "P360",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P362": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Talk P362",
-            "Device_Code_Name": "P362",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P362": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Talk P362",
+      "Device_Code_Name": "P362",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P410": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Talk P410",
-            "Device_Code_Name": "P410",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P410": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Talk P410",
+      "Device_Code_Name": "P410",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P410i": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Talk P410i",
-            "Device_Code_Name": "P410i",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P410i": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Talk P410i",
+      "Device_Code_Name": "P410i",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P480": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Canvas Tab P480",
-            "Device_Code_Name": "P480",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P480": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Canvas Tab P480",
+      "Device_Code_Name": "P480",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P500": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook Pro",
-            "Device_Code_Name": "P500",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P500": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook Pro",
+      "Device_Code_Name": "P500",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P560": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook 3G P560",
-            "Device_Code_Name": "P560",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P560": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook 3G P560",
+      "Device_Code_Name": "P560",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P600": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Funbook 3G P600",
-            "Device_Code_Name": "P600",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Micromax P600": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Funbook 3G P600",
+      "Device_Code_Name": "P600",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
     },
-    "Micromax P650": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Canvas Tab P650",
-            "Device_Code_Name": "P650",
-            "Device_Maker": "Micromax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Micromax"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Micromax P650": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Canvas Tab P650",
+      "Device_Code_Name": "P650",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": true
+  }
 }

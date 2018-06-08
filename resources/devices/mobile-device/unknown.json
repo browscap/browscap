@@ -1,24 +1,24 @@
 {
-    "general Mobile Device": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "general Mobile Device",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
+  "general Mobile Device": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "general Mobile Device",
+      "Device_Code_Name": "general Mobile Device",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "unknown"
     },
-    "general Mobile Device (Touch)": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "general Mobile Device",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "general Mobile Device (Touch)": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "general Mobile Device",
+      "Device_Code_Name": "general Mobile Device",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  }
 }

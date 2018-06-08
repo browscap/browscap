@@ -1,13 +1,13 @@
 {
-    "Velocity Micro T408": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Cruz",
-            "Device_Code_Name": "T408",
-            "Device_Maker": "Velocity Micro",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Velocity Micro"
-        },
-        "standard": true
-    }
+  "Velocity Micro T408": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Cruz",
+      "Device_Code_Name": "T408",
+      "Device_Maker": "Velocity Micro",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Velocity Micro"
+    },
+    "standard": true
+  }
 }

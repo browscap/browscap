@@ -1,13 +1,13 @@
 {
-    "Jiake JK11": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "JK11",
-            "Device_Code_Name": "JK11",
-            "Device_Maker": "Jiake",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Jiake"
-        },
-        "standard": false
-    }
+  "Jiake JK11": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "JK11",
+      "Device_Code_Name": "JK11",
+      "Device_Maker": "Jiake",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Jiake"
+    },
+    "standard": false
+  }
 }

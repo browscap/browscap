@@ -1,13 +1,13 @@
 {
-    "Kingzone KZ-168": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K1 Turbo",
-            "Device_Code_Name": "KZ-168",
-            "Device_Maker": "Shenzhen Kingzone Communication Co.,Ltd",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kingzone"
-        },
-        "standard": false
-    }
+  "Kingzone KZ-168": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K1 Turbo",
+      "Device_Code_Name": "KZ-168",
+      "Device_Maker": "Shenzhen Kingzone Communication Co.,Ltd",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kingzone"
+    },
+    "standard": false
+  }
 }

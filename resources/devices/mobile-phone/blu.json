@@ -1,90 +1,90 @@
 {
-    "BLU D710": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Studio 5.5 k",
-            "Device_Code_Name": "D710",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+  "BLU D710": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Studio 5.5 k",
+      "Device_Code_Name": "D710",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU Life Play": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Life Play",
-            "Device_Code_Name": "Life Play",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU Life Play": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Life Play",
+      "Device_Code_Name": "Life Play",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU R1 HD": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "R1 HD",
-            "Device_Code_Name": "R1 HD",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU R1 HD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R1 HD",
+      "Device_Code_Name": "R1 HD",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU STUDIO 5.0 II": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "STUDIO 5.0 II",
-            "Device_Code_Name": "STUDIO 5.0 II",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU STUDIO 5.0 II": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "STUDIO 5.0 II",
+      "Device_Code_Name": "STUDIO 5.0 II",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU Studio 5.0 S II": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Studio 5.0 S II",
-            "Device_Code_Name": "Studio 5.0 S II",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU Studio 5.0 S II": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Studio 5.0 S II",
+      "Device_Code_Name": "Studio 5.0 S II",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU Studio 5.5": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Studio 5.5",
-            "Device_Code_Name": "Studio 5.5",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU Studio 5.5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Studio 5.5",
+      "Device_Code_Name": "Studio 5.5",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU Studio XL": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Studio XL",
-            "Device_Code_Name": "Studio XL",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
+    "standard": false
+  },
+  "BLU Studio XL": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Studio XL",
+      "Device_Code_Name": "Studio XL",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
     },
-    "BLU Vivo IV": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Vivo IV",
-            "Device_Code_Name": "Vivo IV",
-            "Device_Maker": "BLU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "BLU"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "BLU Vivo IV": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vivo IV",
+      "Device_Code_Name": "Vivo IV",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
+    },
+    "standard": false
+  }
 }

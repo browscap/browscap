@@ -1,46 +1,46 @@
 {
-    "vivo X3L": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X3L",
-            "Device_Code_Name": "X3L",
-            "Device_Maker": "vivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo"
-        },
-        "standard": false
+  "vivo X3L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X3L",
+      "Device_Code_Name": "X3L",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
     },
-    "vivo Y22": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Y22",
-            "Device_Code_Name": "Y22",
-            "Device_Maker": "vivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo"
-        },
-        "standard": false
+    "standard": false
+  },
+  "vivo Y22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y22",
+      "Device_Code_Name": "Y22",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
     },
-    "vivo Y31L": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Y31L",
-            "Device_Code_Name": "Y31L",
-            "Device_Maker": "vivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo"
-        },
-        "standard": false
+    "standard": false
+  },
+  "vivo Y31L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y31L",
+      "Device_Code_Name": "Y31L",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
     },
-    "vivo Y55L": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Y55L",
-            "Device_Code_Name": "1603",
-            "Device_Maker": "vivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "vivo"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "vivo Y55L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y55L",
+      "Device_Code_Name": "1603",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
+    },
+    "standard": false
+  }
 }

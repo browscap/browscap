@@ -1,13 +1,13 @@
 {
-    "Twinmos TwinTab T7283GD1": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TwinTab T7283GD1",
-            "Device_Code_Name": "TwinTab T7283GD1",
-            "Device_Maker": "Twinmos",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Twinmos"
-        },
-        "standard": true
-    }
+  "Twinmos TwinTab T7283GD1": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TwinTab T7283GD1",
+      "Device_Code_Name": "TwinTab T7283GD1",
+      "Device_Maker": "Twinmos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Twinmos"
+    },
+    "standard": true
+  }
 }

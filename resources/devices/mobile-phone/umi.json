@@ -1,13 +1,13 @@
 {
-    "UMi X2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X2",
-            "Device_Code_Name": "X2",
-            "Device_Maker": "UMi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "UMi"
-        },
-        "standard": false
-    }
+  "UMi X2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X2",
+      "Device_Code_Name": "X2",
+      "Device_Maker": "UMi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "UMi"
+    },
+    "standard": false
+  }
 }

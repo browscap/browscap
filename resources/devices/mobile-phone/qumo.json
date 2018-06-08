@@ -1,24 +1,24 @@
 {
-    "Qumo QUEST 354": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "QUEST 354",
-            "Device_Code_Name": "QUEST 354",
-            "Device_Maker": "Qumo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Qumo"
-        },
-        "standard": false
+  "Qumo QUEST 354": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "QUEST 354",
+      "Device_Code_Name": "QUEST 354",
+      "Device_Maker": "Qumo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Qumo"
     },
-    "Qumo QUEST 450": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "QUEST 450",
-            "Device_Code_Name": "QUEST 450",
-            "Device_Maker": "Qumo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Qumo"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Qumo QUEST 450": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "QUEST 450",
+      "Device_Code_Name": "QUEST 450",
+      "Device_Maker": "Qumo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Qumo"
+    },
+    "standard": false
+  }
 }

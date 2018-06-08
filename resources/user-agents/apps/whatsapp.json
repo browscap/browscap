@@ -7,9 +7,9 @@
     {
       "userAgent": "WhatsApp for iOS",
       "browser": "whatsapp",
+      "platform": "iOS_H",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
-      "platform": "iOS_H",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp"

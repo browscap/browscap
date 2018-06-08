@@ -1,13 +1,13 @@
 {
-    "Microsoft ZuneHD": {
-        "type": "mobile-device",
-        "properties": {
-            "Device_Name": "ZuneHD",
-            "Device_Code_Name": "ZuneHD",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Microsoft"
-        },
-        "standard": true
-    }
+  "Microsoft ZuneHD": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "ZuneHD",
+      "Device_Code_Name": "ZuneHD",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Microsoft"
+    },
+    "standard": true
+  }
 }

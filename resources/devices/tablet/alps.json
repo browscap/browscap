@@ -1,24 +1,24 @@
 {
-    "Alps Baoxue 7": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Baoxue 7",
-            "Device_Code_Name": "Baoxue 7",
-            "Device_Maker": "Alps",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alps"
-        },
-        "standard": true
+  "Alps Baoxue 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Baoxue 7",
+      "Device_Code_Name": "Baoxue 7",
+      "Device_Maker": "Alps",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alps"
     },
-    "Alps XLD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "XLD",
-            "Device_Code_Name": "XLD",
-            "Device_Maker": "Alps",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Alps"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Alps XLD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "XLD",
+      "Device_Code_Name": "XLD",
+      "Device_Maker": "Alps",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alps"
+    },
+    "standard": true
+  }
 }

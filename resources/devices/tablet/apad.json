@@ -1,13 +1,13 @@
 {
-    "Apad MID Rockchip 2808A+ Tablet": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "MID Rockchip 2808A+ Tablet",
-            "Device_Code_Name": "MID Rockchip 2808A+ Tablet",
-            "Device_Maker": "Apad",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Apad"
-        },
-        "standard": true
-    }
+  "Apad MID Rockchip 2808A+ Tablet": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MID Rockchip 2808A+ Tablet",
+      "Device_Code_Name": "MID Rockchip 2808A+ Tablet",
+      "Device_Maker": "Apad",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Apad"
+    },
+    "standard": true
+  }
 }

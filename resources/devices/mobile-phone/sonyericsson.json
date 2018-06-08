@@ -1,1366 +1,1366 @@
 {
-    "SonyEricsson C510": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C510",
-            "Device_Code_Name": "C510",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson C6503": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia ZL LTE",
-            "Device_Code_Name": "C6503",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson C6602": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Z",
-            "Device_Code_Name": "C6602",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": false
-    },
-    "SonyEricsson C902": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C902",
-            "Device_Code_Name": "C902",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson C905": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C905",
-            "Device_Code_Name": "C905",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson D750i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "D750i",
-            "Device_Code_Name": "D750i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson E10a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10 Mini",
-            "Device_Code_Name": "E10a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson E10i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10 Mini",
-            "Device_Code_Name": "E10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson E10iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "E10iv",
-            "Device_Code_Name": "E10iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson E15i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X8",
-            "Device_Code_Name": "E15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson E15iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X8",
-            "Device_Code_Name": "E15iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson F500i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "F500i",
-            "Device_Code_Name": "F500i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson G700": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G700",
-            "Device_Code_Name": "G700",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson G900": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G900",
-            "Device_Code_Name": "G900",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J10i2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Elm",
-            "Device_Code_Name": "J10i2",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J200i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J200i",
-            "Device_Code_Name": "J200i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J210c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J210c",
-            "Device_Code_Name": "J210c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J210i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J210i",
-            "Device_Code_Name": "J210i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J220i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J220i",
-            "Device_Code_Name": "J220i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J230i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J230i",
-            "Device_Code_Name": "J230i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J300a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J300a",
-            "Device_Code_Name": "J300a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J300c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J300c",
-            "Device_Code_Name": "J300c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson J300i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "J300i",
-            "Device_Code_Name": "J300i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K300": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K300",
-            "Device_Code_Name": "K300",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K300a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K300a",
-            "Device_Code_Name": "K300a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K300c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K300c",
-            "Device_Code_Name": "K300c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K300i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K300i",
-            "Device_Code_Name": "K300i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K500",
-            "Device_Code_Name": "K500",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K500c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K500c",
-            "Device_Code_Name": "K500c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K500i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K500i",
-            "Device_Code_Name": "K500i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K506c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K506c",
-            "Device_Code_Name": "K506c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K508c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K508c",
-            "Device_Code_Name": "K508c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K508i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K508i",
-            "Device_Code_Name": "K508i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K550i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K550i",
-            "Device_Code_Name": "K550i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K600": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K600",
-            "Device_Code_Name": "K600",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K600c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K600c",
-            "Device_Code_Name": "K600c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K600i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K600i",
-            "Device_Code_Name": "K600i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K608i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K608i",
-            "Device_Code_Name": "K608i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K700c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K700c",
-            "Device_Code_Name": "K700c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K750i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K750i",
-            "Device_Code_Name": "K750i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K758c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K758c",
-            "Device_Code_Name": "K758c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K790i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K790i",
-            "Device_Code_Name": "K790i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K800i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K800i",
-            "Device_Code_Name": "K800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson K858c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "K858c",
-            "Device_Code_Name": "K858c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT15i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Arc",
-            "Device_Code_Name": "LT15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT15iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Arc SO-01C for DoCoMo",
-            "Device_Code_Name": "LT15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT18i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Arc",
-            "Device_Code_Name": "LT18i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT18iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Arc",
-            "Device_Code_Name": "LT18iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT26i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Arc HD",
-            "Device_Code_Name": "LT26i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson LT28h": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Ion",
-            "Device_Code_Name": "LT28h",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson MK16i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Pro",
-            "Device_Code_Name": "MK16i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson MT11i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Neo V",
-            "Device_Code_Name": "MT11i",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": false
-    },
-    "SonyEricsson MT15a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Neo",
-            "Device_Code_Name": "MT15a",
-            "Device_Maker": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Sony"
-        },
-        "standard": false
-    },
-    "SonyEricsson MT15i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Neo",
-            "Device_Code_Name": "MT15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson MT15iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Neo",
-            "Device_Code_Name": "MT15iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson MT27i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Sola",
-            "Device_Code_Name": "MT27i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P1i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P1i",
-            "Device_Code_Name": "P1i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P900i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P900i",
-            "Device_Code_Name": "P900i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P910a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P910a",
-            "Device_Code_Name": "P910a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P910c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P910c",
-            "Device_Code_Name": "P910c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P910i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P910i",
-            "Device_Code_Name": "P910i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson P990i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P990i",
-            "Device_Code_Name": "P990i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson R800i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia PLAY",
-            "Device_Code_Name": "R800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson R800iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia PLAY",
-            "Device_Code_Name": "R800iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson S312": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S312",
-            "Device_Code_Name": "S312",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson S700c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S700c",
-            "Device_Code_Name": "S700c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson S700i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S700i",
-            "Device_Code_Name": "S700i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson S710a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S710a",
-            "Device_Code_Name": "S710a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson SK17i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Mini Pro",
-            "Device_Code_Name": "SK17i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson SK17iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Mini Pro",
-            "Device_Code_Name": "SK17iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson SO-01B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10",
-            "Device_Code_Name": "SO-01B",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson SO-01E": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia AX (NTT DoCoMo)",
-            "Device_Code_Name": "SO-01E",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST15i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Mini",
-            "Device_Code_Name": "ST15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST17i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Active",
-            "Device_Code_Name": "ST17i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST18i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Urushi",
-            "Device_Code_Name": "ST18i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST18iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Urushi",
-            "Device_Code_Name": "ST18iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST25a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia U",
-            "Device_Code_Name": "ST25a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST25i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia U",
-            "Device_Code_Name": "ST25i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson ST27i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia Go",
-            "Device_Code_Name": "ST27i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson T715": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T715",
-            "Device_Code_Name": "T715",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U1",
-            "Device_Code_Name": "U1",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U10i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U10i",
-            "Device_Code_Name": "U10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U1i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U1i",
-            "Device_Code_Name": "U1i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U1iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U1iv",
-            "Device_Code_Name": "U1iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U20i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10 Mini pro",
-            "Device_Code_Name": "U20i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U20iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10 Mini pro",
-            "Device_Code_Name": "U20iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U5i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Vivaz",
-            "Device_Code_Name": "U5i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U5iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U5iv",
-            "Device_Code_Name": "U5iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U5u": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U5u",
-            "Device_Code_Name": "U5u",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U8a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U8a",
-            "Device_Code_Name": "U8a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson U8i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U8i",
-            "Device_Code_Name": "U8i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson V600i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V600i",
-            "Device_Code_Name": "V600i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson V800": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "V800",
-            "Device_Code_Name": "V800",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W150i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W150i",
-            "Device_Code_Name": "W150i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W350i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W350i",
-            "Device_Code_Name": "W350i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W350iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W350iv",
-            "Device_Code_Name": "W350iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W395": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W395",
-            "Device_Code_Name": "W395",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W580i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W580i",
-            "Device_Code_Name": "W580i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W595": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W595",
-            "Device_Code_Name": "W595",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W700c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W700c",
-            "Device_Code_Name": "W700c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W705": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W705",
-            "Device_Code_Name": "W705",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W750i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W750i",
-            "Device_Code_Name": "W750i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W760i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W760i",
-            "Device_Code_Name": "W760i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W800i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W800i",
-            "Device_Code_Name": "W800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W810i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W810i",
-            "Device_Code_Name": "W810i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W910i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W910i",
-            "Device_Code_Name": "W910i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W980": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W980",
-            "Device_Code_Name": "W980",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W980i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W980i",
-            "Device_Code_Name": "W980i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson W995": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W995",
-            "Device_Code_Name": "W995",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson WT13i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "WT13i",
-            "Device_Code_Name": "WT13i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson WT19a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Live with Walkman",
-            "Device_Code_Name": "WT19a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson WT19i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Live",
-            "Device_Code_Name": "WT19i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson WT19iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Live",
-            "Device_Code_Name": "WT19iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson X10": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10",
-            "Device_Code_Name": "X10",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson X10a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10",
-            "Device_Code_Name": "X10a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson X10i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10",
-            "Device_Code_Name": "X10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson X10iv": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Xperia X10",
-            "Device_Code_Name": "X10iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson X1i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X1i",
-            "Device_Code_Name": "X1i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z500a": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z500a",
-            "Device_Code_Name": "Z500a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z500i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z500i",
-            "Device_Code_Name": "Z500i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z520c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z520c",
-            "Device_Code_Name": "Z520c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z520i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z520i",
-            "Device_Code_Name": "Z520i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z800c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z800c",
-            "Device_Code_Name": "Z800c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    },
-    "SonyEricsson Z800i": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Z800i",
-            "Device_Code_Name": "Z800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "SonyEricsson"
-        },
-        "standard": false
-    }
+  "SonyEricsson C510": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C510",
+      "Device_Code_Name": "C510",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson C6503": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia ZL LTE",
+      "Device_Code_Name": "C6503",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson C6602": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Z",
+      "Device_Code_Name": "C6602",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "SonyEricsson C902": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C902",
+      "Device_Code_Name": "C902",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson C905": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C905",
+      "Device_Code_Name": "C905",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson D750i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "D750i",
+      "Device_Code_Name": "D750i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson E10a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10 Mini",
+      "Device_Code_Name": "E10a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson E10i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10 Mini",
+      "Device_Code_Name": "E10i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson E10iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "E10iv",
+      "Device_Code_Name": "E10iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson E15i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X8",
+      "Device_Code_Name": "E15i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson E15iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X8",
+      "Device_Code_Name": "E15iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson F500i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F500i",
+      "Device_Code_Name": "F500i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson G700": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G700",
+      "Device_Code_Name": "G700",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson G900": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G900",
+      "Device_Code_Name": "G900",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J10i2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Elm",
+      "Device_Code_Name": "J10i2",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J200i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J200i",
+      "Device_Code_Name": "J200i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J210c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J210c",
+      "Device_Code_Name": "J210c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J210i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J210i",
+      "Device_Code_Name": "J210i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J220i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J220i",
+      "Device_Code_Name": "J220i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J230i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J230i",
+      "Device_Code_Name": "J230i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J300a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J300a",
+      "Device_Code_Name": "J300a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J300c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J300c",
+      "Device_Code_Name": "J300c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson J300i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "J300i",
+      "Device_Code_Name": "J300i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K300": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K300",
+      "Device_Code_Name": "K300",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K300a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K300a",
+      "Device_Code_Name": "K300a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K300c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K300c",
+      "Device_Code_Name": "K300c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K300i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K300i",
+      "Device_Code_Name": "K300i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K500",
+      "Device_Code_Name": "K500",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K500c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K500c",
+      "Device_Code_Name": "K500c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K500i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K500i",
+      "Device_Code_Name": "K500i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K506c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K506c",
+      "Device_Code_Name": "K506c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K508c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K508c",
+      "Device_Code_Name": "K508c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K508i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K508i",
+      "Device_Code_Name": "K508i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K550i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K550i",
+      "Device_Code_Name": "K550i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K600": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K600",
+      "Device_Code_Name": "K600",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K600c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K600c",
+      "Device_Code_Name": "K600c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K600i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K600i",
+      "Device_Code_Name": "K600i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K608i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K608i",
+      "Device_Code_Name": "K608i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K700c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K700c",
+      "Device_Code_Name": "K700c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K750i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K750i",
+      "Device_Code_Name": "K750i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K758c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K758c",
+      "Device_Code_Name": "K758c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K790i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K790i",
+      "Device_Code_Name": "K790i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K800i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K800i",
+      "Device_Code_Name": "K800i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson K858c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K858c",
+      "Device_Code_Name": "K858c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT15i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Arc",
+      "Device_Code_Name": "LT15i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT15iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Arc SO-01C for DoCoMo",
+      "Device_Code_Name": "LT15i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT18i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Arc",
+      "Device_Code_Name": "LT18i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT18iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Arc",
+      "Device_Code_Name": "LT18iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT26i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Arc HD",
+      "Device_Code_Name": "LT26i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson LT28h": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Ion",
+      "Device_Code_Name": "LT28h",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson MK16i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Pro",
+      "Device_Code_Name": "MK16i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson MT11i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Neo V",
+      "Device_Code_Name": "MT11i",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "SonyEricsson MT15a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Neo",
+      "Device_Code_Name": "MT15a",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "SonyEricsson MT15i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Neo",
+      "Device_Code_Name": "MT15i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson MT15iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Neo",
+      "Device_Code_Name": "MT15iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson MT27i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Sola",
+      "Device_Code_Name": "MT27i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P1i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P1i",
+      "Device_Code_Name": "P1i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P900i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P900i",
+      "Device_Code_Name": "P900i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P910a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P910a",
+      "Device_Code_Name": "P910a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P910c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P910c",
+      "Device_Code_Name": "P910c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P910i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P910i",
+      "Device_Code_Name": "P910i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson P990i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P990i",
+      "Device_Code_Name": "P990i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson R800i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia PLAY",
+      "Device_Code_Name": "R800i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson R800iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia PLAY",
+      "Device_Code_Name": "R800iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson S312": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S312",
+      "Device_Code_Name": "S312",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson S700c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S700c",
+      "Device_Code_Name": "S700c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson S700i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S700i",
+      "Device_Code_Name": "S700i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson S710a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S710a",
+      "Device_Code_Name": "S710a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson SK17i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Mini Pro",
+      "Device_Code_Name": "SK17i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson SK17iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Mini Pro",
+      "Device_Code_Name": "SK17iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson SO-01B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10",
+      "Device_Code_Name": "SO-01B",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson SO-01E": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia AX (NTT DoCoMo)",
+      "Device_Code_Name": "SO-01E",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST15i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Mini",
+      "Device_Code_Name": "ST15i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST17i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Active",
+      "Device_Code_Name": "ST17i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST18i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Urushi",
+      "Device_Code_Name": "ST18i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST18iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Urushi",
+      "Device_Code_Name": "ST18iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST25a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia U",
+      "Device_Code_Name": "ST25a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST25i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia U",
+      "Device_Code_Name": "ST25i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson ST27i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Go",
+      "Device_Code_Name": "ST27i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson T715": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T715",
+      "Device_Code_Name": "T715",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U1",
+      "Device_Code_Name": "U1",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U10i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U10i",
+      "Device_Code_Name": "U10i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U1i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U1i",
+      "Device_Code_Name": "U1i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U1iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U1iv",
+      "Device_Code_Name": "U1iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U20i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10 Mini pro",
+      "Device_Code_Name": "U20i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U20iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10 Mini pro",
+      "Device_Code_Name": "U20iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U5i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vivaz",
+      "Device_Code_Name": "U5i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U5iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U5iv",
+      "Device_Code_Name": "U5iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U5u": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U5u",
+      "Device_Code_Name": "U5u",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U8a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U8a",
+      "Device_Code_Name": "U8a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson U8i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U8i",
+      "Device_Code_Name": "U8i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson V600i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V600i",
+      "Device_Code_Name": "V600i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson V800": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V800",
+      "Device_Code_Name": "V800",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W150i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W150i",
+      "Device_Code_Name": "W150i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W350i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W350i",
+      "Device_Code_Name": "W350i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W350iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W350iv",
+      "Device_Code_Name": "W350iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W395": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W395",
+      "Device_Code_Name": "W395",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W580i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W580i",
+      "Device_Code_Name": "W580i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W595": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W595",
+      "Device_Code_Name": "W595",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W700c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W700c",
+      "Device_Code_Name": "W700c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W705": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W705",
+      "Device_Code_Name": "W705",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W750i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W750i",
+      "Device_Code_Name": "W750i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W760i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W760i",
+      "Device_Code_Name": "W760i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W800i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W800i",
+      "Device_Code_Name": "W800i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W810i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W810i",
+      "Device_Code_Name": "W810i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W910i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W910i",
+      "Device_Code_Name": "W910i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W980": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W980",
+      "Device_Code_Name": "W980",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W980i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W980i",
+      "Device_Code_Name": "W980i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson W995": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W995",
+      "Device_Code_Name": "W995",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson WT13i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "WT13i",
+      "Device_Code_Name": "WT13i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson WT19a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Live with Walkman",
+      "Device_Code_Name": "WT19a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson WT19i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Live",
+      "Device_Code_Name": "WT19i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson WT19iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Live",
+      "Device_Code_Name": "WT19iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson X10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10",
+      "Device_Code_Name": "X10",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson X10a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10",
+      "Device_Code_Name": "X10a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson X10i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10",
+      "Device_Code_Name": "X10i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson X10iv": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X10",
+      "Device_Code_Name": "X10iv",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson X1i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X1i",
+      "Device_Code_Name": "X1i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z500a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z500a",
+      "Device_Code_Name": "Z500a",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z500i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z500i",
+      "Device_Code_Name": "Z500i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z520c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z520c",
+      "Device_Code_Name": "Z520c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z520i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z520i",
+      "Device_Code_Name": "Z520i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z800c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z800c",
+      "Device_Code_Name": "Z800c",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  },
+  "SonyEricsson Z800i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z800i",
+      "Device_Code_Name": "Z800i",
+      "Device_Maker": "SonyEricsson",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "SonyEricsson"
+    },
+    "standard": false
+  }
 }

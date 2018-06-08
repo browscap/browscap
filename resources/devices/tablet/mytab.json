@@ -1,13 +1,13 @@
 {
-    "myTAB Mini 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Mini 3G",
-            "Device_Code_Name": "Mini 3G",
-            "Device_Maker": "myTAB",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "myTAB"
-        },
-        "standard": true
-    }
+  "myTAB Mini 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mini 3G",
+      "Device_Code_Name": "Mini 3G",
+      "Device_Maker": "myTAB",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "myTAB"
+    },
+    "standard": true
+  }
 }

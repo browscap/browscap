@@ -1,56 +1,56 @@
 {
-    "akregator": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "akregator",
-            "Browser_Maker": "KDE e.V."
-        },
-        "lite": false,
-        "standard": true
+  "akregator": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "akregator",
+      "Browser_Maker": "KDE e.V."
     },
-    "apple pubsub": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "Apple PubSub",
-            "Browser_Maker": "Apple Inc"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "apple pubsub": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Apple PubSub",
+      "Browser_Maker": "Apple Inc"
     },
-    "feeddler rss reader": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "feeddler rss reader": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Feeddler RSS Reader",
+      "Browser_Maker": "Che-Bin Liu"
     },
-    "quite rss": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "Quite RSS",
-            "Browser_Maker": "Shilyaev Egor"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "quite rss": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Quite RSS",
+      "Browser_Maker": "Shilyaev Egor"
     },
-    "shrook": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "Shrook",
-            "Browser_Maker": "Utsire Software"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "shrook": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Shrook",
+      "Browser_Maker": "Utsire Software"
     },
-    "vienna": {
-        "type": "feed-reader",
-        "properties": {
-            "Browser": "Vienna",
-            "Browser_Maker": "Steve Palmer"
-        },
-        "lite": false,
-        "standard": true
-    }
+    "lite": false,
+    "standard": true
+  },
+  "vienna": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Vienna",
+      "Browser_Maker": "Steve Palmer"
+    },
+    "lite": false,
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Arnova 7CG2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "7C G2",
-            "Device_Code_Name": "7C G2",
-            "Device_Maker": "Arnova",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Arnova"
-        },
-        "standard": false
-    }
+  "Arnova 7CG2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7C G2",
+      "Device_Code_Name": "7C G2",
+      "Device_Maker": "Arnova",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Arnova"
+    },
+    "standard": false
+  }
 }

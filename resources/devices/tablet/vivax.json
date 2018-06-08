@@ -1,13 +1,13 @@
 {
-    "Vivax TPC-7001": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TCP-7001",
-            "Device_Code_Name": "TCP-7001",
-            "Device_Maker": "Vivax",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Vivax"
-        },
-        "standard": true
-    }
+  "Vivax TPC-7001": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TCP-7001",
+      "Device_Code_Name": "TCP-7001",
+      "Device_Maker": "Vivax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vivax"
+    },
+    "standard": true
+  }
 }

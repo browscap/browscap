@@ -1,13 +1,13 @@
 {
-    "FREE Freebox": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Freebox Revolution",
-            "Device_Code_Name": "Freebox Revolution",
-            "Device_Maker": "FREE SAS",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "FREE"
-        },
-        "standard": true
-    }
+  "FREE Freebox": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Freebox Revolution",
+      "Device_Code_Name": "Freebox Revolution",
+      "Device_Maker": "FREE SAS",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "FREE"
+    },
+    "standard": true
+  }
 }

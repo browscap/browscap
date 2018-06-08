@@ -1,24 +1,24 @@
 {
-    "Xoro Xor400250": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TelePAD 9A1",
-            "Device_Code_Name": "Xor400250",
-            "Device_Maker": "Xoro",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xoro"
-        },
-        "standard": true
+  "Xoro Xor400250": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TelePAD 9A1",
+      "Device_Code_Name": "Xor400250",
+      "Device_Maker": "Xoro",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xoro"
     },
-    "Xoro Xor400418": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pad 720",
-            "Device_Code_Name": "Xor400418",
-            "Device_Maker": "Xoro",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xoro"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Xoro Xor400418": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pad 720",
+      "Device_Code_Name": "Xor400418",
+      "Device_Maker": "Xoro",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xoro"
+    },
+    "standard": true
+  }
 }

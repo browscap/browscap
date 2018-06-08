@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "division": {
+      "type": "string"
+    },
+    "sortIndex": {"type": "integer"},
+    "lite": {
+      "type": "boolean"
+    },
+    "standard": {
+      "type": "boolean"
+    },
+    "userAgents": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "userAgent": {"type": "string"},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "Comment": {"type": "string"},
+              "Browser": {"type": "string"},
+              "Browser_Type": {"type": "string"},
+              "Browser_Bits": {"type": "integer"},
+              "Browser_Maker": {"type": "string"},
+              "Browser_Modus": {"type": "string"},
+              "Version": {"type": "string"},
+              "MajorVer": {"type": "string"},
+              "MinorVer": {"type": "string"},
+              "Platform": {"type": "string"},
+              "Platform_Version": {"type": "string"},
+              "Platform_Description": {"type": "string"},
+              "Platform_Bits": {"type": "integer"},
+              "Platform_Maker": {"type": "string"},
+              "Alpha": {"type": "boolean"},
+              "Beta": {"type": "boolean"},
+              "Win16": {"type": "boolean"},
+              "Win32": {"type": "boolean"},
+              "Win64": {"type": "boolean"},
+              "Frames": {"type": "boolean"},
+              "IFrames": {"type": "boolean"},
+              "Tables": {"type": "boolean"},
+              "Cookies": {"type": "boolean"},
+              "BackgroundSounds": {"type": "boolean"},
+              "JavaScript": {"type": "boolean"},
+              "VBScript": {"type": "boolean"},
+              "JavaApplets": {"type": "boolean"},
+              "ActiveXControls": {"type": "boolean"},
+              "isMobileDevice": {"type": "boolean"},
+              "isTablet": {"type": "boolean"},
+              "isSyndicationReader": {"type": "boolean"},
+              "Crawler": {"type": "boolean"},
+              "isFake": {"type": "boolean"},
+              "isAnonymized": {"type": "boolean"},
+              "isModified": {"type": "boolean"},
+              "CssVersion": {"type": "integer"},
+              "AolVersion": {"type": "integer"},
+              "Device_Name": {"type": "string"},
+              "Device_Maker": {"type": "string"},
+              "Device_Type": {"type": "string"},
+              "Device_Pointing_Method": {"type": "string"},
+              "Device_Code_Name": {"type": "string"},
+              "Device_Brand_Name": {"type": "string"},
+              "RenderingEngine_Name": {"type": "string"},
+              "RenderingEngine_Version": {"type": "string"},
+              "RenderingEngine_Description": {"type": "string"},
+              "RenderingEngine_Maker": {"type": "string"},
+              "PatternId": {"type": "string"}
+            },
+            "required": [
+              "Comment",
+              "Browser",
+              "Browser_Type",
+              "Browser_Bits",
+              "Browser_Maker",
+              "Browser_Modus",
+              "Version",
+              "MajorVer",
+              "MinorVer",
+              "Platform",
+              "Platform_Version",
+              "Platform_Description",
+              "Platform_Bits",
+              "Platform_Maker",
+              "Alpha",
+              "Beta",
+              "Win16",
+              "Win32",
+              "Win64",
+              "Frames",
+              "IFrames",
+              "Tables",
+              "Cookies",
+              "BackgroundSounds",
+              "JavaScript",
+              "VBScript",
+              "JavaApplets",
+              "ActiveXControls",
+              "isMobileDevice",
+              "isTablet",
+              "isSyndicationReader",
+              "Crawler",
+              "isFake",
+              "isAnonymized",
+              "isModified",
+              "CssVersion",
+              "AolVersion",
+              "Device_Name",
+              "Device_Maker",
+              "Device_Type",
+              "Device_Pointing_Method",
+              "Device_Code_Name",
+              "Device_Brand_Name",
+              "RenderingEngine_Name",
+              "RenderingEngine_Version",
+              "RenderingEngine_Description",
+              "RenderingEngine_Maker",
+              "PatternId"
+            ]
+          }
+        },
+        "required": [
+          "userAgent",
+          "properties"
+        ]
+      }
+    },
+    "required": [
+      "division",
+      "sortIndex",
+      "lite",
+      "standard",
+      "userAgents"
+    ]
+  }
+}

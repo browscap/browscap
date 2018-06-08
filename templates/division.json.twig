@@ -1,0 +1,15 @@
+{
+  "division": "{{ divisionData.division }}"{% if divisionData.versions %},
+  "versions": [{{ divisionData.versions|join(', ') }}]{% endif %},
+  "sortIndex": {{ divisionData.sortIndex }},
+  "lite": {% if divisionData.lite %}true{% else %}false{% endif %},
+  "standard": {% if divisionData.standard %}true{% else %}false{% endif %},
+  "userAgents": [
+{% for useragent in divisionData.userAgents %}
+    {{- include('useragent.json.twig', { 'useragent': useragent }) -}}{% if loop.index < loop.length %},
+{% else %}
+
+{% endif %}
+{% endfor %}
+  ]
+}

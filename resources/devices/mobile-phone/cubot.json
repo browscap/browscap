@@ -1,57 +1,57 @@
 {
-    "Cubot C7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "C7",
-            "Device_Code_Name": "C7",
-            "Device_Maker": "Cubot",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cubot"
-        },
-        "standard": false
+  "Cubot C7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C7",
+      "Device_Code_Name": "C7",
+      "Device_Maker": "Cubot",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cubot"
     },
-    "Cubot GT 95 3G": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GT 95 3G",
-            "Device_Code_Name": "GT 95 3G",
-            "Device_Maker": "Cubot",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cubot"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Cubot GT 95 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GT 95 3G",
+      "Device_Code_Name": "GT 95 3G",
+      "Device_Maker": "Cubot",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cubot"
     },
-    "Cubot GT99": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "GT99",
-            "Device_Code_Name": "GT99",
-            "Device_Maker": "Cubot",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cubot"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Cubot GT99": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GT99",
+      "Device_Code_Name": "GT99",
+      "Device_Maker": "Cubot",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cubot"
     },
-    "Cubot S200": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "S200",
-            "Device_Code_Name": "S200",
-            "Device_Maker": "Cubot",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cubot"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Cubot S200": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S200",
+      "Device_Code_Name": "S200",
+      "Device_Maker": "Cubot",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cubot"
     },
-    "Cubot U30GT": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "U30GT",
-            "Device_Code_Name": "U30GT",
-            "Device_Maker": "Cubot",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Cubot"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Cubot U30GT": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "U30GT",
+      "Device_Code_Name": "U30GT",
+      "Device_Maker": "Cubot",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cubot"
+    },
+    "standard": false
+  }
 }

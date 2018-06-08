@@ -1,13 +1,13 @@
 {
-    "Comag WTDR1018": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "WTDR1018",
-            "Device_Code_Name": "WTDR1018",
-            "Device_Maker": "Comag",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Comag"
-        },
-        "standard": true
-    }
+  "Comag WTDR1018": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "WTDR1018",
+      "Device_Code_Name": "WTDR1018",
+      "Device_Maker": "Comag",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Comag"
+    },
+    "standard": true
+  }
 }

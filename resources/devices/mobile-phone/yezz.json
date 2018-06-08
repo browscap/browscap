@@ -1,13 +1,13 @@
 {
-    "Yezz Andy 5EI3": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Andy 5EI3",
-            "Device_Code_Name": "Andy 5EI3",
-            "Device_Maker": "Yezz",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Yezz"
-        },
-        "standard": false
-    }
+  "Yezz Andy 5EI3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Andy 5EI3",
+      "Device_Code_Name": "Andy 5EI3",
+      "Device_Maker": "Yezz",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Yezz"
+    },
+    "standard": false
+  }
 }

@@ -1,57 +1,57 @@
 {
-    "Wexler Book T7008": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Book T7008",
-            "Device_Code_Name": "Book T7008",
-            "Device_Maker": "Wexler",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler"
-        },
-        "standard": true
+  "Wexler Book T7008": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Book T7008",
+      "Device_Code_Name": "Book T7008",
+      "Device_Maker": "Wexler",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wexler"
     },
-    "Wexler TAB 7i 3G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB 7i 3G",
-            "Device_Code_Name": "TAB 7i 3G",
-            "Device_Maker": "Wexler",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Wexler TAB 7i 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB 7i 3G",
+      "Device_Code_Name": "TAB 7i 3G",
+      "Device_Maker": "Wexler",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wexler"
     },
-    "Wexler TAB-7T": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB 7T",
-            "Device_Code_Name": "TAB 7T",
-            "Device_Maker": "Wexler",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Wexler TAB-7T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB 7T",
+      "Device_Code_Name": "TAB 7T",
+      "Device_Maker": "Wexler",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wexler"
     },
-    "Wexler TAB7iD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab7ID",
-            "Device_Code_Name": "Tab7ID",
-            "Device_Maker": "Wexler",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler"
-        },
-        "standard": true
+    "standard": true
+  },
+  "Wexler TAB7iD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab7ID",
+      "Device_Code_Name": "Tab7ID",
+      "Device_Maker": "Wexler",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wexler"
     },
-    "Wexler TABA742": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB A742",
-            "Device_Code_Name": "TAB A742",
-            "Device_Maker": "Wexler",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Wexler"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Wexler TABA742": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB A742",
+      "Device_Code_Name": "TAB A742",
+      "Device_Maker": "Wexler",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Wexler"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Tri-ray X8+": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "X8+",
-            "Device_Code_Name": "X8+",
-            "Device_Maker": "Tri-ray Co., Ltd.",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tri-ray"
-        },
-        "standard": false
-    }
+  "Tri-ray X8+": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X8+",
+      "Device_Code_Name": "X8+",
+      "Device_Maker": "Tri-ray Co., Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tri-ray"
+    },
+    "standard": false
+  }
 }

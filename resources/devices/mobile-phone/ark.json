@@ -1,35 +1,35 @@
 {
-    "ARK Benefit M2": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Benefit M2",
-            "Device_Code_Name": "Benefit M2",
-            "Device_Maker": "ARK",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ARK"
-        },
-        "standard": false
+  "ARK Benefit M2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Benefit M2",
+      "Device_Code_Name": "Benefit M2",
+      "Device_Maker": "ARK",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ARK"
     },
-    "ARK Benefit M3S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Benefit M3S",
-            "Device_Code_Name": "Benefit M3S",
-            "Device_Maker": "ARK",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ARK"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ARK Benefit M3S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Benefit M3S",
+      "Device_Code_Name": "Benefit M3S",
+      "Device_Maker": "ARK",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ARK"
     },
-    "ARK Benefit M4": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Benefit M4",
-            "Device_Code_Name": "Benefit M4",
-            "Device_Maker": "ARK",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ARK"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "ARK Benefit M4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Benefit M4",
+      "Device_Code_Name": "Benefit M4",
+      "Device_Maker": "ARK",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ARK"
+    },
+    "standard": false
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Itel IT1701": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "iNote Prime",
-            "Device_Code_Name": "it1701",
-            "Device_Maker": "Itel",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Itel"
-        },
-        "standard": true
-    }
+  "Itel IT1701": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "iNote Prime",
+      "Device_Code_Name": "it1701",
+      "Device_Maker": "Itel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Itel"
+    },
+    "standard": true
+  }
 }

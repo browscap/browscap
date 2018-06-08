@@ -1,35 +1,35 @@
 {
-    "general Mobile Phone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "general Mobile Phone",
-            "Device_Code_Name": "general Mobile Phone",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
+  "general Mobile Phone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "general Mobile Phone",
+      "Device_Code_Name": "general Mobile Phone",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "unknown"
     },
-    "general Mobile Phone (Touch)": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "general Mobile Phone",
-            "Device_Code_Name": "general Mobile Phone",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": true
+    "standard": true
+  },
+  "general Mobile Phone (Touch)": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "general Mobile Phone",
+      "Device_Code_Name": "general Mobile Phone",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
     },
-    "unknown Galaxy S3 Clone": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Galaxy S3 Clone",
-            "Device_Code_Name": "Z15A",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "unknown"
-        },
-        "standard": false
-    }
+    "standard": true
+  },
+  "unknown Galaxy S3 Clone": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S3 Clone",
+      "Device_Code_Name": "Z15A",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": false
+  }
 }

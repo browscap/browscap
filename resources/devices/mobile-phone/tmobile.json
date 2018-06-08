@@ -1,68 +1,68 @@
 {
-    "HTC Leo": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Leo",
-            "Device_Code_Name": "Leo",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
+  "HTC Leo": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Leo",
+      "Device_Code_Name": "Leo",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "T-Mobile"
     },
-    "T-Mobile Espresso": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Espresso",
-            "Device_Code_Name": "Espresso",
-            "Device_Maker": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
+    "standard": false
+  },
+  "T-Mobile Espresso": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Espresso",
+      "Device_Code_Name": "Espresso",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "T-Mobile"
     },
-    "T-Mobile G1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G1",
-            "Device_Code_Name": "G1",
-            "Device_Maker": "T-Mobile",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
+    "standard": false
+  },
+  "T-Mobile G1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G1",
+      "Device_Code_Name": "G1",
+      "Device_Maker": "T-Mobile",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "T-Mobile"
     },
-    "T-Mobile G2 Touch": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "G2 Touch",
-            "Device_Code_Name": "G2 Touch",
-            "Device_Maker": "T-Mobile",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
+    "standard": false
+  },
+  "T-Mobile G2 Touch": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G2 Touch",
+      "Device_Code_Name": "G2 Touch",
+      "Device_Maker": "T-Mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "T-Mobile"
     },
-    "T-Mobile MDA Vario": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "MDA Vario",
-            "Device_Code_Name": "MDA Vario",
-            "Device_Maker": "T-Mobile",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
+    "standard": false
+  },
+  "T-Mobile MDA Vario": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MDA Vario",
+      "Device_Code_Name": "MDA Vario",
+      "Device_Maker": "T-Mobile",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "T-Mobile"
     },
-    "T-Mobile Pulse": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Pulse",
-            "Device_Code_Name": "Pulse",
-            "Device_Maker": "T-Mobile",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "T-Mobile"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "T-Mobile Pulse": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pulse",
+      "Device_Code_Name": "Pulse",
+      "Device_Maker": "T-Mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "T-Mobile"
+    },
+    "standard": false
+  }
 }

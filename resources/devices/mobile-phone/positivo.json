@@ -1,13 +1,13 @@
 {
-    "Positivo YPY S500": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Ypy S500",
-            "Device_Code_Name": "YPY S500",
-            "Device_Maker": "Positivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Positivo"
-        },
-        "standard": false
-    }
+  "Positivo YPY S500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Ypy S500",
+      "Device_Code_Name": "YPY S500",
+      "Device_Maker": "Positivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Positivo"
+    },
+    "standard": false
+  }
 }

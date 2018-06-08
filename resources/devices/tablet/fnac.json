@@ -1,13 +1,13 @@
 {
-    "Fnac Phablet 4.5": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Phablet 4.5",
-            "Device_Code_Name": "Phablet 4.5",
-            "Device_Maker": "Fnac",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Fnac"
-        },
-        "standard": true
-    }
+  "Fnac Phablet 4.5": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Phablet 4.5",
+      "Device_Code_Name": "Phablet 4.5",
+      "Device_Maker": "Fnac",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Fnac"
+    },
+    "standard": true
+  }
 }

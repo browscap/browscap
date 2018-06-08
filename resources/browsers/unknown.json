@@ -1,254 +1,254 @@
 {
-    "alcatel": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Alcatel",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+  "alcatel": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Alcatel",
+      "Browser_Maker": "unknown"
     },
-    "amoi": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Amoi",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "amoi": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Amoi",
+      "Browser_Maker": "unknown"
     },
-    "argclrint": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "ArgClrInt",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "argclrint": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "ArgClrInt",
+      "Browser_Maker": "unknown"
     },
-    "asus": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Asus",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "asus": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Asus",
+      "Browser_Maker": "unknown"
     },
-    "attws": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "ATTWS",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "attws": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "ATTWS",
+      "Browser_Maker": "unknown"
     },
-    "au": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "AU",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "au": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "AU",
+      "Browser_Maker": "unknown"
     },
-    "bellwave": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Bellwave",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "bellwave": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Bellwave",
+      "Browser_Maker": "unknown"
     },
-    "benq": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "BenQ",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "benq": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "BenQ",
+      "Browser_Maker": "unknown"
     },
-    "bird": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "BIRD",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "bird": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "BIRD",
+      "Browser_Maker": "unknown"
     },
-    "bolt": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Bolt",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "bolt": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Bolt",
+      "Browser_Maker": "unknown"
     },
-    "boxee": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Boxee",
-            "Browser_Maker": "Boxee, Inc."
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "boxee": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Boxee",
+      "Browser_Maker": "Boxee, Inc."
     },
-    "ccwap": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "ccWAP",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "ccwap": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "ccWAP",
+      "Browser_Maker": "unknown"
     },
-    "fantomas": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas",
+      "Browser_Maker": "unknown"
     },
-    "fantomas cloakbrowser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas cloakBrowser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas cloakbrowser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas cloakBrowser",
+      "Browser_Maker": "unknown"
     },
-    "fantomas fantombrowser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas fantomBrowser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas fantombrowser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas fantomBrowser",
+      "Browser_Maker": "unknown"
     },
-    "fantomas fantomcrew browser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas fantomCrew Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas fantomcrew browser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas fantomCrew Browser",
+      "Browser_Maker": "unknown"
     },
-    "fantomas multiblocker browser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas multiBlocker browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas multiblocker browser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas multiBlocker browser",
+      "Browser_Maker": "unknown"
     },
-    "fantomas shadowmaker browser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas shadowMaker Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas shadowmaker browser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas shadowMaker Browser",
+      "Browser_Maker": "unknown"
     },
-    "fantomas stealthbrowser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "fantomas stealthBrowser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "fantomas stealthbrowser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "fantomas stealthBrowser",
+      "Browser_Maker": "unknown"
     },
-    "hp secure web browser": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "HP Secure Web Browser",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "hp secure web browser": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "HP Secure Web Browser",
+      "Browser_Maker": "unknown"
     },
-    "iphone simulator": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "iPhone Simulator",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "iphone simulator": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "iPhone Simulator",
+      "Browser_Maker": "unknown"
     },
-    "lycoris desktop/lx": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Lycoris Desktop/LX",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "lycoris desktop/lx": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Lycoris Desktop/LX",
+      "Browser_Maker": "unknown"
     },
-    "mosaic": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Mosaic",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "mosaic": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Mosaic",
+      "Browser_Maker": "unknown"
     },
-    "netbox": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Netbox",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "netbox": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Netbox",
+      "Browser_Maker": "unknown"
     },
-    "netpositive": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "NetPositive",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": true
+  },
+  "netpositive": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "NetPositive",
+      "Browser_Maker": "unknown"
     },
-    "pocket pc": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "Pocket PC",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": false
+    "lite": false,
+    "standard": true
+  },
+  "pocket pc": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "Pocket PC",
+      "Browser_Maker": "unknown"
     },
-    "powertv": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "PowerTV",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
+    "lite": false,
+    "standard": false
+  },
+  "powertv": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "PowerTV",
+      "Browser_Maker": "unknown"
     },
-    "vms_mosaic": {
-        "type": "unknown",
-        "properties": {
-            "Browser": "VMS_Mosaic",
-            "Browser_Maker": "unknown"
-        },
-        "lite": false,
-        "standard": true
-    }
+    "lite": false,
+    "standard": true
+  },
+  "vms_mosaic": {
+    "type": "unknown",
+    "properties": {
+      "Browser": "VMS_Mosaic",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  }
 }

@@ -1,123 +1,123 @@
 {
-    "Archos 40b Titanium Surround": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "40b Titanium Surround",
-            "Device_Code_Name": "40b Titanium Surround",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+  "Archos 40b Titanium Surround": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "40b Titanium Surround",
+      "Device_Code_Name": "40b Titanium Surround",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos 50f Helium": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "50f Helium",
-            "Device_Code_Name": "50f Helium",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": true
+    "standard": false
+  },
+  "Archos 50f Helium": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "50f Helium",
+      "Device_Code_Name": "50f Helium",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos 70c": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "70c eReader",
-            "Device_Code_Name": "70c",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": true
+  },
+  "Archos 70c": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "70c eReader",
+      "Device_Code_Name": "70c",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A101B": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A101B",
-            "Device_Code_Name": "A101B",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A101B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A101B",
+      "Device_Code_Name": "A101B",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A43": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A43",
-            "Device_Code_Name": "A43",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A43": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A43",
+      "Device_Code_Name": "A43",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A70BH": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A70BH",
-            "Device_Code_Name": "A70BH",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A70BH": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A70BH",
+      "Device_Code_Name": "A70BH",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A70BHT": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A70BHT",
-            "Device_Code_Name": "A70BHT",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A70BHT": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A70BHT",
+      "Device_Code_Name": "A70BHT",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A70CHT": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A70CHT",
-            "Device_Code_Name": "A70CHT",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A70CHT": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A70CHT",
+      "Device_Code_Name": "A70CHT",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A70HB": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A70HB",
-            "Device_Code_Name": "A70HB",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A70HB": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A70HB",
+      "Device_Code_Name": "A70HB",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A70S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A70S",
-            "Device_Code_Name": "A70S",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
+    "standard": false
+  },
+  "Archos A70S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A70S",
+      "Device_Code_Name": "A70S",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
     },
-    "Archos A80KSC": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "A80KSC",
-            "Device_Code_Name": "A80KSC",
-            "Device_Maker": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Archos"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "Archos A80KSC": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A80KSC",
+      "Device_Code_Name": "A80KSC",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Archos"
+    },
+    "standard": false
+  }
 }

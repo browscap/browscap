@@ -1,13 +1,13 @@
 {
-    "BenQ P50": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "P50",
-            "Device_Code_Name": "P50",
-            "Device_Maker": "BenQ",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BenQ"
-        },
-        "standard": false
-    }
+  "BenQ P50": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P50",
+      "Device_Code_Name": "P50",
+      "Device_Maker": "BenQ",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BenQ"
+    },
+    "standard": false
+  }
 }

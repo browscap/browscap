@@ -1,13 +1,13 @@
 {
-    "iRU M1003G": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Pad Master",
-            "Device_Code_Name": "M1003G",
-            "Device_Maker": "iRU",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "iRU"
-        },
-        "standard": true
-    }
+  "iRU M1003G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pad Master",
+      "Device_Code_Name": "M1003G",
+      "Device_Maker": "iRU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iRU"
+    },
+    "standard": true
+  }
 }

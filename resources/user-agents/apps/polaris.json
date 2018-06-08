@@ -82,11 +82,11 @@
         },
         {
           "match": "#DEVICE#/* POLARIS/6.00 *",
-          "properties": {
-            "Version": "6.0"
-          },
           "devices": {
             "UTSTARCOM-GTX75": "UTStarcom GTX75"
+          },
+          "properties": {
+            "Version": "6.0"
           }
         },
         {

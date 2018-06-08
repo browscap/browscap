@@ -1,13 +1,13 @@
 {
-    "Raspberry Pi": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "Raspberry Pi",
-            "Device_Code_Name": "Raspberry Pi",
-            "Device_Maker": "Raspberry Pi Foundation",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Raspberry Pi Foundation"
-        },
-        "standard": true
-    }
+  "Raspberry Pi": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "Raspberry Pi",
+      "Device_Code_Name": "Raspberry Pi",
+      "Device_Maker": "Raspberry Pi Foundation",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Raspberry Pi Foundation"
+    },
+    "standard": true
+  }
 }

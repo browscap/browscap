@@ -190,8 +190,8 @@
       "userAgent": "Nokia Browser for Symbian",
       "browser": "nokia browser",
       "platform": "SymbianOS",
-      "device": "general Mobile Phone (Nokia)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Symbian",
@@ -210,10 +210,10 @@
         },
         {
           "match": "Mozilla/4.0 (compatible*; MSIE 5.0; Series80/2.0 #DEVICE#/*",
+          "engine": "unknown",
           "devices": {
             "Nokia9300i": "Nokia 9300i"
           },
-          "engine": "unknown",
           "platforms": [
             "SymbianOS"
           ]
@@ -373,8 +373,8 @@
       "userAgent": "Nokia Browser for Series30",
       "browser": "nokia browser",
       "platform": "Series30",
-      "device": "general Mobile Phone (Nokia)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Series30",
@@ -384,11 +384,11 @@
       "children": [
         {
           "match": "#DEVICE#/*",
+          "engine": "unknown",
           "devices": {
             "Nokia3510": "Nokia 3510",
             "Nokia3510i": "Nokia 3510i"
           },
-          "engine": "unknown",
           "platforms": [
             "Series30"
           ]
@@ -399,8 +399,8 @@
       "userAgent": "Nokia Browser for Java",
       "browser": "nokia browser",
       "platform": "JAVA",
-      "device": "general Mobile Phone (Nokia)",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser for Java",

@@ -1,90 +1,90 @@
 {
-    "ThL 4400": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "4400",
-            "Device_Code_Name": "4400",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+  "ThL 4400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "4400",
+      "Device_Code_Name": "4400",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL T6S": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T6S",
-            "Device_Code_Name": "T6S",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL T6S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T6S",
+      "Device_Code_Name": "T6S",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL T9": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "T9 Pro",
-            "Device_Code_Name": "T9",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL T9": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T9 Pro",
+      "Device_Code_Name": "T9",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL W1": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W1",
-            "Device_Code_Name": "W1",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL W1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W1",
+      "Device_Code_Name": "W1",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL W100": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W100",
-            "Device_Code_Name": "W100",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL W100": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W100",
+      "Device_Code_Name": "W100",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL W200": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W200",
-            "Device_Code_Name": "W200",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL W200": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W200",
+      "Device_Code_Name": "W200",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL W7": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W7",
-            "Device_Code_Name": "W7",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
+    "standard": false
+  },
+  "ThL W7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W7",
+      "Device_Code_Name": "W7",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
     },
-    "ThL W8": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "W8 Beyond",
-            "Device_Code_Name": "W8",
-            "Device_Maker": "ThL",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "ThL"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "ThL W8": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "W8 Beyond",
+      "Device_Code_Name": "W8",
+      "Device_Maker": "ThL",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ThL"
+    },
+    "standard": false
+  }
 }

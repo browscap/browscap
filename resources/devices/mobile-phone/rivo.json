@@ -1,13 +1,13 @@
 {
-    "Rivo RHYTHM RX75": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Rhythm RX75",
-            "Device_Code_Name": "RX75",
-            "Device_Maker": "Rivo",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Rivo"
-        },
-        "standard": false
-    }
+  "Rivo RHYTHM RX75": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Rhythm RX75",
+      "Device_Code_Name": "RX75",
+      "Device_Maker": "Rivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Rivo"
+    },
+    "standard": false
+  }
 }

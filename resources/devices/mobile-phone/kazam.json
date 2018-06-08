@@ -1,35 +1,35 @@
 {
-    "KAZAM Tornado 348": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Tornado 348",
-            "Device_Code_Name": "Tornado 348",
-            "Device_Maker": "KAZAM",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM"
-        },
-        "standard": false
+  "KAZAM Tornado 348": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Tornado 348",
+      "Device_Code_Name": "Tornado 348",
+      "Device_Maker": "KAZAM",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KAZAM"
     },
-    "KAZAM Trooper 2 5.0": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Trooper 2 5.0",
-            "Device_Code_Name": "Trooper 2 5.0",
-            "Device_Maker": "KAZAM",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM"
-        },
-        "standard": false
+    "standard": false
+  },
+  "KAZAM Trooper 2 5.0": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Trooper 2 5.0",
+      "Device_Code_Name": "Trooper 2 5.0",
+      "Device_Maker": "KAZAM",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KAZAM"
     },
-    "KAZAM Trooper X40": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "Trooper X40",
-            "Device_Code_Name": "Trooper X40",
-            "Device_Maker": "KAZAM",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KAZAM"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "KAZAM Trooper X40": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Trooper X40",
+      "Device_Code_Name": "Trooper X40",
+      "Device_Maker": "KAZAM",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KAZAM"
+    },
+    "standard": false
+  }
 }

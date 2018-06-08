@@ -8,9 +8,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Maemo",
       "browser": "opera mobile",
+      "platform": "Maemo",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
-      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -74,9 +74,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Symbian",
       "browser": "opera mobile",
+      "platform": "SymbianOS",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
-      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -94,9 +94,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for WinCE",
       "browser": "opera mobile",
+      "platform": "WinCE",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
-      "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -122,9 +122,9 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Java",
       "browser": "opera mobile",
+      "platform": "JAVA",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",

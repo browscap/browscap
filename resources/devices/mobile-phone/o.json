@@ -1,24 +1,24 @@
 {
-    "O+ 8.36 Android": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8.36 Android",
-            "Device_Code_Name": "8.36 Android",
-            "Device_Maker": "O+",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "O+"
-        },
-        "standard": false
+  "O+ 8.36 Android": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8.36 Android",
+      "Device_Code_Name": "8.36 Android",
+      "Device_Maker": "O+",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "O+"
     },
-    "O+ 8.96 Android": {
-        "type": "mobile-phone",
-        "properties": {
-            "Device_Name": "8.96 Android",
-            "Device_Code_Name": "8.96 Android",
-            "Device_Maker": "O+",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "O+"
-        },
-        "standard": false
-    }
+    "standard": false
+  },
+  "O+ 8.96 Android": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8.96 Android",
+      "Device_Code_Name": "8.96 Android",
+      "Device_Maker": "O+",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "O+"
+    },
+    "standard": false
+  }
 }

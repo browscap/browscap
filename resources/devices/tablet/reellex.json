@@ -1,13 +1,13 @@
 {
-    "Reellex TAB-97E-01": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "TAB-97E-01",
-            "Device_Code_Name": "TAB-97E-01",
-            "Device_Maker": "Reellex",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Reellex"
-        },
-        "standard": true
-    }
+  "Reellex TAB-97E-01": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "TAB-97E-01",
+      "Device_Code_Name": "TAB-97E-01",
+      "Device_Maker": "Reellex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Reellex"
+    },
+    "standard": true
+  }
 }

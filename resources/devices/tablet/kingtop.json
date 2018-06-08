@@ -1,13 +1,13 @@
 {
-    "KingTop KT07": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "KT07",
-            "Device_Code_Name": "KT07",
-            "Device_Maker": "KingTop",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "KingTop"
-        },
-        "standard": true
-    }
+  "KingTop KT07": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "KT07",
+      "Device_Code_Name": "KT07",
+      "Device_Maker": "KingTop",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "KingTop"
+    },
+    "standard": true
+  }
 }
