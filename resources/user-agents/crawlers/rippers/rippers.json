@@ -952,6 +952,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Snacktory; +*)",
           "browser": "snacktory"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) AppleWebKit/* (KHTML, like Gecko) splash Version/* Safari/*",
+          "browser": "splash"
         }
       ]
     }
