@@ -3035,7 +3035,7 @@
       }
     },
     "Tizen_Dynamic": {
-      "match": "*Linux;*Tizen #MAJORVER#.#MINORVER#*",
+      "match": "*Linux*Tizen #MAJORVER#.#MINORVER#*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3044,7 +3044,7 @@
       }
     },
     "Tizen_4_0": {
-      "match": "*Linux;*Tizen 4.0*",
+      "match": "*Linux*Tizen 4.0*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3053,7 +3053,7 @@
       }
     },
     "Tizen_3_0": {
-      "match": "*Linux;*Tizen 3.0*",
+      "match": "*Linux*Tizen 3.0*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3062,7 +3062,7 @@
       }
     },
     "Tizen_2_4": {
-      "match": "*Linux;*Tizen 2.4*",
+      "match": "*Linux*Tizen 2.4*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3071,7 +3071,7 @@
       }
     },
     "Tizen_2_3": {
-      "match": "*Linux;*Tizen 2.3*",
+      "match": "*Linux*Tizen 2.3*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3080,7 +3080,7 @@
       }
     },
     "Tizen_2_2": {
-      "match": "*Linux;*Tizen 2.2*",
+      "match": "*Linux*Tizen 2.2*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3089,7 +3089,7 @@
       }
     },
     "Tizen_2_1": {
-      "match": "*Linux;*Tizen 2.1*",
+      "match": "*Linux*Tizen 2.1*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3098,7 +3098,7 @@
       }
     },
     "Tizen_2_0": {
-      "match": "*Linux;*Tizen 2.0*",
+      "match": "*Linux*Tizen 2.0*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -3107,7 +3107,7 @@
       }
     },
     "Tizen": {
-      "match": "*Linux;*Tizen*",
+      "match": "*Linux*Tizen*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -5677,7 +5677,7 @@
       }
     },
     "webOS 3.0 (LG)": {
-      "match": "*web0S*",
+      "match": "*web0S*Linux/SmartTV*",
       "lite": false,
       "standard": true,
       "inherits": "webOS (LG)",
@@ -5686,7 +5686,7 @@
       }
     },
     "webOS 2.0 (LG)": {
-      "match": "*web0S*",
+      "match": "*web0S*Linux/SmartTV*",
       "lite": false,
       "standard": true,
       "inherits": "webOS (LG)",
@@ -5695,7 +5695,7 @@
       }
     },
     "webOS (LG)": {
-      "match": "*web0S*",
+      "match": "*web0S*Linux/SmartTV*",
       "lite": false,
       "standard": true,
       "properties": {

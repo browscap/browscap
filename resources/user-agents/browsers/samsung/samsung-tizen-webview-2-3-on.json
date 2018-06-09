@@ -1,6 +1,6 @@
 {
   "division": "Samsung WebView #MAJORVER#.#MINORVER#",
-  "versions": [4, 3, "2.3"],
+  "versions": [4, 3, "2.4", "2.3"],
   "sortIndex": 955,
   "lite": false,
   "standard": true,

@@ -38,12 +38,6 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "platforms": [
-            "Linux_64", "Linux"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/5.1* Safari/*",
           "platforms": [
             "Linux_64", "Linux"
@@ -69,6 +63,12 @@
           "properties": {
             "Version": "4.0"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
         }
       ]
     }

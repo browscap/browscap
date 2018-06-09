@@ -6,6 +6,27 @@
   "standard": true,
   "userAgents": [
     {
+      "userAgent": "Chrome #MAJORVER#.#MINORVER# for TV",
+      "browser": "chrome",
+      "platform": "webOS 3.0 (LG)",
+      "engine": "Blink",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome #MAJORVER#.#MINORVER# for TV",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "LG TV",
+          "platforms": [
+            "webOS 3.0 (LG)"
+          ]
+        }
+      ]
+    },
+    {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "browser": "chrome",
       "engine": "Blink",
@@ -109,27 +130,6 @@
           "device": "Google Chromecast",
           "platforms": [
             "Chromecast_OS_ARM"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Chrome #MAJORVER#.#MINORVER# for TV",
-      "browser": "chrome",
-      "platform": "webOS 3.0 (LG)",
-      "engine": "Blink",
-      "device": "general TV Device",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Chrome #MAJORVER#.#MINORVER# for TV",
-        "Version": "#MAJORVER#.#MINORVER#"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "LG TV",
-          "platforms": [
-            "webOS 3.0 (LG)"
           ]
         }
       ]
