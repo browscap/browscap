@@ -254,6 +254,10 @@
         {
           "match": "SentiBot*",
           "browser": "sentibot"
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X*) AppleWebKit/* (*khtml*like*gecko*) ShopSpring SpringBot Safari/*",
+          "browser": "springbot"
         }
       ]
     }
