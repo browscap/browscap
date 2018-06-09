@@ -66,7 +66,7 @@ return [
             'Browser' => 'proximic',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Proximic, Inc.',
+            'Browser_Maker' => 'comScore, Inc.',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'unknown',

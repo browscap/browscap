@@ -606,7 +606,7 @@
           "browser": "queryseekerspider"
         },
         {
-          "match": "Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)*",
+          "match": "Mozilla/5.0 (compatible; proximic; *",
           "browser": "proximic"
         },
         {
