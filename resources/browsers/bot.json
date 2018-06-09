@@ -7460,6 +7460,15 @@
     "lite": false,
     "standard": true
   },
+  "mauibot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MauiBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "maxamine.com--robot": {
     "type": "bot",
     "properties": {

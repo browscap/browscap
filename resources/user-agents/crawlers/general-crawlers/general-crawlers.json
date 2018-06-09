@@ -1986,6 +1986,10 @@
         {
           "match": "Mixmax-LinkPreview *",
           "browser": "mixmax link preview"
+        },
+        {
+          "match": "MauiBot *",
+          "browser": "mauibot"
         }
       ]
     }
