@@ -38,7 +38,7 @@
     "seld/jsonlint": "^1.6",
     "symfony/console": "^3.3 || ^4.0",
     "symfony/finder": "^3.3 || ^4.0",
-    "twig/twig": "~2.4"
+    "twig/twig": "^2.4"
   },
   "require-dev": {
     "browscap/browscap-php": "^3.1.0",

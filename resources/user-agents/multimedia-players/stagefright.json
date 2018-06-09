@@ -20,10 +20,26 @@
         {
           "match": "#DEVICE# stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "devices": {
+            "Samsung GT-N7100": "Samsung GT-N7100",
             "Samsung SM-N9005": "Samsung SM-N9005"
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "SAMSUNG* stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "SAMSUNG* stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         },
         {
@@ -39,6 +55,15 @@
           "device": "general Tablet",
           "platforms": [
             "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        },
+        {
+          "match": "stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#)*",
+          "devices": {
+            "LG-P713*": "LG P713"
+          },
+          "platforms": [
+            "Android"
           ]
         },
         {
