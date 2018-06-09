@@ -11627,6 +11627,15 @@
     "lite": false,
     "standard": true
   },
+  "springbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SpringBot",
+      "Browser_Maker": "Springbot, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "sprinklr": {
     "type": "bot",
     "properties": {
