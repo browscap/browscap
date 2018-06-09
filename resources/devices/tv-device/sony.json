@@ -75,5 +75,38 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": true
+  },
+  "Sony KD-43X8305C": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 4K 2015",
+      "Device_Code_Name": "KD-43X8305C",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Bravia 2015": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 2015",
+      "Device_Code_Name": "Bravia 2015",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Bravia 4K GB": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 4K GB",
+      "Device_Code_Name": "Bravia 4K GB",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
   }
 }

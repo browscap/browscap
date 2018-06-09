@@ -1,0 +1,13 @@
+{
+    "HXWS HX S905": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "HX S905",
+            "Device_Code_Name": "HX S905",
+            "Device_Maker": "HXWS",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "HXWS"
+        },
+        "standard": true
+    }
+}

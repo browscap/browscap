@@ -20,5 +20,16 @@
       "Device_Brand_Name": "Gionee"
     },
     "standard": false
+  },
+  "Gionee E7T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Elife E7T",
+      "Device_Code_Name": "E7T",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
   }
 }

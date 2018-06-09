@@ -49,7 +49,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*#DEVICE#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*#DEVICE#*",
           "devices": {
             "LGE; 49UH668V": "LG 49UH668V"
           },
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "platforms": [
             "webOS 3.0 (LG)"
           ]

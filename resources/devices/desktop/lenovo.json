@@ -1,0 +1,13 @@
+{
+    "Lenovo N23 Yoga/Flex 11 Chromebook": {
+        "type": "desktop",
+        "properties": {
+            "Device_Name": "N23 Yoga/Flex 11",
+            "Device_Code_Name": "N23 Yoga/Flex 11",
+            "Device_Maker": "Lenovo",
+            "Device_Pointing_Method": "mouse",
+            "Device_Brand_Name": "Lenovo"
+        },
+        "standard": true
+    }
+}

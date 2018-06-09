@@ -251,5 +251,159 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer B3-A30": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "B3-A30",
+      "Device_Code_Name": "B3-A30",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A20": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A20",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A20B": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A20B",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A32": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A32",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer A1-840": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab 8",
+      "Device_Code_Name": "A1-840",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A40": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A40",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-850": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 8",
+      "Device_Code_Name": "B1-850",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-770": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 7",
+      "Device_Code_Name": "B1-770",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer A3-A50": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia Tab 10",
+      "Device_Code_Name": "A3-A50",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-720": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia B1",
+      "Device_Code_Name": "B1-720",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B3-A10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 10",
+      "Device_Code_Name": "B3-A10",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-750": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 7",
+      "Device_Code_Name": "B1-750",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer GT-810": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Predator 8",
+      "Device_Code_Name": "GT-810",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
+  },
+  "Acer B1-810": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Iconia One 8",
+      "Device_Code_Name": "B1-810",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

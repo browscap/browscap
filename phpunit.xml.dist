@@ -11,6 +11,7 @@
     verbose="false"
     bootstrap="vendor/autoload.php"
     failOnWarning="true"
+    failOnRisky="true"
     >
     <php>
         <ini name="error_reporting" value="-1"/>

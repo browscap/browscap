@@ -104,6 +104,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "9005X": "Alcatel 9005X",
             "D6603": "Sony D6603",
             "Lenovo A328": "Lenovo A328",
             "Lenovo A536": "Lenovo A536",
@@ -554,7 +555,7 @@
             "TAB785DUAL": "Sunstech TAB785DUAL",
             "TAD-70112 PO8292": "Denver TAD-70112",
             "teXet_X-medium_plus": "TeXet TM-4872",
-            "TI320-DU": "LV TI320-DU",
+            "TI320-DU": "LG TI320-DU",
             "tolino tab 7": "Tolino Tab 7",
             "tolino tab 8.9": "Tolino Tab 8.9",
             "TX97": "Irbis TX97",
@@ -567,6 +568,7 @@
             "VT10416-1": "TrekStor VT10416-1",
             "VT10416-2": "TrekStor VT10416-2",
             "Xenoon": "Alps Xenoon",
+            "Xperia Live*": "Sony Xperia Live",
             "Xperia S": "Sony Xperia S",
             "YPY_S500": "Positivo YPY S500",
             "ZP980": "ZOPO ZP980",
@@ -686,7 +688,7 @@
             "Surfer 8.31 3G": "Explay Surfer 8.31 3G",
             "TechniPad_10-3G": "TechniSat TechniPad 10 3G",
             "TOUAREG8_3G": "Accent Touareg8 3G",
-            "TP10.1-1500DC-metal": "I-ONIK TP10",
+            "TP10.1-1500DC*": "I-ONIK TP10",
             "Xelio 7 pro": "Odys Xelio 7 Pro"
           },
           "platforms": [

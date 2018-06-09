@@ -581,5 +581,16 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": false
+  },
+  "Sony Xperia Live": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Live",
+      "Device_Code_Name": "Xperia Live",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
   }
 }

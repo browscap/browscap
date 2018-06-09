@@ -1,6 +1,6 @@
 {
   "division": "SmartViera #MAJORVER#.#MINORVER#",
-  "versions": ["3.4", "3.3", "3.2", "3.1", "1.5"],
+  "versions": ["3.20", "3.14", "3.4", "3.3", "3.2", "3.1", "1.5"],
   "sortIndex": 1148,
   "lite": false,
   "standard": true,
@@ -18,9 +18,9 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#; Viera; *) applewebkit* (*khtml*like*gecko*) Viera/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM# Viera*) applewebkit* (*khtml*like*gecko*) Viera/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
           "platforms": [
-            "FreeBSD"
+            "FreeBSD", "Linux"
           ]
         }
       ]

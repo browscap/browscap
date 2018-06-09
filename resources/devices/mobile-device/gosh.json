@@ -1,0 +1,13 @@
+{
+    "gosh! easyPlay": {
+        "type": "mobile-device",
+        "properties": {
+            "Device_Name": "easyPlay",
+            "Device_Code_Name": "easyPlay",
+            "Device_Maker": "gosh!",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "gosh!"
+        },
+        "standard": true
+    }
+}

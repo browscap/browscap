@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Logicom"
     },
     "standard": true
+  },
+  "Logicom L-IXIR TAB 701 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "L-IXIR TAB 701 3G",
+      "Device_Code_Name": "L-IXIR TAB 701 3G",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
   }
 }

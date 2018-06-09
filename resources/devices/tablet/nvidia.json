@@ -1,0 +1,24 @@
+{
+    "Nvidia Shield": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "Shield",
+            "Device_Code_Name": "Shield",
+            "Device_Maker": "Nvidia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nvidia"
+        },
+        "standard": true
+    },
+    "Nvidia Shield K1": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "Shield K1",
+            "Device_Code_Name": "Shield K1",
+            "Device_Maker": "Nvidia",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Nvidia"
+        },
+        "standard": true
+    }
+}

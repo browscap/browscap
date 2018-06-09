@@ -53,5 +53,16 @@
       "Device_Brand_Name": "Ainol"
     },
     "standard": true
+  },
+  "Ainol Numy 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Numy 3G",
+      "Device_Code_Name": "AX10t",
+      "Device_Maker": "Ainol",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Ainol"
+    },
+    "standard": true
   }
 }

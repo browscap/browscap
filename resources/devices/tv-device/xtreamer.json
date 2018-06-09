@@ -1,0 +1,13 @@
+{
+    "Xtreamer Wonder": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Wonder",
+            "Device_Code_Name": "Wonder",
+            "Device_Maker": "Xtreamer",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Xtreamer"
+        },
+        "standard": true
+    }
+}

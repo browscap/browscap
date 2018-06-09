@@ -1,0 +1,13 @@
+{
+    "Toumei C800": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "C800",
+            "Device_Code_Name": "C800",
+            "Device_Maker": "Toumei",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Toumei"
+        },
+        "standard": true
+    }
+}

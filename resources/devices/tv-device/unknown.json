@@ -9,5 +9,27 @@
       "Device_Brand_Name": "unknown"
     },
     "standard": true
+  },
+  "unknown H96 max": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "H96 max",
+      "Device_Code_Name": "H96 max",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
+  },
+  "unknown Modeo": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Modeo",
+      "Device_Code_Name": "Modeo",
+      "Device_Maker": "unknown",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "unknown"
+    },
+    "standard": true
   }
 }

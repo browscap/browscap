@@ -8,7 +8,7 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Philips"
     },
-    "standard": false
+    "standard": true
   },
   "Philips MT5580": {
     "type": "tv",
@@ -19,6 +19,94 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Philips"
     },
-    "standard": false
+    "standard": true
+  },
+  "Philips TPM171E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TPM171E",
+      "Device_Code_Name": "TPM171E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM161E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM161E",
+      "Device_Code_Name": "QM161E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM151E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM151E",
+      "Device_Code_Name": "QM151E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM164E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM164E",
+      "Device_Code_Name": "QM164E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM163E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM163E",
+      "Device_Code_Name": "QM163E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM153E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM153E",
+      "Device_Code_Name": "QM153E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QM152E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QM152E",
+      "Device_Code_Name": "QM152E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
+  },
+  "Philips QV151E": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "QV151E",
+      "Device_Code_Name": "QV151E",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": true
   }
 }

@@ -1,0 +1,13 @@
+{
+    "R-Box Pro 3G": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Pro 3G",
+            "Device_Code_Name": "Pro 3G",
+            "Device_Maker": "R-Box",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "R-Box"
+        },
+        "standard": true
+    }
+}

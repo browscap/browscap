@@ -1,0 +1,13 @@
+{
+    "Vorke Z1": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Z1",
+            "Device_Code_Name": "Z1",
+            "Device_Maker": "Vorke",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Vorke"
+        },
+        "standard": true
+    }
+}

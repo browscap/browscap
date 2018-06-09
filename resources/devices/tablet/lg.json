@@ -75,5 +75,27 @@
       "Device_Brand_Name": "LG"
     },
     "standard": true
+  },
+  "LG V480": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 8.0 Wi-Fi",
+      "Device_Code_Name": "V480",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": true
+  },
+  "LG V400": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "G Pad 7.0 Wi-Fi",
+      "Device_Code_Name": "V400",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": true
   }
 }

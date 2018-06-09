@@ -1,0 +1,46 @@
+{
+    "Mecool M8S Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "M8S Pro",
+            "Device_Code_Name": "M8S Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    },
+    "Mecool M8S Pro L": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "M8S Pro L",
+            "Device_Code_Name": "M8S Pro L",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    },
+    "Mecool BB2 Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "BB2 Pro",
+            "Device_Code_Name": "BB2 Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    },
+    "Mecool KIII Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "KIII Pro",
+            "Device_Code_Name": "KIII Pro",
+            "Device_Maker": "Mecool",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Mecool"
+        },
+        "standard": true
+    }
+}

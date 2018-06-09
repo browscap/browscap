@@ -21,13 +21,13 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/*",
           "platforms": [
             "webOS 2.0 (LG)"
           ]
         },
         {
-          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/*",
           "platforms": [
             "webOS 3.0 (LG)"
           ]

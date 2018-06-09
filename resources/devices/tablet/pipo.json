@@ -75,5 +75,16 @@
       "Device_Brand_Name": "PiPO"
     },
     "standard": true
+  },
+  "PiPO P1 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P1 3G",
+      "Device_Code_Name": "P1 3G",
+      "Device_Maker": "PiPO Technology",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "PiPO"
+    },
+    "standard": true
   }
 }

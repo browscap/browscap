@@ -9,5 +9,16 @@
       "Device_Brand_Name": "Xiaomi"
     },
     "standard": true
+  },
+  "Xiaomi Mi Pad 3": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mi Pad 3",
+      "Device_Code_Name": "Mi Pad 3",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": true
   }
 }

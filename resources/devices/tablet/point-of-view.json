@@ -42,5 +42,27 @@
       "Device_Brand_Name": "Point of View"
     },
     "standard": true
+  },
+  "Point of View Pov Tab PR945": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pov Tab PR945",
+      "Device_Code_Name": "Pov Tab PR945",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
+    },
+    "standard": true
+  },
+  "Point of View TAB-P1026 V3.0": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Mobii 1026",
+      "Device_Code_Name": "TAB-P1026 V3.0",
+      "Device_Maker": "Point of View",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Point of View"
+    },
+    "standard": true
   }
 }

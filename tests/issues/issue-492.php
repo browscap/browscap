@@ -1862,7 +1862,7 @@ return [
             'isAnonymized' => false,
             'isModified' => false,
             'CssVersion' => '3',
-            'Device_Name' => 'Galaxy Tab 4 10.1 WiFi',
+            'Device_Name' => 'Galaxy Tab 4 10.1 Wi-Fi',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

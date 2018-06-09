@@ -1,0 +1,13 @@
+{
+    "TCL P17AA": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "Xess",
+            "Device_Code_Name": "P17AA",
+            "Device_Maker": "TCL",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TCL"
+        },
+        "standard": true
+    }
+}

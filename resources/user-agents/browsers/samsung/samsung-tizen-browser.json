@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.3", 2, "1.1", 1],
+  "versions": ["2.4", "2.3", 2, "1.1", 1],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -18,8 +18,8 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV;#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "Smart-TV",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "Samsung Smart-TV",
           "platforms": [
             "Tizen_3_0",
             "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",

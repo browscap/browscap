@@ -97,5 +97,60 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": true
+  },
+  "Sony SGP771": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z4 LTE",
+      "Device_Code_Name": "SGP771",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony SGP611": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z3 Compact WiFi",
+      "Device_Code_Name": "SGP611",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony SGP311": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z Wi-Fi",
+      "Device_Code_Name": "SGP311",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony SGP621": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z3 Compact LTE",
+      "Device_Code_Name": "SGP621",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony SGP712": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Xperia Z4 Wi-Fi",
+      "Device_Code_Name": "SGP712",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
   }
 }

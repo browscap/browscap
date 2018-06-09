@@ -8,6 +8,6 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Humax"
     },
-    "standard": false
+    "standard": true
   }
 }

@@ -260,7 +260,7 @@
             "ME172V": "Asus ME172V",
             "ST10216-2": "TrekStor ST10216-2",
             "TechniPad_10-3G": "TechniSat TechniPad 10 3G",
-            "TP10.1-1500DC-metal": "I-ONIK TP10",
+            "TP10.1-1500DC*": "I-ONIK TP10",
             "Xelio 7 pro": "Odys Xelio 7 Pro"
           },
           "platforms": [

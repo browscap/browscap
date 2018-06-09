@@ -21,7 +21,7 @@
     },
     "standard": true
   },
-  "Smart-TV": {
+  "Samsung Smart-TV": {
     "type": "tv",
     "properties": {
       "Device_Name": "Smart TV",

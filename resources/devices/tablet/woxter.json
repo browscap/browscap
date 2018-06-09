@@ -1,0 +1,13 @@
+{
+    "Woxter QX105": {
+        "type": "tablet",
+        "properties": {
+            "Device_Name": "QX105",
+            "Device_Code_Name": "QX105",
+            "Device_Maker": "Woxter",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Woxter"
+        },
+        "standard": true
+    }
+}

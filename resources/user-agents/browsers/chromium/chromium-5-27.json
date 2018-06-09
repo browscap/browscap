@@ -18,8 +18,8 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV; X11; Linux armv7l) applewebkit* (*khtml*like*gecko*) Chromium/#MAJORVER#.*Chrome/*Safari/*",
-          "device": "Smart-TV",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "device": "Samsung Smart-TV",
           "platforms": [
             "Linux"
           ]

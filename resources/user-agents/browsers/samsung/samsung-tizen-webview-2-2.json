@@ -1,7 +1,7 @@
 {
   "division": "Samsung WebView #MAJORVER#.#MINORVER#",
-  "versions": [3, "2.3", "2.2", 1],
-  "sortIndex": 955,
+  "versions": ["2.2"],
+  "sortIndex": 956,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -18,28 +18,25 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV; #PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
           "devices": {
             "SM-Z910F": "Samsung SM-Z910F"
           },
           "platforms": [
-            "Tizen_2_2"
+            "Tizen_Dynamic"
           ]
         },
         {
-          "match": "Mozilla/5.0 (SMART-TV; #PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
-          "device": "Smart-TV",
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
+          "device": "Samsung Smart-TV",
           "platforms": [
-            "Tizen_2_3", "Tizen_2_2",
-            "Tizen"
+            "Tizen_Dynamic"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
           "platforms": [
-            "Tizen_3_0",
-            "Tizen_2_3", "Tizen_2_2",
-            "Tizen"
+            "Tizen_Dynamic"
           ]
         }
       ]

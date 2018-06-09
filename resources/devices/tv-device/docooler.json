@@ -1,0 +1,24 @@
+{
+    "Docooler A5X Plus": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "A5X Plus",
+            "Device_Code_Name": "A5X Plus",
+            "Device_Maker": "Docooler",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Docooler"
+        },
+        "standard": true
+    },
+    "Docooler Z28": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Z28",
+            "Device_Code_Name": "Z28",
+            "Device_Maker": "Docooler",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Docooler"
+        },
+        "standard": true
+    }
+}

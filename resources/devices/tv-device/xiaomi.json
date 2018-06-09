@@ -1,0 +1,13 @@
+{
+    "Xiaomi Mi Box 3": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "Mi Box 3",
+            "Device_Code_Name": "Mi Box 3",
+            "Device_Maker": "Xiaomi Tech",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Xiaomi"
+        },
+        "standard": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Sunvell T95Kpro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "T95Kpro",
+            "Device_Code_Name": "T95Kpro",
+            "Device_Maker": "Sunvell",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Sunvell"
+        },
+        "standard": true
+    }
+}

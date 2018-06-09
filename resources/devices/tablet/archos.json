@@ -141,5 +141,27 @@
       "Device_Brand_Name": "Archos"
     },
     "standard": true
+  },
+  "Archos 101 Magnus": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "101 Magnus",
+      "Device_Code_Name": "101 Magnus",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
+    },
+    "standard": true
+  },
+  "Archos 79b Neon": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "79b Neon",
+      "Device_Code_Name": "79b Neon",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
+    },
+    "standard": true
   }
 }

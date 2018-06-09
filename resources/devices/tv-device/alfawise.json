@@ -1,0 +1,46 @@
+{
+    "Alfawise H96 Pro+": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "H96 Pro+",
+            "Device_Code_Name": "H96 Pro+",
+            "Device_Maker": "Alfawise",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Alfawise"
+        },
+        "standard": true
+    },
+    "Alfawise H96 Pro": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "H96 Pro",
+            "Device_Code_Name": "H96 Pro",
+            "Device_Maker": "Alfawise",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Alfawise"
+        },
+        "standard": true
+    },
+    "Alfawise A95X R1": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "A95X R1",
+            "Device_Code_Name": "A95X R1",
+            "Device_Maker": "Alfawise",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Alfawise"
+        },
+        "standard": true
+    },
+    "Alfawise S92": {
+        "type": "tv",
+        "properties": {
+            "Device_Name": "S92",
+            "Device_Code_Name": "S92",
+            "Device_Maker": "Alfawise",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Alfawise"
+        },
+        "standard": true
+    }
+}

@@ -86,5 +86,27 @@
       "Device_Brand_Name": "Cube"
     },
     "standard": true
+  },
+  "Cube U65GT": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Talk 9X",
+      "Device_Code_Name": "U65GT",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
+    },
+    "standard": true
+  },
+  "Cube T8 Plus 4G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "T8 Plus 4G",
+      "Device_Code_Name": "T8 Plus 4G",
+      "Device_Maker": "Cube",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cube"
+    },
+    "standard": true
   }
 }

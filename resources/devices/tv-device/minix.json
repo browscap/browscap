@@ -8,6 +8,61 @@
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Minix"
     },
-    "standard": false
+    "standard": true
+  },
+  "Minix NEO U1": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "NEO U1",
+      "Device_Code_Name": "NEO U1",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": true
+  },
+  "Minix NEO U9-H": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "NEO U9-H",
+      "Device_Code_Name": "NEO U9-H",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": true
+  },
+  "Minix Neo X8-H": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Neo X8-H",
+      "Device_Code_Name": "Neo X8-H",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": true
+  },
+  "Minix Neo X8H Plus": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Neo X8H Plus",
+      "Device_Code_Name": "Neo X8H Plus",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": true
+  },
+  "Minix Neo X7 216A": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Neo X7 216A",
+      "Device_Code_Name": "Neo X7 216A",
+      "Device_Maker": "Minix",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Minix"
+    },
+    "standard": true
   }
 }
