@@ -9840,7 +9840,7 @@
     "type": "bot",
     "properties": {
       "Browser": "proximic",
-      "Browser_Maker": "Proximic, Inc."
+      "Browser_Maker": "comScore, Inc."
     },
     "lite": false,
     "standard": true
