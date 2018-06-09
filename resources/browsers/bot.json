@@ -7424,6 +7424,15 @@
     "lite": false,
     "standard": true
   },
+  "mailpoet cron service": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MailPoet Cron Service",
+      "Browser_Maker": "Wysija SARL"
+    },
+    "lite": false,
+    "standard": true
+  },
   "mapoftheinternet": {
     "type": "bot",
     "properties": {

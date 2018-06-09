@@ -1990,6 +1990,17 @@
         {
           "match": "MauiBot *",
           "browser": "mauibot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MailPoet Cron/1.0*",
+          "browser": "mailpoet cron service",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MailPoet Cron/*",
+          "browser": "mailpoet cron service"
         }
       ]
     }
