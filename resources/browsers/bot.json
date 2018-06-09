@@ -11645,6 +11645,15 @@
     "lite": false,
     "standard": true
   },
+  "splash": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Splash",
+      "Browser_Maker": "Scrapinghub Limited"
+    },
+    "lite": false,
+    "standard": true
+  },
   "sprinklr": {
     "type": "bot",
     "properties": {

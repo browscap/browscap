@@ -1990,6 +1990,10 @@
         {
           "match": "MauiBot *",
           "browser": "mauibot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) AppleWebKit/* (KHTML, like Gecko) splash Version/* Safari/*",
+          "browser": "splash"
         }
       ]
     }
