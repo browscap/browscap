@@ -69,40 +69,49 @@ class LiteTest extends TestCase
 
         $version = (string) $buildNumber;
 
-        $logger               = new NullLogger();
-        $writerCollection     = new WriterCollection();
-        self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new LiteFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
-        $formatter            = new PhpFormatter(self::$propertyHolder);
-        self::$writer->setFormatter($formatter);
-        self::$writer->setFilter(self::$filter);
-        $writerCollection->addWriter(self::$writer);
+        try {
+            $logger               = new NullLogger();
+            $writerCollection     = new WriterCollection();
+            self::$propertyHolder = new PropertyHolder();
+            self::$filter         = new LiteFilter(self::$propertyHolder);
+            self::$writer         = new IniWriter($buildFolder . '/lite_php_browscap.ini', $logger);
+            $formatter            = new PhpFormatter(self::$propertyHolder);
+            self::$writer->setFormatter($formatter);
+            self::$writer->setFilter(self::$filter);
+            $writerCollection->addWriter(self::$writer);
 
-        $dataCollectionFactory = new DataCollectionFactory($logger);
+            $dataCollectionFactory = new DataCollectionFactory($logger);
 
-        $buildGenerator = new BuildGenerator(
-            $resourceFolder,
-            $buildFolder,
-            $logger,
-            $writerCollection,
-            $dataCollectionFactory
-        );
+            $buildGenerator = new BuildGenerator(
+                $resourceFolder,
+                $buildFolder,
+                $logger,
+                $writerCollection,
+                $dataCollectionFactory
+            );
 
-        $buildGenerator->setCollectPatternIds(true);
-        $buildGenerator->run($version, false);
+            $buildGenerator->setCollectPatternIds(true);
+            $buildGenerator->run($version, false);
 
-        $memoryCache = new ArrayCache();
-        $cache       = new SimpleCacheAdapter($memoryCache);
-        $cache->clear();
+            $memoryCache = new ArrayCache();
+            $cache       = new SimpleCacheAdapter($memoryCache);
+            $cache->clear();
 
-        $resultFormatter = new LegacyFormatter();
+            $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap($cache, $logger);
-        self::$browscap->setFormatter($resultFormatter);
+            self::$browscap = new Browscap($cache, $logger);
+            self::$browscap->setFormatter($resultFormatter);
 
-        $updater = new BrowscapUpdater($cache, $logger);
-        $updater->convertFile($buildFolder . '/lite_php_browscap.ini');
+            $updater = new BrowscapUpdater($cache, $logger);
+            $updater->convertFile($buildFolder . '/lite_php_browscap.ini');
+        } catch (\Exception $e) {
+            die(sprintf(
+                'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
+                __CLASS__,
+                get_class($e),
+                $e->getMessage()
+            ));
+        }
     }
 
     /**
