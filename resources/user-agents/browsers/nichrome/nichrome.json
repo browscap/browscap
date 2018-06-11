@@ -1,6 +1,6 @@
 {
   "division": "Nichrome #MAJORVER#.#MINORVER#",
-  "versions": [40, 33, 30, 27],
+  "versions": [40, 38, 33, 30, 29, 27],
   "sortIndex": 1070,
   "lite": false,
   "standard": true,

@@ -21,6 +21,7 @@
             "iPhone": "iPhone"
           },
           "platforms": [
+            "iOS_I_11_3", "iOS_I_11_2", "iOS_I_11_1", "iOS_I_11_0",
             "iOS_I_10_3", "iOS_I_10_2", "iOS_I_10_1",
             "iOS_I"
           ]

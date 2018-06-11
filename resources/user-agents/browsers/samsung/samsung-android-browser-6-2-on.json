@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.2", 7, "6.4", "6.3", "6.2"],
+  "versions": ["7.4", "7.2", 7, "6.4", "6.3", "6.2"],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
