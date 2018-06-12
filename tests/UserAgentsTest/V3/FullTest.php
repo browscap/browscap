@@ -73,45 +73,54 @@ class FullTest extends TestCase
 
         $version = (string) $buildNumber;
 
-        $logger               = new NullLogger();
-        $writerCollection     = new WriterCollection();
-        self::$propertyHolder = new PropertyHolder();
-        self::$filter         = new FullFilter(self::$propertyHolder);
-        self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
-        $formatter            = new PhpFormatter(self::$propertyHolder);
-        self::$writer->setFormatter($formatter);
-        self::$writer->setFilter(self::$filter);
-        $writerCollection->addWriter(self::$writer);
+        try {
+            $logger               = new NullLogger();
+            $writerCollection     = new WriterCollection();
+            self::$propertyHolder = new PropertyHolder();
+            self::$filter         = new FullFilter(self::$propertyHolder);
+            self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
+            $formatter            = new PhpFormatter(self::$propertyHolder);
+            self::$writer->setFormatter($formatter);
+            self::$writer->setFilter(self::$filter);
+            $writerCollection->addWriter(self::$writer);
 
-        $dataCollectionFactory = new DataCollectionFactory($logger);
+            $dataCollectionFactory = new DataCollectionFactory($logger);
 
-        $buildGenerator = new BuildGenerator(
-            $resourceFolder,
-            $buildFolder,
-            $logger,
-            $writerCollection,
-            $dataCollectionFactory
-        );
+            $buildGenerator = new BuildGenerator(
+                $resourceFolder,
+                $buildFolder,
+                $logger,
+                $writerCollection,
+                $dataCollectionFactory
+            );
 
-        $buildGenerator->setCollectPatternIds(true);
-        $buildGenerator->run($version, false);
+            $buildGenerator->setCollectPatternIds(true);
+            $buildGenerator->run($version, false);
 
-        $cache = new File([File::DIR => $cacheFolder]);
-        $cache->flush();
+            $cache = new File([File::DIR => $cacheFolder]);
+            $cache->flush();
 
-        $resultFormatter = new LegacyFormatter();
+            $resultFormatter = new LegacyFormatter();
 
-        self::$browscap = new Browscap();
-        self::$browscap
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->setFormatter($resultFormatter);
+            self::$browscap = new Browscap();
+            self::$browscap
+                ->setCache($cache)
+                ->setLogger($logger)
+                ->setFormatter($resultFormatter);
 
-        self::$browscapUpdater = new BrowscapUpdater();
-        self::$browscapUpdater
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->convertFile($buildFolder . '/full_php_browscap.ini');
+            self::$browscapUpdater = new BrowscapUpdater();
+            self::$browscapUpdater
+                ->setCache($cache)
+                ->setLogger($logger)
+                ->convertFile($buildFolder . '/full_php_browscap.ini');
+        } catch (\Exception $e) {
+            die(sprintf(
+                'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
+                __CLASS__,
+                get_class($e),
+                $e->getMessage()
+            ));
+        }
     }
 
     /**
