@@ -6844,8 +6844,19 @@
   "Samsung SM-G950F": {
     "type": "mobile-phone",
     "properties": {
-      "Device_Name": "Galaxy S8",
+      "Device_Name": "Galaxy S8 (Global)",
       "Device_Code_Name": "SM-G950F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-G950U": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S8 (US Unlocked)",
+      "Device_Code_Name": "SM-G950U",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
@@ -6857,6 +6868,17 @@
     "properties": {
       "Device_Name": "Galaxy S8+",
       "Device_Code_Name": "SM-G955U",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-G965U": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S9+ (US Unlocked)",
+      "Device_Code_Name": "SM-G965U",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
@@ -7759,6 +7781,17 @@
     "properties": {
       "Device_Name": "Galaxy Note 7 (Verizon)",
       "Device_Code_Name": "SM-N930V",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-N950U": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy Note 8 (US Unlocked)",
+      "Device_Code_Name": "SM-N950U",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
