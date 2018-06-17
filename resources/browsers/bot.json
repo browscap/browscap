@@ -2627,6 +2627,15 @@
     "lite": false,
     "standard": true
   },
+  "coveobot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Coveobot",
+      "Browser_Maker": "Coveo Solutions Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "crawl_application": {
     "type": "bot",
     "properties": {
