@@ -1,0 +1,13 @@
+{
+  "Essential PH-1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Phone",
+      "Device_Code_Name": "PH-1",
+      "Device_Maker": "Essential",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Essential"
+    },
+    "standard": false
+  }
+}

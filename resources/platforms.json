@@ -3940,6 +3940,15 @@
         "Platform_Version": "#MAJORVER#.#MINORVER#"
       }
     },
+    "Android_9_0": {
+      "match": "*Linux*Android?9;*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "9.0"
+      }
+    },
     "Android_8_1": {
       "match": "*Linux*Android?8.1*",
       "lite": false,

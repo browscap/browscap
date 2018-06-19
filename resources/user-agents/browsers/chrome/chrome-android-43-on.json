@@ -24,15 +24,35 @@
             "Pixel 2 XL": "Google Pixel 2 XL"
           },
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "Pixel C": "Google Pixel C",
             "Pixel XL": "Google Pixel XL",
-            "Pixel": "Google Pixel",
+            "Pixel": "Google Pixel"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "PH-1": "Essential PH-1"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Pixel C": "Google Pixel C",
             "TA-1004": "Nokia TA-1004",
             "TA-1012": "Nokia TA-1012"
           },
