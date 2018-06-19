@@ -3941,7 +3941,7 @@
       }
     },
     "Android_9_0": {
-      "match": "*Linux*Android?9*",
+      "match": "*Linux*Android?9;*",
       "lite": false,
       "standard": true,
       "inherits": "Android",
