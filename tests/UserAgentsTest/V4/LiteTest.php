@@ -57,14 +57,10 @@ class LiteTest extends TestCase
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../../resources/';
         $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite4-' . $buildNumber . '/build/';
-        $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-lite4-' . $buildNumber . '/cache/';
 
         // create folders if it does not exist
         if (!file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
-        }
-        if (!file_exists($cacheFolder)) {
-            mkdir($cacheFolder, 0777, true);
         }
 
         $version = (string) $buildNumber;
