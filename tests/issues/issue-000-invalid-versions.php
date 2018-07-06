@@ -2902,4 +2902,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    // PowerPC support was dropped in SeaMonkey 2.1: https://www.seamonkey-project.org/releases/seamonkey2.1/
+    'issue-000-invalid-versions-GB' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:15.0) Gecko/20120910 SeaMonkey/2.12.1',
+        'properties' => [
+            'Comment' => 'SeaMonkey Generic',
+            'Browser' => 'SeaMonkey',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.5',
+            'Platform_Description' => 'Mac OS X for Power PC',
+        ],
+        'lite' => false,
+        'standard' => false,
+        'full' => true,
+    ],
 ];

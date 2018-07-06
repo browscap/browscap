@@ -1,6 +1,6 @@
 {
   "division": "SeaMonkey Generic",
-  "sortIndex": 3020,
+  "sortIndex": 3022,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/?*",
           "device": "Macintosh",
           "platforms": [
             "OSX_PPC_10_5", "OSX_PPC_10_4",
