@@ -19,6 +19,7 @@
           "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
           "device": "Samsung Smart-TV",
           "platforms": [
+            "Tizen_4_0",
             "Tizen_3_0",
             "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
             "Tizen"
@@ -40,6 +41,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/* Safari/*",
           "platforms": [
+            "Tizen_4_0",
             "Tizen_3_0",
             "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
             "Tizen"

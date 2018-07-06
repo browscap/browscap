@@ -1,6 +1,6 @@
 {
   "division": "Baidu Box App #MAJORVER#.#MINORVER#",
-  "versions": ["10.3", "9.2", "9.1", 9, "8.5", "8.4", "8.3", "8.2", "8.1", 8, "7.6", "7.5", "7.4", "7.3", "7.2"],
+  "versions": ["10.8", "10.3", "9.2", "9.1", 9, "8.5", "8.4", "8.3", "8.2", "8.1", 8, "7.6", "7.5", "7.4", "7.3", "7.2"],
   "sortIndex": 1903,
   "lite": false,
   "standard": true,
@@ -57,6 +57,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
