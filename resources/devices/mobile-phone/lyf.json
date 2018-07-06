@@ -1,4 +1,114 @@
 {
+  "Lyf F10Q": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F10q",
+      "Device_Code_Name": "F10Q",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F101K": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F101k",
+      "Device_Code_Name": "F101K",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F120B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F120b",
+      "Device_Code_Name": "F120B",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F30C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F30c",
+      "Device_Code_Name": "F30C",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F41T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F41t",
+      "Device_Code_Name": "F41T",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F50Y": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F50y",
+      "Device_Code_Name": "F50Y",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F61F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F61f",
+      "Device_Code_Name": "F61F",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F81E": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio F81e",
+      "Device_Code_Name": "F81E",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf F90M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Digital Life",
+      "Device_Code_Name": "F90M",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
+  "Lyf LF2403N": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Jio LF2403n",
+      "Device_Code_Name": "LF2403N",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Jio"
+    },
+    "standard": false
+  },
   "Lyf LS-4005": {
     "type": "mobile-phone",
     "properties": {

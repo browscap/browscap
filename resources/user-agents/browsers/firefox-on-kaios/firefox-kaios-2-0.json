@@ -1,0 +1,41 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER# for KaiOS 2.0",
+  "versions": [48],
+  "sortIndex": 3167,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for KaiOS 2.0",
+      "browser": "firefox",
+      "platform": "KaiOS_2_0",
+      "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER# for KaiOS 2.0",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Mobile; *#DEVICE#* rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/2.0*",
+          "devices": {
+            "LYF-F120B": "Lyf F120B",
+            "LYF-F41T": "Lyf F41T",
+            "LYF-F61F": "Lyf F61F",
+            "LYF-F90M": "Lyf F90M",
+            "LYF-LF2403N": "Lyf LF2403N",
+            "LYF?F101K": "Lyf F101K",
+            "LYF?F10Q": "Lyf F10Q",
+            "LYF?F30C": "Lyf F30C",
+            "LYF?F50Y": "Lyf F50Y",
+            "LYF?F81E": "Lyf F81E"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/2.0*"
+        }
+      ]
+    }
+  ]
+}

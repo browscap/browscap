@@ -10,6 +10,50 @@
     },
     "standard": false
   },
+  "Alcatel 4044C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Quickflip",
+      "Device_Code_Name": "4044C",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": false
+  },
+  "Alcatel 4044O": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flip 2",
+      "Device_Code_Name": "4044O",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "AT&T"
+    },
+    "standard": false
+  },
+  "Alcatel 4044T": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Go FLIP",
+      "Device_Code_Name": "4044T",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": false
+  },
+  "Alcatel 4044V": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Go FLIP (Canada)",
+      "Device_Code_Name": "4044V",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": false
+  },
   "Alcatel 4060A": {
     "type": "mobile-phone",
     "properties": {

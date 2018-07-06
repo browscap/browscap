@@ -6140,6 +6140,38 @@
         "Platform_Bits": 32
       }
     },
+    "KaiOS_2_0": {
+      "match": "*KaiOS/2.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "KaiOS",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "KaiOS_1_0": {
+      "match": "*KaiOS/1.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "KaiOS",
+      "properties": {
+        "Platform_Version": "1.0"
+      }
+    },
+    "KaiOS": {
+        "match": "*KaiOS/*",
+        "lite": false,
+        "standard": true,
+        "properties": {
+            "Platform": "KaiOS",
+            "Platform_Maker": "KaiOS Technologies Inc.",
+            "Platform_Version": "unknown",
+            "Platform_Description": "KaiOS",
+            "Win32": false,
+            "Browser_Bits": 32,
+            "Platform_Bits": 32
+        }
+    },
     "SailfishOS": {
       "match": "*Sailfish*",
       "lite": false,
