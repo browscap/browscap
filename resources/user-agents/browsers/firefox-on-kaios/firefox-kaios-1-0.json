@@ -18,16 +18,22 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Mobile; #DEVICE#; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/1.0*",
+          "match": "Mozilla/5.0 (Mobile; #DEVICE#; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
           "devices": {
             "ALCATEL4044C": "Alcatel 4044C",
             "ALCATEL4044O": "Alcatel 4044O",
             "ALCATEL4044T": "Alcatel 4044T",
             "ALCATEL4044V": "Alcatel 4044V"
-          }
+          },
+          "platforms": [
+            "KaiOS_1_0"
+          ]
         },
         {
-          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/1.0*"
+          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "KaiOS_1_0"
+          ]
         }
       ]
     }

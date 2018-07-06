@@ -16,7 +16,12 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Mobile; *rv:*)*Gecko*Firefox/*KaiOS/*"
+          "match": "Mozilla/5.0 (Mobile; *rv:*)*Gecko*Firefox/#PLATFORM#",
+          "platforms": [
+              "KaiOS_2_0",
+              "KaiOS_1_0",
+              "KaiOS"
+          ]
         }
       ]
     }

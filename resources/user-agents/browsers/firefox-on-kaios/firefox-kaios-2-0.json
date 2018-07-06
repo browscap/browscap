@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Mobile; *#DEVICE#* rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/2.0*",
+          "match": "Mozilla/5.0 (Mobile; *#DEVICE#* rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
           "devices": {
             "LYF-F120B": "Lyf F120B",
             "LYF-F41T": "Lyf F41T",
@@ -30,10 +30,16 @@
             "LYF?F30C": "Lyf F30C",
             "LYF?F50Y": "Lyf F50Y",
             "LYF?F81E": "Lyf F81E"
-          }
+          },
+          "platforms": [
+              "KaiOS_2_0"
+          ]
         },
         {
-          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*KaiOS/2.0*"
+          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+              "KaiOS_2_0"
+          ]
         }
       ]
     }
