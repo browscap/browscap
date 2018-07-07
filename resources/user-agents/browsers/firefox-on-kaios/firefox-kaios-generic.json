@@ -1,0 +1,29 @@
+{
+  "division": "Firefox for KaiOS Generic",
+  "sortIndex": 3169,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox for KaiOS Generic",
+      "browser": "firefox",
+      "platform": "KaiOS",
+      "engine": "Gecko",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox for KaiOS Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Mobile; *rv:*)*Gecko*Firefox/#PLATFORM#",
+          "platforms": [
+              "KaiOS_2_0",
+              "KaiOS_1_0",
+              "KaiOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

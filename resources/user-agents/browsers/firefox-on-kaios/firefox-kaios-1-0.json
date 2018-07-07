@@ -1,0 +1,41 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER# for KaiOS 1.0",
+  "versions": [37],
+  "sortIndex": 3167,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for KaiOS 1.0",
+      "browser": "firefox",
+      "platform": "KaiOS_1_0",
+      "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER# for KaiOS 1.0",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Mobile; #DEVICE#; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
+          "devices": {
+            "ALCATEL4044C": "Alcatel 4044C",
+            "ALCATEL4044O": "Alcatel 4044O",
+            "ALCATEL4044T": "Alcatel 4044T",
+            "ALCATEL4044V": "Alcatel 4044V"
+          },
+          "platforms": [
+            "KaiOS_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "KaiOS_1_0"
+          ]
+        }
+      ]
+    }
+  ]
+}
