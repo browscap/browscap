@@ -246,6 +246,17 @@
         {
           "match": "Zabbix*",
           "browser": "zabbix"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Statusdroid/1.0*",
+          "browser": "statusdroid bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Statusdroid/*",
+          "browser": "statusdroid bot"
         }
       ]
     }
