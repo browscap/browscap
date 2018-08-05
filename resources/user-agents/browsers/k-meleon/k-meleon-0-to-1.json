@@ -1,6 +1,6 @@
 {
   "division": "K-Meleon #MAJORVER#.#MINORVER#",
-  "versions": ["75.1", 75, 74, "1.7", "1.6", "1.5", "1.1", 1, "0.9", "0.8"],
+  "versions": ["1.7", "1.6", "1.5", "1.1", 1, "0.9", "0.8"],
   "sortIndex": 2450,
   "lite": false,
   "standard": true,
@@ -18,10 +18,8 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win7_32",
-            "Vista_32",
             "WinXPb_32",
             "WinXPa_32",
             "Win2000",
@@ -32,10 +30,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* K-Meleon?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win7_32",
-            "Vista_32",
             "WinXPb_32",
             "WinXPa_32",
             "Win2000",
