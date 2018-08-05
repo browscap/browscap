@@ -47,7 +47,7 @@ return [
     'issue-081-F' => [
         'ua' => 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',
         'properties' => [
-            'Comment' => 'Download Managers',
+            'Comment' => 'Vulnerability Scanners',
             'Browser' => 'Download Accelerator',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
