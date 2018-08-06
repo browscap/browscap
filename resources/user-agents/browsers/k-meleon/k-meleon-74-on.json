@@ -1,0 +1,43 @@
+{
+  "division": "K-Meleon #MAJORVER#.#MINORVER#",
+  "versions": [76, "75.1", 75, 74],
+  "sortIndex": 2449,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",
+      "browser": "k-meleon",
+      "platform": "Windows",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "K-Meleon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
