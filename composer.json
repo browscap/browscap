@@ -43,7 +43,6 @@
   "require-dev": {
     "browscap/browscap-php": "^4.1",
     "friendsofphp/php-cs-fixer": "^2.12",
-    "localheinz/composer-normalize": "^0.6.0",
     "mikey179/vfsStream": "^1.6",
     "phpstan/phpstan": "^0.9",
     "phpunit/phpunit": "^7.2"

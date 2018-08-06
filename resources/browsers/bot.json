@@ -11789,6 +11789,15 @@
     "lite": false,
     "standard": true
   },
+  "statusdroid bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Statusdroid Bot",
+      "Browser_Maker": "StatusDroid s.r.o"
+    },
+    "lite": false,
+    "standard": true
+  },
   "steeler": {
     "type": "bot",
     "properties": {
